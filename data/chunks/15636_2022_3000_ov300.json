@@ -1,0 +1,1383 @@
+[
+  {
+    "id": "15636_2022_0000",
+    "text": "Automotive Vehicles — Pneumatic Tyres for Commercial Vehicles — Diagonal and Radial Ply — Specification ( Second Revision )\n\nICS 83.160.10\n\n© BIS 2022\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nMarch 2022 \b Price Group 13\n\n\n\n\nAutomotive Tyres, Tubes and Rims Sectional Committee, TED  07\n\nFOREWORD\n\nThis Indian Standard (Second Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Automotive Tyres, Tubes and Rims Sectional Committee had been approved by the Transport Engineering Division Council. This standard was first published in 2005 and was revised in 2012. This second revision has been undertaken to include the latest sizes of tyres which have been introduced after the publication of the first revision of the standard.  Some of the tyre size designations which are not currently in regular production have been removed from the relevant tables. However, the same may be covered against the declarations of the manufacturer as per 6.3. In the formulation of this standard, considerable assistance has been derived from the following International Standards:\n\nECE R 54 Uniform provisions concerning the approval of pneumatic tyres for commercial vehicles and their trailers\n\nISO 10454 : 1993 Truck and bus tyres — Verifying tyre capabilities — Laboratory test methods\n\nFMVSS 571.119 New pneumatic tires for vehicles other than passenger cars\n\nIn this standard SI units have been used. The composition of the Committee responsible for formulation of this standard is given in Annex H. For the purpose of deciding whether a particular requirement of this standard is complied with the final value, observed or calculated, expressing the result of a test or analysis shall be rounded off in accordance with IS 2 : 1960 ‘Rules for rounding off numerical values ( revised )’. The number of significant places in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nAUTOMOTIVE VEHICLES — PNEUMATIC TYRES\n\n\nFOR COMMERCIAL VEHICLES — DIAGONAL\n\n\nAND RADIAL PLY — SPECIFICATION\n\n\n( Second Revision )\n\n\n## 1 SCOPE\n\nThis standard specifies the general, dimensional, and performance requirements of new pneumatic tyres designed primarily, but not only, for vehicles in categories M2, M3, N, T3 and T4 as defined in IS 14272 : 2011 ‘Automotive vehicles — Types terminology (first revision)’. However, it does not apply to tyre types identified by speed symbols corresponding to speeds below 80 km/h.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2549,
+      "semantic_chunk_length": 2547,
+      "final_chunk_length": 2547,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0001",
+    "text": " new pneumatic tyres designed primarily, but not only, for vehicles in categories M2, M3, N, T3 and T4 as defined in IS 14272 : 2011 ‘Automotive vehicles — Types terminology (first revision)’. However, it does not apply to tyre types identified by speed symbols corresponding to speeds below 80 km/h.\n\n## 2 REFERENCES\n\nThe following standard contains provision, which through reference in this text constitutes provision of the standard. At the time of publication, the edition indicated was valid. All standards are subject to revision, and parties to agreements based on this standard is encouraged to investigate the possibility of applying the most recent edition of the standard indicated below:\n\nIS No. Title\n\n10694 (Part 3) : 2009\n\nAutomotive vehicles — Rims-General requirements: Part 3 Commercial vehicle rims (second revision)\n\n14272 : 2011 Automotive vehicles — Types terminology",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2552,
+      "char_end": 3140,
+      "semantic_chunk_length": 588,
+      "final_chunk_length": 890,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0002",
+    "text": "encouraged to investigate the possibility of applying the most recent edition of the standard indicated below:\n\nIS No. Title\n\n10694 (Part 3) : 2009\n\nAutomotive vehicles — Rims-General requirements: Part 3 Commercial vehicle rims (second revision)\n\n14272 : 2011 Automotive vehicles — Types terminology\n\n## 3 TERMS, DEFINITIONS AND NOMENCLATURE\n\nFor the purpose of this standard, the following terms shall apply.\n\n\n3.1 Tyre — An annular toroidal shaped inflatable envelope made of elastic materials, natural and/or synthetic rubber or a blend thereof, reinforced with a textile/steel cord fabric casing enclosing multi-coil wire beadings. The tyre is so made that it can be used by mounting and inflating on the appropriate rim.\n\n\n#### 3.1.1 Type of Pneumatic Tyre — A category of pneumatic tyres which do not differ in such essential respects such as:\n\na) Manufacturers name and brand name; b) Tyre-size designation; c) Category of use : 1) Normal − Normal-road-use tyres; 2) Special − Special-use tyre, for example tyre for mixed use (both on and off the road) and/or restricted speed; 3) Snow tyre; d) Structure [diagonal (bias-ply), radial]; e) Speed category; f) Load indices or maximum load and ply rating; and g) Nominal cross-section − Dimension when fitted to a specified rim.\n\n\n#### 3.1.2 The nomenclature used is given in Fig. 1.\n\n\n3.2 Snow Tyre — Tyre whose tread pattern and whose structure are primarily designed to ensure, in mud and fresh or melting snow, a performance better than of an ordinary (road-type) tyre. The tread pattern of a snow tyre generally consists of groove (rib) and/or solid block elements more widely spaced than on an ordinary (road type) tyre.\n\n\n3.3 Structure — Tyre Technical characteristics of the carcass of a tyre. A distinction is made between the following structures in particular.\n\n\n#### 3.3.1 Diagonal or Bias-ply — Structure in which the ply cords extend to the beads and are laid at alternate angles substantially less than 90° to the centreline of the tread.\n\n\n3.3.2 Radial — Structure in which the ply cords extend to the beads and are laid substantially at 90° to the centreline of the tread, the carcass being stabilized by an essentially inextensible circumferential belt.\n\n\n3.3.3 Bias-belted — Structure of diagonal (bias-ply) type in which the carcass is restricted by a belt comprising two or more layers of substantially inextensible cord material laid at alternate angles close to those of the carcass.\n\n\n\n\nFig.1 Nomenclature of Tyre (Explanatory Figure)\n\n\n### 3.8 Tread — Part of a pneumatic tyre which comes into contact with the ground, protects the carcass against mechanical damage and contributes to ground adhesion.\n\n\n### 3.4 Bead — Part of a pneumatic tyre which is of such a shape and structure so as to fit the rim and to hold the tyre on it (see Fig. 1).\n\n\n### 3.5 Cord — Strands forming the fabric of the plies in the pneumatic tyre.\n\n\n### 3.9 Sidewall — Part of a pneumatic tyre between the tread and the area designed to be covered by the rim flange.\n\n\n### 3.6 Ply — Layer of rubber-coated parallel cords.\n\n\n### 3.7 Carcass — Part of a pneumatic tyre other than the tread and the rubber sidewalls which, when inflated, bears the load.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE"
+      ],
+      "char_start": 3143,
+      "char_end": 6048,
+      "semantic_chunk_length": 2905,
+      "final_chunk_length": 3207,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0003",
+    "text": "### 3.9 Sidewall — Part of a pneumatic tyre between the tread and the area designed to be covered by the rim flange.\n\n\n### 3.6 Ply — Layer of rubber-coated parallel cords.\n\n\n### 3.7 Carcass — Part of a pneumatic tyre other than the tread and the rubber sidewalls which, when inflated, bears the load.\n\n### 3.10 Lower Sidewall — Area included between the line of maximum section width of the tyre and the area designed to be covered by the rim flange.\n\n\n\n\n\n### 3.11 Tread Groove — Space between two adjacent ribs and/or blocks in the tread pattern (see Fig. 1).\n\n\n### 3.12 Section Width (S) — Linear distance between the outsides of the sidewalls of an inflated pneumatic tyre, excluding elevations due to labelling (marking), decoration or protective bands or ribs.\n\n\n### 3.13 Overall Width — Linear distance between the outsides of the sidewalls of an inflated pneumatic tyre, including labelling (marking), decoration and protective bands or ribs.\n\n\n### 3.14 Section Height (H) — Distance equal to half the difference between the outer diameter of the tyre and the nominal rim diameter.\n\n\n3.15 Nominal Aspect Ratio (Ra) — Hundred times the number obtained by dividing the number expressing the section height (H) by the number expressing the nominal section width (S1), both dimensions expressed in the same units.\n\n\n### 3.16 Outer Diameter (D) — Overall diameter of an inflated new pneumatic tyre.\n\n\n### 3.17 Tyre-Size Designation — The description containing the following:\n\n- a) Nominal tyre section width code (S1); b) Nominal aspect ratio (where applicable); and c) Nominal rim diameter code (d ) — A conventional\nnumber denoting the nominal rim diameter corresponding to its diameter expressed by codes (numbers below 100) or in millimetres (numbers above 100). The values of the ‘d’ symbols expressed in millimetres are shown in Table 1.\n\n\n**Table 1 Rim Diameter Codes**\n\n( Clause 3.17 )\n\n| Sl No. | Nominal Rim Diameter Code ‘d’ | Value of ‘d’ mm |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 8 | 203 |\n| ii) | 9 | 229 |\n| iii) | 10 | 254 |\n| iv) | 11 | 279 |\n| v) | 12 | 305 |\n| vi) | 13 | 330 |\n| vii) | 14 | 356 |\n| viii) | 15 | 381 |\n| ix) | 16 | 406 |\n| x) | 17 | 432 |\n| xi) | 18 | 457 |\n| xii) | 19 | 483 |\n| xiii) | 20 | 508 |\n| xiv) | 21 | 533 |\n| xv) | 22 | 559 |\n| xvi) | 24 | 610 |\n| xvii) | 25 | 635 |\n| xviii) | 14.5 | 368 |\n| xix) | 16.5 | 419 |\n| xx) | 17.5 | 445 |\n| xxi) | 19.5 | 495 |\n| xxii) | 20.5 | 521 |\n| xxiii) | 22.5 | 572 |\n| xxiv) | 24.5 | 622 |\n| xxv) | 26 | 660 |\n| xxvi) | 28 | 711 |\n| xxvii) | 30 | 762 |\n\n\n3.18 Nominal Rim Diameter — Diameter of the rim on which a tyre is designed to be mounted.\n\n\n3.19 Rim — Support for a tyre-and-tube assembly, or for a tubeless tyre, on which support the tyre beads are seated [see IS 10694 (Part 3)].\n\n\n3.20 Measuring Rim — Rim on which a tyre shall be fitted for dimensional measurements.\n\n\n3.21 Test Rim — Rim on which a tyre shall be fitted for load/speed, endurance, plunger testing.\n\n\n### 3.22 Chunking — Breaking away of pieces of rubber from the tread.\n\n\n### 3.23 Cord Separation — Parting of the cords from their coating.\n\n\n### 3.24 Ply Separation — Parting of adjacent plies.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "3.10",
+      "heading": "3.10 Lower Sidewall — Area included between the line of maximum section width of the tyre and the area designed to be covered by the rim flange.",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+        "3.10 Lower Sidewall — Area included between the line of maximum section width of the tyre and the area designed to be covered by the rim flange."
+      ],
+      "char_start": 6051,
+      "char_end": 8918,
+      "semantic_chunk_length": 2867,
+      "final_chunk_length": 3169,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0004",
+    "text": "ents.\n\n\n3.21 Test Rim — Rim on which a tyre shall be fitted for load/speed, endurance, plunger testing.\n\n\n### 3.22 Chunking — Breaking away of pieces of rubber from the tread.\n\n\n### 3.23 Cord Separation — Parting of the cords from their coating.\n\n\n### 3.24 Ply Separation — Parting of adjacent plies.\n\n### 3.25 Tread Separation — Pulling away of the tread from the carcass.\n\n\n3.26 Load Index — One or two numbers (higher number is for single application and lower number for dual) which indicate the load the tyre can carry in single or in single and dual operation at the speed corresponding to the associated speed symbol and when operated in conformity with the requirements governing utilization specified by the manufacturer. The list of these indices and their corresponding loads are given in Table 2.\n\nA type of pneumatic tyre can have either one or two sets of load capacity indices depending on whether or not the provision of 4.2.4 and 4.2.5 are applied.\n\n\n\n\n\n3.27 Ply Rating — Term used to identify given tyre with its maximum recommended load when used in specified type of service. It is an index of tyre strength and does not necessarily represent the number of cord plies in the tyre.\n\n\n3.28 Speed Symbol — Speed, indicated by a symbol, at which the tyre can carry the load indicated by the associated load-index or maximum rated load. The maximum speed which the tyre can sustain is expressed by speed symbol given in Table 3.\n\n\n3.29 Table Load-Capacity Variation with Speed — Tables 4 and 5, showing as a function of the load indices and nominal-speed symbols, the load variations which a pneumatic tyre can withstand, when used at speeds different from that conforming to its nominal speed symbol.\n\n\n3.30 Theoretical Rim — An imaginary rim, the width of which would be X times the nominal section width of a tyre. The value of X shall be specified by the tyre manufacturer.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "3.25",
+      "heading": "3.25 Tread Separation — Pulling away of the tread from the carcass.",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+        "3.25 Tread Separation — Pulling away of the tread from the carcass."
+      ],
+      "char_start": 8921,
+      "char_end": 10511,
+      "semantic_chunk_length": 1590,
+      "final_chunk_length": 1892,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0005",
+    "text": "ations which a pneumatic tyre can withstand, when used at speeds different from that conforming to its nominal speed symbol.\n\n\n3.30 Theoretical Rim — An imaginary rim, the width of which would be X times the nominal section width of a tyre. The value of X shall be specified by the tyre manufacturer.\n\n## 4 TEST REQUIREMENTS\n\n### 4.1 Tyre Dimensions\n\n\n4.1.1 Tyre dimensions namely section width and outer diameter and profiles shall be compatible with the appropriate rims. The method of measurement of tyre dimensions is given in Annex A.\n\n\n4.1.1.1 Section width of tyre — For the existing types of tyres whose designations are given in the col 2 of the Tables 6 to 28 , the actual measured section width shall be within the minimum section width and maximum overall width values specified those tables.\n\nNOTE — Adjustment to tyre section width/overall width –\n\nWithin the parameters of specified permissibility of a wider or narrower rim than the recommended rim size, the guidelines for the necessary adjustment are – Sectional width or overall width: 5mm increase or reduction (as applicable) for every 0.50 difference in nominal rim width.\n\n\n4.1.1.2 Tyre outer diameter — For the existing types of tyres whose designation is given in the col 2 of the Tables 6 to 28, the actual measured outer diameter shall be within the minimum and maximum diameter values specified in those tables. The outer diameter of ‘Mud and Snow’ tyres used in normal service may exceed up to 1 percent than the values specified in the tables.\n\n\n4.1.1.3 For the tyre sizes listed in tables 6 to 28, but ply rating and load-inflation details are other than those given corresponding to tyre sizes in the tables 6 to 28 (also see G-21), the section width and outer diameter shall be determined as follows:\n\n- a) Actual measured section width shall be within the\nminimum section width and maximum overall width values specified in tables 6 to 28; and\n\n\n- b) Actual measured outer diameter shall be within\nthe minimum and maximum diameter values specified in Tables 6 to 28. (Refer G-21 also).\n\n\n4.1.2 For code designated (diagonal or radial) sizes which are not listed in tables 6 to 28, the section width and outer diameter shall be verified against the specification declared by the manufacturer.\n\n\n4.1.3 For metric designated tyres (diagonal or radial) which are not listed in Tables 6 to 28, the section width and outer diameter shall be calculated using the following formulae:\n\n- a) Section width of tyre:\nS = S1 + K (A – A1) where\n\nS = section width measured on measuring rim, in mm;\nS1 = nominal section width, as set out on the tyre sidewall in the tyre size designation, in mm;\nA = width of the measuring rim, as shown by the manufacturer in the technical specification, in mm; and\nA1 = theoretical rim width, in mm.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4.1",
+      "heading": "4.1 Tyre Dimensions",
+      "heading_path": [
+        "4 TEST REQUIREMENTS",
+        "4.1 Tyre Dimensions"
+      ],
+      "char_start": 10514,
+      "char_end": 13016,
+      "semantic_chunk_length": 2502,
+      "final_chunk_length": 2803,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0006",
+    "text": "– A1) where\n\nS = section width measured on measuring rim, in mm;\nS1 = nominal section width, as set out on the tyre sidewall in the tyre size designation, in mm;\nA = width of the measuring rim, as shown by the manufacturer in the technical specification, in mm; and\nA1 = theoretical rim width, in mm.\n\nNOTES\n1 A1 shall be taken to equal S1 multiplied by the factor X as specified by the manufacturer, and K shall be taken equal to 0.4.\n2 The actual measured overall width of the tyre may be less than the section width determined as detailed in this clause by value of less than 4 per cent.\n3 The actual measured overall width may also exceed the section width determined as detailed in this clause by value of 4 per cent in case of radial ply tyre and by 8 percent in case of diagonal (bias-ply) tyres. However, for tyres with normal section width exceeding 305 mm intended for dual mounting (twinning), the value determined as detailed in this clause shall not be exceeded by more than 2 percent for radial ply tyres with nominal aspect ratio higher than 60, or 4 percent for diagonal (bias-ply) tyres.\n\nb) Outer diameter of the tyre\n\nD = d + 2 H where\n\nD = outer diameter expressed, in mm; d = conventional number denoting the nominal rim\n\ndiameter expressed in mm (see 3.18). When the conventional number is given by codes, the value in mm is obtained by multiplying such number by 25.4; H = nominal section height in mm = 0.01 × Ra × S1 where\n\nRa = nominal aspect ratio; and S1 = nominal section width in mm.\n\n\n\n\nNOTE — Ra and S1 are as shown on the sidewall of the tyre in\n\nthe tyre-size designation in conformity with the requirements of 3.17. The outer tyre diameter shall not be outside the minimum and maximum diameter values obtained from the following formula:\n\nDmin = d + (2H × a)\n\nDmax = d + (2H × b)\n\nNOTES\n1 H and d are as defined in 4.1.3.\n2 M + S tyres shall have an allowance of 1 percent on outer diameter.\n3 Coefficients a and b are respectively:\n\n| a | 0.97 |  |  |\n| --- | --- | --- | --- |\n| b |  | Radial | Diagonal |\n|  | For normal use tyres | 1.04 | 1.07 |\n|  | For special use tyres | 1.06 | 1.09 |\n\nNOTE — M+S or M.S or M&S marked tyres may have an allowance of 1 percent with respect to the outer diameter.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "4.1",
+      "heading": "4.1 Tyre Dimensions",
+      "heading_path": [
+        "4 TEST REQUIREMENTS",
+        "4.1 Tyre Dimensions"
+      ],
+      "char_start": 13018,
+      "char_end": 14953,
+      "semantic_chunk_length": 1935,
+      "final_chunk_length": 2237,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0007",
+    "text": "ents a and b are respectively:\n\n| a | 0.97 |  |  |\n| --- | --- | --- | --- |\n| b |  | Radial | Diagonal |\n|  | For normal use tyres | 1.04 | 1.07 |\n|  | For special use tyres | 1.06 | 1.09 |\n\nNOTE — M+S or M.S or M&S marked tyres may have an allowance of 1 percent with respect to the outer diameter.\n\n### 4.2 Endurance Test\n\n\n4.2.1 Each type of pneumatic tyres, other than the types mentioned in 4.3.1 shall undergo the endurance test. The sample shall conform to the requirements given in 4.2.2 and 4.2.3 when tested as per the method given in Annex B.\n\n\n4.2.2 After undergoing the endurance test, the tyre shall not exhibit any tread separation, ply separation, cord separation, chunking or broken cords.\n\n\n4.2.3 The outer diameter of the tyre, measured 6 h after the endurance test, shall not differ by more than ± 3.5 percent from the outer diameter as measured before the test.\n\n\n4.2.4 Where application is made for the approval of a type of pneumatic tyre for the load/speed combinations given in the Table 4 or Table 5, the endurance test prescribed in 4.2.1 need not be carried out for load and speed values other than the nominal values.\n\n\n4.2.5 If the tyre is having a load/speed combination in addition to the one that is subject to the variation of load given in Table 4 or Table 5, the endurance test prescribed in 4.2.1 shall also be carried out on a second tyre of the same type at the additional load/speed combination.\n\n\n### 4.3 Load/Speed Performance Test\n\n\n#### 4.3.1 Each type of pneumatic tyres having a speed symbol Q and above and marked with:\n\n- a) load index in single121 or less; or b) load index in single 122 and above and with\nthe additional marking C, or LT, included in the\n\nIS 15636 : 2022\n\ntyre size designation shall undergo load/speed performance test. The sample shall conform to the requirements given in 4.3.2, when tested as per the method given in Annex C.\n\n\n4.3.2 After undergoing the load/speed performance test, the tyre shall not exhibit any tread separation, ply separation, cord separation, chunking or broken cords.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.2",
+      "heading": "4.2 Endurance Test",
+      "heading_path": [
+        "4 TEST REQUIREMENTS",
+        "4.2 Endurance Test"
+      ],
+      "char_start": 14956,
+      "char_end": 16717,
+      "semantic_chunk_length": 1761,
+      "final_chunk_length": 2063,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0008",
+    "text": "d/speed performance test. The sample shall conform to the requirements given in 4.3.2, when tested as per the method given in Annex C.\n\n\n4.3.2 After undergoing the load/speed performance test, the tyre shall not exhibit any tread separation, ply separation, cord separation, chunking or broken cords.\n\n### 4.4 Tread-Wear Indicators\n\n\n4.4.1 The pneumatic tyre shall include not less than six transverse rows of tread wear indicators, approximately equally spaced and situated in the principal grooves of the tread. The tread-wear indicators shall be such that these cannot be confused with the rubber ridges between the ribs or blocks of the tread.\n\n4.4.2 However, in the case of tyre dimensions appropriate for mounting on rims of a nominal diameter code ≤ 12, minimum four number of tread-wear indicators shall be accepted.\n\n\n4.4.3 The tread-wear indicators shall provide a means\n\nof indicating with a tolerance of + 0.60\n\n– 0.00 mm when the\n\ntread grooves are no longer more than 1.6 mm deep.\n\n\n4.4.4 The tread wear indicator height shall be measured after mounting the tyre on the measuring rim and inflated to the pressure corresponding to the maximum load or maximum dual load where there is both single and dual load, marked on the tyre. Height of tread-wear indicators is determined by measuring the difference between the depth, from the tread’s surface to the bottom of the tread groove close to the slope at the base of the tread-wear indicator and to the top of the tread-wear indicator.\n\nNOTE — The tyre shall be considered unsafe for service on\n\nroad when remaining worn skid depth reaches minimum value of 1.6 mm at any part of the tread circumference.\n\n\n### 4.5 Tyre Strength Test (Plunger Test)\n\nThe tyre shall conform to the requirements given in Tables 30 and 31 when tested as per the method given in Annex D. When both Load Index and PR are marked on the tyre, the test values as given in Table 31 shall be adopted.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.4",
+      "heading": "4.4 Tread-Wear Indicators",
+      "heading_path": [
+        "4 TEST REQUIREMENTS",
+        "4.4 Tread-Wear Indicators"
+      ],
+      "char_start": 16720,
+      "char_end": 18353,
+      "semantic_chunk_length": 1633,
+      "final_chunk_length": 1935,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0009",
+    "text": "art of the tread circumference.\n\n\n### 4.5 Tyre Strength Test (Plunger Test)\n\nThe tyre shall conform to the requirements given in Tables 30 and 31 when tested as per the method given in Annex D. When both Load Index and PR are marked on the tyre, the test values as given in Table 31 shall be adopted.\n\n## 5 MARKINGS\n\n\n5.1 Tyre shall be permanently and legibly marked, on both sidewalls in the case of symmetrical tyre and at least on the outer sidewall in the case of asymmetrical tyre with the following markings:\n\n- a) Manufacturer’s name or trade-name; b) Tyre size designation as given in 3.17; c) An indication of the structure as follows:\n\n\n\n- 1) On diagonal (bias-ply) tyre: The character ‘–’ or the letter ‘D’ placed in front of the rim-diameter marking; 2) On radial-ply tyres: The letter ‘R’ placed in front of the rim-diameter marking and, optionally, the word ‘RADIAL’; d) Speed symbol (or symbols) – An indication of\ntyre’s nominal speed symbol and a second speed symbol, if applicable, in form of the symbol given in 3.28; e) Ply rating and maximum load in kg (corresponding\n\nto ply rating) and/or load index and maximum load in kg (corresponding to load index) as applicable; f) Cold inflation pressure, in kPa corresponding to\n\nthe maximum load; g) The word ‘TUBELESS’ if the tyre is designed for\n\nuse without an inner tube; h) Week and Year code (Code only in the form of\n\n‘2510’ which indicates 25th week of year 2010) or Month and Year code of manufacture (Code only in the form of ‘MAR 10’ which indicates March month of year 2010) (may be placed on one sidewall); j) In the case of tyres which can be regrooved,\n\nsymbol at least 20 mm in diameter, or the word ‘REGROOVABLE’; k) Tread wear indicators marking shall be provided\n\nat minimum six/four (as applicable) places along the circumference to give indication to the user for location of tread wear indicator; m) The inscription M+S or M.S or M&S in the case\n\nof a snow tyre.\n\n\n### 5.2 An example of tyre markings is given in Annex E.\n\n\n5.3 Markings given in 5.1 shall be permanently moulded into or permanently engraved/etched on the tyres. These shall be clearly legible and situated in the lower area of the tyre on at least one of its sidewalls. Engraving/etching shall be done during the manufacturing process of the tyre and not later than 24 h after the removal of the tyre from the mould.\n\n\n### 5.4 Examples of tyre size designations are given in Annex F.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "5",
+      "heading": "5 MARKINGS",
+      "heading_path": [
+        "5 MARKINGS"
+      ],
+      "char_start": 18356,
+      "char_end": 20491,
+      "semantic_chunk_length": 2135,
+      "final_chunk_length": 2437,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0010",
+    "text": "y legible and situated in the lower area of the tyre on at least one of its sidewalls. Engraving/etching shall be done during the manufacturing process of the tyre and not later than 24 h after the removal of the tyre from the mould.\n\n\n### 5.4 Examples of tyre size designations are given in Annex F.\n\n## 6 CRITERIA FOR TYPE APPROVAL/TYPE TEST\n\n\n6.1 Tyre(s) shall meet the test requirements when tested as per schedule given in Table 34.\n\n\n### 6.2 Type Approval Procedure\n\n\n#### 6.2.1 Application for type approval to be submitted by the manufacturer.\n\n\n\n6.2.2 The application for type approval shall contain at least the technical information as specified in the Annex G.\n\nNOTE — For type approval of tyre belonging to one family of\n\ntyre, brand of the tyre to be selected for type approval shall be left to certifying authority. Worst case selection shall be made at the discretion of the certifying authority based on the family of tyres specified in 6.2.5.2.\n\n\n#### 6.2.3 Changes in the Technical Specification of Already Type Approved Tyres\n\n\n6.2.3.1 Every functional modification in technical specification declared in accordance with 6.2.1 shall be intimated to the certifying authority.\n\n\n##### 6.2.3.2 The certifying authority may then consider, whether:\n\n- a) tyre with modification complies with specified\nrequirement; or b) any further verification is required. For considering whether any further verification is required or not, criteria for extension of type approval specified in 6.2.5 shall be used.\n\n\n6.2.3.3 In case of 6.2.3.2 (b), checks for those parameters which are affected by the modifications, only need to be carried out.\n\n\n6.2.4 In the event of 6.2.3.2(a) or in the case of 6.2.3.2(b) after successful compliance to the requirements, a certificate of compliance shall be validated for the modified version, as applicable.\n\n\n#### 6.2.5 Criteria for Extension of Type Approval\n\n\n6.2.5.1 In case the changes cause the tyre to be outside the approved family/range of tyres, the verification shall be carried out for establishing compliance of the changed parameters to the requirements specified in this standard.\n\n\n##### 6.2.5.2 Family/Range of tyres would mean tyres, which do not differ in the aspects listed below, but having different brand names/trade name/trade descriptions or trade-marks:\n\n- a)  Registered name of company; b)  Country of origin; c)  Location of manufacturing facility; d)  Application category (normal or special or snow); e)  Construction type; f)  Structure (diagonal or radial or bias-belted); g)  Tyre size designation; h)  Speed category; j)  Tube or tubeless (worst case is tubeless); k)  Load index (or load capacity);\n\n\n\n\n- m)  Ply rating of diagonal ply tyres; and n)  Carcass material – {for example Nylon/Polyester/\nSteel etc. (as applicable)}.\n\n\n### 6.3 Type Approval Procedure for Tyres not listed in Tables 6 to 28.\n\n\n6.3.1 Tyre section width and tyre overall diameter shall be verified as per 4.1.1.3, 4.1.2, 4.1.3.1 and 4.1.4 against the specification declared by the manufacturer.\n\n\n6.3.2 For carrying out the tests of these tyres, the load and inflation pressures specified by the manufacturer and marked on the tyre shall be used.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "6",
+      "heading": "6 CRITERIA FOR TYPE APPROVAL/TYPE TEST",
+      "heading_path": [
+        "6 CRITERIA FOR TYPE APPROVAL/TYPE TEST"
+      ],
+      "char_start": 20494,
+      "char_end": 23392,
+      "semantic_chunk_length": 2898,
+      "final_chunk_length": 3200,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0011",
+    "text": "n width and tyre overall diameter shall be verified as per 4.1.1.3, 4.1.2, 4.1.3.1 and 4.1.4 against the specification declared by the manufacturer.\n\n\n6.3.2 For carrying out the tests of these tyres, the load and inflation pressures specified by the manufacturer and marked on the tyre shall be used.\n\n## 7 CONFORMITY OF PRODUCTION TESTS/ ACCEPTANCE TESTS\n\n\n7.1 Periodic testing of each type of tyre as per the approved family of tyres in 6.2.5.2 shall be carried out. The approved marking shall be made only on the tyres of that approved family and the same shall not\n\n\n**Table 2 Load Indices**\n\n( Clause 3.26 )\n\n| Sl No. | Load Index | Corresponding Maximum Load to be Carried kg |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 60 | 250 |\n| ii) | 61 | 257 |\n| iii) | 62 | 265 |\n| iv) | 63 | 272 |\n| v) | 64 | 280 |\n| vi) | 65 | 290 |\n| vii) | 66 | 300 |\n| viii) | 67 | 307 |\n| ix) | 68 | 315 |\n| x) | 69 | 325 |\n| xi) | 70 | 335 |\n| xii) | 71 | 345 |\n| xiii) | 72 | 355 |\n| xiv) | 73 | 365 |\n| xv) | 74 | 375 |\n| xvi) | 75 | 387 |\n| xvii) | 76 | 400 |\n| xviii) | 77 | 412 |\n| xix) | 78 | 425 |\n| xx) | 79 | 437 |\n| xxi) | 80 | 450 |\n| xxii) | 81 | 462 |\n| xxiii) | 82 | 475 |\n| xxiv) | 83 | 487 |\n\n\n\nIS 15636 : 2022\n\nget extended to other families of tyres, unless tyres from out of that have undergone the same testing and type approval for that family of tyre. If a Tubeless tyre version is approved, its tube version shall also deemed to be approved.\n\n\n7.2 The tyres approved under this standard shall be so manufactured as to conform to requirements set forth in the Table 35.\n\n\n7.3 The production and quality assurance system shall meet all the requirements laid out by the certifying authority.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "7",
+      "heading": "7 CONFORMITY OF PRODUCTION TESTS/ ACCEPTANCE TESTS",
+      "heading_path": [
+        "7 CONFORMITY OF PRODUCTION TESTS/ ACCEPTANCE TESTS"
+      ],
+      "char_start": 23395,
+      "char_end": 24796,
+      "semantic_chunk_length": 1401,
+      "final_chunk_length": 1703,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0012",
+    "text": "d, its tube version shall also deemed to be approved.\n\n\n7.2 The tyres approved under this standard shall be so manufactured as to conform to requirements set forth in the Table 35.\n\n\n7.3 The production and quality assurance system shall meet all the requirements laid out by the certifying authority.\n\n## 8 BIS CERTIFICATION MARKING\n\n\nThe product(s) conforming to the requirements of this standard may be certified as per the conformity assessment schemes under the provisions of the Bureau of Indian Standards Act, 2016 and the Rules and Regulations framed thereunder, and the products may be marked with the Standard Mark.\n\n\n\n\n| Sl No. | Load Index | Corresponding Maximum Load to be Carried kg |\n| --- | --- | --- |\n| xxv) | 84 | 500 |\n| xxvi) | 85 | 515 |\n| xxvii) | 86 | 530 |\n| xxviii) | 87 | 545 |\n| xxix) | 88 | 560 |\n| xxx) | 89 | 580 |\n| xxxi) | 90 | 600 |\n| xxxii) | 91 | 615 |\n| xxxiii) | 92 | 630 |\n| xxxiv) | 93 | 650 |\n| xxxv) | 94 | 670 |\n| xxxvi) | 95 | 690 |\n| xxxvii) | 96 | 710 |\n| xxxviii) | 97 | 730 |\n| xxxix) | 98 | 750 |\n| xl) | 99 | 775 |\n| xli) | 100 | 800 |\n| xlii) | 101 | 825 |\n| xliii) | 102 | 850 |\n| xliv) | 103 | 875 |\n| xlv) | 104 | 900 |\n| xlvi) | 105 | 925 |\n| xlvii) | 106 | 950 |\n| xlviii) | 107 | 975 |\n| xlix) | 108 | 1 000 |\n| l) | 109 | 1 030 |\n| li) | 110 | 1 060 |\n\n\nTable 2 ( Concluded )\n\n\n| Sl No. | Load Index | Corresponding Maximum Load to be Carried kg |\n| --- | --- | --- |\n| lii) | 111 | 1 090 |\n| liii) | 112 | 1 120 |\n| liv) | 113 | 1 150 |\n| lv) | 114 | 1 180 |\n| lvi) | 115 | 1 215 |\n| lvii) | 116 | 1 250 |\n| lviii) | 117 | 1 285 |\n| lix) | 118 | 1 320 |\n| lx) | 119 | 1 360 |\n| lxi) | 120 | 1 400 |\n| lxii) | 121 | 1 450 |\n| lxiii) | 122 | 1 500 |\n| lxiv) | 123 | 1 550 |\n| lxv) | 124 | 1 600 |\n| lxvi) | 125 | 1 650 |\n| lxvii) | 126 | 1 700 |\n| lxviii) | 127 | 1 750 |\n| lxix) | 128 | 1 800 |\n| lxx) | 129 | 1 850 |\n| lxii) | 130 | 1 900 |\n| lxxii) | 131 | 1 950 |\n| lxxiii) | 132 | 2 000 |\n| lxxiv) | 133 | 2 060 |\n| lxxv) | 134 | 2 120 |\n| lxxvi) | 135 | 2 180 |\n| lxxvii) | 136 | 2 240 |\n| lxxviii) | 137 | 2 300 |\n| lxxix) | 138 | 2 360 |\n| lxxx) | 139 | 2 430 |\n| lxxxi) | 140 | 2 500 |\n| lxxxii) | 141 | 2 575 |\n| lxxxiii) | 142 | 2 650 |\n| lxxxiv) | 143 | 2 725 |\n| lxxxv) | 144 | 2 800 |\n| lxxxvi) | 145 | 2 900 |\n| lxxxvii) | 146 | 3 000 |\n| lxxxviii) | 147 | 3 075 |\n| lxxxix) | 148 | 3 150 |\n| xc) | 149 | 3 250 |\n| xci) | 150 | 3 350 |\n| xcii) | 151 | 3 450 |\n| xciii) | 152 | 3 550 |\n| xciv) | 153 | 3 650 |\n| xcv) | 154 | 3 750 |\n| xcvi) | 155 | 3 875 |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 24799,
+      "char_end": 27024,
+      "semantic_chunk_length": 2225,
+      "final_chunk_length": 2527,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0013",
+    "text": "5 |\n| lxxxv) | 144 | 2 800 |\n| lxxxvi) | 145 | 2 900 |\n| lxxxvii) | 146 | 3 000 |\n| lxxxviii) | 147 | 3 075 |\n| lxxxix) | 148 | 3 150 |\n| xc) | 149 | 3 250 |\n| xci) | 150 | 3 350 |\n| xcii) | 151 | 3 450 |\n| xciii) | 152 | 3 550 |\n| xciv) | 153 | 3 650 |\n| xcv) | 154 | 3 750 |\n| xcvi) | 155 | 3 875 |\n\n| Sl No. | Load Index | Corresponding Maximum Load to be Carried kg |\n| --- | --- | --- |\n| xcvii) | 156 | 4 000 |\n| xcviii) | 157 | 4 125 |\n| xcix) | 158 | 4 250 |\n| c) | 159 | 4 375 |\n| ci) | 160 | 4 500 |\n| cii) | 161 | 4 625 |\n| ciii) | 162 | 4 750 |\n| civ) | 163 | 4 875 |\n| cv) | 164 | 5 000 |\n| cvi) | 165 | 5 150 |\n| cvii) | 166 | 5 300 |\n| cviii) | 167 | 5 450 |\n| cix) | 168 | 5 600 |\n| cx) | 169 | 5 800 |\n| cxi) | 170 | 6 000 |\n| cxii) | 171 | 6 150 |\n| cxiii) | 172 | 6 300 |\n| cxiv) | 173 | 6 500 |\n| cxv) | 174 | 6 700 |\n| cxvi) | 175 | 6 900 |\n| cxvii) | 176 | 7 100 |\n| cxviii) | 177 | 7 300 |\n| cxix) | 178 | 7 500 |\n| cxx) | 179 | 7 750 |\n| cxxi) | 180 | 8 000 |\n| cxxii) | 181 | 8 250 |\n| cxxiii) | 182 | 8 500 |\n| cxxiv) | 183 | 8 750 |\n| cxxv) | 184 | 9 000 |\n| cxxvi) | 185 | 9 250 |\n| cxxvii) | 186 | 9 500 |\n| cxxviii) | 187 | 9 750 |\n| cxxix) | 188 | 10 000 |\n| cxxx) | 189 | 10 300 |\n| cxxxi) | 190 | 10 600 |\n| cxxxii) | 191 | 10 900 |\n| cxxxiii) | 192 | 11 200 |\n| cxxxiv) | 193 | 11 500 |\n| cxxxv) | 194 | 11 800 |\n| cxxxvi) | 195 | 12 150 |\n| cxxxvii) | 196 | 12 500 |\n| cxxxviii) | 197 | 12 850 |\n| cxxxix) | 198 | 13 200 |\n| cxl) | 199 | 13 600 |\n| cxli) | 200 | 14 000 |\n\n\n\n\n**Table 3 Speed Symbol and Maximum Speed**\n\n| Sl No. | Speed Symbol | Corresponding Speed km/h |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | F | 80 |\n| ii) | G | 90 |\n| iii) | J | 100 |\n| iv) | K | 110 |\n| v) | L | 120 |\n| vi) | M | 130 |\n| vii) | N | 140 |\n| viii) | P | 150 |\n| ix) | Q | 160 |\n| x) | R | 170 |\n| xi) | S | 180 |\n| xii) | T | 190 |\n| xiii) | U | 200 |\n| xiv) | H | 210 |\n\n\n\n\n\n\nTable 4 Variation of Load Capacity with Speed and Inflation Pressure Compensation Commercial\n\nVehicles Tyres – Radial and Diagonal Ply\n\n( Clause 3.29 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 12,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 27029,
+      "char_end": 28787,
+      "semantic_chunk_length": 1758,
+      "final_chunk_length": 2060,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0014",
+    "text": "| Sl No. | Speed km/h | Variation of Load Capacity (Percent) |  |  |  |  |  | Inflation Pressure Compensation (Percent) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  | Load Indices > 1221) |  |  |  |  |  |  |\n|  |  | Speed Symbol |  |  |  |  |  |  |\n| (1) | (2) | (3) | (4) | 5) | (6) | (7) | (8) | (9) |\n|  |  | F | G | J | K | L | M |  |\n| i) | 0 | + 150 | + 150 | + 150 | + 150 | + 150 | + 150 | + 40 |\n| ii) | 5 | + 110 | + 110 | + 110 | + 110 | + 110 | + 110 | + 40 |\n| iii) | 10 | + 80 | + 80 | + 80 | + 80 | + 80 | + 80 | + 30 |\n| iv) | 15 | + 65 | + 65 | + 65 | + 65 | + 65 | + 65 | + 25 |\n| v) | 20 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 21 |\n| vi) | 25 | + 35 | + 35 | + 35 | + 35 | + 35 | + 35 | + 17 |\n| vii) | 30 | + 25 | + 25 | + 25 | + 25 | + 25 | + 25 | + 13 |\n| viii) | 35 | + 19 | + 19 | + 19 | + 19 | + 19 | + 19 | + 11 |\n| ix) | 40 | + 15 | + 15 | + 15 | + 15 | + 15 | + 15 | + 10 |\n| x) | 45 | + 13 | + 13 | + 13 | + 13 | + 13 | + 13 | + 9 |\n| xi) | 50 | + 12 | + 12 | + 12 | + 12 | + 12 | + 12 | + 8 |\n| xii) | 55 | + 11 | + 11 | + 11 | + 11 | + 11 | + 11 | + 7 |\n| xiii) | 60 | + 10 | + 10 | + 10 | + 10 | + 10 | + 10 | + 6 |\n| xiv) | 65 | + 7.5 | + 8.5 | + 8.5 | + 8.5 | + 8.5 | + 8.5 | + 4 |\n| xv) | 70 | + 5.0 | + 7.0 | + 7.0 | + 7.0 | + 7.0 | + 7.0 | + 2 |\n| xvi) | 75 | + 2.5 | + 5.5 | + 5.5 | + 5.5 | + 5.5 | + 5.5 | + 1 |\n| xvii) | 80 | 0 | + 4.0 | + 4.0 | + 4.0 | + 4.0 | + 4.0 | 0 |\n| xviii) | 85 |  | + 2.0 | + 3.0 | + 3.0 | + 3.0 | + 3.0 | 0 |\n| xix) | 90 |  | 0 | + 2.0 | + 2.0 | + 2.0 | + 2.0 | 0 |\n| xx) | 95 |  |  | + 1.0 | + 1.0 | + 1.0 | + 1.0 | 0 |\n| xxi) | 100 |  |  | 0 | 0 | 0 | 0 | 0 |\n| xxii) | 105 |  |  |  | 0 | 0 | 0 | 0 |\n| xxiii) | 110 |  |  |  | 0 | 0 | 0 | 0 |\n| xxiv) | 115 |  |  |  |  | 0 | 0 | 0 |\n| xxv) | 120 |  |  |  |  | 0 | 0 | 0 |\n| xxvi) | 125 |  |  |  |  |  | 0 | 0 |\n| xxvii) | 130 |  |  |  |  |  | 0 | 0 |\n| 1) Load index /indices refer to a single operation. NOTE — It is imperative to consult rim/wheel manufacturers for the choice of rims and wheels suitable for the load carrying capacities and the inflation pressure required for applications at speed of 40 km/h and below. |  |  |  |  |  |  |  |  |\n\n\n\n\n\n\nTable 5 Variation of Load Capacity with Speed and Inflation Pressure Compensation Commercial\n\nVehicles Tyres – Radial and Diagonal Ply\n\n( Clause 3.29 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 28789,
+      "char_end": 31142,
+      "semantic_chunk_length": 2353,
+      "final_chunk_length": 2353,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0015",
+    "text": "for the load carrying capacities and the inflation pressure required for applications at speed of 40 km/h and below. |  |  |  |  |  |  |  |  |\n\n\n\n\n\n\nTable 5 Variation of Load Capacity with Speed and Inflation Pressure Compensation Commercial\n\nVehicles Tyres – Radial and Diagonal Ply\n\n( Clause 3.29 )\n\n| Sl No. | Speed km/h | Variation of Load Capacity (Percent) |  |  |  |  |  |  |  |  |  |  |  |  | Inflation pressure compensation (Percent) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  | Load Indices ≤ 121 1) |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  |  | Speed Symbol |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  |  | F | G | J | K | L | M | N | P | Q | R | S | T | H |  |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) | (11) | (12) | (13) | (14) | (15) | (16) |\n| i) | 0 | + 150 | + 150 | + 150 | + 150 | + 110 | + 110 | + 110 | + 110 | + 110 | + 110 | + 110 | + 110 | + 110 | + 40 |\n| ii) | 5 | + 110 | + 110 | + 110 | + 110 | + 90 | + 90 | + 90 | + 90 | + 90 | + 90 | + 90 | + 90 | + 90 | + 35 |\n| iii) | 10 | + 80 | + 80 | + 80 | + 80 | + 75 | + 75 | + 75 | + 75 | + 75 | + 75 | + 75 | + 75 | + 75 | + 35 |\n| iv) | 15 | + 65 | + 65 | + 65 | + 65 | + 60 | + 60 | + 60 | + 60 | + 60 | + 60 | + 60 | + 60 | + 60 | + 30 |\n| v) | 20 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 50 | + 30 |\n| vi) | 25 | + 35 | + 35 | + 35 | + 35 | + 42 | + 42 | + 42 | + 42 | + 42 | + 42 | + 42 | + 42 | + 42 | + 30 |\n| vii) | 30 | + 25 | + 25 | + 25 | + 25 | + 35 | + 35 | + 35 | + 35 | + 35 | + 35 | + 35 | + 35 | + 35 | + 30 |\n| viii) | 35 | + 19 | + 19 | + 19 | + 19 | + 29 | + 29 | + 29 | + 29 | + 29 | + 29 | + 29 | + 29 | + 29 | + 30 |\n| ix) | 40 | + 15 | + 15 | + 15 | + 15 | + 25 | + 25 | + 25 | + 25 | + 25 | + 25 | + 25 | + 25 | + 25 | + 30 |\n| x) | 45 | + 13 | + 13 | + 13 | + 13 | + 22 | + 22 | + 22 | + 22 | + 22 | + 22 | + 22 | + 22 | + 22 | + 28 |\n| xi) | 50 | + 12 | + 12 | + 12 | + 12 | + 20 | + 20 | + 20 | + 20 | + 20 | + 20 | + 20 | + 20 | + 20 | + 25 |\n| xii) | 55 | + 11 | + 11 | + 11 | + 11 | + 17.5 | + 17.5 | + 17.5 | + 17.5 | + 17.5 | + 17.5 | + 17.5 | + 17.5 | + 17.5 | + 22 |\n| xiii) | 60 | + 10 | + 10 | + 10 | + 10 | + 15.0 | + 15.0 | + 15.0 | + 15.0 | + 15.0 | + 15.0 | + 15.0 | + 15.0 | + 15.0 | + 18 |\n| xiv) | 65 | + 7.5 | + 8.5 | + 8.5 | + 8.5 | + 13.5 | + 13.5 | + 13.5 | + 13.5 | + 13.5 | + 13.5 | + 13.5 | + 13.5 | + 13.5 | + 15 |\n| xv) | 70 | + 5 | + 7 | + 7 | + 7 | + 12.5 | + 12.5 | + 12.5 | + 12.5 | + 12.5 | + 12.5 | + 12.5 | + 12.5 | + 12.5 | + 15 |\n| xvi) | 75 | + 2.5 | + 5.5 | + 5.5 | + 5.5 | + 11.0 | + 11.0 | + 11.0 | + 11.0 | + 11.0 | + 11.0 | + 11.0 | + 11.0 | + 11.0 | + 14 |\n| xvii) | 80 | 0 | + 4.0 | + 4.0 | + 4.0 | + 10.0 | + 10.0 | + 10.0 | + 10.0 | + 10.0 | + 10.0 | + 10.0 | + 10.0 | + 10.0 | + 12 |\n| xviii) | 85 |  | + 2.0 | + 3.0 | + 3.0 | + 8.5 | + 8.5 | + 8.5 | + 8.5 | + 8.5 | + 8.5 | + 8.5 | + 8.5 | + 8.5 | + 10 |\n| xix) | 90 |  | 0 | + 2.0 | + 2.0 | + 7.5 | + 7.5 | + 7.5 | + 7.5 | + 7.5 | + 7.5 | + 7.5 | + 7.5 | + 7.5 | + 9 |\n| xx) | 95 |  |  | + 1.0 | + 1.0 | + 6.5 | + 6.5 | + 6.5 | + 6.5 | + 6.5 | + 6.5 | + 6.5 | + 6.5 | + 6.5 | + 8 |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 31144,
+      "char_end": 34057,
+      "semantic_chunk_length": 2913,
+      "final_chunk_length": 3215,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0016",
+    "text": "| Sl No. | Speed km/h | Variation of Load Capacity (Percent) |  |  |  |  |  |  |  |  |  |  |  |  | Inflation pressure compensation (Percent) |\n| xxi) | 100 |  |  | 0 | 0 | + 5.0 | + 5.0 | + 5.0 | + 5.0 | + 5.0 | + 5.0 | + 5.0 | + 5.0 | + 5.0 | + 6 |\n| xxii) | 105 |  |  |  | 0 | + 3.75 | + 3.75 | + 3.75 | + 3.75 | + 3.75 | + 3.75 | + 3.75 | + 3.75 | + 3.75 | + 4 |\n| xxiii) | 110 |  |  |  | 0 | + 2.5 | + 2.5 | + 2.5 | + 2.5 | + 2.5 | + 2.5 | + 2.5 | + 2.5 | + 2.5 | + 2 |\n| xxiv) | 115 |  |  |  |  | + 1.25 | + 1.25 | + 1.25 | + 1.25 | + 1.25 | + 1.25 | + 1.25 | + 1.25 | + 1.25 | + 1 |\n| xxv) | 120 |  |  |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| xxvi) | 130 |  |  |  |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| xxvii) | 140 |  |  |  |  |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| xxviii) | 150 |  |  |  |  |  |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| xxix) | 160 |  |  |  |  |  |  |  |  | 0 | 0 | 0 | 0 | 0 | 0 |\n| xxx) | 170 |  |  |  |  |  |  |  |  |  | 0 | 0 | 0 | 0 | 0 |\n| xxxi) | 180 |  |  |  |  |  |  |  |  |  |  | 0 | 0 | 0 | 0 |\n| xxxii) | 190 |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 | 0 |\n| xxxiii) | 200 |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |\n| xxxiii) | 210 |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |\n| NOTE ― It is imperative to consult rim/wheel manufacturers for the choice of rims and wheels suitable for the load carrying capacities and the inflation pressure required for applications at speed of 40 km/h and below. 1)Load indices refer to a single operation. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 34058,
+      "char_end": 35457,
+      "semantic_chunk_length": 1399,
+      "final_chunk_length": 1542,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0017",
+    "text": " is imperative to consult rim/wheel manufacturers for the choice of rims and wheels suitable for the load carrying capacities and the inflation pressure required for applications at speed of 40 km/h and below. 1)Load indices refer to a single operation. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n\n| New Tyre – In l fated | Cold I. P kPa Single/Dual (Corresponding to Maximum load) |  | (14) | 620/550 | 620/550 | 725/655 | 795/725 | 690/620 | 795/725 | 825/760 | 655/585 | 760/690 | 795/725 | 690/620 | 795/725 | 825/760 | 690/620 | 795/725 | 825/760 | 620/550 | 725/655 | 795/725 | 860/795 | 590/520 | 690/620 | 790/720 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 1 450/1 285 | 1 600/1 400 | 1 800/1 600 | 1 900/1 650 | 2 060/1 800 | 2 240/1 950 | 2 300/2 000 | 2 360/2 060 | 2 575/2 240 | 2 650/2 360 | 2 725/2 430 | 3 000/2 650 | 3 075/2 725 | 3 000/2 650 | 3 250/2 900 | 3 350/3 000 | 3 150/2 800 | 3 550/3 150 | 3 750/3 350 | 3875/3450 | 2 900/2 575 | 3 250/2 800 | 3 550/3 075 |\n|  | Load Index Single/Dual |  | (12) | 121/117 | 124/120 | 128/124 | 130/125 | 133/128 | 136/131 | 137/132 | 138/133 | 141/136 | 142/138 | 143/139 | 146/142 | 147/143 | 146/142 | 149/145 | 150/146 | 148/144 | 152/148 | 154/150 | 155/151 | 145/141 | 149/144 | 152/147 |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 1 430/1 250 | 1 600/1400 | 1 775/1 555 | 1900/1650 | 2 040/1 790 | 2 230/1 960 | 2 300/2 000 | 2 335/2 050 | 2 570/2 255 | 2 650/2 325 | 2 740/2 405 | 3 000/2 630 | 3 080/2 700 | 2 990/2 620 | 3 265/2 865 | 3 355/2 945 | 3 175/2 785 | 3 510/3 080 | 3 725/3 265 | 3875/3450 | 2 900/2 575 | 3 250/2 800 | 3 550/3 075 |\n|  | Ply Rating |  | (10) | 10 | 10 | 12 | 14 | 12 | 14 | 16 | 12 | 14 | 16 | 14 | 16 | 18 | 14 | 16 | 18 | 14 | 16 | 18 | 20 | 12 | 14 |  |\n|  | Overall Diameter (mm) | Maximum Std/Premium | (9) | 924/--- | 956/974 |  |  | 997/1 016 |  |  | 1 045/1 065 |  |  | 1 081/1 101 |  |  | 1 114/1 134 |  |  | 1 156/1 178 |  |  |  | 1 152/1 173 |  |  |\n|  |  | Minimum Std./Premium | (8) | 892/--- | 922/939 |  |  | 960/977 |  |  | 1 004/1 022 |  |  | 1 038/1 056 |  |  | 1 068/1 086 |  |  | 1 106/1 127 |  |  |  | 1 118/1 137 |  |  |\n|  |  | Design Std./Premium | (7) | 904/--- | 935/952 |  |  | 974/992 |  |  | 1 019/1 038 |  |  | 1 054/1 073 |  |  | 1 085/1 104 |  |  | 1 125/1 146 |  |  |  | 1 135/1 155 |  |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 209 204 | 226 221 |  |  | 248 243 |  |  | 272 267 |  |  | 292 287 |  |  | 308 303 |  |  | 331 326 |  |  |  | 308 303 |  |  |\n|  |  | Minimum Section Width | (5) | 193 188 | 209 204 |  |  | 229 224 |  |  | 251 246 |  |  | 270 265 |  |  | 284 279 |  |  | 306 301 |  |  |  | 284 279 |  |  |\n|  |  | Design Section Width | (4) | 199 194 | 215 210 |  |  | 236 231 |  |  | 259 254 |  |  | 278 273 |  |  | 293 288 |  |  | 315 310 |  |  |  | 293 288 |  |  |\n| Rim Rec. Alt. |  |  | (3) | 5.5 5.0 | 6.0 5.5 |  |  | 6.5 6.0 |  |  | 7.0 6.5 |  |  | 7.5 7.0 |  |  | 8.0 7.5 |  |  | 8.5 8.0 |  |  |  | 8.0 7.5 |  |  |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 35464,
+      "char_end": 38371,
+      "semantic_chunk_length": 2907,
+      "final_chunk_length": 3209,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0018",
+    "text": "| Sl No. |  |  | (1) | i) | ii) |  |  | iii) |  |  | iv) |  |  | v) |  |  | vi) |  |  | vii) |  |  |  | viii) |  |  |\n| Tyre Size Designation |  |  | (2) | 7.00-20 | 7.50-20 |  |  | 8.25-20 |  |  | 9.00-20 |  |  | 10.00-20 |  |  | 11.00-20 |  |  | 12.00-20 |  |  |  | 11.00-22 |  |  |\n| Sl No. |  |  | (1) | i) | ii) |  |  | iii) |  |  | iv) |  |  | v) |  |  | vi) |  |  | vii) |  |  |  | viii) |  |  |\n\n\nTable 6 Truck, Bus and Trailer Tyres for use in Highway Service (Code Designated Diagonal Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 38372,
+      "char_end": 38815,
+      "semantic_chunk_length": 443,
+      "final_chunk_length": 561,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0019",
+    "text": "| New Tyre – In l fated | Cold I. P kPa Single/Dual (Corresponding to Maximum load) |  | (14) | 550/480 | 660/590 | 760/690 | 590/520 | 690/620 | 790/720 | 590/520 | 690/620 | 790/720 | 690/620 | 620/550 | 725/655 | 795/725 | 860/795 | 590/520 | 690/620 | 790/720 | NOTES: Recommended shown underlined. 1 Sizes not underlined above are permitted, but one and the same tyre may not be suitable for more than two rim widths or l fange pro i fles. Before deciding a rim size/type, the tyre manufacturer should be consulted 2 \u0007Rims: regarding suitability of the size/type intended to be used with a Permitted Rim. SDC rims provide ease of tyre mounting/demounting, particularly important for the high PR tyres. |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 2 120/1 850 | 2 360/2 060 | 2 575/2 300 | 2 500/2 180 | 2 800/2 430 | 3 000/2 650 | 2 725/2 360 | 3 000/2 650 | 3 350/2 900 | 3 350/2 900 | 3 650/3 150 | 4 000/3 550 | 4 250/3 750 | 4 500/3 875 | 2 650/2300 | 3 000/2 575 | 3 250/2 800 |  |\n|  | Load Index Single/Dual |  | (12) | 134/129 | 138/133 | 141/137 | 140/135 | 144/139 | 146/142 | 143/138 | 146/142 | 150/145 | 150/145 | 153/148 | 156/152 | 158/154 | 160/155 | 142/137 | 146/141 | 149/144 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 2 120/1 850 | 2 360/2 060 | 2 575/2 300 | 2 500/2 180 | 2 800/2 430 | 3 000/2 650 | 2 725/2 360 | 3 000/2 650 | 3 350/2 900 | 3 370/2 960 | 3 650/3 150 | 4 000/3 550 | 4 250/3 750 | 4 500/3 875 | 2 650/2 300 | 3 000/2 575 | 3 250/2 800 |  |\n|  | Ply Rating |  | (10) | 10 | 12 | 14 | 12 | 14 | 16 | 12 | 14 | 16 | 14 | 14 | 16 | 18 | 20 | 12 | 14 |  |  |\n|  | Overall Diameter (mm) | Maximum Std/Premium | (9) | 1 045/1 065 |  |  | 1 081/1 101 |  |  | 1 114/1 134 |  |  | 1 215 | 1 262/1 284 |  |  |  | 1 118/1 138 |  |  |  |\n|  |  | Minimum Std./Premium | (8) | 1 004/1 022 |  |  | 1 038/1 056 |  |  | 1 068/1 086 |  |  | 1 169 | 1207/1228 |  |  |  | 1 090/1 108 |  |  |  |\n|  |  | Design Std./Premium | (7) | 1 019/1 038 |  |  | 1 054/1 073 |  |  | 1 085/1 104 |  |  | 1 186 | 1 226/1 247 |  |  |  | 1 104/1 123 |  |  |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 267 |  |  | 293 |  |  | 315 |  |  | 308 303 | 331 336 |  |  |  | 293 |  |  |  |\n|  |  | Minimum Section Width | (5) | 246 |  |  | 271 |  |  | 291 |  |  | 284 279 | 306 311 |  |  |  | 271 |  |  |  |\n|  |  | Design Section Width | (4) | 254 |  |  | 279 |  |  | 300 |  |  | 293 288 | 315 320 |  |  |  | 279 |  |  |  |\n| Rim Rec. Alt. |  |  | (3) | 7.50 |  |  | 8.25 |  |  | 9.00 |  |  | 8.0 7.5 | 8.5 9.0 |  |  |  | 8.25 |  |  |  |\n| Tyre Size Designation |  |  | (2) | 10-22.5 |  |  | 11-22.5 |  |  | 12-22.5 |  |  | 11.00-24 | 12.00-24 |  |  |  | 11-24.5 |  |  |  |\n| Sl No. |  |  | (1) | ix) |  |  | x) |  |  | xi) |  |  | xii) | xiii) |  |  |  | xiv) |  |  |  |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 38821,
+      "char_end": 41802,
+      "semantic_chunk_length": 2981,
+      "final_chunk_length": 2981,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0020",
+    "text": "Table 6 (Concluded)\n\n\n\n\n\nTable 7 Truck, Bus and Trailer Tyres in Highway Service (Metric Designated Bias Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| New Tyre ─ In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 860/860 | NOTE — HW– Highway, HT- Heavy Tread, TR-Traction (1 In l fation pressure |\n| --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual Single/Dual |  | (13) | 3550/3150 |  |\n|  | Load Index Single/Dual |  | (12) | 152/148 |  |\n|  | Overall Diameter (mm) | Maximum HW/HT/TR1) | (9) | 1097/ 1106/ 1113 |  |\n|  |  | Minimum HW/HT/TR1) | (8) | 1052/ 1060/ 1067 |  |\n|  |  | Design HW/HT/TR1) | (7) | 1069/ 1078/ 1085 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 308 303 |  |\n|  |  | Minimum Section Width | (5) | 276 271 |  |\n|  |  | Design Section Width | (4) | 294 289 |  |\n| Rim Rec. Alt. |  |  | (3) | 8.00 7.50 |  |\n| Tyre Size Designation |  |  | (2) | 295/95D20 |  |\n| Sl No. |  |  | (1) | i) |  |\n\n\nTable 8 Light Truck Tyres (Code Designated Diagonal Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| New Tyre-In l fated | Cold I. P kPa Single/Dual (Corresponding to Maximum load) |  | (14) | 310/310 | 415/415 | 515/515 | 310/310 | 415/415 | 310/310 | 415/415 | 310/310 | 415/415 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 650/580 | 775/690 | 875/775 | 600/530 | 710/630 | 730/650 | 850/750 | 690/615 | 825/730 |\n|  | Load Index Single/Dual |  | (12) | 93/89 | 99/95 | 103/99 | 90/86 | 96/92 | 97/93 | 102/98 | 95/91 | 101/97 |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 650/570 | 765/670 | 870/765 | 600/530 | 710/625 | 730/645 | 860/755 | 695/615 | 820/725 |\n|  | Ply Rating |  | (10) | 6 | 8 | 10 | 6 | 8 | 6 | 8 | 6 | 8 |\n|  | Overall Diameter (mm) | Maximum Std/Premium | (9) | 754/765 |  |  | 714/722 |  | 778/789 |  | 732/741 |  |\n|  |  | Minimum Std/ Premium | (8) | 727/738 |  |  | 688/696 |  | 749/760 |  | 705/714 |  |\n|  |  | Design Std/ Premium | (7) | 737/748 |  |  | 698/706 |  | 760/771 |  | 715/724 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 174 |  |  | 176 |  | 184 189 |  | 189 194 |  |\n|  |  | Minimum Section Width | (5) | 161 |  |  | 163 |  | 170 175 |  | 175 180 |  |\n|  |  | Design Section Width | (4) | 166 |  |  | 168 |  | 175 180 |  | 180 185 |  |\n| Rim DC SDC |  |  | (3) | 4.50E 4.50E |  |  | 4.50E |  | 4.50E 4.50E 5K |  | 5K 5.50F |  |\n| Tyre Size Designation |  |  | (2) | 6.00-16 |  |  | 6.40-15 |  | 6.50-16 |  | 6.70-15 |  |\n| Sl No. |  |  | (1) | i) |  |  | ii) |  | iii) |  | iv) |  |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 41805,
+      "char_end": 44535,
+      "semantic_chunk_length": 2730,
+      "final_chunk_length": 2730,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0021",
+    "text": " (4) | 166 |  |  | 168 |  | 175 180 |  | 180 185 |  |\n| Rim DC SDC |  |  | (3) | 4.50E 4.50E |  |  | 4.50E |  | 4.50E 4.50E 5K |  | 5K 5.50F |  |\n| Tyre Size Designation |  |  | (2) | 6.00-16 |  |  | 6.40-15 |  | 6.50-16 |  | 6.70-15 |  |\n| Sl No. |  |  | (1) | i) |  |  | ii) |  | iii) |  | iv) |  |\n\n| New Tyre-In l fated | Cold I. P kPa Single/Dual (Corresponding to Maximum load) |  | (14) | 310/310 | 415/415 | 515/515 | 620/620 | 515/515 | 585/585 | 655/655 | 310/310 | 415/415 | 515/515 | 620/620 | 690/690 | 415/415 | 515/515 | 620/620 | 690/690 | 760/760 | 795/795 | 760/760 | 795/795 | 725/725 | NOTES: Recommended shown underlined. 1 \u0007Rims: Sizes not underlined above are permitted, but one and the same tyre may not be suitable for more than two rim widths or l fange pro i fles. Before deciding a rim size/type, the tyre manufacturer should be consulted 2 regarding suitability of the size/type intended to be used with a Permitted Rim. SDC rims provide ease of tyre mounting/demounting, particularly important for the high ―The load Drop centre wheels strength P.R.tyres.3 and in l fation pressure imposed on a Rim or wheel shall not exceed the rim manufacturer’s recommendation. Whenever a high ply rating size is decided for original equipment or Replacement of a lower P.R. for O.E., the rim manufacturer shall be consulted. To insure that the rim/wheel is of su if fcient, strength for the load, in l fation and service intended. This applies particularly to 6.00-16, 8PR, 6.50-16 8PR, 7.00-15, 10 PR & 12 PR 7.00-16. 10 PR, 12PR & 14 PR, 7. 50-16. 10 PR, 12 PR, 14PR,16 PR & 18 PR tyres, 8.25-16 16PR & 18 PR tyres on D.C.Rims. 1) \u0007In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 775/690 | 925/825 | 1 060/925 | 1 180/1 030 | 1250/1120 | 1360/1180 | 1450/1285 | 825/730 | 975/850 | 1 090/975 | 1 215/1 060 | 1 320/1 150 | 1 120/975 | 1 250/1 090 | 1 400/1 250 | 1 500/1 320 | 1 600/1 400 | 1 650/1 450 | 1 850/1 750 | 1 900/1 800 | 2 120/1 900 |  |\n|  | Load Index Single/Dual |  | (12) | 99/95 | 105/101 | 110/105 | 114/109 | 116/112 | 119/114 | 121/117 | 101/97 | 107/102 | 111/107 | 115/110 | 118/113 | 112/107 | 116/111 | 120/116 | 122/118 | 124/120 | 125/121 | 129/127 | 130/128 | 134/130 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 780/690 | 925/815 | 1 050/925 | 1 175/1 030 | 1250/1120 | 1360/1180 | 1450/1285 | 815/715 | 965/850 | 1 100/965 | 1 215/1 065 | 1 315/1 160 | 1 105/970 | 1 260/1 105 | 1 405/1 240 | 1 495/1 315 | 1 580/1 390 | 1 650/1 450 | 1 850/1 750 | 1 900/1 800 | 2 130/1 875 |  |\n|  | Ply Rating |  | (10) | 6 | 8 | 10 | 12 | 10 | 12 | 14 | 6 | 8 | 10 | 12 | 14 | 8 | 10 | 12 | 14 | 16 | 18 | 16 | 18 | 16 |  |\n|  | Overall Diameter (mm) | Maximum Std/Premium | (9) | 777/788 |  |  |  | 800 |  |  | 803/814 |  |  |  |  | 833/845 |  |  |  |  |  | 863/872 |  | 915/928 |  |\n|  |  | Minimum Std/ Premium | (8) | 747/758 |  |  |  | 768 |  |  | 773/783 |  |  |  |  | 801/811 |  |  |  |  |  | 845/ 854 |  | 877/888 |  |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 44542,
+      "char_end": 47443,
+      "semantic_chunk_length": 2901,
+      "final_chunk_length": 3203,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0022",
+    "text": "| Sl No. |  |  | (1) | v) |  |  |  | vi) |  |  | vii) |  |  |  |  | viii) |  |  |  |  |  | ix) |  | x) |  |\n|  |  | Design Std/ Premium | (7) | 758/769 |  |  |  | 780 |  |  | 784/795 |  |  |  |  | 813/824 |  |  |  |  |  | 854/863 |  | 891/903 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 209 204 |  |  |  | 222 217 |  |  | 209 214 |  |  |  |  | 222 217 |  |  |  |  |  | 241 236 |  | 270 265 |  |\n|  |  | Minimum Section Width | (5) | 193 188 |  |  |  | 205 200 |  |  | 193 198 |  |  |  |  | 205 200 |  |  |  |  |  | 227 222 |  | 249 244 |  |\n|  |  | Design Section Width | (4) | 199 194 |  |  |  | 211 206 |  |  | 199 204 |  |  |  |  | 211 206 |  |  |  |  |  | 234 229 |  | 257 252 |  |\n| Rim DC SDC |  |  | (3) | 5.50F 5.50F 5K |  |  |  | 6.00G 5.50F |  |  | 5.50F 5.50F 6.00G |  |  |  |  | 5.50F 6.00G 5.50F |  |  |  |  |  | 6.50H 6.00G |  | 6.50H 6.00G |  |\n| Tyre Size Designation |  |  | (2) | 7.00-15 |  |  |  | 7.50-15 |  |  | 7.00-16 |  |  |  |  | 7.50-16 |  |  |  |  |  | 8.25-16 |  | 9.00-16 |  |\n| Sl No. |  |  | (1) | v) |  |  |  | vi) |  |  | vii) |  |  |  |  | viii) |  |  |  |  |  | ix) |  | x) |  |\n\n\nTable 8 (Concluded)\n\n\n\n\n\nTable 9 Light Truck Tyres (Code Designated Diagonal Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| New Tyre-In l fated | Cold I. P1 kPa Single/ Dual (Corresponding to Maximum load) |  | (14) | 500 | 500 | 1) In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single |  | (13) | 500 | 545 |  |\n|  | Load Index Single |  | (12) | 84 | 87 |  |\n|  | Maximum Load (Corresponding to Ply Rating) kg Single |  | (11) | 500 | 545 |  |\n|  | Ply Rating |  | (10) | 8 | 8 |  |\n|  | Overall Diameter (mm) | Maximum Std/ Premium | (9) | 502 | 529 |  |\n|  |  | Minimum Std/Premium | (8) | 483 | 508 |  |\n|  |  | Design Std/Premium | (7) | 490 | 516 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 131 126 | 141 136 |  |\n|  |  | Minimum Section Width | (5) | 121 116 | 130 125 |  |\n|  |  | Design Section Width | (4) | 125 120 | 134 129 |  |\n| Rim DC SDC |  |  | (3) | 3.50B 3.00B | 3.50B 3.00B |  |\n| Tyre Size Designation |  |  | (2) | 4.50-10 | 5.00-10 |  |\n\n\nTable 9 ( Concluded )\n\n\nTable 10 Mining and Logging Tyres for use in Intermittent Highway Service (Code Designated Diagonal Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 47444,
+      "char_end": 49716,
+      "semantic_chunk_length": 2272,
+      "final_chunk_length": 2380,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0023",
+    "text": "DC |  |  | (3) | 3.50B 3.00B | 3.50B 3.00B |  |\n| Tyre Size Designation |  |  | (2) | 4.50-10 | 5.00-10 |  |\n\n\nTable 9 ( Concluded )\n\n\nTable 10 Mining and Logging Tyres for use in Intermittent Highway Service (Code Designated Diagonal Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| Cold I. P1 kPa (Corresponding to Maximum load) Single/Dual |  | (14) | Maximum Speed: 90 km. /hr. Distance shall not exceed 90 km. in any 1 h 30 min. period of run. | 515 | 620 | 585 | 690 | 725 | 515 | 620 | 725 | 760 | 515 | 620 | 725 | 760 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maximum Load (Corresponding to Load Index) kg |  | (13) |  | 1 600 | 1 800 | 2 060 | 2 240 | 2 300 | 2 180 | 2 430 | 2 725 | 2 800 | 2 360 | 2 650 | 2 900 | 3 000 |\n| Load Index |  | (12) |  | 124 | 128 | 133 | 136 | 137 | 135 | 139 | 143 | 144 | 138 | 142 | 145 | 146 |\n| Maximum Load (corresponding to Ply Rating) kg |  | (11) |  | 1 610 | 1 790 | 2 050 | 2 255 | 2 325 | 2 160 | 2 405 | 2 690 | 2 800 | 2 355 | 2 620 | 2 865 | 2 945 |\n| Ply Rating |  | (10) |  | 10 | 12 | 12 | 14 | 16 | 12 | 14 | 16 | 18 | 12 | 14 | 16 | 18 |\n| Overall Diameter (mm) | Maximum | (9) |  | 1 016 |  | 1 065 |  |  | 1 101 |  |  |  | 1 134 |  |  |  |\n|  | Minimum | (8) |  | 977 |  | 1 022 |  |  | 1 056 |  |  |  | 1 086 |  |  |  |\n|  | Design | (7) |  | 992 |  | 1 038 |  |  | 1 073 |  |  |  | 1 104 |  |  |  |\n| Width (mm) | Maximum Overall Width | (6) |  | 248 243 |  | 272 267 |  |  | 292 287 |  |  |  | 308 303 |  |  |  |\n|  | Minimum Section Width | (5) |  | 229 224 |  | 251 246 |  |  | 270 265 |  |  |  | 284 279 |  |  |  |\n|  | Design Section Width | (4) |  | 236 231 |  | 259 254 |  |  | 278 273 |  |  |  | 293 288 |  |  |  |\n| Rim Rec. Alt. |  | (3) |  | 6.5 6.0 |  | 7.0 6.5 |  |  | 7.5 7.0 |  |  |  | 8.0 7.5 |  |  |  |\n| Tyre Size Designation |  | (2) |  | 8.25-20 |  | 9.00-20 |  |  | 10.00-20 |  |  |  | 11.00-20 |  |  |  |\n| Sl No. |  | (1) |  | i) |  | ii) |  |  | iii) |  |  |  | iv) |  |  |  |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 49720,
+      "char_end": 51470,
+      "semantic_chunk_length": 1750,
+      "final_chunk_length": 2052,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0024",
+    "text": "| Cold I. P1 kPa (Corresponding to Maximum load) Single/Dual |  | (14) | Maximum Speed: 80 km. /hr. Distance shall not exceed 80 km. in any 1h 30 min period of run. | 550 | 660 | 720 | 760 | 790 | 690 | NOTES ― Mining and Logging tyres are not intended for sustained Highway Service. For restricted duration of run stipulated below, the load limits applicable are given Table 10. 1) In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maximum Load (Corresponding to Load Index) kg |  | (13) |  | 2 800 | 3 150 | 3 350 | 3 750 | 3 875 | 4 375 |  |\n| Load Index |  | (12) |  | 144 | 148 | 150 | 154 | 155 | 159 |  |\n| Maximum Load (corresponding to Ply Rating) kg |  | (11) |  | 2 800 | 3 150 | 3 350 | 3 750 | 3 875 | 4 375 |  |\n| Ply Rating |  | (10) |  | 14 | 16 | 18 | 18 | 20 | 18 |  |\n| Overall Diameter (mm) | Maximum | (9) |  | 1165 |  |  | 1279 |  | 1304 |  |\n|  | Minimum | (8) |  | 1127 |  |  | 1228 |  | 1243 |  |\n|  | Design | (7) |  | 1146 |  |  | 1247 |  | 1266 |  |\n| Width (mm) | Maximum Overall Width | (6) |  | 331 326 |  |  | 331 326 |  | 394 |  |\n|  | Minimum Section Width | (5) |  | 306 301 |  |  | 306 301 |  | 364 |  |\n|  | Design Section Width | (4) |  | 315 310 |  |  | 315 310 |  | 375 |  |\n| Rim Rec. Alt. |  | (3) |  | 8.5 8.0 |  |  | 8.5 8.0 |  | 10.00 |  |\n| Tyre Size Designation |  | (2) |  |  |  |  |  |  |  |  |\n|  |  |  |  | 12.00-20 |  |  | 12.00-24 |  | 14.00-20 |  |\n| Sl No. |  | (1) |  | v) |  |  | vi) |  | vii) |  |\n\n\nTable 10 ( Concluded )\n\nIS 15636 : 2022\n\n\n\n\n\nTable 11 Load Limits For Mining And Logging Tyres Used At Reduced Speeds\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| Speed Range (Km./Hr.) | Percent Increase (+) Or Decrease (-) in Load | Increase (+) Or Decrease (-) in I.P 2) | Maximum Travel Time | Minimum Stopping Time To Permit Cooling |\n| --- | --- | --- | --- | --- |\n| 65-901) | No change | No change | 1 h | 30 min |\n| 50-64 | + 9% | No change | 1 h 30 min | 30 min |\n| 33-49 | + 18 % | No change | 2 h | 30 min |\n| 18-32 | + 32 % | No change | 3 h | 30 min |\n| 10-17 | + 60 % | + 70 kPa | 3 h | 30 min |\n\nNOTE — This table does not apply to rims and wheels. For rims and wheels, contact rim/wheel manufacturers.\n1) 80 km/hr.for sizes 12.00-24 and 14.00-20\n2) Inflation pressure",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 51475,
+      "char_end": 53778,
+      "semantic_chunk_length": 2303,
+      "final_chunk_length": 2303,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0025",
+    "text": "+ 18 % | No change | 2 h | 30 min |\n| 18-32 | + 32 % | No change | 3 h | 30 min |\n| 10-17 | + 60 % | + 70 kPa | 3 h | 30 min |\n\nNOTE — This table does not apply to rims and wheels. For rims and wheels, contact rim/wheel manufacturers.\n1) 80 km/hr.for sizes 12.00-24 and 14.00-20\n2) Inflation pressure\n\n| New Tyre- In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 345 | 500 | 500 | 300/300 | 400/400 | 240/240 | 300/300 | 400/400 | NOTES Recommended shown underlined. 1 Rims: Sizes not underlined above are permitted, but one and the same tyre may not be suitable for more than two rim widths or l fange pro i fles. Before deciding a rim size/type, the tyre manufacturer 2 should be consulted regarding suitability of the size/type intended to be used with a permitted rim. SDC rims provide case of tyre mounting/demounting, particularly important for the high Ply rating tyres. (1 In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 365 | 500 | 545 | 355/335 | 412/400 | 365/345 | 412/400 | 487/462 |  |\n|  | Load Index Single/ Dual |  | (12) | 73 | 84 | 87 | 72/70 | 77/76 | 73/71 | 77/76 | 83/81 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 365 | 500 | 545 | 355/340 | 415/395 | 365/345 | 412/400 | 487/462 |  |\n|  | Ply Rating |  | (10) | 4 | 8 | 8 | 6 | 8 | 4 | 6 | 8 |  |\n|  | Overall Diameter (mm) | Maximum | (9) | 485 | 497 | 524 | 553 |  | 576 |  |  |  |\n|  |  | Minimum | (8) | 460 | 483 | 508 | 537 |  | 560 |  |  |  |\n|  |  | Design | (7) | 466 | 490 | 516 | 545 |  | 568 |  |  |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 116 121 | 134 129 | 143 138 | 136 141 |  | 147 142,152 |  |  |  |\n|  |  | Minimum Section Width | (5) | 106 111 | 121 116 | 130 125 | 124 129 |  | 133 128,138 |  |  |  |\n|  |  | Design Section Width | (4) | 110 115 | 125 120 | 134 129 | 128 133 |  | 137 132,142 |  |  |  |\n| Rim Rec. Alt. |  |  | (3) | 3.00B 3.50B | 3.50B 3.00B | 3.50 3.50B 3.00B | 3½J 4J |  | 3.50B 3.00B 4.00B |  |  |  |\n| Tyre Size Designation |  |  | (2) | 4.00-10 ULT | 4.50-10 ULT | 5.00-10 ULT | 4.50-12 ULT |  | 5.00-12 ULT |  |  |  |\n| Sl No. |  |  | (1) | i) | ii) | iii) | iv) |  | v) |  |  |  |\n\n\nTable 12 Ultra-Light Truck Tyres (Code Designated Diagonal Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n\n\n\n\n| New Tyre- In l fated | 1) Cold I. P kPa (Corresponding to Maximum load) |  | (13) | 310 | 415 | (1 In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg |  | (12) | 710 | 825 |  |\n|  | Load Index |  | (11) | 96 | 101 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg |  | (10) | 705 | 835 |  |\n|  | Ply Rating |  | (9) | 6 | 8 |  |\n|  | Overall Diameter (mm) | Maximum | (8) | 714 |  |  |\n|  |  | Minimum | (7) | 689 |  |  |\n|  |  | Design | (6) | 698 |  |  |\n|  | Width (mm) | Maximum Overall Width | (5) | 212 |  |  |\n|  |  | Minimum Section Width | (4) | 196 |  |  |\n|  |  | Design Section Width | (3) | 202 |  |  |\n| Rim Rec. Alt. |  |  | (2) | 5.50 |  |  |\n| Tyre Size Designation |  |  | (1) | F78 – 15 LT |  |  |\n\n\nTable 13 Light Truck Tyres (Alpha Numeric Diagonal Ply)",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 22,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 53785,
+      "char_end": 56780,
+      "semantic_chunk_length": 2995,
+      "final_chunk_length": 3297,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0026",
+    "text": " Maximum Overall Width | (5) | 212 |  |  |\n|  |  | Minimum Section Width | (4) | 196 |  |  |\n|  |  | Design Section Width | (3) | 202 |  |  |\n| Rim Rec. Alt. |  |  | (2) | 5.50 |  |  |\n| Tyre Size Designation |  |  | (1) | F78 – 15 LT |  |  |\n\n\nTable 13 Light Truck Tyres (Alpha Numeric Diagonal Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n\n| New Tyre In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 620/620 | 720/720 | 830/830 | 860/860 | 480/480 | 590/590 | 690/690 | 790/790 | 830/830 | 620/620 | 720/720 | 830/830 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual Single/Dual |  | (13) | 1 850/1 750 | 2 060/1 950 | 2 240/2 120 | 2300/2180 | 1 850/1 750 | 2 120/2 000 | 2 360/2 240 | 2 575/2 430 | 2 650/2 500 | 2 500/2 360 | 2 800/2 650 | 3 000/2 725 |\n|  | Load Index Single/Dual |  | (12) | 129/127 | 133/131 | 136/134 | 137/135 | 129/127 | 134/132 | 138/136 | 141/139 | 142/140 | 140/138 | 144/142 | 146/143 |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 1 850/1 750 | 2 060/1 950 | 2 240/2 120 | 2300/2180 | 1 850/1 750 | 2 120/2 000 | 2 360/2 240 | 2 575/2 430 | 2 650/2 500 | 2 500/2 360 | 2 800/2 650 | 3 000/2 725 |\n|  | Ply Rating |  | (10) | 10 | 12 | 14 | 16 | 8 | 10 | 12 | 14 | 16 | 12 | 14 | 16 |\n|  | Overall Diameter (mm) | Maximum HW/HT/TR1) | (9) | 988/ 994/ 1 000 |  |  |  | 1 034/ 1 039/ 1 046 |  |  |  |  | 1 070/ 1 076/ 1 082 |  |  |\n|  |  | Minimum HW/HT/TR1) | (8) | 960/ 966/ 972 |  |  |  | 1 004/ 1 009/ 1 014 |  |  |  |  | 1 038/ 1 042/ 1 048 |  |  |\n|  |  | Design HW/HT/TR1) | (7) | 974/ 980/ 986 |  |  |  | 1 019/ 1 024/ 1 030 |  |  |  |  | 1 054/ 1 059/ 1 065 |  |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 248 |  |  |  | 272 |  |  |  |  | 292 |  |  |\n|  |  | Minimum Section Width | (5) | 229 |  |  |  | 251 |  |  |  |  | 270 |  |  |\n|  |  | Design Section Width | (4) | 236 |  |  |  | 259 |  |  |  |  | 278 |  |  |\n| Rim Rec. Alt. |  |  | (3) | 6.50 |  |  |  | 7.00 |  |  |  |  | 7.50 |  |  |\n| Tyre Size Designation |  |  | (2) | 8.25R20 |  |  |  | 9.00 R20 |  |  |  |  | 10.00R20 |  |  |\n| Sl No. |  |  | (1) | i) |  |  |  | ii) |  |  |  |  | iii) |  |  |\n\n\nTable 14 Truck, Bus and Trailers Tyres in Highway Service (Code Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 56783,
+      "char_end": 58939,
+      "semantic_chunk_length": 2156,
+      "final_chunk_length": 2458,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0027",
+    "text": "ignation |  |  | (2) | 8.25R20 |  |  |  | 9.00 R20 |  |  |  |  | 10.00R20 |  |  |\n| Sl No. |  |  | (1) | i) |  |  |  | ii) |  |  |  |  | iii) |  |  |\n\n\nTable 14 Truck, Bus and Trailers Tyres in Highway Service (Code Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| New Tyre In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | 620/620 | 720/720 | 830/830 | 660/660 | 760/760 | 830/830 | 480/480 | 590/590 | 690/690 | 790/790 | 620/620 | 720/720 | 830/830 | 590/590 | 690/690 | 790/790 | 850/850 | 620/620 | 720/720 | 830/830 | 850/850 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual Single/Dual |  | 2 725/2 575 | 3 000/2 725 | 3 350/3 075 | 3 250/3 000 | 3 550/3 250 | 3 750/3 450 | 3550/3250 | 4125/3750 | 4625/4250 | 5000/4625 | 2 900/2 650 | 3 250/3 000 | 3 550/3 250 | 2 120/2 000 | 2 360/2 240 | 2 575/2 430 | 2800/2650 | 2 500/2 360 | 2 800/2 650 | 3 000/2 725 | 3150/2900 |\n|  | Load Index Single/Dual |  | 143/141 | 146/143 | 150/147 | 149/146 | 152/149 | 154/151 | 152/149 | 157/154 | 161/158 | 164/161 | 145/142 | 149/146 | 152/149 | 134/132 | 138/136 | 141/139 | 144/142 | 140/138 | 144/142 | 146/143 | 148/145 |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | 2 725/2 575 | 3 000/2 725 | 3 350/3 075 | 3 250/3 000 | 3 550/3 250 | 3 750/3 450 | 3550/3250 | 4125/3750 | 4625/4250 | 5000/4625 | 2 900/2 650 | 3 250/3 000 | 3 550/3 250 | 2 120/2 000 | 2 360/2 240 | 2 575/2 430 | - | 2 500/2 360 | 2 800/2 650 | 3 000/2 725 | - |\n|  | Ply Rating |  | 12 | 14 | 16 | 14 | 16 | 18 | 14 | 16 | 18 | 20 | 12 | 14 | 16 | 10 | 12 | 14 | - | 12 | 14 | 16 | - |\n|  | Overall Diameter (mm) | Maximum HW/HT/TR1) | 1 102/ 1 107/ 1 114 |  |  | 1 144/ ------/ 1 155 |  |  | 1263/ -- 1275 |  |  |  | 1 152/ 1 158/ 1 165 |  |  | 1 034/ 1 039/ 1 046 |  |  |  | 1 068/ 1 074/ 1 080 |  |  |  |\n|  |  | Minimum HW/HT/TR1) | 1 068/ 1 073/ 1 078 |  |  | 1 106/ ------/ 1 117 |  |  | 1219/ -- 1231 |  |  |  | 1 118/ 1 124/ 1 129 |  |  | 1 004/ 1 009/ 1 014 |  |  |  | 1 040/ 1 044/ 1 050 |  |  |  |\n|  |  | Design HW/HT/TR1) | 1 085/ 1 090/ 1 096 |  |  | 1 125/ ------/ 1 136 |  |  | 1241/ -- 1253 |  |  |  | 1 135/ 1 141/ 1 147 |  |  | 1 019/ 1 024/ 1 030 |  |  |  | 1 054/ 1 059/ 1 065 |  |  |  |\n|  | Width (mm) | Maximum Overall Width | 308 |  |  | 331 |  |  | 394 |  |  |  | 308 |  |  | 267 |  |  |  | 293 |  |  |  |\n|  |  | Minimum Section Width | 284 |  |  | 306 |  |  | 364 |  |  |  | 284 |  |  | 246 |  |  |  | 271 |  |  |  |\n|  |  | Design Section Width | 293 |  |  | 315 |  |  | 375 |  |  |  | 293 |  |  | 254 |  |  |  | 279 |  |  |  |\n| Rim Rec. Alt. |  |  | 8.00 |  |  | 8.50 |  |  | 10.00 |  |  |  | 8.00 |  |  | 7.50 |  |  |  | 8.25 |  |  |  |\n| Tyre Size Designation |  |  | 11.00R20 |  |  | 12.00R20 |  |  | 14.00R20 |  |  |  | 11.00R22 |  |  | 10R22.5 |  |  |  | 11R22.5 |  |  |  |\n| Sl No. |  |  | iv) |  |  | v) |  |  | vi |  |  |  | vii) |  |  | viii) |  |  |  | ix) |  |  |  |\n\n\nTable 14 ( Continued )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 23,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 58945,
+      "char_end": 61800,
+      "semantic_chunk_length": 2855,
+      "final_chunk_length": 3157,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0028",
+    "text": "| New Tyre In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | 620/620 | 720/720 | 830/830 | 850/850 | 850/850 | 660/660 | 760/760 | 830/830 | 620/620 | 720/720 | 830/830 | NOTE- HW– Highway, HT- Heavy Tread, TR-Traction (1 In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual Single/Dual |  | 2 725/2 575 | 3 000/2 725 | 3 350/3 075 | 3550/3150 | 3550/3250 | 3 650/3 350 | 4 000/3 650 | 4 250/3 875 | 2 650/2 500 | 3 000/2 725 | 3 250/3 000 |  |\n|  | Load Index Single/Dual |  | 143/141 | 146/143 | 150/147 | 152/148 | 152/149 | 153/150 | 156/153 | 158/155 | 142/140 | 146/143 | 149/146 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | 2 725/2 575 | 3 000/2 725 | 3 350/3 075 | - | - | 3 650/3 350 | 4 000/3 650 | 4 250/3 875 | 2 650/2 500 | 3 000/2 725 | 3 250/3 000 |  |\n|  | Ply Rating |  | 12 | 14 | 16 | - | - | 14 | 16 | 18 | 12 | 14 | 16 |  |\n|  | Overall Diameter (mm) | Maximum HW/HT/TR1) | 1 102/ 1 107/ 1 114 |  |  |  |  | 1 244/ ------/ 1 257 |  |  | 1 122/ 1 128/ 1 134 |  |  |  |\n|  |  | Minimum HW/HT/TR1) | 1 068/ 1 073/ 1 078 |  |  |  |  | 1 208/ ------/ 1 219 |  |  | 1 086/ 1 092/ 1 098 |  |  |  |\n|  |  | Design HW/HT/TR1) | 1 085/ 1 090/ 1 096 |  |  |  |  | 1 226/ ------/ 1 238 |  |  | 1 104/ 1 110/ 1 116 |  |  |  |\n|  | Width (mm) | Maximum Overall Width | 315 |  |  |  |  | 331 |  |  | 293 |  |  |  |\n|  |  | Minimum Section Width | 291 |  |  |  |  | 306 |  |  | 271 |  |  |  |\n|  |  | Design Section Width | 300 |  |  |  |  | 315 |  |  | 279 |  |  |  |\n| Rim Rec. Alt. |  |  | 9.00 |  |  |  |  | 8.50 |  |  | 8.25 |  |  |  |\n| Tyre Size Designation |  |  | 12R22.5 |  |  |  |  | 12.00R24 |  |  | 11R24.5 |  |  |  |\n| Sl No. |  |  | x) |  |  |  |  | xi) |  |  | xii) |  |  |  |\n\n\nTable 14 ( Concluded )\n\n\n\n\n\n| New Tyre In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (12) | 850/850 | NOTE- HW– Highway, HT- Heavy Tread, TR-Traction, DT-Deep Traction 1) In l fation pressure |\n| --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual Single/Dual |  | (11) | 3550/3150 |  |\n|  | Load Index Single/ Dual |  | (10) | 152/148 |  |\n|  | Overall Diameter (mm) | Maximum HW/HT/ TR/DT1 | (9) | 1070/ 1076/ 1083/ 1092 |  |\n|  |  | Minimum HW/HT/ TR/DT1 | (8) | 1024/ 1028/ 1035/ 1043 |  |\n|  |  | Design HW/HT/ TR/DT1 | (7) | 1039/ 1044/ 1051/ 1059 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 308 303 |  |\n|  |  | Minimum Section Width | (5) | 277 272 |  |\n|  |  | Design Section Width | (4) | 294 289 |  |\n| Rim Rec. Alt. |  |  | (3) | 8.00 7.50 |  |\n| Tyre Size Designation |  |  | (2) | 295/90R20 |  |\n| Sl No. |  |  | (1) | i) |  |\n\n\nTable 15 Truck, Bus and Trailer Tyres in Highway Service (Metric Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\nIS 15636 : 2022",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 25,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 61806,
+      "char_end": 64784,
+      "semantic_chunk_length": 2978,
+      "final_chunk_length": 2978,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0029",
+    "text": "| New Tyre- In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 345/345 | 450/450 | 550/550 | 655/655 | 550/550 | 620/620 | 690/690 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 775/690 | 925/825 | 1060/925 | 1180/1030 | 1250/1120 | 1360/1180 | 1450/1285 |\n|  | Load Index Single/ Dual |  | (12) | 99/95 | 105/101 | 110/105 | 114/109 | 116/112 | 119/114 | 121/117 |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 780/690 | 925/815 | 1 050/925 | 1 175/1 030 | 1250/1120 | 1360/1180 | 1450/1285 |\n|  | Ply Rating |  | (10) | 6 | 8 | 10 | 12 | 10 | 12 | 14 |\n|  | Overall Diameter (mm) | Maximum Std/Prem.m | (9) | 763/771 |  |  |  | 792 |  |  |\n|  |  | Minimum Std/Premm | (8) | 741/749 |  |  |  | 768 |  |  |\n|  |  | Design Std/Pre mm. | (7) | 752/760 |  |  |  | 780 |  |  |\n|  | Width (mm) | Maximum Overall Width mm | (6) | 216 211 |  |  |  | 226 221 |  |  |\n|  |  | Minimum Section Width mm | (5) | 192 187 |  |  |  | 200 195 |  |  |\n|  |  | Design Section Width mm | (4) | 202 197 |  |  |  | 211 206 |  |  |\n| Rim | SDC |  |  | 5.50F |  |  |  | 6.00G 5.50F |  |  |\n|  | DC |  | (3) | 5.50F 5K |  |  |  |  |  |  |\n| Tyre Size Designation |  |  | (2) | 7.00R15LT |  |  |  | 7.50R15LT |  |  |\n| Sl No. |  |  | (1) | i) |  |  |  | ii) |  |  |\n\n\nTable 16 Light Truck Tyres (Code Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 25,
+      "page_end": 25,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 64787,
+      "char_end": 66308,
+      "semantic_chunk_length": 1521,
+      "final_chunk_length": 1521,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0030",
+    "text": "| New Tyre- In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 345/345 | 450/450 | 550/550 | 655/655 | 725/725 | 345/345 | 450/450 | 550/550 | 655/655 | 725/725 | 550/550 | 655/655 | 725/725 | 795/795 | NOTES Recommended shown underlined. 1 Rims: Sizes not underlined above are permitted, but one and the same tyre may not be suitable for more than two rim widths or l fange pro i fles. Before deciding a rim size/type, the tyre manufacturer 2 should be consulted regarding suitability of the size/type intended to be used with a permitted rim. Semi Drop Center (SDC) rims provide ease of tyre mounting/demounting, particularly important for the high Ply Rating tyres. 1) In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 825/730 | 975/850 | 1 090/975 | 1 215/1 060 | 1320/1150 | 935/825 | 1 120/975 | 1 250/1 090 | 1 400/1 250 | 1 500/1 320 | 1 500/1 400 | 1 650/1 550 | 1 750/1 650 | 18 50/1 750 |  |\n|  | Load Index Single/ Dual |  | (12) | 101/97 | 107/102 | 111/107 | 115/110 | 118/113 | 105/101 | 112/107 | 116/111 | 120/116 | 122/118 | 122/120 | 125/123 | 127/125 | 129/127 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 815/715 | 965/850 | 1 100/965 | 1 215/1 060 | 1320/1150 | 935/825 | 1 105/970 | 1 260/1 105 | 1 405/1 240 | 1 495/1 315 | 1 500/1 400 | 1 650/1 550 | 1 750/1 650 | 1 850/1 750 |  |\n|  | Ply Rating |  | (10) | 6 | 8 | 10 | 12 | 14 | 6 | 8 | 10 | 12 | 14 | 10 | 12 | 14 | 16 |  |\n|  | Overall Diameter (mm) | Maximum Std/Prem.m | (9) | 789/796 |  |  |  |  | 820/827 |  |  |  |  | 854/865 |  |  |  |  |\n|  |  | Minimum Std/Premm | (8) | 767/774 |  |  |  |  | 796/803 |  |  |  |  | 828/839 |  |  |  |  |\n|  |  | Design Std/Pre mm. | (7) | 778/785 |  |  |  |  | 808/815 |  |  |  |  | 841/852 |  |  |  |  |\n|  | Width (mm) | Maximum Overall Width mm | (6) | 216 221 |  |  |  |  | 226 221 |  |  |  |  | 250 245 |  |  |  |  |\n|  |  | Minimum Section Width mm | (5) | 192 197 |  |  |  |  | 200 195 |  |  |  |  | 222 217 |  |  |  |  |\n|  |  | Design Section Width mm | (4) | 202 207 |  |  |  |  | 211 206 |  |  |  |  | 234 229 |  |  |  |  |\n| Rim | SDC |  |  | 5 50F 6.00G |  |  |  |  | 6.00 5.50F |  |  |  |  | 6.50H 6.00G |  |  |  |  |\n|  | DC |  | (3) | 5.50F |  |  |  |  | 5.50F |  |  |  |  | - |  |  |  |  |\n| Tyre Size Designation |  |  | (2) | 7.00R16LT |  |  |  |  | 7.50R16LT |  |  |  |  | 8.25R16LT |  |  |  |  |\n| Sl No. |  |  | (1) | iii) |  |  |  |  | iv) |  |  |  |  | v) |  |  |  |  |\n\n\nTable 16 ( Concluded )\n\n\n\n\n\nTable 17 ‘65’ to ‘85’ Series Light Truck Tyres Metric Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 27,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 66314,
+      "char_end": 69131,
+      "semantic_chunk_length": 2817,
+      "final_chunk_length": 2817,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0031",
+    "text": "| Sl No. | Tyre Size Designation | Rim Rec. Alt | New Tyre-Inflated |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | Width (mm) |  |  | Overall Diameter (mm) |  |  | Load Index Single/Dual | Maximum Load (Corresponding to Load Index)kg Single/Dual | Cold I. P1) kPa (Corresponding to Maximum load)Single/Dual |  |\n|  |  |  | Design Section Width | Minimum Section Width | Maximum Overall Width | Design | Minimum | Maximum |  |  |  |  |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) | (11) | (12) |  |\n| ‘65’ Series |  |  |  |  |  |  |  |  |  |  |  |  |\n| i) | 175/65R14LT | 5J 4½J, 5½J | 177 172,182 | 170 165,175 | 182 177,187 | 584 | 577 | 591 | 90/88 | 600/560 | 375/375 |  |\n| ii) | 195/65R16LT | 6J 5½J,6½J | 201 196,206 | 193 188,198 | 207 202,212 | 660 | 652 | 668 | 100/98 | 800/750 | 375/375 |  |\n| iii) | 205/65R16LT | 6J 5½J,6½J | 209 204,214 | 201 196,206 | 215 210,220 | 672 | 664 | 680 | 99/97 | 775/730 | 325/325 |  |\n| iv) | 215/65R16LT | 6½J 6J,7J | 221 216,226 | 212 207,217 | 228 223,233 | 686 | 678 | 694 | 102/100 | 850/800 | 325/325 |  |\n| v) | 235/65R16LT | 7.0 6.5,7.5 | 240 235, 245 | 231 226,236 | 247 242,252 | 712 | 703 | 721 | 121/119 | 1450/1360 | 575/575 |  |\n| ‘70 Series’ |  |  |  |  |  |  |  |  |  |  |  |  |\n| vi) | 175/70R14LT | 5J 4½J, 5½J | 177 172,182 | 170 165,175 | 183 178,188 | 602 | 595 | 609 | 95/93 | 690/650 | 375/375 |  |\n| vii) | 215/70R15LT | 6½J 7J | 221 226 | 214 219 | 228 233 | 683 | 674 | 692 | 107/105 | 975/925 | 450/450 |  |\n| viii) | 255/70R15LT | 7½J 7J,8J | 260 255,265 | 250 245,255 | 268 263,273 | 739 | 728 | 750 | 112/110 | 1120/1060 | 375/375 |  |\n| 75 Series |  |  |  |  |  |  |  |  |  |  |  |  |\n| ix) | 215/75R15LT | 6J 6½J | 216 221 | 210 215 | 222 227 | 703 | 693 | 713 | 115/113 | 1215/1150 | 600/600 |  |\n| x) | 225/75R15LT | 6J 6½J | 223 228 | 216 221 | 230 235 | 719 | 709 | 729 | 108/104 | 1000/900 | 450/450 |  |\n| xi) | 235/75R15LT | 6½J 6J,7J | 235 230,240 | 226 221,231 | 242 237,247 | 733 | 722 | 744 | 110/107 | 1060/975 | 450/450 |  |\n|  |  |  |  |  |  |  |  |  | 116/113 | 1250/1150 | 550/550 |  |\n| xii) | 205/75R16LT | 5½J 6J | 203 208 | 197 202 | 209 214 | 714 | 705 | 723 | 113/111 | 1150/1090 | 600/600 |  |\n| xiii) | 215/75R16LT | 6J 5½J | 215 210 | 207 201 | 225 220 | 728 | 718 | 738 | 113/111 | 1150/1090 | 475/475 |  |\n|  |  |  |  |  |  |  |  |  | 116/114 | 1250/1180 | 525/525 |  |\n| xiv) | 225/75R16LT | 6J 6½J | 223 228 | 216 221 | 230 235 | 744 | 734 | 754 | 121/120 | 1450/1400 | 575/575 |  |\n| 80 Series |  |  |  |  |  |  |  |  |  |  |  |  |\n| xv) | 145/80R12LT | 4J 3½J | 145 140 | 141 136 | 148 143 | 537 | 530 | 544 | 86/84 | 530/500 |  | 450/450 |\n| xvi) | 215/80R14LT | 6J 6½J | 216 221 | 210 215 | 222 227 | 700 | 690 | 710 | 112/110 | 1120/ 1060 |  | 450/450 |\n| xvii) | 195/80 R15LT | 5½J 6J | 196 201 | 190 195 | 202 207 | 693 | 684 | 702 | 107/105 | 975/925 |  | 450/450 |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 69134,
+      "char_end": 72103,
+      "semantic_chunk_length": 2969,
+      "final_chunk_length": 2969,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0032",
+    "text": "| Sl No. | Tyre Size Designation | Rim Rec. Alt | New Tyre-Inflated |  |  |  |  |  |  |  |  |  |\n| xviii) | 205/80R16LT | 5½J 6J | 203 208 | 195 200 | 209 214 | 734 | 724 | 744 | 106/104 | 950/900 |  | 350/350 |\n|  |  |  |  |  |  |  |  |  | 110/108 | 1060/1000 |  | 450/450 |\n| 85 Series |  |  |  |  |  |  |  |  |  |  |  |  |\n| xix) | 185/85 R16LT | 5J 5½J | 184 189 | 178 183 | 190 195 | 720 | 711 | 729 | 105/103 | 925/875 |  | 450/450 |\n| xx) | 235/85R16LT | 6½J 6J,7J | 235 230,240 | 226 221,231 | 242 237,247 | 806 | 794 | 818 | 112/110 | 1120/1060 |  | 375/375 |\n| (1 Inflation pressure |  |  |  |  |  |  |  |  |  |  |  |  |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 72104,
+      "char_end": 72637,
+      "semantic_chunk_length": 533,
+      "final_chunk_length": 630,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0033",
+    "text": "x) | 185/85 R16LT | 5J 5½J | 184 189 | 178 183 | 190 195 | 720 | 711 | 729 | 105/103 | 925/875 |  | 450/450 |\n| xx) | 235/85R16LT | 6½J 6J,7J | 235 230,240 | 226 221,231 | 242 237,247 | 806 | 794 | 818 | 112/110 | 1120/1060 |  | 375/375 |\n| (1 Inflation pressure |  |  |  |  |  |  |  |  |  |  |  |  |\n\n| New Tyre- In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 350/350 | 450/450 | 350/350 | 450/450 | 350/350 | 450/450 | 375/375 | 450/450 | 350/350 | 450/450 | 375/375 | 450/450 | 375/375 | 450/450 | 375/375 | 450/450 | 575/575 | 375/375 | 450/450 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 450/425 | 530/500 | 487/462 | 560/530 | 515/487 | 600/580 | 615/580 | 670/630 | 630/600 | 730/690 | 650/615 | 730/690 | 710/670 | 775/750 | 775/730 | 850/800 | 975/925 | 850/800 | 950/900 |\n|  | Load Index Single/ Dual |  | (12) | 80/78 | 86/84 | 83/81 | 88/86 | 85/83 | 90/89 | 91/89 | 94/92 | 92/90 | 97/95 | 93/91 | 97/95 | 96/94 | 99/98 | 99/97 | 102/100 | 107/105 | 102/100 | 106/104 |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 450/425 | 530/500 | 487/462 | 560/530 | 515/487 | 600/580 | 615/580 | 670/630 | 630/600 | 730/690 | 650/615 | 730/690 | 710/670 | 775/750 | 775/730 | 850/800 | 975/925 | 850/800 | 950/900 |\n|  | Ply Rating |  | (10) | 6 | 8 | 6 | 8 | 6 | 8 | 6 | 8 | 6 | 8 | 6 | 8 | 6 | 8 | 6 | 8 | 10 | 6 | 8 |\n|  | Overall Diameter (mm) | Maximum | (9) | 550 |  | 561 |  | 590 |  | 604 |  | 619 |  | 630 |  | 646 |  | 662 |  |  | 675 |  |\n|  |  | Minimum | (8) | 535 |  | 545 |  | 574 |  | 588 |  | 605 |  | 614 |  | 630 |  | 643 |  |  | 657 |  |\n|  |  | Design | (7) | 543 |  | 553 |  | 582 |  | 596 |  | 612 |  | 622 |  | 638 |  | 653 |  |  | 666 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 149 144 |  | 162 157 |  | 165 170 |  | 172 167,177 |  | 183 178,188 |  | 172 177 |  | 187 192 |  | 197 202 |  |  | 204 209 |  |\n|  |  | Minimum Section Width | (5) | 141 136 |  | 151 146 |  | 152 157 |  | 160 155,165 |  | 171 166,176 |  | 160 165 |  | 173 178 |  | 182 187 |  |  | 190 195 |  |\n|  |  | Design Section Width | (4) | 145 140 |  | 157 152/162 |  | 157 162 |  | 167 162,172 |  | 178 173,183 |  | 167 172 |  | 178 183 |  | 188 193 |  |  | 198 203 |  |\n| Rim Rec. Alt. |  |  | (3) | 4J 3½J |  | 4½J 4J,5J |  | 4½J 5J |  | 4½J 4J,5J |  | 5J 4½J,5½J |  | 4½J 5J |  | 5J 5½J |  | 5½J 6J |  |  | 5½J 6J |  |\n| Tyre Size Designation |  |  | (2) | 145R12 LT |  | 155R12 LT |  | 155R13 LT |  | 165R13 LT |  | 175R13 LT |  | 165R14LT |  | 175R14LT |  | 185R14 LT |  |  | 195R14LT |  |\n| Sl No. |  |  | (1) | i) |  | ii) |  | iii) |  | iv) |  | v) |  | vi) |  | vii) |  | viii) |  |  | ix) |  |\n\n\nTable 18 Light Truck Tyres (Metric Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 33,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 28,
+      "page_end": 28,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 72644,
+      "char_end": 75316,
+      "semantic_chunk_length": 2672,
+      "final_chunk_length": 2974,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0034",
+    "text": "3 LT |  | 165R14LT |  | 175R14LT |  | 185R14 LT |  |  | 195R14LT |  |\n| Sl No. |  |  | (1) | i) |  | ii) |  | iii) |  | iv) |  | v) |  | vi) |  | vii) |  | viii) |  |  | ix) |  |\n\n\nTable 18 Light Truck Tyres (Metric Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| New Tyre- In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 450/450 | 350/350 | 450/450 | 450/450 | NOTES Recommended shown underlined. 1 \u0007Rims: Sizes not underlined above are permitted, but one and the same tyre may not be suitable for more than two rim widths or l fange pro i fles. Before deciding a rim size/type, the tyre 2 manufacturer should be consulted regarding suitability of the size/type intended to be used with a Permitted Rim. SDC rims provide case of tyre mounting/demounting, particularly important for the high P.R.tyres. 1) In l fation Pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 1120/1060 | 875/825 | 975/925 | 1060/1000 |  |\n|  | Load Index Single/ Dual |  | (12) | 112/110 | 103/101 | 107/105 | 110/108 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 1120/1060 | 875/825 | 975/925 | 1060/1000 |  |\n|  | Ply Rating |  | (10) | 8 | 6 | 8 | 8 |  |\n|  | Overall Diameter (mm) | Maximum | (9) | 715 | 702 |  | 744 |  |\n|  |  | Minimum | (8) | 694 | 684 |  | 724 |  |\n|  |  | Design | (7) | 704 | 693 |  | 734 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 227 232 | 206 201,211 |  | 209 214 |  |\n|  |  | Minimum Section Width | (5) | 210 215 | 188 183,193 |  | 197 202 |  |\n|  |  | Design Section Width | (4) | 216 221 | 196 191,201 |  | 203 208 |  |\n| Rim Rec. Alt. |  |  | (3) | 6J 6½J | 5½J 5J,6J |  | 5½J 6J |  |\n| Tyre Size Designation |  |  | (2) | 215R14 LT | 195R15 LT |  | 205R16LT |  |\n| Sl No. |  |  | (1) | x) | xi) |  | xii) |  |\n\n\nTable 18 ( Concluded )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 34,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 29,
+      "page_end": 29,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 75322,
+      "char_end": 76980,
+      "semantic_chunk_length": 1658,
+      "final_chunk_length": 1960,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0035",
+    "text": "2 |  |\n|  |  | Design Section Width | (4) | 216 221 | 196 191,201 |  | 203 208 |  |\n| Rim Rec. Alt. |  |  | (3) | 6J 6½J | 5½J 5J,6J |  | 5½J 6J |  |\n| Tyre Size Designation |  |  | (2) | 215R14 LT | 195R15 LT |  | 205R16LT |  |\n| Sl No. |  |  | (1) | x) | xi) |  | xii) |  |\n\n\nTable 18 ( Concluded )\n\n| New Tyre In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (12) | 850 | 900 | 900 | 900 | 900 | 900 | 850 | 900 | 900 | 775 | 850 | 750 | 825 | 725 | 775 | 725 | 850 | 900 | 700 | 800 | 900 | 900 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum load kg Single/Dual Single/Dual |  | (13) | 4250 | 4500 | 3350/3075 | 3550/3150 | 3750/3150 | 3750/3350 | 4250 | 4500 | 5000 | 2120/2000 | 2240/2120 | 2060/1950 | 2240/2120 | 2240/2120 | 2500/2360 | 2500/2300 | 3000/2800 | 3000/2800 | 2240/2060 | 2500/2300 | 3150/2900 | 3350/2900 |\n|  | Load Index Single/ Dual Single/Dual Single/Dual |  | (12) | 158 | 160 | 150/147 | 152/148 | 154/148 | 154/150 | 158 | 160 | 164 | 134/132 | 136/134 | 133/131 | 136/134 | 136/134 | 140/138 | 140/137 | 146/144 | 146/144 | 136/133 | 140/137 | 148/145 | 150/145 |\n|  | Overall Diameter | Maximum Overall diameter Special Service mm | (11) | 1022 |  | 947 | 972 |  |  | 1102 |  |  | 809 |  | 859 |  | 889 |  | 919 |  |  | 952 |  | 982 |  |\n|  |  | Maximum Overall diameter Normal Service mm | (10) | 1012 |  | 940 | 966 |  |  | 1092 |  |  | 803 |  | 853 |  | 882 |  | 911 |  |  | 944 |  | 974 |  |\n|  |  | Minimum Overall Diameter Special Service mm | (9) | 984 |  | 915 | 939 |  |  | 1057 |  |  | 779 |  | 829 |  | 856 |  | 883 |  |  | 919 |  | 946 |  |\n|  |  | Minimum Overall Diameter Normal Service mm | (8) | 984 |  | 915 | 939 |  |  | 1057 |  |  | 779 |  | 829 |  | 856 |  | 883 |  |  | 919 |  | 946 |  |\n|  |  | Design Overall Diameter mm | (7) | 996 |  | 926 | 950 |  |  | 1072 |  |  | 789 |  | 839 |  | 867 |  | 895 |  |  | 930 |  | 958 |  |\n|  | Width | Maximum Overall Width mm | (6) | 401 396 |  | 304 312 | 326 318 |  |  | 405 410 |  |  | 258 250 |  | 258 250 |  | 272 264 |  | 294 286 |  |  | 265 257 |  | 287 279 |  |\n|  |  | Minimum Section Width mm | (5) | 371 366 |  | 280 288 | 300 292 |  |  | 373 378 |  |  | 238 230 |  | 238 230 |  | 252 244 |  | 272 264 |  |  | 245 237 |  | 265 257 |  |\n|  |  | Design Section Width mm | (4) | 386 381 |  | 292 300 | 313 305 |  |  | 389 394 |  |  | 248 240 |  | 248 240 |  | 262 254 |  | 283 275 |  |  | 255 247 |  | 276 268 |  |\n| Rim Rec. Alt. |  |  | (3) | 12.25 11.75 |  | 9.00 9.75 | 9.75 9.00 |  |  | 11.75 12.25 |  |  | 7.50 6.75 |  | 7.50 6.75 |  | 7.50 6.75 |  | 8.25 7.50 |  |  | 7.50 6.75 |  | 8.25 7.50 |  |\n| Tyre Size Designation |  |  | (2) | 385/55R22.5 |  | 295/60R22.5 | 315/60R22.5 |  |  | 385/65R22.5 |  |  | 245/70R17.5 |  | 245/70R19.5 |  | 265/70R19.5 |  | 285/70R19.5 |  |  | 255/70R22.5 |  | 275/70R22.5 |  |\n| Sl No. |  |  | 1) | i) |  | ii) | iii) |  |  | iv) |  |  | v) |  | vi) |  | vii) |  | viii) |  |  | ix) |  | x) |  |\n\n\nTable 19 Truck, Bus and Trailer Tyres in Highway Service (‘55’ to ‘95’ Series Metric Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 35,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 30,
+      "page_end": 30,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 76986,
+      "char_end": 79948,
+      "semantic_chunk_length": 2962,
+      "final_chunk_length": 3264,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0036",
+    "text": "22.5 |  |\n| Sl No. |  |  | 1) | i) |  | ii) | iii) |  |  | iv) |  |  | v) |  | vi) |  | vii) |  | viii) |  |  | ix) |  | x) |  |\n\n\nTable 19 Truck, Bus and Trailer Tyres in Highway Service (‘55’ to ‘95’ Series Metric Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| New Tyre In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (12) | 850 | 900 | 900 | 675 | 700 | 750 | 675 | 725 | 550 | 725 | 775 | 750 | 850 | 800 | 850 | 850 | 825 | 850 | 900 | 850 | (1 In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum load kg Single/Dual Single/Dual |  | (13) | 3550/3150 | 3750/3350 | 4000/3350 | 1600/1550 | 1700/1600 | 1800/1700 | 1700/1650 | 1850/1750 | 1550/1450 | 1900/1800 | 2000/1900 | 2900/2725 | 3250/3000 | 3350/3000 | 3550/3150 | 3750/3250 | 3750/3350 | 4000/3350 | 4250/3350 | 4750/4500 |  |\n|  | Load Index Single/ Dual Single/Dual Single/Dual |  | (12) | 152/148 | 154/150 | 156/150 | 124/123 | 126/124 | 128/126 | 126/125 | 129/127 | 123/121 | 130/128 | 132/130 | 145/143 | 149/146 | 150/146 | 152/148 | 154/149 | 154/150 | 156/150 | 158/150 | 162/160 |  |\n|  | Overall Diameter | Maximum Overall diameter Special Service mm | (11) | 1040 |  |  | 787 |  |  | 803 |  | 818 |  |  | 1038 |  | 1072 |  |  | 1106 |  |  | 1256 |  |\n|  |  | Maximum Overall diameter Normal Service mm | (10) | 1032 |  |  | 780 |  |  | 797 |  | 811 |  |  | 1030 |  | 1063 |  |  | 1096 |  |  | 1252 |  |\n|  |  | Minimum Overall Diameter Special Service mm | (9) | 1001 |  |  | 757 |  |  | 773 |  | 786 |  |  | 999 |  | 1030 |  |  | 1061 |  |  | 1210 |  |\n|  |  | Minimum Overall Diameter Normal Service mm | (8) | 1001 |  |  | 757 |  |  | 773 |  | 786 |  |  | 999 |  | 1030 |  |  | 1061 |  |  | 1210 |  |\n|  |  | Design Overall Diameter mm | (7) | 1014 |  |  | 767 |  |  | 783 |  | 797 |  |  | 1012 |  | 1044 |  |  | 1076 |  |  | 1228 |  |\n|  | Width | Maximum Overall Width mm | (6) | 318 326 |  |  | 220 228 |  |  | 235 243 |  | 242 250 |  |  | 287 279 |  | 310 302 |  |  | 318 326 |  |  | 332 342 |  |\n|  |  | Minimum Section Width mm | (5) | 300 308 |  |  | 204 212 |  |  | 217 225 |  | 224 232 |  |  | 265 257 |  | 286 278 |  |  | 300 308 |  |  | 312 322 |  |\n|  |  | Design Section Width mm | (4) | 312 320 |  |  | 212 220 |  |  | 226 234 |  | 233 241 |  |  | 276 268 |  | 298 290 |  |  | 312 320 |  |  | 325 335 |  |\n| Rim Rec. Alt. |  |  | (3) | 9.00 9.75 |  |  | 6.00 6.75 |  |  | 6.75 7.50 |  | 6.75 7.50 |  |  | 8.25 7.50 |  | 9.00 8.25 |  |  | 9.00 9.75 |  |  | 9.00 10.00 |  |\n| Tyre Size Designation |  |  | (2) | 315/70R22.5 |  |  | 215/75R17.5 |  |  | 225/75R17.5 |  | 235/75R17.5 |  |  | 275/80R22.5 |  | 295/80R22.5 |  |  | 315/80R22.5 |  |  | 325/95R24 |  |\n| Sl No. |  |  | 1) | xi) |  |  | xii) |  |  | xiii) |  | xiv) |  |  | xv) |  | xvi) |  |  | xvii) |  |  | xviii |  |\n\n\nTable 19 ( Concluded )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 36,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 31,
+      "page_end": 31,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 79954,
+      "char_end": 82652,
+      "semantic_chunk_length": 2698,
+      "final_chunk_length": 3000,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0037",
+    "text": "| New Tyre In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (15) | 875/875 |\n| --- | --- | --- | --- | --- |\n|  | Maximum load kg Single/Dual Single/Dual |  | (14) | 4000/3350 |\n|  | Load Index Single/Dual Single/Dual Single/Dual |  | (13) | 156/150 |\n|  | Ply Rating |  | (12) | 18 |\n|  | Overall Diameter | Maximum Overall diameter Special Servicemm | (11) | 1158 |\n|  |  | Maximum Overall diameter Normal Service mm | (10) | 1146 |\n|  |  | Minimum Overall Diameter Special Service mm | (9) | 1108 |\n|  |  | Minimum Overall Diamter Normal Service mm | (8) | 1108 |\n|  |  | Design Overall Diameter mm | (7) | 1124 |\n|  | Width | Maximum Overall Width mm | (6) | 326 318 |\n|  |  | Minimum Section Width mm | (5) | 308 300 |\n|  |  | Design Section Width mm | (4) | 320 312 |\n| Rim Rec. |  |  | (3) | 9.75 9.00 |\n| Tyre Size Designation |  |  | (2) | 13R22.5 |\n| Sl No. |  |  | 1) | i) |\n\n\nTable 20 Truck, Bus and Trailer Tyres in Highway Service (Code Designated Radial Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n\nTable 21 Light Truck Tyres (‘80’ Series Metric Designated Diagonal Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2,4.1.1.3,4.1.2, 4.1.3 and 6.3 )\n\n\n\n| New Tyre- In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 350/350 | 450/450 | 345/345 | 450/450 | 350/350 | 450/450 | 375/375 450/450 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 450/425 | 515/500 | 475/450 | 560/530 | 487/437 | 580/530 | 615/580 670/630 |\n|  | Load Index Single/ Dual |  | (12) | 80/78 | 85/84 | 82/80 | 88/86 | 83/79 | 89/86 | 91/89 94/92 |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 450/425 | 515/500 | 480/455 | 560/535 | 487/437 | 580/530 | 615/580 670/630 |\n|  | Ply Rating |  | (10) | 6 | 8 | 6 | 8 | 6 | 8 | 6 8 |\n|  | Overall Diameter (mm) | Maximum | (9) | 549 |  | 565 |  | 577 |  | 609 |\n|  |  | Minimum | (8) | 530 |  | 546 |  | 561 |  | 588 |\n|  |  | Design | (7) | 537 |  | 553 |  | 569 |  | 596 |\n|  | Width (mm) | Maximum Overall Width | (6) | 152 147 |  | 165 160,170 |  | 173 |  | 175 170,180 |\n|  |  | Minimum Section Width | (5) | 139 134 |  | 151 146,156 |  | 158 |  | 160 155,165 |\n|  |  | Design Section Width | (4) | 145 140 |  | 157 152,162 |  | 165 |  | 167 162,172 |\n| Rim Rec. Alt. |  |  | (3) | 4.00B 3.50B |  | 4½J 4J,5J |  | 4.50E |  | 4½J 4J,5J |\n| Tyre Size Designation |  |  | (2) | 145/80D12LT |  | 155/80D12LT |  | 165/80D12LT |  | 165/80D13LT |\n| Sl No. |  |  | (1) | i) |  | ii) |  | iii) |  | iv) |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 37,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 32,
+      "page_end": 32,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 82658,
+      "char_end": 85286,
+      "semantic_chunk_length": 2628,
+      "final_chunk_length": 2628,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0038",
+    "text": ") | 145 140 |  | 157 152,162 |  | 165 |  | 167 162,172 |\n| Rim Rec. Alt. |  |  | (3) | 4.00B 3.50B |  | 4½J 4J,5J |  | 4.50E |  | 4½J 4J,5J |\n| Tyre Size Designation |  |  | (2) | 145/80D12LT |  | 155/80D12LT |  | 165/80D12LT |  | 165/80D13LT |\n| Sl No. |  |  | (1) | i) |  | ii) |  | iii) |  | iv) |\n\n| New Tyre- In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 375/375 450/450 | 450/450 | 450/450 | 310/310 | 415/415 | 350/350 | 450/450 | 310/310 | 415/415 | 515/515 | 450/450 | 550/550 | (1 In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 650/615 730/690 | 775/750 | 850/800 | 710/650 | 850/775 | 850/800 | 975/925 | 800/730 | 950/875 | 1090/1000 | 1120/1060 | 1250/1180 |  |\n|  | Load Index Single/ Dual |  | (12) | 93/91 97/95 | 99/98 | 102/100 | 96/93 | 102/99 | 102/100 | 107/105 | 100/97 | 106/103 | 111/108 | 112/110 | 116/114 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 650/615 730/690 | 775/750 | 850/800 | 710/650 | 850/775 | – | – | 800/730 | 950/875 | 1090/1000 | – | – |  |\n|  | Ply Rating |  | (10) | 6 8 | 8 | 8 | 6 | 8 | – | – | 6 | 8 | 10 | – | – |  |\n|  | Overall Diameter (mm) | Maximum | (9) | 632 | 650 | 667 | 709 |  |  |  | 717 |  |  |  |  |  |\n|  |  | Minimum | (8) | 612 | 628 | 643 | 684 |  |  |  | 690 |  |  |  |  |  |\n|  |  | Design | (7) | 624 | 636 | 652 | 693 |  |  |  | 700 |  |  |  |  |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 175 170,180 | 186 181,191 | 198 193,203 | 206 201,211 |  |  |  | 227 222,232 |  |  |  |  |  |\n|  |  | Minimum Section Width | (5) | 162 157,167 | 170 165,175 | 181 176,186 | 190 185,195 |  |  |  | 210 205,215 |  |  |  |  |  |\n|  |  | Design Section Width | (4) | 167 162,172 | 177 172,182 | 189 184,194 | 196 191,201 |  |  |  | 216 211,221 |  |  |  |  |  |\n| Rim Rec. Alt. |  |  | (3) | 4½J 4J,5J | 5J 4½J,.5½J | 5½J 5J,6J | 5½J 5J,6J |  |  |  | 6J 5½J,6½J |  |  |  |  |  |\n| Tyre Size Designation |  |  | (2) | 165/80D14LT | 175/80D14LT | 185/80D14LT | 195/80D15LT |  |  |  | 215/80D14LT |  |  |  |  |  |\n| Sl No. |  |  | (1) | v) | vi) | vii) | viii) |  |  |  | ix) |  |  |  |  |  |\n\n\nTable 21 ( Concluded )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 38,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 33,
+      "page_end": 33,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 85291,
+      "char_end": 87297,
+      "semantic_chunk_length": 2006,
+      "final_chunk_length": 2308,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0039",
+    "text": "J | 5½J 5J,6J | 5½J 5J,6J |  |  |  | 6J 5½J,6½J |  |  |  |  |  |\n| Tyre Size Designation |  |  | (2) | 165/80D14LT | 175/80D14LT | 185/80D14LT | 195/80D15LT |  |  |  | 215/80D14LT |  |  |  |  |  |\n| Sl No. |  |  | (1) | v) | vi) | vii) | viii) |  |  |  | ix) |  |  |  |  |  |\n\n\nTable 21 ( Concluded )\n\n| New Tyre- In l fated | Cold I. P1) kPa (Corresponding to Maximum load) Single/Dual |  | (14) | 350/350 | 450/450 | 375/375 450/450 | 375/375 450/450 | 375/375 450/450 | 375/375 450/450 575/575 | 450/450 | (1 In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) kg Single/Dual |  | (13) | 487/437 | 580/530 | 615/580 670/630 | 650/615 730/690 | 710/670 775/750 | 775/730 850/800 975/925 | 1030/975 |  |\n|  | Load Index Single/Dual |  | (12) | 83/79 | 89/86 | 91/89 94/92 | 93/91 97/95 | 96/94 99/98 | 99/97 102/100 107 /105 | 109/107 |  |\n|  | Maximum Load (corresponding to Ply Rating) kg Single/Dual |  | (11) | 487/437 | 580/530 | 615/580 670/630 | 650/615 730/690 | 710/670 775/750 | 775/730 850/800 975/925 | 1030/975 |  |\n|  | Ply Rating |  | (10) | 6 | 8 | 6 8 | 6 8 | 6 8 | 6 8 10 | 8 |  |\n|  | Overall Diameter (mm) | Maximum | (9) | 586 |  | 609 | 637 | 652 | 668 | 700 |  |\n|  |  | Minimum | (8) | 565 |  | 588 | 613 | 630 | 644 | 674 |  |\n|  |  | Design | (7) | 573 |  | 596 | 622 | 638 | 653 | 684 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 175 170,180 |  | 175 170,180 | 175 170,180 | 187 182,192 | 197 192,202 | 213 218,223 |  |\n|  |  | Minimum Section Width | (5) | 160 155,165 |  | 160 155,165 | 160 155,165 | 171 166,176 | 180 175,185 | 195 200,205 |  |\n|  |  | Design Section Width | (4) | 167 162,172 |  | 167 162,172 | 167 162,172 | 178 173,183 | 188 183,193 | 203 208,213 |  |\n| Rim Rec. Alt. |  |  | (3) | 4½J 4J,5J |  | 4½J 4J,5J | 4½J 4J,5J | 5J 4½J,.5½J | 5½J 5J,6J | 5½J 6J, 6½J |  |\n| Tyre Size Designation |  |  | (2) | 165D12LT |  | 165D13LT | 165D14LT | 175D14LT | 185D14LT | 205D14LT |  |\n| Sl No. |  |  | (1) | i) |  | ii) | iii) | iv) | v) | vi) |  |\n\n\nTable 22 Light Truck Tyres (Metric Designated Diagonal Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 39,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 34,
+      "page_end": 34,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 87303,
+      "char_end": 89214,
+      "semantic_chunk_length": 1911,
+      "final_chunk_length": 2213,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0040",
+    "text": "| New Tyre – In l fated | Cold I. P1)(Corresponding to Maximum load)kPa |  | (12) | 275 | 380 | 275 | 275 | 380 | 415 | 515 | 620 | 725 | 585 | 515 | 550 | 515 | 620 | 585 | 515 | 620 | 515 | 620 | 725 | 760 | 655 | 725 | 585 | 690 | 790 | 1) In l fation Pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load kg |  | (11) | 780 | 925 | 650 | 815 | 965 | 1 530 | 1 740 | 1 940 | 2 120 | 2 030 | 1 610 | 1 405 | 1 610 | 1 790 | 2 050 | 2 160 | 2 405 | 2 355 | 2 620 | 2 865 | 2 945 | 3 080 | 3 265 | 3 965 | 4 360 | 4 730 |  |\n|  | Ply Rating |  | (10) | 6 | 8 | 6 | 6 | 8 | 10 | 12 | 14 | 16 | 12 | 10 | 10 | 10 | 12 | 12 | 12 | 14 | 12 | 14 | 16 | 18 | 16 | 18 | 18 | 20 | 22 |  |\n|  | Overall Diameter (mm) | Maximum | (9) | 774 |  | 747 | 800 |  | 928 |  |  |  | 990 | 947 | 962 | 993 |  | 1 055 | 1 081 |  | 1 122 |  |  |  | 1 162 |  | 1 294 |  |  |  |\n|  |  | Minimum | (8) | 744 |  | 721 | 770 |  | 888 |  |  |  | 945 | 912 | 927 | 956 |  | 1 013 | 1 038 |  | 1 075 |  |  |  | 1 112 |  | 1 235 |  |  |  |\n|  |  | Design | (7) | 755 |  | 731 | 781 |  | 903 |  |  |  | 962 | 925 | 940 | 970 |  | 1 029 | 1 054 |  | 1 093 |  |  |  | 1 131 |  | 1 257 |  |  |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 213 |  | 179 | 213 |  | 266 | 271 266 |  |  | 289 | 243 | 230 225 | 253 248 |  | 278 273 | 297 292 |  | 314 309 |  |  |  | 337 332 |  | 405 |  |  |  |\n|  |  | Minimum Section Width | (5) | 191 |  | 161 | 191 |  | 239 | 243 238 |  |  | 260 | 218 | 207 202 | 227 222 |  | 249 244 | 267 262 |  | 282 277 |  |  |  | 303 298 |  | 364 |  |  |  |\n|  |  | Design Section Width | (4) | 197 |  | 166 | 197 |  | 246 | 251 246 |  |  | 268 | 225 | 213 208 | 234 229 |  | 257 252 | 275 270 |  | 291 286 |  |  |  | 312 307 |  | 375 |  |  |  |\n| Rims Rec. Alt. |  |  | (3) | 5. 50F |  | 4. 50E | 5. 50F |  | 6. 00T | 6. 50H 6. 00G |  |  | 6. 00T | 5.00 | 6.0 5.5 | 6.5 6.0 |  | 7.0 6.5 | 7.5 7.0 |  | 8.0 7.5 |  |  |  | 8.5 8.0 |  | 10.00V 10.00W |  |  |  |\n| Tyre Size Designation Tread Pattern Type |  |  | (2) | 7. 00 – 15 MS |  | 6. 00 – 16 MS | 7. 00 – 16 MS |  | 9. 00 – 16 CC | 9. 00– 16/5 CC |  |  | 10. 50 – 16 CC | 8. 25 – 19 CC | 7. 50 – 20 CC | 8. 25 – 20 CC |  | 9 .00 – 20 CC | 10. 00 – 20 CC |  | 11. 00 – 20 CC |  |  |  | 12. 00 – 20 CC |  | 14. 00 – 20 CC |  |  |  |\n| Sl No. |  |  | (1) | i) |  | ii) | iii) |  | iv) |  |  |  | v) | vi) | vii) | viii) |  | ix) | x) |  | xi) |  |  |  | xii) |  | xiii) |  |  |  |\n\n\nTable 23 Light Truck and Truck Tyres For Military Applications (Code Designated Diagonal Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n\n\n\n\nTable 24 Special Purpose Tyres for Military Applications\n\n(Sand-cum-Highway) (Code Designated Diagonal Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 40,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 35,
+      "page_end": 36,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 89220,
+      "char_end": 92140,
+      "semantic_chunk_length": 2920,
+      "final_chunk_length": 2920,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0041",
+    "text": "k Tyres For Military Applications (Code Designated Diagonal Ply)\n\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n\n\n\n\nTable 24 Special Purpose Tyres for Military Applications\n\n(Sand-cum-Highway) (Code Designated Diagonal Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| New Tyres In l fated | Cold I. P1) (Corresponding to Maximum load) kPa |  | (13) | 415 | 760 | 380 | 515 | 725 | 825 | 345 | 585 | 690 | 795 | 450 | 585 | 655 | 345 | 725 | 1) In l fation Pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load kg |  | (12) | 1120 | 2000 | 1030 | 2360 | 3350 | 3550 | 2240 | 4000 | 4375 | 4750 | 4000 | 4625 | 5150 | 4125 | 4375 |  |\n|  | Ply Rating |  | (11) | 8 | 16 | 6 | 12 | 18 | 20 | 10 | 18 | 20 | 22 | 12 | 16 | 18 | 12 | 18 |  |\n|  | Highway | km/h | (10) | 120 | 100 | 120 | 80 | 80 |  | 96 | 80 or 90 |  |  | 80 |  |  | 80 | 90 |  |\n|  | Overall Diameter (mm) | Maximum | (9) | 835 | 1016 | 813 | 1122 | 1178 |  | 1163 | 1294 |  |  | 1368 |  |  | 1326 | 1193 |  |\n|  |  | Minimum | (8) | 803 | 997 | 776 | 1075 | 1127 |  | 1109 | 1235 |  |  | 1304 |  |  | 1265 | 1140 |  |\n|  |  | Design | (7) | 815 | 992 | 790 | 1093 | 1146 |  | 1129 | 1257 |  |  | 1328 |  |  | 1288 | 1160 |  |\n|  | Width (mm) | Maximum Overall Width | (6) | 232 | 248 | 254 | 319 | 335 |  | 363 | 416 |  |  | 445 |  |  | 551 | 386 376 |  |\n|  |  | Minimum Section Width | (5) | 209 | 229 | 228 | 286 | 301 |  | 326 | 373 |  |  | 400 |  |  | 509 | 346 336 |  |\n|  |  | Design Section Width | (4) | 215 | 236 | 235 | 295 | 310 |  | 336 | 385 |  |  | 412 |  |  | 525 | 357 347 |  |\n| Rims Rec. Alt. |  |  | (3) | 5.50F | 6.5 | 5.50F DC or Div. | 8.0 | 8.0 |  | 9.0 | 10.00W 10.00V |  |  | 11.25 |  |  | 440 | 10 B9.0 |  |\n| Tyre Size Designation Tread Pattern Type |  |  | (2) | 7.50-16 SCH | 8.25-20 SCH | 9.00-13 SCH | 11.00-20 SCH | 12.00-20 SCH |  | 13.00-18 SCH | 14.00-20 SCH |  |  | 15.00-21 SCH |  |  | 1300x530-533 SCH | 355/90-20 SCH |  |\n| Sl No. |  |  | (1) | i) | ii) | iii) | iv) | v) |  | vi) | vii) |  |  | viii) |  |  | ix) | x) |  |\n\n\nTable 25 Truck Tyres For Military Applications (Metric Designated Diagonal Ply)\n\n( Clauses 4.1.1.1,4.1.1.2 , 4.1.1.3,4.1.2,4.1.3 and 6.3 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 41,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 37,
+      "page_end": 37,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 92146,
+      "char_end": 94146,
+      "semantic_chunk_length": 2000,
+      "final_chunk_length": 2302,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0042",
+    "text": "5.00-21 SCH |  |  | 1300x530-533 SCH | 355/90-20 SCH |  |\n| Sl No. |  |  | (1) | i) | ii) | iii) | iv) | v) |  | vi) | vii) |  |  | viii) |  |  | ix) | x) |  |\n\n\nTable 25 Truck Tyres For Military Applications (Metric Designated Diagonal Ply)\n\n( Clauses 4.1.1.1,4.1.1.2 , 4.1.1.3,4.1.2,4.1.3 and 6.3 )\n\n| New Tyre– In l fated | Maximum Load/Cold I.P1) (Corresponding to Maximum load) kg/kPa |  | 14 | ‘80’ Series – Metric Designation | 4125 kg/ 795 kPa | ‘85’ Series – Metric Designation | 4000 kg/ 620 kPa | 5000 kg/ 760 kPa | ‘90’ Series – Metric Designation | 4375 kg/ 725 kPa | 1) In l fation Pressure |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | PR |  | 13 |  | 18 |  | 18 | 20 |  | 18 |  |\n|  | Dia. mm Max.Overall | Special Service | 12 |  | – |  | 1172 |  |  | - |  |\n|  |  | Normal Service | 11 |  | 1186 |  | 1159 |  |  | 1193 |  |\n|  | Overall Dia. mm Min. | Special Service | 10 |  | – |  | 1121 |  |  | - |  |\n|  |  | Normal Service | 9 |  | 1135 |  | 1109 |  |  | 1140 |  |\n|  | Design Overall Dia. mm | Special Service | 8 |  | – |  | 1140 |  |  | - |  |\n|  |  | Normal Service | 7 |  | 1154 |  | 1128 |  |  | 1160 |  |\n|  | Max. Overall Width mm |  | 6 |  | 349 339,344 |  | 375 |  |  | 383 378,388 |  |\n|  | Min. Section Width mm |  | 5 |  | 313 303,308 |  | 349 |  |  | 344 339,349 |  |\n|  | Design Section Width mm |  | 4 |  | 323 313,318 |  | 364 |  |  | 355 350,360 |  |\n| Rim Rec./Alt. |  |  | 3 |  | B9.00 B8.0,B8.5 |  | 10.00 W 10.0 V 50 |  |  | B9.5 B9.0,10.00W |  |\n| Tyre Size Designation Tread Pattern Type |  |  | 2 |  | 325D20 CC |  | 365/85D20 CC |  |  | 355/90-20 CC |  |\n| Sl No. |  |  | 1 |  | i) |  | ii) |  |  | iii) |  |\n\n\nTable 26 Truck Tyres For Military Applications (Code Designated Diagonal Ply)\n\n( Clauses 4.1.1.1,4.1.1.2 , 4.1.1.3,4.1.2,4.1.3 and 6.3 )\n\n| New Tyre–In l fated | Cold I. P1) (Corresponding to Maximum load) kPa | (12) | 515 | 1) In l fation Pressure |\n| --- | --- | --- | --- | --- |\n|  | Maximum Load kg | (11) | 2355 |  |\n|  | Ply Rating | (10) | 12 |  |\n|  | Maximum Overall Diameter mm | (9) | 1114 |  |\n|  | Minimum Overall Diameter mm | (8) | 1068 |  |\n|  | Design Overall Diameter. mm | (7) | 1085 |  |\n|  | Maximum Overall Width mm | (6) | 319 |  |\n|  | Minimum Section Width mm | (5) | 286 |  |\n|  | Design Section Width mm | (4) | 295 |  |\n| Rim |  | (3) | 8.0 |  |\n| Tyre Size Designation/Tread Pattern |  | (2) | 11.00-20 Sand |  |\n| Sl No. |  | (1) | i) |  |\n\n\n\n\n\n\nTable 27 Truck Tyres For Military Applications (Metric Designated Diagonal Ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n| New Tyre – In l fated | Cold I. P1) (Corresponding to Maximum load) kPa | (12) | 725 | (1 In l fation pressure |\n| --- | --- | --- | --- | --- |\n|  | Maximum Load kg | (11) | 4500 |  |\n|  | Ply Rating | (10) | 18 |  |\n|  | Maximum Overall Diameter mm | (9) | 1199 |  |\n|  | Minimum Overall Diameter mm | (8) | 1146 |  |\n|  | Design Overall Diameter. mm | (7) | 1166 |  |\n|  | Maximum Overall Width mm | (6) | 394 |  |\n|  | Minimum Section Width mm | (5) | 354 |  |\n|  | Design Section Width mm | (4) | 365 |  |\n| Rims Rec. Alt. |  | (3) | 10.00 W 10.0 V 50 |  |\n| Tyre Size Designation/Tread Pattern |  | (2) | 365/90-20 Sand |  |\n| Sl No. |  | (1) | i) |  |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 42,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 37,
+      "page_end": 38,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 94152,
+      "char_end": 97124,
+      "semantic_chunk_length": 2972,
+      "final_chunk_length": 3274,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0043",
+    "text": "Table 28 Low Platform Trailer Tyres (Free-Rolling sizes) (Code Designated Diagonal ply)\n\n( Clauses 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3 and 6.3 )\n\n\n\n| New Tyre – In l fated | Cold I. P1) Single/Dual (Corresponding to Maximum load) kPa | (14) | 850/850 | 800/800 | 850/850 | (1 In l fation pressure |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Maximum Load (Corresponding to Load Index) Single/Dualkg | (13) | 2180/2060 | 1900/1800 | 2650/2575 |  |\n|  | Load Index Single/Dual | (12) | 135/133 | 130/128 | 142/141 |  |\n|  | Maximum Load (corresponding to Ply Rating) Single/Dual Kg | (11) | 2180/2060 | 1900/1800 | 2650/2575 |  |\n|  | Ply Rating | (10) | 12 | 14 | 18 |  |\n|  | Maximum Overall Diameter mm | (9) | 784 | 850 |  |  |\n|  | Minimum Overall Diameter mm | (8) | 760 | 822 |  |  |\n|  | Design Overall Diameter mm | (7) | 772 | 836 |  |  |\n|  | Maximum Overall Width mm | (6) | 223 228 | 246 241,251 |  |  |\n|  | Minimum Section Width mm | (5) | 206 211 | 227 222,232 |  |  |\n|  | Design Section Width mm | (4) | 212 217 | 234 229,239 |  |  |\n| Rims Rec. Alt. |  | (3) | 6.0 6.5 | 6.5 6.0/7.0 |  |  |\n| Tyre Size Designation |  | (2) | 7.50-15 | 8.25-15 |  |  |\n| Sl No. |  | (1) | i) | ii) |  |  |\n\n\n\n\nTable 29 Endurance Test Programme\n\n( Clause 4.2 and B-2.2 )\n\n\n\n| Load Placed on the Wheel as a Percentage of the Load Corresponding to the Load Index | 24 h | (8) | 101 percent |  |  |  |  |  |  |  |  |  | 106 percent | 24h | 114 percent | 114 percent | 114 percent | NOTES ‘Special-use’ tyres should be tested at a speed equal to 85percent of the speed prescribed for equivalent normal tyres. 1 \u0007Tyres with load index 122 or more, speed categories N or P and the additional marking ‘LT’ or ‘C’ included in the tyre size designation shall be tested with the 2 same programme as speci i fed in the above table for tyres with load index 121 or less. |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 16 h | (7) | 84 percent |  |  |  |  |  |  |  |  |  | 88 percent | 6 h. | 97 percent | 97 percent | 97 percent |  |\n|  | 7 h | (6) | 66 percent |  |  |  |  |  |  |  |  |  | 70 percent | 4h. | 75 percent | 75 percent | 75 percent |  |\n| rpm Test-drum Speed | Diagonal (bias-ply) | (5) | 100 | 100 | 125 | 150 | – | – | 100 | 125 | 150 | 175 | 175 |  | 200 | – | – |  |\n|  | Radial-ply | (4) | 100 | 125 | 150 | 175 | 200 | 225 | 100 | 125 | 150 | 175 | 200 |  | 250 | 275 | 300 |  |\n| Tyre Speed Category |  | (3) | F | G | J | K | L | M | F | G | J | K | L |  | M | N | P |  |\n| Load Index |  | (2) | 122 or more |  |  |  |  |  | 121 or less |  |  |  |  |  |  |  |  |  |\n| Sl No. |  | (1) | i) |  |  |  |  |  | ii) |  |  |  |  |  |  |  |  |  |\n\n\n\n\nTable 30 Tyre Strength -Light Truck and Truck and Bus Tyres (For which the Load Index is Shown)\n\n( Clause 4.5 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 43,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 38,
+      "page_end": 40,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 97127,
+      "char_end": 99976,
+      "semantic_chunk_length": 2849,
+      "final_chunk_length": 2849,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0044",
+    "text": "| Sl No. | Air Pressure Corresponding to the Maximum Load Capability kPa | Load Index (Single Wheel) 121 Maximum |  | Load Index (Single Wheel) 122 or More Joules(kgf.cm) |\n| --- | --- | --- | --- | --- |\n|  |  | Nominal Rim Diameter under 13 Joules (kgf.cm) | Nominal Rim Diameter 13 or more Joules (kgf.cm) |  |\n| (1) | (2) | (3) | (4) | (5) |\n| i) | 250 or less | 136(1385) | 294 (3 000) | – |\n| ii) | 251 to 350 | 203(2 072) | 362 (3 690) | – |\n| iii) | 351 to 450 | 271(2 765) | 514 (5 240) | – |\n| iv) | 451 to 550 | – | 576 (5 875) | 972 (9 910) |\n| v) | 551 to 650 | – | 644 (6 565) | 1 412 (14 400) |\n| vi) | 651 to 750 | – | 712 (7 260) | 1 695 (17 285) |\n| vii) | 751 to 850 | – | – | 2 090 (21 310) |\n| viii) | 851 or more | – | – | 2 203 (22 465) |\n| NOTE — Inflate to the pressure corresponding to the maximum load, or maximum dual load where there is both single and dual load marked on the tyre. |  |  |  |  |\n\n\nTable 31 Tyre Strength – Ultra Light Truck, Light Truck and Truck and Bus Tyres (for which Ply Rating and/or Both Ply Rating and Load Index is Shown)\n\n( Clause 4.5 )\n\n| Sl No. | Ply Rating | Ultra Light Truck Tyre, Light Truck Tyre |  |  | Truck and Bus |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  | Nominal Rim Diameter Under 13 Joules (kgf.cm) | Nominal Rim Diameter 13 to 14 Joules (kgf.cm) | Nominal Rim Diameter 14.5 or More Joules (kgf.cm) | Tubeless Joules (kgf.cm) | With Tube Joules (Kgf.cm) |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) |\n| i) | 4 | 136 (1 385) | 192 (1 960) | 294 (3 000) | – | – |\n| ii) | 6 | 203 (2 072) | 271 (2 765) | 362 (3 690) | 576 (5 875) | 768 (7 830) |\n| iii) | 8 | 271 (2 765) | 384 (3 915) | 514 (5 240) | 734 (7 485) | 893 (9 105) |\n| iv) | 10 | – | 576 (5 875) | 576 (5 875) | 972 (9 910) | 1 412 (14 400) |\n| v) | 12 | – | – | 644 (6 565) | 1 412 (14 400) | 1 785 (18 200) |\n| vi) | 14 | – | – | 712 (7 260) 1 412 (14 400)* | 1 695 (17 285) | 2 282 (23 270) |\n| vii) | 16 | – | – | 768 (7 830) 1 695 (17 285)* | 2 090 (21 310) | 2 599 (26 500) |\n| vii) | 18 | – | – | 2 090 (21 310)* | 2 203 (22 465) | 2 825 (28 805) |\n| ix) | 20 | – | – | – | 2 379 (24 260) | 3 051 (31 100) |\n| x) | 22 | – | – | – | 2 512 (25 620)** | 3 220 (32 835)** |\n| xi) | 24 | – | – | – | 2 643 (26 955)** | 3 390 (34 560)** |\n| NOTES 1 For tyre strength values indicated by star (*) (see column 5) plunger diameter 32 mm shall be used during the test. 2 For tyre strength values indicated by double star (**) (see column 6 and 7) i.e. tyre sizes with 22PR and 24PR are not meant for normal highway service. 3 For rayon tyres, the minimum requirement shall be 60 percent of the above values for the corresponding size and ply rating tested under identical conditions. 4 Inflate to the pressure corresponding to the maximum load, or maximum dual load where there is both single and dual load marked on the tyre. |  |  |  |  |  |  |\n\n\n\n\n\n\n**Table 32 Diameter of Plunger (For the Tyres of Which the Load Index is Shown)**\n\n( Clause 4.5 and D-1 )",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 44,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 40,
+      "page_end": 41,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 99978,
+      "char_end": 102978,
+      "semantic_chunk_length": 3000,
+      "final_chunk_length": 3000,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0045",
+    "text": "der identical conditions. 4 Inflate to the pressure corresponding to the maximum load, or maximum dual load where there is both single and dual load marked on the tyre. |  |  |  |  |  |  |\n\n\n\n\n\n\n**Table 32 Diameter of Plunger (For the Tyres of Which the Load Index is Shown)**\n\n( Clause 4.5 and D-1 )\n\n| Sl No. | Load Index (Single Wheel) | Plunger Diameter mm |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 121 or less | 19 ± 0.2 |\n| ii) | 122 to 134 | 32 ± 0.3 |\n| iii) | 135 or more | 38 ± 0.3 |\n\n\nTable 33 Diameter of Plunger (for the Tyre of Which the Load Capability Index is Not Shown)\n\n( Clauses 4.5 and D-1 )\n\n| Sl No. | Ultra Light Truck, Light Truck Tyre |  | Truck and Bus Tyres |  |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n|  | 12 Ply Rating or under | 14 Ply Rating or above | 12 Ply Rating or under | 14 Ply Rating or above |\n| i) | 19 ± 0.2mm |  | 32 ± 0.3mm | 38 ± 0.3mm |\n\n\n**Table 34 Type Test Schedule**\n\n( Clause 6.1 )\n\n| Sl No. | Tests | TYRE 1 | TYRE 2 | TYRE 3 |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n| i) Tyre marking |  | √ | — | — |\n| ii) | Tyre dimensions | √ | — | — |\n| iii) | Tread wear indicator | √ | — | — |\n| iv) | Tyre strength test | √ | — | — |\n| v) Endurance test |  | — | √ | — |\n| vi) | Load/speed performance test | — | — | √ |\n\n\n**Table 35 Conformity of Production Tests**\n\n( Clause 7.2 )\n\n| Sl No. | Tests | TYRE 1 | TYRE 2 |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) Tyre marking |  | √ | — |\n| ii) Tyre dimensions |  | √ | — |\n| iii) Tread wear indicator |  | √ | — |\n| iv) Tyre strength test |  | √ | — |\n| v) Endurance test |  | — | √ |\n| vi) | Load/speed performance test | — | √ |\n\n\n\n\n\n\n## ANNEX A\n\n( Clause 4.1 )\n\nMETHOD OF MEASURING PNEUMATIC TYRES\n\nA-1 The tyre shall be mounted on the measuring rim and inflated to a pressure corresponding to the maximum load, or maximum dual load where there is both single and dual load marked on the tyre.\n\nA-2 The tyre fitted on its rim shall be conditioned to the ambient temperature of the laboratory for at least 24 h.\n\nA-3 The pressure shall be readjusted to the value specified by the manufacturer.\n\nA-4 The overall width shall be callipered at six equally- spaced points, account being taken of the thickness of\n\nthe protective ribs or bands. The highest measurement so obtained is taken as the overall width.\n\nA-5 Determine the outer diameter by measuring the maximum circumference and dividing the figure so obtained by π (3.1416). The tyre overall diameter shall be calculated by using the following formula:\n\nDo = C / π where\n\nDo = Tyre overall diameter, in mm; and C = Circumference of tyre tread, in mm.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 45,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 41,
+      "page_end": 42,
+      "clause": "8",
+      "heading": "8 BIS CERTIFICATION MARKING",
+      "heading_path": [
+        "8 BIS CERTIFICATION MARKING"
+      ],
+      "char_start": 102980,
+      "char_end": 105352,
+      "semantic_chunk_length": 2372,
+      "final_chunk_length": 2674,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0046",
+    "text": "\n\nA-5 Determine the outer diameter by measuring the maximum circumference and dividing the figure so obtained by π (3.1416). The tyre overall diameter shall be calculated by using the following formula:\n\nDo = C / π where\n\nDo = Tyre overall diameter, in mm; and C = Circumference of tyre tread, in mm.\n\n## ANNEX B\n\n( Clause 4.2.1 )\n\nPROCEDURE FOR ENDURANCE TEST\n\nB-1 PREPARATION OF TYRE FOR TEST\n\nB-1.1 Mount a new tyre on the test rim specified by the manufacturer in pursuant to Annex G.\n\nB-1.2 Use a new inner tube or combination of inner tube, valve and flap (as required) when testing tyres with inner tubes.\n\nB-1.3 Inflate the tyre to the pressure corresponding to the maximum load, marked on the tyre.\n\nB-1.4 Condition the tyre-and-wheel assembly at test room temperature for not less than 3 h.\n\nB-1.5 Readjust the tyre pressure to that specified in B-1.3.\n\nB-2 TEST PROCEDURE\n\nB-2.1 Mount the tyre-and wheel assembly on the test axle and press it against the outer face of a smooth power-driven test drum 1.7 m ± 1 percent or 2.0 m ± 1 percent in diameter having a surface at least as wide as the tyre tread.\n\nB-2.2 Apply to the test axle a series of test loads expressed in percent of the load indicated, in Table 2, opposite the load index or maximum load engraved on the sidewall of the tyre, in accordance with the test programme given in Table 29. Where the tyre has load- capacity indices for both single and twinned utilization, the reference load for single utilization shall be taken as the basis for the test loads.\n\nB-2.3 The tyre pressure shall not be corrected throughout the test and the test load shall be kept constant throughout each of the three test stages.\n\nB-2.4 During the test the temperature in the test room shall be maintained at between 20°C and 40°C or at a higher temperature, if the manufacturer so agrees.\n\nB-2.5 The endurance-test shall be carried out without interruption.\n\n\n\n\n\n## ANNEX C\n\n( Clause 4.3 )\n\nPROCEDURE FOR LOAD/SPEED PERFORMANCE TEST\n\nC-1 PREPARATION OF TYRE FOR TEST\n\nC-1.1 A new tyre shall be fitted to the rim specified by the manufacturer.\n\nC-1.2 Use a new inner tube or combination of inner tube, valve and flap (as required) when testing tyres with inner tubes.\n\nC-1.3 Inflate the tyre to the pressure corresponding to the maximum load, marked on the tyre.\n\nC-1.4 Condition the tyre-and-wheel assembly at test- room temperature for not less than 3 h.\n\nC-1.5 Readjust the tyre pressure to that specified in C-1.3.\n\nC-2 TEST PROCEDURE\n\nC-2.1 Load placed on the wheel as a percentage of the load corresponding to the load index:\n\n- a) 90 percent when tested on a test drum 1.70 m ± 1 percent in diameter; and\n- b) 92 percent when tested on a test drum 2.0 m ± 1 percent in diameter.\n\nC-2.2 Initial test speed: speed corresponding to the speed symbol less 20km/h:\n\n- a) Time to reach the initial test speed for 10 min; and\n- b) Duration of the first step for 10 min.\n\nC-2.3 Second test speed: speed corresponding to the speed symbols less by10 km/h.\n\nDuration of the second step for 10 min.\n\nC-2.4 Final test speed: speed corresponding to the speed symbol (rated speed):\n\n- a) Duration of the final step for 30 min; and\n- b) Total test duration for 1 h.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 46,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 42,
+      "page_end": 43,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 105355,
+      "char_end": 108262,
+      "semantic_chunk_length": 2907,
+      "final_chunk_length": 3209,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0047",
+    "text": "p for 10 min.\n\nC-2.3 Second test speed: speed corresponding to the speed symbols less by10 km/h.\n\nDuration of the second step for 10 min.\n\nC-2.4 Final test speed: speed corresponding to the speed symbol (rated speed):\n\n- a) Duration of the final step for 30 min; and\n- b) Total test duration for 1 h.\n\n## ANNEX D\n\n( Clause 4.5 )\n\nTYRE STRENGTH TEST (PLUNGER TEST)\n\nD-1 APPARATUS\n\nThe equipment consists of a cylindrical steel plunger, having a hemispherical end of a diameter specified in the Tables 32 and 33 as applicable for type of tyre and a device to force the plunger rod into a tyre at the rate of 50 ± 1.5mm/min.\n\nD-1.1 Preparation of Tyre for the Test\n\nThe tyre with a tube shall be mounted and inflated on a test rim of the recommended size and shall be conditioned at the temperature of the room in which the test is to be conducted for at least 3 h after which the pressure shall be adjusted, if necessary, to the test inflation pressure.\n\nD-1.2 Test Procedure\n\nThe plunger rod shall be forced into the tread of the tyre/wheel assembly mounted as described in D-1.1 perpendicularly over a tread element at the centerline of the tread, or as near as possible to avoiding penetration into a tread groove. The rate of travel of the plunger; shall be 50 ± 1.5 mm/min until the tyre breaks or the plunger is stopped by the rim (bottoming of the plunger against the rim), in which case the tyre shall be deemed to have passed the test regardless of energy value. Measurement of force and penetration at break (or bottoming against the rim) shall be made at 5 points nearly equally spaced around the tyre circumference. The arithmetic mean energy absorbed shall be calculated from the energy values obtained at the break, using the formula given in D-1.2.1.\n\nD-1.2.1 Formula for calculating the breaking energy:\n\nW = F × P\n\n2 × 10 –3\n\nwhere\n\nW = Energy at break (or bottoming), in J (Joule); F = Force at break (or bottoming), in N; and P = Penetration at break (or bottoming), in mm.\n\nD-1.3 As an option, for purpose of conformity, if the plunger energy measurements meet or exceed the minimum value specified, it is not necessary to continue penetration of the plunger to break the tyre.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 47,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 43,
+      "page_end": 43,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 108264,
+      "char_end": 110157,
+      "semantic_chunk_length": 1893,
+      "final_chunk_length": 2195,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0048",
+    "text": "); F = Force at break (or bottoming), in N; and P = Penetration at break (or bottoming), in mm.\n\nD-1.3 As an option, for purpose of conformity, if the plunger energy measurements meet or exceed the minimum value specified, it is not necessary to continue penetration of the plunger to break the tyre.\n\n## ANNEX E\n\n( Clause 5.2 )\n\nARRANGEMENT OF TYRE MARKINGS\n\nE-1 TYRE MARKINGS\n\nb 250/70 R 20                         d          149/145 J                                      c              TUBELESS C        MAR 04                                               c/2 620 kPa\n\n\n|  | Minimum Heights of Markings, mm |  |\n| --- | --- | --- |\n|  | Tyres of Rim Diameter < 20” or <508 mm or of Section Width < 235 mm or < 9” | Tyres of Rim Diameter > 20” or > 508 mm or of Section Width > 235mm or > 9” |\n| b | 6 | 6 |\n| c | 4 |  |\n| d | 6 |  |\n\n\nE-2 MARKINGS DEFINING A PNEUMATIC TYRE\n\n- a) Nominal section width of 250;\n- b) Nominal aspect ratio of 70;\n- c) Radial-ply structure (R);\n- d) Nominal rim diameter of 508 mm, for which the symbol is 20;\n- e) Load capacities of 3 250 kg when single and 2 900 kg when twinned (dual), corresponding respectively to the load indices 149 and 145 shown in Annex A;\n\n\n- f) Speed symbol J (reference speed 100 km/h);\n- g) Capable of being fitted without an inner tube (‘TUBELESS’);\n- h) Manufactured during the month MARCH of year 2004; and\n- j) Maximum pressure of 620 kPa.\n\nNOTE — Arrangement of tyre markings relates only to the\n\ntyre designation. Other markings location will be left to the discretion of the tyre manufacturer.\n\n\n\n\n## ANNEX F\n\n( Clause 5.4 )\n\nEXAMPLES OF TYRE SIZE DESIGNATIONS\n\nF-1 METRIC DESIGNATED (DIAGONAL AND RADIAL)\n\n205 / 80 R 15 LT/C 108/104 J\n\n- Speed symbol\n- Load index (Single/Dual)\n- Vehicle category Light Truck/Commercial\n- Nominal rim diameter code\n- Radial (D if Diagonal)\n- Nominal aspect ratio\n- Nominal section width code\n\nF-2 CODE DESIGNATED (DIAGONAL)\n\n7.50 — 16 14PR LT/C\n\n- Vehicle category Light Truck/Commercial\n- Ply rating\n- Nominal rim diameter code\n- Construction code '-' Diagonal\n- Nominal section width code\n\nF-3 CODE DESIGNATED (RADIAL)\n\n10.00 R 20 14PR\n\n- Ply Rating\n- Nominal rim diameter code\n- Construction code 'R' radial\n- Nominal section width code\n\nF-4 CODE DESIGNATED (DIAGONAL)\n\n10.00 — 20 14PR\n\n- Ply rating\n- Nominal rim diameter code\n- Construction code '-' Diagonal\n- Nominal section width code\n\nF-5 ALPHA NUMERIC (DIAGONAL)\n\nF 78 — 15 LT\n\n- Light Truck\n- Nominal rim diameter code\n- Construction code '—' Diagonal\n- Nominal aspect ratio\n- Nominal section width code\n\nNOTE — LT may also be prefixed.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 48,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 44,
+      "page_end": 45,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 110163,
+      "char_end": 112463,
+      "semantic_chunk_length": 2300,
+      "final_chunk_length": 2602,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0049",
+    "text": "ating\n- Nominal rim diameter code\n- Construction code '-' Diagonal\n- Nominal section width code\n\nF-5 ALPHA NUMERIC (DIAGONAL)\n\nF 78 — 15 LT\n\n- Light Truck\n- Nominal rim diameter code\n- Construction code '—' Diagonal\n- Nominal aspect ratio\n- Nominal section width code\n\nNOTE — LT may also be prefixed.\n\n## ANNEX G\n\n( Clause 6.2.2 )\n\nINFORMATION TO BE SUBMITTED FOR TYPE APPROVAL OF TYRES\n\n1.  Manufacturer’s name and address;\n2.  Telephone No.;\n3.  Fax. No.;\n4.  E-mail address;\n5.  Contact person;\n6.  Tyre-size designation;\n7.  Trade-name or mark;\n8.  Category of use (normal/special/snow);\n9.  Structure: diagonal (bias ply/bias belted)/ radial;\n10.  Speed category;\n10.1 Nominal;\n10.2 Additional (if applicable);\n11.  Ply Rating and maximum load in kg (corresponding to ply rating) and/or load index and maximum load in kg (corresponding to nominal speed and load index) and additional load index (corresponding to additional speed) as applicable;\n12.  Whether the tyre is to be used with or without an inner tube;\n13.  Whether the tyre is normal or reinforced;\n14.  Overall width (mm);\n15.  Overall diameter (mm);\n16.  Rim on which tyre can be mounted;\n\n\n17.  Measuring rim and test rim;\n18.  Inflation pressure for dimensional measurements (kPa);\n18.1 Cold Inflation Pressure, in kPa corresponding to maximum load carrying capacity;\n18.2  Test inflation pressure, kPa;\n19.  Factor X referred to in 3.30 in case of theoretical (imaginary) rim, if applicable;\n20.  Intended for use on (type of vehicle);\n21. If tyre size is not listed in Tables 6 to 28 and/or tyre sizes with a different ply rating and/or load-inflation details other than those given in Table 6 to 28, reference to Standards Manuals of organizations like The European Tyre and Rim Technical Organisation (ETRTO), Indian Tyre Technical Advisory Committee (ITTAC), The Japan Automobile Tyre Manufacturers’ Association (JATMA), The Tire and Rim Association, Inc. (T & RA-US);\n22.  Numbers and height of tread wear indicator;\n23.  Type of tread pattern (Lug, Rib, Semi-lug or Block); and\n24.  Drawing or photograph in triplicate identifying tyre tread pattern side wall marking and relevant dimensions of inflated tyre mounted on the measuring rim.",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 49,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 46,
+      "page_end": 46,
+      "clause": "ANNEX G",
+      "heading": "ANNEX G",
+      "heading_path": [
+        "ANNEX G"
+      ],
+      "char_start": 112469,
+      "char_end": 114382,
+      "semantic_chunk_length": 1913,
+      "final_chunk_length": 2215,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15636_2022_0050",
+    "text": "sociation, Inc. (T & RA-US);\n22.  Numbers and height of tread wear indicator;\n23.  Type of tread pattern (Lug, Rib, Semi-lug or Block); and\n24.  Drawing or photograph in triplicate identifying tyre tread pattern side wall marking and relevant dimensions of inflated tyre mounted on the measuring rim.\n\n## ANNEX H\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: TED 07 (14082).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "15636_2022.md",
+      "chunk_index": 50,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 47,
+      "page_end": 47,
+      "clause": "ANNEX H",
+      "heading": "ANNEX H",
+      "heading_path": [
+        "ANNEX H"
+      ],
+      "char_start": 114387,
+      "char_end": 115825,
+      "semantic_chunk_length": 1438,
+      "final_chunk_length": 1740,
+      "standard_no": "IS 15636",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

@@ -1,0 +1,893 @@
+[
+  {
+    "id": "11968_0000",
+    "text": "Pet Food for Dogs and Cats — Specification\n( First Revision )\n\nICS 65.120\n\n© BIS 2019\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nMay 2019 \b Price Group 10\n\n\n\n\nAnimal Husbandry, Feeds and Equipment Sectional Committee, FAD 05\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Animal Husbandry, Feeds and Equipment Sectional Committee had been approved by the Food and Agriculture Division Council. This standard was first published in 1986 as ‘Specification for dog feeds’ one among the series of Indian Standards formulated to ensure availability of compounded feeds of suitable quality for pet animals specifically dogs and cats. In view of the rapid developments taking place in pet food industry, domestically and globally need was felt to revise the existing standard incorporating the requirements for cat feeds. Accordingly, the present revision incorporates nutrient composition table for complete pet food for young and adult dogs and cats. For the guidance of those interested in pet foods few feed formulae of dry food, semi moist food and moist/wet food for dog and cat with ingredient composition have been included in this standard (see Annex D). Also informative Annex E on feeding habits of dog and cat with emphasis on requirement of certain specific nutrients has also been included in this standard. Undesirable substances generally present in pet food can adversely affect the health of these animals. The Committee responsible for the formulation of this standard has incorporated safe limits and reliable methods for the estimation of mycotoxins in pet food (see Table 3). For the purpose of deciding, whether a particular requirement of this standard is complied with the final value, observed or calculated, expressing the result of a test or analysis shall be rounded off in accordance with IS 2 : 1960 ‘Rules for rounding off numerical values ( revised )’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nPET FOOD FOR DOGS AND CATS —\n\n\nSPECIFICATION\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard prescribes the requirements, methods of sampling and test for complete pet food for dogs and cats.\n\n\n## 2 REFERENCES\n\nThe standards listed in Annex A contain provisions, which through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated at Annex A.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2789,
+      "semantic_chunk_length": 2787,
+      "final_chunk_length": 2787,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0001",
+    "text": "rovisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated at Annex A.\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard, the following definitions shall apply.\n\n\n3.1 Complete Feed — Nutritionally adequate feed for animals by specific formula is compounded to be fed as the sole ration and is capable of maintaining life or promoting production without any additional substance being consumed except water.\n\n\n3.2 Complete Pet Food — Nutritionally adequate diet formulated for dogs and cats with or without the addition of other permitted substances such as additives, vitamins and minerals which by reason of its composition is sufficient for a daily ration and capable of maintaining life or life stage specific requirements without any additional substance being consumed except water.\n\n\n3.3 Complementary Pet Food — Mixture of feed materials with or without the addition of other substances which has a high content of certain substances but which, by reason of its composition, is sufficient for a daily ration only if used in combination with other feeding stuffs.\n\n\n### 3.4 Compound Pet Food — Mixture of feed materials, whether or not containing additives and other permitted substances, for oral animal feeding in the form of complete or complementary pet food.\n\n\n3.5 Daily Ration — Average total quantity of feeding stuffs, calculated on a moisture content of 12 percent, required daily by an animal of a given species and age category, to satisfy all its needs when provided over a 24 h period.\n\n\n### 3.6 Dog Chews — Untanned products for pet animals to chew, produced from hides and skins of ungulates or other animal material.\n\n\n### 3.7 Dry Pet Food — Pet food with moisture content of less than 14 percent.\n\n\n### 3.8 Feed Additives — Substances, micro-organisms or preparations, other than feed materials, premixtures or processing aids which are intentionally added to pet food in order to:\n\n- a) affect favourably the characteristics of feed\nmaterials or compound pet foods;\n- b) satisfy the nutritional needs of animals or affect\nfavourably animal welfare particularly by affecting the gastro-intestinal flora or the digestibility of pet foods; and\n- c) prevent or reduce the harmful effects caused\nby animal excretions or improve the animal environment.\n\n\n3.9 Feed Materials (or Ingredients) — Products of vegetable or animal origin, in their natural state, fresh or preserved, and products derived from the industrial processing thereof, and organic or inorganic substances, whether or not containing additives, which are intended for use in oral animal feeding, either directly as such or after processing, in the preparation of compound pet foods or as carriers of pre-mixtures.\n\n\n3.10 Hermetically Sealed Container — Container that is designed and intended to be secure against the entry of micro-organisms.\n\n\n### 3.11 Minimum Shelf Life — The date until which, under proper storage conditions the pet food retains its specific properties.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 2792,
+      "char_end": 5682,
+      "semantic_chunk_length": 2890,
+      "final_chunk_length": 3192,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0002",
+    "text": " foods or as carriers of pre-mixtures.\n\n\n3.10 Hermetically Sealed Container — Container that is designed and intended to be secure against the entry of micro-organisms.\n\n\n### 3.11 Minimum Shelf Life — The date until which, under proper storage conditions the pet food retains its specific properties.\n\n### 3.12 Moist Pet Food/Wet Pet Food — Pet food for cats or dogs with a moisture content of 60 percent or more.\n\n\n\n\n\n### 3.13 Pet Food Hygiene — The measures and conditions necessary to control hazards and to ensure fitness for animal consumption of a pet food, taking into account its intended use.\n\n\n3.14 Pet Food Product of Animal Origin — Any food containing all kinds of edible ingredient from animal origin from nutritional point of view used for feeding the dog or cat and covered under the ITC-HS Code 2309.10.00 relating to dog or cat food put up for retail sale.\n\n\n### 3.15 Premixtures — Mixtures of feed additives or mixtures of one or more feed additives with feed materials or water used as carriers, not intended for direct feeding to animals.\n\n\n3.16 Processing Aid—Any substance not consumed as a feeding stuff by itself, intentionally used in the processing of pet foods or feed materials to fulfil a technological purpose during treatment or processing which may result in the unintentional, but technologically unavoidable, presence of residues of the substance or its derivatives in the final product, provided that these residues do not have an adverse effect on animal health, human health or the environment and do not have any technological effects on the finished pet food.\n\n\n### 3.17 Raw Pet Food — Pet food which has not undergone any preserving process other than chilling, freezing or quick freezing to ensure preservation.\n\n\n### 3.18 Semi Moist Pet Food — Pet food with a moisture content of 10 percent or more and less than 60 percent.\n\n\n3.19 Traceability — The ability to trace and follow a feed material or substance intended to be, or expected to be incorporated into a pet food, through all stages of production, processing and distribution.\n\n\n3.20 Contaminant — Any substance or product, with the exception of pathogenic agents, which is present in and/or on the product intended for animal feed and which presents a potential danger to animal or human health or to the environment or could adversely affect livestock production.\n\n\n## 4 TYPES\n\nPet food for dogs and cats shall be of two types, namely, complete dog food and complete cat food.\n\n\n### 4.1 Complete Dog Food\n\n\n#### 4.1.1 For Puppies\n\nA ration to be fed to puppies between the age of 6 week to 24 month, depending on the breed.\n\n\n#### 4.1.2 For Adults\n\nA ration to be fed to dogs after reaching adulthood, depending on the breed.\n\n\n\n### 4.2 Complete Cat Food\n\n\n#### 4.2.1 For Kittens\n\nA ration to be fed to kittens between the age of 6 weeks to 12 months, depending on the breed.\n\n\n#### 4.2.2 For Adults\n\nA ration to be fed to cats after reaching adulthood, depending on the breed.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3.12",
+      "heading": "3.12 Moist Pet Food/Wet Pet Food — Pet food for cats or dogs with a moisture content of 60 percent or more.",
+      "heading_path": [
+        "3 TERMINOLOGY",
+        "3.12 Moist Pet Food/Wet Pet Food — Pet food for cats or dogs with a moisture content of 60 percent or more."
+      ],
+      "char_start": 5685,
+      "char_end": 8363,
+      "semantic_chunk_length": 2678,
+      "final_chunk_length": 2980,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0003",
+    "text": "fter reaching adulthood, depending on the breed.\n\n\n\n### 4.2 Complete Cat Food\n\n\n#### 4.2.1 For Kittens\n\nA ration to be fed to kittens between the age of 6 weeks to 12 months, depending on the breed.\n\n\n#### 4.2.2 For Adults\n\nA ration to be fed to cats after reaching adulthood, depending on the breed.\n\n## 5 REQUIREMENTS\n\n\n### 5.1 Description\n\nPet foods for dogs and cats shall be in the form of meal (or mesh), crumbs or biscuits and conform to the definitions as per 3. Pet food shall be free from rancidity, musty odour, toxic ingredients, visible mold and insect infestation.\n\n\n5.2 The complete pet food for puppies and adult dogs shall also conform to the requirements prescribed in Table 1. The complete pet food for kitten and adult cats shall also conform to the requirements prescribed in Table 2.\n\n\n5.3 Pet food products for dogs and cats shall also conform to the requirements prescribed in Table 3 for undesirable substances or feed materials used in their production. Feed materials or compound pet food products for dogs and cats containing levels of an undesirable substance that exceed the maximum levels fixed in Table 3 may not be mixed for dilution purposes with the same or other products intended for pet food.\n\n\n5.4 The predictable metabolizable energy (see 6.2) of pet food can be calculated by the method given in Annex C.\n\n\n### 5.5 Ingredients\n\nThe ingredients listed in Annex B shall only be used for manufacturing complete food for dogs and cats.\n\n\n5.6 Antibiotics, hormones or other drugs shall not be used in preparing pet food for dogs and cats. Residues of agricultural chemicals, veterinary residues should not exceed those permitted for human consumption.\n\n\n### 5.7 Some model feed formulations for pet food for dogs and cats feeds are given in Annex D for guidance.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "5",
+      "heading": "5 REQUIREMENTS",
+      "heading_path": [
+        "5 REQUIREMENTS"
+      ],
+      "char_start": 8366,
+      "char_end": 9862,
+      "semantic_chunk_length": 1496,
+      "final_chunk_length": 1798,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0004",
+    "text": "es or other drugs shall not be used in preparing pet food for dogs and cats. Residues of agricultural chemicals, veterinary residues should not exceed those permitted for human consumption.\n\n\n### 5.7 Some model feed formulations for pet food for dogs and cats feeds are given in Annex D for guidance.\n\n### 5.8 Other Requirements\n\n\n5.8.1 Where temperature control of the raw materials, intermediate or finished pet food product, process or environment is critical to product safety and quality this shall be adequately controlled, monitored and recorded.\n\n\n5.8.2 Canned pet food and other hermetically sealed heat-treated containers must be subject to heat\n\n\n\n\ntreatment to a minimum Fc value of 3 or equivalent as given below:\n\n\n| Sl No. |  | Heat Treatment |\n| --- | --- | --- |\n| 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 |  | 110°C for 40 min 111°C for 32 min 112°C for 25 min 113°C for 20 min 114°C for 16 min 115°C for 13 min 116°C for 11 min 117°C for 9 min 118°C for 7 min 119°C for 6 min 120°C for 5 min 121°C for 3 min 122°C for 3 min 123°C for 3 min 124°C for 3 min 125°C for 2 min 126°C for 1 min 127°C for 46 s 128°C for 37 s 129°C for 29 s 130°C for 23 s 131°C for 18 s 132°C for 15 s 133°C for 12 s 134°C for 9 s 135°C for 7 s 136°C for 6 s |\n\n\n5.8.3 Processed pet food, other than canned pet food or other hermetically sealed heat-treated containers, must be subject to a heat treatment of at least 90°C throughout its substance or equivalent to destroy pathogens. After treatment, every precaution must be taken to ensure that the product is not exposed to contamination. The product must be packed in new packaging.\n\n\n5.8.4 Dog chews must be subject to a heat treatment during processing sufficient to destroy pathogenic organisms (including Salmonella). After treatment, every precaution must be taken to ensure that the product is not exposed to contamination. The product must be packed in new packaging.\n\nIS 11968 : 2019\n\n\n#### 5.8.5 Pet Food Hygiene\n\nPet food manufacturers shall ensure that all stages of production, processing and distribution under their control or when outsourced are carried out in accordance with internationally recognised World Health Organisation’s (WHO) Good Manufacturing Practices (GMP) and satisfy all relevant statutory hygiene requirements. The pet food manufacturer shall adopt and maintain a suitable preventive food safety management system following human food Hazard Analysis and Critical Control Points (HACCP) (proven established for human food supply chain) covering all stages of production, processing and distribution under their control [see IS/ISO 22000 and IS 2491].",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "5.8",
+      "heading": "5.8 Other Requirements",
+      "heading_path": [
+        "5 REQUIREMENTS",
+        "5.8 Other Requirements"
+      ],
+      "char_start": 9865,
+      "char_end": 12227,
+      "semantic_chunk_length": 2362,
+      "final_chunk_length": 2664,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0005",
+    "text": "nd maintain a suitable preventive food safety management system following human food Hazard Analysis and Critical Control Points (HACCP) (proven established for human food supply chain) covering all stages of production, processing and distribution under their control [see IS/ISO 22000 and IS 2491].\n\n## 6 PACKING AND MARKING\n\n\n### 6.1 Packing\n\nCompound pet food for dogs and cats shall be packed in clean, sound hermetically sealed food grade packages or containers. The packages or containers shall be sealed in such a way that, when the package is opened, the seal is damaged and cannot be reused. The packages or containers shall be pilfer proof, moisture proof and sturdy enough to withstand rough handling in transit.\n\n\n### 6.2 Marking\n\n\n6.2.1 Each container shall be legibly marked or labeled to give the following information:\n\n- a) Name and type of the pet food ‘complete pet food’\nor ‘complementary pet food’, as appropriate, together with the species or category of animal for which the pet food is intended;\n- b) Name of the manufacturer and address;\n- c) Net quantity or volume when packed, in g, kg or\nml, litre;\n- d) Batch or code number;\n- e) Feed materials/ingredients;\n- f) Metabolizable energy (calculated), in kcal/kg;\n- g) Date of manufacture;\n- h) Best before from date of manufacture; and\n- j) Directions for use of the pet food, if appropriate,\nindicating the purpose for which it is intended.\n\n\n#### 6.2.2 BIS Certification Marking\n\n\n6.2.2.1 The product(s) conforming to the requirements of this standard may be certified as per the conformity assessment schemes under the provisions of the Bureau of Indian Standards Act, 2016 and the Rules and Regulations framed thereunder, and the products may be marked with the standard mark.\n\n\n\n\n\n## 7 SAMPLING AND CRITERIA FOR CONFORMITY\n\nRepresentative samples of the material shall be drawn and conformity of the material to the requirements of this specification shall be tested in accordance with the methods prescribed in col 5 and 6 of Table 1, 2 and 3 for the respective types.\n\n\n## 8 TESTS\n\nTests shall be carried out as prescribed in col 5 and col 6 of Table 1, 2 and 3.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "6",
+      "heading": "6 PACKING AND MARKING",
+      "heading_path": [
+        "6 PACKING AND MARKING"
+      ],
+      "char_start": 12230,
+      "char_end": 14074,
+      "semantic_chunk_length": 1844,
+      "final_chunk_length": 2146,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0006",
+    "text": "hall be drawn and conformity of the material to the requirements of this specification shall be tested in accordance with the methods prescribed in col 5 and 6 of Table 1, 2 and 3 for the respective types.\n\n\n## 8 TESTS\n\nTests shall be carried out as prescribed in col 5 and col 6 of Table 1, 2 and 3.\n\n## 9 QUALITY OF REAGENTS\n\nUnless specified otherwise, pure chemicals and distilled water shall be used (see IS 1070).\n\nNOTE — ‘Pure chemicals’ shall mean chemicals that do not\n\ncontain impurities, which affect the result of analysis.\n\n\n**Table 1 Requirements for Complete Pet Food for Dogs**\n\n( Clause 5.2, 7 and 8 )\n\n| Sl No. | Characteristic | Requirement Puppies | Requirement Adult | Maximum Limit | Method of Test, Ref to |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| i) | Moisture, percent by mass, Max — Dry food | 10 | 10 | – | 4 of IS 7874 (Part 1) or IS/ISO 6496 |\n|  | Moisture, percent by mass, Max — Semi moist food | >10 but ≤ 60 | >10 but ≤ 60 | – |  |\n|  | Moisture, percent by mass, Max — Moist/Wet food | > 60 | > 60 | – |  |\n| ii) | Crude protein (N*6.25), percent by mass, Min | 22 | 18 | – | 5 of IS 7874 (Part 1) or IS/ISO 5983 (Part 1) |\n| iii) | Total fat, percent by mass, Min | 8 | 5 | – | 7 of IS 7874 (Part 1) |\n| iv) | Crude fibre, percent by mass, Max | 10 | 10 | – | 8 of IS 7874 (Part 1) or IS 10226 (Part 1) |\n| v) | Acid insoluble ash, percent by mass, Max | 10 | 10 | – | 10 of IS 7874 (Part 1) or IS 14826 |\n| vi) | Calcium (as Ca), percent by mass, Min | 1 | 0.6 | 2.5 | IS 13433 (Parts 1 and 2) |\n| vii) | Total phosphorus percent by mass, Min | 0.8 | 0.5 | 1.6 | 6 of IS 7874 (Part 2) or IS 14828 |\n| viii) | Ca:P ratio | 1:1 | 1:1 | 2:1 | – |\n| ix) | Arginine, percent by mass, Min | 0.62 | 0.51 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| x) | Histidine, percent by mass, Min | 0.22 | 0.18 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xi) | Isoleucine, percent by mass, Min | 0.45 | 0.37 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xii) | Leucine, percent by mass, Min | 0.72 | 0.59 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xiii) | Lysine, percent by mass, Min | 0.77 | 0.63 | – | Annex G of IS 1374 |\n| xiv) | Methionine-cystine, percent by mass, Min | 0.53 | 0.43 | – | Annex H of IS 1374 |\n| xv) | Phenylalanine -tyrosine, percent by mass, Min | 0.89 | 0.73 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n\n\n\nTable 1 ( Concluded )",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "9",
+      "heading": "9 QUALITY OF REAGENTS",
+      "heading_path": [
+        "9 QUALITY OF REAGENTS"
+      ],
+      "char_start": 14077,
+      "char_end": 16231,
+      "semantic_chunk_length": 2154,
+      "final_chunk_length": 2456,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0007",
+    "text": "e, percent by mass, Min | 0.77 | 0.63 | – | Annex G of IS 1374 |\n| xiv) | Methionine-cystine, percent by mass, Min | 0.53 | 0.43 | – | Annex H of IS 1374 |\n| xv) | Phenylalanine -tyrosine, percent by mass, Min | 0.89 | 0.73 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n\n\n\nTable 1 ( Concluded )\n\n| Sl No. | Characteristic | Requirement Puppies | Requirement Adult | Maximum Limit | Method of Test, Ref to |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| xvi) | Threonine, percent by mass, Min | 0.58 | 0.48 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xvii) | Tryptophan, percent by mass, Min | 0.20 | 0.16 | – | Alka-Hydrol Post-col Ninhyd method 988.15 (AOAC) |\n| xviii) | Valine, percent by mass, Min | 0.48 | 0.39 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xix) | Linoleic acid percent by mass, Min | 1.0 | 1.0 | – | IS 7874 |\n| xx) | Potassium, percent by mass, Min | 0.6 | 0.6 | – | Flame Photometric method 956.01 (AOAC) |\n| xxi) | Sodium, percent by mass, Min | 0.3 | 0.06 | – | Flame Photometric method 956.01 (AOAC) |\n| xxii) | Chloride, percent by mass, Min | 0.45 | 0.09 | – | Volumetric method 915.01 (AOAC) |\n| xxiii) | Magnesium, percent by mass, Min | 0.04 | 0.04 | 0.3 | Gravimetric method 937.01 (AOAC) |\n| xxiv) | Iron (mg/kg), Min | 80 | 80 | 3 000 | IS 15121 |\n| xxv) | Copper (mg/kg), Min | 7.3 | 7.3 | 250 | IS 15121 |\n| xxvi) | Manganese (mg/kg), Min | 5.0 | 5.0 |  | IS 15121 |\n| xxvii) | Zinc (mg/kg), Min | 120 | 120 | 1 000 | IS 15121 |\n| xxviii) | Iodine (mg/kg), Min | 1.5 | 1.5 | 50 | IS 15121 |\n| xxix) | Selenium (mg/kg), Min | 0.11 | 0.11 | 2 | IS 15121 |\n| xxx) | Vitamin A (IU/kg), Min | 5 000 | 5 000 | 250 000 | IS 15120 |\n| xxxi) | Vitamin D (IU/kg), Min | 500 | 500 | 5000 | Annex L of IS 1374 |\n| xxxii) | Vitamin E (IU/kg), Min | 50 | 50 | 1000 | Annex M of IS 1374 |\n| xxxiii) | Thiamine (mg/kg), Min | 1.0 | 1.0 | – | IS 5398 |\n| xxxiv) | Riboflavin (mg/kg), Min | 2.2 | 2.2 | – | IS 5399 |\n| xxxv) | Pantothenic acid (mg/kg), Min | 10 | 10 | – | IS 9840 |\n| xxxvi) | Niacin (mg/kg), Min | 11.4 | 11.4 | – | IS 5400 |\n| xxxvii) | Pyridoxine (mg/kg), Min | 1.0 | 1.0 | – | IS 7530 |\n| xxxviii) | Folic acid (mg/kg), Min | 0.18 | 0.18 | – | IS 7234 |\n| xxxiv) | Vitamin B12 (mg/kg), Min | 0.022 | 0.022 | – | IS 7529 |\n| xxxx) | Choline (mg/kg), Min | 1 200 | 1 200 | – | IS 7874 |\n\n*NOTES: 1\t The values specified for characteristics at Sl No. (ii) to (xl) are on dry matter basis. 2\t Presumes an energy density of 3 500 kcal ME/kg. 3\t Predictive equations for metabolizable energy in manufactured dog food has been detailed in Annex C.*\n\n\n\n\n\n\n**Table 2 Requirements for Complete Pet Food for Cats**\n\n( Clause 5.2, 7 and 8 )",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "9",
+      "heading": "9 QUALITY OF REAGENTS",
+      "heading_path": [
+        "9 QUALITY OF REAGENTS"
+      ],
+      "char_start": 16234,
+      "char_end": 18656,
+      "semantic_chunk_length": 2422,
+      "final_chunk_length": 2724,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0008",
+    "text": "teristics at Sl No. (ii) to (xl) are on dry matter basis. 2\t Presumes an energy density of 3 500 kcal ME/kg. 3\t Predictive equations for metabolizable energy in manufactured dog food has been detailed in Annex C.*\n\n\n\n\n\n\n**Table 2 Requirements for Complete Pet Food for Cats**\n\n( Clause 5.2, 7 and 8 )\n\n| Sl No. | Characteristic | Requirement Kitten | Requirement Adult | Maximum Limit | Method of Test, Ref to |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| i) | Moisture, percent by mass, Max — Dry food | 10 | 10 | – | 4 of IS 7874 (Part 1) or IS/ISO 6496 |\n|  | Moisture, percent by mass, Max — Semi moist food | >10 but ≤ 60 | >10 but ≤ 60 | – |  |\n|  | Moisture, percent by mass, Max — Moist/wet food | > 60 | > 60 | – |  |\n| ii) | Crude protein (N*6.25), percent by mass, Min | 30 | 26 | – | 5 of IS 7874 (Part 1) or IS/ISO 5983 (Part 1) |\n| iii) | Total fat, percent by mass, Min | 9 | 9 | – | 7 of IS 7874 (Part 1) |\n| iv) | Crude fibre, percent by mass, Max | 10 | 10 | – | 8 of IS 7874 (Part 1) or IS 10226 (part 1) |\n| v) | Acid insoluble ash, percent by mass, Max. | 10 | 10 | – | 10 of IS 7874 (Part 1) or IS 14826 |\n| vi) | Calcium (as Ca), percent by mass, Min | 1 | 0.6 | 2.5 | IS 13433 (Parts 1 and 2) |\n| vii) | Total phosphorus percent by mass, Min. | 0.8 | 0.5 | 1.6 | 6 of IS 7874 (Part 2) or IS 14828 |\n| viii) | Arginine, percent by mass, Min | 1.25 | 1.04 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| ix) | Histidine, percent by mass, Min | 0.31 | 0.31 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| x) | Isoleucine, percent by mass, Min | 0.52 | 0.52 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xi) | Leucine, percent by mass, Min | 1.25 | 1.25 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xii) | Lysine, percent by mass, Min | 1.20 | 0.83 | – | Annex G of IS 1374 |\n| xiii) | Methionine-cystine, percent by mass, Min | 1.10 | 1.10 | – | Annex H of IS 1374 |\n| xiv) | Methionine, percent by mass, Min | 0.62 | 0.62 | 1.5 | Annex H of IS 1374 |\n| xv) | Phenylalanine-tyrosine, percent by mass, Min | 0.88 | 0.88 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xvi) | Phenylalanine, percent by mass, Min | 0.42 | 0.42 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xvii) | Threonine, percent by mass, Min | 0.73 | 0.73 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xviii) | Tryptophan, percent by mass, Min | 0.25 | 0.16 | – | Alka-Hydrol Post-col Ninhyd method 988.15 (AOAC) |\n| xix) | Valine, percent by mass, Min | 0.62 | 0.62 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xx) | Linoleic acid percent by mass, Min | 0.5 | 0.5 | – | IS 7874 |\n\n\n\nTable 2 ( Concluded )",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "9",
+      "heading": "9 QUALITY OF REAGENTS",
+      "heading_path": [
+        "9 QUALITY OF REAGENTS"
+      ],
+      "char_start": 18658,
+      "char_end": 21044,
+      "semantic_chunk_length": 2386,
+      "final_chunk_length": 2688,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0009",
+    "text": "ptophan, percent by mass, Min | 0.25 | 0.16 | – | Alka-Hydrol Post-col Ninhyd method 988.15 (AOAC) |\n| xix) | Valine, percent by mass, Min | 0.62 | 0.62 | – | Post-col Ninhydrin Der method 944.12 (AOAC) |\n| xx) | Linoleic acid percent by mass, Min | 0.5 | 0.5 | – | IS 7874 |\n\n\n\nTable 2 ( Concluded )\n\n| Sl No. | Characteristic | Requirement Kitten | Requirement Adult | Maximum Limit | Method of Test, Ref to |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| xxi) | Arachidonic acid, percent by mass, Min | 0.02 | 0.02 | – | IS 7874 |\n| xxii) | Potassium, percent by mass, Min | 0.6 | 0.6 | – | Flame Photometric method 956.01 (AOAC) |\n| xxiii) | Sodium, percent by mass, Min | 0.2 | 0.2 | – | Flame Photometric method 956.01 (AOAC) |\n| xxiv) | Chloride, percent by mass, Min | 0.3 | 0.3 | – | Volumetric method 915.01 (AOAC) |\n| xxv) | Magnesium, percent by mass, Min | 0.08 | 0.04 | – | Gravimetric method 937.01 (AOAC) |\n| xxvi) | Iron (mg/kg), Min | 80 | 80 | – | IS 15121 |\n| xxvii) | Copper (mg/kg), Min | 15 | 5 | – | IS 15121 |\n| xxviii) | Manganese (mg/kg), Min | 7.5 | 7.5 | – | IS 15121 |\n| xxix) | Zinc (mg/kg), Min | 75 | 75 | 2 000 | IS 15121 |\n| xxx) | Iodine (mg/kg), Min | 0.35 | 0.35 | – | IS 15121 |\n| xxxi) | Selenium (mg/kg), Min | 0.1 | 0.1 | – | IS 15121 |\n| xxxii) | Vitamin A (IU/kg), Min | 9000 | 5 000 | 750 000 | IS 15120 |\n| xxxiii) | Vitamin D (IU/kg), Min | 750 | 500 | 10 000 | Annex L of IS 1374 |\n| xxxiv) | Vitamin E (IU/kg), Min | 30 | 30 | – | Annex M of IS 1374 |\n| xxxv) | Vitamin K (mg/kg), Min | 0.1 | 0.1 | – | IS 7874 |\n| xxxvi) | Thiamine (mg/kg), Min | 5 | 5 | – | IS 5398 |\n| xxxvii) | Riboflavin (mg/kg), Min | 4 | 4 | – | IS 5399 |\n| xxxviii) | Pantothenic acid (mg/kg), Min | 5 | 5 | – | IS 9840 |\n| xxxix) | Niacin (mg/kg), Min | 60 | 60 | – | IS 5400 |\n| xl) | Pyridoxine (mg/kg), Min | 4 | 4 | – | IS 7530 |\n| xli) | Folic acid (mg/kg), Min | 0.8 | 0.8 | – | IS 7234 |\n| xliii) | Biotin (mg/kg), Min | 0.07 | 0.07 | – | IS 9820 |\n| xliv) | Vitamin B12 (mg/kg), Min | 0.02 | 0.02 | – | IS 7529 |\n| xlvi) | Choline (mg/kg), Min | 2400 | 2400 | – | IS 7874 |\n| xlv) | Taurine percent by mass, Min | 0.10 | 0.10 | – | Liquid chromatography method 999.12 (AOAC) |\n\n*NOTES 1 The values specified for characteristics at Sl No. (ii) to (xlv) are on dry matter basis 2 Presumes an energy density of 4000 kcal ME/kg. 3 Predictive equations for metabolizable Energy in manufactured cat food has been detailed in Annex C.*\n\n\n\n\n\n\n**Table 3 Toxic Levels of Contaminants in Pet Food for Cats and Dogs**\n\n( Clause Foreword, 5.3, 7 and 8 )",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "9",
+      "heading": "9 QUALITY OF REAGENTS",
+      "heading_path": [
+        "9 QUALITY OF REAGENTS"
+      ],
+      "char_start": 21047,
+      "char_end": 23350,
+      "semantic_chunk_length": 2303,
+      "final_chunk_length": 2605,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0010",
+    "text": "i) to (xlv) are on dry matter basis 2 Presumes an energy density of 4000 kcal ME/kg. 3 Predictive equations for metabolizable Energy in manufactured cat food has been detailed in Annex C.*\n\n\n\n\n\n\n**Table 3 Toxic Levels of Contaminants in Pet Food for Cats and Dogs**\n\n( Clause Foreword, 5.3, 7 and 8 )\n\n| Sl No. | Contaminant | Content Relative to Complete Pet Food for Cats or Dogs (Up to Moisture Content of 12 Percent) | Methods of Test, Ref to |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) | Aflatoxins B1, ppb, Max | 10 | Annex K of IS 1374 |\n| ii) | Ochratoxins,ppb, Max | 50 | Thin layer chromatography method 973.37 (AOAC) |\n| iii) | Fusarium, ppb, Max | 5 000 | 984.18 AOAC) |\n| iv) | Fumonisin, ppb, Max | 10 000 | Liquid chromatography method 995.15 (AOAC) |\n| v) | Vomitoxin (DON), ppb, Max | 2 000 | Thin layer chromatography method 986.17 (AOAC) |\n| vi) | Zearalenone (ZEA), ppb, Max | 200 | Thin layer chromatography method 976.22 (AOAC). |\n| vii) | Citrinin, ppb, Max | 500 | 990.31 AOAC) |\n| viii) | Melamine and Cyanuric acid (in combination), ppb, Max | 10 000 or 2 000 | US FDA LIB 4421 |\n| ix) | Arsenic(1), ppb, Max | 2 000 | Multi element method 986.15 (AOAC) |\n| x) | Lead(2), ppb, Max | 5 000 | Multi element method 986.15 (AOAC) |\n| xi) | Fluorine(3), ppb, Max | 150 000 | Ion selective electrode method 975.08 (AOAC) |\n| xii) | Mercury, ppb, Max | 400 | Flameless Atomic Absorption Spectrophotometer method 971.21 (AOAC) |\n| xiii) | Cadmium, ppb, Max | 2 000 | Multi element method 986.15 (AOAC) |\n| xiv) | Hydrocyanic acid, ppb, Max | 50 000 | Titrimetric method 915.03 (AOAC) |\n| xv) | Free gossypol, ppb, Max | 20 000 | ISO 6866 |\n| xvi) | Theobromine, ppb, Max | 300 000 | Liquid chromatographic method 980.14 (AOAC) |\n| xvii) | Volatile mustard oil, ppb, Max | 150 000 (expressed as allyl isothiocyanate) | Gas chromatographic method 970.55 (AOAC) |\n| xviii) | Rye ergot (Claviceps purpurea, ppb, Max) | 1 000 000 | Liquid chromatographic method 985.49 (AOAC) |\n| xix) | Weed seeds and unground and uncrushed fruits containing alkaloids, glucosides or other toxic substances separately or in combination, ppb, Max | 3 000 000 | Qualitative method 936.11; Titrimetric method 915.03; Liquid chromatographic method 997.13 (AOAC) |\n\n\n\n\n**Table 3 ( Concluded )**",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "9",
+      "heading": "9 QUALITY OF REAGENTS",
+      "heading_path": [
+        "9 QUALITY OF REAGENTS"
+      ],
+      "char_start": 23352,
+      "char_end": 25351,
+      "semantic_chunk_length": 1999,
+      "final_chunk_length": 2301,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0011",
+    "text": "C) |\n| xix) | Weed seeds and unground and uncrushed fruits containing alkaloids, glucosides or other toxic substances separately or in combination, ppb, Max | 3 000 000 | Qualitative method 936.11; Titrimetric method 915.03; Liquid chromatographic method 997.13 (AOAC) |\n\n\n\n\n**Table 3 ( Concluded )**\n\n| Sl No. | Contaminant | Content Relative to Complete Pet Food for Cats or Dogs (Up to Moisture Content of 12 Percent) | Methods of Test, Ref to |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| xx) | Aldrin and dieldrin (4), ppb, Max | 10 | Infra red spectroscopy 961.05 (AOAC) |\n| xxi) | Chlordane (sum of cis- and trans-isomers and of oxychlordane, expressed as chlordane), ppb, Max | 20 | Infra red spectroscopy 973.15 (AOAC) |\n| xxii) | DDT (sum of DDT- TDE- and DDE- as DDT), ppb, Max | 50 | CIPAC-AOAC method 991.04 (AOAC) |\n| xxiii) | Endosulfan (sum of alpha- and beta-isomers and of endosulfansuphate expressed as endosulfan), ppb, Max | 100 | Gas chromatographic method 976.23 (AOAC) |\n| xxiv) | Endrin (sum of endrin and of delta-keto-endrin, expressed as endrin), ppb, Max | 10 | Infra red spectroscopy 961.05 (AOAC) |\n| xxv) | Heptachlor (sum of heptachlor and of heptochlorepoxide, expressed as heptachlor), ppb, Max | 10 | Gas chromatographic method 973.17 (AOAC) |\n| xxvi) | Hexachlorobenzene (HCB), ppb, Max | 10 | Capillary Gas chromatography 999.04 (AOAC) |\n| xxvii) | Hexachlorocyclohexane (HCH), ppb, Max : a) alpha-isomers | 20 | Gas chromatography Mass Spectroscopy method 2007.09 (AOAC). |\n|  | Hexachlorocyclohexane (HCH), ppb, Max : b) beta-isomers | 10 |  |\n|  | Hexachlorocyclohexane (HCH), ppb, Max : c) gamma-isomers | 200 |  |\n| xxviii) | Dioxins (sum of polychlorinated dibenzo-para-dioxins (PCDDs) and polychlorinated dibenzofurans (PCDFs) expressed in World Health Organisation (WHO) toxic equivalents, using the WHO-TEFs (Toxic Equivalency Factors, 1997), ppb, Max | 2.25 ng WHO-PCDD/F-TEQ/kg | Gas chromatography method 968.23 (AOAC) |\n| xxix) | Sum of dioxins and dioxin-like PCBs (sum of polychlorinated dibenzo-para-dioxins (PCDDs) and polychlorinated dibenzofurans (PCDFs) expressed in World Health Organisation (WHO) toxic equivalents, using the WHO-TEFs (Toxic Equivalency Factors, 1997)), ppb, Max | 7.0 ng WHO-PCDD/F-PCB-TEQ/kg | Gas chromatography method 968.23 (AOAC) |\n\nNOTES:\n\n1 Isomers, expressed, maximum level refers to total arsenic content.\n\n2 The maximum level refers to an analytical determination of lead, whereby extraction is performed in nitric acid (5 percent w/w) for 30 min at boiling temperature. Equivalent extraction procedures can be applied for which it can be demonstrated that the used extraction procedure has equal extraction efficiency.\n\n3 The maximum level refers to an analytical determination of fluorine, whereby extraction is performed with hydrochloric acid 1 N for 20 min at ambient temperature. Equivalent extraction procedures can be applied for which it can be demonstrated that the used extraction procedure has equal extraction efficiency.\n\n4 Singly or combined expressed as dieldrin.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "9",
+      "heading": "9 QUALITY OF REAGENTS",
+      "heading_path": [
+        "9 QUALITY OF REAGENTS"
+      ],
+      "char_start": 25353,
+      "char_end": 28128,
+      "semantic_chunk_length": 2775,
+      "final_chunk_length": 3077,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0012",
+    "text": "of fluorine, whereby extraction is performed with hydrochloric acid 1 N for 20 min at ambient temperature. Equivalent extraction procedures can be applied for which it can be demonstrated that the used extraction procedure has equal extraction efficiency.\n\n4 Singly or combined expressed as dieldrin.\n\n## ANNEX A\n\n( Clause 2 )\n\nLIST OF REFERRED INDIAN STANDARDS\n\nIS No. Title\n\n1374 : 2007 Poultry feed — Specification ( fifth revision)\n\n2491 : 2013 Food hygiene — General principles — Code of practice ( third revision)\n\n5398 : 1969 Methods for estimation of thiamine (vitamin B-1) in foodstuffs\n\n5399 : 1969 Methods for estimation of riboflavin (vitamin B-2) in foodstuffs\n\n5400 : 1969 Methods for estimation of nicotinic acid (niacin) in foodstuffs\n\nIS/ISO 5983 (Part 1) : 2005 Animal feeding stuffs — Determination of nitrogen content and calculation of crude protein content: Part 1 Kjeldahl method\n\nIS/ISO 6496 : 1999 Animal feeding stuffs — Determination of moisture and other volatile matter content\n\n7234 : 1974 Method for estimation of folic acid in foodstuffs\n\n7529 : 1975 Method for estimation of vitamin B-12 in foodstuffs\n\n7530 : 1975 Method for estimation of pyridoxine (vitamin B-6) in foodstuffs\n\n7874 : 1978 Methods of test for animal feeds and feeding stuffs\n\n(Part 1) General methods\n\n(Part 2) Minerals and trace elements\n\n9820 : 1981 Method for estimation of biotin in foodstuffs\n\n9840 : 1981 Method for estimation of pantothenic acid in foodstuffs\n\n10226 (Part 1) : 1982/ ISO 5498 : 1981\n\nMethod for determination of crude fibre content: General method\n\n13426 : 1992 Methods of sampling for aflatoxin analysis\n\n13427 : 1992 Animal feeds and feeding stuff — Determination of aflatoxin B1 content\n\n13433 : 1992 Animal feeds and feeding stuff — Determination of calcium\n\n(Part 1) Titrimetric method\n\n(Part 2) Atomic absorption spectrometric method\n\n14826 : 2000/\n\nAnimal feeds and feeding stuffs — Determination of ash soluble in hydrochloric acid\n\nISO 5985 : 1978\n\n14828 : 2000/ ISO 6491 : 1998\n\nAnimal feeds and feeding stuffs — Determination of total phosphorus content — Spectrophotometric method\n\n14831 : 2000/ ISO 6498 : 1998\n\nAnimal feeding stuff — Preparation of test sample\n\n15120 : 2002/ ISO 14565 : 2000\n\nAnimal feed and feeding stuff — Determination of the contents of calcium, copper, iron and magnesium\n\n15121 : 2002/ ISO 6869 : 2000\n\nAnimal feed and feeding stuff — Determination of vitamin A content — Method using high performance liquid chromatography\n\nIS/ISO 22000 : 2018 Food safety management systems — Requirements for any Organization in the food chain (  first revision)",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 28133,
+      "char_end": 30443,
+      "semantic_chunk_length": 2310,
+      "final_chunk_length": 2612,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0013",
+    "text": "er, iron and magnesium\n\n15121 : 2002/ ISO 6869 : 2000\n\nAnimal feed and feeding stuff — Determination of vitamin A content — Method using high performance liquid chromatography\n\nIS/ISO 22000 : 2018 Food safety management systems — Requirements for any Organization in the food chain (  first revision)\n\n## ANNEX B\n\n( Clause 5.5 )\n\nNON-EXHAUSTIVE LIST INGREDIENTS\n\nFOR PET FOOD FOR DOGS AND CATS\n\nB-1 CEREAL GRAINS, THEIR PRODUCTS AND BY-PRODUCTS\n\n- a) Maize flour, b) Wheat flour, c) Oat flour, d) Barley, e) Wheat bran, f) Wheat germ, g) Millet, h) Sorghum, j) Maize gluten meal, k) Maize germ meal, m) Maize bran, n) Rice (broken), p) Rice bran, q) Rice germ expeller, and r) Dried distillery spent grains.\nB-2 OTHER PLANTS, THEIR PRODUCTS AND BY-PRODUCTS\n\n- a) Soyabean meal, b) Soyabean flour, c) Alfalfa meal (Lucerne meal), d) Dried grass meal, e) Potatoes (Solanum tuberosum), f) Rape seed, and g) Vegetable powders and extracts.\nB-3 INDUSTRIAL BY-PRODUCTS\n\n- a) Groundnut oilcake (expeller - pressed or solvent\nextract), b) Sunflower cakes, c) Brewers’ yeast and dried grains, d) Sugarcane molasses, e) Sugar beet pulp and molasses, f) Soyabean oil cake, and g) Vegetable oil.\n\nB-4 ANIMAL PRODUCTS AND BY-PROD- UCTS\n\n- a) Animal fat, b) Bone meal,\n\n- c) Blood meal, d) Meat/bone meal, e) Meat meal, f) Liver meal, g) Dried skimmed milk, h) Dry whey, j) Cheese meal, k) Poultry by-products (excluding manure), m) Poultry meal, n) Feather meal, p) Egg and egg derivatives, and q) Whole milk.\nB-5 FISH, OTHER MARINE ANIMALS, THEIR PRODUCTS AND BY-PRODUCTS\n\n- a) Fish meal, and b) Fish oil.\nB-6 OTHER INGREDIENTS\n\n- a) Common salt (sodium chloride), b) Dicalcium phosphate (fluorine content not to\nexceed 0.2 per cent), c) Calcium lactate, d) Limestone, e) Vitamin and mineral premixes, and f) Calcium carbonate.\n\nNOTES: 1 Feed materials shall, as far as good manufacturing practices\n\nallow, be free from chemical impurities resulting from their manufacturing process. 2 The botanical purity of products and by-products of plant\n\norigin shall not be less than 95 percent. The following are considered as botanical impurities:\n\n- a)  natural but harmless impurities (for example straw and straw waste, seeds of other cultivated species or weeds); and b)  harmless residues of other oil seeds or oil fruits derived from previous manufacturing process, the level of which does not exceed 0.5 percent. 3 The botanical purity levels indicated above refer to the\nweight of the product and by-product as such.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 30449,
+      "char_end": 32652,
+      "semantic_chunk_length": 2203,
+      "final_chunk_length": 2505,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0014",
+    "text": "eeds of other cultivated species or weeds); and b)  harmless residues of other oil seeds or oil fruits derived from previous manufacturing process, the level of which does not exceed 0.5 percent. 3 The botanical purity levels indicated above refer to the\nweight of the product and by-product as such.\n\n## ANNEX C\n\n( Clause 5.4 )\n\nDETERMINATION OF METABOLIZABLE ENERGY (ME)\n\nC-1 DOG FOOD (WET AND DRY)\n\nC- 2 PREPARED CAT FOOD\n\nC-1.1 Gross energy, GE (kcal) = (5.7 × protein in g) + (9.4 × fat in g) + [4.1 × (Nitrogen free extract in g + fibre in g)]\n\nC -2.1 Gross energy, GE (kcal) = (5.7 × protein in g) + (9.4 × fat in g) + [4.1 × (NFE in g + fibre in g)]\n\nC -2.2 Percentage energy digestibility = 87.9 - (0.88 × percentage crude fibre in dry matter)\n\nC-1.2 Percent energy digestibility = 91.2 - (1.43 × percentage crude fibre in dry matter)\n\nC- 2.3 Digestible energy, DE (kcal) = (GE × percentage energy digestibility/100)\n\nC-1.3 Digestible energy, DE (kcal) = (GE × percentage energy digestibility/100)\n\nC-2.4 Metabolizable energy, ME (kcal) = DE - (0.77 × protein in g)\n\nC-1.4 Metabolizable energy, ME (kcal) = DE - (1.04 × protein in g)\n\nExample (for cat food):\n\nExample (for dog food):\n\nFood composition: 80 percent moisture, 7 percent protein, 4 percent fat, 3 percent ash, 1 percent crude fibre, 5 percent NFE\n\nFood composition: 80 percent moisture, 7 percent protein, 4 percent fat, 3 percent ash, 1 percent crude fibre, 5 percent Nitrogen Free Extract (NFE)\n\nStep 1: GE (kcal·g-1) = (5.7 × 0.07) + (9.4 × 0.04) + [4.l × (0.01 + 0.05)] = 1.02\n\nNB NFE (percent) = 100 - (percent moisture + percent protein + percent fat + percent ash + percent fibre)\n\nStep 2: Percentage energy digestibility = 87.9 - (0.88 × 1/20 × 100) = 83.5 percent\n\nStep 1: Gross energy, GE kcal·g-1 = 5.7 × 0.07 + 9.4 × 0.04 + 4.1 × (0.01+ 0.05) = 1.02\n\nStep 3: DE (kcal·g-1) = 1.02 × 83.5/100 = 0.85\n\nStep 2: Percentage energy digestibility = 91.2 - (1.43 × 1/20 × 100) = 84.05 percent\n\nStep 4: ME (kcal·g-1) = 0.85 – (0.07 × 0.77) = 0.80\n\nStep 3: DE kcal·g-1 = 1.02 × 84.05/100 = 0.86\n\nStep 4: ME kcal·g-1 = 0.86 – 0.07 × 1.04 = 0.79",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 32657,
+      "char_end": 34471,
+      "semantic_chunk_length": 1814,
+      "final_chunk_length": 2116,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0015",
+    "text": ".01+ 0.05) = 1.02\n\nStep 3: DE (kcal·g-1) = 1.02 × 83.5/100 = 0.85\n\nStep 2: Percentage energy digestibility = 91.2 - (1.43 × 1/20 × 100) = 84.05 percent\n\nStep 4: ME (kcal·g-1) = 0.85 – (0.07 × 0.77) = 0.80\n\nStep 3: DE kcal·g-1 = 1.02 × 84.05/100 = 0.86\n\nStep 4: ME kcal·g-1 = 0.86 – 0.07 × 1.04 = 0.79\n\n## ANNEX D\n\n( Clause 5.7 )\n\nRECOMMENDED FEED FORMULAE\n\nD-1 PUPPY FOOD\n\nD-1.1 List of Ingredients\n\n- a) Cereals, b) Maize gluten, c) Meat and meat by-products, d) Palatants, e) Potassium chloride, f) Iodised salt,\nD-1.2 Model Feed Formulation\n\n- g) Soya oil, h) Antioxidant, j) Choline chloride, k) Whole milk powder, m) Mineral blend, n) Vegetable powder, and p) Zinc sulphate monohydrate.\n\n| Nutritional Profile | Unit | Pack Declaration | Analysis : Per 100 g |\n| --- | --- | --- | --- |\n| Crude protein, Min | g | 24.00 | 27.16 |\n| Crude fat, Min | g | 10.00 | 11.50 |\n| Crude fibre, Max | g | 5.00 | 1.34 |\n| Moisture | g |  | 8.23 |\n| Ash | g |  | 7.22 |\n| Essential Amino Acid |  |  |  |\n| Arginine | g |  | 1.77 |\n| Histidine | g |  | 1.86 |\n| Isoleucine | g |  | 1.63 |\n| Methionine | g |  | 1.08 |\n| Leucine | g |  | 1.88 |\n| Lysine | g |  | 1.13 |\n| Phenylalanine | g |  | 1.13 |\n| Threonine | g |  | 1.09 |\n| Valine | g |  | 1.71 |\n| Minerals |  |  |  |\n| Copper | mg |  | 5.60 |\n| Zinc | mg |  | 32.4 |\n| Selenium | µg |  | 84.8 |\n| Iodine | mg |  | 0.13 |\n| Iron | mg |  | 35.18 |\n| Manganese | mg |  | 2.1 |\n| Chloride | g |  | 0.89 |\n| Sodium | g |  | 0.45 |\n| Calcium | g |  | 1.38 |\n| Phosphorous | g |  | 1.36 |\n| Calcium (Ca) : phosphorous (P) ratio |  |  | 1.01 |\n| Potassium | g |  | 0.95 |\n| Magnesium | mg |  | 136.16 |\n\n\n\n\n\n\n| Nutritional Profile | Unit | Pack Declaration | Analysis : Per 100 g |\n| --- | --- | --- | --- |\n| Fatty Acid |  |  |  |\n| linoleic acid | g |  | 1.86 |\n| Vitamins |  |  |  |\n| Retinol (A) | IU |  | 663.6 |\n| Thiamin (B1) | mg |  | 0.66 |\n| Riboflavin (B2) | mg |  | 0.49 |\n| Niacin (B3) | mg |  | 1.49 |\n| Pantothenic acid (B5) | mg |  | 1.43 |\n| Pyridoxine (B6) | mg |  | 0.15 |\n| Folic acid (B9) | µg |  | 61.82 |\n| Cobalamin (B12) | µg |  | 2.03 |\n| Cholecalciferol (D3) | IU |  | 170.48 |\n| Alpha-tocopherol ( E ) | IU |  | 18.21 |\n| Biotin (B7) | µg |  | 17.06 |\n\n\nD-2 ADULT DOG FOOD\n\nD-2.1 List of Ingredients\n\n- a) Cereals, b) Palatant, c) Maize gluten, d) Meat and meat byproducts,\nD-2.2 Model Feed Formulation\n\n- e) Soy oil, f) Antioxidant, g) Mineral blend dog, h) Choline chloride, j) Peas powder, and k) Mineral blend.\n\n| Nutritional Profile | Unit | Pack Declaration | Analysis : Per 100 g |\n| --- | --- | --- | --- |\n| Crude protein, Min. | g | 20.00 | 21.91 |\n| Crude fat, Min. | g | 10.00 | 11.28 |\n| Crude fibre, Max. | g | 5.00 | 1.79 |\n| Moisture | g |  | 8.10 |\n| Ash | g |  | 7.03 |\n| Essential Amino Acids |  |  |  |\n| Arginine | g |  | 2.48 |\n| Histidine | g |  | 0.37 |\n| Isoleucine | g |  | 0.36 |\n| Methionine | g |  | 0.32 |\n| Leucine | g |  | 1.12 |\n| Lysine | g |  | 1.39 |\n| Phenylalanine | g |  | 2.36 |\n| Threonine | g |  | 1.46 |\n| Valine | g |  | 0.49 |",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 34477,
+      "char_end": 37216,
+      "semantic_chunk_length": 2739,
+      "final_chunk_length": 3041,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0016",
+    "text": "| Nutritional Profile | Unit | Pack Declaration | Analysis : Per 100 g |\n| --- | --- | --- | --- |\n| Minerals |  |  |  |\n| Copper | mg |  | 2.04 |\n| Zinc | mg |  | 28.27 |\n| Selenium | µg |  | 81.00 |\n| Iron | mg |  | 46.36 |\n| Manganese | mg |  | 4.50 |\n| Chloride | g |  | 0.35 |\n| Sodium | g |  | 0.21 |\n| Calcium | g |  | 1.05 |\n| Phosphorous | g |  | 0.97 |\n| Calcium (Ca) : phosphorous (P) ratio |  |  | 1.08 |\n| Potassium | g |  | 0.46 |\n| Magnesium | mg |  | 120 |\n| Fatty Acid |  |  |  |\n| linoleic acid | g |  | 2.87 |\n| Vitamins |  |  |  |\n| Retinol (A) | IU |  | 354.5 |\n| Thiamin (B1) | mg |  | 12.2 |\n| Riboflavin (B2) | mg |  | 1.1 |\n| Niacin (B3) | mg |  | 4.15 |\n| Pantothenic acid (B5) | mg |  | 1.2 |\n| Pyridoxine (B6) | mg |  | 0.14 |\n| Folic acid (B9) | µg |  | BDL |\n| Cobalamin (B12) | µg |  | BDL |\n| Cholecalciferol (D3) | IU |  | 249.5 |\n| Alpha-tocopherol (E ) | IU |  | 240 |\n| Biotin (B7) | µg |  | 11.38 |\n\n\nD-3 ADULT DOG FOOD — VEGETARIAN\n\nD-3.1 List of Ingredients\n\n- a) Cereals, b) Maize gluten, c) Soya isolate protein, d) Vegetarian spray, e) Soyabean oil, f) Milk powder, g) Iodized salt,\n\n- h) Potassium chloride, j) Choline chloride, k) Antioxidant, m) Methionine, n) Zinc sulphate monohydrate, o) Mineral blend, p) Vegetable powder, and q) Vitamin blend.\n\n\n\nD-3.2 Model Feed Formulation\n\n\n| Nutritional Profile | Unit | Pack Declaration | Analysis : Per 100 g |\n| --- | --- | --- | --- |\n| Crude protein, Min | g | 20.00 | 23.38 |\n| Crude fat, Min | g | 10.00 | 10.63 |\n| Crude fiber, Max | g | 5.00 | 1.43 |\n| Moisture | g |  | 8.02 |\n| Ash | g |  | 6.35 |\n| Essential Amino Acid |  |  |  |\n| Arginine | g |  | 1.38 |\n| Histidine | g |  | 0.85 |\n| Isoleucine | g |  | 0.95 |\n| Methionine | g |  | 0.68 |\n| Leucine | g |  | 1.38 |\n| Lysine | g |  | 1.42 |\n| Phenylalanine | g |  | 1.92 |\n| Threonine | g |  | 0.92 |\n| Valine | g |  | 1.83 |\n| Minerals |  |  |  |\n| Copper | mg |  | 2.24 |\n| Selenium | µg |  | 37.00 |\n| Zinc | mg |  | 45.00 |\n| Iron | mg |  | 42.31 |\n| Manganese | mg |  | 4.20 |\n| Chloride | g |  | 0.62 |\n| Sodium | g |  | 0.33 |\n| Calcium | g |  | 1.10 |\n| Phosphorous | g |  | 0.91 |\n| Ca :P ratio |  |  | 1.21 |\n| Potassium | g |  | 0.48 |\n| Magnesium | mg |  | 230 |\n| Fatty Acid |  |  |  |\n| linoleic acid | g |  | 3.49 |\n| Vitamins |  |  |  |\n| A | IU |  | 1131.95 |\n| Thiamin (B1) | mg |  | 1.10 |\n| Riboflavin (B2) | mg |  | 8.70 |\n| Niacin (B3) | mg |  | 1.60 |\n| Pantothenic acid (B5) | mg |  | 2.00 |\n| Pyridoxine (B6) | mg |  | 0.17 |\n| Folic acid (B9) | µg |  | BDL |\n| Cobalamin (B12) | µg |  | BDL |\n| Cholecalciferol (D3) | IU |  | 213.31 |\n| E | IU |  | 90 |\n\n\n\n\n\n\nD-4 ADULT CAT FOOD\n\nD-4.1 List of Ingredients\n\n- a) Corn whole, b) Poultry meal with feather, c) Wheat, d) Potassium chloride, e) Corn gluten meal, f) Iodised salt, g) Tuna meal,\nD-4.2 Model Feed Formulation\n\nIS 11968 : 2019\n\n- h) Acid citric, j) Taurine, k) Choline chloride, m) Cat mineral blend, n) Vitamin blend cat, and p) Methionine.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 19,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 37223,
+      "char_end": 40202,
+      "semantic_chunk_length": 2979,
+      "final_chunk_length": 2979,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0017",
+    "text": "dients\n\n- a) Corn whole, b) Poultry meal with feather, c) Wheat, d) Potassium chloride, e) Corn gluten meal, f) Iodised salt, g) Tuna meal,\nD-4.2 Model Feed Formulation\n\nIS 11968 : 2019\n\n- h) Acid citric, j) Taurine, k) Choline chloride, m) Cat mineral blend, n) Vitamin blend cat, and p) Methionine.\n\n| Nutritional Profile | Unit | Pack Declaration | Analysis : Per 100 g |\n| --- | --- | --- | --- |\n| Min. Crude protein | g | 30 | 32.3 |\n| Min. Crude fat | g | 10 | 11.2 |\n| Max. Crude fiber | g | 5 | 2.5 |\n| Moisture | g | 7 | 7.2 |\n| Ash | g | 5 | 5.2 |\n| Essential Amino Acid |  |  |  |\n| Arginine | g |  | 1.81 |\n| Histidine | g |  | 0.64 |\n| Isoleucine | g |  | 1.3 |\n| Methionine | g |  | 0.54 |\n| Leucine | g |  | 2.9 |\n| Lysine | g |  | 1.39 |\n| Phenylalanine | g |  | 1.51 |\n| Threonine | g |  | 1.24 |\n| Tyrosine | g |  | 1.01 |\n| Tryptophan | g |  | 0.31 |\n| Valine | g |  | 1.6 |\n| Taurine (extruded) | mg |  | 200 |\n| Minerals |  |  |  |\n| Copper (canned) | mg |  | 1.6 |\n| Zinc | mg |  | 19.2 |\n| Selenium | mg |  | 0.099 |\n| Iodine | mg |  | 0.19 |\n| Iron | mg |  | 16.1 |\n| Manganese | mg |  | 2.6 |\n| Chloride | g |  | 0.69 |\n| Sodium | g |  | 0.36 |\n| Calcium | g |  | 0.75 |\n| Phosphorous | g |  | 0.68 |\n| Ca: P ratio |  |  |  |\n| Potassium | g |  | 0.67 |\n| Magnesium | g |  | 0.1 |\n\n\n\n\n\n\n| Nutritional Profile | Unit | Pack Declaration | Analysis : Per 100 g |\n| --- | --- | --- | --- |\n| Fatty Acid |  |  |  |\n| linoleic acid | g |  | 2.43 |\n| Arachidonic acid | g |  | 0.22 |\n| EPA | g |  | 0.1 |\n| DHA | g |  | 0.1 |\n| Vitamins |  |  |  |\n| Retinol (A) | IU |  | 2150 |\n| Thiamin (B1) | mg |  | 0.92 |\n| Riboflavin (B2) | mg |  | 1 |\n| Niacin (B3) | mg |  | 8.6 |\n| Pantothenic acid (B5) | mg |  | 2.81 |\n| Pyridoxine (B6) | mg |  | 0.15 |\n| Folic acid (B9) | mg |  | 0.15 |\n| Cobalamin (B12) | ug |  | 9.8 |\n| Cholecalciferol (D3) | IU |  | 2345.95 |\n| Alpha-tocopherol ( E ) | mg |  | 13.39 |\n| Biotin (B7) | mg |  | 0.01 |\n| Choline | mg |  | 333.2 |\n\n\nD-5 HOME MADE RECIPE FOR ADULT MAINTENANCE\n\n\n| Ingredients (weight in g) | For Dog | For Cat |\n| --- | --- | --- |\n| White rice | 140 | 70 |\n| Meat, lean | 70 | 140 |\n| Liver | 30 | 30 |\n| Bone meal | 11 | 11 |\n| Corn oil | 5 | 5 |\n| Iodized salt | 2 | 2 |\n| Metabolizable energy (ME) from nutrients (in percent) |  |  |\n| Protein | 17 | 31 |\n| Fat | 31 | 41 |\n| Carbohydrate | 53 | 28 |\n| Energy from recipe | 800 kcal (3360 KJ) |  |",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 40204,
+      "char_end": 42320,
+      "semantic_chunk_length": 2116,
+      "final_chunk_length": 2418,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0018",
+    "text": "## ANNEX E\n\n( Foreword )\n\nNOTES ON FEEDING HABITS AND BEHAVIOR IN\n\nDOGS AND CATS (FOR GUIDANCE ONLY)\n\nE-1 Just like their owners, dogs need a balanced diet which contains just the right amount of protein, fat, carbohydrates, many different vitamins and minerals to ensure that they stay in peak condition. These nutrients must be present, not only in the correct amounts, but also in the correct proportion to each other to provide a nutritionally complete and balanced diet. A nutritionally balanced diet is crucial for the healthy growth and development of a puppy in order to prepare him for an active, long, and healthy life. Cats and dogs require about 40 essential nutrients, each in the right form and the right amount (balanced) to deliver complete nutrition.\n\nsuch as lentils, soya and eggs. Vegetables are also often included. Home prepared diets in India tend to be based around the family meal and it is common for vegetarian households to also feed dogs a vegetarian diet.\n\nE-3 NUTRITIONAL REQUIREMENTS: ­HUMAN, DOG AND CAT\n\nE-3.1 There are some notable differences in the minimum nutrient requirements of puppies and kittens when compared to minimum adult maintenance requirements. For example kittens need 2½ times more calcium and 3 times more phosphorus than adult cats; and puppies need 3 times more calcium and phosphorus than adult dogs on a per 1 000 kcal basis. It is essential for both puppies and kittens that calcium and phosphorus are present in the correct ratio to avoid skeletal deformities, particularly in giant breeds of dog. Puppies also need twice as much protein and fat as adult dogs on a per 1 000 kcal basis in order to provide energy and to synthesize new tissue for rapid growth.\n\nE-2 CURRENT FEEDING PRACTICE IN ­INDIA\n\nE-2.1 Traditionally, dogs in India have been fed table scraps and left to scavenge what food they can. Home- prepared describes a diet that is prepared in the home from individual ingredients, including table scraps, and constitutes the majority of the caloric intake for the dog or cat each day.\n\nE-3.2 Owners may believe that dogs are carnivores and require a meat based diet, whereas their natural feeding behaviour of scavenging as well as hunting means that they are in fact semi-carnivores and require both animal and plant material in their diet. Home-prepared diets for cats are commonly deficient in fat and energy density or contain less palatable fat sources such as vegetable oil. Over the counter veterinary vitamin and mineral supplements used by owners to supplement home-prepared diets are often not complete or well- balanced (Remillard, 2008). Therefore even these supplemented diets may still not be nutritionally complete and balanced.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 42327,
+      "char_end": 45043,
+      "semantic_chunk_length": 2716,
+      "final_chunk_length": 2716,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0019",
+    "text": "le fat sources such as vegetable oil. Over the counter veterinary vitamin and mineral supplements used by owners to supplement home-prepared diets are often not complete or well- balanced (Remillard, 2008). Therefore even these supplemented diets may still not be nutritionally complete and balanced.\n\nE-2.2 Concurrent advances in the knowledge of canine nutrient requirements (NRC, 2006, AAFCO 2013) have resulted in sophisticated, balanced and nutritionally complete manufactured diets for dogs. The NRC is an expert body that researches nutritional requirements for humans as well as cats and dogs. Other organizations such as FEDIAF in Europe and AAFCO in USA refer to the NRC findings for their recommendations.\n\nE-2.3 In line with the human market, pet-owners are responding to the wealth of readily available nutritional information. In emerging markets like India, where manufactured pet food penetration is very low, feeding home-prepared diets is so prevalent because of a variety of factors, including; cultural attitudes, owner compliance, poor education, economics and lack of availability of complete manufactured diets.\n\nE-3.3 The standard text books of veterinary nutrition and many recent studies have clearly indicated that a variety of home-prepared diets when compared to National Research Council (NRC) or Association of American Feed Control Officials (AAFCO) requirements were lacking or had below minimum recommendations for key nutrients like calcium, potassium, vitamin A and vitamin E (Streiff et al 2002, Rehman and Yathiraj 2002, Heaton et al 2004). It is widely recognized by pet owners and vets that pets are living longer, healthier lives and that improved nutrition has played an important role in this. (Reid and Peterson 2000, Watson 1996). Preliminary study also identified significant nutritional problems in the home-prepared diets fed to dogs in India (Rehman and Yathiraj 2002, Heaton et al 2004 ). An extensive study to survey the\n\nE-2.4 The nutritional profile of any diet including homemade diets, depends on how the recipe was formulated, the nutrient content of the ingredients, and how the owner prepares the diet. Homemade diets may also contain contaminants and food-borne microbes if the owner is not as careful as he or she is about his or her own foods. Home prepared food for dogs in India, consists of rice with additional carbohydrate from bread and chapattis and protein from meat sources such as beef viscera, chicken and lamb and non-meat sources\n\n\n\n\ninfluence of diet on oral health in cats and dogs was published in 2006 (Gaworet al, 2006). Another study by the same group looked at the association between daily diet and oral health in 15441 dogs and 5688 cats. Study by Buckley (Buckley et al 2011) also found that home- prepared diets were less beneficial than manufactured pet food for oral health in both cats and dogs. The data suggest that feeding a home-prepared diet to cats and dogs significantly increases the chance of these pets developing advanced periodontal disease.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 22,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 45045,
+      "char_end": 47784,
+      "semantic_chunk_length": 2739,
+      "final_chunk_length": 3041,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0020",
+    "text": "uckley et al 2011) also found that home- prepared diets were less beneficial than manufactured pet food for oral health in both cats and dogs. The data suggest that feeding a home-prepared diet to cats and dogs significantly increases the chance of these pets developing advanced periodontal disease.\n\nessential nutrient at concentrations that did not meet NRC or AAFCO guidelines, and many (167 [83.5 percent]) recipes had multiple deficiencies. The most commonly deficient nutrients, when compared with the NRC MR or NRC RA, were zinc (138 [69 percent] recipes), choline (129 [64.5 percent] recipes), copper (108 [54 percent] recipes), the combination of EPA plus DHA (107 [53.5 percent] recipes), and calcium (70 [35 percent] recipes). Only 3 recipes provided all essential nutrients in concentrations meeting or exceeding the NRC RA, and another 2 recipes provided all essential nutrients in concentrations meeting or exceeding the NRC MR; (Stockman J, Fascetti AJ., Kass PH., and Larsen JA. (2013) “Evaluation of recipes of home-prepared maintenance diets for dogs:, Journal of the American Veterinary Medical Association, June 1, Vol. 242, No. 11, Pages 1500-1505\n\nE-4 NUTRITIONAL ADEQUACY OF HOME PREPARED FOOD\n\nE-4.1 No single ingredient/source of diet will provide all the nutrients and energy requirement of a dog. For example, cereals are rich in some vitamins but lack many nutrients required for a dog or puppy. Meat is rich source of proteins but low in calcium and vitamin A. Likewise, milk is low in iron and Vitamin D. Therefore a combination of ingredients from plant and/or animal sources is required to meet the requirements of a dog. It is difficult even for an experienced person to prepare balanced diet for puppies or dogs at home. Unless properly formulated by a nutritionist, diets made at home are not likely to be nutritionally complete and balanced.\n\nE-4.5 There are number of studies done in India on ingredients for use in pet food and nutritional adequacy. The references are listed in bibliography Annex F.\n\nE-5 SOME HUMAN FOOD INGREDIENTS CAUSING ADVERSE EFFECTS IN DOGS AND CATS",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 47786,
+      "char_end": 49597,
+      "semantic_chunk_length": 1811,
+      "final_chunk_length": 2113,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0021",
+    "text": "at home are not likely to be nutritionally complete and balanced.\n\nE-4.5 There are number of studies done in India on ingredients for use in pet food and nutritional adequacy. The references are listed in bibliography Annex F.\n\nE-5 SOME HUMAN FOOD INGREDIENTS CAUSING ADVERSE EFFECTS IN DOGS AND CATS\n\nE-5.1 Home-prepared diets using human food are not subject to stringent manufacturing controls or analysis of nutritional adequacy. Owners feeding table scraps or home-prepared cooked meals risk creating diets with nutrient imbalances as well as using ingredients which could be toxic to dogs or cats. Onions and garlic contain several organo-sulfoxides which can cause red blood cell damage (Heinz body formation) in cats and dogs. As little as 5-10 g/kg BW onions and 5 g/kg BW whole garlic can be toxic to cats and dogs, which in severe cases can cause jaundice, renal failure and even death (FEDIAF, 2008). Although occasional low doses of onion and garlic will not cause a problem, the ASPCA (American Society for the Prevention of Cruelty to Animals) recommends that owners do not give their pets large quantities of onions or garlic. Milk is a good source of nutrients, however adult cats and dogs do not possess significant amounts of lactase (the enzyme that breaks down lactose in milk). This means that milk and other milk-based products can cause diarrhoea or other digestive upset and it should therefore not be included in home-prepared diets or given as a treat (ASPCA). While cooked eggs are a good source of protein, raw egg white contains avidin which is a protein that binds to biotin (vitamin B7); this makes biotin unavailable to the animal and can cause biotin deficiency. As biotin is essential for skin and coat health, eating large quantities of raw egg whites can cause skin lesions and hair loss in dogs and particularly cats who rely solely on a dietary source of biotin (Grandjean and Butterwick, 2009).\n\nE-4.2 Although it is possible to prepare nutritionally complete home-prepared diets by carefully following recipes and adding nutrient supplements, it is time consuming and owners often stop adding nutrient supplements due to cost or a lack of understanding of their necessity. They may also make more convenient substitutions to the recipes which can result in nutritional deficiencies, excesses or imbalances (Remillard, 2008).",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 49599,
+      "char_end": 51662,
+      "semantic_chunk_length": 2063,
+      "final_chunk_length": 2365,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0022",
+    "text": "rient supplements, it is time consuming and owners often stop adding nutrient supplements due to cost or a lack of understanding of their necessity. They may also make more convenient substitutions to the recipes which can result in nutritional deficiencies, excesses or imbalances (Remillard, 2008).\n\nE-4.3 The nutrient requirements of cats and dogs differ greatly to those of humans. This is why human foods are not usually complete and balanced for cats and dogs without supplementation and careful attention to ingredients and recipes. Unfortunately, some home- prepared pet food recipes are flawed. Some do not provide complete and balanced nutrition (Roudebush and Cowell, 1992) and have not been subject to feeding trials to establish long term nutritional performance. Such diets may not be problematic for short term or intermittent feeding, but are hazardous during the long term or during periods of growth and development, as well as pregnancy and lactation, when demands for energy and essential nutrients can be increased several fold. Some home-prepared diets for dogs contain high proportions of meat which contains more phosphorus than calcium; this may result in an inverse calcium to phosphorus ratio (Remillard, 2008).\n\nE-4.4 In one of large study on homemade diets, most (190/200 [95 percent]) recipes resulted in at least 1\n\n\n\n\nE-5.2 Treating dogs with human foods rather than specifically designed dog treats is a popular practice but can be hazardous as there are several human foods such as chocolate, cakes and sweets containing the artificial sweetener xylitol, raisins and grapes which can be toxic to pets. Chocolate contains a chemical called theobromine which is toxic to dogs. Even a small amount of chocolate every day can eventually cause harm as it can accumulate to toxic levels in the liver; as little as 4.5 g dark baking chocolate/kg bodyweight could be lethal (FEDIAF, 2008). Many baked goods contain xylitol which can cause insulin release in most species, which can lead to liver failure. Case studies found signs of toxicity in a standard poodle that ate five or six cookies and a Dalmatian that ate eight muffins (Dunayer, 2006). Grapes and raisins are also highly toxic to dogs although the toxic agent is not known. Dogs typically suffer gastrointestinal upset (where vomit contains grapes or raisins) which in severe cases can be followed by acute renal failure (FEDIAF, 2008).\n\nE-7 FEEDING BEHAVIOUR\n\nE-7.1 There appear to be very few odours, tastes or flavours which can be defined as inherently acceptable or unacceptable to cats or dogs. Individual food preferences are developed through experience and are therefore dependent on normal feeding practice which will result in differences across cultures, between countries and even between regions within countries.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 23,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 51664,
+      "char_end": 54177,
+      "semantic_chunk_length": 2513,
+      "final_chunk_length": 2815,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0023",
+    "text": " can be defined as inherently acceptable or unacceptable to cats or dogs. Individual food preferences are developed through experience and are therefore dependent on normal feeding practice which will result in differences across cultures, between countries and even between regions within countries.\n\nE-7.2 The life style of the wild canids and felids is very different from that of their domestic counterparts. The wild relatives of our pets are not presented with a reliable supply of foods each day and have to expend considerable energy in locating and catching prey. In this situation the palatability of the prey is probably of lesser importance than knowing that the food is safe to eat and meets the animal’s nutritional needs. However, when food is readily available, even wild carnivores will be selective. Although the route to obtaining food for domestic cat and dog is very different from that of their wild ancestors, the underlying behavioural mechanisms on which food selection is based may still be intact, if modified somewhat by domestication. In- built patterns of behaviour appear to play a large part in selecting useful food items, as orphaned animals raised by hand, without the benefit of learning from their natural parents, will still select food appropriate to their life-style. The experiences provide by the natural parents appear to modify food-selection behaviour of the young with the resultant development of a response that is appropriate to their current environment. Dogs have been domesticated over the past 10 000 to 15 000 years, during which time their diet involved greater consumption of grains. Their genetic makeup evolved to accommodate this increase in dietary carbohydrates, and today dogs are genetically dissimilar to wolves in several key genes that involve starch digestion and glucose uptake. (The genomic signature of dog domestication reveals adaptation to a start-rich diet. Axelsson E, Ratnakumar A, Arendt ML, et al. Nature 495 : 360-364, 2013)\n\nE-6 IMPACT OF FEEDING RAW MEAT TO PETS\n\nE-6.1 The British small animal veterinary association and FDA/CVM (US Food and Drug Administration) advises against feeding raw (or cooked) bones to dogs and cats as splinters from bones can cause extensive internal injuries by lodging in the mouth, throat or chest, in addition to damaging stomach lining and puncturing intestines. These problems can be life threatening. Although bones may be considered a natural component of the dog’s diet, in fact incidence of tooth fractures in wild carnivores is widespread and increases with the consumption of dietary bones. Furthermore the types of bones that dogs consume in typical prey are often small and soft in contrast, to larger and harder pork or beef bones which may be bought from a butcher for dogs to chew.\n\nE-6.2 Advocates of raw food diets for cats and dogs make many claims about the health benefits of such diets, yet all are anecdotal. There is, however, evidence of a number of safety risks of such diets and tens of studies have demonstrated the transmission of infectious agents from raw diets to the faeces of companion animals and also pose high risk to family members.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 23,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 54179,
+      "char_end": 57058,
+      "semantic_chunk_length": 2879,
+      "final_chunk_length": 3181,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0024",
+    "text": "out the health benefits of such diets, yet all are anecdotal. There is, however, evidence of a number of safety risks of such diets and tens of studies have demonstrated the transmission of infectious agents from raw diets to the faeces of companion animals and also pose high risk to family members.\n\nE-7.3 Pet dogs and cats usually do not have direct control over their food supply. Rather, they obtain only indirect control by begging, harassing or otherwise, manipulating their owners for a diet of sufficient quantity, quality and desired timing. Even in nature, the related wild forms of these domestic species may have little direct control over the timing and size of meals because they have to stalk and hunt prey which is unlikely to be easily captured. Thus, under wild conditions these carnivores must commence hunting well in advance of actual feeding, except on occasions when food is abundant, as during seasonal peaks or migrations of prey populations. Considered effort may have to be expended in hunting or procurement of prey\n\nE-6.3 The risks associated with raw meat based diets has been recently reviewed by Freeman et al (2013) (Freeman LM, Chandler ML, Hamper AB and Weeth LP (2013) Current knowledge about the risks and benefits of raw meat–based diets for dogs and cats JAVMA, Vol 243, No. 11, December 1, 2013)\n\n\n\n\nin the wild, whereas the pet dog or cat obtain its food a little cost in time or energy.\n\nE-7.4 The way in which we feed our pets varies from household to household in the timing, size and content of the meal. The majority of dogs are fed one or two meals each day, one meal a day being most common. For cats the picture is more complex and feeding patterns vary considerably from country to country.\n\nE-7.5 These patterns of feeding have not been chosen at random as they reflect the natural feedings patterns of the wild ancestors. The domestic dog’s relative, the wolf, is a pack hunting carnivore enabling it to hunt relatively large prey resulting in periodic abundance of food. The canids are well adapted to handling very large meals and for fasting for extended periods without ill effect, a perfect adaptation to the “feast and fast” nature of their food supply. The domestic dog still remains the drive to eat as much as possible when food is available, although the strength of this drive varies across breeds, presumably the effect of domestication and selective breeding. Dogs may eat food served at different temperature but cats generally reject or dislike food when served very cold\n\nE-7.6 However, the ancestor of the domestic cat, small jungle felids, fed predominantly on small mammals and required several meals (kills) each day to satisfy its appetite. Also in contrasts to the canids, the small felids are physiologically intolerant of starvation and adapted for a regular food supply. Hence the usual feeding practice that we use with our dogs and cats; single daily meals for the dog that are often consumed at an alarming rate, multiple meals or freely available food for cats. Of course these are only generalizations and feeding patterns vary, but dogs readily adapt to any regular pattern of feeding whether it involves one, two or more meals each day.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 24,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 57060,
+      "char_end": 59979,
+      "semantic_chunk_length": 2919,
+      "final_chunk_length": 3221,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0025",
+    "text": "gle daily meals for the dog that are often consumed at an alarming rate, multiple meals or freely available food for cats. Of course these are only generalizations and feeding patterns vary, but dogs readily adapt to any regular pattern of feeding whether it involves one, two or more meals each day.\n\nE-7.7 A novel food whose characteristics are outside of the animals feeding experience will tend to be rejected, whereas those more similar to known food are accepted and tried. Cats and dogs reared from weaning for 16 weeks on a single commercially prepared nutritionally complete food consistently preferred an alternative food when offered a choice between the alternative and the familiar food (Mugford. 1977a). Ferrel (1984) fed distinctively flavoured semi-moist diets from weaning for three weeks and found similar results, but one of the treatment groups still exhibited strong preferences for the familiarly flavoured food. This variability in response is almost certainly due to the interaction between the duration single food feeding and the palatability of the alternative food relative to the familiar food. The behaviour that are observed are neophilia, conditioned aversion and conditioned\n\n\npreference. These behavioral strategies provide the animal with a sound base for learning about foods and developing a food selection strategy. They are adaptive in that the adaptive avoidance of potential new foods so that nutritional quality can be assessed. Aversion provides bottom line safety by ensuring that foods that produce negative physiological consequences do not become part of the food repertoire.\n\nE-7.8 It comes as no surprise to many owners that domestic cats are often described as finicky feeders (Bradshaw and Thorne 1992). In fact, the feeding preferences of cats are highly individual (Thorne 1994). Owners frequently report that their cat has apparently idiosyncratic food preferences, examples being particular food items or a liking for or refusal of one particular product or flavour from a commercial range.\n\nE-7.9 Cats are predators and obligate carnivores, and in the wild their diet is composed of a variety of items, especially small mammals, with some birds, reptiles, insects and very little vegetable matter (Plantingaet al. 2011). Availability is undoubtedly one factor, such that the feline diet may be restricted within a locality or season. In addition, the nutrient content can differ not only between different prey species but also within a species; depending, for example, on the time of year or the age of the prey animal. Coping with a food supply that is unpredictable in terms of availability and nutrient content requires particular behavioural strategies. These have been inherited by the domestic cat from its ancestors and probably underlie much of the feeding behaviour seen today.\n\nE-7.10 As in all species, taste is an important factor determining what cats like to eat. Unlike dogs (Ferrell 1984) and humans (Reed and McDaniel 2006), cats show no preference for, and indifference to, sweet compounds (such as sugars and artificial sweeteners). It seems that having evolved as an obligate carnivore the ability to taste sugar was lost and today’s cats have inherited this.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 24,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 59981,
+      "char_end": 62915,
+      "semantic_chunk_length": 2934,
+      "final_chunk_length": 3236,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0026",
+    "text": "nlike dogs (Ferrell 1984) and humans (Reed and McDaniel 2006), cats show no preference for, and indifference to, sweet compounds (such as sugars and artificial sweeteners). It seems that having evolved as an obligate carnivore the ability to taste sugar was lost and today’s cats have inherited this.\n\nE-7.11 Cats are true carnivores (meat eaters), having a diet consisting of small prey such as rodents, birds, fish, reptiles and insects. Cats hunt by stealth and ambush, their prey is caught with the claws and then killed with the teeth. They generally prey items which are rich in water, protein and fat and low in carbohydrate and ash (minerals) and they have no requirement for plant materials.\n\nE-7.12 Some of the unique nutritional requirements of cats are as follows:\n\n- a) Unique energy and glucose metabolism;\n- b) Higher protein requirement;\n\n\n\n- c) Requirement of dietary taurine;\n- d) Sensitivity to a deficiency of the amino acid arginine;\n- e) Requirement of a dietary source of arachidonic acid;\n- f) Inability to convert beta-carotene to active vitamin A; and\n- g) Inability to convert the amino acid tryptophan to niacin.\n\nE-7.13 The nutritional requirements above impose a requirement for the inclusion of animal tissue in the diet of cats.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 25,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 62917,
+      "char_end": 63875,
+      "semantic_chunk_length": 958,
+      "final_chunk_length": 1260,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0027",
+    "text": "Requirement of a dietary source of arachidonic acid;\n- f) Inability to convert beta-carotene to active vitamin A; and\n- g) Inability to convert the amino acid tryptophan to niacin.\n\nE-7.13 The nutritional requirements above impose a requirement for the inclusion of animal tissue in the diet of cats.\n\n## ANNEX F\n\n( Bibliography )\n\n1. Bradshaw J, Thorne C. Feeding behaviour. In: The Waltham Book of Dog and Cat Behaviour. Editor: C Thorne. Pergamon Press, New York. 1992, Chapter 7, pages 115-129. 2. Bradshaw JW, Healey LM, Thorne CJ, Macdonald DW, Arden-Clark C. Differences in food preferences between individuals and populations of domestic cats Felis silvestris catus. Appl Anim Behav Sci. 2000 Jun 1; 68(3): 257-268. 3. Bradshaw JWS. Mere exposure reduces cats’ neophobia to unfamiliar food. Anim Behav. 1986;34(2): 613-614. 4. Buchanan, R.L., Baker, R.C., Charlton, A.J., Riviere, J.E. and Standaert, R.(2011) Pet food safety: a shared concern. British Journal of Nutrition 106: S78-S84 5. Buckley, C., Colyer, A., Skrzywanek, M., Jodkowska, K., Kurski, G., Gawor, J. and Ceregrzyn, M. (2011). The impact of home- prepared diets and home oral hygiene on oral health in cats and dogs. British Journal of Nutrition 106: S124-S127 6. Chengappa, M.M., Staats, J., Oberst, R.D., Gabbert, N.H. and McVey, S. (1993) Prevalence of Salmonella in raw meat used in diets of racing greyhounds. Journal of Veterinary Diagnostic Investigation 5: 372-377. 7. Dillitzer, N., Baker, N. and Kienzle, E. (2010). Frequency and extent of nutritional imbalances in “bone and raw food” (BARF) rations. WINNS 2010. 8. Dillitzer, N., Baker, N. and Kienzle, E. (2011). Intake of minerals, trace elements and vitamins in bone and raw food rations in adult dogs. British Journal of Nutrition, 106, 853-856. 9. Dunayer, E.K., (2006) New findings on the effects of xylitol ingestion in dogs Veterinary Medicine Volume 101, Issue 12, pp 791-798 10. FDA Consumer health information April 2010. No bones about it: Bones are unsafe for your dog. U.S. Food and Drug Administration. 11. FEDIAF Nutritional guidelines for complete and complementary pet food for cats and dogs, September 2008 12. Ferrell F. Preference for sugars and nonnutritive sweeteners in young beagles. Neurosci Biobehav Rev. 1984; 8(2): 199-203. 13. Finley, R., Ribble, C., Aramini, J., Vandermeer, M., Popa, M., Litman, M. and Reid-Smith, R. (2007) The risk of salmonella shedding by",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 26,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 63881,
+      "char_end": 66007,
+      "semantic_chunk_length": 2126,
+      "final_chunk_length": 2428,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0028",
+    "text": " for cats and dogs, September 2008 12. Ferrell F. Preference for sugars and nonnutritive sweeteners in young beagles. Neurosci Biobehav Rev. 1984; 8(2): 199-203. 13. Finley, R., Ribble, C., Aramini, J., Vandermeer, M., Popa, M., Litman, M. and Reid-Smith, R. (2007) The risk of salmonella shedding by\n\ndogs fed salmonella-contaminated commercial raw food diets. Canadian Veterinary Journal 48 : 69-75 14. Freeman, L.M. and Michel. K.E. (2001) Evaluation of raw food diets for dogs. JAVMA 218(5) : 705-709 15. Gawor, J.P., Reiter, A.M., Jodkowska, K., Kurski, G., Wojtacki, M.P. and Kurek, A. (2006). Influence of diet on oral health in cats and dogs. J. Nutr. 136 : 2021S-2023S. 16. Gawor, JP, Jodkowska, K, Kurski, G, Wojtacki, MP and Ceregrzyn, M. (2007). The influence of feeding on oral health in dogs and cats: large population study. 32nd Annual WSAVA Congress abstract. 17. Gorrel, C. (1998). Periodontal Disease and Diet in Domestic Pets. The Journal of Nutrition. 128 : 2712S-2714S. 18. Grandjean, D., Butterwick, R. Ed. WALTHAM® pocket book of essential nutrition for cats and dogs. Mars Inc. 2009. 19. Hand, M.S., Thatcher, C.D., Remillard, R.L., Roudebush, P., Novotny, B.J. Small Animal Clinical Nutrition, 5th Edition. Mark Morris Institute, 2010 20. Heaton, P.R., Umesh, K.G. and Hawthorne A.J. (2005). A comparison of home-prepared diets for adult dogs in India to National Research Council guidelines; assessment of nutritional adequacy. Compendium on Continuing Education for the Practising Veterinarian. 27 : 90 Proceedings, 2004 Nestle Purina Foundation Forum 21. Joffe, D. J. and Schlesinger, D. P. (2002) Preliminary assessment of the risk of salmonella infection in dogs fed raw chicken diets. Canadian Veterinary Journal 43 : 441-442 22. Kale, S., (2010) Comparative growth performance of puppies on homemade and commercial non-vegetarian food. Thesis, Mumbai Vet School. 23. Laflamme D. Development and validation of a body condition score system for dogs. Canine Pract. 1997; 22 : 10–5. 24. Lawler, D.F., Larson, B.T., Ballam, J.M., Smith, G.K., Biery, D.N., Evans, R.H., Greeley, E.H., Segre, M., Stowe, H.D. and Kealy, R.D. (2008). Diet restriction and ageing in the dog: major observations over two decades. British Journal of Nutrition, 99, 793-805.",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 26,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 66010,
+      "char_end": 67987,
+      "semantic_chunk_length": 1977,
+      "final_chunk_length": 2279,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0029",
+    "text": "s. Canine Pract. 1997; 22 : 10–5. 24. Lawler, D.F., Larson, B.T., Ballam, J.M., Smith, G.K., Biery, D.N., Evans, R.H., Greeley, E.H., Segre, M., Stowe, H.D. and Kealy, R.D. (2008). Diet restriction and ageing in the dog: major observations over two decades. British Journal of Nutrition, 99, 793-805.\n\n25. Le Jeune, J.T. and Hancock, D.D. (2001) Public health concerns associated with feeding raw meat diets to dogs. Journal of the American Veterinary Medical Association 219 : 1222-1225 26. Li X, Li W, Wang H, Bayley DL, Cao J, Reed DR, Bachmanov AA, Huang L, Legrand- Defretin V, Beauchamp GK, Brand JG. Cats lack a sweet taste receptor. J Nutr. 2006 Jul; 136 (7 Suppl) : 1932S-1934S. 27. Lopes, F.M., Gioso, M.A., Ferro, D.G, Leon- Roman, M.A., Venturini, M. A. F. A. and Correa, H. L. (2005). Oral Fractures in Dogs of Brazil – a retrospective study. Journal of Veterinary Dentistry 22 : 2 28. Nutrient Requirements of Dogs and Cats. The National Academies Press, Washington DC, 2006. 29. PFMA (Pet Foods Manufacturer’s Association) http://www.pfma.org.uk/home.cfm 30. Plantinga EA, Bosch G, Hendriks WH. Estimation of the dietary nutrient profile of free-roaming feral cats: possible implications for nutrition of domestic cats. Br J Nutr. 2011 Oct;106 Suppl 1: S35-48. 31. Rahaman, S. A. and Yathiraj, S. (2001) Commercial vs. traditional food in canine health. Poster/Abstract, WALTHAM® International Nutritional Science Symposium – Innovations in Companion Animal Nutrition Abstracts, Washington DC, USA September 15-18, 2005 32. Remillard, R.L., 2008. Homemade Diets: Attributes, Pitfalls, and a Call for Action. Topics in Companion Animal Medicine, 23 (3), pp. 137-142. 33. Robinson J. G. A. and Gorrel, C. The oral status of a pack of foxhounds fed a ‘natural’ diet. In: Proceedings of the World Veterinary Dental Congress. Birmingham, UK, 1997 : 35-37. 34. Schlesinger, D.P. and Joffe, D.J. (2011) Raw food diets in companion animals: a critical review. The Canadian Veterinary Journal 52(1): 50–54. 35. Selvaraj, P., Dhinakar Rag, G., Nambi, A.P., Srinivasan, S.R. and Umesh, K.G. (2010) The WALTHAM® International Nutritional Sciences Symposium 2010. 36. Shakhar, C., Pattanaik, A.K., Kore, K.B. and Sharma, K. (2010) Appraisal of feeding practices and blood metabolic profile of pet dogs reared on homemade diets. Animal Nutrition and Feed Technology 10 : 61-73. 37. Simpson SJ, Raubenheimer D. The nature of nutrition: A unifying framework from\n\n\nIS 11968 : 2019",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 67992,
+      "char_end": 70169,
+      "semantic_chunk_length": 2177,
+      "final_chunk_length": 2479,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0030",
+    "text": "C., Pattanaik, A.K., Kore, K.B. and Sharma, K. (2010) Appraisal of feeding practices and blood metabolic profile of pet dogs reared on homemade diets. Animal Nutrition and Feed Technology 10 : 61-73. 37. Simpson SJ, Raubenheimer D. The nature of nutrition: A unifying framework from\n\n\nIS 11968 : 2019\n\nanimal adaptation to human obesity. Princeton University Press, Princeton. 2012. 38. Simpson SJ, Sibly RM, Lee KP, Behmer ST, Raubenheimer D. Optimal foraging when regulating intake of multiple nutrients. Anim Behav. 2004; 68 : 1299-1311. 39. Sirivaidyapong, S (2003) The survey of dietary types frequently fed to dogs with and without mammary gland tumors. WALTHAM® symposium, 2004, Bangkok 40. Stiver, S.L., Frazier, K.S., Mauel, M.J. et al (2003) Septicemic salmonellosis in two cats fed a raw-meat diet. Journal of the American Animal Hospital Association 39 : 538-542 41. Stone, G.G., Chengappa, M.M., Obers, R.D. et al (1993) Application of polymerase chain reaction for the correlation of Salmonella serovars recovered from Greyhound feces with their diet. Journal of Veterinary Diagnostic Investigation 5 : 378-385 42. Streiff, EL, Zwischenberger, B, Butterwick, RF, Wagner, E, Iben, C and Bauer, JE. (2002). A comparison of the nutritional adequacy of home-prepared and commercial diets for dogs. J. Nutr. 132 : 1698S-1700S. 43. Thorne CJ. Feeding behaviour in the cat - recent advances. J Small Anim Pract. 1982; 23(9) : 555-562. 44. Watson, A.D.J, (1994) Diet and periodontal disease in dogs and cats. Australian Veterinary Journal 71 : 10. 45. Watson, T.D.G., (1998) Diet and skin disease in dogs and cats. The Journal of Nutrition 128 : 2783S 46. Weese, J. S., Rousseau, J. and Arroyo, L. (2005) Bacteriological evaluation of commercial canine and feline raw diets. Canadian Veterinary Journal 46 : 513-516.\n\nSome selected Indian publications on Pet food and Nutrition",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 70171,
+      "char_end": 71752,
+      "semantic_chunk_length": 1581,
+      "final_chunk_length": 1883,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0031",
+    "text": "et and skin disease in dogs and cats. The Journal of Nutrition 128 : 2783S 46. Weese, J. S., Rousseau, J. and Arroyo, L. (2005) Bacteriological evaluation of commercial canine and feline raw diets. Canadian Veterinary Journal 46 : 513-516.\n\nSome selected Indian publications on Pet food and Nutrition\n\n47. Shakhar, C., Pattanaik, A.K., Kore, K.B., Puneet Kumar and Sharma, K. 2007. Comparative evaluation of nutritional adequacy of rice-meat based homemade diet with or without vegetables in Great Dane pups. Animal Nutrition and Feed Technology, 7 (2): 213-225. 48. Kore, K.B., Pattanaik, A.K., Das, A. and Sharma, K. 2008. Nutritional and metabolic response of adult Spitz dogs fed pearl millet (Pennisetum typhoides) based diets to exogenous enzyme supplementation. Animal Nutrition and Feed Technology, 8 : 193-202.\n\n\n\n49. Pawar, M.M., Pattanaik, A.K. and Sharma, K. 2009. Effect of optimization nutrient profile of homemade diet on growth, nutrient utilization, hind gut fermentation and immune response in Spitz pups. Indian Journal of Animal Sciences, 79 (3) : 331-334. 50. Pawar, M. M. and Pattanaik, A. K. 2009. Comparative evaluation of soya nuggets and soybean meal as protein source in homemade diet of adult Spitz dogs. Indian Journal of Animal Sciences, 79 (3) : 335-338. 51. Kore, K. B., Pattanaik, A. K., Das, A. and Sharma, K. 2009. Evaluation of alternate cereal sources in dog diets: effect on nutrient utilization and hindgut fermentation characteristics. Journal of the Science of Food and Agriculture, 89 (13) : 2174-2180. 52. Shakhar, C., Pattanaik, A.K., Kore, K.B. and Sharma, K. 2010. Appraisal of feeding practices and its effect on blood metabolic profile of pet dogs reared on homemade diets. Animal Nutrition and Feed Technology, 10 (1) : 61-73. 53. Pawar, M. M., Pattanaik, A. K., Puneet Kumar, Sharma, K. and Goswami, T. K. 2011. Metabolic and immunological response in dogs fed homemade diets with augmented nutrient profile. Animal Nutrition and Feed Technology, 11 (1) : 71-80.\n\n\n54. Kore, K. B., Pattanaik, A. K., Das, A. and Sharma, K. 2012. Evaluation of prebiotics (mannanoligosaccharide) as functional food in dogs: effect on nutrient digestibility, hind gut health and plasma metabolic profile. Indian Journal of Animal Science, 82 (1): 81-86. 55. Kore, K.B., Pattanaik, A.K., Sharma, K. and Mirajkar, P.P. 2012. Effect of feeding traditionally prepared fermented milk dahi (curd) as a probiotics on nutritional status, hindgut health and haematology in dogs. Indian Journal of Traditional Knowledge, 11 (1) : 35-39. 56. Pawar, M.M.and Pattanaik, A. K. 2012. Blood metabolic indices and erythrocytic antioxidants profile in Spitz dogs. Indian Veterinary Journal, 89 (4): 22-24. 57. Kore, K. B., Pattanaik, A. K., Das, A. and Sharma, K. 2012. Metabolic profile and erythrocytic antioxidant status of dogs reared on homemade diets. Indian Veterinary Journal, 89 (7): 89-92. 58. Samal, L., Chaturvedi, V. B., Baliyan, S., Saxena, M. and Pattanaik, A. K. 2012. Jerusalem artichoke as a potential prebiotic: influence on nutrient utilization, hindgut fermentation and immune response of Labrador dogs. Animal Nutrition and Feed Technology, 12 (3) : 343-352.\n\n\n\n\n\n\n\n\nBureau of Indian Standards",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 30,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 71754,
+      "char_end": 74680,
+      "semantic_chunk_length": 2926,
+      "final_chunk_length": 3228,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11968_0032",
+    "text": "Chaturvedi, V. B., Baliyan, S., Saxena, M. and Pattanaik, A. K. 2012. Jerusalem artichoke as a potential prebiotic: influence on nutrient utilization, hindgut fermentation and immune response of Labrador dogs. Animal Nutrition and Feed Technology, 12 (3) : 343-352.\n\n\n\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: FAD 05 (13672).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. | Date of Issue | Text Affected |\n| --- | --- | --- |",
+    "metadata": {
+      "source": "11968.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 30,
+      "page_end": 30,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 74682,
+      "char_end": 76047,
+      "semantic_chunk_length": 1365,
+      "final_chunk_length": 1667,
+      "standard_no": "IS 11968",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

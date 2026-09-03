@@ -1,0 +1,663 @@
+[
+  {
+    "id": "15223_2016_reff2022_0000",
+    "text": "IS 15223 : 2016\n\n\n\n\nHkkjrh; ekud\n\nIS 15223 : 2016\n\n(Reaffirmed 2021)\n\nIndian Standard\n\n(Reaffirmed 2022)\n\nLopy okgu — Hkhrjh fiQ¯Vx — fof'kf\"V\n\n( igyk iqujh{k.k )\n\nAutomotive Vehicles — Interior\n\nFittings — Specification\n\n( First Revision )\n\nICS 43.040\n\n© BIS 2016\n\nHkkjrh; ekud C;wjks\n\nBUREAU OF INDIAN STANDARDS\n\nekud Hkou] 9 cgknqj'kkg T+kiQj ekxZ] ubZ fnYyh&110002\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.org.in www.standardsbis.in\n\nJuly 2016\n\nPrice Group 7\n\n\n\n\nAutomotive Body, Chassis, Accessories and Garage Equipment Sectional Committee, TED 06\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Automotive Body, Chassis, Accessories and Garage Equipment Sectional Committee had been approved by the Transport Engineering Division Council.\n\nThis standard was first published in 2002. This revision has been under taken based on the experience gained over the years and need for its alignment with European practice.\n\nIn the formulation of this standard assistance has been derived from ECE Regulation 21 ‘Uniform provisions concerning the approval of vehicles with regard to their interior fittings’.\n\nThe Committee responsible for the formulation of this standard is given in Annex F.\n\nFor the  purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 1960 ‘Rules for rounding off numerical values (revised)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nAUTOMOTIVE VEHICLES — INTERIOR FITTINGS —\n\n\nSPECIFICATION\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard covers the requirement of interior fittings for M1 category of vehicles in respect of following:\n\n- a) The interior parts of the passenger compartment other than the rear-view mirror or mirrors,\n- b) The arrangement of the controls,\n- c) The roof or opening roof, and\n- d) The seat-back and the rear parts of seats.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 0,
+      "char_end": 2168,
+      "semantic_chunk_length": 2168,
+      "final_chunk_length": 2168,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0001",
+    "text": "irement of interior fittings for M1 category of vehicles in respect of following:\n\n- a) The interior parts of the passenger compartment other than the rear-view mirror or mirrors,\n- b) The arrangement of the controls,\n- c) The roof or opening roof, and\n- d) The seat-back and the rear parts of seats.\n\n## 2 REFERENCES\n\nThe following standards contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated below.\n\n| IS No. | Title |\n| --- | --- |\n| 13749 : 1993 | Automotive vehicles — Determination of H-point — Method of test |\n| 14272 : 2011 | Automotive vehicles — Types — Terminology |\n| 15140 : 2003 | Automotive vehicles — Safety belt assembly — Specification |\n| 13749 : 2009 | Automotive vehicles — Procedure for determining the ‘H’ point and the torso angle for 50th percentile adult male in seating positions of motor vehicles |\n| 15546 : 2005 | Automotive vehicles — Seats, their anchorages and head restraints for category M1 |",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2170,
+      "char_end": 3103,
+      "semantic_chunk_length": 933,
+      "final_chunk_length": 1235,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0002",
+    "text": "t assembly — Specification |\n| 13749 : 2009 | Automotive vehicles — Procedure for determining the ‘H’ point and the torso angle for 50th percentile adult male in seating positions of motor vehicles |\n| 15546 : 2005 | Automotive vehicles — Seats, their anchorages and head restraints for category M1 |\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard the definitions given in IS 14272 and the following definitions shall apply.\n\n\n### 3.1 Approval of a Vehicle — Approval of a vehicle means the approval of a vehicle type with regard to its interior fittings.\n\n\n\n### 3.2 Vehicle Type — Vehicle type with regard to the interior fittings of the passenger compartment means vehicles of category M1 which do not differ in such essential respects as,\n\n- a) the arrangement of controls;\n- b) the lines and constituent materials of the body work of the passenger compartment;\n- c) the performance of the protective system, if the reference zone within the head impact zone determined according to Annex E (dynamic evaluation) is chosen by the vehicle manufacturer.\nVehicles that differ only in the performance of the protective system(s) belong to the same vehicle type if they offer an equal or better protection for the occupants compared with the system or vehicle submitted to the technical service responsible for conducting the approval tests.\n\n\n### 3.3 Reference Zone (see Notes 1 and 2) — The head impact zone as defined in Annex A, or at the choice of manufacturer, according to Annex E except (see Notes 1 and 2) :\n\n- a) The area bounded by the forward horizontal projection of a circle circumscribing the outer limits of the steering control, increased by a peripheral band 127 mm in width; this area is bounded below by the horizontal plane tangential to the lower edge of the steering control when the latter is in the position for driving straight ahead (see Note 2);\n- b) The part of the surface of the instrument panel comprised between the edge of the area specified in (a) and the nearest inner side-wall of the vehicle; this part of the surface is bounded below by the horizontal plane tangential to the lower edge of the steering control; and\n- c) The windscreen side pillars.\nNOTES 1 The reference zone is outlined without rear view mirror. The energy-dissipation test is accomplished without the rear view mirror. The pendulum shall not impact the mirror mounting.\n\n\n\n\n2 The exempted area behind the steering wheel as defined by these clauses is also valid for the head impact area of the front passengers. In the case of adjustable steering wheels the zone finally exempted is reduced to the common area of the exempted zones for each of the driving positions which the steering wheel may assume. In the case where it is possible to choose between various steering wheels the exempted zone is determined by the use of the least favorable steering wheel having the smallest diameter.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 3106,
+      "char_end": 5703,
+      "semantic_chunk_length": 2597,
+      "final_chunk_length": 2899,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0003",
+    "text": "ed to the common area of the exempted zones for each of the driving positions which the steering wheel may assume. In the case where it is possible to choose between various steering wheels the exempted zone is determined by the use of the least favorable steering wheel having the smallest diameter.\n\n### 3.4 Level of the Instrument Panel — The line defined by the points of contact of vertical tangents to the instrument panel ( see Note).\n\nNOTE — The level of the instrument panel extends over the entire width of the passenger compartment and is defined by the rearmost points of contact of a vertical line with the surface of the instrument panel when the line is moved across the width of the vehicle. Where two or more points of contact occur simultaneously, the lower point of contact shall be used to establish the level of the instrument panel. In the case of consoles, if it is not possible to determine the level of the instrument panel by reference to the points of contact of a vertical line the level of the instrument panel shall be where a horizontal line 25.4 mm above the ‘H’ point of the front seats intersects the console.\n\n\n### 3.5 Roof — The upper part of the vehicle extended from the upper edge of the windscreen to the upper edge of the rear window, bounded at the sides by the upper framework of the sidewalls ( see Note ).\n\nNOTE — At the vehicle sides the roof shall commence at the upper edge of the door aperture. In the normal case, the lateral roof limits will be represented by the contours formed by the bottom edge (lateral view) of the remaining body when the door has been opened. In the case of windows, the lateral limitation of the roof will be the continuous transparent line (penetration point of the lateral windowpanes). At the posts, the lateral roof limitation will pass through the connecting line between the transparent lines. The definition of roof is also valid for any opening for the roof, in the closed position, of a vehicle as defined in 3.7 or 3.8. For measuring purposes, downward facing flanges shall be ignored. These will be considered as forming part of the vehicle sidewall.\n\n\n\n### 3.6 Belt Line — It is the line constituted by the transparent lower contour of the side windows of the vehicle.\n\n\n3.7 Convertible Vehicle — It is a vehicle where, in certain configurations there is no rigid part of the vehicle body above the belt line with exception of the front roof supports and/or the roll-over bars and/or the safety belt anchorage points ( see Notes 1 and 2 and Note under 3.5 ).\n\nNOTES 1 A non-removable rear window is understood to be a rigid structural element.\n\n2 Cars with non-removable rear windows of rigid material are considered to be cars with opening roofs as defined under 3.8.\n\n\n3.8 Vehicle with Opening Roof — It is a vehicle of which only the roof or a part of it can be folded back or be opened, or may slide, leaving the existing structural elements of the vehicle above the belt line (see Note under 3.5).\n\n\n### 3.9 Folding ( Tip-up ) Seat — It is an auxiliary seat intended for occasional use and is normally folded out of the way.\n\n\n### 3.10 Protective System — Protective system means interior fittings and devices intended to restrain the occupants.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "3.4",
+      "heading": "3.4 Level of the Instrument Panel — The line defined by the points of contact of vertical tangents to the instrument panel ( see Note).",
+      "heading_path": [
+        "3 TERMINOLOGY",
+        "3.4 Level of the Instrument Panel — The line defined by the points of contact of vertical tangents to the instrument panel ( see Note)."
+      ],
+      "char_start": 5706,
+      "char_end": 8642,
+      "semantic_chunk_length": 2936,
+      "final_chunk_length": 3238,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0004",
+    "text": "he vehicle above the belt line (see Note under 3.5).\n\n\n### 3.9 Folding ( Tip-up ) Seat — It is an auxiliary seat intended for occasional use and is normally folded out of the way.\n\n\n### 3.10 Protective System — Protective system means interior fittings and devices intended to restrain the occupants.\n\n### 3.11 Type of a Protective System — Type of a protective system means a category of protective devices, which do not differ in such essential respects as,\n\n- a) their technology,\n- b) their geometry, and\n- c) their constituent materials.\n3.12 ‘H’ Point — The co-ordinates of the pivot point of the 50th percentile 3-D machine measured using the procedure described in IS 13749.\n\n\n3.13 Airbag — A device installed to supplement safety belts and restraint systems in power driven vehicles, that is systems which in the event of a severe impact affecting the vehicle automatically deploy a flexible structure intended to limit, by compression of the gas contained within it, the severity of the contacts of one or more parts of an occupant of the vehicle with the interior of the passenger compartment.\n\n\n3.14 Sharp Edge — An edge of a rigid material having a radius of curvature of less than 2.5 mm except in the case of projections of less than 3.2 mm, measured from the panel according to the procedure described in C-1. If the height of the projection is less than 3.2 mm, the minimum radius of curvature shall not apply provided the height of the projection is not more than half its width and its edges are blunted (see Notes 1 and 2).\n\n\n\n\nNOTES\n\n1 In case of a gap between the edge of a rigid material and the panel, this edge shall be rounded to a minimum radius of curvature depending on the gap shown in the table in the note under 4.1.1. This also applies, if the height of the projection, determined according to the procedure described in C-1, is equal or less than 3.2 mm.\n\n\n2 If the gap is located in a zone where a head impact test has to be carried out, the edges which can be contacted during the test(s) resulting from displacement of parts shall be protected by a minimum radius of 2.5 mm\n\n\n3.15 R Point or the Seating Reference Point — It is the design point defined by the manufacturer which has co-ordinates determined in relation to the vehicle structure and corresponds to the theoretical positions of the point of torso/legs rotation for the lowest and the most rearmost normal driving position or position of use given to each seat provided by the vehicle manufacturer ( see IS 15546 and IS 13749 ).\n\nNOTE — For the purpose of this standard R point can be used instead of H point as per manufacturer’s choice.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "3.11",
+      "heading": "3.11 Type of a Protective System — Type of a protective system means a category of protective devices, which do not differ in such essential respects as,",
+      "heading_path": [
+        "3 TERMINOLOGY",
+        "3.11 Type of a Protective System — Type of a protective system means a category of protective devices, which do not differ in such essential respects as,"
+      ],
+      "char_start": 8645,
+      "char_end": 10981,
+      "semantic_chunk_length": 2336,
+      "final_chunk_length": 2638,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0005",
+    "text": " of torso/legs rotation for the lowest and the most rearmost normal driving position or position of use given to each seat provided by the vehicle manufacturer ( see IS 15546 and IS 13749 ).\n\nNOTE — For the purpose of this standard R point can be used instead of H point as per manufacturer’s choice.\n\n## 4 SPECIFICATION\n\n### 4.1 Forward interior parts of the passenger compartment above the level of the instrument panel in front of the front seat ‘H’ points, excluding the side doors.\n\n\n4.1.1 The reference zone defined in 3.3 shall not contain any sharp edges likely to increase the risk of serious injury to the occupants. If the head impact area is determined according to Annex A, the parts referred in 4.1.2 to 4.1.6 shall be deemed satisfactory if they comply with the requirements of those clauses. If the head impact area is determined according to Annex E, the requirements of 4.1.7 shall apply ( see Notes 1 and 2).\n\nNOTES 1 A sharp edge is an edge of a rigid material having a radius of curvature of less than 2.5 mm except in the case of projections of less than 3.2 mm, measured from the panel. In this case, the minimum radius of curvature shall not apply provided the height of the projection is not more than half its width and its edges are blunted.\n\n2 Grills are considered to comply with the regulations if they meet the minimum requirements of the following table:\n\n\n| Gap Between Elements (mm) | e1/minimum (mm) | Flat Elements minimum radius (mm) | Rounded Elements Minimum Radius (mm) |\n| --- | --- | --- | --- |\n| 0 – 10 | 1.5 | 0.25 | 0.50 |\n| 10 – 15 | 2.0 | 0.33 | 0.75 |\n| 15 – 20 | 3.0 | 0.50 | 1.25 |\n\n\n\nIS 15223 : 2016\n\n\n4.1.2 Vehicle parts within the reference zone with the exception of those which are not part of the instrument panel and which are placed at less than 10 cm from glazed surfaces shall be energy dissipating as prescribed in Annex B. Those parts within the reference zone which satisfy both of the following conditions shall also be excluded from consideration if (see Note) :\n\n- a) during a test in accordance with the requirements of Annex B, the pendulum makes contact with parts outside the reference zone; and\n- b) the parts to be tested are placed less than 10 cm away from the parts contacted outside the reference zone. This distance being measured on the surface of the reference zone, any metal support fittings shall have no protruding edges.\nNOTE — During the test, it is determined whether parts within the impact zone used for reinforcement may be displaced or protrude so as to increase the hazards to passengers or the severity of injuries.\n\n\n4.1.3 The lower edge of the instrument panel shall, unless it meets the requirement of point (see 4.1.2) above, shall be rounded to a radius of curvature of not less than 19 mm ( see Note ).\n\nNOTE — These two concepts (level and lower edge of the instrument panel) may be distinct. However, this point is included in 4.1. (.... above the level of the instrument panel ...) and, therefore is applicable only where these two concepts are combined. In the case where the two concepts are not combined, that is where the bottom edge of the instrument panel is located below the level of the instrument panel, it will be considered under 4.3.1 (a) by reference to 4.8.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "4.1",
+      "heading": "4.1 Forward interior parts of the passenger compartment above the level of the instrument panel in front of the front seat ‘H’ points, excluding the side doors.",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.1 Forward interior parts of the passenger compartment above the level of the instrument panel in front of the front seat ‘H’ points, excluding the side doors."
+      ],
+      "char_start": 10984,
+      "char_end": 13957,
+      "semantic_chunk_length": 2973,
+      "final_chunk_length": 3274,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0006",
+    "text": "anel ...) and, therefore is applicable only where these two concepts are combined. In the case where the two concepts are not combined, that is where the bottom edge of the instrument panel is located below the level of the instrument panel, it will be considered under 4.3.1 (a) by reference to 4.8.\n\n4.1.4 Switches, pull-knobs etc made of rigid material which measured in accordance with the method described in Annex C project from 3.2 mm to 9.5 mm from the panel, shall have a cross-sectional area of not less than 2 cm2 measured 2.5 mm from the point projecting farthest, and shall have rounded edges with a radius of curvature of not less than 2.5 mm (see Notes 1 to 3 ).\n\nNOTES 1 If a pull handle or knob has a width dimension equal to or more than 50 mm and is located in a zone such that if it were less than 50 mm in width the maximum projection would be determined using the headform measuring apparatus of C-2.\n\n2 The maximum projection shall be determined in accordance with C-1 that is, by using a 165 mm diameter sphere and determining the maximum variation in height of the “y” axis.\n\n\n\nThe cross-sectional area shall be measured in a plane parallel to the surface on which the component is mounted. 3 Push type switches which are operable by a force not exceeding 15 N may be checked in operated condition at the discretion of the Manufacturer.\n\n4.1.5 If these components project more than 9.5 mm from the surface of the instrument panel, they shall be so designed and constructed as to be able, under the effect of a longitudinal horizontal force of 37.8 daN delivered by a flat ended ram of not more than 50 mm diameter, either to retract into the surface of the panel until they do not project by more than 9.5 mm or to become detached. In the latter case, no dangerous projections of more than 9.5 mm shall remain; a cross- section not more than 6.5 mm from the point of maximum projection shall be not less than 6.5 cm2 in area ( see Note ).\n\nNOTE — 4.1.4 and 4.1.5 complement each other; the first sentence of 4.1.5 (that is a force of 37.8 daN for retraction or detachment) is applied and then 4.1.4 in case of retraction up to a protrusion between 3.2 and 9.5 mm or, in the case of detachment, the two last sentences of 4.1.5 (the cross-section area is measured before the force is applied). However, if, under practical circumstances 4.1.4 must be applied (retraction to less than 9.5 mm and over 3.2 mm) it could be more convenient, at the manufacturer’s discretion, to verify the specifications of 4.1.4 before applying the force of 37.8 daN specified in 4.1.5.\n\n\n4.1.6 In the case of a projection consisting of a component made of non-rigid material of less than 50 shore A hardness mounted on a rigid support, the requirements of points 4.1.4 and 4.1.5 shall apply only to the rigid support or it shall be demonstrated by test according to the procedure described in Annex B that the soft material of less than 50 shore A hardness will not be cut so as to contact the support during the specified impact test. In that case the radius requirements shall not apply ( see Notes 1 and 2 ).\n\nNOTES 1 Since, in the presence of soft materials, the requirements apply only to the rigid support, the projection is measured for the rigid support only.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "4.1",
+      "heading": "4.1 Forward interior parts of the passenger compartment above the level of the instrument panel in front of the front seat ‘H’ points, excluding the side doors.",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.1 Forward interior parts of the passenger compartment above the level of the instrument panel in front of the front seat ‘H’ points, excluding the side doors."
+      ],
+      "char_start": 13959,
+      "char_end": 16928,
+      "semantic_chunk_length": 2969,
+      "final_chunk_length": 3271,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0007",
+    "text": "e cut so as to contact the support during the specified impact test. In that case the radius requirements shall not apply ( see Notes 1 and 2 ).\n\nNOTES 1 Since, in the presence of soft materials, the requirements apply only to the rigid support, the projection is measured for the rigid support only.\n\n2 The shore hardness measurement is made on samples of the test subject itself. Where, due to the condition of the material, it is impossible to carry out a hardness measurement by the shore A procedure, comparable measurements shall be used for evaluation.\n\n\n\n4.1.7 In case of determination of head impact zone as per Annex E, the following shall apply.\n\n\n4.1.7.1 If the protective system of the vehicle type cannot prevent head contacts of the occupants defined in E-1.2.1 with the instrument panel, and a dynamic reference zone according to Annex E is determined, the requirements of 4.1.2 to 4.1.6 are applicable only to the parts located in that zone.\n\nParts in other areas of the dashboard above the level of the instrument panel, if contactable by a 165 mm diameter sphere, shall be at least blunted.\n\n\n4.1.7.2 If the protective system of the vehicle type is able to prevent head contacts of the occupants defined in E-1.2.1 with the instrument panel and therefore no reference zone can be determined, the requirements of 4.1.2 to 4.1.6 are not applicable to this vehicle type.\n\nParts of the dashboard above the level of the instrument panel, if contactable by a 165 mm diameter sphere, shall be at least blunted.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4.1",
+      "heading": "4.1 Forward interior parts of the passenger compartment above the level of the instrument panel in front of the front seat ‘H’ points, excluding the side doors.",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.1 Forward interior parts of the passenger compartment above the level of the instrument panel in front of the front seat ‘H’ points, excluding the side doors."
+      ],
+      "char_start": 16930,
+      "char_end": 18150,
+      "semantic_chunk_length": 1220,
+      "final_chunk_length": 1522,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0008",
+    "text": " in E-1.2.1 with the instrument panel and therefore no reference zone can be determined, the requirements of 4.1.2 to 4.1.6 are not applicable to this vehicle type.\n\nParts of the dashboard above the level of the instrument panel, if contactable by a 165 mm diameter sphere, shall be at least blunted.\n\n### 4.2 Forward interior parts of the passenger compartment below the level of the instrument panel and in front of the front seat ‘H’ Point, excluding the side doors and the pedals.\n\n\n4.2.1 Except for the pedals and their fixtures and those components that cannot be contacted by the device described in Annex D and used in accordance with the procedure described there, components covered by 4.2, such as switches, the ignition key, etc, shall comply with the requirements of 4.1.4 to 4.1.6 (see Notes 1 and 2).\n\nNOTES 1 Foot pedals, their arms and immediate pivotal mechanism, but not the surrounding support metal, shall be excluded from consideration.\n\n2 The ignition key is deemed to satisfy the requirements of this clause if the protruding part of its shank consists of a material of between 60 and 80 shore A hardness and a thickness of at least 5 mm, or is covered with such a material of 2 mm minimum thickness on all surfaces.\n\n\n4.2.2 The handbrake control, if mounted on or under the instrument panel, shall be so placed that, when it is in the position of rest, there is no possibility of occupants of the vehicle striking against it in the event of a frontal impact. If this condition is not met, the surface of the control shall satisfy the requirements of 4.3.l (c) ( see Note ).\n\nNOTE — The criterion to determine whether the parking brake control can be contacted is the use of, a) the simulated head specified in Annex A, if the control is located above or on the level of the instrument panel (to be tested in accordance with 4.1 and within the impact zone); and b) the knee specified in Annex D, if the control element is located below the level of the instrument panel [in this case the control lever is tested in accordance with 4.3.1 (c)].\n\n\n\n\n4.2.3 Shelves and other similar items shall be so designed and constructed that the supports in no case have protruding edges and they meet one or the other of the following conditions (see Note).\n\nNOTE — The technical specifications listed in 4.2.3 apply also to shelves and those parts of consoles below the level of the instrument panel located between the front seats, provided that these are located in front of the ‘H’ point. If a cavity is closed it will be treated as a glove compartment and not be subject to these specifications.\n\n\n4.2.3.1 The part facing the vehicle shall present a surface not less than 25 mm high with edges rounded to a radius of curvature of not less than 3.2 mm. This surface shall consist of or be covered with an energy dissipating material as defined in Annex B and shall be tested accordingly. The impact being applied in a horizontal longitudinal direction ( see Note ).\n\nNOTE — The dimensions specified refer to the surface before the addition of material of less than 50 shore A hardness (see 4.2.4). Energy-dissipating tests shall be conducted in the spirit of Annex B.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "4.2",
+      "heading": "4.2 Forward interior parts of the passenger compartment below the level of the instrument panel and in front of the front seat ‘H’ Point, excluding the side doors and the pedals.",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.2 Forward interior parts of the passenger compartment below the level of the instrument panel and in front of the front seat ‘H’ Point, excluding the side doors and the pedals."
+      ],
+      "char_start": 18153,
+      "char_end": 21032,
+      "semantic_chunk_length": 2879,
+      "final_chunk_length": 3181,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0009",
+    "text": " tested accordingly. The impact being applied in a horizontal longitudinal direction ( see Note ).\n\nNOTE — The dimensions specified refer to the surface before the addition of material of less than 50 shore A hardness (see 4.2.4). Energy-dissipating tests shall be conducted in the spirit of Annex B.\n\n4.2.3.2 Shelves and other similar items shall, under the effect of a forward-acting horizontal longitudinal force of 37.8 daN exerted by a cylinder of 110 mm diameter with its axis vertical, become detached, break up, be substantially distorted or retract without producing dangerous features on the rim of the shelf. The force must be directed at the strongest part of the shelves or other similar items ( see Notes 1 to 3 ).\n\nNOTES 1 If a shelf becomes detached or breaks up, no dangerous features must result; this applies not only to the rim but also to other edges facing into the passenger compartment as a result of the applied force.\n\n2 The strongest part of the shelf shall be considered to be adjacent to a fixture. Also, “substantially distorted” shall mean that, under the effect of the applied force, the deflection of the shelf, measured from the initial point of contact with the test cylinder, must be a fold or a deformation visible to the naked eye. Elastic deformation shall be admissible.\n\n3 The length of the test cylinder shall be at least 50 mm.\n\n\n4.2.4 If the items in question contain a part made of material less than 50 shore A hardness when fitted to a rigid support, the above requirements, except for the requirements covered by Annex B relating to energy- absorption, shall apply only to the rigid support or it can be demonstrated by sufficient tests according to the procedure described in Annex B that the soft material of less than 50 shore A hardness will not be cut so as to contact the support during the specified impact test. In that case the radius requirements shall not apply.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.2",
+      "heading": "4.2 Forward interior parts of the passenger compartment below the level of the instrument panel and in front of the front seat ‘H’ Point, excluding the side doors and the pedals.",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.2 Forward interior parts of the passenger compartment below the level of the instrument panel and in front of the front seat ‘H’ Point, excluding the side doors and the pedals."
+      ],
+      "char_start": 21035,
+      "char_end": 22654,
+      "semantic_chunk_length": 1619,
+      "final_chunk_length": 1921,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0010",
+    "text": "the rigid support or it can be demonstrated by sufficient tests according to the procedure described in Annex B that the soft material of less than 50 shore A hardness will not be cut so as to contact the support during the specified impact test. In that case the radius requirements shall not apply.\n\n### 4.3 Other interior fittings in the passenger compartment in front of the transverse plane passing through the torso reference line of the manikin placed on the rearmost seats ( see Note ).\n\n\nIS 15223 : 2016\n\nThe requirements of 4.3.1 apply to control handles, levers, knobs and to any protruding objects not referred in 4.1 and 4.2 [ see 4.3.1 (b) ].\n\nNOTE — ‘Other parts’ shall include such parts as window catches, seat belt upper anchorages and other parts located in the foot space and at the door side, unless these parts have been treated previously or are exempted in the text.\n\n\n4.3.1 If the items referred in 4.3 are so placed that occupants of the vehicle can contact them, they shall meet the requirements of 4.3.1 to 4.3.3. If these items can be contacted by a 165 mm diameter sphere and above the lowest H point of the front seats and forward of the transverse plane of the torso reference line of the manikin on the rearmost seat and outside the zones defined in 3.3 (a) and 3.3 (b), these requirements shall be considered to have been fulfilled ( see Note 1 ) if,\n\n- a) their surface terminates in rounded edges, the radii of curvature being not less than 3.2 mm (see Note 2),\n- b) control levers and knobs shall be so designed and constructed that, under the effect of a forward-acting longitudinal horizontal force of 37.8 daN either the projection in its most unfavourable position shall be reduced to not more than 25 mm from the surface of the panel or the said fittings shall become detached or bent. In the latter two cases, no dangerous projections shall remain. Window winders may, project 35 mm from the surface of the panel (see Note 3), and\n- c) the hand brake control, when in the released position, and the gear lever, when in any forward gear position, have, except when placed in the zones given in 3.3 (a) and 3.3 (b) and in the zones below the horizontal plane passing through the ‘H’ point of the front seats, shall have a surface area of at least 6.5 cm2 measured at a cross-section normal to the longitudinal horizontal direction up to a distance of 6.5 mm from the farthest projecting part, the radius of curvature being not less than 3.2 mm (see Note 4 ).\n\nNOTES\n\n1 The space between the forward bulkhead and the instrument panel which is located higher than the bottom edge of the instrument panel is not subject to the specifications of 4.3.\n\n2 The 3.2 mm radius applies to all contactable components covered by 4.3 when considered in all positions of use. As exceptions, glove compartments shall be considered only in the closed position; seat belts will normally be considered only in the fastened position, but any part which has a fixed stowage position shall also comply with the 3.2 mm radius requirement in that stowed position.\n\n3 The reference surface is found by application of the device described in C-2, with a force of 2 daN. Where this is not",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.3",
+      "heading": "4.3 Other interior fittings in the passenger compartment in front of the transverse plane passing through the torso reference line of the manikin placed on the rearmost seats ( see Note ).",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.3 Other interior fittings in the passenger compartment in front of the transverse plane passing through the torso reference line of the manikin placed on the rearmost seats ( see Note )."
+      ],
+      "char_start": 22657,
+      "char_end": 25558,
+      "semantic_chunk_length": 2901,
+      "final_chunk_length": 3203,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0011",
+    "text": "ormally be considered only in the fastened position, but any part which has a fixed stowage position shall also comply with the 3.2 mm radius requirement in that stowed position.\n\n3 The reference surface is found by application of the device described in C-2, with a force of 2 daN. Where this is not\n\npossible, the method described in C-1, shall be used with a force of 2 daN. The evaluation of dangerous projections is subject to the discretion of the Testing Agency responsible for the tests. The force of 37.8 daN is applied even if the original projection is less than 35 or 25 mm, as applicable. The projection is measured under the applied load. The horizontal, longitudinal force of 37.8 daN is normally applied by means of a flat ended ram of not more than 50 mm diameter but, where this is not possible, an equivalent method may be used; for instance, by removing obstacles. With new modern door designs, window winders handle is sometimes surrounded by the form of the door panel. It is often difficult or impossible for an occupant to touch the handle with his knees. It is up to the Testing Agency to decide in this case with the agreement of the manufacturer whether or not to carry out the push test as described or not.\n\n4 The furthest projecting part, in the case of a gear lever, is that part of the grip or knob first contacted by a vertical transverse plane moved in a longitudinal, horizontal direction. If any part of a gear lever or handbrake lies above the “H” point level, that lever will have to be considered as if the whole of it were above the ‘H’ point level.\n\n4.3.2 The requirements in 4.3.1(c) shall not apply to floor-mounted handbrake controls; for such controls if the height of the any part in the released position is above a horizontal plane passing through the lowest ‘H’point of the front seats, the control shall have a cross sectional area of at least 6.5 cm2 measured in a horizontal plane not more than 6.5 mm from the farthest projecting part (measured in the vertical direction). The radius of curvature shall not be less than 3.2 mm.\n\n\n4.3.3 Other items of equipment in the vehicle not covered by the preceding clauses such as seat slide rails, equipment for regulating the horizontal or vertical part of the seat, devices for rolling up safety belts etc, shall not be subject to any of these provisions if they are situated below a horizontal line passing through the ‘H’ point of each seat, even though the occupant is likely to come into contact with such items (see Note).\n\nNOTE — Where the horizontal plane(s) passing through the ‘H’ point of the lowest front and rear seats do not coincide, then a vertical plane perpendicular to the vehicle’ s longitudinal axis shall be determined, passing through the front seat ‘H’ point. The exempted zone will then be considered separately for both the front and rear passenger compartments, relative to their respective ‘H’ point and up to the vertical plane defined above.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.3",
+      "heading": "4.3 Other interior fittings in the passenger compartment in front of the transverse plane passing through the torso reference line of the manikin placed on the rearmost seats ( see Note ).",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.3 Other interior fittings in the passenger compartment in front of the transverse plane passing through the torso reference line of the manikin placed on the rearmost seats ( see Note )."
+      ],
+      "char_start": 25562,
+      "char_end": 28226,
+      "semantic_chunk_length": 2664,
+      "final_chunk_length": 2966,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0012",
+    "text": "perpendicular to the vehicle’ s longitudinal axis shall be determined, passing through the front seat ‘H’ point. The exempted zone will then be considered separately for both the front and rear passenger compartments, relative to their respective ‘H’ point and up to the vertical plane defined above.\n\n4.3.3.1 Components mounted on the roof, but which are not part of roof structure such as grab handles, lights and sun visors etc. shall have a radius of curvature of not less than 3.2 mm and in addition the width of the projecting parts shall not be less than the amount of their downward projection. Alternatively these components shall pass the energy dissipating test in accordance with the requirements of Annex B. These requirements are applicable only if these parts are contactable by the 165 mm diameter sphere attached to the apparatus mentioned in A-1 whose length is less\n\n\nthan or equal to 1 000 mm ( see Note).\n\nNOTE — Movable sun visors shall be considered in all positions of use. The frames of sun visors shall not be regarded as rigid supports (see 4.3.4).\n\n\n4.3.4 If the parts considered above comprise a component made of material of less than 50 shore A hardness, mounted on a rigid support, the above requirements shall apply only to the rigid support or it can be demonstrated by sufficient tests according to the procedure described in Annex B that the soft material of less than 50 shore A hardness will not be cut so as to contact the support during the specified impact test. In that case the radius requirements shall not apply.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.3",
+      "heading": "4.3 Other interior fittings in the passenger compartment in front of the transverse plane passing through the torso reference line of the manikin placed on the rearmost seats ( see Note ).",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.3 Other interior fittings in the passenger compartment in front of the transverse plane passing through the torso reference line of the manikin placed on the rearmost seats ( see Note )."
+      ],
+      "char_start": 28229,
+      "char_end": 29484,
+      "semantic_chunk_length": 1255,
+      "final_chunk_length": 1557,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0013",
+    "text": "the rigid support or it can be demonstrated by sufficient tests according to the procedure described in Annex B that the soft material of less than 50 shore A hardness will not be cut so as to contact the support during the specified impact test. In that case the radius requirements shall not apply.\n\n### 4.4 Roof (see Note 1)\n\n\n4.4.1 The requirements of 4.4.2 to 4.4.4 apply to the inner face of the roof and do not apply to such parts of the roof which cannot be touched by a sphere of 165 mm diameter attached to the apparatus mentioned in A-1 whose length is less than or equal to 1 000 mm.\n\n\n4.4.2 That part of the inner face of the roof which is situated above or forward of the occupants shall exhibit no dangerous roughness at sharp edges, directed rearwards or downwards. The width of the projecting parts shall not be less than the amount of their downward projection and the edges shall have a radius of curvature of not less than 5 mm. In particular, the rigid roof sticks or ribs with the exception of header rail of the glazed surfaces and door frames shall not project downwards more than 19 mm ( see Note 2)\n\nNOTES 1 When the roof is tested to measure those protrusions and parts which can be contacted by a ball having a diameter of 165 mm, the roof lining must be removed. When evaluating the specified radii the proportions and properties attributable to the materials of the roof lining shall be taken into consideration. The roof testing area shall extend in front of and above the transverse plane limited by the torso reference line of the manikin placed on the rearmost seat.\n\n2 See 4.1.1 for definition of ‘sharp edges’. The downward projection shall be measured normal to the roof in accordance with C-1. The width of the projecting part shall be measured at right angles to the line of the projection. In particular the rigid roof sticks or ribs shall not project away from the inner surface of the roof more than 19 mm.\n\n\n4.4.3 If the roof sticks or ribs do not meet the requirements of 4.4.2, they shall pass the energy dissipating test as prescribed in Annex B.\n\n\n4.4.4 The metal wires which stretch the lining of the roof and the frames of the sun visors must have a maximum diameter of 5 mm or be able to absorb the energy as prescribed in Annex B. Non-rigid attachment elements of the frames of the sunvisor shall meet the requirements of 4.3.3.1.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.4",
+      "heading": "4.4 Roof (see Note 1)",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.4 Roof (see Note 1)"
+      ],
+      "char_start": 29487,
+      "char_end": 31566,
+      "semantic_chunk_length": 2079,
+      "final_chunk_length": 2381,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0014",
+    "text": "in Annex B.\n\n\n4.4.4 The metal wires which stretch the lining of the roof and the frames of the sun visors must have a maximum diameter of 5 mm or be able to absorb the energy as prescribed in Annex B. Non-rigid attachment elements of the frames of the sunvisor shall meet the requirements of 4.3.3.1.\n\n### 4.5 Vehicles with an Opening Roof (see Note 1)\n\n\n#### 4.5.1 Requirements\n\n\n4.5.1.1 The following requirements and those of 4.4 above shall apply to vehicles with an opening roof when the roof is in the closed position.\n\n\n4.5.1.2 In addition, the opening and operating devices shall (see Note 2) :\n\n- a) be so designed and constructed as to exclude as far as possible accidental or inopportune operation as far as possible (see Note 2);\n- b) their surfaces shall terminate in rounded edges, the radius of curvature being not less than 5 mm (see Note 2); and\n- c) be accommodated, when in the position of rest, in areas which cannot be contacted by a sphere 165 mm in diameter. If this condition cannot be met, the opening and operating devices shall, in the position of rest, either remain retracted or be so designed and constructed that, under the effect of a force of 37.8 daN applied in the direction of impact defined in Annex B as the tangent to the trajectory of the headform, either the projection as described in Annex C shall be reduced to not more than 25 mm beyond the surface on which the devices are mounted or the devices shall become detached; in the latter case no dangerous projections shall remain (see Note 3).\nNOTES 1 Any roof ribs on opening roofs must meet 4.4 if they are contactable by a 165 mm diameter sphere;\n\n2 The opening and operating devices when in a position of rest and with the roof closed must meet all of the specified conditions.\n\n3 The force of 37.8 daN is applied even if the original projection is 25 mm or less. The projection is measured under the applied load. The force of 37.8 daN applied in the direction of impact defined in Annex B as the tangent to the trajectory of the headform is normally applied by means of a flat-ended ram of not more than 50 mm diameter, but where this is not possible an equivalent method may be used; for instance, by removing obstacles. The ‘position of rest’ means the position of the operating device when it is in the locked position.\n\n\n### 4.6 Convertible Vehicles (see Note 1)\n\n\n4.6.1 In the case of convertible vehicles, only the underside of the top of the roll bar and the top of the wind-screen frame in all its normal utilization positions shall comply with the requirements of 4.4. The system of folding rods or links used to support a non-rigid roof shall, where they are situated above and forward of the occupants, exhibit no dangerous roughness or sharp edges, directed rearwards or downwards (see Note 2).\n\n\nIS 15223 : 2016\n\nNOTES 1 The rod system of convertible tops does not represent a roll- over bar.\n\n2 The top part of the windscreen frame starts above the transparent contour of the windscreen.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "4.5",
+      "heading": "4.5 Vehicles with an Opening Roof (see Note 1)",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.5 Vehicles with an Opening Roof (see Note 1)"
+      ],
+      "char_start": 31571,
+      "char_end": 34268,
+      "semantic_chunk_length": 2697,
+      "final_chunk_length": 2999,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0015",
+    "text": "e occupants, exhibit no dangerous roughness or sharp edges, directed rearwards or downwards (see Note 2).\n\n\nIS 15223 : 2016\n\nNOTES 1 The rod system of convertible tops does not represent a roll- over bar.\n\n2 The top part of the windscreen frame starts above the transparent contour of the windscreen.\n\n### 4.7 Rear Parts of Seats Anchored to the Vehicle\n\n#### 4.7.1 Requirements\n\n\n4.7.1.1 The surface of the rear parts of seats shall exhibit no dangerous roughness or sharp edges likely to increase the risk or severity of injury to the occupants (see Note).\n\nNOTE — See 4.1.1 for definition of ‘sharp edge’.\n\n\n4.7.1.2 Except as provided in 4.7.1.3 to 4.7.1.7 that part of the back of the front seat which is in the head impact zone, defined in Annex A, shall be energy dissipating, as prescribed in Annex B. For determining the head impact zone, the front seats shall, if they are adjustable, be in the rearmost driving position with their backs inclined as near as possible to 25° unless indicated otherwise by the manufacturer (see Note).\n\nNOTE — In defining the head impact zone of the back of the front seats any structure necessary to support the seat back shall be considered as a component of this seat back.\n\n\n4.7.1.3 In the case of separate front seats, the rear passengers head impact zone shall extend for 10 cm on either side of the seat central line, in the top part of the rear of the seat back.\n\n\n4.7.1.4 In the case of seat fitted with head restraint, each test shall be carried out with the head restraint in the lowest position and at a point situated on the vertical line passing through the centre of the head restraint.\n\n\n4.7.1.5 In the case of a seat which is designed to be fitted in several types of vehicle, the impact zone shall be determined by the vehicle whose rearmost driving seat position is, of each of the types considered, the least favourable; the resultant impact zone will be deemed adequate for the other types.\n\n\n4.7.1.6 In the case of front bench seats, the impact zone shall extend between the longitudinal vertical planes 10 cm outboard of the centre line of each designated outboard seating position. The centre line of each outboard seating position of a bench seat shall be specified by the manufacturer.\n\n\n4.7.1.7 In the head impact zone outside the limits prescribed in 4.7.1.3 to 4.7.1.6, the seat frame structure shall be padded to avoid direct contact of the head with it; and, in these zones, shall have a radius of curvature of at least 5 mm. These parts may alternatively satisfy the energy dissipation requirements specified in Annex B (see Note).\n\nNOTE — The padding of the seat frame structure shall also avoid dangerous roughness and sharp edges likely to increase the risk of serious injuries to the occupants.\n\n\n\n\n4.7.2 These requirements shall not apply to the rearmost seats, to seats facing sideways or rearwards, to back to back or to folding seats. If the impact zones of the seats, head restraints and their supports contain parts covered with material softer than 50 shore A hardness, the above requirements, with the exception of those relating to energy dissipation described in Annex B, shall apply only to the rigid parts.\n\n\n4.7.3 The requirement of 4.7 shall be considered to be satisfied in the case of rear parts of seats that are part of a vehicle type approved under IS 15546.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "4.7.1",
+      "heading": "4.7.1 Requirements",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.7 Rear Parts of Seats Anchored to the Vehicle",
+        "4.7.1 Requirements"
+      ],
+      "char_start": 34271,
+      "char_end": 37323,
+      "semantic_chunk_length": 3052,
+      "final_chunk_length": 3353,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0016",
+    "text": "the above requirements, with the exception of those relating to energy dissipation described in Annex B, shall apply only to the rigid parts.\n\n\n4.7.3 The requirement of 4.7 shall be considered to be satisfied in the case of rear parts of seats that are part of a vehicle type approved under IS 15546.\n\n### 4.8 Other not Mentioned Fittings\n\n\n4.8.1 The requirements of 4 shall apply to such fittings not mentioned in previous clauses as according to their location, are capable of being contacted by the occupants in accordance with the various procedures prescribe in 4.1 to 4.7. If the contactable members of such fittings are made of material of less than 50 shore A hardness mounted on a rigid support the requirements shall apply only to the rigid support, or it can be demonstrated by sufficient tests according to the procedure described in Annex B that the soft material of less than 50 shore A hardness will not be cut during the specified impact test. In that case the required radius shall apply to the soft surface only.\n\n\n4.8.2 For parts like a centre console, for example, or other components of the vehicle which belong to 4.8.1, it is not necessary to perform an energy dissipation test according to Annex B to any component contactable by the device and procedure specified in Annex A if in the opinion of the Test Agency the occupant’s head is unlikely to contact the component, because of the restraint system(s) installed in the vehicle, or\n\nBecause the manufacturer can prove the lack of such contact using, for example, the method described in Annex E, or any equivalent method.\n\n\n## 5 MODIFICATIONS AND EXTENSION OF APPROVAL OF THE VEHICLE TYPE\n\n\n5.1 Every modification of the vehicle type shall be notified to the Test Agency which approved the vehicle type. The Test Agency may then either:\n\n\n#### 5.1.1 Consider that the modifications made are unlikely to have an appreciable adverse effect and that in any case the vehicle still complies with the requirements; or\n\n\n#### 5.1.2 Require a further test report from the test agency responsible for conducting the tests.\n\n\n5.2 Confirmation or refusal of approval, specifying the alterations, shall be communicated to the vehicle manufacturer.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "4.8",
+      "heading": "4.8 Other not Mentioned Fittings",
+      "heading_path": [
+        "4 SPECIFICATION",
+        "4.8 Other not Mentioned Fittings"
+      ],
+      "char_start": 37326,
+      "char_end": 39236,
+      "semantic_chunk_length": 1910,
+      "final_chunk_length": 2212,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0017",
+    "text": "ct and that in any case the vehicle still complies with the requirements; or\n\n\n#### 5.1.2 Require a further test report from the test agency responsible for conducting the tests.\n\n\n5.2 Confirmation or refusal of approval, specifying the alterations, shall be communicated to the vehicle manufacturer.\n\n## ANNEX A\n\n\n(Clauses 3.3, 4.1.1, 4.2.2, 4.3.3.1, 4.7.1.2 and 4.8.2)\n\nDETERMINATION OF HEAD IMPACT ZONE\n\nA-1 The head-impact zone comprises all the non- glazed surfaces of the interior of a vehicle which are capable of entering into static contact with a spherical head 165 mm in diameter that is an integral part of a measuring apparatus whose dimension from the pivotal point of the hip to the top of the head is continuously adjustable between 736 mm and 840 mm.\n\nA-2 The zone must be determined by the following procedure or its graphic equivalent.\n\nA-2.1 The pivotal point of the measuring apparatus shall be placed as follows for each seating position for which the manufacturer has made provision:\n\nA-2.1.1 In the case of sliding seats,\n\n- a) at the ‘H’point ( see Note 1 ); and\n\n- b) at a point situated horizontally 127 mm forward of the ‘H’ point and either at a height resulting from the variation in the height of the ‘H’ point caused by a forward shift of 127 mm or 19 mm (see Note 2).\nNOTES 1 For determining the ‘H’ point of any seat, other seats may be removed if necessary.\n\n2 The choice between the two procedures for determining height is to be left to the manufacturer.\n\nA-2.1.2 In the case of non-sliding seats:\n\nA-2.1.2.1 At the H-point of the seat considered.\n\nA-2.2 All points of contact situated forward of the ‘H’ point shall be determined, for each dimension from the pivoted point to the top of the head capable of being\n\n\n\n\nmeasured by the measuring apparatus within the interior dimensions of the vehicle (see Note ).\n\nNOTE — When determining points of contact, the length of the arm of the measuring apparatus is not changed during a particular operation. Each operation starts from the vertical position.\n\nA-2.2.1 In the case where the headform, with the arm set at minimum length, overlaps the front seat, from the rear ‘H’ point, no contact point is established for this particular operation.\n\nA-2.3 With measuring apparatus vertical, possible points of contact shall be determined by pivoting it forwards and downwards through all arcs of vertical planes as far as 90° on either side of the longitudinal vertical plane\n\nIS 15223 : 2016\n\nof the vehicle which passes through the ‘H’ point.\n\nA-2.3.1 To determine the points of contact, the length of the arm of the measuring apparatus shall not be changed during any given excursion. Each excursion shall start from a vertical position.\n\nA-3 A ‘point of contact’ is a point at which the head of the apparatus touches a part of the interior of the vehicle. The maximum downward movement shall be downward movement to a position where the head is tangential to a horizontal plane situated 25.4 mm above the ‘H’ point (see Note).\n\nNOTE — The 25.4 mm dimension means the measurement from a horizontal plane passing through the ‘H’ point to the horizontal tangent to the lower profile of the headform.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 39239,
+      "char_end": 42117,
+      "semantic_chunk_length": 2878,
+      "final_chunk_length": 3180,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0018",
+    "text": "ownward movement to a position where the head is tangential to a horizontal plane situated 25.4 mm above the ‘H’ point (see Note).\n\nNOTE — The 25.4 mm dimension means the measurement from a horizontal plane passing through the ‘H’ point to the horizontal tangent to the lower profile of the headform.\n\n## ANNEX B\n\n[Clauses 4.1.2, 4.1.6, 4.2.3.1, 4.2.4, 4.3.3.1, 4.3.4, 4.4.3, 4.4.4, 4.5.1.2(c),\n\n4.7.1.2, 4.7.1.7, 4.7.2, 4.8.1 and 4.8.2]\n\nB-1 SETTING UP, TEST APPARATUS AND PROCEDURE\n\nB-1.1 Setting Up\n\nB-1.1.1 The component made of energy-dissipating materials shall be mounted and tested on the structural supporting member on which it is to be installed on the vehicle. The test shall preferably be carried out, where possible, directly on the body. The structural member, or the body, shall be firmly attached to the test bench so that it does not move under impact.\n\nB-1.1.2 However, at the manufacturer’s request, the component may be mounted on a fitting simulating installation on the vehicle, on condition that the assembly comprising the component and the fitting has the same geometrical arrangement as, and a degree of rigidity not lower and an energy-dissipating capacity not higher than those of the real assembly comprising the component and the structural supporting member.\n\nB-1.2 Test Apparatus\n\nB-1.2.1 The apparatus shall consist of a pendulum whose pivot is supported by ball-bearings and whose reduced mass at its centre of percussion is 6.8 kg. The\n\n\nl a\n\nPROCEDURE FOR TESTING ENERGY DISSIPATING MATERIALS\n\nlower extremity of the pendulum consists of a rigid headform 165 mm in diameter whose centre is identical with the centre of percussion of the pendulum.\n\nNOTE — The relationship of the reduced mass ‘mr’ of the pendulum to the total mass ‘m’ of the pendulum at a distance ‘a’ between the centre of percussion and the axis of the rotation and at a distance ‘l’ between the centre of gravity and the axis of rotation is given by the following formula:\n\nmr = m.\n\n\nB-1.2.2 The head form shall be fitted with 2 accelerometers, all capable of measuring values in the direction of impact.\n\nB-1.3 Recording Instruments\n\nThe recording instruments used shall be such that measurements can be made with the following degrees of accuracy:\n\nB-1.3.1 Acceleration\n\n- a) Accuracy = ±5 percent of the real value;\n- b) Frequency response = up to 1 000 Hz; and\n- c) Cross axis sensitivity = > 5 percent of the lowest point on the scale.\n\n\n\nB-1.3.2 Speed\n\n- a) Accuracy = ±2.5 percent of the real value; and\n- b) Sensitivity = 0.5 km/h.\n\nB-1.3.3 Time Recording\n\n- a) The instrumentation shall enable the action to be recorded throughout its duration and readings to be made to within 1/1 000th of a second; and\n- b) The beginning of the impact at the moment of first contact between the headform and the test component shall be noted on the recordings used for analyzing the test.\nB-1.4 Test Procedure ( see Note )\n\nB-1.4.1 At every point of impact on the surface to be tested, the direction of impact shall be the tangent to the trajectory of the headform of the measuring apparatus described in Annex A.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 42120,
+      "char_end": 44933,
+      "semantic_chunk_length": 2813,
+      "final_chunk_length": 3115,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0019",
+    "text": "est component shall be noted on the recordings used for analyzing the test.\nB-1.4 Test Procedure ( see Note )\n\nB-1.4.1 At every point of impact on the surface to be tested, the direction of impact shall be the tangent to the trajectory of the headform of the measuring apparatus described in Annex A.\n\nB-1.4.1.1 For testing the parts as given in 4.3.3.1 and 4.4.3, the arm of the measuring apparatus shall be lengthened until contact is made with the part to be considered, up to a limit of 1 000 mm between the pivot point and the top of the head of the apparatus. However any roof sticks of ribs referred in 4.4.3 which cannot be contacted shall remain subject to the requirement of 4.4.2 with the exception of that relating to the height of the projection.\n\nB-1.4.2 Where the angle between the direction of impact and the perpendicular to the surface at the point of impact is 5° or less, the test shall be carried out in such a way that the tangent to the trajectory of the centre of percussion of the pendulum coincides with the direction of impact. The headform shall strike the\n\ntest component at a speed of 24.1 km/h; or, in case of components which cover an uninflated airbag, at a speed of 19.3 km/h. This speed shall be achieved either by the mere energy of propulsion or by using an additional impelling device.\n\nB-1.4.3 Where the angle between the direction of impact and perpendicular to the surface at the point of impact is more than 5°, the test may be carried out in such a way that the tangent to the trajectory of the centre of percussion of the pendulum coincides with the perpendicular to the point of impact. The test speed shall then be reduced to the value of the normal component of the speed prescribed in B-1.4.2.\n\nB-1.4.4 The test shall be conducted with a free motion impactor, or with a linear impactor or rotational pendulum impactor with mutual agreement between Test Agency and Manufacturer.\n\nNOTE — The breakage of any component during the energy- dissipation test (see Note under 4.1.2).\n\nB-2 RESULTS\n\nIn tests carried out according to the above procedures, the deceleration of the headform shall not exceed 80 g continuously for more than 3 millisecond. The deceleration rate taken shall be the average of the readings of the two decelerometers.\n\nB-3 EQUIVALENT PROCEDURES\n\nB-3.1 Equivalent test procedures shall be permitted, on condition that the results required in B-2 may be obtained.\n\nB-3.2 Responsibility for demonstrating the equivalence of a method other than that described in B-1 shall rest with the person using such method.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 44935,
+      "char_end": 47206,
+      "semantic_chunk_length": 2271,
+      "final_chunk_length": 2573,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0020",
+    "text": "rometers.\n\nB-3 EQUIVALENT PROCEDURES\n\nB-3.1 Equivalent test procedures shall be permitted, on condition that the results required in B-2 may be obtained.\n\nB-3.2 Responsibility for demonstrating the equivalence of a method other than that described in B-1 shall rest with the person using such method.\n\n## ANNEX C\n\n\n[Clauses 4.1.4, 4.5.1.2(c) and notes under 4.1.4, 4.3.1(b), 4.4.2]\n\nMETHOD OF MEASURING PROJECTIONS\n\nC-1 To determine the amount by which an item projects in relation to the panel on which it is mounted, a 165 mm diameter sphere shall be moved along and be kept in contact with the component under consideration, starting from the initial position of contact with the component under consideration. The projection’s value is the largest of all possible variations ‘y’, the variation measured from the centre of the sphere perpendicular to the panel.\n\nC-1.1 If the panels and components, etc, are covered with materials softer than 50 shore A hardness, the\n\n\nprocedure for measuring the projections described above shall apply only after removal of such materials.\n\nC-2 The projection of switches, pull-knobs, etc, situated in the reference area shall be measured by using the test apparatus and procedures described below.\n\nC-2.1 Apparatus\n\nC-2.1.1 The apparatus for measuring projections shall consist of a hemispherical headform 165 mm in diameter, in which there is a sliding ram of 50 mm diameter.\n\n\n\n\nC-2.1.2 Relative positions of the flat end of the ram and the edge of the headform shall be shown as a graduated scale on which a mobile index shall register the maximum measurement achieved when the apparatus is moved away from the item tested. A minimum distance of 30 mm shall be measurable; the measuring scale shall be graduated in half millimeter to make possible an indication of the extent of the projections in question.\n\nC-2.1.3 Gauging Procedure\n\nC-2.1.3.1 The apparatus shall be placed on a flat surface so that its axis is perpendicular to that surface. When the flat end of the ram contacts the surface, the scale shall be set at zero.\n\nC-2.1.3.2 A 10 mm strut shall be inserted between the flat end of the ram and the retaining surface; a check shall be made to ensure that the mobile index records this measurement.\n\nC-2.1.4 The apparatus for measuring projections is illustrated in Fig. 1.\n\nC-2.2 Test Procedure\n\nC-2.2.1 A cavity shall be formed in the headform by pulling back the ram and the mobile index shall be\n\nIS 15223 : 2016\n\nplaced against the ram.\n\nC-2.2.2 The apparatus shall be applied to the projection to be measured so that the headform contacts the maximum surrounding surface area with a force not exceeding 2 daN.\n\nC-2.2.3 The ram shall be pushed forward until it makes contact with the projection to be measured and the amount of the projection shall be observed on the scale.\n\nC-2.2.4 The head form shall be adjusted to obtain maximum projection. The amount of the projection shall be recorded.\n\nC-2.2.5 If two or more controls are situated sufficiently close for the ram or the headform to contact them simultaneously, they shall be treated as follows:\n\nC-2.2.5.1 Multiple controls, all of which can be contained in the headform cavity, shall be regarded as forming a single projection.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 47209,
+      "char_end": 50152,
+      "semantic_chunk_length": 2943,
+      "final_chunk_length": 3245,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0021",
+    "text": "corded.\n\nC-2.2.5 If two or more controls are situated sufficiently close for the ram or the headform to contact them simultaneously, they shall be treated as follows:\n\nC-2.2.5.1 Multiple controls, all of which can be contained in the headform cavity, shall be regarded as forming a single projection.\n\nC-2.2.5.2 If other controls prevent normal testing by contacting the headform, they shall be removed and the test shall be conducted without them. They may subsequently be reinstalled and tested in their turn with other controls that have been removed to facilitate the procedure.\n\n\n**FIG. 1 APPARATUS FOR MEASURING PROJECTIONS**\n\n\n\n\n\n## ANNEX D\n\n\n(Clause 4.2.1)\n\nAPPARATUS AND PROCEDURE FOR APPLICATION OF 4.2.1 OF SPECIFICATION\n\nD-1 Those parts (switches, pull-knobs, etc) which can be contacted by using the apparatus and procedure described below shall be considered as being likely to be contacted by the knees of an occupant. Foot operated controls are fitted as foot pedals.\n\nD-2 APPARATUS\n\nD-2.1 Diagram of Apparatus ( see Fig. 2 )\n\nD-3 PROCEDURE\n\nD-3.1 The apparatus may be placed in any position below the level of the instrument panel so that,\n\n- a) the plane XX' remains parallel to the median longitudinal plane of the vehicle;\n- b) the axis X can be rotated above and below the horizontal through angles up to 30°.\nD-3.2 In carrying out the above test, all materials of less than 50 shore A hardness shall be removed.\n\n\n**FIG. 2 APPARATUS FOR CHECKING KNEE CONTACT OF OCCUPANTS**",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 50154,
+      "char_end": 51347,
+      "semantic_chunk_length": 1193,
+      "final_chunk_length": 1495,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0022",
+    "text": "o the median longitudinal plane of the vehicle;\n- b) the axis X can be rotated above and below the horizontal through angles up to 30°.\nD-3.2 In carrying out the above test, all materials of less than 50 shore A hardness shall be removed.\n\n\n**FIG. 2 APPARATUS FOR CHECKING KNEE CONTACT OF OCCUPANTS**\n\n## ANNEX E\n\n\n[ Clauses 3.2 (c), 3.3, 4.1.1, 4.1.7, 4.1.7.1 and 4.8.2 ]\n\nDETERMINATION OF A DYNAMICALLY DETERMINED HEAD IMPACT ZONE\n\nE-1 DETERMINATION OF THE DYNAMICALLY DETERMINED HEAD IMPACT ZONE WITH REGARD TO THE PROTECTIVE SYSTEM\n\nE-1.1 Differing from the procedure described in Annex A the applicant may prove, by a procedure accepted by the test agency responsible for conducting the tests, that a dynamically determined head impact zone is relevant for this vehicle type.\n\n\nE-1.2 A suitable method to prove a dynamically determined head impact zone may be either:\n\nE-1.2.1 Vehicle Impact Tests\n\nTo determine the sequence of movement of the occupants with regard to the protective system installed in the vehicle type, using the frontal impact conditions in the range of ±30° against a fixed rigid barrier with an impact speed of at least 48.3 km/h. Normally it will be sufficient to test at 0°, + 30° and – 30°.\n\n\n\n\nThe dynamically determined head impact zone has to be evaluated for the occupants represented by adult dummies of the types 5th percentile female, 50th percentile male and 95th percentile male, each placed in its recommended seating position before the test as defined by the manufacturer.\n\nE-1.2.2 Sled Tests\n\nThe sequence of movement shall be investigated under the effect of the deceleration time diagram given in IS 15140 (change of velocity 50 km/h) respecting the above prescribed dummy family and producing a direction of a forward displacement of the respective dummies corresponding to the movement of the dummies during real frontal impact tests according to E-1.2.1.\n\nThe direction of the forward displacement of the dummies is deemed satisfactory, if the centre line of the test object, normally a body shell, covers the range of ±18° from the longitudinal centerline of the sled. Normally it will be sufficient to test at 0°, 18° and –18°, or\n\nE-1.2.3 Simulated Impact Testing\n\nThe sequence of movements of the occupants,\n\n\nIS 15223 : 2016\n\nrepresented by the dummy family described in E-1.2.1 above shall be investigated as described in E-1.2.1 or E-1.2.2. The simulation method shall be validated by at least three of the impact conditions as prescribed in E-1.2.1 or E-1.2.2 above.\n\nE-2 The dynamically determined head impact zone includes all areas of the instrument panel that may be contacted by the head of restraint occupants using the protective system installed in the vehicle type.\n\nE-3 If the vehicle type can be fitted with different protective systems it is sufficient to investigate the protective system with the minimum performance. However, protective systems that can be deactivated by the driver or the occupant have to be set as recommended and indicated by the manufacturer in the owner’s manual.\n\nIf the manufacturer provide for permanent deactivation of a part of the protective system, then this part has to be set to the deactivated configuration.",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 51350,
+      "char_end": 54259,
+      "semantic_chunk_length": 2909,
+      "final_chunk_length": 3211,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15223_2016_reff2022_0023",
+    "text": "tems that can be deactivated by the driver or the occupant have to be set as recommended and indicated by the manufacturer in the owner’s manual.\n\nIf the manufacturer provide for permanent deactivation of a part of the protective system, then this part has to be set to the deactivated configuration.\n\nE-4 The manufacturer or his representative is entitled to present calculations, simulations, test data or test results, which sufficiently prove the dynamically determined head impact zone.\n\n\n\n\n## ANNEX F\n\n\n(Foreword)\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards : Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: TED 06 (0935).\n\nAmendments Issued Since Publication\n\n| Amend No. | Date of Issue | Text Affected |\n| --- | --- | --- |",
+    "metadata": {
+      "source": "15223_2016_reff2022.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 54261,
+      "char_end": 55872,
+      "semantic_chunk_length": 1611,
+      "final_chunk_length": 1913,
+      "standard_no": "IS 15223",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

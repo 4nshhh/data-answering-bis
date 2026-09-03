@@ -1,0 +1,459 @@
+[
+  {
+    "id": "7879_8_2025_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nJune 2025 Price Group 9\n\n\n\n\nAir and Space Vehicles Sectional Committee Sectional Committee, TED 14\n\nFOREWORD\n\nThis Indian Standard (Part 8) (First Revision)  was adopted by the Bureau of Indian Standards, after the draft finalized by the Air and Space Vehicles Sectional Committee had been approved by Transport Engineering Division Council.\n\nThis standard has been published in several parts. Other parts in this series are:\n\nPart 1 General\n\nPart 2 Motion of aircraft\n\nPart 3 Structure\n\nPart 4 Aerodynamics\n\nPart 5 Aerodynes (heavier-than-air-aircraft)\n\nPart 6 Space terms\n\nPart 7 Air traffic and ground services\n\nThis standard provides standard definition of technical terms relating to power plant including gas turbines.\n\nEach term has been assigned a 4 digit number. The first one (or two) digit, in the thousandth place, represents the part number. This part number with the following digit in the hundredth place represents the section. The last two digits represents the position of the definition within a Section, thus, the term 8215 is the 15th definition of Section 82 which is Part 8.\n\nThis standard was first published in 1987. This revision has been brought to incorporate the modifications found necessary as a result of experience gained upon the use of this standard. Also, in this revision, references to Indian Standards, wherever applicable have been updated.\n\nThe following International Standard available on the subject have been referred by the Committee in the course of preparation of this standard:\n\nBS 185 Aeronautical and astronautical terms\n\nThe composition of the Committee responsible for the revision of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nAERONAUTICAL AND ASTRONAUTICAL —\n\n\nGLOSSARY OF TERMS\n\n\nPART 8 POWER PLANT\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard (Part 8) covers terms and definitions relating to power plant for aerospace applications. Terms relating to gas turbines and jet propulsion are covered in separate sections.\n\n\nSECTION 81 MAIN CLASSES OF POWER PLANT\n\nNo. Term Definition\n\n\n8101 Composite engine A combination of two engines of basically different thermodynamic cycles, such as a piston-turbine engine combination. Not to be confused with the general engineering term ‘compound engine’.\n\n\n8102 Gas-turbine engine An engine in which the working fluid is heated by internal combustion and expanded through a turbine.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2945,
+      "semantic_chunk_length": 2943,
+      "final_chunk_length": 2943,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0001",
+    "text": "wo engines of basically different thermodynamic cycles, such as a piston-turbine engine combination. Not to be confused with the general engineering term ‘compound engine’.\n\n\n8102 Gas-turbine engine An engine in which the working fluid is heated by internal combustion and expanded through a turbine.\n\n## 8103 Jet engine Any engine that ejects a jet or streams of gas or fluid, obtaining all or most of its thrust by reaction to the engine.\n\n\n## 8104 Lift engine An engine used primarily to provide lifting force on a VTOL or STOL aircraft.\n\n\n8105 Piston engine An engine in which the working fluid is expanded in a cylinder against a reciprocating piston.\n\n\n## 8106 Ramjet engine aerothermodynamicduct (athodyd)\n\nAn engine producing a jet by burning fuel in air which has been compressed, by forward speed alone, in an appropriately shaped duct and expanded in a nozzle.\n\n\n8107 Rocket ramjet A ramjet engine having a rocket attached to it, usually mounted concentrically within the ramjet duct, the rocket being used to bring the vehicle up to the necessary operating speed for the ramjet.\n\n\n## 8108 Rocket motor A device for producing thrust by the ejection of matter, usually in gaseous form, the thrust being generated from propellant carried in the system.\n\n\n8109 Vectored thrust engine An engine in which the direction of thrust can be continuously varied.\n\n\n## 8110 Aero-engine aircraft engine\n\nAn engine used to provide the main propulsive or lifting power for an aircraft.\n\n\n\n\nSECTION 82 TYPES OF PISTON ENGINE\n\nNo. Term Definition\n\n\n## 8201 Arrow engine An engine with three rows of cylinders forming, in end view, a broad arrow.\n\n\n## 8202 Axial engine An engine with the axes of its cylinders arranged parallel to the driving shaft.\n\n\n## 8203 Compression ignition engine\n\nAn engine in which ignition of the working fluid in the cylinder is produced by the heat of compression alone.\n\n8204 H-engine An engine with its cylinders forming, in end view, the letter ‘H’.\n\n8205 In-line engine An engine with its cylinders arranged in bank(s) from front to rear.\n\n\n## 8206 Inverted engine\n\n\n## 8207 Opposed cylinder engine\n\n\n## 8208 Opposed-piston engine\n\nAn engine with its cylinders below the crankshaft (see 8215).\n\nAn engine with its cylinders arranged opposite each other in the same plane, their connecting rods working on the same crankshaft.\n\nAn engine with two pistons acting in opposition in the same cylinder.\n\n\n## 8209 Radial engine An engine with a row, or rows, of cylinders spaced radially round a common crankshaft, the cylinders being stationary and the crankshaft revolving.\n\n\n## 8210 Multi-row radial engine\n\nA radial engine with two or more rows of cylinders.\n\n\n## 8211 Rotary engine An engine with its cylinders equally spaced round a common crankshaft, the crankshaft being stationary and the cylinders revolving.\n\n\n## 8212 Supercharged engine\n\n\n## 8213 Super compression engine\n\nAn engine in which the charge pressure in the induction system may be increased, by mechanical means, above that produced by normal aspiration.\n\nAn unsupercharged engine of high compression ratio, which is designed not to be run at full throttle except at or above some predetermined altitude.\n\n8214 V-engine An engine with its cylinders forming, in end view, the letter ‘V’.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "8103",
+      "heading": "8103 Jet engine Any engine that ejects a jet or streams of gas or fluid, obtaining all or most of its thrust by reaction to the engine.",
+      "heading_path": [
+        "8103 Jet engine Any engine that ejects a jet or streams of gas or fluid, obtaining all or most of its thrust by reaction to the engine."
+      ],
+      "char_start": 2948,
+      "char_end": 5926,
+      "semantic_chunk_length": 2978,
+      "final_chunk_length": 3280,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0002",
+    "text": "ased, by mechanical means, above that produced by normal aspiration.\n\nAn unsupercharged engine of high compression ratio, which is designed not to be run at full throttle except at or above some predetermined altitude.\n\n8214 V-engine An engine with its cylinders forming, in end view, the letter ‘V’.\n\n## 8215 Vertical engine An engine with its cylinders vertically above the crankshaft (see 8206).\n\n8216 X-engine An engine with its cylinders forming, in end view, the letter ‘X’.\n\nEngine Components\n\nLocation of Parts\n\nThe following are the standard adjectives for the location of parts, the engine being assumed in normal running position with the observer looking along it towards the output shaft end:\n\nLeft Centre Right\n\nFront Middle Rear\n\nTop Centre Bottom\n\n\n\nNo. Term Definition\n\n\n## 8217 Flame trap (induction flame damper)\n\nA device fitted in the induction system to prevent the passage of flame in the event of a ‘backfire’ or ‘blow-back’.\n\n\n## 8218 Junk ring (seal ring/gasket) A ring for maintaining a gas-tight seal between the cylinder head and the\n\nbore of sleeve valve\n\n\n## 8219 Maneton piston connecting rods\n\nThe detachable short end of a crankshaft in a rotary or radial engine.\n\n\n## 8220 Connecting rod assembly The complete assembly of one or more connecting rods working on one crankpin.\n\n\n8221 Forked assembly An assembly of connecting rods in which one carries the big end bearing and the remainder encircle and oscillate upon a surface formed on the master rod or big-end bearing concentric with the letter.\n\n\n## 8222 Master and articulated assembly\n\nAn assembly of connecting rods in which one carries the big end bearing and the remainder encircle and oscillate upon a surface formed on the master rod or big-end bearing concentric with the letter.\n\n\n8223 Side-by-side assembly An assembly of connecting rods in which a number of similar plain connecting rods are arranged successively side-by-side with narrow big- ends usually carrying roller bearings.\n\n\n## 8224 Slipper-type assembly An assembly of connecting rods in which each rod has a slipper held in place by flanges, riding on the outer surface of the big-end bearing, or in an annular groove.\n\n\n## 8225 Piston rings gas ring (com- pression ring)\n\nA spring ring for maintaining a gas-tight seal between the (compression ring) piston and cylinder wall.\n\n\n## 8226 Obturator ring A gas ring L-shaped in cross section.\n\n\n## 8227 Scraper ring (oil ring) Scraper ring A spring ring for removing superfluous oil from the cylinder (oil ring) wall.\n\n\n## 8228 Wrist-pin (knuckle pin link pin)\n\nThe pin which attaches an articulated connecting rod to the (knuckle pin link pin) master rod.\n\nCarburation\n\n\n## 8229 Accelerator pump A mechanism which temporarily enriches the mixture with the opening of the throttle.\n\n\n## 8230 Boost Control A device which so regulates the manifold pressure that a predetermined value is not exceeded.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "8215",
+      "heading": "8215 Vertical engine An engine with its cylinders vertically above the crankshaft (see 8206).",
+      "heading_path": [
+        "8215 Vertical engine An engine with its cylinders vertically above the crankshaft (see 8206)."
+      ],
+      "char_start": 5929,
+      "char_end": 8534,
+      "semantic_chunk_length": 2605,
+      "final_chunk_length": 2907,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0003",
+    "text": " connecting rod to the (knuckle pin link pin) master rod.\n\nCarburation\n\n\n## 8229 Accelerator pump A mechanism which temporarily enriches the mixture with the opening of the throttle.\n\n\n## 8230 Boost Control A device which so regulates the manifold pressure that a predetermined value is not exceeded.\n\n## 8231 Variable-datum boost control\n\nA boost control in which the controlled manifold pressure varies progressively with the position of the hand throttle lever.\n\n\n8232 Boost control override A device to override the boost control so that a pressure higher than the normal controlled pressure can be obtained.\n\n\n\nNo. Term Definition\n\n\n8233 Boost Pressure The pressure in the induction system at a point standardized for each type of engine, expressed as an amount above or below the standard sea- level atmospheric pressure (see manifold pressure).\n\n\n## 8234 Bulk-injection carburetor (pressure injection carburettor)\n\nA carburetor, which injects the fuel under pressure into the air stream at some point before it is distributed to the cylinders.\n\n\n## 8235 Bulk-injection pump A fuel metering pump which carries out the same functions as a bulk injection carburetor.\n\n\n## 8236 Direct-injection pump A fuel metering pump which injects the fuel direct into the individual engine cylinders.\n\n\n8237 Float-type carburetor A carburetor in which the head of the fuel supplied to the jet is controlled by a float and needle valve.\n\n\n## 8238 Fuel trimmer A mechanism which adjusts the fuel to air ratio for a given throttle setting under different ambient conditions.\n\n\n## 8239 Induction manifold A branched pipe for distributing the air or air fuel mixture to a number of cylinders.\n\n\n8240 Intercooler (aftercooler) A component installed on the delivery side of a supercharger or compressor to cool either the compressed air or the air fuel mixture. (It is normally driven by engine or by a turbine).\n\n\n## 8241 Mixture control A device embodied in the fuel metering system for adjusting the mixture strength.\n\n\n8242 Automatic mixture control A device for varying, in accordance with changes in air density, the quantity of fuel delivered.\n\n\n## 8243 Power boost A device or system for increasing temporarily the power of an engine above its normal maximum continuous rating.\n\n\n## 8244 Slow-running cut-off (fuel cut-off)\n\nA device for cutting off the supply of metered fuel.\n\n\n## 8245 Water-injection The injection of water, usually mixed with an anti-freeze agent such as methanol, into an engine to suppress detonation.\n\nSuperchargers\n\n\n8246 Supercharger A compressor used to increase the density of the air or mixture supplied to an engine. Normally driven either by the engine or by an exhaust turbine.\n\n8247\n\nAxial-flow super charger\n\n8248\n\nCentrifugal supercharger\n\nA supercharger in which the air or mixture is compressed by an axial flow compressor. A supercharger in which the air or mixture is compressed by a centrifugal compressor.\n\n\n8249 Multi speed supercharger A gear driven supercharger in which alternative gear ratios may be engaged.\n\n\n## 8250 Multi-stage supercharger A supercharger having two or more stages of compression in series.\n\n\n\nNo. Term Definition",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 7,
+      "clause": "8231",
+      "heading": "8231 Variable-datum boost control",
+      "heading_path": [
+        "8231 Variable-datum boost control"
+      ],
+      "char_start": 8537,
+      "char_end": 11406,
+      "semantic_chunk_length": 2869,
+      "final_chunk_length": 3171,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0004",
+    "text": "which the air or mixture is compressed by a centrifugal compressor.\n\n\n8249 Multi speed supercharger A gear driven supercharger in which alternative gear ratios may be engaged.\n\n\n## 8250 Multi-stage supercharger A supercharger having two or more stages of compression in series.\n\n\n\nNo. Term Definition\n\n## 8251 Positive-displacement supercharger\n\nA supercharger in which volumes of air or mixture are isolated and compressed.\n\n\n8252 Roots supercharger A supercharger in which compression is effected by the relative motion of two meshing rotors in a fixed case.\n\n\n8253 Vane supercharger A supercharger in which compression is effected by the motion of vanes carried in a rotor eccentrically located in a fixed case.\n\nExhaust System\n\n\n8254 Exhaust Manifold A pipe or chamber into which exhaust gases are led from a number of cylinders.\n\nCollector ring (collector) exhaust pipes\n\nBranch pipe\n\n8256\n\n\n## 8255 An exhaust manifold in the form of a ring, used in radial engines.\n\nA short pipe which conveys exhaust gases from a cylinder to an exhaust manifold.\n\n\n## 8257 Ejector pipe A pipe so disposed or shaped as to produce appreciable forward thrust.\n\n\n## 8258 Stub pipe A short pipe which discharges the exhaust gases directly from a cylinder directly to atmosphere in the absence of a manifold.\n\n\n## 8259 Tail pipe A short pipe which discharges the exhaust gases directly from a cylinder directly to atmosphere in the absence of a manifold.\n\n\n## 8260 Flame damper A device to prevent visual detection of an aircraft by its exhaust flame.\n\n\n## 8261 Glare shield A device to prevent the pilot’s night vision from being impaired by exhaust flames or flow.\n\n\n## 8262 Glow screen A device for obscuring the glow from hot metal.\n\n\n## 8263 Heating muff A chamber, surrounding an exhaust pipe or manifold, to provide hot air.\n\n\n## 8264 Intensifier tube A tube inserted in an exhausted manifold for the purpose of heating air passing through the tube and conveying it to a carburetor for de-icing or anti-icing.\n\n\n## 8265 Booster coil An induction coil providing a spark to facilitate starting.\n\n\n## 8266 Impulse starter A mechanical device which gives a series of impulses to the magneto to facilitate starting.\n\n\n8267 Isolating spark gap A spark gap in the H. T. booster lead to prevent feed-back from the magneto.\n\n\n8268 Screened ignition An ignition system in which all components are surrounded by an earthed metallic screen to prevent radio interference therefrom.\n\n\n\nCooling System\n\n\n## 8269 Ducted cooling engine coolant radiators.\n\n\n## 8270 Annular radiators annual radiator\n\nA system in which cooling air is constrained to flow in a duct or ducts to or from the power plant.\n\nA radiator shaped to fit within a circular cowling and through which the cooling air flows axially.\n\n\n## 8271 Ducted radiator A radiator installed in a duct.\n\n\n## 8272 Honeycomb radiator A radiator consisting of a block of tubes between which the coolant circulates.\n\n\n## 8273 Leading-edge radiator A surface radiator which forms part of the leading edge of a wing.\n\n\n8274 Mixed matrix radiator A radiator compounded with an oil cooler so that alternate tubes are used for coolant and oil.\n\n\n## 8275 Nose radiator A radiator fitted at the front of a fuselage or nacelle.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "8251",
+      "heading": "8251 Positive-displacement supercharger",
+      "heading_path": [
+        "8251 Positive-displacement supercharger"
+      ],
+      "char_start": 11409,
+      "char_end": 14353,
+      "semantic_chunk_length": 2944,
+      "final_chunk_length": 3246,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0005",
+    "text": "# 8273 Leading-edge radiator A surface radiator which forms part of the leading edge of a wing.\n\n\n8274 Mixed matrix radiator A radiator compounded with an oil cooler so that alternate tubes are used for coolant and oil.\n\n\n## 8275 Nose radiator A radiator fitted at the front of a fuselage or nacelle.\n\n## 8276 Ring radiator A radiator of circular form through which the cooling air flows radially.\n\n\n## 8277 Secondary surface radiator A radiator with the cooling increased by fins.\n\n\n## 8278 Series radiator A ducted radiator mounted in front of an oil cooler.\n\n\n8279 Surface radiator A radiator in which some part of the surface of the aircraft is adapted for cooling.\n\n\n## 8280 Under-wing radiator A radiator fitted below a wing.\n\n\n## 8281 Wing radiator A radiator located in a wing..\n\n\n## 8282 Evaporative cooling A cooling system which utilizes the latent heat of evaporation by allowing the coolant to boil and, after condensation, to return to the cylinder jackets.\n\n\n## 8283 Gills (cowlling gills) A set of movable flaps at the rear of a cowling to control the flow of cooling air.\n\n\nSECTION 83 LUBRICATION, FUEL SYSTEM AND STARTERS\n\nNo. Term Definition\n\n\n## 8301 Lubricating oil coolers air-intake oil cooler\n\nA cooler incorporated in an air intake.\n\n\n## 8302 Ducted Oil Cooler A cooler installed in a duct.\n\n\n8303 Mixed-matrix oil cooler A cooler compounded with a radiator so that alternate tubes are used for coolant and oil.\n\n\n## 8304 Multi-element oil cooler A cooler composed of a number of cooling units.\n\n\n## 8305 Series oil cooler A ducted cooler mounted behind a radiator.\n\n\n## 8306 Surface oil cooler A cooler in which some part of the surface of the aircraft is adapting for cooling.\n\n\n\nNo. Term Definition\n\n\n## 8307 Tank oil cooler A cooler and oil tank combined.\n\n\n## 8308 Oil control valve An automatic valve to regulate the performance of an oil cooler, for example,by-pass, viscosity, thermostatic or anti-surge valve.\n\n\n8309 Oil dilution system A system by which the oil can be diluted to assist cold starting.\n\n\n## 8310 Food pipes Pipes leading oil from the oil tank to the engine or accessory.\n\n\n## 8311 Scavenge pipe Pipes leading oil from the oil tank to the engine or accessory.\n\n\n## 8312 Tank vent pipe A pipe leading from the air-space in an oil tank to the atmospheric or engine casing.\n\n\n## 8313 Pumps pressure pump A pump which supplies oil under pressure to the engine or accessory.\n\n\n## 8314 Scavenge pump A pump which withdraws used oil from the engine or accessory and returns it to the oil tank.\n\nFuel System\n\n\n## 8315 Avcat An aviation turbine fuel of the kerosene type with a high flashpoint.\n\n\n## 8316 Avgas An aviation gasoline.\n\n\n## 8317 Avtag An aviation turbine wide cut gasoline.\n\n\n## 8318 Avtur An aviation turbine fuel of the kerosene type.\n\nNOTE — The addition of a figure after the term Avcat or Avtur gives an indication of the maximum freezing point, for example, Avcat/ 40 is an Avcat which has a freezing point not higher than – 40 °C.\n\n\n## 8319 Booster pump A fuel pump used to maintain positive pressure in a feed pipe.\n\n\n## 8320 Float mechanism A float operated mechanism for control of a valve located in a fuel system.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "8276",
+      "heading": "8276 Ring radiator A radiator of circular form through which the cooling air flows radially.",
+      "heading_path": [
+        "8276 Ring radiator A radiator of circular form through which the cooling air flows radially."
+      ],
+      "char_start": 14356,
+      "char_end": 17234,
+      "semantic_chunk_length": 2878,
+      "final_chunk_length": 3180,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0006",
+    "text": "e maximum freezing point, for example, Avcat/ 40 is an Avcat which has a freezing point not higher than – 40 °C.\n\n\n## 8319 Booster pump A fuel pump used to maintain positive pressure in a feed pipe.\n\n\n## 8320 Float mechanism A float operated mechanism for control of a valve located in a fuel system.\n\n## 8321 Fluid level indicator A device which gives a remote indication of the level of the fuel in a tank of an aircraft.\n\n\n## 8322 Fuel-jettison gear fuel tanks\n\nGear for the rapid discharge of fuel in emergency.\n\n\n8323 Auxiliary tank A removable tank in which an additional supply of fuel can be carried.\n\n\n## 8324 Drop tank An external tank designed to drop in flight when empty.\n\n\n## 8325 Gravity tank A tank from which the fuel is supply to the engine(s) by gravity alone.\n\n\n## 8326 Integral tank Part of the structure of the aircraft adapted to form a tank.\n\n\n8327 Jettisonable tank A tank which can be jettisoned in emergency.\n\n\n## 8328 Semi-integral tank A detachable tank which forms part of the aircraft structure when in place.\n\n\n## 8329 Inverted flight switch A mechanically operated switch breaks the circuit to a fuel-no- air valve or similar component to interrupt fuel flow from tank to engine during inverted flight.\n\n\n\nNo. Term Definition\n\n\n8330 Recuperator A vessel in which fuel is stored so as to meet negative acceleration conditions, the fuel being fed into the engine by application of air pressure. 8331 Sloshing Movement to and fro of liquid in its tank, which may adversely affect stability and control of a flying vehicle. Valves\n\n\n## 8332 Double shut-off valve A valve incorporating two separate and independently controlled shut-off devices so that if one fails to operate the other shuts off the flow.\n\n\n8333 Fuel-no-air valve A device which ensure that, when an engine receives fuel from a pressurized tank, fuel only is admitted to the fuel inlet of the engine regardless of the attitude of the aircraft air or other gases used for pressurizing being excluded.\n\n\n## 8334 Jettison valve A valve which permits the discharge of fuel overboard in emergency.\n\n\n## 8335 Pressure maintaining valve\n\nA valve which maintains a particular pressure in part of the valve system for some special purpose.\n\n\n8336 Transfer valve A valve which enables fuel to be transferred from one tank to another, particularly during flight. Usually so arranged that, when the fuel in a tank falls below a predetermined level, the valve opens and admits fuel from another tank.\n\n\n## 8337 Unidirectional restrictor valve\n\nA valve which permits free flow in one direction but restricts flow in the reverse direction.\n\nAir Intakes and Guards Air in Takes\n\n\n8338 Centre-body intake An air intake whose air duct is formed between an outer skin and inner member known as the centre body, which may be axially movable.\n\n\n## 8339 External compression An air intake for supersonic operation in which the greater part of the compression occurs in one or more shocks at and upstream of the intake lip.\n\n\n## 8340 Internal compression intake\n\nAn air intake for supersonic operation in which the greater part of the compression occurs in one or more shocks within the intake.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "8321",
+      "heading": "8321 Fluid level indicator A device which gives a remote indication of the level of the fuel in a tank of an aircraft.",
+      "heading_path": [
+        "8321 Fluid level indicator A device which gives a remote indication of the level of the fuel in a tank of an aircraft."
+      ],
+      "char_start": 17237,
+      "char_end": 20102,
+      "semantic_chunk_length": 2865,
+      "final_chunk_length": 3167,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0007",
+    "text": "supersonic operation in which the greater part of the compression occurs in one or more shocks at and upstream of the intake lip.\n\n\n## 8340 Internal compression intake\n\nAn air intake for supersonic operation in which the greater part of the compression occurs in one or more shocks within the intake.\n\n## 8341 Multi-shock intake An air intake for supersonic operation in which compression occurs in a number of shocks.\n\n\n8342 Non-ramming intake An air intake in which the effect of forward speed on intake air pressure is neutralized.\n\n\n## 8343 Ramming intake An air intake directed forward to increase the intake air pressure.\n\n\n## 8344 Single shock intake An air intake for supersonic operation in which compression occurs in only one shock.\n\n\n8345 Variable geometry intake An air intake whose area or shape can be varied in flight.\n\n\n8346 Wedge intake A variable geometry intake, usually of rectangular form, whose area and shape are defined by the position of one or more variable ramps.\n\n\n8347 Air take casing A casing through which the air is admitted to the engine.\n\n\n\n\nFILTERS\n\nIS 7879 (Part 8) : 2025\n\n\n## 8348 Air filter (air cleaner) An assembly of filter elements in the air intake.\n\n\n## 8349 Filter element A replaceable component for removing entrained particles from a fluid stream.\n\n\n8350 Dry-type filter element A filter element in an air filter, in which the filtration is effected by a dry matrix.\n\n\n8351 Wet-type filter element A filter element in an air filter, in which the filtration is effected by a liquid film.\n\n\n## 8352 Momentum separation The removal of entrained particles from the air stream by utilizing their momentum.\n\nGUARDS\n\n\n## 8353 Ice guard A screen fitted to an intake to provide a surface for the adhesion of ice and so prevent its serious accretion in the air intake system.\n\n\n## 8354 Gapless-type ice guard An ice guard fitted in the intake mouth, used in conjunction with an automatic alternative air Inlet.\n\n\n## 8355 Gapped-type ice guard An ice guard mounted forward of the air intake entry to provide a gap which does not ice up.\n\n\n## 8356 Intake air heater A device for raising the temperature of the intake air entering the engine.\n\n\n## 8357 Plenum chamber A chamber, usually fed from auramming intake, supplying air to the engine or for other purposes.\n\nENGINE STARTERS\n\n\n8358 Cartridge starter A device in which the gases generated in a cartridge are used to rotate an engine for starting. The cartridge may contain an explosive charge, compressed gas or volatile liquid to rotate the compressor for starting the engine.\n\n\n8359 Combustion starter A device in which the hot gases from the combustion of fuel are used to rotate an engine for starting, either directly or by coupling on to a shaft.\n\n\n## 8360 Compressed air starter (pneumatic starter)\n\nA device for starting an engine by utilizing the expansive energy of compressed air stored in the cylinders or otherwise.\n\n\n## 8361 Electric starter An electric motor used to rotate an engine for starting.\n\n\n## 8362 Ground starter Any device, not carried in an aircraft, for starting an aero engine.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "8341",
+      "heading": "8341 Multi-shock intake An air intake for supersonic operation in which compression occurs in a number of shocks.",
+      "heading_path": [
+        "8341 Multi-shock intake An air intake for supersonic operation in which compression occurs in a number of shocks."
+      ],
+      "char_start": 20105,
+      "char_end": 22902,
+      "semantic_chunk_length": 2797,
+      "final_chunk_length": 3099,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0008",
+    "text": "\nA device for starting an engine by utilizing the expansive energy of compressed air stored in the cylinders or otherwise.\n\n\n## 8361 Electric starter An electric motor used to rotate an engine for starting.\n\n\n## 8362 Ground starter Any device, not carried in an aircraft, for starting an aero engine.\n\n## 8363 Hand starter A device, embodied in an aero-engine or attached thereto, for rotating the engine by hand, otherwise than by the propeller, for starting.\n\n\n8364 Inertia starter A device by which energy is stored in a small high speed flywheel and, for starting, transmitted to an engine through a slipping clutch, the flywheel being energized either by hand or otherwise.\n\n\n## 8365 Internal- combustion starter\n\nAn internal combustion engine used to start the main engine.\n\n\n\n\n## 8366 Turbo-starter (gasturbine starter gts)\n\nGeneral Terminology\n\nA starter incorporating a small turbine energized by compressed air or other gas, with or without combustion.\n\n\n## 8367 Accessory gearbox An engine driven gearbox for driving accessories.\n\n\n## 8368 Auxiliary power unit APU\n\nAn independent engine and ancillary equipment to provide power for auxiliary services.\n\n\n8369 Bootstrap Applied to a self-sustaining process which needs to be started in operation by outside power or propellant.\n\n\n## 8370 Consumption The total quantity of fuel or oil consumed per hour.\n\n\n## 8371 Specific consumption a) Of engines driving propellers: The quantity by weight of fuel or oil consumed per horsepower per hour; and\n\n- b) Of jet reaction engines: The weight of propellant or fuel consumed per kilogram (Newton) of thrust per hour.\n\n## 8372 Cooling film cooling Evaporative cooling of the inner wall of a combustion chamber or other surface by a coolant injected adjacent to the surface.\n\n\n## 8373 Regenerative cooling The process of cooling by the circulation of fuel or oxidant, enabling some heat, otherwise wasted, to be recovered.\n\n\n## 8374 Sweat cooling (transpi- ration cooling)\n\nEvaporative cooling in which the cooling liquid passes through a porous wall and is thereby distributed evenly over the surface to be cooled.\n\n\n## 8375 Cowl flap A shutter in an aircraft cowling, used to regulate the flow of cooling air around the engine.\n\n\n## 8376 Cowling A cover surrounding the whole or part of a power unit when installed in an aircraft.\n\n\n## 8377 Non-pressure cowling (sealed cowling)\n\n\n## 8378 Pressure cowling (unsealed cowling)\n\nA cowling designed to prevent entry of surrounding air into the engine nacelle.\n\nA cowling in which the pressure of the air is increased, either by ram effect or by a fan.\n\n\n## 8379 Engine rating A statement of the specified minimum output (horsepower or thrust) under prescribed Conditions and for a prescribed period.\n\n\n## 8380 Contingency rating A special rating for power or thrust usable in emergency for particular classes of aircraft or conditions of flight and duration.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "8363",
+      "heading": "8363 Hand starter A device, embodied in an aero-engine or attached thereto, for rotating the engine by hand, otherwise than by the propeller, for starting.",
+      "heading_path": [
+        "8363 Hand starter A device, embodied in an aero-engine or attached thereto, for rotating the engine by hand, otherwise than by the propeller, for starting."
+      ],
+      "char_start": 22905,
+      "char_end": 25510,
+      "semantic_chunk_length": 2605,
+      "final_chunk_length": 2907,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0009",
+    "text": "379 Engine rating A statement of the specified minimum output (horsepower or thrust) under prescribed Conditions and for a prescribed period.\n\n\n## 8380 Contingency rating A special rating for power or thrust usable in emergency for particular classes of aircraft or conditions of flight and duration.\n\n## 8381 Intermediate rating (maximum rating, rating with reheat)\n\nA special rating for power or thrust usable in emergency for particular classes of aircraft or conditions of flight and duration.\n\n\n8382 Normal continuous rating This is the highest rating of the engine which may be used for a prescribed\n\nperiod of time in each flight. This rating can include the use of reheat or bypass heat.\n\n\n## 8383 Maximum continuous rating\n\nThe highest rating of the engine which may be used during periods of unrestricted duration, but use of this rating may be detrimental to the authorised life of the engine.\n\n\n\n\n8384 Maximum lift rating The maximum thrust that may be raised by a vectored thrust engine for a prescribed time during vertical or short takeoff or landing.\n\nNo. Term Definition\n\n\n## 8385 Maximum thrust engine\n\nThe maximum thrust for a prescribed time in a vectored thrust engine which can be used at times other than during vertical take-off or landing.\n\n\n## 8386 Flame front The boundary of a burning zone in a combustible mixture.\n\n\n## 8387 Flame holder (flame stabilizer)\n\nA device inserted in a moving fuel-air mixture, designed to stabilize a flame.\n\n\n8388 Height power factor The ratio of the power or thrust developed at a specified altitude to that which would be developed at standard sea level. It applies to maximum power or thrust conditions at full throttle.\n\n\n## 8389 Paired engines Two completely independent engines mounted close together.\n\n\n## 8390 Power unit An engine or assembly of two or more engines, as fitted into an aircraft, complete with all components and accessories.\n\n\n## 8391 Coupled-engine power unit\n\n\n## 8392 Double-engine power unit\n\n\n## 8393 Right-hand (or clock wise) accessories\n\n\n## 8394 Right-hand (or clock wise) drive\n\nA power unit containing engines coupled together to drive a common shaft.\n\nA power unit containing two engines driving co-axial propellers.\n\nAn accessory rotating clockwise to an observer facing the accessories driven end, to mate with an anti-clockwise drive.\n\nA drive rotating clockwise to an observer facing the driving end.\n\n\n## 8395 Weights dry weight The weight of an engine without liquid, but including all accessories essential to its running and any drives incorporated in it for non-essential accessories.\n\n\n## 8396 Weight per horsepower The dry weight of an engine divided by its maximum permissible horsepower.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "8381",
+      "heading": "8381 Intermediate rating (maximum rating, rating with reheat)",
+      "heading_path": [
+        "8381 Intermediate rating (maximum rating, rating with reheat)"
+      ],
+      "char_start": 25513,
+      "char_end": 27906,
+      "semantic_chunk_length": 2393,
+      "final_chunk_length": 2695,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0010",
+    "text": "end.\n\n\n## 8395 Weights dry weight The weight of an engine without liquid, but including all accessories essential to its running and any drives incorporated in it for non-essential accessories.\n\n\n## 8396 Weight per horsepower The dry weight of an engine divided by its maximum permissible horsepower.\n\n## 8397 Weight per bound thrust The dry weight of an engine divided by the maximum permissible thrust under standard sea level conditions.\n\n\nSECTION 84 GAS TURBINES AND JET PROPULSION\n\n(Location of Parts)\n\nThe following are the standard adjectives for the location of parts, the engine being assumed in normal running position with the observer looking along it towards the intake:\n\nLeft Centre Right\n\nFront Middle Rear\n\nTop Centre Bottom\n\n\n\nTypes of Gas Turbine and Turbine Components\n\nNo. Term Definition\n\n\n8401 Afterburner A combustion chamber in which additional fuel is injected into the hot exhaust gases of turbine type engine, reheating them and developing increased thrust.\n\nGas Turbines\n\n\n## 8402 Axial-flow turbine A turbine through which the general direction of flow is axial.\n\n\n## 8403 Compressor turbine The turbine which drives the compressor as distinct from that which drives an output shaft.\n\n\n## 8404 Impulse turbine A turbine in which the whole of the pressure drop or working fluid expansion occurs in the fixed nozzle or blade passages.\n\n\n8405 Inward-flow turbine A turbine in which the general direction of flow is radially inwards with axial outlet, and the pressure drop in the working fluid is caused largely by the action of centrifugal force during passage through the rotating member.\n\n\n8406 Radial-flow turbine A turbine which functions by the action of the working fluid on rows of rotating blades in conjunction with nozzles, or rows of fixed blades, the general direction of flow being radial.\n\n\n## 8407 Reaction turbine A turbine in which the whole or part of the pressure drop or working fluid expansion occurs in the moving blade passage.\n\n\n## 8408 Interheater A combustion-chamber unit situated between the turbine stages, to provide additional power.\n\n\n## 8409 Main rotor The complete assembly of the rotating parts of the compressor and turbine.\n\n\n## 8410 Nozzle guide ring A ring of stationary guide-vanes, which accelerate the gas and direct it onto a row of rotating turbine blades.\n\n\n8411 Turbine disc The rotating member of which the blades of an axial-flow turbine are carried.\n\n\n## 8412 Turbine entry duct A duct leading the products of combustion to the turbine.\n\n\n## 8413 Turbine rotary shroud turbine tip shroud\n\n\n## 8414 Turbine static shroud turbine shroud ring\n\nA complete or segmented band mounted on the tip of the rotor blade, sometimes formed by lips projecting tangentially from the blade tips.\n\nA ring used to prevent the escape of gas past the tips of the blades in an axial flow turbine.\n\n\n## 8415 Turbine wheel A ring used to prevent the escape of gas past the tips of the blades in an axial flow turbine.\n\nCompressor System\n\n\n## 8416 Axial flow comp- ressor\n\nA compressor in which the air is compressed by its passage axially past rows of blades alternately rotating and either fixed or contra rotating.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "8397",
+      "heading": "8397 Weight per bound thrust The dry weight of an engine divided by the maximum permissible thrust under standard sea level conditions.",
+      "heading_path": [
+        "8397 Weight per bound thrust The dry weight of an engine divided by the maximum permissible thrust under standard sea level conditions."
+      ],
+      "char_start": 27909,
+      "char_end": 30775,
+      "semantic_chunk_length": 2866,
+      "final_chunk_length": 3168,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0011",
+    "text": " wheel A ring used to prevent the escape of gas past the tips of the blades in an axial flow turbine.\n\nCompressor System\n\n\n## 8416 Axial flow comp- ressor\n\nA compressor in which the air is compressed by its passage axially past rows of blades alternately rotating and either fixed or contra rotating.\n\n## 8417 Centrifugal comp- ressor\n\nA compressor in which the compression is initiated by the passage of the air radially outwards through an impeller and into a diffuser.\n\n\n\nNo. Term Definition\n\n\n## 8418 Mixed-flow comp- ressor\n\nA rotary compressor through which the acceleration of fluid is partly radially and partly axial.\n\n\n## 8419 Single-entry comp- ressor\n\nA rotary compressor through which the acceleration of fluid is partly radially and partly axial.\n\n\n## 8420 Double-entry comp- ressor\n\nA compressor in which air is admit to both sides of the impeller, or to both ends of the rotating member.\n\n\n## 8421 Compressor bleed A passage through which compressed air is duct away from the compressor to perform an auxiliary service.\n\n\n## 8422 Compressor blow off An arrangement to discharge air from any stage of a compressor to prevent the\n\ncompressor stalling when operating away from its design conditions, e.g. during acceleration.\n\n\n## 8423 Compressor casing A casing enclosing the impeller or rotating member.\n\n\n8424 Compressor diffuser A ring of fixed vanes, or one or more expansion passages, situated in the compressor delivery to assist in the conversion of the kinetic energy of the air into pressure energy.\n\n\n8425 Compressor drum A cylinder, or series of connected discs, upon which the rotating blades of an axial-flow compressor are mounted.\n\n\n8426 Compressor stage A compressor, or part of a compressor, consisting of one row of rotating and one row of fixed blades in an axial-flow machine or one impeller and its associated diffuser in a centrifugal machine.\n\n\n8427 Compressor stall A condition in a rotary air compressor in which some of the blades or vanes of some stages meet the air flow at such an angle that the flow is distributed which may lead to break down or discontinuity of flow and unsatisfactory operation of a gas turbine engine.\n\n\n## 8428 Impeller The rotating member of a centrifugal compressor, carrying suitably shaped vanes.\n\n\n## 8429 Impeller inter cooler A heat exchanger installed in between the stages of compressor to cool the compressed air.\n\n\n## 8430 Vanes refrigerant injection\n\nThe injection of a refrigerant (for example, water, an alcohol or mixtures thereof) into the working fluid before, during or after compression to enhance the performance of the engine.\n\n\n## 8431 Vanes inlet guide- vanes air-intake guidevanes\n\nRadial or circumferential vanes fitted in the air intake.\n\n\n## 8432 Rotating guide vanes Curved extensions of the impeller vanes projecting into, or adjacent-to the threat\n\nof the air intake casing.\n\n\n## 8433 Toroidal guide vane A flared annular guide-vane in an air-intake casing to guide the incoming air evenly over the entire area of the impeller intake.\n\n\n\nFuel Supply and Combustion Systems\n\n\n## 8434 Barometric fuel control aerometric pressure control\n\nA device which, with changes in atmospheric ‘pressure, regulates the flow in the fuel manifold, by varying the delivery of a fuel pump.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 16,
+      "clause": "8417",
+      "heading": "8417 Centrifugal comp- ressor",
+      "heading_path": [
+        "8417 Centrifugal comp- ressor"
+      ],
+      "char_start": 30778,
+      "char_end": 33743,
+      "semantic_chunk_length": 2965,
+      "final_chunk_length": 3267,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0012",
+    "text": "ncoming air evenly over the entire area of the impeller intake.\n\n\n\nFuel Supply and Combustion Systems\n\n\n## 8434 Barometric fuel control aerometric pressure control\n\nA device which, with changes in atmospheric ‘pressure, regulates the flow in the fuel manifold, by varying the delivery of a fuel pump.\n\n## 8435 Barostatic relief valve barostat\n\nA device, which with changes in atmospheric pressure, regulates the pressure supplied, and thereby the flow in the fuel manifold, by means of spill through a relief valve.\n\n\n8436 Burner A device for injecting a spray of fuel into the combustion chamber. This may be fixed or variable orifice type. In American practice, the term may include the whole combustion chamber.\n\n\n## 8437 Duplex burner A burner with alternative fuel entries and a single exit orifice.\n\n\n## 8438 Simplex burner A burner with a single fuel entry and a single exit orifice.\n\n\n8439 Spill burner A burner in which a portion of the entering fuel is recirculated instead of passing into the combustion chamber.\n\n\n## 8440 By pass heat Combustion in the by-pass air of a by-pass or ducted-fan turbine engine to provide additional thrust.\n\n\n## 8441 Characteristic chamber length\n\nThe length of a straight tube of constant cross-sectional length area equal to that of the throat of the given chamber, the enclosed volume of the tube being equal to that contained within the combustion chamber of the given rocket engine between the injection face and the throat.\n\n\n8442 Combustion chamber A chamber in which combustion occurs. This may be a simple chamber or contain one or more flame tubes.\n\n\n## 8443 Flame tube A tube within a combustion chamber, in which combustion occurs.\n\n\n## 8444 Flame out Unintentional cessation of combustion in a jet or gas turbine engine.\n\n\n## 8445 Fuel accumulator A device for storing fuel, during a portion of the starting cycle, in order to augment the flow momentarily when a predetermined fuel pressure has been reached.\n\n\n8446 Fuel control unit A device for controlling the fuel supply to an engine in accordance with pilot demand, ambient conditions and engine limitations.\n\n\n## 8447 Fuel manifold (fuel feeded manifold)\n\nFuel Feeder Manifold\n\nA main pipe with a series of branch pipes distributing fuel to the burners.\n\n\n## 8448 Fuel pressure switch A device which ensures that full current is not applied to the electric starter motor until fuel pressure has reached a predetermined figure.\n\n\n## 8449 Igniter plug\n\n\n## 8450 Torch igniter\n\nAn electric discharge plug for igniting the fuel when starting the turbine. A combined igniter plug and fuel atomizer for initiating combustion when starting the turbine.\n\n\n## 8451 Interconnector A pipe connecting adjacent combustion chambers or flame tubes.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "8435",
+      "heading": "8435 Barostatic relief valve barostat",
+      "heading_path": [
+        "8435 Barostatic relief valve barostat"
+      ],
+      "char_start": 33746,
+      "char_end": 36188,
+      "semantic_chunk_length": 2442,
+      "final_chunk_length": 2744,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0013",
+    "text": "449 Igniter plug\n\n\n## 8450 Torch igniter\n\nAn electric discharge plug for igniting the fuel when starting the turbine. A combined igniter plug and fuel atomizer for initiating combustion when starting the turbine.\n\n\n## 8451 Interconnector A pipe connecting adjacent combustion chambers or flame tubes.\n\n## 8452 Minimum pressure valve\n\nIdling Control Valve\n\nIS 7879 (Part 8) : 2025\n\nA device which prevents the burner fuel pressure from falling below a predetermined value.\n\n\n8453 Primary holes Holes through which a portion of the airflow is passed into a flame tube for the early stage of combustion.\n\n\n8454 Secondary holes Holes through which air is passed into a flame tube downstream of the primary holes to stabilize the flame and to complete combustion.\n\n\n8455 Holes tertiary Holes through which air is passed into a flame tube downstream of the secondary holes to dilute the hot gas and so to reduce its temperature.\n\n\n## 8456 Reheat after burning Combustion after the last turbine stage to provide additional thrust.\n\n\n## 8457 Return flow system A combustion system in which the entering air and the emerging gas flow in opposite directions.\n\n\n## 8458 Straight flow system A combustion system in which the entering air passing into the flame tube or combustion chamber.\n\n\n## 8459 Swirl-vane A vane used to impart a swirling motion to the air passing into the flame tube or combustion chamber.\n\nExhaust System\n\n\n## 8460 Eyelids clamshell shutters\n\nTwo hinged shutters, suggesting eyelids in appearance and action; used to control the flow of the exhaust gases in a jet propulsion engine.\n\n\n8461 Exhaust cone An assembly which leads the exhaust gases from the annular turbine discharge to the jet pipe. It usually consists of two main parts, an inner and an outer cone, mounted concentrically with the turbine wheel.\n\n\n## 8462 Exhaust stator-blades An assembly of stator-blades situated behind the turbine discharge to remove residual whirl from the exhaust gases.\n\n\n## 8463 Insulation plate An assembly of stator-blades situated behind the turbine discharge to remove residual whirl from the exhaust gases.\n\n\n## 8464 Jet pipe A pipe which leads the exhaust gases from the exhaust cone to the propelling nozzle on turbojets.\n\n\n## 8465 Jet silencer A device incorporated with the propelling nozzle to reduce the noise from the jet.\n\n\n## 8466 Serrated nozzle A jet silence consisting of a nozzle whose exit area is in the form of radially disposed slots.\n\n\n## 8467 Propelling nozzle The nozzle attached to the rear end of the jet pipe or to the exhaust cone or to the by-pass duct to increase the velocity of discharged gases.\n\n\n## 8468 Convergent nozzle A propelling nozzle whose cross-sectional area diminishes progressively towards its exit.\n\n\n## 8469 Convergent divergent nozzle\n\nA propelling nozzle whose cross-sectional area diminishes nozzle to a throat of minimum area and increases again towards the exit.\n\n\n\nCondi-nozzle\n\n\n## 8470 Centre-body nozzle plug nozzle bullet nozzle\n\nA propelling nozzle in which gas passes between an outer skin and an inner body, usually arranged in such a way as to create a convergent-divergent passage. The centre-body may be fixed or axially moveable.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "8452",
+      "heading": "8452 Minimum pressure valve",
+      "heading_path": [
+        "8452 Minimum pressure valve"
+      ],
+      "char_start": 36193,
+      "char_end": 39087,
+      "semantic_chunk_length": 2894,
+      "final_chunk_length": 3196,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0014",
+    "text": "ain towards the exit.\n\n\n\nCondi-nozzle\n\n\n## 8470 Centre-body nozzle plug nozzle bullet nozzle\n\nA propelling nozzle in which gas passes between an outer skin and an inner body, usually arranged in such a way as to create a convergent-divergent passage. The centre-body may be fixed or axially moveable.\n\n## 8471 Ejector shroud A shroud arranged around the exit of a propelling nozzle to produce an induced flow of air.\n\n\n## 8472 External expansion nozzle\n\n\n## 8473 Internal expansion nozzle\n\nA propelling nozzle in which the supersonic expansion occurs wholly or partially downstream of the walls of the nozzle.\n\nA propelling nozzle, generating supersonic velocity in which the expansion occurs completely within the wall of the nozzle.\n\n\n8474 Two-stream nozzle A propelling nozzle into which a second gas stream is introduced either at the start of or during the supersonic expansion.\n\nVariable-area prop- elling nozzle\n\nThrust reverser\n\n8476\n\n\n8475 A propelling nozzle in which the flow area can be varied to nozzle thrust reverser obtain optimum engine operating conditions.\n\nA controllable device mounted at or on the propelling nozzle to reverse the jet thrust.\n\n\n## 8477 Thrust spoiler A controllable device mounted at or on the propelling nozzle to reduce the jet thrust.\n\nMiscellaneous Terms\n\n8478 By-pass ratio In a by-pass or ducted-fan turbine engine, the ratio of the by-pass airflow to the high pressure or combustion airflow.\n\n\n8479 Diffuser buzz An oscillatory shock motion and airflow associated with the shock system ahead of the inlet; very rapid pressure pulsations are produced, which can affect the behavior of engines.\n\n\n## 8480 Engine speed The revolutions per minute of the main or other specified rotor assembly.\n\n\n## 8481 Gas generator a) A gas turbine engine which supplies a flow of hot gas under pressure for use elsewhere; and\n\n- b) The high-pressure compressor, combustion chamber and turbine of a by-pass or ducted fan engine.\n\n## 8482 Gag turbine engines bypass turbine engine\n\n\n## 8483 Compound turbine engine\n\nTwo-shaft engine (two spool engine)\n\nContra-flow turbine\n\n8485\n\nA gas turbine engine in which a proportion of intake air is diverted from the compressor into a duct such that it by- passes the combustion and turbine sections and is reintroduced into the jet stream.\n\nA gas turbine engine in which the compression of the intake air is performed in stages in a number of mechanically separate compressors each of which is driven by a separate turbine.\n\n\n## 8484 A two-stage compound turbine engine.\n\nA gas turbine engine in which the turbine and compressor blades are integral or adjacent, and the working fluid flows in opposite directions through the respective passages of the two sets of blades.\n\n\n\n\n## 8486 Ducted-fan turbine (engine turbo- fan)\n\nA gas turbine engine in which a portion of the net energy is used to drive a ducted fan. ‘It may be front or rear fan and the by-pass airflow may either be mixed with the high pressure or combustion airflow or be discharged directly from the fan.\n\n\n## 8487 Free turbine engine A gas turbine engine in which the turbine driving the output shaft is not coupled to a compressor rotor.\n\n\n8488 Single shaft engine A gas turbine engine in which the output shaft is coupled to a compressor rotor.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "8471",
+      "heading": "8471 Ejector shroud A shroud arranged around the exit of a propelling nozzle to produce an induced flow of air.",
+      "heading_path": [
+        "8471 Ejector shroud A shroud arranged around the exit of a propelling nozzle to produce an induced flow of air."
+      ],
+      "char_start": 39090,
+      "char_end": 42070,
+      "semantic_chunk_length": 2980,
+      "final_chunk_length": 3282,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0015",
+    "text": "ombustion airflow or be discharged directly from the fan.\n\n\n## 8487 Free turbine engine A gas turbine engine in which the turbine driving the output shaft is not coupled to a compressor rotor.\n\n\n8488 Single shaft engine A gas turbine engine in which the output shaft is coupled to a compressor rotor.\n\n## 8489 Turbojet (jet turbine engine)\n\n\n## 8490 Turboprop engine (propeller turbine engine)\n\nA gas turbine engine in which the net energy available is utilized by the air or hot gas solely in the form of a jet issuing through a propelling nozzle.\n\nA gas turbine engine in which a proportion of the net energy is used to drive a propeller.\n\n\n8491 Turboshaft engine A gas turbine engine in which a proportion of the net energy is used to drive a main output shaft other than driving a propeller or ducted fan.\n\n\n## 8492 Powered lift Lift derived from the downward displacement of air by a jet engine or power- driven rotor.\n\n\n## 8493 Jet lift Lift for the purpose of V/ST OL derived from the lift engine or vectored thrust engines.\n\n\n## 8494 Lift fan A fan on VTOL aircraft, installed with its axis substantially vertical, solely to provide lift.\n\n\n## 8495 Pulse jet engine intermittent jet engine\n\nAn engine producing a pulsating jet by burning fuel in air in such a way that the compression due to forward speed is augmented by the pressure waves within the unit, the pulsation being produced by intermittent closing of the intake or by other means.\n\n\n## 8496 Rotating stall A form of blade stall in which the stall condition moves around the blade row.\n\nThrust\n\n\n8497 Net (standard) thrust The force in the direction of motion deducted from the resolved components of the normal pressures on the inside of the pre-entry stream tube and on the internal surface of the duct.\n\n\n## 8498 Dry thrust The net thrust obtained from a gas turbine engine without using after burning (reheat).\n\n\n8499 Gross (standard) thrust The force which occurs in a gas turbine engine by the reaction to the momentum of exhaust gases at the exit place of the propelling nozzle inclusive of the pressure thrust.\n\n\n## 8500 Static thrust In a jet propulsion engines, the net thrust available with no translational motion under prescribed conditions.\n\n\n## 8501 Vectored thrust Net thrust obtained in the specified direction of jet nozzle(s) of gas turbine engine through which compressed air and or the exhaust gas is flowing.\n\n\n## 8502 Specific thrust Thrust developed by engine per unit mass flow of air inducted into the engine.\n\n\n\n\n8503 Reheat thrust Augmented thrust of an engine obtained by the introduction and burning of fuel between the engine turbine and the jet pipe propelling nozzle utilising the unburnt oxygen in the exhaust gas.\n\n\n## 8504 Ground idling thrust Net thrust available at ground idling speed under prescribed conditions.",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "8489",
+      "heading": "8489 Turbojet (jet turbine engine)",
+      "heading_path": [
+        "8489 Turbojet (jet turbine engine)"
+      ],
+      "char_start": 42073,
+      "char_end": 44593,
+      "semantic_chunk_length": 2520,
+      "final_chunk_length": 2822,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7879_8_2025_0016",
+    "text": "thrust Augmented thrust of an engine obtained by the introduction and burning of fuel between the engine turbine and the jet pipe propelling nozzle utilising the unburnt oxygen in the exhaust gas.\n\n\n## 8504 Ground idling thrust Net thrust available at ground idling speed under prescribed conditions.\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: TED 14 (20768).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "7879_8_2025.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 44598,
+      "char_end": 46034,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 7879",
+      "year": "2025",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

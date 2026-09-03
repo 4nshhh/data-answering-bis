@@ -1,0 +1,823 @@
+[
+  {
+    "id": "18010_1_2020_0000",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nDecember 2020 \b Price Group 7\n\n\n\n\nSmart Infrastructure Sectional Committee, LITD 28\n\nFOREWORD\n\nThis Indian Standard was adopted by Bureau of Indian Standards, after the draft finalized by the Smart Infrastructure Sectional Committee had been approved by the Electronics and Information Technology Division Council. This standard is one of the series of Indian Standards on Last Mile Communication Protocols. Other standards published so far in the series are:\n\n(Part 5/Sec 1) Unified digital infrastructure — Unified last mile communication protocols stack —\n\nNetwork access layer (IEEE 802.15.4) The development of a series of standards for a Unified Digital Infrastructure across the country was motivated by the Smart Cities initiative of Government of India. A defining feature of Smart Cities is the ability of various components and systems to function efficiently in an integrated manner as well as independently. A Unified, smart, and Secure Digital Infrastructure will facilitate efficient integration of various Systems and Applications/services across the city. The Standard IS 18000 ‘Unified digital infrastructure ICT reference architecture (UDI–ICTRA)’ (under development) defines a comprehensive ICT reference architecture for a resilient, secure and sustainable digital infrastructure for smart cities, districts, states or nations. The ‘Unified last mile communication protocols stack — Reference architecture’ is an integral part of the UDI – ICTRA and the reference architecture described in this standard enables a seamless exchange of information among devices that operate using different communication technologies and deployed under different topologies. This standard covers only IPv6 based networks. In the formulation of this standard, assistance has been derived from the following publications:\n\n- a) IS 12373 (Part 1) : 2018/ISO/IEC 7498-1 : 1994 Information technology — Open systems\ninterconnection — Basic reference model: Part 1 The basic model (first revision) The composition of the committee responsible for the formulation of this standard is given at Annex A.\n\n\n\n\nContents \b Page No.\n\nINTRODUCTION ... iii\n\n1 SCOPE ... 1\n\n2 REFERENCES ... 1\n\n3 TERMINOLOGY ... 2\n\n\n## 4 SYMBOLS AND ABBREVIATIONS ... 2\n\n5 \u0007UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK REFERENCE ARCHITECTURE (ULMCPS-RA) – GOALS AND OBJECTIVES ... 3\n\n6 DESIGN PRINCIPLES ... 3\n\n7 \u0007CHARACTERISTICS OF UNIFIED LAST MILE COMMUNICATION PROTOCOLS STACK REFERENCE ARCHITECTURE (ULMCPS-RA) ... 4\n\n\n7.1 Composability ... 4 7.2 Interoperability ... 4 7.3 Functional and Management Capability Separation ... 4 7.4 Homogeneity in Heterogeneity ... 4 7.5 Scalability ... 4 7.6 Shareability ... 4 7.7 Unique Identification ... 4 7.8 Well-characterized Components ... 5 7.9 Security ... 5\n\n\n## 8 CONCEPTUAL AND REFERENCE MODEL: THE OSI MODEL ... 5",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2936,
+      "semantic_chunk_length": 2934,
+      "final_chunk_length": 2934,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0001",
+    "text": "ty ... 4 7.3 Functional and Management Capability Separation ... 4 7.4 Homogeneity in Heterogeneity ... 4 7.5 Scalability ... 4 7.6 Shareability ... 4 7.7 Unique Identification ... 4 7.8 Well-characterized Components ... 5 7.9 Security ... 5\n\n\n## 8 CONCEPTUAL AND REFERENCE MODEL: THE OSI MODEL ... 5\n\n## 9 THE UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK (ULMCPS) ... 5\n\n\n### 9.1 Standardizing Layer 1 – 2 ... 6 9.2 Standardizing Layer 3 – 6 ... 7 9.3 Standardizing Layer 7 ... 7 9.4 Standardizing the Interfaces (“Network Access Interface Layer”) ... 7\n\n\n## 10 ULMCPS REFERENCE ARCHITECTURE ... 7\n\n\n10.1 Network Access Layer (ULMCPS-NAL) ... 8 10.2 Network Access Interface Layer (ULMCPS-NAIL) ... 8 10.3 Network & Transport Layer (ULMCPS-NTL) ... 9 10.4 Application Layer (ULMCPS-AL) ... 9 10.5 Security ... 9\n\n\n\n\n\b Page No.\n\n\n## 11 REFERENCE PROTOCOL STACK ... 9\n\n\n## 12 ULMCPS STANDARDS FAMILY ... 10\n\n\n### 12.1 General ... 10 12.2 Standards structure and hierarchy ... 11 12.3 UDI LMCPS series of Standards – IEEE 802.15.4-2020 ... 11",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "9",
+      "heading": "9 THE UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK (ULMCPS) ... 5",
+      "heading_path": [
+        "9 THE UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK (ULMCPS) ... 5"
+      ],
+      "char_start": 2939,
+      "char_end": 3679,
+      "semantic_chunk_length": 740,
+      "final_chunk_length": 1042,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0002",
+    "text": "-NTL) ... 9 10.4 Application Layer (ULMCPS-AL) ... 9 10.5 Security ... 9\n\n\n\n\n\b Page No.\n\n\n## 11 REFERENCE PROTOCOL STACK ... 9\n\n\n## 12 ULMCPS STANDARDS FAMILY ... 10\n\n\n### 12.1 General ... 10 12.2 Standards structure and hierarchy ... 11 12.3 UDI LMCPS series of Standards – IEEE 802.15.4-2020 ... 11\n\n## ANNEX A  COMMITTEE COMPOSITION ... 14\n\nTABLES\n\nTable 1 Symbols and Abbreviations ... 2 Table 2 ULMCPS Family Standards ... 11\n\nFIGURES\n\n\n**Fig. 1 OSI Model ... 6 Fig. 2 The Improvised LMCPS Reference Model ... 6 Fig. 3 ULMCPS Reference Architecture ... 8 Fig. 4 Ulmcps Ra with 802.15.4 Nal and 802.11 Nal Illustrations ... 9 Fig. 5 Reference Protocol Stack ... 10**\n\n\n\n\n\nINTRODUCTION\n\nIS 18010 (Part 1) : 2020\n\nRapid urbanization over the past two decades has led to the mushrooming of megacities (accepted as those with a population in excess of ten million) around the world. The sheer size and scale of these cities place huge pressure on infrastructure development, public services provision, and environmental sustainability. Cities nationally and internationally are main drivers of economic activity, growth and in the current context, recovery, but this output depends on a comprehensive infrastructure to deliver physical and social resources the fuel of a city’s ‘economic engine’. The economic performance of a city is inextricably linked to its physical and communications infrastructures, and the delivery of resources through these infrastructures. The society, the business, the infrastructure, the services and all other aspects of the civilization on the planet Earth are going through a paradigm shift in the wake of technological advancements, especially in the field of ICT. All the ecosystems like smart cities, smart grid, smart buildings, smart factories etc. are in the process of making the following three classes of transformations:",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A COMMITTEE COMPOSITION ... 14",
+      "heading_path": [
+        "ANNEX A COMMITTEE COMPOSITION ... 14"
+      ],
+      "char_start": 3682,
+      "char_end": 5244,
+      "semantic_chunk_length": 1562,
+      "final_chunk_length": 1864,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0003",
+    "text": "ation on the planet Earth are going through a paradigm shift in the wake of technological advancements, especially in the field of ICT. All the ecosystems like smart cities, smart grid, smart buildings, smart factories etc. are in the process of making the following three classes of transformations:\n\n-\n\na) Improvement of Infrastructure — To make it resilient and sustainable; b) Addition of the Digital Layer — Which is the essence of the smart paradigm; and c) Business Process Transformation — Necessary to capitalize on the investments in smart technologies. Smart city technologies based on digital infrastructure and digital services offers a potential way of monitoring and managing physical and social resource in the city. Digital technologies can collect sufficiently large amounts of data to support very close matching of supply availability against demand requirements. The new communication potential from sensors on buildings, roads and other elements of the city and the sharing of data between service delivery channels, if integrated, will enable the city to improve services, monitor and control resource usage and react to real-time information. A defining feature of smart cities is the ability of the components and systems to function efficiently in an integrated manner as well as independently. The optimal use of resources across a complex urban environment depends on the interaction between different city services and systems. To identify the most effective use of resources, therefore, requires communication between the different component systems (for example, energy consumption monitored by smart metering combined with external temperature and sunlight monitoring on the building to reduce the energy consumption). Smart infrastructure is the result of combining physical infrastructure with digital infrastructure, providing improved information to enable better decision-making, faster and cheaper. However, the rapid growth in communication technologies for last more than four-five decades has provided the users with multiple choices with their respective diversities and USPs for different applications and use cases. As a result, stakeholders of different ecosystems have chosen different technologies and protocols to meet their respective applications needs. In some cases, even different segmented stakeholders of a common ecosystem have developed/adopted different, communication technologies, protocols, data semantics and standards. The siloed way of deploying the IoT/M2M infrastructure is not desirable and a need was felt to have a harmonized common last-mile communication architecture approach. In a smart city scenario, to enable interoperability between divergent devices as well as applications while maintaining identity and access control, it is desirable to have common last-mile communication architecture. This will also ensure feasibility in the sharing of data with ensured security and privacy. The IoT value chain is perhaps the most diverse and complicated value chain. Due to heterogeneity and lack of convergence the smart nodes of one network cannot talk to smart nodes of the other networks.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 5,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A COMMITTEE COMPOSITION ... 14",
+      "heading_path": [
+        "ANNEX A COMMITTEE COMPOSITION ... 14"
+      ],
+      "char_start": 52,
+      "char_end": 8105,
+      "semantic_chunk_length": 8053,
+      "final_chunk_length": 3162,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0004",
+    "text": "ture. This will also ensure feasibility in the sharing of data with ensured security and privacy. The IoT value chain is perhaps the most diverse and complicated value chain. Due to heterogeneity and lack of convergence the smart nodes of one network cannot talk to smart nodes of the other networks.\n\nThe variety of solutions with limited interoperability exist for different areas like home automation, building automation, industrial automation etc. This limited interoperability is the major driving factor to consider developing Unified, resilient, secure and sustainable, ICT framework for smart infrastructure developments. The Standard IS 18000 ‘Unified digital infrastructure ICT reference architecture’ (presently under development) defines a comprehensive ICT reference architecture for a resilient, secure and sustainable digital infrastructure for smart cities, districts, states or nations. The unified last mile communication protocols stack reference architecture is an integral part of the ‘unified digital infrastructure ICT reference architecture’ and it layouts the contours of unified communication for ‘smart city’ and ‘smart infrastructure’.\n\n\n\n\n\n\n\nIndian Standard\n\nUNIFIED DIGITAL INFRASTRUCTURE\n\nUNIFIED LAST MILE COMMUNICATION\n\nPROTOCOLS STACK\n\nPART 1 REFERENCE ARCHITECTURE (UDI - ULMCPS - RA)\n\n\n## 1 SCOPE\n\nIS No./Other\n\nTitle\n\n\n### 1.1 This Indian Standard defines the Unified Last\n\nPublication\n\nMiles Communication Protocol Stack - Reference\n\nIETF RFC 6775\n\n[6LPND] Neighbour Discovery\n\nArchitecture (ULMCP-RA) for communication devices\n\nOptimization for IPv6\n\nover\n\ndeployed in digital infrastructure.\n\nLow-Power Wireless Personal\n\nArea Networks (6LoWPANs)\n\n\n### 1.2 The reference architecture described in this\n\nIETF RFC 3748\n\nExtensible\n\nAuthentication\n\nstandard supports devices which operate using different\n\nProtocol (EAP)\n\ncommunication technologies and deployed in any of\n\nthe following topologies:\n\nIETF RFC 4764\n\nThe\n\nEAP-PSK\n\nProtocol:A\n\n- a) Personal Area Network (PAN);\nPre-Shared\n\nAuthentication Protocol (EAP)\n\nKey\n\nExtensible\n\n- b) Neighbour Area Network (NAN);\nMethod\n\nField Area Network (FAN); and\n\nIETF RFC 2460\n\nInternet Protocol,\n\nVersion\n\n- d) Wide Area Network (WAN).\n(IPv6) Specification\n\n\n### 1.3 This standard also provides a brief description of\n\nIETF RFC 3633\n\nIPv6 Prefix Options for Dynamic\n\nother standards in the last mile communication protocol\n\nHost Configuration\n\nProtocol\n\nstack series.\n\n(DHCP) version 6\n\nNOTE - This standard covers only IPv6 based networks.\n\nIETF RFC 4886\n\nUsing\n\nHMAC-SHA-256.\n\nHMAC-SHA-384.\n\nand",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 7,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A COMMITTEE COMPOSITION ... 14",
+      "heading_path": [
+        "ANNEX A COMMITTEE COMPOSITION ... 14"
+      ],
+      "char_start": 8106,
+      "char_end": 10386,
+      "semantic_chunk_length": 2280,
+      "final_chunk_length": 2582,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0005",
+    "text": "brief description of\n\nIETF RFC 3633\n\nIPv6 Prefix Options for Dynamic\n\nother standards in the last mile communication protocol\n\nHost Configuration\n\nProtocol\n\nstack series.\n\n(DHCP) version 6\n\nNOTE - This standard covers only IPv6 based networks.\n\nIETF RFC 4886\n\nUsing\n\nHMAC-SHA-256.\n\nHMAC-SHA-384.\n\nand\n\n## 2 REFERENCES\n\nHMAC-SHA-512 with IPsec\n\nThe standards given below contain provisions which,\n\nIETF RFC 4443\n\nInternet\n\nControl\n\nMessage\n\nthrough reference in this text, constitute provisions of\n\nProtocol\n\n(ICMPv6)\n\nfor the\n\nthis standard. At the time of publication, the editions\n\nInternet Protocol Version 6 (IPv6)\n\nindicated were valid. All standards are subject to\n\nSpecification\n\nrevision, and parties to agreements based on this\n\nIETF RFC 4291\n\nIP\n\nVersion\n\nAddressing\n\nstandard are encouraged to investigate the possibility\n\nArchitecture\n\nof applying the most recent editions of these standards.\n\nIETF RFC 793\n\nTransmission\n\nControl Protocol\n\nIS No./Other\n\nTitle\n\n(TCP)\n\nPublication\n\nIETF RFC 768\n\nUser Datagram Protocol (UDP)\n\nIS 18000 : 2020\n\nUnified Digital Infrastructure\n\nIETF RFC 1123\n\nRequirements\n\nfor\n\nInternet\n\nReference\n\nArchitecture\n\nHosts - Application and Support\n\n(UDI-RA)\n\nIEEE 802.15.4-\n\nIEEE Std. 802.15.4TM - 2020,\n\nIETF RFC 4944\n\n[6LOWPAN]\n\nTransmission\n\nof\n\n2020\n\nIEEE\n\nStandard for Low-Rate\n\nIPv6 Packets Over IEEE 802.15.4\n\nWireless Networks\n\nNetworks (6LoWPAN)\n\nIS 12373\n\nInformation technology  Open\n\nIETF RFC 6282\n\n[6LPHC] Compression Format\n\n(Part 1) : 2018/\n\nsystems interconnection - Basic\n\nfor IPv6 Datagrams in 6LoWPAN\n\nISO/IEC\n\nreference model: Part 1 The basic\n\nNetworks\n\n7498-1 : 1994\n\nmodel (first revision)",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 10389,
+      "char_end": 11738,
+      "semantic_chunk_length": 1349,
+      "final_chunk_length": 1651,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0006",
+    "text": "5.4\n\nWireless Networks\n\nNetworks (6LoWPAN)\n\nIS 12373\n\nInformation technology  Open\n\nIETF RFC 6282\n\n[6LPHC] Compression Format\n\n(Part 1) : 2018/\n\nsystems interconnection - Basic\n\nfor IPv6 Datagrams in 6LoWPAN\n\nISO/IEC\n\nreference model: Part 1 The basic\n\nNetworks\n\n7498-1 : 1994\n\nmodel (first revision)\n\n## 3 TERMINOLOGY\n\nFor this standard, the following definition(s) shall apply\n\nin addition to the definitions given in IS 18000 : 2020.\n\n\n### 3.1 Physical Layer (PHY) — In the open systems\n\ninterconnection reference model, the layer that provides\n\nthe mechanical, electrical, functional, and procedural\n\nmeans to establish, maintain and release physical\n\nconnections for the transfer of bits over a transmission\n\nmedium.\n\n\n### 3.2 Media Access Control (MAC)  The media\n\naccess control (MAC) enables the transmission of\n\nMAC frames using the physical channel. Besides the\n\ndata service, it offers a management interface and itself\n\nmanages access to the physical channel and network\n\nbeaconing. It also controls frame validation, guarantees\n\ntime slots and handles node associations. Finally, it\n\noffers hook points for secure services.\n\n3.3 6LoWPAN — 6LoWPAN defines the frame\n\nformat for transmission of IPv6 [RFC2460] packets\n\nas well as the formation of IPv6 link-local addresses\n\nand statelessly autoconfigured addresses on top of\n\nIEEE 802.15.4 networks. 6LoWPAN also defines\n\nmechanisms for header compression required to make\n\nIPv6 practical on IEEE 802.15.4 networks, and the\n\nprovisions required for packet delivery in different\n\nnetwork topologies using IEEE 802.15.4.\n\n\n### 3.4 Internet Protocol Version 6 (IPv6)  Internet\n\nProtocol version 6 (IPv6) is the most recent version of\n\nthe Internet Protocol (IP), the communications protocol\n\nthat provides an identification and location system for\n\ncomputers on networks and routes traffic across the\n\nInternet.\n\n\n### 3.5 Internet Control Message Protocol Version\n\n6 (ICMPv6) — Internet Control Message Protocol\n\nversion 6 (ICMPv6) is the implementation of the\n\nInternet Control Message Protocol (ICMP) for Internet\n\nProtocol version 6 (IPv6. ICMPv6 is an integral part\n\nof IPv6 and performs error reporting and diagnostic\n\nfunctions ( for example, ping), and has a framework for\n\nextensions to implement future changes.\n\n\n### 3.6 RPL  RPL is the IPv6 routing protocol for low-\n\npower and lossy networks.\n\nNOTE - RPL is designed to be a simple and inter-operable\n\nnetworking protocol for resource-constrained devices in\n\nindustrial, home, and urban environments, intended to support\n\nthe vision of the Internet of Things with thousands of devices\n\ninterconnected through multi hop mesh networks.\n\n\n### 3.7 Last Mile  The last mile refers to the portion\n\nof the communications network chain that physically\n\nreaches the end-user's premises and/or end devices.\n\n\n### 3.8 ULMCPS  ULMCPS stands for Unified Last\n\nMile Communication Protocols Stack'.\n\n\n### 3.9 UDI-ULMCPS-RA  UDI-ULMCPS-RA stands\n\nMile Communication Protocols Stack - Reference\n\nArchitecture. It is the reference architecture of the stack\n\nthat defines the interplay, relationship and interfaces\n\nbetween different Layers in the Stack to enable\n\nheterogenous Communication Technologies to work in\n\na homogeneous manner.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 11743,
+      "char_end": 14680,
+      "semantic_chunk_length": 2937,
+      "final_chunk_length": 3239,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0007",
+    "text": "-RA stands\n\nMile Communication Protocols Stack - Reference\n\nArchitecture. It is the reference architecture of the stack\n\nthat defines the interplay, relationship and interfaces\n\nbetween different Layers in the Stack to enable\n\nheterogenous Communication Technologies to work in\n\na homogeneous manner.\n\n## 4 SYMBOLS AND ABBREVIATIONS\n\nFor this standard, the letter symbols given in Table 1\n\nhave the meaning indicated against each, other symbols\n\nused in this standard have been explained at appropriate\n\nplaces.\n\n\n**Table 1 Symbols and Abbreviations**\n\n( Clause 4)\n\nSymbol\n\nDescription\n\nUDI\n\nUnified Digital Infrastructure\n\nExtensible Authentication Protocol (EAP),\n\nEAP\n\nIETF RFC 3748\n\nThe EAP-PSK Protocol: A Pre-Shared Key\n\nEAP-PSK\n\nExtensible Authentication Protocol (EAP)\n\nMethod, IETF RFC 4764\n\nHash Message Authentication Code Using\n\nHMAC-SHA256\n\nSHA-256 as Hashed Function.\n\nICMP6\n\nInternet Control Message Protocol (ICMPv6)\n\nfor the Internet Protocol Version 6 (IPv6)\n\nSpecification, IETF RFC 4443\n\nIPv6\n\n(IPv6)\n\nInternet Protocol,Version\n\nSpecification, IETF RFC 2460\n\nIP6ADDR\n\nIP Version 6 Addressing Architecture, IETF\n\nRFC 4291\n\n“IPv6 Prefix Options for Dynamic Host\n\nIPv6-DHCP\n\nConfiguration Protocol (DHCP) version 6,\n\nIETF RFC 3633\n\nUnified Last Mile Communication Protocol\n\nULMCPS\n\nStack\n\nMile\n\nCommunication\n\nULMCPS-APP\n\nLast\n\nUnified\n\nProtocol  Application Layer\n\nMile\n\nLast\n\nCommunication\n\nUnified\n\nULMCPS-NAIL\n\nProtocol - Network Access Interface Layer\n\nCommunication\n\nMile\n\nLast\n\nUnified\n\nULMCPS-NAL\n\nProtocol — Network Access Layer\n\nUnified\n\nMile\n\nCommunication\n\nLast\n\nULMCPS-NTL\n\nProtocol - Network and Transport Layer\n\nPICS\n\nProtocol\n\nConformance\n\nImplementation\n\nStatement\n\nTCP\n\nTransmission Control Protocol (TCP), IETF\n\nRFC 793\n\nUDP\n\nUser Datagram Protocol (UDP), IETF RFC\n\n\nNAIL\n\nNetwork Access Interface Layer",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4",
+      "heading": "4 SYMBOLS AND ABBREVIATIONS",
+      "heading_path": [
+        "4 SYMBOLS AND ABBREVIATIONS"
+      ],
+      "char_start": 14683,
+      "char_end": 16220,
+      "semantic_chunk_length": 1537,
+      "final_chunk_length": 1839,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0008",
+    "text": "rk Access Layer\n\nUnified\n\nMile\n\nCommunication\n\nLast\n\nULMCPS-NTL\n\nProtocol - Network and Transport Layer\n\nPICS\n\nProtocol\n\nConformance\n\nImplementation\n\nStatement\n\nTCP\n\nTransmission Control Protocol (TCP), IETF\n\nRFC 793\n\nUDP\n\nUser Datagram Protocol (UDP), IETF RFC\n\n\nNAIL\n\nNetwork Access Interface Layer\n\n## 5 UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK REFERENCE ARCHITECTURE (ULMCPS-RA) – GOALS AND OBJECTIVES\n\nA reference architecture models the abstract architectural elements in the domain of interest independent of the technologies, protocols, and products that are used to implement a specific solution for the domain.\n\nThe “UDI–Unified Last Mile Communication Protocols Stack Reference Architecture” is a capability-based, layered, and standards-based Reference Architecture which is a project, market and vendor agnostic. ULMCPS-RA does not prescribe any solution or technologies and it enables modular and incremental implementations for IPv6 based network. ULMCPS-RA describes generic communication system characteristics, a conceptual model, and a reference architecture. The ULMCPS-RA provides guidance for the designer developing a communication protocol stack and aims to give a better understanding of last mile communication protocols stack architecture to the stakeholders of such stacks, including devices and systems manufacturers, application developers, systems integrators, communication service providers, customers and users.\n\nThe ULMCPS reference architecture addresses all the crucial aspects like multiple communication technologies, security, services and functional characteristics, and implementation variations based on well-defined design principles.\n\nThe intent of the reference architecture and its constituent design principles is to provide developers and stakeholders that wish to implement unified last mile communication infrastructure initiatives in a truly technology and vendor agnostic approach that will result in an enhanced interoperable, standards-based architecture and implementation which is specific to a technology when their specific application context is applied. In addition, this reference architecture can be used with existing communication technologies to plan for improving interoperability and functioning of an expanding technology solution for various digital infrastructure projects implementations. This technology and vendor agnostic approach is meant to provide key elements and concepts needed to be addressed to make these resulting solution architectures interoperable.\n\nUDI-ULMCPS RA aims for numerous benefits for citizens, businesses and government departments. The developmental objective is tremendous savings and optimization of CAPEX and OPEX of the digital infrastructure; and unprecedented reduction in the ‘Carbon Footprint’ of the Digital Infrastructure in any earmarked geographical territory.\n\nThis standard supports the following important standardization objectives:\n\n\nIS 18010 (Part 1) : 2020\n\n- a) To enable the production of a coherent set of\nstandards for last mile communication; b) To provide a technology-neutral reference point for\n\ndefining standards for last mile communication; and c) To encourage openness and transparency in the",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "5",
+      "heading": "5 UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK REFERENCE ARCHITECTURE (ULMCPS-RA) – GOALS AND OBJECTIVES",
+      "heading_path": [
+        "5 UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK REFERENCE ARCHITECTURE (ULMCPS-RA) – GOALS AND OBJECTIVES"
+      ],
+      "char_start": 16225,
+      "char_end": 19152,
+      "semantic_chunk_length": 2927,
+      "final_chunk_length": 3229,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0009",
+    "text": "andardization objectives:\n\n\nIS 18010 (Part 1) : 2020\n\n- a) To enable the production of a coherent set of\nstandards for last mile communication; b) To provide a technology-neutral reference point for\n\ndefining standards for last mile communication; and c) To encourage openness and transparency in the\n\ndevelopment of a target ULMCPS RA and in the implementation of IoT and communication systems.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "5",
+      "heading": "5 UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK REFERENCE ARCHITECTURE (ULMCPS-RA) – GOALS AND OBJECTIVES",
+      "heading_path": [
+        "5 UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK REFERENCE ARCHITECTURE (ULMCPS-RA) – GOALS AND OBJECTIVES"
+      ],
+      "char_start": 19154,
+      "char_end": 19247,
+      "semantic_chunk_length": 93,
+      "final_chunk_length": 395,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0010",
+    "text": "nt set of\nstandards for last mile communication; b) To provide a technology-neutral reference point for\n\ndefining standards for last mile communication; and c) To encourage openness and transparency in the\n\ndevelopment of a target ULMCPS RA and in the implementation of IoT and communication systems.\n\n## 6 DESIGN PRINCIPLES\n\nThe reference architecture for unified last mile communication protocols stack should be considered as a common “umbrella” that allows the structured positioning of existing protocols stack architectures and associated implemented solutions. The reference architecture should support re-use of existing proven architectures, which are typically aimed at specific layers, such as the network access layer or the network transport layer or application layer which are more detailed and specific.\n\n- a) The reference architecture follows a layered\napproach for decomposition of logical clusters, each of it can be defined either separately or integrated into an overall communication architecture. b) Capabilities are the center element of the\n\narchitectures to ensure that a common ground is easy to be found; each capability cluster is represented by a single layer within the reference architecture. c) The reference architecture should allow and\n\ncertainly not hinder incremental, iterative evolutionary approaches for implementation of open communication technologies, typically starting by focusing on existing opportunities/pain points and then incrementally further expanding the communication over time. d) The stack reference architecture should be based\n\nas much as possible on open standards, preferably based on proven large-scale deployments. Especially, between the various layers in a communication stack architecture, open standards are promoted to support flexibility and prevent vendor lock-in. e) The reference architecture should enable a variety\n\nof open communication technologies. In general, the reference architecture must be agnostic to technology, market structure, implementation method, vendor and products. f) The reference architecture should enable the stakeholders to use and deploy various (combinations) of global open communication technologies and corresponding open standards in the unified last mile communication protocols\n\n\n\nstack, assuming they follow the logical clustering of capabilities. g) The reference architecture described in this\n\ndocument shall remain valid for as long as possible, even if technology and standards change — making it as much as possible future proof. h) Any infrastructure approach (WPAN, FAN,\n\nWAN, mix of all) shall be possible (that is, the reference architecture is agnostic to infrastructure deployment scenarios). j) Privacy and security principles are integral part of",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "6",
+      "heading": "6 DESIGN PRINCIPLES",
+      "heading_path": [
+        "6 DESIGN PRINCIPLES"
+      ],
+      "char_start": 19250,
+      "char_end": 21718,
+      "semantic_chunk_length": 2468,
+      "final_chunk_length": 2770,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0011",
+    "text": "chnology and standards change — making it as much as possible future proof. h) Any infrastructure approach (WPAN, FAN,\n\nWAN, mix of all) shall be possible (that is, the reference architecture is agnostic to infrastructure deployment scenarios). j) Privacy and security principles are integral part of\n\nany communication stack and their architecture (often called privacy and security by design). k) Infrastructure data is currently often under-utilized, and then often in a single vertical application. Despite synergetic opportunities, data is hardly used across vertical domains. An important focus area of communication stack architecture should therefore be on harmonization of data from different domains and data providers for an increase re-use and repurposing of existing urban data and infrastructures. m) An important focus area of last mile communication reference architecture should be on “collaboration” and “sharing” approaches across domains versus “single entity/domain processes”.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "6",
+      "heading": "6 DESIGN PRINCIPLES",
+      "heading_path": [
+        "6 DESIGN PRINCIPLES"
+      ],
+      "char_start": 21720,
+      "char_end": 22416,
+      "semantic_chunk_length": 696,
+      "final_chunk_length": 998,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0012",
+    "text": "ent domains and data providers for an increase re-use and repurposing of existing urban data and infrastructures. m) An important focus area of last mile communication reference architecture should be on “collaboration” and “sharing” approaches across domains versus “single entity/domain processes”.\n\n## 7 CHARACTERISTICS OF UNIFIED LAST MILE COMMUNICATION PROTOCOLS STACK REFERENCE ARCHITECTURE (ULMCPS-RA)\n\nThe key characteristics of the unified last mile communication stack architecture to meet the comprehensive yet diverse requirements of the digital infrastructure stakeholders play a vital role in applicability, scalability and futureproofing of the reference architecture. Some of the essential characteristics are given in 7.1 to 7.9.\n\n\n### 7.1 Composability\n\nComposability is the ability to combine discrete communication stack layers into a comprehensive communication stack architecture to achieve a set of goals and objectives.\n\n\n### 7.2 Interoperability\n\nInteroperability is a key requirement for the success of any solutions on the market. Systems must be “future-proof”, that is, grow and adapt with the changing needs of the user over time. Interoperability is addressed at multiple layers:\n\n- a) Ability to exchange bits and bytes (network); b) Ability to exchange well-formed messages\n(syntax);\n\n\n- c) Ability to correctly understand the information\n(semantics); and d) ability to correctly provide the desired services to\n\nthe user (user perspective).\n\n\n### 7.3 Functional and Management Capability Separation\n\nSeparation of functional and management capabilities means that the functional interfaces and capabilities of devices connected through the communication protocol are cleanly separated from the management interfaces and capabilities of that component. This typically means that the management interface is independent from that of the functional interface and the management capabilities are handled by different software components than the functional interfaces.\n\n\n### 7.4 Homogeneity in Heterogeneity\n\nA diverse set of components and physical entities of the unified digital infrastructure ecosystem that interact in various independent ways otherwise, work in a seamless homogeneous manner through the unified stack architecture.\n\n\n### 7.5 Scalability\n\nScalability is the characteristic of a system to continue to work effectively as the size of the system, its complexity or the volume of work performed by the system is increased.\n\nThe digital infrastructure involves various elements such as devices, networks, services, applications, users, stored data, data traffic, and event reports. The amount of each of these elements can change over time and it is important that the communication stack continues to function effectively when the volume of data from any element increases.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "7",
+      "heading": "7 CHARACTERISTICS OF UNIFIED LAST MILE COMMUNICATION PROTOCOLS STACK REFERENCE ARCHITECTURE (ULMCPS-RA)",
+      "heading_path": [
+        "7 CHARACTERISTICS OF UNIFIED LAST MILE COMMUNICATION PROTOCOLS STACK REFERENCE ARCHITECTURE (ULMCPS-RA)"
+      ],
+      "char_start": 22419,
+      "char_end": 24938,
+      "semantic_chunk_length": 2519,
+      "final_chunk_length": 2821,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0013",
+    "text": "nts such as devices, networks, services, applications, users, stored data, data traffic, and event reports. The amount of each of these elements can change over time and it is important that the communication stack continues to function effectively when the volume of data from any element increases.\n\n### 7.6 Shareability\n\nShareability is the capacity of an individual component to be accessed and its resources allocated communally between multiple interconnected systems.\n\nMany infrastructure components are underutilized since a single system often uses only a fraction of a component’s capabilities. Resources can be used more efficiently if functionality or outputs of components can be shared among multiple systems. The communication stack architecture should allow the data from individual components belonging to a specific vertical/siloed application to be shared with other stakeholders of that data ubiquitously.\n\n\n### 7.7 Unique Identification\n\nUnique identification is the characteristic of an infrastructure system to unambiguously and repeatably associate the entities within the system with an individual name, code, symbol, or number, and to\n\n\n\n\ninteract with the entities, or trace or control their activities, by referencing that name, code, symbol or number. These entities include the components of the IoT system itself, such as software components, sensors, actuators, and network components.\n\nIt is essential that the entities in an infrastructure system can be distinguished from each other even thru the communication stack. This enables interoperability and global services across heterogeneous infrastructure systems. It is important for entities to be uniquely identifiable within a given context so that infrastructure systems can appropriately monitor and communicate with specific entities. Some devices can be hidden behind infrastructure gateways, or information consolidated to protect privacy. A variety of identification schemes can be supported in specific implementations of infrastructure systems to meet the application requirements.\n\nFor examples:  IPv4 address, IPv6 address, MAC address, URI, and FQDNs are used as unique, unambiguous identification of network endpoints in Internet applications. Individual hardware devices, software, and other entities can have unique manufacturer’s IDs, object identifiers, universally unique identifiers (OIDs, UUIDs) or other identifiers which similarly allow unique, unambiguous identification. Physical Entities are often given labels in the form of radio frequency identification (RFID) tags, barcodes and their equivalents. These carriers can contain encoded identifiers that can be sensed by an infrastructure device. For humans, biometric information can be used to provide unique identification.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "7.6",
+      "heading": "7.6 Shareability",
+      "heading_path": [
+        "7 CHARACTERISTICS OF UNIFIED LAST MILE COMMUNICATION PROTOCOLS STACK REFERENCE ARCHITECTURE (ULMCPS-RA)",
+        "7.6 Shareability"
+      ],
+      "char_start": 24941,
+      "char_end": 27426,
+      "semantic_chunk_length": 2485,
+      "final_chunk_length": 2787,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0014",
+    "text": "al Entities are often given labels in the form of radio frequency identification (RFID) tags, barcodes and their equivalents. These carriers can contain encoded identifiers that can be sensed by an infrastructure device. For humans, biometric information can be used to provide unique identification.\n\n### 7.8 Well-characterized Components\n\nInfrastructure components are considered to be well-defined when an accurate description of their capabilities and characteristics is available, including any associated uncertainties. Capability information includes not only information about the specific component functionality, but configuration, communication, security, reliability and other relevant information.\n\nMany components are used to assemble an infrastructure for any use case/application. They are typically discovered through an information system interface and the metadata associated with the component cannot be available because the component does not follow established standards or is incapable of storing metadata. Without understanding the capabilities of each component that will be used within a system it is difficult to understand whether the system meets its design goals.\n\nSimilarly, there are many functional characteristics and trustworthiness characteristics that need to be the core characteristics of the communication stack reference\n\nIS 18010 (Part 1) : 2020\n\narchitecture to deliver its true value to the diverse stakeholders of the digital infrastructure paradigm.\n\n\n### 7.9 Security\n\nSecurity is the most important aspect of any network and is indispensable for the critical infrastructure. It is very important to incorporate security at the design phase. There are different aspects of security to be covered in any system design:\n\n- a) Authentication; b) Authorization; c) Encryption; d) Data integrity; e) Key management; f) Hardware security; g) Identity management; and h) Secured firmware update.\n\n## 8 CONCEPTUAL AND REFERENCE MODEL: THE OSI MODEL\n\nThe ULMCPS reference architecture is derived from the well-established and globally accepted standard-the OSI model. The standard OSI model has been improvised to ensure the multiple communication technologies can work in homogenous manner. Fig. 1 shows the OSI model and Fig. 2 shows the improvised  LMCPS  reference  model.\n\nA detailed description of open systems interconnection basic reference model is available in IS 12373 (Part 1) : 2018/ISO/IEC 7498-1 : 1994.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "7.8",
+      "heading": "7.8 Well-characterized Components",
+      "heading_path": [
+        "7 CHARACTERISTICS OF UNIFIED LAST MILE COMMUNICATION PROTOCOLS STACK REFERENCE ARCHITECTURE (ULMCPS-RA)",
+        "7.8 Well-characterized Components"
+      ],
+      "char_start": 27429,
+      "char_end": 29584,
+      "semantic_chunk_length": 2155,
+      "final_chunk_length": 2457,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0015",
+    "text": "re the multiple communication technologies can work in homogenous manner. Fig. 1 shows the OSI model and Fig. 2 shows the improvised  LMCPS  reference  model.\n\nA detailed description of open systems interconnection basic reference model is available in IS 12373 (Part 1) : 2018/ISO/IEC 7498-1 : 1994.\n\n## 9 THE UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK (ULMCPS)\n\nThe key characteristic of “Last-Mile” communication technologies and their respective communication protocols defined as one of the principal constituents of the unified digital infrastructure reference architecture is the need to connect heterogeneous devices with heterogeneous applications while maintaining the necessary interoperability across all such devices (irrespective of the diversity in the PHY and link-layer technologies) and offer a seamless view to the applications. They should also allow connectivity to existing infrastructures and to the internet.\n\nA common network-layer protocol, IP-based “Last-Mile” architecture will enable interoperability:\n\n- a) Among heterogeneous link-layer technologies,\nsuch as IEEE 802.11, IEEE 802.15.4, cellular, bluetooth or powerline communication (PLC) etc.; and b) Among heterogeneous requirements in applications,\n\nsuch as web-based configuration systems, publish- subscribe protocols, etc.\n\n\n\n\nApplication\n\nPresentation\n\nSession\n\nTransport\n\nNetwork\n\nData Link\n\nPhysical\n\n·End User Application\n\n·Data Representation and Encryption\n\nInter-host communication\n\n•End to end connection & reliability\n\n•Path Determination and IP\n\n•MAC & LLC\n\n•Media, Signal & Binary Transmission\n\n\n**FIG. 1 OSI MoDEL**\n\nApplication\n\nTransport\n\nNetwork\n\nSecurity\n\nNetwork Access Interface\n\nNetwork Access\n\n\n**FIG. 2 THE IMPROVISED LMCPS REFERENCE MODEL**\n\nThe 6LoWPAN (IPv6 Low-power PAN) adaptation\n\nbyIETF\n\nlayer,\n\ndefined\n\nIP-based\n\nintegrates\n\ninfrastructures and heterogeneous “last-mile\"' field\n\ndevices by specifying how IPv6 packets are to be routed\n\nin constrained networks (such as the IEEE 802.15.4\n\nnetwork). Hence, the 6LoWPAN is considered as a\n\nuniversal adaptation layer for IP enablement in the\n\nLMCPS.\n\nIt is also essential to unify the networking and data\n\ntransfer stack for higher layers (ranging from network\n\nlayer to the application layer); to make it easier\n\nfor various protocols and stacks to cross-function,\n\nirrespective of the underlying PHY and MAC layer\n\ntechnologies\n\nThe unification of last miles communication can be\n\nachieved by:\n\n- a) Standardizing Layer 1 - 2 (PHY/MAC [Network\nAccess Layerl)\n\n- b) Standardizing Layer 3 - 6 (Network/Transport\nLayer)\n\nStandardizing Layer 7 (Application Layer)\n\n- d) Standardizing the interfaces (°'Network Access\nInterface Layer\"）between Layer 1-2\n\nand\n\nLayer 3-6\n\n\n### 9.1 Standardizing Layer 1 - 2\n\nThe PHY and MAC layers are tightly coupled with\n\neach other and hence the two layers need to be defined",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "9",
+      "heading": "9 THE UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK (ULMCPS)",
+      "heading_path": [
+        "9 THE UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK (ULMCPS)"
+      ],
+      "char_start": 29587,
+      "char_end": 32161,
+      "semantic_chunk_length": 2574,
+      "final_chunk_length": 2876,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0016",
+    "text": "sport\nLayer)\n\nStandardizing Layer 7 (Application Layer)\n\n- d) Standardizing the interfaces (°'Network Access\nInterface Layer\"）between Layer 1-2\n\nand\n\nLayer 3-6\n\n\n### 9.1 Standardizing Layer 1 - 2\n\nThe PHY and MAC layers are tightly coupled with\n\neach other and hence the two layers need to be defined\n\n### 9.3 Standardizing Layer 7\n\ntogether. For any application, the selection of PHY and MAC layers depend on the different technology and its corresponding parameters considered for the application, use case and/or deployment scenario. Some of the parameters/criteria to be considered are as follows:\n\nTo achieve end-to-end unified stack, and to achieve interoperability in a truly comprehensive manner, it is important to have interoperability at application layer as well. For this, the payload and data semantics need to be standardized, as well. The application layer standard shall essentially define the standardized data structures and frames that shall constitute the payload in any application and/or use case in unified digital infrastructure. It shall also define the different modes of the applications namely, RUN Mode, FOTA (Firmware update Over The Air) COTA (Configuration Update Over The Air) and other Device Management features like Device Registration, Device Bootstrapping, Device Life Cycle Management etc.\n\n- a) Radio frequency band to be used*; b) Maximum range expected; c) Type of modulation; d) Frame encryption needed; e) Channel access mechanism required f) Maximum data rate needed; g) Frequency hopping to avoid any channel access\nfailure; h) Transmit power; and j) Dynamic control of transmit power.\n\nStandardizing the data semantics is one of the most crucial aspects to be addressed in the unified digital infrastructure domain. It has been observed that it is feasible to standardize the comprehensive set of data semantics for the digital infrastructure. However, creating (and standardizing) a very large list (and growing larger with time) of Data semantics shall not serve the purpose for such a complex and heterogeneous domain. We need to either identify any existing or create a framework to define a huge and ever-growing number of data semantics in a unified, harmonized and structured manner. However, this shall not be part of the LMCPS Set of Standards and shall be developed separately considering its wide scope and complex relationship with the ontology and data models in the data layer architecture.\n\n- * should follow National Frequency allocation plan issued by\nWPC, DOT. Based on the above parameters/criteria and the use case, a suitable MAC and PHY can be chosen. Since, the two Layers (PHY and MAC) are closely coupled and hence considered as a single entity, “Network Access Layer” and are referred to as part of “Network Access Layer” in this document, here onwards.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "9.3",
+      "heading": "9.3 Standardizing Layer 7",
+      "heading_path": [
+        "9 THE UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK (ULMCPS)",
+        "9.3 Standardizing Layer 7"
+      ],
+      "char_start": 32166,
+      "char_end": 34691,
+      "semantic_chunk_length": 2525,
+      "final_chunk_length": 2827,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0017",
+    "text": "Based on the above parameters/criteria and the use case, a suitable MAC and PHY can be chosen. Since, the two Layers (PHY and MAC) are closely coupled and hence considered as a single entity, “Network Access Layer” and are referred to as part of “Network Access Layer” in this document, here onwards.\n\n### 9.2 Standardizing Layer 3 – 6\n\nSince IPv6 is the way forward in the IP communication regime, IPv6 shall be kept as the basic requirement. This makes it easy to create a unified Layer 3 – 6 Protocol Stack. It may still be needed to have few components like mesh network support, security as different options, which can be used based on the end application. Rest all other features and functionality can be unified for Layer 3 – 6. The unified Layer 3 – 6 should be defined in a way that it should work with any of the Network Access Layer (Layer 1 – 2) options. To be specific, below are some of the parameters we will need to consider as part of the protocol definition at these layers:\n\n\n### 9.4 Standardizing the Interfaces (“Network Access Interface Layer”):\n\nTo achieve seamless interworking between different communication technologies’ respective PHY and MAC layers respective characteristics and data frames structures and the standardized layer 3-6 stack, it shall be required to customize the interface between these two macro layers with each of the different communication technology being used as per the need of deployment considerations.\n\n- a) IPv6 support; b) Network topology (mesh, star, tree, etc.); c) Maximum number of hops; d) IP layer security; e) Security Framework f) Maximum packet size; g) Fragmentation/defragmentation; and h) Connection less/connection oriented. As the security (Authentication) may not be unified for all underlying technologies, suitable security specifications need to be defined depending on the specific technology being used.\nThe “Network Access Interface Layer” introduction shall ensure that neither the standardized Layer 3-6 Stack (Network/Transport Layer) nor the Layer 1-2 (Network Access Layer) of any communication technology stack shall need any change. This “Network Access Interface Layer” shall provision and address all the interworking requirements.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "9.2",
+      "heading": "9.2 Standardizing Layer 3 – 6",
+      "heading_path": [
+        "9 THE UNIFIED LAST MILE COMMUNICATION PROTOCOL STACK (ULMCPS)",
+        "9.2 Standardizing Layer 3 – 6"
+      ],
+      "char_start": 34694,
+      "char_end": 36613,
+      "semantic_chunk_length": 1919,
+      "final_chunk_length": 2221,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0018",
+    "text": "introduction shall ensure that neither the standardized Layer 3-6 Stack (Network/Transport Layer) nor the Layer 1-2 (Network Access Layer) of any communication technology stack shall need any change. This “Network Access Interface Layer” shall provision and address all the interworking requirements.\n\n## 10 ULMCPS REFERENCE ARCHITECTURE\n\nThis section describes the ULMCPS Reference Architecture based on which, a different set of standards under this domain can be developed",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "10",
+      "heading": "10 ULMCPS REFERENCE ARCHITECTURE",
+      "heading_path": [
+        "10 ULMCPS REFERENCE ARCHITECTURE"
+      ],
+      "char_start": 36616,
+      "char_end": 36789,
+      "semantic_chunk_length": 173,
+      "final_chunk_length": 475,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0019",
+    "text": "k shall need any change. This “Network Access Interface Layer” shall provision and address all the interworking requirements.\n\n## 10 ULMCPS REFERENCE ARCHITECTURE\n\nThis section describes the ULMCPS Reference Architecture based on which, a different set of standards under this domain can be developed\n\n### 10.1 Network Access Layer (ULMCPS-NAL)\n\nThis Layer of the Reference Architecture comprises of either existing Open Standards or newly developed different Glue-Logics, Algorithms, Interworking Mechanisms and/or methodologies (or a combination thereof) required to seamlessly integrate the lower MAC and PHY Layers with the Upper Layers (Network /Transport and Application) of the Stack.\n\nThe ULMCPS Network Access Layer consists of a set of tightly coupled PHY and MAC Layer definitions, functions and characteristics of the Communication Technology being considered for the last mile communication in the unified digital infrastructure.\n\n\n#### 10.1.1 Physical Layer (PHY)\n\nFor every different Communication Technology, deploying different Network Access Layer, a separate set of unique NAILS (Network Access Interface Layer Specifications) shall be developed to seamlessly Integrate the particular Network Access Layer with the Standardized Upper Layers (Network, Transport and Application Layer).\n\nThis block of the reference architecture contains the definition, functions and characteristics of physical layer being used. The physical layer may use a wired or wireless communication technology. For reference, it has been illustrated in Fig. 4 how this reference block can be realized by actual standard. Here, IEEE 802.15.4-2020 is used as the physical layer standard.\n\nApplication (CoAP, LWM2M, …)\n\nTransport (UDP, TCP, …)\n\nNetwork (IPv6, ICMPv6, …)\n\nSecurity (EAP-TLS, DTLS, 802.1x, 802.11i, …)\n\n\n|  |  |  |  | Network Access Interface (6LoWPAN, RFC 2464, RFC 5072, …) |  |  |  |\n\n\nNetwork Access\n\n\n| IEEE 802.15.4 | IEEE 1901.2 | IEEE 802.11 | Cellular | … (many more) |\n\n\nFormatted: Font\n\n\n**Fig. 3 Ulmcps Reference Architecture**\n\n\n**FIG. 3  ULMCPS REFERENCE ARCHITECTURE**\n\n\nApplication (CoAP, LWM2M, …)\n\n(EAP-TLS, DT\n\nTransport (UDP, TCP, …)\n\nApplication (CoAP, LWM2M, …)\n\n(EAP-TLS, DT\n\nTransport (UDP, TCP, …)\n\n\n#### 10.1.2 Medium Access Control (MAC)\n\n(Fig. 3). The set of standards developed based on this architecture ensure that the unified (and standardized) upper layers are harmonized and interworking with different technologies at the lower layers in a homogeneous manner. This will enable addressing multiple heterogeneous applications, use cases and deployment scenarios using diverse technologies in the same geographical territory in a ubiquitous, and comprehensive yet most optimized and sustainable manner.\n\nThis layer within the network access layer of the reference architecture contains the definition, functions and characteristics of medium access control layer being used. The MAC Layer based on the physical layer may use a wired or wireless communication technology. For reference, it has been illustrated in Fig. 4 how this layer can be realized by the actual standard. For illustration is used IEEE 802.15.4-2020 at the MAC Layer.\n\nThe Unified LMCPS Reference Architecture described in this standard has the following blocks and layers.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "10.1",
+      "heading": "10.1 Network Access Layer (ULMCPS-NAL)",
+      "heading_path": [
+        "10 ULMCPS REFERENCE ARCHITECTURE",
+        "10.1 Network Access Layer (ULMCPS-NAL)"
+      ],
+      "char_start": 36795,
+      "char_end": 39772,
+      "semantic_chunk_length": 2977,
+      "final_chunk_length": 3279,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0020",
+    "text": "ss communication technology. For reference, it has been illustrated in Fig. 4 how this layer can be realized by the actual standard. For illustration is used IEEE 802.15.4-2020 at the MAC Layer.\n\nThe Unified LMCPS Reference Architecture described in this standard has the following blocks and layers.\n\n### 10.2 Network Access Interface Layer (ULMCPS-NAIL)\n\n\n\n\nApplication\n\n(EAP-TLS, DTLS, 802.1x, 802.11i,\n\n(CoAP, LWM2M, ...)\n\nTransport\n\n(UDP, TCP, ...)\n\nSecurity\n\nNetwork\n\n(IPv6, ICMPv6, ...)\n\nNetwork Access Interface\n\n(6LoWPAN, RFC 6550, IEEE 802.15.9,\n\nNetwork Access\n\n(IEEE 802.15.4-2020)\n\nIS 18010 (Part 1) : 2020\n\nApplication\n\n(EAP-TLS, DTLS, 802.1x, 802.11i, ...)\n\n(CoAP, LWM2M, ...)\n\nTransport\n\n(UDP, TCP, ...)\n\nSecurity\n\nNetwork\n\n(IPv6, ICMPv6, ...)\n\nNetwork Access Interface\n\n(RFC 2464, ...)\n\nNetwork Access\n\n(IEEE 802.11 a/b/g/n/...)\n\n\n**FIG. 4 ULMCPS RA WITH 802.15.4 NAL AND 802.11 NAL ILLUSTRATIONS**\n\nFor instance, Figure 4 illustrates how this Reference\n\nBlock will be realized by the actual standard. In the\n\nillustration, 6LoWPAN, RPL, and other IETF standards\n\nhave been leveraged to interface the underlying IEEE\n\n802.15.4-2020 based MAC and PHY Layers. It may be\n\nnoted that these may change with change in underlying\n\ncommunication technology depending on their\n\nrespective characteristics of the PHY & MAC Layers.\n\n\n### 10.3 Network & Transport Layer (ULMCPS-NTL)\n\nThe ULMCPS Network& Transport Layer consists\n\nof a tightly coupled set of definitions, functions\n\nand characteristics. This Layer of the Reference\n\nArchitecture shall comprise of the mechanisms like\n\nIPv6, ICMPv6, UDP, TCP, DHCPv6 and other either\n\nexisting Open Standards or newly developed different\n\nGlue-Logics, Algorithms, Interworking Mechanisms\n\nand/or methodologies (or a combination thereof)\n\nrequired to seamlessly interface the lower Layers\n\n(NAL) through the NAIL (Network Access Interface\n\nLayer) to the Application Layer of the Stack.\n\nThe objective is to create a unified Network &\n\nTransport Layer which can be used seamlessly with\n\ndifferent underlying lower layers of PHY & MAC and\n\nApplication Layer on the top\n\n\n### 10.4 Application Layer (ULMCPS-AL)\n\nThe ULMCPS Application Layer consists of a tightly\n\ncoupled set of definitions, functions and characteristics.\n\nThe application layer comprises communications\n\nand\n\nprotocols\n\nused\n\nin\n\ninterface\n\nmethods\n\nprocess-to-process communications across an Internet\n\nProtocol (IP) computer network. The Application\n\nLayer only standardizes the Payload Frames and\n\ninterworking between different End Nodes at the\n\nApplication Level. The communication depends upon\n\nthe underlying transport layer protocols to establish\n\nhost-to-host data transfer channels and manage the data\n\nexchange in a client-server or peer-to-peer networking\n\nmodel. Though the TCP/IP application layer does\n\nnot describe specific rules or data formats that\n\napplications must consider when communicating, the\n\noriginal specification (in RFC 1123) does rely on and\n\nrecommend the robustness principle for application\n\ndesign.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "10.2",
+      "heading": "10.2 Network Access Interface Layer (ULMCPS-NAIL)",
+      "heading_path": [
+        "10 ULMCPS REFERENCE ARCHITECTURE",
+        "10.2 Network Access Interface Layer (ULMCPS-NAIL)"
+      ],
+      "char_start": 39775,
+      "char_end": 42524,
+      "semantic_chunk_length": 2749,
+      "final_chunk_length": 3051,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0021",
+    "text": "server or peer-to-peer networking\n\nmodel. Though the TCP/IP application layer does\n\nnot describe specific rules or data formats that\n\napplications must consider when communicating, the\n\noriginal specification (in RFC 1123) does rely on and\n\nrecommend the robustness principle for application\n\ndesign.\n\n### 10.5 Security\n\nThe Security Layer consists of a tightly coupled\n\nset of definitions, functions and characteristics for\n\nComprehensive & Intrinsic Security in the Unified\n\nLast Mile Communication Protocol Stack Reference\n\nArchitecture. It comprises of a set of Security Standards\n\nto be used to address the Security requirement of the\n\nStack comprehensively. The chosen Standards may be\n\nused at different Layers of the Stack depending on their\n\ncontext. This block may need to be defined differently\n\nbased on the Technology being used at MAC and\n\nPHY Layer. However, some different Communication\n\nTechnologies may use a Security Block common to\n\nsome other Communication Technologies, as well.\n\n\nSection 12 in this document describes each layer\n\nin detail for one of the underlying communication\n\ntechnologies (IEEE 802.15.4 - 2020) being used. This\n\nsection may have multiple versions of it based on which\n\ntechnology is being used.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "10.5",
+      "heading": "10.5 Security",
+      "heading_path": [
+        "10 ULMCPS REFERENCE ARCHITECTURE",
+        "10.5 Security"
+      ],
+      "char_start": 42527,
+      "char_end": 43465,
+      "semantic_chunk_length": 938,
+      "final_chunk_length": 1240,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0022",
+    "text": "k common to\n\nsome other Communication Technologies, as well.\n\n\nSection 12 in this document describes each layer\n\nin detail for one of the underlying communication\n\ntechnologies (IEEE 802.15.4 - 2020) being used. This\n\nsection may have multiple versions of it based on which\n\ntechnology is being used.\n\n## 11 REFERENCE PROTOCOL STACK\n\nThis section describes a reference protocol stack\n\n(Figure 5) based on the Reference Stack Architecture\n\ndefined in 10. The Reference protocol Stack defined in\n\nthis section maps the different layers of the OSI Model\n\nto the ULMCP-RA Layers\n\n\n\nOSI Model Layers BIS UDI-LMCPS\n\n\n| Application |  |\n| --- | --- |\n| Presentation |  |\n| Session |  |\n| Transport |  |\n| Network |  |\n| Network Access Interface | •Interface between the Data link and Network Layer BIS-UDI-Network Access Interface |\n| Data Link |  |\n| Physical |  |\n\n\nBIS-UDI-Security\n\n\n**Fig. 5 Reference Protocol Stack**\n\n\n**FIG. 5 REFERENCE PROTOCOL STACK**\n\nThe BIS–UDI-ULMCPS is essentially defined based upon various IETF, IEEE, ANSI/TIA, ISO, IEC, ITU and other International, Regional or National SDO’s Open Standards supporting Low Power and Lossy Networks. The complete BIS ULMCPS Reference Architecture provides an application independent IPv6-based Transport Service for both Connection-Less (UDP) and Connection-Oriented (TCP) Services.\n\nICMPv6, UDP, TCP, DHCPv6 and other features to be used between PHY & MAC Layer and Application Layer (through the NAIL).\n\nThe Stack Layer ULMCPS–AL contains the communications protocols and interface methods used in process-to-process communications across an Internet Protocol (IP) networks. The Application Layer only standardizes communication and depends upon the underlying transport layer protocols to establish host-to-host data transfer channels and manage the data exchange in a client-server or peer-to-peer networking model.\n\nAs enumerated in the Reference Architecture, the Stack Layers ULMCPS-NAL and ULMCPS-NAIL are specific to each distinct Communication Technology. However, it is important to understand that the ULMCPS RA does not develop Network Access Layer Specifications for any underlying Last Mile Communication Technology on its own; rather it develops and defines the NAILS (Network Access Interface Layer Specifications) to ensure seamless and efficient interworking of the Unified Upper Layers with diverse Communication Technologies’ respective Network Access Layer Specifications. These Layers shall be specific to the Technology selected, derived from the use cases and deployment scenario of application(s) under consideration. The Reference Architecture of the Unified Last Mile Communication Protocols Stack provides the freedom to select different wired/wireless technologies based on the application requirement; e.g. Sub GHz or 2.4 GHz [IEEE 802.15.4- 2020], PLC, Wi-Fi, Cellular, NB-IoT, 5G, etc. The NAILS includes the standards and specifications required to integrate the Lower layer (NAL) with IPv6 Layer. It may also include some of the additional features needed which are specific to the technology being considered. For example, Network Topology (Mesh, Star, Tree etc.), Network Management, Security etc.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "11",
+      "heading": "11 REFERENCE PROTOCOL STACK",
+      "heading_path": [
+        "11 REFERENCE PROTOCOL STACK"
+      ],
+      "char_start": 43468,
+      "char_end": 46360,
+      "semantic_chunk_length": 2892,
+      "final_chunk_length": 3194,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0023",
+    "text": "des the standards and specifications required to integrate the Lower layer (NAL) with IPv6 Layer. It may also include some of the additional features needed which are specific to the technology being considered. For example, Network Topology (Mesh, Star, Tree etc.), Network Management, Security etc.\n\nThe Security Layer/Block shall be spread across different Layers of the Unified LMCPS to cover different aspects of the security at different levels comprehensively to ensure the intrinsic character of Security that is critical in Smart and/or Critical Infrastructure of a Nation. This layer may or may not be defined differently based on the imperatives of different communication technologies being used at lower layers.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "11",
+      "heading": "11 REFERENCE PROTOCOL STACK",
+      "heading_path": [
+        "11 REFERENCE PROTOCOL STACK"
+      ],
+      "char_start": 46362,
+      "char_end": 46784,
+      "semantic_chunk_length": 422,
+      "final_chunk_length": 724,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0024",
+    "text": "curity at different levels comprehensively to ensure the intrinsic character of Security that is critical in Smart and/or Critical Infrastructure of a Nation. This layer may or may not be defined differently based on the imperatives of different communication technologies being used at lower layers.\n\n## 12 ULMCPS STANDARDS FAMILY\n\n\n### 12.1 General\n\nThis section describes the Standards (to be developed) which are part of the Unified & Secure LMCPS Reference Architecture. This list of standards will keep growing based on the new communication technologies being developed and adopted in future or any new requirements of the stakeholders of the UDI-ULMCPS. The NTL and APP Layer Specifications shall be combined and common to all different Lower Layers’ and their respective Technologies.\n\nThe below set of standards and their classification is based on the initial general understanding and any deviation to merge the multiple standards into one or split any specific standard into multiple standards may be necessitated based on the ever changing requirements of new applications, use cases and/or deployment\n\nThe Stack Layer ULMCPS–NTL is defined as a Unified Stack for multiple underlying technologies. This layer will contain the definition & Characteristics of IPv6,\n\n\n\n\n\nscenarios, or even emerging new technologies and, last but not the least, based on stakeholders concerns and expectations.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "12",
+      "heading": "12 ULMCPS STANDARDS FAMILY",
+      "heading_path": [
+        "12 ULMCPS STANDARDS FAMILY"
+      ],
+      "char_start": 46788,
+      "char_end": 47891,
+      "semantic_chunk_length": 1103,
+      "final_chunk_length": 1405,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0025",
+    "text": "deployment\n\nThe Stack Layer ULMCPS–NTL is defined as a Unified Stack for multiple underlying technologies. This layer will contain the definition & Characteristics of IPv6,\n\n\n\n\n\nscenarios, or even emerging new technologies and, last but not the least, based on stakeholders concerns and expectations.\n\n### 12.2 Standards structure and hierarchy\n\nTable 2 provides the structure of the Standards (to be developed) in the ULMCPS family. These standards will get updated periodically based on the observations of the stakeholders, new features request, new application to be supported in future. But all the changes will be applicable to all underlying PHY and MAC support as part of ULMCPS.\n\nTable 2 ULMCPS Family Standards\n\n\n**Table 2 ULMCPS Family Standards**\n\n| LITD-28-LMCPS Standard Numbering System IS 18xxx LITD28 standard series number |  |\n| --- | --- |\n| IS 18010 UDI LMCPS Standard Series number |  |\n| IS 18010-x-y | Here “x” tells the Specification family: 1 : Architecture 2 : Application Layer 3 : Network & Transport Layer 4 : Network Access Interface Layer 5 : Network Access Layer 6 : System Test “y” tells the Specification Type: 1 : Technical Specification 2 : Test Specification |\n| NOTE — With every new communication technology to be integrated we will use next series under IS 1801x. Which means next technology will get the standards defined with a standard number of series IS 18011 and so on. |  |\n\n\n| Current Set of Documents Plan |  |\n| --- | --- |\n| IS 18010-1 | UDI ULMCPS Reference Architecture |\n| IS 18010-2-1 | UDI LMCPS Application Layer Technical specification |\n| IS 18010-2-2 | UDI LMCPS Application Layer Test Specification |\n| IS 18010-3-1 | UDI LMCPS Network and Transport Layer Technical specification |\n| IS 18010-4-1 | UDI LMCPS Network Access Interface Layer (IEEE 802.15.4) Technical specification |\n| IS 18010-5-1 | UDI LMCPS Network Access Layer (IEEE 802.15.4) Technical specification |\n| IS 18010-5-2 | UDI LMCPS Network Access Layer (IEEE 802.15.4) Test Specification |\n| IS 18010-6-2 | UDI LMCPS complete Stack Test Specification (IEEE 802.15.4) |\n\n\nIS 18010 (Part 1) : 2020\n\n\n| Future Set of Documents |  |  |\n| --- | --- | --- |\n| IS 18011-4-1 | UDI LMCPS Network Access Interface Layer (Technology A) | Technology A |\n| IS 18011-5-1 | UDI LMCPS Network Access Layer (Technology A) |  |\n| IS 18011-5-2 | UDI LMCPS Network Access Layer (Technology A) Test Specification |  |\n| IS 18011-6-2 | UDI LMCPS complete Stack Test Specification (Technology A) |  |\n| IS 18012-4-1 | UDI LMCPS Network Access Interface Layer (Technology B) | Technology B |\n| IS 18012-5-1 | UDI LMCPS Network Access Layer (Technology B) |  |\n| IS 18012-5-2 | UDI LMCPS Network Access Layer (Technology B) Test Specification |  |\n| IS 18012-6-2 | UDI LMCPS complete Stack Test Specification (Technology B) |  |",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "12.2",
+      "heading": "12.2 Standards structure and hierarchy",
+      "heading_path": [
+        "12 ULMCPS STANDARDS FAMILY",
+        "12.2 Standards structure and hierarchy"
+      ],
+      "char_start": 47894,
+      "char_end": 50424,
+      "semantic_chunk_length": 2530,
+      "final_chunk_length": 2832,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0026",
+    "text": "S Network Access Interface Layer (Technology B) | Technology B |\n| IS 18012-5-1 | UDI LMCPS Network Access Layer (Technology B) |  |\n| IS 18012-5-2 | UDI LMCPS Network Access Layer (Technology B) Test Specification |  |\n| IS 18012-6-2 | UDI LMCPS complete Stack Test Specification (Technology B) |  |\n\n### 12.3 UDI LMCPS series of Standards – IEEE 802.15.4-2020\n\nThis section illustrates how the Last Mile Communication Protocol Stack and its Reference Architecture can be instantiated into Technology Specific Granular Architecture leading to actual Standards. This section does not define any standard as such, but it covers only the high-level requirement to be covered at each Layer as per ULMCPS Reference Architecture. The detailed standards shall be covered as part of respective individual standards.\n\nFor illustration purpose, the IEEE 802.15.4-2020 has been considered as the Physical Layer and MAC Layer.\n\n\n#### 12.3.1 IS 18010-5-1 : 2020 Specification on UDI LMCPS NAL - Network Access Layer (IEEE 802.15.4)\n\n\n\n\n\n##### 12.3.1.1 General\n\n\n##### 12.3.2.2 Scope\n\nThis specification is defined to cover all aspect of Sub Giga Hz (865-867MHz) Physical layer and Media Access Layer which is derived from IEEE 802.15.4- 2020 specification. It may also use other MAC layer specification for any specific feature which is not supported by IEEE 802.15.4-2020 if needed.\n\nThe NAIL standard should define all Technical aspects of the standards to be used including but NOT limited to the definitions, functions and characteristics.\n\nThe standard document should clearly specify all optional features of a standard being adopted as part of this BIS standard to ensure seamless Interoperability and enable developing comprehensive Compliance Test Strategy.\n\n\n##### 12.3.1.2 Scope\n\nPhysical Layer:\n\nThe standard document should also contain a PICS section in it referring different standard and its section being used in a tabular form.\n\nThe Physical layer standard should define all technical aspects of the standards to be used including but not limited to the set of definitions, functions, and characteristics.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "12.3",
+      "heading": "12.3 UDI LMCPS series of Standards – IEEE 802.15.4-2020",
+      "heading_path": [
+        "12 ULMCPS STANDARDS FAMILY",
+        "12.3 UDI LMCPS series of Standards – IEEE 802.15.4-2020"
+      ],
+      "char_start": 50427,
+      "char_end": 52236,
+      "semantic_chunk_length": 1809,
+      "final_chunk_length": 2111,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0027",
+    "text": "cument should also contain a PICS section in it referring different standard and its section being used in a tabular form.\n\nThe Physical layer standard should define all technical aspects of the standards to be used including but not limited to the set of definitions, functions, and characteristics.\n\n#### 12.3.3 IS 18010-3-1 : 2020 Specification on ULMCPS Network & Transport Layer (NTL)\n\nThe standard documents should clearly refer the standard being used as Normative References with section number, table number or figure number being referred.\n\n\n##### 12.3.3.1 General\n\nThis specification should cover all aspects of the Network and Transport Layer. IPv6 and other supporting components to be used as part of Network Layer Specification. The standard should use respective standardized and applicable RFCs. The Transport layer should support UDP as a mandatory feature and TCP as an optional feature.\n\nThe standard document should clearly specify all optional features of the standard being adopted as part of this BIS standard to ensure seamless Interoperability and enable developing comprehensive Compliance Test Strategy.\n\nThe standard document should also contain a PICS section in it referring different standard and its section being used in a tabular form.\n\n\n##### 12.3.3.2 Scope\n\nThe NT Layer standard should define all Technical aspects of the standards to be used for the Network & Transport Layer including but NOT limited to the definitions, functions and characteristics.\n\nMAC Layer:\n\nThe MAC layer standard should define all Technical aspects of the standards to be used including but not limited to the set of definitions, functions and characteristics.\n\nThe standard document should clearly specify all optional features of a standard being adopted as part of this BIS standard to ensure seamless Interoperability and enable developing comprehensive Compliance Test Strategy.\n\nThe standard document should clearly specify all optional features of the standard being adopted as part of this BIS standard to ensure seamless Interoperability and enable developing comprehensive Compliance Test Strategy.\n\nThe standard document should also contain a PICS section in it referring different standard and its section being used in a tabular form.\n\nThe standard document should also contain a PICS section in it referring different standard and its section being used in a tabular form.\n\n\n#### 12.3.4 IS 18010-2-1 : 2020 Specification on ULMCPS Application Layer",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "12.3.3",
+      "heading": "12.3.3 IS 18010-3-1 : 2020 Specification on ULMCPS Network & Transport Layer (NTL)",
+      "heading_path": [
+        "12 ULMCPS STANDARDS FAMILY",
+        "12.3 UDI LMCPS series of Standards – IEEE 802.15.4-2020",
+        "12.3.3 IS 18010-3-1 : 2020 Specification on ULMCPS Network & Transport Layer (NTL)"
+      ],
+      "char_start": 52239,
+      "char_end": 54414,
+      "semantic_chunk_length": 2175,
+      "final_chunk_length": 2477,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0028",
+    "text": "tion in it referring different standard and its section being used in a tabular form.\n\nThe standard document should also contain a PICS section in it referring different standard and its section being used in a tabular form.\n\n\n#### 12.3.4 IS 18010-2-1 : 2020 Specification on ULMCPS Application Layer\n\n#### 12.3.2 IS 18010-4-1 : 2020 Specification on UDI LMCPS Network Access Interface Layer\n\n\n##### 12.3.4.1 General\n\nThe Application Layer standard should define to define communications protocols and interface methods used in process-to-process communications across an Internet Protocol (IP) network.\n\n\n##### 12.3.2.1 General\n\nThe specification covers all aspects of Network Access Interface Layer. The NAIL will comprise of multiple standards based on the features to be supported. The NAIL will act as an interface between the IEEE 802.15.4-2020 MAC Layer and Network & Transport Layer.\n\nThe Application layer specification should be used to create a new standard if needed to meet the requirement as described in the Reference Architecture and Protocol stack section of this document.\n\nThe Security should also be covered as part of this specification. It should cover all different aspects of the Security to be considered. The standards should be selected to make sure that all security requirement mentioned in the below section is addressed properly\n\n\n##### 12.3.4.2 Scope\n\nThe APP layer standard should define all Technical aspects of the standards to be used including but NOT limited to the definitions, functions and characteristics.\n\n\n\n\nThe standard document should clearly specify all optional features of a standard being adopted as part of this BIS standard to ensure seamless Interoperability and enable developing comprehensive Compliance Test Strategy.\n\nThe standard document should also contain a PICS section in it referring different standard and its section being used in a tabular form.",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "12.3.2",
+      "heading": "12.3.2 IS 18010-4-1 : 2020 Specification on UDI LMCPS Network Access Interface Layer",
+      "heading_path": [
+        "12 ULMCPS STANDARDS FAMILY",
+        "12.3 UDI LMCPS series of Standards – IEEE 802.15.4-2020",
+        "12.3.2 IS 18010-4-1 : 2020 Specification on UDI LMCPS Network Access Interface Layer"
+      ],
+      "char_start": 54417,
+      "char_end": 56027,
+      "semantic_chunk_length": 1610,
+      "final_chunk_length": 1912,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18010_1_2020_0029",
+    "text": "atures of a standard being adopted as part of this BIS standard to ensure seamless Interoperability and enable developing comprehensive Compliance Test Strategy.\n\nThe standard document should also contain a PICS section in it referring different standard and its section being used in a tabular form.\n\n## ANNEX A\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 28 (13502).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "18010_1_2020.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 20,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 56033,
+      "char_end": 57489,
+      "semantic_chunk_length": 1456,
+      "final_chunk_length": 1758,
+      "standard_no": "IS 18010",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

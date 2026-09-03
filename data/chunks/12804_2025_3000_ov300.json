@@ -1,0 +1,406 @@
+[
+  {
+    "id": "12804_2025_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nApril 2025 Price Group 8\n\n\n\n\nDams and Spillways Sectional Committee, WRD 09\n\nFOREWORD\n\nThe Indian Standard (First Revision) was adopted by the Bureau of Indian Standards after the draft was finalized by the Dams and Spillways Sectional Committee and had been approved by the Water Resources Division Council.\n\nSpillways and outlets of high-head dams may be exposed to high-velocity flows and the associated destructive phenomenon of cavitation. The extent of cavitation erosion depends to a large extent on the surface finish of the spillway/outlet. As velocity increases above a certain limit, the surface finish required to prevent cavitation erosion exceeds the tolerance to be expected from standard construction practice. In such cases, the spillway surfaces are usually protected from cavitation damage by introducing air near the flow boundary. Devices called aerators which supply the air are located on the spillway floors.\n\nThe procedure outlined in the existing standard (1989) provides the guidelines for preliminary design of aerator for overflow spillway. However, the orifice spillway is a recent development in spillway design for dual purpose of passing the flood and flushing of sediment from the reservoir. The hydraulic characteristics of the orifice spillway are entirely different than the overflow spillway. The hydraulics of orifice spillway changes with varying reservoir levels. The flow is Free flow for reservoir water levels below the roof of the sluice, for higher water levels the flow is orifice flow. Therefore, the design guidelines for aerator on overflow spillway are not applicable to design the aerator on orifice spillway. Aerators on deep-seated orifice spillways with heads more than 50 m are required for mitigating cavitation damage. However, no significant studies have been done for the aerators on orifice spillways except for a few project-specific studies.\n\nThis standard was first published in 1989. This revision of the standard has been brought out to bring the standard in latest style and update with respect to the latest field practices. In revision of this standard, the following major changes have incorporated:",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2289,
+      "semantic_chunk_length": 2287,
+      "final_chunk_length": 2287,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0001",
+    "text": "for a few project-specific studies.\n\nThis standard was first published in 1989. This revision of the standard has been brought out to bring the standard in latest style and update with respect to the latest field practices. In revision of this standard, the following major changes have incorporated:\n\n- a) The title of the standards has updated as ‘Hydraulic design of spillway aerators — Guidelines’.\n- b) The latest information available for designing the spillway aeration system including need of aerator, types of aerators and its spacing, types of air passages to aerator, jet trajectory calculation, design aspects of aerators and air entrainment mechanism for overflow and orifice type of spillway.\n- c) While bringing out this revision, assistance has been derived from:\n- 1) ‘Reduction of cavitation on spillways by induced air entrainment, Kells and Smith, Canadian Journal of Civil Engineering, vol. 18, 1991’. The details for the existing aerators system used worldwide have been given in Annex A for information. It is recommended to further carry out model studies;\nThe composition of the Committee responsible for the formulation of this standard is given in Annex C.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nHYDRAULIC DESIGN OF SPILLWAY AERATORS —\n\n\nGUIDELINES\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard deals with provision of aeration for spillways to prevent or minimize cavitation damage.",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2291,
+      "char_end": 3817,
+      "semantic_chunk_length": 1526,
+      "final_chunk_length": 1828,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0002",
+    "text": "e rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nHYDRAULIC DESIGN OF SPILLWAY AERATORS —\n\n\nGUIDELINES\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard deals with provision of aeration for spillways to prevent or minimize cavitation damage.\n\n## 2 TERMINOLOGY\n\nThe following terms and definitions shall apply for the purpose of this standard.\n\n\n2.1 Aerator — A device is installed on the spillway floor to provide air to the flow near the boundary of the flow surface. This includes the ramp, step, offset, groove, and also the air intake conduit in the body of the spillway or the side walls.\n\n\n### 2.2 Cavitation — The phenomenon and consequential formation of cavities or pittings caused by sudden vaporization of a flowing liquid in a zone of excessively low pressure.\n\n\n2.3 Cavitation Index (𝛔) — The cavitation index is a parameter enabling prediction of onset of cavitation in a particular flow situation. It may be written in the form:\n\n𝑝o−𝑝v\n\n\n2 )...........................(1)\n\n𝜎= (\n\n\n𝜌𝑉02\n\nwhere\n\n𝜎 = cavitation index;\n\n𝑝o = pressure (absolute) at some reference point in the flow, N/m2;\n\n\n𝑝v = vapour pressure (absolute) of the fluid, N/m2;\n\n\n𝜌 = mass density of fluid, kg/m3; and\n\n𝑉0 = reference velocity near to the cavitation source, m/s.\n\nNOTE   𝑝o needs to be assessed through scaled model studies or from experience in similar projects.\n\n\n2.4 Incipient Cavitation — The onset of vaporization is called incipient cavitation.\n\n\n2.5 Incipient Cavitation Index (𝝈𝐢) — The cavitation index at the condition of incipient cavitation is called the incipient cavitation index.\n\nWhile the cavitation index (𝜎) is relevant to the flow condition, incipient cavitation index (𝜎) is relevant to the object or surface in question. In general, for the value (𝜎)>(𝜎i) cavitation will not occur.",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 TERMINOLOGY",
+      "heading_path": [
+        "2 TERMINOLOGY"
+      ],
+      "char_start": 3820,
+      "char_end": 5373,
+      "semantic_chunk_length": 1553,
+      "final_chunk_length": 1855,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0003",
+    "text": "n index at the condition of incipient cavitation is called the incipient cavitation index.\n\nWhile the cavitation index (𝜎) is relevant to the flow condition, incipient cavitation index (𝜎) is relevant to the object or surface in question. In general, for the value (𝜎)>(𝜎i) cavitation will not occur.\n\n## 3 NEED FOR AERATION\n\n\n3.1 Spillways of high head dams may be exposed to high velocity flows and the associated destructive phenomenon of cavitation. The inception of cavitation erosion depends to a large extent on the surface finish of the spillway. As velocity increases above a certain limit the surface finish required to prevent cavitation erosion exceeds the tolerance to be expected from standard construction practice with velocities greater than about 25 m/s, protection of flow boundaries by means of streamlining, lining critical areas with steel sheets, using improved surface finishes and/or cavitation erosion resistant material is neither economical nor completely successful. In such cases, entrainment of adequate quantity of air in cavitating flow significantly reduces the damage caused by cavitation. The air dispersed throughout the region where cavitation originates is believed to suppress formation of vapourous cavitation and provides cushioning effect. Hence, aeration of high velocity flow is becoming a widely accepted method of preventing cavitation damage in hydraulic structures.\n\n\n### 3.2 Based on the experience from the operation of several spillways, the following general guidelines for cavitation protection, based on cavitation index alone are given in Table 1.\n\n\n### 3.3 Minimum air concentration near the solid surface required to mitigate cavitation damage over the spillway surface is about 6 percent to 8 percent.",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 NEED FOR AERATION",
+      "heading_path": [
+        "3 NEED FOR AERATION"
+      ],
+      "char_start": 5376,
+      "char_end": 6834,
+      "semantic_chunk_length": 1458,
+      "final_chunk_length": 1760,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0004",
+    "text": "eration of several spillways, the following general guidelines for cavitation protection, based on cavitation index alone are given in Table 1.\n\n\n### 3.3 Minimum air concentration near the solid surface required to mitigate cavitation damage over the spillway surface is about 6 percent to 8 percent.\n\n## 4 SPILLWAY AERATION DEVICE\n\n\n### 4.1 Description of Device\n\n4.1.1 Types of devices that could be used to introduce air into flowing water on a spillway chute include deflectors or ramps, offsets, steps, grooves, and combinations thereof. The basic types of aeration devices are shown schematically in Fig. 1. An aerator also, requires that a passage may be provided to admit air to the underside of the jet. Wall\n\n\n\n\nslots or recesses, lateral wall deflectors or wedges, and air intake conduits are Frequently used for the air admission system. A schematic diagram of an aeration system with a ramp, offset, and air intake\n\nconduit is shown in Fig. 2.   Another type of system using a ramp, step, and air gallery with a distribution duct is shown in Fig. 3. The zones describing aerator mechanism are shown in Fig.4.\n\n\n**Table 1 General Guidelines for Cavitation Protection Based on Cavitation Index**\n\n| Sl No. | Cavitation Index (𝛔) | Cavitation Protection |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | > 1.80 | No surface protection required. |\n| ii) | 0.25 to 1.80 | Flow surface can be protected by surface treatments including grinding of all roughness elements to specified chamfers. |\n| iii) | 0.17 to 0.25 | Flow surface can be protected by incorporating design modifications to the chute profile (for example, reducing convex curvature) or by incorporating aeration devices etc. |\n| iv) | 0.12 to 0.17 | Flow surfaces can be protected by incorporating aeration devices into the design. |\n| v) | < 0.12 | Flow surface probably cannot be protected from cavitation a new design should be selected. |\n\n\n**FIG. 1 BASIC AERATOR SHAPES**\n\n\n\n\n**FIG. 2 AIR SUPPLY SYSTEM WITH INTAKE CONDUIT**\n\n\n**FIG. 3 AIR SUPPLY SYSTEM WITH GALLERY AND DUCT**\n\n\n\n\n**FIG. 4 ZONES IN AERATOR MECHANISM**\n\n\n### 4.2 Hydraulic Action\n\n\n4.2.1 The hydraulic action of a spillway aerator system consisting of ramp, step, air slot, and air intake system is similar to a water jet pump. The high velocity water jet issuing over the ramp draws some air already trapped in the groove and creates a partial vacuum. The rate of air demand of the jet depends principally on the velocity and length of the trajectory (which is affected by the presence of sub-atmospheric pressure in the groove). The sub-atmospheric pressure in the groove causes some air to be drawn through the atmosphere via the air intake system. The airflow rate through the air intake system is governed by the head loss through the system which in turn determines the magnitude of sub-atmospheric pressure in the cavity and consequently the jet trajectory length. This interaction continues until local equilibrium is established for a given set of conditions. An air velocity of 30 m/s could be considered reasonable, however, velocities up to 100 m/s may also be allowed at some places with adequate precaution. However, the velocities greater than 60 m/s create noise.",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 6,
+      "clause": "4",
+      "heading": "4 SPILLWAY AERATION DEVICE",
+      "heading_path": [
+        "4 SPILLWAY AERATION DEVICE"
+      ],
+      "char_start": 6837,
+      "char_end": 9758,
+      "semantic_chunk_length": 2921,
+      "final_chunk_length": 3223,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0005",
+    "text": "teraction continues until local equilibrium is established for a given set of conditions. An air velocity of 30 m/s could be considered reasonable, however, velocities up to 100 m/s may also be allowed at some places with adequate precaution. However, the velocities greater than 60 m/s create noise.\n\n## 5 DESIGN CRITERIA FOR OVERFLOW AND ORIFICE  SPILLWAY AERATOR\n\n\n### 5.1 General\n\n\n5.1.1 The procedure for designing an aerator is currently very much state-of-art and subject to changes as advancements are made. Designing an aerator system involves  the location of  the  first\n\naerator, pressure distribution on the spillway surface to decide the location of the second aerator, type, and size of the aerator, volume of air entrained at the aerator, type, and size of the air supply system and spacing between the aerators to maintain a given protection level. The performance of the aerator can be assessed by calculating the jet length, cavity pressures, air entrainment coefficient, and air concentration throughout the length of the spillway. The hydraulic characteristics of the orifice spillway are entirely different from the overflow spillway. Therefore, the design criteria for aerator on overflow spillway are not applicable to aerator on orifice spillway. Present design practice includes the use of empirical relationships developed from model and prototype measurements and a limited amount of theoretical analysis. The guidelines given in the present code may be used for evolving the preliminary design of aerators for overflow and orifice types of spillways which should be checked on a hydraulic model.\n\n\n### 5.2 Locating the First Aerator\n\n\n5.2.1 The aerator should be located first where the potential for cavitation damage is deemed possible that is, the cavitation index of the flow is less than 0.2. If the bottom air concentration after the impact of the jet of the first aerator falls below the acceptable level of 6 percent to 8 percent, another aerator is required. The location of the second or subsequent aerators should be decided based on the pressure distribution and air concentration along the bottom profile of the spillway. The same should be checked by conducting hydraulic model studies.\n\n\n\n\n### 5.3 Aerator Air Intake Configuration\n\n\n5.3.1 The air supply systems given in Fig. 5 can be applied in the various projects as per the requirement.\n\n\n5.3.2 In the absence of any firm and definite guidelines, pertinent dimensions of, the aerator and intake systems can be chosen, at least as a first approximation, by referring to the details of existing\n\ninstallations and finding a parallel case. More refined calculations, if necessary, can be carried out in subsequent trials.\n\n\n#### 5.3.3 Pertinent dimensions and other details with respect to existing aerator systems of some projects have been given in Annex A.\n\n\n#### 5.3.4 Relevant notations appearing in the design, calculations are shown in Fig. 6.\n\n\n**FIG. 5 AIR SUPPLY SYSTEM TO AERATORS**\n\n\n\n\nwhere\n\nℎ = approach flow depth; 𝜙 =  ramp angle with chute; 𝛼 = spillway angle with horizontal; 𝑡 = height of ramp; 𝑠 = height of step/ offset; 𝑉 = water velocity; and 𝐿 = jet length.\n\n\n**FIG. 6 DEFINITION SKETCH**",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 8,
+      "clause": "5",
+      "heading": "5 DESIGN CRITERIA FOR OVERFLOW AND ORIFICE SPILLWAY AERATOR",
+      "heading_path": [
+        "5 DESIGN CRITERIA FOR OVERFLOW AND ORIFICE SPILLWAY AERATOR"
+      ],
+      "char_start": 9761,
+      "char_end": 12666,
+      "semantic_chunk_length": 2905,
+      "final_chunk_length": 3207,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0006",
+    "text": "ign, calculations are shown in Fig. 6.\n\n\n**FIG. 5 AIR SUPPLY SYSTEM TO AERATORS**\n\n\n\n\nwhere\n\nℎ = approach flow depth; 𝜙 =  ramp angle with chute; 𝛼 = spillway angle with horizontal; 𝑡 = height of ramp; 𝑠 = height of step/ offset; 𝑉 = water velocity; and 𝐿 = jet length.\n\n\n**FIG. 6 DEFINITION SKETCH**\n\n### 5.4 Estimation of Desired Air Demand\n\nThe quantity of air requirement can be worked out from the following equation:\n\n𝑄a 𝑄w.............................(2)\n\n𝛽=\n\nwhere\n\n𝛽 = Ratio between quantity of air demand vs quantity of water discharge;\n\n𝑄a = Quantity of air demand in m3/s; and\n\n\n𝑄w = Quantity of water discharge in m3/s.\n\n\nThe value of β for overflow and orifice spillway can be calculated from the equations given in the 5.5 to 5.10. By knowing the value of 𝑄w and β, 𝑄a can be calculated.\n\n\nThe size of the air vent can be worked out by knowing the quantity of air demand and considering the maximum allowable air vent velocity of 40 m/s.\n\n5.5 Estimation of Non-Dimensional Jet Length (λ) for Aerator of Overflow Spillway\n\n\nℎ= 0.77𝐹𝑟(1 + 𝑠𝑖𝑛𝛼)1.5 [√\n\n\n𝐿\n\n𝑠+𝑡\n\nℎ+ 𝐹𝑟𝑡𝑎𝑛𝜑],\n\n𝜆=\n\n𝐿\n\nℎ< 50 ........(3)\n\nfor 0 <\n\nwhere\n\n𝐿 = Jet length in m;\n\nℎ = approach flow depth in m;\n\n𝐹r = approach flow froude number (\n\n\n\n√gh);\n\n\n𝛼 = spillway angle in degrees;\n\n𝑠 = height of step/offset in m;\n\n𝑡 = height of ramp in m; and\n\nφ = ramp angle in degrees.\n\n\nEquation 3 may be applied to aerators consisting of aerators, offsets, or combinations and is valid for:\n\na) 5.8 ≤𝐹𝑟≤10.4;\n\n\n\n\n\nb) 12o ≤𝛼≤50o;\n\n\nc) 0.1 ≤( 𝑠+𝑡\n\n\nℎ) ≤2.1;\n\n\nd) 0o ≤𝜑≤11.3o; and\n\n\ne) ℎs ≈0  where ℎs is cavity sub-pressure head.\n\n\n5.6 Estimation of Air Entrainment Coefficient (β) for Aerator of Overflow Spillway\n\n\n𝑄a\n\n2[1 + 𝐹𝑟tan φ]– 0.1 ,\n\n\n𝛽=\n\n𝑄w = 0.0028 𝐹𝑟\n\n\nfor 0 <β< 0.80 ........ (4) where\n\n\n𝑄a = air discharge; and\n\n\n𝑄w = water discharge.\n\n\nEquations 4 may be applied to aerators consisting of aerators, offsets, or combinations and is valid for:\n\na) 5.8 ≤𝐹𝑟≤16.1;\n\n\nb) 0o ≤𝛼≤50o;\n\n\n𝑠+𝑡\n\nc) 0.06 ≤(\n\n\nℎ) ≤2.1;\n\n\nd) 0o ≤𝜑≤11.3o; and\n\n\ne) ℎs ≈0  where ℎs is cavity sub-pressure head.\n\n\n5.7 Estimation of Non-Dimensional Jet Length (λ) for Aerator of Orifice Spillway with Parabolic Profile\n\n\n1.21 ∗(1 + 𝑠𝑖𝑛𝛼)4.296 ∗\n\n\n𝐿\n\n𝜆=\n\nℎ= 0.83 ∗𝐹𝑟\n\n\n0.129 ∗(\n\n\n0.201 ∗(1 + 𝑡𝑎𝑛𝜑)5.393  ....... (5)\n\n\n𝐴𝑎 𝐴𝑤)\n\n𝑠+𝑡\n\n(\n\nℎ)\n\nfor 0.72 < 𝜆 < 35\n\n\n### 5.8 Estimation of Air Entrainment Coefficient (𝛃)\n\nfor Aerator of Orifice Spillway with Parabolic Profile\n\n0.4244 ∗(1 +\n\n\n1.52 ∗( 𝐴𝑎 𝐴𝑤)\n\n\n𝛽= 0.01011 ∗𝐹𝑟\n\n\n−0.4796\n\n\n𝑡𝑎𝑛𝜑)7.22 ∗(1 + 𝑠𝑖𝑛𝛼)1.8789 ∗(\n\n\n𝑠+𝑡\n\n......(6) for 0 < 𝛽 < 0.34\n\nℎ)\n\nwhere\n\n𝐴a = area of air vent in m2; and\n\n\n𝐴w = area of water flow in m2.\n\n\nEquations 5 and 6 may be applied to aerators consisting of ramp, offsets or combinations and are valid for:\n\n- a) 2.23 <𝐹r< 9.81;\n𝑠+𝑡\n\n- b) 0.13 <(\nℎ) < 1.77𝐹r;\n\n- c) 100<𝛼<200;\n- d) 00<𝜑<30; and\n𝐴a 𝐴w < 0.32.\n\n- e) 0.001<\n\n### 5.9 Estimation of Non-Dimensional Jet Length (𝝀) for Aerator on Orifice Spillway for Constant Slope Profile\n\n1.3464 ∗(1 + 𝑠𝑖𝑛𝛼)4.7762 ∗\n\n\n𝜆= 0.4781 ∗𝐹𝑟\n\n\n−0.04553\n\n\n0.3265 ∗(1 + 𝑡𝑎𝑛𝜑)5.3569\n\n\n𝐴𝑎 𝐴𝑤)\n\n𝑠+𝑡\n\n(\n\n∗(\n\n\nℎ)\n\n........(7)\n\nfor 0.72 < 𝜆  < 48",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "5.4",
+      "heading": "5.4 Estimation of Desired Air Demand",
+      "heading_path": [
+        "5 DESIGN CRITERIA FOR OVERFLOW AND ORIFICE SPILLWAY AERATOR",
+        "5.4 Estimation of Desired Air Demand"
+      ],
+      "char_start": 12669,
+      "char_end": 15459,
+      "semantic_chunk_length": 2790,
+      "final_chunk_length": 3092,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0007",
+    "text": ";\n- d) 00<𝜑<30; and\n𝐴a 𝐴w < 0.32.\n\n- e) 0.001<\n\n### 5.9 Estimation of Non-Dimensional Jet Length (𝝀) for Aerator on Orifice Spillway for Constant Slope Profile\n\n1.3464 ∗(1 + 𝑠𝑖𝑛𝛼)4.7762 ∗\n\n\n𝜆= 0.4781 ∗𝐹𝑟\n\n\n−0.04553\n\n\n0.3265 ∗(1 + 𝑡𝑎𝑛𝜑)5.3569\n\n\n𝐴𝑎 𝐴𝑤)\n\n𝑠+𝑡\n\n(\n\n∗(\n\n\nℎ)\n\n........(7)\n\nfor 0.72 < 𝜆  < 48\n\n### 5.10 Estimation of Air Entrainment Coefficient (𝜷) for Aerator on Orifice Spillway for Constant Slope Profile\n\n0.4686 ∗(1 +\n\n\n1.5151 ∗( 𝐴𝑎 𝐴𝑤)\n\n\n𝛽= 0.00604 ∗𝐹𝑟\n\n\n−0.3029\n\n\n𝑡𝑎𝑛𝜑)6.4491 ∗(1 + 𝑠𝑖𝑛𝛼)4.8592 ∗(\n\n\n𝑠+𝑡\n\nℎ)\n\n........(8)\n\nfor 0  < β < 0.56\n\n\nwhere\n\n𝐴a = area of air vent in m2; and\n\n\n𝐴w = area of water flow in m2.\n\n\nEquations (7) and (8) may be applied to aerators consisting of ramp, offsets or combinations and valid for\n\n- a) 2.23 < 𝐹𝑟 < 9.81;\n- b) 0.13 < (s + t)/h  < 1.77;\n- c) 100 < 𝛼 < 200;\n- d) 00 < 𝜑 < 30; and\n- e) 0.03 < 𝐴𝑎 𝐴𝑤 < 0.32.\n\n### 5.11 Aerator Spacing\n\n\n5.11.1 Design criteria for deciding aerator spacing have not been established yet. Data on aerator spacings of some existing installations given in Annex A would serve to provide useful guidelines. Aerators produce an air-water mixture at the flow boundary. If the concentration of the mixture is large enough, cavitation damage will be prevented. In general, the aerator should be located first where the\n\n\n\n\npotential for cavitation damage is deemed possible i.e the cavitation index of the flow is less than 0.2. The pressure in the cavity is nearly atmospheric and increases again at the point of impact. It drops to the hydrostatic pressure after the reattachment of the jet. The high-pressure gradient in this region causes rapid changes in air distribution. As the flow progresses downstream from an aerator, the air concentration decreases because of buoyancy of the bubbles. If the bottom concentration falls below the acceptable level, another aerator is required. The minimum air concentration required to mitigate cavitation damage is about 6 to 8 percent.\n\n\n5.11.2 The location of the second aerators and subsequent aerators may be decided based on the available length of chute, pressure distribution on the surface, and air concentration along the bottom of spillway surface. While an aerator is desirable at a grade change, installing aerators in vertical bends that are concave upward should be avoided. Aeration shaft should be designed in such a way that minimum head loss should occur in the shaft. The sharp bend should also be avoided in the design. Flow conditions in the vicinity of the aerator must be observed in a hydraulic model to ensure that the groove does not get filled in with water when low discharges are passed down the spillway and ski- action is not initiated.\n\n\n5.11.3 Care must be taken to construct the aerator surface with steel/ high performance concrete as the\n\nsediment laden flow would erode the spillway surface during draw-down flushing. It is important that the dimensions of the geometry of aerator do not change with the passage of time as the air entrainment characteristic of the aerator is very sensitive to the geometry of aerator.\n\n\n#### 5.11.4 A sample calculation for design of aeration system for an overflow and orifice spillway is given in Annex B.",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "5.10",
+      "heading": "5.10 Estimation of Air Entrainment Coefficient (𝜷) for Aerator on Orifice Spillway for Constant Slope Profile",
+      "heading_path": [
+        "5 DESIGN CRITERIA FOR OVERFLOW AND ORIFICE SPILLWAY AERATOR",
+        "5.10 Estimation of Air Entrainment Coefficient (𝜷) for Aerator on Orifice Spillway for Constant Slope Profile"
+      ],
+      "char_start": 15462,
+      "char_end": 18358,
+      "semantic_chunk_length": 2896,
+      "final_chunk_length": 3198,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0008",
+    "text": "e dimensions of the geometry of aerator do not change with the passage of time as the air entrainment characteristic of the aerator is very sensitive to the geometry of aerator.\n\n\n#### 5.11.4 A sample calculation for design of aeration system for an overflow and orifice spillway is given in Annex B.\n\n### 5.12 Model Studies\n\nModel studies are important in the development of spillway aeration systems. Physical models are useful in obtaining the proper shapes for aeration devices so as to produce satisfactory flow conditions. Parameters such as length of jet, location, and dimensions of the aerator can be optimized using physical models. The necessity of aerator can  be identified based on the measured parameters such as pressure, velocity, and estimated cavitation index. Numerical model studies may be used as a complementary tool to reduce the number of alternatives to be studied on the physical model. As indicated in 5.1.1, the guidelines given above would be useful in preparing a  preliminary design of an aerator system. However, the final design should be evolved on the basis of studies on a physical model constructed to an appropriate scale and taking into consideration the scale effects involved in such a model study.",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "5.12",
+      "heading": "5.12 Model Studies",
+      "heading_path": [
+        "5 DESIGN CRITERIA FOR OVERFLOW AND ORIFICE SPILLWAY AERATOR",
+        "5.12 Model Studies"
+      ],
+      "char_start": 18361,
+      "char_end": 19299,
+      "semantic_chunk_length": 938,
+      "final_chunk_length": 1240,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0009",
+    "text": " guidelines given above would be useful in preparing a  preliminary design of an aerator system. However, the final design should be evolved on the basis of studies on a physical model constructed to an appropriate scale and taking into consideration the scale effects involved in such a model study.\n\n## ANNEX A\n\n(Foreword, Clauses 5.3.3 and 5.11.1)\n\nDETAILS OF EXISTING AERATOR SYSTEMS",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 19304,
+      "char_end": 19389,
+      "semantic_chunk_length": 85,
+      "final_chunk_length": 387,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0010",
+    "text": "r system. However, the final design should be evolved on the basis of studies on a physical model constructed to an appropriate scale and taking into consideration the scale effects involved in such a model study.\n\n## ANNEX A\n\n(Foreword, Clauses 5.3.3 and 5.11.1)\n\nDETAILS OF EXISTING AERATOR SYSTEMS\n\n| Sl No. | Project Details |  |  | Spillway Design Details |  |  |  |  |  | Air Supply System Details |  |  |  |  |  |  | Aerator Design Details |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Name | Country | Height of Dam (m) | Type of Spillway | Discharge (m3/s) | Length (m) | Width /Diameter (m) | Slope (H:V) | Drop height (m) | Type | No.used | Spacing (m) | Ramp Height (m) | Ramp angle (Degree) | Step/ Offset Height (m) | First Aerator (m) | Intake Size/Type (m) | Lateral Distribution (m) |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) | (11) | (12) | (13) | (14) | (15) | (16) | (17) | (18) | (19) |\n| i) | Alicura | Argentina | 130 | Ch | - | 537 | 39 | 2.86 : 1 | 141 | R/S | 4 | 63 | 0.17 | 9.9 | - | 126 | 2 Intakes of Size 1.3 × 3.0 C, SYM | Natural |\n| ii) | Amaluza | Ecuador | - | Ch | - | - | - | 0.414 : 1 | - | R | - | - | 0.06 | 5.7 | - | - | - | - |\n| iii) | Bratsk | Russia | 100 | Ch | - | 100 | - | 0.8 : 1 | 90 | R | 1 | - | 0.45 | 11.3 | - | 39 | P | Natural |\n| iv) | Chamera I | India | 121 | Gr | 22 000 | 107 | 8 × 10 | 1.26 : 1 | 67 | G | 1 | - | - | - | 2 | 41 | 2 × 2 C, SYM, P | G |\n| v) | Emborcacao | Brazil | - | Ch | - | 330 | - | 5.55 : 1 | - | R/S | 2 | 103 | 0.30, 0.20 | 7.1 | - | - | 2 × 2 AG, G | 2 × 2AG,G |\n| vi) | Fengjiashan | China | - | T | 1 140/725 | 922 | 7.2 × 11 | 2 : 1, 66.67 : 1 | 64 | R/G, R | 2 | 50 | 0.60, 0.18 | 3.8, 7.1 | - | 84 | 0.9 C | 0.6 × 0.9 G,Natural |\n| vii) | Foz do areia | Brazil | 160 | Ch | 11 000 | 400 | 70.6 | 3.87 : 1 | 119 | R/S | 3 | 72, 90 | 0.20, 0.15, 0.10 | 7.1 | 1.5 | 146 | 1.8 × 4.0.C, SYM | Natural |\n| viii) | Glen canyon | USA | 216 | T | 2 with each 3 908 | 400 | 12.5 | 0.7 : 1 | 175 | R/G/S | 1 | - | 0 - 0.18 | 0 - 7.7 | 0.31 | 50 | 1.2 × 1.2 G, SYM | 1.2 × 1.2 G |\n| ix) | Guri (chute 1) | Venezuela | 150 | Ch | 6 000 | 140 | 48 | 0.8 : 1 | 130 | R, R/S | 2 | 93 | 1, 0.25 | 7, 5 | 2.84 | 30 | P, C, ASYM | Natural, 2 × 4 AG, 6 each of 1.25 × 1.25 D |\n| x) | Guri (chute 2) | Venezuela | 150 | Ch | 6 000 | 145 | 51 | 0.8 : 1, 1.3 : 1, 2.5 : 1 | 120 | R, R/S | 2 | 103 | 1, 1.5 | 7, 25 | 2.2 | 30 | P, AG, SYM | Natural, 2 × 3.1 AG, 6 each of 1.25 × 1.25 D |\n| xi) | Karjan | India | 81 | Gr | 16 475 | - | 17.61 | 0.8 : 1 | 79 | R | 1 | - | 0.563 | 8 | - | - | 2.5 × 3.75, AG, SYM | - |\n| xii) | Laiban | Philippines | - | Ch | 2 960 | 397 | 25 | 33.3 : 1 to 2.7 : 1 | 81 | R/S, R/G | 4 | 40, 64, 56 | 0.20, 0.4 | 5.2, 5.71 | - | 180 | C, C | Natural, AG/0.8 G |\n| xiii) | King Talal | Jordan | - | Ch | 2 160 | - | 35 | 2.78 : 1 Max. | - | S, R | 2 | - | 0.74 | 7.8 | 1.4 | 40 | W | Natural |\n| xiv) | McPhee | USA | 82 | Ch | 950 | 303 | 18.3 | 9.1 : 1 to 2 : 1 | 90 | R | 1 | - | 0.91 | 6.4 | - | 172 | 1.2 × 1.2 C | 0.91 × 1.22 Po |\n| xv) | Narmada Sagar | India | 100 | Gr | 88 315 | 109 | 495 | 0.86 : 1 | 60.3 | R | 1 | - | 0.2 | 2.5 | - | 15 | Pier end | Natural |\n\n\n\nTable (Concluded)",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 19392,
+      "char_end": 22384,
+      "semantic_chunk_length": 2992,
+      "final_chunk_length": 3294,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0011",
+    "text": "| Sl No. | Project Details |  |  | Spillway Design Details |  |  |  |  |  | Air Supply System Details |  |  |  |  |  |  | Aerator Design Details |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Name | Country | Height of Dam (m) | Type of Spillway | Discharge (m3/s) | Length (m) | Width /Diameter (m) | Slope (H:V) | Drop height (m) | Type | No.used | Spacing (m) | Ramp Height (m) | Ramp angle (Degree) | Step/ Offset Height (m) | First Aerator (m) | Intake Size/Type (m) | Lateral Distribution (m) |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) | (11) | (12) | (13) | (14) | (15) | (16) | (17) | (18) | (19) |\n| xvi) | San Roque | Philippines | 210 | Ch | 12 800 | 550 | 105 | 4 : 1 Max. | 110 | R/O | 7 | 50, 60 | 0.5 | 9.6 | 0.75 | 158 | 1.1 × 2.0 C, SYM | 1.8 × 2.0 AG, 0.5 × 1.5 Po |\n| xvii) | Sardar Sarovar | India | 165 | Gr | 65 000 | 300 | 524.3 | 0.6 : 1 | 56.68 | R/G | 1 | - | 0.25 | 4 | - | 40 | 2.54 × 2.54 | 2.54 × 2.54 G |\n| xviii) | Tehri | India | 261 | Ch | 5 487 | 718 | 39.5 | 1.94 : 1 | 41.87 | R/G | 3 | 80, 100 | 0.2 | 5.71 | - | 230 | 1.2 × 1.2 C | 1.4 × 1.4 AG |\n| xix) | Toktogul | Russia | - | Ch | - | - | - | 0.71 : 1 |  | R/O, R/G | 3 |  | 0.15, 0.45 | 9.5 | 2.0 | - | P | Natural, 1.0 AG |\n| xx) | Nurek | Russia | - | T, Ch | 2 400 | - | 10 | Varies |  | G/O | 8 | 10 to 15 | - | - | 0.40 | - | 1.4 × 1.5 G, C | - |\n| xxi) | Uribante | Venezuela | 130 | Ch | 1 100 | 400 | 12 | 6.25 : 1 Max., 2.94 : 1 | 101 | R/S | 2 | 153 | 0.25, 0.30 | 4.7, 5 | 0.40, 0.99 | 174 |  | 0.5 × 1.0 AG, 0.8 × 0.9 AG |\n| xxii) | Ullum | Argentina | - | Ch | 2 560/1 000 | 225 | 35 | 4 : 1 | 73 | R | 1 | - | 1.0 | 14 | - | 100 | Wall wedge 7.1 m at each side protruding 0.5 in the flow | Natural |\n| xxiii) | Ust-Ilim | Russia | - | Ch | - | - | - | 0.7 : 1 | - | R | 1 | - | 0.6 | 9.5 | - | 35 | C | 0.5 × 4.5 Po |\n| xxiv) | Yellowtail | USA | - | T | 2 600 | 450 | 9.75 | 0.7 : 1 | 150 | R/G/S | 1 |  | 0 to 0.076 | 0 to 6.3 | 0.076 | 100 | 0.9 × 0.9 G, SYM | 0.9 × 0.9 G |\n| xxv) | Subansiri | India | 125 | Gr | 37 500 | 175.5 | 11.5 × 14 | variable | - | R/S | 2 | 61 | 0.56 | 4 | 2.5 | 27 | 2 square ducts (1.5 × 1.5) each side of span for first aerator and second aerator at pier end | Aeration through shaft at first aerator and natural aeration at second aerator |",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 22387,
+      "char_end": 24769,
+      "semantic_chunk_length": 2382,
+      "final_chunk_length": 2382,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0012",
+    "text": "| Sl No. | Project Details |  |  | Spillway Design Details |  |  |  |  |  | Air Supply System Details |  |  |  |  |  |  | Aerator Design Details |  |\n| NOTES 1 In col (6) where two values are given, the first represents spillway design discharge and the second represents the aerator design discharge. 2 In col (17), the discharge given is that from the spillway crest to the first downstream aerator. 3 Col (18) describes how the air is delivered to the aerator from the atmosphere and whether delivery is from both sides of the chute. 4 Col (19) describes how the air is conducted to the underside of the jet at the aerator. The term 'natural' means that no special appurtenances have been used to distribute the air in the jet cavity void. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n\n\n| Abbreviation | Meaning Abbreviation | Meaning |\n| --- | --- | --- |\n| AG | Air gallery P | Pier |\n| ASYM | Asymmetrical inlet condition Po | Portal |\n| C | Air intake conduit R | Ramp |\n| Ch | Chute S | Step |\n| D | Distribution duct SYM | Symmetrical inlet condition |\n| G | Groove T | Tunnel |\n| O | Offset W | Wall wedge |",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 24770,
+      "char_end": 25748,
+      "semantic_chunk_length": 978,
+      "final_chunk_length": 1128,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0013",
+    "text": "breviation | Meaning |\n| --- | --- | --- |\n| AG | Air gallery P | Pier |\n| ASYM | Asymmetrical inlet condition Po | Portal |\n| C | Air intake conduit R | Ramp |\n| Ch | Chute S | Step |\n| D | Distribution duct SYM | Symmetrical inlet condition |\n| G | Groove T | Tunnel |\n| O | Offset W | Wall wedge |\n\n## ANNEX B\n\n(Clause 5.11.4)\n\nSAMPLE FOR DESIGN CALCULATION OF AERATION SYSTEM\n\nB-1 ESTIMATION OF NON-DIMENSIONAL JET LENGTH (𝝀) AND AIR ENTRAINMENT COEFFICIENT (𝜷 ) FOR OVERFLOW SPILLWAY\n\nB-1.1 Input Data:\n\nApproach flow depth  ℎ = 3.7 m\n\nApproach flow Froude number  𝐹𝑟 = 6\n\nChute bottom angle 𝛼 = 40𝑜\n\nOffset height  s = 2.45 m\n\n\nRamp height  t = 0.4 m\n\n\nRamp angle 𝜑= 4𝑜\n\nB-1.2 Estimation of Non-dimensional Jet Length (𝜆) :\n\n\n| = 0.77𝐹𝑟(1 + sin 𝛼)1.5 [√ℎ = ℎ𝑜 = 𝐿= 0 77 × 6 × (1 + sin 40𝑜 )1.5 [√2.45 + 0.4 + |  | + 𝐹𝑟tan 𝜑] |\n\n\n3.7 + 6 ∗tan 4𝑜 ]\n\n\nℎ𝑜\n\n𝜆= 0.77 × 6 × 2.106 × (0.878 + 0.419)\n\n𝜆= 12.62\n\n\nB-1.3 Estimation of Air Entrainment Coefficient (𝜷) :\n\n𝛽 = 0.002 8 𝐹𝑟\n\n2[1 + 𝐹𝑟 tan 𝜑]– 0.1\n\n𝛽 = 0.002 8 × 62 ×  [1 + 6 ∗ tan 4𝑜 ]– 0.1\n\n\n𝛽 = 0.002 8 × 36 ×  1.419 – 0.1\n\n𝛽= 0.043\n\n\nB-2 ESTIMATION OF NON-DIMENSIONAL JET LENGTH (𝝀) AND AIR ENTRAINMENT COEFFICIENT (𝜷) FOR ORIFICE SPILLWAY WITH PARABOLIC PROFILE\n\nB-2.1 Input Data\n\nFroude number 𝐹𝑟    =   7.53\n\nSpillway angle in degrees 𝛼 = 100\n\nRamp angle in degrees 𝜑 = 30\n\nOffset height, in ‘m’ s =  1.5 m\n\n\nRamp height, in ‘m’ t =  0.25 m\n\n\nIncoming depth of flow h =  1 m\n\n\nArea of air vent, in m2 Aa =  0.785\n\n\nArea of water flow, in m2 Aw   =  3.825\n\n\n\n\n\nB-2.2 Estimation of Non-dimensional Jet Length (𝝀) :\n\n0.129 × (𝑠+ 𝑡\n\n0.201 × (1 + 𝑡𝑎𝑛𝜑)5.393\n\n1.21 × (1 + 𝑠𝑖𝑛𝛼)4.296 × (𝐴𝑎 𝐴𝑤\n\n𝜆= 0.83 ∗𝐹𝑟\n\n\n)\n\nℎ)\n\n0.129 × (1.5 + 0.25\n\n0.201 × (1 + tan 30)5.393\n\n𝜆= 0.83 ∗7.531.21 × (1 + sin 100)4.296 × (0.785\n\n\n3.825)\n\n1 )\n\n𝜆= 0.83 ∗11.51 × 1.989 × 0.815 × 1.119 × 1.317\n\n\n𝜆= 22.82\n\n\nB-2.3 Estimation of Air Entrainment Coefficient (𝜷) :\n\n−0.4796\n\n\n𝛽= 0.01011 × 𝐹𝑟\n\n𝛽= 0.01011 × 7.531.52 × (\n\n\n```text\n3.825) ) 1\n× 0.510 × 1.446 × 1.351 × 0.765\nNON-DIMENSIONAL JET LENGTH (𝜆) AND AIR ENTRAINM ORIFICE SPILLWAY WITH CONSTANT SLOPE PROFILE\n= 7.53 𝐹𝑟\nes = 100 𝛼\n= 30 𝜑\ns = 1.5 m\nt = 0.25 m\nh = 1 m\nAa = 0.785\nm2   Aw   = 3.825 𝑚2\nmensional Jet Length (𝜆) :\n−0.04553 0.3265 𝐴𝑎 𝑠+ 𝑡 (1 + 𝑠𝑖𝑛𝛼)4.7762 × ( × (1 + 𝑡𝑎𝑛𝜑)5.3569 ) ℎ) × ( 𝐴𝑤\n−0.04553 0.3265 × (1 + 𝑠𝑖𝑛100)4.7762 × (0.785) × (1.5 + 0.25 × (1 + 𝑡𝑎𝑛3 ) 48 × 1.075 × 1.20 × 1.315 3.825 1\nrainment Coefficient (𝜷) :\n0.4686 −0.3029 (𝐴𝑎 × (1 + 𝑡𝑎𝑛𝜑)6.4491 × (1 + 𝑠𝑖𝑛𝛼)4.8592 × (𝑠+ 𝑡 ) ℎ) 𝐴𝑤\n0.4686 × (0.785) × (1 + 𝑡𝑎𝑛30)6.4491 × (1 + 𝑠𝑖𝑛100)4.8592 × (1.5 + 0.25)\n```\n\n\n𝛽= 0.165\n\n\nB-3.1 Input Data:\n\n𝜆= 0.4781 × 𝐹𝑟\n\n𝜆 = 26.39\n\n𝛽= 0.00604 × 𝐹𝑟\n\n−0.3029\n\n\n𝛽= 0.00604 × 7.531.5151 × (0.785\n\n𝛽= 0.00604 × 21.3 × 0.476 × 1.390 × 2.177 × 0.844\n\n𝛽= 0.156",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 25753,
+      "char_end": 28201,
+      "semantic_chunk_length": 2448,
+      "final_chunk_length": 2750,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12804_2025_0014",
+    "text": "𝜑)6.4491 × (1 + 𝑠𝑖𝑛𝛼)4.8592 × (𝑠+ 𝑡 ) ℎ) 𝐴𝑤\n0.4686 × (0.785) × (1 + 𝑡𝑎𝑛30)6.4491 × (1 + 𝑠𝑖𝑛100)4.8592 × (1.5 + 0.25)\n```\n\n\n𝛽= 0.165\n\n\nB-3.1 Input Data:\n\n𝜆= 0.4781 × 𝐹𝑟\n\n𝜆 = 26.39\n\n𝛽= 0.00604 × 𝐹𝑟\n\n−0.3029\n\n\n𝛽= 0.00604 × 7.531.5151 × (0.785\n\n𝛽= 0.00604 × 21.3 × 0.476 × 1.390 × 2.177 × 0.844\n\n𝛽= 0.156\n\n## ANNEX C\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: WRD 09 (26616).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "12804_2025.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 28207,
+      "char_end": 29643,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 12804",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

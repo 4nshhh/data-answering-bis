@@ -1,0 +1,191 @@
+[
+  {
+    "id": "19692_2026_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2026 Price Group 5\n\n\n\n\nMedia and Entertainment Services Sectional Committee, SSD 13\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Media and Entertainment Services Sectional Committee had been approved by the Service Sector Division Council.\n\nThe domain of sound and music services has experienced significant growth driven by advancements in digital technologies, streaming platforms, and evolving modes of content creation and delivery. In light of this expansion, the establishment of a uniform and harmonized set of terminologies has become essential to ensure clarity, consistency, and effective communication among stakeholders. This vocabulary standard is formulated keeping in view the current, common accepted usage in the media and entertainment sector. These terminologies do not supplant or supplement statutory definitions, and are aimed at providing simplified terminologies for ease of business and are in consonance with statutory definitions.\n\nThis vocabulary standard has been formulated with the objective of providing a list of terms and definitions relevant to sound and music services. The terms included cover a wide range of concepts and technologies associated with sound recording, reproduction, transmission, streaming, acoustic environments, performance, and user experience. This vocabulary standard is intended to serve as a foundational reference for developers, content creators, copyright owners, service providers, researchers, regulators, and consumers engaged in this field.\n\nBy adopting a common language, this vocabulary standard seeks to promote interoperability, enhance collaboration, and support innovation in sound and music services. The terminology will also aid in technical documentation, educational resources, regulatory frameworks, and international harmonization efforts.\n\nIt is recognized that certain terms have been specifically defined in statutes or other official documents. Accordingly, the definitions provided herein are intended to be clarificatory only, keeping in mind Media and Entertainment Industry daily usage, and are not in conflict with or supplanting those established under existing laws. Further, this vocabulary is not intended to be exhaustive, and the terms included herein are provided solely for clarification and ease of understanding.\n\nThe composition of the Committee responsible for the formulation of this standard is given in  Annex A.",
+    "metadata": {
+      "source": "19692_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2610,
+      "semantic_chunk_length": 2608,
+      "final_chunk_length": 2608,
+      "standard_no": "IS 19692",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19692_2026_0001",
+    "text": "ng those established under existing laws. Further, this vocabulary is not intended to be exhaustive, and the terms included herein are provided solely for clarification and ease of understanding.\n\nThe composition of the Committee responsible for the formulation of this standard is given in  Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard MEDIA AND ENTERTAINMENT — SOUND AND MUSIC\n\n\nSERVICES — VOCABULARY\n\n\n## 1 SCOPE\n\nThis standard defines terms and acronyms commonly used in the sound and music services.",
+    "metadata": {
+      "source": "19692_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2612,
+      "char_end": 3228,
+      "semantic_chunk_length": 616,
+      "final_chunk_length": 918,
+      "standard_no": "IS 19692",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19692_2026_0002",
+    "text": "ant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard MEDIA AND ENTERTAINMENT — SOUND AND MUSIC\n\n\nSERVICES — VOCABULARY\n\n\n## 1 SCOPE\n\nThis standard defines terms and acronyms commonly used in the sound and music services.\n\n## 2 TERMINOLOGY\n\n\n### 2.1 Adaptation — In relation to a musical work, any arrangement or transcription of the work.\n\nNOTE — In common usage within the sound and music services sector, adaptation in relation to a composition or lyrics includes making any change in the original work.\n\n\n### 2.2 Artist — An individual or group commonly associated with the creation, recording, authorship, and/or performance of a musical or literary work or sound recording.\n\n\n### 2.3 Audio Visual Recording — A recording that captures both audio and visual elements, often associated with music videos or multimedia content.\n\n\n2.4 Author — In relation to a musical work, the composer; in relation to a literary work, the lyricist; in relation to a sound recording – the producer; and in relation to any computer-generated work, the person who causes the work to be created.\n\n\n2.5 Assignment — The act by which the owner (assignor) via a written agreement transfers to another party (assignee), the ownership or right/s in a copyrighted work, wholly or partially in accordance with the Copyright Act, 1957.\n\n\n2.6 Broadcast — The transmission of a musical work, a literary work, a sound recording or an audiovisual recording to the public simultaneously by wired or wireless means (radio or television), as opposed to on- demand or interactive streaming.\n\n\n### 2.7 Collective Management Organization (CMO) — A group or organization that represents the interests of multiple artists and/or copyright owners.\n\n\n### 2.8 Composer — A person who creates the musical work.\n\n\n### 2.9 Composition — The musical work or a tune\n\ncreated by a composer.\n\n\n2.10 Cover Version — A new performance or re- recording of a previously released song, without any change in the composition or lyrics, irrespective of the change in arrangement in accordance with the Copyright Act, 1957.\n\n\n### 2.11 Creator — An expression used to denote a composer or lyricist or both and used interchangeably with Composer/Author/Lyricist.\n\n\n### 2.12 Download — The process of transferring a digital music file from the internet to a device for storage or playback.\n\n\n2.13 DSP (Digital Service Provider) — Entities operating digital platforms or online services that deliver music / songs digitally to consumers over the internet such as streaming services, digital music libraries, and download stores.",
+    "metadata": {
+      "source": "19692_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 TERMINOLOGY",
+      "heading_path": [
+        "2 TERMINOLOGY"
+      ],
+      "char_start": 3231,
+      "char_end": 5578,
+      "semantic_chunk_length": 2347,
+      "final_chunk_length": 2649,
+      "standard_no": "IS 19692",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19692_2026_0003",
+    "text": "ic file from the internet to a device for storage or playback.\n\n\n2.13 DSP (Digital Service Provider) — Entities operating digital platforms or online services that deliver music / songs digitally to consumers over the internet such as streaming services, digital music libraries, and download stores.\n\n### 2.14 Identifiers — Unique, standardized codes assigned to each piece of content and its creator/performer/copyright owner to ensure accurate identification and linking of data.\n\n\n2.15 Indian Performing Rights Society (IPRS) — A non-profit society registered as a copyright society under the Copyright Act, 1957, which administers and licenses performing and mechanical rights in musical works and literary works on behalf of its member authors and copyright owners of such works.\n\n\n2.16 Indian Singers and Musicians Rights Association (ISAMRA) — A company limited by guarantee registered as a copyright society under the Copyright Act, 1957 representing / managing the rights of singers and musicians who are its members.\n\n\n2.17 Infringement — Any unauthorized act that violates the rights of a copyright owner under the Copyright Act, 1957, including the making, use, distribution, communication to the public, or commercial dealing in infringing copies, subject to the exceptions permitted under the Copyright Act, 1957.\n\n\n### 2.18 Label — A company that produces, promotes, and distributes recorded music.\n\n\n\n\n### 2.19 Literary Work — The words used in a song, normally referred to as ‘Lyrics’ in general.\n\n\n### 2.20 Lyrics — The words or text of a song.\n\n\n2.21 Master Rights/Sound Recording Rights — The copyrights in the sound recording that are embodied on the master in accordance with the Copyright Act, 1957.\n\n\n2.22 Master — The original recording of a song which may be embodied on a physical or digital file.\n\n\n2.23 Metadata — Information about a piece of music, including but not limited to its title, composer, author, performer, album, duration, and release date, that is used to identify and describe its content.\n\n\n2.24 Moral Right — The right of an author to be identified as the creator of a work, and of the performer to be identified as the performer of a performance and to object to any distortion or modification thereof that could harm the creator’s or performer’s reputation.\n\n\n2.25 Music — Any form of recorded or composed auditory content, including but not limited to vocal or instrumental sounds, lyrics, musical compositions, sound recordings, arrangements, and performances.\n\n\n### 2.26 Music Arranger — An individual who helps finish, rework, and adapt pre-existing compositions by altering elements such as instrumentation, orchestration, harmony, tempo, and genre.\n\n\n### 2.27 Music Producer — A person responsible for overseeing the recording and production of a musical work.\n\n\n2.28 Musical Work — A work consisting of music and includes any graphical notation of such work but does not include any words or any action intended to be sung, spoken or performed with the music. In common parlance, a musical work is referred to as a composition.",
+    "metadata": {
+      "source": "19692_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "2.14",
+      "heading": "2.14 Identifiers — Unique, standardized codes assigned to each piece of content and its creator/performer/copyright owner to ensure accurate identification and linking of data.",
+      "heading_path": [
+        "2 TERMINOLOGY",
+        "2.14 Identifiers — Unique, standardized codes assigned to each piece of content and its creator/performer/copyright owner to ensure accurate identification and linking of data."
+      ],
+      "char_start": 5581,
+      "char_end": 8362,
+      "semantic_chunk_length": 2781,
+      "final_chunk_length": 3083,
+      "standard_no": "IS 19692",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19692_2026_0004",
+    "text": "nd production of a musical work.\n\n\n2.28 Musical Work — A work consisting of music and includes any graphical notation of such work but does not include any words or any action intended to be sung, spoken or performed with the music. In common parlance, a musical work is referred to as a composition.\n\n### 2.29 Neighbouring Rights — Rights related to the communication to the public including broadcast of sound recordings, distinct from the rights of the underlying musical composition and lyrics.\n\n\n2.30 Neighbouring Rights Organization — An entity that manages and administers public performance rights in sound recordings and related rights on behalf of sound recording owners who are its members or right-holders.\n\nNOTE — Examples of such organizations include collecting societies and public performance rights administrators operating in various jurisdictions (for example PPL India and Novex Communications Pvt. Ltd.).\n\n\n### 2.31 Performance — Any live or recorded rendering of works by a performer.\n\n\n### 2.32 Performer — A singer, musician, dancer, acrobat, juggler, conjurer, snake charmer, a person delivering a lecture or any other person who makes a performance.\n\n\n### 2.33 Performing Rights Organization — An entity that licenses and collects royalties for the public performance of musical and literary works.\n\n\n2.34 Performing Rights Society — A society, association or other body, whether incorporated or not, which carries on business in India of issuing or granting licenses for the performance in India of any works in which copyright subsists.\n\nNOTE — Such entities are also referred to as collecting or collection societies, which manage the licensing, collection, and distribution of royalties on behalf of authors, performers, and copyright owners for specified uses of musical works and sound recordings for non-dramatic performances.",
+    "metadata": {
+      "source": "19692_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "2.29",
+      "heading": "2.29 Neighbouring Rights — Rights related to the communication to the public including broadcast of sound recordings, distinct from the rights of the underlying musical composition and lyrics.",
+      "heading_path": [
+        "2 TERMINOLOGY",
+        "2.29 Neighbouring Rights — Rights related to the communication to the public including broadcast of sound recordings, distinct from the rights of the underlying musical composition and lyrics."
+      ],
+      "char_start": 8365,
+      "char_end": 9923,
+      "semantic_chunk_length": 1558,
+      "final_chunk_length": 1860,
+      "standard_no": "IS 19692",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19692_2026_0005",
+    "text": "ists.\n\nNOTE — Such entities are also referred to as collecting or collection societies, which manage the licensing, collection, and distribution of royalties on behalf of authors, performers, and copyright owners for specified uses of musical works and sound recordings for non-dramatic performances.\n\n### 2.35 Producer — In relation to a cinematograph film or sound recording, means a person who takes the initiative and responsibility for making the work.\n\n\n2.36 Public Domain Works — Music that is not protected by intellectual property laws, such as copyright and is owned by the public rather than by an individual author or artist.\n\n\n2.37 Publisher — An entity that acquires, administers,  and/or licenses rights in musical works and associated literary works, either as owner or as an authorized representative of the author or other right holder.\n\n\n2.38 Publisher of Online Curated Content — A publisher who, performing a significant role in determining the online curated content being made available, makes available to users a computer resource that enables such users to access online curated content over the internet or computer networks, and such other entity called by whatever name, which is functionally similar to publishers of online curated content but does not include any individual or user who is not transmitting online curated content in the course of systematic business, professional or commercial activity\n\n\n\n\n2.39 Recorded Music Performance Ltd (RMPL) — A company limited by guarantee registered as a copyright society under the Copyright Act, 1957 that administers and licenses public performance rights in sound recordings on behalf of owners of sound recordings that are its members.\n\n\n2.40 Social Media Intermediary — An intermediary which primarily or solely enables online interaction between two or more users and allows them to create, upload, share, disseminate, modify or access information using its services.\n\n\n### 2.41 Songwriter — A person who creates the lyrics and/or composition of a song and is also, at different instances, referred to as a Creator or Author or Composer.\n\n\n2.42 Sound Recording — A recording of sounds from which such sounds may be produced regardless of the medium on which such recording is made or the method by which the sounds are produced.\n\n\n2.43 Stakeholders — Individuals or groups who have an interest or concern in the ownership, creation, distribution, and consumption of music content, including authors, composers, performers, music producers, music publishers, music labels, distributors, DSPs, radio stations, television channels and others.\n\nIS 19692 : 2026\n\n\n### 2.44 Stream — The real-time playback of digital audio or video content over the internet.\n\n\n2.45 Synchronization License — A license granted by the copyright owner of underlying works and /or sound recording or its authorized representative to allow for the timed integration (syncing of that work with an audio-visual/ visual content) as part of such audio-visual/visual content.\n\n\n### 2.46 Term of Copyright — The duration for which copyright protection applies to a musical or literary work or a sound recording.",
+    "metadata": {
+      "source": "19692_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "2.35",
+      "heading": "2.35 Producer — In relation to a cinematograph film or sound recording, means a person who takes the initiative and responsibility for making the work.",
+      "heading_path": [
+        "2 TERMINOLOGY",
+        "2.35 Producer — In relation to a cinematograph film or sound recording, means a person who takes the initiative and responsibility for making the work."
+      ],
+      "char_start": 9926,
+      "char_end": 12785,
+      "semantic_chunk_length": 2859,
+      "final_chunk_length": 3161,
+      "standard_no": "IS 19692",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19692_2026_0006",
+    "text": "authorized representative to allow for the timed integration (syncing of that work with an audio-visual/ visual content) as part of such audio-visual/visual content.\n\n\n### 2.46 Term of Copyright — The duration for which copyright protection applies to a musical or literary work or a sound recording.\n\n### 2.47 Traditional Work — A musical and/or literary work that is outside the term of copyright and is commonly referred to in industry usage as a public domain work.\n\n\n2.48 Underlying Works — In relation to a sound recording, the musical work (composition) and literary work (lyrics) which are embodied within it, each of which subsists as a separate and independent work under the Copyright Act, 1957.\n\n\n### 2.49 Works — A collective term referring to musical compositions, lyrics, sound recordings, and related creative outputs.\n\n\n\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 13 (28892).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19692_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "2.47",
+      "heading": "2.47 Traditional Work — A musical and/or literary work that is outside the term of copyright and is commonly referred to in industry usage as a public domain work.",
+      "heading_path": [
+        "2 TERMINOLOGY",
+        "2.47 Traditional Work — A musical and/or literary work that is outside the term of copyright and is commonly referred to in industry usage as a public domain work."
+      ],
+      "char_start": 12788,
+      "char_end": 14761,
+      "semantic_chunk_length": 1973,
+      "final_chunk_length": 2275,
+      "standard_no": "IS 19692",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

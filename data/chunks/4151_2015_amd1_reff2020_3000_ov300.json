@@ -1,0 +1,898 @@
+[
+  {
+    "id": "4151_2015_amd1_reff2020_0000",
+    "text": "(Reaffirmed 2020)\n\nIndian Standard\n\nProtective Helmet for Two Wheeler Riders — Specification\n\n(Fourth Revision)\n\nICS 13.340.20\n\n© BIS 2015\n\nBUREAU OF INDIAN STANDARDS\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.standardsbis.in\n\nwww.bis.org.in\n\nDecember 2015\n\nPrice Group 12\n\n\n\n\nFire Fighting Sectional Committee, CED 22\n\nFOREWORD\n\nThis Indian Standard (Fourth Revision) was adopted by the Bureau of Indian Standards, after the draft finalized\n\nby the Fire Fighting Sectional Committee had been approved by the Civil Engineering Division Council.\n\nHelmet is one of the most important items of personal protective equipment used by two wheeler riders for\n\nprotection against the hazards connected with driving on roads. This standard has been framed to cover provisions\n\nof protective helmets for everyday use by the two wheeler riders.\n\nThe protection given by wearing of the helmet for which requirements have been laid in this standard is not\n\ncomplete and wearing of the helmet may not prevent injury and/or death in severe accidents.\n\nThis standard was first issued as an emergency Indian Standard in 1967 (made as firm in 1968) and subsequently\n\nrevised in 1976, 1982 and 1993. This revision has been taken up on the basis of experience gained during these\n\nyears and to bring in line with latest developments at international level. The standard has been aligned with ECE\n\nRegulation No. 22, Revision 4 incorporating 05 series of amendments to the maximum extent possible, keeping\n\nin view the Indian climatic and road conditions.\n\nThe major changes incorporated in this revision are given below:\n\nThe title of the standard has been modified from ‘Protective Helmets for Motorcycle Riders -\n\na)\n\nSpecification' to ‘Protective Helmets for Two Wheeler Riders - Specification';\n\nImpact absorption test has been modified with number of additional impact points, use of kerb stone\n\nb)\n\nanvil, increased impact velocity and head injury criteria etc;\n\nNew tests to simulate the abrasion of helmet during the accident, chin guard and for effectiveness of the\n\nc)\n\nretention system;\n\nd)\n\nInclusion of side impact tests under various conditions of temperature and humidity.; and\n\nAllowance for ventilation for the head, while wearing the helmet.\n\ne)\n\nThe composition of the Committee responsible for the formulation of this standard is given in Annex P.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value,\n\nobserved or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 1960\n\n‘Rules for rounding off numerical values (revised)'. The number of significant places retained in the rounded off\n\nvalue should be the same as that of the specified value in this standard.\n\n\n\nIndian Standard\n\nPROTECTIVE HELMETS FOR TWO WHEELER\n\nRIDERS  SPECIFICATION\n\n(Fourth",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2882,
+      "semantic_chunk_length": 2881,
+      "final_chunk_length": 2881,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0001",
+    "text": "rdance with IS 2 : 1960\n\n‘Rules for rounding off numerical values (revised)'. The number of significant places retained in the rounded off\n\nvalue should be the same as that of the specified value in this standard.\n\n\n\nIndian Standard\n\nPROTECTIVE HELMETS FOR TWO WHEELER\n\nRIDERS  SPECIFICATION\n\n(Fourth\n\n## 1 SCOPE\n\n\n### 1.1 This standard covers the requirements regarding the\n\nmaterial, construction, workmanship, finish, mass and\n\nperformance for protective helmet (with or without lower\n\nface cover) for everyday use by two wheeler riders.\n\n\n### 1.2 The helmets covered by this standard are not\n\nintended for high-speed competitive events.\n\n\n## 2 REFERENCES\n\nThe following standards contain provisions which,\n\nthrough reference in this text, constitute provisions of\n\nthis standard. At the time of publication, the editions\n\nindicated were valid. All standards are subject to\n\nrevision and parties to agreements based on this\n\nstandard are encouraged to investigate the possibility\n\nof applying the most recent editions of the standards\n\nindicated below:\n\nIS No.\n\nTitle\n\n1884 : 1993\n\nAutomotive vehicles: Electric horns\n\n- - Specification (third revision)\nMethods for sampling of helmets\n\n9695 : 1980\n\nMethods of testing corrosion\n\n9844 : 1981\n\nresistance of electroplated and\n\nanodized aluminium coatings by\n\nneutral salt spray test\n\nSpecification for visor for scooter\n\n9973 : 1981\n\nhelmets\n\n15575\n\nElectro acoustics  Sound level\n\nmeters:\n\n(Part 1) : 2005\n\nSpecification\n\n(Part 2) : 2005\n\nPattern evaluation tests",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "1",
+      "heading": "1 SCOPE",
+      "heading_path": [
+        "1 SCOPE"
+      ],
+      "char_start": 2885,
+      "char_end": 4099,
+      "semantic_chunk_length": 1214,
+      "final_chunk_length": 1516,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0002",
+    "text": "sting corrosion\n\n9844 : 1981\n\nresistance of electroplated and\n\nanodized aluminium coatings by\n\nneutral salt spray test\n\nSpecification for visor for scooter\n\n9973 : 1981\n\nhelmets\n\n15575\n\nElectro acoustics  Sound level\n\nmeters:\n\n(Part 1) : 2005\n\nSpecification\n\n(Part 2) : 2005\n\nPattern evaluation tests\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard, the following\n\ndefinitions shall apply (see Fig. 1 and Annex A).\n\n\n### 3.1 Two Wheeler - Any two wheeled motor vehicle\n\nwith or without detachable side car.\n\n\n### 3.2 Protective Helmet - A helmet primarily intended\n\nto protect the wearer's head against impact.\n\n\n### 3.3 Shell - The hard part of the protective helmet\n\nwhich gives it its general shape.\n\n\n### 3.4 Protective Padding - A material used to absorb\n\nimpact energy.\n\nRevision\n\n\n### 3.5 Comfort Padding - A material provided for the\n\nwearer's comfort.\n\n\n### 3.6 Retention System - The complete assembly by\n\nmeans of which the helmet is maintained in position\n\non the head, including any devices for adjustments of\n\nthe system or to enhance the wearer's comfort.\n\n\n#### 3.6.1 Chin Strap - A part of the retention system\n\nconsisting of a strap that passes under the wearer's jaws\n\nto keep the helmet in position.\n\n\n#### 3.6.2 Chin Cup - It is an accessory of the chinstrap\n\nthat fits round the point of the wearer's chin.\n\n\n### 3.7 Peak - It is an extension of the shell above the\n\neyes (detachable)\n\n\n### 3.8 Lower Face Cover - A detachable, movable or\n\nintegral (permanently fixed) part of the helmet covering\n\nthe lower part of the face.\n\n\n#### 3.8.1 Protective Lower Face Cover - A detachable,\n\nmovable or integral (permanently fixed) part of the\n\nhelmet covering the lower part of the face and intended\n\nto protect the chin of the user against impacts.\n\n\n#### 3.8.2 Non-protective Lower Face Cover  A\n\ndetachable, movable or integral (permanently fixed)\n\npart of the helmet covering the lower part of the face\n\nthat does not protect the chin of user against impact.\n\n\n### 3.9 Visor - A transparent protective screen extending\n\nover the eyes and covering all or part of the face.\n\n\n### 3.10 Basic Plane of the Human Head  A plane at\n\nthe level of the opening of the external auditory meatus\n\n(external ear opening) and the lower edge of the orbits\n\n(lower edge of the eye sockets).\n\n\n### 3.11 Basic Plane of the Headform - A plane, which\n\ncorresponds to the basic plane of the human head.\n\n\n### 3.12 Central Vertical Axis - The line relative to\n\nhuman head or headform or helmet that lies in the plane\n\nof symmetry, and that is normal to the basic plane at a\n\npoint equidistant from the front and back of the head\n\nor the headform or helmet.\n\n\n### 3.13 Reference Plane - A construction plane parallel\n\nto the basic plane of the headform at a distance from\n\nit, which is a function of the size of the headform.\n\n\n\nComfort padding\n\nNeck curtain\n\nRetention system\n\n(Chin strap)\n\nShell\n\nProtective\n\npadding.\n\nEdge trim\n\nPadding\n\nPadding\n\n\n**FIG. 1 TYPICAL SKETCH SHOWING INTERNAL COMPONENTS OF HELMET**\n\n\n### 3.14 Neck Curtain - A part of the helmet attached\n\nto the lower edge of the helmet designed to protect\n\nagainst adverse weather conditions, dirt and small\n\nstones.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 4102,
+      "char_end": 6983,
+      "semantic_chunk_length": 2881,
+      "final_chunk_length": 3183,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0003",
+    "text": "strap)\n\nShell\n\nProtective\n\npadding.\n\nEdge trim\n\nPadding\n\nPadding\n\n\n**FIG. 1 TYPICAL SKETCH SHOWING INTERNAL COMPONENTS OF HELMET**\n\n\n### 3.14 Neck Curtain - A part of the helmet attached\n\nto the lower edge of the helmet designed to protect\n\nagainst adverse weather conditions, dirt and small\n\nstones.\n\n## 4 MATERIAL\n\n\n### 4.1 Shell\n\nThe shell of the helmet shall be of metallic or non-\n\nmetallic materials conforming to the test requirements.\n\n\n### 4.2 Protective Padding\n\nIt may be of expanded polystyrene or any other material\n\nhaving similar properties.\n\n\n### 4.3 Comfort Padding\n\nIt may be of expanded polyurethane foam,\n\npolyethylene or any other suitable material having\n\nsimilar properties.\n\n\n### 4.4 Retention System\n\nThe criteria for selection of material for chin strap and\n\ncomfort padding shall be sweat-resistant, non-irritant\n\nand shall not be known to cause any skin disease.\n\n\n### 4.5 Metal Parts\n\nThe metal parts in helmet shall be either inherently\n\ncorrosion resistant or shall have been treated for\n\ncorrosion resistance. Such parts shall show no sign of\n\ncorrosion when subjected to test as specified in IS 9844.\n\n\n### 4.6 Visor\n\nIf provided, it shall conform to IS 9973.\n\n\n## 5 SIZES\n\nHelmets shall be of the sizes matching to the sizes of\n\nheadform of 500, 520, 540, 560, 570, 580, 600 and\n\n620 mm.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "4",
+      "heading": "4 MATERIAL",
+      "heading_path": [
+        "4 MATERIAL"
+      ],
+      "char_start": 6986,
+      "char_end": 8005,
+      "semantic_chunk_length": 1019,
+      "final_chunk_length": 1321,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0004",
+    "text": "orrosion resistance. Such parts shall show no sign of\n\ncorrosion when subjected to test as specified in IS 9844.\n\n\n### 4.6 Visor\n\nIf provided, it shall conform to IS 9973.\n\n\n## 5 SIZES\n\nHelmets shall be of the sizes matching to the sizes of\n\nheadform of 500, 520, 540, 560, 570, 580, 600 and\n\n620 mm.\n\n## 6 CONSTRUCTIONAL REQUIREMENTS\n\n\n### 6.1 General\n\n\n6.1.1 The basic construction of the helmet shall be in\n\nthe form of a hard outer shell containing additional\n\nmeans of absorbing impact energy and a retention\n\nsystem.\n\n\n6.1.2 The protective helmet may be fitted with earflaps\n\nand a neck curtain. It may also have a detachable peak,\n\na visor and a lower face cover. Visor, if fitted, shall\n\n\n\n\nmeet the requirements of IS 9973. If fitted with a non\n\nprotective lower face cover the outer surface of the\n\nprotection to chin from impacts\".\n\n\n6.1.3 No component or device shall be fitted to or\n\nincorporated in the protective helmet unless it is\n\ndesigned in such a way that it shall not cause injury\n\nand that, when it is fitted to or incorporated in the\n\nprotective helmet, the helmet still complies with the\n\nperformance requirements of this standard.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "6",
+      "heading": "6 CONSTRUCTIONAL REQUIREMENTS",
+      "heading_path": [
+        "6 CONSTRUCTIONAL REQUIREMENTS"
+      ],
+      "char_start": 8008,
+      "char_end": 8862,
+      "semantic_chunk_length": 854,
+      "final_chunk_length": 1156,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0005",
+    "text": "mponent or device shall be fitted to or\n\nincorporated in the protective helmet unless it is\n\ndesigned in such a way that it shall not cause injury\n\nand that, when it is fitted to or incorporated in the\n\nprotective helmet, the helmet still complies with the\n\nperformance requirements of this standard.\n\n### 6.2 Shell\n\nThe extent of the protection provided shall be as given\n\nin 6.2.1 to 6.2.7.\n\n\n6.2.1 The shell shall cover all areas above plane AA'\n\nand shall extend downwards at least as far as the lines\n\nCDEF on both sides on the headform (see Fig. 2).\n\n\n#### 6.2.2 At the rear, the rigid parts and, in particular, the\n\nshell shall not be within a cylinder of diameter 100\n\nmm and with axis situated at the intersection of the\n\nmedium plane of symmetry of the headform and of a\n\nplane parallel to and 110 mm below the reference plane\n\n(see Fig. 2).\n\n\n6.2.3 The helmet shall not dangerously affect the\n\nwearer's ability to hear and shall conform to the\n\nrequirements laid down in 7.6.\n\n\n#### 6.2.4 The temperature in the space between the head\n\nand the shell shall not rise inordinately. To prevent this\n\nventilation holes may be provided in the shell.\n\nVentilation may be provided for increasing the comfort\n\nof the rider\n\n\n6.2.5 Above the reference plane, the shape shall be in\n\nthe form of continuous, convex curve, except where\n\nshaping is provided for functional purposes. Below the\n\nreference plane, irregularities in the curve shall be\n\nsmoothly faired. The shell shall not incorporate an\n\nintegral peak, but may incorporate in integral lower\n\nprovided, the profile at the front edge shall not prevent\n\nthe wearing of goggles.\n\n\n#### 6.2.6 All projections from or irregularities in the outer\n\nsurface of the shell greater than 2 mm shall be tested\n\nfor shear assessment according to test for projections\n\nand surface friction as per 7.4. The outer surface of\n\nthe helmet shall be tested for friction assessment\n\naccording to test for projections and surface friction.\n\n\n6.2.7 All external projection shall be radiused and any\n\nexternal projections other than press fasteners shall be\n\nsmooth and adequately faired. Rivet heads shall be\n\nradiused and shall not project more than 2 mm above\n\nthe outer surface of the shell and shall have a radius of\n\nminimum of 1 mm. All external projections more\n\nIS 4151 : 2015\n\nthan 2 mm above the outer surface of the shell shall\n\nhave a radius of minimum of 2 mm. The latter specific\n\nrequirements shall not apply if a projection satisfies\n\nthe requirement in 7.4.1 or 7.4.2.\n\n\n6.2.8 There shall be no inward-facing sharp edges on\n\nthe inside of the helmet. Rigid projecting internal parts\n\nshall be covered with padding so that any stresses\n\ntransmitted to the head are not highly concentrated.\n\n\n#### 6.2.9 The various components of the protective\n\nhelmets shall be so assembled that they are not liable\n\nto become easily detached as a result of an impact.\n\n\n### 6.3 Protective Padding\n\nThe protective padding shall cover all the areas defined\n\nin 6.2.1 taking into account the requirements given\n\nin 6.2.3 and 6.2.4.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "6.2",
+      "heading": "6.2 Shell",
+      "heading_path": [
+        "6 CONSTRUCTIONAL REQUIREMENTS",
+        "6.2 Shell"
+      ],
+      "char_start": 8865,
+      "char_end": 11628,
+      "semantic_chunk_length": 2763,
+      "final_chunk_length": 3065,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0006",
+    "text": "s components of the protective\n\nhelmets shall be so assembled that they are not liable\n\nto become easily detached as a result of an impact.\n\n\n### 6.3 Protective Padding\n\nThe protective padding shall cover all the areas defined\n\nin 6.2.1 taking into account the requirements given\n\nin 6.2.3 and 6.2.4.\n\n### 6.4 Retention System\n\nThe helmet shall be held in place on the wearer's head\n\nby means of a retention system which may be in the\n\nform of chin strap with buckle or double-D ring or\n\nsliding bar or any other similar locking device, which\n\nis secured under the lower jaw. All parts of the retention\n\nsystem shall be permanently attached to the system or\n\nto the helmet/shell.\n\n\n#### 6.4.1 If the retention system includes a chinstrap, the\n\nstrap shall not be less than 20 mm wide under a load\n\nof 150 N ± 5 N applied under the conditions given\n\nin F-1.2 and F-1.3.\n\n\n6.4.2 The chin strap shall not include a chin-cup.\n\n\n6.4.3 Chinstraps shall be fitted with a device to adjust\n\nand maintain tension in the strap.\n\n\n6.4.4 Chin strap fastening and tensioning devices shall\n\nbe positioned on the straps either so that there are no\n\nrigid parts extending more than 130 mm vertically\n\nbelow the headform reference plane with the helmet\n\nmounted on the appropriate sized headform, or so that\n\nthe whole of the device is between the bony projections\n\nof the undersize of the lower jaw.\n\n\n#### 6.4.5 If the retention system includes either a double-\n\nD ring or sliding bar fastening device then means shall\n\nbe provided to prevent the retention system being\n\ncompletely undone and also to retain the free end of\n\nthe strap when the retention system is adjusted.\n\n\n6.4.6 Sliding bar/double-D ring fastening devices shall\n\nbe fitted with a pulling type flap to be used for releasing\n\nthe retention system. Its colour shall be red and its\n\nminimum dimensions shall be 10mm × 20 mm.\n\n\n#### 6.4.7 If a retention system includes a quick-release\n\nmechanism, then the method of release of this\n\nmechanism shall be self-evident. Any levers, tabs.\n\n\n\nbuttons or other components which need to be operated\n\nto release the mechanism shall be coloured red, those\n\nparts of the rest of the system which are visible when\n\nclosed shall not be similarly coloured, and the mode\n\nof operation shall be permanently indicated.\n\n\n6.4.8 The retention system shall remain closed when\n\nthe tests (Impact absorption test, dynamic test of\n\nretention system and retention test) as described\n\nin 7.2, 7.5 and 7.7 are carried out.\n\n\n6.4.9 The buckle of the retention system shall be\n\ndesigned so as to preclude any possibility of incorrect\n\nmanipulation. This means, inter-alia, that it shall not\n\nbe possible for the buckle to be left in a partially closed\n\nposition.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "6.4",
+      "heading": "6.4 Retention System",
+      "heading_path": [
+        "6 CONSTRUCTIONAL REQUIREMENTS",
+        "6.4 Retention System"
+      ],
+      "char_start": 11631,
+      "char_end": 14063,
+      "semantic_chunk_length": 2432,
+      "final_chunk_length": 2734,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0007",
+    "text": "ntion test) as described\n\nin 7.2, 7.5 and 7.7 are carried out.\n\n\n6.4.9 The buckle of the retention system shall be\n\ndesigned so as to preclude any possibility of incorrect\n\nmanipulation. This means, inter-alia, that it shall not\n\nbe possible for the buckle to be left in a partially closed\n\nposition.\n\n### 6.5 The characteristics or the materials used in the\n\nmanufacture of helmets shall be known not to undergo\n\nappreciable alteration under the influence of ageing,\n\nor of the circumstances of use to which the helmet is\n\nnormally subjected, such as exposure to sun, extremes\n\nof temperature and rain. For the parts of the helmet\n\ncoming into contact with the skin, the materials used\n\nshall be known not to undergo appreciable alteration\n\nthrough the effect of perspiration or of toilet\n\npreparations. The manufacturer shall not use materials\n\nknown to cause skin troubles.\n\n\n### 6.6 After the performance of one of the above\n\nprescribed test, the protective helmet shall not exhibit\n\nany breakage or deformation dangerous to the wearer.\n\n\n### 6.7 Peripheral Vision\n\n\n6.7.1 The helmet shall be placed on the head form\n\ncorresponding to its size of a helmet type by the\n\nprocedure specified in Annex B.\n\n\n6.7.2 In the condition mentioned in 6.7.1, there shall\n\nbe no occultation in the field of vision bounded by\n\nplanes as shown in Fig. 3A, 3B and 3C and shall satisfy\n\nthe requirements as given in 6.7.2.1, 6.7.2.2 and 6.7.2.3.\n\nNumber of Helmets to be Conditioned\n\nTest\n\nSolvent + Heat\n\nSolvent + Ambient\n\nConditioning\n\nTemperature and\n\nHygrometry\n\nConditioning\n\nImpact\n\nabsorption\n\nRigidity\n\nRetention system\n\n6.7.2.1 Horizontally\n\nTwo segments of dihedral angles symmetrical in\n\nrelation to the median longitudinal vertical plane of\n\nthe headform and situated between the reference and\n\nthe basic planes. Each of these dihedral angles is\n\ndefined by longitudinal vertical median plane of the\n\nheadform and the vertical plane forming an angle of\n\nnot less than 105 with the median longitudinal vertical\n\nplane and whose edge is the straight line LK\n\n(see Fig. 3A and 3C).\n\n6.7.2.2 Upwards\n\nA dihedral angle defined by the reference plane of the\n\nheadform and a plane forming an angle of not less than\n\n7o with the reference plane and whose edge is the\n\nstraight line Li, L2; the points L and L2 representing\n\nthe eyes (see Fig. 3A and 3B).\n\n6.7.2.3 Downwards\n\nA dihedral angle defined by the basic plane of the\n\nheadform and a plane forming an angle of not less than\n\n\n45 with the basic plane and whose edge is the straight\n\nline Ki, K2 (see Fig. 3A and 3B)\n\n\n### 6.8 Workmanship and Finish\n\n\n6.8.1 All edges shall be smooth and rounded. Any\n\nexternal or internal projection permitted under 6.2.6\n\nand 6.2.7 shall be smooth and adequately faired to other\n\nsurfaces.\n\n\n### 6.9 Mass\n\nThe protective helmets with lesser mass are preferred\n\nand may be available with the increasing availability\n\nof more advanced composites and materials. However,\n\nmass of the complete helmet (without peak, visor and\n\ndetachable lower face cover, if provided) shall not\n\nexceed 1 500 g.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "6.5",
+      "heading": "6.5 The characteristics or the materials used in the",
+      "heading_path": [
+        "6 CONSTRUCTIONAL REQUIREMENTS",
+        "6.5 The characteristics or the materials used in the"
+      ],
+      "char_start": 14066,
+      "char_end": 16837,
+      "semantic_chunk_length": 2771,
+      "final_chunk_length": 3073,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0008",
+    "text": "\n### 6.9 Mass\n\nThe protective helmets with lesser mass are preferred\n\nand may be available with the increasing availability\n\nof more advanced composites and materials. However,\n\nmass of the complete helmet (without peak, visor and\n\ndetachable lower face cover, if provided) shall not\n\nexceed 1 500 g.\n\n## 7 TESTS FOR HELMETS\n\n\n7.1 Each helmet type shall be conditioned as shown\n\nbelow:\n\nTotal\n\nSolvent Ultra violet\n\nSolvent + Low\n\nTemperature\n\nRadiation\n\nConditioning\n\nConditioning and\n\nMoisture\n\nConditioning\n\n\n\n\nThe largest size of each helmet type shall be tested for\n\nimpact absorption and rigidity. For tests of the\n\nretention system, helmet size shall be chosen such\n\nthat the helmet to be tested shall be that offering the\n\nleast favourable conditions (such as thickest padding,\n\netc).\n\nAdditionally, for each smaller headform size within\n\nthe size range of the helmet type two helmets shall\n\nundergo the impact absorption test. One helmet shall\n\nbe heat conditioned, and the other low temperature\n\nconditioned. The conditioned helmets shall be\n\nimpacted against either anvil, in equal numbers as far\n\nas possible.\n\n\n#### 7.1.1 Types of Conditioning\n\n7.1.1.1 Solvent conditioning\n\nTake a cotton cloth approximately 150 mm square and\n\na quantity approximately 25 ml of a solvent consisting\n\nof test liquid with (70 percent octane and 30 percent\n\ntoluene). Using the cloth soaked in the solvent, apply\n\nthe solvent to all those regions of the outside surface\n\nof the helmet shell within 50 mm of the chin strap\n\nfixings and keep these regions wet within the solvent\n\nfor 7.5 ± 2.5 s. Repeat the procedure on the remainder\n\nof the external surface including any chin guard, keeping\n\nthese regions wet for 12.5 ± 2.5 s. No further\n\nconditioning or testing be done during the following\n\n\n30 min.\n\n7.1.1.2 Ambient temperature and hygrometry\n\nconditioning\n\nThe helmet shall be exposed to a temperature of 25 ±\n\n5°C and a relative humidity of 65 ± 5 percent for at\n\nleast 4 h.\n\n7.1.1.3 Heat conditioning\n\nThe helmet shall be exposed to a temperature of 50 ±\n\n2oC for not less than 4 h and not more than 6 h.\n\n7.1.1.4 Low-temperature conditioning\n\nThe helmet shall be exposed to a temperature of -20 ±\n\n2oC for not less than 4 h and not more than 6 h.\n\n7.1.1.5 Ultraviolet-radiation conditioning and\n\nmoisture conditioning\n\nThe outer surface of the protective helmet shall be\n\nexposed successively to ultraviolet irradiation by a",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "7",
+      "heading": "7 TESTS FOR HELMETS",
+      "heading_path": [
+        "7 TESTS FOR HELMETS"
+      ],
+      "char_start": 16840,
+      "char_end": 18965,
+      "semantic_chunk_length": 2125,
+      "final_chunk_length": 2427,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0009",
+    "text": "ture conditioning\n\nThe helmet shall be exposed to a temperature of -20 ±\n\n2oC for not less than 4 h and not more than 6 h.\n\n7.1.1.5 Ultraviolet-radiation conditioning and\n\nmoisture conditioning\n\nThe outer surface of the protective helmet shall be\n\nexposed successively to ultraviolet irradiation by a\n\n## 125 W xenon filled quartz lamp for 48 h at a range of\n\n25 cm, followed by spraying for 4 to 6 h with water at\n\nambient temperature at the rate of 1 litre/min.\n\n\n### 7.2 Impact Absorption Test\n\nThe helmet shall be tested by the method prescribed in\n\n\nAnnex C and shall meet the requirements given in 7.2.1\n\nand 7.2.2.\n\nIS 4151 : 2015\n\n\n7.2.1 The absorption efficiency shall be considered\n\nsufficient where the resultant acceleration measured\n\nat the centre of gravity of the headform at no time\n\nexceeds 275 g, and the head injury criterion does not\n\nexceed 2 400.\n\n\n7.2.2 The helmet shall not become detached from the\n\nheadform.\n\n\n### 7.3 Rigidity Test\n\nThe helmet shall be tested by the method prescribed in\n\n\nAnnex D and shall meet the requirements given in 7.3.1\n\nand 7.3.2.\n\n\n#### 7.3.1 Along each axis, the deformation measured\n\nunder the 630 N load shall not exceed by more than\n\n\n40 mm than that measured under the initial 30 N load.\n\n\n#### 7.3.2 After restoration of the 30 N load, the\n\ndeformation measured shall not exceed by more than\n\n\n15 mm than that measured under the initial 30 N load.\n\n\n### 7.4 Test for Projections and Surface Friction\n\nAn appropriate size of helmet shall be subjected to the\n\ntest either by method A or by method B as prescribed\n\nin Annex E and shall meet the requirements given\n\nin 7.4.1 or 7.4.2.\n\n\n#### 7.4.1 Test for Projections and Surface Friction\n\n(Method A)\n\n7.4.1.1 When tested against the bar anvil the helmet\n\nshall satisfy the following requirement:\n\nThe peak longitudinal force measured on the anvil shall\n\nnot exceed 2 500 N nor shall its integral with respect\n\nto time over the duration of the impact exceed 12.5 Ns\n\nfor any of the selected impact points.\n\n7.4.1.2 When tested against the abrasive anvil, a\n\nsecond helmet shall satisfy the following requirement:\n\nThe peak longitudinal force measured on the anvil shall\n\nnot exceed 3 500 N, nor shall its integral with respect\n\nto time over the duration of the impact exceed 25 Ns\n\nfor any of the selected impact points.\n\n\n#### 7.4.2 Test for Projections and Surface Friction\n\n(Method B)\n\n7.4.2.1 For shear assessment the tested projection,\n\nshall shear away, shall be detached or alternatively shall\n\nnot prevent the assessment bar from sliding past the\n\nprojection. In all cases the bar on the horizontal carriage\n\nshall travel past the projection.\n\n7.4.2.2 For friction assessment the abrasive carriage\n\nshall not be brought to rest by the helmet.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "125",
+      "heading": "125 W xenon filled quartz lamp for 48 h at a range of",
+      "heading_path": [
+        "125 W xenon filled quartz lamp for 48 h at a range of"
+      ],
+      "char_start": 18968,
+      "char_end": 21422,
+      "semantic_chunk_length": 2454,
+      "final_chunk_length": 2756,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0010",
+    "text": "ear away, shall be detached or alternatively shall\n\nnot prevent the assessment bar from sliding past the\n\nprojection. In all cases the bar on the horizontal carriage\n\nshall travel past the projection.\n\n7.4.2.2 For friction assessment the abrasive carriage\n\nshall not be brought to rest by the helmet.\n\n### 7.5 Dynamic Test of Retention System\n\nThe helmet shall be tested for their retention system\n\n\n\nby the method prescribed in Annex F and shall meet\n\nthe requirements given in 7.5.1 and 7.5.2.\n\n\n#### 7.5.1 During the test, the dynamic displacement of the\n\npoint of application of the force shall not exceed 35 mm.\n\n\n#### 7.5.2 After 2 min, the residual displacement of the\n\npoint of application of the force, as measured under a\n\nmass of 15 kg ± 0.5 kg shall not exceed 25 mm.\n\n\n7.5.3 Damage to the retention system shall be accepted\n\nprovided that it is still possible to take the helmet easily\n\noff the headform and that the requirements given\n\nin 7.5.1 and 7.5.2 above are met.\n\n\n#### 7.5.4 In the case of retention system fitted with quick\n\nrelease mechanism it shall be possible to release the\n\nmechanism in accordance with 7.10.2.\n\n\n### 7.6 Audibility Test\n\nThe helmet shall be tested for their sound attenuation\n\nproperties by the method prescribed in Annex G and\n\nshall meet the requirements given in 7.6.1.\n\n\n7.6.1 The sound transmission loss shall not be more\n\nthan 10 dB over the frequency range 250 to 2 000 Hz.\n\n\n### 7.7 Retention (Detaching) Test of Helmet\n\nThe helmet shall be tested by the method prescribed in\n\n\nAnnex H and shall meet the requirements given in 7.7.1.\n\n\n#### 7.7.1 After the test the angle between the reference\n\nline situated on the shell of the helmet and the reference\n\nplane of the headform shall not exceed 3o°.\n\n\n### 7.8 Micro-slip Test of the Chin Strap\n\nIt shall be tested by the method prescribed in Annex J\n\nand shall meet the requirements given in 7.8.1.\n\n\n7.8.1 The total slippage through the grip shall not\n\nexceed 10 mm.\n\n\n### 7.9 Test for Resistance to Abrasion of the Chin Strap\n\nThe test shall be performed by the method prescribed\n\nin Annex K on every device in which the strap slides\n\nthrough a rigid part of the retention system, with the\n\nfollowing exceptions as mentioned in 7.9.1 and 7.9.2.\n\nIt shall meet the requirements given in 7.9.3.\n\n\n#### 7.9.1 Where the micro-slip test described in 7.8, shows\n\nthat the strap slips less than half the prescribed value; or\n\n\n#### 7.9.2 Where the composition of the material used, or\n\nthe information already available, renders the test\n\nsuperfluous in the judgment of the technical service.\n\n\n7.9.3 After the test described in K-1.3 the strap shall\n\nwithstand a tension of 3 KN without breaking when\n\ntested as per K-1.4.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "7.5",
+      "heading": "7.5 Dynamic Test of Retention System",
+      "heading_path": [
+        "125 W xenon filled quartz lamp for 48 h at a range of",
+        "7.5 Dynamic Test of Retention System"
+      ],
+      "char_start": 21425,
+      "char_end": 23844,
+      "semantic_chunk_length": 2419,
+      "final_chunk_length": 2721,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0011",
+    "text": "r\n\n\n#### 7.9.2 Where the composition of the material used, or\n\nthe information already available, renders the test\n\nsuperfluous in the judgment of the technical service.\n\n\n7.9.3 After the test described in K-1.3 the strap shall\n\nwithstand a tension of 3 KN without breaking when\n\ntested as per K-1.4.\n\n### 7.10 Tests for Retention Systems Relying on Quick-\n\nRelease Mechanisms\n\n\n#### 7.10.1 Inadvertent Release by Pressure\n\n7.10.1.1 If the retention system is designed to be\n\nreleased by pressure on a certain part, the system shall\n\nnot release when a rigid sphere of diameter 100 mm is\n\npressed with a force of 100 ± 5 N directly in the line of\n\nmovement of the part.\n\n7.10.1.2 If such a system incorporates more than one\n\nquick-release mechanism, or one such mechanism\n\nrequiring more than one operation to release it, the\n\nsystem shall be deemed not to comply with this\n\nrequirement if sufficient opening of the system is\n\ncaused by the pressure of the sphere on only one quick-\n\nrelease mechanism or for only one operation,\n\nwhichever is appropriate, to allow the release of the\n\nappropriate headform.\n\n\n#### 7.10.2 Ease of Release\n\nAfter the additional force has been removed, the\n\nopening system shall be capable of being operated by\n\na force not exceeding 3o N. However, if the quick\n\nrelease mechanism is incorporated in the helmet shell.\n\nthe opening system shall be capable of being operated\n\nby a force not exceeding 60 N.\n\n7.10.2.1 The helmet shall be mounted on the test\n\nmachine as shown in Fig. 8 as described in F-1.3 such\n\nthat a static force of 150 ± 5 N is applied to the retention\n\nsystem. An additional static force of 350 ± 5 N shall\n\nbe applied to the retention system for at least 30 seconds\n\nand then removed.\n\n7.10.2.2 The buckle opening force shall be applied\n\nusing a dynamometer or similar device in the manner\n\nand direction of normal use. In the case of a push button\n\nthe contact end shall be a polished metal hemisphere\n\nwith radius 2.5 ± 0.1 mm. The opening force shall be\n\napplied on the geometric centre of the push button or\n\nrespective application areas.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "7.10",
+      "heading": "7.10 Tests for Retention Systems Relying on Quick-",
+      "heading_path": [
+        "125 W xenon filled quartz lamp for 48 h at a range of",
+        "7.10 Tests for Retention Systems Relying on Quick-"
+      ],
+      "char_start": 23847,
+      "char_end": 25638,
+      "semantic_chunk_length": 1791,
+      "final_chunk_length": 2093,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0012",
+    "text": "g a dynamometer or similar device in the manner\n\nand direction of normal use. In the case of a push button\n\nthe contact end shall be a polished metal hemisphere\n\nwith radius 2.5 ± 0.1 mm. The opening force shall be\n\napplied on the geometric centre of the push button or\n\nrespective application areas.\n\n#### 7.10.3 Durability of Quick-Release Mechanisms\n\nThe quick release mechanism shall not fracture nor\n\ndisengage when a tensile force of 2.0 kN ± 50 N is\n\nprogressively applied to the retention system in the\n\ndirection in which the mechanism is designed to bear\n\nload. Following the application and removal of the\n\nforce the quick release mechanism shall still be capable\n\nof operation.\n\n7.10.3.1 Procedure\n\n7.10.3.1.1 Subject the quick-release mechanism to the\n\nfollowing procedures in the order given:\n\nUsing apparatus appropriate to the particular design\n\nof mechanism carry out the following procedure. Close\n\nand lock the mechanism. Apply a loading force of 20\n\n± 1 N in the direction in which the mechanism is\n\ndesigned to bear load, then unlock and disengage the\n\nmechanism under load. Complete this cycle in not less\n\nthan 2 s. Repeat for a total of 5 000 cycles.\n\n\n\n\n7.10.3.1.2 If the quick-release mechanism incorporates\n\nmetal components carry out the following procedure:\n\nPlace the complete mechanism in a closed cabinet so\n\nthat the mechanism can be continuously wetted by a\n\nspray while still allowing free access of air to all parts\n\nof the mechanism. Subject the mechanism to a spray\n\nof a solution consisting of 5% ± 1% (m/m) of reagent\n\ngrade sodium chloride in distilled or de-ionized water\n\nfor a period of 48 ± 1 h at a temperature of35° C± 5° C.\n\nRinse the mechanism thoroughly in clean running water\n\nto remove salt deposits and allow it to dry for 24 ± 1 h.\n\nRepeat the procedure given in 7.10.3.1.1.\n\nFOR\n\nAND\n\n\n## 8 SAMPLING\n\nCRITERIA\n\nCONFORMITY\n\nThe method of sampling and criteria for conformity\n\nshall be as per IS 9695.\n\n\n## 9 MARKING\n\n\n9.1 Each helmet shall be clearly and indelibly marked\n\nwith the following information in a readily accessible\n\nplaces:\n\nManufacturer's name or trade-mark:\n\na)\n\nBatch No.;\n\nb)\n\nIS 4151 : 2015\n\nMonth and year of manufacturing;\n\nSize;\n\nd)\n\nMass of the helmet to the nearest 50 g. (For\n\ninformation to the consumer only)\n\nNOTE - The maximum mass quoted should include all the\n\naccessories that are supplied with the helmets, with the\n\npackaging, as it is placed on the market, whether or not those\n\naccessories have actually been fitted to the helmet\".\n\nf)\n\nName of the country of manufacturing; and\n\nTo be marked as “Does not provide any\n\ng)\n\nadditional protection to chin from impacts\",\n\nif applicable (see 6.1.2)\n\n\n9.1.1 The marking shall not be in the main field of\n\nVision.\n\n\n### 9.2 BIS Certification Marking\n\nThe helmet may also be marked with the Standard\n\nMark.\n\n\n9.2.1 The use of the Standard Mark is governed by\n\nthe provisions of the Bureau of Indian Standards Act,\n\n\n1986 and the Rules and Regulations made thereunder.\n\nThe details of conditions under which the license for\n\nthe use of the Standard Mark may be granted to\n\nmanufacturers or producers may be obtained from the\n\nBureau of Indian Standards",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "7.10.3",
+      "heading": "7.10.3 Durability of Quick-Release Mechanisms",
+      "heading_path": [
+        "125 W xenon filled quartz lamp for 48 h at a range of",
+        "7.10 Tests for Retention Systems Relying on Quick-",
+        "7.10.3 Durability of Quick-Release Mechanisms"
+      ],
+      "char_start": 25641,
+      "char_end": 28522,
+      "semantic_chunk_length": 2881,
+      "final_chunk_length": 3183,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0013",
+    "text": "rned by\n\nthe provisions of the Bureau of Indian Standards Act,\n\n\n1986 and the Rules and Regulations made thereunder.\n\nThe details of conditions under which the license for\n\nthe use of the Standard Mark may be granted to\n\nmanufacturers or producers may be obtained from the\n\nBureau of Indian Standards\n\n## ANNEX A\n\n(Clauses 3 and 6.2)\n\nHEADFORMS\n\nReference plane\n\n12.\n\n44.\n\nBasic\n\n\n25.5\n\nConiralverticalaxis\n\n0 100\n\nSoction HH\n\nSection AA\n\nHeadforms\n\nSize\n\nAC\n\nHD\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n27.5\n\n102.5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNOTE  For details see Annex M and Annex N\n\nAll dimensions in millimetres.\n\n\n**FIG. 2 MINIMUM EXTENT OF PROTECTION**\n\n\n\n\nVertical field\n\nα2≥ 7°\n\nB≥ 45°\n\nK K\n\nFront\n\nrionzontal field\n\n105* min\n\nmm\n\nFront\n\nIS 4151 : 2015\n\nReference plane\n\nBasic plane\n\nCentral vertical axis\n\nReference plane\n\ncross-secuon\n\nProjection af edges\n\nof dihedral angle c\n\nμlorzontal feld\n\n105*min\n\nFront\n\nProjection of edges\n\nof dihedral angle β\n\nBasic plane\n\ncross-secton\n\n\n**FIG. 3A PERIPHERAL VISION**\n\n\n\nReference plane\n\nBasic plane\n\n45°\n\nVertical median plane\n\nCentral vertical axis\n\n\n**FIG. 3B PERIPHERAL VISION  VERTICAL FIELD**\n\n\n\n\nReference plane\n\nBasic plane\n\n105*\n\n105°\n\nVertical median plane\n\nIS 4151 : 2015\n\nCentralverticalaxis\n\n\n**FIG. 3C PERIPHERAL VISION  HORIZONTAL FIELD**\n\n\n\n\nReference plane\n\nCentral vertical axis\n\nBasic plane\n\nFront\n\n12.7 mm\n\n\n**FIG. 4 IDENTIFICATION OF IMPACT POINTS**\n\n\n\n\n\n## ANNEX B\n\n(Clause 6.7.1)\n\nPOSITIONING OF THE HELMET ON THE HEADFORM\n\nB-1 The helmet is placed on a headform of appropriate\n\nsize. A load of 50 N is applied on the crown of the\n\nhelmet in order to adjust the helmet on the headform.\n\nIt shall be ascertained that the vertical median plane of\n\nthe helmet coincides with the median vertical plane of\n\nthe headform.\n\nB-2 The front edge of the helmet is placed against a\n\ngauge to check the minimum angle for the upward field\n\nof vision. The following points are then checked.\n\nB-2.1 That the line AC and the ACDEF zone are\n\ncovered by the shell (see Fig. 2)\n\nB-2.2 That the requirements for the minimum downward\n\nangle and the horizontal field of vision are satisfied.\n\nB-2.3 Requirements mentioned in 6.2.2 relating to the\n\nrear projection shall be met.\n\nB-3 If one of the above conditions is not met, the\n\nhelmet is moved slightly from front to rear to seek a\n\nposition where all the requirements are met. Once such\n\na position is determined, a horizontal line is drawn on\n\nthe shell at the level of the AA' plane. This horizontal\n\nline shall determine the reference plane for the\n\npositioning of the helmet during the tests.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 15,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 28527,
+      "char_end": 30794,
+      "semantic_chunk_length": 2267,
+      "final_chunk_length": 2569,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0014",
+    "text": "ghtly from front to rear to seek a\n\nposition where all the requirements are met. Once such\n\na position is determined, a horizontal line is drawn on\n\nthe shell at the level of the AA' plane. This horizontal\n\nline shall determine the reference plane for the\n\npositioning of the helmet during the tests.\n\n## ANNEX C\n\n(Clause 7.2)\n\nIMPACT ABSORPTION TEST\n\nC-1 PRINCIPLE\n\nImpact absorption capacity is determined by recording\n\nagainst time, the acceleration imparted to a headform\n\nfitted with the helmet, when dropped in guided free fall\n\nat a specified impact velocity upon a fixed steel anvil.\n\nC-2 APPARATUS (see Fig. 5)\n\nThe test apparatus shall comprise of the following:\n\nA base;\n\na)\n\nb)\n\nAn anvil rigidly fixed to a base;\n\nc)\n\nA free fall guidance system;\n\nA mobile system supporting the helmeted\n\nd)\n\nheadform;\n\nA metal headform fitted with a tri-directional\n\naccelerometer and a measuring assembly; and\n\nf)\n\nA system by which the point of impact may\n\nbe brought into correspondence with the\n\ncentre of the anvil.\n\nC-2.1 Base\n\nC-2.1.1 The base shall be made of steel or concrete or\n\na combination of these materials and have mass of at\n\nleast 500 kg. It shall be so constructed that there is no\n\nsignificant deformation of surface under the test load.\n\nC-2.1.2 No part of the base or anvil shall have a\n\nresonance frequency liable to affect the measurements.\n\nC-2.2 Anvils\n\nC-2.2.1 The flat steel anvil shall have a circular impact\n\nface of 130 mm ± 3 mm diameter.\n\nC-2.2.2 The kerbstone anvil shall have two sides\n\nforming an angle of 105° ± 5°, each of them with a\n\nslope of 52.5° ± 2.5° towards the vertical and meeting\n\nalong a striking edge with a radius of 15 mm ± 0.5\n\nmm. The height shall be at least 50 mm and the length\n\nnot less than 125 mm. The orientation is 45o to the\n\nlongitudinal vertical plane at Points B, P and R, and\n\n45° to the base plane at Point X (front low, back up).\n\nC-2.3 Mobile System and Guides\n\nThe mobile system supporting the headform shall be\n\nsuch that its characteristics do not affect the\n\nmeasurement of acceleration at the centre of gravity\n\nof the headform. It shall also be such that any point in\n\nthe area ACDEF can be positioned vertically above the\n\ncentre of the anvil. The guides shall be such that the\n\nimpact velocity is not less than 95 percent of the\n\ntheoretical velocity.\n\nC-2.4 Accelerometer and Measuring Assembly\n\nC-2.4.1 The accelerometer shall be capable of\n\nwithstanding a maximum acceleration of 2 000 g\n\nwithout damage. Its maximum mass shall be 50 g. The\n\nmeasuring system including the drop assembly shall\n\n\n\nhave a frequency response in accordance with channel\n\nfrequency class (CFC) 1 000 (see ISO 6487)\n\nC-2.4.2 The HIC shall be calculated as the maximum\n\n(depending from t and t2 of the equation):\n\n12.5\n\n(4-0)\n\nHIC =\n\nwhere ‘a' is the resultant acceleration as a multiple of\n\n‘g' and ti and t2 are any two points in time(s) during\n\nthe impact. The acceleration data has to be sampled at\n\na frequency of at least 8 oo0 Hz and filtered\n\n(CFC 1 000) (see ISO 6487).\n\nC-2.5 Headforms\n\nC-2.5.1 The headform to be used for the impact\n\nabsorption test shall be made of a metal of\n\ncharacteristics such that the headform present no\n\nresonance frequency below 3 0o0 Hz. The general\n\ncharacteristics of the test headform shall be used shall",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 30797,
+      "char_end": 33797,
+      "semantic_chunk_length": 3000,
+      "final_chunk_length": 3302,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0015",
+    "text": "red\n\n(CFC 1 000) (see ISO 6487).\n\nC-2.5 Headforms\n\nC-2.5.1 The headform to be used for the impact\n\nabsorption test shall be made of a metal of\n\ncharacteristics such that the headform present no\n\nresonance frequency below 3 0o0 Hz. The general\n\ncharacteristics of the test headform shall be used shall\n\nbe as given in Table 1.\n\n\n**Table 1 General Characteristics of Test Headforms**\n\nSi No.\n\nSize\n\nSymbols\n\nMass\n\nkg\n\nmm\n\n(1)\n\n(2)\n\n(4)\n\n(3)\n\ni)\n\n3.1 ± 0.10\n\nii)\n\n\n4.1 ± 0.12\n\n\nii)\n\n4.7 ± 0.14\n\n\niv)\n\n5.6 ± 0.16\n\n\nv)\n\n6.1 ± 0.18\n\nNOTE — Headform of sizes not listed in this table shall be\n\ntested with the next smaller headform size given in Fig.2.\n\nC-2.5.2 The shape of the test headforms shall be:\n\nAbove the reference plane, in conformity with\n\na)\n\nthe detailed dimensions of the test headforms\n\nshown in Annex M;\n\nb)\n\nBelow the reference plane, in conformity with\n\nthe detailed dimensions of the test headforms\n\nshown in Annex N;\n\nC-2.5.3 The centre of gravity of the headform shall\n\nbe near the Point G on the central vertical axis at 1 mm\n\nbelow the reference plane, as defined in Annex N. The\n\nheadform shall contain, near its centre of gravity, a\n\nhousing for a tri-directional accelerometer.\n\nC-2.5.4 For tests other than those of impact absorption,\n\nheadforms complying only with the geometrical\n\nprovisions of C-2.5.2 may be used.\n\nC-3 PROCEDURE\n\nC-3.1 Marking of Points of Impact\n\nBefore conditioning, the points and areas of impact\n\nare marked as indicated in C-3.4.3 and Fig. 4.\n\nC-3.2 Positioning of the Helmet after Conditioning\n\nC-3.2.1 The helmet shall be positioned in accordance\n\n\nwith the requirements of Annex B on a headform of\n\nappropriate size selected from among those listed\n\nin C-2.5.1 when testing impact Points B, X, P, R. The\n\nhelmet shall then be tipped towards the rear so that the\n\nfront edge of the helmet in the median plane is\n\ndisplaced by 25 mm; the retention system shall then\n\nbe adjusted under the chin of the headform; if the\n\nsystem includes an adjustable chinstrap, the strap is\n\ntightened as for normal use.\n\nC-3.2.2 When testing impact Point ‘S' on a helmet\n\nwith a protective lower face cover, the helmeted\n\nheadform is tipped forwards so that the central vertical\n\naxis of the headform is inclined at an angle of 65 ± 3°\n\nto the vertical with the vertical longitudinal plane of\n\nsymmetry of the helmeted head form in the vertical\n\nposition. If the impact point would be within 15 mm\n\nof the rim, the helmeted headform shall be re-\n\npositioned so that the impact point is not less than 15\n\nmm from the rim.\n\nC-3.2.3 The test headform shall be so positioned that\n\nthe designated point on the helmet is vertically above\n\nthe centre of the anvil. The plane tangential to the point\n\nof impact shall be horizontal. This prescription does\n\nnot apply to S impact point.\n\nC-3.2.4 The protective helmets placed on the market\n\nwith a visor shall be tested with the visor and without\n\npeak in the closed position.\n\nC-3.3 Impact Velocity\n\nC-3.3.1 The test shall be completed not more than five\n\nminutes after the helmet is taken from the conditioning\n\nchamber. If the test does not complete within the\n\nstipulated time the same shall be kept for reconditioning\n\nfor not less than 1 h. Tests at Point S shall be carried",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 33799,
+      "char_end": 36748,
+      "semantic_chunk_length": 2949,
+      "final_chunk_length": 3251,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0016",
+    "text": "3.3 Impact Velocity\n\nC-3.3.1 The test shall be completed not more than five\n\nminutes after the helmet is taken from the conditioning\n\nchamber. If the test does not complete within the\n\nstipulated time the same shall be kept for reconditioning\n\nfor not less than 1 h. Tests at Point S shall be carried\n\nout after tests as Points B, X, P and R. The drop height\n\nshall be such that the unit constituted by the headform\n\nand helmet falls on the test anvil at a velocity, which.\n\nimmediately before impact, is equal to:\n\n7.5 +0.15\n\nm/s for both anvils specified in C-2.2.\n\n5.5 +0.15\n\nm/s for tests at Point S.\n\nC-3.3.2 The velocity of the moving mass is measured\n\nbetween 1 cm and 6 cm before impact, to an accuracy\n\nof 1 percent. The acceleration against time at the centre\n\nof gravity of the headform is measured and recorded\n\nand the Head Injury Criterion (HIC) as prescribed\n\nin C-2.4.2 shall be calculated.\n\nC-3.4 Selection of Points of Impact\n\nC-3.4.1 Each test shall be carried out with 4 impacts\n\non one helmet on the points B, X, P, and R, in this\n\nsequence. When a helmet with a protective lower face\n\ncover is being tested then an additional Point S shall\n\n\n\nElectromagnetic dropper\n\nGuide cables\n\nHeadform support dolly\n\nDolly dampers\n\nDolly dampers\n\nAnvil\n\nPlate magnet\n\nSteel base (at least 500kg.)\n\nRubber slab (60 shore)\n\n\n**FIG. 5 TEST MACHINE HEAD FORM DROP ASSEMBLY**\n\nbe impacted after the four other points, but only against\n\nthe anvil specified in C-2.2.1.\n\nC-3.4.2 After each impact the helmet shall be re-\n\npositioned correctly on the headform prior to the next\n\nimpact, without interfering with the adjustment of the\n\nretention system. Before each impact on the Point S the\n\nhelmet shall be re-positioned correctly on the headform\n\nand the retention system adjusted under the chin of the\n\nheadform; if the system includes an adjustable chin strap:\n\nthe strap is tightened as much as possible.\n\nC-3.4.3 The points of impact are defined for each\n\nhelmet (Fig. 4).\n\nB, in the frontal area, situated in the vertical\n\nlongitudinal plane of symmetry of the helmet and at\n\nan angle of20° measured from Z above the ‘AA' Plane.\n\nX, in either the left or right lateral area, situated in the\n\ncentral transverse vertical plane and 12.7 mm below\n\nthe ‘AA' Plane.\n\nR, in the rear area, situated in the vertical longitudinal\n\nplane of symmetry of the helmet and at an angle of\n\n20° measured from Z above the ‘AA' Plane.\n\nP, in the area with a radius of 50 mm and a centre at\n\nthe intersection of the central vertical axis and the outer\n\nsurface of the helmet shell.\n\nS, in the lower face cover area, situated within an area\n\nbounded by a sector of 20 divided symmetrically by the\n\nvertical longitudinal plane of symmetry of the helmet.\n\nImpacts at Points B, X and R should be within 1O mm\n\nradius of the defined point.\n\nC-3.5 Combination of Conditioning and Anvils\n\nAnvilsl)\n\nConditioning: Solvent\n\nPlus\n\nFlat and kerbstone\n\nAmbient\n\nKerbstone2)\n\nHeat\n\nLow temperature3)\n\nFlat2)\n\nUltraviolet radiation\n\nFlat or kerbstone (to be\n\nselected by the laboratory)\n\nand moisture",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 36750,
+      "char_end": 39524,
+      "semantic_chunk_length": 2774,
+      "final_chunk_length": 3076,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0017",
+    "text": "ld be within 1O mm\n\nradius of the defined point.\n\nC-3.5 Combination of Conditioning and Anvils\n\nAnvilsl)\n\nConditioning: Solvent\n\nPlus\n\nFlat and kerbstone\n\nAmbient\n\nKerbstone2)\n\nHeat\n\nLow temperature3)\n\nFlat2)\n\nUltraviolet radiation\n\nFlat or kerbstone (to be\n\nselected by the laboratory)\n\nand moisture\n\n- 1) Point ‘S' shall only be impacted against the flat anvil.\n- 2) Only for the largest helmet size. For smaller headforms in\nthe size range of thehelmet type either anvil may be used.\n\n- 3) Only for each helmet size subjected to low temperature\nconditioning shallundergo the impact test at Point ‘S'.\n\n\n\n\n## ANNEX D\n\n(Clause 7.3)\n\nRIGIDITY TEST\n\nD-1 PROCEDURE\n\nD-l.1 The helmet, after undergoing ambient\n\ntemperature and humidity conditioning shall be placed\n\nbetween two parallel plates by means of which a known\n\nload can be applied along the longitudinal axisl) (line\n\nLL in Fig. 6) or the transverse axis (line TT in Fig. 6).\n\nThe surface of the plates shall be large enough to\n\ncontain a circle of at least 65 mm in diameter. An initial\n\nload of 30 N shall be applied at a minimum plates speed\n\nof 20 mm/min, and after 2 min the distance between\n\nthe plates shall be measured. The load shall then be\n\nincreased by 100 N at a minimum plate speed of 20\n\nmm/min and then wait for 2 min. This procedure shall\n\nbe repeated until the application of a load of 630 N.\n\nD-1.2 The load applied to the plates shall then be\n\nreduced to 30 N at a minimum plate speed of 20 mm/\n\nmin, the distance between the plates shall then be\n\nmeasured.\n\nD-1.3 The helmet used for the test along the longitudinal\n\n\n**FIG. 6 REPRESENTATIVE FIGURE INDICATING**\n\nLONGITUDINAL AND TRANSVERSE AXIS\n\naxis shall be a new helmet and another new helmet shall\n\nbe used for the test along the transverse axis.\n\n- 1) During the test along the longitudinal axis the contact point\nbetween the helmet and one of the two plates shall be the ‘B'\n\nimpact point.",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 39526,
+      "char_end": 41148,
+      "semantic_chunk_length": 1622,
+      "final_chunk_length": 1924,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0018",
+    "text": "RE INDICATING**\n\nLONGITUDINAL AND TRANSVERSE AXIS\n\naxis shall be a new helmet and another new helmet shall\n\nbe used for the test along the transverse axis.\n\n- 1) During the test along the longitudinal axis the contact point\nbetween the helmet and one of the two plates shall be the ‘B'\n\nimpact point.\n\n## ANNEX E\n\n(Clause 7.4)\n\nTEST FOR PROJECTIONS AND SURFACE FRICTION\n\nE-1 TEST FOR PROJECTIONS AND SURFACE\n\nFRICTION (METHOD A)\n\nE-1.1 Principle\n\nThe rotation-inducing forces caused by projections on\n\nthe helmet and friction against the outer surface of the\n\nhelmet which occur when a helmeted headform is\n\ndropped vertically on to an inclined anvil are measured\n\nin the longitudinal axis of the anvil. The peak force\n\nand its integral with respect to time over the duration\n\nof the positive impulse are used as performance criteria.\n\nE-1.2 Apparatus (see Fig. 7)\n\nThe test apparatus shall comprise:\n\nan anvil rigidly fixed to a base,\n\nb)\n\na free fall guidance system,\n\na mobile system supporting the helmeted\n\nc)\n\nheadform,\n\na headform conforming to that referred to in\n\nd)\n\nE-1.2.5,\n\npoint of impact can be brought into\n\ncorrespondence with the upper part of the face\n\nof the anvil,\n\na means of recording the continuously\n\nf)\n\nchanging transmitted anvil force during the\n\nimpact, and\n\n- g) a suitable energy absorbing base and catch\nnet to prevent damage to the helmet after the\n\nimpact.\n\n\n\n\nE-1.2.1 Base\n\nThis shall conform to the requirements specified\n\nin C-2.1.\n\nE-1.2.2 Anvil\n\nE-1.2.2.1 The anvil is mounted securely at an angle\n\nof 15o to the vertical with provision for fore-and-aft\n\nadjustment. The anvil has a minimum width of 200\n\nmm and is adaptable to carry either of two different\n\nimpact surfaces as follows.\n\nE-1.2.2.2 The bar anvil consists of a series of at least\n\n\n5 horizontal bars at 4O mm centres. Each bar is made\n\nfrom a steel strip of height 6 mm and width 25 mm\n\nwith its uppermost edge machined to a 1 mm radius\n\nand the lower 15 mm of its face chamfered at an angle\n\nof 15° so that, as mounted, the upper edge of each bar\n\nis fully exposed from vertically above. The bars are\n\ncasehardened to a depth of approximately 0.5 mm.\n\nE-1.2.2.3 The bar anvil should be used to assess the\n\ntangential forces and their integrals with time caused\n\nby projections on the helmet, for example visor fittings,\n\nscrews, press studs and steps in the shell surface, etc.\n\nE-1.2.2.4 The abrasive anvil is a sheet of grade\n\n\n80 closed-coat aluminum oxide abrasive paper with a\n\nminimum supported length of 225 mm and is securely\n\nclamped to the base of the anvil to prevent slippage.\n\nE-1.2.2.5 The abrasive anvil should be used to assess\n\nthe tangential forces and their integrals with time\n\ncaused by friction against the outer surface of the\n\nhelmet. This is particularly applicable to selected areas\n\nof helmets, the outer surface of which either have\n\nsignificant variations of curvature or are made of more\n\nthan one material.\n\nE-1.2.2.6 The anvil is fitted with force transducer(s)\n\nconnected to recording apparatus so that the transmitted\n\nlongitudinal force component can be measured and\n\ncontinuously recorded with an accuracy of ± 5 percent\n\nduring a glancing blow to any part of its exposed surface.\n\nE-1.2.3 Mobile System and Guides",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 41151,
+      "char_end": 44104,
+      "semantic_chunk_length": 2953,
+      "final_chunk_length": 3255,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0019",
+    "text": "he anvil is fitted with force transducer(s)\n\nconnected to recording apparatus so that the transmitted\n\nlongitudinal force component can be measured and\n\ncontinuously recorded with an accuracy of ± 5 percent\n\nduring a glancing blow to any part of its exposed surface.\n\nE-1.2.3 Mobile System and Guides\n\nThe mobile system supporting the headform shall be\n\nsuch that its characteristics do not affect the\n\nmeasurement of force in the anvil. It shall also be such\n\nthat any point on the helmet can be positioned vertically\n\nabove the anvil. The guides shall be such that the impact\n\nvelocity is not less than 95 percent of the theoretical\n\nvelocity.\n\nE-1.2.4 Force and Measuring Assembly\n\nThe force transducers fitted to the anvil shall be capable\n\nof withstanding a maximum force of 20 000 N without\n\ndamage. The measuring system including the anvil\n\nassembly shall have a frequency response in\n\nIS 4151 : 2015\n\naccordance with channel frequency class (CFC) 1 000\n\n(see ISO 6487).\n\nE-1.2.5 Headform\n\nThe headform shall be that referred to in C-2.5.1\n\ncharacterized by the Symbol J.\n\nE-1.3 Procedure\n\nE-1.3.1 The drop height shall be such that the unit\n\nconstituted by the headform and helmet falls on the\n\ntest anvil at a velocity, which, immediately before\n\nimpact, is equal to 8.5 *015 m/s.\n\nE-1.3.2 Selection and Positioning of the Helmet\n\nE-1.3.2.1 An appropriate size helmet shall be selected\n\nto fit the headform referred to in C-2.5.1. The\n\nhorizontal axis of the helmet shall be determined by\n\nplacing the helmet on a headform, of a type referred to\n\nin C-2.5, according to the requirements of Annex B.\n\nThe helmet shall then be removed from that headform\n\nand placed on a headform of a type referred to\n\nin C-2.5.1. A load of 50 N is applied to the crown of\n\nthe helmet in order to adjust the helmet on the headform\n\nsuch that there is contact between the crown of the\n\nheadform and the inner surface of the helmet. The\n\nhorizontal plane of the helmet shall then be adjusted\n\nto be within 90 ± 5° of vertical axis of the headform.\n\nThe retention system is then adjusted under the chin\n\nof the headform: if the system includes an adjustable\n\nchin strap, the strap is tightened as much as possible.\n\nE-1.3.2.2 The test headform shall be so positioned that\n\nthe chosen impact point on the helmet is vertically\n\nabove the upper part of the face of the anvil.\n\nE-1.3.2.3 The helmet shall be tested in any condition\n\nin which it may be placed on the market, that is both\n\nwith and without accessories if they are supplied as\n\noriginal equipment. Helmets placed on the market with\n\na visor shall be tested with the visor in the closed\n\nposition.\n\nE-1.3.3 Selection of Impact Points\n\nE-1.3.3.1 Any point on the helmet shell may be\n\nselected. The impact point should be selected with\n\nregard to the anvil against which the helmet is to be\n\ntested, taking into account the function of the anvils\n\ngiven in E-1.2.2.2 and E-1.2.2.4. The helmet shall be\n\ntested as many times as necessary to ensure that all\n\nnotable features are evaluated.\n\nWhen the abrasive anvil is used, evaluate the front,\n\nrear, sides and crown areas of the helmet, selecting\n\nwithin the general areas, sites on the outer surface\n\nthe greatest impulse where impulse is the integral of",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 19,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 44106,
+      "char_end": 47054,
+      "semantic_chunk_length": 2948,
+      "final_chunk_length": 3250,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0020",
+    "text": "sted as many times as necessary to ensure that all\n\nnotable features are evaluated.\n\nWhen the abrasive anvil is used, evaluate the front,\n\nrear, sides and crown areas of the helmet, selecting\n\nwithin the general areas, sites on the outer surface\n\nthe greatest impulse where impulse is the integral of\n\nforce with respect to time over the duration of the\n\n\n\nimpact. Examples of such areas are those having the\n\ngreatest radius of curvature (that is the flattest surface)\n\nor areas having more than one type of surface, for\n\nexample a visor fixing cover plate or a painted shell\n\npartially overlaid by a fabric cover.\n\nNOTE  The primary impact site on any projection is likely\n\nto be opposite to the site where the projection receives\n\nmaximum support. For example, the primary impact site on a\n\nvisor cover plate assembly is opposite to the area where the\n\nvisor and cover plate locates in a recess in the shell.\n\nE-1.3.3.2 The rim of the shell and the upper and lower\n\nedge of the visor situated within an area bounded by a\n\nsector of 120° divided symmetrically by the vertical\n\nlongitudinal plane of symmetry of the helmet do not\n\nconstitute a projection for the purpose of this test.\n\nE-2 TEST FOR PROJECTIONS AND SURFACE\n\nFRICTION (METHOD B)\n\nE-2.1 Principle\n\nThe rotation-inducing forces caused by projections on\n\nthe helmets and friction against the outer surface of the\n\nprojections using a shear edge against which the\n\nprojections shall shear away, be detached, or permit the\n\nshear edge to slide past the projections. The friction is\n\nassessed by the displacement of a carriage abrading the\n\nouter surface of the helmet. The shear impact and\n\nabrading carriage displacement are generated by a drop\n\nweight device.\n\nE-2.2 Apparatus (see Fig. 8)\n\nThe test apparatus shall comprise:\n\ncarriage with\n\na horizontal guided\n\na)\n\ninterchangeable attachments for abrasive\n\npaper or a shear edge.\n\na horizontal guide and support for this\n\nb)\n\ncarriage.\n\na roller with a wire rope or a strap or a similar-\n\nc)\n\nflexible connection.\n\nd)\n\nlever connecting the headform to the test\n\napparatus with a hinge.\n\nan adjustable system supporting the headform.\n\ne)\n\nf)\n\na drop weight to load the lower end support\n\nof the wire rope, or a strap, after the weight is\n\nreleased.\n\na system to support a headform and to apply\n\ng)\n\na force to the helmet normal to the carriage.\n\nE-2.2.1 Carriage\n\nE-2.2.1.1 For friction assessment the carriage bears a\n\nsheet of grade 80 closed-coat aluminium oxide abrasive\n\npaper with a supported length of 300.0 (-0.0/+3.0) mm\n\nand securely clamped to the carriage to prevent\n\nslippage. At its end towards the drop weight and in\n\nthis direction the carriage has a 80 mm ± 1 mm long\n\nsmooth steel area not being covered by the abrasive\n\npaper and higher than the rest of the carriage by the\n\nthickness of the abrasive paper plus 0.5 ± 0.1 mm.\n\nE-2.2.1.2 For shear assessment the carriage is provided\n\nin the middle, with a bar made form a steel strip of\n\nheight 6 mm and width 25 mm with is uppermost edges\n\nmachined to a 1 mm radius. The bar is casehardened\n\nto a minimum depth of 0.5 mm.\n\nE-2.2.1.3 The carriage and either attachment shall\n\nhave a total mass of 5.0 -o. kg.\n\nE-2.2.2 Horizontal Guide\n\nThe horizontal guide, which guides and supports the",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 47056,
+      "char_end": 50024,
+      "semantic_chunk_length": 2968,
+      "final_chunk_length": 3270,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0021",
+    "text": "\nheight 6 mm and width 25 mm with is uppermost edges\n\nmachined to a 1 mm radius. The bar is casehardened\n\nto a minimum depth of 0.5 mm.\n\nE-2.2.1.3 The carriage and either attachment shall\n\nhave a total mass of 5.0 -o. kg.\n\nE-2.2.2 Horizontal Guide\n\nThe horizontal guide, which guides and supports the\n\ncarriage, may consist of two cylindrical bars on which\n\nthe ball bearings of the carriage may freely travel.\n\nE-2.2.3 Roller with a Wire Rope or Strap\n\nThe rollers shall have a diameter of at least 60 mm and\n\nlead the wire rope or strap from the horizontal into the\n\nvertical direction. The horizontal end of the wire rope\n\nor strap is fixed to the carriage; the vertical end is fixed\n\nto the drop weight.\n\nE-2.2.4 Drop Weight\n\nThe drop weight shall have a mass of 15.0 to.5 kg. For\n\nmm with provision for further possible travel of at least\n\n400 mm. For testing the friction assessment the free\n\ndrop height shall be 500.0 to.5\n\nmm with provision for\n\nfurther possible travel of at least 400 mm.\n\nE-2.2.5 Headform Support\n\nThe system supporting the headform shall be such that\n\nany point on the helmet can be positioned in contact\n\nwith the upper surface of the carriage.\n\nE-2.2.6 Lever and Hinge\n\nA rigid lever shall connect the headform support of\n\nthe test apparatus with a hinge. The height of the hinge\n\npivot above the upper surface of the carriage shall not\n\nbe greater than 150 mm.\n\nE-2.2.7 Loading Mass\n\nA loading system is used to generate a force of\n\n400.0 -o N on the helmet normal to the surface of the\n\ncarriage. This force shall be measured before each test.\n\nE-2.2.8 Verification of the Test Apparatus\n\nWith the unloaded carriage and a drop height of 450\n\nmm the velocity of the carriage after 250 mm of travel\n\nshall be 4.0 ± 0.1 m/s. The requirements shall be\n\nverified after every 500 helmet tests or once every 6\n\nmonths whichever is sooner.\n\n\n\n\nE-2.3 Procedure\n\nE-2.3.1 Positioning of the Helmets\n\nE-2.3.1.1 The helmet is placed on a headform of\n\nappropriate size in accordance with the requirements\n\nof Annex B. The helmet is tipped towards the rear so\n\nthat the front edge of the helmet in the median plane is\n\ndisplaced by 25 mm; if the helmet includes an\n\nadjustable chin strap, the strap shall be tightened as\n\nmuch as possible. The headform shall be so positioned\n\nthat the chosen location on the helmet can be positioned\n\nin contact with the upper surface of the horizontal\n\ncarriage.\n\nE-2.3.1.2 The helmet shall be tested in any condition\n\nin which it may be placed on the market, that is both\n\nwith and without accessories if they are supplied as\n\noriginal equipment. Helmets placed on the market with\n\na visor shall be tested with the visor in the closed\n\nposition.\n\nE-2.3.2 Test of Projection\n\nThe headform is adjusted in order to have the chosen\n\nprojection on the carriage so that the shear edge is\n\npositioned 50 mm from the projection and makes lateral\n\ncontact with the projection after the drop weight is\n\nreleased from its upper position.\n\nIS 4151 : 2015\n\nE-2.3.3 Test of Outer-surface\n\nThe abrasive paper is mounted on the carriage in the\n\nposition specified in E-2.2.1. The chosen outer surface\n\nof the helmet is lowered on to the abrading carriage at\n\nthe centre of the flat surface without abrasive paper. A",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 21,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 50026,
+      "char_end": 52977,
+      "semantic_chunk_length": 2951,
+      "final_chunk_length": 3253,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0022",
+    "text": "ed from its upper position.\n\nIS 4151 : 2015\n\nE-2.3.3 Test of Outer-surface\n\nThe abrasive paper is mounted on the carriage in the\n\nposition specified in E-2.2.1. The chosen outer surface\n\nof the helmet is lowered on to the abrading carriage at\n\nthe centre of the flat surface without abrasive paper. A\n\nloading mass is applied in accordance with E-2.2.7.\n\nThe drop weight is released from its upper position in\n\naccordance with E-2.2.4. The abrasive paper shall be\n\nchanged after every test.\n\nE-2.3.4 Selection of Test Points\n\nE-2.3.4.1 Any point on the helmet may be selected\n\nfor friction and/or shear assessment. A helmet shall be\n\ntested as many times as necessary to ensure that all\n\nnotable features are evaluated with one test only per\n\nfeature. Re-orientate the helmet as necessary to allow\n\nevery feature to be tested. For shear assessment evaluate\n\nall different external projections greater than 2 mm\n\nabove the outer surface of the shell. For friction\n\nassessment, evaluate areas of the outer surface that are\n\nlikely to produce the greatest friction.\n\nE-2.3.4.2 The rim of the shell and the upper and lower\n\nedge of the visor situated within an area bounded by a\n\nsector of 120° divided symmetrically by the vertical\n\nlongitudinal plane of symmetry of the helmet do not\n\nconstitute a projection for the purpose of this test.\n\nRelease mechanism\n\nCarriage\n\nStraps\n\nHeadform\n\nHelmet\n\nGuide wires\n\nNet enclosure\n\nAnvil\n\nInstrumentation\n\nSturdy frame\n\nSoft cushion\n\nBase\n\n\n**FIG. 7 EXAMPLE OF A SUITABLE TEST APPARATUS FOR PROJECTIONS AND SURFACE FRICTION (METHOD A)**\n\n\n\n\nRoller\n\nIS 4151 : 2015\n\nStrap\n\nRelease mechanism\n\nLoading mass\n\nHeadform support\n\nHinge\n\nHeadform\n\nHelmet\n\nCarriage\n\nHorizontal guide\n\nPneumatic system to apply\n\na force to the helmet normal\n\nto the carriage\n\n\n**FIG. 8 EXAMPLE OF A SUITABLE TEST APPARATUS FOR PROJECTIONS AND SURFACE FRICTION (METHOD B)**\n\n\n\n\n## ANNEX F\n\n(Clauses 6.4.1 and 7.5)\n\nDYNAMIC TEST OF RETENTION SYSTEM\n\nF-1 PROCEDURE\n\nF-1.1 The helmet shall be positioned as prescribed in\n\n\n## Annex B.\n\nF-1.2 In this position the helmet shall be held by the\n\naxis passing through the centre of gravity of the\n\nheadform. The headform is equipped with a load-\n\nbearing device aligned with the vertical axis passing\n\nthrough the centre of gravity of the headform and with\n\na device to measure the vertical displacement of the\n\npoint of application of the force.\n\nF-1.3 A guide and arrest device for a falling mass shall\n\nthen be attached below the headform. The mass of the\n\nheadform so equipped in this way shall be 15 ± 0.5 kg;\n\nthis produces the preloading on the retention system\n\nfor determining the position from which the vertical\n\ndisplacement of the point of application of the force\n\nshall be measured.\n\nF-1.4 The falling mass of 10 kg ± 0.1 kg shall then be\n\nreleased and shall drop in a guided free fall from a\n\nheight of 750 mm ± 5 mm.\n\nFixed helmet support\n\nHeadform\n\nDisplacement recorder\n\nDrop release\n\nFalling mass (10 kg.)\n\nGuides\n\nAnvil\n\n\n**FIG. 9 DYNAMIC TEST OF RETENTION SYSTEM**",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 23,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 52979,
+      "char_end": 55717,
+      "semantic_chunk_length": 2738,
+      "final_chunk_length": 3040,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0023",
+    "text": "e measured.\n\nF-1.4 The falling mass of 10 kg ± 0.1 kg shall then be\n\nreleased and shall drop in a guided free fall from a\n\nheight of 750 mm ± 5 mm.\n\nFixed helmet support\n\nHeadform\n\nDisplacement recorder\n\nDrop release\n\nFalling mass (10 kg.)\n\nGuides\n\nAnvil\n\n\n**FIG. 9 DYNAMIC TEST OF RETENTION SYSTEM**\n\n## ANNEX G\n\n(Clause 7.6)\n\nAUDIBILITY TEST\n\nG-1 APPARATUS\n\nG-1.1 Measuring Apparatus\n\nMeasuring apparatus shall consist of a headform and\n\nsound level meter in accordance with IS 15575. The\n\nmicrophone of sound level meter shall be fitted at a\n\nplace corresponding to the right or left human ear's\n\nlocation.\n\nG-1.2 Sound Source\n\nThe sound surface shall be a horn conforming to Type\n\n2A of IS 1884 [which has sound pressure level range\n\nof90 to 115 dB(A)l. The sound source shall be located\n\nso that sound is incident from back of the headform\n\nG-2 PROCEDURE\n\nG-2.1 This test shall be carried out under the prevailing\n\n\natmospheric conditions and the back-ground noise\n\nlevel shall be such that the reading indicated on the\n\nsound level meter by the noise is at least 10 dB below\n\nthat of the horn sound level.\n\nThis test shall be carried out in an open space in which\n\nthere is no obstacle within a radius of 12 m and no\n\nacoustical focusing affects or nearby parallel walls.\n\nG-2.2 The horn shall be mounted 1.2 m above the\n\nground and shall be fixed in a rigid manner on a base\n\nwhose mass shall be at least 10 times that of the horn\n\nand not less than 15 kg and shall be adjustable sideways\n\nand up and down. The sound waves are emitted from\n\nthe horn by using suitable 12 V dc power supply and\n\nare directed towards the rear of the headform at the\n\ndistance of 2 m. The two readings are taken with and\n\nwithout helmet. The difference shall be recorded to\n\nthe nearest dB.\n\n\n\n\n## ANNEX H\n\n(Clause 7.7)\n\nRETENTION (DETACHING) TEST\n\nH-1 PROCEDURE\n\ntotal mass being 3 kg ± 0.1 kg) is hooked on to the\n\nH-1.1 The helmet previously conditioned at ambient\n\nrear part of the shell in the median vertical plane of the\n\nhelmet, as shown in Fig. 10\n\ntemperature and hygrometry, shall be placed on and\n\nsecured to the appropriate headform, selected from\n\nH-1.3 The falling mass of 10 kg ± 0.01 kg is then\n\nthose listed in Fig. 2 in accordance with the\n\nreleased and dropped in a guided free fall from a height\n\nrequirements of C-3.2.1.\n\nof 0.50 m ± 0.01 m. The guiding device shall be such\n\nH-1.2 A device to guide and release a falling mass (the\n\nas to ensure that the impact speed is not less than 95\n\npercent of the theoretical speed.\n\n\nCABLE\n\nREEL\n\nTWISTED\n\nSTEEL WIRE\n\n0=3 MIN.\n\nREFERENCE LINE\n\nSITUATED ON THE\n\nHELMET\n\n\nFRAME\n\nFALLING\n\nMASS, 10kg\n\nGUIDING\n\n\nSYSTEM\n\nMASS=3kg\n\nREFERENCE\n\nLINE SITUATED\n\nBASE\n\nON THE HELMETi\n\nREFERENCE\n\n30°\n\nPLANE\n\nAFTER THE TEST\n\nSECTION A- A\n\nAll dimensions in millimetres.\n\n\n**FIG. 1O RETENTION (DETACHING) TEST APPARATUS**",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 25,
+      "clause": "ANNEX G",
+      "heading": "ANNEX G",
+      "heading_path": [
+        "ANNEX G"
+      ],
+      "char_start": 55723,
+      "char_end": 58279,
+      "semantic_chunk_length": 2556,
+      "final_chunk_length": 2858,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0024",
+    "text": "EEL WIRE\n\n0=3 MIN.\n\nREFERENCE LINE\n\nSITUATED ON THE\n\nHELMET\n\n\nFRAME\n\nFALLING\n\nMASS, 10kg\n\nGUIDING\n\n\nSYSTEM\n\nMASS=3kg\n\nREFERENCE\n\nLINE SITUATED\n\nBASE\n\nON THE HELMETi\n\nREFERENCE\n\n30°\n\nPLANE\n\nAFTER THE TEST\n\nSECTION A- A\n\nAll dimensions in millimetres.\n\n\n**FIG. 1O RETENTION (DETACHING) TEST APPARATUS**\n\n## ANNEX J\n\n(Clause 7.8)\n\nMICRO-SLIP TEST OF THE CHIN STRAP\n\nJ-1 PROCEDURE\n\nJ-1.1 The test rig consists of a flat horizontal robust\n\nbase, a weight for applying a load, a freely rotatable\n\nhorizontal roller of diameter not less than 20 mm, and\n\nin the same horizontal plane as the top of the roller a\n\nclamp capable of reciprocating horizontal motion at\n\nright angles to the axis of the roller with a total\n\namplitude of 50 ± 5 mm at a frequency between 0.5\n\nHz and 2 Hz. A typical test machine is shown in Fig. 11.\n\nJ-1.2 Take a sample of the strap at least 300 mm long,\n\nincluding the tensioning and adjusting device and any\n\nadditional strap fastening. Fix the upper end of the strap\n\nto the reciprocating clamp level with the top of the\n\nF = 20 N\n\n25 ± 2,5 mm\n\nTaut position\n\nroller and drape the strap over the roller. Attach a weight\n\nto the lower end of the strap so that when the weight is\n\nlifted by the strap it imposes a tensile force of 20 ± 1 N.\n\nAdjust the apparatus so that when the reciprocating\n\nclamp is at the centre of its motion the weight is just\n\nresting on the base with the strap barely in tension and\n\nthe strap buckle is between the clamp and roller and\n\nwill not touch the roller during reciprocation.\n\nJ-1.3 Operate the reciprocating clamp for 20 cycles.\n\nNote the position of the components on the strap.\n\nOperate the reciprocating clamp for 500 cycles then\n\nrecord the distance through which the components have\n\nslipped along the strap.\n\nSlack position\n\n\n**FIG. 11 APPARATUS FOR TESTING SLIPPAGE OF THE CHIN STRAP**",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 26,
+      "clause": "ANNEX J",
+      "heading": "ANNEX J",
+      "heading_path": [
+        "ANNEX J"
+      ],
+      "char_start": 58284,
+      "char_end": 59831,
+      "semantic_chunk_length": 1547,
+      "final_chunk_length": 1849,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0025",
+    "text": "e reciprocating clamp for 20 cycles.\n\nNote the position of the components on the strap.\n\nOperate the reciprocating clamp for 500 cycles then\n\nrecord the distance through which the components have\n\nslipped along the strap.\n\nSlack position\n\n\n**FIG. 11 APPARATUS FOR TESTING SLIPPAGE OF THE CHIN STRAP**\n\n## ANNEX K\n\n(Clauses 7.9)\n\nTEST FOR RESISTANCE TO ABRASION OF THE CHIN STRAP\n\nK-1 PROCEDURE\n\nK-1.1 The test rig as mentioned is similar to that\n\ndescribed in J-1.1 except that the amplitude is 100 mm\n\n± 10 mm and the strap passes over a representative\n\nsurface of the associated adjuster or other strap fitting\n\nthrough an appropriate angle. The typical test machine\n\nis shown in Fig. 12.\n\nK-1.2 Select an arrangement of the apparatus\n\nappropriate for the particular design of both the strap\n\nand the fitting likely to cause abrasion. Grip one end\n\nof the strap in the oscillating clamp, arrange the strap\n\nto be threaded through the fitting as designed and hang\n\na weight on the end to tension the strap with a force of\n\nTotal travel 100 + 10 mm\n\n20 ± 1 N. Mount or otherwise steady the fitting in such\n\na position that movement of the oscillating clamp slides\n\nthe strap through the fitting, in a manner simulating\n\nslippage of the fitting on the strap when the helmet is\n\non the head.\n\nK-1.3 Oscillate the clamp for a total of 5 000 cycles at\n\na frequency between 0.5 and 2 Hz.\n\nK-1.4 Mount the abraded strap in a tensile testing\n\nmachine using clamps which avoid local breakage of\n\nthe strap, and so that there is a length of 150 ± 15 mm\n\nof strap, including the abraded portion, between the\n\nclamps. Operate the machine to stretch the strap at a\n\nspeed of 100mm ± 20 mm per min.\n\nVertical and lateral support\n\nProtective strap for inner bar\n\nTotal travel 100 ± 10 mm\n\nLower stop\n\nF - 20 N\n\nF  20 N\n\nRotating pin\n\n\n**FIG. 12 APPARATUS FOR TESTING ABRASION OF THE CHIN STRAP**",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "ANNEX K",
+      "heading": "ANNEX K",
+      "heading_path": [
+        "ANNEX K"
+      ],
+      "char_start": 59837,
+      "char_end": 61416,
+      "semantic_chunk_length": 1579,
+      "final_chunk_length": 1881,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0026",
+    "text": "ion, between the\n\nclamps. Operate the machine to stretch the strap at a\n\nspeed of 100mm ± 20 mm per min.\n\nVertical and lateral support\n\nProtective strap for inner bar\n\nTotal travel 100 ± 10 mm\n\nLower stop\n\nF - 20 N\n\nF  20 N\n\nRotating pin\n\n\n**FIG. 12 APPARATUS FOR TESTING ABRASION OF THE CHIN STRAP**\n\n## ANNEX M\n\n[Clause C-2.5.2 (a)]\n\nREFERENCE HEADFORMS\n\n(Above Reference Plane)\n\n95.3\n\n88.9\n\n76.2\n\n63.5\n\n50.8\n\n38.1\n\n25.4\n\n12.7\n\n\n.06\n\n105°\n\n60°\n\n120°\n\n\n135°\n\n30°\n\n150°\n\n15%\n\n165°\n\n180°\n\nReference line\n\n95.3\n\n88.9\n\nFRONT\n\n76.2\n\nREAR\n\n63.5\n\n50.8\n\n38.1\n\n25.4\n\n12.7\n\nAll dimensions in millimetres.\n\n\n**FIG. 13 REFERENCE HEADFORMS**\n\n(SHAPE, DIMENSIONS ABOVE REFERENCE PLANE)\n\nHeadform A\n\n(Dimensions in millimetres.)\n\nHeight Above\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n75°\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nReference Line\n\nFront\n\nRear\n\n88.1\n\n86.4\n\n83.1\n\n75.4\n\n69.9\n\n66.8\n\n66.5\n\n69.3\n\n73.4\n\n78.8\n\n84.1\n\n87.6\n\n88.1\n\n12.7\n\n86.9\n\n85.3\n\n83.1\n\n75.4\n\n69.9\n\n66.8\n\n66.5\n\n69.3\n\n73.4\n\n78.8\n\n84.1\n\n87.6\n\n88.1\n\n25.4\n\n84.6\n\n83.6\n\n82.3\n\n75.4\n\n69.9\n\n66.8\n\n66.5\n\n69.3\n\n73.4\n\n78.8\n\n84.1\n\n86.1\n\n86.1\n\n38.1\n\n80.8\n\n80.3\n\n79.5\n\n72.9\n\n67.6\n\n65.3\n\n65.0\n\n67.6\n\n71.6\n\n76.5\n\n81.3\n\n82.8\n\n82.8\n\n50.8\n\n74.7\n\n74.4\n\n74.0\n\n68.1\n\n63.2\n\n61.0\n\n60.7\n\n63.2\n\n66.8\n\n71.6\n\n73.7\n\n76.7\n\n76.7\n\n63.5\n\n64.8\n\n64.8\n\n64.8\n\n59.9\n\n55.6\n\n53.3\n\n53.1\n\n55.4\n\n59.2\n\n63.5\n\n67.6\n\n67.6\n\n67.6\n\n76.2\n\n45.7\n\n45.7\n\n45.5\n\n43.4\n\n41.4\n\n40.4\n\n40.4\n\n42.4\n\n46.2\n\n50.5\n\n54.6\n\n54.6\n\n54.6\n\n82.6\n\n31.0\n\n31.2\n\n31.2\n\n31.0\n\n30.0\n\n29.7\n\n30.2\n\n32.5\n\n36.1\n\n40.4\n\n43.9\n\n44.5\n\n44.5\n\nDimension: Y : 89.7 mm - Head circumference : 500 mm\n\n\n\n\nHeadform C\n\n(Dimensions in millimetres.)\n\nHeight Above\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nReference Line\n\nFront\n\nRear\n\n91.2\n\n89.7\n\n86.1\n\n78.7\n\n72.6\n\n69.9\n\n69.6\n\n72.4\n\n76.7\n\n82.0\n\n87.4\n\n90.4\n\n91.2\n\n12.7\n\n89.9\n\n88.6\n\n86.1\n\n78.7\n\n72.6\n\n69.9\n\n69.6\n\n72.4\n\n76.7\n\n82.0\n\n87.4\n\n90.4\n\n91.2\n\n25.4\n\n87.6\n\n87.1\n\n85.3\n\n78.7\n\n72.6\n\n69.9\n\n69.6\n\n72.4\n\n76.7\n\n82.0\n\n87.4\n\n89.2\n\n89.9\n\n38.1\n\n84.6\n\n83.8\n\n82.3\n\n76.5\n\n70.6\n\n68.1\n\n68.1\n\n70.6\n\n74.7\n\n79.8\n\n84.3\n\n85.6\n\n86.4\n\n50.8\n\n78.5\n\n78.2\n\n77.5\n\n72.4\n\n66.5\n\n64.3\n\n64.3\n\n66.5\n\n70.4\n\n75.4\n\n79.5\n\n80.3\n\n80.8\n\n63.5\n\n69.3\n\n69.1\n\n69.1\n\n64.5\n\n59.4\n\n57.2\n\n57.4\n\n59.7\n\n63.5\n\n68.3\n\n71.9\n\n71.9\n\n71.9\n\n76.2\n\n52.3\n\n52.3\n\n52.3\n\n49.3\n\n46.2\n\n45.2\n\n45.7\n\n48.0\n\n51.6\n\n56.1\n\n59.4\n\n59.7\n\n59.9\n\n82.6\n\n39.9\n\n39.9\n\n39.9\n\n38.1\n\n37.1\n\n36.6\n\n36.8\n\n38.6\n\n41.9\n\n46.2\n\n50.5\n\n51.1\n\n51.3\n\n88.9\n\n20.6\n\n20.6\n\n20.6\n\n21.3\n\n22.1\n\n22.9\n\n23.9\n\n25.4\n\n28.2\n\n31.8\n\n34.3\n\n34.5\n\n34.5\n\nDimension: Y : 92.7 mm - Head circumference : 520 mm\n\nHeadform E\n\n(Dimensions in millimetres.)\n\nHeight Above\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nReference Line\n\nFront\n\nRear\n\n94.5\n\n93.0\n\n89.7\n\n82.0\n\n76.2\n\n73.2\n\n72.9\n\n75.7\n\n79.8\n\n84.8\n\n90.7\n\n93.7\n\n94.5\n\n12.7\n\n93.2\n\n91.9\n\n89.7\n\n82.0\n\n76.2\n\n73.2\n\n72.9\n\n75.7\n\n79.8\n\n84.8\n\n90.7\n\n93.7\n\n94.5\n\n25.4\n\n91.2\n\n90.7\n\n88.9\n\n82.0\n\n76.2\n\n73.2\n\n72.9\n\n75.7\n\n79.8\n\n84.8\n\n90.7\n\n92.7\n\n93.0\n\n38.1\n\n87.6\n\n87.9\n\n85.9\n\n80.0\n\n74.7\n\n71.6\n\n71.4\n\n74.2\n\n77.7\n\n82.6\n\n88.6\n\n89.2\n\n89.2\n\n50.8\n\n82.0\n\n82.3\n\n81.0\n\n75.4\n\n70.4\n\n67.8\n\n67.6\n\n70.4\n\n73.9\n\n79.0\n\n83.8\n\n84.3\n\n84.3\n\n63.5\n\n73.4\n\n73.7\n\n73.4\n\n68.6\n\n64.0\n\n61.5\n\n61.2\n\n63.5\n\n67.1\n\n71.9\n\n76.5\n\n76.5\n\n76.5\n\n76.2\n\n57.7\n\n57.9\n\n58.2\n\n55.9\n\n52.6\n\n50.5\n\n50.3\n\n52.1\n\n55.1\n\n59.7\n\n64.5\n\n64.8\n\n64.8\n\n82.6\n\n46.5\n\n46.5\n\n46.5\n\n45.2\n\n43.2\n\n42.4\n\n42.9\n\n44.4\n\n47.5\n\n52.3",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 28,
+      "page_end": 29,
+      "clause": "ANNEX M",
+      "heading": "ANNEX M",
+      "heading_path": [
+        "ANNEX M"
+      ],
+      "char_start": 61422,
+      "char_end": 64420,
+      "semantic_chunk_length": 2998,
+      "final_chunk_length": 3300,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0027",
+    "text": "\n\n81.0\n\n75.4\n\n70.4\n\n67.8\n\n67.6\n\n70.4\n\n73.9\n\n79.0\n\n83.8\n\n84.3\n\n84.3\n\n63.5\n\n73.4\n\n73.7\n\n73.4\n\n68.6\n\n64.0\n\n61.5\n\n61.2\n\n63.5\n\n67.1\n\n71.9\n\n76.5\n\n76.5\n\n76.5\n\n76.2\n\n57.7\n\n57.9\n\n58.2\n\n55.9\n\n52.6\n\n50.5\n\n50.3\n\n52.1\n\n55.1\n\n59.7\n\n64.5\n\n64.8\n\n64.8\n\n82.6\n\n46.5\n\n46.5\n\n46.5\n\n45.2\n\n43.2\n\n42.4\n\n42.9\n\n44.4\n\n47.5\n\n52.3\n\n56.4\n\n56.9\n\n56.6\n\n88.9\n\n30.5\n\n30.5\n\n30.7\n\n31.0\n\n31.2\n\n31.2\n\n31.8\n\n33.8\n\n36.8\n\n40.4\n\n43.9\n\n44.2\n\n44.2\n\nDimension: Y : 96 mm - Head circumference : 540 mm\n\nHeadform G\n\n(Dimensions in millimetres.)\n\nHeight Above\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n75°\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nReference Line\n\nFront\n\nRear\n\n97.5\n\n95.8\n\n93.0\n\n85.1\n\n79.5\n\n76.2\n\n75.9\n\n78.5\n\n83.1\n\n88.4\n\n94.0\n\n97.0\n\n97.5\n\n12.7\n\n96.3\n\n95.3\n\n92.7\n\n85.1\n\n79.5\n\n76.2\n\n75.9\n\n78.5\n\n83.1\n\n88.4\n\n94.0\n\n97.0\n\n97.5\n\n25.4\n\n93.7\n\n92.7\n\n91.4\n\n85.1\n\n79.5\n\n76.2\n\n75.9\n\n78.5\n\n83.1\n\n88.4\n\n94.0\n\n95.8\n\n96.3\n\n38.1\n\n90.4\n\n89.7\n\n88.9\n\n83.3\n\n77.7\n\n75.2\n\n74.9\n\n77.0\n\n81.3\n\n86.6\n\n91.7\n\n92.7\n\n93.0\n\n50.8\n\n86.1\n\n85.6\n\n84.6\n\n79.0\n\n73.7\n\n71.1\n\n70.9\n\n73.2\n\n78.0\n\n82.8\n\n87.1\n\n87.9\n\n88.1\n\n63.5\n\n77.5\n\n77.2\n\n76.5\n\n72.1\n\n67.3\n\n64.5\n\n64.3\n\n66.5\n\n70.9\n\n75.9\n\n79.0\n\n79.0\n\n80.0\n\n76.2\n\n63.8\n\n63.8\n\n64.0\n\n61.2\n\n57.4\n\n54.9\n\n54.9\n\n56.9\n\n61.5\n\n66.5\n\n68.8\n\n69.1\n\n69.1\n\n88.9\n\n39.9\n\n39.6\n\n39.6\n\n39.1\n\n38.4\n\n37.8\n\n38.4\n\n40.4\n\n44.2\n\n49.8\n\n52.8\n\n53.1\n\n53.1\n\n95.3\n\n20.6\n\n20.6\n\n20.6\n\n21.3\n\n22.4\n\n23.4\n\n23.9\n\n25.4\n\n28.7\n\n33.6\n\n37.8\n\n39.1\n\n39.1\n\nDimension: Y : 99.1 mm - Head circumference : 560 mm\n\nHeadform J\n\n(Dimensions in millimetres.)\n\nHeight above\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nreference line\n\nFront\n\nRear\n\n100.8\n\n98.8\n\n96.3\n\n88.1\n\n82.0\n\n79.5\n\n79.2\n\n82.0\n\n85.9\n\n91.7\n\n96.8\n\n100.1\n\n100.8\n\n12.7\n\n99.6\n\n98.0\n\n95.8\n\n88.1\n\n82.0\n\n79.5\n\n79.2\n\n82.0\n\n85.9\n\n91.7\n\n96.8\n\n100.1\n\n100.8\n\n25.4\n\n96.8\n\n95.8\n\n94.5\n\n88.1\n\n82.0\n\n79.5\n\n79.2\n\n82.0\n\n85.9\n\n91.7\n\n96.5\n\n98.3\n\n98.8\n\n38.1\n\n93.7\n\n92.7\n\n91.9\n\n86.1\n\n80.0\n\n77.2\n\n77.7\n\n80.0\n\n83.8\n\n89.4\n\n94.5\n\n95.8\n\n96.0\n\n50.8\n\n89.2\n\n88.6\n\n87.9\n\n82.0\n\n76.2\n\n73.9\n\n74.4\n\n77.0\n\n80.5\n\n85.9\n\n90.4\n\n90.9\n\n90.9\n\n63.5\n\n81.5\n\n80.8\n\n81.0\n\n75.9\n\n70.6\n\n68.1\n\n68.3\n\n71.1\n\n71.4\n\n79.5\n\n83.8\n\n84.1\n\n84.1\n\n76.2\n\n69.3\n\n69.1\n\n69.3\n\n65.3\n\n61.2\n\n58.9\n\n59.2\n\n61.7\n\n65.0\n\n69.3\n\n73.2\n\n73.4\n\n73.4\n\n88.9\n\n47.2\n\n47.5\n\n48.0\n\n46.2\n\n44.4\n\n43.7\n\n44.2\n\n46.2\n\n50.0\n\n54.1\n\n58.2\n\n58.4\n\n58.4\n\n95.3\n\n32.8\n\n32.8\n\n33.3\n\n32.5\n\n32.0\n\n32.3\n\n33.0\n\n35.1\n\n38.1\n\n42.2\n\n46.5\n\n47.2\n\n47.2\n\nDimension: Y : 102.4 mm - Head circumference : 570 mm\n\n\n\n\nHeadform K\n\n(Dimensions in millimetres.)\n\nHeight Above\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nReference Line\n\nFront\n\nRear\n\n102.4\n\n101.1\n\n97.0\n\n89.7\n\n84.1\n\n81.3\n\n80.8\n\n83.3\n\n87.9\n\n92.7\n\n98.3\n\n101.6\n\n102.4\n\n12.7\n\n101.1\n\n100.1\n\n97.0\n\n89.7\n\n84.1\n\n81.3\n\n80.8\n\n83.3\n\n87.9\n\n92.7\n\n98.3\n\n101.6\n\n102.4\n\n25.4\n\n98.8\n\n98.3\n\n96.3\n\n89.7\n\n84.1\n\n81.3\n\n80.8\n\n83.3\n\n87.9\n\n92.7\n\n98.3\n\n99.8\n\n100.6\n\n38.1\n\n95.5\n\n95.2\n\n93.7\n\n87.4\n\n82.0\n\n79.5\n\n79.5\n\n81.5\n\n85.9\n\n90.4\n\n95.5\n\n97.0\n\n97.7\n\n50.8\n\n90.9\n\n90.4\n\n89.7\n\n83.6\n\n78.5\n\n76.2\n\n76.2\n\n78.5\n\n83.1\n\n87.4\n\n91.9\n\n92.5\n\n93.2\n\n63.5\n\n83.1\n\n82.8\n\n82.0\n\n77.2\n\n72.1\n\n69.9\n\n70.4\n\n72.4\n\n76.7\n\n80.8\n\n84.6\n\n85.1\n\n85.6\n\n76.2\n\n71.1\n\n71.1\n\n71.4\n\n68.1\n\n63.8\n\n61.2\n\n61.2\n\n63.0\n\n67.1\n\n71.6\n\n74.9\n\n75.2\n\n75.2\n\n88.9\n\n51.8\n\n51.8\n\n51.8\n\n50.8\n\n48.5\n\n46.7\n\n47.2\n\n49.3\n\n52.1\n\n56.9\n\n60.7\n\n60.7\n\n60.7\n\n95.3\n\n37.6\n\n37.3\n\n37.3\n\n37.3\n\n36.8\n\n36.6\n\n37.1\n\n38.9\n\n42.2\n\n47.0\n\n51.1\n\n51.8\n\n51.3\n\n101.6\n\n18.3\n\n17.8",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 29,
+      "page_end": 30,
+      "clause": "ANNEX M",
+      "heading": "ANNEX M",
+      "heading_path": [
+        "ANNEX M"
+      ],
+      "char_start": 64422,
+      "char_end": 67422,
+      "semantic_chunk_length": 3000,
+      "final_chunk_length": 3302,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0028",
+    "text": "\n76.7\n\n80.8\n\n84.6\n\n85.1\n\n85.6\n\n76.2\n\n71.1\n\n71.1\n\n71.4\n\n68.1\n\n63.8\n\n61.2\n\n61.2\n\n63.0\n\n67.1\n\n71.6\n\n74.9\n\n75.2\n\n75.2\n\n88.9\n\n51.8\n\n51.8\n\n51.8\n\n50.8\n\n48.5\n\n46.7\n\n47.2\n\n49.3\n\n52.1\n\n56.9\n\n60.7\n\n60.7\n\n60.7\n\n95.3\n\n37.6\n\n37.3\n\n37.3\n\n37.3\n\n36.8\n\n36.6\n\n37.1\n\n38.9\n\n42.2\n\n47.0\n\n51.1\n\n51.8\n\n51.3\n\n101.6\n\n18.3\n\n17.8\n\n17.8\n\n18.0\n\n18.5\n\n19.3\n\n20.1\n\n21.8\n\n24.9\n\n29.0\n\n33.8\n\n36.1\n\n36.6\n\nDimension: Y : 102.4 mm - Head circumference : 570 mm\n\nHeadform M\n\n(Dimensions in millimetres.)\n\nHeight Above\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n75°\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nReference Line\n\nFront\n\nRear\n\n105.7\n\n103.9\n\n100.6\n\n92.7\n\n86.9\n\n84.1\n\n83.8\n\n86.4\n\n90.7\n\n96.0\n\n102.1\n\n105.7\n\n105.7\n\n12.7\n\n104.4\n\n103.4\n\n100.3\n\n92.7\n\n86.9\n\n84.1\n\n83.8\n\n86.4\n\n90.7\n\n96.0\n\n102.1\n\n105.7\n\n105.7\n\n25.4\n\n102.1\n\n101.6\n\n99.8\n\n92.7\n\n86.9\n\n84.1\n\n83.8\n\n86.4\n\n90.7\n\n96.0\n\n102.1\n\n104.4\n\n104.4\n\n38.1\n\n99.3\n\n98.8\n\n97.8\n\n90.9\n\n85.3\n\n82.6\n\n82.3\n\n84.6\n\n88.9\n\n94.0\n\n99.8\n\n100.8\n\n101.1\n\n50.8\n\n95.0\n\n94.7\n\n93.5\n\n86.9\n\n81.3\n\n79.0\n\n78.7\n\n81.0\n\n85.3\n\n90.4\n\n96.0\n\n96.5\n\n96.3\n\n63.5\n\n87.1\n\n87.1\n\n86.9\n\n80.8\n\n75.4\n\n73.2\n\n73.2\n\n75.4\n\n79.5\n\n84.8\n\n89.4\n\n89.7\n\n89.4\n\n76.2\n\n75.9\n\n76.2\n\n76.2\n\n71.6\n\n67.1\n\n64.8\n\n64.8\n\n66.5\n\n70.6\n\n75.4\n\n80.0\n\n80.0\n\n79.3\n\n88.9\n\n58.2\n\n58.2\n\n58.2\n\n56.6\n\n54.6\n\n52.3\n\n52.3\n\n53.8\n\n56.9\n\n61.7\n\n66.8\n\n67.1\n\n66.8\n\n95.3\n\n45.5\n\n45.7\n\n46.0\n\n46.0\n\n44.5\n\n43.4\n\n43.2\n\n44.5\n\n47.2\n\n52.1\n\n57.7\n\n58.2\n\n57.9\n\n101.6\n\n26.4\n\n26.2\n\n26.7\n\n27.7\n\n28.7\n\n29.5\n\n30.0\n\n31.2\n\n34.0\n\n38.6\n\n42.7\n\n43.2\n\n42.7\n\nDimension: Y : 107.2 mm - Head circumference : 600 mm\n\nHeadform O\n\n(Dimensions in millimetres.)\n\nHeight Above\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n75°\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nReference Line\n\nFront\n\nRear\n\n108.7\n\n107.4\n\n103.4\n\n95.8\n\n90.4\n\n87.6\n\n87.1\n\n90.2\n\n94.2\n\n99.8\n\n105.4\n\n108.0\n\n108.7\n\n12.7\n\n107.7\n\n106.4\n\n103.4\n\n95.8\n\n90.4\n\n87.6\n\n87.1\n\n90.2\n\n94.2\n\n99.8\n\n105.4\n\n108.0\n\n108.7\n\n25.4\n\n105.2\n\n104.4\n\n102.9\n\n95.8\n\n90.4\n\n87.6\n\n87.1\n\n90.2\n\n94.2\n\n99.8\n\n105.4\n\n106.7\n\n106.9\n\n38.1\n\n102.4\n\n102.1\n\n101.1\n\n94.2\n\n88.9\n\n86.1\n\n85.9\n\n88.9\n\n93.0\n\n98.6\n\n103.4\n\n104.1\n\n104.1\n\n50.8\n\n97.8\n\n97.5\n\n96.5\n\n90.2\n\n85.1\n\n82.3\n\n82.6\n\n85.3\n\n89.9\n\n94.7\n\n99.6\n\n100.3\n\n100.3\n\n63.5\n\n91.2\n\n91.2\n\n90.4\n\n84.3\n\n79.2\n\n76.7\n\n77.0\n\n79.8\n\n83.8\n\n88.4\n\n93.0\n\n93.2\n\n93.2\n\n76.2\n\n81.0\n\n81.3\n\n80.8\n\n76.2\n\n71.6\n\n69.3\n\n69.6\n\n71.9\n\n75.7\n\n80.5\n\n84.6\n\n84.6\n\n84.6\n\n88.9\n\n64.5\n\n64.5\n\n64.5\n\n61.5\n\n58.4\n\n57.2\n\n57.7\n\n60.2\n\n63.5\n\n68.1\n\n71.9\n\n71.4\n\n71.9\n\n95.3\n\n54.1\n\n53.8\n\n54.1\n\n52.6\n\n50.3\n\n49.0\n\n49.5\n\n51.6\n\n55.4\n\n60.5\n\n64.3\n\n64.0\n\n64.0\n\n101.6\n\n37.6\n\n37.6\n\n38.1\n\n38.4\n\n38.1\n\n37.8\n\n38.4\n\n40.4\n\n43.4\n\n48.0\n\n51.3\n\n51.3\n\n51.1\n\nDimension: Y : 110.2 mm - Head circumference : 620 mm",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 30,
+      "page_end": 30,
+      "clause": "ANNEX M",
+      "heading": "ANNEX M",
+      "heading_path": [
+        "ANNEX M"
+      ],
+      "char_start": 67424,
+      "char_end": 69678,
+      "semantic_chunk_length": 2254,
+      "final_chunk_length": 2556,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0029",
+    "text": "64.5\n\n64.5\n\n64.5\n\n61.5\n\n58.4\n\n57.2\n\n57.7\n\n60.2\n\n63.5\n\n68.1\n\n71.9\n\n71.4\n\n71.9\n\n95.3\n\n54.1\n\n53.8\n\n54.1\n\n52.6\n\n50.3\n\n49.0\n\n49.5\n\n51.6\n\n55.4\n\n60.5\n\n64.3\n\n64.0\n\n64.0\n\n101.6\n\n37.6\n\n37.6\n\n38.1\n\n38.4\n\n38.1\n\n37.8\n\n38.4\n\n40.4\n\n43.4\n\n48.0\n\n51.3\n\n51.3\n\n51.1\n\nDimension: Y : 110.2 mm - Head circumference : 620 mm\n\n## ANNEX N\n\n[Clause C-2.5.2 (b) and C-2.5.3]\n\nREFERENCE HEADFORMS\n\n(Below Reference Plane)\n\n75*\n\n90*\n\n105*\n\n\n\n120\"\n\n\n30*\n\n150*\n\n15*\n\n165*\n\n180\"\n\nDimension z\n\nReference plane\n\n(a)\n\nReference plane\n\nDimension z\n\nSide view\n\n(b)\n\n\n**FIG. 14 REFERENCE HEADFORMS (Continued)**\n\n(SHAPE, DIMENSIONS BELOW REFERENCE PLANE)\n\n\n\n\nReference plane\n\nDimension z\n\nFront view\n\n(c)\n\n\n**FIG. 14 REFERENCE HEADFORMS**\n\n(SHAPE, DIMENSIONS BELOW REFERENCE PLANE)\n\nHeadform A\n\n(Dimensions in millimetres.)\n\nDimension\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n75°\n\n90°\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n88.0\n\n86.5\n\n83.0\n\n75.5\n\n70.0\n\n67.0\n\n66.5\n\n69.5\n\n73.5\n\n78.5\n\n84.0\n\n87.0\n\n88.0\n\n-11.1\n\n88.0\n\n86.5\n\n82.5\n\n74.5\n\n68.5\n\n66.0\n\n66.0\n\n68.5\n\n72.0\n\n77.0\n\n81.5\n\n84.5\n\n85.0\n\n-19.9\n\n88.0\n\n88.0\n\n82.5\n\n74.0\n\n66.5\n\n63.0\n\n61.5\n\n64.5\n\n67.5\n\n72.5\n\n77.0\n\n80.0\n\n80.5\n\n-30.6\n\n88.0\n\n89.5\n\n81.0\n\n71.5\n\n65.0\n\n62.0\n\n56.0\n\n58.0\n\n61.5\n\n66.5\n\n71.0\n\n73.5\n\n74.0\n\n-39.4\n\n88.0\n\n89.5\n\n79.0\n\n69.0\n\n63.0\n\n60.0\n\n54.0\n\n55.0\n\n58.0\n\n61.5\n\n65.0\n\n67.5\n\n67.0\n\n-52.5\n\n88.0\n\n89.5\n\n77.0\n\n67.0\n\n60.5\n\n54.0\n\n51.5\n\n52.0\n\n53.5\n\n56.5\n\n59.0\n\n60.0\n\n58.5\n\n-65.6\n\n88.0\n\n89.5\n\n75.5\n\n65.0\n\n58.5\n\n52.5\n\n50.5\n\n51.0\n\n51.5\n\n52.5\n\n53.0\n\n54.0\n\n54.5\n\n-74.4\n\n88.0\n\n89.5\n\n73.5\n\n62.5\n\n58.0\n\n51.0\n\n50.5\n\n51.0\n\n51.5\n\n52.5\n\n53.0\n\n54.0\n\n54.5\n\n-78.8\n\n88.0\n\n89.5\n\n71.5\n\n60.5\n\n49.5\n\n50.0\n\n50.5\n\n51.0\n\n51.5\n\n52.5\n\n53.0\n\n54.0\n\n54.5\n\n-84.4\n\n88.0\n\n89.5\n\n69.5\n\n47.5\n\n49.5\n\n50.0\n\n50.5\n\n51.0\n\n51.5\n\n52.5\n\n53.0\n\n54.0\n\n54.5\n\n-92.8\n\n88.0\n\n92.0\n\n47.5\n\n47.5\n\n49.5\n\n50.0\n\n50.5\n\n51.0\n\n51.5\n\n52.5\n\n53.0\n\n54.0\n\n54.5\n\n-119.0\n\n47.0\n\n47.0\n\n47.5\n\n47.5\n\n49.5\n\n50.0\n\n50.5\n\n51.0\n\n51.5\n\n52.5\n\n53.0\n\n54.0\n\n54.5\n\nDimension / : 11.1 mm - Head circumference : 500 mm\n\n\n\n\nHeadform C\n\n(Dimensions in millimetres.)\n\nDimension\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n75°\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n91.5\n\n89.5\n\n86.0\n\n79.0\n\n72.5\n\n70.0\n\n69.5\n\n72.5\n\n77.0\n\n82.0\n\n87.5\n\n90.5\n\n91.5\n\n-11.5\n\n91.5\n\n89.5\n\n85.5\n\n77.0\n\n71.0\n\n68.5\n\n68.5\n\n71.0\n\n74.5\n\n80.0\n\n84.5\n\n87.5\n\n88.0\n\n-20.6\n\n91.5\n\n91.0\n\n85.5\n\n76.5\n\n69.0\n\n65.5\n\n64.0\n\n66.5\n\n70.0\n\n75.5\n\n80.0\n\n83.0\n\n83.5\n\n-31.8\n\n91.5\n\n92.5\n\n84.0\n\n74.0\n\n67.0\n\n64.5\n\n58.0\n\n60.5\n\n64.0\n\n69.0\n\n73.5\n\n76.0\n\n76.5\n\n-40.8\n\n91.5\n\n92.5\n\n81.5\n\n71.5\n\n65.5\n\n62.0\n\n56.0\n\n57.0\n\n60.0\n\n64.0\n\n67.5\n\n70.0\n\n69.5\n\n-54.4\n\n91.5\n\n92.5\n\n80.0\n\n69.5\n\n62.5\n\n56.0\n\n53.5\n\n54.0\n\n55.5\n\n58.5\n\n61.0\n\n62.0\n\n61.0\n\n-68.0\n\n91.5\n\n92.5\n\n78.0\n\n67.0\n\n61.0\n\n54.5\n\n52.0\n\n53.0\n\n53.5\n\n54.5\n\n55.0\n\n56.0\n\n56.5\n\n-77.1\n\n91.5\n\n92.5\n\n76.0\n\n65.0\n\n60.0\n\n52.5\n\n52.0\n\n53.0\n\n53.5\n\n54.5\n\n55.0\n\n56.0\n\n56.5\n\n-81.7\n\n91.5\n\n92.5\n\n74.0\n\n62.5\n\n51.0\n\n51.5\n\n52.0\n\n53.0\n\n53.5\n\n54.5\n\n55.0\n\n56.0\n\n56.5\n\n-87.6\n\n91.5\n\n92.5\n\n72.0\n\n49.5\n\n51.0\n\n51.5\n\n52.0\n\n53.0\n\n53.5\n\n54.5\n\n55.0\n\n56.0\n\n56.5\n\n-96.2\n\n91.5\n\n95.5\n\n49.0\n\n49.5\n\n51.0\n\n51.5\n\n52.0\n\n53.0\n\n53.5\n\n54.5\n\n55.0\n\n56.0\n\n56.5\n\n-123.4\n\n48.5\n\n48.5\n\n49.0\n\n49.5\n\n51.0\n\n51.5\n\n52.0\n\n53.0\n\n53.5\n\n54.5\n\n55.0\n\n56.0\n\n56.5\n\nDimension /: 11.5 mm - Head circumference : 520 mm\n\nHeadform E\n\n(Dimensions in millimetres.)\n\nDimension\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n94.5\n\n93.0\n\n90.0\n\n82.0\n\n76.5\n\n73.5\n\n73.0",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 31,
+      "page_end": 33,
+      "clause": "ANNEX N",
+      "heading": "ANNEX N",
+      "heading_path": [
+        "ANNEX N"
+      ],
+      "char_start": 69684,
+      "char_end": 72681,
+      "semantic_chunk_length": 2997,
+      "final_chunk_length": 3299,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0030",
+    "text": "\n-123.4\n\n48.5\n\n48.5\n\n49.0\n\n49.5\n\n51.0\n\n51.5\n\n52.0\n\n53.0\n\n53.5\n\n54.5\n\n55.0\n\n56.0\n\n56.5\n\nDimension /: 11.5 mm - Head circumference : 520 mm\n\nHeadform E\n\n(Dimensions in millimetres.)\n\nDimension\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n94.5\n\n93.0\n\n90.0\n\n82.0\n\n76.5\n\n73.5\n\n73.0\n\n76.0\n\n80.0\n\n85.0\n\n91.0\n\n94.0\n\n94.5\n\n-11.9\n\n94.5\n\n93.0\n\n88.5\n\n79.5\n\n73.0\n\n70.5\n\n70.5\n\n73.0\n\n77.0\n\n82.5\n\n87.0\n\n90.5\n\n91.0\n\n-21.3\n\n94.5\n\n94.0\n\n88.5\n\n79.0\n\n71.0\n\n67.5\n\n66.0\n\n69.0\n\n72.0\n\n77.5\n\n82.5\n\n85.5\n\n86.0\n\n-32.8\n\n94.5\n\n95.5\n\n86.5\n\n76.5\n\n69.5\n\n66.5\n\n60.0\n\n62.5\n\n66.0\n\n71.0\n\n76.0\n\n78.5\n\n79.0\n\n-42.1\n\n94.5\n\n95.5\n\n84.5\n\n74.0\n\n67.5\n\n64.0\n\n57.5\n\n59.0\n\n62.0\n\n66.0\n\n70.0\n\n72.0\n\n71.5\n\n-56.2\n\n94.5\n\n95.5\n\n82.5\n\n71.5\n\n64.5\n\n57.5\n\n55.5\n\n55.5\n\n57.0\n\n60.5\n\n63.0\n\n64.0\n\n63.0\n\n-70.2\n\n94.5\n\n95.5\n\n80.5\n\n69.5\n\n62.5\n\n56.0\n\n54.0\n\n55.0\n\n55.5\n\n56.0\n\n56.5\n\n57.5\n\n58.0\n\n-79.6\n\n94.5\n\n95.5\n\n78.5\n\n67.0\n\n62.0\n\n54.5\n\n54.0\n\n55.0\n\n55.5\n\n56.0\n\n56.5\n\n57.5\n\n58.0\n\n-84.3\n\n94.5\n\n95.5\n\n76.5\n\n64.5\n\n53.0\n\n53.5\n\n54.0\n\n55.0\n\n55.5\n\n56.0\n\n56.5\n\n57.5\n\n58.0\n\n-90.4\n\n94.5\n\n95.5\n\n74.5\n\n51.0\n\n53.0\n\n53.5\n\n54.0\n\n55.0\n\n55.5\n\n56.0\n\n56.5\n\n57.5\n\n58.0\n\n-99.3\n\n94.5\n\n98.5\n\n50.5\n\n51.0\n\n53.0\n\n53.5\n\n54.0\n\n55.0\n\n55.5\n\n56.0\n\n56.5\n\n57.5\n\n58.0\n\n-127.4\n\n50.0\n\n50.0\n\n50.5\n\n51.0\n\n53.0\n\n53.5\n\n54.0\n\n55.0\n\n55.5\n\n56.0\n\n56.5\n\n57.5\n\n58.0\n\nDimension / : 11.9 mm - Head circumference : 540 mm\n\nHeadform G\n\n(Dimensions in millimetres.)\n\nDimension\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n97.5\n\n95.5\n\n93.0\n\n85.5\n\n79.5\n\n76.0\n\n76.0\n\n78,5\n\n83.0\n\n88.5\n\n94.0\n\n97.0\n\n97.5\n\n-12.3\n\n97.5\n\n95.5\n\n91.5\n\n82.0\n\n75.5\n\n73.0\n\n73.0\n\n75.5\n\n79.0\n\n85.0\n\n90.0\n\n93.0\n\n93.5\n\n-21.9\n\n97.5\n\n97.0\n\n91.5\n\n81.5\n\n73.5\n\n69.5\n\n68.0\n\n71.0\n\n74.5\n\n80.0\n\n85.0\n\n88.5\n\n89.0\n\n-33.8\n\n97.5\n\n98.5\n\n89.5\n\n78.5\n\n71.5\n\n68.5\n\n62.0\n\n64.0\n\n68.0\n\n73.5\n\n78.0\n\n81.0\n\n81.5\n\n-43.5\n\n97.5\n\n98.5\n\n87.0\n\n76.5\n\n69.5\n\n66.0\n\n59.5\n\n61.0\n\n63.5\n\n68.0\n\n72.0\n\n74.5\n\n74.0\n\n-58.0\n\n97.5\n\n98.5\n\n85.0\n\n74.0\n\n66.5\n\n59.5\n\n57.0\n\n57.5\n\n59.0\n\n62.5\n\n65.0\n\n66.0\n\n64.5\n\n-72.4\n\n97.5\n\n98.5\n\n83.0\n\n71.5\n\n64.5\n\n58.0\n\n55.5\n\n56.5\n\n57.0\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n-82.1\n\n97.5\n\n98.5\n\n81.0\n\n69.0\n\n63.5\n\n56.0\n\n55.5\n\n56.5\n\n57.0\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n-86.9\n\n97.5\n\n98.5\n\n78.5\n\n66.5\n\n54.5\n\n55.0\n\n55.5\n\n56.5\n\n57.0\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n-93.2\n\n97.5\n\n98.5\n\n77.0\n\n52.5\n\n54.5\n\n55.0\n\n55.5\n\n56.5\n\n57.0\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n-102.4\n\n97.5\n\n101.5\n\n52.0\n\n52.5\n\n54.5\n\n55.0\n\n55.5\n\n56.5\n\n57.0\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n-131.4\n\n51.5\n\n51.5\n\n52.0\n\n52.5\n\n54.5\n\n55.0\n\n55.5\n\n56.5\n\n57.0\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\nDimension / : 12.3 mm - Head circumference : 560 mm\n\n\n\n\nHeadform J\n\n(Dimensions in millimetres.)\n\nDimension\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n101.0\n\n99.5\n\n95.5\n\n88.5\n\n82.5\n\n79.5\n\n79.5\n\n82.0\n\n86.0\n\n92.0\n\n97.0\n\n100.5\n\n101.0\n\n-12.7\n\n101.0\n\n99.5\n\n94.5\n\n85.0\n\n78.0\n\n75.5\n\n75.5\n\n78.0\n\n82.0\n\n88.0\n\n93.0\n\n96.5\n\n97.0\n\n-22.7\n\n101.0\n\n100.5\n\n94.5\n\n84.5\n\n76.0\n\n72.0\n\n70.5\n\n73.5\n\n77.0\n\n83.0\n\n88.0\n\n91.5\n\n92.0\n\n-35.0\n\n101.0\n\n102.0\n\n92.5\n\n81.5\n\n74.0\n\n71.0\n\n64.0\n\n66.5\n\n70.5\n\n76.0\n\n81.0\n\n84.0\n\n84.5\n\n-45.0\n\n101.0\n\n102.0\n\n90.0\n\n79.0\n\n72.0\n\n68.5\n\n61.5\n\n63.0\n\n66.0\n\n70.5\n\n74.5\n\n77.0\n\n76.5\n\n-60.0\n\n101.0\n\n102.0\n\n88.0\n\n76.5\n\n69.0\n\n61.5\n\n59.0\n\n59.5\n\n61.0\n\n64.5\n\n67.5\n\n68.5\n\n67.0\n\n-75.0\n\n101.0\n\n102.0\n\n86.0\n\n74.0\n\n67.0\n\n60.0\n\n57.5\n\n58.5\n\n59.0\n\n60.0\n\n60.5\n\n61.5\n\n62.0\n\n-85.0\n\n101.0\n\n102.0\n\n84.0\n\n71.5\n\n66.0\n\n58.0\n\n57.5\n\n58.5",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 33,
+      "page_end": 34,
+      "clause": "ANNEX N",
+      "heading": "ANNEX N",
+      "heading_path": [
+        "ANNEX N"
+      ],
+      "char_start": 72683,
+      "char_end": 75683,
+      "semantic_chunk_length": 3000,
+      "final_chunk_length": 3302,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0031",
+    "text": "2.0\n\n90.0\n\n79.0\n\n72.0\n\n68.5\n\n61.5\n\n63.0\n\n66.0\n\n70.5\n\n74.5\n\n77.0\n\n76.5\n\n-60.0\n\n101.0\n\n102.0\n\n88.0\n\n76.5\n\n69.0\n\n61.5\n\n59.0\n\n59.5\n\n61.0\n\n64.5\n\n67.5\n\n68.5\n\n67.0\n\n-75.0\n\n101.0\n\n102.0\n\n86.0\n\n74.0\n\n67.0\n\n60.0\n\n57.5\n\n58.5\n\n59.0\n\n60.0\n\n60.5\n\n61.5\n\n62.0\n\n-85.0\n\n101.0\n\n102.0\n\n84.0\n\n71.5\n\n66.0\n\n58.0\n\n57.5\n\n58.5\n\n59.0\n\n60.0\n\n60.5\n\n61.5\n\n62.0\n\n-90.0\n\n101.0\n\n102.0\n\n81.5\n\n69.0\n\n56.5\n\n57.0\n\n57.5\n\n58.5\n\n59.0\n\n60.0\n\n60.5\n\n61.5\n\n62.0\n\n-96.5\n\n101.0\n\n102.0\n\n79.5\n\n54.5\n\n56.5\n\n57.0\n\n57.5\n\n58.5\n\n59.0\n\n60.0\n\n60.5\n\n61.5\n\n62.0\n\n106.0\n\n101.0\n\n105.0\n\n54.0\n\n54.5\n\n56.5\n\n57.0\n\n57.5\n\n58.5\n\n59.0\n\n60.0\n\n60.5\n\n61.5\n\n62.0\n\n-136.0\n\n53.5\n\n53.5\n\n54.0\n\n54.5\n\n56.5\n\n57.0\n\n57.5\n\n58.5\n\n59.0\n\n60.0\n\n60.5\n\n61.5\n\n62.0\n\nDimension\n\nI: 12.7 mm - Head circumference : 570 mm\n\nHeadform K\n\n(Dimensions in millimetres.)\n\nDimension\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n102.5\n\n101.0\n\n97.0\n\n90.0\n\n84.0\n\n81.5\n\n81.0\n\n83.5\n\n88.0\n\n93.0\n\n98.5\n\n101.5\n\n102.5\n\n-12.9\n\n102.5\n\n101.0\n\n96.0\n\n86.0\n\n79.0\n\n76.5\n\n76.5\n\n79.0\n\n83.0\n\n89.5\n\n94.5\n\n98.0\n\n98.5\n\n-23.0\n\n102.5\n\n102.0\n\n96.0\n\n86.0\n\n77.0\n\n73.0\n\n71.5\n\n74.5\n\n78.0\n\n84.0\n\n89.5\n\n93.0\n\n93.5\n\n-35.5\n\n102.5\n\n103.5\n\n94.0\n\n82.5\n\n75.0\n\n72.0\n\n65.0\n\n67.5\n\n71.5\n\n77.0\n\n82.0\n\n85.0\n\n85.5\n\n-45.7\n\n102.5\n\n103.5\n\n91.5\n\n80.0\n\n73.0\n\n63.5\n\n62.5\n\n64.0\n\n67.0\n\n71.5\n\n75.5\n\n78.0\n\n77.5\n\n-60.9\n\n102.5\n\n103.5\n\n89.5\n\n77.5\n\n70.0\n\n62.5\n\n60.0\n\n60.5\n\n62.0\n\n65.5\n\n68.5\n\n69.5\n\n68.0\n\n-76.1\n\n102.5\n\n103.5\n\n87.5\n\n75.0\n\n68.0\n\n61.0\n\n58.5\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n-86.2\n\n102.5\n\n103.5\n\n85.5\n\n72.5\n\n67.0\n\n59.0\n\n58.5\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n-91.3\n\n102.5\n\n103.5\n\n82.5\n\n70.0\n\n57.5\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n-97.9\n\n102.5\n\n103.5\n\n80.5\n\n55.5\n\n57.5\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n-107.6\n\n102.5\n\n106.5\n\n54.5\n\n55.5\n\n57.5\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n-138.0\n\n54.5\n\n54.5\n\n54.5\n\n55.5\n\n57.5\n\n58.0\n\n58.5\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\nDimension / : 12.9 mm - Head circumference : 580 mm\n\nHeadform M\n\n(Dimensions in millimetres.)\n\nDimension\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n.06\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n106.0\n\n104.0\n\n101.0\n\n93.5\n\n87.0\n\n84.5\n\n84.0\n\n86.5\n\n91.0\n\n96.0\n\n102.0\n\n106.0\n\n106.0\n\n-13.3\n\n106.0\n\n104.0\n\n98.5\n\n88.5\n\n81.5\n\n79.0\n\n79.0\n\n81.5\n\n85.5\n\n92.0\n\n97.0\n\n100.5\n\n101.5\n\n-23.7\n\n106.0\n\n105.0\n\n98.5\n\n88.0\n\n79.5\n\n75.0\n\n73.5\n\n76.5\n\n80.5\n\n86.5\n\n92.0\n\n95.5\n\n96.0\n\n-36.5\n\n106.0\n\n106.5\n\n96.5\n\n85.0\n\n77.5\n\n74.0\n\n67.0\n\n69.5\n\n73.5\n\n79.5\n\n84.5\n\n87.5\n\n88.0\n\n-47.0\n\n106.0\n\n106.5\n\n94.0\n\n82.5\n\n75.0\n\n71.5\n\n64.0\n\n66.0\n\n69.0\n\n73.5\n\n78.0\n\n80.5\n\n80.0\n\n-62.6\n\n106.0\n\n106.5\n\n92.0\n\n80.0\n\n72.0\n\n64.0\n\n61.5\n\n62.0\n\n63.5\n\n67.5\n\n70.5\n\n71.5\n\n70.0\n\n-78.3\n\n106.0\n\n106.5\n\n90.0\n\n77.0\n\n70.0\n\n62.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n64.0\n\n64.5\n\n-88.7\n\n106.0\n\n106.5\n\n87.5\n\n74.5\n\n69.0\n\n60.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n64.0\n\n64.5\n\n-94.0\n\n106.0\n\n106.5\n\n85.0\n\n72.0\n\n59.0\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n64.0\n\n64.5\n\n-100.7\n\n106.0\n\n106.5\n\n83.0\n\n57.0\n\n59.0\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n64.0\n\n64.5\n\n-110.7\n\n106.0\n\n109.5\n\n56.5\n\n57.0\n\n59.0\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n64.0\n\n64.5\n\n-142.0\n\n56.0\n\n56.0\n\n56.5\n\n57.0\n\n59.0\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n64.0\n\n64.5\n\nDimension / : 13.3 mm\n\n- - Head circumference : 600 mm\n\n\n\nHeadform O\n\n(Dimensions in millimetres.)\n\nDimension\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n90°\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n108.5",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 34,
+      "page_end": 35,
+      "clause": "ANNEX N",
+      "heading": "ANNEX N",
+      "heading_path": [
+        "ANNEX N"
+      ],
+      "char_start": 75685,
+      "char_end": 78684,
+      "semantic_chunk_length": 2999,
+      "final_chunk_length": 3301,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "4151_2015_amd1_reff2020_0032",
+    "text": "\n\n62.5\n\n63.0\n\n64.0\n\n64.5\n\n-142.0\n\n56.0\n\n56.0\n\n56.5\n\n57.0\n\n59.0\n\n59.5\n\n60.0\n\n61.0\n\n61.5\n\n62.5\n\n63.0\n\n64.0\n\n64.5\n\nDimension / : 13.3 mm\n\n- - Head circumference : 600 mm\n\n\n\nHeadform O\n\n(Dimensions in millimetres.)\n\nDimension\n\n0°\n\n15°\n\n30°\n\n45°\n\n60°\n\n\n90°\n\n105°\n\n120°\n\n135°\n\n150°\n\n165°\n\n180°\n\nRear\n\n108.5\n\n107.5\n\n103.5\n\n96.0\n\n90.5\n\n87.5\n\n87.0\n\n90.0\n\n94.5\n\n100.0\n\n105.0\n\n108.0\n\n108.5\n\n-13.7\n\n108.5\n\n107.5\n\n101.5\n\n91.5\n\n84.0\n\n81.0\n\n81.0\n\n84.0\n\n88.0\n\n94.5\n\n100.0\n\n103.5\n\n104.5\n\n-24.4\n\n108.5\n\n108.0\n\n101.5\n\n91.0\n\n81.5\n\n77.5\n\n76.0\n\n79.0\n\n83.0\n\n89.0\n\n94.5\n\n98.5\n\n99.0\n\n-37.6\n\n108.5\n\n109.5\n\n99.5\n\n87.5\n\n79.5\n\n76.5\n\n63.0\n\n71.5\n\n76.0\n\n81.5\n\n87.0\n\n90.5\n\n91.0\n\n-48.4\n\n108.5\n\n109.5\n\n97.0\n\n85.0\n\n77.5\n\n73.5\n\n66.0\n\n67.5\n\n71.0\n\n76.0\n\n80.0\n\n83.5\n\n82.0\n\n-64.5\n\n108.5\n\n109.5\n\n94.5\n\n82.0\n\n74.0\n\n66.0\n\n63.5\n\n64.0\n\n65.5\n\n69.5\n\n72.5\n\n73.5\n\n72.0\n\n-80.6\n\n108.5\n\n109.5\n\n92.5\n\n79.5\n\n72.0\n\n64.5\n\n62.0\n\n63.0\n\n63.5\n\n64.5\n\n65.0\n\n66.0\n\n66.5\n\n-91.4\n\n108.5\n\n109.5\n\n90.5\n\n77.0\n\n71.0\n\n62.5\n\n62.0\n\n63.0\n\n63.5\n\n64.5\n\n65.0\n\n66.0\n\n66.5\n\n-96.8\n\n108.5\n\n109.5\n\n87.5\n\n74.0\n\n60.5\n\n61.0\n\n62.0\n\n63.0\n\n63.5\n\n64.5\n\n65.0\n\n66.0\n\n66.5\n\n-103.8\n\n108.5\n\n109.5\n\n85.5\n\n58.5\n\n60.5\n\n61.0\n\n62.0\n\n63.0\n\n63.5\n\n64.5\n\n65.0\n\n66.0\n\n66.5\n\n-114.0\n\n108.5\n\n113.0\n\n58.0\n\n58.5\n\n60.5\n\n61.0\n\n62.0\n\n63.0\n\n63.5\n\n64.5\n\n65.0\n\n66.0\n\n66.5\n\n-146.2\n\n57.5\n\n57.5\n\n58.0\n\n58.5\n\n60.5\n\n61.0\n\n62.0\n\n63.0\n\n63.5\n\n64.5\n\n65.0\n\n66.0\n\n66.5\n\nDimension /: 13.7 mm - Head circumference : 620 mm\n\n\n\n\n## ANNEX P\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote\n\nharmonious development of the activities of standardization, marking and quality certification of goods\n\nand attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form\n\nwithout the prior permission in writing of BIS. This does not preclude the free use, in the course of\n\nimplementing the standard, of necessary details, such as symbols and sizes, type or grade designations.\n\nEnquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed\n\nperiodically; a standard along with amendments is reaffirmed when such review indicates that no changes are\n\nneeded; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards\n\nshould ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of\n\n‘BIS Catalogue' and ‘Standards : Monthly Additions'.\n\nThis Indian Standard has been developed from Doc No.: CED 22 (7887)\n\nAmendments Issued Since Publication\n\nAmend No.\n\nDate of Issue\n\nText Affected",
+    "metadata": {
+      "source": "4151_2015_amd1_reff2020.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 35,
+      "page_end": 36,
+      "clause": "ANNEX N",
+      "heading": "ANNEX N",
+      "heading_path": [
+        "ANNEX N"
+      ],
+      "char_start": 78686,
+      "char_end": 81179,
+      "semantic_chunk_length": 2493,
+      "final_chunk_length": 2795,
+      "standard_no": "IS 4151",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "17799_2022_0000",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nFebruary 2022 \b Price Group 3\n\n\n\n\nUnmanned Aerial Vehicles Sectional Committee, TED 14\n\nFOREWORD\n\nThis Indian Standard was adopted by Bureau of Indian Standards after the draft finalized by the Unmanned Aerial Vehicles Sectional Committee, had been approved by the Transport Engineering Division Council. The global drone industry is bound to prosper in the near future and in a big way. One of the latest developments is the increase in the use of small, unmanned aerial vehicles (UAVs) in the sector of agriculture. There is a huge potential for drones in agriculture to support evidence-based planning and spatial data collection. These technologies can provide valuable data that can then be used to influence policies and decisions. In India, drone regulation is governed by Directorate General of Civil Aviation (DGCA). Worldwide, the usage of drones in agriculture is increasing by leaps and bounds. With time, the technologies for drone based input application will be perfected and will become affordable through custom hiring centres even to small and marginal farmers. However, non-availability of proper regulations and guidelines may offer hindrances in popularization of drones in agriculture. Thus, proper drone laws and regulations are the need of the hour for advancement and spread of drone technology in agriculture. Hence, these recommendations are brought in place to help India in implementing the laws and regulations for agriculture drones. It is recommended to refer Indian standard on ‘UAV-General Requirements’ also for the general requirements related to drones. In addition to requirements specific to drones, general guidelines for drone operators are provided in Annex A. The composition of the Committee responsible for the formulation of this standards is given in Annex B.\n\n\n\n\nIndian Standard\n\n\nUNMANNED AERIAL VEHICLES ( UAV ) — DRONES\n\n\nFOR AGRICULTURAL PURPOSES\n\n\n## 1 SCOPE\n\nThis standard is applicable to all the categories of drones which may be used for agricultural purposes, such as nano up to 250 g, micro 250 g to 2 kg, small 2 kg to 25 kg, medium 25 kg to 150 kg and large more than 150 kg of pay loads.\n\n\n## 2 GENERAL REQUIREMENTS\n\nDrones shall comply with prevailing rules and regulations in the country as notified by the government.",
+    "metadata": {
+      "source": "17799_2022.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2380,
+      "semantic_chunk_length": 2378,
+      "final_chunk_length": 2378,
+      "standard_no": "IS 17799",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17799_2022_0001",
+    "text": " be used for agricultural purposes, such as nano up to 250 g, micro 250 g to 2 kg, small 2 kg to 25 kg, medium 25 kg to 150 kg and large more than 150 kg of pay loads.\n\n\n## 2 GENERAL REQUIREMENTS\n\nDrones shall comply with prevailing rules and regulations in the country as notified by the government.\n\n## 3 DRONE SPECIFICATIONS\n\n\n3.1 The drone shall be fitted with accurate altitude sensor to ensure that the desired height above the crop is maintained throughout the spraying mission.\n\n\n3.2 The Global Navigation Satellite System (GNSS) accuracy of the drone and accuracy of the map shall be characterized and the same shall be utilized to define the safety/buffer margin while creating the geo-fencing around the field or obstacles. The GNSS may preferably have support for NavIC (Navigation with Indian Constellation).\n\n\n3.3 Additional electronic devices, such as multispectral imaging, photography, data logging from sensors located in agricultural fields etc. may be considered for usage in drones for agricultural purpose. The additional equipment/components, if any, fitted to the drone shall not create navigational or aerodynamic interference to the safe operation of the drone.\n\n\n3.4 The drone shall have necessary fail-safes including Return to Home (RTH) on empty tank/loss of signal, and auto mission restart from the point RTH was engaged.\n\n\n3.5 The drone shall have capability to handle variable payload (depleting tank).\n\n\n3.6 The nozzle system shall be attached in such a manner that the spray swath is continuous when sprayed from the minimum permitted height above the uniformly distributed crop, for example, paddy.\n\n\n3.7 The drone spray system shall support variable flow control to ensure uniform dispensing of the payload.\n\n\n3.8 The drone spray system shall be leak proof and dripping of agrochemical shall be avoided during the application.\n\n\n3.9 The drone spray system shall be properly calibrated to ensure accuracy of ± 10 percent on the quantity of input sprayed.\n\n\n3.10 The spray tank or tank supporting structure shall have enough shock absorption capacity to ensure no spillage of spray mixture occurs when the spray tank filled up to maximum payload is dropped from a height of 1 m.\n\n\n3.11 The spray tank shall be made of transparent or semi-transparent material to allow the pilot to estimate the amount of spray material contained in the tank.",
+    "metadata": {
+      "source": "17799_2022.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 DRONE SPECIFICATIONS",
+      "heading_path": [
+        "3 DRONE SPECIFICATIONS"
+      ],
+      "char_start": 2383,
+      "char_end": 4458,
+      "semantic_chunk_length": 2075,
+      "final_chunk_length": 2377,
+      "standard_no": "IS 17799",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17799_2022_0002",
+    "text": " capacity to ensure no spillage of spray mixture occurs when the spray tank filled up to maximum payload is dropped from a height of 1 m.\n\n\n3.11 The spray tank shall be made of transparent or semi-transparent material to allow the pilot to estimate the amount of spray material contained in the tank.\n\n## 4 AGROCHEMICAL COMPATIBILITY REQUIREMENTS\n\n\n4.1 The agrochemical (liquid/solid) compatibility with the drone spray system shall be established prior to the mission for the desired dilution. This is to ensure agrochemical solubility formulation stability and ability to spray with the type of nozzles provided in the drone. Regulatory guidelines by Central Insecticides Board and Registration Committee (CIBRC) shall be used for the purpose to ensure agrochemical compatibility. Agrochemical handling protocols in terms of usage and disposal shall be strictly followed as per the specified guidelines from the label approved by CIBRC.\n\n\n4.2 Following guidelines may be utilized for the agrochemical spray to have the better trade-off between the drift and retention ability:\n\na) fine : 106-235 μm; or b) medium to coarse: 236 – 403 μm.\n\n\n\n4.3 Following spray coverage guidelines may be utilized to have satisfactory bio-efficacy:\n\na) 20 droplets/cm2 — For insecticides and systemic\n\n\nfungicides; b) 5-10 droplets/cm2 — For translocated herbicides;\n\n\nand c) 50-70 droplets/cm2 — For non-systemic fungicides.\n\n\n\n4.4 It is recommended to carry out a onetime pilot assessment of crop phytotoxicity for the desired dilution for the specific spray system, unless data is already available. It is to be noted that phytotoxicity behaviour depends on various factor change with the spray parameters.\n\n\n\n\n\n4.5 When applying for modification of the registration of an already registered agricultural chemical spray by using a drone, the following is recommended:\n\n- a) if the amount of the active ingredient deposited\nper unit surface area is within the range initially applied for, there is no need to submit crop residue tests in addition to those at the time of initial application for registration; and b) when a study on phytotoxicity can confirm the\n\nexistence or otherwise of phytotoxicity, there is no restriction as to field studies.\n\n\n4.6 The minimum dilution shall be decided based on the fulfilment of the requirements given in 4.1 to 4.5 and ensuring satisfactory coverage of sprayed input both horizontally and vertically.",
+    "metadata": {
+      "source": "17799_2022.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "4",
+      "heading": "4 AGROCHEMICAL COMPATIBILITY REQUIREMENTS",
+      "heading_path": [
+        "4 AGROCHEMICAL COMPATIBILITY REQUIREMENTS"
+      ],
+      "char_start": 4461,
+      "char_end": 6588,
+      "semantic_chunk_length": 2127,
+      "final_chunk_length": 2429,
+      "standard_no": "IS 17799",
+      "year": "2022",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17799_2022_0003",
+    "text": "ity can confirm the\n\nexistence or otherwise of phytotoxicity, there is no restriction as to field studies.\n\n\n4.6 The minimum dilution shall be decided based on the fulfilment of the requirements given in 4.1 to 4.5 and ensuring satisfactory coverage of sprayed input both horizontally and vertically.\n\n## 5 OPERATIONAL REQUIREMENTS\n\n\n### 5.1 Before Application\n\n\n5.1.1 The components of drone assisted spraying system such as real time kinematic global positioning, flight controller, remote control system, battery module, motor with propellers and spraying system shall be checked for their soundness, safety and integrity before operating the drones in the field.\n\n\n5.1.2 The home point of drone shall be selected keeping in view the crop and field conditions. Flying path shall be prepared according to field shape and required head space for turning. Safe distance (not less than 10 m) of nearby people from the drone take off place shall be ensured.\n\n\n5.1.3 The service provider shall carry additional spare parts like propellers, batteries (minimum four sets), motors and nozzles to the operational site.\n\n\n### 5.2 During Application\n\n\n5.2.1 Behaviour of drone shall be monitored continuously during operation to avoid accidents. The nozzles shall also be monitored for not being choked during operation.\n\n\n5.2.2 It is recommended to fly the drones at a height of 1.5 to 3 m above the targeted crop canopy and at a speed not exceeding 6 m/s during spraying.\n\n\n5.2.3 Discharged drone batteries shall be replaced immediately.\n\n\n### 5.3 Post Application\n\n\n5.3.1 After every 20 h of flight, the drone shall be examined for the wear, loosen screws, dislocated\n\n\ncomponents, scratches, distortion and abnormality, if any, in propeller and frames.\n\n\n### 5.4 Weather Considerations\n\n\n5.4.1 It is recommended not to use drone for spray under fog, during cloudy and immediately after the rains to ensure input retention by the crop.\n\n\n5.4.2 The weather forecasting shall also be considered before flying the drone. The conditions like cloudiness, light intensity, temperature, wind direction and velocity shall be recorded, and decisions shall be taken accordingly.\n\n\n5.4.3 The use of drones for spraying shall be avoided in high temperature conditions (> 35 °C), high humidity conditions (> 70 percent) and high wind speed (> 3 m/s). It shall be avoided immediately before and after the rains and also opposite to wind direction.\n\n\n## 6 MAINTENANCE REQUIREMENTS\n\nThe drone maintenance guidelines (periodic, daily and between the flights) shall be followed as per the Original Equipment Manufacturer instructions.",
+    "metadata": {
+      "source": "17799_2022.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "5",
+      "heading": "5 OPERATIONAL REQUIREMENTS",
+      "heading_path": [
+        "5 OPERATIONAL REQUIREMENTS"
+      ],
+      "char_start": 6591,
+      "char_end": 8899,
+      "semantic_chunk_length": 2308,
+      "final_chunk_length": 2610,
+      "standard_no": "IS 17799",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17799_2022_0004",
+    "text": "wind speed (> 3 m/s). It shall be avoided immediately before and after the rains and also opposite to wind direction.\n\n\n## 6 MAINTENANCE REQUIREMENTS\n\nThe drone maintenance guidelines (periodic, daily and between the flights) shall be followed as per the Original Equipment Manufacturer instructions.\n\n## 7 PILOT TRAINING REQUIREMENTS\n\n\n7.1 A training module encompassing agrochemical handling, agri-mission specific protocols and relevant crop protection guidelines shall be essential for pilots operating agro input spray drones.\n\n\n7.2 The use of personal protective equipment (PPE) including full sleeve top, gumboots, hand gloves (while handling the chemicals), goggles, mask, helmet and radium jacket (for night operations) shall be mandatory for the pilots.\n\n\n7.3 Technical team size is subject to scale and strength of the operation. The team members shall be properly trained for their respective jobs and have training certificate from training centres approved by the concerned authority.\n\n\n## 8 MARKING\n\nThe drone shall have following labelled information:\n\n- a) Year of manufacture; b) Designation of series or type; c) Serial number, if any; d) Empty mass (kg): Mass of UASS when the tank is\nempty; e) Maximum payload capacity (kg); and f) Maximum flow rate, litre per min (lpm).",
+    "metadata": {
+      "source": "17799_2022.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "7",
+      "heading": "7 PILOT TRAINING REQUIREMENTS",
+      "heading_path": [
+        "7 PILOT TRAINING REQUIREMENTS"
+      ],
+      "char_start": 8902,
+      "char_end": 9892,
+      "semantic_chunk_length": 990,
+      "final_chunk_length": 1292,
+      "standard_no": "IS 17799",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17799_2022_0005",
+    "text": "ority.\n\n\n## 8 MARKING\n\nThe drone shall have following labelled information:\n\n- a) Year of manufacture; b) Designation of series or type; c) Serial number, if any; d) Empty mass (kg): Mass of UASS when the tank is\nempty; e) Maximum payload capacity (kg); and f) Maximum flow rate, litre per min (lpm).\n\n## ANNEX A\n\n( Foreword )\n\nGENERAL GUIDELINES FOR PILOTS/DRONE OPERATORS\n\nA-1 It is recommended to use clean water for preparing the solution of pesticides. Containers and buckets used for mixing pesticides should not be used for domestic purpose even after thorough washing. Pesticides shall be kept separated during transportation. Bulk pesticides shall be carried carefully to the site of application.\n\nA-9 It shall be ensured that the application of chemical spray shall not exceed the defined threshold limit so that there is no over-dose of chemical application to the crop.\n\nA-10 The drone and spraying unit shall be properly calibrated before flying. The spraying unit shall be checked for pump pressure, nozzle wear out for uniform spraying, and leakage in tank and lines.\n\nA-2 No movement of human or animal should be allowed in the operational field during spraying.\n\nA-3 Entry to the treated field immediately after operation shall be avoided without wearing protective clothing.\n\nA-11 The pesticide name and label shall be checked before filling in the tank at recommended concentrations.\n\nA-12 The reach of pesticide spray shall be avoided during active bee foraging period of the day in flowering nectar crop. When spraying pesticides that are toxic to non-target organisms, such as fish, birds and silkworm, it shall be abided by the product label requirements and take effective measures to avoid risks.\n\nA-4 Hands and face shall be washed with clean water and preferably with soap, immediately after the spraying operation. Also, the clothes shall be changed. In case any sign of body contamination with hazardous or poisonous chemicals is perceived, consultation of doctor shall be sought.\n\nA-13 A first aid box and maintenance tool box are essential during the drone operations. The drone shall have safety guards around propellers to avoid the accidents with human, animal and birds etc.\n\nA-5 A buffer zone between drone based treatment and the non-target crop (≥ 5m to cater to agrochemical drift) shall be maintained between the adjacent farms or different crops to avoid spray on non-targets. The buffer zone may be increased based on the severity of the agrochemical on the non-targets.\n\n\nA-14 Chemical spray which is left out shall be disposed-off at safer place, the area shall be away from the residential areas, children play areas, hospitals, restaurants, etc. The disposal of waste shall conform to the local laws. Hazardous wastes shall not be burnt or buried.\n\nA-6 During the spray operation operator should always maintain minimum 10 m distance from the drone and avoid windward direction as much as possible.\n\nA-7 A display of warning sign during and immediately after the spray operations should be placed.\n\nA-15 Empty containers shall not be left in the field. Empty containers of pesticides should not be re-used for storing other solutions.",
+    "metadata": {
+      "source": "17799_2022.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 9897,
+      "char_end": 12775,
+      "semantic_chunk_length": 2878,
+      "final_chunk_length": 3180,
+      "standard_no": "IS 17799",
+      "year": "2022",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17799_2022_0006",
+    "text": "from the drone and avoid windward direction as much as possible.\n\nA-7 A display of warning sign during and immediately after the spray operations should be placed.\n\nA-15 Empty containers shall not be left in the field. Empty containers of pesticides should not be re-used for storing other solutions.\n\nA-8 Drone based spray operations shall be conducted at a safe distance from water bodies, residential areas, fodder crops, public utilities, dairy, poultry etc. during pesticide application.\n\nA-16 While transporting or storing the plant protection products, the area shall be beyond the reach of children, animals and unauthorized persons.\n\n\n\n\n\n## ANNEX B\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: TED 14 (17604).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "17799_2022.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 12777,
+      "char_end": 14577,
+      "semantic_chunk_length": 1800,
+      "final_chunk_length": 2102,
+      "standard_no": "IS 17799",
+      "year": "2022",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

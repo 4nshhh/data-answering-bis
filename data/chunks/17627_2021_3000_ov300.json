@@ -1,0 +1,851 @@
+[
+  {
+    "id": "17627_2021_0000",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nNovember 2021 \b Price Group 13\n\n\n\n\nIndian Language Technologies and Products Sectional Committee, LITD 20\n\nFOREWORD\n\nThis Indian Standard was adopted by Bureau of Indian Standards, after the draft finalized by the ‘Indian Language Technologies and Products Sectional Committee, and approval of the Electronics and Information Technology Division Council.\n\nThe process of coming up with a common tagsets for Indian languages was set in motion with the project on Indian Language to Indian Language Machine Translation (ILMT), that started in 2006 led by IIIT Hyderabad involving 11 other academic institutions and supported by Ministry of Electronics and Information Technology (MeiTY), Government of India. This led to a special effort for creating a national standard for POS tags under BIS.\n\nThese standards have been developed following a rigorous process of deliberations starting with existing common tagsets evolved through ILMT project, similar standards elsewhere in the world and considering the linguistic properties of Indian languages. It was done by consulting linguists and experts working in the field and also taking learnings from annotators working in major projects related to Indian languages – ILMT (MeiTY), ILPOS (Microsoft), LDCIL (CIIL), and ILCI (MeiTY). Several workshops were conducted over a period of three to four years in which linguists, computer scientists, language experts and annotators participated where the necessity and justification for each tag was discussed threadbare.”\n\nStandardization of linguistic information is done at different levels and in different phases. The standards for POS tagging is taken up as the first step in this direction.\n\nThe scheme proposed here has the property of extensibility which allows flexibility for adding more and more languages to the current set.\n\nThe composition of the Sectional committee and panel responsible fo the preparation of this standard is given in Annex B.\n\n\n\n\nCONTENTS\n\n\b Page No.\n\n0 INTRODUCTION ... 1\n\n0.1 PRINCIPLES ... 1\n\n1 SCOPE ... 3\n\n2 REFERENCE ... 3\n\n\n## 3 TERMINOLOGY AND SYMBOLS ... 3\n\n3.1 Terminology ... 3\n\n\nSECTION 1: LINGUISTIC INFORMATION AND DESIGN PRINCIPLES ... 5\n\n\n## 4 PRINCIPLES FOR DESIGNING THE LINGUISTIC STANDARDS FOR INDIAN LANGUAGE CORPORA ... 5\n\n\n4.1 Principle 1: Generic Tag Sets ... 5 4.2 Principle 2: Layered Approach ... 5 4.3 Principle 3: Hierarchy within each Layer ... 5 4.4 Principle 4: Extensibility ... 5 4.5 Principle 5: Tag Redundancy ... 5 4.6 Principle 6: Guidelines ... 5 4.7 Principle 7: Compatibility ... 5 4.8 Principle 8: Applicability ... 5 4.9 Principle 9: Annotator friendly ... 5",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2725,
+      "semantic_chunk_length": 2723,
+      "final_chunk_length": 2723,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0001",
+    "text": ": Layered Approach ... 5 4.3 Principle 3: Hierarchy within each Layer ... 5 4.4 Principle 4: Extensibility ... 5 4.5 Principle 5: Tag Redundancy ... 5 4.6 Principle 6: Guidelines ... 5 4.7 Principle 7: Compatibility ... 5 4.8 Principle 8: Applicability ... 5 4.9 Principle 9: Annotator friendly ... 5\n\n## 5 POSSIBLE LINGUISTIC INFORMATION TO BE INCLUDED IN CORPORA ANNOTATION STANDARDS ... 5\n\n\n### 5.1 MARKING TEXT INFORMATION ... 6\n\n\n5.1.1 Marking Metadata in a Text ... 6 5.1.2 Marking the Paragraph Boundaries in a Text ... 6 5.2 Marking Linguistic Information ... 6 5.2.1 Token/Word Level ... 6 5.2.2 Sentence Level ... 6 5.2.3 Discourse Level ... 7 5.2.4 Any other Linguistic Information ... 7\n\n\nSECTION 2: STANDARDS FOR THE POS TAG SET ... 7\n\n\n## 6 POS TAG SET STANDARDS ... 7\n\n\n### 6.1 Assumptions ... 7 6.2 Hierarchy at POS level ... 7 6.3 POS Tag Set for Indian Languages (a Superset) ... 8\n\n\n## 7 POS TYPES AND THEIR TAGS ... 8\n\n\n### 7.1 Noun (N) ... 8 7.2 Common Noun (NN) ... 8 7.3 Proper Noun (NNP) ... 8\n\n\n\n\n\b Page No.\n\n\n7.4 Verbal Noun (NNV) ... 8 7.5 Nloc–Particular Nouns of Locations – Space and Time (NST) ... 8 7.6 Pronoun (PR) ... 8 7.6.1 Personal Pronouns (PRP) ... 9 7.6.2 Reflexive Pronoun (PRF) ... 9 7.6.3 Relative Pronoun (PRL) ... 9 7.6.4 Reciprocal Pronoun (PRC) ... 9 7.6.5 Interrogative Pronoun/WH-word (PRQ) ... 9 7.6.6 Indefinite Pronoun (PRI) ... 9 7.7 Demonstratives (DM) ... 9 7.8 Verb (V) ... 9 7.8.1 Verb (Main) (VM) ... 9 7.8.2 Auxiliary Verb (VAUX) ... 9 7.9 Adjective (JJ) ... 9 7.10 Adverb (RB) ... 9 7.11 Postposition (PSP) ... 9 7.12 Conjuncts (CC) ... 10 7.12.1 Co-ordinators (CCD) ... 10 7.12.2 Subordinators (CCS) ... 10 7.13 Particles (RP) ... 10 7.13.1 Particle Default (RPD) ... 10 7.13.2 Classifier (CL) ... 10 7.13.3 Interjection (INJ) ... 10 7.13.4 Intensifier (INTF) ... 10 7.13.5 Negation (NEG) ... 10 7.14 Quantifiers (QT) ... 10 7.15 Residuals (RD) ... 10\n\n\n## ANNEX A  SUPERSET OF POS TAGS ... 11\n\nA-1 SUPERSET OF POS TAGS FOR INDIAN LANGUAGES ... 11\n\n\n## ANNEX B  LANGUAGE SPECIFIC POS TAGSETS AND LABELS ... 13\n\nB-1 POS TAGSET FOR DRAVIDIAN LANGUAGES (KANNADA, MALAYALAM, TAMIL, AND TELUGU) ... 13\n\nB-2 POS TAGSET FOR BANGLA ... 19\n\nB-3 POS TAGSET FOR GUJARATHI ... 21\n\nB-4 POS TAGSET FOR HINDI ... 24\n\nB-5 POS TAGSET FOR KASHMIRI ... 26\n\n\n\n\n\b Page No.\n\nB-6 POS TAGSET FOR KONKANI ... 28\n\nB-7 POS TAGSET MAITHILI ... 30\n\nB-8 POS TAGSET FOR MARATHI ... 32\n\nB-9 POS TAGSET FOR PUNJABI ... 35\n\nB-10 POS TAGSET FOR URDU ... 37\n\nBIBLIOGRAPHY ... 44\n\n\n## ANNEX C  COMMITTEE COMPOSITION ... 45\n\nLIST OF TABLES\n\nTable 1 Tags for the Quantifiers and its Subtypes ... 10 Table 2 Tags for the Residuals and its Subtypes ... 10",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 5,
+      "clause": "5",
+      "heading": "5 POSSIBLE LINGUISTIC INFORMATION TO BE INCLUDED IN CORPORA ANNOTATION STANDARDS ... 5",
+      "heading_path": [
+        "5 POSSIBLE LINGUISTIC INFORMATION TO BE INCLUDED IN CORPORA ANNOTATION STANDARDS ... 5"
+      ],
+      "char_start": 2728,
+      "char_end": 5101,
+      "semantic_chunk_length": 2373,
+      "final_chunk_length": 2675,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0002",
+    "text": ". 30\n\nB-8 POS TAGSET FOR MARATHI ... 32\n\nB-9 POS TAGSET FOR PUNJABI ... 35\n\nB-10 POS TAGSET FOR URDU ... 37\n\nBIBLIOGRAPHY ... 44\n\n\n## ANNEX C  COMMITTEE COMPOSITION ... 45\n\nLIST OF TABLES\n\nTable 1 Tags for the Quantifiers and its Subtypes ... 10 Table 2 Tags for the Residuals and its Subtypes ... 10\n\n## 0 INTRODUCTION\n\nIS 17627 : 2021\n\nAnnotated text corpora is an important resource for advances in NLP research and for developing different language technologies. The annotation of corpora is done using a set of tags, which mark the linguistic properties of a word, sentence or discourse. The corpora annotated with various linguistic information form a critically precious resource for language technologies but involve a large amount of effort and time. Therefore, it is important to create corpora which once created can be used for various purposes. Standardization of the tag sets and tagging schemes for annotating various types of linguistic information is extremely important for the creation of consistent and usable corpora.\n\nFollowing issues are considered for coming up with appropriate standards in this field:\n\n- a) What all linguistic information should be annotated in the corpora; and b) How should it be annotated. Point a) above guides the development of a scheme which allows annotating various types of linguistic information in a seamless manner. Linguistic information could be about the syntactic category of each word in a given sentence (Parts of Speech (POS), a word’s internal structure (morph analysis), grammatical analysis of a sentence (sentence structure or syntactic parsing), semantic level information both at the lexical and sentential levels, discourse structure, pronoun referents (anaphora resolution) etc. Though we may decide to annotate only one or two types of information initially, we should be able to add additional information at other levels on top of the already annotated data seamlessly at a later stage. Therefore, the design of the scheme shall support this basic principle. It is also extremely important that the scheme design shall not in any way compromise with the linguistic information to be annotated. In other words, the scheme at any level may choose to initially annotate coarser level of information if annotating finer level poses certain computational concerns, however, it should be linguistically correct and should not go against the basics of linguistic analysis.\nThe purpose of undertaking a costly (both in terms of effort and money) task, such as creating the linguistically annotated corpora should also be clear while designing the scheme. The Natural Language Processing (NLP) community finds this annotated corpora to be a precious resource as the annotated corpora is used for the following purposes:\n\n- a) Machine learning; b) Extracting linguistic properties/grammars; c) Language modelling; and d) Any other NLP need.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "0",
+      "heading": "0 INTRODUCTION",
+      "heading_path": [
+        "0 INTRODUCTION"
+      ],
+      "char_start": 5111,
+      "char_end": 7714,
+      "semantic_chunk_length": 2603,
+      "final_chunk_length": 2905,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0003",
+    "text": "ning the scheme. The Natural Language Processing (NLP) community finds this annotated corpora to be a precious resource as the annotated corpora is used for the following purposes:\n\n- a) Machine learning; b) Extracting linguistic properties/grammars; c) Language modelling; and d) Any other NLP need.\n\n### 0.1 PRINCIPLES\n\nThe basic principles for designing the schemes and tag sets for different levels of linguistic analysis mark an important basis for the final outcome. Considering the type of linguistic information identified, the linguistic scene in India and the purpose of annotation, the following issues are identified to be taken care of while designing a scheme that can be accepted as a standard for annotation:\n\n- a) The scheme should be flexible; b) The scheme should ensure consistency in the annotation; c) The scheme should be annotator friendly; d) The scheme should be compatible/mappable to other existing schemes; e) The scheme should be applicable across languages; and f) It should also be possible to annotate corpora separately for various levels of linguistic information and\nmerge it to get a linguistically richer corpora.\n\n\n\n\n\n\n\n\n\nIndian Standard\n\n\nLINGUISTIC RESOURCES — POS TAG SET FOR\n\n\nINDIAN LANGUAGES — GUIDELINES FOR DESIGNING TAGSETS AND SPECIFICATION\n\n\n## 1 SCOPE\n\nexample, in Hindi, the fixed syllable is ‘waa’ (chay vay), in Punjabi it is ‘shaa’ (chay-shay), etc.\n\nThis Indian Standard provides guidelines for designing POS tagsets and labels for Indian languages. This standard also defines Tagsets for the Indian languages Bangla, Gujarati, Hindi, Kashmiri, Konkani, Maithili, Marathi, Punjabi, Urdu, and Dravidian Languages (Telugu, Kannada, Malayalam and Tamil).\n\n\n#### 3.1.8 Extensibility — Being able to extend, flexibly increase if needed.\n\n\n#### 3.1.9 Foreign Word (RDF) — A word from a language other than the language of the document.\n\nTagsets for the languages from the North-Eastern region are not defined in this standard. However, the methodologies for designing tagsets and labels specified in this standard are such that they can easily be extended to the remaining Indian languages.\n\n\n#### 3.1.10 Intensifier — Expressions that intensify the meaning of an adverb or an adjective.\n\n\n#### 3.1.11 Interjection — An interjection is a short utterance (sound/word/phrase) which can occur independently (normally before a sentence) and conveys emotion.\n\n\n## 2 REFERENCE\n\n\n#### 3.1.12 Lexeme — An abstract unit generally associated with a set of forms (3.14) sharing a common meaning. [SOURCE: ISO 24613 : 2008]",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 9,
+      "clause": "0.1",
+      "heading": "0.1 PRINCIPLES",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.1 PRINCIPLES"
+      ],
+      "char_start": 7716,
+      "char_end": 9975,
+      "semantic_chunk_length": 2259,
+      "final_chunk_length": 2561,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0004",
+    "text": "ion — An interjection is a short utterance (sound/word/phrase) which can occur independently (normally before a sentence) and conveys emotion.\n\n\n## 2 REFERENCE\n\n\n#### 3.1.12 Lexeme — An abstract unit generally associated with a set of forms (3.14) sharing a common meaning. [SOURCE: ISO 24613 : 2008]\n\n## 3 TERMINOLOGY AND SYMBOLS\n\n### 3.1 Terminology\n\n\n#### 3.1.13 Linguistic Annotation — Annotation that provides linguistic information about the segments in the primary data.\n\nFor the purpose of this standard, the following definition(s) shall apply.\n\n\n#### 3.1.1 Annotation — Linguistic information added to primary data, independent of its representation [SOURCE: ISO 24612 : 2012, 2.3]\n\n\n3.1.14 Linguistic Information — Information that is related to linguistic aspects such as POS, word, morph analysis, grammatical structures etc.\n\n\n#### 3.1.2 Case Marker — A marker for the grammatical role of a noun/phrase/clause in a sentence.\n\n\n#### 3.1.15 Linguistic Properties — Grammatical or morphological information about a sentence or word.\n\n\n3.1.3 Chunks — A chunk is a minimal constituent unit. Non-overlapping pieces of text. Chunks have a head with some other words which go with it. It is non-recursive.\n\n\n#### 3.1.16 Linguistic Resource — A data resource that contains texts, lexicons, grammars etc\n\n\n3.1.17 Local Word Grouping (LWG) — Local Word Grouping is a process whereby the inflectional words are grouped with their respective nouns and verbs. This is based on Panini’s notion of ‘pada’ and is developed for computational modelling of Indian languages. (reference NLP, A Paninian Perspective by Akshara Bharati et al).\n\n\n#### 3.1.4 Classifier — Classifiers are words or suffixes that mark the category of a noun in terms of its semantic properties, such as gender, shape, size etc.\n\n\n#### 3.1.5 Common Noun — Common nouns are nouns that are names of a group of similar objects.\n\n\n#### 3.1.18 Matrix Language — Main language in a mixed language text.\n\n\n#### 3.1.6 Coordinators — Co-ordinators are words that conjoin any two linguistic objects such as words/ phrases/clauses.\n\n\n#### 3.1.19 Morph Analyser — A computational tool that gives the morph analysis of each word.\n\n\n3.1.7 Echowords (ECH) — Echo words are the second part of a two-word expression. The echo words are partial reduplication or repetition of the first word, however, the initial segment or syllable of the repeated word is replaced by a fixed segment or syllable. For\n\n\n3.1.20 Morph Analysis — Analysing the morph features of a word. Features such as root, category, gender, number, person etc.\n\n\n\n\n\n3.1.21 Morpho-syntactic — The internal structure of words and how they are related to other words in a sentence.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 10,
+      "clause": "3.1",
+      "heading": "3.1 Terminology",
+      "heading_path": [
+        "3 TERMINOLOGY AND SYMBOLS",
+        "3.1 Terminology"
+      ],
+      "char_start": 2155,
+      "char_end": 12374,
+      "semantic_chunk_length": 10219,
+      "final_chunk_length": 2697,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0005",
+    "text": "ed word is replaced by a fixed segment or syllable. For\n\n\n3.1.20 Morph Analysis — Analysing the morph features of a word. Features such as root, category, gender, number, person etc.\n\n\n\n\n\n3.1.21 Morpho-syntactic — The internal structure of words and how they are related to other words in a sentence.\n\n#### 3.1.22 Morphology — Study of the word structures.\n\n\n3.1.23 Multi-Word Expressions (MWE) — Multi-Word Expressions are defined as “idiosyncratic interpretations that cross word boundaries (or spaces)” [Source: Ivan A. Sag1 et al, 2001].\n\n\n3.1.24 Nloc — Nloc is a category defined in IL POS tags scheme to cover an important phenomenon of Indian languages. Certain expressions such as ‘Upara’ (above/up), ‘nIce’ (below) ‘pahale’ (before), ‘Age’ (front) etc are content words denoting time and space. These expressions/words can also occur as part of a postposition. Hence, they do two functions. To avoid any confusion in their role in a particular context, a separate category has been defined.\n\n\n#### 3.1.25 Noun — Words that refer to people, places, things, ideas, etc.\n\n\n#### 3.1.26 Part of Speech (POS) — lexical category or word class category assigned to a lexeme (3.1.12) based on its grammatical properties [SOURCE: ISO 24613 : 2008].\n\nNOTE — 1 to entry: Typical parts of speech for European\n\nlanguages include: noun, verb, adjective, adverb, preposition, etc.\n\n\n#### 3.1.27 Pronoun Referents (Anaphora) — Linguistic mechanism by which the interpretation of a referring expression depends on another expression mentioned in the same text or discourse.\n\nNOTES 1 The notion of anaphora is more general than that of\n\ncoreference (3.3): the interpretation of anaphora is context- dependent, whereas coreference is determined rather rigidly independently to its possible use of context. 2 The term is used in this document in its general sense since,\n\nfor instance, no specific distinction is made here with the notion of cataphora ( that is, coreference) with a more specific expression occurring later in a discourse). [SOURCE: ISO 24617-9 : 2019]\n\n\n3.1.28 Proper Noun — Specific names of people, places. organisation etc.\n\n\n#### 3.1.29 Punctuation mark (PUNC) — Non-numeric, non-alphabetic characters that carry specific meaning and serve as separators. [SOURCE: ISO 10324 : 1997]\n\n\n#### 3.1.30 Quotatives — Quotatives conjoin a subordinate clause to a main verb in a sentence in some languages.\n\n\n\n#### 3.1.31 Semantic Properties — Semantic features such as animate, human, young, male, tall, big etc.\n\n\n#### 3.1.32 Subordinators — Subordinators conjoin a dependent element to its head.\n\n\n#### 3.1.33 Symbol (SYM) — Symbols, such as dollar sign, pound sign, plus, minus etc.\n\n\n#### 3.1.34 Syntactic Analysis — Grammatical analysis of a sentence.\n\n\n#### 3.1.35 Taggers — Tools that automatically mark some linguistic information in a text.\n\n\n#### 3.1.36 Tagset — Comprehensive set of tags used for the morpho-syntactic description of a language.\n\nNOTE — The ISOC at data category registry is to be used as\n\nthe reference for describing a tagset.\n\n[SOURCE: ISO 24611 : 2012]",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "3.1.22",
+      "heading": "3.1.22 Morphology — Study of the word structures.",
+      "heading_path": [
+        "3 TERMINOLOGY AND SYMBOLS",
+        "3.1 Terminology",
+        "3.1.22 Morphology — Study of the word structures."
+      ],
+      "char_start": 12377,
+      "char_end": 15159,
+      "semantic_chunk_length": 2782,
+      "final_chunk_length": 3084,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0006",
+    "text": "ols that automatically mark some linguistic information in a text.\n\n\n#### 3.1.36 Tagset — Comprehensive set of tags used for the morpho-syntactic description of a language.\n\nNOTE — The ISOC at data category registry is to be used as\n\nthe reference for describing a tagset.\n\n[SOURCE: ISO 24611 : 2012]\n\n#### 3.1.37 Thematic roles/Predicate Argument structure — Formal representation of the core semantic content of an utterance, consisting of a predicate constant, and its arguments.\n\nNOTES 1 In classical logic-based semantics, this corresponds to\n\npredicate argument structures in first-order predicate logic. 2 One of the arguments can be a variable uniquely identifying\n\nthe instance of the predicate argument structure to allow references to it in other predicate argument structures. 3 The representation of event semantics is subject to many\n\nvariations; some of them, can have separate predicates for each semantic role relation. In this case, the predicate argument structure of an utterance is the sum of the individual predicate semantic role assertions representing the semantic content of the utterance.\n\n[SOURCE: ISO 24617-4:2014]\n\n\n#### 3.1.38 Unknown (UNK) — Words in a text that are not part of the language of the text or unfamiliar.\n\n\n#### 3.1.39 Word Sense — Meaning associated with a lexeme (3.1.12) in a context.\n\nNOTE — The ‘river bank’ sense of bank and the ‘financial\n\ninstitution’ sense of bank are considered to be two different word senses, or lexical units, with the same word form, or lexeme (3.1.12). I called him on the radio and Call me a taxi are associated to different word senses of the lexeme (3.1.12) call. Unrelated senses, as in bank, are called homonyms. Senses of the same word form or lexeme which are clearly related (and can be difficult to distinguish) are called polysemes, for example, Coins with an image of the king, preoccupied with body image, evokes a strong mental image. [SOURCE: ISO 24617-4 : 2014]\n\n\n\n\nSECTION 1: LINGUISTIC INFORMATION\n\nlevel category and finite or non-finite verbs as a subtype under verbs.\n\nAND DESIGN PRINCIPLES\n\n\n### 4.4 Principle 4: Extensibility",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "3.1.37",
+      "heading": "3.1.37 Thematic roles/Predicate Argument structure — Formal representation of the core semantic content of an utterance, consisting of a predicate constant, and its arguments.",
+      "heading_path": [
+        "3 TERMINOLOGY AND SYMBOLS",
+        "3.1 Terminology",
+        "3.1.37 Thematic roles/Predicate Argument structure — Formal representation of the core semantic content of an utterance, consisting of a predicate constant, and its arguments."
+      ],
+      "char_start": 15162,
+      "char_end": 16985,
+      "semantic_chunk_length": 1823,
+      "final_chunk_length": 2125,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0007",
+    "text": "example, Coins with an image of the king, preoccupied with body image, evokes a strong mental image. [SOURCE: ISO 24617-4 : 2014]\n\n\n\n\nSECTION 1: LINGUISTIC INFORMATION\n\nlevel category and finite or non-finite verbs as a subtype under verbs.\n\nAND DESIGN PRINCIPLES\n\n\n### 4.4 Principle 4: Extensibility\n\n## 4 PRINCIPLES FOR DESIGNING THE LINGUISTIC STANDARDS FOR INDIAN LANGUAGE CORPORA\n\nExtensibility is a basic property a tag set scheme should have for making it flexible. Extensibility here implies that the scheme should be such that if and when a new POS category is noticed/observed, it should be possible to incorporate it in the system either at the top level of hierarchy or as a subcategory of an existing type depending on the case.\n\nThe design of the Linguistic Standards for Corpora Annotation is based on the following Principles. This standard follows these principles in the context of POS tagging.\n\n\n### 4.1 Principle 1: Generic Tag Sets\n\n\n### 4.5 Principle 5: Tag Redundancy\n\nThe scheme should not be biased towards any a single or a group of languages. The scheme should work for all the languages, even for languages beyond Indo-Aryan and Dravidian families.\n\nIf a tag is redundant for a language, it should be deprecated. In other words, the tagset would have the tag, however, the concerned language need not include it in its tag set/or utilize it for tagging.\n\n\n### 4.2 Principle 2: Layered Approach\n\n\n### 4.6 Principle 6: Guidelines\n\nIf any text having rich linguistic information can be annotated, then the resultant resource will be a rich resource of linguistic properties made explicit. Therefore, it is desirable to annotate as much linguistic information as possible in a given text. The linguistic information encoded in a text can be quite complex and diverse. Capturing all the diverse linguistic information at one go makes the task highly complex and, therefore, is not a good idea from the manual annotation point of view. Also, adopting a semi-automatic approach to reduce the manual effort may not work well if one decides to annotate complex linguistic information at one go. Therefore, a layered approach can be considered as a practical approach. In the layered approach, the linguistic information can be broken up into smaller bites of information and each bite of information can be annotated in one layer. Some layers may have dependencies over the others and some may be independent depending on the type of linguistic information one is marking. Following are some of the layers which need to be included for marking linguistic information in the Indian language corpora rich:\n\nUse of Internationally accepted standards and guidelines such as ISO 639 : 3, ELRA, EAGLES, ISLE etc. Wherever available, Global guidelines such as ELRA, EAGLES, ISLE etc. shall be followed to the extent they work for Indian languages. For naming a particular language, Alpha-3 Codes for the representation of names of languages as mentioned in ISO 639-3 shall be used.\n\n\n### 4.7 Principle 7: Compatibility\n\nStandards should be mappable to/compatible with existing schemes.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "4",
+      "heading": "4 PRINCIPLES FOR DESIGNING THE LINGUISTIC STANDARDS FOR INDIAN LANGUAGE CORPORA",
+      "heading_path": [
+        "4 PRINCIPLES FOR DESIGNING THE LINGUISTIC STANDARDS FOR INDIAN LANGUAGE CORPORA"
+      ],
+      "char_start": 16988,
+      "char_end": 19783,
+      "semantic_chunk_length": 2795,
+      "final_chunk_length": 3097,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0008",
+    "text": "hall be followed to the extent they work for Indian languages. For naming a particular language, Alpha-3 Codes for the representation of names of languages as mentioned in ISO 639-3 shall be used.\n\n\n### 4.7 Principle 7: Compatibility\n\nStandards should be mappable to/compatible with existing schemes.\n\n### 4.8 Principle 8: Applicability\n\nStandard is designed to handle a wide range of applications and also to support all types of NLP Research efforts independent of a particular technology development approach.\n\n\n### 4.9 Principle 9: Annotator friendly\n\nThis is an important principle. The primary purpose of the scheme is to manually/semi-automatically annotate corpora, a task that will be carried out by language experts. However, the task involves decision making at every step and if the tag set has several categories/tags which can have multiple interpretations then this leads to inconsistency and confusion in the annotation. Therefore, ambiguities should be avoided in the scheme.\n\n- a) Layer 1: Morphology b) Layer 2: POS <morphosyntactic> c) Layer 3: LWG d) Layer 4: Chunks e) Layer 5: Syntactic analysis f) Layer 6: Thematic roles/predicate argument\nstructure g) Layer 7: Semantic properties of the lexical items h) Layers 8,9,10,11: Word sense, pronoun referents",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "4.8",
+      "heading": "4.8 Principle 8: Applicability",
+      "heading_path": [
+        "4 PRINCIPLES FOR DESIGNING THE LINGUISTIC STANDARDS FOR INDIAN LANGUAGE CORPORA",
+        "4.8 Principle 8: Applicability"
+      ],
+      "char_start": 19786,
+      "char_end": 20762,
+      "semantic_chunk_length": 976,
+      "final_chunk_length": 1278,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0009",
+    "text": "in the scheme.\n\n- a) Layer 1: Morphology b) Layer 2: POS <morphosyntactic> c) Layer 3: LWG d) Layer 4: Chunks e) Layer 5: Syntactic analysis f) Layer 6: Thematic roles/predicate argument\nstructure g) Layer 7: Semantic properties of the lexical items h) Layers 8,9,10,11: Word sense, pronoun referents\n\n## 5 POSSIBLE LINGUISTIC INFORMATION TO BE INCLUDED IN CORPORA ANNOTATION STANDARDS\n\n(Anaphora), etc, etc\n\nAlthough developing standards for annotation of Indian Language corpora focuses on POS, a layered approach is preferred with the long term goal to develop a generic scheme that can incorporate new kinds of linguistic information easily at a later stage. Thus, the scheme\n\n\n### 4.3 Principle 3: Hierarchy within each Layer\n\nTag sets have to be decided considering the possibility of including more than one level of information. For example, within POS one can include Verb as a higher\n\n\n\n\nfor each level should be such that adding the next level of information should be seamless and not pose conflicts in the annotation. Since the goal is larger and, apart from linguistic information, several NLP tasks need information about the text itself and its structure, marking the following types of information in a text is also useful.\n\n\n### 5.1 Marking Text Information\n\n\n#### 5.1.1 Marking Metadata in a Text\n\nA corpus consists of several texts. It is important to maintain some meta level information about each document in the corpora. Thus, information such as title, author, source, domain, font type, creator of the document etc. should be marked on each text. Like all other annotation tasks, this can also be done either manually or semi-automatically.\n\n\n#### 5.1.2 Marking the Paragraph Boundaries in a Text\n\nAny text is structured into paragraphs and sentences. Automatic identification of these units in a text is important for further processing. Therefore, annotating paragraph boundaries is also needed. Standard notation for marking paragraph boundaries like “<p>” and “</p>” can be used for this annotation.\n\nMarking the sentences and segments with their respective boundaries in a paragraph/text. Titles, bulleted points (incomplete sentences) etc. would be marked as a segment.\n\nExample 1: <segment> Project Gutenberg Mission Statement </segment> <segment> To encourage the creation and\n\ndistribution of eBooks. </segment> <sentence>The reason for this is that\n\n\n99 percent of the hardware and software a person is likely to run into can read and search these files. </sentence><sentence>Any other system of etext storage is going to fall short of an audience of 99 percent.</sentence> There could be cases where a text has words in a language other than the matrix language of the text. For example, a text in Hindi may contain English words written in roman. From the processing point of view, it is important to mark this information as well.\n\nExample: <segment>ररमन  पभरव (<Language=”English”\n\n>Raman Effect – v0 </Language=”English”) आवतव त वरलर पकरश <Language=”English”\n\n> v1 </Language=”English”> </segment> <p><sentence>सपनदन आवतव त वरलल\n\n\n\n\nखरएए ममलमगग।</sentence> All of the above information can be marked automatically to a large degree of accuracy. However, the task of the manual annotators is to check and correct the marked information where ever necessary.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "5",
+      "heading": "5 POSSIBLE LINGUISTIC INFORMATION TO BE INCLUDED IN CORPORA ANNOTATION STANDARDS",
+      "heading_path": [
+        "5 POSSIBLE LINGUISTIC INFORMATION TO BE INCLUDED IN CORPORA ANNOTATION STANDARDS"
+      ],
+      "char_start": 20765,
+      "char_end": 23760,
+      "semantic_chunk_length": 2995,
+      "final_chunk_length": 3297,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0010",
+    "text": "h”\n\n> v1 </Language=”English”> </segment> <p><sentence>सपनदन आवतव त वरलल\n\n\n\n\nखरएए ममलमगग।</sentence> All of the above information can be marked automatically to a large degree of accuracy. However, the task of the manual annotators is to check and correct the marked information where ever necessary.\n\n### 5.2 Marking Linguistic Information\n\nThe linguistic information should be marked at various levels after marking the text information as mentioned in 5.1. Following levels of linguistic information is considered crucial for various NLP tasks.\n\n\n#### 5.2.1 Token/Word Level\n\nIdentification of the tokens itself is a non-trivial task. However, one can decide whether to have it as a step in the manual annotation of the corpora. The following information shall be marked at the token/word level.\n\n- a) Morph Analysis — The morph features of a given\nword may be marked. If the word has multiple morph feature sets, all features shall be marked. Example: pens <root=”pen” cat=”n” gender=”m” number=”pl” person=”3”>|<root=”pen” cat=”v” gender=”m” number=”sing” person=”3” tense=”present” aspect=”hab”> b) POS — a word may be tagged for its POS category\n\nin a given sentence. Example: I need two <pos=”NN”>pens </pos=”NN”> to\n\nfinish this article. He <pos=”VBS”> pens </ pos=”VBS”> his views regularly. c) Word Sense — the appropriate sense of a word in\n\na given context may be marked. Example: I need two <word_sense=”pen”> pens </\n\nword_sense=”pen”> to finish this article. He <word_sense=”write”> pens </word_ sense=”write”> his views regularly. d) Any other relevant linguistic information at the\n\ntoken level\n\n\n#### 5.2.2 Sentence Level\n\nThe following linguistic annotation should be marked at the Sentence level:\n\n- a) Chunks b) Multi-Word Expressions (MWEs/) c) Local Word Groups (LWGs) d) Constituent Structures (phrases) e) Grammatical analysis of a sentence (dependency,\n\n\n\n\nconstituent, both)-Grammatical analysis of each sentence in a corpus in a chosen grammatical formalism is another type of linguistic information that can be marked at the sentence level. f) Named Entities (NE) - Although Proper names\n\nhave the same functions syntactically as common nouns, they need to be treated differently for various NLP tasks. For example, proper names are not always translated in a translation task. Thus, identifying Proper names while processing a natural language text input is a major step in NLP. Corpora annotated with named entities help in developing a Named Entity Recognizer (NER). g) Predicates and their arguments-All the verbs in a\n\nsentence and their arguments are marked. Example: Ram_Agent gave Mohan_Receipient a book\n\n\n#### 5.2.3 Discourse Level\n\nThe following type of linguistic information shall be annotated at the discourse level:\n\n- a) Pronoun referents, b) Coreference chains, and c) Inter-clause relations (connectives, the clauses\nthey connect and the type of semantic relations these clauses hold to each other), focus, topic\n\n\n#### 5.2.4 Any other Linguistic Information\n\nAny other linguistic information can also be marked depending on the application.\n\n\nSECTION 2: STANDARDS FOR THE POS\n\nTAG SET",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "5.2",
+      "heading": "5.2 Marking Linguistic Information",
+      "heading_path": [
+        "5 POSSIBLE LINGUISTIC INFORMATION TO BE INCLUDED IN CORPORA ANNOTATION STANDARDS",
+        "5.2 Marking Linguistic Information"
+      ],
+      "char_start": 23763,
+      "char_end": 26594,
+      "semantic_chunk_length": 2831,
+      "final_chunk_length": 3133,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0011",
+    "text": "tions (connectives, the clauses\nthey connect and the type of semantic relations these clauses hold to each other), focus, topic\n\n\n#### 5.2.4 Any other Linguistic Information\n\nAny other linguistic information can also be marked depending on the application.\n\n\nSECTION 2: STANDARDS FOR THE POS\n\nTAG SET\n\n## 6 POS TAG SET STANDARDS\n\nThe POS tag sets for Indian languages are designed following a hierarchical approach and with the assumptions given in 6.1 to 6.3:",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "6",
+      "heading": "6 POS TAG SET STANDARDS",
+      "heading_path": [
+        "6 POS TAG SET STANDARDS"
+      ],
+      "char_start": 26597,
+      "char_end": 26755,
+      "semantic_chunk_length": 158,
+      "final_chunk_length": 460,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0012",
+    "text": "c Information\n\nAny other linguistic information can also be marked depending on the application.\n\n\nSECTION 2: STANDARDS FOR THE POS\n\nTAG SET\n\n## 6 POS TAG SET STANDARDS\n\nThe POS tag sets for Indian languages are designed following a hierarchical approach and with the assumptions given in 6.1 to 6.3:\n\n### 6.1 Assumptions\n\n- a) POS tagging is not a replacement for morph\nanalysis. The detailed morph analysis of a word comes from a morph analyser. A word in a sentence carries various types of\n\ninformation, some of which are evident from its form (number, gender, person, case etc) and some of them are contextual (its grammatical function in a given context (part of speech)). The part of speech of a word can be looked at from two dimensions – one as its possible grammatical functions in isolation. For example, the English word ‘pens’ can be both a noun and a verb if we look at it in isolation. Morph analysers capture this aspect of a word’s analysis. On the other hand, one can look at its grammatical function in a context.\n\n\nIS 17627 : 2021\n\nA POS tagger would do this. Therefore, both, a morph analyser and a POS tagger provide the part of speech of a given lexical item. However, since a morph analyser looks at a word\n\nin isolation it provides all of its possible morph analyses, including multiple parts of speech. A POS tagger, as mentioned above, looks at a word in a context (small window) and provides the POS of the word in a syntactic context. Therefore, one can assume that the task of POS tagging is primarily to disambiguate the categories provided by the morph analyser and select the appropriate category in a context. Given this assumption, the POS tag set is designed primarily with the grammatical category in mind and any other morph features which can be obtained from a morph analyser are not included at the POS level. This assumption is based on Principle 2 in Clause 4. b) Text input to the POS tagger has already undergone\n\na segmentation process. Thus, every token (word) to be assigned a POS is a single lexical item and is not a token that internally contains more than one lexical item as a result of Sandhi. For example, all Dravidian languages have a highly productive Sandhi process. Therefore, often a noun and a verb are concatenated into a single word (token in this case). It is obvious that a token which is internally both, a noun and a verb, cannot be assigned either of the two parts of speech category. It is important to split such tokens into two or more tokens as the case may be before a POS tag can be assigned to each one of them. Therefore, the assumption here is that the POS is to be assigned to a simple grammatical entity and not a complex one. Since POS is a lexical level annotation process,\n\nany unit that involves more than one lexical item will not be captured at the POS level. For example, the members/elements of any MWEs such as the conjunct verb, compounds, reduplications etc., will be marked for their individual lexical categories. c) A Multi-Word Expression (MWE) identifier layer",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "6.1",
+      "heading": "6.1 Assumptions",
+      "heading_path": [
+        "6 POS TAG SET STANDARDS",
+        "6.1 Assumptions"
+      ],
+      "char_start": 26758,
+      "char_end": 29512,
+      "semantic_chunk_length": 2754,
+      "final_chunk_length": 3056,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0013",
+    "text": "\nany unit that involves more than one lexical item will not be captured at the POS level. For example, the members/elements of any MWEs such as the conjunct verb, compounds, reduplications etc., will be marked for their individual lexical categories. c) A Multi-Word Expression (MWE) identifier layer\n\nwould be applied for expressions that span more than one word as a single unit (MWEs). The layer will be applied after the POS tagging. At the POS level, therefore, the individual members of such expressions would be annotated for their respective lexical categories.\n\n\n### 6.2 Hierarchy at POS level\n\nThe hierarchy of tags is directly related to the granularity of linguistic information. The deeper the hierarchy, the more fine-grained would be the linguistic information. Hence, it is advisable to keep the granularity of the POS at a coarser level. Thus, the hierarchy for most POS categories would normally be up to two levels.\n\n\n\nThe maximum depth for the POS tags is three levels so far.\n\nThe basic idea here is to keep the granularity coarse at the POS level. Since finer information about a lexical item comes either from its formal structure (morph features), or its semantic properties (such as abstract, concrete for nouns), or from its syntactic roles (for example, subject, object), or from its semantic relation with the other lexical items in a sentence (for example, agent, theme, modifier etc). Based on principle 2 above, all this information falls in the other layers of linguistic annotation.\n\nPrinciple 2 ensures that the linguistic information contained in corpora is split rightly and annotated comprehensively in various layers in a modular fashion.\n\n\n### 6.3 POS Tag Set for Indian Languages (a Superset)\n\n\nAnnex A provides a superset of POS tags for Indian languages. The POS tags are defined based on the Principles given in 4 and the assumptions as given in 6.1.\n\n\nAnnex B provides Tag sets for languages Bangla, Gujarati, Hindi, Kashmiri, Konkani, Maithili, Marathi, Punjabi, Urdu, and Dravidian Languages that are developed taking a subset of the Indian Language (IL) POS tag set.\n\nA common tagset is developed for Kannada, Malayalam, Tamil, and Telugu (Dravidian Languages). A separate table having the same tagset is provided for Tamil where the labels are rendered in Tamil as well.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "6.1",
+      "heading": "6.1 Assumptions",
+      "heading_path": [
+        "6 POS TAG SET STANDARDS",
+        "6.1 Assumptions"
+      ],
+      "char_start": 29514,
+      "char_end": 31530,
+      "semantic_chunk_length": 2016,
+      "final_chunk_length": 2318,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0014",
+    "text": "Dravidian Languages that are developed taking a subset of the Indian Language (IL) POS tag set.\n\nA common tagset is developed for Kannada, Malayalam, Tamil, and Telugu (Dravidian Languages). A separate table having the same tagset is provided for Tamil where the labels are rendered in Tamil as well.\n\n## 7 POS TYPES AND THEIR TAGS\n\nThis section describes the classification and categories of tags that need to be included in the POS tag set schema and how it has to be interpreted by the annotators unambiguously.\n\nIt contains 11 categories of top level POS Tag sets and their respective subcategories\n\nThe language specific tag sets can have all or some of the top level of tags. They can also have a top level of a category but not its subtype if the language does not reflect it. For example, the sub type of verbs as finite and nonfinite is not reflected in Hindi at the lexical level. It is only at a later stage of local word grouping that Hindi reflects the finiteness of its verbs. Therefore, the Hindi tag set would not have the second level of verb hierarchy. The third subtype has been included for very specific cases and with a view that a language may choose to keep that level optionally.\n\nA tag has also been assigned to each category. Language specific tag sets can be designed selecting the categories and their tags depending on the linguistic nature of the language.\n\n\n\n### 7.1 Noun (N)\n\nNoun is a top level category with a sub-type level of depth 1. It has four subtypes at the next level of hierarchy – common noun, proper noun, verbal noun and nloc. The tag “N” shall be assigned to all nouns.\n\n\n### 7.2 Common Noun (NN)\n\nA noun denoting generic expressions is a common noun. Thus, boy, girl, house, book, cow, city etc are common nouns. The tag “NN” shall be assigned to all common nouns.\n\n\n### 7.3 Proper Noun (NNP)\n\nThe tag “NNP” shall be assigned to all Proper Nouns (nouns which denote person names, organization names, place names etc). The tag “NNP” shall be used to tag Verbal Nouns\n\n\n### 7.4 Verbal Noun (NNV)\n\nVerbal noun category is for those nouns which are derived from verbs. This category is only applicable for Tamil and Malayalam verbs and not for any other Indian language. The tag “VN” shall be used to tag Verbal Nouns.\n\n\n### 7.5 Nloc–Particular Nouns of Locations – Space and Time (NST)\n\nThis category registers the distinctive nature of some of the locational nouns which also function as part of a complex postposition. The tag NST shall be used to tag Nloc category words.\n\nThe category Nloc covers an important phenomenon of Indian languages. Certain expressions such as ‘Upara’ (above/up), ‘nIce’ (below) ‘pahale’ (before), ‘Age’ (front) etc. are content words denoting time and space. These expressions, however, are used in various ways.\n\nNOTES 1 A detailed discussion on the introduction of Nloc and NST\n\nis given in ILMT POS tag guidelines [bibliography reference here]. 2 NST tag SHALL be used only for those time/place\n\nexpressions which perform both the noun and relation marker function. Time/place expressions which are NOT ambiguous in their function (such as kala (yestrday), Aj (today), idhar (here), udhar (there)) SHALL not be marked by NST tag.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "7",
+      "heading": "7 POS TYPES AND THEIR TAGS",
+      "heading_path": [
+        "7 POS TYPES AND THEIR TAGS"
+      ],
+      "char_start": 31533,
+      "char_end": 34440,
+      "semantic_chunk_length": 2907,
+      "final_chunk_length": 3209,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0015",
+    "text": "eference here]. 2 NST tag SHALL be used only for those time/place\n\nexpressions which perform both the noun and relation marker function. Time/place expressions which are NOT ambiguous in their function (such as kala (yestrday), Aj (today), idhar (here), udhar (there)) SHALL not be marked by NST tag.\n\n### 7.6 Pronoun (PR)\n\nLinguistically a pronoun is a variable and functionally it is a noun. Tagging pronouns as a category separate from nouns will be helpful for anaphora resolution tasks. Pronouns shall be tagged as “PR” at the top level.\n\nThe category Pronoun has five subtypes as listed below:\n\n- a) Personal pronouns (for example, I, you, he, she\netc.);\n\n\n\n\n#### 7.8.1 Verb (Main) (VM)\n\n- b) Reflexive (for example, myself, herself, himself\netc.); c) Relative (for example, who, which, when etc); d) Reciprocal (for example, each other etc); and e) WH-words: These are interrogative pronouns\n\nLanguages such as Hindi often have free morphemes for verbal inflection (for example, in the verbal sequence ‘jaa rahaa hai’, ‘rahaa’ and ‘hai’ mark progressive aspect and present tense respectively. In this sequence verb ‘jaa’ is the main part whereas ‘rahaa’ and ‘hai’ are its auxiliaries. Thus, ‘jaa’ will be assigned the tag ‘VM’.\n\nsuch as who, what, which, when in English. Each of these will have a separate tag as a subtype of PR.\n\nThe tag “VM” shall be used to tag Verb (main)\n\n\n#### 7.6.1 Personal Pronouns (PRP)\n\nThe main verb has subtypes of Finite, Nonfinite, Infinitival and Gerund.\n\nPersonal pronouns refer to individuals (people, animals, etc.) or things. The tag PRP shall be used to tag Personal pronouns.\n\n\n##### 7.8.1.1 Verb finite (VF)\n\nA verb inflected for its tense, aspect etc. is a finite verb. The tag “VF” shall be used to tag verb Finite.\n\n\n#### 7.6.2 Reflexive Pronoun (PRF)\n\nReflexive pronouns are those words that are used to refer to oneself. The tag PRF shall be used to tag reflexive pronouns.\n\n\n##### 7.8.1.2 Verb nonfinite (VNF)\n\nA verb not inflected for its tense etc. is a nonfinite verb. The tag “VNF” shall be used to tag nonfinite verb.\n\n\n#### 7.6.3 Relative Pronoun (PRL)\n\n\n##### 7.8.1.3 Verb infinite (VINF)\n\nRelative pronouns are words that are part of a clause that modifies a noun. The relative pronoun in the clause refers to the head noun, the noun that the clause is modifying. The tag PRL shall be used to tag Relative pronouns.\n\nInfinitive type of verb does not get regular verbal inflections as it does not function like a verb. In English an infinitive verb is preceded by ‘to’. ‘to go’, ‘to eat’, ‘to sleep’ are some examples of infinitival verbs. Not all Indian languages have this category. The tag “VINF” shall be used to tag Infinitive verbs.\n\n\n#### 7.6.4 Reciprocal Pronoun (PRC)\n\nA reciprocal pronoun expresses a mutual relationship between two entities. Examples of reciprocal pronouns are each-other, one another. The tag PRC shall be used to tag reciprocal pronouns.\n\n\n##### 7.8.1.4 Gerund (VNG)\n\nGerunds are nouns which are derived from verbs. These are categorized under the verb because they continue to behave like verbs by taking arguments etc. The tag “VNG” shall be used to tag Gerunds.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "7.6",
+      "heading": "7.6 Pronoun (PR)",
+      "heading_path": [
+        "7 POS TYPES AND THEIR TAGS",
+        "7.6 Pronoun (PR)"
+      ],
+      "char_start": 34443,
+      "char_end": 37296,
+      "semantic_chunk_length": 2853,
+      "final_chunk_length": 3155,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0016",
+    "text": "other, one another. The tag PRC shall be used to tag reciprocal pronouns.\n\n\n##### 7.8.1.4 Gerund (VNG)\n\nGerunds are nouns which are derived from verbs. These are categorized under the verb because they continue to behave like verbs by taking arguments etc. The tag “VNG” shall be used to tag Gerunds.\n\n#### 7.6.5 Interrogative Pronoun/WH-word (PRQ)\n\nInterrogative pronouns are used for asking questions. The tag PRQ shall be used to tag Interrogative pronouns.\n\n\n#### 7.8.2 Auxiliary Verb (VAUX)\n\nThe auxiliary verbs also have subtypes of finite, nonfinite, infinitive and gerund. Some Indian languges reflect the non-finite properties even in auxiliary verbs. Thus, subtypes of Auxiliary verbs are also Non-finite, Infinitive, etc. The tag “VAUX” shall be used to tag Auxiliary verbs.\n\n\n#### 7.6.6 Indefinite Pronoun (PRI)\n\nPronouns that refer to non-specific things or person are Indefinite pronouns. The tag PRI shall be used to tag indefinite pronouns.\n\n\n### 7.7 Demonstratives (DM)\n\n\n### 7.9 Adjective (JJ)\n\nThe category of Demonstratives is a top level category. These pronouns point to a noun and express its position as near or far. The tag “DM” shall be used to tag demonstratives. The subtypes of demonstrative pronouns are relative, interrogative, and indefinite. The tags for these would be DMR, DMQ, DMI respectively.\n\nAdjectives denoting some properties of the nouns only fall under this category.\n\nThe tag “JJ” shall be used to tag Adjectives.\n\n\n### 7.10 Adverb (RB)\n\n\n### 7.8 Verb (V)\n\nThe term adverb in this scheme refers only to manner adverbs. Adverbs of time and space are not to be tagged here. The tag “RB” shall be used to tag adjectives.\n\nThe tag “V” shall be used to tag Verbs.\n\nThe category of verb has three subtypes levels. One level distinguishes between the main verb and auxiliary verb. The second level is based on the verbal inflections denoting finiteness/non-finiteness etc. The Gerunds are also classified at this level as a subtype of main verb.\n\n\n### 7.11 Postposition (PSP)\n\nA type postposition, is used to annotate the postpositions and other case markers in languages, such as Hindi. The tag “PSP” shall be used to tag postposition.\n\n\n\n\n\n### 7.12 Conjuncts (CC)\n\nConjuncts shall be considered as a top level category POS Tag with its own sub types of coordinators and subordinators. The subordinators have a further sub type of ‘quotatives’. The tag “CC” shall be used to tag the top level of Conjuncts.\n\n\n#### 7.12.1 Co-ordinators (CCD)\n\nCo-ordinating conjuncts are those words which conjoin two independent elements at the same level. The tag “CCD” shall be used to tag Co-ordinators.\n\n\n#### 7.12.2 Subordinators (CCS)\n\nSubordinators conjoin a dependent element to its head. The tag “CCS” shall be used to tag subordinators.\n\n\n##### 7.12.2.1 Quotative (UT)\n\nQuotatives’ occur in many languages and have the role of conjoining a subordinate clause to the main clause. It is left optional to the languages to go to this level of granularity or remain at the higher level keeping only two-level hierarchy for conjuncts. The tag “UT” shall be used to tag Quotatives.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "7.6.5",
+      "heading": "7.6.5 Interrogative Pronoun/WH-word (PRQ)",
+      "heading_path": [
+        "7 POS TYPES AND THEIR TAGS",
+        "7.6 Pronoun (PR)",
+        "7.6.5 Interrogative Pronoun/WH-word (PRQ)"
+      ],
+      "char_start": 37299,
+      "char_end": 40103,
+      "semantic_chunk_length": 2804,
+      "final_chunk_length": 3106,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0017",
+    "text": "atives’ occur in many languages and have the role of conjoining a subordinate clause to the main clause. It is left optional to the languages to go to this level of granularity or remain at the higher level keeping only two-level hierarchy for conjuncts. The tag “UT” shall be used to tag Quotatives.\n\n### 7.13 Particles (RP)\n\nThe category particles is a top level category having classifier, intensifier, interjection and negation as its subtypes. Although some of these categories inflect in some languages, however, these are included as subtypes of the category Particles. The tag “RP” shall be used to tag particles.\n\n\n#### 7.13.1 Particle Default (RPD)\n\nParticles are words which do not belong to any of the major parts of speech. The tag “RPD” shall be used to tag default particles.\n\n\n#### 7.13.2 Classifier (CL)\n\nA classifier is a word that comes with nouns and “classifies” a noun depending on the type of its referent. The noun classes could be based on gender, shape, size etc. The tag CL shall be used to tag classifiers.\n\n\n#### 7.13.3 Interjection (INJ)\n\nAn interjection is a short utterance (sound/word/phrase) which can occur independently (normally before a sentence) and conveys emotion. The tag “INJ” shall be used to tag Interjections.\n\n\n#### 7.13.4 Intensifier (INTF)\n\nExpressions that intensify the meaning of an adverb or an adjective. The tag “INTF” shall be used to tag intensifiers.\n\n\n\n#### 7.13.5 Negation (NEG)\n\nWords that negate a verb (some languages nouns as well) are negations. The tag “NEG” shall be used to tag negatives.\n\n\n### 7.14 Quantifiers (QT)\n\nQuantifiers play an important role in several syntactic structures and it is important to mark them separately for some NLP tasks as well. The tag “QT” shall be used to tag the top level of quantifiers.\n\nThe category Quantifiers has three subtypes, which are General (QTF), Cardinal (QTC) and Ordinal (QTO).\n\nThe tags for the Quantifiers and its subtypes shall be as given in Table 1.\n\nTable 1 Tags for the Quantifiers and its Subtypes\n\n( Clause 7.14 )\n\n\n| Category/Subtype | Tag |\n| --- | --- |\n| Quantifiers General Cardinal Ordinal | QT QTF QTC QTO |\n\n\n### 7.15 Residuals (RD)\n\nThe category of Residuals is used for annotating cases that do not fall in any of the above grammatical categories.\n\nThe subtypes under Residuals are Foreign word (RDF), Symbol (SYM), Punctuation (PUNC), Unknown (UNK) and Echowords (ECH).\n\nSince echo words, is not a valid word in a given language it has to be tagged separately.\n\nThe tags for the residuals and its subtypes shall be as follows:\n\n\n**Table 2 Tags for the Residuals and its Subtypes**\n\n| Category/Subtype | Tag |\n| --- | --- |\n| Residuals Foreign word Symbol Punctuation Unknown Echowords | RD RDF SYM PUNC UNK ECH |",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "7.13",
+      "heading": "7.13 Particles (RP)",
+      "heading_path": [
+        "7 POS TYPES AND THEIR TAGS",
+        "7.13 Particles (RP)"
+      ],
+      "char_start": 40106,
+      "char_end": 42552,
+      "semantic_chunk_length": 2446,
+      "final_chunk_length": 2748,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0018",
+    "text": "a given language it has to be tagged separately.\n\nThe tags for the residuals and its subtypes shall be as follows:\n\n\n**Table 2 Tags for the Residuals and its Subtypes**\n\n| Category/Subtype | Tag |\n| --- | --- |\n| Residuals Foreign word Symbol Punctuation Unknown Echowords | RD RDF SYM PUNC UNK ECH |\n\n## ANNEX A\n\nSUPERSET OF POS TAGS\n\nA-1 SUPERSET OF POS TAGS FOR INDIAN\n\nLANGUAGES\n\nSI No.\n\nCategory\n\nLabel\n\nAnnotation\n\nRemarks\n\nTop level\n\nSubtype\n\nSubtype\n\nConvention**\n\n(level 1)\n\n(level 2)\n\nNoun\n\n1.1\n\nCommon\n\nNN\n\nNNN\n\n1.2\n\nProper\n\nNNP\n\nN NNP\n\n1.3\n\nVerbal\n\nNNV\n\nN NNV\n\nThe verbal noun type\n\nis only for languages\n\nsuch as Tamil and\n\nMalyalam)\n\n1.4\n\nNloc\n\nNST\n\nN NST\n\nPronoun\n\nPR\n\nPR\n\n2.1\n\nPersonal\n\nPRP\n\nPR PRP\n\n2.2\n\nReflexive\n\nPRF\n\nPR PRF\n\n2.3\n\nRelative\n\nPRL\n\nPR PRL\n\n2.4\n\nReciprocal\n\nPRC\n\nPR PRC\n\n2.5\n\nWh-word\n\nPRQ\n\nPR PRQ\n\n2.6\n\nINDEFINITE\n\nPRI\n\nPR PRI\n\nDemonstrative\n\nDM\n\nDM\n\n3.1\n\nDeictic\n\nDMD\n\nDM DMD\n\n3.2\n\nRelative\n\nDMR\n\nDM DMR\n\n3.3\n\nWh-word\n\nDMQ\n\nDM DMQ\n\n3.4\n\nIndefinite\n\nDMI\n\nDM DMI\n\nVerb\n\n4.1\n\nMain\n\nVM\n\nVVM\n\n4.1.1\n\nFinite\n\nVF\n\nVVM VF\n\n4.1.2\n\nNon-finite\n\nVNF\n\nV VM VNF\n\n4.1.3\n\nInfinitive\n\nVINF\n\nVVMVINF\n\n4.1.4\n\nGerund\n\nVNG\n\nVVM VNG\n\n4.2\n\nVerbal\n\nVN\n\nVVN\n\npaTittam, naTattam,\n\nna Tanam\n\n4.2\n\nAuxiliary\n\nVAUX\n\nV VAUX\n\n4.2.1\n\nFinite\n\nVAUX\n\nV VAUX VF\n\n4.2.2\n\nNon-finite\n\nVNF\n\nVVAUX VN F\n\n4.2.3\n\nInfinitive\n\nVINF\n\nVVAUX VI NF\n\n4.2.4\n\nGerund\n\nVNG\n\nVVAUX VN G\n\n4.2.5\n\nPARTICIP\n\nVNP\n\nV VAUX VNP\n\nLE NOUN\n\n\n\n\n\n| Sl No. | Category |  |  | Label | Annotation Convention** | Remarks |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Top level | Subtype (level 1) | Subtype (level 2) |  |  |  |\n| 5 | Adjective |  |  | JJ |  |  |\n| 6 | Adverb |  |  | RB |  | Only manner adverbs |\n| 7 | Postposition |  |  | PSP |  |  |\n| 8 | Conjunction |  |  | CC | CC |  |\n| 8.1 |  | Co-ordinator |  | CCD | CC CCD |  |\n| 8.2 |  | Subordinator |  | CCS | CC CCS |  |\n| 8.2.1 |  |  | Quotative | UT | CC CCS UT |  |\n| 9 | Particles |  |  | RP | RP |  |\n| 9.1 |  | Default |  | RPD | RP RPD |  |\n| 9.2 |  | Classifier |  | CL | RP CL |  |\n| 9.3 |  | Interjection |  | INJ | RP INJ |  |\n| 9.4 |  | Intensifier |  | INTF | RP INTF |  |\n| 9.5 |  | Negation |  | NEG | RP NEG |  |\n| 10 | Quantifiers |  |  | QT | QT |  |\n| 10.1 |  | General |  | QTF | QT QTF |  |\n| 10.2 |  | Cardinals |  | QTC | QT QTC |  |\n| 10.3 |  | Ordinals |  | QTO | QT QTO |  |\n| 11 | Residuals |  |  | RD | RD |  |\n| 11.1 |  | Foreign word |  | RDF | RD RDF | A word written in script other than the script of the original text |\n| 11.2 |  | Symbol |  | SYM | RD SYM | For symbols such as $, and etc |\n| 11.3 |  | Punctuation |  | PUNC | RD PUNC | Only for punctuations |\n| 11.4 |  | Unknown |  | UNK | RD UNK |  |\n| 11.5 |  | Echowords |  | ECH | RD ECH |  |\n\n*** The annotation is to be done using the lowest level tag of the type hierarchy. Once the lower level tag is selected, the higher level tags \nshould be stored automatically.*\n\n\n** The annotation is to be done using the lowest level tag of the type hierarchy. Once the lower level tag is selected, the higher level tags should be stored automatically.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 42557,
+      "char_end": 45324,
+      "semantic_chunk_length": 2767,
+      "final_chunk_length": 3069,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0019",
+    "text": "vel tag of the type hierarchy. Once the lower level tag is selected, the higher level tags \nshould be stored automatically.*\n\n\n** The annotation is to be done using the lowest level tag of the type hierarchy. Once the lower level tag is selected, the higher level tags should be stored automatically.\n\n## ANNEX B\n\nLANGUAGE SPECIFIC POS TAGSETS AND LABELS\n\nB-1 POS TAGSET FOR DRAVIDIAN LANGUAGES (KANNADA, MALAYALAM, TAMIL, AND TELUGU)\n\n\n| Sl No. | Category |  |  | Label | Annotation Convention** | Remarks |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Top level | Subtype (level 1) | Subtype (level 2) |  |  |  |\n| 1 | Noun |  |  | N | N |  |\n| 1.1 |  | Common |  | NN | N NN |  |\n| 1.2 |  | Proper |  | NNP | N NNP |  |\n| 1.3 |  | Nloc |  | NST | N NST |  |\n| 2 | Pronoun |  |  | PR | PR |  |\n| 2.1 |  | Personal |  | PRP | PR PRP |  |\n| 2.2 |  | Reflexive |  | PRF | PR PRF |  |\n| 2.3 |  | Relative |  | PRL | PR PRL |  |\n| 2.4 |  | Reciprocal |  | PRC | PR PRC |  |\n| 2.5 |  | Wh-word |  | PRQ | PR PRQ |  |\n| 3 | Demonstrative |  |  | DM | DM |  |\n| 3.1 |  | Deictic |  | DMD | DM DMD |  |\n| 3.2 |  | Relative |  | DMR | DM DMR |  |\n| 3.3 |  | Wh-word |  | DMQ | DM DMQ |  |\n| 4 | Verb |  |  | V | V |  |\n| 4.1 |  | Main |  | VM | V VM |  |\n| 4.1.1 |  |  | Finite | VF | V VM VF |  |\n| 4.1.2 |  |  | Non-finite | VNF | V VM VNF |  |\n| 4.1.3 |  |  | Infinitive | VINF | V VM VINF |  |\n| 4.1.4 |  |  | Gerund | VNG | V VM VNG |  |\n| 4.2 |  | Verbal Noun | Verbal noun | NNV | N NNV _ | Verbal Noun |\n| 4.3 |  | Auxiliary |  | VAUX | V VAUX |  |\n| 4.1.2 |  | Non-finite |  | VNF | V VM VNF _ _ |  |\n| 4.1.3 |  | Infinite |  | VINF | V VM VNF _ _ |  |\n| 5 | Adjective |  |  | JJ |  |  |\n| 6 | Adverb |  |  | RB |  | Only manner adverbs |\n| 7 | Postposition |  |  | PSP |  |  |\n| 8 | Conjunction |  |  | CC | CC |  |\n| 8.1 |  | Co-ordinator |  | CCD | CC CCD |  |\n| 8.2 |  | Subordinator |  | CCS | CC CCS |  |\n| 8.2.1 |  |  | Quotative | UT | CC CCS UT |  |\n| 9 | Particles |  |  | RP | RP |  |\n| 9.1 |  | Default |  | RPD | RP RPD |  |\n| 9.2 |  | Classifier |  | CL | RP CL |  |\n\n\n\n\n\n\n| Sl No. | Category |  |  | Label | Annotation Convention** | Remarks |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Top level | Subtype (level 1) | Subtype (level 2) |  |  |  |\n| 9.3 |  | Interjection |  | INJ | RP INJ |  |\n| 9.4 |  | Intensifier |  | INTF | RP INTF |  |\n| 9.5 |  | Negation |  | NEG | RP NEG |  |\n| 10 | Quantifiers |  |  | QT | QT |  |\n| 10.1 |  | General |  | QTF | QT QTF |  |\n| 10.2 |  | Cardinals |  | QTC | QT QTC |  |\n| 10.3 |  | Ordinals |  | QTO | QT QTO |  |\n| 11 | Residuals |  |  | RD | RD |  |\n| 11.1 |  | Foreign word |  | RDF | RD RDF | A word written in script other than the script of the original text |\n| 11.2 |  | Symbol |  | SYM | RD SYM | For symbols such as $, & etc |\n| 11.3 |  | Punctuation |  | PUNC | RD PUNC | Only for punctuations |\n| 11.4 |  | Unknown |  | UNK | RD UNK |  |\n| 11.5 |  | Echowords |  | ECH | RD ECH |  |\n\n\n\n\n\nRemarks\n\nExample\n\npaiyan, raajaa,\n\nputtakam,\n\nkaNNaaTi,\n\nmoohan, ravi,\n\nmeel, kiiz,\n\nunu \"\n\nuid\n\nitu,atu,avan\n\nnaan, nii, avaL,\n\navarkaL\n\ntaan,\n\nyaar, etu,\n\n,enkee\n\neppootu,\n\navanavan,\n\nyaarum,\n\nyaaroo, etuvum\n\na-, i-,\n\nanta, inta, enta\n\nenta\n\nNames in Tamil\n\nAmonn\n\nnnay\n\n\nTamil\n\n\nUU\n\nAnnotation\n\nConvention**\n\nNN\n\nN NNP\n\nN NST\n\nPR",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 21,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 45330,
+      "char_end": 48330,
+      "semantic_chunk_length": 3000,
+      "final_chunk_length": 3302,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0020",
+    "text": ",\n\nputtakam,\n\nkaNNaaTi,\n\nmoohan, ravi,\n\nmeel, kiiz,\n\nunu \"\n\nuid\n\nitu,atu,avan\n\nnaan, nii, avaL,\n\navarkaL\n\ntaan,\n\nyaar, etu,\n\n,enkee\n\neppootu,\n\navanavan,\n\nyaarum,\n\nyaaroo, etuvum\n\na-, i-,\n\nanta, inta, enta\n\nenta\n\nNames in Tamil\n\nAmonn\n\nnnay\n\n\nTamil\n\n\nUU\n\nAnnotation\n\nConvention**\n\nNN\n\nN NNP\n\nN NST\n\nPR\n\nPR PRP\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nDM\n\nDM DMD\n\nDM DMR\n\nLabel\n\nNN\n\nNNP\n\nNST\n\nPR\n\nPRP\n\nPRF\n\nRL\n\nPRC\n\nPRQ\n\nDM\n\nDMD\n\nDMR\n\nSubtype\n\n(level 3)\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\nNloc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nDeictic\n\nRelative\n\nPOS TAGSET FOR TAMII\n\nTop level\n\nNoun\n\nPronoun\n\nDemonstrati ve\n\nSI. No\n\n\n\n\n\n\nRemarks\n\nIt act as verbal\n\nnoun\n\nVerbal Noun\n\nExample\n\nenta, yaar\n\neetaavatu,\n\nyaaraavatu\n\nvizu, poo,\n\ntuunku, aaku\n\nvizu, poo,\n\ntuunku, ciri\n\nvizuntaan,\n\npooneen,\n\nizunta,\n\npoonaal\n\nVizuntu, oodi\n\nVizunta, oodiya\n\nVizuntaal,\n\noodinaal\n\nViza, ooda\n\nVizutal, paTital\n\npaTippu, naTai,\n\nna Tattai,\n\ni, ceykai\n\naakum,\n\nveeNTum,\n\nuninu\n\nTamil\n\n109 019\n\n109 109\n\nAmonn\n\nS600T\n\nAmonn\n\n\n109 9\n\nNames in\n\nTamil\n\nI_6T\n\n19-\n\nUU\n\nAnnotation\n\nConvention**\n\nDM DMQ\n\nVVM\n\nV VM VF\n\nV VM VNF\n\nV_VM_VINF\n\nVVM VNG\n\nN_NNV\n\nV VAUX\n\nLabel\n\nDMQ\n\nVM\n\nVNF\n\nVAUX\n\nSubtype\n\n(level 3)\n\nVerbal\n\nparticiple\n\nRelative\n\nparticiple\n\nverb\n\nConditio\n\nnal verb\n\nInfinitive\n\nverb\n\nSubtype\n\n(level 2)\n\nFinite\n\nlon-\n\nnite\n\nGerund\n\nVerbal\n\nnoun\n\nCategory\n\nSubtype\n\n(level 1)\n\nWh-word\n\nMain\n\nVerbal Noun\n\nAuxiliary\n\nTop level\n\nVerb\n\nSI.\n\nNo\n\n4.1.2.\n\n4.1.2.\n\n4.1.2.3\n\n4.1.2.4\n\n.1.3\n\n\n\n\nRemarks\n\nOnly manner\n\nadverbs\n\nExample\n\niniya, periya,\n\npuppypzp\n\nveekamaaka,\n\nviraivaaka\n\npaRRi, kuRittu,\n\nmaRRum,\n\neenenRaal,\n\nippupp\n\n(unupupps)un\n\nmaRRum,\n\naanaal, allatu\n\nenRu, ena,\n\nenpatu, enRaal\n\nkuu Ta\n\nmaTTUm,\n\npInny\n\naTTum\n\nayyoo, teey,\n\naamaam\n\nati, veku, mika\n\nkoncam,\n\nniRaiya, oru,\n\nkoncam,\n\nniRaiya\n\nNames in Tamil\n\nAmnn\n\nm 109 [9\n\n109 109\n\n1009 6\n\n@600\n\n600TLF\n\nL60T L60T\n\n@60160T\n\n101r91 16\n\n10119 19 16\n\n! s\n\nTamil\n\nAnnotation\n\nConvention**\n\nCD\n\nCCS\n\nRP\n\nRP RPD\n\nRPCL\n\nRP INJ\n\nRP INTF\n\nRP NEG\n\nQT\n\nQT QTF\n\nLabel\n\nRB\n\nPSP\n\nRPD\n\nCL\n\nINJ\n\nINTF\n\nNEG\n\nQT\n\nQTF\n\nSubtype\n\n(level 3)\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCo-\n\nordinator\n\nSub-\n\nordinator\n\nDefault\n\nClassifier\n\nInterjection\n\nIntensifier\n\nNegation\n\nGeneral\n\nTop level\n\nAdjective\n\nAdverb\n\nPostposition\n\nConjunction\n\nParticles\n\nQuantifiers\n\nSI. No\n\n10.1\n\n\n\n\nRemarks\n\nA word written\n\nin word script\n\nother than the\n\nscript of the\n\noriginal text\n\nFor symbols\n\nsuch as $, & etc\n\nOnly for\n\npunctuations\n\nExample\n\nonRu, iraNTu\n\n, &, *, (,), ruu.\n\nvaNTi kiNTi,\n\n\nNames in Tamil\n\n\n1009 19\n\nTamil\n\n1009 19\n\n1009 19\n\n6T_\n\nAnnotation\n\nConvention**\n\nQTC\n\nQT\n\nQT QTO\n\nRD\n\nRD\n\nRDF\n\nSYM\n\nRD $\n\nRD PUNC\n\nUNK\n\nRD ECH\n\nLabel\n\nQTC\n\nOL\n\nRD\n\nRDF\n\nSYM\n\nPUNC\n\nUNK\n\nECH\n\nSubtype\n\n(level 3)\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCardinals\n\nOrdinals\n\nForeign\n\nSymbol\n\nPunctuation\n\nUnknown\n\nEchowords\n\nTop level\n\nResiduals\n\nSI. No\n\n10.2\n\n10.3\n\n\n\n\nRemarks\n\n, cashmaa\n\n, bhitara\n\n, AmAra\n\nyAra\n\nyena,\n\n, kena,\n\nkAra,\n\nExamples\n\nkalama,\n\nMohan, ravi, rashmi\n\niche,\n\nupare, ni\n\ntu\n\nmi.\n\nnijera,\n\n, yakhana\n\nparaspara,\n\n, kakhana,\n\nVaha, jo, yaha,\n\nsei, oi, o, se\n\nyei\n\nye,\n\nkono,\n\neu\n\nkarachhilAma, yAba,\n\nkhAYa\n\nkare, kheYe, karale, khete,\n\nkarate, khete, yete\n\nyAoYa, AsA, khelA, karA\n\nchhila, habe, chAi",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 25,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 48332,
+      "char_end": 51313,
+      "semantic_chunk_length": 2981,
+      "final_chunk_length": 3283,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0021",
+    "text": "kena,\n\nkAra,\n\nExamples\n\nkalama,\n\nMohan, ravi, rashmi\n\niche,\n\nupare, ni\n\ntu\n\nmi.\n\nnijera,\n\n, yakhana\n\nparaspara,\n\n, kakhana,\n\nVaha, jo, yaha,\n\nsei, oi, o, se\n\nyei\n\nye,\n\nkono,\n\neu\n\nkarachhilAma, yAba,\n\nkhAYa\n\nkare, kheYe, karale, khete,\n\nkarate, khete, yete\n\nyAoYa, AsA, khelA, karA\n\nchhila, habe, chAi\n\nsundara, bhAla, 1Ala,\n\nAnnotation\n\nConvention**\n\nNN\n\nNST\n\nPR\n\nPR PRP\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nPRI\n\nM DMD\n\nM DMR\n\nDM DMQ\n\nM DMI\n\nVVM\n\nV VM VF\n\nV VM VNF\n\nV VM VINF\n\nV VM VNG\n\nV VAUX\n\nLabel\n\nPRP\n\nPRF\n\nPR\n\nMD\n\nDMR\n\nDMQ\n\nVNG\n\nVAUX\n\nSubtype\n\n(level 2)\n\nFinite\n\nNon-finite\n\nInfinitive\n\nGerund\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nIndefinite\n\nDeictic\n\nRelative\n\nWh-word\n\nIndefinite\n\nMain\n\nAuxiliary\n\nB-2 POS TAGSET FOR BANGLA\n\nTop level\n\nNoun\n\nPronoun\n\nDemonstrative\n\nVerb\n\nAdjective\n\nSI. No\n\n2-2-\n\n3.\n\n.1.4\n\n\n\n\n\n\nRemarks\n\nA word written in script other than the script of the\n\noriginal text\n\nFor symbols such as $, & etc\n\nOnly for punctuations\n\nExamples\n\ntA.DAtA.Di,\n\nAste, haThAt\n\ntheke, abadhI, madhye,\n\ndiYe\n\nAra, eba.n, athabA, kimbA\n\n, kintu, noile, tAhale\n\nto, ye,\n\njana, khAnA\n\nAre, ei, hAya\n\nbhiShaNa, khuba,\n\nsA~NghAtik a\n\nnA, naYa,\n\n, chhA.DA\n\nkichhu,\n\n, alpa,\n\n, aneka\n\neka, dui, tina\n\nprathama, paYalA, dvitIYa\n\njala Tala, khAbAra\n\ndAbAra\n\nAnnotation\n\nRP\n\nRP RPD\n\nRPCL\n\nRP INJ\n\nRP INTF\n\nRP NEG\n\nQT QTF\n\nT QTC\n\nT QTO\n\nQT\n\nRD RDF\n\nSYM\n\nPUNO\n\nRD UNK\n\nRD ECH\n\nLabel\n\nPSP\n\nRPD\n\nINTF\n\nRDF\n\nSYM\n\nECH\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCo-ordinator\n\nSubordinator\n\nDefault\n\nClassifier\n\nInterjection\n\nIntensifier\n\nNegation\n\nGeneral\n\nCardinals\n\nOrdinals\n\nForeign\n\nword\n\nSymbol\n\nPunctuation\n\nUnknown\n\nEchowords\n\nTop level\n\nAdverb\n\nPostposition\n\nConjunction\n\nParticles\n\nQuantifiers\n\nResidual\n\nSI. No\n\n10.1\n\n2.\n\n\n\n\n\nRemarks\n\nExamples\n\nkalam, chashmA pen'\n\n‘spectacl es\"\n\nmohan,ra vI ‘Mohan'\n\n\"Ravi'\n\nupar, nIche, ahIM\n\nuoj ul, “umop, ,dn,\n\nhuM,tuM, te'me\"\n\n“you', “he/she\"\n\npote, jAte,svay am\n\n“herself/hi mself'\n\n, te, jyAM ‘who'\n\nwhere”\n\naras- paras, paraspar\n\nmutually',each other\n\nkoN, kyAre, kyAM\n\n, kashuM\n\nkol, kaIMK,\n\n‘somethin\n\nsomeone\n\nje, jeNe ‘which/wh o',\n\n\"whom\n\nwho',\n\nGujarati names\n\n585-1333\n\nJP RpmpjPp2n\n\nAnnotation\n\nConvention**\n\nNN\n\nI NNP\n\nNNST\n\nPR\n\nPR PRP\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nPR PRI\n\nDM\n\nDM DMD\n\nDM DMR\n\nLabel\n\nNN\n\nNNP\n\nNST\n\nPR\n\nPRP\n\nPRF\n\nPRL\n\nPRC\n\nPRQ\n\nPRI\n\nDM\n\nDMD\n\nDMR\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\n1oc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nIndefinite\n\nDeictic\n\nRelative\n\nB-3 POS TAGSET FOR GUJARATHI\n\nTop level\n\nDemonstrati ve\n\nNoun\n\nPronoun\n\n\n\n\n\n\nRemarks\n\nExamples\n\nkoN,shu M,kem ‘who\"\n\n\"what', \"why\"\n\nkol, kaIMK,\n\n, kashuM\n\n‘someone\n\nsomethin\n\nkhAshe,k hAdhu ‘will\n\neat', ‘ate\"\n\nchhe,hatu M,karyuM\n\n\"is', 'was', did”\n\nsundar,U nchuM\n\n'pretty', ‘tall'\n\njaldI,dhIm e “'quickly',\n\n'slowly\"\n\nane,ke 'and', ‘or\"\n\ntethI, evuM, kAraNke\n\n“because”\n\npaNa,ja,t O\n\n‘but', emph, topic\n\nhE !!, arrE !!,O!!\n\nbahu,gha NuM ‘very'\"\n\n'much'\n\nnahi,na 'no'\n\nGujarati names\n\n16313bp\n\nHis%ss\n\nssm 3s1hhhibp\n\nAnnotation\n\nConvention***\n\nDM DMQ\n\nDM DMI\n\nVVM\n\nV VAUX\n\nCCS\n\nCC CCS UT\n\nRP RPD\n\nRP INJ\n\nRP INTF\n\nRP NEG\n\nLabel\n\nDMQ\n\nVAUX\n\nRB\n\nPSI\n\nUT\n\nRP\n\nRPD\n\nINJ\n\nINTF\n\nNEG\n\nSubtype\n\n(level 2)\n\nQuotati\n\nve\n\nCategory\n\nSubtype\n\n(level 1)\n\nWh-word\n\nMain",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 25,
+      "page_end": 28,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 51315,
+      "char_end": 54308,
+      "semantic_chunk_length": 2993,
+      "final_chunk_length": 3295,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0022",
+    "text": "\nnahi,na 'no'\n\nGujarati names\n\n16313bp\n\nHis%ss\n\nssm 3s1hhhibp\n\nAnnotation\n\nConvention***\n\nDM DMQ\n\nDM DMI\n\nVVM\n\nV VAUX\n\nCCS\n\nCC CCS UT\n\nRP RPD\n\nRP INJ\n\nRP INTF\n\nRP NEG\n\nLabel\n\nDMQ\n\nVAUX\n\nRB\n\nPSI\n\nUT\n\nRP\n\nRPD\n\nINJ\n\nINTF\n\nNEG\n\nSubtype\n\n(level 2)\n\nQuotati\n\nve\n\nCategory\n\nSubtype\n\n(level 1)\n\nWh-word\n\nMain\n\nAuxiliary\n\nCo-ordinator\n\nSubordinator\n\nDefault\n\nInterjection\n\nIntensifier\n\nNegation\n\nTop level\n\nVerb\n\nAdjective\n\nAdverb\n\nPostposition\n\nConjunction\n\nParticles\n\n4.\n\n\n\n\nRemarks\n\nFor symbols such as $,\n\n& etc\n\nOnly for punctuations\n\nExamples\n\nthoduM,g haNuM\n\nlittle'\n\n\"much\n\neka,be traN 'one,two,t\n\nhree\"\n\npaheluM, bljlI\n\nfirst'(neu),\n\n'second\n\n(fem)\n\ntv, perasitem ol\n\nkAm- bAm,pAN\n\ni-bANi ‘work and the\n\n, water and the\n\nlike\"\n\nlike',\n\nGujarati names\n\n1313\n\nIqR%HdSS\n\n5313 a180h\n\nAnnotation\n\nConvention**\n\nQT QTF\n\nQT QTC\n\nQT QTO\n\nRD\n\nRDF\n\nSYM\n\nPUN\n\nUNK\n\nECH\n\nLabel\n\nTO\n\nRD\n\nRDF\n\nSYM\n\nUNC\n\nUNK\n\nECH\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nGeneral\n\nCardinals\n\nOrdinals\n\nForeign word\n\nSymbol\n\nPunctuatio\n\nJnknown\n\nEchowords\n\nTop level\n\nQuantifiers\n\nResiduals\n\n2.\n\n\n\n\n\n\nRemarks\n\n, kitaaba\n\n, cashmaa\n\n, swayam, khuda\n\n, aapasa\n\n, kahaaM\n\n, acchaa, baRaa\n\nExamples\n\nladakaa, raajaa,\n\nitaaba, kalama,\n\nMohan, ravi, rashmi\n\nUupara, nice, aage, piche\n\nYaha, vaha, jo\n\nVaha, main, tuma, ve\n\nJo, jis, jab, jahaaM,\n\nParaspara,\n\n, kab,\n\nKauna,\n\nKoii, ki\n\nVaha, jo, yaha,\n\nVaha, yaha\n\njo, jis\n\nis, kaun\n\nKol, ki\n\ngiraa, gayaa, sonaa,\n\nhaMstaa, hai, rahaa\n\ngiraa, gayaa, sonaa,\n\nhaMstaa,\n\nhai, rahaa, huaa,\n\njaldii, tez\n\nne, ko, se, mein\n\naur, agar, tathaa, kyonki\n\nApanaa,\n\nsundara,\n\nAnnotation\n\nConvention**\n\nNN\n\nNNP\n\nI NST\n\nPR\n\nPR PRP\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nPRI\n\nM DM\n\nM DMR\n\nM DMQ\n\nDM DMI\n\nVVM\n\nV VAUX\n\nLabel\n\nPRF\n\nRL\n\nPRQ\n\nDMR\n\nDMQ\n\nMI\n\nVAUX\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nroper\n\n1oc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nIndefinite\n\nDeictic\n\nRelative\n\nWh-word\n\nIndefinite\n\nMain\n\nAuxiliary\n\nB-4 POS TAGSET FOR HINDI\n\nTop level\n\nNoun\n\nPronoun\n\nDemonstrative\n\nVerb\n\nAdjective\n\nAdverb\n\nPostposition\n\nConjunction\n\nSI No.\n\n２-\n\n2.\n\n\n\n\netc\n\nRemarks\n\nA word written in script other than the script of\n\nthe original text\n\nFor symbols such as $,\n\nOnly for punctuations\n\n, kucha\n\n, (khaanaa-)\n\nExamples\n\naur, balki, parantu\n\nAgar, kyonki, to, ki\n\nto, bhi, hii\n\nto,bhii, hii\n\n, he, o\n\nbahuta, behada\n\nnahin, mata, binaa\n\nthoRaa, bahuta, kucha, eka,\n\npahalaa\n\n, bahuta,\n\neka, do, tina,\n\npahalaa,\n\n, duusaraa\n\n(Paanii-) vaani,\n\nvaanaa\n\nthoRaa,\n\nAnnotation\n\nConvention**\n\nCCI\n\nRP\n\nRP RPD\n\nRP INJ\n\nRP INTF\n\nRP NEG\n\nQT QTF\n\nTQTC\n\nQT QTO\n\nRD\n\nRD RDF\n\nSYM\n\nPUNC\n\nUNK\n\nRD ECH\n\nLabel\n\nINJ\n\nNEG\n\nTO\n\nRDF\n\nSYM\n\nPUNC\n\nECH\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCo-ordinator\n\nSubordinator\n\nDefault\n\nInterjection\n\nntensifier\n\nNegation\n\nGeneral\n\nCardinals\n\nOrdinals\n\nForeign word\n\nSymbol\n\nPunctuation\n\nUnknown\n\nEchowords\n\nTop level\n\nParticles\n\nQuantifiers\n\nResiduals\n\nSI No.\n\n10.1\n\n\n\n\n\n\nRemarks\n\nhese\n\n, auoauos, .\n\n'“he-erg\n\noym, '\n\nExamples\n\nkita:b, laDkl ‘book', “boy\n\n', you-erg'\n\nsfias, 1\n\nunupd\n\n, oym, uit 'sn?\n\nakh akis, ‘to one another', pa:nlva:n\n\n'amongst each other\n\nkus, klml, who', 'who'\n\nke h, kah 'something\"\n\n.styt, ny'\n\n.ays, .ay, .\n\n. uny 'cs\"\n\nkus, klml, 'who',\n\npakun, parun 'to walk', 'to read'\n\ngevun, wadun, gindun",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 28,
+      "page_end": 32,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 54310,
+      "char_end": 57286,
+      "semantic_chunk_length": 2976,
+      "final_chunk_length": 3278,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0023",
+    "text": "ples\n\nkita:b, laDkl ‘book', “boy\n\n', you-erg'\n\nsfias, 1\n\nunupd\n\n, oym, uit 'sn?\n\nakh akis, ‘to one another', pa:nlva:n\n\n'amongst each other\n\nkus, klml, who', 'who'\n\nke h, kah 'something\"\n\n.styt, ny'\n\n.ays, .ay, .\n\n. uny 'cs\"\n\nkus, klml, 'who',\n\npakun, parun 'to walk', 'to read'\n\ngevun, wadun, gindun\n\n'to sing', to cry', 'to play\n\ngatshith, karith\n\n:s, chus, chu ‘was', am'\n\njaldi ‘quickly\n\nbl, tse, hum-is\n\n:0\n\nAnnotation\n\nConvention**\n\nINN\n\nNNP°\n\nI NST\n\nPR\n\nPR PRP\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nPR\n\nPID\n\nDM\n\nM DM\n\nM_DMR\n\nDM DMQ\n\nVVM\n\nVVM VNG\n\nVVM_VNF\n\nV VAUX\n\nLabel\n\nPR\n\nPRQ\n\nMR\n\nOMQ\n\nVAUX\n\nSubtype\n\n(level 2)\n\nGerund\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\nloc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nIndefinite\n\npronoun\n\nDeictic\n\nRelative\n\nWH\n\nMain\n\nAuxiliary\n\nB-5 POS TAGSET FOR KASHMIRI\n\nTop level\n\nPronoun\n\nDemonstrative\n\nAdjective\n\nAdverb\n\nNoun\n\nVerb\n\n\n\n\nRemarks\n\nA word written in script other than the\n\nscript of the original text\n\nFor symbols such as $, & etc\n\nOnly for punctu ations\n\nExamples\n\nI, manz, tall ‘on', ‘in', ‘under\"\n\nbeyi, tI ‘and', ‘and'\n\n. 001, Ipp ?\n\ny, ‘00, Ipp\n\nhen\n\no:ho:, a:ha:\n\nuop, \"ou, [u'pu\n\nkam, zya:dl little', 'more'\n\nakh, zl ' one', ‘two\"\n\npuoras,\n\nakim, doyim 'first',\n\ncha:y sha:y, batI watI ‘tea and the\n\nlike', rice and the like\n\npeTh,\n\nAnnotation\n\nConvention**\n\nRP\n\nRP RPD\n\nRP INJ\n\nRP INTF\n\nRP NEG\n\nTQTF\n\nQT\n\nQTC\n\nQTO\n\nRDRDF\n\nSYM\n\nPUNC\n\nRD UNK\n\nRD ECH\n\nLabel\n\nINJ\n\nDF\n\nSYM\n\nPUNC\n\nUNK\n\nECH\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCo-ordinator\n\nSubordinator\n\nDefault\n\nInterjection\n\nIntensifier\n\nNegation\n\nGeneral\n\nCardinals\n\nOrdinals\n\nForeign\n\nword\n\nSymbol\n\nPunctuation\n\nUnknown\n\nEchowords\n\nTop level\n\nPostposition\n\nConjunction\n\nParticles\n\nQuantifiers\n\nResiduals\n\n4.\n\n\n\n\n\n\nRemarks\n\nExamples\n\nKonakani Names\n\nh b h\n\n2hh\n\nAnnotati\n\nion\n\nConvention**\n\nINNP\n\nN\n\nNST\n\nPR\n\nPRP\n\nPR\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nOMDMI\n\nOM DMR\n\nDM DMQ\n\nVVM\n\nVVM VF\n\nV VM VNF\n\nVVMVIN F\n\nVVMVN G\n\nLabel\n\nPRF\n\nPRL\n\nPR\n\nMR\n\nVNF\n\nVN\n\nSubtype\n\n(level 2)\n\nFinite\n\non-\n\nInfinitive\n\nGerund\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\nloc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nDeictic\n\nRelative\n\nWh-word\n\nlain\n\nB-6 POS TAGSET FOR KONKANI\n\nTop level\n\nDemonstrati\n\ni ve\n\nNoun\n\nPronoun\n\nVerb",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 32,
+      "page_end": 34,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 57288,
+      "char_end": 59237,
+      "semantic_chunk_length": 1949,
+      "final_chunk_length": 2251,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0024",
+    "text": "abel\n\nPRF\n\nPRL\n\nPR\n\nMR\n\nVNF\n\nVN\n\nSubtype\n\n(level 2)\n\nFinite\n\non-\n\nInfinitive\n\nGerund\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\nloc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nDeictic\n\nRelative\n\nWh-word\n\nlain\n\nB-6 POS TAGSET FOR KONKANI\n\nTop level\n\nDemonstrati\n\ni ve\n\nNoun\n\nPronoun\n\nVerb\n\n| Remarks |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | A word written in script other than the script of the original text | For symbols such as $, & etc | Only for punctuations |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Examples |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | $, &, *, (, ) | ., : ; |  |  |\n| Annotation Convention** |  | V VAUX |  |  |  | CC | CC CCD | CC CCS | CC CCS U T | RP | RP RPD | RP CL | RP INJ | RP INTF | RP NEG | QT | QT QTF | QT QTC | QT QTO | RD | RD RDF | RD SYM | RD PUNC | RD UNK | RD ECH |\n| Label |  | VAU X | JJ | RB | PSP | CC | CCD | CCS | UT | RP | RPD | CL | INJ | INTF | NEG | QT | QTF | QTC | QTO | RD | RDF | SYM | PUN C | UNK | ECH |\n| Category | Subtype (level 2) |  |  |  |  |  |  |  | Quotative |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Subtype (level 1) | Auxiliary |  |  |  |  | Co-ordinator | Subordinator |  |  | Default | Classifier | Interjection | Intensifier | Negation |  | General | Cardinals | Ordinals |  | Foreign word | Symbol | Punctuation | Unknown | Echowords |\n|  | Top level |  | Adjective | Adverb | Postposition | Conjunction |  |  |  | Particles |  |  |  |  |  | Quantifiers |  |  |  | Residuals |  |  |  |  |  |\n| Sl No. |  | 4.2 | 5 | 6 | 7 | 8 | 8.1 | 8.2 | 8 . 2 . 1 | 9 | 9.1 | 9.2 | 9.3 | 9.4 | 9.5 | 10 | 10.1 | 10.2 | 10.3 | 11 | 11.1 | 11.2 | 11.3 | 11.4 | 11.5 |\n\n\n\n\n\n\n\nRemarks\n\nExamples\n\nlhb‘PsbHh 'bjb TPhlth\n\n3, , , , ,\n\n3, ,\n\n, ,,\n\n,,\n\nH, 3H, :\n\n, ,\n\nAnnotation\n\nConvention**\n\nNN\n\nNNP\n\nNST\n\nPR\n\nPR PRP\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nDM\n\nDM DMD\n\nDM DMR\n\nDM DMQ\n\nVVM\n\nV VAUX\n\nLabel\n\nPRP\n\nRL\n\nPRC\n\nPRQ\n\nDMD\n\nDMR\n\nDMQ\n\nVAUX\n\nPSP\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\nNloc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nIndefinite\n\nDeictic\n\nRelative\n\nWh-word\n\nIndefinite\n\nlain\n\nAuxiliary\n\nB-7 POS TAGSET MAITHII\n\nTop level\n\nNoun\n\nPronoun\n\nDemonstrative\n\nVerb\n\nAdjective\n\nAdverb\n\nPostposition",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 35,
+      "page_end": 36,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 59243,
+      "char_end": 61324,
+      "semantic_chunk_length": 2081,
+      "final_chunk_length": 2383,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0025",
+    "text": "PSP\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\nNloc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nIndefinite\n\nDeictic\n\nRelative\n\nWh-word\n\nIndefinite\n\nlain\n\nAuxiliary\n\nB-7 POS TAGSET MAITHII\n\nTop level\n\nNoun\n\nPronoun\n\nDemonstrative\n\nVerb\n\nAdjective\n\nAdverb\n\nPostposition\n\n| Remarks |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | A word written in script other than the script of the original text | For symbols such as $, and etc | Only for punctuations |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Annotation Convention** |  | CC | CC CCD | CC CCS | RP | RP RPD | RP_CL | RP INJ | RP INTF | RP NEG | QT | QT QTF | QT QTC | QT QTO | RD | RD RDF | RD SYM | RD PUNC | RD UNK | RD ECH |\n| Label |  | CC | CCD | CCS | RP | RPD | CL | INJ | INTF | NEG | QT | QTF | QTC | QTO | RD | RDF | SYM | PUNC | UNK | ECH |\n| Category | Subtype (level 2) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Subtype (level 1) |  | Co-ordinator | Subordinator |  | Default | Classifier | Interjection | Intensifier | Negation |  | General | Cardinals | Ordinals |  | Foreign word | Symbol | Punctuation | Unknown | Echowords |\n|  | Top level | Conjunction |  |  | Particles |  |  |  |  |  | Quantifiers |  |  |  | Residuals |  |  |  |  |  |\n| Sl No. |  | 8 | 8.1 | 8.2 | 9 | 9.1 |  | 9.3 | 9.4 | 9.5 | 10 | 10.1 | 10.2 | 10.3 | 11 | 11.1 | 11.2 | 11.3 | 11.4 | 11.5 |\n\n\n\n\n\n\n| Remarks |  |  |  |  | Where it is separate it is NST |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Examples |  | (mulagaa boy), (raajaa king), (pustaka book) | (pustaka book), (lekhaNi pen), (chashmaa goggles) | (Mohan), (Ravi), (Rashmi) | (var-up), (khaalee-down), (pudhe-ahead), (maage-back) | (yethe-here), (tethe-there), (jo-who), (to-he) | (to-he), (mee-I), (tu-you), (te-they), (tumhi-you) | (swatha-myself), (aapana-oursleves) | (jo-who), (jyaane-who), (jevhaa-while), (jeethe-where) | (Paraspara-reciprocally), (ekmek-mutually) | (kona-who), (kevha-when), (kuthe-where) | (kona |\n| Annotation Convention** |  | N | N NN | N NNP | N NST | PR | PR PRP | PR PRF | PR PRL | PR PRC | PR PRQ |  |\n| Label |  | N | NN | NNP | NST | PR | PRP | PRF | PRL | PRC | PRQ |  |\n| Category | Subtype (level 2) |  |  |  |  |  |  |  |  |  |  |  |\n|  | Subtype (level 1) |  | Common | Proper | Nloc |  | Personal | Reflexive | Relative | Reciprocal | Wh-word | Indefinite |\n|  | Top level | Noun |  |  |  | Pronoun |  |  |  |  |  |  |\n| Sl No. |  | 1 | 1.1 | 1.2 | 1.4 | 2 | 2.1 | 2.2 | 2.3 | 2.4 | 2.5 | 2.6 |\n\n\nB-8 POS TAGSET FOR MARATHI\n\n\n\n\nRemarks\n\nExamples\n\n(to-he),\n\n(haa-this)\n\njo-who)\n\n(ithe-here)\n\nithe-there)\n\n(jo-who)\n\n(jyane-who)\n\n(konta-which)\n\n(kona-who),\n\n(padalaa-fell down)\n\n(gelaa-went)\n\n(jhopalaa-slept)\n\n(aahe-is)\n\n(padalaa-fell down),\n\n(gelaa-went)\n\n(jhopalaa-slept)\n\n(aahe-is),\n\n(is),\n\n(started)\n\n(sundara-beautiful)\n\n(chaangalaa-good),\n\n(lavakar-fast)\n\nhaLuuha\n\nLuu-slowly\n\n(aaNi-and),\n\n(kaaraN-because)\n\n(aaNi-and)\n\n(paNa-but):\n\n(parantu-but)\n\n(kaaraN- because of)\n\n(kaaraN kii-because of)\n\n(jara-tara-if-then)\n\nRUT\n\nAnnotation\n\nConvention**\n\nDM\n\nDM DMD\n\nDM DMR\n\nDM DMQ\n\nVVM\n\nV VAUX\n\nCC CCS UT\n\nLabel\n\nDM\n\nDMD\n\nDMR\n\nDMQ\n\nVM\n\nVAUX",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 37,
+      "page_end": 39,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 61330,
+      "char_end": 64322,
+      "semantic_chunk_length": 2992,
+      "final_chunk_length": 3294,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0026",
+    "text": "ood),\n\n(lavakar-fast)\n\nhaLuuha\n\nLuu-slowly\n\n(aaNi-and),\n\n(kaaraN-because)\n\n(aaNi-and)\n\n(paNa-but):\n\n(parantu-but)\n\n(kaaraN- because of)\n\n(kaaraN kii-because of)\n\n(jara-tara-if-then)\n\nRUT\n\nAnnotation\n\nConvention**\n\nDM\n\nDM DMD\n\nDM DMR\n\nDM DMQ\n\nVVM\n\nV VAUX\n\nCC CCS UT\n\nLabel\n\nDM\n\nDMD\n\nDMR\n\nDMQ\n\nVM\n\nVAUX\n\nSubtype\n\n(level 2)\n\nQuotative\n\nCategory\n\nSubtype\n\n(level 1)\n\nDeictic\n\nRelative\n\nWh-word\n\nMain\n\nAuxiliary\n\nCo-ordinator\n\nSubordinator\n\nTop level\n\nDemonstrative\n\nVerb\n\nAdjective\n\nAdverb\n\nConjunction\n\n2.\n\n\n\n\n\n\nRemarks\n\nA word written in script other than\n\nthe script of the original text\n\nFor symbols such as $, and etc\n\nOnly for punctuations\n\nvery\n\nExamples\n\n(tara)\n\n(tari)\n\n(arere),\n\n(oho-oh!)\n\n(khoop-lot, very),\n\n(baraach-too much);\n\n(atishaya-too much,\n\n(nako-not)\n\n(na-Na)\n\nthode-few):\n\njaasta- lot)\n\n(kaahi-few):\n\n(eka-one)\n\n(pahilaa-first)\n\n(thoDe-few)\n\njaasta-lot)\n\n(kaahi-few)\n\n(eka-one)\n\n(dona-two)\n\n(pahilaa-first)\n\n(dusaraa-second)\n\n(jevanbivaNa-meal/dinner),\n\n(Dokebike- head)\n\n(vaanii, khaanaa-vaanaa)\n\nAnnotation\n\nConvention**\n\nRP\n\nRPD\n\nRP\n\nRP INJ\n\nRP INTF\n\nRP NEG\n\nQT QTF\n\nQT QTC\n\nQT QTO\n\nRD\n\nRDF\n\nSYM\n\nRD PUNC\n\nD UNK\n\nRD ECH\n\nLabel\n\nRP\n\nPD\n\nINJ\n\nINTF\n\nNEG\n\nQT\n\nQTO\n\nDF\n\nSYM\n\nPUNC\n\nNK\n\nECH\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nDefault\n\nInterjection\n\nIntensifier\n\nNegation\n\nGeneral\n\nCardinals\n\nOrdinals\n\nForeign word\n\nSymbol\n\nPunctuation\n\nUnknown\n\nEchowords\n\nTop level\n\nParticles\n\nQuantifiers\n\nResiduals\n\n5.\n\n10.2\n\n10.3\n\n\n\n\nRemarks\n\nExamples\n\nGara kiwAba kahANI\n\nsadZaka\n\nGara kiwAba kahANI\n\nsadZaka\n\nharaviMxar a xiYII\n\nwAjamahil\n\nuYwe WaYle aYge piYCe\n\nmEz wUM uha iha jo\n\nmEz wuM uha\n\nApaNA Apa Kuxa\n\njo jisa jihadZA jaxoz\n\nApasa\n\nkaxoz kiYWe\n\nkol kisa\n\nuha jo iha\n\niha\n\nsqn\n\njisa\n\nkONa\n\nkol kisa\n\nAiA jA karaxA mArAzgA\n\nrahiMxA\n\nAiA jA karaxA mArAzgA\n\nrahiMxA\n\njAzxiAz AuzxiAz karaxiAz\n\nKAke jAke\n\nkONa\n\nExamples in Gurumuk hi\n\nP\n\nEJP E E\n\nPJ P EE HK\n\nP EE HH\n\nPE hik Ehuk\n\nHhik\n\nPPP\n\nEP E iRJ\n\nEJPP P,PSP\n\nAnnotation\n\nConvention**\n\nNN\n\nI NNP\n\nN NST\n\nPR\n\nPR PRP\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nPR\n\nPRI\n\nDM\n\nDM DMD\n\nOM DMR\n\nDM DMQ\n\nDM_DMI\n\nVVM\n\nVVM VN F\n\nLabel\n\nNNP\n\nNST\n\nPR\n\nPRF\n\nPRL\n\nPRC\n\nPRQ\n\nDMD\n\nDM\n\nDMQ\n\nDMI\n\nVNF\n\nSubtype\n\n(level 2)\n\nNon- finite\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommon\n\nProper\n\nNloc\n\nPersonal\n\nReflexive\n\nRelative\n\nReciprocal\n\nWh-word\n\nIndefinite\n\nDeictic\n\nRelative\n\nWh-word\n\nindefinite\n\nMain\n\nB-9 POS TAGSET FOR PUNJABI\n\nTop level\n\nNoun\n\nPronoun\n\nDemonstrati\n\nVerb\n\n2.\n\n4.\n\n\n\n\n\n\nRemarks\n\ni sagoz\n\nExamples\n\ngiAz, AiAz, kariAz\n\njANoz KANoz pINoz\n\nmaranoz\n\nhE sI sakiA hoiA\n\nsohaNA caMgA mAdZA\n\nKAA\n\nhOI kAhal\n\nne nUM woz nAla\n\nawe kiuzki agara ki\n\nawe jAz\n\nkiuzki ki jo wAz\n\nvI wAz hI\n\nvI wAz hI\n\nue adZiA nI janAba\n\nbahuwa badZA\n\nnahIz nA binAz vagEra\n\nWodZA bahuwA kAPI\n\nkuJa iYka pahilA\n\nWodZA bahuwA kAPI\n\nkuJa\n\niYka xo wiMna\n\npahilA xUjA\n\nExamples in Gurumuk hi\n\nPP PJ PP\n\nEEH E JPP L\n\nIPH  PIP JJ EE\n\nP EEK\n\nESR ESPR\n\nPPIP PEYR EY P\n\nE\n\nAnnotation\n\nConvention**\n\nVVM VIN F\n\nVVMVN G\n\nV VAUX\n\nCCD\n\nCCS\n\nRP\n\nRP RPD\n\nRP INJ\n\nRP INTF\n\nRP NEG\n\nQT\n\nQT QTF\n\nT QTC\n\nQT\n\nQT QTO\n\nLabel\n\n\nVNG\n\nVAU\n\nRP\n\nRPD\n\nINTF\n\nNEG\n\nQTO\n\nSubtype\n\n(level 2)\n\nInfinitiv e\n\nGerund\n\nCategory\n\nSubtype\n\n(level 1)\n\nAuxiliary\n\nCo-\n\nordinator\n\nSubordinat\n\nDefault\n\nInterjection\n\nIntensifier\n\nNegation\n\nGeneral\n\nCardinals\n\nOrdinals\n\nTop level\n\nAdjective\n\nAdverb\n\nPostposition",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 39,
+      "page_end": 42,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 64324,
+      "char_end": 67322,
+      "semantic_chunk_length": 2998,
+      "final_chunk_length": 3300,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0027",
+    "text": "\n\nQT QTF\n\nT QTC\n\nQT\n\nQT QTO\n\nLabel\n\n\nVNG\n\nVAU\n\nRP\n\nRPD\n\nINTF\n\nNEG\n\nQTO\n\nSubtype\n\n(level 2)\n\nInfinitiv e\n\nGerund\n\nCategory\n\nSubtype\n\n(level 1)\n\nAuxiliary\n\nCo-\n\nordinator\n\nSubordinat\n\nDefault\n\nInterjection\n\nIntensifier\n\nNegation\n\nGeneral\n\nCardinals\n\nOrdinals\n\nTop level\n\nAdjective\n\nAdverb\n\nPostposition\n\nConjunction\n\nParticles\n\nQuantifiers\n\n.1.3\n\n.1.4\n\n10.1\n\n10.2\n\n10.3\n\n\n\n\nRemarks\n\nRemarks\n\n,& etc\n\nMay be consider ed for Urdu- Hindi,\n\ntoo.\n\nExamples\n\nA word written in script\n\nother than the script of the\n\noriginal text\n\nFor symbols such as $,\n\nOnly for punctuations\n\n(pANI-) XANI\n\n(cAha-) cUha\n\nExamples\n\n(laRkaa)\n\n((raajaa\n\n(kitaab)\n\n(kitaal\n\n(qalam\n\n(cashma\n\nMohan) e )\n\n(Rashmi (Ravi)\n\n(jalan) )\n\n(calan ~l) (bahaao)\n\n-o  (banaavat\n\nExamples in Gurumuk hi\n\nEPP (-PEP) h (-Eh)\n\nAnnotation\n\nConvention**\n\nNN\n\nNNP\n\nI NNV\n\nLabel\n\nNN\n\nAnnotati\n\nion\n\nConvention**\n\nRD RDF\n\nSYM\n\nRD\n\nPUNC\n\nUNK\n\nECH\n\nSubtype\n\n(level 2)\n\nLabel\n\nRD\n\nRDF\n\nSYM\n\nECH\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nCommo n)心>\n\nnakeraa(\n\nProper)e^-m'aaref\n\nVerbal)'e-\n\nhaasil-e- (masdar\n\nCategory\n\nSubtype\n\n(level 1)\n\nForeign\n\nword\n\nSymbol\n\nPunctuatio\n\nJnknown\n\nEchowords\n\nTop level\n\nResiduals\n\nB-10 POS TAGSET FOR URDU\n\nTop level\n\n(e-O(-us!) (unoN\n\nI No.\n\n\n\n\n\n\nRemarks\n\nIn Urdu, unlike Hindi, voh is used\n\nboth for singular and plural.\n\nExamples\n\n(upar) 1\n\n(niice)\n\n(aage)\n\n）(piche\n\n(yih) S~\n\n(voh) ~ (jo)\n\n-(voh) 9~\n\n(tum)  (maim)\n\n(apnaa) l\n\n(khud)  i\n\n(apne aap)\n\n(0),\n\n(jab)\n\n(jis)- (jahaM)\n\n-l~ ) (baaham\n\nsl) (darmiyaan\n\n(aapas) i\n\n(kaun) S℃\n\n) )  (kahaaM\n\n(yih)\n\n) S(voh)\n\n302(S!) 62 (0!):\n\n(kab)\n\nAnnotation\n\nN NST\n\nPR\n\nPR PRP\n\nPR PRF\n\nPR PRL\n\nPR PRC\n\nPR PRQ\n\nDM\n\nDM DMD\n\nDM DMR\n\nLabel\n\nIST\n\nPR\n\nPRP\n\nPRF\n\nPRL\n\nPRC\n\nPRQ\n\nDM\n\nDMR\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nNloc -) (zarf\n\nPersonal (uS)\n\nshakhsii)\n\nReflexiv e )\n\nm'aakoo sii)\n\nRelative (s)\n\nrgugU>- zamiir- e-\n\nmausool aa(\n\nReciprocal\n\nCS(-L'a\n\nzamiir-e-raaje\"\n\nWh- word (-s)\n\n'w~leS>- zamiir- e-\n\nistafhaa miyaa)\n\nDeictic-ll)(ishaare\n\nRelative zamir- e-\n\nishaaraa mausool aa (\n\nICC> C\">\n\nTop level\n\nPronoun --)\n\n(zamiir\n\nDemonstr ative\n\nCL> CBLI\n\nzamir-e-\n\nishaaraa)\n\nSI No.",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 42,
+      "page_end": 44,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 67324,
+      "char_end": 69155,
+      "semantic_chunk_length": 1831,
+      "final_chunk_length": 2133,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0028",
+    "text": "\n\nRelative (s)\n\nrgugU>- zamiir- e-\n\nmausool aa(\n\nReciprocal\n\nCS(-L'a\n\nzamiir-e-raaje\"\n\nWh- word (-s)\n\n'w~leS>- zamiir- e-\n\nistafhaa miyaa)\n\nDeictic-ll)(ishaare\n\nRelative zamir- e-\n\nishaaraa mausool aa (\n\nICC> C\">\n\nTop level\n\nPronoun --)\n\n(zamiir\n\nDemonstr ative\n\nCL> CBLI\n\nzamir-e-\n\nishaaraa)\n\nSI No.\n\n| Remarks |  | According to Urdu grammar words like koi, kisi, kuch do not come under Wh-word; they are used for indefinite person. For them, another category (subtype), that is,tankii r (indefnit ive) is used. Under this category following words are also placed: chand, b‘aaz, fulaan, sab, bahut. Can we have a category/subtype like indefniti ve demonstrative (DMI)? |  |  | This subtype WILL NOT be used for Hindi as Hindi does not have enough information at the word level. | -- do-- | -- do-- |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Examples |  | ،(kaun) کون ،(kis) کس (kitnaa) کتنا | ،(giraa) گرا ،(gayaa) گیا سونا ) ،(sonaa ہنستا ) (haMstaa | ،(giraa) گرا ،(gayaa) گیا سونا ) ،(sonaa ہنستا ) (haMstaa |  |  |  |\n| Annotation Convention** |  | DM DMQ | V | V VM | V VM VF | V VM VNF | V VM VINF |\n| Label |  | DMQ | V | VM | VF | VNF | VINF |\n| Category | Subtype (level 2) |  |  |  | Finite )محدود- mahd (ood | Nonfinite )غیرمحدو ghai-د r mahd (ood | Infinitive )مصدر- masd (ar |\n|  | Subtype (level 1) | Wh- word اشارہ ضمیر) استفہامیہ- zamiir- e- ishaaraa istafhaa (miyaa |  | Main |  |  |  |\n|  | Top level |  | Verb (f‘el-فعل) |  |  |  |  |\n| Sl No. |  | 3.3 | 4 | 4.1 | 4.1.1 | 4.1.2 | 4.1.3 |\n\n\n\n\n\nRemarks\n\nExamples\n\n(hai)\n\n( () ( ()\n\n-u) (dilkash\n\n(safed) sl>)\n\n(siyaah )\n\n(cauRaa Is心') (uuMcaa\n\n(tez)  jald)\n\nC\"(se) Ct\n\n(u),(\n\n(ko\n\n(meiM)\n\n(aur)\n\n(ag)\n\n(kyoMki\n\n(aur)\n\n(voh)\n\n<）\n\n(yaa) si\n\n-(ki) S (balki)\n\n(),\n\n(kyoMki\n\n(0)\n\nAnnotation\n\nConvention**\n\nVVM VNG\n\nV VAUX\n\nCC\n\nCCD\n\nCC\n\nCCs\n\nLabel\n\nVNG\n\nVAUX\n\nPSP\n\nCC\n\nCCD\n\nSubtype\n\n(level 2)\n\nGerun\n\nhaasil\n\nmasd\n\nCategory\n\nSubtype\n\n(level 1)\n\nAuxiliar y) Is-\n\nf'el-e-(imdaadi\n\n72(1 oupo -00\n\nu-J-harf-e-(vasl\n\nSubordi nator\n\n-lmcci>i\n\ntaab'e kuninda(a\n\nTop level\n\nAdjective\n\n(sifat-CAL)\n\nAdverb\n\nmut'alliq- (e-\n\nf'el\n\nPostpositi on\n\n-) jaar-e-\n\nmoakkhar (\n\nConjuncti on\n\n(atf\"-εb)\n\nSI No.\n\n4.\n\n\n\n\n\n| Remarks |  | Not required |  |  | Not required |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Examples |  |  | ،(to) تو ،(hii) ہی (bhii) بھی | ،(to) تو ،(hii) ہی (bhii) بھی |  | ،e)) اے ،(o) او ،(are) ارے ،(jii) جی ،(ahaa) اہا (vaah) واہ | ،(bahut) بہت بے حد ) ،(behad البتہ ) ،(albattaa ضرور ) ،(zaroor خبردار ) khabardaar ( |\n| Annotation Convention** |  | CC CCS U T | RP | RP RPD | RP CL | RP INJ | RP INTF |\n| Label |  | UT | RP | RPD | CL | INJ | INTF |\n| Category | Subtype (level 2) | Quotative )اقتباسی - iqtaba (asii |  |  |  |  |  |\n|  | Subtype (level 1) |  |  | Default (ڈیفالٹ- Default) | Classifier )درجہ بند- darja (band | Interjection )فجائیہ- fajaa’iya (a | Intensifier )حرف تاکید- harf-e- (taakiid |\n|  | Top level |  | Particles -حالیہ) (haaliyaa |  |  |  |  |\n| Sl No. |  | 8.2.1 | 9 | 9.1 | 9.2 | 9.3 | 9.4 |\n\n\n\n\n\nRemarks\n\nExamples\n\n(na)\n\n(nahiiM\n\n(cand)\n\nmuta'adda)\n\n) JsJ (kasir)\n\n(thoRaa\n\nnq),(\n\n(kuch\n\nJS_\n\n(Ek)\n\n6- (op)\n\n(tin)\n\n(avval)\n\n(doam)\n\n(pahalaa\n\n(duusaraa\n\n(qalil)\n\nAnnotation\n\nConvention**\n\nRP NEG\n\nQT QTF\n\nQT QTC\n\nQTO\n\nQT\n\nRD\n\nLabel\n\nNEG\n\nQT\n\nQTC\n\nTO\n\nRD\n\nSubtype\n\n(level 2)",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 45,
+      "page_end": 48,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 69161,
+      "char_end": 72160,
+      "semantic_chunk_length": 2999,
+      "final_chunk_length": 3301,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0029",
+    "text": " 9.2 | 9.3 | 9.4 |\n\n\n\n\n\nRemarks\n\nExamples\n\n(na)\n\n(nahiiM\n\n(cand)\n\nmuta'adda)\n\n) JsJ (kasir)\n\n(thoRaa\n\nnq),(\n\n(kuch\n\nJS_\n\n(Ek)\n\n6- (op)\n\n(tin)\n\n(avval)\n\n(doam)\n\n(pahalaa\n\n(duusaraa\n\n(qalil)\n\nAnnotation\n\nConvention**\n\nRP NEG\n\nQT QTF\n\nQT QTC\n\nQTO\n\nQT\n\nRD\n\nLabel\n\nNEG\n\nQT\n\nQTC\n\nTO\n\nRD\n\nSubtype\n\n(level 2)\n\nCategory\n\nSubtype\n\n(level 1)\n\nNegatio n\n\nC?i\n\nharf-e-\n\n(nahi\n\nGeneral\n\n(13-\n\n(aam\n\nCardinal\n\nadaad\n\n(mutl:\n\nOrdinals\n\ntartibii a'adaad (\n\nTop level\n\nQuantifier\n\nkamiiyat\n\n(numaa\n\nResiduals\n\nbaaqi (maandaa\n\nSI No.\n\n10.\n\n\n\n\n\n| Remarks |  | A word written in script other than the script of the original text. | Such symbols are not used in Urdu. They are written ڈالر (dollar) پاونڈ (pound) etc. | Only for Punctuations |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Examples |  |  | $, &, *, (, ) & ,$ | ، ۔, ،:، ; |  | وول (-دل) ،vil (-dil) ویار (-پیار) (-pyaar) ،vyaar وائے(-چائے) vaa (-caa‘e) ‘e |  | وول (-دل) ،vil (-dil) ویار (-پیار) (-pyaar) ،vyaar وائے(-چائے) vaa (-caa‘e) ‘e |\n| Annotation Convention** |  | RD RDF | RD SYM | RD PUNC | RD UNK | RD ECH | RD UNK | RD ECH |\n| Label |  | RDF | SYM | PUNC | UNK | ECH | UNK | ECH |\n| Category | Subtype (level 2) |  |  |  |  |  |  |  |\n|  | Subtype (level 1) | Foreign word )بدیسی لفظ- bidesii (lafz | Symbol )علمت‘- alaamat ( | Punctuation )اوقاف- (auqaaf | Unknown )نامعلوم- naa m‘aaloo (m | Echowords )گونج دار الفاظ- goonjda (r lafz | Unknown )نامعلوم- naa m‘aaloo (m | Echowords )گونج دار الفاظ- goonjda (r lafz |\n|  | Top level |  |  |  |  |  |  |  |\n| Sl No. |  | 11.1 | 11.2 | 11.3 | 11.4 | 11.5 | 11.4 | 11.5 |\n\n\n\n\n\nBIBLIOGRAPHY\n\n\n| edu/cg /v ewco e .cg ?a pdf> | c e Eagles Recommendations for Morphosyntactic Annotation TCWG–MAC/R, March 1996 <https://home.uni-leipzig.de/ AnnCorra : Annotating Corpora, Guidelines For POS And Akshar Bharati et al, 2006, IIIT, Hyderabad <https://research chunk-pos-ann-guidelines-15-Dec-06.pdf> | 603&co e | c s_ epo s |\n\n\n| Annotation ac.in/~rash |\n| --- |\n| s, Sankaran era-ready-a |",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 48,
+      "page_end": 50,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 72162,
+      "char_end": 73870,
+      "semantic_chunk_length": 1708,
+      "final_chunk_length": 2010,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17627_2021_0030",
+    "text": " TCWG–MAC/R, March 1996 <https://home.uni-leipzig.de/ AnnCorra : Annotating Corpora, Guidelines For POS And Akshar Bharati et al, 2006, IIIT, Hyderabad <https://research chunk-pos-ann-guidelines-15-Dec-06.pdf> | 603&co e | c s_ epo s |\n\n\n| Annotation ac.in/~rash |\n| --- |\n| s, Sankaran era-ready-a |\n\n## ANNEX C\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 20 (16341).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "17627_2021.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 51,
+      "page_end": 51,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 73877,
+      "char_end": 75333,
+      "semantic_chunk_length": 1456,
+      "final_chunk_length": 1758,
+      "standard_no": "IS 17627",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

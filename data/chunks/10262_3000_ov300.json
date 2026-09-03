@@ -1,0 +1,1456 @@
+[
+  {
+    "id": "10262_0000",
+    "text": "IS 10262 CED 02 (11290) - Copy.pmd\n\n\n\nIndian Standard\n\nConcrete Mix Proportioning -\n\nGuidelines\n\n( Second Revision )\n\nICS 91.100.30\n\nBIS 2019\n\nBUREAU OF INDIAN STANDARDS\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.standardsbis.in\n\nwww.bis.org.in\n\nPrice Group 12\n\nJanuary 2019\n\n\n\n\nCement and Concrete Sectional Committee, CED 02\n\nFOREWORD\n\nThis Indian Standard (Second Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Cement and Concrete Sectional Committee had been approved by the Civil Engineering Division Council.\n\nThis standard provides guidelines for proportioning concrete mixes as per the requirements using the concrete making materials including other supplementary materials identified for this purpose.\n\nThis standard was first published in 1982 and subsequently revised in 2009. In the first revision, the title of the standard was modified as ‘Concrete mix proportioning — Guidelines’ from ‘Recommended guidelines for concrete mix design’. The major changes in the first revision had been, restricting the applicability of the standard to ordinary and standard grades of concrete, aligning the standard to IS 456 : 2000 ‘Plain and reinforced concrete — Code of practice (fourth revision)’; review and modification of the requirements for selection of water cement ratio, water content and estimation of coarse aggregate content and fine aggregate content; inclusion of an additional illustrative example of concrete mix design, etc.\n\nIn this second revision, the following major modifications have been made:",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 0,
+      "char_end": 1583,
+      "semantic_chunk_length": 1583,
+      "final_chunk_length": 1583,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0001",
+    "text": "ation of the requirements for selection of water cement ratio, water content and estimation of coarse aggregate content and fine aggregate content; inclusion of an additional illustrative example of concrete mix design, etc.\n\nIn this second revision, the following major modifications have been made:\n\n- a) The standard has been divided into five sections, as follows:\n- 1) Section 1 General 2) Section 2 Ordinary and standard grades of concrete 3) Section 3 High strength grades of concrete 4) Section 4 Self compacting concrete 5) Section 5 Mass concrete b) Mix proportioning procedure for high strength concrete for M 65 or above (up to target strength of M 100) has been included. c) The initial data to be provided for mix proportioning has been made more encompassing, covering the provisions of revised IS 383 : 2016 ‘Coarse and fine aggregates for concrete (third revision)’, use of admixtures, etc. d) The target mean strength for mix proportioning formula has been refined to include a new factor based on the grade of concrete. This has been done to ensure a minimum margin between the characteristic compressive strength and the target mean compressive strength. e) The calculations for standard deviation have been detailed. f) A graph of water-cement ratio versus 28 days strength of concrete has been introduced for different grades and types of cement, as an alternate method for assuming the initial water-cement ratio. g) Illustrative annexes for concrete mix proportioning for PPC, OPC with fly ash, OPC with ggbs, high strength concrete, self compacting concrete and mass concrete have been provided. h) Guidelines on using/selecting water reducing admixtures have been introduced as an informatory annex (see Annex G). j) The consideration of air content in design of normal (non-air entrained) concrete mix proportion, has been reintroduced.\nThis standard requires compliance to the provisions of IS 456:2000 particularly to ensure that minimum stipulations for durability are met with, such as minimum OPC content, maximum free water-content ratio and minimum grade of concrete. However, in certain projects, some deviations in the concrete mix proportioning may be required; all such deviations are to meet certain stricter criteria than those given in IS 456:2000.\n\nConcrete has become an indispensable construction material. In the present scenario, concrete has bypassed the stage of mere four component system, that is, cement, water, coarse aggregate and fine aggregate. It can be a combination of far more number of ingredients, for example, a judicious combination of ingredients from as many\n\n(Continued on third cover)\n\n\n\n\nIndian Standard\n\n\nCONCRETE MIX PROPORTIONING — GUIDELINES\n\n\n( Second Revision )\n\n\nSECTION 1 GENERAL",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1585,
+      "char_end": 4038,
+      "semantic_chunk_length": 2453,
+      "final_chunk_length": 2755,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0002",
+    "text": " water, coarse aggregate and fine aggregate. It can be a combination of far more number of ingredients, for example, a judicious combination of ingredients from as many\n\n(Continued on third cover)\n\n\n\n\nIndian Standard\n\n\nCONCRETE MIX PROPORTIONING — GUIDELINES\n\n\n( Second Revision )\n\n\nSECTION 1 GENERAL\n\n## 1 SCOPE\n\n\n1.1 This standard provides the guidelines for proportioning concrete mixes as per the requirements using the concrete making materials including other supplementary materials identified for this purpose. The proportioning is carried out to achieve specified characteristics at specified age, workability of fresh concrete and durability requirements.\n\n\n1.2 This standard is applicable for ordinary, standard and high strength concrete grades. The standard also covers provisions for the mix proportioning of self compacting concrete and mass concrete.\n\n\n1.3 All requirements of IS 456 in so far as they apply, shall be deemed to form part of this standard.\n\n\n## 2 REFERENCES\n\nThe following standards contain provisions, which through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated below:\n\nIS No. Title 269 : 2015 Specification for ordinary Portland cement (sixth revision) 383 : 2016 Specification for coarse and fine aggregates for concrete (second revision) 456 : 2000 Code of practice for plain and reinforced concrete (fourth revision) 1199 (Part 6) : 2018 Fresh concrete — Methods of sampling, testing and analysis: Part 6 Tests on fresh self compacting concrete (first revision) (under publication) 1489 Specification for Portland- pozzolana cement (Part 1) : 2015 Fly ash based (third revision) (Part 2) : 2015 Calcined clay based (third revision) 2386 (Part 3) : 1963 Methods of test for aggregates for concrete: Part 3 Specific gravity, voids, absorption and bulking 3812 (Part 1) : 2013 Specification for pulverized fuel\n\n\nIS No. Title ash: Part 1 For use as pozzolana in cement, cement mortar and concrete (third revision) 9103 : 1999 Specification for admixtures for concrete (first revision) 15388 : 2003 Specification for silica fume 16714 : 2018 Ground granulated blast furnace slag for use in cement, mortar and concrete — Specification 3 TERMINOLOGY\n\nFor the purpose of this standard, the following definitions shall apply.\n\n\n3.1 Water-Cement Ratio (w/c) — The ratio is calculated by dividing the mass of the mixing water by the mass of the cement. It refers to the ratio corresponding to the saturated surface dry condition of aggregates.\n\n\n3.2 Water-Cementitious Materials Ratio (w/cm) — The ratio (w/cm) is calculated by dividing the mass of the mixing water by the combined mass of the cement and fly ash or other cementitious materials or a combination thereof. It refers to the ratio corresponding to the saturated surface dry condition of aggregates.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "1",
+      "heading": "1 SCOPE",
+      "heading_path": [
+        "1 SCOPE"
+      ],
+      "char_start": 4041,
+      "char_end": 6805,
+      "semantic_chunk_length": 2764,
+      "final_chunk_length": 3066,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0003",
+    "text": "titious Materials Ratio (w/cm) — The ratio (w/cm) is calculated by dividing the mass of the mixing water by the combined mass of the cement and fly ash or other cementitious materials or a combination thereof. It refers to the ratio corresponding to the saturated surface dry condition of aggregates.\n\n## 4 DATA FOR MIX PROPORTIONING\n\n4.1The following data are required for mix proportioning of a particular grade of concrete:\n\n- a) Grade designation; b) Type of cement, and grade of cement (if applicable); c) Maximum nominal size of aggregate; d) Minimum cement/cementitious materials content and maximum water-cement/ cementitious materials ratio to be adopted;\nor Exposure conditions as per Table 3 and Table 5 of IS 456; e) Workability required at the time of placement; f) Transportation time; g) Method of placing; h) Degree of site control (good/fair) or value of established standard deviation, if any; j) Type of coarse aggregate (angular/sub angular/\n\n\n\ngravel with some crushed particles/rounded gravel/manufactured coarse aggregate); k) Type of fine aggregate (natural sand/ crushed stone or gravel sand/manufactured sand/ mixed sand); m) Maximum cement content; n) Whether a chemical admixture shall or shall not be used and the type of chemical admixture and the extent of use; p) Whether a mineral admixture shall or shall not be used and the type of mineral admixture and the extent of use; and q) Any other specific requirement like early age strength requirements.\n\nNOTE — Suitable reduction in water cement or water cementitious material ratio shall be done after the mix has been finalized based on trial mixes, to achieve the specific requirement of high early strength, if any. The reduced ratio shall be fixed based on trials for the required early strength. These trials shall be carried out after recalculating all the mix proportions.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "4",
+      "heading": "4 DATA FOR MIX PROPORTIONING",
+      "heading_path": [
+        "4 DATA FOR MIX PROPORTIONING"
+      ],
+      "char_start": 6808,
+      "char_end": 8367,
+      "semantic_chunk_length": 1559,
+      "final_chunk_length": 1861,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0004",
+    "text": "io shall be done after the mix has been finalized based on trial mixes, to achieve the specific requirement of high early strength, if any. The reduced ratio shall be fixed based on trials for the required early strength. These trials shall be carried out after recalculating all the mix proportions.\n\n### 4.2 Target Strength for Mix Proportioning\n\nIn order that not more than the specified proportion of test results are likely to fall below the characteristic strength, the concrete mix has to be proportioned for higher target mean compressive strength f’ck\n\n. The margin over characteristic strength is given by the following relation:\n\nf’ck  =  fck + 1.65 S\n\n\nor f’ck = fck + X whichever is higher.\n\n\nwhere\n\nf’ck = target mean compressive strength at 28 days,\n\n\nin N/mm2; fck = characteristic compressive strength at 28\n\n\ndays, in N/mm2; S = standard deviation, in N/mm2 (see 4.2.1); and X = factor based on the grade of concrete, as per\n\n\nTable 1.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "4.2",
+      "heading": "4.2 Target Strength for Mix Proportioning",
+      "heading_path": [
+        "4 DATA FOR MIX PROPORTIONING",
+        "4.2 Target Strength for Mix Proportioning"
+      ],
+      "char_start": 8370,
+      "char_end": 9021,
+      "semantic_chunk_length": 651,
+      "final_chunk_length": 953,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0005",
+    "text": " + 1.65 S\n\n\nor f’ck = fck + X whichever is higher.\n\n\nwhere\n\nf’ck = target mean compressive strength at 28 days,\n\n\nin N/mm2; fck = characteristic compressive strength at 28\n\n\ndays, in N/mm2; S = standard deviation, in N/mm2 (see 4.2.1); and X = factor based on the grade of concrete, as per\n\n\nTable 1.\n\n#### 4.2.1 Standard Deviation\n\nThe standard deviation for each grade of concrete shall be calculated separately.\n\n\n##### 4.2.1.1 Standard deviation based on test strength of samples\n\n- a) Number of test results of samples — The total number of test strength of samples required to constitute an acceptable record for calculation of standard deviation shall be not less than 30. b) In case of significant changes in concrete — When significant changes are made in the\n\nproduction of concrete batches (for example changes in the source of materials, mix proportioning, equipment or technical control), the standard deviation value shall be separately calculated for such batches of concrete. c) Standard deviation to be brought up-to-date — The calculation of the standard deviation shall be brought up-to-date periodically and after every change of mix proportioning. The standard deviation shall be checked every month subject to minimum 30 test results to ensure that it is less than the value considered in mix design. If higher, necessary modification shall be done in the mix.\n\n\n##### 4.2.1.2 Calculation of standard deviation\n\nCalculate the standard deviation, S, of the strength test results as follows.\n\n4.2.1.2.1  For a single group of consecutive test results:\n\nn\n\n− = − ∑\n\n\n\nX X S n\n\n1 ( )\n\ni i\n\n( 1)\n\n=\n\nwhere\n\nS = standard deviation of the group;\n\n\nn = number of test results considered;\n\n\nX = average of n test results considered; and\n\n\nXi = individual test result.\n\n\n4.2.1.2.2 For two groups (mixes) of consecutive test results of same grade:\n\n2 2 1 1 2 2\n\n( 1) ( 1) ( 2) n s n s S n n − + − = + − where\n\n\n1 2\n\nS = standard deviation for the two groups\n\n\ncombined;\n\ns1, s2 = standard deviation for group 1 and 2,\n\nrespectively, calculated as per 4.2.1.2.1; and\n\nn1, n2 = number of test results in group 1 and 2,\n\nrespectively, where both n1 and n2 shall not be less than 10, and n1+ n2 shall not be less than 30.\n\n\n##### 4.2.1.3 Assumed Standard deviation\n\nWhere sufficient test results for a particular grade of concrete are not available, the value of standard deviation given in Table 2 may be assumed for the proportioning of mix in the first instance. As soon as the results of samples are available, actual calculated standard deviation shall be used and the mix may be proportioned suitably. However, when adequate past records for a similar grade exist and it is justified to adopt a value of\n\n\n\nstandard deviation different from that shown in Table 1.\n\n\nSECTION 2 ORDINARY AND STANDARD\n\nit shall be permissible to use that value.\n\nGRADES OF CONCRETE\n\n\n**Table 1 Value of X**\n(Clause 4.2)\n\n| Sl No. | Grade of Concrete | Value of X |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | M10, M15 | 5.0 |\n| ii) | M20, M25 | 5.5 |\n| iii) | M30, M35, M40, M45, M50, M55, M60 | 6.5 |\n| iv) | M65 and above | 8.0 |",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "4.2.1",
+      "heading": "4.2.1 Standard Deviation",
+      "heading_path": [
+        "4 DATA FOR MIX PROPORTIONING",
+        "4.2 Target Strength for Mix Proportioning",
+        "4.2.1 Standard Deviation"
+      ],
+      "char_start": 9024,
+      "char_end": 11849,
+      "semantic_chunk_length": 2825,
+      "final_chunk_length": 3127,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0006",
+    "text": "missible to use that value.\n\nGRADES OF CONCRETE\n\n\n**Table 1 Value of X**\n(Clause 4.2)\n\n| Sl No. | Grade of Concrete | Value of X |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | M10, M15 | 5.0 |\n| ii) | M20, M25 | 5.5 |\n| iii) | M30, M35, M40, M45, M50, M55, M60 | 6.5 |\n| iv) | M65 and above | 8.0 |\n\n## 5 SELECTION OF MIX PROPORTIONS\n\n### 5.1 Selection of Water-Cement Ratio\n\nDifferent cements, supplementary cementitious materials and aggregates of different maximum size, grading, surface texture, shape and other characteristics may produce concrete of different compressive strength for the same free water-cement ratio. Therefore, the relationship between strength and free water-cement ratio should preferably be established for the materials actually to be used. In the absence of such data, the preliminary free water-cement ratio (by mass) (w/c) corresponding to the compressive strength at 28 days may be selected from the relationship shown in Fig.1, for the expected 28 days strength of cement. The final w/c is arrived at, based on the results of all the trials and any change in strength of cement shall get adjusted in the trials. In case, the actual strength of cement is known, the curve corresponding to the actual strength\n\n\n**Table 2 Assumed Standard Deviation**\n(Clause 4.2.1.3)\n\n| Sl No. | Grade of Concrete | Assumed Standard Deviation N/mm2 |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | M10, M15 | 3.5 |\n| ii) | M20, M25 | 4.0 |\n| iii) | M30, M35, M40, M45, M50, M55, M60 | 5.0 |\n| iv) | M65, M70, M75, M80 | 6.0 |\n\nNOTES\n1 The above values correspond to good degree of site control having proper storage of cement; weigh batching of all materials; controlled addition of water; regular checking of all materials; aggregate grading and moisture content; and regular checking of workability and strength. Where there are deviations from the above, the site control shall be designated as fair and the values given in the above table shall be increased by 1 N/mm2.\n2 For grades M65 and above, the standard deviation may also be established by actual trials based on assumed proportions, before finalizing the mix.\n\nof cement may be used.\n\n5.1.1 The water-cement ratio selected according to 5.1 shall be checked against the limiting water-cement ratio for the requirements of durability and the lower of the two values adopted.\n\nNOTE  In case of water cement ratios on the upper limits of durability clause, it is required that the water content contributed by the admixtures, also be considered in the calculations and the final water cement ratio shall be fixed accordingly.\n\n5.1.2 Where supplementary cementitious materials are used, that is, mineral admixtures, the water cementitious materials ratio (w/cm) shall be calculated, in accordance with Table 5 of IS 456 and this w/cm shall be in accordance with Table 3 and Table 5 of IS 456 or as specified.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "5",
+      "heading": "5 SELECTION OF MIX PROPORTIONS",
+      "heading_path": [
+        "5 SELECTION OF MIX PROPORTIONS"
+      ],
+      "char_start": 11851,
+      "char_end": 14433,
+      "semantic_chunk_length": 2582,
+      "final_chunk_length": 2884,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0007",
+    "text": "fixed accordingly.\n\n5.1.2 Where supplementary cementitious materials are used, that is, mineral admixtures, the water cementitious materials ratio (w/cm) shall be calculated, in accordance with Table 5 of IS 456 and this w/cm shall be in accordance with Table 3 and Table 5 of IS 456 or as specified.\n\n### 5.2 Estimation of Air Content\n\nApproximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is given in Table 3.\n\n**Table 3 Approximate Air Content**\n(Clause 5.2)\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Entrapped Air, as Percentage of Volume of Concrete |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 10 | 1.5 |\n| ii) | 20 | 1.0 |\n| iii) | 40 | 0.8 |\n\n#### 5.2.1 The actual values of air content can also be adopted during mix proportioning, if the site data (at least 5 results) for similar mix is available.\n\n\n\nCurve 1 : for expected 28 days compressive strength of 33 and < 43 N/mm2. Curve 2 : for expected 28 days compressive strength of 43 and < 53 N/mm2. Curve 3 : for expected 28 days compressive strength of 53 N/mm2 and above.\n\n\nNOTES 1 In the absence of data on actual 28 days compressive strength of cement, the curves 1, 2 and 3 may be used for OPC 33, OPC 43 and OPC 53, respectively. 2 While using PPC/PSC, the appropriate curve as per the actual strength may be utilized. In the absence of the actual 28 days compressive strength data, curve 2 may be utilized.\n\nFIG 1. RELATIONSHIP BETWEEN FREE WATER CEMENT RATIO AND 28 DAYS COMPRESSIVE STRENGTHS OF CONCRETE\n\nFOR CEMENTS OF VARIOUS EXPECTED 28 DAYS COMPRESSIVE STRENGTHS",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "5.2",
+      "heading": "5.2 Estimation of Air Content",
+      "heading_path": [
+        "5 SELECTION OF MIX PROPORTIONS",
+        "5.2 Estimation of Air Content"
+      ],
+      "char_start": 14435,
+      "char_end": 15718,
+      "semantic_chunk_length": 1283,
+      "final_chunk_length": 1585,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0008",
+    "text": "curve as per the actual strength may be utilized. In the absence of the actual 28 days compressive strength data, curve 2 may be utilized.\n\nFIG 1. RELATIONSHIP BETWEEN FREE WATER CEMENT RATIO AND 28 DAYS COMPRESSIVE STRENGTHS OF CONCRETE\n\nFOR CEMENTS OF VARIOUS EXPECTED 28 DAYS COMPRESSIVE STRENGTHS\n\n### 5.3 Selection of Water Content and Admixture Content\n\nThe water content of concrete is influenced by a number of factors, such as aggregate size, aggregate shape, aggregate texture, workability, water-cement ratio, cement and other supplementary cementitious materials type and content, chemical admixture and environmental conditions. An increase in aggregates size, a reduction in water-cement ratio and slump, and use of rounded\n\n\naggregate and water reducing admixture will reduce the water demand. On the other hand increased temperature, cement content, slump, water-cement ratio, aggregate angularity and a decrease in the proportion of the coarse aggregate to fine aggregate will increase water demand.\n\nThe quantity of mixing water per unit volume of concrete may be determined from Table 4. The water content in Table 4 is for angular coarse aggregate and for 50 mm slump. The water estimate in Table 4 can be reduced by\n\n\n\n\napproximately 10 kg for sub-angular aggregates, 15 kg for gravel with some crushed particles and 20 kg for rounded gravel to produce same workability. For the desired workability (other than 50 mm slump), the required water content may be increased or decreased by about 3 percent for each increase or decrease of 25 mm slump or may be established by trial. This illustrates the need for trial batch testing of the given materials as each aggregate source is different and can influence concrete properties. The water so calculated can be reduced by use of chemical admixture conforming to IS 9103. Water reducing admixture or super plasticizing admixtures usually decrease water content by 5 to 10 percent and 20 to 30 percent and above respectively at appropriate dosages.\n\nThe requirement of water content and/or chemical admixture content may increase with the addition of high dosages of mineral admixture. The guidelines on selecting appropriate water reducing admixture and its dosages are given in Annex G.\n\n\n**Table 4 Water Content per Cubic Metre of Concrete For Nominal Maximum Size of Aggregate**\n(Clause 5.3)\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Water Content1) kg |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 10 | 208 |\n| ii) | 20 | 186 |\n| iii) | 40 | 165 |\n\n1) Water content corresponding to saturated surface dry aggregate.\n\nNOTES\n1 These quantities of mixing water are for use in computing cement/cementitious materials content for trial batches.\n2 On account of long distances over which concrete needs to be carried from batching plant/RMC plant, the concrete mix is generally designed for a higher slump initially than the slump required at the time of placing. The initial slump value shall depend on the distance of transport and loss of slump with time.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "5.3",
+      "heading": "5.3 Selection of Water Content and Admixture Content",
+      "heading_path": [
+        "5 SELECTION OF MIX PROPORTIONS",
+        "5.3 Selection of Water Content and Admixture Content"
+      ],
+      "char_start": 15721,
+      "char_end": 18455,
+      "semantic_chunk_length": 2734,
+      "final_chunk_length": 3036,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0009",
+    "text": " of long distances over which concrete needs to be carried from batching plant/RMC plant, the concrete mix is generally designed for a higher slump initially than the slump required at the time of placing. The initial slump value shall depend on the distance of transport and loss of slump with time.\n\n### 5.4 Calculation of Cement/Cementitious Materials Content\n\n\n5.4.1 The cement and supplementary cementitious materials content per unit volume of concrete may be calculated from the free water-cement ratio (see 5.1) and the quantity of water per unit volume of concrete.\n\nIn certain situations, while using part replacement of cement by fly ash, ground granulated blast furnace slag (GGBS), silica fume, and other mineral admixtures, increase in cementitious materials content may be warranted, particularly if fly ash is 20 percent or more. The decision on increase in cementitious materials content and its percentage may be based on experience and trials; or the cementitious materials content so calculated may be increased by 10 percent for preliminary trial. The water-cementitious materials ratio shall be recalculated, based on the increased\n\n\nIS 10262 : 2019\n\ncementitious materials content, as per Table 5 of IS 456.\n\nThe cementitious materials content so calculated shall be checked against the minimum content for the requirements of durability as per IS 456 or as specified and greater of the two values may be adopted. The maximum cement content shall be in accordance with IS 456 or as specified.\n\n\n5.4.2  The percentage of fly ash/GGBS to be used has to be decided based on the project requirement and the quality of these materials.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5.4",
+      "heading": "5.4 Calculation of Cement/Cementitious Materials Content",
+      "heading_path": [
+        "5 SELECTION OF MIX PROPORTIONS",
+        "5.4 Calculation of Cement/Cementitious Materials Content"
+      ],
+      "char_start": 18457,
+      "char_end": 19808,
+      "semantic_chunk_length": 1351,
+      "final_chunk_length": 1653,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0010",
+    "text": "ability as per IS 456 or as specified and greater of the two values may be adopted. The maximum cement content shall be in accordance with IS 456 or as specified.\n\n\n5.4.2  The percentage of fly ash/GGBS to be used has to be decided based on the project requirement and the quality of these materials.\n\n### 5.5 Estimation of Coarse Aggregate Proportion\n\n\n5.5.1 Aggregates of essentially the same nominal maximum size, type and grading will produce concrete of satisfactory workability when a given volume of coarse aggregate per unit volume of total aggregate is used. Approximate values for this aggregate volume are given in Table 5 for a water-cement/water- cementitious materials ratio of 0.5, which may be suitably adjusted for other ratios, the proportion of volume of coarse aggregates to that of total aggregates is increased at the rate of 0.01 for every decrease in water-cement/cementitious materials ratio by 0.05 and decreased at the rate of 0.01 for every increase in water- cement ratio by 0.05.\n\nIt can be seen that for equal workability, the volume of coarse aggregate in a unit volume of concrete is dependent only on its nominal maximum size and grading zone of fine aggregate. Differences in the amount of mortar required for workability with different aggregates, due to differences in particle shape and grading, can be adjusted by changing coarse to fine aggregate ratio. Generally higher fine aggregate content is required for crushed angular coarse aggregates due to increased surface area.\n\n\n5.5.2 For more workable concrete mixes which is sometimes required when placement is by pump or when the concrete is required to be worked around congested reinforcing steel, it may be desirable to reduce the estimated coarse aggregate content determined using Table 5 up to 10 percent. However, caution shall be exercised to assure that the resulting slump, water-cement/cementitious materials ratio and strength properties of concrete are consistent with the recommendations of IS 456 and meet project specification requirements as applicable.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5.5",
+      "heading": "5.5 Estimation of Coarse Aggregate Proportion",
+      "heading_path": [
+        "5 SELECTION OF MIX PROPORTIONS",
+        "5.5 Estimation of Coarse Aggregate Proportion"
+      ],
+      "char_start": 19811,
+      "char_end": 21571,
+      "semantic_chunk_length": 1760,
+      "final_chunk_length": 2062,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0011",
+    "text": "etermined using Table 5 up to 10 percent. However, caution shall be exercised to assure that the resulting slump, water-cement/cementitious materials ratio and strength properties of concrete are consistent with the recommendations of IS 456 and meet project specification requirements as applicable.\n\n### 5.6 Combination of Different Coarse Aggregate Fractions\n\nThe coarse aggregate used shall conform to IS 383. Coarse aggregates of different sizes may be combined in suitable proportions so as to result in an overall\n\n\n\n\n**Table 5 Volume of Coarse Aggregate per Unit Volume of Total Aggregate for Different Zones of Fine**\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Zone IV | Zone III | Volume of Coarse Aggregate per Unit Volume of Total Aggregate for Different Zones of Fine Aggregate Zone II | Zone I |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| i) | 10 | 0.54 | 0.52 | 0.50 | 0.48 |\n| ii) | 20 | 0.66 | 0.64 | 0.62 | 0.60 |\n| iii) | 40 | 0.73 | 0.72 | 0.71 | 0.69 |\n\nNOTES\n1 Volumes are based on aggregates in saturated surface dry condition.\n2 These volumes are for crushed (angular) aggregate and suitable adjustments may be made for other shape of aggregate.\n3 Suitable adjustments may also be made for fine aggregate from other than natural sources, normally, crushed sand or mixed sand may need lesser fine aggregate content. In that case, the coarse aggregate volume shall be suitably increased.\n4 It is recommended that fine aggregate conforming to Grading Zone IV, as per IS 383 shall not be used in reinforced concrete unless tests have been made to ascertain the suitability of proposed mix proportions.\n\n\ngrading conforming to Table 7 of IS 383 for particular nominal maximum size of aggregate.\n\n\n### 5.7 Estimation of Fine and Coarse Aggregate Contents\n\nWith the completion of procedure given in 5.4, all the ingredients have been estimated except the coarse and fine aggregate content. These quantities are determined by finding out the absolute volume of cementitious materials, water and the chemical admixture; by dividing their mass by their respective specific gravity, multiplying by 1/1 000 and subtracting the result of their summation from unit volume (excluding the volume of entrapped air). The values so obtained are divided into coarse and fine aggregate fractions by volume in accordance with coarse aggregate proportion already determined in 5.5. The coarse and fine aggregate contents are then determined by multiplying their volume with their respective specific gravities and multiplying by 1 000.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "5.6",
+      "heading": "5.6 Combination of Different Coarse Aggregate Fractions",
+      "heading_path": [
+        "5 SELECTION OF MIX PROPORTIONS",
+        "5.6 Combination of Different Coarse Aggregate Fractions"
+      ],
+      "char_start": 21574,
+      "char_end": 23851,
+      "semantic_chunk_length": 2277,
+      "final_chunk_length": 2579,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0012",
+    "text": " obtained are divided into coarse and fine aggregate fractions by volume in accordance with coarse aggregate proportion already determined in 5.5. The coarse and fine aggregate contents are then determined by multiplying their volume with their respective specific gravities and multiplying by 1 000.\n\n### 5.8 Trial Mixes\n\nThe calculated mix proportions shall be checked by means of trial batches.\n\nWorkability of the trial mix No. 1 shall be measured. The mix shall be carefully observed for freedom from segregation and bleeding and its finishing properties. If the measured workability of Trial Mix No. 1 is different from the stipulated value, the water and/or admixture content shall be adjusted suitably. With this adjustment, the mix proportion shall be recalculated keeping the free water-cement/water-cementitious materials ratio at the pre-selected value, which will comprise Trial Mix No. 2. In additional two more Trial Mixes No. 3 and 4 shall be made with the water content same as Trial mix No. 2 and varying the free water- cement/cementitious materials ratio by about ± 10\n\n\npercent of the pre-selected value, while satisfying the workability requirements as well.\n\nMix No. 2 to 4 normally provides sufficient information, including the relationship between compressive strength and water-cement ratio, from which the mix proportions can be finalized, such that the strength and durability requirements are also satisfied. Additional field trials are recommended particularly for workability requirements. The concrete for field trials shall be produced by methods of actual concrete production.\n\n\n#### 5.8.1 Reporting\n\nThe mix design report shall include the following:\n\n- a) Period of testing (starting and ending date); b) Details of work/type of structure, if provided; c) All the data provided for the mix design as per 4.1, and deviations from IS 456, if any; d) Relevant test data of different materials for the purpose of mix proportioning; e) Details of materials such as brand of cement, manufacturing date (week/year) percentage of pozzolana/slag, etc, as per manufacturers certificate; source of coarse and fine aggregates (if provided), etc; f) Details of the trials conducted; and g) Recommended mix proportions.\n\n### 5.9 Illustrative Examples\n\nAn illustrative example of concrete mix proportioning is given in Annex A. Another illustrative example of mix proportioning of concrete using fly ash and using slag is given in Annex B and Annex C, respectively. These examples are merely illustrative to explain the procedure and the actual mix proportioning shall be based on trial batches with the given materials.\n\n\n\n\nSECTION 3 HIGH STRENGTH GRADES OF\n\nCONCRETE",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "5.8",
+      "heading": "5.8 Trial Mixes",
+      "heading_path": [
+        "5 SELECTION OF MIX PROPORTIONS",
+        "5.8 Trial Mixes"
+      ],
+      "char_start": 23854,
+      "char_end": 26242,
+      "semantic_chunk_length": 2388,
+      "final_chunk_length": 2690,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0013",
+    "text": "ortioning of concrete using fly ash and using slag is given in Annex B and Annex C, respectively. These examples are merely illustrative to explain the procedure and the actual mix proportioning shall be based on trial batches with the given materials.\n\n\n\n\nSECTION 3 HIGH STRENGTH GRADES OF\n\nCONCRETE\n\n## 6 HIGH STRENGTH CONCRETE (GRADE M 65 AND ABOVE)\n\nHigh strength concrete is the concrete that has characteristic compressive strength of 65 N/mm2 or more. This section provides the guidance for selecting mix proportion for M65 or above.\n\n\nUsually, for high strength concrete mixes specially selected cementitious materials and chemical admixtures, that is, super plasticizers are used, and achieving a low water–cementitious materials ratio (w/ cm) is considered essential.\n\nThe procedure for proportioning high strength concrete is similar to that required for ordinary/standard strength concrete. The procedure consists of series of steps that, when completed, provide a mixture meeting workability, strength and durability requirements based on the combined properties of the individually selected and proportioned ingredients.\n\n\n### 6.1 Materials\n\nMaterials shall be selected, proportioned and controlled carefully to achieve effective production of high strength concrete. To achieve high strength concrete optimum proportions shall be selected, considering the cement and other cementitious materials properties, aggregate quality, aggregate gradation, paste volume, admixture type and dosage and mixing.\n\n\n#### 6.1.1 Cementitious Materials\n\nProper selection of type of cement is very important step for the production of high strength concrete. Fly ash, silica fume, ground granulated blast furnace slag (GGBS) or metakaoline are widely used as cementitious and pozzolanic ingredients in high strength concrete.\n\n\n#### 6.1.2 Coarse Aggregate\n\nIn the proportioning of high strength concrete, the aggregates require special consideration and they greatly influence the strength and other properties of concrete. Therefore, the coarse aggregate shall be strong, sufficiently sound, free of fissures or weak planes, clean and free of surface coating and shall meet the requirement of IS 383. Generally crushed stone aggregates with impact/crushing value not greater than 22 percent and combined flakiness and elongation index not more than 30 percent have been found suitable for high strength concrete.\n\n\n#### 6.1.3  Fine Aggregate\n\nThe fine aggregate shall meet the requirements of\n\n\nIS 10262 : 2019\n\nIS 383. Generally, for high strength, a fine aggregate of coarser size is preferred (Zone I or Zone II), due to availability of high fines content from the cementitious materials.\n\n\n#### 6.1.4  Chemical Admixtures\n\nHigh strength concrete mixes usually have a low water- cementitious materials ratio (w/cm). These low w/cm ratios are generally only attainable with high-range water-reducing admixtures (HRWRA). PCE type (Poly carboxylate ether based) super plasticisers which reduce water content by 30 percent or above at appropriate dosages, maybe used.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "6",
+      "heading": "6 HIGH STRENGTH CONCRETE (GRADE M 65 AND ABOVE)",
+      "heading_path": [
+        "6 HIGH STRENGTH CONCRETE (GRADE M 65 AND ABOVE)"
+      ],
+      "char_start": 26245,
+      "char_end": 29007,
+      "semantic_chunk_length": 2762,
+      "final_chunk_length": 3064,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0014",
+    "text": "ve a low water- cementitious materials ratio (w/cm). These low w/cm ratios are generally only attainable with high-range water-reducing admixtures (HRWRA). PCE type (Poly carboxylate ether based) super plasticisers which reduce water content by 30 percent or above at appropriate dosages, maybe used.\n\n### 6.2 Concrete Mix Proportioning\n\n\n#### 6.2.1 Target Strength for Mix Proportioning\n\nSee 4.2.\n\n\n#### 6.2.2 Selection of Maximum Size of Aggregate\n\nBased on the strength requirement, the maximum size of aggregates is generally restricted to 20 mm; however, for grades M80 and above, aggregates of maximum size 10.0 mm to 12.5 mm may be preferable.\n\n\n#### 6.2.3  Estimation of Air Content\n\nApproximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is given in Table 6.\n\n\n**Table 6 Approximate Air Content**\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Entrapped Air, as Percentage of Volume of Concrete |\n| --- | --- | --- |\n| (1) | (1) | (1) |\n| i) | 10.0 | 1.0 |\n| ii) | 12.5 | 0.8 |\n| iii) | 20.0 | 0.5 |\n\n\n#### 6.2.3.1 The actual values of air content can also be adopted during mix proportioning if, the site data (at least 5 results) for similar mix is available.\n\n\n#### 6.2.4 Selection of Water Content and Admixture Content\n\nThe quantity of water required to produce a given workability is influenced by many factors, including the maximum size, particle shape and grading of the aggregate. The demand of water content is also influenced by the quantity of cement, pozzolanic material and the type of chemical admixture used. PCE type (Polycarboxylate ether based) super plasticisers which reduce water content by 30 percent or above at appropriate dosages, maybe used.\n\nHowever, trial batching is the most effective way to determine the best proportions for the ingredients to be used. Table 7 gives estimates of water content for\n\n\n\nhigh strength concrete without chemical admixtures. The given water content is for 50 mm slump. For the desired workability (other than 50 mm slump), the required water content may be increased or decreased by about 3 percent for each increase or decrease of 25 mm slump or may be established by trial. These quantities of mixing water are maximum for well- shaped, clean, angular and well graded coarse aggregate. Since the particle shape and surface texture of fine aggregate can significantly influence the mixing water demand, the water requirement may be different from the values given in Table 7 and shall be established by trials. The water so calculated shall be reduced by use of high range water reducing admixtures conforming to IS 9103.\n\nThe requirement of water content and/or chemical admixture content may increase with the addition of high dosages of mineral admixture. The guidelines on selecting appropriate water reducing admixture and its dosages are given in Annex G.\n\nNOTE — In case of water-cement ratios on the upper limits of durability clause it is required that the water content contributed by the admixtures shall also be considered in the calculations and the final water-cement ratio shall be fixed accordingly.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "6.2",
+      "heading": "6.2 Concrete Mix Proportioning",
+      "heading_path": [
+        "6 HIGH STRENGTH CONCRETE (GRADE M 65 AND ABOVE)",
+        "6.2 Concrete Mix Proportioning"
+      ],
+      "char_start": 29010,
+      "char_end": 31834,
+      "semantic_chunk_length": 2824,
+      "final_chunk_length": 3126,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0015",
+    "text": "dmixture and its dosages are given in Annex G.\n\nNOTE — In case of water-cement ratios on the upper limits of durability clause it is required that the water content contributed by the admixtures shall also be considered in the calculations and the final water-cement ratio shall be fixed accordingly.\n\n#### 6.2.5  Selection of Water-Cementitious Materials Ratio (w/cm)\n\nThe recommended values for w/cm for high strength concrete made with silica fume and HRWRA as a function of maximum size aggregates to achieve different target compressive strength at 28 days, is given in Table 8. In case, other cementitious materials such as fly ash, ggbs are also used, the cementitious material content shall be suitably increased and the water- cementitious material ratio shall be recalculated based on the total cementitious material used.\n\n\n#### 6.2.6 Calculation of Cementitious Material Content\n\nThe cement and supplementary cementitious material content per unit volume of concrete may be calculated from the quantity of water (see 6.2.4) and the free water-\n\ncementitious materials ratio (see 6.2.5) per unit volume of concrete. However, this must satisfy the specification of maximum or minimum limit on the amount of cementitious material as per IS 456.\n\nIf cement content (not including any mineral admixtures) more than the maximum cement content as given in IS 456 is to be used, it shall be ensured that the special consideration has been given in design to the increased risk of cracking due to drying shrinkage, or to early thermal cracking and to the increased risk of damage due to alkali silica reaction.\n\nThe recommended dosages of different mineral admixtures materials for high strength mixes are given in Table 9.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "6.2.5",
+      "heading": "6.2.5 Selection of Water-Cementitious Materials Ratio (w/cm)",
+      "heading_path": [
+        "6 HIGH STRENGTH CONCRETE (GRADE M 65 AND ABOVE)",
+        "6.2 Concrete Mix Proportioning",
+        "6.2.5 Selection of Water-Cementitious Materials Ratio (w/cm)"
+      ],
+      "char_start": 31837,
+      "char_end": 33261,
+      "semantic_chunk_length": 1424,
+      "final_chunk_length": 1726,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0016",
+    "text": "eration has been given in design to the increased risk of cracking due to drying shrinkage, or to early thermal cracking and to the increased risk of damage due to alkali silica reaction.\n\nThe recommended dosages of different mineral admixtures materials for high strength mixes are given in Table 9.\n\n#### 6.2.7 Estimation of Coarse Aggregate Proportion\n\nThe optimum content of the coarse aggregate depends on its strength and maximum nominal size of coarse aggregate. For proportioning of ordinary and standard grades of concrete, the optimum volume of coarse aggregate is given as a function of the maximum size of coarse aggregate and grading zone of fine aggregate. However, high strength grades of concrete are not dependent on the fine aggregate to provide fines for lubrication and consolidation of the fresh concrete as the mixes have high content of cementitious material. The recommended coarse aggregate volume per unit volume of total aggregate for different zones of fine aggregate is given in Table 10.\n\nFor more workable concrete mixes which is sometimes required when placement is by pump or when the concrete is required to be worked around congested reinforcing steel, it may be desirable to reduce the estimated coarse aggregate content determined using Table10 up to 5 percent. However, caution shall be exercised to assure that the resulting slump, water- cement ratio and strength properties of concrete are consistent with the recommendations of IS 456 and meet project specification requirements as applicable\n\n\n**Table 7 Water Content per Cubic Metre of Concrete for Nominal Maximum Sizes of Aggregate**\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Maximum Water Content (see Note 1) kg/m3 |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 10.0 | 200 |\n| ii) | 12.5 | 195 |\n| iii) | 20.0 | 186 |\n\n1 Water content corresponding to saturated surface dry aggregate.\n\nNOTES\n2 These quantities of mixing water are for use in computing cement/cementitious material content for trial batches.\n3 On account of long distances over which concrete needs to be carried from batching plant/RMC plant, the concrete mix is generally designed for a higher slump initially than the slump required at the time of placing. The initial slump value shall depend on the distance of transport and loss of slump with time. Accordingly the adjustment for water content/admixture dosage shall be made for the higher initial slump value.\n\n\n\n\n\n\n**Table 8 Recommended w/cm for High Strength Concrete made with HRWRA**\n\n| Sl No. | Target Compressive Strength at 28 Days N/mm2 |  | Water–Cementitious Materials Ratio |  |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n| i) | 70 | 0.36 | 0.35 | 0.33 |\n| ii) | 75 | 0.34 | 0.33 | 0.31 |\n| iii) | 80 | 0.32 | 0.31 | 0.29 |\n| iv) | 85 | 0.30 | 0.29 | 0.27 |\n| v) | 90 | 0.28 | 0.27 | 0.26 |\n| vi) | 100 | 0.26 | 0.25 | 0.24 |\n\n*NOTE — The recommended w/cm are for 28 days cement strength 53 MPa and above; for cement of other strength values, suitable adjustments may be made by reducing the w/cm.*",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "6.2.7",
+      "heading": "6.2.7 Estimation of Coarse Aggregate Proportion",
+      "heading_path": [
+        "6 HIGH STRENGTH CONCRETE (GRADE M 65 AND ABOVE)",
+        "6.2 Concrete Mix Proportioning",
+        "6.2.7 Estimation of Coarse Aggregate Proportion"
+      ],
+      "char_start": 33264,
+      "char_end": 36024,
+      "semantic_chunk_length": 2760,
+      "final_chunk_length": 3062,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0017",
+    "text": "80 | 0.32 | 0.31 | 0.29 |\n| iv) | 85 | 0.30 | 0.29 | 0.27 |\n| v) | 90 | 0.28 | 0.27 | 0.26 |\n| vi) | 100 | 0.26 | 0.25 | 0.24 |\n\n*NOTE — The recommended w/cm are for 28 days cement strength 53 MPa and above; for cement of other strength values, suitable adjustments may be made by reducing the w/cm.*\n\n#### 6.2.8 Estimation of Fine and Coarse Aggregate Contents\n\nWith the completion of procedure given in 6.2.4, 6.2.5 and 6.2.6, all the ingredients would have been estimated except the coarse and fine aggregate content. These quantities are determined by finding out the absolute volume of cementitious material, water and the chemical admixture; by dividing their mass by their respective specific gravity, multiplying by 1/1 000 and subtracting the result of their summation from unit volume excluding the volume of entrapped air. The values so obtained are divided into coarse and fine aggregate fractions by volume in accordance with coarse aggregate proportion already determined in 6.2.7. The coarse and fine aggregate contents are then determined by multiplying their volume with their respective specific gravities and multiplying by 1 000.\n\n\n#### 6.2.9 Trial Mixes\n\nThe calculated mix proportions shall be checked by means of trial batches.\n\nWorkability of the trial mix No. 1 shall be measured. The mix shall be carefully observed for freedom from segregation and bleeding and its finishing properties. If the measured workability of Trial Mix No. 1 is different from the stipulated value, the water and/or admixture content shall be adjusted suitably. With this adjustment, the mix proportion shall be recalculated keeping the free water-cement ratio at the pre-selected value, which will comprise Trial Mix No. 2. In\n\nadditional two more Trial Mixes No. 3 and 4 shall be made with the water content same as Trial mix No. 2 and varying the free water-cement/cementitious materials ratio by ±10 percent of the preselected value, while satisfying the workability requirements as well.\n\nMix No. 2 to 4 normally provides sufficient information, including the relationship between compressive strength and water-cementitious materials ratio, from which the mix proportions can be finalized. Additional field trials are recommended particularly for workability requirements. The concrete for field trials shall be produced by methods of actual concrete production.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "6.2.8",
+      "heading": "6.2.8 Estimation of Fine and Coarse Aggregate Contents",
+      "heading_path": [
+        "6 HIGH STRENGTH CONCRETE (GRADE M 65 AND ABOVE)",
+        "6.2 Concrete Mix Proportioning",
+        "6.2.8 Estimation of Fine and Coarse Aggregate Contents"
+      ],
+      "char_start": 36027,
+      "char_end": 38095,
+      "semantic_chunk_length": 2068,
+      "final_chunk_length": 2370,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0018",
+    "text": "ationship between compressive strength and water-cementitious materials ratio, from which the mix proportions can be finalized. Additional field trials are recommended particularly for workability requirements. The concrete for field trials shall be produced by methods of actual concrete production.\n\n#### 6.2.10 Reporting\n\nThe mix design report shall include the following:\n\n- a) Period of testing (starting and ending date); b) Details of work/type of structure, if provided; c) All the data provided for the mix design as per 4.1, and deviations from IS 456, if any; d) Relevant test data of different materials for the purpose of mix proportioning; e) Details of materials such as brand of cement, manufacturing date (week/year) percentage of pozzolana/slag, etc, as per manufacturers certificate; source of coarse and fine aggregates (if provided), etc; f) Details of the trials conducted; and g) Recommended mix proportions.\n\n**Table 9 Recommended Dosages of Mineral Admixtures Materials for High Strength Mixes**\n\n| Sl No. | Mineral Admixtures | Recommended Dosages, Percentage by Mass of Total Cementitious Materials |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) Fly ash |  | 15 - 30 |\n| ii) | Ground granulated blast furnace slag | 25 - 50 |\n| iii) Metakaoline |  | 5 - 15 |\n| iv) Silica fume |  | 5 - 10 |\n\n\n\n\n\n\n**Table 10 Volume of Coarse Aggregate per Unit Volume of Total Aggregate for Different Zones of Fine**\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Zone III | Volume of Coarse Aggregate per Unit Volume of Total Aggregate for Different Zones of Fine Aggregate Zone II | Zone I |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n| i) | 10.0 | 0.56 | 0.54 | 0.52 |\n| ii) | 12.5 | 0.58 | 0.56 | 0.54 |\n| iii) | 20.0 | 0.68 | 0.66 | 0.64 |\n\n*NOTES 1 Volumes are based on aggregates in saturated surface dry condition. 2 These volumes are for crushed (angular) coarse aggregate and suitable adjustments may be made for other shape of aggregate. 3 Suitable adjustments may also be made for fine aggregate from other than natural sources, normally, crushed sand or mixed sand having higher fine content (passing 150 micron sieve), which may need lesser fine aggregate content. In that case, the coarse aggregate volume may be suitably increased.*\n\n\n### 6.3 Illustrative Examples\n\nAn illustrative example of concrete mix proportioning for high strength concrete is given in Annex D. These examples are merely illustrative to explain the procedure and the actual mix proportioning shall be based on trial batches with the given materials.\n\n\nSECTION 4 SELF COMPACTING CONCRETE",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "6.2.10",
+      "heading": "6.2.10 Reporting",
+      "heading_path": [
+        "6 HIGH STRENGTH CONCRETE (GRADE M 65 AND ABOVE)",
+        "6.2 Concrete Mix Proportioning",
+        "6.2.10 Reporting"
+      ],
+      "char_start": 38098,
+      "char_end": 40406,
+      "semantic_chunk_length": 2308,
+      "final_chunk_length": 2610,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0019",
+    "text": "mples\n\nAn illustrative example of concrete mix proportioning for high strength concrete is given in Annex D. These examples are merely illustrative to explain the procedure and the actual mix proportioning shall be based on trial batches with the given materials.\n\n\nSECTION 4 SELF COMPACTING CONCRETE\n\n## 7 GENERAL\n\nSelf compacting concrete (SCC) is highly flowable, non-segregating concrete that fills uniformly and completely every corner of formwork by its own weight and encapsulate reinforcement without any vibration, whilst maintaining homogeneity.\n\n\n### 7.1 Application Area\n\nSelf compacting concrete (SCC) may be used in precast concrete applications or for concrete placed on site. SCC is used to cast sections with highly congested reinforcement and in areas that present restricted access to placement and consolidation, including the construction of tunnel lining sections and the casting of hybrid concrete- filled steel tubular columns. It may be manufactured in a site batching plant or in a ready-mixed concrete plant and delivered to site by truck mixer. It may be placed either by pumping or pouring into horizontal or vertical forms.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "7",
+      "heading": "7 GENERAL",
+      "heading_path": [
+        "7 GENERAL"
+      ],
+      "char_start": 40409,
+      "char_end": 41260,
+      "semantic_chunk_length": 851,
+      "final_chunk_length": 1153,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0020",
+    "text": "uction of tunnel lining sections and the casting of hybrid concrete- filled steel tubular columns. It may be manufactured in a site batching plant or in a ready-mixed concrete plant and delivered to site by truck mixer. It may be placed either by pumping or pouring into horizontal or vertical forms.\n\n### 7.2 Features of Fresh Self Compacting Concrete\n\nA concrete mix can only be classified as self- compacting concrete, if the requirements for all below mentioned characteristics are fulfilled:\n\n- a) Filling ability (Flowability), b) Passing ability, c) Segregation resistance, and d) Viscosity\nThe above tests shall be carried out as per IS 1199 (Part 6).\n\n\n\n#### 7.2.1 Filling Ability (flowability)\n\nThis is the ability of fresh concrete to flow into and fill all spaces within the formwork, under its own weight. Slump-flow test is performed to test the flowability. Slump-flow value describes the flowablity of a fresh mix in unconfined condition. Visual observation during the test can provide additional information on the segregation resistance and uniformity.\n\nThe following are typical slump-flow classes for a range of applications:\n\n- a) SF1 (slump flow 550 mm - 650 mm). This class of SCC is appropriate for:\n- 1) Unreinforced or lightly reinforced concrete structures that are cast from the top with free displacement from the delivery point (for example, housing slabs). 2) Casting by a pump injection system (for example, tunnel linings). 3) Sections that are small enough to prevent long horizontal flow (for example, piles and some deep foundations). b) SF2 (slump flow 660 mm - 750 mm) is suitable for normal applications (for example, walls, columns). c) SF3 (slump flow 760 mm — 850 mm) is used for vertical applications in heavily reinforced structures, structures with complex shapes, or for filling under formwork. SF3 will often give better surface finish than SF2 for normal vertical applications but segregation resistance is more difficult to control.\n\n#### 7.2.2 Passing Ability (Free from Blocking at Reinforcement)\n\nPassing ability describes the capacity of the fresh mix to flow through confined spaces and narrow openings such as areas of congested reinforcement without segregation. If\n\n\n\n\nthere is little or no reinforcement, there may be no need to specify passing ability as a requirement. L-box test is performed to check the passing ability. The minimum ratio of the depth of the concrete in the horizontal section relative to the depth of concrete vertical section is considered to be 0.8. If the SCC flows as freely as water, it will be completely horizontal, and the ratio will be equal to 1.0.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "7.2",
+      "heading": "7.2 Features of Fresh Self Compacting Concrete",
+      "heading_path": [
+        "7 GENERAL",
+        "7.2 Features of Fresh Self Compacting Concrete"
+      ],
+      "char_start": 41263,
+      "char_end": 43599,
+      "semantic_chunk_length": 2336,
+      "final_chunk_length": 2638,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0021",
+    "text": "t is performed to check the passing ability. The minimum ratio of the depth of the concrete in the horizontal section relative to the depth of concrete vertical section is considered to be 0.8. If the SCC flows as freely as water, it will be completely horizontal, and the ratio will be equal to 1.0.\n\n#### 7.2.3 Segregation Resistance (Stability)\n\nThis is the ability of fresh concrete to remain homogeneous in composition while in its fresh state. Segregation resistance (sieve) test is performed to check this property of fresh concrete.\n\nAfter sampling, the fresh concrete is allowed to stand for 15 min and any separation of bleed water is noted. The top part of the sample is then poured into a sieve with 4.75 mm square apertures. After 2 min, the weight of material which has passed through the sieve is recorded. The segregation ratio (SR) is then calculated as the proportion of the sample passing through the sieve.\n\nThere are two classes of segregation resistance, namely SR1 and SR2. SR1 is generally applicable for thin slabs and for vertical applications with a flow distance of less than 5 m and a confinement gap greater than 80 mm. SR2 is preferred in vertical applications if the flow distance is more than 5 m with a confinement gap greater than 80 mm in order to take care of segregation during flow. For SR1 class segregation resistance shall be 15 to 20 percent and for SR2 it shall be less than 15 percent. SR2 may also be used for tall vertical applications with a confinement gap of less than 80 mm if the flow distance is less than 5 m, but if the flow is more than 5 m, a target SR value of less than 10 percent is recommended. Segregation resistance becomes an important parameter with higher slump-flow classes and/or the lower viscosity classes, or if placing conditions promotes segregation. If none of these apply, it is usually not necessary to specify a segregation resistance class.\n\n\n#### 7.2.4 Viscosity\n\nViscosity can be assessed by the V-funnel flow time as per IS 1199 (Part 6). Concrete with a low viscosity will have a very quick initial flow and then stop. Concrete with a high viscosity may continue to creep forward over an extended time.\n\nA V-shaped funnel is filled with fresh concrete and the time taken for the concrete to flow out of the funnel is measured and recorded as the V-funnel flow time. The viscosity is divided into two classes, that is, V1 and V2. V1 has good filling ability even with congested reinforcement. It is capable of self-leveling and generally has the best surface finish. V2 class viscosity is more likely to exhibit thixotropic effects, which may be helpful in limiting the formwork pressure or improving segregation resistance. But it may cause\n\n\nIS 10262 : 2019\n\nnegative effects on surface finish and sensitivity to stoppages or delays between successive lifts.\n\nFor V1 class, the time taken to pass the concrete from V-funnel shall be  8 s and for V2 class the time taken to pass the concrete from V-funnel shall be between 8 s and 25 s.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "7.2.3",
+      "heading": "7.2.3 Segregation Resistance (Stability)",
+      "heading_path": [
+        "7 GENERAL",
+        "7.2 Features of Fresh Self Compacting Concrete",
+        "7.2.3 Segregation Resistance (Stability)"
+      ],
+      "char_start": 43602,
+      "char_end": 46319,
+      "semantic_chunk_length": 2717,
+      "final_chunk_length": 3019,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0022",
+    "text": "use\n\n\nIS 10262 : 2019\n\nnegative effects on surface finish and sensitivity to stoppages or delays between successive lifts.\n\nFor V1 class, the time taken to pass the concrete from V-funnel shall be  8 s and for V2 class the time taken to pass the concrete from V-funnel shall be between 8 s and 25 s.\n\n## 8 MIX PROPORTIONING\n\n\n### 8.1 Mix Proportioning Principles\n\n- a) Lower coarse aggregate content, b) Increased paste content, c) Low water/powder ratio (see Note), d) Increased superplasticiser, and e) Sometimes a viscosity modifying admixture.\nNOTE — Powder refers to materials of particle size smaller than 0.125 mm. It includes this size fraction from cement, mineral admixtures and aggregate. Water/powder ratio shall be 0.85 to 1.10 by volume.\n\n\n### 8.2 Mix Proportioning Approach\n\nLaboratory trials shall be used to verify properties of the initial mix composition with respect to the specified characteristics and classes. If necessary, adjustments to the mix composition shall then be made. Once all requirements are fulfilled, the mix shall be tested at full scale in the concrete plant and if necessary, at site to verify both the fresh and hardened properties.\n\nThe mix design is generally based on the approach outlined below:\n\n- a) Determine the target average compressive strength. b) Select the air content based on the specified nominal maximum size of aggregate and concrete grade. c) Select water-cement/cementitious materials ratio. d) Select the proportions for initial mix. e) Select water content and cement/fly ash(or other supplementary cementitious material) content. f) Select admixture content. g) Select powder content and fine aggregate content. h) Select coarse aggregate content. j) Calculate volume of powder content and determine water powder ratio by volume, and make adjustments, if required. k) Work out the mix proportions for trial 1. m) Produce the fresh SCC in the laboratory mixer,\nperform the required tests as per 7.2, and make adjustments. n) Test the properties of the SCC in the hardened state. p) Produce trial mixes in the plant mixer.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "8",
+      "heading": "8 MIX PROPORTIONING",
+      "heading_path": [
+        "8 MIX PROPORTIONING"
+      ],
+      "char_start": 46322,
+      "char_end": 48107,
+      "semantic_chunk_length": 1785,
+      "final_chunk_length": 2087,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0023",
+    "text": "y volume, and make adjustments, if required. k) Work out the mix proportions for trial 1. m) Produce the fresh SCC in the laboratory mixer,\nperform the required tests as per 7.2, and make adjustments. n) Test the properties of the SCC in the hardened state. p) Produce trial mixes in the plant mixer.\n\n### 8.3 Typical Ranges of Mix Constituents\n\n- a) Sufficient amount of fines (< 0.125 mm) preferably in the range of 400 kg/m3 to 600 kg/m3, inclusive of suitable quantities of fine aggregate and mineral admixtures like fly ash in suitable proportions, may be used for flowability while ensuring compliance with engineering properties particularly shrinkage. Fine aggregate content, typically, 48 to 60 percent by mass of the total aggregate, balances the volume of the other constituents. b) Water content between 150 to 210 kg/m3. c) Use of high range water reducing admixture like polycarboxylate ether based high range water reducing admixture (water reduction > 30 percent) and sometimes also using a viscosity modifying admixture (VMA) in appropriate dosages.\nIn the event that satisfactory performance is not obtained, consideration shall be given to a fundamental redesign of the mix. Depending on the apparent problem, the following courses of action might be appropriate:\n\n- 1) Adjust the water/powder ratio and test the flow and other properties of the paste. 2) Try different types of additions (if available). 3) Adjust the proportions of the fine aggregate and the dosage of superplasticiser. 4) Consider using a viscosity modifying agent to reduce sensitivity of the mix. 5) Adjust the proportion or grading of the coarse aggregate.\n\n#### 8.3.1 Reporting\n\nThe mix design report shall include the following:\n\n- a) Period of testing (starting and ending date); b) Details of work/type of structure, if provided; c) All the data provided for the mix design as per 4.1, and deviations from IS 456, if any; d) Relevant test data of different materials for the purpose of mix proportioning; e) Details of materials such as brand of cement, manufacturing date (week/year) percentage of pozzolana/slag, etc, as per manufacturers certificate; source of coarse and fine aggregates (if provided), etc; f) Details of the trials conducted; and g) Recommended mix proportions.\n\n### 8.4 Illustrative Example\n\nAn illustrative example of concrete mix proportioning\n\nfor self compacting concrete is given in Annex E. This example is merely illustrative and explains the procedure to be adopted for self compacting concrete. The actual mix proportioning shall be based on various trials with the given materials\n\n\nSECTION 5 MASS CONCRETE",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "8.3",
+      "heading": "8.3 Typical Ranges of Mix Constituents",
+      "heading_path": [
+        "8 MIX PROPORTIONING",
+        "8.3 Typical Ranges of Mix Constituents"
+      ],
+      "char_start": 48112,
+      "char_end": 50444,
+      "semantic_chunk_length": 2332,
+      "final_chunk_length": 2634,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0024",
+    "text": "of concrete mix proportioning\n\nfor self compacting concrete is given in Annex E. This example is merely illustrative and explains the procedure to be adopted for self compacting concrete. The actual mix proportioning shall be based on various trials with the given materials\n\n\nSECTION 5 MASS CONCRETE\n\n## 9 GENERAL\n\nMass concreting is used for structures like dams and other massive structures. For such large structures, measures need to be taken to cope with the generation of heat from hydration of cement and attendant volume change to minimize cracking.\n\nThe primary objective of proportioning for mass concrete is to establish economical mixes of proper strength, durability and permeability with the best combination of available materials that will provide adequate workability, easy placeability and least temperature rise after placement.\n\nIn mass concrete structures, generally lower grade of concrete (say M 15 or M 20) and higher sizes of coarse aggregates [maximum nominal size of aggregate (msa) 40 mm, msa 80 mm and msa 150 mm] are used. In certain cases, like thick raft foundation, retaining wall, etc, mass concreting may be of higher grade of concrete.\n\nWhen a mineral admixture is included in the concrete as a part of the cementitious material, the mix proportioning remains the same. Attention shall be given to the following:\n\n- a) The water requirement may change, b) Early age strength may become critical, and c) For maximum economy, the age at which design strength is attained should be greater.\n\n### 9.1 Data for Mix Proportioning\n\nIn addition to the data requirements mentioned in 4.1, the following additional data are required for mix proportioning for mass concrete:\n\n- a) Expected maximum placing temperature. b) Air content range in case of air entrained concrete. c) Test ages for strength.\n\n### 9.2 Target Strength for Mix Proportioning\n\nThe target strength calculated as per 4.2 shall be increased by 20 percent for 80 mm msa, and by 25 percent for 150 mm msa. This is to account for higher strength achieved after wet sieving the concrete through 40 mm sieve for making 150 mm cubes for strength testing. This increase in target strength due to wet sieving effect is only for cube test results and not to be considered for selection of water cement ratio.\n\n\n\n\n\nIn case, any other relationship is established at site, the same may also be adopted in place of 20 and 25 percent.\n\n\n### 9.3 Estimation of Air Content\n\nApproximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is given in Table 11.\n\n\n**Table 11 Approximate Air Content**\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Entrapped Air, as Percentage of Volume of Concrete |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 40 | 0.8 |\n| ii) | 80 | 0.3 |\n| iii) | 150 | 0.2 |\n\n#### 9.3.1 The actual values of air content can also be adopted during mix proportioning if, the site data (at least 5 results) for similar mix is available.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "9",
+      "heading": "9 GENERAL",
+      "heading_path": [
+        "9 GENERAL"
+      ],
+      "char_start": 50447,
+      "char_end": 53110,
+      "semantic_chunk_length": 2663,
+      "final_chunk_length": 2965,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0025",
+    "text": " Air, as Percentage of Volume of Concrete |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 40 | 0.8 |\n| ii) | 80 | 0.3 |\n| iii) | 150 | 0.2 |\n\n#### 9.3.1 The actual values of air content can also be adopted during mix proportioning if, the site data (at least 5 results) for similar mix is available.\n\n### 9.4 Selection of Water Content and Admixture Content\n\nThe water content of concrete is influenced by a number of factors, such as aggregate size, aggregate shape, aggregate texture, workability, water-cement ratio, cement and other supplementary cementitious materials (type and content), chemical admixture and environmental conditions. An increase in aggregates size, a reduction in water-cement ratio and slumps, and use of rounded aggregate and water reducing admixture will reduce the water demand. On the other hand increased temperature, cement content, slump, water- cement ratio, aggregate angularity and a decrease in the proportion of the coarse aggregate to fine aggregate will increase water demand.\n\nThe quantity of mixing water per unit volume of concrete may be determined from Table 12. The water content in Table 12 is for angular coarse aggregate and for 50 mm slump. The water estimate in Table 12 can be reduced by approximately 20 kg for rounded gravel of 40 mm msa, 15 kg for rounded gravel of 80 mm msa and 10 kg for 150 mm msa, to produce same workability. For the desired workability (other than 50 mm slump), the required water content may be increased or decreased by about 3 percent for each increase or decrease of 25 mm slump or may be established by trial. This illustrates the need for trial batch testing of the given materials as each aggregate source is different and can influence concrete properties. The water so calculated can be reduced by use of chemical admixture conforming to IS 9103. Water reducing admixture or plasticizing admixtures have been found effective in mass concrete mixes, and usually decrease water content by 5 to 10 percent at appropriate dosages.\n\n\nIS 10262 : 2019\n\nAir entrainment in mass concrete (for 150 mm msa and 80 mm msa) is considered useful for various reasons. Air entrainment in mass concrete permits a marked improvement in durability (particularly under freezing and thawing conditions), improvement in plasticity and workability and reduction in segregation and bleeding. The effect of air entrainment on the strength of mass concrete shall be considered in the design of mass concrete itself; that is, the reduction in strength, shall be compensated in the mix trials. Generally, 3 to 4 percent air content is recommended for 150 mm msa and 3.5 to 4.5 percent air content is recommended for 80 mm msa. The air content when determined on mixtures passing through 40 mm sieve shall be higher by 1.5 to 2 percent than the values indicated above.\n\n\n**Table 12 Water Content per Cubic Metre of Concrete for Nominal Maximum Size of Aggregate**\n(Clause 9.4)\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Water Content(1) kg |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 40 | 165 |\n| ii) | 80 | 145 |\n| iii) | 150 | 125 |\n\n1) Water content corresponding to saturated surface dry aggregate.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "9.4",
+      "heading": "9.4 Selection of Water Content and Admixture Content",
+      "heading_path": [
+        "9 GENERAL",
+        "9.4 Selection of Water Content and Admixture Content"
+      ],
+      "char_start": 53113,
+      "char_end": 55985,
+      "semantic_chunk_length": 2872,
+      "final_chunk_length": 3174,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0026",
+    "text": "Concrete for Nominal Maximum Size of Aggregate**\n(Clause 9.4)\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Water Content(1) kg |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 40 | 165 |\n| ii) | 80 | 145 |\n| iii) | 150 | 125 |\n\n1) Water content corresponding to saturated surface dry aggregate.\n\nNOTES\n1 The recommended values of water content for different msa of aggregates are for non-air-entrained concrete. The values will be decreased by 8 kg in case of air-entrained concrete.\n2 These quantities of mixing water are for use in computing cement/cementitious materials content for trial batches.\n3 On account of long distances over which concrete needs to be carried from batching plant/RMC plant, the concrete mix is generally designed for a higher slump initially than the slump required at the time of placing. The initial slump value shall depend on the distance of transport and loss of slump with time.\n\n### 9.5 Selection of Water Cement Ratio.\n\nThe water cement ratio shall be selected as per Fig. 1 for the target strength calculated as per 9.2 without considering the increase of strength by 20-25 percent due to wet sieving effect.\n\n\n### 9.6 Calculation of Cement/Cementitious Materials Content\n\n\n9.6.1 The cement and supplementary cementitious materials content per unit volume of concrete may be calculated from the free water-cement ratio (see 9.5) and the quantity of water per unit volume of concrete.\n\nIn certain situations, while using part replacement of cement by fly ash, ground granulated blast furnace slag (GGBS), silica fume, etc, increase in cementitious materials content may be warranted, particularly if fly ash is 20 percent or more and GGBS is 30 percent or more. The decision on increase in cementitious\n\n\n\nmaterials content and its percentage may be based on experience and trials; or the cementitious materials content so calculated may be increased by 10 percent for preliminary trial. The water cementitious materials ratio may be recalculated based on the increased cementitious materials content.\n\nThe cementitious materials content so calculated shall be checked against the minimum content for the requirements of durability as per IS 456 or as specified and greater of the two values adopted. The maximum cement content shall be in accordance with IS 456 or as specified.\n\n\n9.6.2  The percentage of fly ash/GGBS to be used has to be decided based on the project requirement and the quality of these materials.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "9.4",
+      "heading": "9.4 Selection of Water Content and Admixture Content",
+      "heading_path": [
+        "9 GENERAL",
+        "9.4 Selection of Water Content and Admixture Content"
+      ],
+      "char_start": 55987,
+      "char_end": 58145,
+      "semantic_chunk_length": 2158,
+      "final_chunk_length": 2460,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0027",
+    "text": " of durability as per IS 456 or as specified and greater of the two values adopted. The maximum cement content shall be in accordance with IS 456 or as specified.\n\n\n9.6.2  The percentage of fly ash/GGBS to be used has to be decided based on the project requirement and the quality of these materials.\n\n### 9.7 Estimation of Coarse Aggregate Proportion\n\nAggregates of essentially the same nominal maximum size, type and grading will produce concrete of satisfactory workability when a given volume of coarse aggregate per unit volume of total aggregate is used. Approximate values for this aggregate volume are given in Table 13 for a water-cement/water-cementitious materials ratio of 0.5, which may be suitably adjusted for other water-cement ratios, the proportion of volume of coarse aggregates to that of total aggregates is increased at the rate of 0.01 for every decrease in water- cement ratio by 0.05 and decreased at the rate of 0.01 for every increase in water-cement ratio by 0.05.\n\nIt can be seen that for equal workability, the volume of coarse aggregate in a unit volume of concrete is dependent only on its nominal maximum size and grading zone of fine aggregate. Differences in the amount of mortar required for workability with different aggregates, due to differences in particle shape and grading, can be adjusted by changing coarse to fine aggregate ratio. Generally higher fine aggregate content\n\nis required for crushed angular coarse aggregates due to increased surface area.\n\n\n### 9.8 Estimation of Fine and Coarse Aggregate Contents\n\nWith the completion of procedure given in 9.6, all the ingredients have been estimated except the coarse and fine aggregate content. These quantities are determined by finding out the absolute volume of cementitious materials, water and the chemical admixture; by dividing their mass by their respective specific gravity, multiplying by 1/1 000 and subtracting the result of their summation from unit volume. The values so obtained are divided into coarse and fine aggregate fractions by volume in accordance with coarse aggregate proportion already determined in 9.7. The coarse and fine aggregate contents are then determined by multiplying their volume with their respective specific gravities and multiplying by 1 000.\n\n\n### 9.9 Combination of Different Coarse Aggregate Fractions\n\nThe coarse aggregate used shall conform to IS 383. Coarse aggregates of different sizes, as given in Table 7 and Table 8 of IS 383 may be combined in suitable proportions so as to result in an overall grading conforming to Table 7 of IS 383 for 40 mm nominal maximum size of aggregate, and Table 14 for 80 mm and 150 mm nominal maximum size of aggregates.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "9.7",
+      "heading": "9.7 Estimation of Coarse Aggregate Proportion",
+      "heading_path": [
+        "9 GENERAL",
+        "9.7 Estimation of Coarse Aggregate Proportion"
+      ],
+      "char_start": 58148,
+      "char_end": 60546,
+      "semantic_chunk_length": 2398,
+      "final_chunk_length": 2700,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0028",
+    "text": "se aggregates of different sizes, as given in Table 7 and Table 8 of IS 383 may be combined in suitable proportions so as to result in an overall grading conforming to Table 7 of IS 383 for 40 mm nominal maximum size of aggregate, and Table 14 for 80 mm and 150 mm nominal maximum size of aggregates.\n\n### 9.10 Placement and Workability\n\nExperience has demonstrated that large aggregate mixtures, 150 mm msa and 80 mm msa require a minimum mortar content for suitable placing and workability properties. Table 15 gives the total absolute volume of mortar (Cement, pozzolana, water, admixture, air, and fine aggregate), which is suggested for use in mixtures containing large aggregate sizes.\n\n\n**Table 13 Volume of Coarse Aggregate per Unit Volume of Total Aggregate for Different Zones of Fine**\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Zone IV | Volume of Coarse Aggregate per Unit Volume of Total Aggregate for Different Zones of Fine Aggregate Zone III | Zone II | Zone I |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| i) | 40 | 0.73 | 0.72 | 0.71 | 0.69 |\n| ii) | 80 | 0.75 | 0.74 | 0.73 | 0.72 |\n| iii) | 150 | 0.80 | 0.79 | 0.78 | 0.77 |\n\n*NOTES 1 Volumes are based on aggregates in saturated surface dry condition. 2 These volumes are for crushed (angular) aggregate and suitable adjustments may be made for other shape of aggregate. 3 Suitable adjustments may also be made for fine aggregate from other than natural sources, normally, crushed sand or mixed sand may need lesser fine aggregate content. In that case, the coarse aggregate volume should be suitably increased.*\n\n\n\n\n\n\n**Table 14 Grading Requirements for Coarse Aggregate for Mass Concrete**\n\n| Sl No. | IS Sieve Designation mm | Percentage Passing for Graded Aggregate of Nominal Size 150 mm | 80 mm |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) | 150 | 100 | 100 |\n| ii) | 80 | 55  - 65 | 100 |\n| iii) | 40 | 29  - 40 | 53  - 62 |\n| iv) | 20 | 14  - 22 | 26  - 34 |\n| v) | 10 | 6  - 10 | 10  - 15 |\n| vi) | 4.75 | 0  - 5 | 0  - 5 |\n\n*NOTE — In mass concreting, rounded aggregate is also used, and the fine aggregate requirement is on the lower side as compared to crushed aggregate. Therefore, it is recommended that, for rounded aggregates, the percentage passing shall be towards the higher limit of the range specified for various sieve sizes and for crushed aggregates, the percentage passing, shall  be towards the lower limit of the range specified for various sieve sizes. This recommendation is valid for grading requirements for 150 mm msa, and 80 mm msa, as mentioned above, and for 40 mm msa as per Table 7 of IS 383.*\n\n\nThese values shall be compared with those determined during the mix proportioning procedure and appropriate adjustments made by either increasing or decreasing the fine aggregate, and cementitous material contents, for improved placeability and workability,\n\n\n**Table 15 Approximate Mortar Content for**\n\n| Sl No. | Nominal Maximum Size of Aggregate mm | Shape of Aggregate | Volume of Mortar Content m3 |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) | 150 | Crushed | 0.39 ± 0.01 |\n| ii) | 150 | Rounded | 0.37 ± 0.01 |\n| iii) | 80 | Crushed | 0.44 ± 0.01 |\n| iv) | 80 | Rounded | 0.43 ± 0.01 |",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "9.10",
+      "heading": "9.10 Placement and Workability",
+      "heading_path": [
+        "9 GENERAL",
+        "9.10 Placement and Workability"
+      ],
+      "char_start": 60549,
+      "char_end": 63515,
+      "semantic_chunk_length": 2966,
+      "final_chunk_length": 3268,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0029",
+    "text": "Sl No. | Nominal Maximum Size of Aggregate mm | Shape of Aggregate | Volume of Mortar Content m3 |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) | 150 | Crushed | 0.39 ± 0.01 |\n| ii) | 150 | Rounded | 0.37 ± 0.01 |\n| iii) | 80 | Crushed | 0.44 ± 0.01 |\n| iv) | 80 | Rounded | 0.43 ± 0.01 |\n\nThe calculated mix proportions shall be checked by means of trial batches.\n\nWorkability of the trial mix No. 1 shall be measured. The mix shall be carefully observed for freedom from segregation and bleeding and its finishing properties. If the measured workability of Trial Mix No. 1 is different from the stipulated value, the water and/or admixture content shall be adjusted suitably. With this adjustment, the mix proportion shall be recalculated keeping the free water-cement ratio at the pre-selected value, which will comprise Trial Mix No. 2. In addition, two more Trial Mixes No. 3 and 4 shall be made with the water content same as Trial mix No. 2 and varying the free water-cement/cementitious materials ratio by about ±10 percent of the preselected value, while satisfying the workability requirements as well.\n\n\nMix No. 2 to 4 normally provides sufficient information, including the relationship between compressive strength and water-cement ratio, from which the mix proportions can be finalized, such that the strength and durability requirements are also satisfied. Additional field trials are recommended particularly for workability requirements. The concrete for field trials shall be produced by methods of actual concrete production.\n\n\n### 9.12 Reporting\n\nThe mix design report shall include the following:\n\n- a) Period of testing (starting and ending date); b) Details of work/type of structure, if provided; c) All the data provided for the mix design as per 4.1 and 9.1, and deviations from IS 456, if any; d) Relevant test data of different materials for the purpose of mix proportioning; e) Details of materials such as brand of cement, manufacturing date (week/year) percentage of pozzolana/slag, etc, as per manufacturers certificate; source of coarse and fine aggregates (if provided), etc; f) Details of the trials conducted; and g) Recommended mix proportions.\n\n### 9.13 Illustrative Example\n\nAn illustrative example of concrete mix proportioning for mass concreting is given in Annex F. This example is merely illustrative and explains the procedure to be adopted for mass concreting. The actual mix proportioning shall be based on various trials with the given materials.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "9.10",
+      "heading": "9.10 Placement and Workability",
+      "heading_path": [
+        "9 GENERAL",
+        "9.10 Placement and Workability"
+      ],
+      "char_start": 63518,
+      "char_end": 65722,
+      "semantic_chunk_length": 2204,
+      "final_chunk_length": 2506,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0030",
+    "text": "lustrative Example\n\nAn illustrative example of concrete mix proportioning for mass concreting is given in Annex F. This example is merely illustrative and explains the procedure to be adopted for mass concreting. The actual mix proportioning shall be based on various trials with the given materials.\n\n## ANNEX A\n\n\n(Clause 5.9)\n\nILLUSTRATIVE EXAMPLE ON CONCRETE MIX PROPORTIONING\n\nA-0 An example illustrating the mix proportioning for a concrete of M40 grade is given in A-1 to A-12.\n\nA-1 STIPULATIONS FOR PROPORTIONING\n\n- a) Grade designation : M40 b) Type of cement : PPC conforming to IS 1489 (Part 1) c) Maximum nominal size of aggregate : 20 mm d) Minimum cement content and maximum water-cement ratio to be adopted and/or : Severe (for reinforced concrete) Exposure conditions as per Table 3 and Table 5 of IS 456 e) Workability : 75 mm (slump) f) Method of concrete placing : Chute (Non pumpable) g) Degree of site control : Good h) Type of aggregate : Crushed angular aggregate j) Maximum cement content not including fly ash : 450 kg/m3\n- k) Chemical admixture type : Superplasticizer - normal\nA-2 TEST DATA FOR MATERIALS\n\n- a) Cement used : PPC conforming to IS 1489 (Part 1) b) Specific gravity of cement : 2.88 c) Chemical admixture : Superplasticizer conforming to IS 9103 d) Specific gravity of 1) Coarse aggregate [at saturated surface dry : 2.74 (SSD) Condtion] 2) Fine aggregate [at saturated surface dry : 2.65 (SSD) Condtion] 3) Chemical admixture : 1.145 e) Water absorption 1) Coarse aggregate : 0.5 percent 2) Fine aggregate : 1.0 percent f) Moisture content of aggregate [As per IS 2386 (Part 3)] 1) Coarse aggregate : Nil 2) Fine aggregate : Nil g) Sieve analysis: 1) Coarse aggregate :\nIS Sieve Sizes\n\nAnalysis of Coarse Aggregate\n\nFraction\n\nmm\n\nI (20-10 mm)\n\nII (10 - 4.75 mm)\n\nPercentage of Different Fractions Remarks\n\nI 60 percent II 40 percent Conforming\n\n\n100 percent\n\n\n| IS Sieve Sizes mm | Analysis of Coarse Aggregate Fraction I (20-10 mm) | Fraction II (10 - 4.75 mm) | Percentage of Different Fractions I (60 percent) | II (40 percent) | Conforming 100 percent | Remarks |\n| --- | --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) |\n| 20 | 100 | 100 | 60 | 40 | 100 |  |\n| 10 | 0 | 71.20 | 0 | 28.5 | 28.5 | Conforming to Table 7 of IS 383 |\n| 4.75 |  | 9.40 |  | 3.7 | 3.7 |  |\n| 2.36 |  | 0 |  |  |  |  |\n\n\n- 2) Fine aggregate : Conforming to grading Zone II of Table 9 of\n\nIS 383\n\n\n\n\nA-3 TARGET STRENGTH FOR MIX PROPORTIONING\n\nf’ck = fck+1.65 S\n\n\nor f’ck = fck + X\n\n\nwhichever is higher.\n\nwhere\n\nf’ck = target average compressive strength at\n\n\n\n28 days,\n\nfck = characteristic compressive strength at\n\n\n\n28 days,\n\nS = standard deviation, and\n\n\nX = factor based on grade of concrete.\n\n\nFrom Table 2, standard deviation, S = 5 N/mm2.\n\n\nFrom Table 1, X = 6.5.\n\n\nTherefore, target strength using both equations, that is,\n\na) f’ck = fck+1.65 S\n\n\n= 40+1.65 × 5 = 48.25 N/mm2\n\n\nb) f’ck = fck + 6.5\n\n\n= 40 + 6.5 = 46.5 N/mm2\n\n\nThe higher value is to be adopted. Therefore, target strength will be 48.25 N/mm2 as 48.25 N/mm2 > 46.5 N/mm2.\n\n\nA-4 APPROXIMATE AIR CONTENT\n\nFrom Table 3, the approximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is 1.0 percent for 20 mm nominal maximum size of aggregate.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 65727,
+      "char_end": 68719,
+      "semantic_chunk_length": 2992,
+      "final_chunk_length": 3294,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0031",
+    "text": "r value is to be adopted. Therefore, target strength will be 48.25 N/mm2 as 48.25 N/mm2 > 46.5 N/mm2.\n\n\nA-4 APPROXIMATE AIR CONTENT\n\nFrom Table 3, the approximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is 1.0 percent for 20 mm nominal maximum size of aggregate.\n\nA-5 SELECTION OF WATER-CEMENT RATIO\n\nFrom Fig. 1, the free water-cement ratio required for the target strength of 48.25 N/mm2 is 0.36 for OPC 43 grade curve. (For PPC, the strength corresponding to OPC 43 grade curve is assumed for the trial). This is lower than the maximum value of 0.45 prescribed for ‘severe’ exposure for reinforced concrete as per Table 5 of IS 456.\n\n\n0.36< 0.45, hence O.K.\n\nA-6 SELECTION OF WATER CONTENT\n\nFrom Table 4, water content  = 186 kg (for 50 mm slump) for 20 mm aggregate.\n\n\nEstimated water content for 75 mm slump\n\n3 186 100 ×\n\n= 186 +\n\n\n= 191.58 kg As superplasticizer is used, the water content may be\n\n\nIS 10262 : 2019\n\nreduced. Based on trial data, the water content reduction of 23 percent is considered while using superplasticizer at the rate 1.0 percent by weight of cement.\n\nHence the water content\n\n= 191.58 × 0.77 = 147.52 kg ≈ 148 kg\n\n\nA-7 CALCULATION OF CEMENT CONTENT\n\nWater-cement ratio = 0.36\n\n\n148 0.36 = 411.11 kg/m3 ≈ 412 kg/m3\n\n\nCement content =\n\nFrom Table 5 of IS 456, minimum cement content for ‘severe’ exposure condition = 320 kg/m3\n\n\n412 kg/m3> 320 kg/m3, hence, O.K.\n\nA-8 PROPORTION OF VOLUME OF COARSE AGGREGATE AND FINE AGGREGETE CONTENT\n\nFrom Table 5, the proportionate volume of coarse aggregate corresponding to 20 mm size aggregate and fine aggregate (Zone II) for water-cement ratio of 0.50 = 0.62.\n\nIn the present case water-cement ratio is 0.36. Therefore, volume of coarse aggregate is required to be increased to decrease the fine aggregate content. As the water-cement ratio is lower by 0.14, the proportion of volume of coarse, aggregate is increased by 0.028 (at the rate of 0.01 for every ± 0.05 change in water- cement ratio). Therefore, corrected proportion of volume of coarse aggregate for the water-cement ratio of 0.36 = 0.62 + 0.028 = 0.648.\n\nVolume of fine aggregate content = 1 – 0.648 = 0.352\n\n\nA-9 MIX CALCULATIONS\n\nThe mix calculations per unit volume of concrete shall be as follows:\n\na) Total volume = 1 m3\n\n\nb) Volume of entrapped air in wet concrete = 0.01 m3\n\n\n- c) Volume of cement\n= Mass of cement / Specific gravity of cement × 1/1 000\n= 412/2.88 × 1/1 000\n= 0.143 m3\n- d) Volume of water\n= Mass of water / Specific gravity of water × 1/1 000\n= 148/1 × 1/1 000\n= 0.148 m3\n\n\n\n- e) Volume of chemical admixture (superplasticizer) (@ 1.0 percent by mass of cementitious material)\nMass of chemical admixture 1 Specific gravity of admixture 1 000 \n\n=\n\n4.12 1 1.145 1 000 \n\n=\n\n= 0.003 6 m3\n\n- g) Volume of all in aggregate = [(a-b)-(c+d+e)] = [(1-0.01) – (0.143 + 0.148 + 0.0 036)] = 0.695 m3\n- h) Mass of coarse aggregate\n= g × Volume of coarse aggregate × Specific\n\ngravity of coarse aggregate × 1 000 = 0.695 × 0.648 × 2.74 × 1 000\n\n= 1 233.98 kg  1 234 kg j)  Mass of fine aggregate\n\n= g × volume of fine aggregate × Specific\n\ngravity of fine aggregate × 1 000 = 0.695 × 0.352 × 2.65 × 1 000 = 648.29 kg  648 kg\n\nA-10 MIX PROPORTIONS FOR TRIAL NUMBER 1\n\nCement = 412 kg/m3\n\n\nWater = 148 kg/m3",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 68721,
+      "char_end": 71713,
+      "semantic_chunk_length": 2992,
+      "final_chunk_length": 3294,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0032",
+    "text": "1 000 = 0.695 × 0.648 × 2.74 × 1 000\n\n= 1 233.98 kg  1 234 kg j)  Mass of fine aggregate\n\n= g × volume of fine aggregate × Specific\n\ngravity of fine aggregate × 1 000 = 0.695 × 0.352 × 2.65 × 1 000 = 648.29 kg  648 kg\n\nA-10 MIX PROPORTIONS FOR TRIAL NUMBER 1\n\nCement = 412 kg/m3\n\n\nWater = 148 kg/m3\n\nFine aggregate (SSD) = 648 kg/m3\n\nCoarse aggregate (SSD) = 1 234 kg/m3\n\nChemical admixture = 4.12 kg/m3, Free water-cement ratio = 0.36\n\n\nNOTE — Aggregates shall be used in saturated surface dry condition. If otherwise, when computing the requirement of mixing water, allowance shall be made for the free (surface) moisture contributed by the fine and coarse aggregates. On the other hand, if the aggregates are dry, the amount of mixing water shall be increased by an amount equal to the moisture likely to be absorbed by the aggregates. Necessary adjustments are also required to be made in mass of aggregates. The surface water and percentage water absorption of aggregates shall be determined according to IS 2386.\n\nA-11 ADJUSTMENT ON WATER, FINE AGGREGATE AND COARSE AGGREGATE (IF THE COARSE AND FINE AGGREGATE IS IN DRY CONDITION)\n\n- a) Fine Aggregate (Dry)\nMass of fine aggregate in SSD condition\n\n= Waterabsorption\n\n1 + /\n\n\n648 1 / \n\n= 1 100\n\n\n= 641.58  kg/m3  642 kg/m3\n\n- b) Coarse Aggregate (Dry)\nMass of coarse aggregate in SSD condition\n\n= Waterabsorption\n\n1 + /\n\n\n1 234 1 / \n\n= 0.5 100\n\n= 1 227.86 kg/m3  1 228 kg/m3\n\nThe extra water to be added for absorption by coarse and fine aggregate,\n\n1) For coarse aggregate = Mass of coarse aggregate in SSD condition –\n\n\nmass of coarse aggregate in dry condition = 1 234 – 1 228 = 6 kg 2) For fine aggregate = Mass of fine aggregate in SSD condition –\n\n\nmass of fine aggregate in dry condition = 648 – 642 = 6 kg The estimated requirement for added water, therefore, becomes\n\n\n= 148 + 6 + 6 = 160 kg/m3\n\nA-12 MIX PROPORTIONS AFTER ADUSTMENT FOR DRY AGGREGATES\n\nCement = 412 kg/m3\n\n\nWater (to be added) = 160 kg/m3\n\nFine aggregate (Dry) = 642 kg/m3\n\nCoarse aggregate (Dry) = 1 228 kg/m3\n\nChemical admixture = 4.12 kg/m3\n\n\nFree water-cement ratio = 0.36\n\n\nA-13 The total mass of coarse aggregate shall be divided into two fractions of 20 - 10 mm and 10 - 4.75 mm, in a suitable ratio, to satisfy the overall grading requirements for 20 mm max size aggregate as per Table 7 of IS 383. In this example, the ratio works out to be 60:40 as shown under A-2 (g).\n\nA-14 The slump shall be measured and the water content and dosage of admixture shall be adjusted for achieving the required slump based on trial, if required. The mix proportions shall be reworked for the actual water content and checked for durability requirements.\n\nA-15 Two more trials having variation of ± 10 percent of water-cement ratio in A-10 shall be carried out and a graph between three water-cement ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 20,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 71716,
+      "char_end": 74428,
+      "semantic_chunk_length": 2712,
+      "final_chunk_length": 3014,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0033",
+    "text": " variation of ± 10 percent of water-cement ratio in A-10 shall be carried out and a graph between three water-cement ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.\n\n## ANNEX B\n\n\n(Clause 5.9)\n\nILLUSTRATIVE EXAMPLE OF MIX PROPORTIONING OF CONCRETE\n\n(USING FLY ASH AS PART REPLACEMENT OF OPC)\n\nB-0 An example illustrating the mix proportioning for a concrete of M40 grade using fly ash is given in B-1 to B-15.\n\nB-1 STIPULATIONS FOR PROPORTIONING\n\n- a) Grade designation : M40 b) Type of cement : OPC 43 grade conforming to IS 269 c) Type of mineral admixture : Fly ash conforming to IS 3812 (Part1) d) Maximum nominal size of aggregate : 20 mm e) Minimum cement content and maximum water-cement ratio to be adopted : Severe(for reinforced concrete) and/or Exposure conditions as per Table 3 and Table 5 of IS 456 f) Workability : 120 mm (slump) g) Method of concrete placing : Pumping h) Degree of supervision : Good j) Type of aggregate : Crushed angular aggregate k) Maximum cement content (OPC content) : As per IS 456 m) Chemical admixture type : Superplasticizer- normal\nB-2 TEST DATA FOR MATERIALS\n\n- a) Cement used : OPC 43 grade conforming to IS 269 b) Specific gravity of cement : 3.15 c) Fly ash : Conforming to IS 3812 (Part 1) d) Specific gravity of fly ash : 2.2 e) Chemical admixture : Superplasticizer conforming to IS 9103 f) Specific gravity of\n- 1) Coarse aggregate (at SSD condition) : 2.74 2) Fine aggregate (at SSD condition) : 2.65 3) Chemical admixture : 1.145 g) Water absorption\n- 1) Coarse aggregate : 0.5 percent 2) Fine aggregate : 1.0 percent\n- h) The coarse and fine aggregates are wet and their total moisture content is 2 percent and 5 percent respectively. Therefore, the free moisture content in coarse and fine aggregate shall be as shown in (j) below j) Free (surface) moisture\n1) Coarse aggregate : Free moisture = Total moisture content –\n\n\nWater  absorption\n\n= 2.0 – 0.5 = 1.5 percent 2) Fine aggregate : Free moisture = Total moisture content –\n\n\nWater absorption = 5.0 – 1.0 = 4.0 percent\n\n\n\n\n\n- k) Sieve analysis\n- 1) Coarse aggregate :\nIS Sieve Sizes\n\nAnalysis of Coarse Aggregate\n\nFraction\n\nmm\n\nI (20-10 mm)\n\nII (10 - 4.75 mm)\n\nPercentage of Different Fractions Remarks\n\nI 60 percent II 40 percent 100 percent\n\n\n| IS Sieve Sizes mm | Analysis of Coarse Aggregate Fraction I (20-10 mm) | Fraction II (10 - 4.75 mm) | Percentage of Different Fractions I (60 percent) | II (40 percent) | Conforming 100 percent | Remarks |\n| --- | --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) |\n| 20 | 100 | 100 | 60 | 40 | 100 | Conforming to Table 7 of IS 383 |\n| 10 | Nil | 71.20 | Nil | 28.5 | 28.5 |  |\n| 4.75 | Nil | 9.40 | Nil | 3.7 | 3.7 |  |\n| 2.36 | Nil | Nil | Nil | Nil | Nil |  |\n\n\n- 2) Fine aggregate : Conforming to grading Zone II of Table 9 of IS 383\nB-3 TARGET STRENGTH FOR MIX PROPORTIONING\n\nf’ck = fck + 1.65 S\n\n\nor f’ck = fck + X whichever is higher. where\n\n\nf’ck = target average compressive strength at\n\n\n28 days, fck = characteristic compressive strength at\n\n\n28 days S = standard deviation, and X = factor based on grade of concrete.\n\n\nFrom Table 2, standard deviation, S = 5 N/mm2.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 33,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 22,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 74434,
+      "char_end": 77431,
+      "semantic_chunk_length": 2997,
+      "final_chunk_length": 3299,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0034",
+    "text": "NG\n\nf’ck = fck + 1.65 S\n\n\nor f’ck = fck + X whichever is higher. where\n\n\nf’ck = target average compressive strength at\n\n\n28 days, fck = characteristic compressive strength at\n\n\n28 days S = standard deviation, and X = factor based on grade of concrete.\n\n\nFrom Table 2, standard deviation, S = 5 N/mm2.\n\nFrom Table 1, X = 6.5\n\n\nTherefore, target strength using both equations, that is,\n\na) f’ck =fck+1.65 S\n\n\n= 40 + 1.65 × 5 = 48.25 N/mm2\n\n\nb) f’ck = fck + 6.5\n\n\n= 40 + 6.5 = 46.5 N/mm2\n\n\nThe higher value is to be adopted. Therefore, target strength will be 48.25 N/mm2 as 48.25 N/mm2 > 46.5 N/mm2.\n\n\nB-4 APPROXIMATE AIR CONTENT From Table 3, the approximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is 1.0 percent for 20 mm nominal maximum size of aggregate.\n\nB-5 SELECTION OF WATER-CEMENT RATIO From Fig. 1, the free water-cement ratio required for the target strength of 48.25 N/mm2 is 0.36 for OPC 43 grade curve. This is lower than the maximum value of 0.45 prescribed for ‘severe’ exposure for reinforced concrete as per Table 5 of IS 456.\n\n\n0.36 < 0.45, hence O.K.\n\nB-6 SELECTION OF WATER CONTENT\n\nFrom Table 4, water content  = 186 kg (for 50 mm slump) for 20 mm aggregate.\n\n\nEstimated water content for 120 mm slump (increasing at the rate of 3 percent for every 25 mm slump)\n\n8.4 186 186 100 + ×\n\n=\n\n=201.62 kg\n\nAs superplasticizer is used, the water content may be reduced.\n\nBased on trial data, the water content reduction of 23 percent is considered while using superplasticizer at the rate 1.0 percent by weight of cement.\n\nHence the arrived water content = 201.62 × 0.77 = 155.25 kg ≈ 155 kg.\n\n\nB-7 CALCULATION OF CEMENT CONTENT\n\nWater-cement ratio = 0.36\n\n\nCement content = 155\n\n\n0.36 = 430.55 kg/m3 ≈ 431 kg/m3\n\n\nTo proportion a mix containing fly ash the following steps are suggested:\n\n- a) Decide the percentage fly ash to be used based on project requirement and quality of fly ash. b) In certain situations, increase in cementitious material content may be warranted. The decision on increase in cementitious material content and its percentage may be based on experience and trials.\nNOTE — This illustrative example is with increase of 10 percent cementitious material content.\n\nCementitious material content\n\n= 431 × 1.10 = 474.1 kg/m3 ≈\n\n\n474 kg/m3\n\nWater content = 155 kg/m3\n\n\n\n\n\n\nSo, water-cementitious ratio\n\n= 155 0.327 474 =\n\nFly ash @ 30 percent of total cementitious material content = 474 × 30 percent = 142.2 ≈\n\n\n142 kg/m3\n\nCement (OPC) = 474 – 142 = 332 kg/m3\n\nFrom Table 5 of IS 456, minimum cementitious content for ‘severe’ exposure condition\n\n= 320 kg/m3\n\n474 kg/m3 > 320 kg/m3, hence O.K.\n\nB-8 PROPORTION OF VOLUME OF COARSE AGGREGATE AND FINE AGGRAGETE CONTENT\n\nFrom Table 5, volume of coarse aggregate corresponding to 20 mm size aggregate and fine aggregate (Zone II) for water-cement ratio of 0.50 = 0.62.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 34,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 23,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 77434,
+      "char_end": 80017,
+      "semantic_chunk_length": 2583,
+      "final_chunk_length": 2885,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0035",
+    "text": "for ‘severe’ exposure condition\n\n= 320 kg/m3\n\n474 kg/m3 > 320 kg/m3, hence O.K.\n\nB-8 PROPORTION OF VOLUME OF COARSE AGGREGATE AND FINE AGGRAGETE CONTENT\n\nFrom Table 5, volume of coarse aggregate corresponding to 20 mm size aggregate and fine aggregate (Zone II) for water-cement ratio of 0.50 = 0.62.\n\nIn the present case water-cementitious ratio is 0.327. Therefore, volume of coarse aggregate is required to be increased to decrease the fine aggregate content. As the water-cement ratio is lower by 0.173, the proportion of volume of coarse aggregate is increased by 0.034 6 (at the rate of 0.01 for every ± 0.05 change in water- cement ratio). Therefore, corrected proportion of volume of coarse aggregate for the water-cementitious ratio of 0.327 = 0.62 + 0.034 6 = 0.654 6.\n\nFor pumpable concrete these values may be reduced by up to 10 percent. (see 5.5.2). Here, 10 percent reduction is considered.\n\nTherefore, volume of coarse aggregate = 0.654 6 × 0.9 = 0.589 1, say 0.59 m3.\n\n\nVolume of fine aggregate content = 1 – 0.59 = 0.41 m3\n\n\nB-9 MIX CALCULATIONS\n\nThe mix calculations per unit volume of concrete shall be as follows:\n\na) Total volume = 1 m3\n\n\nb) Volume of entrapped air in wet concrete = 0.01 m3\n\n\n- c) Volume of cement\nMassof cement 1 Specificgravity of cement 1 000 ×\n\n=\n\n332 1 3.15 1 000 ×\n\n=\n\n= 0.105 m3\n\n\nIS 10262 : 2019\n\n- d) Volume of fly ash\n= Mass of fly ash / Specific gravity of fly ash × 1/1 000\n= 142/2.2 × 1/1 000\n= 0.064 5 m3\n- e) Volume of water\n= Mass of water / Specific gravity of water × 1/1 000\n= 155/1 × 1/1 000\n= 0.155 m3\n- f) Volume of chemical admixture (superplasticizer) (@ 1.0 percent by mass of cementitious material)\n= Mass of chemical admixture / Specific gravity of admixture × 1/1 000\n= 4.74/1.145 × 1/1 000\n= 0.004 m3\n\n- g) Volume of all in aggregate\n= [(a-b)-(c+d+e+f)}] = (1-0.01)-(0.105 + 0.064 5 + 0.155+0.004)\n\n= 0.661 5 m3\n\nh) Mass of coarse aggregate = g × volume of coarse aggregate × Specific\n\n\ngravity of coarse aggregate × 1 000 = 0.661 5 × 0.59 × 2.74 × 1 000\n\n= 1 069.38 kg ≈ 1 069 kg j) Mass of fine aggregate = g × Volume of fine aggregate × Specific\n\n\ngravity of fine aggregate × 1 000 = 0.661 5 × 0.41 × 2.65 × 1 000 = 718.71 ≈ 719 kg\n\n\nB-10 MIX PROPORTIONS FOR TRIAL NUMBER 1\n\nCement = 332 kg/m3\n\n\nFly ash = 142 kg/m3\n\n\nWater (Net mixing) = 155 kg/m3\n\nFine aggregate (SSD) = 719 kg/m3\n\nCoarse aggregate (SSD) = 1 069 kg/m3\n\nChemical admixture = 4.74 kg/m3\n\n\nFree water-cementitious materials ratio\n\n= 0.327\n\n\n\n\nNOTE — Aggregates shall be used in saturated surface dry condition. If otherwise, when computing the requirement of mixing water, allowance shall be made for the free (surface) moisture contributed by the fine and coarse aggregates. On the other hand, if the aggregates are dry, the amount of mixing water shall be increased by an amount equal to the moisture likely to be absorbed by the aggregates. Necessary adjustments are also required to be made in mass of aggregates. The surface water and percent water absorption of aggregates shall be determined according to IS 2386 (Part 3).\n\nB-11 ADJUSTMENT ON WATER, FINE AGGREGATE AND COARSE AGGREGATE (IF THE COARSE AND FINE AGGREGATE IS IN WET CONDITION)\n\na) Fine aggregate (Wet) Mass of wet fine aggregate = mass of fine aggregate in SSD condition ×",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 35,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 24,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 80019,
+      "char_end": 82999,
+      "semantic_chunk_length": 2980,
+      "final_chunk_length": 3282,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0036",
+    "text": "cent water absorption of aggregates shall be determined according to IS 2386 (Part 3).\n\nB-11 ADJUSTMENT ON WATER, FINE AGGREGATE AND COARSE AGGREGATE (IF THE COARSE AND FINE AGGREGATE IS IN WET CONDITION)\n\na) Fine aggregate (Wet) Mass of wet fine aggregate = mass of fine aggregate in SSD condition ×\n\nFree (surface) moisture 1 100   +     = 719 × (1+4/100) = 747.76 kg/m3 ≈ 748 kg/m3\n\n\nb) Coarse aggregate (Wet) Mass of wet coarse aggregate = mass of coarse aggregate in SSD condition\n\n\nFree (surface) moisture 1 100   +     = 1 069 × (1+1.5/100) = 1 085.03 kg/m3 ≈ 1 085kg/m3\n\n\n×\n\nThe coarse and fine aggregates, being wet, contribute water to the mix to the extent of free moisture over SSD condition. The quantity of this water is required to be subtracted from the calculated water content.\n\n1) Water content contributed by wet coarse aggregate = Mass of wet coarse aggregate – mass of SSD\n\n\ncondition coarse aggregate = 1 085 – 1 069 = 16 kg\n\n\n2) Water content contributed by wet fine aggregate = Mass of wet fine aggregate – mass of SSD\n\n\ncondition fine aggregate = 748 – 719 = 29 kg The requirement for added water becomes :\n\n\n= 155 - 16 - 29 = 110 kg/m3\n\nB-12 MIX PROPORTIONS AFTER ADUSTMENT FOR WET AGGREGATES\n\nCement = 332 kg/m3\n\n\nFly ash = 142 kg/m3\n\n\nWater (to be added) = 110 kg/m3\n\nFine aggregate (Wet) = 748 kg/m3\n\nCoarse aggregate (Wet) = 1 085 kg/m3\n\nChemical admixture = 4.74 kg/m3\n\n\nFree water-cementitious materials ratio\n\n= 0.327\n\n\nB-13 The total mass of coarse aggregate shall be divided into two fractions of 20 – 10 mm and 10 – 4.75 mm, in a suitable ratio, to satisfy the overall grading requirements for 20 mm max size aggregate as per Table 7 of IS 383. In this example, the ratio works out to be 60:40 as shown under B-2 (k).\n\nB-14 The slump shall be measured and the water content and dosage of admixture shall be adjusted for achieving the required slump based on trial, if required. The mix proportions shall be reworked for the actual water content and checked for durability requirements.\n\nB-15 Two more trials having variation of ± 10 percent of water-cementitious materials ratio in   B-10 shall be carried out and a graph between these water- cementitious materials ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 36,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 24,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 83002,
+      "char_end": 85098,
+      "semantic_chunk_length": 2096,
+      "final_chunk_length": 2398,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0037",
+    "text": "-cementitious materials ratio in   B-10 shall be carried out and a graph between these water- cementitious materials ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.\n\n## ANNEX C\n\n\n(Clause 5.9)\n\nILLUSTRATIVE EXAMPLE OF MIX PROPORTIONING OF CONCRETE\n\n(USING GGBS AS PART REPLACEMENT OF OPC)\n\nC-0 An example illustrating the mix proportioning for a concrete of M40 grade using GGBS is given in C-1 to C-11.\n\nC-1 STIPULATIONS FOR PROPORTIONING\n\n- a) Grade designation : M40 b) Type of cement : OPC 43 grade conforming to IS 269 c) Type of mineral admixture : GGBS conforming to IS 16714 d) Maximum nominal size of aggregate : 20mm e) Minimum cement content and maximum water-cement ratio to be adopted and/or Exposure condition as per Table 3 and Table 5 of IS 456 : Severe (for reinforced concrete) f) Workability : 120 mm (slump) g) Method of concrete placing : Pumping h) Degree of supervision : Good j) Type of aggregate : Crushed stone angular aggregate k) Maximum cement (OPC content) : As per IS 456 m) Chemical admixture type : Super plasticizer- normal\nC-2 TEST DATA FOR MATERIALS\n\n- a) Cement used : OPC 43 grade conforming to IS 269 b) Specific gravity of cement : 3.15 c) GGBS : Conforming to IS 16714 d) Specific gravity of GGBS : 3 e) Chemical admixture : Super plasticizer conforming to IS 9103 f) Specific gravity (at SSD condition) of 1) Coarse aggregate : 2.74 (based on saturated surface dry condition) 2) Fine aggregate : 2.65 (based on saturated surface dry condition) 3) Chemical Admixture : 1.145 g) Water absorption 1) Coarse aggregate : 0.5 percent 2) Fine aggregate : 1.0 percent h) Moisture content of aggregate [As per IS 2386(Part 3)] 1) Coarse aggregate : Nil 2) Fine aggregate : Nil j) Sieve analysis 1) Coarse aggregate:\nIS Sieve Sizes\n\nAnalysis of Coarse Aggregate\n\nFraction\n\nmm\n\nI (20-10 mm)\n\nII (10 - 4.75 mm)\n\nPercentage of Different Fractions Remarks\n\nI 60 percent II 40 percent 100 percent\n\n\n| IS Sieve Sizes mm | Analysis of Coarse Aggregate Fraction I (20-10 mm) | Fraction II (10 - 4.75 mm) | Percentage of Different Fractions I (60 percent) | II (40 percent) | Conforming 100 percent | Remarks |\n| --- | --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) |\n| 20 | 100 | 100 | 60 | 40 | 100 | Conforming to Table 7 of IS 383 |\n| 10 | Nil | 71.20 | Nil | 28.5 | 28.5 |  |\n| 4.75 | Nil | 9.40 | Nil | 3.7 | 3.7 |  |\n| 2.36 | Nil | Nil | Nil | Nil | Nil |  |\n\n\n- 2) Fine aggregate : Conforming to grading Zone II of Table 9 of IS 383\n\n\n\nC-3 TARGET STRENGTH FOR MIX PROPORTIONING\n\nf’ck = fck + 1.65 S\n\n\nor\n\nf’ck = fck + X\n\n\nwhichever is higher\n\nwhere\n\nf’ck = target average compressive strength at\n\n\n\n28 days,\n\nfck = characteristic compressive strength at\n\n\n\n28 days,\n\nS = standard deviation, and\n\n\nfrom Table 2, standard deviation S = 5 N/mm2\n\n\nFrom Table 1, X = 6.5.\n\n\nTherefore, target strength using both equations, that is,\n\na) f’ck = fck +1.65 S\n\n\n= 40 + 1.65 x 5 = 48.25 N/mm2\n\n\nb) f’ck = fck + 6.5\n\n\n= 40 + 6.5 = 46.5 N/mm2\n\n\nThe higher value is to be adopted. Therefore, target strength will be 48.25 N/mm2 as 48.25 N/mm2 > 46.5 N/mm2.\n\n\nC-4 APPROXIMATE AIR CONTENT",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 37,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 25,
+      "page_end": 26,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 85104,
+      "char_end": 88071,
+      "semantic_chunk_length": 2967,
+      "final_chunk_length": 3269,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0038",
+    "text": "refore, target strength using both equations, that is,\n\na) f’ck = fck +1.65 S\n\n\n= 40 + 1.65 x 5 = 48.25 N/mm2\n\n\nb) f’ck = fck + 6.5\n\n\n= 40 + 6.5 = 46.5 N/mm2\n\n\nThe higher value is to be adopted. Therefore, target strength will be 48.25 N/mm2 as 48.25 N/mm2 > 46.5 N/mm2.\n\n\nC-4 APPROXIMATE AIR CONTENT\n\nFrom Table 3, the approximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is 1.0 percent for 20 mm nominal maximum size of aggregate.\n\nC-5  SELECTION OF WATER-CEMENT RATIO\n\nFrom Fig. 1 the free water-cement ratio required for the target strength of 48.25 N/mm2 is 0.36 for OPC 43 grade curve. This is lower than the maximum value of 0.45 prescribed for ‘severe’ exposure for reinforced concrete as per Table 5 of IS 456.\n\n\n0.36 < 0.45, hence O.K.\n\nC-6 SELECTION OF WATER CONTENT\n\nFrom Table 4, water content\n\n= 186 kg (for 50 mm slump) for 20 mm aggregate.\n\nEstimated water content for 120 mm slump (increasing at the rate of 3 percent for every 25 mm slump)\n\n= 84 186 186 100 + ×\n\n= 201.62 kg As super plasticizer is used, the water content may be reduced.\n\nBased on trial data, the water content reduction of 23 percent is considered while using super plasticizer at the rate of 1.0 percent by weight of cement.\n\nHence the arrived water content\n\n= 201.62 × 0.77 = 155.25kg ≈ 155 kg\n\n\nC-7 CALCULATION OF CEMENT CONTENT\n\nWater-cement ratio = 0.36 Cement content = 155/0.36 = 430.55 kg/m3 ≈ 431 kg/m3\n\n\nFrom Table 5 of IS 456, minimum cement content for ‘severe’ exposure condition\n\n= 320 kg/m3\n\n431 kg/m3> 320 kg/m3, hence O.K.\n\nTo proportion a mix containing GGBS the following steps are suggested:\n\n- a) Decide the percentage of GGBS to be used based on project requirement and quality of GGBS. b) In certain situations increase in cementitious material content may be warranted. The decision on increase in cementitious material content and its percentage may be based on experience and trials.\nGGBS @ 40 percent of total cementitious material content\n\n= 431 × 40 percent = 172.4 ≈ 172 kg/m3\n\n\nCement (OPC) = 431 – 172 = 259 kg/m3\n\nC-8  PROPORTION OF VOLUME OF COARSE AGGREGATE AND FINE AGGREGATE CONTENT\n\nFrom Table 5, volume of coarse aggregate corresponding to 20 mm size aggregate and fine aggregate (Zone II) for water-cement ratio of 0.50 = 0.62.\n\nIn the present case water-cementitious ratio is 0.36. Therefore, volume of coarse aggregate is required to be increased to decrease the fine aggregate content. As the water-cement ratio is lower by 0.14, the proportion of volume of coarse aggregate is increased by 0.028 (at the rate of 0.01m3 for every ± 0.05 change in water-cement ratio). Therefore, corrected volume of coarse aggregate for the water-cementitious ratio of 0.36 = 0.62 + 0.028 = 0.648 m3.\n\nFor pumpable concrete these values may be reduced by up to 10 percent. (see 5.5.2). Here, 10 percent reduction is considered.\n\nTherefore, volume of coarse aggregate\n\n= 0. 648 × 0.9 = 0.583 2 say 0.58 m3\n\n\n\n\n\nVolume of fine aggregate content\n\n= 1 – 0.58 = 0.42 m3\n\nC-9  MIX CALCULATION\n\nThe mix calculation per unit volume of concrete shall be as follows:\n\na) Total Volume = 1 m3",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 38,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 27,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 88073,
+      "char_end": 90902,
+      "semantic_chunk_length": 2829,
+      "final_chunk_length": 3131,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0039",
+    "text": "5.2). Here, 10 percent reduction is considered.\n\nTherefore, volume of coarse aggregate\n\n= 0. 648 × 0.9 = 0.583 2 say 0.58 m3\n\n\n\n\n\nVolume of fine aggregate content\n\n= 1 – 0.58 = 0.42 m3\n\nC-9  MIX CALCULATION\n\nThe mix calculation per unit volume of concrete shall be as follows:\n\na) Total Volume = 1 m3\n\n- b) Volume of entrapped air in wet concrete\n= 0.01 m3\n\n- c) Volume of cement\n= Mass of cement / Specific gravity of cement × 1/1 000\n= 259/3.15 × 1/1 000\n= 0.082 2 m3\n- d) Volume of GGBS\n= Mass of GGBS / Specific gravity of GGBS × 1/1 000\n= 172/3 × 1/1 000\n= 0.057 3 m3\n- e) Volume of water\n= Mass of water / Specific gravity of water × 1/1 000\n= 155/1 × 1/1 000\n= 0.155 m3\n- f) Volume of chemical admixture (super plasticizer) @1.0 percent by mass of cementitious material)\n= Mass of chemical admixture / Specific gravity of admixture × 1/1 000\n= 4.31/1.145 × 1/1 000\n= 0.003 8 m3\n\n\nIS 10262 : 2019\n\n- g) Volume of total aggregate = [(a-b)-(c+d+e+f)] = (1-0.01) - (0.0 822+0.0 573+0.155+0.0 038) = 0.691 7 m3\nh) Mass of coarse aggregate = g × Volume of coarse aggregate × Specific\n\n\ngravity of coarse aggregate × 1 000 = 0.6 917 × 0.58 × 2.74 × 1 000 = 1 099 kg j) Mass of fine aggregate = g × Volume of fine aggregate × Specific\n\n\ngravity of fine aggregate × 1 000 = 0.6 971 × 0.42 × 2.65 × 1 000 = 769.86 ≈ 770 kg\n\n\nC-10 MIX PROPORTIONS FOR TRIAL NUMBER 1\n\nCement = 259 kg/m3\n\n\nGGBS = 172 kg/m3\n\n\nWater (Net mixing) = 155 kg/m3\n\nFine aggregate (SSD) = 770 kg/m3\n\nCoarse aggregate (SSD) = 1 099 kg/m3\n\nChemical admixture = 4.31 kg/m3\n\n\nFree water-cementitious material ratio\n\n= 0.36\n\n\nNOTE — Aggregates shall be used in saturated surface dry condition. If otherwise, when computing the requirement of mixing water, allowance shall be made for the free (surface) moisture contributed by the fine and coarse aggregates. On the other hand, if the aggregates are dry, the amount of mixing water shall be increased by an amount equal to the moisture likely to be absorbed by the aggregates. Necessary adjustments are also required to be made in mass of aggregates. The surface water and percent water absorption of aggregates shall be determined according to IS 2386 (Part 3).\n\nC-11 ADJUSTMENT ON WATER, FINE AGGREGATE AND COARSE AGGREGATE (IF THE COARSE AND FINE AGGREGATE IS IN DRY CONDITION)\n\nAs the coarse and fine aggregates are in dry condition, adjustment of water, fine aggregate and coarse aggregate shall be done as given in A-11.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 39,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 90905,
+      "char_end": 93043,
+      "semantic_chunk_length": 2138,
+      "final_chunk_length": 2440,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0040",
+    "text": "mined according to IS 2386 (Part 3).\n\nC-11 ADJUSTMENT ON WATER, FINE AGGREGATE AND COARSE AGGREGATE (IF THE COARSE AND FINE AGGREGATE IS IN DRY CONDITION)\n\nAs the coarse and fine aggregates are in dry condition, adjustment of water, fine aggregate and coarse aggregate shall be done as given in A-11.\n\n## ANNEX D\n\n\n(Clause 6.4)\n\nILLUSTRATIVE EXAMPLE ON CONCRETE MIX PROPORTIONING FOR\n\nHIGH STRENGTH CONCRETE\n\nD-0 An example illustrating the mix proportioning for a concrete of M70 grade using silica fume and fly ash is given below. Use of silica fume is generally\n\nD-1 STIPULATIONS FOR PROPORTIONING\n\nadvantageous for grades of concrete M50 and above and for high performance concrete with special requirements, like higher abrasion resistance of concrete.\n\n- a) Grade designation : M 70 b) Type of cement : OPC 53 grade conforming to IS 269 c) Silica fume : Conforming to IS 15388 d) Maximum nominal size of aggregate : 20 mm e) Exposure conditions as per Table 3 and Table 5 of IS 456 : Severe (for reinforced concrete) f) Workability : 120 mm (slump) g) Method of concrete placing : Pumping h) Degree of supervision : Good j) Type of aggregate : Crushed angular aggregate k) Maximum cement (OPC) content : 450 kg/m3\n- m) Chemical admixture type : Superplasticizer (Polycarboxylate ether based)\nD-2 TEST DATA FOR MATERIALS\n\n- a) Cement used : OPC 53 Grade conforming to IS 269 b) Specific gravity of cement : 3.15 c) Specific gravity of 1) Coarse aggregate (at SSD condition) : 2.74 2) Fine aggregate (at SSD condition) : 2.65 3) Fly ash : 2.20 4) Silica fume : 2.20 5) Chemical admixture : 1.08 d) Water absorption 1) Coarse aggregate : 0.5 percent 2) Fine aggregate : 1.0 percent f) Moisture content\n- 1) Coarse aggregate : Nil 2) Fine aggregate : Nil g) Sieve analysis\n- 1) Coarse aggregate :\n\n| IS Sieve Sizes mm | I (20-10 mm) | Analysis of Aggregate Fraction I (10-4.75 mm) | I 50 Percent | Percentage of Different Fractions II 50 Percent | 100 Percent | Remarks |\n| --- | --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) |\n| 20 10 4.75 | 100 2.8 Nil | 100 78.3 8.70 | 50 1.4 Nil | 50 39.15 4.35 | 100 40.55 4.35 | Conforming to Table 7 of IS 383 |\n\n\n- 2) Fine aggregate : Conforming to grading Zone II of Table 9 of IS 383\n\n\n\n\nD-3 TARGET STRENGTH FOR MIX PROPORTIONING\n\nf’ck= fck+1.65 S\n\n\nor\n\nf’ck= fck + X\n\n\nwhichever is higher.\n\nwhere\n\nf’ck = target average compressive strength at\n\n\n\n28 days,\n\nfck = characteristic compressive strength at\n\n\n\n28 days,\n\nS = standard deviation, and\n\n\nX = factor based on grade of concrete.\n\n\nFrom Table 2, standard deviation, S = 6.0 N/mm2.\n\n\nTherefore, target strength using both equations, that is,\n\na) f’ck = fck+1.65 S\n\n\n= 70 +1.65 × 6.0 = 79.9 N/mm2\n\n\nb) f’ck = fck + 8.0 (The value of X for M 70 grade\n\n\nas per Table 1 is 8.0 N/mm2) = 70 + 8.0 = 78.0 N/mm2\n\n\nThe higher value is to be adopted. Therefore, target strength will be 79.9 N/mm2 as 79.9 N/mm2 > 78.0 N/mm2.\n\n\nD-4 APPROXIMATE AIR CONTENT\n\nFrom Table 6, the approximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is 0.5 percent for 20.0 mm nominal maximum size of aggregate.\n\nD-5 SELECTION OF WATER-CEMENTIOUS MATERIALS RATIO",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 40,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 28,
+      "page_end": 29,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 93048,
+      "char_end": 95944,
+      "semantic_chunk_length": 2896,
+      "final_chunk_length": 3198,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0041",
+    "text": "h will be 79.9 N/mm2 as 79.9 N/mm2 > 78.0 N/mm2.\n\n\nD-4 APPROXIMATE AIR CONTENT\n\nFrom Table 6, the approximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is 0.5 percent for 20.0 mm nominal maximum size of aggregate.\n\nD-5 SELECTION OF WATER-CEMENTIOUS MATERIALS RATIO\n\nFrom Table 8, the water-cementitious materials ratio required for the target strength of 79.9 N/mm2 is 0.29 for msa 20 mm. This is lower than the maximum value of 0.45.\n\n\n0.29< 0.45, hence O.K.\n\nD-6 SELECTION OF WATER CONTENT\n\nFrom Table 7, water content for 20 mm aggregate\n\n= 186 kg/m3 (for 50 mm slump without using\n\nsuperplasticiser). Estimated water content for 120 mm slump\n\n8.4 186 186 100 + ×\n\n=\n\n= 201.624 ≈ 202 kg/m3\n\n\nAs superplasticizer (Polycarboxylate ether based) is used, the water content can be reduced by 30 percent. Hence, the reduced water content\n\n= 202 × 0.70 = 141.4 kg/m3 ≈ 141 kg/m3\n\n\n\nIS 10262 : 2019\n\nD-7 CALCULATION OF CEMENT CONTENT\n\nWater–cement ratio = 0.29 Water content = 141 kg/m3\n\n\nCement content = 141 / 0.29 = 486.2 ≈ 486 kg/m3\n\n\nIt is proposed to add 15 percent fly ash in the mix, in such situations increase in cementitious material content may be warranted. The decision on increase in cementitious material content and its percentage may be based on experience and trial.\n\nNOTE — This illustrative example is with an increase of 10 percent cementitious material content.\n\nThe cementitious material content\n\n= 486 × 1.10 = 534.6 ≈ 535 kg/m3\n\n\nFly ash @ 15 percent by weight of cementitious material\n\n= 535 × 15 percent = 80.25 kg/m3\n\n\nSilica fume content @ 5 percent by weight of revised cementitious material\n\n= 535 × 5 percent = 26.75 kg/m3\n\n\nCement content = 535 – 26.75 – 80.25 = 428 kg/m3\n\n\n141 535 = 0.264\n\nRevised w/cm =\n\nCheck for minimum cementitious materials content, 320 kg/m3 < 535 kg/m3 (428 kg/m3 OPC + 26.75 kg/m3\n\nsilica fume + 80.25 kg/m3 fly ash) Hence OK\n\nCheck for maximum cement(OPC) content, 450 kg/m3\n\n> 428 kg/m3. Hence OK.\n\nD-8 PROPORTION OF VOLUME OF COARSE AGGREGATE AND FINE AGGREGATE CONTENT\n\nFrom Table 10, volume of coarse aggregate corresponding to 20 mm size aggregate and fine aggregate grading Zone II = 0.66 per unit volume of total aggregate. This is valid for water-cementitious materials ratio of 0.30. As water-cementitious material ratio is actually 0.264, the ratio is taken as 0.667.\n\n\nVolume of fine aggregate content\n\n= 1 – 0.667 =  0.333 per unit volume of total aggregate\n\nD-9 MIX CALCULATIONS\n\na) Total volume = 1 m3\n\n\nb) Volume of entrapped air = 0.005 m3\n\n\nin wet concrete",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 41,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 29,
+      "page_end": 29,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 95946,
+      "char_end": 98211,
+      "semantic_chunk_length": 2265,
+      "final_chunk_length": 2567,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0042",
+    "text": "ials ratio of 0.30. As water-cementitious material ratio is actually 0.264, the ratio is taken as 0.667.\n\n\nVolume of fine aggregate content\n\n= 1 – 0.667 =  0.333 per unit volume of total aggregate\n\nD-9 MIX CALCULATIONS\n\na) Total volume = 1 m3\n\n\nb) Volume of entrapped air = 0.005 m3\n\n\nin wet concrete\n\n- c) Volume of cement\n= Mass of cement / Specific gravity of cement × 1/1 000\n= 428/3.15 × 1/1 000\n= 0.136 m3\n- d) Volume of water\n= Mass of water / Specific gravity of water × 1/1 000\n= 141/1 × 1/1 000\n= 0.141 m3\n- e) Volume of silica fume\n= Mass of silica fume / Specific gravity of silica fume × 1/1 000\n= 26.75/2.2 × 1/1 000\n= 0.012 2 m3\n- f) Volume of fly ash\n= Mass of fly ash / Specific gravity of fly ash × 1/1 000\n= 80.25/2.2 × 1/1 000\n= 0.036 5 m3\n- g) Volume of chemical admixture (superplasticizer) (@ 0.5 percent by mass of cementitious material)\n= Mass of chemical admixture / Specific gravity of admixture × 1/1 000\n= (535 × 0.5%)/1.08 × 1/1 000\n= 0.002 5 m3\n\n- h) Volume of all in aggregate = [(a-b)-(c+d+e+ f+g)] = [(1-0.005) – (0.136 + 0.141 + 0.012 2 +\n0.036 5 + 0.002 5)] = 0.66 7 m3\n\nj) Mass of coarse aggregate = h × Volume of coarse aggregate × Specific\n\n\ngravity  of coarse aggregate × 1 000\n\n= 0.667 × 0.667 × 2.74 × 1 000 = 1 218.9 kg ≈ 1 219 kg k) Mass of fine aggregate = h × volume of fine aggregate × Specific\n\n\ngravity of fine aggregate × 1 000 = 0.667 × 0.333 × 2.65 × 1 000 = 588.59 kg ≈ 589 kg\n\n\nD-9.1 MIX PROPORTIONS FOR TRIAL NUMBER 1 ON AGGREGATE IN SSD CONDITION\n\nCement = 428 kg/m3\n\n\nFly ash = 80.25 kg Silica fume = 26.75kg/m3\n\n\nWater = 141 kg/m3\n\n\nFine aggregate = 589 kg/m3\n\n\nCoarse aggregate = 1 219 kg/m3\n\n\nChemical admixture = 2.67 kg/m3\n\n\nw/cm = 0.264\n\n\nNOTE — Aggregates shall be used in saturated surface dry condition. If otherwise, when computing the requirement of mixing water, allowance shall be made for the free (surface) moisture contributed by the fine and coarse aggregates. On the other hand, if the aggregates are dry, the amount of mixing water shall be increased by an amount equal to the moisture likely to be absorbed by the aggregates. Necessary adjustments are also required to be made in mass of aggregates. The surface water and percent water absorption of aggregates shall be determined according to IS 2386 (Part 3).\n\nD-10 The total mass of coarse aggregate shall be divided into two fractions of 20 - 10 mm and 10 - 4.75 mm, in a suitable ratio, to satisfy the overall grading requirements for 20 mm max size aggregate as per Table 7 of IS 383. In this example, the ratio works out to be 50:50 as shown under D-2 (g).\n\nD-11 The slump shall be measured and the water content and dosage of admixture shall be adjusted for achieving the required slump based on trial, if required. The mix proportions shall be reworked for the actual water content and checked for durability requirements.\n\nD-12 Two more trials having variation of ±10 percent of water-cementitious materials ratio in D-9.1 shall be carried out and a graph between these water- cementitious materials ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 42,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 30,
+      "page_end": 30,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 98215,
+      "char_end": 101133,
+      "semantic_chunk_length": 2918,
+      "final_chunk_length": 3220,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0043",
+    "text": "r-cementitious materials ratio in D-9.1 shall be carried out and a graph between these water- cementitious materials ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.\n\n## ANNEX E\n\n\n(Clause 8.4)\n\nILLUSTRATIVE EXAMPLE ON CONCRETE MIX PROPORTIONING FOR SCC\n\nE-0 An example illustrating the mix proportioning procedure for SCC concrete is given in E-1 to E-13.\n\nE- 1 STIPULATIONS FOR PROPORTIONING\n\na) Grade designation : M30 b) Type of cement : OPC 43 grade conforming to IS 269 c) Nominal maximum size of aggregate : 20 mm d) Exposure conditions as per Table 3 and Table 5 of IS 456 : Severe (for reinforced concrete) e) Characteristics of SCC 1) Slump flow class : SF3 (slump flow 760 mm – 850 mm) 2) Passing ability by L box test : Ratio of h2/h1 = 0.9 3) V- Funnel flow time (Viscosity) : Class V1 (flow time ≤ 8s) 4) Sieve segregation resistance : SR1(<15percent) f) Degree of site control : Good g) Type of aggregate : Crushed angular aggregate h) Maximum cement content (OPC Content) : 450 kg/m3\n\n\n- j) Chemical admixtures type 1) Superplasticizer : normal (PCE type) 2) Viscosity modifying agent k) Mineral admixture : Fly ash conforming to IS 3812 (Part 1)\nE-2 TEST DATA FOR MATERIALS\n\n- a) Cement used : OPC 43 Grade conforming to IS 269 b) Specific gravity of cement : 3.15 c) Chemical admixture : Superplasticizer conforming to IS 9103 d) Specific gravity of 1) Coarse aggregate (at SSD condition) : 2.74 2) Fine aggregate (at SSD condition) : 2.65 3) Chemical admixture : 1.08 e) Water absorption 1) Coarse aggregate : 0.5 percent 2) Fine aggregate : 1.0 percent f) Free (surface) moisture 1) Coarse aggregate : Nil (absorbed moisture also nil) 2) Fine aggregate : Nil (absorbed moisture also nil) g) Sieve analysis 1) Coarse aggregate:\nIS Sieve Sizes\n\nAnalysis of Coarse Aggregate\n\nFraction\n\nmm\n\nI (20-10 mm)\n\nII (10 - 4.75 mm)\n\nPercentage of Different Fractions Remarks\n\nI 50 percent II 50 percent 100 percent\n\n\n| IS Sieve Sizes mm | Analysis of Aggregate Fraction I (20-10 mm) | Fraction II (10-4.75 mm) | Percentage of Different Fractions I (50 Percent) | II (50 Percent) | Conforming 100 Percent | Remarks |\n| --- | --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) |\n| 20 | 100 | 100 | 50 | 50 | 100 | Conforming to Table 7 of IS 383 |\n| 10 | 2.8 | 78.3 | 1.4 | 39.15 | 40.55 |  |\n| 4.75 | Nil | 8.70 | Nil | 4.35 | 4.35 |  |\n\n\n- 2) Fine aggregate : Conforming to grading Zone II of Table 9 of IS 383\n\n\n\nE-3 TARGET STRENGTH FOR MIX PROPORTIONING\n\nf’ck = fck+1.65 S\n\n\nor\n\nf’ck = fck + X\n\n\nwhichever is higher.\n\nwhere\n\nf’ck = target average compressive strength at\n\n\n28 days, fck = characteristic compressive strength at\n\n\n\n28 days,\n\nS = standard deviation, and X = factor based on grade of concrete.\n\n\nFrom Table 2, standard deviation, S = 5 N/mm2.\n\n\nFrom Table 1, X = 6.5.\n\n\nTherefore, target strength using both equations, that is\n\na) f’ck = fck+1.65 S\n\n\n= 30 + 1.65 × 5 = 38.25 N/mm2\n\n\nb) f’ck = fck + 6.5\n\n\n= 30 + 6.5 = 36.5 N/mm2\n\n\nThe higher value is to be adopted. Therefore, target strength will be 38.25 N/mm2 as 38.25 N/mm2 > 36.5 N/mm2.\n\n\nE-4 APPROXIMATE AIR CONTENT",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 43,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 31,
+      "page_end": 32,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 101139,
+      "char_end": 104091,
+      "semantic_chunk_length": 2952,
+      "final_chunk_length": 3254,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0044",
+    "text": "herefore, target strength using both equations, that is\n\na) f’ck = fck+1.65 S\n\n\n= 30 + 1.65 × 5 = 38.25 N/mm2\n\n\nb) f’ck = fck + 6.5\n\n\n= 30 + 6.5 = 36.5 N/mm2\n\n\nThe higher value is to be adopted. Therefore, target strength will be 38.25 N/mm2 as 38.25 N/mm2 > 36.5 N/mm2.\n\n\nE-4 APPROXIMATE AIR CONTENT\n\nFrom Table 3, the approximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is 1.0 percent for 20 mm nominal maximum size of aggregate.\n\nE-5 SELECTION OF WATER-CEMENT RATIO\n\nFrom Fig. 1, the free water-cement ratio required for the target strength of 38.25 N/mm2 is 0.43 for OPC 43 grade curve. This is lower than the maximum value of 0.45 prescribed for ‘severe’ exposure for reinforced concrete as per Table 5 of IS 456.\n\n\n0.43< 0.45, hence O.K.\n\nE-6 The initial mix shall be first estimated based on the typical ranges of mix constituents as per 8.3 and keeping in view, the characteristics of the fresh concrete such as flowability, passing ability, segregation resistance and viscosity as per the data for the mix proportioning in E-1.\n\nThe initial mix shall be tested for various characteristics\n\n(materials less than 0.125 mm is 8 percent, based on sieve analysis)\n\nas per IS 1199 (Part 6) and adjustments to the initial mix shall be made till satisfactory characteristics are achieved.\n\nThe various mix design parameters given in this example are only indicative and it may be necessary to carry out adjustments to these parameters during the use of the concrete mix at the project site.\n\nE-7 PROPORTIONING FOR INITIAL MIX\n\nE-7.1 Selection of Water Content and Cement/Fly Ash Content\n\nThe class of slump flow is specified to be SF3 having a slump flow between 750 and 850 mm. To start with, a water content of 190 kg/m3 along with a superplasticizer @ 0.6 percent by mass of cementitious material content is selected for the initial mix. However, the water content can be reduced further by increasing the dose of super plasticizer.\n\nThis water content of 190 kg/m3 will correspond to a cement content of 442 kg/m3 for water cement ratio of 0.43 as worked out in E-5.\n\nThe cement content of 442 kg/m3 can be further divided into OPC and fly ash. Generally fly ash content of 25 to 50 percent is adopted for SCC. In this illustration, as the cement content is on the higher side, the fly ash content is taken as 35 percent. Therefore, the OPC content is for 287 kg/m3 and fly ash content will be 155 kg/m3.\n\nE-7.2 Selection of Admixture Content\n\nTaking an admixture dose of 0.6 percent by mass of cementitious material, the mass of admixture\n\n= 0.6/100 × 442 = 2.65 kg/m3.\n\nE-7.3 Selection of Powder Content and Fine Aggregate Content\n\nThe powder content (fines < 0.125 mm) required for SCC is generally in the range of 400 to 600 kg/m3. Since, the SR of class 1 and viscosity of V1 is required; the mix shall be sufficiently cohesive, (having enough fines). Therefore a powder content of 520 kg/m3 is selected. This powder content will constitute the entire OPC, entire fly ash, and around 10 percent of Zone II fine aggregates.\n\nFines required to be contributed by fine aggregate = Total powder content – (Fly ash content + cement content)\n\n\n= 520 – (155 + 287) = 78 kg/m3",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 44,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 32,
+      "page_end": 32,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 104093,
+      "char_end": 107006,
+      "semantic_chunk_length": 2913,
+      "final_chunk_length": 3215,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0045",
+    "text": "der content of 520 kg/m3 is selected. This powder content will constitute the entire OPC, entire fly ash, and around 10 percent of Zone II fine aggregates.\n\nFines required to be contributed by fine aggregate = Total powder content – (Fly ash content + cement content)\n\n\n= 520 – (155 + 287) = 78 kg/m3\n\nThe fine aggregate has 8 percent materials < 0.125 mm (see 8.1). Therefore, the fine aggregate quantity = 78/0.08 = 975 kg/m3.\n\n\n\n\n\n\nE-7.4 Selection of Coarse Aggregate Content\n\nLet Vca be the volume of coarse aggregate.\n\nAssuming 1 m3 of concrete, Vca = (1 - Air content) - (Vol of water + Vol of cement + Vol of fly ash + Vol of admixture + Volume of fine aggregate)\n\n\n\nVca = (1- 0.01) – (190/1×1 000 + 287/3.15×1 000 + 155/2.2×1 000 + 2.65/1.08×1 000 + 975/2.65×1 000)\n= 0.99 – (0.19 + 0.091 + 0.07 + 0.002 5 + 0.368)\n= 0.269 m3\nMass of coarse aggregate\n= Vca x specific gravity of coarse aggregate × 1 000\n= 0.268 × 2.74 × 1 000\n= 737.06 kg/m3 ≈ 737 kg/m3\nE-7.5 Calculation of Volume of Powder Content\nVol of powder content = Vol of OPC + Vol of fly ash + Vol of portion of fine aggregate < 0.125 mm\n= 287/3.15×1 000 + 155/2.2×1 000 + 78/2.65×1 000\n\n\n= 0.191 m3\n\nRatio of water to powder by volume\n\n= 0.190/ 0.191 = 0.99\n\nNOTE — The water to powder ratio is expected to be between 0.85 and 1.10. In this case, it is ok. If water to powder ratio is found to be less than 0.85, then the fine aggregate content shall be reduced to increase the ratio; if the ratio is more than 1.1, then the fine aggregate content shall be increased to decrease the ratio. In such cases, all the values shall be recalculated.\n\nE-8 MIX PROPORTIONS FOR TRIAL NUMBER 1\n\nCement = 287 kg/m3\n\n\nFlyash = 155 kg/m3\n\n\nWater (net mixing) = 190 kg/m3\n\nFine aggregate (SSD ) = 975 kg/m3\n\nCoarse aggregate (SSD) = 737 kg/m3\n\nChemical admixture = 2.65 kg/m3, Free water-cement ratio = 0.43 Powder content = 520 kg/m3\n\n\nWater powder ratio by volume = 0.99\n\n\n\nIS 10262 : 2019\n\nNOTE — Aggregates shall be used in saturated surface dry condition. If otherwise, when computing the requirement of mixing water, allowance shall be made for the free (surface) moisture contributed by the fine and coarse aggregates. On the other hand, if the aggregates are dry, the amount of mixing water shall be increased by an amount equal to the moisture likely to be absorbed by the aggregates. Necessary adjustments are also required to be made in mass of aggregates. The surface water and percent water absorption of aggregates shall be determined according to IS 2386 (Part 3).\n\nE-9 The total mass of coarse aggregate shall be divided into two fractions of 20 - 10 mm and 10 - 4.75 mm, in a suitable ratio, to satisfy the overall grading requirements for 20 mm max size aggregate as per Table 7 of IS 383. In this example, the ratio works out to be 50:50 as shown under E-2 (g).\n\nE-10 The various tests for flowability (slump flow test), for passing ability (L box test), for sieve segregation resistance and for viscosity (V funnel) shall be carried out and the values obtained shall be verified as per the data given in E.1 (e).\n\nIn the event that satisfactory performance is not obtained, the initial mix shall be redesigned. Depending on the apparent problem, the following courses of action might be appropriate:",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 45,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 32,
+      "page_end": 33,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 107008,
+      "char_end": 109979,
+      "semantic_chunk_length": 2971,
+      "final_chunk_length": 3273,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0046",
+    "text": "osity (V funnel) shall be carried out and the values obtained shall be verified as per the data given in E.1 (e).\n\nIn the event that satisfactory performance is not obtained, the initial mix shall be redesigned. Depending on the apparent problem, the following courses of action might be appropriate:\n\n- a) Adjust the cement/powder ratio and the water/ powder ratio and test the flow and other properties of the paste. b) Try higher doses of fly ash and/or different types of additives (if available). c) Adjust the proportions of the fine aggregate and the dosage of superplasticiser. d) Consider using a viscosity modifying agent to reduce sensitivity of the mix. e) Adjust the proportion or grading of the coarse aggregate.\nIn the present case, based on trials the need was felt to use a small dose (0.2 percent by weight of cementitious materials) of viscosity modifying agent to improve sensitivity of the mix, that is, improve the cohesiveness of the mix.\n\nE-11 Two more trials having variation of ± 10 percent of water-cement ratio in E-10 shall be carried out and a graph between three water-cement ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 46,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 33,
+      "page_end": 33,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 109981,
+      "char_end": 110969,
+      "semantic_chunk_length": 988,
+      "final_chunk_length": 1290,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0047",
+    "text": " variation of ± 10 percent of water-cement ratio in E-10 shall be carried out and a graph between three water-cement ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.\n\n## ANNEX F\n\n\n(Clause 9.12)\n\nILLUSTRATIVE EXAMPLE ON CONCRETE MIX PROPORTIONING FOR MASS CONCRETING\n\nF-0 An example illustrating the mix proportioning procedure for mass concreting is given in F-1 to F-14.\n\nF-1 STIPULATIONS FOR PROPORTIONING\n\n- a) Grade designation : M15 b) Type of cement : OPC 43 grade conforming to IS 269 c) Type of mineral admixture : Fly ash conforming to IS 3812 (Part1) d) Maximum nominal size of aggregate : 150 mm e) Minimum cement content and maximum water-cement ratio to be adopted and/or : Moderate (for plain concrete) Exposure conditions as per Table 3 and Table 5 of IS 456 f) Workability : 50 mm (slump) g) Degree of supervision : Good h) Type of aggregate : Rounded aggregate j) Maximum cement (OPC) content : 450 kg/m3\n- k) Chemical admixture : Not required as rounded aggregate of 150 mm msa is being used\nF-2 TEST DATA FOR MATERIALS\n\n- a) Cement used : OPC 43 grade conforming to IS 269 b) Specific gravity of cement : 3.15 c) Fly ash : Conforming to IS 3812 (Part 1) d) Specific gravity of fly ash : 2.2 e) Specific gravity of 1) Coarse aggregate(at SSD condition) : 2.74 2) Fine aggregate(at SSD condition) : 2.65 f) Water absorption 1) Coarse aggregate : 0.5 percent 2) Fine aggregate : 1.0 percent g) Free (surface) moisture 1) Coarse aggregate : Nil (absorbed moisture also nil) 2) Fine aggregate : Nil (absorbed moisture also nil) h) Sieve analysis 1) Coarse aggregate :\n\n| Sieve Size mm | Percentage Passing Fraction I (150-80 mm) | Fraction II (80-40 mm) | Fraction III (40-20 mm) | Fraction IV (20-10 mm) | Fraction V (10-4.75 mm) |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| 150 | 100 | 100 | 100 | 100 | 100 |\n| 80 | Nil | 92 | 100 | 100 | 100 |\n| 40 | Nil | 5 | 90 | 100 | 100 |\n| 20 | – | Nil | 4 | 97 | 100 |\n| 10 | – | – | Nil | 10 | 78 |\n| 4.75 | – | – | – | 2 | 10 |\n\n\n\n\n\n\nF-3 TARGET STRENGTH FOR MIX PROPORTIONING\n\nf’ck = fck+1.65 S\n\n\nor f’ck = fck + X whichever is higher.\n\n\nwhere\n\nf’ck = target average compressive strength at\n\n\n28 days, fck = characteristic compressive strength at\n\n\n28 days, S = standard deviation, and X = factor based on grade of concrete.\n\n\nFrom Table 2, standard deviation, S = 3.5 N/mm2.\n\n\nFrom Table 1, X = 5.\n\n\nTherefore, target strength using both equations, that is,\n\na) f’ck = fck+1.65 S\n\n\n= 15 + 1.65 × 3.5 = 20.77 N/mm2\n\n\nb) f’ck = fck + 5\n\n\n= 15 + 5 = 20 N/mm2\n\n\nThe higher value is to be adopted. Therefore, target strength will be 20.77 N/mm2 as 20.77 N/mm2 > 20 N/mm2.\n\n\nIncrease in target strength due to wet sieving through 40 mm size sieve, as per 9.2 = 25 percent\n\nTherefore, final target strength = 20.77 × 1.25 = 26.0 N/mm2.\n\n\nNOTE — This increase in target strength due to wet sieving effect is only for cube test results and not to be considered for selection of water cement ratio.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 47,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 34,
+      "page_end": 35,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 110974,
+      "char_end": 113792,
+      "semantic_chunk_length": 2818,
+      "final_chunk_length": 3120,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0048",
+    "text": "strength due to wet sieving through 40 mm size sieve, as per 9.2 = 25 percent\n\nTherefore, final target strength = 20.77 × 1.25 = 26.0 N/mm2.\n\n\nNOTE — This increase in target strength due to wet sieving effect is only for cube test results and not to be considered for selection of water cement ratio.\n\nF-4 APPROXIMATE AIR CONTENT From Table 11, the approximate amount of entrapped air to be expected in normal (non-air-entrained) concrete is 0.2 percent for 150 mm nominal maximum size of aggregate.\n\nF-5 SELECTION OF WATER-CEMENT RATIO From Fig. 1, the free water-cement ratio required for the target strength of 20.77 N/mm2 is 0.61 for OPC 43 grade curve. This is higher than the maximum value of 0.6 prescribed for ‘moderate’ exposure for plain concrete as per Table 5 of IS 456.\n\n\n0.61 > 0.6, hence adopt 0.6.\n\nF-6 SELECTION OF WATER CONTENT\n\nFrom Table 12, water content\n\n= 125 kg (for 50 mm slump) for 150 mm aggregate.\n\nAs rounded aggregate is used, the water content may be reduced by 10 kg as per 9.4,\n\nHence the reduced water content\n\n= 125 - 10 = 115 kg\n\n\nIS 10262 : 2019\n\nF-7 CALCULATION OF CEMENT CONTENT\n\nWater-cement ratio = 0.60\n\n\n115 0.6 = 191.67 kg/m3\n\nCement content =\n\n≈192 kg/m3\n\n\nTo proportion a mix containing fly ash the following steps are suggested:\n\n- a) Decide the percentage fly ash to be used based on project requirement and quality of fly ash. b) In certain situations increase in cementitious material content may be warranted. The decision on increase in cementitious material content and its percentage may be based on experience and trial.\nNOTE — This illustrative example is with increase of 15 percent cementitious material content.\n\nCementitious material content = 192 × 1.15 = 220.8 kg/m3\n\n\n≈ 221 kg/m3\n\n\nWater content = 115 kg/m3\n\n\nSo, water-cementitious materials ratio\n\n= 115\n\n\n221 = 0.52\n\nFly ash @ 25 percent of total cementitious material\n\ncontent = 221 × 25 percent = 55 kg/m3\n\n\nCement (OPC) = 221 – 55\n\n= 166 kg/m3\n\nFrom Table 5 and Table 6 of IS 456, minimum cement\n\ncontent for ‘moderate’ exposure condition\n\n= 240 – 30 kg/m3\n\n= 210 kg/m3\n\n[considering the maximum (40 mm) msa correction in Table 6 of IS 456, the value in Table 5 of IS 456 has been adjusted]\n\n221 kg/m3>210 kg/m3, hence, O.K.\n\nF-8 PROPORTION OF VOLUME OF COARSE AGGREGATE AND FINE AGGREGETE CONTENT\n\nFrom Table 13, volume of coarse aggregate corresponding to 150 mm size aggregate and fine aggregate (Zone II) for water-cement ratio of 0.50 = 0.78.\n\n\n\nIn the present case water-cementitious ratio is 0.52. Therefore, volume of coarse aggregate is required to be increased to decrease the fine aggregate content. As the water-cement ratio is increased by 0.02, the proportion of volume of coarse aggregate is decreased by 0.004 (at the rate of 0.01 for every ± 0.05 change in water-cement ratio).\n\nTherefore, corrected proportion of volume of coarse aggregate for the water-cementitious ratio of 0.52 = 0.78 – 0.004 = 0.776.\n\nVolume of fine aggregate content = 1 – 0.776 = 0.224\n\n\nF-9 MIX CALCULATIONS\n\nThe mix calculations per unit volume of concrete shall be as follows:\n\na) Total volume = 1 m3\n\n\nb) Volume of entrapped air in wet concrete = 0.002 m3",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 48,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 35,
+      "page_end": 36,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 113794,
+      "char_end": 116662,
+      "semantic_chunk_length": 2868,
+      "final_chunk_length": 3170,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0049",
+    "text": "gregate for the water-cementitious ratio of 0.52 = 0.78 – 0.004 = 0.776.\n\nVolume of fine aggregate content = 1 – 0.776 = 0.224\n\n\nF-9 MIX CALCULATIONS\n\nThe mix calculations per unit volume of concrete shall be as follows:\n\na) Total volume = 1 m3\n\n\nb) Volume of entrapped air in wet concrete = 0.002 m3\n\n- c) Volume of cement\n= Mass of cement / Specific gravity of cement × 1/1 000\n= 166/3.15 × 1/1 000\n= 0.0 52 7 m3\n- d) Volume of fly ash\n= Mass of fly ash / Specific gravity of fly ash × 1/1 000\n= 55/2.2 × 1/1 000\n= 0.025 m3\n- e) Volume of water\n= Mass of water / Specific gravity of water × 1/1 000\n= 115/1 × 1/1 000\n= 0.115 m3\n- f) Volume of all in aggregate\n= [(a - b) - (c + d + e)] = (1 - 0.002) – (0.052 7 + 0.025 + 0.115)\n= 0.805 3 m3\n- g) Mass of coarse aggregate\n= f × volume of coarse aggregate × specific gravity of coarse aggregate × 1 000\n= 0.805 3 × 0.776 × 2.74 × 1 000\n= 1 712.26 kg ≈ 1 712 kg\n- h) Mass of fine aggregate\n= g × volume of fine aggregate × specific gravity of fine aggregate × 1 000\n= 0.805 3 × 0.224 ×2.65 × 1 000\n= 478.02 ≈ 478 kg\n\nF-10 CHECK ON MORTAR CONTENT\n\nMortar content, Mc = Vc + Vf + Vw + Vfa+ Va\n\n\nwhere\n\n\nVc = volume of cement = 0.0527 m3\nVf = volume of fly ash = 0.025 m3\nVw = volume of water = 0.115 m3\nVfa = volume of fine aggregate = 0.180m3\nVa = volume of air = 0.002 m3\nSo, Mc = 0.375 kg/m3\n\nThe volume of mortar content satisfies the requirement of 0.37 ± 0.01 for rounded aggregates for 150 mm msa (see Table 15).\n\nF-11 MIX PROPORTIONS FOR TRIAL NUMBER 1\n\nCement = 166 kg/m3\nFly ash = 55 kg/m3\nWater (Net mixing) = 115 kg/m3\nFine aggregate (SSD) = 478 kg/m3\nCoarse aggregate (SSD) = 1 712 kg/m3\n\n\n| Sieve Size mm | Fraction I (150-80 mm) | Fraction II (80-40 mm) | Fraction III (40-20 mm) | Fraction IV (20-10 mm) | Fraction V (10-4.75 mm) | Percentage of Different Fractions I (35%) | II (30%) | III (15%) | IV (10%) | V (10%) | Combined Grading Obtained | Combined Grading Requirement |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n\n\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) | (11) | (12) | (13) |\n\n| 150 | 100 | 100 | 100 | 100 | 100 | 35 | 30 | 15 | 10 | 10 | 100 | 100 |\n| 80 | 0 | 92 | 100 | 100 | 100 | 0 | 27.6 | 15 | 10 | 10 | 62.6 | 55 to 65 |\n| 40 | 0 | 5 | 90 | 100 | 100 | 0 | 1.5 | 13.5 | 10 | 10 | 35 | 29 to 40 |\n| 20 | 0 | 0 | 4 | 97 | 100 | 0 | 0 | 0.6 | 9.7 | 10 | 20.3 | 14 to 22 |\n| 10 | 0 | 0 | 0 | 10 | 78 | 0 | 0 | 0 | 1 | 7.8 | 8.8 | 6 to 10 |\n| 4.75 | 0 | 0 | 0 | 2 | 10 | 0 | 0 | 0 | 0.2 | 1 | 1.2 | 0 to 5 |\n\n\n\n\nFree water-cementitious materials ratio\n\n= 0.52\n\n\nF-12 The total mass of coarse aggregate shall be divided into five fractions of 150/80 mm, 80/40 mm, 40/20 mm, 20/10 mm, and 10/4.75 mm, in a suitable ratio, to satisfy the overall grading requirements for 150 mm max size aggregate as per Table 14. In this example, based on various adjustments the ratio works out to be 35:30:15:10:10 as shown below, to meet the combined grading requirements for 150 mm msa as given in Table 14.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 49,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 36,
+      "page_end": 37,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 116665,
+      "char_end": 119391,
+      "semantic_chunk_length": 2726,
+      "final_chunk_length": 3028,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0050",
+    "text": "75 mm, in a suitable ratio, to satisfy the overall grading requirements for 150 mm max size aggregate as per Table 14. In this example, based on various adjustments the ratio works out to be 35:30:15:10:10 as shown below, to meet the combined grading requirements for 150 mm msa as given in Table 14.\n\nNOTE — Aggregates shall be used in saturated surface dry condition. If otherwise, when computing the requirement of mixing water, allowance shall be made for the free (surface) moisture contributed by the fine and coarse aggregates. On the other hand, if the aggregates are dry, as is the present case, the amount of mixing water shall be increased by an amount equal\n\nIS 10262 : 2019\n\nto the moisture likely to be absorbed by the aggregates. Necessary adjustments are also required to be made in mass of aggregates. The surface water and percent water absorption of aggregates shall be determined according to IS 2386 (Part 3).\n\nF-13 The slump shall be measured and the water content shall be adjusted for achieving the required slump based on trial, if required. The mix proportions shall be reworked for the actual water content and checked for durability requirements.\n\nF-14 Two more trials having variation of ±10 percent of water-cementitious materials ratio in   F-11 shall be carried out and a graph between these water- cementitious materials ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 50,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 37,
+      "page_end": 37,
+      "clause": "ANNEX F",
+      "heading": "ANNEX F",
+      "heading_path": [
+        "ANNEX F"
+      ],
+      "char_start": 119393,
+      "char_end": 120628,
+      "semantic_chunk_length": 1235,
+      "final_chunk_length": 1537,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0051",
+    "text": "-cementitious materials ratio in   F-11 shall be carried out and a graph between these water- cementitious materials ratios and their corresponding strengths shall be plotted to work out the mix proportions for the given target strength for field trials. However, durability requirement shall be met.\n\n## ANNEX G\n\n\n(Informative) (Foreword, Clauses 5.3 and 6.2.4)\n\nGUIDELINES FOR SELECTION OF APPROPRIATE WATER REDUCING ADMIXTURES\n\nG-1 Cement particles have a strong tendency to flocculate when they come in contact with water. Even atmospheric moisture is sufficient to result in flocculation of cement. The flocculation of cement results in the formation of a network of cement particles which trap part of mix water in the network voids. The water which is held by cement particles at molecular level is not available for the hydration of the cement particles and for the improvement of workability of the mix. These effects result in the stiffening of the cementitious system.\n\nWater reducers are negatively charged organic molecules that adsorb primarily at the solid-liquid interface with cement and water. Water reducers cause uniformity of like charges at the cement particle surfaces, causing them to repel each other. This disperses the particles in the paste. G-2 Effects of Dispersion\n\n- a) Option 1 — This dispersion increases the effectiveness of the water, causing the mix to become much more fluid for any given water content. The effect is called plasticising or\n\nsuper plasticising, depending on the degree of fluidity obtained. b) Option 2 — If the increased fluidity is not required, the water content of the mix can be decreased, giving a lower water/cement ratio and hence increased strength and durability. This is called ‘water reduction’ or ‘high range water reduction’. c) Option 3 — A third option is to use an admixture dosage that will ensure both of these effects at the same time, for example lower water/cement ratio and some increase in fluidity.\n\nThe primary difference between high range water reducing and conventional water-reducing admixtures is that high-range water-reducing (HRWR) admixtures, often referred to as superplasticizers, may reduce the water requirement by more than 30 percent, without the side effect of excessive retardation. G-3 The main constituents of water reducing admixtures (plasticisers) are lignosulhonates or selected carbohydrates. The typical dose of plasticisers is in the\n\n\n\nrange of is 0.3 to 0.5 percent and water reduction of 8 to 12 percent can be achieved. These may be adopted for lower grades of concrete.\n\nHRWR admixtures (superplasticisers) are organic products that typically fall into three families based on ingredients:\n\n- 1) Sulfonated melamine-formaldehyde condensate, SMFC; 2) Sulfonated naphthalene-formaldehyde condensate SNFC; and 3) Polyether-polycarboxylates, PCE.\nThe typical dose of superplastisers is in the range of 0.5 to 1.5 percent and water reduction of 15 to 30 percent and more can be achieved. PCE type superplasticers are used in lower dosages and give high water reduction of 30 percent and more and are particularly suitable for high strength concrete and for self compacting concrete.",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 51,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 37,
+      "page_end": 38,
+      "clause": "ANNEX G",
+      "heading": "ANNEX G",
+      "heading_path": [
+        "ANNEX G"
+      ],
+      "char_start": 120631,
+      "char_end": 123518,
+      "semantic_chunk_length": 2887,
+      "final_chunk_length": 3189,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10262_0052",
+    "text": "s is in the range of 0.5 to 1.5 percent and water reduction of 15 to 30 percent and more can be achieved. PCE type superplasticers are used in lower dosages and give high water reduction of 30 percent and more and are particularly suitable for high strength concrete and for self compacting concrete.\n\nG-4 The adverse effects on slump loss, delayed setting time of concrete and additional air entrapment shall be kept in mind while deciding type and dosage of various\n\nadmixtures. While retarding type superplasticisers may be more appropriate in certain cases to avoid abnormal slump loss due to longer transportation time and relatively lower dosages may be adopted to avoid adverse effects of delayed setting time of concrete and additional air entrainment. Few trials may be very useful for this purpose.\n\nG-5 Sometimes problems due to cement admixture incompatibility are experienced. An admixture that produces all the desired effects with one cement may not do the same with another cement. This problem is particularity experienced when the supply of cement and/or admixture is changed midway through a project. Cement admixture incompatibility may result in rapid loss of workability, bleeding and segregation of concrete, acceleration/ retardation of setting, low rates of strength gain and entrainment of air. Compatible combinations of cement and superplasticiser may be selected by trials or by simple tests like Marsh cone test.\n\nG-6 Admixtures shall satisfy all requirements of IS 9103 and IS 456.\n\n\n\n\n\n## ANNEX H\n\n\n(Foreword)\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards : Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: CED 02 (11290).\n\nAmendments Issued Since Publication\n\n\n| Amend No. Date of Issue |  |  |  |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "10262.md",
+      "chunk_index": 52,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 38,
+      "page_end": 39,
+      "clause": "ANNEX G",
+      "heading": "ANNEX G",
+      "heading_path": [
+        "ANNEX G"
+      ],
+      "char_start": 123520,
+      "char_end": 126192,
+      "semantic_chunk_length": 2672,
+      "final_chunk_length": 2974,
+      "standard_no": "IS 10262",
+      "year": "2019",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

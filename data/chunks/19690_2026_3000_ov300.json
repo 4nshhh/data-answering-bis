@@ -1,0 +1,191 @@
+[
+  {
+    "id": "19690_2026_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2026 Price Group 7\n\n\n\n\nMedia and Entertainment Services Sectional Committee, SSD 13\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Media and Entertainment Services Sectional Committee had been approved by the Service Sector Division Council.\n\nIn the digital age, video games, whether played online or offline, have become a ubiquitous form of digital entertainment for people of all ages. As the nature of these games continues to evolve and diversify, it becomes crucial to provide a clear and consistent framework for age-rating and content description for the benefit of consumers. This enables consumers, particularly parents and guardians, to make informed decisions about the suitability of gaming content for different age groups.\n\nThis Indian standard specifies the age-rating labels and content descriptors based on the content of video games and digital games that are published and distributed publicly, including through online mechanisms. By establishing these standards, we aim to promote a safer and more transparent gaming environment, which protects younger audiences from potentially inappropriate content while balancing the creative freedom of game studios.\n\nThis standard has been prepared to provide consumers of video games with age-specific content rating information to determine the appropriateness of game content made available within the territory of India. This standard shall be applicable for game publishers and electronic distribution platforms. It provides a clear methodology for categorizing game content and assigning appropriate age ratings, enhancing the overall transparency and accountability within the gaming industry.\n\nThe composition of the committee responsible for the formulation of this standard is given in Annex C.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be same as that of the specified value in this standard.\n\n\n\n\nIndian Standard VIDEO AND DIGITAL GAMES — AGE-RATING AND CONTENT DESCRIPTOR LABELS — SPECIFICATION\n\n\n## 1 SCOPE\n\nThis standard specifies the age-rating labels and content descriptors based on the content of video games and digital games that are published and distributed publicly.",
+    "metadata": {
+      "source": "19690_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2669,
+      "semantic_chunk_length": 2668,
+      "final_chunk_length": 2668,
+      "standard_no": "IS 19690",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19690_2026_0001",
+    "text": "this standard.\n\n\n\n\nIndian Standard VIDEO AND DIGITAL GAMES — AGE-RATING AND CONTENT DESCRIPTOR LABELS — SPECIFICATION\n\n\n## 1 SCOPE\n\nThis standard specifies the age-rating labels and content descriptors based on the content of video games and digital games that are published and distributed publicly.\n\n## 2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provision of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of these standards:\n\nIS No. Title\n\nIS 19226 : 2025 Media and entertainment — New media services — Vocabulary\n\n\n## 3 TERMS AND DEFINITIONS\n\nFor the purposes of this standard, the definitions given in IS 19226 and the following shall apply:\n\n\n3.1 Age-Rating Mark — A classification assigned to video or digital games that indicates the suitability of the content for specific age groups based on the presence of elements such as violence, language, sexual content, or other mature themes.\n\n\n3.2 Content Descriptor — Terms that accompany and aid an age-rating mark under this standard in providing specific information about the type of content that led to the age-rating classification, which assists consumer in making informed decisions.\n\n\n### 3.3 Age-Rating and Content Descriptor Label — Display of age-rating classification and content description categories as specified under this standard for video or digital games.\n\n\n## 4  AGE-RATING MARK CATEGORIES\n\nVideo or digital games published, or distributed, shall carry the appropriate Age-Rating Mark, in uppercase letters, which may be self-assessed, as provided in Table 1, except in cases of limited display size, as specified under 6.2.5 where a modified label may be applicable.\n\n\n## 5  CONTENT DESCRIPTORS CATEGORIES\n\nVideo or digital games published, or distributed, shall carry the appropriate content descriptors in lowercase letters separated by commas, which may be self-assessed according to content within the game as provided in Table 2, except under the condition of limited display-size, as specified under 6.2.5 where a modified label may be applicable.",
+    "metadata": {
+      "source": "19690_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2672,
+      "char_end": 4668,
+      "semantic_chunk_length": 1996,
+      "final_chunk_length": 2298,
+      "standard_no": "IS 19690",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19690_2026_0002",
+    "text": "ed, shall carry the appropriate content descriptors in lowercase letters separated by commas, which may be self-assessed according to content within the game as provided in Table 2, except under the condition of limited display-size, as specified under 6.2.5 where a modified label may be applicable.\n\n## 6 LABELING AND CONSUMER INFORMATION\n\n\n### 6.1 Legibility of Label\n\n\n6.1.1  The age-rating and content descriptor label on video games, or their marketing material, applicable to games made available through physical or digital storefronts, shall be clearly and legibly displayed to ensure easy visibility and understanding.\n\n\n6.1.2  The age-rating and content descriptor label shall be displayed on the game box art, digital game or app storefronts, television advertisement, digital advertisements, and physical advertisements of the relevant game.\n\n\n6.1.3  The text, symbols, and background contrast shall be designed to meet the appropriate legibility requirements, enabling clear reading under normal usage conditions.",
+    "metadata": {
+      "source": "19690_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "6",
+      "heading": "6 LABELING AND CONSUMER INFORMATION",
+      "heading_path": [
+        "6 LABELING AND CONSUMER INFORMATION"
+      ],
+      "char_start": 4671,
+      "char_end": 5396,
+      "semantic_chunk_length": 725,
+      "final_chunk_length": 1027,
+      "standard_no": "IS 19690",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19690_2026_0003",
+    "text": "al game or app storefronts, television advertisement, digital advertisements, and physical advertisements of the relevant game.\n\n\n6.1.3  The text, symbols, and background contrast shall be designed to meet the appropriate legibility requirements, enabling clear reading under normal usage conditions.\n\n### 6.2 Label Size, Proportions and Placement\n\n\n6.2.1  The age-rating label shall be placed at a prominent location on the primary display panel or the initial viewing screen of the digital storefront for the relevant game.\n\n\n6.2.2  The outer boundary of the label shall be a square bisected into two equal halves by a single horizontal line. The dimensions of the label shall conform to requirements mentioned in Fig. 1.\n\n\n6.2.3 The total length of the label shall equal the total width of the label. The length of the upper and lower compartments of the label shall also be equal to each other.\n\n\n6.2.4  The text constituting the age-rating mark shall be centrally placed in the upper compartment of the label, whereas the text constituting the content descriptor shall be placed within the lower compartment in accordance with the legibility standards.\n\n\n\nTable 1 Age-Rating Mark Categories\n\n(Clause 4)\n\n\n**Table 1 Age-Rating Mark Categories**\n\n|  | Sl No. |  |  | Age-Rating Mark |  |  | Appropriate Use Case Based on In-Game Content |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  | (2) |  |  |  |  |\n|  | (1) |  |  |  |  |  | (3) |  |\n\n\nApplicable to content that is suitable for all ages, and may contain cartoon or fantasy elements. Should not contain any bad language or harmful visuals.\n\nU/A 0+\n\nii)\n\nApplicable to content that is suitable for ages 3 and up, and may contain cartoon, fantasy, a very mild form of violence or mild language (in a comical context or a childlike setting) is acceptable. No bad language should be heard. The game should not contain any sounds or pictures that are likely to frighten young children.\n\nU/A 3+\n\nApplicable to content that is suitable for ages 7 and up. May contain unrealistic/mild violence, and/or language to a slightly greater degree than U/A 3+ rated content.\n\niii)\n\nU/A 7+\n\n- iv) U/A 13+ Applicable to content that is suitable for ages 13 and up. May contain violence, suggestive themes, crude humour, minimal blood, or infrequent usage of strong abusive language.\n- v) U/A 16+ Applicable to content that is suitable for ages 16 and up. May contain intense violence, blood, gore, sexual content, simulated gambling, or very strong and abusive language.\n- vi) A Applicable to content that is suitable for adults only. May contain prolonged scenes of intense violence or graphic sexual content.\n\n\n\nTable 2 Content Descriptors Categories\n\n(Clause 5)\n\n\n**Table 2 Content Descriptors Categories**\n\n|  | Sl No. |  |  | Content Descriptor |  | Appropriate Use Case Based on In-Game Content |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n|  | (1) |  |  | (2) |  | (3) |  |",
+    "metadata": {
+      "source": "19690_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 5,
+      "clause": "6.2",
+      "heading": "6.2 Label Size, Proportions and Placement",
+      "heading_path": [
+        "6 LABELING AND CONSUMER INFORMATION",
+        "6.2 Label Size, Proportions and Placement"
+      ],
+      "char_start": 5399,
+      "char_end": 8053,
+      "semantic_chunk_length": 2654,
+      "final_chunk_length": 2956,
+      "standard_no": "IS 19690",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19690_2026_0004",
+    "text": "phic sexual content.\n\n\n\nTable 2 Content Descriptors Categories\n\n(Clause 5)\n\n\n**Table 2 Content Descriptors Categories**\n\n|  | Sl No. |  |  | Content Descriptor |  | Appropriate Use Case Based on In-Game Content |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n|  | (1) |  |  | (2) |  | (3) |  |\n\n- i) Violence Any depiction of brutal physical force intended to harm or kill involving blood, including realistic and fantasy violence.\n- ii) Vulgar language Abusive, vulgar, or derogatory language that may offend and impact the sensibilities of an ordinary viewer.\n- iii) Nudity The depiction of the human body where genitalia, buttocks, or female breasts are exposed, in a sexual or non-sexual context. This descriptor is applicable to either partial or full nudity.\n- iv) Sexual content Content that refers to any depiction or representation of sexual behavior, activities, or themes.\n- v) In-game purchases This descriptor is applicable where the game offers users the option to exchange real-world currency for access to virtual goods, services, or benefits within the game.\n- vi) Substance abuse The portrayal or depiction of the use, consumption, or trafficking of illegal drugs, alcohol, or tobacco, including scenes that glorify or trivialize substance use.\n- vii) Gambling Content that promotes or glorifies betting or gambling activities.\n- viii) Socially sensitive themes\nContent that significantly relates to social discrimination, race, religious symbols, deities, caste, nationality, gender, physical and mental disability, and which may impact the sentiments of domestic communities.\n\n\n|  |  | Total width of label (2x) |  |\n| --- | --- | --- | --- |\n| U/A 13+ |  |  |  |\n| violence, in-game purchases, vulgar language |  |  |  |\n\n\n|  | Length of upper compartment (x) |\n| --- | --- |\n|  | Length of lower compartment (x) |\n\n\nTotal length of label\n\n(2x)\n\n\n**FIG. 1 SAMPLE AGE-RATING AND CONTENT DESCRIPTOR LABEL**\n\n\n\nshall conform to the current version of the W3C HTML Living Standard, as maintained by the Web Hypertext Application Technology Working Group (WHATWG).\n\nThe typeface of all text constituting elements of the label shall be ‘Roboto’, as maintained and published by Google Fonts at fonts.google.com. The size of text should be adequate to ensure the legibility of all information presented on the label.\n\n13+\n\nolour\n\nOnce applied to a game, the age-rating and content descriptor label shall not be edited, obscured, altered, or removed under any circumstances. The label shall remain intact and visible for the duration of the game's availability on any platform to ensure consistent consumer information.",
+    "metadata": {
+      "source": "19690_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "6.2",
+      "heading": "6.2 Label Size, Proportions and Placement",
+      "heading_path": [
+        "6 LABELING AND CONSUMER INFORMATION",
+        "6.2 Label Size, Proportions and Placement"
+      ],
+      "char_start": 8056,
+      "char_end": 10392,
+      "semantic_chunk_length": 2336,
+      "final_chunk_length": 2638,
+      "standard_no": "IS 19690",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19690_2026_0005",
+    "text": "13+\n\nolour\n\nOnce applied to a game, the age-rating and content descriptor label shall not be edited, obscured, altered, or removed under any circumstances. The label shall remain intact and visible for the duration of the game's availability on any platform to ensure consistent consumer information.\n\n## ANNEX A\n\n(Normative)\n\n(Clause 6.2.5)\n\nDIGITAL ITEM DIMENSIONS AND DESIGN SPECIFICATIONS\n\nA-1 SHAPE AND DIMENSIONS\n\nA-1.1 The age-rating icon shall be square in shape.\n\nA-1.2 The following two standard sizes are permitted:\n\n- a) 34 × 34 pixels for app store and high resolution web use (see Fig. 2A).\n- b) 14 × 14 pixels for small web displays (see Fig. 2B).\n34 px\n\n34 px\n\n\n**FIG. 2A SHAPE AND DIMENSION OF ICON**\n\nFOR APP STORE AND HIGH RESOLUTION\n\nWEB USE\n\nA-2 TYPEFACE\n\n14 px\n\n14 px\n\n\n**FIG. 2B SHAPE AND DIMENSION**\n\nOF ICON FOR SMALL WEB\n\nDISPLAYS\n\nA-2.1 The font for all text shall be ‘Roboto’, as maintained and published by Google fonts at fonts.google.com.\n\nA-2.2 The text shall be rendered in medium weight for visibility. No additional effects (outline, shadow, gradient) shall be applied.\n\nA-2.3 The illustrative example of the typeface to be used in the icon is given in Fig. 3.\n\n\n**FIG. 3 TYPEFACE**\n\n\n\nA-3 COLOUR SPECIFICATION\n\nA-3.1 The following two colour schemes are permitted:\n\n- a) Background #FFFFFF and Text #000000 for usage in dark mode (see Fig. 4A); and\n- b) Background #000000 and Text #FFFFFF for usage in light mode (see Fig. 4B).\n\n|  | 16 |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| FI STR STR TE FIG. 4 | LL COLOUR OKE COLOU OKE WEIG XT COLOUR A ICON FO DARK M | #FFFFFF R #000000 HT 1 UNIT #000000 R USAGE IN ODE |  |  |  |\n|  |  | OMPOSITI ally aligned b lude any bord le for alignm |  |  |  |\n|  |  |  | 1 |  |  |\n|  |  |  |  | 6 |  |\n|  |  | IG. 5 EXAMPL | E FOR A | LIGNMENT | AND COMPO |\n\n\n```text\nLL COLOUR #000 OKE COLOUR #F OKE WEIGHT 1 XT COLOUR #FFF B ICON FOR US LIGHT MODE\n```\n\n\nA-5 FILE FORMAT AND USAGE\n\nA-5.1 Icons shall be exported as .PNG or .SVG files with transparent background and shall maintain aspect ratio without distortion.\n\nNOTE — Examples of these icons are provided in Annex B.\n\n\n\n\n## ANNEX B\n\n(Informative)\n\n(Clause 6.2.5)\n\nILLUSTRATIVE SAMPLES OF AGE-RATING MARKS\n\nB-1 Sample age-rating marks for ‘0+’, ‘3+’, ‘7+’, ‘13+’, ‘16+’ and ‘A’ categories are given in Fig. 6.\n\nB-2 These graphical samples illustrate the correct typographic proportions and layout of modified variants of age- rating marks for various categories, where display size limitations exist.\n\n\n0+ 3+ 7+ 13+ 16+ A\n\n\n**FIG. 6 SAMPLE AGE-RATING MARKS**",
+    "metadata": {
+      "source": "19690_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 9,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 10397,
+      "char_end": 12689,
+      "semantic_chunk_length": 2292,
+      "final_chunk_length": 2594,
+      "standard_no": "IS 19690",
+      "year": "2026",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19690_2026_0006",
+    "text": "13+’, ‘16+’ and ‘A’ categories are given in Fig. 6.\n\nB-2 These graphical samples illustrate the correct typographic proportions and layout of modified variants of age- rating marks for various categories, where display size limitations exist.\n\n\n0+ 3+ 7+ 13+ 16+ A\n\n\n**FIG. 6 SAMPLE AGE-RATING MARKS**\n\n## ANNEX C\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 13 (33188).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19690_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 12694,
+      "char_end": 14130,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19690",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

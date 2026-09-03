@@ -1,0 +1,270 @@
+[
+  {
+    "id": "16234_2026_0000",
+    "text": "Indian Standard\n\n\nShips and Marine Technology — Embarkation Ladders — Specification\n\n( First Revision )\n\nICS 47.020.50\n\n© BIS 2026\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2026 Price Group 7\n\n\n\n\nShipbuilding Sectional Committee TED 17\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Shipbuilding Section Committee had been approved by the Transport Engineering Division Council.\n\nThis standard is intended to supplement existing Indian Government ‘Merchant Shipping (Life Saving Appliances) Rules, 1991’ requirements for embarkation ladders. Since Merchant Shipping (MS) Rules do not include specific requirements for prototype testing of embarkation ladders for approval, those tests included in this standard are in addition to the existing MS requirements. The inclusion of these tests was considered necessary in order to provide a means of ensuring conformance of embarkation ladders with the performance requirements prescribed in MS Rules and in this standard.\n\nThis standard first published in 2015, superseded IS 4383 : 1983, ‘Pilot and embarkation ladders’. It incorporated all the requirements previously specified in IS 4383 : 1983, which has since been withdrawn and aligned them with the provisions of ISO 5489 : 2008. The standard has been further revised in 2025 to incorporate advancements and design improvements in the industry.\n\nThis standard covers only embarkation ladders. The requirements for pilot ladders are specified separately in IS 16233.\n\nIn the formulation of this standard. Considerable assistance have been drawn from ISO 5489 : 2008 ‘Ships and marine technology — Embarkation ladders’, issued by International Organization for Standardization (ISO).\n\nThe composition of the Committee responsible for revision of this standard is given in Annex C.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022. ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nSHIPS AND MARINE TECHNOLOGY EMBARKATION\n\n\nLADDERS — SPECIFICATION\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard specifies requirements for a ship’s embarkation ladder which is provided to enable safe embarkation of waterborne survival craft along a vertical portion of the ship’s hull. It is applicable to merchant ships required to carry embarkation ladders under Part 6 of The first schedule of the Merchant Shipping (Life Saving Appliances) Rules, 1989.",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2845,
+      "semantic_chunk_length": 2843,
+      "final_chunk_length": 2843,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0001",
+    "text": "ion ladder which is provided to enable safe embarkation of waterborne survival craft along a vertical portion of the ship’s hull. It is applicable to merchant ships required to carry embarkation ladders under Part 6 of The first schedule of the Merchant Shipping (Life Saving Appliances) Rules, 1989.\n\n## 2 REFERENCES\n\nThe standards listed in Annex A contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of these standards.\n\n\n## 3 MATERIALS\n\n\n### 3.1 Wooden Parts\n\nEach wooden part shall be made of hardwood (ash, oak, elm, beech, teak or apitong) free from knots.\n\n\n### 3.2 Side Ropes\n\n3.2.1 Each side rope shall be mildew-resistant manila rope meeting ISO 1181 or a spun thermoset polyster rope with a polypropylene core of a colour that contrasts with the spun polyester. Each side rope shall have a breaking strength of at least 26 kN and a normal diameter of 20 mm (65 mm circumference).\n\n\n\n3.2.2 Alternative side ropes of synthetic material may be used if they:\n\n- a) meet the breaking strength and size requirements of 3.2.1;\n- b) are at least as resistant to elongation under load as the standard ropes described in 3.2.1;\n- c) have an exterior surface suitable for grasping with bare hands similar to manila or spun polyester;\n- d) are of a thermoset polymer resistant to deterioration from ultraviolet light; and\n- e) provide a visual indication of excessive wear, similar to the spun polyester/ polypropylene construction described in 3.2.1.\n\n### 3.3 Metallic Materials\n\n\n3.3.1 Each metal fastener shall be made of material which is inherently corrosion resistant or treated to be corrosion resistant.\n\n\n3.3.2 Each ferrous metal part which is not stainless steel shall be coated in accordance with ISO 1461.\n\n\n3.3.3 Each stainless steel part shall be of a marine grade alloy with a corrosion resistance at least equal to grade X 04Cr17Ni12Mo2 as per IS 6911.\n\n\n3.3.4 Each aluminium part shall be of grade containing not more than 0.06 percent copper, in accordance with ISO 209.\n\n\n3.3.5 Metals in contact with each other shall be galvanically compatible or insulated to prevent galvanic corrosion in a marine environment.\n\n\n### 3.4 Mechanical Fastening Devices\n\nEach mechanical fastening device securing a part of a ladder shall have locking mechanism to prevent the device from loosening.\n\n\n### 3.5 Plastic Materials\n\nEach plastic material shall be of a type that retains at least 30 percent of its original tensile strength and at least 80 percent of its original impact strength when subjected to the one-year outdoor weathering test described of ISO 877 (Part 2).\n\n\n### 3.6 Quality of Materials\n\nEach part of a ladder shall be free of splinters, burrs, sharp edges, corners, projections, or other defects that could injure a person using the ladder.\n\n\n\n\n### 3.7 Rope Seizing\n\nSeizing, if used shall consist of two or three ply marline of minimum breaking strength 800 N or other suitable material of equivalent strength.",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2848,
+      "char_end": 5758,
+      "semantic_chunk_length": 2910,
+      "final_chunk_length": 3212,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0002",
+    "text": "all be free of splinters, burrs, sharp edges, corners, projections, or other defects that could injure a person using the ladder.\n\n\n\n\n### 3.7 Rope Seizing\n\nSeizing, if used shall consist of two or three ply marline of minimum breaking strength 800 N or other suitable material of equivalent strength.\n\n## 4 CONSTRUCTION\n\n\n4.1 Embarkation ladders length should be equal to length from the deck to the waterline in lightest seagoing condition under unfavorable condition of trim and with an adverse list not less than 20º either way.\n\n\n4.2 Each ladder shall have two side ropes on each side. Ladders may also be constructed as three-string ladders with a third set of ropes in the middle of the ladder as illustrated in Fig. 1. In a three-string ladder, the third set of ropes shall meet the same requirements as the side ropes. Each step in the ladder shall be supported by each side rope.\n\n\n4.3 The side ropes shall,\n\n- a) be continuous from the top of the ladder to the bottom; and\n- b) not be painted or otherwise coated or covered.\n\n4.4 Unless a special arrangement is needed for a custom installation, the ends of the side ropes shall be finished as follows:\n\n- a) Top end of one or both of the side ropes on each side shall terminate just above the top step in a single eye splice or thimble large enough to accommodate at least two passes of side rope;\n- b) Top end of one side rope on each side of the ladder shall extend at least 3 m beyond the top ladder step, or an extension service rope shall be fitted to each side rope eye splice or thimble by means of an eye splice or shackle as shown in Fig. 2. The diameter of an extension service rope shall be at least the diameter of the side ropes;\n- c) Side ropes shall not have fittings or form loops at the bottom of the ladder that can be used to attach additional ladder sections or tripping lines; and\n- d) Ends of each side rope which do not terminate in a splice or fitting shall be served or otherwise treated to prevent fraying.\n\n4.5 Each side rope shall pass through a hole in each step. If the hole is in the form of a slot, the slot shall be in the longer edges of the steps. The centre of each hole shall be at least 50 mm from the end of the step. Alternative arrangements are shown in Fig. 3.\n\n\n4.6 Each pair of side ropes shall be secured together both above and below each step with a mechanical clamping device or seizing method which holds each step level when the ladder is hanging freely. Alternative arrangements are shown in Fig. 4.\n\n\n4.7 If a mechanical clamping device is used to secure the side ropes and hold the step in place, the device shall not extend above or below the step surfaces by more than a distance equal to 0.7 × W (where W is the width of the step), so that the step is not prevented from rolling, if caught between a boat and the hull of the ship (see Fig. 4).\n\nFIG.1 EMBARKATION LADDERS\n\n\n\n\nKey\n\n1 – extension service rope 2 – rope seizing (typical) 3 – step fixture 4 – mechanical clamping device 5 – step\n\n\n**FIG. 2 ALTERNATIVE EXTENSION SERVICE ROPE ARRANGEMENTS AT TOP OF LADDER**\n\nKey\n\n1 –  grooved, patterned or textured non-skid surface area.\n\n\n**FIG. 3 TYPICAL LADDER STEP SHOWING ALTERNATIVE HOLE AND SLOT DESIGNS FOR SIDE ROPES**\n\n\n\n\nKey",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 6,
+      "clause": "4",
+      "heading": "4 CONSTRUCTION",
+      "heading_path": [
+        "4 CONSTRUCTION"
+      ],
+      "char_start": 5761,
+      "char_end": 8707,
+      "semantic_chunk_length": 2946,
+      "final_chunk_length": 3248,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0003",
+    "text": "l) 3 – step fixture 4 – mechanical clamping device 5 – step\n\n\n**FIG. 2 ALTERNATIVE EXTENSION SERVICE ROPE ARRANGEMENTS AT TOP OF LADDER**\n\nKey\n\n1 –  grooved, patterned or textured non-skid surface area.\n\n\n**FIG. 3 TYPICAL LADDER STEP SHOWING ALTERNATIVE HOLE AND SLOT DESIGNS FOR SIDE ROPES**\n\n\n\n\nKey\n\n1 – rope seizing (typical) 2 – step fixture 3 – typical value\n\n\n**FIG. 4 ALTERNATE LADDER CONSTRUCTION USING MECHANICAL CLAMPS AND SEIZINGS AND STEP FIXTURES**\n\n\n4.8 If a seizing method is used to secure steps ropes and side ropes, a step fixture shall be used above and below the step. The step fixture shall be designed to lead and support the side ropes from the step to the point above or below the step where the side ropes are seized together. The step fixture shall be designed so that it stays in place when the ladder is rolled or the step is turned.\n\nCable ties, u-clamps and worn driven clips are not acceptable to prevent the steps of a ladder.\n\n\n4.9 The clear space between the side ropes on one side of the ladder and those on the other side shall be at least 480 mm. This distance shall be uniform throughout the length of the ladder (see Fig. 3).\n\n\n4.10 Each side rope shall be arranged so that, when the ladder is in use along the vertical hull of ship, the side rope cannot come to contact with the ship’s side.\n\n\n4.11 The spacing from the top of one step to the top of the next step shall be 340 mm ± 40 mm, and shall be uniform throughout the length of the ladder (see Fig. 4).\n\n\n4.12 Each step shall be of one-piece construction of either wood or resilient plastic or rubber material complying with the applicable requirements of 3.\n\n\n4.13 The top face of each step shall have a rectangular surface that is at least 115 mm wide with\n\n\n\n\na surface that is grooved, patterned or of a textured non-skid type. The step surface shall be designed so that it does not retain water. A textured non-skid surface shall be moulded into the step or adhered directly to it. Nonskid adhesive sheeting may not be used (see Fig. 3).\n\n\n4.14 Each step shall be at least 25 mm thick at its thinnest point. In determining this thickness, the depth of grooves in the top face of the step, the diameter of any hole extending from one side of the step to the other and the thickness of any non-skid treatment shall not be included (see Fig. 3).\n\n\n4.15 Each step shall be arranged so that it can bear on the vertical hull of the ship when the ladder is in use.\n\n\n4.16 The manufacturer shall offer replacement steps for the ladder, which can replace a removed step without the need for unstringing and restringing the ladder. Replacement steps shall meet all of the requirements in this standard for steps, and each step shall be supplied with all parts necessary to install the step in the ladder.\n\n\n4.17 Each embarkation ladder shall be capable of being rolled up for storage. Each ladder shall be capable of unrolling freely and hanging vertically.",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "4",
+      "heading": "4 CONSTRUCTION",
+      "heading_path": [
+        "4 CONSTRUCTION"
+      ],
+      "char_start": 8709,
+      "char_end": 11356,
+      "semantic_chunk_length": 2647,
+      "final_chunk_length": 2949,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0004",
+    "text": "eet all of the requirements in this standard for steps, and each step shall be supplied with all parts necessary to install the step in the ladder.\n\n\n4.17 Each embarkation ladder shall be capable of being rolled up for storage. Each ladder shall be capable of unrolling freely and hanging vertically.\n\n## 5 TESTING FOR APPROVAL\n\nBefore approval of a ladder design by a maritime safety administration as complying with this standard, a prototype ladder and its components shall be subjected to the tests and meet the criteria specified in Table 1.\n\nAny step or other part of the ladder which is permanently deformed as a result of testing shall not be used in a ladder which is placed in service.\n\n\n## 6 DESIGNATION\n\n\n6.1 Ladders conforming to this standard shall be designated by the following indications in the order given:\n\n- a) Embarkation ladder IS 16234;\n- b) ‘S’ followed by the number of steps; and\n- c) ‘L’ followed by the length, in metre.\nExample:\n\nA 5 m embarkation ladder consisting of 15 steps conforming to this Standard is designated as follows:\n\n‘Embarkation ladder IS 16234 – S15-LS’\n\n\n6.2 Spare or additional components for ladders conforming to this standard shall be designated by reference to this standard.\n\nExample:\n\nA replacement step for a ladder conforming to this Indian Standard is designated as follows:\n\nStep IS 16234\n\n\n## 7 MARKING\n\n\n7.1 The bottom of at least two steps of the ladder shall be marked with the following:\n\n- a) Name and address of the manufacturer;\n- b) Manufacturer’s model designation;\n- c) IS 16234 and ‘SOLAS’;\n- d) Year of assembly or reassembly of the ladder;\n- f) Identification of the approving maritime safety administration along with any approval indications required by that administration; and\n- g) Where used identification of a recognized organization acting on behalf of the maritime safety administration.\n\n7.2 The bottom of each replacement step shall be marked with the following:\n\n- a) Name and address of the manufacturer;\n- b) Manufacturer’s model designation;\n- c) Words ‘REPLACEMENT STEP ONLY’;\n- d) IS 16234 and ‘SOLAS’;\n- e) year of production of the step;\n- f) Identification of the approving maritime safety administration, along with any approval indications required by that administration; and\n- g) Where used identification of a recognized organization acting on behalf of the maritime safety administration.\n\n### 7.3 BIS Certification Marking\n\nThe product(s) conforming to the requirements of this standard may be certified as per the conformity assessment schemes under the provisions of the Bureau of Indian Standards Act, 2016 and the Rules and Regulations framed thereunder, and the products may be marked with the Standard Mark.\n\n\n\n\n## 8 PRODUCTION TESTS AND INSPECTIONS\n\nProduction tests and inspections of embarkation ladders approved as conforming to this standard should be carried out as described in Annex B.",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "5",
+      "heading": "5 TESTING FOR APPROVAL",
+      "heading_path": [
+        "5 TESTING FOR APPROVAL"
+      ],
+      "char_start": 11359,
+      "char_end": 13957,
+      "semantic_chunk_length": 2598,
+      "final_chunk_length": 2900,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0005",
+    "text": " Act, 2016 and the Rules and Regulations framed thereunder, and the products may be marked with the Standard Mark.\n\n\n\n\n## 8 PRODUCTION TESTS AND INSPECTIONS\n\nProduction tests and inspections of embarkation ladders approved as conforming to this standard should be carried out as described in Annex B.\n\n## 9 MAINTENANCE\n\n\n9.1 Damaged steps shall be replaced with replacement steps meeting the requirements of 4.16 and of the type supplied or specified by the ladder manufacturer. A ladder shall not include more than two replacement steps.\n\n\n9.2 If a ladder requires a third replacement step it shall be rebuilt. A ladder constructed with spun polyester side ropes, with the inner core showing at any place throughout the length of the ladder is no longer serviceable. Such ladders shall be rebuilt to the original manufacturer's standard using new side ropes and using undamaged steps in place of all damaged steps and replacement steps.\n\n\n9.3 Each ladder shall be subjected to the ladder and step attachment strength test listed in Table 1 at approximately 30 month intervals. Each ladder which fails the test shall be rebuilt according to 9.2 or scrapped. The ladder shall be stamped or tagged near the bottom of the ladder with the date of the test and the identification of the person or company performing the test. The person or company performing the test shall also provide a test certificate for the owner of the ladder indicating the details of the test including the date and the identification of the person or company performing the test.\n\n\n| Sl No. | Test | Item to be Tested | Test Procedure | Acceptance Criteria |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n| i) | Visual examination | Fully assembled ladder | Compare to construction requirements in 4 and the manufacturer’s drawings | The ladder shall comply with the construction requirements in 4 and be constructed in accordance with the manufacturer’s drawings |\n| ii) | Step flexibility | Six steps, which shall include at least one of each different type including replacement steps, if different from steps used in the ladder’s original construction | Place each step on a pair of supports located where the side ropes would normally Pass through the step. Apply a static load uniformly for a period of at least 1 min over a 100 mm wide contact area at the centre of the step. The load shall be 3.0 kN | a) Deflection at the centre of the step shall not exceed 25 mm under load |\n|  |  |  |  | b) There shall be no residual deflection after the load is removed and the step is allowed to recover. |\n| iii) | Step friction | a) One step of each different material of construction and step surface design | a) Set the reference step in a level position. Place the metal block at the centre of the stepping surface on the reference step with the shoe sole material resting on the stepping surface of the reference step and with the longer edge of the metal block | The angles at which the block begins to slide on the dry and wet embarkation ladder step shall be greater than or equal to the corresponding angles measured for the standard reference step |\n|  |  | b) One reference step constructed of clean oak, 115 mm wide and 480 mm long |  |  |\n\n\n\n\nTable 1 (Continued)\n\n\n**Table 1 (Continued)**",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "9",
+      "heading": "9 MAINTENANCE",
+      "heading_path": [
+        "9 MAINTENANCE"
+      ],
+      "char_start": 13960,
+      "char_end": 16948,
+      "semantic_chunk_length": 2988,
+      "final_chunk_length": 3290,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0006",
+    "text": "gins to slide on the dry and wet embarkation ladder step shall be greater than or equal to the corresponding angles measured for the standard reference step |\n|  |  | b) One reference step constructed of clean oak, 115 mm wide and 480 mm long |  |  |\n\n\n\n\nTable 1 (Continued)\n\n\n**Table 1 (Continued)**\n\n| Sl No. | Test | Item to be Tested | Test Procedure | Acceptance Criteria |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n|  |  | c) The step surface shall have grooves 3 mm wide, 3 mm deep and 15 mm apart. The grooves shall run parallel to each other and parallel to the long edge of the step | running across the reference step over both edges. Slowly raise the edge of the step with the metal block on it Measure the angle at which the block begins to slide |  |\n|  |  | d) One metal block of a mass between 1.5 kg and 3.0 kg |  |  |\n|  |  | e) The metal block shall have a flat surface no more than 100 mm wide by 135 mm long. The flat surface shall have leather or composition shoe-sole material attached to it |  |  |\n|  |  |  | b) Repeat the procedure with the standard reference step and the block under wate |  |\n|  |  |  | c) Repeat the procedure in both dry and wet conditions using each different ladder step |  |\n| iv) | Step surface durability | a) One step of each different material of construction and step surface design | a) Secure the step in horizontal position with the loaded block resting on it. Move the block back and forth from one end of the step surface to the other and back in the same line for a total of 1 500 cycles | The angles at which the block begins to slide on the dry and wet embarkation ladder step shall be greater than or equal to the corresponding angles measured for the standard reference step |\n|  |  | b) A metal block of the type described under the step friction test arranged to enable a vertical load of 380 N to be applied to it as it slides back and forth over the step under test |  |  |\n|  |  |  | b) Repeat the step friction test on the worn step in both dry and wet conditions making sure the sliding block is resting completely on the worn surface of the step Suspend the ladder vertically hanging to its full length or extend the ladder to its full length on a horizontal surface with the top end of the ladder secured using its own attachments. Apply a static load of 8.8 kN widely distributed |  |\n| v) | Ladder and step attachment strength | Fully assembled ladder of longest length to be approved |  | a) Steps shall not break or crack |\n|  |  |  |  | b) Attachments between any step and a side rope shall not loosen or break. Side ropes shall not sustain any observable damage elongation or |\n\n\n\n\nTable 1 (Concluded)\n\n\n**Table 1 (Concluded)**",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "9",
+      "heading": "9 MAINTENANCE",
+      "heading_path": [
+        "9 MAINTENANCE"
+      ],
+      "char_start": 16950,
+      "char_end": 19377,
+      "semantic_chunk_length": 2427,
+      "final_chunk_length": 2729,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0007",
+    "text": "lly assembled ladder of longest length to be approved |  | a) Steps shall not break or crack |\n|  |  |  |  | b) Attachments between any step and a side rope shall not loosen or break. Side ropes shall not sustain any observable damage elongation or |\n\n\n\n\nTable 1 (Concluded)\n\n\n**Table 1 (Concluded)**\n\n| Sl No. | Test | Item to be Tested | Test Procedure | Acceptance Criteria |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n|  |  |  | over the bottom step for a period of at least 1 min so that the load is applied evenly between the side ropes through the step attachment fittings. Repeat the procedure at five different steps except that the ladder is not required to be hanging at full length and only the step under test its side rope attachments and the side ropes immediately above the step attachment fittings are required to be subjected to the load | deformation that remains after the test load is removed |\n| vi) | Unrolling | Fully assembled ladder of longest length to be approved | Attach the rolled up ladder to anchoring fixtures in a place away from any wall or structure that would prevent it from falling freely and where it can hang vertically. Allow the ladder to unroll freely | a) The steps and attachments shall not broken or loos end b) The ladder shall not sustain damage that would make it unsafe to use |\n\n\n\n\n## ANNEX A\n\n(Clause 2)\n\nLIST OF REFERRED STANDARDS\n\n| IS No./Other Standards | Title |\n| --- | --- |\n| IS 6911 : 2017 | Stainless steel plate, sheet and strip (second revision) |\n| ISO 209 : 2024 | Wrought aluminium and aluminium alloys — Chemical composition |\n| ISO 877-1 : 2025 | Plastics — Methods of exposure to solar radiation Part 1: General guidance |\n| ISO 877-2 : 2025 | Plastics — Methods of exposure to solar radiation Part 2: Direct weathering and exposure behind window glass |\n| ISO 877-3 : 2018 | Plastics — Methods of exposure to solar radiation Part 3: Intensified weathering using concentrated solar radiation |\n| ISO 1181 : 2004 | Fibre ropes — Manila and sisal 3,4 and 8 strand ropes |\n| ISO 1461 : 2022 | Hot dip galvanized coatings on fabricated iron and steel articles — Specifications and test methods |\n| ISO 15510 : 2014 | Stainless Steels — Chemical composition |\n\nTo access Indian Standards click on the link below: https://standards.bis.gov.in/website/know-your-standards",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "9",
+      "heading": "9 MAINTENANCE",
+      "heading_path": [
+        "9 MAINTENANCE"
+      ],
+      "char_start": 19379,
+      "char_end": 21434,
+      "semantic_chunk_length": 2055,
+      "final_chunk_length": 2357,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0008",
+    "text": "pes |\n| ISO 1461 : 2022 | Hot dip galvanized coatings on fabricated iron and steel articles — Specifications and test methods |\n| ISO 15510 : 2014 | Stainless Steels — Chemical composition |\n\nTo access Indian Standards click on the link below: https://standards.bis.gov.in/website/know-your-standards\n\n## ANNEX B\n\n(Clause 8)\n\nRECOMMENDED PRODUCTION TESTS AND INSPECTIONS\n\nB-1 GENERAL\n\nThe manufacturer should have a quality assurance system in place which is acceptable to the approving maritime safety administration to ensure that production ladders are produced to the same standard as the original prototype ladder tested for approval.\n\nB-2 SAMPLE SELECTION AND TESTING OF STEPS\n\nSteps should be separated into lots of 100 steps or less.\n\nSteps of different types should be in separate lots. One step selected at random from each lot should be subjected to the step strength test described in Table 2.\n\nIf the step fails the test ten more steps should be selected at random from the lot and tested as described in   Table 2. If any of the ten steps fails the test each step in the lot should be tested before it is used in a ladder.\n\nB-3 SAMPLE SELECTION AND TESTING OF LADDERS\n\nA visual examination as described in Table 1 and the tests in Table 2, should be conducted by the maritime safety administration that approved the ladder or recognized organization acting on its behalf at least annually on a ladder taken from the production line to ensure that it complies with the requirements of 4 and 5.\n\nTable 2 Production Tests\n\n(Clauses B-2 and B-3)\n\n\n**Table 2 Production Tests**\n\n| Sl No. | Test | Item to be Tested | Test Procedure | Acceptance Criteria |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n| i) | Step strength | Ladder step | Place supports under each end of the step where the side ropes pass through the step. Apply a static load of 8.8 kN widely distributed over a 100 mm wide area at the centre of the step | a) The step shall not break or crack b) There shall be no residual deflection after the load is removed and the step is allowed to recover |\n| ii) | Ladder and step attachment strength | Fully assembled ladder at least 3 m long | Suspend the ladder vertically hanging to its full length or extend the ladder to its full length on a horizontal surface with the top end of the ladder secured using its own attachments. Apply a static load of 8.8 kN widely distributed over the bottom step for a period of at least 1 min so that the load is applied evenly between the side ropes through the step attachment fittings | a) Steps shall not break or crack b) Attachments between any step and a side rope shall not loosen or break c) Side ropes shall not sustain any observable damage elongation or deformation that remains after the test load is removed |",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 21439,
+      "char_end": 23938,
+      "semantic_chunk_length": 2499,
+      "final_chunk_length": 2801,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16234_2026_0009",
+    "text": "enly between the side ropes through the step attachment fittings | a) Steps shall not break or crack b) Attachments between any step and a side rope shall not loosen or break c) Side ropes shall not sustain any observable damage elongation or deformation that remains after the test load is removed |\n\n## ANNEX C\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: TED 17 (27498).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "16234_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 23943,
+      "char_end": 25379,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 16234",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

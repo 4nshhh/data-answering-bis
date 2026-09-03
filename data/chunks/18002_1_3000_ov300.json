@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "18002_1_0000",
+    "text": "|  | ICS: 35.020 |  |  |  |  |\n|  | © BIS 2021 |  |  |  |  |\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nJune 2021 \b Price Group 9\n\n\n\n\nSmart Infrastructure Sectional Committee, LITD 28\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Smart Infrastructure Sectional Committee, had been approved by the Electronics and Information Technology Division Council. The Composition of the panel, LITD 28/P7 and the sectional committee, LITD 28 responsible for the formulation of this standard is given at Annex B.\n\n\n\n\nCONTENTS\n\n\b Page No.\n\n\n0 INTRODUCTION ... III\n\n1 SCOPE ... 1\n\n2 REFERENCES ... 1\n\n\n## 3 TERMINOLOGY AND SYMBOLS ... 1\n\n\n3.1 Terminology ... 1 3.1.1 Access Control ... 1 3.1.2 Architecture View ... 1 3.1.3 Architecture Viewpoint ... 1 3.1.4 Conceptual Model (CM) ... 1 3.1.5 Data ... 1 3.1.6 Data Lake ... 1 3.1.7 IoT ... 1 3.1.8 Logical Model ... 1 3.1.9 Metadata ... 2 3.1.10 Physical Model ... 2 3.1.11 Reference Model (RM) ... 2 3.1.12 Demand-side stream ... 2 3.1.13 Supply-side stream ... 2 3.1.14 Analytical stream ... 2 3.2 Symbols and Abbreviations ... 2\n\n\n## 4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES ... 2\n\n\n4.1 Core Data Principles ... 2 4.1.1 Data Principles ... 2 4.1.2 Open Data Principles ... 2 4.2 Core Capabilities ... 2 4.2.1 Data Governance ... 2 4.2.2 Data Quality ... 5 4.2.3 Data Flow Architecture ... 5 4.2.4 Data Processing ... 5 4.2.5 Data Storage ... 6 4.2.6 Data Exchange ... 7 4.2.7 Data Protection ... 7 4.2.8 Big Data Management ... 7 4.2.9 Master Data Management ... 7 4.2.10 Analytical Modelling ... 8 4.2.11 Business Intelligence ... 8 4.2.12 Data Discovery and Mining ... 8\n\n\n\n\n\b Page No\n\n\n## 5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL ... 8\n\n\n5.1 Data Integration ... 10 5.1.1 IOT Message Hub ... 10 5.1.2 Enterprise Service Bus ... 10 5.1.3 Extract-Transform-Load (ETL) Tools ... 10 5.2 Data Processing ... 11 5.2.1 Complex Event Processing (CEP) ... 11 5.2.2 Data Virtualization ... 11 5.2.3 Rule Engine/Workflow Engine ... 11 5.2.4 Big Data Analytics ... 11 5.3 Data Storage ... 11 5.3.1 Data Lake ... 12 5.3.2 Data Warehouse ... 12 5.4 Data Exchange ... 12 5.4.1 Data APIs ... 12 5.4.2 Data Portal ... 12 5.4.3 Data Catalogue ... 13 5.4.4 Data Knowledge Archive Network ... 13\n\n\n## 6 INFORMATION REFERENCE MODEL ... 13\n\n\n### 6.1 Data Access Model ... 13 6.2 Data Reference Model ... 14 6.3 Information Extraction Model ... 15 6.4 Insights Extraction Model ... 16\n\n\n## ANNEX A  MASTER DATA MANAGEMENT REFERENCE IMPLEMENTATION GUIDE ... 18\n\nA-1  NEED FOR MASTER DATA MANAGEMENT ... 18\n\nA-2  HIGH-LEVEL PROCESS FOR IDENTIFYING MASTER DATA FOR A CITY ... 18",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 4,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2726,
+      "semantic_chunk_length": 2724,
+      "final_chunk_length": 2724,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0001",
+    "text": " 6.2 Data Reference Model ... 14 6.3 Information Extraction Model ... 15 6.4 Insights Extraction Model ... 16\n\n\n## ANNEX A  MASTER DATA MANAGEMENT REFERENCE IMPLEMENTATION GUIDE ... 18\n\nA-1  NEED FOR MASTER DATA MANAGEMENT ... 18\n\nA-2  HIGH-LEVEL PROCESS FOR IDENTIFYING MASTER DATA FOR A CITY ... 18\n\n## ANNEX B   COMMITTEE COMPOSITION ... 21\n\nBIBLIOGRAPHY ... 23\n\n\n\n\n\b Page No\n\nLIST OF FIGURES\n\n\n**Fig. 1 Technology Reference Model ... iii Fig. 2 Smart City Data Architecture Framework – Core Capabilities ... 4 Fig. 3 Smart City Data Architecture Framework-Functional Reference Model ... 9 Fig. 4 Smart City Data Architecture Framework-Technology Reference Model ... 9 Fig. 5 Information Reference Model ... 13 Fig. 6 Data Access Model ... 14 Fig. 7 Data Reference Model ... 15 Fig. 8 Data Governance Model ... 15 Fig. 9 Information Extraction Model ... 16 Fig. 10 Insights Extraction Model ... 17 Fig. 11 Stages for identifying master data ... 19**\n\nLIST OF TABLES\n\nTable 1 Data Principles ... 3 Table 2 Open Data Principles ... 3 Table 3 Technology Component to Functional Area Mapping ... 10 Table 4 Solutions and Master Data Sources ... 19\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nINTRODUCTION\n\nIS 18002 (Part 1) : 2021\n\nSmart cities vision is to use digital technologies to provide integrated services to its citizens through free flow of information, to usher in an era of transparent governance. Designing smart cities ICT architecture is the essential first step in this direction. Cities are complex ecosystems, where government services pertaining to transportation, public safety, utilities, healthcare, education, social services, culture, economic development and more are provided by a multitude of government organizations.\n\nA simplified “Technology Reference Model (TRM)” of Smart Cities ICT Architecture is shown in Figure 1. Each Application/Component part of the Smarts Cities ICT Architecture deals with data and hence needs to align with principles defined in this document.\n\n\n**Fig. 1 Technology Reference Model**\n\nData is generated by a variety of smart city applications, operated and managed by a host of departments and organizations, working towards a common goal of building and running city infrastructure to better serve the citizens. However, this multiplicity of data owners often causes problems related to accuracy, consistency and accessibility of right data at the right time.\n\nThere is a need to bring together a large amount of data available in cities, including energy, traffic and transport, parking, environment, ERP, water, solid waste, crowdsourced data, etc., curate data (by eliminating duplicate, invalid, outdated and wrong data) and provide a holistic view of the information with the aim of improvement and development of innovative smart city services. Integrated data plays a vital role in understanding the problem in the right context and providing a solution which is in the interest of administration as well as citizens. Trend analytics over weekly, monthly, and annual views of the data reveal insights and surprises that daily views cannot. In business terms, the key performance indicators of the city’s health, progress, and objective results are found in the long-term analysis of data.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 7,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B COMMITTEE COMPOSITION ... 21",
+      "heading_path": [
+        "ANNEX B COMMITTEE COMPOSITION ... 21"
+      ],
+      "char_start": 2729,
+      "char_end": 5690,
+      "semantic_chunk_length": 2961,
+      "final_chunk_length": 3263,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0002",
+    "text": "stration as well as citizens. Trend analytics over weekly, monthly, and annual views of the data reveal insights and surprises that daily views cannot. In business terms, the key performance indicators of the city’s health, progress, and objective results are found in the long-term analysis of data.\n\nSmart City data management will thus enable and stimulate a proper understanding of how a city’s infrastructure is utilized in different domains, what key performance parameters they indicate, the interdependencies between different elements of city infrastructure and the effects of external drivers like public policy, major events, exigencies, and weather.\n\nSmart city data exhibits characteristics of 5 Vs namely Volume, Velocity, Variety, Veracity and Value which comes with their own individual challenges.\n\nVolume: Data volume represents the extensive amount of data available for analysis to extract valuable information. An example of high volume of data, is the volume of data generated through surveillance cameras and sensors deployed across the city.\n\nVelocity: Most of the real-world control applications need actionable insights in a real time basis. Streaming and Real time analytics utilize high velocity of data to generate real time operational alerts and insights. One example of such data is the real-time position of a utility vehicle plying in the city sending updates on its position every 5 seconds.\n\n\n\n\nVariety: Variety in data arises due to the variety of sensors and systems deployed in the cities. Also, variety in data arises due to the same type of device or systems generating data in heterogeneous formats or recording data in different units of measurements.\n\nVeracity: Veracity refers to the biases, noise and abnormality in data. Noise, abnormality in data is a major issue in smart city deployments. Many complex systems utilize AI models for pre-processing and filtering of data, and AI is prone to biases induced due to noise and abnormality in data. Additionally, measurements by sensors also suffer from drift due to various physical factors. Controlling veracity requires constant observations of the data, trends in time series data and taking timely remediations.\n\nValue: Data is only as valuable as the business outcomes it makes possible. Smart cities are looking at data monetization and innovation on open data for future infrastructure development. For this, smart cities need to make choices on storage (long term vs short term), types of data to be ingested, governance policies and security controls to be implemented on data to ensure that data is usable on a longer term.\n\nThe future of governance is data driven. Cities have begun to adapt to this change in their functioning. This data-driven change adapted by cities, apart from providing timely inputs on the impact of citizen services is also used to measure the impact of the investments made over a period. This helps realistically assess the gaps between the outcomes and the desired goals. Data is an asset for cities, hence has a specific, measurable value for the Government and needs to be managed accordingly.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B COMMITTEE COMPOSITION ... 21",
+      "heading_path": [
+        "ANNEX B COMMITTEE COMPOSITION ... 21"
+      ],
+      "char_start": 5692,
+      "char_end": 8518,
+      "semantic_chunk_length": 2826,
+      "final_chunk_length": 3128,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0003",
+    "text": " citizen services is also used to measure the impact of the investments made over a period. This helps realistically assess the gaps between the outcomes and the desired goals. Data is an asset for cities, hence has a specific, measurable value for the Government and needs to be managed accordingly.\n\nTo overcome data integration issues, a city needs to have a robust Unified Data Architecture Framework that puts in place a mechanism to not only share the data amongst different departments but also a set of tools and technology to better use this data for decision making.\n\nThis standard defines the conceptual model (functional and technological), data principles and reference architecture for data in a smart city. A common data reference architecture spanning all the smart cities will help in bringing data in ‘focus’ to ensure a move towards outcome-based planning in governance.\n\nThe Data Layer Reference Architecture is intended to be used by stakeholders such as Smart city Data Officers, Smart City CEO’s, Policy and Governance officers, Auditors and other stakeholders involved in smart city implementation to define the city’s data architecture goals and to roll out solutions adhering to the defined goals.\n\n\n\n\n\nIndian Standard\n\n\nUNIFIED DIGITAL INFRASTRUCTURE — DATA LAYER\n\n\nPART 1 REFERENCE ARCHITECTURE\n\n\n## 1 SCOPE",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B COMMITTEE COMPOSITION ... 21",
+      "heading_path": [
+        "ANNEX B COMMITTEE COMPOSITION ... 21"
+      ],
+      "char_start": 8520,
+      "char_end": 9553,
+      "semantic_chunk_length": 1033,
+      "final_chunk_length": 1335,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0004",
+    "text": "rnance officers, Auditors and other stakeholders involved in smart city implementation to define the city’s data architecture goals and to roll out solutions adhering to the defined goals.\n\n\n\n\n\nIndian Standard\n\n\nUNIFIED DIGITAL INFRASTRUCTURE — DATA LAYER\n\n\nPART 1 REFERENCE ARCHITECTURE\n\n\n## 1 SCOPE\n\n## 3 TERMINOLOGY AND SYMBOLS\n\nThis Standard describes the data layer reference architecture that comprises the key data principles that every smart city sub-system needs to adhere to, the core capabilities required to be implemented at the city level for realizing the data layer, the functional reference model and the technology reference model.\n\n\n### 3.1 Terminology\n\nFor the purpose of this standard, the definitions given in IS 18000 shall apply, in addition to the following:\n\n\n#### 3.1.1 Access Control\n\nA process by which use of system resources is regulated according to a security policy and is permitted only by authorized entities (users, programs, processes, or other systems) according to that policy.\n\nThis standard applies to data generated in smart cities across following streams:\n\n- a) Demand-side stream which can give better\nunderstanding of specific properties and characteristics of urban processes, e.g. buildings services, government-to-citizens services, and provide solutions for improvement. b) Supply-side stream to monitor incidents and\n\n\n#### 3.1.2 Architecture View\n\nWork product expressing the architecture of a system from the perspective of specific system concerns.\n\n\n#### 3.1.3 Architecture Viewpoint\n\ncrisis situations and the respective responses and solutions with the aim of drawing conclusions and recommendations. c) Analytical stream to identify data patterns and\n\nWork product establishing the conventions for the construction, interpretation and use of architecture views to frame specific system concerns.\n\ncorrelations in order to derive predictions for urban innovation, provide impact assessment, and demonstrate the challenges and opportunities in urban development. d) Standardization stream to bring the city data\n\n\n#### 3.1.4 Conceptual Model (CM)\n\nDescribing the key concepts characterizing Smart City data layer architecture.\n\n\n#### 3.1.5 Data\n\nin line with the international standards like ISO/TS 8000 Data Quality. While the technical reference architecture lists a set of technology components and provides an overview of each of them, individual choice of technology components can vary from city to city while keeping the core data capabilities that should be fulfilled by the city.\n\nRe-interpretable representation of information in a formalized manner suitable for communication, interpretation, or processing. Note 1 to entry: Data can be processed by humans or by automatic means. [SOURCE: ISO/IEC 2382 : 2015, 2121272].\n\n\n#### 3.1.6 Data Lake\n\nA large repository composed of different kinds of raw and processed data, supporting multiple storage engines including storing and processing of object storage.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY AND SYMBOLS",
+      "heading_path": [
+        "3 TERMINOLOGY AND SYMBOLS"
+      ],
+      "char_start": 9556,
+      "char_end": 12227,
+      "semantic_chunk_length": 2671,
+      "final_chunk_length": 2973,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0005",
+    "text": "g. Note 1 to entry: Data can be processed by humans or by automatic means. [SOURCE: ISO/IEC 2382 : 2015, 2121272].\n\n\n#### 3.1.6 Data Lake\n\nA large repository composed of different kinds of raw and processed data, supporting multiple storage engines including storing and processing of object storage.\n\n## 2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of these standards.’\n\n\n#### 3.1.7 IoT\n\nInternet of Things — Interconnection of computing devices embedded in everyday objects using the Internet backbone enabling them to send and receive data and thereby participate in generating information.\n\n\n#### 3.1.8 Logical Model\n\n- a) IS 18000 : 2020 Unified Digital Infrastructure —\nA logical data model or logical schema is a data model of a specific problem domain expressed independently\n\nICT Reference Architecture.\n\n\n\n\nof a particular database management product or storage technology but in terms of data structures such as relational tables and columns, object-oriented classes, or XML tags.\n\n\n#### 3.1.9 Metadata\n\nA set of data that describes and gives information about other data. Information of data like descriptive, structural, administrative, reference, statistical and legal information of other data [SOURCE : ISO/IEC 11179].\n\n\n#### 3.1.10 Physical Model\n\nPhysical Model describes the database specific implementation of the Logical data model.\n\n\n#### 3.1.11 Reference Model (RM)\n\nProviding the overall structure of the elements of the architecture.\n\n\n#### 3.1.12 Demand-side stream\n\nThe data collected from various sensors, systems and sub-systems for a specific purpose.\n\nExample: ON/OFF status of streetlights, environment data\n\nfrom sensors etc.\n\n\n#### 3.1.13 Supply-side stream\n\nThe data flowing to various sensors, systems and sub- systems for a specific purpose.\n\nExample: rule-based alerts sent to streetlight systems,\n\nnotifications on PA systems etc.\n\n\n#### 3.1.14 Analytical stream\n\nThe data generated within the city, using existing data from demand and supply side streams.\n\nNOTE — Analytical stream data helps to identify patterns\n\nand correlations for modeling and analytical purposes. For example, data models, data APIs etc.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 12230,
+      "char_end": 14405,
+      "semantic_chunk_length": 2175,
+      "final_chunk_length": 2477,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0006",
+    "text": " on PA systems etc.\n\n\n#### 3.1.14 Analytical stream\n\nThe data generated within the city, using existing data from demand and supply side streams.\n\nNOTE — Analytical stream data helps to identify patterns\n\nand correlations for modeling and analytical purposes. For example, data models, data APIs etc.\n\n### 3.2 Symbols and Abbreviations\n\n5V’s Volume, Velocity, Variety, Veracity and Value\n\nAPI Application Programming Interface\n\nAMQP Advanced Message Queuing Protocol\n\nCKAN Comprehensive Knowledge Archive Network\n\nDKAN Drupal based Knowledge Archive Network\n\nESB Enterprise Service Bus\n\nFAAS Function as a Service\n\nHIPAA Health Insurance Portability and Accountability Act\n\nHTTP Hyper Text Transfer Protocol\n\nICT Information and Communication Technologies\n\n\nIIoT Industrial Internet of Things\n\nMQTT Message Queue Telemetry Transport\n\nNoSQL Data storage systems like document storage model, columnar storage & object storage model with alternate data retrieval methods which are not SQL.\n\nOCF Open Connectivity Foundation\n\nOGPL Open Government Platform\n\nOLAP Online Analytical Processing\n\nOLTP Online Transaction Processing\n\nOWL Web Ontology Language\n\nPCI Payment Card Industry\n\nQoS Quality of Service\n\nSOAP Simple Object Access Protocol\n\nSQL Structured Query Language\n\nRDF Resource Description Framework\n\nREST Representational State Transfer\n\nW3C World Wide Web Consortium\n\nXML Extended Markup Language\n\nUML Unified Modelling Language",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "3.2",
+      "heading": "3.2 Symbols and Abbreviations",
+      "heading_path": [
+        "2 REFERENCES",
+        "3.2 Symbols and Abbreviations"
+      ],
+      "char_start": 14408,
+      "char_end": 15540,
+      "semantic_chunk_length": 1132,
+      "final_chunk_length": 1434,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0007",
+    "text": "tology Language\n\nPCI Payment Card Industry\n\nQoS Quality of Service\n\nSOAP Simple Object Access Protocol\n\nSQL Structured Query Language\n\nRDF Resource Description Framework\n\nREST Representational State Transfer\n\nW3C World Wide Web Consortium\n\nXML Extended Markup Language\n\nUML Unified Modelling Language\n\n## 4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES\n\nThis section describes core principles and capabilities that are required to be implemented by a Smart City as part of a fully functional data architecture framework.\n\n\n### 4.1 Core Data Principles\n\n\n#### 4.1.1 Data Principles\n\nTo achieve the key goal of establishing a consistent data architecture framework within a smart city, each system deployed in the city shall adhere to the data principles/expectations defined in Table 1.\n\n\n#### 4.1.2 Open Data Principles\n\nThe principles given in Table 2 apply only to data for systems that exchange or publish open data in smart city data portals:\n\nIn addition to the principles listed in 4.1.1 and 4.1.2, data platforms, services and applications in Smart City shall follow all key principles described in IS 18000 : 2020.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "4",
+      "heading": "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES"
+      ],
+      "char_start": 15543,
+      "char_end": 16361,
+      "semantic_chunk_length": 818,
+      "final_chunk_length": 1120,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0008",
+    "text": "he principles given in Table 2 apply only to data for systems that exchange or publish open data in smart city data portals:\n\nIn addition to the principles listed in 4.1.1 and 4.1.2, data platforms, services and applications in Smart City shall follow all key principles described in IS 18000 : 2020.\n\n### 4.2 Core Capabilities\n\nThe set of core capabilities shown in Fig. 2 and defined in 4.2.1 to 4.2.12 help the cities understand the requirements brought in due to the necessity of managing the data across its life cycle and being data driven in decision making. Also, these core capabilities help cities in identifying the current gaps with respect to the implementation of a well-defined data layer.\n\n\n\n\n**Table 1 Data Principles**",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "4.2",
+      "heading": "4.2 Core Capabilities",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities"
+      ],
+      "char_start": 16364,
+      "char_end": 16798,
+      "semantic_chunk_length": 434,
+      "final_chunk_length": 736,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0009",
+    "text": "requirements brought in due to the necessity of managing the data across its life cycle and being data driven in decision making. Also, these core capabilities help cities in identifying the current gaps with respect to the implementation of a well-defined data layer.\n\n\n\n\n**Table 1 Data Principles**\n\n| ID |  | Data Principle | Description |\n| --- | --- | --- | --- |\n| P1 |  | Accuracy | The degree to which data has attributes that correctly represent the true value of the intended attribute of a concept or event in a specific context of use. It has two main aspects syntactic accuracy and semantic accuracy. Smart City Data stored shall be as accurate as possible for an object, whereby the object shall have the right values and shall be represented in a consistent and unambiguous form in alignment with known frameworks such as OWL and RDF when possible and appropriate. |\n| P2 |  | Completeness | The degree to which subject data associated with an entity has values for all expected attributes and related entity instances in a specific context of use. Smart City data shall reflect what is recorded based on a standard schema that defines completeness. Metadata that defines and explains the raw data should be included with explanations and formulas for how data was derived and calculated. |\n| P3 |  | Timeliness | Smart city data shall be available in a timely fashion. They shall be made available as quickly as they are collected and processed, based on data priority defined according to the time sensitivity of utility and value. |\n| P4 |  | Privacy | It is a set of shared values governing the privacy protection of the personally identifiable information over its lifetime as applicable for city data. Data privacy controls as per the law of the land and city data policy should be adhered to. Wherever applicable domain specific privacy principles should be adopted by Smart Cities (e.g. PCI, HIPAA). |\n| P5 |  | Confidentiality | The degree to which data has attributes that ensure that it is only accessible and interpretable by authorized users in a specific context of use is disseminated through applicable data fiduciaries. Wherever applicable domain specific access control policies shall be adopted by Smart Cities. |\n| P6 |  | Machine Readable | Smart city data should be stored in widely used file formats that easily support machine readability, interpretation and processing. Files should be accompanied by documentation related to the format and how to use it in relation to the data. |\n| P7 |  | Non-Redundancy | Smart city data should be acquired, stored in a timely manner, and made available for multiple or generic purpose reuse to avoid data duplication, and promote data consistency and quality. |\n| P8 |  | Permanence | Smart city data released for online consumption should be available in archives and in perpetuity as defined in the policy for the type of data. Deletion of city data should be as per city data policy. |",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "4.2",
+      "heading": "4.2 Core Capabilities",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities"
+      ],
+      "char_start": 16800,
+      "char_end": 19464,
+      "semantic_chunk_length": 2664,
+      "final_chunk_length": 2966,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0010",
+    "text": "| ID |  | Data Principle | Description |\n| --- | --- | --- | --- |\n| P9 |  | Consistency | Smart city data should be consistent across different systems. a)\t Data written to the storage must be valid according to all defined rules, including constraints, cascades, triggers, and any combination thereof. b)\t When data is aggregated from multiple sources there shall be consistency in the measurement of variables throughout the datasets. |\n| P10 |  | Non-Repudiation | Data shall include source information like the owner, device which generated the data and store the hash values computed on the original data to cater to non-repudiation |\n\n\n**Table 2 Open Data Principles**\n\n| ID |  | Open Data Principle |  | Description |\n| --- | --- | --- | --- | --- |\n| OP1 |  | Non-Discriminatory |  | Access to Smart City Open data by the public should not contain any barriers to use. Any request for access to data shall not be profiled based on race, gender, caste, religion or nationality of the requester. |\n| OP2 |  | Non-Proprietary |  | Smart city open data should be made available in alternative formats to allow the public to avoid the cost of consuming data in specific formats. Data may be made available for free or on chargeable basis as per the City Data Policy. |\n\n\n\n\n\n\n**Fig. 2 Smart City Data Architecture Framework – Core Capabilities**",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "4.2",
+      "heading": "4.2 Core Capabilities",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities"
+      ],
+      "char_start": 19465,
+      "char_end": 20746,
+      "semantic_chunk_length": 1281,
+      "final_chunk_length": 1348,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0011",
+    "text": "open data should be made available in alternative formats to allow the public to avoid the cost of consuming data in specific formats. Data may be made available for free or on chargeable basis as per the City Data Policy. |\n\n\n\n\n\n\n**Fig. 2 Smart City Data Architecture Framework – Core Capabilities**\n\n#### 4.2.1 Data Governance\n\nData governance is at the centre of data management activities in a Smart City where different types of stakeholders are involved and is a horizontal capability that shall be implemented by every smart city.\n\nData governance is a larger framework consisting of policies, rules, people, processes and tools to define the usage, transfer, retention, security and privacy of data across organizations, departments and systems in cities.\n\nPolicies shall be enforced while ingesting, processing, storing, publishing and archiving of data. This also involves overseeing, tracking and managing data related projects and services.\n\nThree key elements to data governance are:\n\n- a) Policy Definition – Standards driven language to\ndocument the policy. b) Access Authorization – Access to data based on\n\nthe defined policy. c) Policy Enforcement – Agent to enforce the access\n\npolicies. Policy definitions consist of information about data access policies, data ownership and metadata about the data, which should be captured as part of the data semantics and published in the catalogue for different data that is being ingested into the smart city data lake.\n\nThe need is for a data governance system that offers fine-grained authorization policy creation, management along with a policy enforcement agent which will\n\n\nuse the policies defined in the catalogue to enforce the policy within the complex ecosystem of the perimeter-less enterprise network. There can be no difference or leniency in access policies whether the application is hosted externally or internally to the data platform.\n\nWhile it is possible to define and enforce these policies and frameworks by creating paper-based records or even in electronic format, a software-based policy engine can go a long way in ensuring cities to automate the implementation of these policies, standards and processes. Cities shall create a city specific data governance plan with the following objectives:\n\n- a) Development of Standard Operating Procedures\n(SOPs) and city specific Data Policies including open data. b) Publishing of data on smart cities Open Data\n\nPortal. c) Supporting in the transformation of Special\n\nPurpose Vehicles (SPV) and relevant line departments into digital organizations. The Smart City Data Governance shall ensure that agencies define the following data policies and standards given below (including but not limited to):\n\n- a) Data privacy policy: describing the city\nadministrations obligations towards protecting the privacy rights of citizens, administrators and stakeholders in line with the city data policy and in conjecture with the National Data Sharing\n\n\n\n\nand Accessibility Policy (NDSAP) and other guidelines issued/endorsed by Govt of India. b) Data retention/archival policy: describing how\n\nlong data should be kept and the conditions for data archival or retirement. c) Open data policy: describing when, how, type,",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "4.2.1",
+      "heading": "4.2.1 Data Governance",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.1 Data Governance"
+      ],
+      "char_start": 20749,
+      "char_end": 23685,
+      "semantic_chunk_length": 2936,
+      "final_chunk_length": 3238,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0012",
+    "text": " with the National Data Sharing\n\n\n\n\nand Accessibility Policy (NDSAP) and other guidelines issued/endorsed by Govt of India. b) Data retention/archival policy: describing how\n\nlong data should be kept and the conditions for data archival or retirement. c) Open data policy: describing when, how, type,\n\ngranularity of data and the frequency with which the agency should publish its data for public consumption. d) Data classification standards: describing the\n\ncriteria for categorizing data into different access levels depending on need-to-know basis and the risks associated with getting the data into the wrong hands. e) Domain-specific data standards: describing\n\ndomain-specific controls for collecting, organizing and managing data.\n\n\n#### 4.2.2 Data Quality\n\nData quality is the ability of data to satisfy the stated business, system, and technical requirements of the Smart city. Data quality is very important as similar information about citizens namely-Address, Phone Number, etc, are collected across multiple applications and most times it is entered manually. Also, when application forms are filled by citizens or operators there’s always the possibility of missing data in some fields. Data quality can be managed using the following steps:\n\n- a) Data Cleansing: Maintenance of data to fit\ndefined Smart City Data Standard for enhanced interoperability and decision making. b) Data Profiling: Systematic analysis of data to\n\ngather actionable and measurable information about its quality. c) Data Traceability: Tracking of the lifecycle of\n\ndata to determine and demonstrate all changes and access to the data. d) Data Compliance: Ongoing processes to ensure\n\nadherence of data to both enterprise business rules, and, especially, to legal and regulatory requirements. e) Data Monitoring: Routine checking and validation\n\nof data against quality control rules to ensure quality and format consistency.\n\n\n#### 4.2.3 Data Flow Architecture\n\nData is exchanged between multiple smart city systems, any change in the data structure in one system will affect all the upstream systems which consume the data. Hence it is important to document the data model or database schema of each individual system and the data flow between systems.\n\nSystem vendors delivering smart city solutions shall document the data schema or data models and API’s to\n\nIS 18002 (Part 1) : 2021\n\naccess data and publish it in repositories identified by the smart city. System Integrators shall document the data integration architecture, data flow and dependency between systems.\n\nSmart cities shall identify the tools & frameworks to manage the database schema changes and use standard formats such as SQL or XML to manage the database schema changes. Data Flow and Data Integration Architecture may be documented using standard UML based notations and artefacts.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "4.2.1",
+      "heading": "4.2.1 Data Governance",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.1 Data Governance"
+      ],
+      "char_start": 23687,
+      "char_end": 26233,
+      "semantic_chunk_length": 2546,
+      "final_chunk_length": 2848,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0013",
+    "text": "etween systems.\n\nSmart cities shall identify the tools & frameworks to manage the database schema changes and use standard formats such as SQL or XML to manage the database schema changes. Data Flow and Data Integration Architecture may be documented using standard UML based notations and artefacts.\n\n#### 4.2.4 Data Processing\n\nThe core data processing functions are:\n\n- a) Data Transformation; b) Data Normalization; c) Data Annotation; d) Data Linking; and e) Data Auditing.\n\n##### 4.2.4.1 Data transformation\n\nData transformation is the ability to apply filters, aggregates, summarization utilizing data models and semantics from metadata defined in master or reference data stores. Data transformers shall be able to handle all forms of data namely instantaneous and historical data, incremental data (versioned data), textual and binary data.\n\n\n##### 4.2.4.2 Data normalization\n\nRaw data which does not align with defined data models or schemas need to be normalized in data stores. Data schemas help in validating the data ingested according to defined rules and transformers can use the schemas to convert data from unstructured form to structured form.\n\nData semantics is defined as data about data (or) meta-data about data. Data semantics can be used to describe the kinds of entities, the classifications and groupings of those entities, and the structural interconnections among them apart from the field information and units.\n\nData semantics tools offer a collection of high-level modelling primitives to capture the semantics. By analyzing the semantic models of data generated by different smart city component systems the city can undertake data consolidation activities.\n\n\n##### 4.2.4.3 Data linking\n\nSmart city data is heterogeneous in nature, heterogeneity arises due to differences in data format (text, video, binary etc), point of origin (devices, social platforms, citizen apps, enterprise systems), periodicity and quality of data (raw, annotated).\n\nTo realize the potential of the data captured, it is imperative to combine data generated from different\n\n\n\n\nmodalities. In order to combine the data, there is a need to understand the data captured and document the semantics. Documenting the semantics of the data using ontology languages is one such technique to describe the data.\n\nAt the sensor level W3C has created an incubator group Semantic Sensor Network (SSN) to describe sensor level ontology. There are also domain specific industry consortia like OCF, IIOT which are working towards creating a standardized ontology for IoT domains.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "4.2.4",
+      "heading": "4.2.4 Data Processing",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.4 Data Processing"
+      ],
+      "char_start": 26236,
+      "char_end": 28506,
+      "semantic_chunk_length": 2270,
+      "final_chunk_length": 2572,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0014",
+    "text": "e such technique to describe the data.\n\nAt the sensor level W3C has created an incubator group Semantic Sensor Network (SSN) to describe sensor level ontology. There are also domain specific industry consortia like OCF, IIOT which are working towards creating a standardized ontology for IoT domains.\n\n##### 4.2.4.4 Data annotation\n\nWhile raw data is important there is a cost associated with acquiring data and it is not possible to always create sensors or systems for capturing all possible data. It has been shown that enriching raw data using crowdsourcing, machine learning techniques in interesting ways can lead to substantial value generation.\n\nAs an example, OBD data from each vehicle in a fleet is used to create trip information data, which can then be annotated by integrating with social platforms where users can augment or annotate the data with their likes and/or dislikes, timeliness of service, tag/group routes of interest. All these additional data created on top of the trip data derived from raw sensor data can then be used to build interesting mobility use cases for the smart city.\n\nIn addition, smart city component systems can also use Artificial Intelligence (AI) and machine learning (ML) techniques to annotate data for example augmenting quality of raw image/video data with information such as object classification, object identification, object counting, scene understanding, trip summarization etc.\n\n\n##### 4.2.4.5 Data auditing\n\nAuditing as part of the data lifecycle management is an important sub-function which enables.\n\n- a) Track historical changes of data. b) Enable logging of services, users and requests for\ndata. c) Apply soft and or hard deletions of data. Data Confidentiality: Maintaining confidentiality of data through well-defined access policies is to be enforced across all the data processing stages. There are a variety of access control mechanisms to provide access to resources to authorized applications and/or users, some of the most common access control models are:\n\n- a) Mandatory Access Control. b) Discretionary Access Control. c) Role Based Access Control. d) Attribute Based Access Control. Smart cities should choose one or more access control mechanisms, document and enforce them as part of the data governance processes.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "4.2.4.4",
+      "heading": "4.2.4.4 Data annotation",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.4 Data Processing",
+        "4.2.4.4 Data annotation"
+      ],
+      "char_start": 28509,
+      "char_end": 30500,
+      "semantic_chunk_length": 1991,
+      "final_chunk_length": 2293,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0015",
+    "text": "st common access control models are:\n\n- a) Mandatory Access Control. b) Discretionary Access Control. c) Role Based Access Control. d) Attribute Based Access Control. Smart cities should choose one or more access control mechanisms, document and enforce them as part of the data governance processes.\n\n##### 4.2.4.6 Data integration\n\nSmart cities shall be open to accept data from multiple sources. Hence data Integration is one of the core capabilities that need to be implemented by every smart city.\n\nBased on the system of concern smart cities may implement real time data ingestion, streaming data ingestion, batch data ingestion or all of them as required.\n\nAs part of Data Integration, a city may deploy ETL/ELT (Extract-Transform-Load or Extract-Load-Transform) tools to help in transforming data from multiple sources into normalized data models and according to the shared data semantics. This will help in improving the data interpretability across smart city domains and thereby improve the insights derived from data.\n\nData integration tools shall also be used to translate the data aiding in system integration (source system to destination system). Two types of translation are listed below for reference:\n\n- a) Translation of internal service and data formats for\ndestination system compatibility and consumption. b) Translation of internal protocols for destination\n\nsystem compatibility and consumption (e.g. SOAP to REST).",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "4.2.4.6",
+      "heading": "4.2.4.6 Data integration",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.4 Data Processing",
+        "4.2.4.6 Data integration"
+      ],
+      "char_start": 30503,
+      "char_end": 31642,
+      "semantic_chunk_length": 1139,
+      "final_chunk_length": 1441,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0016",
+    "text": "o destination system). Two types of translation are listed below for reference:\n\n- a) Translation of internal service and data formats for\ndestination system compatibility and consumption. b) Translation of internal protocols for destination\n\nsystem compatibility and consumption (e.g. SOAP to REST).\n\n#### 4.2.5 Data Storage\n\nManaging the entire lifecycle of data also means that city administrations need to make decisions on the persistence and longevity (duration) of the storage of data. Cities shall identify strategies on storage of both structured and unstructured data and utilize tools and technologies such as Data Warehouse and Data lakes to store data for long term usage. For example, structured data generated by various enterprise applications such as Solid waste management, e-governance, Parking, Traffic violations & Challans etc. can be stored in a data warehouse for long periods for cities to build trends & patterns and derive correlations. Similarly, unstructured/streaming data generated by surveillance video cameras or other sensors if stored as is can add to humongous storage costs. However, certain slices of the video data which are annotated for security violations may be stored in a data lake till the duration as legal requirements mandate.\n\nCity administrations shall analyze and document storage strategies (persistent vs transient), data archival and purging strategies prior to system deployment. Investments in the right set of tools & technologies are key for service continuity along with compliance while keeping the costs under control.\n\nCities should closely govern the creation, storage, maintenance, usage and disposal of Smart City data following data standards in alignment with ethical data handling principles like DMBoK2 and ensure adherence across agencies for storage and retention.\n\n\n\n\n##### 4.2.5.1 Creation\n\n- a) Data is available when needed. b) Data used are understandable and clear. c) Data is accessible to all members of the intended\naudience to conduct day to day business activities. d) Data created is trusted, accurate and as complete\n\nas possible. e) Data shall be backed up based on KPI’s and\n\ncriticality of data. Key KPI’s like point in time recovery (PITR) and mean time to recover (MTTR) help in defining the backup schedule which helps to mitigate the risk of data loss.\n\n\n##### 4.2.5.2 Storage and retention\n\n- a) Data is stored securely at rest using encryption\ntechniques and hashing algorithms as defined in the city data policy. b) Data and document retention shall be retained as\n\nlong as agencies deem their current usefulness and historical relevance. c) Data shall be maintained and replicated in storage\n\nat primary and disaster recovery sites as defined in city data policy and as required to support non functional requirements such as high availability. d) Data retention must satisfy any current data\n\nretention policy.\n\n\n##### 4.2.5.3 Usage and maintenance\n\n- a) Usage of data stored and retrieved should be\nconsistent for the purpose for which the data is intended. b) Data retrieval requests and fulfilment should be\n\nreviewed and monitored for adherence to current security policies and standards.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "4.2.5",
+      "heading": "4.2.5 Data Storage",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.5 Data Storage"
+      ],
+      "char_start": 31645,
+      "char_end": 34532,
+      "semantic_chunk_length": 2887,
+      "final_chunk_length": 3189,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0017",
+    "text": "\nretention policy.\n\n\n##### 4.2.5.3 Usage and maintenance\n\n- a) Usage of data stored and retrieved should be\nconsistent for the purpose for which the data is intended. b) Data retrieval requests and fulfilment should be\n\nreviewed and monitored for adherence to current security policies and standards.\n\n##### 4.2.5.4 Retirement and disposal\n\n- a) All data nearing end-of-life shall be first retired to\na secure offline or near-line storage repository for cleansing. b) Disassociate metadata from the data to remove\n\nidentification. c) Set up a plan to temporarily remove data for\n\nretirement to test the impact. d) All data being disposed of must be documented. e) Data owners must certify no impact of the disposal\n\nof data from their respective systems prior to removal.\n\n\n#### 4.2.6 Data Exchange\n\nData Exchange pertains to sharing ingested and analyzed City data via Open Data sets, Data APIs, Dashboards, as well as Sandbox for working on open data sets with various stakeholders based on city data policy.\n\nIS 18002 (Part 1) : 2021\n\n- a) Open Data Management: Management and accessibility of open datasets in usable formats and enablement of query generation on these datasets. b) Data Visualization: Manipulation and placement of\ndata in a visual context such as infographics, dials and gauges, geographic maps and charts. c) Data Dashboards: Integration of information from\n\nmultiple components into a unified display to facilitate analysis and gaining insights through data. d) Data Sandbox Environment: Isolation of computing\n\nenvironment in which a program or file can be executed without affecting the production environment of the services.\n\n\n#### 4.2.7 Data Protection\n\nData protection is applicable throughout the “collection to exchange to retention” lifecycle of the data in a city. While implementing data protection, the city must keep in mind that they should be fair in data collection, use the data for specific purposes only and collect only the information needed for those defined purposes, keep the data accurate and only for as long as it is needed. The city should ensure that data is always safe and secure.\n\nNational Security Council has published a Model Framework for “Cyber Security Requirement for Smart City”. Cities shall adopt the recommendations from the model framework into their city data policy as part of their cyber security plans for protecting the data.\n\n\n#### 4.2.8 Big Data Management\n\nSmart City Data architecture should be effectively designed (e.g. ingestion, data storage, cleansing) to handle 5V’s of big data, enabling easy access and processing of data by different users and systems.\n\n- a) Big data management should be designed to manage\nstructured and unstructured datasets. b) Distributed database file system technologies\n\n(DDFS) shall be deployed to host and manage large volumes of unstructured data. c) Big data streaming technologies shall be deployed\n\nto handle the high frequency of incoming data that needs to be collected, aggregated, and processed in batch and in real-time. d) Common data models shall be deployed to prevent\n\nunnecessary data transformation and to overcome application level semantic differences. As such, data exchanges would use the schemas that codify canonical data models.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "4.2.5.4",
+      "heading": "4.2.5.4 Retirement and disposal",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.5 Data Storage",
+        "4.2.5.4 Retirement and disposal"
+      ],
+      "char_start": 34535,
+      "char_end": 37496,
+      "semantic_chunk_length": 2961,
+      "final_chunk_length": 3263,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0018",
+    "text": "hat needs to be collected, aggregated, and processed in batch and in real-time. d) Common data models shall be deployed to prevent\n\nunnecessary data transformation and to overcome application level semantic differences. As such, data exchanges would use the schemas that codify canonical data models.\n\n#### 4.2.9 Master Data Management\n\nMaster data management is a collection of processes documenting various data and its sources using tools and technology to ensure that there is one source of truth for master data across the smart city systems.\n\nMaster data management is the process of creating a centralized database of data entities used by multiple applications across the city. Examples of master data\n\n\n\n\nin a city could be addresses (property, buildings, road names, locality names, etc), Assets (Fixed assets like real estate, plant and machinery or movable assets like vehicles), Citizens (or customers), and many more. This practice helps meet the data quality requirement as these central databases act as the single source of truth for all applications.\n\nMaster Data Management includes the following:\n\n- a) Collection of data from various sources and\nidentifying the golden source for a particular master data. b) Reconciliation of inconsistencies in master data,\n\nidentification of most accurate, timely and relevant data. c) Maintaining the quality of reference and master\n\ndata. d) Sharing of the master data efficiently and\n\neffectively. e) Promote reuse of master data across systems. Annex A provides a Master data management reference implementation guide that can be used to identify the system that can act as the golden source of truth for a given data.\n\n\n#### 4.2.10 Analytical Modelling\n\nCities need to provide mechanisms to data science teams for Analytical or AI model creation and for cognitive computing capabilities to generate data insights.\n\n- a) Model Building: Analysis and generation of\nmathematical representations of the system and its services, including the statistical models used to understand behaviours and patterns. b) Model Deployment: Deployment of models in an\n\nautomated fashion, without the need for human intervention in moving code or operating the target machine where the code will run. c) Model Validation: Use of various measures of\n\nstatistical validity to determine data or model problems. d) Big Data Algorithms: Design and development\n\nof algorithms to access large amounts of data from large databases through queries and derive streaming and real-time analysis from them. e) Machine Learning: Automatic development of\n\nmodels based on training data as well as back- propagation, or feedback loops enabling the ability to test and retrain the model while processing production data. f) Statistical Learning: Prediction of business metrics\n\nand variables for the future based on historical data.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "4.2.9",
+      "heading": "4.2.9 Master Data Management",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.9 Master Data Management"
+      ],
+      "char_start": 37499,
+      "char_end": 40054,
+      "semantic_chunk_length": 2555,
+      "final_chunk_length": 2857,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0019",
+    "text": "Automatic development of\n\nmodels based on training data as well as back- propagation, or feedback loops enabling the ability to test and retrain the model while processing production data. f) Statistical Learning: Prediction of business metrics\n\nand variables for the future based on historical data.\n\n#### 4.2.11 Business Intelligence\n\nCities shall be able to transform their decision making by utilizing fact based, quality information. They should be able to track KPIs and metrics in an intuitive manner and by manipulating data as well as identifying trends and outliers. Business Intelligence (BI) platform/tools simplify this process of data manipulation, allowing users to access, navigate, analyze, format, and share information across different environments. It allows a wide range of processes, from search and navigation to advanced analytics, enterprise query, reporting and analysis, dashboards and visualization, self-service access to relevant information and information infrastructure management. BI systems are designed for high performance across a broad spectrum of user and deployment scenarios.\n\n\n#### 4.2.12 Data Discovery and Mining\n\nThis pertains to Data synthesis and visualization methods in preparation of advanced data modelling activities.\n\n- a) Analysis of data sets through visual and graphical\nmethods to summarize their main characteristics. b) Development and management of workflows to\n\nconduct analytics on data. c) Registry of information for reusable components\n\nof many types, which are used to build, document and test data mining tools.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "4.2.11",
+      "heading": "4.2.11 Business Intelligence",
+      "heading_path": [
+        "4 UDI – CORE DATA PRINCIPLES AND CAPABILITIES",
+        "4.2 Core Capabilities",
+        "4.2.11 Business Intelligence"
+      ],
+      "char_start": 40058,
+      "char_end": 41335,
+      "semantic_chunk_length": 1277,
+      "final_chunk_length": 1579,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0020",
+    "text": "alysis of data sets through visual and graphical\nmethods to summarize their main characteristics. b) Development and management of workflows to\n\nconduct analytics on data. c) Registry of information for reusable components\n\nof many types, which are used to build, document and test data mining tools.\n\n## 5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL\n\nThe purpose of creating a Unified Data Layer Reference Architecture is to model data as a shared layer across all smart city component systems with ‘shared data semantics’ and ‘normalized data models’, thereby avoiding data silos, data interoperability and interpretability issues.\n\nFrom an architectural viewpoint, the core functions of the Data Layer are depicted in Fig. 3.\n\nThe functional reference model provides a canonical view to the smart city stakeholders about the responsibilities of the smart city data architecture framework. There are four core functions in the data architecture framework namely - Data Integration, Data Processing, Data Storage and Data Exchange.\n\nThe functional and technology reference model implemented in a city shall follow the Unified Digital infrastructure (UDI) properties defined in IS 18000.\n\nFrom the functional reference model, a set of technology solutions are mapped to the core function which serves as the Technology reference model (depicted in Fig. 4) in the Unified Smart City Data Architecture Framework.\n\n\n\n\n**Fig. 3 Smart City Data Architecture Framework-Functional Reference Model**\n\n\n**Fig. 4 Smart City Data Architecture Framework-Technology Reference Model**\n\n\n\n\nComponent solutions of the Technology Reference Model and their mapping to the functional reference model is provided in Table 3.\n\n\n**Table 3 Technology Component Mapping**\n\n| Sl No. | Technology Component | Functional Area |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | IOT Message Hub | Data Integration |\n| ii) | Enterprise Message Bus | Data Integration |\n| iii) | ETL tools | Data Integration and Data Processing |\n| iv) | Data Lake | Data Storage |\n| v) | Data Warehouse | Data Storage |\n| vi) | Data API | Data Exchange |\n| vi) Network | Data Knowledge Archive | Data Exchange |\n| vi) | Complex Event Processing | Data Processing-Enrich, Act |\n| vii) Engine | Workflow Engine/Rule | Data Processing-Enrich, Act |\n| vii) | Big Data Analytics [AI, ML] | Data Processing-Enrich |\n| viii) | Data Governance | Policy Driven Control |",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 18,
+      "clause": "5",
+      "heading": "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL"
+      ],
+      "char_start": 41338,
+      "char_end": 43446,
+      "semantic_chunk_length": 2108,
+      "final_chunk_length": 2410,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0021",
+    "text": "Network | Data Knowledge Archive | Data Exchange |\n| vi) | Complex Event Processing | Data Processing-Enrich, Act |\n| vii) Engine | Workflow Engine/Rule | Data Processing-Enrich, Act |\n| vii) | Big Data Analytics [AI, ML] | Data Processing-Enrich |\n| viii) | Data Governance | Policy Driven Control |\n\n### 5.1 Data Integration\n\nData Integration is the core function of each smart city system which acquires data from source systems such as sensors, various governmental IT systems, social platforms and 3rd party IT systems.\n\nData is generated by various IoT subsystems, video cameras from various public/private cameras etc, social media data streams, crowd-sourced citizen data, enterprise systems, importing of legacy/archived city data etc. These systems generate structured data (JSON, XML, CSV), unstructured data (variable length textual data – device logs), audio and video data, time series data and binary data.\n\nData Ingestion is a sub function of data integration and shall support a variety of standards compliant data ingestion protocols.\n\nData Integration function shall also support a publish/subscribe (asynchronous) or request/response (synchronous) based message exchange through a message broker to send commands to the connected edge nodes or provide updates to the connected IT applications which are publishing the data to the smart city system.\n\n\n#### 5.1.1 IOT Message Hub\n\nKey design goal of an IOT Message Hub is to provide a publish-subscribe messaging infrastructure for the smart devices deployed in the city to connect & ingest data once they are on boarded into the smart city platform. Devices will ingest messages by publishing\n\nto the message hub and subscribe to push notifications for performing the actuation.\n\nAs the devices deployed in the field vary from simple devices like a temperature sensor to a complex device like an autonomous vehicle, message hubs need to support ingesting data of different types with different latency and throughput requirements. Message hubs shall deploy multiple message bus with multiple endpoints to support various data types and formats, for example – one message bus for time series telemetry data and another for video data with multiple endpoints based on the number of sensors for ingesting data.\n\nDifferent devices have different power profiles, a city may need to deploy battery operated devices as well as always powered on devices. Devices that are battery operated may only publish data and may not support actuation. These differences in device profiles and their power saving strategies mean that IoT message hubs shall support a variety of QoS profiles and also in turn support different messaging protocols like MQTT, AMQP, HTTP, Web sockets and more, suitable for use case specific QoS.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "5.1",
+      "heading": "5.1 Data Integration",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+        "5.1 Data Integration"
+      ],
+      "char_start": 43449,
+      "char_end": 45923,
+      "semantic_chunk_length": 2474,
+      "final_chunk_length": 2776,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0022",
+    "text": "may not support actuation. These differences in device profiles and their power saving strategies mean that IoT message hubs shall support a variety of QoS profiles and also in turn support different messaging protocols like MQTT, AMQP, HTTP, Web sockets and more, suitable for use case specific QoS.\n\n#### 5.1.2 Enterprise Service Bus\n\nEnterprise Service Bus (ESB) is a middleware tool used in distributed computing and helps in component integration by providing ability to connect to a message bus and allowing components to publish-subscribe messages based on simple structural and business policy rules.\n\nESB’s allow for integration through message structures and reduce point to point integration between smart city component systems thereby reducing the deployment and integration complexity. Messages can be routed between application components based on message contents and implementation or business policies.\n\nSmart cities manage a wide variety of component systems like city governance platforms, city digital twin platforms, city social platforms and other enterprise platforms hence it is important for the cities to deploy an ESB to interconnect these enterprise solutions into a unified data platform to mitigate the issue of point to point connectivity between components leading to service management complexities.\n\n\n#### 5.1.3 Extract-Transform-Load (ETL) Tools\n\nETL tools shall be part of the smart city data architecture framework as they help in bringing data from various sources including legacy data sources into a common data warehouse. ETL tools provide a rich set of functional libraries for various transformations helping in transforming data according to schema before they are ingested into the data storage. ETL transformations make it easier to cleanse and integrate enterprise data into the common storage, thereby making it available to meet business needs.\n\n\n\n\nETL tools through their support for various transformations provide cities with the capability to manage the quality of data. A robust data quality framework includes the measurement, analysis, cleansing, enhancement, matching, and consolidation of data.\n\nData virtualization will help to access and use the data through the data exchange layer without the need to store the data, knowing data formats or the physical location of the data. This would facilitate a unified channel for all data exchange by removing point to point integrations. Data virtualization also enable real time and near real time data flow by removing multiple data hops with respect to storage.\n\nUsing ETL tools and data dashboards to create intuitive interface cities can enable business users to perform data profiling, metadata management, and data quality monitoring with minimal training. Data quality dashboards let users continuously monitor their information, so data is more likely to stay clean.\n\nData virtualization also eliminates the need for enforcing storage level policies across many systems for the same data.\n\n\n#### 5.2.3 Rule Engine/Workflow Engine",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "5.1.2",
+      "heading": "5.1.2 Enterprise Service Bus",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+        "5.1 Data Integration",
+        "5.1.2 Enterprise Service Bus"
+      ],
+      "char_start": 45926,
+      "char_end": 48666,
+      "semantic_chunk_length": 2740,
+      "final_chunk_length": 3042,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0023",
+    "text": "ng with minimal training. Data quality dashboards let users continuously monitor their information, so data is more likely to stay clean.\n\nData virtualization also eliminates the need for enforcing storage level policies across many systems for the same data.\n\n\n#### 5.2.3 Rule Engine/Workflow Engine\n\n### 5.2 Data Processing\n\nThere are many smart city usecases in which based on the ingested data some rule needs to be executed for actuation or real time operations alerts. At the simplest level, it may be a threshold-based rule and in the most complex scenario, it may be a collection of resources, assets or telemetry data aggregated over a time/space window triggering a set of events that manipulate the state of the resource in the system.\n\nData Processing pertains to the processing of data in real-time or batches. Batching can be done to process data through the execution of a series of programs without manual intervention on a scheduled basis. Streaming is the presentation of ingested data that is being received and analyzed continuously to generate insights presented through operational dashboards.\n\nData transformation includes a certain set of activities like conversion of data from one format to another, enrich data by merging data from multiple sources, perform aggregation function i.e. create a summary of data (example could be creating a total revenue earned from a citizen across multiple services offered by city), or cleanse data of null values.\n\nWorkflow should provide the ability to the city operations to configure these rules or event execution flows based on the data that is ingested into the smart city component system.\n\n\n#### 5.2.4 Big Data Analytics\n\nBig data analytics is about utilizing the cost effectiveness of moving compute to the data instead of moving data to the compute. Smart cities may have a large corpus of audio and/or video data or events data which can be useful for performing big data analytics.\n\nData transformation can be carried out on data either in batch mode, where a bulk of data is processed and transformed at a regular interval (typically done once a day for large sets of structured data from various city application like e-governance, solid waste management, parking, health management, traffic management, etc) or it can be done on streaming data in real time (mostly used for IoT data).\n\nApplication developers can build data analytics solutions using technologies such as AI techniques such as deep learning, machine learning etc. While they can test their solution using the data exported via the DKAN portal, they must deploy their applications in the smart city cloud or on-premise environment in a production setting.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 19,
+      "clause": "5.2",
+      "heading": "5.2 Data Processing",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+        "5.2 Data Processing"
+      ],
+      "char_start": 48669,
+      "char_end": 51064,
+      "semantic_chunk_length": 2395,
+      "final_chunk_length": 2697,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0024",
+    "text": "ata analytics solutions using technologies such as AI techniques such as deep learning, machine learning etc. While they can test their solution using the data exported via the DKAN portal, they must deploy their applications in the smart city cloud or on-premise environment in a production setting.\n\n#### 5.2.1 Complex Event Processing (CEP)\n\nRealtime intelligence and situation awareness are critical enablers of smart cities. This would need real time event processing. The responsibility of Complex event processing (CEP) includes processing streams of data against defined rules to derive real time actionable insights.\n\nSmart city data platforms shall provide the ability for the developers to containerize the applications and execute them closer to the data within a secure enclave. Smart cities shall leverage technologies such as CRI (Container Runtime Interface) & FaaS (Function-as-a-Service)  being developed by various industry standards bodies to decouple system dependencies and to have the ability to independently upgrade systems.\n\nCEP also helps in data transformation, where systems look at incoming real time data and perform actions based on the data. Like rule engines and workflow systems, CEP uses the state of the entity represented by the data to trigger and assign actions to participating systems and humans. To process and trigger downstream actions CEP, rule engines and workflow systems require data to follow a well-defined schema.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 19,
+      "clause": "5.2.1",
+      "heading": "5.2.1 Complex Event Processing (CEP)",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+        "5.2 Data Processing",
+        "5.2.1 Complex Event Processing (CEP)"
+      ],
+      "char_start": 51067,
+      "char_end": 52230,
+      "semantic_chunk_length": 1163,
+      "final_chunk_length": 1465,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0025",
+    "text": "the data. Like rule engines and workflow systems, CEP uses the state of the entity represented by the data to trigger and assign actions to participating systems and humans. To process and trigger downstream actions CEP, rule engines and workflow systems require data to follow a well-defined schema.\n\n### 5.3 Data Storage\n\nSmart city component systems need to manage different data types that will be acquired, leading to multiple data storage systems. Data layer shall be composed of a polyglot of storage systems made up of NoSQL (DocumentDB, Time Series DB, Columnar DB, Graph DB), Big Data, OLTP and OLAP technologies (Data Warehouse), Object Storage and In-memory databases.\n\n\n#### 5.2.2 Data Virtualization\n\nStoring all data would mean duplicating data across various systems and would mean a constant need for synchronizing updates between the systems impacting the quality of data.\n\n\n\n\nIt is important to note that one data storage mechanism is not a replacement for other and different databases are useful in performing different types of specialized storage and querying of data.\n\n\n#### 5.3.1 Data Lake\n\nData lake is a set of data storage technology solutions that the city shall deploy to support different storage formats, different means of querying for different content-types. Standard OLTP database technologies may not suffice due to the nature of the data being ingested in the smart city environment.\n\nWhile the sensor data could be either stored in a time series or a document database, incidents generated out of the events may need to be stored in a regular SQL like database.\n\nIn the above architecture, some of the key storage technologies (Object Storage, NoSQL, SQL, Big Data, File system) are mentioned for representational purposes.\n\nDuring the implementation, it is required to map the different data types to the right storage solution with the right set of life cycle, access and governance policies.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "5.3",
+      "heading": "5.3 Data Storage",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+        "5.3 Data Storage"
+      ],
+      "char_start": 52233,
+      "char_end": 53864,
+      "semantic_chunk_length": 1631,
+      "final_chunk_length": 1933,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0026",
+    "text": " of the key storage technologies (Object Storage, NoSQL, SQL, Big Data, File system) are mentioned for representational purposes.\n\nDuring the implementation, it is required to map the different data types to the right storage solution with the right set of life cycle, access and governance policies.\n\n#### 5.3.2 Data Warehouse\n\nAn Enterprise data warehouse may be used for storing integrated and processed data as well as processing large, complex queries and advanced analytics to provide the insights for data-based decision making. The warehouse can act as the single source for self-service BI and analytics and will provide long-term trends, patterns as well as predictive insights for more effective planning and optimization of city operations.\n\nThe data warehouse platform delivers fast query performance and storage efficiency for structured data through a native columnar architecture providing speed and agility with low total cost of ownership. Column based storage makes it easy to execute operations in parallel using multiple processor cores thus providing massive parallelization in Query Execution. In addition to the above, it provides extremely strong support for complex predictive analytic methods through in-database analytics, handling massive data sets for better modelling accuracy, and the ability to work with leading analytics and visualization tools. Further, the data warehouse provides the following benefits:\n\n- a) Faster results for report acceleration, data mining,\nand predictive analytics. b) Superior price-performance ratio. c) Open, flexible column-oriented architecture. d) Data compression to reduce the data size. e) Support in-database analytics. f) Support for storage & processing of spatial data. g) Support for time series data.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 20,
+      "clause": "5.3.2",
+      "heading": "5.3.2 Data Warehouse",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+        "5.3 Data Storage",
+        "5.3.2 Data Warehouse"
+      ],
+      "char_start": 53867,
+      "char_end": 55341,
+      "semantic_chunk_length": 1474,
+      "final_chunk_length": 1776,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0027",
+    "text": "celeration, data mining,\nand predictive analytics. b) Superior price-performance ratio. c) Open, flexible column-oriented architecture. d) Data compression to reduce the data size. e) Support in-database analytics. f) Support for storage & processing of spatial data. g) Support for time series data.\n\n### 5.4 Data Exchange\n\n\n#### 5.4.1 Data APIs\n\nAPI stands for application programming interface. Data APIs are a set of read and annotate API’s that shall be used by the developer ecosystem to develop interesting smart city applications utilizing the data available within the city.\n\nData API’s provide a standardized entry point for developers to access the data from the data repositories. API’s allow for fine grained access to the data according to the data governance rules defined and allow smart cities to meter and monetize data. Data API’s are useful for accessing data representations across time periods to make operational decisions. Data API’s can also be used to annotate raw data with more meaningful information.\n\nData API’s are suitable for accessing real time and small batches of data from the data lake. The intent of the API’s is not to retrieve large chunks of data like video data over the network. Moving data over the network will cost money for the city, hence deploying an API management layer along with API metering shall be implemented to monitor and manage the network costs. API management may also serve as a first level policy and governance enforcement layer.\n\nFollowing are some of the API’s that a Data service may provide.\n\n- a) Search/query Data via API. b) API shall support access to data in multiple\nformats (For e.g.: CSV, XML, JSON, PDF). c) Dataset additions and updates via API (for data\n\nproviders/publishers). d) Update metadata via API (for data providers). e) Subscribe for real time push/pull notification for\n\ncertain types of data. If a city wants to allow data access for analytics, requiring large quantities of data movement over the network may be required, the cost effective model will be to bring the compute to the data by wrapping the application in a container instead of moving data to the application through the network utilizing Data API’s.\n\n\n#### 5.4.2 Data Portal\n\nOne of the key goals of smart cities mission is to promote transparency and greater citizen engagement by making more government data, documents, tools, and processes publicly available through a freely available, open source platform.\n\nIndia as a nation along with Canada and the United States has adopted an open source web-based data sharing platform called Open Government Platform (OGPL). There are also other open source data management system initiatives such as Comprehensive Knowledge Archive Network (CKAN) which is a\n\n\n\n\nweb-based open source management system for the storage and distribution of open data.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 21,
+      "clause": "5.4",
+      "heading": "5.4 Data Exchange",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+        "5.4 Data Exchange"
+      ],
+      "char_start": 55345,
+      "char_end": 57896,
+      "semantic_chunk_length": 2551,
+      "final_chunk_length": 2853,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0028",
+    "text": "rce web-based data sharing platform called Open Government Platform (OGPL). There are also other open source data management system initiatives such as Comprehensive Knowledge Archive Network (CKAN) which is a\n\n\n\n\nweb-based open source management system for the storage and distribution of open data.\n\n#### 5.4.3 Data Catalogue\n\nSmart city component systems manage data and have data schemas that provide the structure of the data and the relationship between various entities in the database. Data models/schema should be documented, and version controlled, so that changes to the schema are controlled and help in seamless migration as and when new source systems or requirements are added.\n\nThese data models and schemas shall be published in a common city level repository. Every source application should utilize domain level standard data models applicable for their respective domains like Waste management, Traffic management, Parking management etc.\n\nApplication that hosts schema information about data is referred to as a Data catalogue. One of the key design goals of the data catalogue is that both humans and computers should be able to interpret the schema for making decisions.\n\nData catalogue shall allow for easy search of data schemas based on keywords, tags and various contextual information (one example of such effort is hypercat). Search API’s allow for discoverability of the underlying data models a city data lake repository contains and helps in app providers developing interesting mashup applications.\n\n\n#### 5.4.4 Data Knowledge Archive Network\n\nAs part of the transparency efforts & good governance practices, governments are sharing data through open data platforms like CKAN, DKAN and OGPL. Data is shared in royalty free and through open license models to enhance the consumption of data. However, this platform can also be used to monetize data or conduct challenges based on the data published.\n\nCities should constantly identify datasets to be exported from their data lake along with their purpose, goal,\n\nIS 18002 (Part 1) : 2021\n\nduration, licensing and monetization model. A set of key tools like data anonymization, compression etc, should be part of the open data platform which will be used while exporting the data based on the data privacy, security and cost requirements.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "5.4.3",
+      "heading": "5.4.3 Data Catalogue",
+      "heading_path": [
+        "5 FUNCTIONAL AND TECHNOLOGY REFERENCE MODEL",
+        "5.4 Data Exchange",
+        "5.4.3 Data Catalogue"
+      ],
+      "char_start": 57899,
+      "char_end": 59916,
+      "semantic_chunk_length": 2017,
+      "final_chunk_length": 2319,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0029",
+    "text": "ith their purpose, goal,\n\nIS 18002 (Part 1) : 2021\n\nduration, licensing and monetization model. A set of key tools like data anonymization, compression etc, should be part of the open data platform which will be used while exporting the data based on the data privacy, security and cost requirements.\n\n## 6 INFORMATION REFERENCE MODEL\n\nThe information reference model as depicted in Figure 5 consists of the following conceptual models:\n\n- a) Data Reference Model: which models data. b) Data Access Model: which models the access to\ndata. c) Information Extraction Model: which models the\n\nprocess of information extraction from data. d) Insights Extraction Model: which models the\n\nprocess of insights extraction from data. These models can be extended/instantiated to create concrete models for any use case.\n\n\n### 6.1 Data Access Model\n\nAccessing data by any stakeholder involves interacting with a Data Exchange interface to connect with Data Sets and then access either the Data Set as a whole or get specific data items from the set through a selection, or querying process. The data access model is shown in Figure 6.\n\nThe Data Set itself gets created by a Data Collection Process, which could be entirely automated or could have human steps.\n\nEach Data Set has a clearly designated owner (Data Owner), who is responsible for the Data Set in terms of providing permissions for sharing/exchanging and sets the policies for the same.\n\nThe process of managing the data collection, its curation, normalization/transformation, storage and any other aspects is called Data Governance and Management and is performed by a Data Steward-who is a specialist in these aspects.\n\n\n**Fig. 5 Information Reference Model**\n\n\n\n\n\n**Fig. 6 Data Access Model**\n\nExample:\n\nFault in an environmental sensor triggers an alert for the field agent.\n\nData Owner: City SPV\n\nData Collection Process: IOT enabled continuous monitoring of sensor status\n\nData Set: Event stream of sensor status\n\nStakeholder: Maintenance Supervisor\n\nSolution: Field Service App, that receives service management requests through API from ICCC Application, subscribes to the event stream of environmental sensor application, which will trigger an alert to the nearest available field agent.\n\nData Steward: Shall ensure that this event stream data is made available to the appropriate users.\n\nData Governance: Shall ensure that the City SPV can set appropriate access permissions for sharing of this event stream and to ensure timely action.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 22,
+      "clause": "6",
+      "heading": "6 INFORMATION REFERENCE MODEL",
+      "heading_path": [
+        "6 INFORMATION REFERENCE MODEL"
+      ],
+      "char_start": 59919,
+      "char_end": 62115,
+      "semantic_chunk_length": 2196,
+      "final_chunk_length": 2498,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0030",
+    "text": "ger an alert to the nearest available field agent.\n\nData Steward: Shall ensure that this event stream data is made available to the appropriate users.\n\nData Governance: Shall ensure that the City SPV can set appropriate access permissions for sharing of this event stream and to ensure timely action.\n\n### 6.2 Data Reference Model\n\nData is the digital representation about a Thing. Thing is a universal item-anything that is measurable, describable or digitally representable, is the subject for data.\n\nData is contained in a Dataset, which is an asset and unit for management and governance.\n\nData can be structured (i.e., organized into fields like in an Excel file), unstructured (e.g., text document) or semi-structured (e.g., video streams).\n\nTypically, structured data has names for the fields (commonly called attributes), and these attributes map to the attributes of the Thing. In this document, we represent even unstructured data in this format, wherein the unstructured data has only one attribute (which we can call data value, for example, with the content of the data value field being the entire unstructured data).\n\nA Data Model as depicted in Fig. 7 describes these attributes and their properties (as far as pertaining to their digital values). A basic Data Model might stop at listing out the attribute names and the datatypes of the values of the attributes (e.g. string, Boolean, integer etc). A Data Model is an essential ingredient of the meta-data (data about the data). Various standard formats exist for describing meta-data.\n\nA more extensive Data model might draw or connect the attribute names to Vocabularies - which are commonly understood by practitioners in the domain. Further organization of parts of Vocabularies as Taxonomies (i.e., hierarchical or structured arrangement of terms) could provide additional interpretability to the data. A vocabulary might also be organized or structured as an Ontology, which captures the meaning (semantics) of the vocabulary in terms of the meaning of the actual Thing, its properties, and its relationships.\n\n\n\n\n\n**Fig. 7 Data Reference Model**\n\n\n**Fig. 8 Data Governance Model**\n\nAn abstract model is shown in Fig. 8. Specific meta data models, vocabularies, taxonomies and ontologies should be developed for specific domains and standardized, to allow easy sharing and interpretation of data across different stakeholders.\n\nan appropriate context, in a meaningful way, to make sense to the stakeholder.\n\nA part of the context is provided by the question being asked by the seeker.\n\nFor example, the question “When is bus 276 scheduled to arrive at ‘Mantri Mall’ stop?” provides the context as “The bus 276 will arrive at”. In data from the bus schedule, “10.30” is interpreted using the metadata (“description: time, format: UTC”), and is then rendered to provide useful information to the stakeholder.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 23,
+      "clause": "6.2",
+      "heading": "6.2 Data Reference Model",
+      "heading_path": [
+        "6 INFORMATION REFERENCE MODEL",
+        "6.2 Data Reference Model"
+      ],
+      "char_start": 62118,
+      "char_end": 64695,
+      "semantic_chunk_length": 2577,
+      "final_chunk_length": 2879,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0031",
+    "text": "stion “When is bus 276 scheduled to arrive at ‘Mantri Mall’ stop?” provides the context as “The bus 276 will arrive at”. In data from the bus schedule, “10.30” is interpreted using the metadata (“description: time, format: UTC”), and is then rendered to provide useful information to the stakeholder.\n\n### 6.3 Information Extraction Model\n\n\n**Fig. 9 depicts Information Extraction Model. “Information is defined as data that are endowed with meaning and purpose”. Data needs to be rendered in**\n\n\n\n\n\n**Fig. 9 Information Extraction Model**\n\nData Context is itself data and can also be supplied with data in general. For example, the query “show me where the current accident is” is rendered by showing the accident spot (which is geolocation data), rendered on a map of the locality (which is GIS data).\n\n\n### 6.4 Insights Extraction Model\n\nInsights require deeper analysis of data and its context and will usually involve an interactive process of working with data, by a human expert. These also form the basis for creating new analytics as well as predictive models. Once the algorithms for prediction/analytics is finalized, it can be deployed as per the information extraction model. Insights Extraction Model is shown in Fig. 10.\n\nWhile the foundation of data, meta-data and data context remains the same, the process of extracting insights is more involved than that for extracting information.\n\n\nExample:\n\nUnderstanding the spread of an epidemic To be able to understand how an epidemic\n\nspread, one needs to analyze multiple datasets together. These include a) symptoms data set as reported by health apps, b) test reports by testing labs, c) sales of specific medicines as reported by pharmacies d) patients admitted with specific symptoms as reported by hospitals and e) mobility data as extracted from telecom operators and social media companies. A joint analysis of all these (and perhaps more) data sets is required to develop an understanding of the spatio-temporal spread of the epidemic. This is an iterative process requiring a continuous back and forth interaction between the human analysts and the data sets, until hypotheses are validated. Once the insights are obtained, these can be converted into predictive models, which can then be deployed to raise alerts about emerging hotspots.\n\n\n\n\n**Fig. 10 Insights Extraction Model**",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 25,
+      "clause": "6.3",
+      "heading": "6.3 Information Extraction Model",
+      "heading_path": [
+        "6 INFORMATION REFERENCE MODEL",
+        "6.3 Information Extraction Model"
+      ],
+      "char_start": 64698,
+      "char_end": 66747,
+      "semantic_chunk_length": 2049,
+      "final_chunk_length": 2351,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0032",
+    "text": "inuous back and forth interaction between the human analysts and the data sets, until hypotheses are validated. Once the insights are obtained, these can be converted into predictive models, which can then be deployed to raise alerts about emerging hotspots.\n\n\n\n\n**Fig. 10 Insights Extraction Model**\n\n## ANNEX A\n\n( Clause 4.2.9 )\n\nMASTER DATA MANAGEMENT REFERENCE IMPLEMENTATION GUIDE\n\nA-1 NEED FOR MASTER DATA MANAGEMENT\n\nIn the context of a Smart city, the master data reveals itself in many forms such as municipal wards, locations, addresses, household details, etc. and these data come from various sources and are used in different contexts in different solutions. For example, in Property tax solution, a house address is used for identifying the property to be taxed, whereas the same house address in a Solid Waste Management solution is used for identifying the house for door-to-door garbage collection. Irrespective, the need for both the data to represent the same physical (or logical) entity is of at most importance. In this context, it is important to make sure that there is no duplication of such data and one source acts as the “master” or “golden” source of truth. In the example given above, to avoid duplication, it is highly recommended that the Property tax system is used as the golden source to update the household data such as location, address etc. into the master data repository and store the latitude/longitude data in GIS from which the solid waste management system uses the data, instead of capturing them on its own. It may use this “master” data to validate and cross verify on the ground and if required request the “master” to correct the data. Correction may be required if there are ownership changes to the property or errors in the provided master data.\n\nIn this reference guide to the Data Layer Reference Architecture, we provide a guideline to Smart cities on how to identify the solutions that can potentially act as the “master” to represent a certain physical or logical entity and thus make that solution the “golden” source of truth for that type of data.\n\nOne of the biggest challenges is the process of identifying and labelling a data element as “master” data, especially in municipal administration where multiple systems exist, mostly in silos. A high-level process for identifying master data for a city is described in A-2. The City Data Officers (CDO) and their virtual organization play a key role in executing this process of identifying master data. While the high-level process is a guideline, Smart cities are free\n\n\nto select a methodology that is most suited to their purposes as long as they are able to identify and label the master data elements and its sources.\n\nA-2 HIGH-LEVEL PROCESS FOR IDENTIFYING MASTER DATA FOR A CITY\n\nStages for identifying master data\n\nThe recommended high level process for identifying the master data involves the following three stages:",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 26,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 66753,
+      "char_end": 69388,
+      "semantic_chunk_length": 2635,
+      "final_chunk_length": 2937,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0033",
+    "text": "urposes as long as they are able to identify and label the master data elements and its sources.\n\nA-2 HIGH-LEVEL PROCESS FOR IDENTIFYING MASTER DATA FOR A CITY\n\nStages for identifying master data\n\nThe recommended high level process for identifying the master data involves the following three stages:\n\n- a) Stage I - the CDO defines and explains to all\nconcerned on what is City level master data, its importance and sets up a process to collaborate with the departments to identify master data within each department. In this stage, the CDO also defines the criteria for the master data sources to be identified as the “golden source”. For example, if there are two sources for residential addresses, this criterion will determine which source should be considered the “golden source”. b) Stage II - the departmental level master data thus\n\ncollated is normalized across all departments, duplicates identified, disputes resolved, and one source is made the “golden source” for that data element. For example, if two departments are the sources of residential address data independent of each other, then one of the departments will be identified as the “golden source” based on the criteria that is defined in Stage I. c) Stage III - the City level master data is published\n\nalong with its “golden sources” and the CDO defines the processes for on-going master data management.\n\nNOTE — It is not necessary that all the “master” data must\n\ncome from a single department or source. Indeed, it is a union of data from multiple sources that make up the “Master data” for a Smart city as given in the definition. Table 4 provides a set of identified solutions that can act as potential “golden source” of truth for certain data based on generally accepted best practices.Smart cities are free to identify and designate a different source for the same. This guideline does not define how the data will be derived or calculated.\n\n\n\n\n| Stage I |  | Stage II |  | Stage III |  |\n\n\nDefining master data at a City level\n\nDepartmental level master data identification\n\nNormalizing master data across departments\n\nIdentifying city level master data\n\nPublishing City level master data\n\nDefining processes for City level master data management\n\n\n**Fig. 11 Stages for identifying master data**\n\n\n**Table 4 Solutions and Master Data Sources**",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 33,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 27,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 69390,
+      "char_end": 71414,
+      "semantic_chunk_length": 2024,
+      "final_chunk_length": 2326,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0034",
+    "text": "vel master data identification\n\nNormalizing master data across departments\n\nIdentifying city level master data\n\nPublishing City level master data\n\nDefining processes for City level master data management\n\n\n**Fig. 11 Stages for identifying master data**\n\n\n**Table 4 Solutions and Master Data Sources**\n\n| Solution |  | Master Source for Data Item |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Geographical System (GIS) Asset Management Transit Management Solid Waste Management | Information | a)\t Geo spatial data such as latitude/longitude. b)\t Distance between any two points within an urban local body. c)\t Municipal boundaries such as wards and zones. d)\t Points of interest. e)\t Area of a location. f)\t Smart city assets such as field level devices. g)\t Any other data related to or owned by the urban local body such as water pipelines, electrical network, sewage network, etc. a)\t Field Asset details. a)\t Multi-modal transport information. b)\t Fare details. c)\t Transport routes. d)\t Transport vehicle information: i) Number and type of vehicles. ii) Daily routes. iii) Depot locations. e)\t Daily details of vehicle movement. f)\t Real-time passenger transport vehicle location. g)\t Passenger information such as ETA/ETD. h)\t Transit information within a city such as point-to-point fastest modes, shortest routes, etc. j)\t Transactional and financial data related to Transit management. a)\t Garbage collection information within the city: i) Door-to-door. ii) Overall. iii) Recycling data. b)\t Health worker information. c)\t SWM vehicular information: iv) Number and type of vehicles. v) Daily routes. vi) Depot locations. vii) Daily details of vehicle movement. d)\t Real-time SWM vehicle location. |  |  |  |\n\n\n\n\n\n\n\nTable 4 ( Concluded )\n\n\n|  | Solution |  | Master Source for Data Item |\n| --- | --- | --- | --- |\n| Intelligent Traffic Management Video Surveillance e-Governance | Variable Message Display Environmental Monitoring |  | e)\t Vehicular movement information such as no. of vehicles entering/exiting a city, average speed of vehicles, etc. f)\t Traffic violation and e-Challan data: i) Red light violations. ii) Speed violations. iii) Number plate recognition. iv) Stolen vehicle identification. g)\t Traffic enforcement information: i) Traffic signal status. ii) Traffic movement at various locations. iii)Congestion information at various locations. h)\t Traffic Accident related information. a)\t Status information. b)\t Current and historical messages displayed. c)\t Revenue from advertisement displays. d)\t Special message displays: i) Emergency messages. ii) Special day greetings. a)\t Streaming video from a particular location. b)\t Video Analytics event specific data (Depends on the capability of the Video Analytics system). a)\t All city specific environmental pollution data a)\t Property Tax related data: i) Property type (Residential, Commercial, etc). ii) Property number. iii) Address. iv) Property rate. v) Property payment information. b)\t Property information. i) Physical characteristics of the property such as built up area, no. of tenements, no. of floors, etc. c)\t Water tax related data. d)\t Municipal financial data. e)\t Municipal procurement information. f)\t Municipal ERP related data. g)\t HR records of municipal workers. |",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 34,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 28,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 71416,
+      "char_end": 74388,
+      "semantic_chunk_length": 2972,
+      "final_chunk_length": 3274,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0035",
+    "text": ". b)\t Property information. i) Physical characteristics of the property such as built up area, no. of tenements, no. of floors, etc. c)\t Water tax related data. d)\t Municipal financial data. e)\t Municipal procurement information. f)\t Municipal ERP related data. g)\t HR records of municipal workers. |\n\n## ANNEX B\n\n( Foreword )\n\n## 1 IS 17428 (Part 1) : 2020 Data Privacy Assurance Part 1 Engineering and Management Requirements.\n\n\n## 2 IS 17428 (Part 2) : 2020 Data Privacy Assurance Part 2 Engineering and Management Guidelines.\n\nDAMA DMBOK2 Data Management.\n\n(SQuaRE) - Data quality model.\n\n\n## 5 ISO/TS 8000 Data Quality.\n\nISO/IEC 11179 Information Technology - MetaData Registries (MDR).\n\nISO/IEC DIS 20547 (Series) Information technology - Big data reference architecture.\n\nISO/IEC DIS 20546 : 2019 (en) Information technology  Big data Overview & Vocabulary.\n\nISO 15000 Electronic Business Extensible Markup Language (ebXML)\n\nISO/IEC 20802-2 : 2016 Information technology - Open data protocol (OData) v4.0 — Part 2: OData\n\n\nJSON Format.\n\n\n## 12 ISO/IEC 29161 Data structure - Unique identification for the Internet of Things.\n\ninteroperability\n\n\n## 14 Linked Data from W3C.\n\n\n## 15 Master data identification in public sector organisations : Article published October 2016,\n\nhttps://www.researchgate.net/publication/316599013 - Faizura Haneem, Nazri Kama, Azri Azmi,\n\nAdvanced Informatics School, Universiti Teknologi Malaysia, published in Advanced Science Letters,\n\nVol. 22, 2999-3003, 2016, Copyright  2016 American Scientific Publishers.\n\n\n16 https://schema.org/Thing.\n\n\n## 17 Hypercat specification - https://hypercatiot.github.io/spec1.1.pdf\n\nInDEA Framework and Federal Enterprise Architecture Data Reference Model v 2.0.\n\n\nWallace, Danny P. (2007). Knowledge Management: Historical and Cross-Disciplinary Themes. Libraries\n\n\nUnlimited. pp. 1-14. ISBN 978-1-59158-502-2.\n\n2O City Data Policy for Raipur Municipal Corporation -http:/nagarnigamraipur.nic.in/RSCL/CityDataPolicy.\n\nJpd\n\nModel\n\nhttp://mohua.gov.in/\n\nFramework\n\npdf/58fd92b5545b85821b621a862dCyber_Securitypdf.pdf.\n\n\n## 22 Cyber Security in Smart Cities - https://smartnet.niua.org/sites/default/files/tech_clinic_smart_city.\n\ncyber_security_june_2020_1.pdf.",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 35,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 29,
+      "page_end": 29,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 74395,
+      "char_end": 76325,
+      "semantic_chunk_length": 1930,
+      "final_chunk_length": 2232,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18002_1_0036",
+    "text": "ation -http:/nagarnigamraipur.nic.in/RSCL/CityDataPolicy.\n\nJpd\n\nModel\n\nhttp://mohua.gov.in/\n\nFramework\n\npdf/58fd92b5545b85821b621a862dCyber_Securitypdf.pdf.\n\n\n## 22 Cyber Security in Smart Cities - https://smartnet.niua.org/sites/default/files/tech_clinic_smart_city.\n\ncyber_security_june_2020_1.pdf.\n\n## 23 National Data Sharing and Accessibility Policy - https://dst.gov.in/national-data-sharing-and-accessibility-\n\npolicy-0.\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 28 (17203).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "18002_1.md",
+      "chunk_index": 36,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 29,
+      "page_end": 34,
+      "clause": "23",
+      "heading": "23 National Data Sharing and Accessibility Policy - https://dst.gov.in/national-data-sharing-and-accessibility-",
+      "heading_path": [
+        "23 National Data Sharing and Accessibility Policy - https://dst.gov.in/national-data-sharing-and-accessibility-"
+      ],
+      "char_start": 76328,
+      "char_end": 77985,
+      "semantic_chunk_length": 1657,
+      "final_chunk_length": 1959,
+      "standard_no": "IS 18002",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

@@ -1,0 +1,449 @@
+[
+  {
+    "id": "19598_2026_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nFebruary  2026 Price Group 6\n\n\n\n\nRetail, E-Commerce and E-Payment Services Sectional Committee, SSD 11\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Retail, E-Commerce and E-Payment Services Sectional Committee, had been approved by the Service Sector Division Council.\n\nE-commerce has grown exponentially in recent years, creating several opportunities and benefits for both firms and consumers. However, the rise of e-commerce has introduced new challenges, particularly in terms of consumer protection and trust. The importance of clear and effective rules and norms for self-governance in e-commerce cannot be further emphasized in this context. Such principles and rules are critical for ensuring that e-commerce entities operate fairly and transparently, as well as protecting consumers from fraudulent and unethical practices.\n\nThis standard lays down a comprehensive set of principles and guidelines for the self-governance of e-commerce operations, aimed at fostering an ethical and responsible e-commerce ecosystem while safeguarding the best interests of consumers as well as other stakeholders involved in the business of e-commerce.\n\nThis standard is voluntary in nature and operates in conformity with the existing laws and regulations.\n\nThe composition of the Committee responsible for the formulation of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nE-COMMERCE — PRINCIPLES AND GUIDELINES FOR\n\n\nSELF-GOVERNANCE\n\n\n## 1 SCOPE\n\nThis standard lays down the essential principles and provides guidelines for the self-governance of e-commerce operations for the best interests of consumer and other stakeholders involved in the business of e-commerce.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2287,
+      "semantic_chunk_length": 2285,
+      "final_chunk_length": 2285,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0001",
+    "text": "ard\n\n\nE-COMMERCE — PRINCIPLES AND GUIDELINES FOR\n\n\nSELF-GOVERNANCE\n\n\n## 1 SCOPE\n\nThis standard lays down the essential principles and provides guidelines for the self-governance of e-commerce operations for the best interests of consumer and other stakeholders involved in the business of e-commerce.\n\n## 2 TERMINOLOGY\n\nFor the purpose of this standard, the following terms and definitions shall apply.\n\n\n### 2.1  Bundled Services — Package of different or unrelated services or products that are sold together as a single unit or subscription plan.\n\n\n### 2.2  Business Partners — Any third-party entity involved in a commercial relationship with an e-commerce platform.\n\nNOTE — Sellers, suppliers, vendors, distributors, manufacturers, or any other company/entity that offers goods or services to the e-commerce platform or relies on the e-commerce platform to sell their products or services to customers may be included.\n\n\n### 2.3  Contract Formation — Legal principles that govern the process of creating a binding agreement between the buyer and the seller.\n\nNOTES\n\n\n1 In e-commerce, contracts are formed electronically through the exchange of information over the internet.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 TERMINOLOGY",
+      "heading_path": [
+        "2 TERMINOLOGY"
+      ],
+      "char_start": 2290,
+      "char_end": 3167,
+      "semantic_chunk_length": 877,
+      "final_chunk_length": 1179,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0002",
+    "text": "ts or services to customers may be included.\n\n\n### 2.3  Contract Formation — Legal principles that govern the process of creating a binding agreement between the buyer and the seller.\n\nNOTES\n\n\n1 In e-commerce, contracts are formed electronically through the exchange of information over the internet.\n\n## 2 It commonly includes offer and acceptance, consideration, intent to create legal relations, capacity to contract and consent.\n\n\n2.4  Country of Origin — The country in which the goods have been produced or manufactured, according to the criteria laid down under the Customs Tariff Act, 1975 and the rules and regulations notified therein, for the determination of the country of origin.\n\nNOTE — It is the nation from which the product's parts were purchased or where the final assembly or manufacturing was carried out.\n\n\n### 2.5  Data — A representation of information, facts, concepts, opinions or instructions in a manner suitable for communication, interpretation or processing by human beings or by automated means.\n\n\n### 2.6 E-Commerce Entity — An individual, company or organization that operates/owns an  electronic\n\ncommerce platform, where buyers can purchase products or services either from third-party seller(s) or directly from the platform operator itself.\n\nNOTE — Entity may be a separate electronic commerce platform that is run by the e-commerce entity.\n\n\n2.7  Geographic Limitations — Limitations on the locations where a good or service can be used or sold or purchased based on the buyer's or user's location.\n\n\n2.8  Goods — Items or materials that are manufactured, handled, processed, or transported within the supply chain for usage or consumption by the buyer.\n\n\n2.9 Inventory E-Commerce Entity — An e-commerce entity which owns the inventory of goods or services and sells such goods or services directly to the end consumers and shall include single brand retailers and multi-channel single brand retailers.\n\n\n2.10 Logistics Partner — An entity that offers shipping or delivery services for a seller's merchandise as per the requirements of the seller and the consumer.\n\nNOTE — They often have their own infrastructure, including warehouses, trucks, and delivery employees, and provide several shipping choices, including normal or rapid shipping.\n\n\n### 2.11 Marketplace E-Commerce Entity — An e- commerce entity which provides an information technology platform on a digital or electronic network to facilitate transactions between buyers and sellers.\n\n\n2.12 Merchantability — The quality of goods being sold on an e-commerce platform to be suitable for the purpose they are intended for.\n\n\n### 2.13 Platform — An online interface in the form of a website or a part thereof and applications including mobile applications amongst others.\n\n\n2.14 Post-Transaction Principles — Principles that are applicable after a transaction is completed between the buyer and seller and are intended to ensure that the buyer receives the goods in a timely and satisfactory way.\n\n\n### 2.15 Pre-Transaction Principles — Principles that govern the preliminary stages of an e-commerce\n\n\n\ntransaction, intended to ensure that customers can browse with ease, understand terms and conditions, and feel secure while doing so.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "2",
+      "heading": "2 It commonly includes offer and acceptance, consideration, intent to create legal relations, capacity to contract and consent.",
+      "heading_path": [
+        "2 It commonly includes offer and acceptance, consideration, intent to create legal relations, capacity to contract and consent."
+      ],
+      "char_start": 3170,
+      "char_end": 6104,
+      "semantic_chunk_length": 2934,
+      "final_chunk_length": 3236,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0003",
+    "text": "e buyer receives the goods in a timely and satisfactory way.\n\n\n### 2.15 Pre-Transaction Principles — Principles that govern the preliminary stages of an e-commerce\n\n\n\ntransaction, intended to ensure that customers can browse with ease, understand terms and conditions, and feel secure while doing so.\n\n## 1 It is usually a concise and descriptive phrase or sentence that provides potential customers with a general idea of what the product is.\n\n\n## 1 This entails the exchange of information and money between buyer and seller, which is frequently assisted via an online platform or marketplace.\n\n\n2 It should accurately reflect the item being sold and include relevant keywords to improve search engine optimization.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "1",
+      "heading": "1 It is usually a concise and descriptive phrase or sentence that provides potential customers with a general idea of what the product is.",
+      "heading_path": [
+        "1 It is usually a concise and descriptive phrase or sentence that provides potential customers with a general idea of what the product is."
+      ],
+      "char_start": 6107,
+      "char_end": 6522,
+      "semantic_chunk_length": 415,
+      "final_chunk_length": 717,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0004",
+    "text": "ea of what the product is.\n\n\n## 1 This entails the exchange of information and money between buyer and seller, which is frequently assisted via an online platform or marketplace.\n\n\n2 It should accurately reflect the item being sold and include relevant keywords to improve search engine optimization.\n\n## 2 This may also include the delivery or shipment of the purchased products to the buyer, as well as the performance of the acquired services.\n\n\n### 2.16 Product — A general term used to refer to either a good or a service offered on an e-commerce platform, depending on the context.\n\n\n### 2.17 Product Information — Details and attributes of a specific product that the e-commerce platform must provide for the consumer’s information.\n\n\n### 2.18 Product Title — Name or title that describes the product being offered.\n\nNOTES\n\n\n2.19 Registration — Process of creating user accounts on an e-commerce platform to either buy or sell products. For the registration of buyer/user, information such as name, email address, contact number, shipping address, and payment information may be sought by the e-commerce platform. For the registration of the seller, information such as GST registration, PAN details, legal entity name, registered or branch address, details of key managerial personnel may be sought by the e-commerce platform.\n\n\n2.20 Seller — Seller in relation to a product, means a person who, in the course of business, imports, sells, distributes, leases, installs, prepares, packages, labels, markets, repairs, maintains, or otherwise is involved in placing such product for commercial purpose and includes a manufacturer who is also a product seller or a service provider, but does not include:\n\n- a) a seller of immovable property, unless such person is engaged in the sale of constructed house or in the construction of homes or flats;\n- b) a provider of professional services in any transaction in which, the sale or use of a product is only incidental thereto, but furnishing of opinion, skill or services being the essence of such transaction; and\n- c) a person who:\n- 1) acts only in a financial capacity with respect to the sale of the product;\n- 2) is not a manufacturer, wholesaler, distributor, retailer, direct seller or an electronic service provider; and\n- 3) leases a product, without having a\nreasonable opportunity to inspect and discover defects in the product, under a lease arrangement in which the selection, possession, maintenance, and operation of the product are controlled by a person other than the lessor.\n\n\n2.21  Services — Any intangible economic activity offered on the platform, including directly related to e-commerce operations, installation, delivery, support, streaming, consulting, or software-as-a- service, provided for consideration.\n\n\n### 2.22  Transaction — Buying or selling products or services over the internet or other electronic methods.\n\nNOTES\n\n\n### 2.23 Unsolicited Commercial Communications — Any marketing or promotional materials sent by an e-commerce entity to a customer without the customer's express consent.\n\nNOTE — These could be phone calls, emails, texts, or other forms of communication that aim to advertise a good or service or persuade the customer to buy it.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "2",
+      "heading": "2 This may also include the delivery or shipment of the purchased products to the buyer, as well as the performance of the acquired services.",
+      "heading_path": [
+        "2 This may also include the delivery or shipment of the purchased products to the buyer, as well as the performance of the acquired services."
+      ],
+      "char_start": 6525,
+      "char_end": 9461,
+      "semantic_chunk_length": 2936,
+      "final_chunk_length": 3238,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0005",
+    "text": "al Communications — Any marketing or promotional materials sent by an e-commerce entity to a customer without the customer's express consent.\n\nNOTE — These could be phone calls, emails, texts, or other forms of communication that aim to advertise a good or service or persuade the customer to buy it.\n\n### 2.24 User — Any person who accesses or avails any computer resource of an e-commerce entity.\n\n\n## 3 It can take several forms, including business-to- consumer (B2C), consumer-to-consumer (C2C) and business-to-business (B2B).\n\n## 3 PRINCIPLES OF SELF GOVERNANCE\n\n\n### 3.1  The e-commerce transaction principles have been divided into three phases, namely:\n\n- a) Pre-transaction principles;\n- b) Contract formation principles; and\n- c) Post-transaction principles\nAccordingly, the phase-specific principles have been laid down for each phase along with general principles for the governance of transactions.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 PRINCIPLES OF SELF GOVERNANCE",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE"
+      ],
+      "char_start": 9464,
+      "char_end": 10074,
+      "semantic_chunk_length": 610,
+      "final_chunk_length": 911,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0006",
+    "text": "ples have been divided into three phases, namely:\n\n- a) Pre-transaction principles;\n- b) Contract formation principles; and\n- c) Post-transaction principles\nAccordingly, the phase-specific principles have been laid down for each phase along with general principles for the governance of transactions.\n\n### 3.2  Pre-Transaction Principles\n\n\n#### 3.2.1 Registration\n\nThe e-commerce entity shall ensure that:\n\n- a) A seller on an e-commerce platform shall establish its identity, provide its legal entity\n\n\n\n\nname and trading name (if any), working contact information, registered place of business (and in the case of operations in more than one place, details of the branch offices of all such places), details of key managerial personnel/nodal officers (for customer care/grievance redressal) and such other requirements. Additionally, an e-commerce entity may require additional information for due diligence depending on their business requirements and in consumer interest; and\n\n- b) A process for diligent and vigorous KYC of all business partners, especially third-party sellers and service providers shall be undertaken every time a seller or service provider is onboarded.\n\n#### 3.2.2 Listing Products\n\n\n3.2.2.1 The e-commerce platform shall ensure that every product listed on the platform has detailed information such as product title, name and contact details of seller and supporting images/videos to enable the consumer to assess the product’s utility, features and cost.\n\n\n3.2.2.2 The e-commerce entity shall require the seller to:\n\n- a) map every product to an existing and\nrelevant category and provide navigation tools to identify the right category for the ease of the consumer. A few categories (as disclosed by the platform along with objective reasons for the same) may be restricted for direct listing and may call for additional approvals;\n\n- b) to indicate the mode of shipment, whether\nfulfilled by seller directly or fulfilled by the logistics partner;\n\n- c) ensure that counterfeit, fraudulent or illegal\nproduct are not listed or sold or offered for sale by the seller on the e-commerce platform. E-commerce entity will take appropriate actions once they have knowledge of counterfeit or such product like suspension of sellers or blacklisting them in case of repetitions; and\n\n- d) to submit the product page for internal\nreview before it can be made live.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "3.2",
+      "heading": "3.2 Pre-Transaction Principles",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.2 Pre-Transaction Principles"
+      ],
+      "char_start": 10077,
+      "char_end": 12160,
+      "semantic_chunk_length": 2083,
+      "final_chunk_length": 2385,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0007",
+    "text": " the seller on the e-commerce platform. E-commerce entity will take appropriate actions once they have knowledge of counterfeit or such product like suspension of sellers or blacklisting them in case of repetitions; and\n\n- d) to submit the product page for internal\nreview before it can be made live.\n\n#### 3.2.3 Disclosure of Relevant Information\n\n\n3.2.3.1 An e-commerce entity shall ensure that relevant information is provided in a clear, easily accessible form prominently on the website/application. This information should be prominently displayed, enabling customers to make\n\nIS 19598 : 2026\n\ninformed decisions when engaging in a transaction or purchasing a product or service. This means that customers should be able to find the information they need quickly and easily, without having to navigate through multiple pages or sections of the website/application.\n\n\n3.2.3.2 Relevant information means all information provided by the seller on the e-commerce platform including but not limited to the product listing and seller and service provider details. The provision of relevant information must be mandated by the e-commerce platform so that the consumer is enabled to make an informed decision about the transaction, and shall include the following:",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "3.2.3",
+      "heading": "3.2.3 Disclosure of Relevant Information",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.2 Pre-Transaction Principles",
+        "3.2.3 Disclosure of Relevant Information"
+      ],
+      "char_start": 12163,
+      "char_end": 13123,
+      "semantic_chunk_length": 960,
+      "final_chunk_length": 1262,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0008",
+    "text": "ce platform including but not limited to the product listing and seller and service provider details. The provision of relevant information must be mandated by the e-commerce platform so that the consumer is enabled to make an informed decision about the transaction, and shall include the following:\n\n- a) A clear and concise description of the product or goods, including its features, price, specifications, warnings and dimensions which may include GTIN;\n- b) The final consumer price should be displayed in an easy and accessible format at the checkout page and shall include the breakdown of the price with all its components including any applicable taxes, shipping fees, and other charges;\n- c) Privacy policy, and terms and conditions of use, in compliance with applicable law;\n- d) Cancellation, exchange, return, or refund, compensation policies that specify the charges therein and the time limit of all products or services (together, ‘Goods’) on the platform;\n- e) Information on the presence of a reporting and returning mechanism for counterfeit products which may require extended timelines beyond the generic return timelines stated above;\n- f) Any applicable restrictions, limitations or conditions of purchase, including geographic limitations, resale prohibitions, or parental/guardian approval or supervision requirements for minors;\n- g) Any applicable restrictions, limitations or conditions usage, warnings for hazardous content for users;\n- h) Clear indication from the seller regarding manufacturer/importer, seller and country of origin or origins (in case the country of origin would differ for goods of different batches);\n- j) Terms and Conditions of discounts or special offers, and the details to avail of same;\n- k) Details of payment options available to the consumer to complete the transaction;\n\n\n\n- m) Seller information including but not limited\nto contact details, trade names, principal address of headquarters, nodal grievance redressal officers, customer care toll-free number, customer care email address;\n\n- n) Policy for wrong delivery and non-delivery and terms of sale stating clearly whether the product is returnable or not;\n- p) Customer reviews and ratings, which are an essential source of information for other potential customers, and e-commerce platforms should display them;\n- q) The ability to compare products based on features, prices, and other criteria can help customers make informed purchasing decisions, if applicable;\n- r) Disclosure of the materials used in the product, wherever applicable, including whether they are natural, synthetic, or a blend of both;\n- s) Buyer protection policy which details the process for registering and resolving complaint(s) raised by the consumer for unsatisfactory experience;\n- t) Other relevant information, such as the brand and model of the product, materials used, care instructions, and any relevant certifications or standards, applicable product licenses, should be provided at a prominent place near the listing; and\n- u) Provide a search function that allows customers to search for products by name, category, country of origin or keyword to help them quickly find what they are looking for.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "3.2.3",
+      "heading": "3.2.3 Disclosure of Relevant Information",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.2 Pre-Transaction Principles",
+        "3.2.3 Disclosure of Relevant Information"
+      ],
+      "char_start": 13125,
+      "char_end": 16027,
+      "semantic_chunk_length": 2902,
+      "final_chunk_length": 3204,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0009",
+    "text": "ant certifications or standards, applicable product licenses, should be provided at a prominent place near the listing; and\n- u) Provide a search function that allows customers to search for products by name, category, country of origin or keyword to help them quickly find what they are looking for.\n\n#### 3.2.4 Display of Product/Service Information\n\n\n3.2.4.1 An e-commerce entity shall ensure that all information pertaining to, inter alia, the description, functionality, use, life, physical appearance, manufacturer/ importer, country of origin, after-sale support, warranty/guarantee details, and other relevant details of goods, is published prominently on the e-commerce platform in a clear, accessible and legible form.\n\n\n3.2.4.2 The e-commerce entity shall ensure that clearly visible photos and/or videos with physical dimensions are clearly provided on the e-commerce platform. In the case of imported goods, the name and details of the importer and/or packer and/or the seller shall be mentioned on the platform.\n\n\n3.2.4.3 E-commerce entities shall display such other\n\ninformation as provided by the sellers without any modification or changes for the information of consumers. The e-commerce entity shall specify an upper limit with respect to space which is inclusive of both that is seller information as well as product/service information.\n\n\n##### 3.2.4.4 The requirements of product display to comply with following points:\n\n- a) The display of product or service to comply with applicable laws such as Food Safety and Standards Act, 2006, The Legal Metrology Act, 2009, Consumer Protection Act, 2019, etc;\n- b) Detailed product overview, including title, price and offer price, features and customization options;\n- c) Product social proof, including review and ratings;\n- d) Similar product suggestions; and\n- e) Human interaction for any help or guidance needed.\n\n#### 3.2.5 Placement of Disclosures by E-Commerce Entity\n\nAll disclosures shall be provided by the e-commerce entity in a phased manner relevant to the stage of decision making of the consumer, and shall be published on the platform/website/app in a clear, legible and accessible manner.\n\n\n#### 3.2.6  Identification of E-Commerce Entity\n\nE-commerce entities shall ensure that all such information that is sufficient for:\n\n- a) the identification of the legal operating entity and trading name/entity (wherever applicable);\n- b) prompt and easy consumer communications with the entity;\n- c) service of legal process;\n- d) effective timely and adequate grievance\nredressal of consumer queries/complaints as per the Consumer Protection Act, 2019;\n\n- e) adequate fulfilment of customer orders/\nreturns/refunds/cancellation etc; and\n\n- f) adequate fulfilment of guarantee and\nwarranty terms or any other such representations is displayed in a clear, accurate, easily accessible, and legible form and displayed prominently on the website/application.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "3.2.4",
+      "heading": "3.2.4 Display of Product/Service Information",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.2 Pre-Transaction Principles",
+        "3.2.4 Display of Product/Service Information"
+      ],
+      "char_start": 16029,
+      "char_end": 18658,
+      "semantic_chunk_length": 2629,
+      "final_chunk_length": 2931,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0010",
+    "text": "\n- e) adequate fulfilment of customer orders/\nreturns/refunds/cancellation etc; and\n\n- f) adequate fulfilment of guarantee and\nwarranty terms or any other such representations is displayed in a clear, accurate, easily accessible, and legible form and displayed prominently on the website/application.\n\n### 3.3  Contract Formation Principles\n\n\n#### 3.3.1  Express Informed Consent\n\nEvery e-commerce entity shall record the consent of a consumer for the purchase of any good or service offered on its platform only where such consent is expressed explicitly. No such entity shall record such consent automatically, including through pre- ticked checkboxes, as per applicable law.\n\n\n#### 3.3.2 Transaction Review\n\nE-commerce entities shall provide consumers with an opportunity to review all information that is transaction-related, personal, and goods related, allowing them to edit or modify any necessary details, or cancel the transaction in its entirety. It shall let them review the transaction before final payment that is after addition of delivery or any other charges, consent over redressal process, return policy, re-call policy if any or any other consents.\n\nOrdering information shall include order summary stating product type and specification, quantity, the total price with breakup of all components such as delivery charges, discount, taxes, refund charges, insurance, delivery address, consignee information, delivery time and day.\n\n\n#### 3.3.3 Transaction Confirmation\n\nE-commerce entities shall ensure that the point at which consumers are asked to confirm a transaction (Confirmation Point), shall be understood as the point at which payment is due from the consumer once the payment is made, customers shall be provided with a receipt or order confirmation that summarizes the details of the order.\n\n\n#### 3.3.4  Reversal Processes and Policy\n\nE-commerce entities shall ensure that there is a transparent and easy process and clear laid- down policy for cancellations, returns, replacements and refunds (Reversal Process), in partial or in full, of transactions on its platform, where such reversal process is prominently published on the platform for the ease of access of the consumer.\n\nThe e-commerce platform should maintain clear communication regarding the charges; time limits and any other relevant information with the customer throughout the reversal process, providing updates on the status of the return/replacement and refund and any additional information required.\n\n\n#### 3.3.5 Transaction Record\n\nE-commerce entities shall maintain a complete,\n\nIS 19598 : 2026\n\naccurate and durable record of every transaction carried out on its platform, in the form of a downloadable invoice and shall enable the consumers to access and retain a copy of their particular record for such time as required under applicable law.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "3.3",
+      "heading": "3.3 Contract Formation Principles",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.3 Contract Formation Principles"
+      ],
+      "char_start": 18663,
+      "char_end": 21209,
+      "semantic_chunk_length": 2546,
+      "final_chunk_length": 2848,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0011",
+    "text": "ities shall maintain a complete,\n\nIS 19598 : 2026\n\naccurate and durable record of every transaction carried out on its platform, in the form of a downloadable invoice and shall enable the consumers to access and retain a copy of their particular record for such time as required under applicable law.\n\n#### 3.3.6 Payment Principles\n\nE-commerce platforms should strive to offer a variety of payment methods that are accessible to all users irrespective of the type of product or seller chosen by the user, including credit/debit cards, EMI option, cash on delivery, mobile payments, e-wallets, bank transfers and others.\n\nE-commerce platforms shall comply with all relevant laws and regulations related to payment processing, including data protection and privacy laws, anti- money laundering regulations, and other financial laws.\n\n\n#### 3.3.7 Recurring Charges and Subscriptions\n\nAny payment option or transaction involving a specified recurring charge, automated repeat purchases, transaction renewals or a subscription contract ‘Recurring Obligations’, shall carry a full disclosure on the specific duration, intervals, and exact amount in relation to the recurring obligations, as well as information, and a clear, accessible process to opt-out from or cancel such recurring obligations at any time before or during the tenure/currency of such subscription.\n\nIf a customer has subscribed for a stated period, any changes in the terms and conditions including any changes in price, quantity, service conditions shall be pre-informed to the consumers and shall be continued after the express consent of the consumer. In case the consumer seeks to discontinue the subscription due to a change in the terms and conditions, he shall be permitted to do so. Any subscription services provided by the e-commerce platform shall be the responsibility of such platform.\n\n\n### 3.4  Post-Transaction Principles\n\n\n#### 3.4.1 Merchantability\n\nWhere goods sold on an e-commerce platform are notified to either not conform with the purpose indicated in the relevant disclosures on the platform or are not usable or deficient in some or the other manner, the e-commerce entity shall facilitate the easy return, exchange, refund, or dispute resolution process between the consumer and the seller of the goods in question. Clear timelines shall be prominently disclosed to the consumer within which a consumer can claim refund, replacement, or\n\n\n\nexchange. In the case of counterfeit goods sold to the consumer, the timeline for replacement or exchange and refund shall be over and above the general timeline.\n\n\n#### 3.4.2 Dispute Redressal\n\nE-commerce entities shall ensure that redressal of consumer grievances and/or disputes is as per procedure laid down in the Consumer Protection Act, 2019 and related rules.\n\n\n#### 3.4.3 Notification of Delivery\n\nThe e-commerce entity shall ensure that the consumers, are duly notified of the delivery of the goods in a timely manner, whether such delivery is being facilitated through an e-commerce platform or by a third party delivery service provider. It should strive to use multiple channels like SMS or email and provide tracking information. The notifications should be in clear language.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "3.3.6",
+      "heading": "3.3.6 Payment Principles",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.3 Contract Formation Principles",
+        "3.3.6 Payment Principles"
+      ],
+      "char_start": 21212,
+      "char_end": 24131,
+      "semantic_chunk_length": 2919,
+      "final_chunk_length": 3221,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0012",
+    "text": "ivery of the goods in a timely manner, whether such delivery is being facilitated through an e-commerce platform or by a third party delivery service provider. It should strive to use multiple channels like SMS or email and provide tracking information. The notifications should be in clear language.\n\n### 3.5  General Principles\n\n\n#### 3.5.1 Sale of Banned Products\n\nE-commerce entities shall ensure that sellers do not sell goods that have been banned under the law and shall undertake due-diligence and KYC of all sellers. At the time of onboarding of sellers, the platform shall have a ready-made list of the banned products, technology to monitor listings. Additionally, the platforms shall have mechanisms to enable consumers to report and flag violations.\n\n\n#### 3.5.2 Data Protection\n\nE-commerce entities shall ensure that it complies with all applicable laws in relation to data protection. Specifically, they shall ensure the following:\n\n- a) All personal data collected from a consumer, at any time, shall be used solely for the purpose of facilitating transactions on the platform, and for such other purposes that are disclosed to the consumer at the pre-transaction stage and for which he has given express consent; and\n- b) As a custodian of the data, every e-commerce entity shall ensure that there is no misuse of data for any other commercial or alternative use without consent.\n\n#### 3.5.3 Unsolicited Commercial Communication\n\nE-commerce entities shall ensure compliance with all applicable law pertaining to commercial communications, including the following:\n\n- a) All communication originating from the\ne-commerce entity to the consumer shall be made only with the express consent of the consumer, or in relation to a transaction made by the consumer on the platform; and\n\n- b) All non-transactional communication originating from the e-commerce entity to the consumer shall be on the basis of an express opt-in by the consumer, and shall be accompanied with an option to silence or cease such communications.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "3.5",
+      "heading": "3.5 General Principles",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.5 General Principles"
+      ],
+      "char_start": 24134,
+      "char_end": 25864,
+      "semantic_chunk_length": 1730,
+      "final_chunk_length": 2032,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0013",
+    "text": "ion to a transaction made by the consumer on the platform; and\n\n- b) All non-transactional communication originating from the e-commerce entity to the consumer shall be on the basis of an express opt-in by the consumer, and shall be accompanied with an option to silence or cease such communications.\n\n#### 3.5.4 Fair Business Practice Principles\n\nEvery e-commerce entity shall ensure that e-commerce operations are neutral, transparent and offer a level-playing field to all consumers, sellers and service providers irrespective of their relationship with the e-commerce entity.\n\nE-commerce entities shall not extend preferential treatment, whether directly or indirectly, to a seller or service provider or a group of sellers or service providers in any manner, including but not limited to:\n\n- a) All sellers on the platform shall be treated in a non-discriminatory manner and no seller(s) or group of sellers shall be given any preferential treatment, whether directly or indirectly;\n- b) E-commerce marketplace platforms shall not classify sellers or buyers into categories unless there exists a reasonable, transparent and non-arbitrary parameter for the same. All the terms and conditions will be same for the same class/categories of sellers; and\n- c) E-commerce entity providing a marketplace shall not exercise ownership or control over the inventory that is goods purported to be sold. Such an ownership or control over the inventory will render the business into inventory-based model. Inventory of a vendor will be deemed to be controlled by e-commerce marketplace entity if more than 25% of purchases of such vendor are from the marketplace entity or its group companies.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "3.5.4",
+      "heading": "3.5.4 Fair Business Practice Principles",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.5 General Principles",
+        "3.5.4 Fair Business Practice Principles"
+      ],
+      "char_start": 25866,
+      "char_end": 27249,
+      "semantic_chunk_length": 1383,
+      "final_chunk_length": 1685,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0014",
+    "text": "to be sold. Such an ownership or control over the inventory will render the business into inventory-based model. Inventory of a vendor will be deemed to be controlled by e-commerce marketplace entity if more than 25% of purchases of such vendor are from the marketplace entity or its group companies.\n\n#### 3.5.5 Anti-Counterfeiting Measures\n\n\n3.5.5.1 E-commerce entities shall put in place adequate policies and processes to combat the listing of counterfeit products on their platforms, which shall include:\n\n- a) well-defined mechanism for Rights Owners to report instances of violation of their intellectual property rights, which shall include the provision of requisite information pertaining to their rights, and\n\n\n\n\nany other evidence of the alleged violation;\n\n- b) well-defined mechanism on the platform for consumers to report instances of receipt of counterfeit products to the e-commerce entities;\n- c) well-defined process to investigate the counterfeiting allegation, and provide a preliminary response to the Rights Owner within the timeline as set out under applicable law;\n- d) list of appropriate action(s) that may be taken by the e-commerce entity, at its sole discretion, in accordance with applicable law; and\n- e) an appeals process, by which an aggrieved party may communicate with the e- commerce entity on any reservations it may have on actions taken on the platform on the basis of the Rights Owners report on counterfeiting.\n\n3.5.5.2 Where an e-commerce entity receives a report from a Rights Owner, regarding instances of violation of its intellectual property rights, the e-commerce entity shall ensure that the same is immediately forwarded to the concerned seller as well as authorities on its platform within 7 calendar days and the evidence of such communication is shared with the rights owner;\n\n\n3.5.5.3 Where an e-commerce entity receives a complaint from a consumer regarding the genuineness and authenticity of a product being made available by the e-commerce entity, they shall forward the same to the seller within 7 calendar days and the evidence of such communication shall be shared with the consumer;\n\n\n3.5.5.4 The seller shall be provided with an opportunity to respond to the report or the complaint, as the case may be, and thereafter, the e-commerce entity may take appropriate actions at its sole discretion; and\n\n\n##### 3.5.5.5 Any e-commerce entity/seller which explicitly\n\nIS 19598 : 2026\n\nor implicitly vouches for the authenticity of the goods or services sold by it, or guarantees that such goods or services are authentic, shall bear appropriate liability in any action related to the authenticity of such good or service.\n\n\n#### 3.5.6 Representations on Goods\n\nE-commerce entities shall, as far as practicable, refrain from making, on its own behalf, any representation regarding the quality, durability and fitness for Goods sold on its platform, and where such representation is made by the E-commerce entity, it shall not be deceptive, misleading or fraudulent.",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "3.5.5",
+      "heading": "3.5.5 Anti-Counterfeiting Measures",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.5 General Principles",
+        "3.5.5 Anti-Counterfeiting Measures"
+      ],
+      "char_start": 27251,
+      "char_end": 29973,
+      "semantic_chunk_length": 2722,
+      "final_chunk_length": 3024,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19598_2026_0015",
+    "text": "ommerce entities shall, as far as practicable, refrain from making, on its own behalf, any representation regarding the quality, durability and fitness for Goods sold on its platform, and where such representation is made by the E-commerce entity, it shall not be deceptive, misleading or fraudulent.\n\n#### 3.5.7 Unfair Trade Practices and Fairness in Competition\n\nA consumer should have a free and fair choice whether to choose bundled services or singular services. The pricing of the bundled services should not be such that customers are not able to choose the specific products or services they want.\n\n\n#### 3.5.8 Advertisements\n\nAdvertisements or sponsorships shall be clearly identifiable as such and should be distinguished from other content, such as editorial comments, terms and conditions, and independent product reviews.\n\n\n#### 3.5.9 Correct Representations\n\nE-commerce entities shall require sellers, through an undertaking, to ensure that the descriptions, images and other content pertaining to Goods on their platform is accurate and corresponds directly with the appearance, nature, quality, purpose, and other general features of the specific product/service, and shall, where brought to their notice of the incorrectness of the representation, take appropriate action against such sellers. The e-commerce entities shall also undertake periodic review of all sellers and ensure that all representations are authentic and accurate.\n\n\n\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 11 (26940).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19598_2026.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "3.5.7",
+      "heading": "3.5.7 Unfair Trade Practices and Fairness in Competition",
+      "heading_path": [
+        "3 PRINCIPLES OF SELF GOVERNANCE",
+        "3.5 General Principles",
+        "3.5.7 Unfair Trade Practices and Fairness in Competition"
+      ],
+      "char_start": 29976,
+      "char_end": 32565,
+      "semantic_chunk_length": 2589,
+      "final_chunk_length": 2891,
+      "standard_no": "IS 19598",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

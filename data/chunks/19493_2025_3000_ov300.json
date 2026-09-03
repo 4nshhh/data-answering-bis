@@ -1,0 +1,216 @@
+[
+  {
+    "id": "19493_2025_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nDecember 2025 Price Group 7\n\n\n\n\nHealth, Fitness and Sports Services Sectional Committee, SSD 05\n\nFOREWORD\n\nThis Indian Standard was adopted by Bureau of Indian Standards, after the draft finalized by the Health, Fitness and Sports Services Sectional Committee had been approved by the Service Sector Division Council.\n\nThe healthcare sector is vital to a nation’s well-being, and transparency in healthcare services is essential for building trust between patients and providers. However, in recent years, inconsistent and unclear billing practices have led to confusion, disputes and diminished accountability. To address these concerns and support a patient- centric approach, the need for a standardized framework for billing has become imperative.\n\nTo further strengthen transparency, it is essential that patients clearly understand their financial responsibilities. Therefore, effective financial communication covering costs, billing procedures, insurance coverage and payment options should be ensured for patients and their families.\n\nThis standard has been developed to prescribe the mandatory and optional elements to be included in the bills issued by healthcare organisations with the following key objectives:\n\n- a) To ensure transparency in billing practices by providing clear disclosure of all charges incurred;\n- b) To provide an itemized breakdown of charges to enable patients understand their treatment expenses;\n- c) To facilitate easy understanding for patients and stakeholders through a consistent and user-friendly billing format; and\n- d) To standardize billing formats across healthcare organisation to promote uniformity and minimize discrepancies and disputes.\nThis standard is applicable to all healthcare organisation including hospitals, nursing homes, diagnostic centres, and outpatient clinics. It establishes a common benchmark for clarity and accountability in billing. Implementing this standard will help healthcare providers to enhance patient trust, reduce billing-related grievances, and contribute to a more transparent and efficient healthcare ecosystem.\n\nThe development of this standard involved collaborative inputs from healthcare professionals, government agencies, patient advocacy groups, and other stakeholders, ensuring a comprehensive standard that meets the needs of both patients and healthcare providers. The compliance of this standard is a step toward a more transparent, efficient, and patient-friendly healthcare system.\n\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex C.",
+    "metadata": {
+      "source": "19493_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2706,
+      "semantic_chunk_length": 2704,
+      "final_chunk_length": 2704,
+      "standard_no": "IS 19493",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19493_2025_0001",
+    "text": "ve standard that meets the needs of both patients and healthcare providers. The compliance of this standard is a step toward a more transparent, efficient, and patient-friendly healthcare system.\n\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex C.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with the final value, observed or calculated, expressing the result of a test or analysis shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nHEALTHCARE SERVICES — FORMAT OF HOSPITAL BILLS —\n\n\nREQUIREMENTS AND RECOMMENDATIONS\n\n\n## 1 SCOPE\n\nThis standard prescribes the mandatory and optional elements to be included in hospital bills issued by healthcare organisations.\n\nThis standard applies to all healthcare organisations, including hospitals, nursing homes, diagnostic centres, and outpatient clinics.\n\n\n## 2 DEFINITIONS\n\nFor the purpose of this standard the following definitions shall apply.\n\n\n### 2.1 GST — Goods and Services Tax, as applicable under Indian tax laws.\n\n\n2.2 Hospital Bill — A detailed statement of charges incurred by a patient for medical services, treatments, procedures, and other related expenses during their stay or visit to a healthcare organisation.\n\n\n### 2.3 Invoice/Receipt — A formal document provided to the patient upon payment, listing the total amount paid or due.\n\n\n### 2.4 Itemized Bill — A bill that provides a detailed breakdown of charges into individual components, such as room rent, doctor fees, medicines, and diagnostics.\n\n\n### 2.5 Summary Bill — A consolidated bill that provides a high-level overview of charges without detailed breakdowns.\n\n\n### 2.6 Unique Health ID (UHID) — A unique, random number (preferably alphanumeric) assigned to an individual seeking healthcare services.\n\nNOTE — UHID serves as a digital identifier to track and manage a patient's health information, facilitating the creation of a comprehensive and accessible medical record.\n\n\n## 3 GENERAL REQUIREMENTS FOR HOSPITAL BILLS\n\nThe healthcare organisations shall ensure, but not limited to, the following requirements while issuing a medical bill:\n\n- a) Uniformity — Bills shall follow a standardized format ensuring consistency\nand ease of understanding for all stakeholders.\n\n- b) Clarity — All services rendered shall be clearly described, enabling patients to easily understand the charges associated with each service.\n- c) Transparency — The bill shall include details of all services, treatments, and charges, including consumables, medications, and room fees, with clear item-wise cost breakups of each service.\n- d) Legibility — The bill shall be generated/printed in a clear, readable font in both physical and digital formats.\n- e) Compliance — The bill shall adhere to applicable Indian GST laws and other relevant statutory regulations.",
+    "metadata": {
+      "source": "19493_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2708,
+      "char_end": 5489,
+      "semantic_chunk_length": 2781,
+      "final_chunk_length": 3083,
+      "standard_no": "IS 19493",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19493_2025_0002",
+    "text": "ns, and room fees, with clear item-wise cost breakups of each service.\n- d) Legibility — The bill shall be generated/printed in a clear, readable font in both physical and digital formats.\n- e) Compliance — The bill shall adhere to applicable Indian GST laws and other relevant statutory regulations.\n\n## 4 ELEMENTS OF A BILL ISSUED BY HEALTHCARE ORGANIZATION\n\nThe healthcare organization shall ensure to include the following sections and details in the bill:\n\n\n### 4.1 Details of Healthcare Organization\n\nThis section shall contain the following information:\n\n\n#### 4.1.1 Name and Address of Healthcare Facility\n\n- a) Full name and complete address;\n- b) GSTIN;\n- c) Phone number; and\n- d) Email ID.\n\n#### 4.1.2 Hospital Registration Details\n\n- a) Registration number under the Clinical Establishments (Registration and Regulation) Act, 2010 or registration as applicable under the respective State/UT laws;\n- b) License number (where applicable); and\n- c) The details of accreditation (if any).\n\n#### 4.1.3 Bill Number\n\nA unique identifier for the bill (preferably alphanumeric).\n\n\n\n\n#### 4.1.4 Bill Date and Time\n\nDate and time of bill generation.\n\n\n### 4.2 Patient Details\n\nThe following patient information shall be included in the bill:\n\n- a) Full name of the patient;\n- b) Age and gender;\n- c) Patient identification number (hospital- specific);\n- d) Unique Health ID (UHID);\n- e) Address and contact information (phone number and email);\n- f) Date and time of admission and discharge;\n- g) Type of admission (inpatient, outpatient, or day-care);\n- h) Emergency contact number; and\n- j) GSTIN (if asked by the patient)\nNOTE — Name, address and age of the patient should match the details provided in the Government issued identity document.\n\n\n### 4.3 Summary of Charges\n\nThis section shall provide the heads of charges incurred during the treatment of the patient. The bill shall include, but not limited to, the following categories of charges:\n\n- a) Room charges;\n- b) Consultation fees;\n- c) Procedure/Surgery charges;\n- d) Investigation charges;\n- e) Pharmacy/Medicines;\n- f) Medical consumables and disposables;\n- g) Package charges; and\n- h) Miscellaneous charges.",
+    "metadata": {
+      "source": "19493_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "4",
+      "heading": "4 ELEMENTS OF A BILL ISSUED BY HEALTHCARE ORGANIZATION",
+      "heading_path": [
+        "4 ELEMENTS OF A BILL ISSUED BY HEALTHCARE ORGANIZATION"
+      ],
+      "char_start": 5491,
+      "char_end": 7367,
+      "semantic_chunk_length": 1876,
+      "final_chunk_length": 2178,
+      "standard_no": "IS 19493",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19493_2025_0003",
+    "text": "ill shall include, but not limited to, the following categories of charges:\n\n- a) Room charges;\n- b) Consultation fees;\n- c) Procedure/Surgery charges;\n- d) Investigation charges;\n- e) Pharmacy/Medicines;\n- f) Medical consumables and disposables;\n- g) Package charges; and\n- h) Miscellaneous charges.\n\n### 4.4 Itemization of Charges\n\nThis section shall provide a clear breakdown of all charges incurred by the patient during the treatment. The bill shall include, but not be limited to, the following categories:\n\n\n#### 4.4.1 Room Charges\n\n- a) Type of room (for example, general ward, private room and ICU);\n- b) Duration of stay and corresponding dates; and\n- c) Room charges per day.\n\n#### 4.4.2 Consultation Charges\n\n- a) Charges for doctor consultations (itemized by doctor and date); and\n- b) Specialist consultation fees (where applicable).\n\n#### 4.4.3 Procedure/Surgery Charges\n\n- a) Name of the procedure/surgery;\n- b) Surgeon fees;\n- c) Anaesthesia charges;\n- d) Operation theatre (OT) charges; and\n- e) Other charges (specify each charge).\nNOTE — Itemized breakup of procedure/surgery charges may not be applicable, if included in the package.\n\n\n#### 4.4.4 Investigation Charges\n\n- a) Name of diagnostic test in each category (for example, pathology, radiology, any other specialized test); and\n- b) Charges for each test.\n\n#### 4.4.5 Pharmacy/Medicines Charges\n\n- a) Name of each medicine dispensed;\n- b) Quantity and price of each medicine; and\n- c) Batch number and expiry date of each medicine.\n\n#### 4.4.6 Medical Consumables and Disposables\n\n- a) Name of items (such as syringes, gloves, catheters, or any specialised medical consumable);\n- b) Quantity and price of each item; and\n- c) Batch number and expiry date.\n\n#### 4.4.7 Package Charges\n\n- a) Name of the package (with code and descriptor);\n- b) Administrative charges (such as registration/admission charges); and\n- c) Any other charges (specify each charge).\nNOTE — Charges such as room, nursing including pharmacy, doctor’s consultation, investigation, medical consumables/disposables and administrative cost may not be applicable, if already included in the package.\n\n\n\n\n#### 4.4.8 Miscellaneous Charges\n\nAny additional charges not covered under 4.4 shall be listed clearly, specifying each charge.  An annexure may be added, if required.",
+    "metadata": {
+      "source": "19493_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "4.4",
+      "heading": "4.4 Itemization of Charges",
+      "heading_path": [
+        "4 ELEMENTS OF A BILL ISSUED BY HEALTHCARE ORGANIZATION",
+        "4.4 Itemization of Charges"
+      ],
+      "char_start": 7369,
+      "char_end": 9383,
+      "semantic_chunk_length": 2014,
+      "final_chunk_length": 2316,
+      "standard_no": "IS 19493",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19493_2025_0004",
+    "text": "nvestigation, medical consumables/disposables and administrative cost may not be applicable, if already included in the package.\n\n\n\n\n#### 4.4.8 Miscellaneous Charges\n\nAny additional charges not covered under 4.4 shall be listed clearly, specifying each charge.  An annexure may be added, if required.\n\n### 4.5 Net Amount Payable and Payment Details\n\n\n4.5.1 This section shall include, but not limited to, the following:\n\n- a) Total amount (sum of all summary charges);\n- b) Deposit/advance amount paid (if any);\n- c) Details of any discount/concession;\n- d) Net bill amount;\n- e) Tax applicable;\n- f) Final amount payable (inclusive of taxes);\n- g) Amount paid and corresponding payment receipt number (mode of payment such as online/cash payment, credit note, TPA or corporate); and\n- h) Details of authorized signatory.\n\n#### 4.5.2 Insurance Coverage Details (if applicable)\n\n- a) Name of the insurance provider;\n- b) Policy number;\n- c) Claim ID (if made available);\n- d) Client Name (where applicable);\n- e) Amount approved by the insurance company; and\n- f) Amount paid by the patient.\n\n#### 4.5.3 Issuance of Final Bill\n\nThe bill issued by the healthcare facility to the patient shall be signed and stamped by the authorized signatory. The bill shall also include a provision for recording the signature of the patient or, where applicable, the next of kin. In case the next of kin is signing, their name and relationship to the patient shall be clearly mentioned.\n\nIS 19493 : 2025\n\n\n### 4.6 Additional Information\n\nThis section should include, but not limited to, the following:\n\n- a) Modes of payment accepted by healthcare facility (for example, cash, credit/debit card, UPI and net banking);\n- b) A disclaimer statement(s) such as, ‘Please verify all details before payment. For any discrepancies, contact the billing department immediately’;\n- c) Status of financial counselling, specifying whether provided or not; and\n- d) Names and designations of doctors involved in the patient's treatment.\n\n## 5 FORMATTING REQUIREMENTS\n\nTo ensure readability and consistency, the following formatting requirements shall be adhered to during bill generation:\n\n- a) Font — Use a standard, legible font (for example, Arial and Times New Roman) of size not smaller than 11 points;\n- b) Layout — All charges shall be listed in a tabular format for clarity;\n- c) Currency — All monetary values shall be mentioned in Indian Rupees (INR);\n- d) Language — The bill shall be generated in English and/or the local regional language; and\n- e) Digital Format — The bill shall be available in physical and/or digital formats.\nNOTE — The bill should be generated on the letterhead of the healthcare facility and in A4 size to facilitate easy scanning.\n\n\n## 6 SAMPLE HOSPITAL BILL FORMAT\n\nFor guidance on hospital bill format for summary bill and itemized bill, refer to Annex A and Annex B.",
+    "metadata": {
+      "source": "19493_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "4.5",
+      "heading": "4.5 Net Amount Payable and Payment Details",
+      "heading_path": [
+        "4 ELEMENTS OF A BILL ISSUED BY HEALTHCARE ORGANIZATION",
+        "4.5 Net Amount Payable and Payment Details"
+      ],
+      "char_start": 9386,
+      "char_end": 11960,
+      "semantic_chunk_length": 2574,
+      "final_chunk_length": 2876,
+      "standard_no": "IS 19493",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19493_2025_0005",
+    "text": " in physical and/or digital formats.\nNOTE — The bill should be generated on the letterhead of the healthcare facility and in A4 size to facilitate easy scanning.\n\n\n## 6 SAMPLE HOSPITAL BILL FORMAT\n\nFor guidance on hospital bill format for summary bill and itemized bill, refer to Annex A and Annex B.\n\n## ANNEX A\n\n(Clause 6)\n\nSUMMARY BILL FORMAT’\n\n(Informative)\n\nHealthcare Organization Details\n\n\n| (Healthcare Organization Name, Address and Phone/Email) |  | GSTIN |  |\n| --- | --- | --- | --- |\n| Registration No. (under Clinical Establishments Act, 2010) or registration as applicable under State/UT laws |  | Bill Number |  |\n| License No. (if applicable) and details of accreditation (if any) |  | Bill Date and Time |  |\n\n\nPatient Details\n\n\n| Patient Name |  | Date and Time of Admission and Discharge |  |\n| --- | --- | --- | --- |\n| Age/Gender |  | Type of Admission (Inpatient, Outpatient, Day-care) |  |\n| Patient ID (Hospital specific) |  | Bed/Ward/Room No |  |\n| UHID |  | Doctor’s Name and Specialty |  |\n| Address and Contact (Including Emergency Contact) |  | GSTIN (if asked by the patient) |  |\n\n\nBilling Summary\n\n\n| Sl No. | Particulars/Description | Amount | GST | Total Amount |\n| --- | --- | --- | --- | --- |\n| 1 | Room Charges |  |  |  |\n| 2 | Consultation Charges |  |  |  |\n| 3 | Procedure/Surgery Charges |  |  |  |\n| 4 | Investigation Charges |  |  |  |\n| 5 | Pharmacy/Medicine Charges |  |  |  |\n| 6 | Medical Consumables and Disposables Charges |  |  |  |\n| 7 | Package Charges |  |  |  |\n| 8 | Miscellaneous Charges |  |  |  |\n\n\n\n\nPayment/Settlement Details (in INR)\n\nIS 19493 : 2025\n\n\n| Gross Bill Amount |  |\n| --- | --- |\n| Discounts/Concessions |  |\n| Sub-Total |  |\n| Bill (Round Off) |  |\n| Net Bill Amount |  |\n| Deposit/Advance Paid (with payment receipt number) |  |\n| GST (Rate and Amount) |  |\n| Final Amount Payable |  |\n\n\nMode of Payment: ☐ Cash   ☐ Card   ☐ UPI   ☐ Net Banking   ☐ TPA/Insurance   ☐ Other\n\nNOTE — In case of multiple payment, more than one mode of payment can be selected.\n\nInsurance Coverage (if applicable):\n\nProvider: ____________\n\nPolicy No.: ____________\n\nClaim ID (if made available): ____________\n\nClient Name (where applicable): ____________\n\nAmount Approved: ____________\n\nAmount Paid by Patient: ____________\n\nAny other additional information:\n\nSignature of Patient/Next of Kin\n\n(Name and Relation with Patient) Authorized Signatory",
+    "metadata": {
+      "source": "19493_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 11965,
+      "char_end": 14067,
+      "semantic_chunk_length": 2102,
+      "final_chunk_length": 2404,
+      "standard_no": "IS 19493",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19493_2025_0006",
+    "text": "No.: ____________\n\nClaim ID (if made available): ____________\n\nClient Name (where applicable): ____________\n\nAmount Approved: ____________\n\nAmount Paid by Patient: ____________\n\nAny other additional information:\n\nSignature of Patient/Next of Kin\n\n(Name and Relation with Patient) Authorized Signatory\n\n## ANNEX B\n\n(Clause 6)\n\nITEMIZED BILL FORMAT\n\n(Informative)\n\nHealthcare Organization Details\n\n\n| (Healthcare Organization Name, Address and Phone/Email) |  | GSTIN |  |\n| --- | --- | --- | --- |\n| Registration No. (under Clinical Establishments Act, 2010) or registration as applicable under State/UT laws |  | Bill Number |  |\n| License No. (if applicable) and details of accreditation (if any) |  | Bill Date and Time |  |\n\n\nPatient Details\n\n\n| Patient Name |  | Date and Time of Admission and Discharge |  |\n| --- | --- | --- | --- |\n| Age/Gender |  | Type of Admission (Inpatient, Outpatient, Day-care) |  |\n| Patient ID (Hospital specific) |  | Bed/Ward/Room No. |  |\n| UHID |  | Doctor’s Name and Specialty |  |\n| Address and Contact (Including Emergency Contact) |  | GSTIN (if asked by the patient) |  |\n\n\n\n\nBilling Summary (Itemized Charges)\n\nIS 19493 : 2025\n\n\n| Sl No. | Particulars | Batch No. and Expiry Date (wherever applicable) | HSN Code/ SAC Code (wherever applicable) | Date | Quantity | Unit Rate | Amount | GST | Total Amount |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Room Charges (Specify room type such as general ward, private room and ICU/CCU) |  |  |  |  |  |  |  |  |\n| 2 | Consultation Fees (Specify type of speciality such as cardiologist, neurologist, orthopaedic surgeon and oncologist, doctor- wise/date-wise charges) |  |  |  |  |  |  |  |  |\n| 3 | Procedure/Surgery (Mention name of procedure with break up for surgeon’s fee, OT charges, and anaesthesia charges, if not included in package) |  |  |  |  |  |  |  |  |\n| 4 | Investigation Charges (Name of diagnostic test and charges of each test) |  |  |  |  |  |  |  |  |\n| 5 | Pharmacy/Medicines (Name of each medicine) |  |  |  |  |  |  |  |  |\n| 6 | Medical Consumables and Disposables (Name of each consumable/disposables such as syringes, gloves and catheter) |  |  |  |  |  |  |  |  |\n| 7 | Package Charges (Include package name, code/descriptor and breakup of inclusions such as nursing and admin charges, if not included in package) |  |  |  |  |  |  |  |  |\n| 8 | Miscellaneous Charges (specify each charge and add Annexure, if needed) |  |  |  |  |  |  |  |  |\n\n\nAuthorized Signatory",
+    "metadata": {
+      "source": "19493_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 14072,
+      "char_end": 16276,
+      "semantic_chunk_length": 2204,
+      "final_chunk_length": 2506,
+      "standard_no": "IS 19493",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19493_2025_0007",
+    "text": "7 | Package Charges (Include package name, code/descriptor and breakup of inclusions such as nursing and admin charges, if not included in package) |  |  |  |  |  |  |  |  |\n| 8 | Miscellaneous Charges (specify each charge and add Annexure, if needed) |  |  |  |  |  |  |  |  |\n\n\nAuthorized Signatory\n\n## ANNEX C\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 05 (27799).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19493_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 16282,
+      "char_end": 17718,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19493",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

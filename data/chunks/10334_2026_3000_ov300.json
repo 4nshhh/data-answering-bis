@@ -1,0 +1,298 @@
+[
+  {
+    "id": "10334_2026_0000",
+    "text": "Indian Standard\n\n\n```text\nSelection, Splicing, Installation and Providing Protection to the Open ends of Cables Used for Connecting the Resistance Type Measuring Devices in Concrete and Masonry Dams — Code of Practice ( First Revision ) ICS 93.160\n© BIS 2026\n```\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nApril  2026 Price Group 7\n\n\n\n\nHydraulic Structures Instrumentation Sectional Committee, WRD 16\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Hydraulic Structures Instrumentation Sectional Committee had been approved by the Water Resources Division Council.\n\nThis standard was first published in 1982. Subsequently, this revision has been brought out to bring the standard in the latest style and format of the Indian Standards. Further, a references clause has also been added.\n\nRubber-insulated and rubber-sheathed 3-conductor and 4-conductor stranded flexible cords are used for connecting highly accurate measuring instruments embedded in concrete and masonry dams to suitable terminal boards located in the galleries of the dam.\n\nA large portion of the cord is embedded in the concrete or mortar in the dam, and hence rugged construction, positive imperviousness to moisture at higher pressure, uniform conductor resistance and long life are of paramount importance. The usually severe conditions to which this cord is subjected include ambient air and concrete temperatures of 50 ℃ or so, excessively damp locations, alkaline reaction of concrete and rough treatment during installation.\n\nIn the field, in order to add additional length of cable to that already attached to the instrument for joining it to the terminal boards located in the gallery, it is necessary to splice. The cable ends in the field laboratory prior to the embedment of the instruments in the structure.\n\nWhere the ends of cables attached to the instrument are left loose or uncovered for a while until these are properly terminated, good care for prevention of moisture or water from entering the instrument through the cable ends, is considered necessary.\n\nIt is not practical to vulcanize natural rubber with synthetic rubber. It is, therefore, necessary that the cable to be used should be of the same specification as that attached to the instrument.\n\nIn the case of masonry dams, it is considered necessary to take horizontal and vertical runs of cable through conduits.\n\nThe composition of the Committee responsible for the revision of this standard is given in Annex B.",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2604,
+      "semantic_chunk_length": 2603,
+      "final_chunk_length": 2603,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0001",
+    "text": "e used should be of the same specification as that attached to the instrument.\n\nIn the case of masonry dams, it is considered necessary to take horizontal and vertical runs of cable through conduits.\n\nThe composition of the Committee responsible for the revision of this standard is given in Annex B.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test, shall be rounded off in accordance with IS 2 : 2022 'Rounding off numerical values (second revision)'. The number of significant places retained in the rounded-off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nSELECTION, SPLICING, INSTALLATION AND PROVIDING PROTECTION TO THE OPEN ENDS OF CABLES USED FOR CONNECTING THE RESISTANCE TYPE MEASURING DEVICES\n\n\nIN CONCRETE AND MASONRY DAMS — CODE OF PRACTICE\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard covers the details of specifications of cables, method of splicing and installation of cables, mode of delivery, inspection and test to be carried out on the material used in the manufacture of cables, as well as on finished cables, pre-embedment tests, cable end protection and fixing the size of conduits.\n\n\n## 2 REFERENCES\n\nThe standards given below contain provisions that, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of these standards.\n\n| IS No. | Title |\n| --- | --- |\n| IS 9968 (Part 1) : 2025 | Elastomer insulated cables — Specification: Part 1 For working voltages up to and including 1 100 volts (second revision) |\n| IS 694 : 2010 | Polyvinyl chloride insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for rated voltages up to and including 1 100 V (fourth revision) |\n| IS 9537 (Part 2) : 1981 | Specification for conduits for electrical installations: Part 2 Rigid steel conduits |\n\n\n## 3 CABLE SPECIFICATIONS\n\n\n### 3.1 Type, Size and Ratings\n\nThe cord shall consist of three or four cores of tinned annealed high conductivity copper wire with a nominal area of each conductor of 1.5 sq mm, insulated with moisture and heat-resistant elastomer or PVC insulation and jacketed with elastomer or\n\nPVC sheathing. Elastomer-insulated cord shall comply with IS 9968 (Part 1), and PVC-insulated cord shall comply with IS 694.\n\n\n### 3.2 Method of Delivery\n\nThe cord shall be in lengths of 300 m to 1 000 m with inner and outer ends of each length extending at least one metre outside the reel to facilitate sampling for test purposes.\n\n\n### 3.3 Inspection and Tests\n\nProper inspection and testing shall be carried out with a view to examining the cables in accordance with the provisions contained in IS 9968 (Part 1) or IS 694, whichever is applicable.",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2606,
+      "char_end": 5331,
+      "semantic_chunk_length": 2725,
+      "final_chunk_length": 3027,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0002",
+    "text": "ing at least one metre outside the reel to facilitate sampling for test purposes.\n\n\n### 3.3 Inspection and Tests\n\nProper inspection and testing shall be carried out with a view to examining the cables in accordance with the provisions contained in IS 9968 (Part 1) or IS 694, whichever is applicable.\n\n## 4 CABLE SPLICING PROCEDURE\n\n\n4.1 The instruments for embedment in concrete or masonry dams are often supplied with one metre of multi-core cable attached initially, so that the work of cable splicing shall be done where cable extension is required. Faulty splices are generally a potential source of trouble.",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "4",
+      "heading": "4 CABLE SPLICING PROCEDURE",
+      "heading_path": [
+        "4 CABLE SPLICING PROCEDURE"
+      ],
+      "char_start": 5334,
+      "char_end": 5645,
+      "semantic_chunk_length": 311,
+      "final_chunk_length": 613,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0003",
+    "text": "SPLICING PROCEDURE\n\n\n4.1 The instruments for embedment in concrete or masonry dams are often supplied with one metre of multi-core cable attached initially, so that the work of cable splicing shall be done where cable extension is required. Faulty splices are generally a potential source of trouble.\n\n### 4.2 There are three methods for cable splicing for cable extension to the terminal boxes, namely:\n\n- a) Vulcanized rubber splice;\n- b) Rubber sleeve covering; and\n- c) Self-bonding tape.\n\n4.2.1 Vulcanized Rubber Splice — The following steps shall be followed in the procedure for vulcanizing cable splices:\n\n- a) The cable sheath for 80 mm from the cable end shall be removed, and a joint made of the individual pair of conductors staggered by 25 mm lengths (Fig. 1A) so that the finished splices do not lap;\n- b) Ten millimetres of rubber insulation from each conductor shall be cut, while taking care not to damage the conductor;\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n\n\n\n- c) The individual conductors shall be twisted and conductors of the same colours put into a copper sleeve and then soldered (Fig. 1 B and Fig. 1 C);\n- d) The surface of the copper sleeve and insulation shall be wiped by using benzene absorbed clean cloth and unvulcanized repair tape wound on it (Fig. 1D);\n- e) On completion of conductor splicing, the ends of insulations are marked on the cable, and unvulcanized tape is tightly wound along the whole jointing portion. In this case, in order to obtain a strong adhesion, the surface of the sheath, on which unvulcanized tough rubber tape is to be wound, shall be roughened for a length of about 40 mm by use of a file or a knife, and polychloroprene rubber paste shall be applied (Fig. 1E);\n- f) After drying, the splice shall be wrapped with unvulcanized tough rubber tape, carrying the tape up onto the sheath, at least two layers half-lapped (see Fig. 1F);\n- g) Wrapping on the splice shall be completed with vulcanizing tough rubber tape, and all projections shall be cut off with a knife just before completion of the final layer;\n- h) Continue until the splice is built up to the size of the mould of the vulcanizer;\n- j) Silicone oil or soapwater shall be applied on the inside surface of the metal mould of the vulcanizer. The vulcanizer shall be connected and energized according to the manufacturer's instructions;\n- k) After the indication of the vulcanizer has reached 100°C (preheating point), vulcanizer shall be opened and the splice put in the metal mould;\n- m) While energizing, the mould shall be gradually tightened until it is uniformly fastened; and\n- n) The temperature shall be raised to 140°C to 160°C and kept at that level for about 30 min. Then energizing shall be stopped, and after the temperature comes down to about 120°C, the metal mould shall be opened, and the splice shall be taken out and excess rubber trimmed off.\n\n\n4.2.2 Rubber Sleeve Covering — The following steps shall be followed:",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "4.2",
+      "heading": "4.2 There are three methods for cable splicing for cable extension to the terminal boxes, namely:",
+      "heading_path": [
+        "4 CABLE SPLICING PROCEDURE",
+        "4.2 There are three methods for cable splicing for cable extension to the terminal boxes, namely:"
+      ],
+      "char_start": 5648,
+      "char_end": 8419,
+      "semantic_chunk_length": 2771,
+      "final_chunk_length": 3073,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0004",
+    "text": "°C and kept at that level for about 30 min. Then energizing shall be stopped, and after the temperature comes down to about 120°C, the metal mould shall be opened, and the splice shall be taken out and excess rubber trimmed off.\n\n\n4.2.2 Rubber Sleeve Covering — The following steps shall be followed:\n\n- a) Cable shall be removed, and cable ends shall be joined in accordance with the procedure indicated. in 4.2.1(a), through 4.2.1(c). Insulating sleeves shall be provided over copper sleeves (Fig. 2A and Fig. 2B);\n- b) The jointed conductors shall be enclosed in a rubber sleeve or plastic pipe having an open gap by passing the conductors through the open gap. The rubber sleeve shall be wound on two grooves fixed on each side of the splice (Fig. 2C). Voids between the rubber sleeve and jointed conductors shall be filled with cable compound; and\n- c) Finally, the splicing portion shall be wound with adhesive vinyl chloride tape (Fig. 2D).\n\n4.2.3 Self-Bonding Tape — The self-bonding tape is made from synthetic resin and rubber, which is a good electric insulator and is particularly durable against water and ageing. The following steps shall be followed:\n\n- a) Sheath of the cable attached to the instrument shall be removed, and conductors spliced in accordance with the procedure given in 4.2.1(a); and\n- b) Cover with self-bonding tape. After joining the conductors, each of the conductors shall be wrapped with the tape, extending it 30 mm to 40 mm on each side of the splice of individual conductors. In order to obtain a strong adhesion, the surface of the sheath on which the self-bonding tape is to be wound shall be roughened for a length of about 30 mm by the use of pumice, file or knife.\n\nThe conductors shall then be assembled in a bench and wrapped with the tape, extending to make a smooth, rounded cross-section.\n\n\n\n\n[Figure: FIG. 1 — VULCANIZED RUBBER SPLICE — diagrammatic views with sub-figures 1A (TWIST IN THIS MANNER), 1B (COPPER SLEEVE), 1C (COPPER SLEEVE), 1D (WRAPPED UNVULCANIZED REPAIR TAPE / RAW RUBBER), 1E (PENCILLED PORTION / ROUGHENED SURFACE), 1F (UNVULCANIZED TOUGH RUBBER SHEATH, 40 mm). All dimensions in millimetres.]\n\n**FIG. 1 VULCANIZED RUBBER SPLICE**\n\n\n\n\n[Figure: FIG. 2 — RUBBER SLEEVE COVERING — diagrammatic views with sub-figures 2A (INSULATING SLEEVE), 2B (INSULATING SLEEVE), 2C (RUBBER SLEEVE OR PLASTIC PIPE, ALUMINIUM PLUG — NOTE: ENDS OF RUBBER SLEEVE SHALL BE TIED WITH WIRE BEFORE POURING CABLE COMPOUND THROUGH EACH GAP), 2D (ADHESIVE VINYLCHLORIDE TAPE). All dimensions in millimetres.]\n\n**FIG. 2 RUBBER SLEEVE COVERING**",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 6,
+      "clause": "4.2",
+      "heading": "4.2 There are three methods for cable splicing for cable extension to the terminal boxes, namely:",
+      "heading_path": [
+        "4 CABLE SPLICING PROCEDURE",
+        "4.2 There are three methods for cable splicing for cable extension to the terminal boxes, namely:"
+      ],
+      "char_start": 8421,
+      "char_end": 10706,
+      "semantic_chunk_length": 2285,
+      "final_chunk_length": 2587,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0005",
+    "text": "A (INSULATING SLEEVE), 2B (INSULATING SLEEVE), 2C (RUBBER SLEEVE OR PLASTIC PIPE, ALUMINIUM PLUG — NOTE: ENDS OF RUBBER SLEEVE SHALL BE TIED WITH WIRE BEFORE POURING CABLE COMPOUND THROUGH EACH GAP), 2D (ADHESIVE VINYLCHLORIDE TAPE). All dimensions in millimetres.]\n\n**FIG. 2 RUBBER SLEEVE COVERING**\n\n## 5 CABLES AND CONDUITS\n\n\n5.1 In estimating the length of the cable to be added, a suitable route between the point of embedment of the instrument and the terminal station in the gallery shall be selected by a study of the drawing. In selecting the route, due consideration shall be given to the construction procedures involved in placing the concrete where the instrument is to be embedded and to possible obstructions along the chosen route. After the selected route has been verified, the length of cable required shall be estimated, and a small amount, usually 10 percent or 1.5 m, whichever is larger, shall be added to allow for extra length required due to normal variation from the selected route. Length of cable should be limited to 75 m as far as possible.\n\n\n5.2 In general cables run within conduits in masonry and concrete, both in horizontal and vertical directions. Separate conduit should be used for each individual lift. The conduit may be of any material which will not collapse in fresh concrete, such as galvanized iron, or rigid PVC. The size of the conduit may be chosen by drawing circles to represent the diameter of the cables. In order to allow for pulling friction, provide for one and a half times the number of cables where the conduit is of short length and up to twice the number of circles, as there are cables where the runs are long or there are many bends. Circumscribe these circles with a larger one to find the inside diameter of the conduit.\n\n\n#### 5.2.1 The size of the conduits may also be chosen according to Table 1.\n\n\n5.2.2 When all cables are not of the same size, the conduit diameter shall be worked out on a percentage basis.",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5",
+      "heading": "5 CABLES AND CONDUITS",
+      "heading_path": [
+        "5 CABLES AND CONDUITS"
+      ],
+      "char_start": 10711,
+      "char_end": 12387,
+      "semantic_chunk_length": 1676,
+      "final_chunk_length": 1978,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0006",
+    "text": "re are many bends. Circumscribe these circles with a larger one to find the inside diameter of the conduit.\n\n\n#### 5.2.1 The size of the conduits may also be chosen according to Table 1.\n\n\n5.2.2 When all cables are not of the same size, the conduit diameter shall be worked out on a percentage basis.\n\n#### 5.2.3 For diameters and thicknesses of conduits, see IS 9537 (Part 2).\n\n\n5.3 Where a group of cables is to be run horizontally in a lift, they may be taped together at intervals and laid on the top of the next-to-last layer of concrete in the lift, covered with pads of fresh concrete throughout their length, and placement of the final concrete lift layer allowed to proceed in the normal manner. Leads of single or pairs of cables may be 'walked into' the concrete.\n\n\n5.4 Cables of instruments located above the terminal reading station are run in downward conduits from the lift containing the instrument, with separate conduits serving each individual lift. Each cable shall be threaded individually into the conduit so that each cable will be required to support only its own weight. At the entrance of the cables into the conduit, suitable protection, such as padding with\n\nburlap, should be provided around each cable and in the interstices between the cables to prevent sharp bends and to prevent the entrance of concrete and grout into the conduit.\n\n\n5.5 Cable leads shall be run upward when the instruments are located below the terminal reading station, without conduit from the lift in the case of a concrete dam and within conduits in the case of a masonry dam. Reinforcing bars shall be embedded in the concrete of successive lifts to provide support for cables. The cables shall be tied to the reinforcing bars at short intervals before placing each lift, and the remainder of the cable shall be coiled and hung clear of the fresh concrete.\n\n\n5.6 In general cases where a number of cables from widely separated points are collected at one central point and run downward in conduit, the cables may be run in two steps. A collecting box or concrete form is erected around the grouped conduits, so that the lift is left about 450 mm below the conduits. During the placement of the concrete in which the meters are embedded, the cables should be brought horizontally to the collection point and then coiled and hung out of the fresh concrete. As soon as the concrete has set sufficiently to bear traffic, the cable coils shall be taken down the conduit to the terminal boards. The advantage is that it is much easier to sort and run cables when they are not muddled with fresh concrete.\n\n\n5.7 If the cable leads are to cross contraction joints in the structure, a slack cable recess should be provided at the crossing point. This may consist of a wooden box block-out, forming a recess into which the cable will run. During placement of concrete in the adjacent block, a 300 mm loop of slack cable should be left in the unfilled block out, and the remaining length of cable laid in the usual manner.\n\n\n## 6 CABLE END PROTECTION\n\nIn order to prevent moisture and water from entering the instruments, the cable ends should be suitably sealed.",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5.2.3",
+      "heading": "5.2.3 For diameters and thicknesses of conduits, see IS 9537 (Part 2).",
+      "heading_path": [
+        "5 CABLES AND CONDUITS",
+        "5.2.3 For diameters and thicknesses of conduits, see IS 9537 (Part 2)."
+      ],
+      "char_start": 12390,
+      "char_end": 15246,
+      "semantic_chunk_length": 2856,
+      "final_chunk_length": 3158,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0007",
+    "text": "crete in the adjacent block, a 300 mm loop of slack cable should be left in the unfilled block out, and the remaining length of cable laid in the usual manner.\n\n\n## 6 CABLE END PROTECTION\n\nIn order to prevent moisture and water from entering the instruments, the cable ends should be suitably sealed.\n\n## 7 PRE-EMBEDMENT RESISTANCE MEASUREMENTS\n\nPrior to embedment of instruments in the newly placed concrete, each instrument shall be thoroughly checked for meter resistance as well as for lead resistance, and these shall be entered in the pro forma given in Annex A. The resistance ratios before splicing and after splicing shall also be recorded in the pro forma meant for recording pre- embedment tests. The pre-embedding tests quite often prove valuable during the analysis of data.\n\n\n\n\n**Table 1 Conduit Capacities**\n*(Clause 5.2.1)*\n\n| Sl No. | No of Cables to be Drawn | Minimum Internal Dia of the Conduit Required | Maximum Internal Cross Sectional Area of Conduit that may be Occupied by Cables |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) | 1 | 1.49 d (see Fig. 3 A) | 45 percent |\n| ii) | 2 | 2.58 d (see Fig. 3 B) | 30 percent |\n| iii) | 3 | 2.74 d (see Fig. 3 C) | 40 percent |\n| iv) | 4 | 3.24 d (see Fig. 3 D) | 38 percent |\n| v) | 5 | 3.78 d (see Fig. 3 E) | For 5 or more cables 35 percent |\n\nNOTE — These capacities are valid only for conduit runs of length not exceeding 40 metres.\n\n\n\n\n[Figure: FIG. 3 — CONDUIT CAPACITIES — five diagrammatic cross-sections showing the minimum internal diameter of conduit in terms of cable diameter d: 3A (1.49 d, single cable), 3B (2.58 d, two cables at 2 d spacing), 3C (2.74 d, three cables at 2.15 d spacing), 3D (3.24 d, four cables at 2.41 d spacing), 3E (3.78 d, five cables at 2.7 d spacing).]\n\nNOTE — DIAGRAMS INDICATE GROUP DIAMETER OF CABLES AND MINIMUM INTERNAL DIAMETER OF CONDUIT IN TERMS OF CABLE DIAMETER d.\n\n**FIG. 3 CONDUIT CAPACITIES**\n\n\n\n\n## ANNEX A\n\n*(Clause 7)*\n\n**PROFORMA FOR RECORD OF PRE-EMBEDMENT RESISTANCE MEASUREMENT**\n\nResistance Type Pore Pressure Meters\n\n| Field | Value |\n| --- | --- |\n| Project | |\n| Instrument | |\n| Air Temperature | |\n| Manufacturer's No. | |\n| Wet Bulb Temperature | |\n| Project No. | |\n| Location | |\n\n**a) RESISTANCE BEFORE CABLE SPLICING**\n1. Red-black\n2. Red-green\n3. Green-black\n4. Resistance of one pair\n\n**b) RATIO INSTRUMENT ONLY**\n1. Direct ratio (white-green-black)\n2. Reverse ratio (black-green-white)\n\n**c) INDIVIDUAL CONDUCTOR RESISTANCE**\n1. Length\n2. Black\n3. Green-black\n4. Resistance one pair\n\n**d) RATIO INSTRUMENT WITH CABLE**\n1. Direct ratio (red-black-green)\n2. Reverse ratio (green-black-red)\n\nDate of Test:\n\nDate of Embedment:\n\nName and Signature of Observer\n\nNotes:",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 10,
+      "clause": "7",
+      "heading": "7 PRE-EMBEDMENT RESISTANCE MEASUREMENTS",
+      "heading_path": [
+        "7 PRE-EMBEDMENT RESISTANCE MEASUREMENTS"
+      ],
+      "char_start": 15249,
+      "char_end": 17662,
+      "semantic_chunk_length": 2413,
+      "final_chunk_length": 2715,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0008",
+    "text": "tio (black-green-white)\n\n**c) INDIVIDUAL CONDUCTOR RESISTANCE**\n1. Length\n2. Black\n3. Green-black\n4. Resistance one pair\n\n**d) RATIO INSTRUMENT WITH CABLE**\n1. Direct ratio (red-black-green)\n2. Reverse ratio (green-black-red)\n\nDate of Test:\n\nDate of Embedment:\n\nName and Signature of Observer\n\nNotes:\n\n## ANNEX B\n\n*(Foreword)*\n\n**COMMITTEE COMPOSITION**\n\n**Hydraulic Structures Instrumentation Sectional Committee, WRD 16**",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 17667,
+      "char_end": 17788,
+      "semantic_chunk_length": 121,
+      "final_chunk_length": 423,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0009",
+    "text": "*d) RATIO INSTRUMENT WITH CABLE**\n1. Direct ratio (red-black-green)\n2. Reverse ratio (green-black-red)\n\nDate of Test:\n\nDate of Embedment:\n\nName and Signature of Observer\n\nNotes:\n\n## ANNEX B\n\n*(Foreword)*\n\n**COMMITTEE COMPOSITION**\n\n**Hydraulic Structures Instrumentation Sectional Committee, WRD 16**\n\n| Organization | Representative(s) |\n| --- | --- |\n| Central Soil & Materials Research Station, New Delhi | DR R. CHITRA, DIRECTOR (Chairperson) |\n| AIMIL Ltd, New Delhi | SHRI A. K. NANDA; SHRI HEMAN MANCHANDA (Alternate) |\n| Bhakra Beas Management Board, Chandigarh | SHRI SANJEEV KUMAR; SHRI S. K. BEDI (Alternate) |\n| Central Institute of Mining and Fuel Research | SHRI ABHAY KUMAR SINGH; MS PALLAVI DAS (Alternate) |\n| Central Soil & Materials Research Station, New Delhi | SHRI MANISH GUPTA; SHRI R. S. SEHRA (Alternate) |\n| Central Water & Power Research Station, Pune | SHRI M. S. HANUMANTHAPPA; SHRI ANUP KUMAR SINGH (Alternate) |\n| Central Water Commission, New Delhi | SHRI ASHISH KUMAR; SHRI SOMESH KUMAR (Alternate) |\n| CSIR - Structural Engineering Research Centre [SERC], Chennai | MS N. ANANDAVALLI |\n| CSIR-Central Scientific Instruments Organisation, Chennai | DR G. S. AYYAPPAN |\n| DMR Hydro engineering and Infrastructures Limited, Faridabad | SHRI S. L. KAPIL; SHRI SUBRATA LAHA (Alternate) |\n| Damodar Valley Corporation, Jharkhand | SHRI PRABHAT KIRAN |\n| Indian Institute of Technology Bombay, Mumbai | PROF ELDHO T. I. |\n| Indian Institute of Technology Roorkee | PROF RHYTHM SINGH; PROF DEEPAK RONANKI (Alternate) |\n| IIT Kharagpur | PROF DEBASIS ROY |\n| Irrigation Research Institute, Roorkee | SHRI SUDHIR KUMAR; SHRI AJAY KUMAR (Alternate) |\n| Kerala State Electricity Board, Kerala | SHRI BIBIN JOSEPH; SHRI MANIKANDAN A. K. (Alternate) |\n| Gujarat Engineering Research Institute, Vadodara | SHRI R. G. KANUNGO; SHRI K. R. KHATRI (Alternate) |\n| Narmada Hydroelectric Development Corporation Ltd, Bhopal | SHRI SHASHANK SHUKLA; DGM (CIVIL) (Alternate) |\n| National Hydroelectric Power Corporation Ltd, Faridabad | SHRI RAKESH KUMAR DUBEY; SHRI THOTA VENUGOPAL; MS SUCHISMITA DAS |\n| Narmada Control Authority, Indore | SHRI ASHOK KUMAR THAKUR; SHRI D. ILANCHEZHIYAN (Alternate) |\n| North Eastern Electric Power Corporation Limited, Shillong | SHRI SITANGSHU DHAR; SHRI DIPJYOTI SHARMA |\n| National Thermal Power Corporation Limited, Noida | SHRI R. C. SENAN; SHRI MADHUKAR AGARWAL (Alternate) |\n| Progressive Machine Tools, Jaunpur | SHRI A. K. DRON |\n| SJVNL, Shimla | SHRIMATI SUDHA DEVI; DR NAVEEN KANYAN (Alternate) |\n| Survey of India, Geodetic and Research Branch, Dehradun | SHRI SHYAM VEER; SHRI NEERAJ GURJAR (Alternate) |\n| Tamil Nadu Generation and Distribution Corporation Limited, Chennai | SHRI C. RAMESH; SHRI V. SANTHANA KRISHNAN (Alternate I); SHRI S. SIVAKUMAR (Alternate II) |\n| THDC India Ltd, Rishikesh | SHRI ATUL JAIN; SHRI VIBHASH PATHANIA (Alternate I); SHRI T. S. ROUTELA (Alternate II) |\n| UJVN Ltd, Dehradun | SHRI VYAS DEV AJMANI; SHRI AJAY PATEL (Alternate) |\n| Water Resources Department, Andhra Pradesh | SHRI K. SRINIVAS; SHRI A. SURIBABU (Alternate) |\n| Water Resources Department, Maharashtra | SUPERINTENDING ENGINEER DAM CIRCLE; EXECUTIVE ENGINEER MASONRY DAM DIVISION-II (Alternate) |",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 17790,
+      "char_end": 20743,
+      "semantic_chunk_length": 2953,
+      "final_chunk_length": 3255,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "10334_2026_0010",
+    "text": "| Organization | Representative(s) |\n| --- | --- |\n| Water Resources Department, Govt of Chandigarh | DR K. K. GUPTA; SHRI D.S. SALIJA (Alternate) |\n| Water Resources Organization, Public Works Deptt, Chennai | SUPTED ENGINEER DESIGN WRO; SHRI R. SRIDHARAN (Alternate) |\n| In Personal Capacity (G-601, Prateek Stylome, Sector 45, Noida - 201301) | DR NAYAN SHARMA |\n| In Personal Capacity (C3/82, Plot 10, Himalayan Residency, Sector 22, Dwarka, New Delhi – 110077) | SHRI HARI DEV |\n| BIS Directorate General | SHRI DUSHYANT PRAJAPATI SCIENTIST 'E'/DIRECTOR AND HEAD (WATER RESOURCES) [REPRESENTING DIRECTOR GENERAL (Ex-officio)] |\n| Member Secretary | SHRI VAIBHAV YADAV SCIENTIST 'C'/DEPUTY DIRECTOR (WATER RESOURCES), BIS |\n\n\n\n\nThis\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standards bis.in.\n\nThis Indian Standard has been developed from Doc No.: WRD 16 (27514).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. | Date of Issue | Text Affected |\n| --- | --- | --- |",
+    "metadata": {
+      "source": "10334_2026.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 14,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 20744,
+      "char_end": 22811,
+      "semantic_chunk_length": 2067,
+      "final_chunk_length": 2118,
+      "standard_no": "IS 10334",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": true
+    }
+  }
+]

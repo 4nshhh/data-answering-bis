@@ -1,0 +1,274 @@
+[
+  {
+    "id": "12633_2026_0000",
+    "text": "Indian Standard\n\n\nFirst Filling and Emptying of Pressure Tunnels — Guidelines\n\n( First Revision )\n\nICS 93.160\n\n© BIS 2026\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nApril  2026 Price Group 6\n\n\n\n\nWater Conductor Systems Sectional Committee, WRD 14\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft was finalized by the Water Conductor Systems Sectional Committee and had been approved by the Water Resources Division Council.\n\nThe pressure tunnel is a part of water conductor system and hence the filling and emptying is linked with overall planning of filling and emptying of the water conductor system.\n\nThe schedule of first filling and emptying of tunnel for a project shall be prepared and discussed among design and field engineers in detail before the commencement of operation.\n\nThis standard was first published in 1989, and this revision has been brought out to bring the standard in the latest style and format of the Indian Standards.\n\nThe composition of the Committee responsible for the revision of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nFIRST FILLING AND EMPTYING OF PRESSURE\n\n\nTUNNELS — GUIDELINES\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard covers the guidelines and precautions to be observed during first filling and emptying of the pressure tunnels of water conductor system of hydro-electric projects.\n\n\n## 2 GENERAL\n\n\n### 2.1 Water conductor system of a hydro-electric project generally consists of the following components:\n\n- a) Intake structure;\n- b) Head race tunnels;\n- c) Surge tank;\n- d) Valve house;\n- e) By-pass;\n- f) Penstock/pressure shafts;\n- g) Draft tube; and\n- h) Tail race.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2186,
+      "semantic_chunk_length": 2185,
+      "final_chunk_length": 2185,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0001",
+    "text": "c projects.\n\n\n## 2 GENERAL\n\n\n### 2.1 Water conductor system of a hydro-electric project generally consists of the following components:\n\n- a) Intake structure;\n- b) Head race tunnels;\n- c) Surge tank;\n- d) Valve house;\n- e) By-pass;\n- f) Penstock/pressure shafts;\n- g) Draft tube; and\n- h) Tail race.\n\n## 3 CHECK LIST\n\n\n3.1 Before commencement of filling operation, it shall be ensured that all construction material and equipment, labour and departmental personnel are cleared from the entire water conductor system. Before actually filling the system, the following checks (3.1.1 to 3.1.9) shall be exercised.\n\n\n#### 3.1.1 Intake Structure\n\n- a) Trash-rack and air vent shall be cleaned and its cleaning device shall be checked. In projects where trash-rack cleaning device is not available, the racks shall be inspected manually;\n- b) Gates/stop logs shall be checked for their seals, tracks, guides and smooth operation of gates. Filler valves shall also be checked, if provided;\n- c) Hoisting arrangements shall be checked for proper operation;\n\n- d) Automatic system for operation and alarms shall be checked; and\n- e) A telephone/wireless set shall be provided at gate with trained crews posted for operation of gate.\n\n#### 3.1.2 Head Race Tunnel\n\n- a) It shall be thoroughly inspected. All the construction material/equipment shall be removed and the tunnel cleared of all extraneous material such as left over concrete lumps, projections, protruding dowels, etc. These should be ground smooth;\n- b) It shall be repaired, wherever required preferably with resin based hardeners;\n- c) It shall be ensured that all cold joints are properly treated and the holes for grouting be sealed perfectly and the surface ground smooth;\n- d) It shall be ensured that contact grouting has been done in the prescribed reaches and shall be in accordance with the design requirements;\n- e) It shall be ensured that consolidation grouting has been done in the prescribed reaches and shall be in accordance with the design requirements;\n- f) It shall be ensured that all the points, such as, man-hole, construction adits, etc, have been properly sealed/plugged in accordance with design requirements;\n- g) It shall be ensured that all the instruments required for observations before filling, during filling and after filling have been installed at required locations and are in proper working order;\n- j) Drainage holes and dewatering pipe, wherever provided, shall be checked and it shall be ensured that these are functioning properly and there is no particle flow;\n- k) It shall be ensured that proper arrangements for gradual filling and dewatering are functioning properly;\n\n\n\n- m) It shall be ensured that there is no\nobstruction in the air vent pipes, where provided, and around outlet and inlet pipes; and\n\n- n) It shall be ensured that the adit gates, where provided, are working and sealing have been bolted/locked properly.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 CHECK LIST",
+      "heading_path": [
+        "3 CHECK LIST"
+      ],
+      "char_start": 2188,
+      "char_end": 4810,
+      "semantic_chunk_length": 2622,
+      "final_chunk_length": 2924,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0002",
+    "text": "ing and dewatering are functioning properly;\n\n\n\n- m) It shall be ensured that there is no\nobstruction in the air vent pipes, where provided, and around outlet and inlet pipes; and\n\n- n) It shall be ensured that the adit gates, where provided, are working and sealing have been bolted/locked properly.\n\n#### 3.1.3 Surge Tank\n\n- a) Gates/stop logs, wherever provided, in the surge tank shall be checked for their seals, tracks, guides, etc, by lowering/raising in respective slots or all the slots. It is also necessary to check filler valves to ensure balanced operation of gates;\n- b) Hoisting arrangement for the above shall be checked for proper operation;\n- c) Water level indicators, automatic system for operation and all the alarms shall be checked;\n- d) Drainage galleries, if provided, around the surge tank shall be cleaned;\n- e) Man holes, construction adits, etc, shall be properly plugged in accordance with the design requirement;\n- f) Air vent shall be clear of any obstruction; and\n- g) It shall be ensured that the instruments needed for observation before filling, during filling and after filling are installed at required places and are in working order.\nNOTE — The above checks apply to upstream as well as downstream surge tanks.\n\n\n#### 3.1.4 Penstocks/Pressure Shafts\n\n- a) Entire length of penstocks/pressure shafts shall be thoroughly cleaned. The penstocks shall be painted and completed in all respects and inspected for before filling the water;\n- b) All the machine inlet valves shall be checked for proper operation;\n- c) All the bolts of man-holes shall be checked and tightened;\n- d) All the bolts of the seals of expansion joints of penstocks should be tested and team kept ready with required kit to carry out tightening as required in case of leakage;\n- e) In case of rockers provided as supports for penstocks, these should be set and greased for free movement.\n\n- f) Any instruments provided in pressure shafts or on anchor blocks shall be monitored;\n- g) It shall be ensured that grouting holes are properly plugged and repainted;\n- h) It shall be ensured that the air vents are clear of any obstruction and air valves are working properly; and\n- j) It shall be ensured that filling and dewatering systems are working properly.\n\n#### 3.1.5 Valve House\n\nThe following checks shall be carried out on valves before filling operation is started:\n\n- a) All hydraulic and electrical systems should be checked;\n- b) The air inlet valve and vacuum breaking valves should be cleared for overflow of any water;\n- c) The drain from the valve house should be cleared for overflow of any water;\n- d) The communication between valve house and power house shall be tested; and\n- e) The control system from the control room to the valve house shall be checked and tested for proper operation.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "3.1.3",
+      "heading": "3.1.3 Surge Tank",
+      "heading_path": [
+        "3 CHECK LIST",
+        "3.1.3 Surge Tank"
+      ],
+      "char_start": 4812,
+      "char_end": 7323,
+      "semantic_chunk_length": 2511,
+      "final_chunk_length": 2813,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0003",
+    "text": "r overflow of any water;\n- c) The drain from the valve house should be cleared for overflow of any water;\n- d) The communication between valve house and power house shall be tested; and\n- e) The control system from the control room to the valve house shall be checked and tested for proper operation.\n\n#### 3.1.6 Power House\n\n- a) All pre-commissioning test in the dry stage shall be completed in all respects and certified by the manufacturer and the erector;\n- b) The staff, required for the operation of power plant shall be in position and assume the specific duties;\n- c) Adequate number of spare dewatering pumps shall be in position at various floors of the power house;\n- d) All temporary stops provided during the construction shall be removed and tested against full tail race level;\n- e) All drainage and dewatering pumps shall be conditioned and made in operational condition;\n- f) Turbine seals shall be tested and checked for perfect sealing;\n- g) Inlet valve seals shall be tested and checked for perfect sealing;\n\n\n\n\n- h) Alternative source of power supply for working all auxiliaries in the power house shall be ensured round the clock;\n- j) Electrical/auxiliary crane shall be in operating condition and tested;\n- k) All vacuum valves and air release valve and drainage valves shall be tested;\n- m) The security staff and security arrangement\nshall be completed to restrict the entry of unauthorized person in the power house; and\n\n- n) The staff for operation and maintenance of the power house shall be in position and full contingent shall be detailed on shift duties before initial filling starts.\n\n#### 3.1.7 By-Pass\n\n- a) The gates/stoplogs, where provided, shall be checked for their seals, track, guides, etc, by lowering/raising in respective slots or all the slots as the case may be;\n- b) It shall be ensured that the liners and embedded metal works are painted properly;\n- c) It shall be ensured that drainage arrangement around the by-pass has been provided in accordance with design requirements;\n- d) It shall be ensured that the air vents are clear of any obstruction;\n- e) It shall be ensured that arrangement for gradual filling/dewatering are functioning properly; and\n- f) It shall be ensured that the alarm system indicating the start of by-pass arrangement is working properly.\n\n#### 3.1.8 Draft Tube\n\n- a) All the draft tubes shall be clean and ready for running; and\n- b) Draft tube gates and their hoisting arrangement shall be checked for their smooth operation.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "3.1.6",
+      "heading": "3.1.6 Power House",
+      "heading_path": [
+        "3 CHECK LIST",
+        "3.1.6 Power House"
+      ],
+      "char_start": 7325,
+      "char_end": 9529,
+      "semantic_chunk_length": 2204,
+      "final_chunk_length": 2506,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0004",
+    "text": "- f) It shall be ensured that the alarm system indicating the start of by-pass arrangement is working properly.\n\n#### 3.1.8 Draft Tube\n\n- a) All the draft tubes shall be clean and ready for running; and\n- b) Draft tube gates and their hoisting arrangement shall be checked for their smooth operation.\n\n#### 3.1.9 Tail Race\n\nThe following checks in addition to those mentioned in 3.1.2 shall be carried out:\n\n- a) The temporary cofferdam on downstream, if any, shall be removed;\n- b) Pumps for dewatering the tail race should\n\nIS 12633 : 2026\n\nbe ready at hand;\n\n- c) The area around the tail race should be cleared of all obstructions for any immediate movement of equipment;\n- d) After dry testing of draft tube gates, water should be filled in tail race by pumping and following systems in power house be checked for proper functioning:\n- 1) Operation of draft tube gates under water;\n- 2) Cooling water system for power house;\n- 3) Pressure filters in the power house;\n- 4) Draft tube dewatering system;\n- 5) Emulsifier pumps in the power house; and\n- 6) All drainage and dewatering system.\n- e) In case of any malfunctioning, the tail race may be emptied by pumping and refilled after rectifying the defects; and\n- f) The tail race and draft tube shall be filled up to minimum water level before the start of initial filling.\n\n## 4 LOCATION OF OBSERVATION POINTS\n\n\n4.1 Before filling the water conductor system, the observation points shall be judiciously located at convenient places along the system. Such points may be located near the tunnel plugs (such as, those at intermediate adits in a long tunnel) and in the vicinity of the surge shaft and along the penstocks slopes (say, in the upper expansion chamber). Observation points shall also be located at water systems, such as, existing springs, water level in wells, retaining walls, etc, in low cover reaches and monitored after filling. If any leakage is observed at the observation point or an appreciable drop in surge tank water level is seen, the same shall be reported and attended to immediately. Since minor leakages through plug concrete may be anticipated, grouting equipment, such as, grout pumps, pipes, nozzles, drilling machine, cement, sand, water, etc, shall be kept handy for urgent requirements.\n\n\n## 5 COMMUNICATION FACILITIES\n\n\n5.1 Communication facilities, such as, walkie-talkie and/or telephone shall be provided at the intake as well as at all observation points so that important messages may be flashed across easily and quickly without any loss of time.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "3.1.9",
+      "heading": "3.1.9 Tail Race",
+      "heading_path": [
+        "3 CHECK LIST",
+        "3.1.9 Tail Race"
+      ],
+      "char_start": 9531,
+      "char_end": 11772,
+      "semantic_chunk_length": 2241,
+      "final_chunk_length": 2543,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0005",
+    "text": "pt handy for urgent requirements.\n\n\n## 5 COMMUNICATION FACILITIES\n\n\n5.1 Communication facilities, such as, walkie-talkie and/or telephone shall be provided at the intake as well as at all observation points so that important messages may be flashed across easily and quickly without any loss of time.\n\n## 6 CHECKS BEFORE START OF FILLING\n\n\n6.1 Obtain final clearance ensuring that no man or material of any kind has been left in the tunnel and other works. The engineer in-charge shall himself inspect the tunnel and other works and ensure that no material or equipment has been left inside, before he orders closing of access doors/manholes.\n\n\n### 6.2 Check that access door/manholes are properly closed and locked.\n\n\n### 6.3 Check that all the draft tube gates are in raised position.\n\n\n6.4 Check that all the main inlet valves are closed.\n\n\n6.5 Check that the guide vanes of all the machines are closed with oil pressure applied. (Apply generator brakes to prevent creeping, if necessary).\n\n\n### 6.6 Check that the surge shaft gates/stoplogs are in open position.\n\n\n6.7 Check the reservoir level. The filling should only start when the reservoir level is at or above the minimum permissible level.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "6",
+      "heading": "6 CHECKS BEFORE START OF FILLING",
+      "heading_path": [
+        "6 CHECKS BEFORE START OF FILLING"
+      ],
+      "char_start": 11777,
+      "char_end": 12675,
+      "semantic_chunk_length": 898,
+      "final_chunk_length": 1200,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0006",
+    "text": "losed with oil pressure applied. (Apply generator brakes to prevent creeping, if necessary).\n\n\n### 6.6 Check that the surge shaft gates/stoplogs are in open position.\n\n\n6.7 Check the reservoir level. The filling should only start when the reservoir level is at or above the minimum permissible level.\n\n## 7 FILLING OF THE SYSTEM\n\n\n### 7.1 General\n\nFilling is normally done from the downstream end of the water conductor system, that is, the machine inlet valve. However, in case of long head race tunnel, where a surge shaft is provided, the system shall be filled initially up to the surge shaft, if provided with gates, otherwise up to the emergency valves downstream of valve. The portion of water conductor system between the emergency valves downstream of shaft and the main inlet valve provided just upstream of the machine may be filled up only after detection and rectification of leakage upstream of the butterfly valve.\n\n\n7.1.1 The water conductor system shall be filled at very slow rate so that the internal pressure increases gradually and the surrounding conditions get sufficient time for stabilization.\n\n\n7.1.2 In case of gated arrangement, the leakage on gates shall be checked and ascertained for the efficacy of the seals. This shall apply to penstock and draft tube gates also.\n\n\n7.1.3 The water conductor system shall be filled at a slow rate so that there is no scope for the air to get entrapped, compressed and then released.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "7",
+      "heading": "7 FILLING OF THE SYSTEM",
+      "heading_path": [
+        "7 FILLING OF THE SYSTEM"
+      ],
+      "char_start": 12678,
+      "char_end": 13825,
+      "semantic_chunk_length": 1147,
+      "final_chunk_length": 1449,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0007",
+    "text": "gement, the leakage on gates shall be checked and ascertained for the efficacy of the seals. This shall apply to penstock and draft tube gates also.\n\n\n7.1.3 The water conductor system shall be filled at a slow rate so that there is no scope for the air to get entrapped, compressed and then released.\n\n### 7.2 Initial Filling\n\n\n7.2.1 Depending upon the length of the system, number of probable seepage observation points and filling requirements, the total time taken to complete the initial filling shall be estimated. This can be calculated and arrived at once the volume of water required to fill the system is known.\n\n\n7.2.2 Following steps shall be followed for initial filling:\n\n- a) Gates of intake shall be lowered and pond level maintained at desired level with the help of spillway gates and/or other discharge outlets;\n- b) Surge shaft gates/butterfly valve and machine inlet valve gate shall be kept closed;\n- c) If filling is to be done by crack opening, intake gate shall be raised up to the height calculated by estimating the discharge requirements for filling up the system in the programmed schedule of time frame of filling. The velocity should be restricted to about 6 m/sec. The crack-opening would generally be of the order of 20 mm to 40 mm;\n- d) Surge shaft gates/butterfly valves, machine inlet valves, penstock couplings, etc, shall be checked and tested;\n- e) The tunnel shall be filled in appropriate pre-determined steps of water head so that excessive tension in the lining is avoided. The steps may be worked out on the basis of known properties of the surrounding rock mass;\n- f) A waiting period of at least 48 h shall be allowed between first and second steps of filling and of at least 24 h between each subsequent steps of filling;\n- g) Water levels in the surge tank shall be recorded concurrently during the filling operation;\n- h) At the end of each step of filling, the intake gates shall be closed and water levels in the surge tank shall be observed every hour. The loss of water from tunnel through drainage galleries around surge tank and leakage through machine inlet valve shall also be noted;\n- j) Close monitoring of instruments installed in head race tunnel, surge tank and penstock shall be done before, during and after filling of the system;\n\n\n\n\n- k) The water conductor system shall be filled maintaining the reservoir water level as low as possible. The water level shall be raised slowly in the reservoir as far as practicable till it reaches the maximum reservoir level;\n- m) If the drop in water level is more at any\nstep, the reasons for leakage shall be investigated and remedial measures should be taken. Next filling steps shall only be taken after ensuring that drop in water level in the preceding step is within the pre- determined limits; and\n\n- n) All gates, stoplogs, observation points, valves and expansion joints on penstocks shall be monitored for leakage during and after filling.\n\n### 7.3 Filling of Tail Race System\n\n\n7.3.1 The tail race shall be filled up to the minimum tail water level gradually. In case of power houses having a deep setting, the filling of the tail race may have to be accomplished by pumping water into it from a source located near the tail race.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "7.2",
+      "heading": "7.2 Initial Filling",
+      "heading_path": [
+        "7 FILLING OF THE SYSTEM",
+        "7.2 Initial Filling"
+      ],
+      "char_start": 13829,
+      "char_end": 16771,
+      "semantic_chunk_length": 2942,
+      "final_chunk_length": 3244,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0008",
+    "text": "filling.\n\n### 7.3 Filling of Tail Race System\n\n\n7.3.1 The tail race shall be filled up to the minimum tail water level gradually. In case of power houses having a deep setting, the filling of the tail race may have to be accomplished by pumping water into it from a source located near the tail race.\n\n## 8 EMPTYING THE SYSTEM\n\n- a) Close all the intake gates;\n- b) Emptying of the tunnel shall be done through the by-pass. However, if no by- pass is provided, the water shall be discharged through the turbine;\n- c) Before emptying the system through the turbine, it shall be ensured that the flow is just sufficient to run the machine at no load and the generator is not being connected;\n- d) Rate of emptying the tunnel shall be slower\n\nIS 12633 : 2026\n\nthan the rate of filling. Emptying of the tunnel shall be done in steps. In no case, the number of steps in emptying shall be less than the number of steps followed in filling. The number of steps may be increased if a smaller discharge is to be passed through the machines; and\n\n- e) Suitable waiting period shall be allowed between each step of emptying.\n\n## 9 PRECAUTIONS BEFORE ENTERING THE TUNNEL AFTER EMPTYING\n\n\n9.1 On opening the access door/manhole, there may be ventilation due to the stock effect of the surge shaft. This may clear limited areas on either side of the surge shaft. Other areas may be oxygen deficient, contain hydrogen sulphide and/or methane. The water in the tunnel has been gradually lowered, giving time for any gases (CO2, CO, CH4, SO2, H2S) in the water to be liberated.\n\n\n### 9.2 Keep the access door/manhole open for 12 h to permit fresh air draft inside the tunnel and thus to bring humidity to a safe level for human breathing.\n\n\n9.3 Do not enter the tunnel without carrying personal monitoring equipment and have breathing apparatus within reach. Under no circumstances, less than two persons shall enter or move within the adit or any section of the tunnel.\n\n\n9.4 Send an advance party with gum boots, raincoats, torch lights for a distance of 500 m (or less if they feel uneasy) only and report back. Depending upon the condition of water and slush, carry out regular inspection either on foot or on a vehicle with spot lights mounted on it.",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "8",
+      "heading": "8 EMPTYING THE SYSTEM",
+      "heading_path": [
+        "8 EMPTYING THE SYSTEM"
+      ],
+      "char_start": 16774,
+      "char_end": 18710,
+      "semantic_chunk_length": 1936,
+      "final_chunk_length": 2238,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "12633_2026_0009",
+    "text": " of the tunnel.\n\n\n9.4 Send an advance party with gum boots, raincoats, torch lights for a distance of 500 m (or less if they feel uneasy) only and report back. Depending upon the condition of water and slush, carry out regular inspection either on foot or on a vehicle with spot lights mounted on it.\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: WRD 14 (27494).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "12633_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 18715,
+      "char_end": 20151,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 12633",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

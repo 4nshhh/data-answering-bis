@@ -1,0 +1,274 @@
+[
+  {
+    "id": "16128_2013_reaff2022_0000",
+    "text": "IS 16128 : 2013\n\n(Reaffirmed 2016)\n\n(Reaffirmed 2019)\n\n(Reaffirmed 2022)\n\nHkkjrh; ekud\n\nIndian Standard\n\nSET TOP BOX FOR MPEG - 4 DIGITAL CABLE TV\n\nSERVICES — SPECIFICATION\n\nICS 33.160.25\n\n© BIS 2013\n\nBUREAU OF INDIAN STANDARDS\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI 110002\n\nOctober 2013\n\nPrice Group 4\n\n\n\n\n\n\nAudio, Video and Multimedia Systems and Equipment Sectional Committee, LITD 07\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Audio, Video and Multimedia Systems and Equipment Sectional Committee had been approved by the Electronics and Information Technology Division Council.\n\nThere is no ISO/IEC Standard on this subject.\n\nThe Committee responsible for the formulation of this standard has reviewed the provisions of the international publications listed in Annex B and has decided that these may be used in conjunction with this standard till Indian Standards on these subjects are published.\n\nThe composition of the Committee responsible for the formulation of this standard is given in Annex C.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 1960 ‘Rules for rounding off numerical values (revised)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nSET TOP BOX FOR MPEG - 4 DIGITAL CABLE TV\n\n\nSERVICES — SPECIFICATION\n\n\n## 1 SCOPE\n\nThis standard specifies the requirements for a Digital Set Top Box (STB) to be used by subscribers to receive multichannel television programmes which are compressed using the MPEG - 4 standard and channel coded and modulated using the DVB-C standard and delivered over a coaxial cable network to subscriber homes.\n\n\n## 2 REFERENCES\n\nThe standards listed in Annex A and Annex B contains provisions, which through reference in this text constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision and parties to agreement based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated in Annex A and Annex B.",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 0,
+      "char_end": 2374,
+      "semantic_chunk_length": 2374,
+      "final_chunk_length": 2374,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0001",
+    "text": "of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision and parties to agreement based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated in Annex A and Annex B.\n\n## 3 REQUIREMENTS\n\n\n### 3.1 General Requirements\n\n\n3.1.1 The STB shall support reception and processing of DVB-C (as laid in Sl No. 1 of Annex B) compliant digitally modulated and encrypted signal, as per DVB- CSA (as laid in Sl No. 13 of Annex B), received via a cable TV network in accordance with IS 13420 (Part 1). For interactive applications, STB may have the provision of processing signal on the return path, if the return path is provided by the service provider in accordance with IS 14231 (Part 8). The manufacturer shall declare the capability of the STB and its interoperability, if any, on various cable TV networks in the instruction manual to be supplied with the STB.\n\n\n3.1.2 The manufacturer shall ensure compatibility/ interfacing with consumer electronic equipment(s) such as televisions, audio and video systems, VCR’s, etc, in the country.\n\n\n#### 3.1.3 Specifications\n\nThe specifications for the various features and capabilities for the STB shall be as given in Table 1.\n\n\n### 3.2 Performance Requirements\n\nThe requirements for various performance parameters for the STB shall be as given in Table 2.\n\n\n### 3.3 Safety Requirements\n\nThe safety requirements of Receiver shall conform to IS 13252.\n\n\n### 3.4 Electromagnetic Compatibility (EMC) Requirements\n\nThe EMC requirements of the STB shall conform to IS 6873 (Part 3).\n\n\n## 4 MARKING\n\n\n4.1 Each STB shall be legibly and indelibly marked with at least the following information:\n\n- a) Manufacturer’s name or trade-mark (if any);\n- b) Model designation and Serial No.;\n- c) Country of manufacture;\n- d) Input supply voltage and frequency;\n- e) Power consumption;\n- f) Cable input terminal and cable output terminal; and\n- g) All connectors.\n\n### 4.2 BIS Certification Marking\n\nThe STB may also be marked with the Standard Mark.\n\n\n4.2.1 The use of the Standard Mark is governed by the provisions of the Bureau of Indian Standards Act, 1986 and the Rules and Regulation made thereunder. The details of conditions under which a license for the use of the Standard Mark may be granted to manufacturers and producers may be obtained from the Bureau of Indian Standards.",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 REQUIREMENTS",
+      "heading_path": [
+        "3 REQUIREMENTS"
+      ],
+      "char_start": 2377,
+      "char_end": 4515,
+      "semantic_chunk_length": 2138,
+      "final_chunk_length": 2440,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0002",
+    "text": " is governed by the provisions of the Bureau of Indian Standards Act, 1986 and the Rules and Regulation made thereunder. The details of conditions under which a license for the use of the Standard Mark may be granted to manufacturers and producers may be obtained from the Bureau of Indian Standards.\n\n## 5 ENVIRONMENTAL TESTS\n\n\n### 5.1 Bump Test\n\nThe STB shall be subjected to bump test carried out in accordance with IS 9000 (Part 7/Sec 2), the number of bumps being 500 ± 10 and acceleration being 400 m/s2. After this test the receiver shall conform to the performance requirements specified in 5.6 This test shall be carried out under packed condition.",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "5",
+      "heading": "5 ENVIRONMENTAL TESTS",
+      "heading_path": [
+        "5 ENVIRONMENTAL TESTS"
+      ],
+      "char_start": 4518,
+      "char_end": 4873,
+      "semantic_chunk_length": 355,
+      "final_chunk_length": 657,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0003",
+    "text": "hall be subjected to bump test carried out in accordance with IS 9000 (Part 7/Sec 2), the number of bumps being 500 ± 10 and acceleration being 400 m/s2. After this test the receiver shall conform to the performance requirements specified in 5.6 This test shall be carried out under packed condition.\n\n### 5.2 Drop Test\n\nThe STB shall withstand drop test as given in IS 13252. After this test the STB shall conform to the performance requirements specified in 5.6.\n\n\n\n\nTable 1 Specifications\n\n\n(Clause 3.1.3)",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "5.2",
+      "heading": "5.2 Drop Test",
+      "heading_path": [
+        "5 ENVIRONMENTAL TESTS",
+        "5.2 Drop Test"
+      ],
+      "char_start": 4876,
+      "char_end": 5082,
+      "semantic_chunk_length": 206,
+      "final_chunk_length": 508,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0004",
+    "text": "ormance requirements specified in 5.6 This test shall be carried out under packed condition.\n\n### 5.2 Drop Test\n\nThe STB shall withstand drop test as given in IS 13252. After this test the STB shall conform to the performance requirements specified in 5.6.\n\n\n\n\nTable 1 Specifications\n\n\n(Clause 3.1.3)\n\n| Sl No. (1) | Specification (2) | Mandatory (3) | Optional (4) |\n| --- | --- | --- | --- |\n| i) | Demodulation and Forward Error Correction (FEC) decoding | Capability to demodulate and decode digital signals channel coded and modulated in accordance with the DVB-C standard (see Sl No. 1 of Annex B) | Capability to demodulate and decode signals channel coded and modulated in accordance with the DVB-C2 standard (see Sl No. 2 and Sl No. 3 of Annex B) |\n| ii) | Decompression/decoding video | The STB should be capable of decompressing and decoding Standard Definition Television (SDTV) video signals which are compressed and coded in accordance with Sl No. 7 of Annex B | The STB should be capable of decompressing and decoding High Definition Television (HDTV) video signals compressed and coded in accordance with Sl No. 7 of Annex B a) It should be capable of decoding both 1080i and 720p HDTV formats |\n| iii) | Decompression/decoding audio | Capability to decompress/decode audio compressed in accordance with Sl No. 8 of Annex B. | Capability to either: a) decompress, decode according to metadata and down-mix to Stereo for Multichannel audio, all of the following formats: 1) MPEG-1 Layer 2 2) E-AC-3 (see Sl No. 21 of Annex B) 3) MPEG-4 HE AAC stereo b) Pass through all of the following multi-channel formats: 1) E-AC-3 (see Sl No. 21 of Annex B) 2) AC-3 (see Sl No. 21 of Annex B) 3) MPEG-4 HE AAC 5.1 4) MPEG2 5.1 5) DTS (Digital Theatre Sound) c) transcode all of the following input formats to AC-3: 1) E-AC-3 (see Sl No. 21 of Annex B) 2) MPEG-4 HE AAC |\n| iv) | Data services | Capability to receive and process data streams (see Sl No. 11 and Sl No. 12 of Annex B) |  |\n| v) | Subtitle streams | Capability to receive and process subtitle streams (see Sl No. 18 of Annex B) |  |\n| vi) | Service de-multiplexing | Capability to receive and process Service Information (SI) (see Sl No. 16 and Sl No. 17 of Annex B) |  |\n| vii) | Conditional Access/scrambling | a) Capability to descramble services scrambled in accordance with DVB-CSA (see Sl No. 13 of Annex B) including decryption of signals which have been simulcrypt (see Sl No. 19 and Sl No. 20 of Annex B) b) STB may have provision for smart card operation. If smart card is provided, it shall be in accordance with IS 14202 (Parts 1, 2 and 3) |  |\n| viii) | Upstream communication |  | Bi-directional interactive services may be deployed through the return channel |\n| ix) | Interfaces/connectors | a) RF Input: 75 Ω Impedance, Female Connector (see Sl No. 22 of Annex B) b) Composite Video — RCA type : Yellow c) Output Audio RCA type : Stereo/mono RCA type : L-White, R-Red | a) HDMI (see Sl No. 23 of Annex B) b) USB 2.0 Ports c) RJ 11 for PSTN modem d) RJ45 for Ethernet connection e) Digital Audio SPDIF 1) Optical 2) Coaxial f) DVB-CI (Common Interface) (see Sl. No.13 and Sl No.14 of Annex B) g) Connectors: 1) HDMI 2) USB |",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "5.2",
+      "heading": "5.2 Drop Test",
+      "heading_path": [
+        "5 ENVIRONMENTAL TESTS",
+        "5.2 Drop Test"
+      ],
+      "char_start": 5085,
+      "char_end": 7991,
+      "semantic_chunk_length": 2906,
+      "final_chunk_length": 3208,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0005",
+    "text": "| Sl No. (1) | Specification (2) | Mandatory (3) | Optional (4) |\n| --- | --- | --- | --- |\n| x) | Software updation mechanism | (see Sl No. 15 of Annex B) | RS 232C port for updating control software from STB/PC |\n| xi) | PVR Functionality |  | This may be provided as an option enabling the recording of live A/V programs to the STB hard drive/USB Storage media and the ability to play back video with VCR like controls |\n\n\n\n\n\n\nTable 2 Performance Requirements\n\n\n(Clauses 3.2, 5.6 and 6)\n\n\n| Sl No. (1) | Specifications/Parameters (2) | Mandatory Values (3) | Optional (4) |\n| --- | --- | --- | --- |\n| i) | Electrical specifications: a) Input voltage range b) Frequency | a) 90-270 V a.c. b) 50 Hz ± 2 percent | — |\n| ii) | RF characteristics to be supported by the receiver: a) System b) Modulation c) RF Carrier signal level d) Carrier level difference between distributed TV channels (47-862 MHz range) e) Amplitude response within a TV channel f) Lowest carrier to interference ratio g) Cross modulation h) Digital video RF characteristics j) Carrier/Noise (C/N) ratio | a) As per DVB-C standard b) 32QAM, 64QAM, 128QAM, 256QAM c) 47 dBµV Min for 64QAM 67 dBµV Max for 64QAM [see 4.10.3 of IS 13420 (Part 1)] d) 3 dB Max for 64QAM for adjacent channel 13 dB Max for 64QAM for adjacent channel to AM VSB channel e) Variation (pp): 8 dB Max Slope of variation : 1.5 dB/MHz Max [see 4.2 of IS 13420 (Part 1)] f) 35 dB Min for 64 QAM g) >46 + 10 lg (N – 1) where N = No. of channels h) Constellations of 16QAM, 64 QAM and 256 QAM are desirable. Other constellations (32QAM and 128QAM) may also be used. The constellation used shall be automatically detected. j) 31 dB Min for 64 QAM | a) As per DVB-C2 standard — — |\n| iii) | Channel tuner performance characteristics: a) RF Input level b) Input frequency range c) RF input channel bandwidth d) RF input impedance e) RF input return loss f) Frequency assignment download | a) Same as mentioned in Sl.No. ii) b) 47-862 MHz c) 7 MHz for VHF and 8 MHz for UHF d) 75 Ω e) 6 dB Min [see 4.1.1 of IS 14231(Part 3)] f) Optional | As per DVB-C2 depending upon selected operation mode |\n| iv) | RF Demodulator | — | a) Modulation Format: PAL B/G (VHF/UHF) b) RF output channel : VHF channel 3/4; Agile UHF c) RF output level: 1) 60 dBµV Min 2) 80 dBµV Max d) C/N : 44 dBµV Min [see 4.5 and 4.7 of IS 13420 (Part 1)] |\n| v) | Remote control | Mandatory |  |\n| vi) | Operating ambient temperature range | 5°C to 50°C |  |\n| vii) | Operating humidity range | 5 percent to 95 percent (non-condensing) |  |\n| viii) | Finger printing | Mandatory but service provider free to choose mechanism |  |\n\n\n\n\n### 5.3 Dry Heat Test\n\nThe STB shall be subjected to dry heat test of severity +55°C for 16h, carried out in accordance with IS 9000 (Part 3/Sec 5). After recovery, the STB shall conform to the performance requirements specified in 5.6. The duration of the recovery shall be 2h.",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 6,
+      "clause": "5.2",
+      "heading": "5.2 Drop Test",
+      "heading_path": [
+        "5 ENVIRONMENTAL TESTS",
+        "5.2 Drop Test"
+      ],
+      "char_start": 7992,
+      "char_end": 10817,
+      "semantic_chunk_length": 2825,
+      "final_chunk_length": 2917,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0006",
+    "text": "se mechanism |  |\n\n\n\n\n### 5.3 Dry Heat Test\n\nThe STB shall be subjected to dry heat test of severity +55°C for 16h, carried out in accordance with IS 9000 (Part 3/Sec 5). After recovery, the STB shall conform to the performance requirements specified in 5.6. The duration of the recovery shall be 2h.\n\n### 5.4 Damp Heat Test\n\nThe STB shall be subjected to damp heat cyclic test in accordance with IS 9000 (Part 5/Sec 1). After recovery the STB shall conform to the performance requirements specified in 5.6. The duration of the recovery shall be 24h.\n\n\n### 5.5 Cold Test\n\nThe STB shall withstand a cold test of severity –10°C for 2h carried out in accordance with IS 9000 (Part 2/ Sec 4). After recovery, the receiver shall conform to the performance requirements specified in 5.6. The duration of the recovery shall be 2h.\n\n\n### 5.6 Post Measurement after Each Environmental Test\n\nAfter each environmental test specified in 5.1 to 5.5,\n\nthe STB shall meet the safety requirements of 3.3 and the requirements specified in Table 2 for the following parameters:\n\n- a) RF output level as mentioned in S1 No. 4. of Table 2 (Optional);\n- b) Carrier to noise ratio as mentioned in S1 No.4. of Table 2 (Optional);\n- c) Reception of service; and\n- d) For STBs where the RF output option is not available, tests in a) and b) should be replaced by the testing of the video output for compliance as laid down in Sl No. 24 of Annex B.\n\n## 6 OPERATING LIFE TEST\n\nThe STB shall be subjected to operating life test consisting of 5h operation and 1h rest period for a total operating period of 1 000 h at rated voltage and at ambient temperature. At the end of the operating life duration, the requirements specified in 3.3 and Table 2 shall be met with.\n\n\n## ANNEX A\n\n\n(Clause 2)\n\nLIST OF REFERRED INDIAN STANDARDS\n\n| IS No. | Title |\n| --- | --- |\n| 6873 (Part 3) : 1999 | Limits and methods of measurement of radio disturbance characteristics: Part 3 Sound and television broadcast receivers and associated equipment (first revision) |\n| 9000 (Part 2/Sec 4) : 1977 | Basic environmental testing procedures for electronic and electrical items — Cold test for heat dissipating items with gradual change of temperature |\n| (Part 3/Sec 5) : 1977 | Dry heat test for heat dissipating items with gradual change of temperature |\n| (Part 5/Sec 1) : 1981 | Damp heat cyclic test, Section 1 16+8h cycle |\n| (Part 7/Sec 2) : 1979 | Bump |\n| 13252 : 1992 | Safety of information technology equipment including electrical business equipment |\n| 13420 (Part 1) : 2002 | Cabled distribution systems: Part 1 Methods of measurement and system performance |\n| 14202 (Part 1) : 2003 | Identification cards — Integrated circuit(s) — Cards with contacts — Physical characteristics (first revision) |\n| (Part 2) : 2003 | Dimensions and location of the contacts (first revision) |\n| (Part 3) : 2002 | Electronic signals and transmission protocols |\n| 14231 (Part 3) : 1995 | Cabled distribution system for television and sound signals — Active coaxial wideband distribution components |\n| (Part 8) : 2002 | System performance of return path |",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "5.4",
+      "heading": "5.4 Damp Heat Test",
+      "heading_path": [
+        "5 ENVIRONMENTAL TESTS",
+        "5.4 Damp Heat Test"
+      ],
+      "char_start": 10820,
+      "char_end": 13624,
+      "semantic_chunk_length": 2804,
+      "final_chunk_length": 3106,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0007",
+    "text": "ion of the contacts (first revision) |\n| (Part 3) : 2002 | Electronic signals and transmission protocols |\n| 14231 (Part 3) : 1995 | Cabled distribution system for television and sound signals — Active coaxial wideband distribution components |\n| (Part 8) : 2002 | System performance of return path |\n\n## ANNEX B (Foreword)\n\nLIST OF REFERRED INTERNATIONAL STANDARDS",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B (Foreword)",
+      "heading_path": [
+        "ANNEX B (Foreword)"
+      ],
+      "char_start": 13629,
+      "char_end": 13692,
+      "semantic_chunk_length": 63,
+      "final_chunk_length": 365,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0008",
+    "text": "onic signals and transmission protocols |\n| 14231 (Part 3) : 1995 | Cabled distribution system for television and sound signals — Active coaxial wideband distribution components |\n| (Part 8) : 2002 | System performance of return path |\n\n## ANNEX B (Foreword)\n\nLIST OF REFERRED INTERNATIONAL STANDARDS\n\n| Sl No. | Reference No. | Title |\n| --- | --- | --- |\n| 1 | EN 300 429 Ver. 1.2.1 | Framing structure channel coding and modulation for cable systems (DVB-C) |\n| 2 | EN 302 769 Ver. 1.2.1 | Framing structure channel coding and modulation for a second generation digital transmission system for cable systems (DVB-C2) |\n| 3 | TS 102 991 Ver. 1.2.1 | DVB-C2 Implementation guidelines |\n| 4 | ISO/IEC 13818-1 | Information technology — Generic coding of moving pictures and associated audio information Part 1: Systems (MPEG 2) |\n| 5 | ISO/IEC 13818-2 : 2000 | Information technology — Generic coding of moving pictures and associated audio information Part 2 Video Coding |\n| 6 | ISO/IEC 14496-3 : 2005 | Information technology — Coding of audio-visual objects: Part 3 Audio |\n| 7 | ISO/IEC 14496-10 : 2008 | Information technology — Coding of audio-visual objects: Part 10 Advanced Video Coding (MPEG-4 Part 10 AVC) |\n| 8 | ISO/IEC 11172-3 : 1993 | Information technology — Coding of moving pictures and associated audio for digital storage media at up to about 1.5 Mbit/s: Part 3 Audio: MPEG-1 Audio Layer II |\n| 9 | ISO/IEC 7816 (all Parts) | Specifications for smart cards |\n| 10 | ETSI TS 101 154 Ver. 1.10.1 | Digital Video Broadcasting (DVB)Specification for the use of Video and Audio Coding in Broadcasting Applications based on the MPEG-2 Transport Stream. |\n| 11 | ETSI EN 301 192 Ver. 1.4.2 | Digital Video Broadcasting (DVB)DVB specification for data broadcasting |\n| 12 | TR 101 202 Ver. 1.2.1 | Digital Video Broadcasting (DVB)Implementation guidelines for Data Broadcasting |\n| 13 | EN 50221 Ver. 1 | Common Interface Specification for Conditional Access and other Digital Video Broadcasting Decoder Applications andETR 289 Ver. 1 Support for use of scrambling and Conditional Access (CA) within digital broadcasting systems |\n| 14 | TS 101 699 Ver. 1.1.1 | Digital Video Broadcasting (DVB)Extensions to the Common Interface Specification |\n| 15 | TS 102 006 Ver.1.3.2 | Digital Video Broadcasting (DVB)Specification for System Software Update in DVB Systems |\n| 16 | ETSI EN 300 468 Ver. 1.12.1 | Specifications for Service Information (SI) in DVB systems |\n| 17 | TS 101 211 Ver. 1.10.1 | Guidelines on implementation and usage of Service Information (SI) in DVB systems |\n| 18 | ETSI EN 300 743 Ver. 1.3.1 | Subtitling Systems |\n| 19 | TS 101 197 Ver. 1.2.1 | DVB SimulCrypt; Head-end architecture and synchronization |\n| 20 | TS 103 197 Ver. 1.5.1 | Head-end implementation of DVB SimulCrypt |\n| 21 | ETSI TS 102 366 Ver. 1.2.1 | Digital Audio Compression (AC-3, Enhanced AC-3) Standard |\n| 22 | IEC 60169-24 | Radio-frequency connectors — Part 24: Radio-frequency coaxial connectors with screw coupling, typically for use in 75 ohm cable distribution systems (Type F) |\n| 23 | ETSI TS 102 201 | Interfaces for DVB Integrated Receiver Decoder (DVB-IRD) |\n| 24 | ITU-R BT 470-7 | Conventional analogue television systems |",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B (Foreword)",
+      "heading_path": [
+        "ANNEX B (Foreword)"
+      ],
+      "char_start": 13694,
+      "char_end": 16634,
+      "semantic_chunk_length": 2940,
+      "final_chunk_length": 3242,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16128_2013_reaff2022_0009",
+    "text": "uency connectors — Part 24: Radio-frequency coaxial connectors with screw coupling, typically for use in 75 ohm cable distribution systems (Type F) |\n| 23 | ETSI TS 102 201 | Interfaces for DVB Integrated Receiver Decoder (DVB-IRD) |\n| 24 | ITU-R BT 470-7 | Conventional analogue television systems |\n\n## ANNEX C (Foreword)\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards : Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 07 (3247).\n\nAmendments Issued Since Publication\n\n| Amend No. | Date of Issue | Text Affected |\n| --- | --- | --- |",
+    "metadata": {
+      "source": "16128_2013_reaff2022.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C (Foreword)",
+      "heading_path": [
+        "ANNEX C (Foreword)"
+      ],
+      "char_start": 16639,
+      "char_end": 18055,
+      "semantic_chunk_length": 1416,
+      "final_chunk_length": 1718,
+      "standard_no": "IS 16128",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

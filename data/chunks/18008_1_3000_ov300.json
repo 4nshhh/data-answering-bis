@@ -1,0 +1,1246 @@
+[
+  {
+    "id": "18008_1_0000",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nJune 2021 \b Price Group 11\n\n\n\n\nSmart Infrastructure Sectional Committee LITD 28\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Smart Infrastructure Sectional Committee, had been approved by the Electronics and Information Technology Division Council. The Composition of the panel, LITD 28/P10 and the sectional committee, LITD 28 responsible for the formulation of this standard is given at Annex B.\n\n\n\n\nCONTENTS\n\n\b Page No.\n\n\n0 INTRODUCTION ... vii\n\n\n0.1 Current Challenges of GIS in Smart Cities. ... vii 0.2 Key Stakeholder concern ... vii 0.3 Role of GIS in Smart Cities ... ix\n\n1 SCOPE ... 1\n\n2 REFERENCES ... 1\n\n\n## 3 TERMINOLOGY AND ABBREVIATIONS ... 1\n\n\n3.1 Terminology ... 1 3.1.1 Coordinate System ... 1 3.1.2 Datum ... 1 3.1.3 Digital Elevation Model ... 1 3.1.4 Geocode ... 1 3.1.5 Geocoding ... 1 3.1.6 Geoevents ... 1 3.1.7 Geospatial Data ... 1 3.1.8 Georeference ... 1 3.1.9 Global Navigation Satellite System (GNSS) ... 1 3.1.10 Enterprise GIS ... 1 3.1.11 Layer ... 2 3.1.12 PAN Images ... 2 3.1.13 Raster Data ... 2 3.1.14 RESTFUL APIs ... 2 3.1.15 Shapefile Or shp ... 2 3.1.16 SOA Architecture ... 2 3.1.17 Topology ... 2 3.1.18 Vector Data ... 2 3.2 Abbreviations ... 2\n\n\n## 4 GIS DESIGN AND ARCHITECTURE ... 2\n\n\n4.1 Key Design Principle ... 2 4.1.1 Scalable ... 2 4.1.2 Secure ... 2 4.1.3 High-Availability ... 3 4.1.4 Standard Based ... 3 4.1.5 Modularity ... 3 4.2 Enterprise GIS – Capabilities and Functional Architecture ... 3 4.3 Enterprise GIS functional reference model ... 4 4.3.1 Detailed Functional Capability of the Enterprise GIS System for Smart Cities .. 4 4.3.2 Data Integration ... 8\n\n\n\n\n\b Page No.\n\n\n4.4 Conceptual Model of Enterprise GIS ... 8 4.4.1 Web GIS Apps ... 8 4.4.2 Automation using APIs and Scripts ... 8 4.4.3 Distributed Web GIS ... 10 4.4.4 Enterprise Integration ... 10 4.4.5 Environment Isolation ... 10 4.4.6 High Availability ... 10 4.4.7 Data Management ... 10 4.4.8 Analysis ... 10 4.4.9 Visualization ... 10 4.4.10 Data and Storage ... 10 4.4.11 Patterns of GIS Usage ... 10 4.5 Enterprise GIS Technical Reference Model ... 11 4.5.1 GIS database and Authoring Tier ... 11 4.5.2 Application Tier ... 11 4.5.3 Presentation Tier ... 12 4.6 GIS Information Reference Model ... 12",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 4,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2399,
+      "semantic_chunk_length": 2397,
+      "final_chunk_length": 2397,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0001",
+    "text": ".. 10 4.4.9 Visualization ... 10 4.4.10 Data and Storage ... 10 4.4.11 Patterns of GIS Usage ... 10 4.5 Enterprise GIS Technical Reference Model ... 11 4.5.1 GIS database and Authoring Tier ... 11 4.5.2 Application Tier ... 11 4.5.3 Presentation Tier ... 12 4.6 GIS Information Reference Model ... 12\n\n## ANNEX A USE CASES ... 22\n\nA-1 TRAFFIC MANAGEMENT SYSTEM ... 22\n\nA-2 SAFE CITY CAMERAS FEED ... 22\n\nA-3 EMERGENCY RESPONSE AND DISASTER MANAGEMENT ... 23\n\nA-4 METEOROLOGICAL DEPARTMENT ... 24\n\nA-5 DYNAMIC MARKET PLACE ... 24\n\nA-6 SMART PARKING ... 24\n\nA-7 PUBLIC BIKE SHARING ... 25\n\nA-8 SMART POLE & SMART LIGHTING ... 25\n\nA-9 SOLID WASTE MANAGEMENT SERVICES ... 25\n\nA-10 INTELLIGENT TRANSPORT MANAGEMENT SYSTEM ... 26\n\nA-11 MUNICIPAL CORPORATIONS CALL CENTRE & MUNICIPAL CORPORATIONS SERVICES ... 26\n\nA-12 DIFFERENT TYPE OF APPS ... 26\n\nA-13 WATER MANAGEMENT SYSTEM ... 27\n\nA-14 DIAL 100 ... 27\n\nA-15 DIAL 108 ... 27\n\nA-16 ELECTRICITY ... 28\n\n\n\n\n\b Page No.\n\nA-17 EDUCATION ... 28\n\nA-18 HEALTH ... 29\n\nA-19 INTEGRATION WITH CROWDSOURCING DATA ... 29\n\nA-20 INTEGRATION WITH FIRE BRIGADE CONTROL SYSTEM ... 29\n\nA-21 GREEN BUILDINGS ... 29\n\nA-22 KIOSKS ... 30\n\n\n## ANNEX B  COMMITTEE COMPOSITION ... 31\n\nBIBLIOGRAPHY ... 33\n\nLIST OF FIGURES\n\n\n**Fig. 1 City Governance Aspect and GIS at Core ... x Fig. 2 Enterprise GIS ... 3 Fig. 3 Conceptual Model of GIS Tools for Spatial Decision Support System ... 4 Fig. 4 Enterprise GIS Functional Architecture Model for Integrated ICCC ... 5 Fig. 5 Data Ingestions from Different Sources ... 9 Fig. 6 Conceptual Model of Enterprise GIS ... 9 Fig. 7 Technical Reference Model of Enterprise GIS ... 11**\n\nLIST OF TABLES\n\nTable 1 Stakeholders requirements from GIS perspective in Smart Cities ... viii Table 2 Functional Capabilities of Enterprise GIS for Smart Cities ... 5 Table 3 Reference Data Model ... 12\n\n\n\n\n\nThis page has been intentionally left blank",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 6,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A USE CASES ... 22",
+      "heading_path": [
+        "ANNEX A USE CASES ... 22"
+      ],
+      "char_start": 2402,
+      "char_end": 3998,
+      "semantic_chunk_length": 1596,
+      "final_chunk_length": 1898,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0002",
+    "text": "al Reference Model of Enterprise GIS ... 11**\n\nLIST OF TABLES\n\nTable 1 Stakeholders requirements from GIS perspective in Smart Cities ... viii Table 2 Functional Capabilities of Enterprise GIS for Smart Cities ... 5 Table 3 Reference Data Model ... 12\n\n\n\n\n\nThis page has been intentionally left blank\n\n## 0 INTRODUCTION\n\n### 0.1 Current Challenges of GIS in Smart Cities\n\nIS 18008 (Part 1) : 2021\n\nAt present, GIS is commonly used as a spatial information and visualisation tool in the existing Smart Cities. The utilisation of this powerful technology varies considerably across cities, often limited by non-availability of base maps and non adaptability of Enterprise GIS Platforms. GIS will play a significant role in spatial decision making in Smart Cities when standards based maps are developed and integrated into routine functioning of the Smart Cities.\n\nCurrently, cities are not completely aware about the overall functional requirements of the GIS and the technological architecture of the enterprise wide GIS, which is important for collaborative decision making.\n\nIn absence of standards for the GIS layers that need to be adopted, the cities are not able to take the benefits of the Enterprise GIS for the decision making in the cities.\n\nThis standard has been developed with the objective of defining the GIS usability for the different stakeholders in smart cities. It provides a conceptual GIS architecture with functionalities to use as an enterprise system for spatial decision making.\n\nTo guide the cities in the usability of the GIS, the functional requirements are mentioned.\n\nLastly GIS application use cases are provided to guide the city in understanding the GIS applicability for the smart city in standardized ways.\n\nThis standard has to be read in conjunction with other standards on Smart Cities or Unified Digital Infrastructure such as IS 18000, IS 18002, IS 18004, IS 18006 etc.\n\nEnterprise GIS is an architecture that integrates geospatial data and services and shares them across the organization. It can also be viewed as an infrastructure that extends and enables existing systems using geospatial data and services.\n\nCore to enterprise GIS is the ability to meet organizational objectives through the delivery of geospatial capabilities that include the following:\n\n- a) Data management — data management is important in an enterprise setting. Enterprise GIS data management\nfocuses on the efficient storage and retrieval of all of an organization’s relevant geographic information. An enterprise GIS data may be decentralized, with appropriate data management standards and data governance processes defined, so as to ensure that the data integrity is maintained and also the data is available for usage by everyone in the organization. b) Visualization — The visualization of information in a geographic context provides an intuitive means for\n\naccurate and rapid decision making. Visualization is the most obvious manifestation of enterprise GIS, however, enterprise GIS should fully exploit visualization capabilities by incorporating them into tasks and activities not traditionally associated with GIS like e-Governance applications or Business applications or ERP. c) Spatial analysis — exploiting the wealth of geographic information in an organization is the goal of spatial",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "0.1",
+      "heading": "0.1 Current Challenges of GIS in Smart Cities",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.1 Current Challenges of GIS in Smart Cities"
+      ],
+      "char_start": 4003,
+      "char_end": 7022,
+      "semantic_chunk_length": 3019,
+      "final_chunk_length": 3320,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0003",
+    "text": "lly exploit visualization capabilities by incorporating them into tasks and activities not traditionally associated with GIS like e-Governance applications or Business applications or ERP. c) Spatial analysis — exploiting the wealth of geographic information in an organization is the goal of spatial\n\nanalysis for the enterprise. Non-traditional users of GIS will benefit from this capability. A key objective of enterprise GIS architects and designers should be the geospatial enabling of other enterprise systems (e.g., IoT applications) with spatial analytical capabilities.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "0.1",
+      "heading": "0.1 Current Challenges of GIS in Smart Cities",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.1 Current Challenges of GIS in Smart Cities"
+      ],
+      "char_start": 7024,
+      "char_end": 7300,
+      "semantic_chunk_length": 276,
+      "final_chunk_length": 578,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0004",
+    "text": "is the goal of spatial\n\nanalysis for the enterprise. Non-traditional users of GIS will benefit from this capability. A key objective of enterprise GIS architects and designers should be the geospatial enabling of other enterprise systems (e.g., IoT applications) with spatial analytical capabilities.\n\n### 0.2 Key Stakeholder concern\n\nThe stakeholders in the current environment of the Smart City involves the Special purpose Vehicle (SPV), the Municipal Corporation, Citizens, Business, Researchers, Operation and Maintenance Team of cities, State Government and Central Government. Table 1 provides a summary of different stakeholders of smart city their business processes and their requirements from a GIS perspective.\n\n\n\n\n\nTable 1 Stakeholders requirements from GIS perspective in Smart Cities\n\n\n**Table 1 Stakeholders requirements from GIS perspective in Smart Cities**",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "0.2",
+      "heading": "0.2 Key Stakeholder concern",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.2 Key Stakeholder concern"
+      ],
+      "char_start": 7303,
+      "char_end": 7876,
+      "semantic_chunk_length": 573,
+      "final_chunk_length": 875,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0005",
+    "text": "ernment. Table 1 provides a summary of different stakeholders of smart city their business processes and their requirements from a GIS perspective.\n\n\n\n\n\nTable 1 Stakeholders requirements from GIS perspective in Smart Cities\n\n\n**Table 1 Stakeholders requirements from GIS perspective in Smart Cities**\n\n| Stakeholder | Business requirements | GIS Requirement |\n| --- | --- | --- |\n| Municipality | 1. City Base Maps including different layers of information like Roads, sewerage network, public bins, street lights etc. 2. Tracking of different projects in the city for construction, maintenance and operations. 3. Strengthening the municipal finance through revenue enhancement and expenditure monitoring. 4. Tracking the performance of different city aspects like pollution, cleanliness, literacy, distribution of healthcare facilities in a ward/locality etc. 5. Covid-19 related Contentment Zone, Vaccination Centre, Covid Center/Hospitals. | 1. City Geodata model with defined layers, attributes, relationships and cartography. 2. Common Base maps for all departments to collaborate on decision making. 3. Collect spatial information from various sources and utilise it across the enterprise. 4. Spatial tracking of municipal projects/activities. 5. Spatial tracking of municipal Income and expenditure. 6. Spatial tracking of performance of city as per different parameters. 7. Spatial tracking of all city assets and resources. 8. GIS based mobile app with workflow for field operations in city level. 9. Survey apps to collect the pandemic related data and display as dashboards. |\n| Smart City SPV | 1. Planning the smart city in terms of planning, design, construction and operations. 2. Asset Inventory of the smart city and their coverage. 3. Real time tracking of the information flow and access to different spatial layers for a coordinated decision making. | 1. Common Base Maps to understand the requirement of different stakeholders of smart city. 2. Municipal Assets inventory required for Smart City. 3. Spatial Area Based Development (ABD) planning. 4. Get the virtual view of the city and urban features and urban problems. 5. Spatial view of Smart City Components (Cameras, GPS enabled Devices, Sensors, IoT devices) with geo-spatial data for smooth operation and monitoring. 6. Real time vehicle tracking, citizen sentiment capturethrough social media integration. 7. Generation of hotspots and analytics of pollution, crime, incidents, events, grievances etc. 8. Geospatial dashboards for decision support system regarding the performance against the benchmarks or thresholds. |",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "0.2",
+      "heading": "0.2 Key Stakeholder concern",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.2 Key Stakeholder concern"
+      ],
+      "char_start": 7878,
+      "char_end": 10176,
+      "semantic_chunk_length": 2298,
+      "final_chunk_length": 2600,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0006",
+    "text": "| Stakeholder | Business requirements | GIS Requirement |\n| --- | --- | --- |\n| Citizens | 1. Access to different locational information like the amenities in the neighborhood. 2. Access to different spatial information like Road closure intimation, or traffic jam intimation.Participate in city governance. 3. Raise grievance through mobile Apps using location and geotagged images/photos. 4. Location information related to Pandemic/disease Spread. a Information related to hazards. | 1. Means to interact with city through GIS based Web Apps and Mobile Apps, like neighbourhood services. 2. Participation in governance on Development Plans and Smart Developments and different urban issues. 3. Routing services for moving from one place to otherSharing location data and features with different people. 4. Mobile Apps for citizen’s grievance management. 5. Apps to report incident or seek help in the event of Medical outbreak. 6. Integration with Sensors to cover the real time weather and Hard Information for public. |\n| Utility Services | 1. Maps for the existing location of the Assets. 2. The demand of services and supply of services. 3. Real time location of the problem areas and quick repair. | 1. Common set of base maps for design and construction, operation and maintenance and decision making for utilities like electricity, water, sewerage, storm water drains, street light, piped gas, etc. 2. Utility asset GIS data model to generate inventories of all the assets of the utilities. 3. Spatial asset lifecycle management for understanding age of the asset. 4. Spatial workflow based asset operation and maintenance for addressing the operational problems. |\n| Business | 1. Needs locational intelligence for setting up chains, service centers, new business, and branches. | 1. Platform to integrate with open socio-economic data like Population density data, socio economic data, administrative boundaries, land use details. |\n\n\n\n\n\nTable 1 ( Concluded )",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "0.2",
+      "heading": "0.2 Key Stakeholder concern",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.2 Key Stakeholder concern"
+      ],
+      "char_start": 10177,
+      "char_end": 12070,
+      "semantic_chunk_length": 1893,
+      "final_chunk_length": 1971,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": true,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0007",
+    "text": "s. |\n| Business | 1. Needs locational intelligence for setting up chains, service centers, new business, and branches. | 1. Platform to integrate with open socio-economic data like Population density data, socio economic data, administrative boundaries, land use details. |\n\n\n\n\n\nTable 1 ( Concluded )\n\n| Stakeholder | Business requirements | GIS Requirement |\n| --- | --- | --- |\n| Researchers | 1. Needs access to spatial and non spatial data related to urban features/problems. | 1. Platform to get open GIS data/APIs for conducting spatial research on urban dynamics and issues. |\n| Operation and Maintenance Team of City | 1. Needs the details of the City properties and assets. 2. Need location of the problem areas for quick service delivery. | 1. Location based workflows for reporting of urban issues and problems like water leakage or potholes on roads. 2. Location based alert generation as a part of spatial workflow. 3. City problem tracking and resolution status. 4. GIS based dashboard for tracking of O & M performance. |\n| State Government | 1. Needs to undertake monitoring of the projects progress under the mission cities in the state. 2. Needs to undertake the monitoring of funds utilization and requirement for mission objectives. | 1. Monitoring of the Smart Cities projects in the state. 2. Smart City projects tracking Geographically with project management aspects. 3. Smart City fund tracking at state level. |\n| Central Government | 1. Needs to undertake monitoring of the projects progress under the mission cities in the country. 2. Needs to undertake the monitoring of funds utilization and requirement for mission objectives. | 1. Monitoring of Smart City program progress. 2. Geographic Smart Cities project tracking. 3. Geographic Smart City fund tracking. 4. Smart city projects performance monitoring. 5. Enable gap based knowledge sharing between smart cities. |",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "0.2",
+      "heading": "0.2 Key Stakeholder concern",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.2 Key Stakeholder concern"
+      ],
+      "char_start": 12073,
+      "char_end": 13670,
+      "semantic_chunk_length": 1597,
+      "final_chunk_length": 1899,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0008",
+    "text": " funds utilization and requirement for mission objectives. | 1. Monitoring of Smart City program progress. 2. Geographic Smart Cities project tracking. 3. Geographic Smart City fund tracking. 4. Smart city projects performance monitoring. 5. Enable gap based knowledge sharing between smart cities. |\n\n### 0.3 Role of GIS in Smart Cities\n\nGIS plays an important role in the complete lifecycle of Smart City, from planning, designing, construction, operation and maintenance to management. Smart city GIS shall integrate with different survey tools, modelling software, different types of sensors and IoT devices, and other e-governance enterprise systems like land management applications, asset management systems etc. for spatial decision support.\n\n- a) Planning and Design of Smart City: GIS helps to analyse the location of the Assets and Properties in the\ncity and the Gap in the provision as per population, area and distance norms. It helps to analyse the right sites for city development, view legal boundaries, and arrive at a right valuation of the existing or new sites. GIS integrates with different survey technologies like DRONE, Aerial Survey, LIDAR, GPR, etc and may be associated with design tools like Building information modelling (BIM), Computer Aided Design (CAD) for 3D analysis. b) Construct: GIS should integrate with the project management and financial management systems and tools\n\nfor construction monitoring of the different smart city projects. c) Operation and Maintenance: GIS based asset Maintenance system create the models of all the assets\n\nand properties in the city for their maintenance, repair and refurbishment, real time update of functioning by integrating with SCADA, Smart Metering, Remote Transmission Unit (RTUs) etc and field operation management. d) City Expansion Plan: This is important especially for the Green field Smart cities to create the land banks and\n\ninventory of infrastructure to attract buyers, tenants, business. Analyze demographics and market conditions to provide a more accurate picture of a property’s suitability to needs. e) City Insights: The GIS helps in the city management by creating intelligence of spatial distribution,\n\ncollaborated operation and maintenance, dynamic real time dashboards about city functions, city economics (revenue and expenditure) and performances. Fig. 1 describes the City functions, how GIS technology and tools can help the city in undertaking the functions and the outcomes of the technology application.\n\nWhile defining the role of GIS in smart city, the following fundamental concepts should be taken care of:\n\n- a) Standardization: Standardization of urban processes, mobility and logistics, safety and security, information\nand communication, energy uses, and production etc. b) Integration: integration of the different data system, processes, operational workflows, and real-time\n\ninformation.\n\n\n\n\n\n**Fig. 1 City Governance Aspect and GIS at Core**",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "0.3",
+      "heading": "0.3 Role of GIS in Smart Cities",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.3 Role of GIS in Smart Cities"
+      ],
+      "char_start": 13673,
+      "char_end": 16332,
+      "semantic_chunk_length": 2659,
+      "final_chunk_length": 2961,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0009",
+    "text": "urban processes, mobility and logistics, safety and security, information\nand communication, energy uses, and production etc. b) Integration: integration of the different data system, processes, operational workflows, and real-time\n\ninformation.\n\n\n\n\n\n**Fig. 1 City Governance Aspect and GIS at Core**\n\n- c) Design thinking: Design thinking is an analytical and creative approach that focuses on the concerns, interests\nand values of the user. In the city’s case, the user could be the citizen, the entrepreneurs, the academia and researchers, the builders and urban service providers. d) Collaboration: collaboration should be across municipal departments, line departments, emergency services,\n\nbusinesses and NGOs, and most importantly, citizens. As an integral part of smart cities, citizens shall help public authorities to work more efficiently together by integrating citizen-sourced data from smart city apps, as well as individually reporting incidents or flagging concerns. e) Innovation: City innovation in management, policy and technology. Since the unique context of each city\n\nshapes the technological, organizational and policy aspects of that city, a smart city can be considered a contextualized interplay among technological innovation, managerial and organizational innovation, and policy innovation.\n\n\n\n\n\nIndian Standards\n\n\nSMART CITIES — GIS\n\n\nPART 1 REFERENCE ARCHITECTURE\n\n\n## 1 SCOPE\n\n\n#### 3.1.4 Geocode\n\nA geocode is the set of latitude and longitude coordinates of a physical address.\n\nThis Indian standard describes the Enterprise GIS reference architecture that comprises the functional architecture, technical reference model, and information reference model of the enterprise GIS. It also specifies the core capabilities and key design principles of the enterprise GIS.\n\nNOTE — It can be done by plotting x,y (lat, long) data.\n\n\n#### 3.1.5 Geocoding\n\nGeocoding is the process of turning a physical address into a set of latitude and longitude coordinates which can then be plotted or displayed on a map.\n\nThe implementation methodologies and deployment architecture of the GIS are excluded from the scope of this standard.\n\n\n#### 3.1.6 Geoevents\n\nGeo Events are data in an event stream in order for an Input Connector to construct a Geo Event from the events coming in, like disaster event, accident event, pipe breakage etc.\n\n\n## 2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of these standards.’\n\n\n#### 3.1.7 Geospatial Data\n\nA database or file structure used primarily to store, query, and manipulate spatial data. Geo Spatial databases store geometry, a spatial reference system, attributes, and behavioral use data. Allows you to store many different data in one packaged file, rather than many spatial data associated files in a simple folder. Certain operations seem to run more smoothly when your data is packaged in a geospatial database.\n\nIS 18000 Unified Digital Infrastructure — ICT\n\nReference Architecture.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "0.3",
+      "heading": "0.3 Role of GIS in Smart Cities",
+      "heading_path": [
+        "0 INTRODUCTION",
+        "0.3 Role of GIS in Smart Cities"
+      ],
+      "char_start": 16334,
+      "char_end": 19308,
+      "semantic_chunk_length": 2974,
+      "final_chunk_length": 3276,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0010",
+    "text": ". Allows you to store many different data in one packaged file, rather than many spatial data associated files in a simple folder. Certain operations seem to run more smoothly when your data is packaged in a geospatial database.\n\nIS 18000 Unified Digital Infrastructure — ICT\n\nReference Architecture.\n\n## 3 TERMINOLOGY AND ABBREVIATIONS\n\n### 3.1 Terminology\n\n\n#### 3.1.8 Georeference\n\nFor the purpose of this standard, the following shall apply.\n\nAn operation in which an image (such as an aerial photo/satellite image/radar images/scanned maps) is aligned to a known coordinate system so it can be viewed and analyzed with other spatial data. Typically, georeferencing involves overlaying an image above a basemap and aligning known points on the image with the basemap (such as an easily identifiable street intersection).\n\n\n#### 3.1.1 Coordinate System\n\nA reference framework consisting of a set of points, lines, and/or surfaces, and a set of rules, used to define the positions of points in space in either two or three dimensions. Cartesian coordinate system and the geographic coordinate system used on the earth’s surface are common examples of coordinate systems.\n\n\n#### 3.1.9 Global Navigation Satellite System (GNSS)\n\n\n#### 3.1.2 Datum\n\nA standard generic term for satellite navigation systems that provide autonomous geo-spatial positioning with global coverage. This term includes e.g. the GPS, GLONASS, Galileo, Beidou, NAVIC and other regional system like IRNSS of India.\n\nThe reference specifications of a measurement system, usually a system of coordinate positions on a surface (a horizontal datum) or heights above or below a surface (a vertical datum).\n\n\n#### 3.1.10 Enterprise GIS\n\n\n#### 3.1.3 Digital Elevation Model\n\nThe implementation of GIS infrastructure, processes and tools at scale within the context of an organization, shaped by the prevailing information technology patterns of the day. Enterprise GIS is integrated into,\n\nThe representation of continuous elevation values over a topographic surface by a regular array of z-values, referenced to a common datum. DEMs are typically used to represent terrain relief.\n\n\n\n\nand shaped by the business processes, culture and context of an organization.\n\n\n#### 3.1.11 Layer\n\nThe visual representation of a geographic dataset in any digital map environment. Conceptually, a layer is a slice or stratum of the geographic reality in a particular area, and is more or less equivalent to a legend item on a paper map. When spatial data (such as a shapefile, MIF, KML, GML or similar) is added to a GIS application it is represented as a layer on a map.\n\n\n#### 3.1.12 PAN Images\n\nSingle channel (panchromatic) image producing better ground resolution.\n\n\n#### 3.1.13 Raster Data\n\nA spatial data model that defines space as an array of equally sized cells arranged in rows and columns. Think of these cells as pixels.\n\n\n#### 3.1.14 RESTFUL APIs\n\nAn architectural style for an application program interface (API) that uses HTTPs requests to access and use data. That data can be used to GET, PUT, POST and DELETE data types, which refers to the reading, updating, creating and deleting of operations concerning resources.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 12,
+      "clause": "3.1",
+      "heading": "3.1 Terminology",
+      "heading_path": [
+        "3 TERMINOLOGY AND ABBREVIATIONS",
+        "3.1 Terminology"
+      ],
+      "char_start": 782,
+      "char_end": 22197,
+      "semantic_chunk_length": 21415,
+      "final_chunk_length": 3187,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0011",
+    "text": "#### 3.1.14 RESTFUL APIs\n\nAn architectural style for an application program interface (API) that uses HTTPs requests to access and use data. That data can be used to GET, PUT, POST and DELETE data types, which refers to the reading, updating, creating and deleting of operations concerning resources.\n\n#### 3.1.15 Shapefile Or shp\n\nThis is the Open File format for geographic or spatial data.\n\nNOTE — Shapefile is the most frequently used file type in\n\nGIS. Shapefiles appears as points (placemarks, cities etc), lines (roads, rivers etc), or polygons (state boundaries, counties, zones).\n\n\n#### 3.1.16 SOA Architecture\n\nSoftware architecture consisting of coupled services. Service-oriented architecture, defines a way to make software components reusable and interoperable via service interfaces.\n\n\n#### 3.1.17 Topology\n\nThe spatial relationships between connecting or adjacent features in a geographic data layer (for example, arcs, nodes, polygons, and points). Topological relationships are used for spatial modeling operations that do not require coordinate information. Think of it as the relationships between things that are adjacent or connected to one another.\n\n\n#### 3.1.18 Vector Data\n\nA coordinate-based data model that represents geographic features as points, lines, and polygons.\n\n\n\n### 3.2 Abbreviations\n\nAPI Application Programming Interface\n\nDEM Digital Elevation Model\n\nDRONE Dynamic Remotely Operated Navigation Equipment\n\nGCP Ground Control Points\n\nGIS Geographical Information System\n\nGPS Global Positioning System\n\nGPR Ground Penetrating Radar\n\nHRSI High Resolution Satellite Image\n\nIoT Internet of Things\n\nLIDAR Light Detection and Ranging\n\nOGC Open GIS Consortium\n\nUTM Universal Transverse Mercator",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "3.1.15",
+      "heading": "3.1.15 Shapefile Or shp",
+      "heading_path": [
+        "3 TERMINOLOGY AND ABBREVIATIONS",
+        "3.1 Terminology",
+        "3.1.15 Shapefile Or shp"
+      ],
+      "char_start": 22200,
+      "char_end": 23623,
+      "semantic_chunk_length": 1423,
+      "final_chunk_length": 1725,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0012",
+    "text": "vigation Equipment\n\nGCP Ground Control Points\n\nGIS Geographical Information System\n\nGPS Global Positioning System\n\nGPR Ground Penetrating Radar\n\nHRSI High Resolution Satellite Image\n\nIoT Internet of Things\n\nLIDAR Light Detection and Ranging\n\nOGC Open GIS Consortium\n\nUTM Universal Transverse Mercator\n\n## 4 GIS DESIGN AND ARCHITECTURE\n\n### 4.1 Key Design Principle\n\nEnterprise GIS is a system that is integrated through an entire organization so that a large number of users can manage, share, and use spatial data and related information to address a variety of needs, including data creation, modification, visualization, analysis, and dissemination.\n\n\n**Fig. 2 describes the enterprise GIS concept, there are authoritative content creators in an enterprise given the right through enterprise user management. These contents may be shared over web as maps and data, base maps. The contents may be accessed anytime anywhere, using desktops, internet, mobiles, tablets etc. The workflows may be created, through which the field crew can access the alerts and map information and undertake the task.**\n\nIn addition to the properties described in 7 of IS 18000 : 2020, The enterprise GIS shall adhere to the Key Design Principles given in 4.1.1 to 4.1.5.\n\n\n#### 4.1.1 Scalable\n\nThe solution architecture shall provide the capability to scale the system to meet future needs of additional functionalities and usage without inherent bottlenecks when supported with appropriate infrastructure and licenses. GIS capabilities should offer seamless integration. The solution should be scalable to support minor functional changes or integration through standard interfaces.\n\n\n#### 4.1.2 Secure\n\nThe architecture shall be designed to secure data from unauthorized access, modifications, and manipulation\n\n\n\n\n**Fig. 2 Enterprise GIS**\n\nusing advanced user and access management tools and capabilities. It should follow and support security, authentications and authorization including Web tier authentications (for example IWA, PKA), GIS tier authentications (Built in identity), Enterprise logins (for example SAML 2.0), Enterprise groups (for example Active directory and LDAP ) etc.\n\n\n#### 4.1.3 High-Availability\n\nThe proposed architecture shall have the capability to be up and running over long periods to ensure availability. Web GIS server should support deployment cluster environments: Active-Active, Active-Passive. There should be flexibility for deploying the solution on premises, on cloud and hybrid architecture.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 13,
+      "clause": "4.1",
+      "heading": "4.1 Key Design Principle",
+      "heading_path": [
+        "4 GIS DESIGN AND ARCHITECTURE",
+        "4.1 Key Design Principle"
+      ],
+      "char_start": 1357,
+      "char_end": 25843,
+      "semantic_chunk_length": 24486,
+      "final_chunk_length": 2518,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0013",
+    "text": "ed architecture shall have the capability to be up and running over long periods to ensure availability. Web GIS server should support deployment cluster environments: Active-Active, Active-Passive. There should be flexibility for deploying the solution on premises, on cloud and hybrid architecture.\n\n#### 4.1.4 Standard Based\n\nThe integration architecture shall be open, interoperable and standard based, so that it ensures a seamless integration with all city services. The proposed Enterprise GIS architecture should support open geo-spatial consortium (OGC) and open web services such as WMS, WFS, WCS, WMTS, WPS, KML, GeoJson & I3S or OGC 3D Tile service for 3D rendering. GIS system shall follow the open service-oriented architecture (SOA). The complete system should be developed using standard development tools. The technology must be based on open standards that can be exchange information with others and able to consume and expose services and API’s as per the business needs. The software should provide open API & SDKs for developers to build/extend custom web mapping applications. (ex: Qt, NET, Java, JavaScript, etc).\n\n\n#### 4.1.5 Modularity\n\nThe entire design of the integrated solution shall be modular. All the business processes and sub-processes\n\n\nshall structure in a modular way so that any changes, modifications, additions or deletions of any process do not affect the entire flow of the application. The solution shall design to easily accommodate business process changes through Change Management.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "4.1.4",
+      "heading": "4.1.4 Standard Based",
+      "heading_path": [
+        "4 GIS DESIGN AND ARCHITECTURE",
+        "4.1 Key Design Principle",
+        "4.1.4 Standard Based"
+      ],
+      "char_start": 25846,
+      "char_end": 27073,
+      "semantic_chunk_length": 1227,
+      "final_chunk_length": 1529,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0014",
+    "text": " the business processes and sub-processes\n\n\nshall structure in a modular way so that any changes, modifications, additions or deletions of any process do not affect the entire flow of the application. The solution shall design to easily accommodate business process changes through Change Management.\n\n### 4.2 Enterprise GIS – Capabilities and Functional Architecture\n\nFunctionally the enterprise GIS system shall provide the following capabilities:\n\n- a) Base Maps: Common set of Base Maps, over\nwhich the city functions can collaborate for a spatial decision support system. The Base Maps can be topographical, satellite image, street maps etc. on which different layers of information can be georeferenced, like property, land use, water supply etc. b) Data ingestion from different sources: Government Data bases, Open Data Portal, Enterprise systems, sensors, e-Governance applications, Survey Tools like GPS, Drones, GPR, LIDAR, REST APIs etc. c) Analysis: It shall facilitate different types of\n\ntrend and pattern base analysis, generating hotspots, concentration and dispersion patterns, interpolations, statistical models, what-if modelling and predictive modelling may be undertaken. d) Workflows: Location based workflows to generate alerts with locational intelligence and dashboards for status monitoring. The Enterprise GIS shall allow to create dynamic dashboards for monitoring and evaluation, Enterprise GIS shall enable user specific Web Apps and Maps. e) Visualization and Dashboards: Creation of\n\nworkflow enabled and dynamic dashboards for monitoring, tracking and performance analysis of\n\n\n\ndifferent smart city segments against thresholds and benchmarks. Enterprise GIS shall facilitate visualization of assets above the ground, below the ground, patterns in 2D and 3D along with Panoramic images. Annex A describes a set of Use cases enabled by Enterprise GIS within the context of Smart Cities.\n\n\n**Fig. 3 depicts the functions of enterprise GIS through different GIS tools. It provides layers of base maps, described in the GIS information model which may be accessed by different functions, like smart street lights, ERP and e-governance for property and urban services, citizen service Apps, ITS/ITMS etc. Different Enterprise GIS Tools of Live streaming, Analysis, Trends, Patterns, Workflows, Dashboards, Apps and Maps, helps in generating desired thematic and spatial information, which may help in spatial decision support system.**",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "4.2",
+      "heading": "4.2 Enterprise GIS – Capabilities and Functional Architecture",
+      "heading_path": [
+        "4 GIS DESIGN AND ARCHITECTURE",
+        "4.2 Enterprise GIS – Capabilities and Functional Architecture"
+      ],
+      "char_start": 27076,
+      "char_end": 29238,
+      "semantic_chunk_length": 2162,
+      "final_chunk_length": 2464,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0015",
+    "text": " for property and urban services, citizen service Apps, ITS/ITMS etc. Different Enterprise GIS Tools of Live streaming, Analysis, Trends, Patterns, Workflows, Dashboards, Apps and Maps, helps in generating desired thematic and spatial information, which may help in spatial decision support system.**\n\n### 4.3 Enterprise GIS functional reference model\n\nThe Enterprise GIS functional reference model comprises different tiers. The tiers are represented in Fig. 4, as to how it integrates with the command and control center.\n\n- a) Data Layer: Spatial data and Non-Spatial data\nare foundation layers of Smart Cities. With Georeferencing and topology, the Spatial and Non-spatial data will speak to each other. This shall be integrated into the defined GIS informational model, with defined rules based associations, cartography and schema. b) Sensor Layers: The Sensor Layers feed the data\n\nto the GIS system through REST APIs or OGC standards. The sensors provide three types of\n\nSmart City Sensors and devices over\n\ncommon set of Base Maps\n\nSmart Street\n\nLight\n\nERP & e- Governance\n\nPAS and ECB\n\nBase Maps\n\nITMS , ITS ,\n\ntraffic violations,\n\nCitizen Service Apps\n\nthrough Enterprise\n\naccidents\n\n\nGIS\n\nSolid waste Mnaagement\n\nSecurity Survelliance,\n\nSensors and\n\nCameras\n\nGPS\n\nEnvironment\n\nCall Center Dial 1012 &\n\n& Weather\n\nsensors\n\n\ndata to the GIS that are static positions, mobile positions, and geo-events. c) Application Tier: The GIS Application Tier\n\nis capable of Geo-processing the data and generating different types of thematic information and statistical analytics. It shall help the cities in generating spatial queries, spatial models, trends and patterns based on data storages from devices and sensors. d) Business layers: The GIS business layer provides\n\ninformation like locational intelligence, as a summary of data, proximity, buffering; hotspots of traffic, events and incidents, real-time vehicle tracking, web applications for waste generation spatial analytics and routing, GIS based dashboards for revenue and tax management, different workflow oriented dashboards for alerts and operation and performance monitoring and GIS based grievance management. The complete system may adopt different models – on premise, cloud or a hybrid cloud model, whereby the data may be residing on the premise servers and analysis may happen on the cloud.\n\nThe security of the GIS system should be maintained at the data level, application level and network level.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "4.3",
+      "heading": "4.3 Enterprise GIS functional reference model",
+      "heading_path": [
+        "4 GIS DESIGN AND ARCHITECTURE",
+        "4.3 Enterprise GIS functional reference model"
+      ],
+      "char_start": 29241,
+      "char_end": 31412,
+      "semantic_chunk_length": 2171,
+      "final_chunk_length": 2473,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0016",
+    "text": "ment. The complete system may adopt different models – on premise, cloud or a hybrid cloud model, whereby the data may be residing on the premise servers and analysis may happen on the cloud.\n\nThe security of the GIS system should be maintained at the data level, application level and network level.\n\n### 4.3 Enterprise GIS functional reference model\n\nThe Enterprise GIS functional reference model comprises different tiers. The tiers are represented in Fig. 4, as to how it integrates with the command and control center.\n\nData Layer: Spatial data and Non-Spatial data are foundation layers of the Smart Cities. With Georeferencing and topology, the Spatial and Non-spatial data will speak to each other.\n\n\n#### 4.3.1 Detailed Functional Capability of the Enterprise GIS System for Smart Cities\n\nTable 2 presents the functional capability of the enterprise GIS system of the smart city, which shall enable the smart cities to seamlessly integrate spatial data from different sources and non spatial data from devices and systems for a spatial decision support system.\n\nEnterprise GIS Applications over the Real time\n\ndata feed\n\n\n| •Live Streamin sensors and d •Citizen's Moo | g of Data from dif evices d analysis |\n| --- | --- |\n| • GIS based ho different para | tspots based on meters |\n| •GIS based tre | nds of events |\n| •identifying em | erging patterns |\n| •Predictions b patterns | ased on trend and |\n| •Defining Alert intelligence a | s with locational nd workflows |\n| •Analytical Das and Statistics | hboards with wo |\n| •Web Apps an | d Maps |\n\n\nLive Streaming\n\nPredictive Modelling\n\nApps and\n\n\n**Fig. 3 Conceptual Model of GIS Tools for Spatial Decision Support System**\n\n\n**Fig. 3 Conceptual Model of GIS tools for Spatial decision support system**\n\n\n\n\n\n**Fig. 4 Enterprise GIS Functional Architecture Model for Integrated ICCC**\n\n\n```text\nTable 2 Functional Capabilities of Enterprise GIS for Smart Cities\npability\nFunctional Description\nn and Geo spatial data modelling – Authoring Tools\nd architecture of\nallel processing\n```\n\n\n2 2D-3D Conversion 1. There should be a provision to convert between 2D and 3D.\n\n2. GIS data creation should support 3D city modelling for smart city planning, should support in creation of realistic 3D context and should be able to share these various planning environments on the web browser.\n\n\n3 Base Maps It shall support usage of Base Map as Web Services.\n\n\n## 4 Raster to Vector and Vector to Raster Conversion\n\nThe Desktop GIS should support Conversion of Raster Data into feature data containing Vector-based data.\n\n\n5 Interoperability Support It shall support BIM & KML Image Files, interoperability support, LIDAR classification, feature extraction and editing.\n\n\n6 Animation of 3D views 1. Functionally GIS should facilitate animation to 3D views and able to export video out of it with predefined bookmarks or presentations.\n\n2. On the fly automatic labelling, multi-labelling, interactive labelling, rotation of labels from an attribute field, interactive label placement, predefined label styles & finally saves labels as a data layer, for analytics and anoytion in Smart City GIS data.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "4.3",
+      "heading": "4.3 Enterprise GIS functional reference model",
+      "heading_path": [
+        "4 GIS DESIGN AND ARCHITECTURE",
+        "4.3 Enterprise GIS functional reference model"
+      ],
+      "char_start": 31415,
+      "char_end": 34261,
+      "semantic_chunk_length": 2846,
+      "final_chunk_length": 3148,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0017",
+    "text": "edefined bookmarks or presentations.\n\n2. On the fly automatic labelling, multi-labelling, interactive labelling, rotation of labels from an attribute field, interactive label placement, predefined label styles & finally saves labels as a data layer, for analytics and anoytion in Smart City GIS data.\n\n## 7 Geoprocessing and Editing history\n\nThere shall be geoprocessing and editing history for testing and/or audit purpose.\n\nVersion management shall be there in the data model for regular GIS update and archiving old data.\n\n\n8 Network Modelling There shall be tools for building network data with Multipoint routing ability for shortest route, driveway, safest route analysis.\n\n\n9 Proximity analysis There shall be tools for the identification of the closest facility. Provision for creation of an origin to destination matrix on map. This shall support neighbourhood analysis.\n\n\n10 Routing and Geofencing It shall have the facility to share a route layer including all the information for a particular route such as the stops assigned to the route as well as the travel directions to route the buses, metro rail, solid waste carrying vehicles or for logistics.\n\n\n11 Road Network optimizing It should have the option to manage network data set properties for travel modes, costs, and route restrictions for traffic management in smart cities.\n\n\n12 Data Interoperability Desktop GIS shall support the import and Export of GIS data in various formats for data interoperability.\n\n\n\n\n\nTable 2 ( Continued )\n\nSl. No Capability Functional Description\n\n\n13 Data Model access The data shall be published on the application server for accessing the GIS data model through intranet or on the internet.\n\n\n14 Data Modelling Data Modelling model shall support domains, subtype, spatial rules and relationship, joins and spatial references etc. GIS Solution shall have a GIS catalog/schema to manage and maintain the GIS data modal. It shall support database administration for user creation and management for GIS database.\n\n\n15 Data Indexing Features shall support file attachments, which should provide a flexible way to store additional information in any format related to the features on a desktop application.\n\n\n16 Overlays Enterprise GIS shall create group layers from multiple data sources including vector overlays on top of raster data using desktop software.\n\n\n17 On Fly projections The data creation tool shall support on the fly projections transformation for the coordinates systems of GIS data for matching the projection of GIS data of different projected coordinate system.\n\n\n18 Time Sliders Enterprise GIS should have the facility of time slider user interface controls to visualize temporal data.\n\n\n19 Model Building Enterprise GIS shall support rule-based Symbology and cartographic representations of map entities. Should support scripting language for customisation.\n\n\n20 Simultaneous Editing facilities The data creation activities or the authoring tools by administrators shall support simultaneous editing by multiple users and long transactions capabilities with advanced rule-based editing in industry standard RDBMS.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "7",
+      "heading": "7 Geoprocessing and Editing history",
+      "heading_path": [
+        "7 Geoprocessing and Editing history"
+      ],
+      "char_start": 34264,
+      "char_end": 37095,
+      "semantic_chunk_length": 2831,
+      "final_chunk_length": 3133,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0018",
+    "text": "upport scripting language for customisation.\n\n\n20 Simultaneous Editing facilities The data creation activities or the authoring tools by administrators shall support simultaneous editing by multiple users and long transactions capabilities with advanced rule-based editing in industry standard RDBMS.\n\n21 Relational Spatial Data Models Relational Spatial Data Models shall support data relationship such as one-to-many or many-to-many. the rules should allow users to restrict the type of objects in the origin GIS data, table etc that can be related to a certain kind of object in the destination GIS data, table etc. for integration with different sets of data and information.\n\n\n## 22 Audit trailing of Geo-Data Editing\n\nThere shall be an audit trail capability for multiple user editing and tracking using multiple set of devices, ERP systems, Databases and APIs. The data base administration in GIS shall have capability for resolving any conflicts that may have occurred due to multiple users editing on data. There should be a complete mechanism for error handling, conflict detection and resolution while submitting the final data to the GIS database.\n\n\n23 Spatial Analytics The GIS data creation system shall allow the spatial analytics for generating different thematic information out of spatial and non spatial data integration. The analysis shall pertain to spatial analysis, network analysis, 3D analysis and interoperability.\n\n\n24 Spatial Adjustment capabilities The data creation shall have different Spatial adjustment tools including Rubber sheeting, Transformation, Edge matching, Attribute transfer for seamless data integration.\n\n\n25 Big data Support in data creation To analyze geospatial records with capability of aggregating points based on proximity. It should support spatial & temporal joins and trends in the cluster of points densities out of the box. System need to be sustainable to handle the load.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "7",
+      "heading": "7 Geoprocessing and Editing history",
+      "heading_path": [
+        "7 Geoprocessing and Editing history"
+      ],
+      "char_start": 37098,
+      "char_end": 38727,
+      "semantic_chunk_length": 1629,
+      "final_chunk_length": 1931,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0019",
+    "text": " data integration.\n\n\n25 Big data Support in data creation To analyze geospatial records with capability of aggregating points based on proximity. It should support spatial & temporal joins and trends in the cluster of points densities out of the box. System need to be sustainable to handle the load.\n\n## 26 Animation and space time pattern mining\n\nThe spatial analytical capabilities should also support animations and space time pattern mining. It shall provide Artificial intelligence machine learning & deep learning toolsets to support predictive analysis.\n\n\n27 Integrated Raster Processing Shall have integrated image processing capabilities\n\nF2 Web GIS Capabilities\n\n\n28 User Management system 1. Enterprise GIS shall have a portal for the administration that lets administrators add, update, manage and maintain ULB/Town GIS data and user management, Content Sharing and capability to build various GIS applications.\n\n2. Enterprise GIS shall record various service statistics, such as total requests, average response time, and timeouts, and reports this information in the Manager console for better monitoring and performance optimization of services.\n\n3. Enterprise GIS shall be capable of GIS content management (like, manages content locations and marks relevant content as authoritative) and organization user management (for example, user can manage all aspects of inviting and managing user, including adding to groups and resetting passwords) for managing content for different projects and role-based access management.\n\n4. Portal administrator shall be able to create and manage groups out of the box to control access to the maps, applications, and other geographic information. A group owner can decide who can find the group, if others can request to join, and who can contribute their content.\n\n\n\n\n\nTable 2 ( Continued )\n\nSl. No Capability Functional Description",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "26",
+      "heading": "26 Animation and space time pattern mining",
+      "heading_path": [
+        "26 Animation and space time pattern mining"
+      ],
+      "char_start": 38730,
+      "char_end": 40313,
+      "semantic_chunk_length": 1583,
+      "final_chunk_length": 1885,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0020",
+    "text": "e and manage groups out of the box to control access to the maps, applications, and other geographic information. A group owner can decide who can find the group, if others can request to join, and who can contribute their content.\n\n\n\n\n\nTable 2 ( Continued )\n\nSl. No Capability Functional Description\n\n5. Shall provide complete web-based single gateway portal out of the box as an organizational GIS platform to create, access, analyse, manage, and share and disseminate geo-spatial content amongst users for collaborative decision making among the smart city stakeholders. In other words, it should provide a map centric web portal platform for managing the organization’s geospatial content. Should have a facility of user management to create an account, and grant/revoke user rights for viewing, publishing or administrator rights to any users across the network.\n\n6. Shall have a facility to share published GIS content with other users and only authorized users can view or modify the shared content. Enterprise GIS system shall have capability to change the web pages appearance (UI/UX), and to select services, base maps, rule based templates, solution galleries and available groups to be used.\n\n7. Enterprise GIS shall allow users to sign in with built-in accounts and accounts managed in multiple SAML-compliant or similar identity providers configured to trust one another to manage users that may reside within or outside your organization.\n\n8. Enterprise GIS shall provide a web publishing wizard so that registered users can publish websites, create GIS applications without the need for programming. Smart City users shall be able to insert search tags to assist authorized users to search and locate geographic information, web maps, and web GIS applications create and shared by other users. The search results shall be helpful to determine the usefulness of each item and find related items.\n\n9. Enterprise GIS shall be capable to display layers dynamically on the map that shall dynamically change based on the visibility of layers, on zoom in and out.\n\n\n29 GIS Widgets The Enterprise GIS shall have the feature to web apps using widgets that can easily be configured. The suggestive widgets can be Attribute Table, Coordinate system, Extent navigation, Incident analysis, Scale Bar, Direction, Search, Summary, Temporal Change analysis, Analysis, Base Map Gallery, Bookmarking, Business analysis, Chart Creation, Coordinate Conversion, Distance, Direction, Draw, Data aggregation, Filter, Geoprocessing, Grid Overlay, Measurement, Layer list, Legend, Proximity, Network Trace, Data Reviewer Dashboard, Select, Share, Editor, Print, Visibility.\n\n30 3D streaming and hosting GIS system should support exporting 3D object layers (Maps/data) files to upload it on the web, where a 3D streaming service is created and hosted. Once published, the resulting 3D scene layer should be viewed or combined with other web layers.\n\n\n31 Analytical spatial dashboard Shall enable departmental workflow based analytical dashboard for Communicating the quality of data used in decision-making.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "26",
+      "heading": "26 Animation and space time pattern mining",
+      "heading_path": [
+        "26 Animation and space time pattern mining"
+      ],
+      "char_start": 40315,
+      "char_end": 43110,
+      "semantic_chunk_length": 2795,
+      "final_chunk_length": 3097,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0021",
+    "text": " 3D streaming service is created and hosted. Once published, the resulting 3D scene layer should be viewed or combined with other web layers.\n\n\n31 Analytical spatial dashboard Shall enable departmental workflow based analytical dashboard for Communicating the quality of data used in decision-making.\n\n32 WebApps and Maps Enterprise GIS shall have industry specific templates, apps and maps that can be configured as per the needs of a particular city. These maps, apps and templates shall be based on the industry specific best practices around the globe that can be localized as per city needs for foundational applications.\n\n\n## 33 Geoprocessing and Publishing services\n\nThe system shall have the capability to process the geo processing on the web where users can use multiple geospatial tools to build models and able to publish the processing service on the web that define the inputs and outputs criteria to come out for the desired analytic results.\n\n\n## 34 Web responsive for anytime anywhere access of the smart city data\n\nThe web application developed by the Enterprise GIS system shall be web responsive in nature and shall automatically fit to the size of mobile devices. Users shall be able to display maps, get routes and directions, edit and sync data, perform analysis with search & query.\n\n\n## 35 Integration of Data from different sources\n\nEnterprise GIS shall be capable to integrate and manage City maps, satellite images, DRONE data, GPS data, LIDAR data, CAD Data of various point of interest information, infrastructure and assets etc. of the city. It shall provide access to free Online 2D, 3D, Street, Base map, imagery Services for location reference on desktop and web.\n\n\n36 Map viewer for interactive maps The Enterprise GIS shall provide a map viewer to create, save, share maps and provide analysis tools for clustering, aggregation, proximity analysis, data enrichment, data summary etc.\n\n\n37 Scalability for GIS performance Enterprise GIS system shall be scalable both horizontally and vertically. It shall have architecture deployment flexibility such as single machine, multiple machine, cluster- based environment Active-Active, Active-Passive, multiple sites deployment. GIS platform capability should be offered by a single, seamless integration of software based on the same technology.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "26",
+      "heading": "26 Animation and space time pattern mining",
+      "heading_path": [
+        "26 Animation and space time pattern mining"
+      ],
+      "char_start": 43113,
+      "char_end": 45136,
+      "semantic_chunk_length": 2023,
+      "final_chunk_length": 2325,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0022",
+    "text": "ally. It shall have architecture deployment flexibility such as single machine, multiple machine, cluster- based environment Active-Active, Active-Passive, multiple sites deployment. GIS platform capability should be offered by a single, seamless integration of software based on the same technology.\n\n## 38 Integrations and OGC compliance\n\nThe enterprise GIS shall have open API & SDKs for developers to build/extend custom web mapping applications (for example, Qt, NET, Java, JavaScript). This shall support Open Geospatial Consortium (OGC) and open web services: including Map services, WMS, WFS, WCS, WMTS, WPS, KML, Geo JSON & 3D tiles for the rendering of 3D data.\n\n\n\n\n\n**Table 2 (Concluded)**\n\nCapability\n\nSI. No\n\nCross platform support/Platform\n\nagnostic\n\nFunctional Description\n\nThe GIS application server and database servers shall be supported on Windows and Linux\n\nplatform. Enterprise GIS shall support standard Web server and Application servers like IIS\n\nApache, Tomcat, Web Sphere, Web logic etc.\n\n\nSOA Architecture\n\nSecurity\n\n\nGIS System shall support a Service Oriented Architecture (SOA).\n\nThe Enterprise GIS shall support Security, Authentication, and Authorization using Web-tier\n\nauthentication (IWA, PKI and similar), GIS-tier authentication (built-in identity, Enterprise\n\nlogins and similar) Enterprise Groups (Active Directory and LDAP and Similar) and\n\nSDKs and Survey Application\n\nFrameworks\n\nTLS/SSL.\n\nThe Enterprise GIS shall have Software Development Kits (SDKs) to build and deploy native\n\napplications on a variety of popular platforms and devices.\n\nGIS system shall have out of the box Survey application framework for configuring mobile\n\napps that authority can configure any time to create form centric solutions for the creation,\n\nsharing and analyzing surveys as and when required. Enterprise GIS shall help the authority\n\nto create/configure survey-based forms that are accessible by city stakeholders/outsourced\n\nvendors for field data collection. One should design a survey with predefined questions with\n\nlogics and easy to fill answers. This should allow embedding audio, images with multiple\n\n\nEnterprise Wide Platform\n\nlanguage offering.\n\nProvide Single integrated collaborative Platform based Software which shall support\n\ncomplete workflow for design, development and dissemination of highly accurate spatial\n\nRecords Information. The solution should support Desktop, Server, Mobile and Cloud\n\n\nAdvanced Geoprocessing\n\ncapabilities\n\nGML-XML\n\nPlatform.\n\nShall provide Advanced Geo-processing, Geo-tagging, Geo-coding, Geo-referencing tools.\n\nShould enable the GML (simple features) and WFS core standards, and leverage OGC\n\nformats such as CityGML, WFS, and KML/KMZ.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "38",
+      "heading": "38 Integrations and OGC compliance",
+      "heading_path": [
+        "38 Integrations and OGC compliance"
+      ],
+      "char_start": 45139,
+      "char_end": 47550,
+      "semantic_chunk_length": 2411,
+      "final_chunk_length": 2713,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0023",
+    "text": "p, Server, Mobile and Cloud\n\n\nAdvanced Geoprocessing\n\ncapabilities\n\nGML-XML\n\nPlatform.\n\nShall provide Advanced Geo-processing, Geo-tagging, Geo-coding, Geo-referencing tools.\n\nShould enable the GML (simple features) and WFS core standards, and leverage OGC\n\nformats such as CityGML, WFS, and KML/KMZ.\n\n#### 4.3.2 Data Integration\n\nData Integration is the core function of a data layer that\n\nfocuses on integrating sensors, various governmental\n\nIT systems and 3rd party IT systems which generate\n\ndata.\n\nData is generated by various IoT subsystems, video\n\ncameras from various public and private cameras etc,\n\nsocial media data streams, crowd-sourced citizen data,\n\nenterprise systems, importing of legacy and/or archived\n\ncity data, Survey data from LIDAR, GPS, GPR,\n\nDRONE, HRSI etc. These systems generate structured\n\ndata (such as JSON, XML, CSV), unstructured data\n\n(such as variable length textual data, device logs), Map\n\nrelated APIs like Google APIs, audio and video data,\n\ntime-series data, binary data, raster data, point cloud\n\ndata etc.\n\nData Ingestion is a sub-function of data integration\n\nand shall support a variety of standards compliant data\n\ningestion protocols. Based on the system of concern,\n\nthe data layer may support real time data ingestion,\n\nstreaming data ingestion, batch data ingestion or all of\n\nthem.\n\nIn the enterprise GIS system, the data integration shall\n\nhappen via Service Oriented Architecture, or OGC\n\ncompliance or through REST APIs.\n\nAs shown in Fig. 5 the locational data or Geo Events\n\nshall be integrated with enterprise GIS via Out of Box\n\nsystems for electronic devices, or from COTS like\n\nKML, Twitter etc. or from GIS Partner systems via\n\nsensors, Map services, etc.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "4.3.2",
+      "heading": "4.3.2 Data Integration",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.3.2 Data Integration"
+      ],
+      "char_start": 47553,
+      "char_end": 48967,
+      "semantic_chunk_length": 1414,
+      "final_chunk_length": 1716,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0024",
+    "text": "nted Architecture, or OGC\n\ncompliance or through REST APIs.\n\nAs shown in Fig. 5 the locational data or Geo Events\n\nshall be integrated with enterprise GIS via Out of Box\n\nsystems for electronic devices, or from COTS like\n\nKML, Twitter etc. or from GIS Partner systems via\n\nsensors, Map services, etc.\n\n### 4.4 Conceptual Model of Enterprise GIS\n\n\n**Fig. 6 provides a conceptual model of an enterprise GIS**\n\nfor integration and data access in Smart cities. A brief\n\ndescription of different components and sub-systems of\n\nthe enterprise GIS is given below.\n\n\n#### 4.4.1 Web GIS Apps\n\nThe top layers talk about the Apps which are created\n\nusing API services of data exchange from different\n\nsensors, devices and e-Governance applications. The\n\nWeb GIS Apps may be developed using any of the\n\nfollowing approaches:\n\n- a) Configure Apps using widgets and templates to\nmeet business needs.\n\n- b) Extend existing apps - shall also allow modular\nframeworks that allow to create custom widgets\n\nand plug them into the apps.\n\n- c) Customize apps using APIs and SDKs. These\nAPIs and SDKs provide objects like the Identity\n\nManager to manage credentials within custom\n\napps that expose Web GIS capabilities It may be\n\nbuilt according to business-focus.\n\n\n#### 4.4.2 Automation using APIs and Scripts\n\nAs the volume and velocity of IoT data increases,\n\nautomation becomes both necessary and more valuable\n\nto the business. Automation allows technology to create\n\nand maintain infrastructure and programmatically\n\nexecute the steps of a well-defined workflow while\n\nlimiting human interaction. Common tools for\n\nautomation include APIs and scripts.\n\n\n\n\n**Fig. 5 Data Ingestions from Different Sources**\n\n\n**Fig. 6 Conceptual Model of Enterprise GIS**\n\n\n\n\n\n#### 4.4.3 Distributed Web GIS\n\nDistributed web GIS is a modern implementation pattern that supports sharing. It facilitates connection of multiple GIS deployments together, so users from each deployment can share content with others.\n\n\n#### 4.4.4 Enterprise Integration\n\nThere may be different approaches to enterprise integration, depending upon the utilization of the data.\n\n- a) Geocentric applications, that enhance GIS\napplications with business data and capabilities to automate or inform location-centric activities. b) Geoenabled applications, that enhance business\n\napplications with GIS data and capabilities to automate or inform business activities. c) Composite applications, that integrate capabilities\n\nfrom multiple systems in situations where no existing system can or should serve as the hosting framework. This pattern typically uses web services to integrate data and logic from multiple systems to derive new functionality.\n\n\n#### 4.4.5 Environment Isolation\n\nEnvironment Isolation for production, staging and development should be separated for meeting the SLAs, data safety, and data usage.\n\n\n#### 4.4.6 High Availability\n\nHigh availability is a set of strategies for minimizing service downtime and maximizing system performance and reliability, because GIS is part of critical business operations and workflows, it is essential for organizations to apply high availability strategies to GIS.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 20,
+      "clause": "4.4",
+      "heading": "4.4 Conceptual Model of Enterprise GIS",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.4 Conceptual Model of Enterprise GIS"
+      ],
+      "char_start": 48970,
+      "char_end": 51829,
+      "semantic_chunk_length": 2859,
+      "final_chunk_length": 3161,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0025",
+    "text": "#### 4.4.6 High Availability\n\nHigh availability is a set of strategies for minimizing service downtime and maximizing system performance and reliability, because GIS is part of critical business operations and workflows, it is essential for organizations to apply high availability strategies to GIS.\n\n#### 4.4.7 Data Management\n\nData Management exposed as web services that allow end users to create, maintain, and transform geographic data. For example, you can use a mobile app to access a web service for data editing, allowing you to gather location data in the field. Key server-side data management capabilities include short and long transaction editing, data replication, and extract, transform, load (ETL) procedures.\n\n\n#### 4.4.8 Analysis\n\nAnalysis represents web services for performing GIS analytics. These analytics can range from simple geometric functions (like point-in-polygon) to complex geoprocessing models for site selection. Analytics can be run on many kinds of data including vector data, raster data, linear networks, imagery, 3D data, real-time data, and big data.\n\n\n#### 4.4.9 Visualization\n\nVisualization represents web services for creating and consuming visual information products like 2D maps\n\n\nand 3D scenes. These products can be dynamically generated on demand, or pre-rendered and cached.\n\n\n#### 4.4.10 Data and Storage\n\nData and Storage represents the stored geographic information leveraged by GIS servers. Enterprise GIS for Smart cities shall allow multiple storage models for various data types, formats, and uses. There is data store managed by the enterprise applications or through relational data stores (for vector data), tile cache data stores (for map and 3D scene caches), and spatiotemporal big data stores (for big data) Or data stored in spatially aware RDBMS (such as Oracle, Postgres). Or object-relational model for storing geographic data in a relational database management system (such as Microsoft SQL Server, IBM DB2, or Oracle etc), a file-based structure, or an in-memory columnar system like SAP HANA etc. Another model is to connect to externally managed data sources like Hadoop, IBM Netezza, and Teradata or similar.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 20,
+      "clause": "4.4.7",
+      "heading": "4.4.7 Data Management",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.4 Conceptual Model of Enterprise GIS",
+        "4.4.7 Data Management"
+      ],
+      "char_start": 51832,
+      "char_end": 53713,
+      "semantic_chunk_length": 1881,
+      "final_chunk_length": 2183,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0026",
+    "text": "graphic data in a relational database management system (such as Microsoft SQL Server, IBM DB2, or Oracle etc), a file-based structure, or an in-memory columnar system like SAP HANA etc. Another model is to connect to externally managed data sources like Hadoop, IBM Netezza, and Teradata or similar.\n\n#### 4.4.11 Patterns of GIS Usage\n\n- a) Mapping and Visualization is how people\nunderstand locations and relationships through visual representations. 2D and 3D (above, below and panoramic) images, maps and charts bring data to life and provide context, so people can share and understand information. b) Data Management is how people collect, organize,\n\nand maintain accurate locations and details about assets and resources. It is important to persist spatial data within storage models optimized for its unique characteristics. c) Storage models include the geodatabase, spatiotemporal big data store, relational data store, and tile cache. d) Field Mobility includes managing and enabling\n\na mobile workforce to collect and access information in the field. This improves visibility into the operational aspects of an organization, enhance workforce scheduling, reduce issues caused by stale data, and empower personnel with the information needed to perform tasks while on the move. e) Monitoring allows people to track, manage, and\n\nmonitor fixed and mobile assets and resources in real time. This lets organizations tap into, analyze, and display streaming data from many sensors, devices, and social media feeds. f) Analytics involves applying analytical techniques\n\nto transform data into actionable information. Analytics can be used to discover, quantify, and predict trends and patterns to empower decision-making and improve business outcomes. g) Design and Planning enables people to evaluate\n\nalternative solutions and create optimal designs.\n\n\n\n\nThis supports the design workflow by enabling users across organizations and communities to collaborate on design decisions. h) Decision Support involves combining data,\n\nmetrics, and operational and analytical layers on a map or dashboard to better understand activities, projects, and operations. This produces valuable information for decision-makers. j) Constituent Engagement includes two-way sharing of information with the public, partner agencies, or other external stakeholders. By improving engagement and collaboration with communities of interest, you can promote more informed decision-making. k) Sharing and Collaboration provides self-service\n\ncapabilities, so people can discover, use, make, and share maps. This lets you extend the value of location information to the entire organization or community.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 21,
+      "clause": "4.4.11",
+      "heading": "4.4.11 Patterns of GIS Usage",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.4 Conceptual Model of Enterprise GIS",
+        "4.4.11 Patterns of GIS Usage"
+      ],
+      "char_start": 53716,
+      "char_end": 56096,
+      "semantic_chunk_length": 2380,
+      "final_chunk_length": 2682,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0027",
+    "text": "laboration with communities of interest, you can promote more informed decision-making. k) Sharing and Collaboration provides self-service\n\ncapabilities, so people can discover, use, make, and share maps. This lets you extend the value of location information to the entire organization or community.\n\n### 4.5 Enterprise GIS Technical Reference Model\n\n\n**Fig. 7 describes the conceptual technical reference model of enterprise GIS. The reference model is divided into the following three tiers:**\n\n- a) GIS database and authorising tier for user\nmanagement, b) Enterprise GIS application tier for the business\n\nprocessing using the spatial and non-spatial data, and c) Presentation tier for access by different stakeholders of the smart cities. The Enterprise GIS shall be integrated with external systems through SOA and Rest APIs.\n\nIS 18008 (Part 1) : 2021\n\n\n#### 4.5.1 GIS database and Authoring Tier\n\nThe foundational tier, the centralized GIS database consists of all the point of interest, spatial and non-spatial layers with operational and analytical store. It consists of Spatial database including GIS data store (Containing the complete data for the Land base, Assets, Smart City Properties, Networks and Urban Services), this also includes other databases received from different departmentssuch as Census, Environment, Socio-economic data that are part of the overall solution. This tier will support the generation of the Smart city geospatial data model. The location based Apps will utilize the data model for GIS data authoring and management. The database integration services will be the mode of connection between the data tier and application tier for data transaction services. The databases are integrating to each other using data Integration Services This centralized GIS database will be utilized by all the Smart City application for their analysis and geo-specific activities. The database tier also includes data authoring stations for the administration and authoring of map data.\n\n\n#### 4.5.2 Application Tier\n\nThe Application Tier consists of the server application and Portal providing the necessary functionalities such as authentication, geo-processing, metadata management, map rendering, web application builder, and many ready to use web and mobile applications etc. Application interfaces and applications will be exposed to the clients using these business processing components as specified.\n\n\n**Fig. 7 Technical Reference Model of Enterprise GIS**",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "4.5",
+      "heading": "4.5 Enterprise GIS Technical Reference Model",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.5 Enterprise GIS Technical Reference Model"
+      ],
+      "char_start": 56099,
+      "char_end": 58286,
+      "semantic_chunk_length": 2187,
+      "final_chunk_length": 2489,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0028",
+    "text": "metadata management, map rendering, web application builder, and many ready to use web and mobile applications etc. Application interfaces and applications will be exposed to the clients using these business processing components as specified.\n\n\n**Fig. 7 Technical Reference Model of Enterprise GIS**\n\n#### 4.5.3 Presentation Tier\n\nThe Geo Information Reference Model designed should broadly include the following:\n\nThe Presentation Tier interface to be used by authorized stakeholders like citizens, Municipal officials, SPV, utilities, operation and maintenance persons, traffic management authorities, etc. The users will access the data through the intranet or the internet. Authorized users will be able to access the system through multiple interfaces including Desktop, Web and/or Mobile.\n\n- a) Geographic features be represented for each theme\n(for example, points, lines, polygons, or rasters) along with their tabular attributes. b) Data be organized into datasets, such as feature\n\nclasses (Vector dataset with certain set of criteria), attributes, raster datasets, and so forth. c) Additional spatial and database elements be",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "4.5.3",
+      "heading": "4.5.3 Presentation Tier",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.5 Enterprise GIS Technical Reference Model",
+        "4.5.3 Presentation Tier"
+      ],
+      "char_start": 58292,
+      "char_end": 59127,
+      "semantic_chunk_length": 835,
+      "final_chunk_length": 1137,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0029",
+    "text": "for each theme\n(for example, points, lines, polygons, or rasters) along with their tabular attributes. b) Data be organized into datasets, such as feature\n\nclasses (Vector dataset with certain set of criteria), attributes, raster datasets, and so forth. c) Additional spatial and database elements be\n\n### 4.6 GIS Information Reference Model\n\nincluded for integrity rules, for implementing rich GIS behaviour (such as topologies, networks, and raster mosaics), and defining spatial and attribute relationships between datasets. All the layers shall be captured as. Shp files for easy integration.\n\nPrepare base map of the city which shall be common across all Smart City functions including Surveillance, Lighting, Traffic, parking, ICT based solid waste management, bus transport, Administration, etc. The Base Map of the city shall be prepared at the scale of 1 : 1000 with Datum: WGS84 and Projection: UTM. For geo-referencing the base maps, there shall be 1 GCP per 5 Sq Kms. The satellite image used for the preparation of the base map shall have a resolution of 0.5 metre (or better) with PAN sharpened Natural Color Composite (NCC).\n\n\n```text\nTable 3 provides indicative GIS layers for Smart City\nwhich shall be displayed on Enterprise GIS portal of\nCities and be available for integration with Command\nand Control Room.\nce Data Model\nAttributes\nRequirement\nOptional\nOptional\nMandatory\nMandatory\ner\nmes\ns\nMandatory\nr\nator: Name, Photo, Mobile number\ns: Name: Phone numbers\nc Data: Population, Male, Female,\nLiteracy, Sex Ratio, Population growth,\npulation (Arithmetic method), Geometric\nremental method)\nue\nditure\nMandatory\n```\n\n\nAdministrative\n\nDistrict Polygon Name\n\nArea\n\nLGD\n\nCode\n\nTehsil Polygon Name\n\nArea\n\nLGD Code\n\nCity Boundary Polygon Name\n\nArea\n\nLGD\n\nCode\n\nMunicipal Boundary Polygon Name\n\nArea\n\nZonal Boundaries Polygon Name/Number\n\nArea\n\nMohalla Names\n\nZonal Officers\n\nWard Boundaries Polygon Ward Number\n\nMandatory\n\nWard Corporator: Name, Photo, Mobile number\n\nWard Officers: Name: Phone numbers\n\nn\n\nDemographic Data: Population, Male, Female, Household, Literacy, Sex Ratio, Population growth, Projected population (Arithmetic method), Geometric Method, (Incremental method)\n\nWard Revenue\n\nWard Expenditure\n\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nVillage Boundaries Polygon Village Name\n\nPopulation\n\nPlot Boundary Polygon Parcel ID\n\nOptional\n\nOptional\n\nRight of records (RoR)\n\nAadhar Number of Owner\n\nType of Use\n\nParliamentary Constituencies Polygon Name\n\nOptional\n\nArea\n\nElected Member\n\nAssembly Constituencies Polygon Name\n\nOptional\n\nArea\n\nElected Member\n\nABD Polygon Name\n\nMandatory\n\nArea\n\nCircle Boundary Polygon Number\n\nOptional\n\nTax Rate\n\nUnit\n\nPlanning Boundaries\n\nMaster Plan Layers Polygon, Line, Point Landuse Type\n\nOptional\n\nLanduse Subtype\n\nCity Development plans Polygon, Line, Points Landuse_Type\n\nOptional\n\nLand Use_Sub type\n\nArcheological protected areas Polygons Type\n\nHealth Districts Polygons Area\n\nLanduse Existing Polygon Line points Landuse_Type\n\nLanduse Subtype\n\nAirport Authority Areas Polygons Number\n\nHeight Clearance\n\nEco-Sensitive Zones Polygons Sensitivity_Type\n\nArea\n\nArea\n\nHealth Officer\n\nMandatory\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nNumber of Facilities\n\nPolice Beats Polygons Area\n\nBeat Number\n\nOptional",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 23,
+      "clause": "4.6",
+      "heading": "4.6 GIS Information Reference Model",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.6 GIS Information Reference Model"
+      ],
+      "char_start": 59130,
+      "char_end": 62129,
+      "semantic_chunk_length": 2999,
+      "final_chunk_length": 3301,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0030",
+    "text": " Line points Landuse_Type\n\nLanduse Subtype\n\nAirport Authority Areas Polygons Number\n\nHeight Clearance\n\nEco-Sensitive Zones Polygons Sensitivity_Type\n\nArea\n\nArea\n\nHealth Officer\n\nMandatory\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nNumber of Facilities\n\nPolice Beats Polygons Area\n\nBeat Number\n\nOptional\n\nNumber of Police Stations and Chowkis\n\nNumber of resources.\n\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nProperty\n\nProperty Parcel Polygon PIN\n\nType\n\nOptional\n\nUse (Residential, Commercial, Industrial, Public and Semi Public)\n\nAddress\n\nCategory\n\nYear of Construction\n\nNumber of Floors\n\nOwners name and address\n\nAdhar Number\n\nPhotograph of Property\n\nCoverage Area\n\nOccupancy Type\n\nSource of water\n\nMeter Number\n\nFire safety measures\n\nToilet\n\nSolid waste management status\n\nTax assessed Status\n\nTax assessed amount\n\nTax Payment status\n\nTax Last Paid\n\nTax CESS Assessed\n\nTax CESS paid\n\nTax Last Paid date\n\nTransport\n\nRoad with all Hierarchies Line Name\n\nMandatory\n\nHierarchy (NH, SH, Expressway, ODR, DR, V8, BRTS corridor)\n\nRoad centreline\n\nRoad edges\n\nFrom and to\n\nLength\n\nWidth\n\nLanes\n\nMedians\n\nCondition\n\nROW\n\nFootpaths\n\nFootpath Width\n\nCycle Tracks Line Status (Proposed/Existing)\n\nMandatory\n\nWidth\n\nLength\n\nFrom-To\n\nSmart Bikes available\n\nJunctions Polygon Name\n\nTypes\n\nSignalled\n\n\nMandatory\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nBridges\n\nPoints\n\nName\n\nMandatory\n\nFlyovers\n\nPoints\n\nYear of Construction\n\nCulverts\n\nLines\n\nScheme\n\nCauseways\n\nPolygons\n\nCondition\n\nLength\n\nLoad bearing capacity\n\nMetro Lines Line Status (existing/proposed)\n\nRoute ID\n\nFrom-to\n\nMetro Station Point Route No.\n\nStation name\n\nRailways Line From and to\n\nUnder Zone\n\nRailways Station Polygons Name\n\nPlatforms\n\nAirport Polygons Name\n\nFlights to\n\nParking Lots Polygons Location\n\nOccupancy\n\nOptional\n\nMandatory\n\nOptional\n\nMandatory\n\nMandatory\n\nMandatory\n\nSmart Parking (Yes/No)\n\nType (Paid or Unpaid)\n\nLocation (Open, enclosed)\n\nOwnership (MC/Pvt)\n\nCCTV Location in Parking\n\nRope Ways Route Optional\n\nRope way station Station name Optional\n\nBus Stops Points Name\n\nRoute\n\nMandatory\n\nSmart Bus Stop (Yes/No)\n\nPIS available (Yes/No)\n\nBus Routes Lines From and to\n\nLength\n\nMandatory\n\nNumber of Buses Plying\n\nTraffic Signals Points Number\n\nMandatory\n\nExisting or proposed\n\nType of Signals\n\nExisting since\n\nWorking or Not working\n\nSource of Power\n\nCCTV Location Point Location\n\nMandatory\n\nType (PTZ, ANPR, CCTV)\n\nStatus (Existing/planned)\n\nYear of Installation\n\nCamera Specifications\n\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nUtility\n\nStorm Water Drainages Lines Name\n\nMandatory\n\nFrom and to\n\nLength\n\nWidth\n\nCapacity\n\nLocation on RoW\n\nType of Drain (Open, Closed)\n\nConstruction Type (Cemented, Kuchca)\n\nElevation\n\nConstruction Year\n\nInlets Points No.\n\nWidth\n\nConstruction Year\n\nSewage Network Line No.\n\nOptional\n\nMandatory\n\nLocation on RoW (Left Right middle)\n\nFrom-to\n\nLength\n\nWidth\n\nDiameter\n\nType\n\nConstruction Year\n\nDepth\n\nManholes and Culverts Point No.\n\nMandatory\n\nPosition\n\nDiameter\n\nConstruction Year\n\nElevation line Contour height Optional\n\nTreatment Plants Points Name\n\nMandatory\n\nType (Effluent Treatment Plant, Sewage Treatment Plant, C&C Effluent Treatment Plant, Activated Sludge Plant)\n\nCapacity\n\nInstalled Year",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 26,
+      "clause": "4.6",
+      "heading": "4.6 GIS Information Reference Model",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.6 GIS Information Reference Model"
+      ],
+      "char_start": 62131,
+      "char_end": 65126,
+      "semantic_chunk_length": 2995,
+      "final_chunk_length": 3297,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0031",
+    "text": "\nManholes and Culverts Point No.\n\nMandatory\n\nPosition\n\nDiameter\n\nConstruction Year\n\nElevation line Contour height Optional\n\nTreatment Plants Points Name\n\nMandatory\n\nType (Effluent Treatment Plant, Sewage Treatment Plant, C&C Effluent Treatment Plant, Activated Sludge Plant)\n\nCapacity\n\nInstalled Year\n\nCondition (working, not working)\n\nPublic Conveniences Points ID\n\nOperated by\n\nType\n\nOptional\n\nUser Type (Male, female, Both)\n\nDifferentially Abled (Yes, No)\n\nYear commissioned\n\nWater availability\n\nRecycled Water Line Type\n\nOptional\n\nUse\n\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nWater Supply System Lines No.\n\nMandatory\n\nLocation on RoW (Left Right middle)\n\nFrom-to\n\nLength\n\nDiameter\n\nType (Main/lateral)\n\nCommissioned on\n\nDepth\n\nFlow direction\n\nPressure (designed)\n\nValves Points No.\n\nMandatory\n\nUse\n\nLocation\n\nType (Stop, Angle, Concealed stop valve, Gate, Ball, Foot, Air relief, Pressure relief, Scour, Gate, Butterfly, Float, Bib cock, Fire hydrant\n\nContruction Year\n\nDepth\n\nPump station Point No.\n\nOptional\n\nCapacity\n\nInstalled Year\n\nOver Head Tank Point No.\n\nOptional\n\nLocation\n\nCapacity\n\nSCADA ID\n\nInstalled Year\n\nUnderground Reservoir Point No.\n\nOptional\n\nLocation\n\nCapacity\n\nCommissioned Year\n\nWell Point No.\n\nLocation\n\nDepth\n\nPerineal status\n\nPublic Taps Point No.\n\nLocation\n\nInstalled Year\n\nSmart Meter Point No.\n\nLocation\n\nCIN\n\nOwner\n\nInstalled Year\n\nBulk Meter and Flow Meter Point No.\n\nLocation\n\nOptional\n\nOptional\n\nMandatory\n\nMandatory\n\nType (Coriolis Meters.\n\nDP Meters.\n\nMagnetic Meters.\n\nMultiphase Meters.\n\nTurbine Meters.\n\nUltrasonic Meters.\n\nVortex Meters.)\n\nInstalled Year\n\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nElectric Substations Points No.\n\nKVA\n\nOptional\n\nCommissioned Year\n\nElectric Network Line No.\n\nFrom-To\n\nOptional\n\nUnderground/Overground\n\nLength\n\nStreet Light Poles Points Pole No.\n\nSmart Pole Sensors\n\nMandatory\n\nNumber of Connections\n\nType of Bulb\n\nInstalled Year\n\nOFC Line Line OFC line No.\n\noptional\n\nInstalled Year\n\nOFC Manholes Point Manhole ID\n\noptional\n\nCommissioned Year\n\nEmergency and Disaster\n\nEarthquake Prone Areas Polygon Classification Mandatory\n\nFlood Prone Area Polygon Classification Mandatory\n\nCyclone Prone Area Polygon Classification Mandatory\n\nThunderstorm Prone Area Polygon Classification Mandatory\n\nLightening Prone areas Polygons Classification Optional\n\nHeat wave prone area Polygon Classification Optional\n\nCold wave prone area Polygon Classification Optional\n\nFire Stations Points Location\n\nPhone number\n\nStation head\n\nMandatory\n\nNumber of Fire Brigades\n\nPolice Stations Points Location\n\nMandatory\n\nType (Thana, Chowki, Police station)\n\nPhone number\n\nStation head\n\nFlood Sensors Points Location Optional\n\nFire Sensors Points Location Optional\n\nEducation\n\nUniversity Points Name\n\nColleges Points\n\nIntercollege Points\n\nSchools Points\n\nSkill Development Centers Points\n\nVocational Training Institutes Points\n\nMandatory\n\nArea\n\nFacilities\n\nLocation\n\nOwnership (Govt. Pvt)\n\nLevels-(Primary, Secondary, Senior Secondary, Intercollege)\n\nCourses\n\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nHealth Centers\n\nHealth Centers Points Name\n\nType\n\nMandatory\n\nOwnership (Govt. or Pvt. Location)\n\nFinancial Services\n\nSolid Waste Management\n\nLevel\n\nBeds",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 29,
+      "clause": "4.6",
+      "heading": "4.6 GIS Information Reference Model",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.6 GIS Information Reference Model"
+      ],
+      "char_start": 65128,
+      "char_end": 68126,
+      "semantic_chunk_length": 2998,
+      "final_chunk_length": 3300,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0032",
+    "text": ")\n\nLevels-(Primary, Secondary, Senior Secondary, Intercollege)\n\nCourses\n\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nHealth Centers\n\nHealth Centers Points Name\n\nType\n\nMandatory\n\nOwnership (Govt. or Pvt. Location)\n\nFinancial Services\n\nSolid Waste Management\n\nLevel\n\nBeds\n\nResources\n\nFacilities\n\nBlood Banks Points Name\n\nCapacity\n\nPoints Name\n\nLocation\n\nATM Points Location\n\nBank\n\nOpening Time\n\nBanks Points Location\n\nBank\n\nOpening Time\n\nFinancial Institutes Points Location\n\nName\n\nInsurance companies Points Location\n\nName\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nZones Polygon No. Optional\n\nSmart Bins Points No./ID\n\nMandatory\n\nLocation\n\nType\n\nAddress\n\nCapacity\n\nSensor Type\n\nCommunity Bins Point No./ID\n\nOptional\n\nLocation\n\nType\n\nAddress\n\nCapacity\n\nCollection points Point Location Optional\n\nDumping Ground Area Location\n\nPlants for Waste processing Point Type (Processing Plants, Incinerator and Bio-methanation Plant)\n\nOptional\n\nArea\n\nLife\n\nOptional\n\nWeighing Bridge Point Location Optional\n\nRoutes of waste collection Line No.\n\nMandatory\n\nNo. of vehicle Plying\n\nFuel Stations\n\nPetrol Pumps Point Location\n\nOptional\n\nOwned by\n\n\n\n\n\nTable 3 ( Continued )\n\nGIS Layers Type of Data Attributes Requirement\n\nMarket Places\n\nWhole sale Point Location\n\nSpecialty\n\nShopping centers Optional\n\nOptional\n\nNo. of establishments\n\nShop Optional\n\nHat Bazar Optional\n\nMalls Optional\n\nPublic Services\n\nCremation ground Point Location\n\nOptional\n\nType (Burial place/Grave Yard/Cremation ground)\n\nType of Facilities Available\n\nCapacity\n\nPost Office Point Location Optional\n\nGovernment Offices/Buildings\n\nReligious\n\nResidential\n\nTourism and Recreation\n\nCommunity Hall Point Location\n\nBooking Details\n\nKiosks Point Location\n\nOwner\n\nPoints Name\n\nCentral/State/Local\n\nOffices List\n\nTemples Point Location\n\nName\n\nMosques Point Location\n\nName\n\nGurudwaras Point Location\n\nName\n\nChurches Point Location\n\nName\n\nHotels Point Location\n\nName\n\nOthers Point Location\n\nName\n\nSpiritual Polygon Name\n\nDetails\n\nHistorical Polygon Optional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nOptional\n\nRecreation Centers Polygon Optional\n\nParks and Gardens\n\nRestricted Areas\n\nPolygon Name\n\nArea\n\nAvailable facilities\n\nDefense Polygon Name\n\nArea\n\nOthers Polygon Name\n\nArea\n\n\nOptional\n\nOptional\n\nOptional\n\n\n\n\nTable 3 ( Concluded )\n\n\n| GIS Layers |  | Type of Data | Attributes | Requirement |\n| --- | --- | --- | --- | --- |\n| Smart Integration Proposed Smart Traffic light points Smart Pole Bike Sharing VMS Emergency Boxes Cameras SCADA Sports Stadiums Playgrounds Urban Poor Slums Services for Urban Poor |  | Point Points Area Point Points Points Points Area Area Area Points | Location Location Sensors Lighted Type of light Working Status Location Location Location Location Camera Number IP Address Location SCADA ID Location Name Location Name Area Name Population Households No Household with LPG Household With in Premise Water Supply Household with In Premise Toilets Household with Electricity Demographics Household having waste management Facility Name Type (Education, Health, Shops etc) Maintained by Condition | Mandatory Mandatory Mandatory Mandatory Mandatory Mandatory Mandatory Mandatory Optional Optional Optional |",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 29,
+      "page_end": 31,
+      "clause": "4.6",
+      "heading": "4.6 GIS Information Reference Model",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.6 GIS Information Reference Model"
+      ],
+      "char_start": 68128,
+      "char_end": 71113,
+      "semantic_chunk_length": 2985,
+      "final_chunk_length": 3287,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0033",
+    "text": " Supply Household with In Premise Toilets Household with Electricity Demographics Household having waste management Facility Name Type (Education, Health, Shops etc) Maintained by Condition | Mandatory Mandatory Mandatory Mandatory Mandatory Mandatory Mandatory Mandatory Optional Optional Optional |\n\nand archiving facilities. The Rules are to be defined for Polygon, Networks and Points defining Spatial Joins and relationships. The data model shall have validation Rules with domains and subtypes, design workflows and map properties, Label and Annotations classes, network dataset design & rules and tools for Enterprise wide base map creation and updation. It shall be directly used in the Applications.\n\nNOTE — The mandatory layers are essential for\n\nsmart cities and optional layers are “good to have”. IS 18000 : 2020 capture the Base map requirements of a smart city which are in real sense the mandatory layers. The Information Reference Models shall have defined Schemas and Taxonomies, which are spatially connected and follows topological rules and also Attributes and Relationship Rules. It shall have a version management",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 33,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 31,
+      "page_end": 31,
+      "clause": "4.6",
+      "heading": "4.6 GIS Information Reference Model",
+      "heading_path": [
+        "38 Integrations and OGC compliance",
+        "4.6 GIS Information Reference Model"
+      ],
+      "char_start": 71116,
+      "char_end": 71950,
+      "semantic_chunk_length": 834,
+      "final_chunk_length": 1136,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0034",
+    "text": "e Base map requirements of a smart city which are in real sense the mandatory layers. The Information Reference Models shall have defined Schemas and Taxonomies, which are spatially connected and follows topological rules and also Attributes and Relationship Rules. It shall have a version management\n\n## ANNEX A\n\n( Clause 4.2 )\n\nUSE CASES\n\nA-1 TRAFFIC MANAGEMENT SYSTEM\n\n\n| GIS Integration Level 1 GIS Integration Level 2 (Visualization layers over (Integration with Department) Portal for Use by stakeholders | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) |\n| --- | --- |\n| Location of the Traffic Signals. The Departmental Integration will help in further expansion of the GIS layers The location of Junctions. like integration with Traffic data with The location of CCTV cameras GIS may help in generation of Travel on Junctions. demand, the Volume by capacity of the roads, the identification of traffic bottlenecks, the accident prone areas. GIS enabled maintenance workflow e.g. number of potholes on defined road stretch. Generate Department wise spatial queries and output. | Video Feed of Traffic through ATC controller and link with Traffic management server in ICCC to visualise the live traffic conditions in the city and the traffic management. It will generate a hotspot of traffic in real time and the alternate diversion. The time wise analysis of the records will show different type of analysis: Peak hour traffic. Traffic accumulation causes. |\n|  | The traffic delays. |\n|  | This may then be used for modelling Traffic management plan of the city. |\n| A-2 SAFE CITY CAMERAS FEED |  |\n| GIS Integration Level 1 GIS Integration Level 2 (Visualization layers over (Integration with Department) Portal for Use by stakeholders | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) |\n| Location of the Surveillance The coverage areas of the cameras. Cameras in the City. The Police beat maps with further details Location of the Police Beat maps. of the resources like Thana’s Chowkis etc. Location of Police stations and Chowkis. Resource deployment at each beat, Patrolling routes. Number of vehicle deployed. Location details of criminals operating in area Generate Department wise spatial queries and outputs. | The dynamic integration with the protocols of the Cameras. Live feed of a camera can be launched from the map. The analysis involves Hot Spots of Crime, incidents and Accidents, different type of clustering of type of incidents. The patterns of Incidents, Dashboards with spatial analytical data. |\n\n\n\n\n\nA-3 EMERGENCY RESPONSE AND DISASTER MANAGEMENT",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 34,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 32,
+      "page_end": 33,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 71956,
+      "char_end": 74271,
+      "semantic_chunk_length": 2315,
+      "final_chunk_length": 2617,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0035",
+    "text": "Cameras. Live feed of a camera can be launched from the map. The analysis involves Hot Spots of Crime, incidents and Accidents, different type of clustering of type of incidents. The patterns of Incidents, Dashboards with spatial analytical data. |\n\n\n\n\n\nA-3 EMERGENCY RESPONSE AND DISASTER MANAGEMENT\n\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders | GIS Integration Level 2 (Integration with Department) | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) |\n| --- | --- | --- |\n| The mapping of disaster prone areas in the city. The location of all the Disaster Management related Layers like hospitals, police stations, Fire Brigade, Disaster Control Rooms, Disaster control authorities with details, Shelter Sites, Location of critical Assets, location of transport depots | The Departmental integration will help in creating a resilient City framework like the different types of disasters expected in the city and it’s impact, over lives and properties. Using Weather Updates for Cyclones, Thunderstorm, Lightning, Heat wave, Cold wave, Heavy Rainfall/Snowfall etc. and updates for air quality, flood management related to these events and Alert generation for People through Apps, Media, Display and Public announcement systems. | The analysis of the Disaster related data for the long term Disaster prevention plan like flood management strategy, Fire safety Management system, Accident management system, Health emergency Management, Relocation plans, Decongestion plans. The climate weather data stored over a period of time can be used for Meteorological analysis and representation over map. Like, |\n|  | Workflow for Alert generation to requisite authority for taking actions. There should be integration of data from MoES with the GIS and web GIS platform as well as mobile App for all purposes and all stakeholders including citizens, Govt and non-govt agencies etc. The location of Vulnerable Critical infrastructure and Vulnerable social groups will be identified as part of disaster prevention. In the incidents of Disaster, the GIS system may be used in a crowd sourcing workflow management system to identify location of disaster. The workflow may further generate alerts and triggers for the respective authority. | 1.\t Extreme and Average rainfall in the city and Drainage Carrying capacity. 2.\t Temperature Range and the Green building management plan. 3.\t Pollution Concentration and Diffusion models. 4.\t Pollution and Health Models. 5.\t Integration with VMS for Alerts. Predictive analysis of different type of disasters. Integration with VMS for Alerts. |\n|  | Social Media linkages with GIS for Live data on Disasters and for rapid analysis and decision support system including: |  |\n|  | 1.\t Shortest Path to reach the Disaster prone site. 2.\t Evacuation Plans. 3.\t Nearest Hospital. 4.\t Food Dropping. 5.\t Public Alerts. 6.\t Route for water tankers. 7.\t Critical Asset Restoration plan using GIS. 8.\t Spread Mapping of disaster. 9.\t GIS based Critical Asset protection plan. |  |\n\n\n\n\n\nA-4 METEOROLOGICAL DEPARTMENT",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 35,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 33,
+      "page_end": 34,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 74274,
+      "char_end": 77069,
+      "semantic_chunk_length": 2795,
+      "final_chunk_length": 3097,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0036",
+    "text": "the Disaster prone site. 2.\t Evacuation Plans. 3.\t Nearest Hospital. 4.\t Food Dropping. 5.\t Public Alerts. 6.\t Route for water tankers. 7.\t Critical Asset Restoration plan using GIS. 8.\t Spread Mapping of disaster. 9.\t GIS based Critical Asset protection plan. |  |\n\n\n\n\n\nA-4 METEOROLOGICAL DEPARTMENT\n\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders | GIS Integration Level 2 (Integration with Department) | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) |\n| --- | --- | --- |\n| Weather Update on the city map. Pollution Update on City map. | Using Weather Updates for Flood Management and Alert generation for People through Apps, Media and Public announcement systems. Workflow for Alert generation to requisite authority for taking actions. | The weather data stored over a period of time can be used for Meteorological analysis and representation over map. Like, 1.\t Average rainfall in the city and Drainage Carrying capacity. 2.\t Temperature Range and the Green building management plan. 3.\t Pollution Concentration and Diffusion models. 4.\t Pollution and Health Models. 5.\t Integration with VMS for Alerts. |\n| A-5 DYNAMIC MARKET PLACE |  |  |\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders Dynamic Market Place location and routes. | GIS Integration Level 2 (Integration with Department) The departmental integration provides the data related to the Dynamic market places. And generate spatial queries about the day of visit in particular locality, the frequency and duration of visit, the type of commodities available. | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) Integration with GPS and Tracking Location of the Express. It will be integrated with the call centre for the query for the products. It will have interface with Web and mobile GIS application. The data stored may be utilised to analyse the demand analysis, buyers preferences, the demographics of buyers, the location analysis in terms of effectivity and Business GIS solution. |\n| A-6 SMART PARKING |  |  |\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders Location of the Parking open Parking, Multi-Level Parking and Closed Parking with Capacity. | GIS Integration Level 2 (Integration with Department) The departmental integration will provide the details with data like, timings, Rate cards, the maintenance authority, the duty allocation etc. Geo-fencing for parking nearby. | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) The real time integration will generate a geo fencing with proximity to parking and availability of space. For Bay parking management using sensors. In long terms this will be helpful in analysing the adequacy of parking facilities in the city. |\n\n\n\n\n\n\nA-7 PUBLIC BIKE SHARING\n\nIS 18008 (Part 1) : 2021",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 36,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 34,
+      "page_end": 35,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 77072,
+      "char_end": 79645,
+      "semantic_chunk_length": 2573,
+      "final_chunk_length": 2875,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0037",
+    "text": "e real time integration will generate a geo fencing with proximity to parking and availability of space. For Bay parking management using sensors. In long terms this will be helpful in analysing the adequacy of parking facilities in the city. |\n\n\n\n\n\n\nA-7 PUBLIC BIKE SHARING\n\nIS 18008 (Part 1) : 2021\n\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders | GIS Integration Level 2 (Integration with Department) | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) |\n| --- | --- | --- |\n| Location of Bike docking Stations and number of bikes available at each of the location. | The demarcation of the Bike routes and it’s details. | Real time bike availability status over the map. Analysis of Adequacy in compare to demand. The number of users, the areas where the usage is high. The low usage area and reasons for it. The User details, like age group, economic status, gender etc. for future planning of bike routes. |\n| A-8 SMART POLE & SMART LIGHTING |  |  |\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders Location of Smart Poles with all the facilities (sensors) available on it along with pole numbers. | GIS Integration Level 2 (Integration with Department) The departmental integration for the spatial queries and work flow of maintenance. The asset details of the poles. The number of houses connected with the poles. Street Light Type. | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) Dynamic Status of the street Light (working or not). Wi-Fi Hot Spot Coverages, real time integration with digital signages. Real time environmental conditions like concentration of pollution at particular points. Asset management of Poles. Pollution Plume analysis using wind direction as dynamic factor. |\n| A-9 SOLID WASTE MANAGEMENT SERVICES |  |  |\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders Location of the Primary, Secondary and Tertiary Waste Disposal Sites along with data of capacity, frequency of pickup , maintained by etc. Route map of the waste collection vehicles of different types. | GIS Integration Level 2 (Integration with Department) RFID tagging of waste bins and real time update of waste lifting by the sweeper from the houses. GPS based Vehicle tracking system of waste carrying trucks and vehicle with integration with way-bridge. Integration with Event Management of the city for waste collection rerouting. | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) Data will be analysed for total amount of waste generated from each location, type of waste, recyclable waste per location. And optimization of landfill capacities. Optimization of the routes of the waste carrying vehicles. Integration with Waste Bin Sensors and Alert of Pickup. |\n\n\n\n\n\nA-10 INTELLIGENT TRANSPORT MANAGEMENT SYSTEM",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 37,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 35,
+      "page_end": 36,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 79648,
+      "char_end": 82218,
+      "semantic_chunk_length": 2570,
+      "final_chunk_length": 2872,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0038",
+    "text": " amount of waste generated from each location, type of waste, recyclable waste per location. And optimization of landfill capacities. Optimization of the routes of the waste carrying vehicles. Integration with Waste Bin Sensors and Alert of Pickup. |\n\n\n\n\n\nA-10 INTELLIGENT TRANSPORT MANAGEMENT SYSTEM\n\n```text\nLocation of All the Transport hubs The intelligent Transport System Automated Vehicle Tracking system in the city, including Bus terminus, integration with departments showing the Bus’s destination Bus Depots, truck terminus, will give details of Bus routes, and expected time of arrival at the Taxi Stand, Auto Rikshaw stand, Details of fleet management and destination. Rikshaw stand. Location of Bus crew Management. The complete Geo-fencing for Bus Arrival Alert. Stops. transportation system including The fleet management system provides the last mile connectivity. The a lot of data related to commuters. A areas selected for NMT. The GIS based commuter demand analysis, spatial queries of the department. can be undertaken providing better fleet management and optimising the fleet on routes. The speed delay system helps to define the alternate route of the buses.\nA-11 MUNICIPAL CORPORATIONS CALL CENTRE & MUNICIPAL CORPORATIONS SERVICES\nGIS Integration Level 1 GIS Integration Level 2 GIS Integration Tier 3 (Data (Visualization layers over Portal (Integration with Department) Analysis reporting and Intelligence) for Use by stakeholders Geo location of the Distress Call Integration with CRM. Analysis The call data can be segregated as per Maker. of type of calls, time of calls, type of calls, the callers, the false calls, distress type, location wise the call response time, the efficiency in distress calls. solving the distress. This increase the efficiency of the Civic bodies. Create Dashboards.\nA-12 DIFFERENT TYPE OF APPS\nGIS Integration Level 1 GIS Integration Level 2 GIS Integration Tier 3 (Data (Visualization layers over Portal (Integration with Department) Analysis reporting and Intelligence) for Use by stakeholders Creation of Workflow for field Collection of the Data from the apps crews of different departments. for different level of anaysis and report generation, like alerts and number of people registering for these apps. The dashboards. The analysis of the use of the Apps.\n```\n\n\n\n\n\n\nA-13 WATER MANAGEMENT SYSTEM\n\nIS 18008 (Part 1) : 2021",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 38,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 36,
+      "page_end": 37,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 82221,
+      "char_end": 84308,
+      "semantic_chunk_length": 2087,
+      "final_chunk_length": 2389,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0039",
+    "text": "ollection of the Data from the apps crews of different departments. for different level of anaysis and report generation, like alerts and number of people registering for these apps. The dashboards. The analysis of the use of the Apps.\n```\n\n\n\n\n\n\nA-13 WATER MANAGEMENT SYSTEM\n\nIS 18008 (Part 1) : 2021\n\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders | GIS Integration Level 2 (Integration GIS Integration Tier 3 with Department) (Data Analysis reporting and Intelligence) |\n| --- | --- |\n| Map of the entire water distribution network from Booster pumps to individual connections at house hold level. DMA Mapping. | 1.\t GIS based Asset Lifecycle SCADA integration for real Management of the water supply time update on water pressure, network and generation of Alerts. flow and network problems. Integration with Smart Meters for 2.\t Mobile GIS integration and alert revenue collection. system for the field crew for maintenance and operation of the The data collected over a period assets. of time will help in analysing the causes of Non Revenue and take 3.\t The assessment of water demand decisions accordingly. from locations and optimization of the water supply based on this. 4.\t The water quality assessment reports. 5.\t The Revenue generation vs. expenditure on asset management location wise. 6.\t The locational analysis of breakdowns. 7.\t The per capita water usage and wastage analysis. 8. The analysis of the budget on Network, creation, extension and O&M. 9.\t The analysis of project status. 10.\t Dashboard of Performance. |\n| A-14 DIAL 100 |  |\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders Location of all the police station and chowkis with the list of police personnel and the vehicle details. | GIS Integration Level 2 (Integration GIS Integration Tier 3 with Department) (Data Analysis reporting and Intelligence) The Automated Call registration in GIS based analysis and intelligence the call center and Computer aided related to the calls, the type of despatch system based on location of crimes, the average response time, the GPS enable patrolling vehicles and the rate of crime prevention, the defining root to the crime locations. crime hotspots and crime pattern analysis and trend analysis. |\n| A-15 DIAL 108 |  |\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders Location of all the health centers and health centers with ambulance facility and proximity analysis. | GIS Integration Level 2 GIS Integration Tier 3 (Data (Integration with Department) Analysis reporting and Intelligence) The Automated Call registration in the call center and Computer aided despatch system based on location of the GPS enable vehicles and defining shortest route to reach the hospital facility. It may also be related to the automated green light for creating green corriders in situation of major disasters or incidents. |\n\n\n\n\n\nA-16 ELECTRICITY",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 39,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 37,
+      "page_end": 38,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 84311,
+      "char_end": 86973,
+      "semantic_chunk_length": 2662,
+      "final_chunk_length": 2964,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0040",
+    "text": "ll center and Computer aided despatch system based on location of the GPS enable vehicles and defining shortest route to reach the hospital facility. It may also be related to the automated green light for creating green corriders in situation of major disasters or incidents. |\n\n\n\n\n\nA-16 ELECTRICITY\n\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders | GIS Integration Level 2 (Integration with Department) | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) |\n| --- | --- | --- |\n| Map of the entire electricity distribution network till consumer level. This shall include all the network components, as well as substation locations and drawings attached to it. | 1.\t GIS based Asset Lifecycle Management of the electricity network and generation of Alerts. 2.\t Mobile GIS integration and alert system for the field crew for maintenance and operation of the assets. 3.\t Different type of network analysis like load distribution analysis. The analysis of the budget spend on infrastructure creation, extension and maintenance. Analysis of Project status | SCADA integration for real time update on availability and network problems including the voltage drop, tripping, outages etc. The SCADA integration will also support the Smart Grid management as per real time demand and supply of power 1.\t Integration with Smart Meters for revenue collection. The assessment of power demand from locations and optimization of the supply. 2.\t The power infrastructure assessment. 3.\t The Revenue generation vs. expenditure on asset management location wise. 4.\t The locational analysis of breakdowns. 5.\t The per capita power usage 6.\t The T & D losses analysis location wise. |\n| A-17 EDUCATION |  |  |\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders Map of all the Schools in the city with proximity query and buffer query. | GIS Integration Level 2 (Integration with Department) The analysis of the Students teachers ratio, the analysis of the Students Gender, the analysis of the school infrastructure, including drinking water and Sanitation status. The analysis of the performance of the schools based on a set of parameter. The analysis of the budget. | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) The integration with the cameras in the government school to monitor the real time school education status. The real time integration of the school helps to generate reports on students and teachers attendance. The GPS integration with the school buses will generate the report on speed delay, driver behaviour. |\n\n\n\n\n\n\nA-18 HEALTH\n\nIS 18008 (Part 1) : 2021",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 40,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 38,
+      "page_end": 39,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 86976,
+      "char_end": 89335,
+      "semantic_chunk_length": 2359,
+      "final_chunk_length": 2661,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0041",
+    "text": " to monitor the real time school education status. The real time integration of the school helps to generate reports on students and teachers attendance. The GPS integration with the school buses will generate the report on speed delay, driver behaviour. |\n\n\n\n\n\n\nA-18 HEALTH\n\nIS 18008 (Part 1) : 2021\n\n```text\nLocation of all the health centres The Departmental Integration will The integration with the cameras in the city-hospitals, dispensary, give a status of different types of installed in the government health Super speciality hospitals, blood information spatially like number centres to monitor their operations in banks, clinics, with specialities, of patients registered per day, real time. all the medical stores, proximity the ratio of doctor and patients, In long run the footfall will be query, accessibility analysis and the infrastructure details, the analysed for the management of the buffer query. specialities etc. patients in hospitals. The locational data to be assessed in analysed in terms of patients inflow, health facilities demand analysis, the resource adequacy analysis. This will support in allocation and reallocation of health facilities and resources. The analysis of the budget.\nA-19 INTEGRATION WITH CROWDSOURCING DATA\nGIS Integration Level 1 GIS Integration Level 2 GIS Integration Tier 3 (Visualization layers over Portal (Integration with Department) (Data Analysis reporting and for Use by stakeholders Intelligence) The data can be analysed in terms of public opinion and mood and participation on different issues related to the city planning, administration and management.\nA-20 INTEGRATION WITH FIRE BRIGADE CONTROL SYSTEM\nGIS Integration Level 1 GIS Integration Level 2 GIS Integration Tier 3 (Visualization layers over Portal (Integration with Department) (Data Analysis reporting and for Use by stakeholders Intelligence) Location of fire station with facilities. The departmental integration may Real time integration with the produce the spatial reports like fire service vehicles and shortest Location of Fire Hydrants. the Fire Brigade at each location, route analysis and two way Utilization of the Fire Brigade, communication Analysis of the crew at each location, coverage location data in terms of time to of the Fire stations etc. Budget reach, the alternate routes and allocation and utilization. number of Fire Brigade serving the population as per norms.\nA-21 GREEN BUILDINGS\nGIS Integration Level 1 GIS Integration Level 2 GIS Integration Tier 3 (Visualization layers over Portal (Integration with Department) (Data Analysis reporting and for Use by stakeholders Intelligence) Location of buildings with Water The analysis of the data will help harvesting and solar roof tops and in assessment of the trend of the energy management practices. green development in the city and the pattern analysis in relation to the demand.\n```\n\n\n\n\n\nA-22 KIOSKS",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 41,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 39,
+      "page_end": 40,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 89338,
+      "char_end": 91943,
+      "semantic_chunk_length": 2605,
+      "final_chunk_length": 2907,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0042",
+    "text": "e by stakeholders Intelligence) Location of buildings with Water The analysis of the data will help harvesting and solar roof tops and in assessment of the trend of the energy management practices. green development in the city and the pattern analysis in relation to the demand.\n```\n\n\n\n\n\nA-22 KIOSKS\n\n| GIS Integration Level 1 (Visualization layers over Portal for Use by stakeholders |  | GIS Integration Level 2 (Integration with Department) |  | GIS Integration Tier 3 (Data Analysis reporting and Intelligence) |\n| --- | --- | --- | --- | --- |\n| Location of the Kiosks in the city. |  |  |  | Analysis of the coverage of population. Type of people accessing the kiosk, the service wise categorization in the Kiosk. Future demand analysis of the new Kiosk. |",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 42,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 40,
+      "page_end": 40,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 91946,
+      "char_end": 92407,
+      "semantic_chunk_length": 461,
+      "final_chunk_length": 763,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0043",
+    "text": "on Tier 3 (Data Analysis reporting and Intelligence) |\n| --- | --- | --- | --- | --- |\n| Location of the Kiosks in the city. |  |  |  | Analysis of the coverage of population. Type of people accessing the kiosk, the service wise categorization in the Kiosk. Future demand analysis of the new Kiosk. |\n\n## ANNEX B\n\n( Foreword )\n\n1 ISO 19115 (Series) Geographic information — Metadata. 2 ISO/TS 19157-2 : 2016 Geographic information — Data quality — Part 2: XML schema implementation. 3 ISO 19160-1 Addressing — Part 1: Conceptual model. 4 ISO 19162 Geographic information — Well-known text representation of coordinate reference systems. 5 ISO 19165-1 (Series) Geographic information — Preservation of digital data and metadata. 6 ISO 19136-1 (Series) Geographic information — Geography Markup Language (GML). 7 ISO 19103 Geographic information — Conceptual schema language. 8 ISO 19142 Geographic information — Web Feature Service. 9 ISO 19128 Geographic information — Web map server interface. 10 ISO 19130-1 (Series) Geographic information — Imagery sensor models for geopositioning. 11 ISO 19131 Geographic information — Data product specifications. 12 ISO 19109 Geographic information — Rules for application schema. 13 ISO 19150-2 Geographic information — Ontology — Part 2: Rules for developing ontologies in the Web Ontology Language (OWL). 14 Formulation of GIS based Master plans for Small and Medium Towns – Design and Standards for Application of Drone/UAV Technology (http://www.tcpo.gov.in/sites/default/files/newfile/dron-min. pdf). 15 NSDI Metadata version 2.0. 16 Style Layer Descriptor (SLD). 17 OGC Geo Package Encoding Standard. 18 Web Map Service (WMS). 19 Web Map Tile Service (WMTS). 20 Catalogue Service on Web (CSW). 21 Open GIS City Geography Markup Language (City GML) Encoding Standard for CAD data integration in GIS. 22 OGC Keyhole Markup Language (KML). 23 Indexed 3D scene layers (I3S) for streaming 3D BIM data.\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 43,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 41,
+      "page_end": 46,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 92414,
+      "char_end": 95373,
+      "semantic_chunk_length": 2959,
+      "final_chunk_length": 3261,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18008_1_0044",
+    "text": "that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 28 (17250).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "18008_1.md",
+      "chunk_index": 44,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 46,
+      "page_end": 46,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 95375,
+      "char_end": 95587,
+      "semantic_chunk_length": 212,
+      "final_chunk_length": 514,
+      "standard_no": "IS 18008",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

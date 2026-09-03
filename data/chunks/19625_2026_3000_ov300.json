@@ -1,0 +1,683 @@
+[
+  {
+    "id": "19625_2026_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nFebruary 2026 Price Group 8\n\n\n\n\nTravel, Tourism, and Hospitality Related Services Sectional Committee, SSD 02\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Travel, Tourism, and Hospitality Related Services Sectional Committee had been approved by the Service Sector Division Council.\n\nExhibitions play an important role in boosting economic growth, encouraging innovation, and supporting product development across various industries. It also plays a significant role to promote trade, promoting innovation, supporting industry collaboration, and enhancing consumer engagement. As the scale and complexity of exhibitions continue to grow, there is an increasing need for a structured, consistent, and safety oriented approach to their planning and execution. Additionally, exhibitions also contribute to regional economic development by promoting tourism, hospitality, logistics, and allied service sectors.\n\nThis standard has been developed to provide comprehensive requirements and recommendations for organizing exhibitions. It covers key aspects, including venue selection, infrastructure planning, operational coordination, safety and security management, emergency preparedness, and post-event evaluation and site clearance. By establishing clear expectations and uniform processes, the standard aims to enhance the quality, reliability, and overall experience for exhibitors, visitors, stakeholders, and supporting agencies.\n\nThe objective of this standard is to support exhibition organizers, exhibitors, and service providers in adopting a systematic approach that will contribute to improving operational efficiency, enhancing risk management, and the promotion of best practices across the exhibition sector.\n\nThe composition of the Committee responsible for the formulation of this standard is given in Annex D.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with the final value, observed or calculated, expressing the result of a test or analysis shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard ORGANIZATION OF EXHIBITION — REQUIREMENTS AND\n\n\nRECOMMENDATIONS\n\n\n## 1 SCOPE\n\nThis standard specifies the requirements and provides recommendations for exhibition organizers and service providers involved in planning, setup, and operation in organizing exhibition.\n\nThe standard covers the key aspects for organizing an exhibition including venue selection, infrastructure planning, safety, security, and emergency preparedness, and post-event evaluation and site clearance.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2933,
+      "semantic_chunk_length": 2931,
+      "final_chunk_length": 2931,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0001",
+    "text": "and service providers involved in planning, setup, and operation in organizing exhibition.\n\nThe standard covers the key aspects for organizing an exhibition including venue selection, infrastructure planning, safety, security, and emergency preparedness, and post-event evaluation and site clearance.\n\n## 2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provision of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of these standards:\n\nIS No. Title\n\nIS 17650 Water efficient plumbing products — Requirements\n\n(Part 1) : 2021 Sanitary ware\n\n(Part 2) : 2021 Sanitary fittings\n\nIS/ISO 18788 : 2015 Management system for private security operations — Requirements with guidance for use\n\nIS/ISO 25639-1 :\n\n\n## 2025 Exhibitions and events: Part 1 Vocabulary (first revision)\n\nIS/ISO 37500 : 2014    Guidance on outsourcing\n\nSP 7 : 2016 National building code of India\n\n\n## 3 TERMINOLOGY\n\nIn addition to the definitions given in IS/ISO 25639-1 and IS/ISO 37500, the following definitions shall apply.\n\n\n### 3.1  Attendee — An individual attending an\n\nexhibition including visitor, exhibitor staff, speaker, delegate, media representative and any other verified admission category.\n\nNOTE — Attendee does not include staff of the organizer and the service provider.\n\n\n### 3.2  Booth — Structure or space occupied for the display of products or services.\n\n\n### 3.3  Booth Space — Area indoors and/or outdoors, occupied and contracted by an exhibitor whether paid or unpaid, for the display of products or services.\n\n\n3.4  Exhibition — An event in which products, services, or information are displayed and disseminated.\n\nNOTE — The term exhibition excludes flea market and street market.\n\n\n### 3.5  Exhibitor — Any organization or individual taking the space/stall on rent in the exhibition from the exhibition organizer.\n\n\n### 3.6  Exhibition Manual — An electronic or physical document containing event information, rules and regulations, plans, and other information pertinent to exhibitors.\n\n\n3.7  Exhibition Venue — Designated physical premises where an exhibition is organized.\n\n\n### 3.8  Exhibition Organizer — An entity that is responsible to produce and manage the exhibition.\n\nNOTES\n\n\n1 An entity can be an organization, a body, or an individual.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2936,
+      "char_end": 5140,
+      "semantic_chunk_length": 2204,
+      "final_chunk_length": 2506,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0002",
+    "text": "r information pertinent to exhibitors.\n\n\n3.7  Exhibition Venue — Designated physical premises where an exhibition is organized.\n\n\n### 3.8  Exhibition Organizer — An entity that is responsible to produce and manage the exhibition.\n\nNOTES\n\n\n1 An entity can be an organization, a body, or an individual.\n\n## 2 The organizer can appoint a third party (service provider) to manage the event.\n\n\n3.9  External Provider — Organization or individual (third-party entity) providing products or services to exhibition organizer or exhibitor. Also known as service provider.\n\nNOTE — In a contractual situation, external provider is sometimes called contractor.\n\n\n| 3.10 Service Level Agreement — A |  | documented |\n| --- | --- | --- |\n| agreement between the service recipient and service |  |  |\n| provider that identifies services and service targets, |  |  |\n| including prerequisites for service levels and |  |  |\n| measures for performance. |  |  |\n\n\nTo access Indian Standards click on the link below: https://standards.bis.gov.in/website/know-your-standards\n\n\n\n\n3.11 Trade Exhibition — An exhibition that promotes trade and commerce and is attended primarily by trade visitors.\n\nNOTE — A trade exhibition can be opened to the public at specific times.\n\n\n### 3.12 Visitor — A person who attends an exhibition, with the purpose of gathering information, making purchases, or exploring business opportunities.\n\n\n## 4 CLASSIFICATION OF EXHIBITION\n\n\n| 4.1 | Classification Based on Purpose |  |\n| --- | --- | --- |\n| Based on the purpose, the exhibitions are broadly |  |  |\n| classified as follows: |  |  |\n\n\n| Trade Exhibition — An exhibition where |  |\n| --- | --- |\n| exhibitors showcase their products and |  |\n| services and introduce themselves to |  |\n| industry partners, professionals, and |  |\n| business visitors; and |  |\n\n*NOTES\n1 This platform not only highlights innovations and \nofferings but also facilitates networking and \ncollaboration among industry stakeholders*\n\n\nNOTES\n\n\n| 1 | This platform not only highlights innovations and |  |\n| --- | --- | --- |\n| offerings but also facilitates networking and |  |  |\n| collaboration among industry stakeholders. |  |  |\n\n\n2 Generally, trade exhibitions are also open to the public and are attended by company representatives and members of the media.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "2",
+      "heading": "2 The organizer can appoint a third party (service provider) to manage the event.",
+      "heading_path": [
+        "2 The organizer can appoint a third party (service provider) to manage the event."
+      ],
+      "char_start": 5143,
+      "char_end": 7149,
+      "semantic_chunk_length": 2006,
+      "final_chunk_length": 2308,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0003",
+    "text": "not only highlights innovations and |  |\n| --- | --- | --- |\n| offerings but also facilitates networking and |  |  |\n| collaboration among industry stakeholders. |  |  |\n\n\n2 Generally, trade exhibitions are also open to the public and are attended by company representatives and members of the media.\n\n## 3 Trade exhibitions generally target a broader audience, including business, professionals, and consumers.\n\n\n| Consumer Exhibition — An exhibition |  |\n| --- | --- |\n| where exhibitors display and sell their |  |\n| products and services directly to |  |\n| visitors/customers. |  |\n\n*NOTE — This format of exhibition allows visitors to \nhave first-hand interaction with the latest products and \nservices, enables them to explore new offerings,\ngaining insights, and allows exhibitors to gather \nf\ndb\nk\nf*\n\n\n| NOTE — This format of exhibition allows visitors to |  |  |  |\n| --- | --- | --- | --- |\n| have first-hand interaction with the latest products and |  |  |  |\n| services, enables them to explore new offerings, |  |  |  |\n| gaining insights, and |  | allows exhibitors to gather |  |\n| feedback | on consumer preferences. |  |  |\n\n\n### 4.2  Classification Based on Business Module\n\nIn the context of business objectives, the exhibitions are broadly classified as below:\n\n- a) Business to Business (B2B) Exhibition — An exhibition focused on the specific industry in which exhibitors showcase and demonstrate their products and services to trade or business visitors.\nNOTES\n\n\n## 1 Exhibitors are generally manufacturers, distributors of products, and services specific or complementary to the concerned industry; and\n\n\n## 2 Attendance is generally restricted to business stakeholders and often operates on an invitation basis.\n\n- b) Business to Customer (B2C) Exhibition — An exhibition focused on customers in which exhibitors showcase and demonstrate their products and services to the general public.\nNOTES\n\n\n## 1 Exhibitors are typically retail outlets, manufacturers, or service organisations looking to bring their goods and services directly to the end user.\n\n\n## 2 Consumers benefit from a diverse range of products, expert advice, educational interactions, and entertainment.\n\n\n### 4.3  Classification Based on Mode of Exhibition\n\nBased on the mode of delivery, the exhibitions are broadly classified as below:\n\n- a) Virtual;\n- b) Physical; and\n- c) Hybrid.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 Trade exhibitions generally target a broader audience, including business, professionals, and consumers.",
+      "heading_path": [
+        "3 Trade exhibitions generally target a broader audience, including business, professionals, and consumers."
+      ],
+      "char_start": 7152,
+      "char_end": 9227,
+      "semantic_chunk_length": 2075,
+      "final_chunk_length": 2377,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0004",
+    "text": "\n\n## 2 Consumers benefit from a diverse range of products, expert advice, educational interactions, and entertainment.\n\n\n### 4.3  Classification Based on Mode of Exhibition\n\nBased on the mode of delivery, the exhibitions are broadly classified as below:\n\n- a) Virtual;\n- b) Physical; and\n- c) Hybrid.\n\n## 5 GENERAL REQUIREMENTS\n\n\n### 5.1  Statutory and Regulatory Requirements\n\nExhibition organizers shall comply with applicable statutory and regulatory requirements, including obtaining permissions from local authorities to host an exhibition such as ‘No Objection Certificate (NOC)’ from the fire department, police permission, approvals from local government bodies, and liquor license, wherever required. The exhibition organizer shall display all such approvals and permissions at a prominent place at the venue in an accessible format.\n\n\n### 5.2  Identification and Mitigation of Risk\n\nThe exhibition organizer shall conduct a risk assessment to identify potential risks associated with organizing the exhibition. The exhibition organizer shall ensure that:\n\n- a) All areas and sources of uncertainty that may affect exhibitors, the venue, attendees, and visitors shall be analysed;\n- b) Physical surveys at the venue are conducted to identify the on-ground risks involved;\n- c) The results of the risk identification analysis shall be recorded as a list of identified risks, their causes and potential consequences;\n- d) A documented mitigation plan shall be prepared and implemented by the exhibition organizer; and\n\n\n\n\n- e) The records of the risk assessment and mitigation plan shall be maintained.\nNOTES",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "5",
+      "heading": "5 GENERAL REQUIREMENTS",
+      "heading_path": [
+        "5 GENERAL REQUIREMENTS"
+      ],
+      "char_start": 9229,
+      "char_end": 10542,
+      "semantic_chunk_length": 1313,
+      "final_chunk_length": 1615,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0005",
+    "text": "ification analysis shall be recorded as a list of identified risks, their causes and potential consequences;\n- d) A documented mitigation plan shall be prepared and implemented by the exhibition organizer; and\n\n\n\n\n- e) The records of the risk assessment and mitigation plan shall be maintained.\nNOTES\n\n## 1 Risk assessment may consider the following:\n\n- a) Existing uncertainties and their potential effects;\n- b) Current and emerging sources of risk;\n- c) Existing controls and their effectiveness;\n- d) Nature, timing, location, and likelihood of their potential consequences;\n- e) Past events and their possible relevance to future occurrences; and\n- f) Human factors and organizational aspects that may influence outcomes.\n\n2 A checklist for guidance on risk identification and mitigation may be used (refer to Annex A).\n\n\n### 5.3  Records\n\nThe exhibition organizer shall:\n\n- a) maintain documented information to support the operation and control of its processes;\n- b) retain documented information to demonstrate that the processes are carried out as per the planned schedule; and\n- c) maintain records of the workforce deployed, as per the schedule.\n\n### 5.4  Communication\n\nThe exhibition organizer shall establish effective communication systems and channels to disseminate information to exhibitors, visitors, sponsors, service providers, media, and other relevant stakeholders before, during, and after the exhibition, to ensure transparency, accessibility, and effective coordination among all stakeholders involved. The exhibition organizer shall ensure, but not limited to, the following:\n\n- a) Provide complete and updated information\nrelated to the exhibition schedule, venue layout, registration procedures, safety measures, accessibility information, and contact information;\n\n- b) Use multiple communication channels such\nas the official website, digital platforms, and printed material to maximize reach and accessibility; and\n\n- c) Disseminate information in multiple languages including Hindi, English and the local language.\nIS 19625 : 2026\n\n\n### 5.5 Accessibility and Inclusivity\n\nThe exhibition organizer shall ensure that the exhibition venue, facilities, services, and communication materials are accessible and inclusive for all participants, including children, senior citizens, and persons with special needs. The exhibition organizer shall:\n\n- a) provide the barrier free access routes, ramps, elevators, and restrooms within the venue;\n- b) ensure that information and signage are clear, visible, and appropriately placed;\n- c) facilitate accessible seating areas, registration counters, and emergency evacuation provisions for persons with special needs; and\n- d) sensitize staff and service personnel to support participants with special accessibility requirements;",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "1",
+      "heading": "1 Risk assessment may consider the following:",
+      "heading_path": [
+        "1 Risk assessment may consider the following:"
+      ],
+      "char_start": 10545,
+      "char_end": 13043,
+      "semantic_chunk_length": 2498,
+      "final_chunk_length": 2800,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0006",
+    "text": "d signage are clear, visible, and appropriately placed;\n- c) facilitate accessible seating areas, registration counters, and emergency evacuation provisions for persons with special needs; and\n- d) sensitize staff and service personnel to support participants with special accessibility requirements;\n\n## 6 EXHIBITION PLANNING\n\n\n### 6.1  Operational Planning\n\nFor operational planning and control, the exhibition organizer shall:\n\n- a) constitute dedicated teams with a designated team leader to execute and monitor the exhibition related activities;\n- b) define and communicate the roles and responsibilities of each team member;\n- c) provide training to the individual team member responsible for specific task;\n- d) ensure the availability of necessary resources;\n- e) sign an agreement with an external provider ensure effective and timely delivery of services;\n- f) maintain ongoing communication with all stakeholders; and\n- g) maintain documentation of operational planning activities and their implementation.\nNOTE — For guidance, refer to Annex B for operational planning.\n\n\n### 6.2  Exhibition Plan\n\nThe exhibition organizer shall prepare an exhibition plan in consultation with stakeholders, including\n\n\n\nexternal providers. The plan shall cover all necessary procedures, arrangements, and resources required for organizing the exhibition effectively. The exhibition plan shall include, but not be limited to, the following aspects:\n\n- a) Selection of the location and finalization of the venue in accordance with exhibition requirements;\n- b) Prepare a detailed layout plan, including booth positioning, circulation areas, and service zones;\n- c) Prepare a detailed day-to-day activity schedule, with allocation of roles and responsibilities for team members and external providers;\n- d) Determination of space requirement (indoor, outdoor, covered or open areas);\n- e) Identification of resources needed, including infrastructure, manpower, competency of key personnel, equipment and mechanisms for monitoring of external providers;\n- f) Plan for visitor management, including circulation flow planning;\n- g) Preparation of move in and move out plan for exhibitors, service providers and visitors with timelines;\n- h) Planning of inauguration, ceremonies, and special activities;\n- j) Preparation of a disaster management plan, including arrangements for medical assistance, where needed;\n- j) Planning and implementation of VIP protocols, where needed;\n- k) Establishment of a pre-registration process for visitors;\n- m) Criteria and procedures for selecting and\nengaging external provider;\n\n- n) Preparation of a promotion and advertisement plan for the exhibition, including communication with exhibitors, and\n- p) Preparation of a procedure for managing lost and found items, covering items received, record keeping and handling of unclaimed items.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "6",
+      "heading": "6 EXHIBITION PLANNING",
+      "heading_path": [
+        "6 EXHIBITION PLANNING"
+      ],
+      "char_start": 13045,
+      "char_end": 15608,
+      "semantic_chunk_length": 2563,
+      "final_chunk_length": 2865,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0007",
+    "text": "lecting and\nengaging external provider;\n\n- n) Preparation of a promotion and advertisement plan for the exhibition, including communication with exhibitors, and\n- p) Preparation of a procedure for managing lost and found items, covering items received, record keeping and handling of unclaimed items.\n\n### 6.3  Exhibition Manual\n\nThe exhibition organizer shall prepare exhibition manual which shall include, but not be limited to, the following:\n\n- a) Description and overview of the exhibition;\n- b) A detailed execution plan and the duration of the exhibition;\n- c) Constitution of teams, their roles, responsibilities and contact details;\n- d) Site location, address and contact information;\n- e) The venue layout;\n- f) Participant guidelines (Do’s and Don’ts);\n- g) Information on facilities and services available at the venue, such as restrooms, first aid, food and beverage;\n- h) The details of engagement activities such as meetings, workshops, demonstrations, special events, opening ceremonies, and guest sessions;\n- j) Safety and security arrangements; and\n- k) Applicable legal requirements along with their compliance measures.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "6.3",
+      "heading": "6.3 Exhibition Manual",
+      "heading_path": [
+        "6 EXHIBITION PLANNING",
+        "6.3 Exhibition Manual"
+      ],
+      "char_start": 15610,
+      "char_end": 16448,
+      "semantic_chunk_length": 838,
+      "final_chunk_length": 1140,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0008",
+    "text": " restrooms, first aid, food and beverage;\n- h) The details of engagement activities such as meetings, workshops, demonstrations, special events, opening ceremonies, and guest sessions;\n- j) Safety and security arrangements; and\n- k) Applicable legal requirements along with their compliance measures.\n\n### 6.4  Venue Finalization\n\n\n6.4.1 The exhibition organizer shall conduct a detailed analysis prior to finalizing the venue, taking into account the type and mode of the exhibition (physical/hybrid). The venue analysis shall include, but not limited to, the following aspects:\n\n- a) Location of the venue, its distance from the main city centre, and connectivity by road, rail, and air;\n- b) Expected number of participants and adequacy of venue capacity;\n- c) Availability of parking facilities;\n- d) Logistics arrangements including transportation;\n- e) Availability of accommodation in proximity to the venue;\n- f) Prevailing weather conditions;\n- g) Size and specifications of the venue, including hall dimensions, hall clear height, entrance/exit dimensions, hall flooring, load bearing or clamp load capacity, in-hall pillars, and other obstructions;\n- j) Accessibility features, including ramps and wheelchair friendly routes;\n- k) Emergency evacuation arrangements and exit provisions;\n- m) Venue infrastructure, including electrical\nwiring and fittings, air conditioning, compressed air, drinking water, cooking gas, and emergency lighting;\n\n\n\n\n- n) Availability of an adequate number of toilets;\n- p) Sufficient meeting rooms and spaces for meetings, workshops, demonstrations, special activities, opening ceremonies, guest sessions and the organizer’s office;\n- q) Food and beverage facilities;\n- r) Internet connectivity (Wi-Fi and leased lines options);\n- s) Availability of nearby hospitals/clinics;\n- t) Availability of PA system(s), CCTV, baggage scanners and other security equipment;\n- u) Fire safety infrastructure and measures;\n- v) Housekeeping arrangements including waste disposal facilities;\n- w) Auxiliary areas such as registration zones,\nlounges, and emergency room; and\n\n- y) Availability of local support services (for example transport, fire station, police station).\n\n6.4.2  In addition, the exhibition organizer should consider the following aspects at the time of venue finalization:\n\n- a) Design the exhibition space to facilitate smooth movement of attendees;\n- b) Ensure clear pathways, adequate circulation space, and multiple entry and exit points for visitors;\n- c) Allocate suitable spaces for branding, signage, and promotional displays;\n- d) Identify designated outdoor areas for assembly points; and\n- e) Define conditions for cancellation or rescheduling of the exhibition.\n\n6.4.3 The exhibition organizer shall obtain necessary insurance coverage to cover potential risks and third-party liabilities. All exhibitors and service providers shall also be informed to obtain their own insurance to cover the risks or liabilities during the exhibition.\n\n\n6.4.4 In case the venue is not a registered facility (for example, private properties, open grounds, parks), the exhibition organizer shall obtain prior permission from local authorities before the finalization of the venue.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "6.4",
+      "heading": "6.4 Venue Finalization",
+      "heading_path": [
+        "6 EXHIBITION PLANNING",
+        "6.4 Venue Finalization"
+      ],
+      "char_start": 16450,
+      "char_end": 19370,
+      "semantic_chunk_length": 2920,
+      "final_chunk_length": 3222,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0009",
+    "text": "ir own insurance to cover the risks or liabilities during the exhibition.\n\n\n6.4.4 In case the venue is not a registered facility (for example, private properties, open grounds, parks), the exhibition organizer shall obtain prior permission from local authorities before the finalization of the venue.\n\n### 6.5  Control of Externally Provided Services\n\n\n6.5.1 The exhibition organizer shall identify the key services that need to be outsourced to organize the\n\nIS 19625 : 2026\n\nexhibition. The exhibition organizer shall determine and apply criteria for the evaluation, selection, and performance monitoring of external providers, based on their ability to meet the required needs and expectations. The exhibition organizer shall maintain and retain records of these activities, including evaluation details, selection of external agencies, and any necessary corrective and follow- up actions arising from the evaluations. A service level agreement (SLA) shall be signed with each external provider, where needed.\n\nNOTES\n\n\n1 The following services can be outsourced, depending on the need:\n\n- a) Infrastructure such as carpets, furniture, electrical support, heating/cooling systems and CCTV cameras;\n- b) Safety and security including firefighting arrangements;\n- c) Housekeeping services;\n- d) Booth/stand construction related work;\n- e) Logistics services;\n- f) Equipment such as audio-visual systems, internet connectivity, and public address systems; and\n- g) Food and beverage services.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "6.5",
+      "heading": "6.5 Control of Externally Provided Services",
+      "heading_path": [
+        "6 EXHIBITION PLANNING",
+        "6.5 Control of Externally Provided Services"
+      ],
+      "char_start": 19373,
+      "char_end": 20562,
+      "semantic_chunk_length": 1189,
+      "final_chunk_length": 1491,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0010",
+    "text": "cameras;\n- b) Safety and security including firefighting arrangements;\n- c) Housekeeping services;\n- d) Booth/stand construction related work;\n- e) Logistics services;\n- f) Equipment such as audio-visual systems, internet connectivity, and public address systems; and\n- g) Food and beverage services.\n\n## 2 The exhibition organizer may engage additional internal resources and/or external agencies for activities other than the above, depending on the needs and scale of the exhibition.\n\n\n6.5.2 The exhibition organizer shall communicate its requirements and terms of engagement to the external provider prior to awarding the contract. These shall include, but not be limited to, the following:\n\n- a) The scope of services to be provided and their duration;\n- b) Details of methods, processes and equipment to be used for service delivery;\n- c) Competence requirements, including any specific qualifications needed for personnel engaged by the external provider; and\n- d) Control and monitoring mechanisms for the external provider’s performance to be applied by the exhibition organizer.\n\n### 6.6  Safety and Emergency Planning\n\nThe exhibition organizer shall prepare and document a safety and emergency plan to ensure the safety and well-being of all stakeholders, including visitors, exhibitors, staff, and contractors, throughout the exhibition. The plan shall be developed, documented and made available to all concerned personnel. It shall outline preventive measures, roles and responsibilities, and emergency response procedures to manage and mitigate potential incidents\n\n\n\neffectively. For guidance, refer to Annex C to prepare safety and emergency plan. The plan shall be reviewed periodically and updated.\n\n\n### 6.7  Dismantling\n\nThe exhibition organizer shall ensure safe, systematic, and timely dismantling of the exhibition after its conclusion. A dismantling plan shall be prepared and communicated to all exhibitors, contractors, and service providers. The dismantling plan shall include, but not be limited to, the following:\n\n- a) Define and implementation dismantling timelines;\n- b) Scheduling of dismantling activities with minimizes disruption;\n- c) Safety measures taken for the removal, transportation and storage of exhibits, furniture, carpets, signage, and temporary infrastructure;\n- d) Assigning roles and responsibilities to team members and external providers for coordinated dismantling operations;\n- e) Coordination with the exhibition organizer for waste disposal, recycling, and site cleaning; and\n- f) Maintenance and retention of records of dismantling activities, including time taken, personnel involved, and any incidents or damages.\nNOTE — The dismantling plan should consider environmental sustainability by promoting reuse, recycling, and proper disposal of materials wherever possible.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "2",
+      "heading": "2 The exhibition organizer may engage additional internal resources and/or external agencies for activities other than the above, depending on the needs and scale of the exhibition.",
+      "heading_path": [
+        "2 The exhibition organizer may engage additional internal resources and/or external agencies for activities other than the above, depending on the needs and scale of the exhibition."
+      ],
+      "char_start": 20564,
+      "char_end": 23092,
+      "semantic_chunk_length": 2528,
+      "final_chunk_length": 2830,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0011",
+    "text": "and\n- f) Maintenance and retention of records of dismantling activities, including time taken, personnel involved, and any incidents or damages.\nNOTE — The dismantling plan should consider environmental sustainability by promoting reuse, recycling, and proper disposal of materials wherever possible.\n\n## 7 INFRASTRUCTURE REQUIREMENTS\n\nThe exhibition organizer shall identify, plan and ensure the availability of all necessary infrastructure required for organizing an exhibition.\n\n\n### 7.1  Carpets\n\nCarpets used at the exhibition venue (both indoor and outdoor) shall comply with the following requirements:\n\n- a) The quality of carpets shall be suitable for their intended purpose. The thickness and condition (new or reusable) shall be determined by the exhibition organizer based on the nature, requirements and suitability of the exhibition;\n- b) Carpets shall be laid by trained and skilled personnel using appropriate tools and techniques;\n- c) Carpets shall be securely fixed using double sided tape or any other suitable material to ensure safety and stability; and\n- d) Carpeted areas shall be regularly inspected to ensure cleanliness and maintenance, and any damaged sections shall be promptly repaired or replaced during the exhibition.\nNOTES",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "7",
+      "heading": "7 INFRASTRUCTURE REQUIREMENTS",
+      "heading_path": [
+        "7 INFRASTRUCTURE REQUIREMENTS"
+      ],
+      "char_start": 23095,
+      "char_end": 24049,
+      "semantic_chunk_length": 954,
+      "final_chunk_length": 1256,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0012",
+    "text": "pets shall be securely fixed using double sided tape or any other suitable material to ensure safety and stability; and\n- d) Carpeted areas shall be regularly inspected to ensure cleanliness and maintenance, and any damaged sections shall be promptly repaired or replaced during the exhibition.\nNOTES\n\n## 1 The exhibition organizer may engage an external provider for the supply, installation, and removal of carpets.\n\n\n2 An adequate number of additional carpets should be available at the venue to replace damaged sections or meet last-minute needs.\n\n\n| 3 | Carpet laying and removal should be done in |  |\n| --- | --- | --- |\n| accordance with the approved schedule. |  |  |\n\n\n4 In case of reusable carpets, appropriate cleaning, drying, and storage procedures should be followed.\n\n\n### 7.2  Furniture\n\nThe exhibition organizer shall determine and document the quantity, type and placement of furniture required for the exhibition booths, lounges, meeting areas, and other locations. The furniture shall:\n\n- a) be sturdy and suitable for its intended use and specified duration;\n- b) be inspected prior to installation to ensure safety and stability;\n- c) conform to relevant Indian standards, to the extent possible; and\n- d) be installed and arranged by trained personnel as per agreed time schedule prior to exhibition opening.\nNOTE — All furniture should be removed from the venue as per the agreed time schedule, after the completion of the exhibition.\n\n\n### 7.3  Electrical\n\nThe exhibition organizer shall ensure an adequate and safe electrical supply to support all exhibition related activities. The exhibition organizer shall:\n\n- a) identify and comply with all statutory and regulatory requirements related to electrical installations;\n- b) ensure sufficient electrical load capacity to support the installation and operation of all installed electrical equipment such as air conditioners and heaters, including lighting installation, display screens, LED walls;\n- c) engage the licensed electrical contractor for installation and testing of the electrical systems and equipment;\n\n\n\n\n- d) execute a SLA with the external provider responsible for electrical support, covering performance, safety and maintenance requirements;\n- e) ensure that all electrical equipment conforms to relevant Indian standards, where applicable;\n- f) prevent exposure of live wires and ensure proper insulation and earthing throughout the venue;\n- g) provide standby power backup systems such as generators, ensuring appropriate fuel safety, ventilation and accessibility arrangements;\n- h) maintain load distribution to avoid overloading, tripping and fire hazards; and\n- j) conduct regular inspection, testing and maintenance of the electrical installations and equipment to ensure functionality and safety.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "1",
+      "heading": "1 The exhibition organizer may engage an external provider for the supply, installation, and removal of carpets.",
+      "heading_path": [
+        "1 The exhibition organizer may engage an external provider for the supply, installation, and removal of carpets."
+      ],
+      "char_start": 24052,
+      "char_end": 26549,
+      "semantic_chunk_length": 2497,
+      "final_chunk_length": 2799,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0013",
+    "text": "nsuring appropriate fuel safety, ventilation and accessibility arrangements;\n- h) maintain load distribution to avoid overloading, tripping and fire hazards; and\n- j) conduct regular inspection, testing and maintenance of the electrical installations and equipment to ensure functionality and safety.\n\n### 7.4 CCTV Surveillance\n\nThe exhibition organizer shall ensure the installation and effective operation of the CCTV system at appropriate locations for continuous surveillance and security. The exhibition organizer shall ensure the following:\n\n- a) CCTV cameras are positioned strategically\nto monitor entrances, exits, common areas, critical installations, and crowd movements;\n\n- b) A dedicated control room is established for\nreal-time monitoring by trained personnel in coordination with venue security and local authorities;\n\n- c) Video recordings of the exhibition shall be\nmaintained for the entire duration of the event and securely stored for a minimum period of seven days and a maximum of thirty days after the event;\n\n- d) Only authorized personnel shall have\naccess to recordings, particularly in cases involving safety, theft, or legal incidents;\n\n- e) Information boards are displayed at\nprominent locations notifying attendees of CCTV surveillance to address privacy concerns;\n\n- f) CCTV systems have adequate resolution,\nnight-vision capability, and uninterrupted power supply backup to ensure continuous operation; and\n\n- g) Periodic inspection and functionality checks be conducted to ensure that all\nIS 19625 : 2026\n\ncameras and recording systems remain functional during the exhibition.\n\n\n### 7.5  Exhibition Booth\n\nThe exhibition organizer shall ensure that all exhibition booths are designed, constructed, and maintained to facilitate proper functioning, accessibility, safety and effective communication of exhibitor information. The exhibition organizer shall ensure:\n\n- a) compliance of all the booths with the approved layout plan;\n- b) that booth dimensions, positioning and spacing adhere to specified guidelines and regulations;\n- c) use of structurally stable and safe materials suitable for temporary installations;\n- d) clear visibility of exhibitor name’s, logo and stall number; and\n- e) booth design and layout provide accessibility and ease of movement for persons with special needs;",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "7.4",
+      "heading": "7.4 CCTV Surveillance",
+      "heading_path": [
+        "1 The exhibition organizer may engage an external provider for the supply, installation, and removal of carpets.",
+        "7.4 CCTV Surveillance"
+      ],
+      "char_start": 26551,
+      "char_end": 28574,
+      "semantic_chunk_length": 2023,
+      "final_chunk_length": 2325,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0014",
+    "text": "specified guidelines and regulations;\n- c) use of structurally stable and safe materials suitable for temporary installations;\n- d) clear visibility of exhibitor name’s, logo and stall number; and\n- e) booth design and layout provide accessibility and ease of movement for persons with special needs;\n\n### 7.6  Communication Equipment\n\n\n7.6.1 The exhibition organizer shall provide a robust and effective communication infrastructure to ensure smooth coordination and operations, and effective dissemination of information during the exhibition. The exhibition organizer shall ensure:\n\n- a) an efficient communication network covering all areas including exhibition halls, registration counters, control rooms, emergency exits, service zones, and parking areas;\n- b) installation of the public address (PA) systems for making announcements, visitor management, and emergency communication, ensuring clear audibility across the premises without causing disturbance or echoing effects;\n- c) provision of wireless communication devices such as walkie-talkies for operational and security teams to coordinate in real time;\n- d) display of signage at prominent locations indicating emergency contact numbers, help desks, and information points; and\n- e) availability of emergency communication systems integrated with local authorities, including fire, medical, and police services.\n\n#### 7.6.2 The following are recommendations for exhibition organizers for effective communication\n\n\n\nin the exhibition premises:\n\n- a) Use digital display boards and electronic signage for displaying the schedules, announcements and important updates;\n- b) Establish a dedicated helpdesk communication line for visitors during the exhibition hours; and\n- c) Provide multilingual communication facilities for announcements and signage, and information displays to cater to diverse audiences.\n\n### 7.2  Use of Information Technology (IT) and Networking Equipment\n\nThe exhibition organizer shall ensure the provision of all necessary IT and networking equipment to facilitate efficient exhibition operations, including laptops, desktops, printers, scanners, projectors, servers, and other related accessories. The exhibition organizer shall ensure:\n\n- a) the venue is equipped with a reliable and secure IT and networking infrastructure to support administrative operations, exhibitor services, registration, ticketing, and communication systems;\n- b) provision for Wi-Fi and LAN connectivity in the exhibition venue;\n- c) sufficient bandwidth is provided for both Wi-Fi and LAN to support the expected number of users, digital displays, and online transaction systems without network disruption; and\n- d) provision for an adequate number of Wi-Fi access points at identified key locations within the exhibition area to ensure seamless connectivity.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "7.6",
+      "heading": "7.6 Communication Equipment",
+      "heading_path": [
+        "1 The exhibition organizer may engage an external provider for the supply, installation, and removal of carpets.",
+        "7.6 Communication Equipment"
+      ],
+      "char_start": 28576,
+      "char_end": 31100,
+      "semantic_chunk_length": 2524,
+      "final_chunk_length": 2826,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0015",
+    "text": "ovided for both Wi-Fi and LAN to support the expected number of users, digital displays, and online transaction systems without network disruption; and\n- d) provision for an adequate number of Wi-Fi access points at identified key locations within the exhibition area to ensure seamless connectivity.\n\n## 8 RELATED SERVICES AND FACILITIES\n\n\n### 8.1  Facilities\n\nThe exhibition organizer shall ensure the availability of the following facilities including but not limited to, the following at the venue:\n\n- a) Parking Facilities — The exhibition organizer shall establish, document and implement a plan for parking of vehicles during the exhibition for the stakeholders. The exhibition organizer shall:\n- 1) provide sufficient parking to accommodate vehicles of stakeholders, including visitors, exhibitors, staff, logistics providers, and VIPs, based on the expected footfall;\n- 2) include parking arrangements for freight forwarders, logistics operators, and service providers in the plan;\n- 3) issue advance communication to stakeholders, regarding the availability of on-site and off-site parking facilities;\n- 4) locate parking areas at an appropriate distance from the exhibition venue, ensuring safe and convenient pedestrian access;\n- 5) create designated parking zones, as far as possible, for different categories of users, such as VIPs, exhibitors, service providers, logistics vehicles, and visitors; and\n- 6) ensure that parking areas are located at a suitable distance from the exhibition venue and provide safe, accessible, and well-marked pedestrian pathways with clear signage, displaying parking availability, entry and exit routes.\nNOTE — The exhibition organizer may engage an external agency to handle parking facilities as per the established plan.\n\n- b) Washrooms — A sufficient number of clean and well maintained washrooms shall be provided preferably separate for males, females and individuals with special needs. The washrooms shall be cleaned at regular intervals as defined in the exhibition plan and records of cleaning activities shall be maintained;\n- c) Drinking water — Safe and potable drinking water, certified by the concerned authority or conforming to relevant Indian Standard(s), shall be made available at appropriate location(s) of within the venue;\n- d) Cloakroom — A supervised area shall be provided for visitors to securely deposit their personal belongings. An operating procedure for cloakroom operations and management shall be prepared and key instructions shall be displayed at the counter. The cloakroom shall be operational during exhibition hours under appropriate supervision;\n- e) Lost and found counter — A designated counter shall be established to manage lost and found items. A documented protocol and incident reporting mechanism for lost and found items shall be established, implemented and integrated with the venue’s security operations. The records shall be maintained for all items received, as well as unclaimed items to be handled in\n\n\n\n\naccordance with established procedures; and\n\n- f) Seating and rest zones — Sufficient rest zones with adequate seating shall be provided at suitable locations for visitors, particularly for senior citizens, children, and persons with special needs.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "8",
+      "heading": "8 RELATED SERVICES AND FACILITIES",
+      "heading_path": [
+        "8 RELATED SERVICES AND FACILITIES"
+      ],
+      "char_start": 31102,
+      "char_end": 34055,
+      "semantic_chunk_length": 2953,
+      "final_chunk_length": 3255,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0016",
+    "text": "ed, as well as unclaimed items to be handled in\n\n\n\n\naccordance with established procedures; and\n\n- f) Seating and rest zones — Sufficient rest zones with adequate seating shall be provided at suitable locations for visitors, particularly for senior citizens, children, and persons with special needs.\n\n### 8.2 Logistics Services\n\nThe exhibition organizer shall ensure effective logistics planning and coordination to facilitate the organized movement of materials, exhibits, and supplies. The exhibition organizer shall ensure the following:\n\n- a) Logistics operations including loading, unloading, and internal movement of exhibition materials, exhibits and other supplies are carried out in an organized manner;\n- b) Dedicated entry and exit points are designated for logistics movement; and\n- c) Scheduling and allocation of time slots are followed for exhibitor setup, dismantling and material handling.\nNOTES\n\n\n1 Additional logistics equipment should be available on site to meet any emergency or breakdown situations.\n\n\n2 Temporary storage facilities, if required, should be clearly demarcated, monitored, and managed by authorized personnel.\n\n\n### 8.3  Housekeeping Services\n\nThe exhibition organizer shall deploy adequate housekeeping staff throughout the venue to maintain cleanliness and hygiene. The exhibition organizer shall:\n\n- a) prepare the cleaning and hygiene management plan for the exhibition venue;\n- b) ensure that cleaning staff are adequately trained and equipped with suitable tools, cleaning materials and personal protective equipment (PPE), as necessary;\n- c) maintain, review and retain records of cleaning activities on daily basis; and\n- d) cleaning personnel shall follow a prescribed dress code for easy identification and accountability.\nNOTE — The exhibition organizer may engage external agency to handle housekeeping services (partially or fully) as per the established plan, however, designated person should monitor the housekeeping activities.\n\nIS 19625 : 2026\n\n\n### 8.4  Food and Beverages Services\n\nThe exhibition organizer shall ensure:\n\n- a) compliance with food safety regulations and hygiene standards, as applicable;\n- b) availability of clean, and well equipped food and beverage service areas for visitors, exhibitors and staff;\n- c) sufficient seating arrangements and waste disposal bins;\n- d) availability of hand washing facilities near the food service area; and\n- e) regular inspection and monitoring of food service operations to ensure hygiene, and waste management.\n\n### 8.5  Waste Management and Sanitation Service\n\nThe exhibition organizer shall establish, document and implement a waste management plan covering waste collection, segregation, recycling, and disposal in accordance with local municipal and environmental regulations. The exhibition organizer shall ensure the following measures, including but not limited to:\n\n- a) Placement of waste bins strategically across the venue, clearly labelled for biodegradable and non-biodegradable waste;\n- b) Collection and removal of waste at regular intervals to prevent littering;\n- c) Coordination with authorized waste collection and disposal agencies to ensure timely removal of waste; and\n- d) Periodic inspection to verify compliance with the waste management plan.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "8.2",
+      "heading": "8.2 Logistics Services",
+      "heading_path": [
+        "8 RELATED SERVICES AND FACILITIES",
+        "8.2 Logistics Services"
+      ],
+      "char_start": 34057,
+      "char_end": 37036,
+      "semantic_chunk_length": 2979,
+      "final_chunk_length": 3281,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0017",
+    "text": "e and non-biodegradable waste;\n- b) Collection and removal of waste at regular intervals to prevent littering;\n- c) Coordination with authorized waste collection and disposal agencies to ensure timely removal of waste; and\n- d) Periodic inspection to verify compliance with the waste management plan.\n\n### 8.6  First Aid\n\nThe exhibition organizer shall establish a dedicated first aid counter at the exhibition venue, adequately equipped with first aid supplies and staffed by trained personnel. The exhibition organizer shall ensure the following, including but not limited to:\n\n- a) Deployment of trained personnel at the first-aid counter;\n- b) Display of contact details for nearby hospitals, ambulances, and emergency medical services at prominent locations;\n- c) Arrangements for rapid response to medical emergencies; and\n- d) Display of the location of first-aid facilities.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "8.6",
+      "heading": "8.6 First Aid",
+      "heading_path": [
+        "8 RELATED SERVICES AND FACILITIES",
+        "8.6 First Aid"
+      ],
+      "char_start": 37038,
+      "char_end": 37618,
+      "semantic_chunk_length": 580,
+      "final_chunk_length": 882,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0018",
+    "text": "a) Deployment of trained personnel at the first-aid counter;\n- b) Display of contact details for nearby hospitals, ambulances, and emergency medical services at prominent locations;\n- c) Arrangements for rapid response to medical emergencies; and\n- d) Display of the location of first-aid facilities.\n\n## 9 OPERATIONAL REQUIREMENTS\n\nThe exhibition organizer shall ensure that all operations are carried out in a systematic, safe and timely manner in compliance with applicable regulatory requirements. All operational activities shall be planned, coordinated, and monitored to ensure efficiency, visitor comfort, and overall safety during the event.\n\n\n### 9.1  Booth Contractor\n\nThe exhibition organizer shall appoint official booth contractors for construction, setup, and dismantling of exhibition booths. The exhibitor may also appoint the booth contractor of their choice as per the exhibition manual. The booth contractor shall be responsible for, including but not limited to, the following:\n\n- a) Construction, setup, and dismantling of\nexhibition booths within the timeframe provided by the exhibition organizer/exhibitor;\n\n- b) Inspecting booth structures for safety and\ncompliance before opening to visitors; and\n\n- c) Maintaining coordination among the exhibition organizer, contractors, exhibitors and logistics service providers for timely completion of setup activities.\n\n### 9.2  Registration\n\nThe exhibition organizer shall establish a registration process for visitors, which may be conducted through online or onsite modes. The exhibition organizer shall:\n\n- a) establish and implement registration process;\n- b) mark the registration area and deploy an appropriate number of designated and trained personnel to handle visitor volumes;\n- c) display signage to guide visitors toward registration areas with multilingual support;\n- d) establish a sufficient number of registration counters, including separate counters for persons with special needs and senior citizens; and\n- e) issue badges, passes, or wristbands to all registered visitors.\nNOTES\n\n\n1 In case of high visitors traffic, additional dedicated registration counters for individuals with special needs, senior citizens and children should be established.\n\n\n2 Self-service kiosks should be deployed for quick check-in and on-site registrations, if needed.\n\n\n3 Advanced ticketing or registration systems should be utilized.\n\n\n### 9.3  Help Desk and Information Counter\n\nThe exhibition organizer shall set up help desks and information counters at strategic points across the venue to assist visitors with directions, schedules, and general inquiries. The exhibition organizer shall:\n\n- a) employ trained personnel familiar with the event layout, exhibitor locations, and emergency procedures;\n- b) provide digital information kiosks and maps to supplement physical counters and enhance visitor accessibility;\n- c) display contact details of organizers, emergency services, and lost-and-found at all help desks; and\n- d) monitor visitor inflow/outflow to ensure there is no overcrowding inside venue.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "9",
+      "heading": "9 OPERATIONAL REQUIREMENTS",
+      "heading_path": [
+        "9 OPERATIONAL REQUIREMENTS"
+      ],
+      "char_start": 37623,
+      "char_end": 40398,
+      "semantic_chunk_length": 2775,
+      "final_chunk_length": 3077,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0019",
+    "text": "rovide digital information kiosks and maps to supplement physical counters and enhance visitor accessibility;\n- c) display contact details of organizers, emergency services, and lost-and-found at all help desks; and\n- d) monitor visitor inflow/outflow to ensure there is no overcrowding inside venue.\n\n### 9.4 Role and Responsibilities\n\nThe exhibition organizer shall define the roles and responsibilities for personnel involved in organizing of the exhibition, including event management teams, security staff, housekeeping, logistics, and emergency services. The exhibition organizer shall:\n\n- a) establish a communication hierarchy to facilitate quick decision making and issue resolution;\n- b) brief all officials and staff on their assigned duties and operational procedures;\n- c) provide adequate training to all staff members; and\n- d) conduct periodic briefings and orientation sessions to ensure uniform understanding of procedures.\n\n### 9.5 Safety and Security\n\nThe exhibition organizer shall establish and implement a security plan and deploy adequate trained security personnel for visitor management, surveillance and protection of exhibition property. The exhibition organizer shall:\n\n- a) demarcate and monitor security checkpoints and restricted zones through CCTV systems;\n- b) ensure availability and functionality of security equipment; and\n\n\n\n\n- c) brief security personnel on their duties, emergency evacuation procedures, and coordination with local authorities\nNOTES\n\n\n1 Mock drills may be considered to ensure the effectiveness of safety and security arrangements.\n\n\n## 2 Refer IS/ISO 18788 on management of security operations.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "9.4",
+      "heading": "9.4 Role and Responsibilities",
+      "heading_path": [
+        "9 OPERATIONAL REQUIREMENTS",
+        "9.4 Role and Responsibilities"
+      ],
+      "char_start": 40400,
+      "char_end": 41750,
+      "semantic_chunk_length": 1350,
+      "final_chunk_length": 1652,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0020",
+    "text": "nt; and\n\n\n\n\n- c) brief security personnel on their duties, emergency evacuation procedures, and coordination with local authorities\nNOTES\n\n\n1 Mock drills may be considered to ensure the effectiveness of safety and security arrangements.\n\n\n## 2 Refer IS/ISO 18788 on management of security operations.\n\n## 3 The exhibition organizer may engage licensed/registered security agencies for overall security arrangements of the venue under their supervision and monitoring.\n\n\n### 9.6  Temporary Manpower\n\nThe exhibition organizer shall:\n\n- a) deploy temporary manpower, depending on operational needs such as visitor assistance, logistic support, ticketing and other general operational activities;\n- b) ensure temporary staff are adequately trained for their assigned duties and supervised; and\n- c) issue identification badges or uniforms for easy recognition.\n\n### 9.7  Fire Safety and Emergency Preparedness\n\nThe exhibition organizer shall ensure that the exhibition venue is equipped with adequate fire safety measures, including fire extinguishers, smoke detectors, alarm systems, and emergency exits. The exhibition organizer shall ensure that:\n\n- a) all firefighting equipment are inspected and certified by appropriate authorities prior to commencement of the event;\n- b) no flammable materials, open flames, or hazardous substances are used by booth contractors and exhibitors without prior approval;\n- c) emergency response and evacuation plans are displayed at key points and communicated to all staff and exhibitors;\n- d) a mock drill or orientation session on emergency procedures is conducted prior to the exhibition opening; and\n- e) all fire safety equipment and devices used are BIS certified, where applicable.\nNOTE — For further guidance on fire safety, the National Building Code, SP 7 : 2016 may be referred.\n\n\n### 9.8  Visitor Management\n\nThe exhibition organizer shall prepare and establish a visitor management plan covering entry points,\n\nIS 19625 : 2026\n\nregistration, visitor flow and exit points. The exhibition organizer shall:\n\n- a) clearly define entry and exit points with proper signage and queue management system;\n- b) maintain records of visitor data, including attendance statistics for post event analysis and feedback; and\n- c) utilize real-time monitoring through digital systems, where feasible, to manage visitor density and prevent overcrowding;\n\n### 9.9  Post Event Dismantling and Site Clearance\n\nThe exhibition organizer shall ensure that post-event dismantling is carried out in an orderly manner under the supervision of the designated official(s). The exhibition organizer shall ensure:\n\n- a) all booth materials, temporary structures,\nand promotional displays are removed within the timeframe specified in the event plan;\n\n- b) safe removal of electrical connections and\ndisposal of waste materials in accordance with waste management plan and environmental guidelines; and\n\n- c) confirmation and documentation of restoration of the venue.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "3",
+      "heading": "3 The exhibition organizer may engage licensed/registered security agencies for overall security arrangements of the venue under their supervision and monitoring.",
+      "heading_path": [
+        "3 The exhibition organizer may engage licensed/registered security agencies for overall security arrangements of the venue under their supervision and monitoring."
+      ],
+      "char_start": 41753,
+      "char_end": 44435,
+      "semantic_chunk_length": 2682,
+      "final_chunk_length": 2984,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0021",
+    "text": "promotional displays are removed within the timeframe specified in the event plan;\n\n- b) safe removal of electrical connections and\ndisposal of waste materials in accordance with waste management plan and environmental guidelines; and\n\n- c) confirmation and documentation of restoration of the venue.\n\n## 10 SUSTAINABILITY\n\nThe exhibition organizer shall integrate sustainability principles into all stages of exhibition planning, execution and post-event activities. Measures shall be adopted to minimize environmental impact, optimize resource utilization, and promote responsible practices among all stakeholders. The exhibition organizer shall consider the following:\n\n- a) Waste Management — The waste management plan shall be established, documented, and implemented. Waste shall be segregated at source into dry and wet categories and disposed of in accordance with applicable municipal and environmental regulations. Attendees shall be encouraged to use waste bins through visible signage;\n- b) Energy Conservation — The exhibition organizer shall adopt measures to promote energy efficiency, including but not limited to, the following:\n- 1) Use of energy efficient lighting systems, equipment, and appliances; and\n\n\n\n- 2) Ensuring that all electrical devices and installations are switched off during non-operational hours or when not needed.\n- c) Use of Environment-Friendly Materials — To the extent possible, the material used for booth construction, decoration and promotional activities shall be environment friendly and recyclable such as bagasse, bamboo, palm leaves, paper and cardboard;\n- d) Digital Documentation — The exhibition organizer should promote the use of digital alternatives including electronic tickets, e-brochures, digital signage, and interactive screens. All communication, including exhibitor information, event schedules, and announcements, shall preferably be shared through electronic means;\n\n| Eco-friendly Transportation — |  | The |\n| --- | --- | --- |\n| exhibition organizer shall promote the use |  |  |\n| of low-emission and eco-friendly |  |  |\n| transportation options for attendees, staff, |  |  |\n| and exhibitors. Measures may include the |  |  |\n| provision of shuttle services using electric |  |  |\n| or hybrid vehicles, and promoting the use |  |  |\n| of public transport; |  |  |\n\n\n- f) Water Conservation — The exhibition organizer shall ensure the use of water efficient sanitary ware and fittings conforming to relevant Indian Standards, wherever available. Regular monitoring shall be carried out to prevent water wastage and to ensure efficient utilization throughout the exhibition venue; and\nNOTE — Refer to IS 17650 (Part 1) and IS 17650 (Part 2) on water-efficiency sanitary ware/fittings.\n\n- g) Awareness — The exhibition organizer shall promote awareness among participants, exhibitors, and visitors regarding sustainable practices.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "10",
+      "heading": "10 SUSTAINABILITY",
+      "heading_path": [
+        "10 SUSTAINABILITY"
+      ],
+      "char_start": 44437,
+      "char_end": 47035,
+      "semantic_chunk_length": 2598,
+      "final_chunk_length": 2900,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0022",
+    "text": "icient utilization throughout the exhibition venue; and\nNOTE — Refer to IS 17650 (Part 1) and IS 17650 (Part 2) on water-efficiency sanitary ware/fittings.\n\n- g) Awareness — The exhibition organizer shall promote awareness among participants, exhibitors, and visitors regarding sustainable practices.\n\n## 11 CUSTOMER FEEDBACK\n\nThe exhibition organizer shall establish and implement a feedback mechanism to ensure continuous improvement in service quality and visitor experience. The exhibition organizer shall:\n\n- a) provide accessible channels (physical,\ndigital, or online) for exhibitors and visitors to submit feedback;\n\n- b) prepare and obtain feedback in the\nstructured format;\n\n- c) monitor, record, and respond to feedback in\na timely and transparent manner; and\n\n- d) analyse feedback to identify strengths,\nareas for improvement, and corrective actions for future events.\n\n\n## 12 BIS CERTIFICATION MARKING\n\nThe service(s) conforming to the requirements of this standard may be certified as per the conformity assessment schemes under the provisions of the Bureau of Indian Standards Act, 2016 and the Rules and Regulations framed thereunder, and the products may be marked with the Standard Mark.\n\n\n\n\n## ANNEX A\n\n(Clause 5.2)\n\n(Normative)\n\nRECOMMENDATION FOR IDENTIFICATION OF RISK\n\n\n| RISK IDENTIFICATION CHECKLIST |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Exhibition Name: |  |  |  | Date : |  |\n| Organizer: |  |  |  | Time: |  |\n| Location: |  | Assessment Conducted By: |  |  |  |\n| Sl No. | Task | Description | Status |  | Remarks/Corrective Action |\n| i) | Check for all source of uncertainty and risk associated in organizing exhibition | Review surroundings and processes prone to possible hazards and uncertainties. | YES/NO |  |  |\n| ii) | Identify potential risks | List risks along with possible causes, and consequences | YES/NO |  |  |\n| iii) | Risk assessment/ Rating | Determine severity of each risk and classify (High/Medium/Low) | YES/NO |  |  |\n| iv) | Review of current safety measures | Verify whether safety measures are adequate and effective. | YES/NO |  |  |\n| v) | Mitigation measures | Prepare appropriate mitigation plans to address identified risks. | YES/NO |  |  |\n| vi) | Documentation | Prepare and maintain records of risk assessments and mitigation plans. | YES/NO |  |  |\n| vii) | Review and update | Periodically review risk assessments and revise based on changes in operations. | YES/NO |  |  |\n| viii) | Workforce | Ensure workforce records (roles, training, assignment status) are current and verification of individuals | YES/NO |  |  |\n| ix) | Mitigation plan | Communicate the mitigation plan and assigned responsibilities to stakeholders. | YES/NO |  |  |\n| x) | Training | Train personnel in risk identification, response procedures, and emergency handling. | YES/NO |  |  |\n| Additional Notes (if any): |  |  |  |  |  |",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "11",
+      "heading": "11 CUSTOMER FEEDBACK",
+      "heading_path": [
+        "11 CUSTOMER FEEDBACK"
+      ],
+      "char_start": 47037,
+      "char_end": 49629,
+      "semantic_chunk_length": 2592,
+      "final_chunk_length": 2894,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0023",
+    "text": "S/NO |  |  |\n| ix) | Mitigation plan | Communicate the mitigation plan and assigned responsibilities to stakeholders. | YES/NO |  |  |\n| x) | Training | Train personnel in risk identification, response procedures, and emergency handling. | YES/NO |  |  |\n| Additional Notes (if any): |  |  |  |  |  |\n\n## ANNEX B\n\n(Clause 6.1)\n\n(Normative)\n\nRECOMMENDATION FOR OPERATIONAL PLANNING\n\n\n| Operational Planning Checklist |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| Exhibition Name: |  |  |  | Date: |\n| Location: |  |  |  | Time: |\n| Organizer: |  | Assessment Conducted By: |  |  |\n| Sl No. | Task | Description | Status | Comments |\n| i) | Operational team | Form a team responsible for execution and monitoring of exhibition activities. | YES/NO |  |\n| ii) | Roles and responsibilities | Clearly define and communicate roles, responsibilities and decision- making authority of each team. | YES/NO |  |\n| iii) | Training and briefing | Train the team members to carry out their respective tasks effectively. | YES/NO |  |\n| iv) | Resources | Ensure allocation of necessary infrastructure, facilities, services and manpower for planned operations. | YES/NO |  |\n| v) | Supplier and service provider management | Execute and monitor contracts/agreements with suppliers and service providers for clarity in task assigned, timelines and to avoid any disputes. | YES/NO |  |\n| vi) | Stakeholder communication | Establish effective communication channels with exhibitors, venue managers, service providers, and other stakeholders. | YES/NO |  |\n| vii) | Documentation and record | Maintain records of operational planning, approvals, resource allocation, and other key activities. | YES/NO |  |\n| viii) | Review and update plans | Regularly review and update operational plans and processes. | YES/NO |  |\n| ix) | Monitoring | Monitor ongoing operations and address deviations as per defined procedures. | YES/NO |  |\n| Additional Notes: |  |  |  |  |\n\n\n\n\n## ANNEX C\n\n(Clause 6.6)\n\n(Normative)\n\nSAFETY AND EMERGENCY PLAN\n\nC-1 SAFETY AND EMERGENCY PLAN ELEMENTS\n\nThe safety and emergency plan shall include, but not be limited to, the following:\n\n- a) Identification and assessment of potential hazards and risks associated with the exhibition venue;\n- b) Fire safety arrangements, including the installation of firefighting equipment, fire exits, and evacuation routes;\n- c) Medical emergency procedures, including the availability of first-aid facilities, ambulance services, and contact details of nearby hospitals.\n- d) Emergency response procedures for incidents such as fire, electrical faults,\nequipment failure, accidents, or natural disasters.\n\n- e) Clear signage for evacuation routes;\n- f) Training of personnel responsible for handling specific types of emergencies;\n- g) Regular safety briefings and drills for staff, exhibitors, and service providers; and\n- h) Coordination with local authorities such as fire, police, and medical services for timely assistance during emergencies.\nC-2 The exhibition organizer shall periodically review and update the safety and emergency plan to ensure its continued effectiveness and relevance.",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 49634,
+      "char_end": 52470,
+      "semantic_chunk_length": 2836,
+      "final_chunk_length": 3138,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19625_2026_0024",
+    "text": "nd service providers; and\n- h) Coordination with local authorities such as fire, police, and medical services for timely assistance during emergencies.\nC-2 The exhibition organizer shall periodically review and update the safety and emergency plan to ensure its continued effectiveness and relevance.\n\n## ANNEX D\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 02 (26074).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19625_2026.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 52475,
+      "char_end": 53911,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19625",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

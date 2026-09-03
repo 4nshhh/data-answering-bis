@@ -1,0 +1,736 @@
+[
+  {
+    "id": "13154_2015_reff2020_0000",
+    "text": "Indian Standard\n\nIS 13154 : 2015\n\n(Reaffirmed 2017)\n\n(Reaffirmed 2020)\n\nAutomotive Vehicles  Tyres for\n\nAgricultural Vehicles and Their\n\nTrailers  Specification\n\n(First Revision)\n\nICS 83.160.10\n\nBIS 2015\n\nBUREAU OF INDIAN STANDARDS\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.org.in\n\nwww.standardsbis.in\n\nPrice Group 9\n\nSeptember 2015\n\n\n\n\n\n\nAutomotive Tyres, Tubes and Rims Sectional Committee, TED 7\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Automotive Tyres, Tubes and Rims Sectional Committee had been approved by the Transport Engineering Division Council.\n\nThis standard was first published in 1991. This revision is being brought out to bring this standard in line with the technological advancements in the field and current practices prevalent in industry and to include the latest sizes of tyres which have been introduced after the publication of the standard.\n\nIn the formulation of this standard, considerable assistance has been derived from the following publications:\n\nECE Regulation No.106 Uniform provisions concerning the approval of pneumatic tyres for agricultural vehicles and their trailers;\n\nITTAC Standards Manual 2011\n\nIn this standard SI units have been used, the unit of tyre load in kilogram (kg) and of pressure in kilopascal (kPa). Their relationships are given below for information:\n\n1 kPa = 0.01 kgf/cm2 (within 2 percent error) 1 kgf/cm2 = 98.066 kPa.\n\nNOTE — Values of kPa shall be rounded to the nearest practical unit.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 1960 ‘Rules for rounding off numerical values (revised)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\nIndian Standard\n\nAUTOMOTIVE VEHICLES-TYRES FOR\n\nAGRICULTURAL VEHICLES AND THEIR\n\nTRAILERS - SPECIFICATION\n\nFirst Revision\n\n\n## 1 SCOPE\n\nThis standard specifies the dimensions, performance\n\nand general requirements of the new pneumatic tyres\n\ndesigned primarily, but not only, for agricultural and\n\nforestry vehicles (power-driven vehicles in Category\n\nA as defined in IS 14272 : 2011 °Automotive vehicles\n\nTypes  Terminology', agricultural machines\n\n(power-driven and trailed) and agricultural trailers, and\n\nidentified by speed category symbols corresponding\n\nto speeds of 65 km/h (Speed Symbol 'D') and below.\n\nThis standard does not apply to tyre types designated primarily for other purposes, such as:\n\n- a) Construction application;\n- b) Earth-moving equipment; and\n- c) Industrial and lift trucks.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 0,
+      "char_end": 2796,
+      "semantic_chunk_length": 2796,
+      "final_chunk_length": 2796,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0001",
+    "text": " and\n\nidentified by speed category symbols corresponding\n\nto speeds of 65 km/h (Speed Symbol 'D') and below.\n\nThis standard does not apply to tyre types designated primarily for other purposes, such as:\n\n- a) Construction application;\n- b) Earth-moving equipment; and\n- c) Industrial and lift trucks.\n\n## 2 REFERENCES\n\nThe following Indian Standard is necessary adjuncts\n\nto this standard. At the time of publication, the edition\n\nindicated was valid. All standards are subject to\n\nrevision, and parties to agreements based on this\n\nstandard are encouraged to investigate the possibility\n\nof applying the most recent editions of the standards\n\nindicated below:\n\n| IS No. | Title |\n|---|---|\n| IS 14272 : 2011 | Automotive vehicles - Types - Terminology |\n| ISO 4251-4 : 2010 | Tyres (ply rating marked series) and rims for agricultural tractors and machines : Part 4 Tyre classification and nomenclature |",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2799,
+      "char_end": 3402,
+      "semantic_chunk_length": 603,
+      "final_chunk_length": 905,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0002",
+    "text": "most recent editions of the standards\n\nindicated below:\n\n| IS No. | Title |\n|---|---|\n| IS 14272 : 2011 | Automotive vehicles - Types - Terminology |\n| ISO 4251-4 : 2010 | Tyres (ply rating marked series) and rims for agricultural tractors and machines : Part 4 Tyre classification and nomenclature |\n\n## 3 TERMS, DEFINITIONS AND NOMENCLATURE\n\nFor the purpose of this standard, the following terms,\n\ndefinitions and nomenclature shall apply.\n\n\n### 3.1 Type of Agricultural Tyre - A category of tyres which do not differ in such essential respects as:\n\n- a) The manufacturer;\n- b) Tyre size designation;\n- c) Category of use:\n  - 1) Tractor - Steering wheel;\n  - 2) Tractor - Drive wheel - Regular tread;\n  - 3) Tractor - Drive wheel - Special tread;\n  - 4) Implement - Traction;\n  - 5) Implement - Trailer; and\n  - 6) Implement - Mixed applications.\n- d) Structure (Diagonal ply, Radial ply);\n- e) Speed symbol;\n- f) Load index; and\n- g) Tyre cross-section.\n\n\n3.2 Structure of a Tyre — The technical characteristics of the tyre carcass. The following structures are distinguished in particular:\n\n- a) Diagonal Ply - A tyre structure in which the ply cords extend to the bead and are laid at alternate angles of substantially less than 90° to the centreline of the tread.\n- b) Radial Ply - A tyre structure in which the ply cords extend to the beads and are laid substantially at 90° to the centreline of the tread, the carcass being stabilized by an essentially inextensible circumferential belt.\n\n\n### 3.3 Bead - The part of a tyre which is of such shape\n\nand structure as to fit the rim and hold the tyre on it.\n\n\n### 3.4 Cord - The strands forming the fabric of the plies\n\nin the tyre.\n\n\n### 3.5 Ply - A layer of rubber-coated parallel cords.\n\n\n### 3.6 Carcass - That part of a tyre other than the tread\n\nand the rubber sidewalls which, when inflated, bears\n\nthe load.\n\n\n### 3.7 Tread  That part of a tyre which comes into\n\ncontact with the ground.\n\n\n### 3.8 Sidewall - The part of the tyre, excluding the\n\ntread, which is visible when the tyre, fitted to a rim, is\n\nviewed from the side.\n\n\n### 3.9 Section Width (S) - The linear distance between\n\nthe outsides of the sidewalls of an inflated tyre,\n\nexcluding elevations due to labelling (marking),\n\ndecoration or protective bands or ribs (see Fig. 1).\n\n\n### 3.10 Overall Width — The linear distance between the outside of the sidewalls of an inflated tyre, including labelling (marking), decoration and protective bands or ribs (see Fig. 1).\n\n\n\n### 3.11 Section Height (h) — A distance equal to half the difference between the outer diameter of the tyre and the nominal rim diameter (see Fig. 1).\n\n3.12 Nominal Aspect Ratio (Ra) — One hundred times the number obtained by dividing the number expressing the nominal section height in millimetres by the number expressing the nominal section width in millimetres.\n\n### 3.13 Outer Diameter (D) — The overall diameter of an inflated new tyre.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE"
+      ],
+      "char_start": 3405,
+      "char_end": 6045,
+      "semantic_chunk_length": 2640,
+      "final_chunk_length": 2942,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0003",
+    "text": "Fig. 1).\n\n3.12 Nominal Aspect Ratio (Ra) — One hundred times the number obtained by dividing the number expressing the nominal section height in millimetres by the number expressing the nominal section width in millimetres.\n\n### 3.13 Outer Diameter (D) — The overall diameter of an inflated new tyre.\n\n### 3.14 Tyre Size Designation — A designation showing:\n\n- a) the nominal section width (S), expressed in mm.\n- b) the nominal aspect ratio (Ra).\n- c) an indication of the structure, placed in front of the nominal rim diameter marking, as follows:\n  - 1) On diagonal (bias-ply) tyres: The symbol '-' or the letter 'D';\n  - 2) On radial-ply tyres: the letter 'R';\n  - 3) The conventional number 'd' denoting the nominal rim diameter;\n  - 4) Optionally, the letters 'IMP' after the nominal rim diameter marking in case of implement tyres.\n  - 5) Optionally, the letters 'FRONT' after the nominal rim diameter marking in case of Tractor steering wheel tyres.\n\nNOTE — For tyres listed in Annex B, the 'tyre size designation' is that shown in col 2 of Table 12 to Table 19.\n\n3.15 Nominal Rim Diameter (d) — A conventional number denoting the nominal diameter of the rim on which a tyre is designed to be mounted corresponding to the diameter of the rim expressed by size codes (number below 100 — see Table 1 for equivalence with millimetres).\n\n3.16 Rim — The support for a tyre and tube assembly, or for a tubeless tyre, on which the tyre beads are seated.\n\n3.17 Theoretical Rim — The notional rim whose width would be equal to X times the nominal section width of a tyre; the value 'X' shall be specified by the tyre manufacturer.\n\n3.18 Measuring Rim — The rim on which a tyre is fitted for the measurement of the dimensions.\n\n3.19 Tractor Drive Wheel Tyre — A tyre designed to be fitted to driven axles of agricultural tractors (vehicles in categories A) suitable for sustained high torque service. The tread pattern of the tyre consists of lugs or cleats.\n\n3.20 Tractor Steering Wheel Tyre — A tyre designed to be fitted to non-driven axles of agricultural and forestry tractors (motor vehicles in category A as defined in IS 14272). The tread pattern of the tyre generally consists of circumferential grooves and ribs.\n\n3.21 Implement Tyre — A tyre designed primarily for agricultural machines or implements or for agricultural trailers. However, it may also equip either front steering wheels and drive wheels of agricultural tractors (vehicles in category A as defined in IS 14272), but it is not suitable for sustained high torque services.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "3.14",
+      "heading": "3.14 Tyre Size Designation — A designation showing:",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+        "3.14 Tyre Size Designation — A designation showing:"
+      ],
+      "char_start": 6047,
+      "char_end": 8290,
+      "semantic_chunk_length": 2243,
+      "final_chunk_length": 2545,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0004",
+    "text": " tyre designed primarily for agricultural machines or implements or for agricultural trailers. However, it may also equip either front steering wheels and drive wheels of agricultural tractors (vehicles in category A as defined in IS 14272), but it is not suitable for sustained high torque services.\n\n### 3.22 Traction Tyre — A tyre designed primarily for\n\n\n**Table 1 Nominal Rim Diameter Codes**\n\n(Clause 3.15)\n\n| Sl No. | Code 'd' | 'd' mm | Sl No. | Code 'd' | 'd' mm | Sl No. | Code 'd' | 'd' mm |\n|---|---|---|---|---|---|---|---|---|\n| (1) | (2) | (3) | (1) | (2) | (3) | (1) | (2) | (3) |\n| i) | 4 | 102 | xv) | 15.5 | 394 | xxix) | 24 | 610 |\n| ii) | 5 | 127 | xvi) | 16 | 406 | xxx) | 24.5 | 622 |\n| iii) | 6 | 152 | xvii) | 16.1 | 409 | xxxi) | 26 | 660 |\n| iv) | 7 | 178 | xviii) | 16.5 | 419 | xxxii) | 26.5 | 673 |\n| v) | 8 | 203 | xix) | 17 | 432 | xxxiii) | 28 | 711 |\n| vi) | 9 | 229 | xx) | 17.5 | 445 | xxxiv) | 30 | 762 |\n| vii) | 10 | 254 | xxi) | 18 | 457 | xxxv) | 30.5 | 775 |\n| viii) | 11 | 279 | xxii) | 19 | 483 | xxxvi) | 32 | 813 |\n| ix) | 12 | 305 | xxiii) | 19.5 | 495 | xxxvii) | 34 | 864 |\n| x) | 13 | 330 | xxiv) | 20 | 508 | xxxviii) | 36 | 914 |\n| xi) | 14 | 356 | xxv) | 20.5 | 521 | xxxix) | 38 | 965 |\n| xii) | 14.5 | 368 | xxvi) | 21 | 533 | xl) | 40 | 1 016 |\n| xiii) | 15 | 381 | xxvii) | 22 | 559 | xli) | 42 | 1 067 |\n| xiv) | 15.3 | 389 | xxviii) | 22.5 | 572 | xlii) | 44 | 1 118 |\n\n\n\nthe equipment of driven axles of implements or agricultural machinery, excluding sustained high torque services. The tread pattern of the tyre generally consists of lugs or cleats. The type of application is identified with the symbol:\n\n3.23 Trailer Tyre - A tyre designed for the equipment of non-driven (trailed) axles of implements, agricultural machinery or trailers. The type of application is identified with the symbol:\n\n### 3.24 Mixed Applications Tyre - A tyre designed to be fitted to either driven and non-driven axles of implements, agricultural machinery or trailers.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "3.22",
+      "heading": "3.22 Traction Tyre — A tyre designed primarily for",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+        "3.22 Traction Tyre — A tyre designed primarily for"
+      ],
+      "char_start": 8292,
+      "char_end": 10001,
+      "semantic_chunk_length": 1709,
+      "final_chunk_length": 2011,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0005",
+    "text": " equipment of non-driven (trailed) axles of implements, agricultural machinery or trailers. The type of application is identified with the symbol:\n\n### 3.24 Mixed Applications Tyre - A tyre designed to be fitted to either driven and non-driven axles of implements, agricultural machinery or trailers.\n\n### 3.25 Service Description - The association of a load index with a speed symbol.\n\nNOTE — In case of implement tyres the service description is supplemented with the relevant symbol for the type of application concerned (traction or trailer) as defined in 3.23 and 3.24.\n\n3.26 Supplementary Service Description — An additional service description, marked within a circle, to identify a special type of service (load rating and speed symbol) to which the tyre type is also allowed in addition to the applicable load variation with speed.\n\n3.27 Load Index — A number which indicates the load the tyre can carry in single formation at the speed corresponding to the associated speed symbol and when operated in conformity with the requirements governing utilization specified by the manufacturer. The list of these indices and their corresponding loads is given in Table 2.\n**Table 2 Load Indices**\n\n(Clause 3.27)\n\n| LI | Maximum Load | LI | Maximum Load |\n|---|---|---|---|\n| (1) | (2) | (1) | (2) |\n| 1 | 46.2 | 40 | 140 |\n| 2 | 47.5 | 41 | 145 |\n| 3 | 48.7 | 42 | 150 |\n| 4 | 50 | 43 | 155 |\n| 5 | 51.5 | 44 | 160 |\n| 6 | 53 | 45 | 165 |\n| 7 | 54.5 | 46 | 170 |\n| 8 | 56 | 47 | 175 |\n| 9 | 58 | 48 | 180 |\n| 10 | 60 | 49 | 185 |\n| 11 | 61.5 | 50 | 190 |\n| 12 | 63 | 51 | 195 |\n| 13 | 65 | 52 | 200 |\n| 14 | 67 | 53 | 206 |\n| 15 | 69 | 54 | 212 |\n| 16 | 71 | 55 | 218 |\n| 17 | 73 | 56 | 224 |\n| 18 | 75 | 57 | 230 |\n| 19 | 77.5 | 58 | 236 |\n| 20 | 80 | 59 | 243 |\n| 21 | 82.5 | 60 | 250 |\n| 22 | 85 | 61 | 257 |\n| 23 | 87.5 | 62 | 265 |\n| 24 | 90 | 63 | 272 |\n| 25 | 92.5 | 64 | 280 |\n| 26 | 95 | 65 | 290 |\n| 27 | 97.5 | 66 | 300 |\n| 28 | 100 | 67 | 307 |\n| 29 | 103 | 68 | 315 |\n| 30 | 106 | 69 | 325 |\n| 31 | 109 | 70 | 335 |\n| 32 | 112 | 71 | 345 |\n| 33 | 115 | 72 | 355 |\n| 34 | 118 | 73 | 365 |\n| 35 | 121 | 74 | 375 |\n| 36 | 125 | 75 | 387 |\n| 37 | 128 | 76 | 400 |\n| 38 | 132 | 77 | 412 |\n| 39 | 136 | | |\n\n\n\n\n**Table 2 (Continued)**",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "3.25",
+      "heading": "3.25 Service Description - The association of a load index with a speed symbol.",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+        "3.25 Service Description - The association of a load index with a speed symbol."
+      ],
+      "char_start": 10003,
+      "char_end": 11945,
+      "semantic_chunk_length": 1942,
+      "final_chunk_length": 2244,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0006",
+    "text": "00 | 67 | 307 |\n| 29 | 103 | 68 | 315 |\n| 30 | 106 | 69 | 325 |\n| 31 | 109 | 70 | 335 |\n| 32 | 112 | 71 | 345 |\n| 33 | 115 | 72 | 355 |\n| 34 | 118 | 73 | 365 |\n| 35 | 121 | 74 | 375 |\n| 36 | 125 | 75 | 387 |\n| 37 | 128 | 76 | 400 |\n| 38 | 132 | 77 | 412 |\n| 39 | 136 | | |\n\n\n\n\n**Table 2 (Continued)**\n\n| LI (1) | Maximum Load (2) | LI (1) | Maximum Load (2) |\n|---|---|---|---|\n| 78 | 425 | 139 | 2 430 |\n| 79 | 437 | 140 | 2 500 |\n| 80 | 450 | 141 | 2 575 |\n| 81 | 462 | 142 | 2 650 |\n| 82 | 475 | 143 | 2 725 |\n| 83 | 487 | 144 | 2 800 |\n| 84 | 500 | 145 | 2 900 |\n| 85 | 515 | 146 | 3 000 |\n| 86 | 530 | 147 | 3 075 |\n| 87 | 545 | 148 | 3 150 |\n| 88 | 560 | 149 | 3 250 |\n| 89 | 580 | 150 | 3 350 |\n| 90 | 600 | 151 | 3 450 |\n| 91 | 615 | 152 | 3 550 |\n| 92 | 630 | 153 | 3 650 |\n| 93 | 650 | 154 | 3 750 |\n| 94 | 670 | 155 | 3 875 |\n| 95 | 690 | 156 | 4 000 |\n| 96 | 710 | 157 | 4 125 |\n| 97 | 730 | 158 | 4 250 |\n| 98 | 750 | 159 | 4 375 |\n| 99 | 775 | 160 | 4 500 |\n| 100 | 800 | 161 | 4 625 |\n| 101 | 825 | 162 | 4 750 |\n| 102 | 850 | 163 | 4 875 |\n| 103 | 875 | 164 | 5 000 |\n| 104 | 900 | 165 | 5 150 |\n| 105 | 925 | 166 | 5 300 |\n| 106 | 950 | 167 | 5 450 |\n| 107 | 975 | 168 | 5 600 |\n| 108 | 1 000 | 169 | 5 800 |\n| 109 | 1 030 | 170 | 6 000 |\n| 110 | 1 060 | 171 | 6 150 |\n| 111 | 1 090 | 172 | 6 300 |\n| 112 | 1 120 | 173 | 6 500 |\n| 113 | 1 150 | 174 | 6 700 |\n| 114 | 1 180 | 175 | 6 900 |\n| 115 | 1 215 | 176 | 7 100 |\n| 116 | 1 250 | 177 | 7 300 |\n| 117 | 1 285 | 178 | 7 500 |\n| 118 | 1 320 | 179 | 7 750 |\n| 119 | 1 360 | 180 | 8 000 |\n| 120 | 1 400 | 181 | 8 250 |\n| 121 | 1 450 | 182 | 8 500 |\n| 122 | 1 500 | 183 | 8 750 |\n| 123 | 1 550 | 184 | 9 000 |\n| 124 | 1 600 | 185 | 9 250 |\n| 125 | 1 650 | 186 | 9 500 |\n| 126 | 1 700 | 187 | 9 750 |\n| 127 | 1 750 | 188 | 10 000 |\n| 128 | 1 800 | 189 | 10 300 |\n| 129 | 1 850 | 190 | 10 600 |\n| 130 | 1 900 | 191 | 10 900 |\n| 131 | 1 950 | 192 | 11 200 |\n| 132 | 2 000 | 193 | 11 500 |\n| 133 | 2 060 | 194 | 11 800 |\n| 134 | 2 120 | 195 | 12 150 |\n| 135 | 2 180 | 196 | 12 500 |\n| 136 | 2 240 | 197 | 12 850 |\n| 137 | 2 300 | 198 | 13 200 |\n| 138 | 2 360 | 199 | 13 600 |\n| | | 200 | 14 000 |\n\n\n\n\n### 3.28 Speed Symbol — The reference speed expressed by the speed symbol as shown in Table 3.\n\n**Table 3 Speed Symbols**\n\n(Clause 3.28)\n\n| Sl No. | Speed Symbol | Reference Speed km/h |\n|---|---|---|\n| (1) | (2) | (3) |\n| i) | A2 | 10 |\n| ii) | A4 | 20 |\n| iii) | A6 | 30 |\n| iv) | A8 | 40 |\n| v) | B | 50 |\n| vi) | D | 65 |\n\n\n**Table 5 Variation in Load Capacity (%) with Speed\nTractor Steering Wheel and Marked Front or F-1 or F-2**\n\n(Clauses 3.29)\n\n| Sl No. | Speed km/h | Variation in Load Capacity Percent |\n|---|---|---|\n| (1) | (2) | (3) |\n| i) | 10 | +50 |\n| ii) | 15 | +43 |\n| iii) | 20 | +35 |\n| iv) | 25 | +15 |\n| v) | 30 | 0 |\n| vi) | 35 | -10 |\n| vii) | 40 | -20 |\n\n\n### 3.29 Variation of Load Capacity with Speed Tables —\nTables 4 to 6 showing as a function of the category of\nuse, the type of application, the load index and the\nnominal speed symbol, the maximum load rating\nvariations which a tyre can withstand when used at\nspeeds different from that corresponding to its speed\nsymbol.\n\nNOTE — The table of Variation of load capacity with\nspeed is not applicable to the supplementary service\ndescription.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "3.25",
+      "heading": "3.25 Service Description - The association of a load index with a speed symbol.",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+        "3.25 Service Description - The association of a load index with a speed symbol."
+      ],
+      "char_start": 11947,
+      "char_end": 14930,
+      "semantic_chunk_length": 2983,
+      "final_chunk_length": 3285,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0007",
+    "text": "the load index and the\nnominal speed symbol, the maximum load rating\nvariations which a tyre can withstand when used at\nspeeds different from that corresponding to its speed\nsymbol.\n\nNOTE — The table of Variation of load capacity with\nspeed is not applicable to the supplementary service\ndescription.\n\n### 3.30 Maximum Load Rating — Maximum mass the\ntyre is rated to carry.\n\nNOTE — It shall not exceed the percentage of the value\nassociated with the relevant load index of the tyre as indicated\nin Table 4 with reference to the category of use, the speed\nsymbol of the tyre and the speed capability of the vehicle to\nwhich the tyre is fitted.\n\n**Table 4 Variation in Load Capacity (%) with Speed\nfor Tractor Drive Wheel**\n\n(Clauses 3.29 and 3.30)\n\n| Sl No. | Speed km/h | A6 Tractor Application | A6 Trailed Application | A8 Trailed Application |\n|---|---|---|---|---|\n| (1) | (2) | (3) | (4) | (5) |\n| i) | 0 | +130 | +130 | +130 |\n| ii) | 5 | +70 | +70 | +70 |\n| iii) | 10 | +40 | +50 | +50 |\n| iv) | 10 cyclic | +70 | +70 | — |\n| v) | 15 | +30 | +34 | +34 |\n| vi) | 15 cyclic | +55 | +55 | — |\n| vii) | 20 | +20 | +23 | +23 |\n| viii) | 25 | +7 | +11 | +20 |\n| ix) | 30 | (0) | +7 | +20 |\n| x) | 35 | -5 | +3 | +20 |\n| xi) | 40 | -10 | (0) | +20 |\n| xii) | Field application with high and sustained torque | 0 | +7 | — |\n\nNOTE — The above load/speed variations apply when the tyre\nis not subjected to sustained high torque service. For field\napplications with sustained high torque service the values\nshown in the last line in the table above apply.\n\n### 3.31 Tread Groove — The space between the adjacent\nribs or blocks in the tread pattern (see Fig.1).\n\n### 3.32 Tread Lug (or Cleat) — The solid-block element\nprotruding from the base of the tread pattern (see Fig. 1).\n\n### 3.33 Special Tread — A tyre, the tread pattern and\nstructure of which are primarily designed to ensure\nin marshy areas a better grip than that of a standard\ntread tyre. The tread pattern of the tyre generally\nconsists of lugs or cleats deeper than those of a\nstandard tyre.\n\n### 3.34 Chunking — The breaking away of small pieces\nof rubber from the tread.\n\n### 3.35 Cord Separation — The parting of the cords from\ntheir rubber coating.\n\n### 3.36 Ply Separation — The parting of adjacent plies.\n\n### 3.37 Tread Separation — The pulling away of the tread\nfrom the carcass.\n\n3.38 Test Rim — Rim on which a tyre shall be fitted\nfor the performance test.\n\n### 3.39 Tyre Classification Code — The optional marking\ndetailed in Annex H that identifies the category of use\nand the particular type of tread pattern and application\nas specified by ISO 4251-4.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "3.30",
+      "heading": "3.30 Maximum Load Rating — Maximum mass the",
+      "heading_path": [
+        "3 TERMS, DEFINITIONS AND NOMENCLATURE",
+        "3.30 Maximum Load Rating — Maximum mass the"
+      ],
+      "char_start": 14932,
+      "char_end": 17256,
+      "semantic_chunk_length": 2324,
+      "final_chunk_length": 2626,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0008",
+    "text": "read\nfrom the carcass.\n\n3.38 Test Rim — Rim on which a tyre shall be fitted\nfor the performance test.\n\n### 3.39 Tyre Classification Code — The optional marking\ndetailed in Annex H that identifies the category of use\nand the particular type of tread pattern and application\nas specified by ISO 4251-4.\n\n## 4 TEST REQUIREMENTS\n\n### 4.1 Tyre Dimensions\n\n#### 4.1.1 Tyre dimensions namely section width and outer\ndiameter and profiles shall be compatible with the\nappropriate rims and shall conform to the requirements\nspecified in 4.1.1.1 and 4.1.1.2. Method of\nmeasurement is given in Annex C.\n\nNOTE — Adjustment to tyre section width/overall width —\nWithin the parameters of specified permissibility of a wider or\nnarrower rim than the recommended rim size, the guidelines\nfor the necessary adjustment are — Sectional width or overall\n\n\n\n\n**Table 6 Variation in Load Capacity (%) with Speed for Implement Tyres Marked IMP or IMPLEMENT**\n\n(Clause 3.29)\n\n| Sl No. | Speed km/h | Drive Wheels | | | Free Rolling | | |\n|---|---|---|---|---|---|---|---|\n| (1) | (2) | A4 (3) | A6 (4) | A8 (5) | A4 (6) | A6 (7) | A8 (8) |\n| i) | 0 | +135 | +135 | +135 | +65 | +65 | +65 |\n| ii) | 10 | +20 | +29 | +40 | +20 | +29 | +40 |\n| iii) | 15 | +12 | +21 | +33 | +12 | +21 | +33 |\n| iv) | 20 | 0 | +14 | +26 | 0 | +14 | +26 |\n| v) | 25 | -2 | +7 | +19 | -2 | +7 | +19 |\n| vi) | 30 | -5 | 0 | +12 | -5 | 0 | +12 |\n| vii) | 35 | — | -5 | +5 | — | -5 | +5 |\n| viii) | 40 | — | -10 | 0 | — | -10 | 0 |\n\nNOTE - The above load/speed variations apply when the tyre is not subjected to sustained high torque service.\n\nTREAD\n\nGROOVE\n\nRIB / LUG\n\nCARCASS\n\nSECTION HEIGHT (H)\n\nOUTER DIAMETER (D)\n\nRIM\n\nBEAD\n\nRIM WIDTH (A)\n\nNOMINAL RIM\n\nDIAMETER (d)\n\nSECTION WIDTH (S)\n\nOVER ALL WIDTH\n\nLUG (CLEAT) TREAD PATTERN\n\nCIRCUMFERENTIAL RIB\n\nTREADPATTERN\n\n\n**FIG. 1 NOMENCLATURE OF TYRE**\n\n\n\n\nwidth: 5 mm increase or reduction (as applicable) for every\n\nO0.50 inch difference in nominal rim width.\n\n4.1.1.1 Section Width of Tyre\n\nFor the existing types of tyres whose\n\na)\n\ndesignation is given in col 2 of Tables 12 to\n\n19, the actual measured section width shall\n\nbe within the minimum section width and\n\nmaximum overall width values specified in\n\nTables 12 to 19.\n\nFor the tyre sizes listed in Annex B, but ply\n\nb)\n\nrating/and or speed symbol and load-inflation\n\ndetails are not listed, the actual measured\n\nsection width shall be within the minimum\n\nsection width and maximum overall width\n\nvalues specified in Annex B.\n\nFor code designated tyres which are not listed\n\nin Annex B, the section width shall be verified\n\nagainst the specification declared by the\n\nmanufacturer.\n\nFor Metric designated tyres which are not\n\n(p\n\nlisted in Annex B, the section width shall be\n\ncalculated using the following formula:\n\nS=S +K(AA)\n\nwhere\n\nsection width measured on measuring rim,\n\nin mm;\n\nnominal section width, as set out on the tyre\n\nsidewall in the tyre size designation, in mm;\n\nwidth of the measuring rim, as shown by\n\nthe manufacturer\n\nin the technical\n\nspecification, in mm;\n\nA, = theoretical rim width, in mm.\n\nNOTES\n\n1 A, shall be taken to equal S, multiplied by the factor X as\n\nspecified by the manufacturer, and K shall be taken to equal\n\n0.4.\n\n\n2 The actual measured overall width of the tyre may be less\n\nthan the section width determined as detailed in 4.1.1.1\n\n(d).",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 9,
+      "clause": "4.1.1",
+      "heading": "4.1.1 Tyre dimensions namely section width and outer",
+      "heading_path": [
+        "4 TEST REQUIREMENTS",
+        "4.1 Tyre Dimensions",
+        "4.1.1 Tyre dimensions namely section width and outer"
+      ],
+      "char_start": 17259,
+      "char_end": 20297,
+      "semantic_chunk_length": 3038,
+      "final_chunk_length": 3338,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0009",
+    "text": "\n\nA, = theoretical rim width, in mm.\n\nNOTES\n\n1 A, shall be taken to equal S, multiplied by the factor X as\n\nspecified by the manufacturer, and K shall be taken to equal\n\n0.4.\n\n\n2 The actual measured overall width of the tyre may be less\n\nthan the section width determined as detailed in 4.1.1.1\n\n(d).\n\n## 3 The actual measured overall width may also exceed the\n\nsection width determined as detailed in 4.1.1.1 (d) up to 5\n\npercent for radial ply tyres and up to 8 percent for diagonal\n\n(bias ply) tyres.\n\n4.1.1.2 Tyre Outer Diameter\n\nFor the existing types of tyres whose\n\na)\n\ndesignation is given in col 2 of Tables 12 to\n\n19, the actual measured outer diameter shall\n\nbe within the minimum and maximum\n\ndiameter values specified in Annex B.\n\nFor the tyre sizes listed in Annex B, but ply\n\nb)\n\nrating/and or speed symbol and load -\n\ninflation details are not listed the actual\n\nIS 13154 : 2015\n\nmeasured outer diameter shall be within the\n\nminimum and maximum diameter values\n\nspecified in Annex B.\n\nFor code designated tyres which are not listed\n\nin Annex B, the outer diameter shall be\n\nverified against the specification declared by\n\nthe manufacturer.\n\nFor metric designated tyres which are not\n\nd)\n\nlisted in Annex B, the outer diameter shall be\n\ncalculated using the following formulae:\n\nD=d+ 2 H\n\nwhere\n\n= the outer diameter expressed, in mm;\n\n= the conventional number denoting the\n\nnominal rim diameter expressed, in mm\n\n(see 3.16);\n\nH = the nominal section height, in mm:\n\n= 0.01 × R, × Si\n\nwhere\n\nRa\n\nnominal aspect ratio;\n\nnominal section width, in mm\n\nNOTE  R, and S, are as shown on the sidewall of the tyre in\n\nthe tyre-size designation in conformity with the requirements\n\nof 3.15.\n\nThe outer tyre diameter shall not be outside the\n\nminimum and maximum diameter values obtained\n\nfrom the following formula:\n\nDMin\n\nd+ (2H× a)\n\nd+ (2H× b)\n\nNOTES\n\n\n1 H and d are defined in 4.1.1.2 (d).\n\n\n## 2 Coefficients a and b are respectively:\n\nRadial\n\nDiagonal (Bias)\n\nCategory of Use\n\n0.96\n\n0.96\n\n1.04\n\n1.07\n\nTractor steering wheels\n\n1.07\n\n0.96\n\n1.04\n\n0.96\n\nTractor drive wheels\n\n- - normal\n1.00\n\n1.12\n\n1.00\n\n1.12\n\nTractor drive wheels\n\n- - special\n0.96\n\n1.04\n\n1.07\n\n0.96\n\nImplement\n\n\n### 4.2 Burst Test\n\n\n4.2.1 Burst test is carried out to assess the resistance of\n\ntyre to burst. The burst test shall be carried out on a tyre\n\nin accordance with the method specified in Annex D.\n\n\n4.2.2 A tyre, after undergoing the burst test, shall not\n\nexhibit any tread separation, ply separation, cord\n\nseparation, broken beads or broken cords. The tyre on\n\nwhich burst test has been performed, shall not be used\n\nfor any other test.\n\n\n\n\n### 4.3 Endurance Test (Load/Speed Performance Test)\n\n\n#### 4.3.1 Endurance test (load/speed performance test) is\n\ncarried out to assess the suitability of the tyre for the\n\nclaimed performances. Endurance test (load/speed\n\nperformance test) shall be carried out on a tyre in\n\naccordance with the method specified or described in",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "3",
+      "heading": "3 The actual measured overall width may also exceed the",
+      "heading_path": [
+        "3 The actual measured overall width may also exceed the"
+      ],
+      "char_start": 20300,
+      "char_end": 22959,
+      "semantic_chunk_length": 2659,
+      "final_chunk_length": 2961,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0010",
+    "text": "Speed Performance Test)\n\n\n#### 4.3.1 Endurance test (load/speed performance test) is\n\ncarried out to assess the suitability of the tyre for the\n\nclaimed performances. Endurance test (load/speed\n\nperformance test) shall be carried out on a tyre in\n\naccordance with the method specified or described in\n\n## Annex E.\n\n\n#### 4.3.2 A tyre after undergoing the relevant Endurance\n\ntest (load/speed performance test), shall not exhibit any\n\ntread separation, ply separation, cord separation or\n\nbroken cords. The tyre Endurance test (load/speed\n\nperformance test) has been performed, shall not be used\n\nfor any other test.\n\n\n#### 4.3.3 A tyre which, after undergoing the relevant\n\nEndurance test (load/speed performance test), exhibits\n\nchunking, due to the specific test conditions shall be\n\ndeemed to have passed the test.\n\nNOTE - Where a tyre manufacturer produces a range of\n\ntyres it is not considered necessary to carry out tests on\n\nevery type of tyre in the range.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "ANNEX E",
+      "heading": "Annex E.",
+      "heading_path": [
+        "Annex E."
+      ],
+      "char_start": 22962,
+      "char_end": 23625,
+      "semantic_chunk_length": 663,
+      "final_chunk_length": 965,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0011",
+    "text": "elevant\n\nEndurance test (load/speed performance test), exhibits\n\nchunking, due to the specific test conditions shall be\n\ndeemed to have passed the test.\n\nNOTE - Where a tyre manufacturer produces a range of\n\ntyres it is not considered necessary to carry out tests on\n\nevery type of tyre in the range.\n\n## 5 MARKINGS\n\n\n5.1 Tyres shall be permanently and legibly marked\n\non both sidewall with the following:\n\nThe manufacturer's trade name or mark;\n\na)\n\nb)\n\nThe tyre size designation as defined in 3.14;\n\nc)\n\nAn indication of the structure as follows:\n\nOn diagonal (bias ply) tyres, ‘-' or ‘D';\n\n1)\n\nOn radial-ply tyres, the word 'RADIAL'.\n\n2)\n\nThe ‘service description' as defined in 3.25\n\nd)\n\nIn the case of implement tyre, the service\n\ndescription shall be supplemented with\n\nthe relevant application symbol;\n\nIn the case of implement tyre for mixed\n\napplications the tyre shall be marked with\n\ntwo service descriptions one for ‘trailer'\n\napplications and the other for ‘traction'\n\napplications, each supplemented with the\n\nrelevant symbol (see 3.23 and 3.24) as\n\nfollows:\n\n95A6\n\n10846\n\nOr\n\n108A6\n\n95 A6\n\nThe supplementary service description, if\n\ne)\n\napplicable;\n\nf)\n\nThe inscription ‘DEEP’ (or ‘R-2') in the case\n\nof a special tread tyre (see Annex H):\n\nThe inscriptions ‘F-1' or ‘F-2' in the case of a\n\ng)\n\ntractor steering wheel tyre that is not already\n\nmarked as per 3.14 (v) (see Annex H);\n\nThe inscription ‘IMPLEMENT' in the case\n\nh)\n\nof an implement tyre that is not already\n\nmarked as per 3.15.5. The inscription 'I-3\"\n\nfor implement tyres with traction tread;\n\nThe word ‘TUBELESS' if the tyre is designed\n\nj)\n\nfor use without an inner tube;\n\nOn tractor drive wheel tyres and, if applicable,\n\nk)\n\non implement traction tyres an arrow\n\nindicating the preferred direction of rotation\n\nof the tyre;\n\n1)\n\nThe inscription ‘... kPa Max' inside the\n\npictogram shown in Annex F (Fig. 2 or Fig. 3)\n\nto notify the cold inflation pressure that shall\n\nnot be exceeded for bead seating during tyre\n\nmounting. (At the discretion of the\n\nmanufacturer.)\n\n\n5.2 The tyre shall also be marked with the date of\n\nmanufacture in the form of a group of four digits, the\n\nfirst two showing the week and the last two the year of\n\nmanufacture on at least one side wall. However, this\n\nmarking shall not be mandatory on any tyre submitted\n\nfor approval until two years after the date of entry into\n\nforce of this standard.\n\n\n5.3 All markings shall be clearly and legibly moulded\n\nand produced as part of the process during\n\nmanufacture. The use of branding or other methods of\n\nmarking after completion of the original manufacturing\n\nprocess shall not be permitted.\n\n\n### 5.4 Examples of arrangements of tyre markings are\n\ngiven in Annex A.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "5",
+      "heading": "5 MARKINGS",
+      "heading_path": [
+        "5 MARKINGS"
+      ],
+      "char_start": 23628,
+      "char_end": 26049,
+      "semantic_chunk_length": 2421,
+      "final_chunk_length": 2723,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0012",
+    "text": "s shall be clearly and legibly moulded\n\nand produced as part of the process during\n\nmanufacture. The use of branding or other methods of\n\nmarking after completion of the original manufacturing\n\nprocess shall not be permitted.\n\n\n### 5.4 Examples of arrangements of tyre markings are\n\ngiven in Annex A.\n\n## 6 CRITERIA FOR TYPE APPROVAL/TYPE TEST\n\n\n6.1 Tyre(s) shall meet the test requirements when\n\ntested as per schedule given in Table 7.\n\n\n**Table 7 Type Test Schedule**\n\n(Clause 6.1)\n\n| Sl No. | Tests | Tyre 1 | Tyre 2 |\n|---|---|---|---|\n| (1) | (2) | (3) | (4) |\n| i) | Tyre marking | ü | |\n| ii) | Tyre dimensions | ü | |\n| iii) | Tyre resistance to bursting | ü | |\n| iv) | Endurance test | | ü |\n\n\n\n\n### 6.2 Type Approval Procedure\n\n\n#### 6.2.1 Application for type approval to be submitted\n\nby the manufacturer.\n\n\n6.2.2 Application for type approval shall contain at\n\nleast the technical information as specified in Annex G\n\nNOTE - For type approval of a tyre belonging to one family\n\nof tyres, brand of tyre to be selected for type approval shall be\n\nleft to certifying authority. Worst case selection shall be made\n\nat the discretion of the certifying authority based on the family\n\nof tyres specified in 6.2.5.2\n\n\n#### 6.2.3 Changes in the Technical Specification of\n\nAlready Type Approved Tyres\n\n6.2.3.1 Every functional modification in technical\n\nspecification declared in accordance with 6.2.2 shall\n\nbe intimated to certifying authority.\n\n6.2.3.2 Certifying authority may then consider,\n\nwhether:\n\nTyre with modification complies with\n\na)\n\nspecified requirement or;\n\n- b) Any further verification is required.\nFor considering whether any further verification is\n\nrequired or not (criteria for extension of type approval)\n\nspecified in 6.2.5 shall be used.\n\n6.2.3.3 In case of 6.2.3.2(b), checks for those\n\nparameters which are affected by the modifications\n\nonly need to be carried out.\n\n\n#### 6.2.4 In case of 6.2.3.2 (a) or in the case of 6.2.3.2 (b)\n\nafter successful compliance to the requirements, a\n\ncertificate of compliance shall be validated for the\n\nmodified version, as applicable.\n\n\n#### 6.2.5 Criteria for Extension of Tyre Approval\n\n6.2.5.1 In case the changes cause the tyre to be outside\n\nthe approved family/range of tyres, the verification\n\nshall be carried out for establishing compliance of the\n\nthis standard.\n\n6.2.5.2 Family/Range of tyres would mean tyres,\n\nwhich do not differ in the aspects listed below, but\n\nhaving different brand names/trade name/trade\n\ndescriptions or trade-marks:\n\nRegistered name of company;\n\na)\n\nb)\n\nCountry of origin;\n\nLocation of manufacturing facility;\n\nc)\n\nApplication\n\nd)\n\n(tractor/trailer/\n\ncategory\n\nimplement);\n\nConstruction type (standard or reinforced)\n\ne)\n\nf)\n\nStructure (diagonal or radial);\n\nTyre size designation;\n\ng)\n\nIS 13154 : 2015\n\nSpeed symbol;\n\nh)\n\nj)\n\nTube or tubeless;\n\nLoad index (or load capacity);\n\nk)\n\nm)\n\nPly rating of diagonal ply tyres; and\n\nFabric material  Nylon/Polyester (one\n\nn)\n\ntype).\n\n6.2.5.3 A modification of the tread pattern of the tyre\n\nshall not be considered to necessitate a repetition of\n\nthe tests prescribed in 5.2.\n\n\n### 6.3 Type Approval Procedure for Tyres not Listed in",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "6",
+      "heading": "6 CRITERIA FOR TYPE APPROVAL/TYPE TEST",
+      "heading_path": [
+        "6 CRITERIA FOR TYPE APPROVAL/TYPE TEST"
+      ],
+      "char_start": 26052,
+      "char_end": 28935,
+      "semantic_chunk_length": 2883,
+      "final_chunk_length": 3185,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0013",
+    "text": ";\n\nk)\n\nm)\n\nPly rating of diagonal ply tyres; and\n\nFabric material  Nylon/Polyester (one\n\nn)\n\ntype).\n\n6.2.5.3 A modification of the tread pattern of the tyre\n\nshall not be considered to necessitate a repetition of\n\nthe tests prescribed in 5.2.\n\n\n### 6.3 Type Approval Procedure for Tyres not Listed in\n\n## Annex B\n\n\n#### 6.3.1 Tyre section width and tyre overall diameter\n\nshall be verified as per 4.1.1.1 and 4.1.1.2 against the\n\nspecification declared by the manufacturer.\n\n\n#### 6.3.2 For carrying out the tests of these tyres, the load\n\nand inflation pressures specified by the manufacturer\n\nand marked on the tyre shall be used.\n\n\n## 7 CONFORMITY OF PRODUCTION TESTS/\n\nACCEPTANCE TESTS\n\n\n7.1 Periodic testing of each type of tyre as per the\n\napproved family of tyres in 6.2.5.2 shall be carried\n\nout. The approval marking shall be made only on the\n\ntyres of that approved family and the same shall not\n\nget extended to other families of tyres, unless tyres\n\nfrom out of that has undergone the same testing and\n\ntype approval for that family of tyre.\n\n\n7.2 The tyres approved under this standard shall be\n\nso manufactured as to conform to requirements set\n\nforth in Table 8.\n\n\n**Table 8 Acceptance Test Schedule**\n\n(Clause 7.2)\n\n| Sl No. | Tests | Tyre 1 | Tyre 2 |\n|---|---|---|---|\n| (1) | (2) | (3) | (4) |\n| i) | Tyre marking | ü | |\n| ii) | Tyre dimensions | ü | |\n| iii) | Tyre resistance to bursting | ü | |\n| iv) | Endurance test | | ü |\n\n\n### 7.3 The production and quality assurance system\n\nshall meet all the requirements laid out by the\n\nCertifying Authority.\n\n\n## 8 BIS CERTIFICATION MARKING\n\nThe product may also be marked with the Standard\n\nMark.\n\n\n8.1 The use of the Standard Mark is governed by the\n\nprovisions of the Bureau ofIndian Standards Act, 1986\n\nand the Rules and Regulations made thereunder. The\n\ndetails of conditions under which the licence for the\n\nuse of the Standard Mark may be granted to\n\nmanufacturers or producers may be obtained from the\n\nBureau of Indian Standards.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "ANNEX B",
+      "heading": "Annex B",
+      "heading_path": [
+        "Annex B"
+      ],
+      "char_start": 28938,
+      "char_end": 30642,
+      "semantic_chunk_length": 1704,
+      "final_chunk_length": 2006,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0014",
+    "text": "erned by the\n\nprovisions of the Bureau ofIndian Standards Act, 1986\n\nand the Rules and Regulations made thereunder. The\n\ndetails of conditions under which the licence for the\n\nuse of the Standard Mark may be granted to\n\nmanufacturers or producers may be obtained from the\n\nBureau of Indian Standards.\n\n## ANNEX A\n\n(Clause 5.4)\n\nARRANGEMENT OF TYRE MARKINGS\n\nA-1 DRIVE WHEEL TYRES FOR AGRICULTURAL AND\n\n- b) the service description (load index and the\nFORESTRY TRACTORS\n\nspeed symbol) is placed near the size\n\ndesignation. It may either precede or follow\n\nit or be placed above or below it;\n\n360 / 70 R 24\n\n116 A8\n\n113 B\n\nthe symbols ‘TUBELESS',‘R-2' or :‘DEEP'\n\nthe optional word ‘RADIAL' and the date of\n\nproduction may be at a distance from the size\n\nR-2\n\nTUBELESS.\n\n2506\n\ndesignation; and\n\n- d) t\nthe marking of the additional service\n\nA-1.1 Minimum Heights of Markings ( see Table 9)\n\ndescription inside the circle may show either\n\nthe speed symbol after or below the load\n\n\n**Table 9 Minimum Heights of Markings**\n\nindex.\n\n(Clause A-1.1)\n\nAll dimensions are in millimetres.\n\nA-4 STEERING\n\nAGRICULTURAL TRACTORS\n\nWHEEL\n\nTYRES\n\nFOR\n\nSI Nominal Section\n\nRim Diameter Code\n\nExample of the markings to be borne by types of tyres\n\nNo.\n\nWidth\n\nUp to 12\n\n\n13 to 19.520 and above\n\ncomplying with this standard.\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(4)\n\ni)\n\nUp to 130\n\nb = 4c = 4\n\nb = 6c = 4\n\nb= 9c = 4\n\n250/ 70R 16\n\nFRONT\n\n105 A6-\n\nii)\n\n135 to 235\n\nb = 6c = 4\n\nb = 6c = 4\n\nb= 9c = 4\n\nii)\n\n\n240 and above b= 9c = 4\n\nb= 9c = 4\n\nb = 9c = 4\n\nA-2 These markings define a Drive Wheel tyre:\n\nF-1\n\nTUBELESS\n\n2506\n\na)\n\nhaving a nominal section width of 360;\n\nb)\n\nhaving a nominal aspect ratio of 70;\n\nA-4.1 Minimum Heights of Markings ( see Table 10)\n\nc)\n\nof radial ply structure ( R );\n\n\n**Table 10 Minimum Heights of Markings**\n\nd)\n\nhaving a nominal rim diameter of 610 for\n\n(Clause A-4.1)\n\nwhich the code is 24;\n\nAll dimensions in millimetres.\n\nhaving a load capacity of 1 250 kg\n\ncorresponding to load index 116 shown in\n\nSl Nominal Section\n\nRim Diameter Code\n\n\n**Table 2;**\n\nNo.\n\nWidth\n\nUp to 12\n\n\n13 to 19.520 and above\n\nf)\n\nclassified in the speed symbol A8 (reference\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\nspeed 40 km/h);\n\ni)\n\nUp to 130\n\nb= 4c= 4\n\nb= 6c= 4\n\nb=9c= 4\n\ng)\n\nallowed to be used additionally at 50 km/h\n\nii)\n\n135 to 235\n\nb= 6c = 4\n\nb = 6c = 4\n\nb= 9c= 4\n\n(speed symbol B) with a load capacity of 1\n\nii)\n\n\n240 and above\n\nb= 9c= 4\n\nb= 9c= 4\n\nb= 9c= 4\n\n\n150 kg corresponding to the load index 113\n\nshown in Table 2;\n\nA-5 These markings define a steering wheel tyre:\n\nh)\n\nfor fitting without an inner tube (°tubeless');\n\na)\n\nhaving a nominal section width of 250,\n\nj)\n\nhaving a special tread ('R-2'); and\n\nb)\n\nhaving a nominal aspect ratio of 70,\n\nk)\n\nmanufactured during the twenty-fifth week of\n\nc)\n\nof radial-ply structure ,\n\nthe year 2006 (see 5.2)\n\nhaving a nominal rim diameter of 406 mm,\n\nd)\n\nA-3 The positioning and order of the markings\n\nfor which the code is 16, designed for the\n\nconstituting the tyre designation are as follows:\n\nequipment of non-driven steering axles of\n\na)\n\nthe size designation, comprising the nominal\n\nagricultural tractors (FRONT),\n\nsection width, the nominal aspect ratio, the\n\nhaving load capacities of 925\n\n5 kg,\n\ntype of structure symbol (where applicable)",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 30647,
+      "char_end": 33612,
+      "semantic_chunk_length": 2965,
+      "final_chunk_length": 3267,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0015",
+    "text": "stituting the tyre designation are as follows:\n\nequipment of non-driven steering axles of\n\na)\n\nthe size designation, comprising the nominal\n\nagricultural tractors (FRONT),\n\nsection width, the nominal aspect ratio, the\n\nhaving load capacities of 925\n\n5 kg,\n\ntype of structure symbol (where applicable)\n\ncorresponding to the load index 105 shown\n\nand the nominal rim diameter, shall be\n\nin Table 2.\n\ngrouped as shown in the above example: 360/\n\nf)\n\nclassified in the nominal speed symbol A6\n\n70 R 24;\n\n(reference speed 30 km/h),\n\n\n\n\n\ng)\n\nand\n\nh)\n\nmanufactured during the twenty-fifth week of\n\nthe year 2006 (see 5.2).\n\nA-6 The positioning and order of the markings\n\nconstituting the tyre designation are as follows:\n\nthe size designation, comprising the nominal\n\na)\n\nsection width, the nominal aspect ratio, the\n\ntype of structure symbol (where applicable),\n\nthe nominal rim diameter and, optionally the\n\nletters ‘FRONT', shall be grouped as shown\n\nin the above example: 250/70 R 16 FRONT;\n\nb)\n\nthe service description (the load index and the\n\nspeed symbol) is placed together near the size\n\ndesignation. It may either precede or follow\n\nit or be placed above or below it; and\n\nthe symbol ‘TUBELESS', the optional word\n\n‘RADIAL', the optional symbol ‘F-1', and the\n\ndate of manufacture may be at a distance from\n\nthe size designation.\n\nA-7 IMPLEMENT TYRES\n\nExample of the markings to be borne by types of tyres\n\ncomplying with this standard\n\n95 A6\n\n250/70R20IMP\n\n108 A6\n\n1-3]\n\nTUBELESS\n\n2506\n\nA-7.1 Minimum Heights of Markings ( see Table 11)\n\n\n**Table 11 Minimum Heights of Markings**\n\n(Clause A-7.1)\n\nAll dimensions in millimetres.\n\nSl Nominal Section\n\nRim Diameter Code\n\nNo.\n\nWidth\n\nUp to 12\n\n\n13 to 19.520 and above\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\nUp to 130\n\nb = 6c = 4\n\ni)\n\nb = 4c = 4\n\nb= 9c= 4\n\nii)\n\nb= 9c= 4\n\nb = 6c = 4\n\n135 to 235\n\nb= 6c = 4\n\niii)\n\nb= 9c = 4\n\nb= 9c= 4\n\n\n240 and above\n\nb= 9c= 4\n\n\nIS 13154 : 2015\n\nA-8 These markings define an implement tyre:\n\nhaving a nominal section width of 250;\n\na)\n\nb)\n\nhaving a nominal aspect ratio of 70;\n\nc)\n\nof radial-ply structure (R);\n\nhaving a nominal rim diameter of 508 mm,\n\nd)\n\nfor which the code is 20;\n\ndesigned primarily for the equipment of\n\nimplements, agricultural machinery or\n\nagricultural trailers (IMP);\n\nhaving load capacities of 690 kg\n\nf)\n\ncorresponding to the load index 95 shown in\n\n\n**Table 2 when used on driven axles (traction**\n\napplication), as identified by the appropriate\n\nsymbol;\n\nhaving load capacities of 1000 kg when used\n\ng)\n\non non driven axles (trailer application)\n\ncorresponding to the load index 108 shown\n\nin Table 2, as identified by the appropriate\n\nsymbol;\n\nboth applications being classified in the\n\nh)\n\nnominal Speed symbol A6 (reference speed\n\n30 km/h);\n\nfor fitting without an inner tube ‘tubeless';\n\nj)\n\nand\n\nk)\n\nmanufactured during the twenty-fifth week of\n\nthe year 2006 (see 5.2).\n\nA-9 The positioning and order of the markings\n\nconstituting the tyre designation are as follows:\n\n- a) the size designation, comprising the nominal\nsection width, the nominal aspect ratio, the\n\ntype of structure symbol (where applicable),\n\nthe nominal rim diameter and optionally the\n\nletters ‘IMP' shall be grouped as shown in the\n\nabove example: 250/70 R 20 IMP:\n\nthe service description (the load index and the\n\nb)",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 33614,
+      "char_end": 36604,
+      "semantic_chunk_length": 2990,
+      "final_chunk_length": 3292,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0016",
+    "text": "nation, comprising the nominal\nsection width, the nominal aspect ratio, the\n\ntype of structure symbol (where applicable),\n\nthe nominal rim diameter and optionally the\n\nletters ‘IMP' shall be grouped as shown in the\n\nabove example: 250/70 R 20 IMP:\n\nthe service description (the load index and the\n\nb)\n\nspeed symbol) and the relevant type of\n\napplication symbol are placed together near\n\nthe size designation. They may either precede\n\nor follow it or be placed above or below it:\n\nand\n\nthe symbol ‘TUBELESS', I-3 if any, the\n\noptional word ‘RADIAL', the optional word\n\nIMPLEMENT' and the date of manufacture\n\nmay be at a distance from the size\n\ndesignation.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 36606,
+      "char_end": 36960,
+      "semantic_chunk_length": 354,
+      "final_chunk_length": 656,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0017",
+    "text": "mbol are placed together near\n\nthe size designation. They may either precede\n\nor follow it or be placed above or below it:\n\nand\n\nthe symbol ‘TUBELESS', I-3 if any, the\n\noptional word ‘RADIAL', the optional word\n\nIMPLEMENT' and the date of manufacture\n\nmay be at a distance from the size\n\ndesignation.\n\n## ANNEX B\n\n(Clauses 4.1.1.1 and 4.1.1.2)\n\n\n**Table 12 Agricultural Tyres - Steering Wheel Code Designated Normal Section - Diagonal Ply\nSpeed Symbol A6 General Data and Load, Inflation Pressure Limits**\n\n| Sl No. | Tyre Size Designation | Measuring Rim Width Code | Design Section Width mm | Minimum Section Width mm | Maximum Overall Width mm | Design Overall Dia mm | Minimum Overall Dia mm | Maximum Overall Dia mm | Ply Rating | Load Index | Maximum Load kg | Maximum Cold IP kPa | F-1 | F-2 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) | (11) | (12) | (13) | (14) |\n| i) | 4.00-19 | 3.00 | 112 | 109 | 121 | 712 | 705 | 728 | 4 | 72 | 355 | 340 | 739 |\n| | | | | | | | | | 4 | 64 | 280 | 310 | | |\n| ii) | 4.75-14 | 3.50 | 127 | 122 | 137 | 610 | 602 | 628 | 6 | 72 | 355 | 450 | 640 |\n| iii) | 5.00-15 | 4.00 | 140 | 136 | 151 | 655 | 647 | 674 | 4 | 73 | 365 | 280 | 688 |\n| | | | | | | | | | 4 | 71 | 345 | 310 | | |\n| iv) | 5.25-14 | 4.00 | 145 | 139 | 157 | 646 | 637 | 666 | 6 | 79 | 437 | 450 | 681 |\n| | | | | | | | | | 4 | 78 | 425 | 250 | | |\n| v) | 5.50-16 | 4.00 | 150 | 145 | 162 | 708 | 699 | 729 | 6 | 86 | 530 | 370 | 744 |\n| | | | | | | | | | 4 | 80 | 450 | 230 | | |\n| vi) | 6.00-16 | 4.50 | 165 | 160 | 178 | 732 | 722 | 755 | 6 | 88 | 560 | 340 | 771 |\n| | | | | | | | | | 8 | 94 | 670 | 450 | | |\n| | | | | | | | | | 4 | 85 | 515 | 230 | | |\n| vii) | 6.50-16 | 4.50 | 175 | 170 | 189 | 761 | 750 | 786 | 6 | 91 | 615 | 310 | 804 |\n| | | | | | | | | | 4 | 90 | 600 | 200 | | |\n| viii) | 7.50-16 | 5.50 | 205 | 199 | 221 | 805 | 793 | 833 | 6 | 98 | 750 | 280 | 853 |\n| | | | | | | | | | 8 | 103 | 875 | 370 | | |\n| | | | | | | | | | 4 | 90 | 600 | 230 | | |\n| ix) | 6.50-20 | 5.00 | 180 | 175 | 194 | 868 | 857 | 893 | 6 | 97 | 730 | 310 | 911 |\n| | | | | | | | | | 8 | 102 | 850 | 450 | | |\n\nNOTE — For approved rims see Table 20.\n1) Inflation pressure.\n\n**Table 13 Agricultural Tyres - Drive Wheel (Small Tractor) Code Designated Normal Section - Diagonal Ply Speed Symbol A6 General Data and Load/Inflation Pressure Limits**\n\n| Sl No. | Tyre Size Designation | Measuring Rim Width Code | Design Section Width mm | Minimum Section Width mm | Maximum Overall Width mm | Design Overall Dia mm | Minimum Overall Dia mm | Maximum Overall Dia mm | Ply Rating | Load Index | Maximum Load kg | Maximum Cold IP kPa | Std. | Prem. | R-2 | R-1 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) | (11) | (12) | (13) | (14) | (15) |\n| i) | 5-12 | 4.00 | 128 | 124 | 138 | 551 | 544 | 568 | 4 | 55 | 218 | 240 | 576 | 581 |\n| ii) | 8-18 | 7.00 | 206 | 200 | 222 | 835 | 824 | 861 | 4 | 85 | 515 | 160 | 873 | 880 |\n\nNOTE — For approved rims see Table 21.\n1) Inflation pressure.\n\n\n\n\n**Table 14 Agricultural Tyres - Drive Wheel Code Designated Normal**\n\nSection - Diagonal Ply Speed Symbol A6 General",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 36965,
+      "char_end": 39941,
+      "semantic_chunk_length": 2976,
+      "final_chunk_length": 3278,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0018",
+    "text": "Data and Load/Inflation Pressure Limits\n\nSlTyre Size\n\nMeasuring\n\nNew Tyre  Inflated Dimensions\n\nPly\n\nLoad Maximum Maximum\n\nNo. Designation\n\nRim\n\nDesign Minimum Maximum Design Minimum\n\nMaximum Overall\n\nRating Index\n\nLoad\n\nCold IP1)\n\nWidth\n\nSection\n\nSection\n\nOverall\n\nOverall\n\nOverall\n\nDia, mm\n\nkg\n\nkPa\n\nCode\n\nWidth\n\nWidth\n\nWidth\n\nDia\n\nDia\n\nmm\n\nmm\n\nmm\n\nmm\n\nmm\n\nStd.\n\nPrem.\n\nR-2\n\nR-1\n\nR-1\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n(11)\n\n(12)\n\n(13)\n\n(14)\n\n(15)\n\ni)\n\n8.3-24\n\n7.00\n\n\n\n\n\n\n\n1 034\n\n1 041\n\n\n\n\n\n\n\n\nii)\n\n9.5-24\n\n8.00\n\n\n\n1 050\n\n1 037\n\n\n1 094\n\n1 103\n\n\n\n\n\n1 120\n\n\nii)\n\n8.3-32\n\n7.00\n\n\n\n\n1 195\n\n1 184\n\n\n1 233\n\n1 241\n\n\n\n\n\n\n\n\n\n\niv)\n\n11.2-28\n\n10.00\n\n\n\n\n1 205\n\n1 190\n\n\n1 254\n\n1 264\n\n\n1 120\n\n\n1 320\n\n\n\n\nv)\n\n12.4-24\n\n11.00\n\n\n\n\n1 160\n\n1 144\n\n\n1 215\n\n1 226\n\n\n1 215\n\n\n\n1 450\n\n\n1 030\n\n\n\n1 285\n\n\nvi)\n\n12.4-28\n\n11.00\n\n\n\n\n1 260\n\n1 244\n\n\n1 315\n\n1 326\n\n\n1 550\n\n\n\n\n1 600\n\n\n\n\n1 650\n\nvii)\n\n12.4-36\n\n11.00\n\n\n\n\n1 465\n\n1 448\n\n1 520\n\n1 531\n\n\n\n1 150\n\n1 450\n\n\n\n1 180\n\n\nvii)\n\n12.4-38\n\n11.00\n\n\n\n\n1 515\n\n1 499\n\n\n1 570\n\n1 581\n\n\n1 500\n\n\n1 750\n\n\n\n1 120\n\n\n\n1 450\n\n\nix)\n\n13.6-28\n\n12.00\n\n\n\n\n1 310\n\n1 292\n\n\n1 370\n\n1 382\n\n\n1 650\n\n\n\n\n1 750\n\n\n\n1 800\n\n\n\n1 700\n\n\nx)\n\n13.6-38\n\n12.00\n\n\n\n\n1 565\n\n1 547\n\n1 625\n\n1 637\n\n\n1 950\n\n\n\n\n2 240\n\n\n1 600\n\n\nxi)\n\n14.9-28\n\n13.00\n\n\n\n\n1 365\n\n1 345\n\n\n1 430\n\n1 443\n\n\n\n\n2 000\n\n1 900\n\n\n\n\n2 120\n\n\n\n1 850\n\n\nxii)\n\n16.9-28\n\n15.00\n\n\n\n\n1 435\n\n1 413\n\n\n1 507\n\n1 522\n\n\n\n2 180\n\n2 430\n\n\n\n\n\n2 725\n\n\n\n1 900\n\n\nxiii)\n\n16.9-30\n\n15.00\n\n\n\n\n1 485\n\n1 463\n\n\n1 557\n\n1 572\n\n\n2 300\n\n2 500\n\n\n\n\n2 800\n\n\n\n\n2 900\n\n\nxiv)\n\n18.4-30\n\n16.00\n\n\n\n\n1 550\n\n1 526\n\n\n1 629\n\n1 645\n\n\n\n3 250\n\n\n\n3 450\n\n\nNOTE  For approved rims see Table 21.\n\n- 1) Inflation pressure.\n\n\n\n\n**Table 15 Agricultural Tyres - Drive Wheel Code Designated Normal**\n\nSection - Radial Ply Speed Symbol A6\n\nTyre Size\n\nMeasuring\n\nNew Tyre - Inflated\n\nLoad Maximum Maximum\n\nJNo. Designation Rim Width\n\nDesign Minimum Maximum Design Minimum Maximum Overall Dia\n\nIndex\n\nLoad\n\nCold IP1)\n\nCode\n\nSection\n\nSection\n\nOverall\n\nOverall\n\nOverall\n\nkg\n\nkPa\n\nmm\n\nWidth\n\nWidth\n\nWidth\n\nDia\n\nDia\n\nStd.\n\nPrem.\n\nR-2\n\nmm\n\nmm\n\nmm\n\nR-1\n\nR-1\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n(11)\n\n(12)\n\n(13)\n\n(14)\n\ni)\n\n12.4R28\n\nW11\n\n\n\n\n1 250\n\n1 234\n\n1 272\n\n1 304\n\n1315\n\n\n1 450\n\n\nii)\n\n13.6R28\n\nW12\n\n\n\n\n1 295\n\n1 277\n\n1 318\n\n1 353\n\n1 365\n\n\n1 550\n\n\nii)\n\n14.9R28\n\nW13\n\n\n\n\n1 350\n\n1 324\n\n1 376\n\n1 414\n\n1 427\n\n\n1 800\n\n\niv)\n\n16.9R28\n\nW15\n\n\n\n\n1 420\n\n1 392\n\n1 448\n\n1 491\n\n1 505\n\n\n2 240\n\n\nNOTE  For approved rims, see Table 22.\n\n- 1) Inflation pressure.\n\n**Table 16 Agricultural Tyres - Drive Wheel Metric - Radial Ply Speed Symbol A6**\n\nGeneral Data and Load/Inflation Pressure Limits\n\nTyre Size\n\nMeasuring\n\nNew Tyre  Inflated\n\nLoad Maximum Maximum\n\nNo. Designation\n\nRim\n\nDesign\n\nMinimum Maximum\n\nDesign\n\nMinimum\n\nMaximum\n\nIndex\n\nLoad\n\nCold IP1)\n\nWidth\n\nSection\n\nSection\n\nOverall\n\nOverall\n\nOverall\n\nOverall Dia.\n\nkg\n\nkPa\n\nCode\n\nWidth\n\nWidth\n\nWidth\n\nDia.\n\nDia. mm\n\nmm\n\nmm\n\nmm\n\nmm\n\nStd.\n\nPrem.\n\nR-2\n\nR-1\n\nR-1\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n(11)\n\n(12)\n\n(13)\n\n(14)\n\ni)\n\n240/85R24\n\n8.00",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 39943,
+      "char_end": 42937,
+      "semantic_chunk_length": 2994,
+      "final_chunk_length": 2994,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0019",
+    "text": "n\n\nMinimum\n\nMaximum\n\nIndex\n\nLoad\n\nCold IP1)\n\nWidth\n\nSection\n\nSection\n\nOverall\n\nOverall\n\nOverall\n\nOverall Dia.\n\nkg\n\nkPa\n\nCode\n\nWidth\n\nWidth\n\nWidth\n\nDia.\n\nDia. mm\n\nmm\n\nmm\n\nmm\n\nmm\n\nStd.\n\nPrem.\n\nR-2\n\nR-1\n\nR-1\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n(11)\n\n(12)\n\n(13)\n\n(14)\n\ni)\n\n240/85R24\n\n8.00\n\n1 018\n\n1 002\n\n1 034\n\n1 059\n\n1 067\n\n\nii)\n\n320/85R28\n\n11.00\n\n\n\n\n1 255\n\n1 233\n\n1 277\n\n1 309\n\n1 320\n\n\n1 600\n\n\ni)\n\n340/85R28\n\n12.00\n\n\n\n\n1 289\n\n1 266\n\n1 312\n\n1 347\n\n1358\n\n\n1 750\n\niv)\n\n380/85R28\n\n12.00\n\n\n\n\n1 357\n\n1 331\n\n1 383\n\n1 422\n\n1435\n\n\n2 060\n\nv)\n\n420/85R28\n\n15.00\n\n\n\n\n1 425\n\n1 396\n\n1 454\n\n1 496\n\n1 511\n\n\n2 430\n\nvi)\n\n460/85R30\n\n16.00\n\n\n\n\n1 544\n\n1 513\n\n1 575\n\n1 622\n\n1 638\n\n\n2 900\n\nNOTE  For approved rims, see Table 22.\n\n- 1) Inflation pressure.\n\n**Table 17 Agricultural Tyres - Power Tiller Code Designated Normal**\n\nSection - Diagonal Ply (Maximum Speed 16 km/h)\n\nGeneral Data and Load/Inflation Pressure Limits\n\nSI\n\nTyre Size\n\nMeasuring\n\nNew Tyre  Inflated\n\nPly\n\nLoad Maximum Maximum\n\nNo. Designation\n\nRim\n\nMinimum Maximum\n\nMinimum Maximum\n\nRating\n\nIndex\n\nLoad\n\nCold IP1)\n\nWidth\n\nDesign\n\n1Design\n\nkPa\n\nCode\n\nSection\n\nSection\n\nOverall\n\nOverall\n\nOverall\n\nOverall\n\nkg\n\nWidth\n\nWidth\n\nWidth\n\nDia\n\nDia\n\nDia\n\nmm\n\nmm\n\nmm\n\nmm\n\nmm\n\nmm\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n(11)\n\n(12)\n\n(13)\n\n\n\n\ni)\n\n5.00-14\n\n3.00\n\n\n\n\n\n\n\n\n\n\nii)\n\n6.00-12\n\n4.00\n\n\n\n\n\n\n\n\n\n\nNOTE  For approved rims, see Table 23.\n\n- 1) Inflation pressure.\n\n\n\n\n**Table 18 Agricultural Tyres - Tractor Trailer Code Designated Normal Section - Diagonal Ply (Maximum**\n\nSpeed 30 km/h) General Data and Load/Inflation Pressure Limits\n\nSI\n\nTyre Size\n\nMeasuring\n\nNew Tyre -- Inflated\n\nPly\n\nLoad Maximum Maximum\n\nNo. Designation\n\nRim\n\nMinimum\n\nRating Index\n\nLoad\n\nCold Ip1)\n\nWidth\n\nDesign Minimum Maximum\n\nDesign\n\nMaximum\n\nkg\n\nkPa\n\nCode\n\nSection\n\nSection\n\nOverall\n\nOverall\n\nOverall\n\nOverall\n\nWidth\n\nWidth\n\nWidth\n\nDia, mm\n\nDia, mm\n\nDia, mm\n\nmm\n\nmm\n\nmm\n\nSDC\n\nDIV\n\nStd. Prem.\n\nStd. Prem. Std. Prem.\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n(11)\n\n(12)\n\n(13)\n\n(14)\n\n(15)\n\n(16)\n\n(17)\n\n\n\n1 700\n\n\ni)\n\n7.50-16\n\n6.00\n\n5.50\n\n\n\n\n\n\n\n\n\n\n\n1 850\n\n\n\n1 900\n\n\nii)\n\n9.00-16/5°\n\n6.50\n\n\n\n\n\n\n\n\n\n\n\n2 360\n\n2 300\n\n\n\nii)\n\n9.00-16\n\n6.00\n\n\n\n\n\n\n\n\n\n\n2 300\n\n2 360\n\n\n\nNOTE — For approved rims, see Table 24.\n\n- 1) Inflation pressure.\n\n**Table 19 Implement Tyres - Mixed Applications (Diagonal Ply) General Data and**\n\nLoad/Inflation Pressure Limits\n\nSI\n\nTyre Size\n\nMeasuring\n\nNew Tyre - Inflated Dimensions\n\nPly\n\nLoad\n\nMaximum Maximum\n\nNo. Designation\n\nRim\n\nRating\n\nIndex\n\nLoad\n\nCold Ip1)\n\nWidth\n\nDesign\n\nMinimum Maximum Design Minimum I\n\nMaximum\n\nkg\n\nkPa\n\nCode\n\nSection\n\nSection\n\nOverall\n\nOverall\n\nOverall\n\nOverall\n\nWidth\n\nWidth\n\nWidth\n\nDia\n\nDia\n\nDia\n\nmm\n\nmm\n\nmm\n\nmm\n\nmm\n\nmm\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n(11)\n\n(12)\n\n(13)\n\n5.0-10\n\n\n\n(Traction)\n\n4.00\n\n\n\n\n\n\n\nFree Rolling\n\n\n\n\nWheel\n\n6.50-16\n\n\n\nii)\n\n(Traction)\n\n4.50\n\n\n\n\n\n\n\n\n\n\nDrive\n\n\n\n\nWheel\n\nNOTE  For approved rims, see Table 24.\n\n- 1) Inflation pressure.\n\n**Table 20 Rims for Steering Wheel Tyres**",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 42941,
+      "char_end": 45647,
+      "semantic_chunk_length": 2706,
+      "final_chunk_length": 3008,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0020",
+    "text": "\nmm\n\n(1)\n\n(2)\n\n(3)\n\n(4)\n\n(5)\n\n(6)\n\n(7)\n\n(8)\n\n(9)\n\n(10)\n\n(11)\n\n(12)\n\n(13)\n\n5.0-10\n\n\n\n(Traction)\n\n4.00\n\n\n\n\n\n\n\nFree Rolling\n\n\n\n\nWheel\n\n6.50-16\n\n\n\nii)\n\n(Traction)\n\n4.50\n\n\n\n\n\n\n\n\n\n\nDrive\n\n\n\n\nWheel\n\nNOTE  For approved rims, see Table 24.\n\n- 1) Inflation pressure.\n\n**Table 20 Rims for Steering Wheel Tyres**\n\n| Sl No. | Tyre Section Code | Rim Diameter Code | Approved Rim Contours |\n|---|---|---|---|\n| (1) | (2) | (3) | (4) |\n| i) | 4.00 | 19 | 3.00D |\n| ii) | 4.75 | 14 | 3.00D 3.50D 4.00E |\n| iii) | 5.00 | 15 | 3.00D 4.00E 4J 4 ½ J |\n| iv) | 5.25 | 14 | 3.50D 4.00E 4.50E |\n| v) | 5.50 | 16 | 3.50D 4.00E 4.50E |\n| vi) | 6.00 | 16 | 4.00E 4.50E 5K 5.00F |\n| vii) | 6.50 | 16 | 4.00E 4.50E 5K 5.00F 5.50F |\n| viii) | 7.50 | 16 | 5K 5.00F 5.50F 6.00F |\n| ix) | 6.50 | 20 | 4.00E 5.00F 5.50F |\n\nNOTES\n1 Recommended rim shown in bold.\n2 For a ‘Permitted’ size of rim, the section width and overall width will increase or reduce by 5 mm for every 0.5 inches wider or narrow (nominal) size code, relative to the data tabulated for the ‘Recommended’ rim in the respective general data tables.\n3 Consult tyre/rim manufactures for confirmation of the suitability and strength of the tyre/rim for the intended service.\n\n\n\n\n**Table 21 Drive Wheel Tyres Diagonal Ply**\n\n| Sl No. | Tyre Section Code | Rim Diameter Code | Approved Rim Contours |\n|---|---|---|---|\n| (1) | (2) | (3) | (4) |\n| i) | 5 | 12 | 4JA 4.00B |\n| ii) | 8 | 18 | 5.50F W6 W7 |\n| iii) | 8.3 | 24, 32 | W6 W7 |\n| iv) | 9.5 | 24 | W7 W8 |\n| v) | 11.2 | 28 | W9 W10 |\n| vi) | 12.4 | 24, 28 | W10 W11 |\n| vii) | 12.4 | 36, 38 | W10, W11 DW 11 |\n| viii) | 13.6 | 28, 38 | W11 W12 DW 12 |\n| ix) | 14.9 | 28 | W12 W13 DW15L |\n| x) | 16.9 | 28, 30 | W14L W15L |\n| xi) | 18.4 | 30 | W15L W16L DW16 |\n\nNOTES\n1 Recommended rim shown in bold.\n2 For a ‘Permitted’ size of rim, the section width and overall width will increase or reduce by 5mm for every 0.5 inches wider or narrow (nominal) size code, relative to the data tabulated for the ‘Recommended’ rim in the respective general data tables.\n3 Consult tyre/rim manufactures for confirmation of the suitability and strength of the tyre/rim for the intended service.\n\n\n**Table 22 Drive Wheel Tyres Radial Ply**\n\n| Sl No. | Tyre Section Code | Rim Diameter Code | Approved Rim Contours |\n|---|---|---|---|\n| (1) | (2) | (3) | (4) |\n| i) | 12.4 | 28 | W10 W11 |\n| ii) | 13.6 | 28 | W11 W12 DW 12 |\n| iii) | 14.9 | 28 | W12 W13 DW15L |\n| iv) | 16.9 | 28 | W14L W15L |\n| v) | 240/85 | 24 | W7 W8 |\n| vi) | 320/85 | 28 | W9 W10 W11 |\n| vii) | 340/85 | 28 | W11 W12 |\n| viii) | 380/85 | 28 | W11 W12 W13 |\n| ix) | 420/85 | 28 | W13L W14L W15L |\n| x) | 460/85 | 30 | W14L W15L W16L |\n\nNOTES\n1 Recommended rim shown in bold.\n2 For a ‘Permitted’ size of rim, the section width and overall width will increase or reduce by 5mm for every 0.5 inches wider or narrow (nominal) size code, relative to the data tabulated for the ‘Recommended’ rim in the respective general data tables.\n3 Consult tyre/rim manufactures for confirmation of the suitability and strength of the tyre/rim for the intended service.\n\n\n**Table 23 Implement Tyres Power Tiller Tyres**",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 45649,
+      "char_end": 48487,
+      "semantic_chunk_length": 2838,
+      "final_chunk_length": 3140,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0021",
+    "text": " or narrow (nominal) size code, relative to the data tabulated for the ‘Recommended’ rim in the respective general data tables.\n3 Consult tyre/rim manufactures for confirmation of the suitability and strength of the tyre/rim for the intended service.\n\n\n**Table 23 Implement Tyres Power Tiller Tyres**\n\n| Sl No. | Tyre Section Code | Rim Diameter Code | Approved Rim Contours |\n|---|---|---|---|\n| (1) | (2) | (3) | (4) |\n| i) | 5.00 | 14 | 3.00D 3.50D 4J |\n| ii) | 6.00 | 12 | 4.00E 4.50E |\n\nNOTES\n1 Recommended rim shown in bold.\n2 For a ‘Permitted’ size of rim, the section width and overall width will increase or reduce by 5mm for every 0.5 inches wider or narrow (nominal) size code, relative to the data tabulated for the ‘Recommended’ rim in the respective general data tables.\n3 Consult tyre/rim manufactures for confirmation of the suitability and strength of the tyre/rim for the intended service.\n\n\n\n\n\n**Table 24 Implement Tyres Mixed Application**\n\n| Sl No. | Tyre Section Code | Rim Diameter Code | Approved Rim Contours |\n|---|---|---|---|\n| (1) | (2) | (3) | (4) |\n| i) | 5.0 | 10 | 3.50B,4J |\n| ii) | 6.50 | 16 | 4.00E,4.50E,4½K,5.00F |\n| iii) | 7.50 | 16 | 5.50F Divided 5.50F SDC 6.00G SDC |\n| iv) | 9.00(5°) | 16 | 6.00G 6.50HSDC |\n| v) | 9.00 | 16 | 6.00T |\n\nNOTES\n1 Recommended rim shown in bold.\n2 For a ‘Permitted’ size of rim, the section width and overall width will increase or reduce by 5mm for every 0.5 inches wider or narrow (nominal) size code, relative to the data tabulated for the ‘Recommended’ rim in the respective general data tables.\n3 Consult tyre/rim manufactures for confirmation of the suitability and strength of the tyre/rim for the intended service.\n\n\n## ANNEX C\n\n(Clause 4.1.1)\n\nTEST METHOD FOR MEASURING TYRE DIMENSIONS\n\nC-1 The tyre shall be mounted on the measuring\n\nrim specified by the manufacturer and is inflated to\n\na pressure specified by the manufacturer. To seat the\n\nbeads, the inflation pressure marked on the tyre\n\nsidewalls shall not be exceeded. Having properly\n\nseated tyre beads on the rim, the pressure shall be\n\nadjusted to the value specified for tyre\n\nmeasurements.\n\nC-2 The tyre fitted on its rim is conditioned to the\n\nambient temperature of the laboratory for at least\n\n24 h.\n\nC-3 The pressure shall be readjusted to the value\n\nspecified in C-1.\n\nC-4 The overall width shall be measured by calliper\n\nat six equally-spaced points, accounts being taken of\n\nthe thickness of the protective ribs or bands. The highest\n\nmeasurement so obtained shall be taken as the overall\n\nwidth.\n\nC-5 The outer diameter shall be determined by\n\nmeasuring the maximum circumference and dividing\n\nthe figure so obtained by  (3.1416).",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 48489,
+      "char_end": 50869,
+      "semantic_chunk_length": 2380,
+      "final_chunk_length": 2682,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0022",
+    "text": "lly-spaced points, accounts being taken of\n\nthe thickness of the protective ribs or bands. The highest\n\nmeasurement so obtained shall be taken as the overall\n\nwidth.\n\nC-5 The outer diameter shall be determined by\n\nmeasuring the maximum circumference and dividing\n\nthe figure so obtained by  (3.1416).\n\n## ANNEX D\n\n(Clause 4.2.1)\n\nBURST TEST PROCEDURE\n\nD-1 PREPARING THE TYRE\n\nD-1.1 Mount a new tyre on the test equipment. Wheels\n\nused for the test shall be suitable to withstand, with no\n\ndeformation, the highest value of pressure achievable\n\nduring the test\n\nD-1.2 Carefully centre the tyre beads on the retention\n\ndevice and adjust the outer distance of the tyre beads\n\nto a value corresponding to the width of the rim\n\nspecified by the manufacturer.\n\nD-1.3 Fill the tyre with water taking care that all the\n\nair inside the tyre is expelled.\n\n\nD-2 TEST PROCEDURE\n\nD-2.1 Activate the apparatus and increase the pressure\n\nof the water inside the tyre in order to reach\n\nprogressively the limit given by two and half times the\n\npressure specified by the tyre manufacturer. In no case,\n\nhowever, the limit value shall be lower than 6 bar (600\n\nkPa) or higher than 10 bar (1 000 kPa).\n\nD-2.2 Maintain constant the value of the pressure for\n\nat least 10 min.\n\nD-2.3 Decrease, progressively, the pressure of the\n\nwater to zero and drain the tyre.\n\n\n\nD-2.4 Whilst the pressure of the water inside the tyre\n\nis higher than the ambient pressure, nobody shall\n\nstand inside the test room, which shall be safely\n\nlocked.\n\nD-3 EQUIVALENT TEST METHODS\n\nD-4 If a method other than that described above is\n\nused, its equivalence shall be demonstrated.",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 50872,
+      "char_end": 52208,
+      "semantic_chunk_length": 1336,
+      "final_chunk_length": 1638,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0023",
+    "text": "yre.\n\n\n\nD-2.4 Whilst the pressure of the water inside the tyre\n\nis higher than the ambient pressure, nobody shall\n\nstand inside the test room, which shall be safely\n\nlocked.\n\nD-3 EQUIVALENT TEST METHODS\n\nD-4 If a method other than that described above is\n\nused, its equivalence shall be demonstrated.\n\n## ANNEX E\n\n(Clause 4.3.1)\n\nTEST PROCEDURE FOR ENDURANCE TEST (LOAD/SPEED TEST)\n\nE-1 SCOPE AND RANGE OF APPLICATION\n\nE-1.1 This test procedure is applicable for new tyres\n\ncorresponding to the characteristics specified in E-3.4.\n\nE-1.2 It serves the purpose to assess the suitability of\n\nthe tyre for the claimed performances\n\nE-2 PREPARING THE TYRE\n\nE-2.1 Mount new tyres on the test rim specified by\n\nthe manufacturer. To seat the beads the maximum\n\npressure marked on the tyre sidewalls shall not be\n\nexceeded.\n\nE-2.2 Use a new inner tube when testing tyres with\n\ninner tubes (that is tyres not bearing the marking\n\nTubeless).\n\nE-2.3 With the tyre beads properly seated on the rim.\n\ninflate the tyre to the pressure corresponding to the\n\ntest pressure specified by the tyre manufacturer for the\n\ntype of test programme.\n\nE-2.4 Condition the tyre and wheel assembly at test\n\nroom temperature for at least 3 h\n\nE-2.5 Readjust the tyre pressure to that specified\n\nin E-2.3.\n\nE-2.6 On request of the tyre manufacturer proceed\n\nwith the test programmes as specified in either of the\n\nfollowing:\n\nTest procedure in a laboratory on a test drum\n\na)\n\n(E-3), or\n\nb)\n\nTest procedure on a road using a trailer (E-4).\n\nE-3 TEST PROCEDURE ON A TEST DRUM\n\nE-3.1 Mount the tyre and wheel assembly on the test\n\naxle and press it against the outer face of a smooth\n\npower-driven test drum 1.70 m ±1 percent in diameter\n\nhaving a surface at least as wide as the tyre tread. Drum\n\nwidths narrower than the tyre tread pattern may be used\n\nif the tyre manufacturer so agrees.\n\n\nE-3.2 Test drum speed: 62.5 rev/min.\n\nE-3.3 Apply to test axle a series of masses in\n\naccordance with the load/speed test programme shown\n\nin E-3.4, with reference to the test load which equates:\n\nthe mass corresponding to load index marked on the\n\ntyre in case of tyres marked with speed symbol D.\n\nE-3.4 Load/Speed Test Programme\n\nDuration\n\nTyre Speed Test Step\n\nPercentage of\n\n(h)\n\nCategory\n\nthe Test Load\n\nSymbol\n\n66 %\n\n\n84 %\n\n101 %\n\n\nE-3.5 The tyre pressure shall not be corrected\n\nthroughout the test and the test load shall be kept\n\nconstant throughout each of the three test steps.\n\nE-3.6 During the test the temperature in the test room\n\nanother temperature if the manufacturer so agrees.\n\nE-3.7 The load/speed test programme shall be carried\n\nout without interruption.\n\nE-4 TEST PROCEDURE ON A TRAILER\n\nE-4.1 Mount two new tyres of the same type on a trailer.\n\nE-4.2 Apply on the trailer a mass in order that each\n\ntyre be equally loaded with a test load corresponding\n\nto the load carrying capacity allowed for that tyre type\n\nat 15 km/h.\n\nE-4.3 Run the trailer at a constant speed of 15 ± 1 km/\n\nh for 48 h. Temporary interruptions are allowed, but\n\nthey shall be compensated by an additional run-in of\n\n\n5 min for every 20 min of interruption.\n\nE-4.4 The tyre pressure shall not be corrected and the\n\ntest load shall be kept constant throughout the test.\n\n\n\n\nE-4.5 During the test the ambient temperature shall",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 21,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 52211,
+      "char_end": 55193,
+      "semantic_chunk_length": 2982,
+      "final_chunk_length": 3284,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0024",
+    "text": "porary interruptions are allowed, but\n\nthey shall be compensated by an additional run-in of\n\n\n5 min for every 20 min of interruption.\n\nE-4.4 The tyre pressure shall not be corrected and the\n\ntest load shall be kept constant throughout the test.\n\n\n\n\nE-4.5 During the test the ambient temperature shall\n\nbe between 5°C and 30°C or at another temperature if\n\nthe manufacturer so agrees.\n\nIS 13154 : 2015\n\nE-5 EQUIVALENT TEST METHODS\n\nE-5.1 In case a method other than those described\n\nabove is used, its equivalence shall be\n\ndemonstrated.\n\n\n## ANNEX F\n\n[Clause 5.1(l)]\n\nEXAMPLE OF THE PICTOGRAM TO BE MARKED ON BOTH TYRE SIDEWALLS\n\nOF THE TYRES TO EXPLICIT THE MAXIMUM INFLATION PRESSURE NOT\n\nTO BE EXCEEDED FOR BEAD SEATING DURING TYRE MOUNTING\n\n250 kPa MAX\n\n\n2 mm min (height of lettering)\n\n\n12 mm min for tyre section height ≤ 120 mm\n\n\n18 mm min for tyre section height > 120 mm\n\n\n14 mm min (width of lettering)\n\nThe value of inflation pressure (250 kPa in example) shall be the same as specified by the tyre manufacturer in\n\nitem 18 of Annex G\n\n\n**FIG. 2 PICTOGRAM**\n\n\n\nMinimum height of markings, mm\n\n2 mm, Min.\n\nSAFETY\n\nWARNING:\n\nSERIOUS INJURY MAY\n\nRESULT FROM:\n\n- * EXPLOSION OF TYRE/ RIM ASSEMBLY\nDUE TO IMPROPER MOUNTING. - NEVER\n\nEXCEED 250 kPa MAX. AIR PRESSURE\n\nWHEN SEATING BEADS\n\n- * ALWAYS USE SAFETY CAGE\nFOLLOW\n\nOWNERS' MANUAL\n\n- * ONLY SPECIALLY TRAINEd\nSHOULD\n\nMOUNT TYRES\n\nThe value of inflation pressure (250 kPa in example) shall be the same as specified by the tyre manufacturer in\n\nitem 18 of Annex G.\n\n\n**FIG. 3 SAFETY WARNING**",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 22,
+      "clause": "ANNEX E",
+      "heading": "ANNEX E",
+      "heading_path": [
+        "ANNEX E"
+      ],
+      "char_start": 55195,
+      "char_end": 56445,
+      "semantic_chunk_length": 1250,
+      "final_chunk_length": 1552,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0025",
+    "text": "a MAX. AIR PRESSURE\n\nWHEN SEATING BEADS\n\n- * ALWAYS USE SAFETY CAGE\nFOLLOW\n\nOWNERS' MANUAL\n\n- * ONLY SPECIALLY TRAINEd\nSHOULD\n\nMOUNT TYRES\n\nThe value of inflation pressure (250 kPa in example) shall be the same as specified by the tyre manufacturer in\n\nitem 18 of Annex G.\n\n\n**FIG. 3 SAFETY WARNING**\n\n## ANNEX G\n\n(Clause 6.2.2)\n\nINFORMATION TO BE SUBMITTED FOR TYPE APPROVAL OF TYRES\n\n1.\n\nManufacturer's name and address\n\n11. The load index of the tyre/maximum load\n\n2.\n\nContact No. (Telephone/Mobile)\n\ncarrying capacity (kg) specifying in case of\n\n3.\n\nFAX No.\n\nimplement tyres that for traction (only) and\n\n4.\n\nE-mail address\n\nthat for trailer application, if applicable\n\n5.\n\nContact person/Authorised signatory\n\n12. Whether the tyre is to be fitted with or without\n\nan inner tube\n\nThe tyre size designation as defined in 3.14.\n\n13. Ply-rating number of tyres for (for code\n\n7.\n\nTrade-name or mark\n\ndesignated tyres)\n\n8.\n\nThe category of use as defined in 3.1\n\n14. Overall section width, mm\n\n9.\n\nThe Structure: diagonal ply/radial ply\n\n15. Overall diameter, mm\n\n10. The speed symbol\n\n16. The rim on which the tyre can be mounted\n\n\n\n\n\n17. The rim to be used for measurements and the\n\nrim to be used for tests\n\n18. The cold inflation pressure (in kPa) that shall\n\nnot be exceeded for bead seating during tyre\n\nmounting, as specified by the tyre\n\nmanufacturer for the tyre type\n\nInflation pressure (in kPa) corresponding\n\na)\n\nto maximum load carrying capacity\n\nb)\n\nInflation pressure (in kPa) for tests\n\nInflation pressure\n\nfor\n\n(inkPa)\n\nc)\n\nmeasurements\n\n19. Factor ‘X' referred to in 3.18 in case of\n\nIS 13154 : 2015\n\ntheoretical (imaginary) rim, if applicable\n\n20. Intended for use on (type of vehicle)\n\n21. The supplementary service description, if\n\napplicable\n\n22. Sketch, or a representative photograph, which\n\nidentified the tyre tread pattern. Sketch of the\n\ninflated tyre mounted on the measuring rim\n\nshowing the relevant dimensions. Drawing or\n\nphotographs in triplicate identifying tyre tread\n\npattern side wall marking and relevant\n\ndimensions of inflated tyre mounted on the\n\nmeasuring rim",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 23,
+      "clause": "ANNEX G",
+      "heading": "ANNEX G",
+      "heading_path": [
+        "ANNEX G"
+      ],
+      "char_start": 56448,
+      "char_end": 58248,
+      "semantic_chunk_length": 1800,
+      "final_chunk_length": 2102,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "13154_2015_reff2020_0026",
+    "text": "graph, which\n\nidentified the tyre tread pattern. Sketch of the\n\ninflated tyre mounted on the measuring rim\n\nshowing the relevant dimensions. Drawing or\n\nphotographs in triplicate identifying tyre tread\n\npattern side wall marking and relevant\n\ndimensions of inflated tyre mounted on the\n\nmeasuring rim\n\n## ANNEX H\n\n(Clauses 3.9 and 5.1)\n\nH-1 TYRE CLASSIFICATION CODE (OPTIONAL MARKING)\n\nTyre classification code given in Table 25 shall be used. This is an optional marking.\n\n\n**Table 25 Tyre Classification Code**\n\n(Clauses H-1)\n\n| SI No. | Classification Code | Nomenclature |\n|---|---|---|\n| (1) | (2) | (3) |\n| i) | F-1 | Agricultural tractor steering wheel tyres: single rib tread |\n| ii) | F-2 | Agricultural tractor steering wheel tyres: multiple rib tread |\n| iii) | G-1 | Garden tractor tyres (implement tyres): traction service |\n| iv) | I-3 | Agricultural implement tyres: traction tread |\n| v) | R-1 | Agricultural tractor drive wheel tyres: regular tread |\n| vi) | R-2 | Agricultural tractor drive wheel tyres: cane and rice service (deep tread) |\n| vii) | LS-1 | Logging and Forestry service tyre/regular tread |\n\n\n\n\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote\n\nharmonious development of the activities of standardization, marking and quality certification of goods\n\nand attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form\n\nwithout the prior permission in writing of BIS. This does not preclude the free use, in the course of\n\nimplementing the standard, of necessary details, such as symbols and sizes, type or grade designations.\n\nEnquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed\n\nperiodically; a standard along with amendments is reaffirmed when such review indicates that no changes are\n\nshould ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of\n\n'BIS Catalogue' and 'Standards : Monthly Additions'.\n\nThis Indian Standard has been developed from Doc No.: TED 07 (0812).\n\nAmendments Issued Since Publication\n\nDate of Issue\n\nAmend No.\n\nText Affected",
+    "metadata": {
+      "source": "13154_2015_reff2020.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 25,
+      "clause": "ANNEX H",
+      "heading": "ANNEX H",
+      "heading_path": [
+        "ANNEX H"
+      ],
+      "char_start": 58251,
+      "char_end": 60344,
+      "semantic_chunk_length": 2093,
+      "final_chunk_length": 2395,
+      "standard_no": "IS 13154",
+      "year": "2015",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

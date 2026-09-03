@@ -1,0 +1,360 @@
+[
+  {
+    "id": "19226_2025_0000",
+    "text": "Indian Standard\n\n\nMedia and Entertainment — New Media Services — Vocabulary\n\nICS 01.020\n\n© BIS 2025\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2025 Price Group 7\n\n\n\n\nMedia and Entertainment Services Sectional Committee, SSD 13\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Media and Entertainment Services Sectional Committee has been approved by the Service Sector Division Council.\n\nThe rapid evolution of technology has revolutionized the way we communicate, interact, and consume media. New media services have become an integral part of our daily lives, transforming traditional forms of media and creating innovative platforms for information exchange and entertainment. As these services continue to expand and diversify, the need for a common understanding and standardized terminology has become increasingly important.\n\nNew media services refers to digital and internet-based services that facilitate communication, content creation, distribution, and interaction through modern technology. These services leverage digital platforms such as social media, streaming services, online news portals, mobile applications, and cloud-based solutions to deliver information and entertainment. The examples of new media services include social media platforms (Facebook, Twitter, Instagram, etc), video streaming (YouTube, Netflix, etc), podcasts and web-based radio, online news portals and digital journalism, cloud-based collaboration tools (Google Drive, Slack, etc).\n\nThis standard aims to establish a comprehensive and uniform set of terms and definitions relevant to the field of new media services to facilitate standardization in effective communication among stakeholders, including developers, content creators, service providers, researchers, and consumers.\n\nThe terms defined in this standard cover a wide range of concepts and technologies, reflecting the multifaceted nature of new media services including social media platforms, streaming services, virtual reality environments and interactive applications.\n\nThis standard is intended to serve as a foundational reference for professionals and organizations engaged in the development, delivery, and regulation of new media services. By adopting a common language, we can enhance collaboration, improve interoperability, and drive innovation in this rapidly evolving field.\n\nThe composition of the committee responsible for the formulation of this standard is given in Annex A.\n\nIt is recognized that many terms may have been defined differently in statutes and other official documents. Therefore, these terms should be taken in supplementary to and not in conflict with any definition provided in the existing law.\n\n\n\n\nIndian Standard\n\n\nMEDIA AND ENTERTAINMENT — NEW MEDIA SERVICES —\n\n\nVOCABULARY\n\n\n## 1 SCOPE\n\nThis Indian Standard defines terms and acronyms commonly used in the new media services.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 3001,
+      "semantic_chunk_length": 3000,
+      "final_chunk_length": 3000,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0001",
+    "text": "ese terms should be taken in supplementary to and not in conflict with any definition provided in the existing law.\n\n\n\n\nIndian Standard\n\n\nMEDIA AND ENTERTAINMENT — NEW MEDIA SERVICES —\n\n\nVOCABULARY\n\n\n## 1 SCOPE\n\nThis Indian Standard defines terms and acronyms commonly used in the new media services.\n\n## 2 TERMINOLOGY\n\nFor the purpose of this standard the following terms and definitions shall apply.\n\n\n2.1 A/B Testing (Split Run Testing) — A statistical testing approach that allows testers to determine which of two or more systems or components performs better. It is a randomized experimentation process wherein two or more versions of a variable are shown to different segments of selected users at the same time to determine which version leaves the maximum impact and drives business metrics.\n\n\n### 2.2 Algorithm — Process or set of rules to be followed in calculations or other problem-solving operations.\n\n\n### 2.3 Alt Text (Alternative Text) — Textual description or representation of an image.\n\nNOTES\n\n\n## 1 By storing the description or representation in text format, it is able to be rendered in any available modality.\n\n\n## 2 The main audience of text alternatives are the users of screen reading features including visually impaired users.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 TERMINOLOGY",
+      "heading_path": [
+        "2 TERMINOLOGY"
+      ],
+      "char_start": 3004,
+      "char_end": 3957,
+      "semantic_chunk_length": 953,
+      "final_chunk_length": 1255,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0002",
+    "text": "Textual description or representation of an image.\n\nNOTES\n\n\n## 1 By storing the description or representation in text format, it is able to be rendered in any available modality.\n\n\n## 2 The main audience of text alternatives are the users of screen reading features including visually impaired users.\n\n## 3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.\n\n\n4 Generally, \"text alternative\" is used to refer to any text alternative, while \"alternative text\" is used to refer to text alternatives for images that are contained in attributes of an image.\n\n\n2.4 Application Programming Interface (API) — The interface between application software and application platform, across which all services are provided.\n\n\n### 2.5 Array — Ordered list of elements where all elements are of the same type.\n\n\n### 2.6 Artificial Intelligence (AI) — Capability of an engineered system to acquire, process and apply knowledge and skills.\n\n\n### 2.7 AI Downstream Data — Data produced as a result of the output of an artificial intelligence.\n\n\n2.8 AI Record-Keeping — AI record-keeping refers to the systematic process of documenting and maintaining records related to the development, deployment, and operation of artificial intelligence systems including use of copyrighted material as part of the upstream data as well as downstream data.\n\n\n2.9 AI Transparency — Transparency in AI includes providing clarity and disclosing details regarding the source, functioning, decision-making processes, and data usage of an artificial intelligence system to the relevant stakeholders.\n\n\n2.10 AI Upstream Data — Data that is collected, processed, or generated before it is used directly in the training or operation of an artificial intelligence (AI) system for making such AI more reliable and effective.\n\n\n### 2.11 Audience — Individual or group of individuals who have gathered to read, listen, watch or see an event or object.\n\n\n### 2.12 Augmented Commerce — Integration of augmented reality (2.13) technology into e- commerce experiences to enhance product visualization, try-on experiences, and shopping interactions.\n\n\n### 2.13 Augmented Reality (AR) — Virtual objects superimposed upon or composited with the real world.\n\nNOTE — Virtual and real-world objects co-exist in augmented reality systems.\n\n\n2.14 Avatar — Entity that can be used as a (visual) representation of the user inside the virtual environments.\n\n\n### 2.15 Back End — Part of a back-office system interfacing to one or more front end (2.67).\n\n\n### 2.16 Blockchain — Distributed ledger with confirmed blocks organized in an append-only, sequential chain using cryptographic links.\n\n\n\n\n### 2.17 Blockchain Technology — Technology that enables the operation and use of blockchains (2.16).\n\n\n2.18 Blog — Web page on a particular topic or subject, published by individual, groups or corporations to record their activities, thoughts or beliefs including in the form of short articles, texts, image or video.\n\n\n2.19 Boosted Post — A social media post for which the user pays the social media platform for the post to reach their followers, a recommended audience, or a targeted audience as requested by the user.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image."
+      ],
+      "char_start": 3960,
+      "char_end": 6892,
+      "semantic_chunk_length": 2932,
+      "final_chunk_length": 3234,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0003",
+    "text": " activities, thoughts or beliefs including in the form of short articles, texts, image or video.\n\n\n2.19 Boosted Post — A social media post for which the user pays the social media platform for the post to reach their followers, a recommended audience, or a targeted audience as requested by the user.\n\n### 2.20 Bot — Autonomous software that operates as an agent for a user or a program or simulates a human activity.\n\n\n### 2.21 Breadcrumbs — Displayed series of hyperlinks which lead from the home page to the current page, allowing the user to return to previously viewed pages.\n\n\n### 2.22 Business-to-Business (B2B) — A business model in which a business wishes to communicate with another business.\n\n\n### 2.23 Business-to-Consumer (B2C) — A business model in which a business wishes to communicate directly with consumer.\n\n\n### 2.24 Call to Action (CTA) — Digital marketing term that marketers use to prompt an action and/or a response from consumers.\n\nNOTE — Marketers use CTA to encourage consumers to take immediate action toward the purchase of their goods or services.\n\n\n### 2.25 Caption — Text accompanying an illustration and explaining the subject represented also giving any legally required credits.\n\n\n2.26 Carousel — A website element that displays the information in a set of elements that move in a stepwise or smooth manner around a central axis that the user can slide, fade or move into view. It can be a slideshow of images, texts, videos, or a combination.\n\n\n### 2.27 Chatbot — A software applications or web interface that help customers by automating conversations and interact with them through messaging platforms on behalf of a business.\n\n\n### 2.28 Check-in — A way of location tagging a social media post to indicate where the user is, or where the\n\ncontent in the post was created.\n\n\n### 2.29 Clickbait — Content whose main purpose is to attract attention and encourage visitors to click on a link to a particular web page.\n\n\n### 2.30 Clickthrough Rate (CTR) — Ratio of the number of clicks that an advertisement receives to the number of times the advertisement is shown.\n\n\n### 2.31 Cloud Computing — Paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self- service provisioning and administration on-demand.\n\n\n2.32 Cloud Gaming — Gaming services that stream video games from remote servers over the internet to players' devices, eliminating the need for high-end hardware and allowing access to a library of games on demand.\n\n\n### 2.33 Community — A group of persons or social media users who have a common interest and convene towards that specific goal or interest on a particular social media platform.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "2.20",
+      "heading": "2.20 Bot — Autonomous software that operates as an agent for a user or a program or simulates a human activity.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.20 Bot — Autonomous software that operates as an agent for a user or a program or simulates a human activity."
+      ],
+      "char_start": 6895,
+      "char_end": 9294,
+      "semantic_chunk_length": 2399,
+      "final_chunk_length": 2701,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0004",
+    "text": "et to players' devices, eliminating the need for high-end hardware and allowing access to a library of games on demand.\n\n\n### 2.33 Community — A group of persons or social media users who have a common interest and convene towards that specific goal or interest on a particular social media platform.\n\n### 2.34 Community Management — The practice of managing and nurturing online communities around a brand, product, or topic.\n\n\n2.35 Content Curation — The process of gathering content relevant to a particular topic or area of interest of the user, usually with the intention of adding value through the process of selecting, organizing, positioning and repositioning the content in a way that the user may find important or useful.\n\n\n2.36 Content Management System (CMS) — System that makes components available for reuse and linking to build content objects and deconstructs large content objects into components that can be individually managed.\n\n\n2.37 Content Marketing — A marketing strategy used by businesses to educate, inform, entertain, attract, engage, and retain customers, prospects, and generic social network users by creating and sharing relevant articles, videos, podcasts, and other media.\n\n\n### 2.38 Content Monetization — Strategies and methods used to generate revenue from digital content.\n\n\n### 2.39 Content Object — Self-contained unit of content.\n\n\n\n\n### 2.40 Conversion Rate (CVR) — The number of visitors to a website that complete a desired goal (a conversion) out of the total number of visitors.\n\n\n2.41 Cookie — Small piece of information (programme code) that is stored on a browser for the purpose of identifying that browser during audience activity and between visits or sessions.\n\n\n2.42 Cost Per Click (CPC) — An advertising metric that is used to calculate how much an advertiser has to pay to a publisher when the ad is clicked.\n\n\n2.43 Cost Per Mille (CPM) — An advertising metric that is used to calculate the cost an advertiser pays for one thousand views or impressions of an advertisement.\n\n\n### 2.44 Crawler — Any automated software programme or script which visits websites and systematically retrieves information from them, often to provide indexes for search engines.\n\n\n### 2.45 Cross-Device Tracking — Tracking and attributing user interactions across multiple devices and platforms to provide a cohesive user experience.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "2.34",
+      "heading": "2.34 Community Management — The practice of managing and nurturing online communities around a brand, product, or topic.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.34 Community Management — The practice of managing and nurturing online communities around a brand, product, or topic."
+      ],
+      "char_start": 9297,
+      "char_end": 11364,
+      "semantic_chunk_length": 2067,
+      "final_chunk_length": 2369,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0005",
+    "text": "ftware programme or script which visits websites and systematically retrieves information from them, often to provide indexes for search engines.\n\n\n### 2.45 Cross-Device Tracking — Tracking and attributing user interactions across multiple devices and platforms to provide a cohesive user experience.\n\n### 2.46 Crowdsourcing — Collection of information, opinions, or work, usually sourced via the Internet by enlisting the services of a large group of people either paid or unpaid.\n\n\n2.47 Dark Post — A social media post promoted as an advertisement that doesn't appear on the user’s timeline or feed and only shows up on the timeline of the users it is targeted to.\n\n\n2.48 Dark Social — The practice of sharing content that cannot be tracked by web analytics tools. Such content is generally shared via email or private messaging apps that cannot be attributed to a known source by web analytics.\n\n\n2.49 Database — Collection of machine-readable information organized so that it can be easily accessed, managed and updated.\n\n\n2.50 Data Mining — Computational process that identifies patterns by analyzing quantitative data from different perspectives and dimensions, categorizing it, and summarizing potential relationships and impacts.\n\n\n### 2.51 Data Visualization — The graphical representation of data to communicate information,\n\nIS 19226 : 2025\n\npatterns, and insights more effectively.\n\n\n### 2.52 Digital Asset Management (DAM) — The organization, storage, and distribution of digital assets such as images, videos, and documents in a centralized system.\n\n\n### 2.53 Digital Marketing — Use of websites, apps, mobile devices, social media, search engines, and other digital means to promote and sell products and services.\n\n\n### 2.54 Digital Out-of-Home Advertising (DOOH) — Advertising displayed on digital screens or signage in public locations, often with dynamic and interactive content.\n\n\n2.55 Digital Rights Management (DRM) — A set of technologies and standards used to protect digital content from unauthorized access and usage. DRM systems control the access and usage rights of digital content, ensuring that only authorized users can consume the content according to the terms set by the content provider.\n\n\n### 2.56 Direct Message (DM) — A private form of communication between social media users that is only visible to the sender and recipient(s).",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "2.46",
+      "heading": "2.46 Crowdsourcing — Collection of information, opinions, or work, usually sourced via the Internet by enlisting the services of a large group of people either paid or unpaid.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.46 Crowdsourcing — Collection of information, opinions, or work, usually sourced via the Internet by enlisting the services of a large group of people either paid or unpaid."
+      ],
+      "char_start": 11367,
+      "char_end": 13433,
+      "semantic_chunk_length": 2066,
+      "final_chunk_length": 2368,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0006",
+    "text": "access and usage rights of digital content, ensuring that only authorized users can consume the content according to the terms set by the content provider.\n\n\n### 2.56 Direct Message (DM) — A private form of communication between social media users that is only visible to the sender and recipient(s).\n\n### 2.57 Disappearing Content — Posts on social media that delete themselves automatically after they’ve been viewed by the target user or after a predetermined time lapse.\n\n\n2.58 Domain — Internet space occupied by a certain provider, internet offer or user. A domain, or domain name, is a website address on the internet that specifies where the browser should go to look for information.\n\n\n2.59 Dynamic Creative Optimization (DCO) — A technology-driven approach to digital advertising that automatically generates and serves personalized ad creative based on user data, preferences, and context.\n\n\n2.60 E-book (Electronic Book) — Digital document in which searchable text and/or images is prevalent, and which can be seen in analogy to a print book or pamphlet.\n\n\n2.61 Emoji — A pictogram, logogram, ideogram or smiley embedded in text and used in electronic media. The primary function of emoji is to fill in emotional cues otherwise missing from typed conversation.\n\n\n\n\n### 2.62 Engagement Rate — Quantitative measure of the amount of interaction a social media content earns relative to its reach or followers or audience size.\n\nNOTE — Interactions can include reactions, likes, comments, shares, saves, direct messages, mentions, click- throughs and more (depending on the social network). It may be calculated in percentage as (number of people who engaged with your post/number of people who saw your post) × 100.\n\n\n### 2.63 Ephemeral Content — The content on social media platforms that disappear permanently after a set period of time.\n\n\n### 2.64 Feed — An updated list of all the new content posted by the accounts a user follows on social media, and may include suggested content.\n\n\n### 2.65 File Transfer Protocol — Protocol for transferring files between a server and clients.\n\n\n2.66 Follower — A user on social media who has subscribed to another social media account to see the items they upload on their account. The account may be representing an individual, company, group etc.\n\n\n### 2.67 Front End — The part of the web that users interact with.\n\n\n### 2.68 Gamification — Integrating game elements such as points, badges, and leaderboards into non- game contexts to increase engagement and motivation.\n\n\n### 2.69 Geotargeting — The technique of adjusting contents and/or advertisements based on the geographical location of the user.\n\n\n### 2.70 Graphics Interchange Format — File format for storage of digital color images and short animations.\n\n\n### 2.71 Hashtag — A way of connecting your posts on social media to other posts on the same subject or trending topics to help people easily discover what others are saying about a specific topic.\n\n\n### 2.72 Header Image — The visual placed at the top of a social media profile.\n\n\n2.73 Heatmap — An analytical tool of how visitors to a site interact while on the site. Heat mapping assists in collecting visitor behavior data that allows to better design and optimize their website.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "2.57",
+      "heading": "2.57 Disappearing Content — Posts on social media that delete themselves automatically after they’ve been viewed by the target user or after a predetermined time lapse.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.57 Disappearing Content — Posts on social media that delete themselves automatically after they’ve been viewed by the target user or after a predetermined time lapse."
+      ],
+      "char_start": 13436,
+      "char_end": 16387,
+      "semantic_chunk_length": 2951,
+      "final_chunk_length": 3253,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0007",
+    "text": "pecific topic.\n\n\n### 2.72 Header Image — The visual placed at the top of a social media profile.\n\n\n2.73 Heatmap — An analytical tool of how visitors to a site interact while on the site. Heat mapping assists in collecting visitor behavior data that allows to better design and optimize their website.\n\n### 2.74 Hosting Provider — A hosting provider provides space on their server for others to host\n\ndata/information.\n\n\n2.75 Iframe — A rectangular region within the document in which the browser can display a separate document, including scrollbars and borders. Iframes are used commonly to embed content from one source onto another web page.\n\n\n### 2.76 Impressions — A social media metric that measures how many times your post has appeared before audience.\n\n\n### 2.77 Indexing — The organization of information that occurs after crawling which allows pages to be seen on search engines.\n\n\n2.78 Influencers — Persons or groups that are not directly related to the acquisition or use of the product, but, who can affect the course of the project, positively or negatively, due to their position in the customer organization.\n\n\n### 2.79 Insights — Valuable analytics about business pages and how they are performing compared to similar competitor pages.\n\n\n### 2.80 Internet — Worldwide interlinked computer systems and networks connected by gateways that enable the transfer of data between them.\n\n\n2.81 Internet of Things (IoT) — Infrastructure of interconnected objects, people, systems, and information resources together with intelligent services to allow them to process information of the physical and the virtual world and react.\n\n\n### 2.82 Keywords — A word, or phrase marketers use in page and marketing content and search engines recognize keywords in browsers to search items.\n\n\n### 2.83 Live Streaming — Way that uses network technology or streaming media technology to transmit the audio/video over the internet in real- time without first being recorded and stored.\n\n\n### 2.84 Lurker — Users who read discussion threads on message boards, social networks without any engagement.\n\n\n### 2.85 Machine Learning — Process by which a functional unit improves its performance by acquiring new knowledge or skills, or by reorganizing existing knowledge or skills.\n\n\n### 2.86 Mashup — Mixing multiple media files drawn from different sources to create new work.\n\n\n\n\n### 2.87 Meme — Funny pieces of text, videos, or images used on social media that let users get in on the joke by creating their own variations and sharing them.\n\n\n### 2.88 Mention — Online references including to brand, product, company or user.\n\n\n2.89 Meta Tags — HTML snippets added to a web page’s code for web crawlers and search engines to better recognize the page content. It is visible to users on source code but not on web page.\n\n\n### 2.90 Metrics — Analytics that measure the performance of your posts, advertisements, or overall social account on a company's revenue.\n\n\n### 2.91 Microtargeting — Targeting highly specific segments of an audience based on granular demographic, psychographic, or behavioral data.\n\n\n### 2.92 Mirror Site — Duplicate copy of a website maintained on a different host typically to provide redundancy, higher performance, or local access.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "2.74",
+      "heading": "2.74 Hosting Provider — A hosting provider provides space on their server for others to host",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.74 Hosting Provider — A hosting provider provides space on their server for others to host"
+      ],
+      "char_start": 16390,
+      "char_end": 19338,
+      "semantic_chunk_length": 2948,
+      "final_chunk_length": 3250,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0008",
+    "text": "e.\n\n\n### 2.91 Microtargeting — Targeting highly specific segments of an audience based on granular demographic, psychographic, or behavioral data.\n\n\n### 2.92 Mirror Site — Duplicate copy of a website maintained on a different host typically to provide redundancy, higher performance, or local access.\n\n### 2.93 Mixed Reality (MR) — Merging of real and virtual worlds to generate new environments where physical and synthetic objects co-exist and interact.\n\n\n### 2.94 Mix n Minglers — People who regularly share and interact with a diverse group of connections via social media.\n\n\n### 2.95 Navigation — Process of accessing on-screen information by moving between different locations in a website or electronic document.\n\n\n### 2.96 Newsjacking — The practice of taking advantage of current events or news stories in such a way as to promote or advertise one's product or brand or social media content.\n\n\n2.97 Niche Community Building — The process of creating and fostering online communities focused on specific interests, topics, or demographics, allowing members to connect, share, and engage with like-minded individuals.\n\n\n2.98 Non-interactive streaming — Programmed streaming services that does not allow individual users to select preference or interact with content, for example, pause, skip, or move forwards or backwards through the stream.\n\n\n### 2.99 Omnichannel Marketing — A multichannel approach to marketing that provides a seamless and integrated experience across all channels and\n\nIS 19226 : 2025\n\ntouchpoints.\n\n\n### 2.100 Online Advertising — Online advertising is the promotion of products, services, or brands through digital media on the internet.\n\n\n### 2.101 Online Traffic — Number of visitors that visit a website.\n\n\n### 2.102 Onlookers — Social media users who log in regularly to observe social activity but they post infrequently.\n\n\n### 2.103 Organic Reach — A social media metric that shows the number of unique users who have seen others social media post without getting paid for to see it.\n\n\n### 2.104 Over-The-Top (OTT) Media Services — Streaming services that deliver audio/video content over the internet.\n\n\n2.105 Pay-Per-Click (PPC) — An online advertising model where advertisers pay a fee each time their ad is clicked, commonly used in search engine marketing and display advertising to drive traffic to websites.\n\n\n2.106 Permalink — URL that is intended to remain unchanged for a long time.\n\n\n2.107 Podcast — A series of digital media files (audio/video), that are released episodically and often transmitted over the Internet.\n\n\n### 2.108 Promoted Post — A specific kind of promotion to boost viewership of a content.\n\n\n### 2.109 Reach — The sum of all unique users who have received and/or viewed the content or advertisement.\n\n\n2.110 Really Simple Syndication (RSS) — A way for users to keep track of updates to multiple websites (news sites, blogs, and more) are tracked together, in an easily viewable format, as opposed to having to manually check in on every single site individually.\n\n\n2.111 Responsiveness — A web design feature using which content can be shown on a browser correctly regardless of screen size or device.\n\n\n### 2.112 Retargeting — Targeting content at users who have already interacted with your brand or website or content.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "2.93",
+      "heading": "2.93 Mixed Reality (MR) — Merging of real and virtual worlds to generate new environments where physical and synthetic objects co-exist and interact.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.93 Mixed Reality (MR) — Merging of real and virtual worlds to generate new environments where physical and synthetic objects co-exist and interact."
+      ],
+      "char_start": 19341,
+      "char_end": 22328,
+      "semantic_chunk_length": 2987,
+      "final_chunk_length": 3289,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0009",
+    "text": "eck in on every single site individually.\n\n\n2.111 Responsiveness — A web design feature using which content can be shown on a browser correctly regardless of screen size or device.\n\n\n### 2.112 Retargeting — Targeting content at users who have already interacted with your brand or website or content.\n\n### 2.113 Rich Media Advertisements — Interactive and engaging digital advertisements that go beyond static text or images, often incorporating features such as video, animation, audio, and interactivity.\n\n\n### 2.114 Robots.txt — A text file stored on a website’s server that allows you to specifically allow (or disallow) certain files and folders from being accessed by web crawlers.\n\n\n### 2.115 Search Engine Marketing — The practice of increasing visibility on search engines through paid advertisements or by optimizing its ranking.\n\n\n### 2.116 Search Engine Optimization (SEO) — Process of improving the visibility of a website or webpage on a search engine.\n\n\n### 2.117 Sentiment Analysis — Retrieving insights about customer perception of a product, service, or brand.\n\n\n### 2.118 Shoppable Posts — Social media posts (such as images or videos) that include tagged products with clickable links, enabling users to make purchases.\n\n\n### 2.119 Site Map — Textual or graphical overview of the navigation structure of a website.\n\n\n### 2.120 Social Commerce — The integration of social media and e-commerce, allowing users to discover, research, and purchase products directly within social media platforms.\n\n\n### 2.121 Social Listening — A software that gathers mentions, comments, hashtags, and relevant posts from across social media to provide insights on what users are talking about and how.\n\n\n2.122 Social Media — Online technologies and practices that people use to share opinions, insights, experiences and perspectives with each other, transforming traditional one-to-many interactions into many-to-many interactions.\n\n\n### 2.123 Social Media Management — The process of creating, scheduling, and analyzing content on social media platforms to achieve marketing and communications goals.\n\n\n### 2.124 Social Media Management Tool — Software platforms or applications that help businesses manage, monitor, schedule, and analyze their social media accounts and activities from a single dashboard.\n\n\n2.125 Social Media Platform — Intermediary which primarily or solely enables online interaction between two or more users and allows them to create, upload, share, disseminate, modify or access information using its services.\n\n\n### 2.126 Social Selling — Process of using social media to make sales.\n\n\n### 2.127 Sponsored Content — Content created or curated by a brand that is paid for and promoted on digital platforms.\n\n\n### 2.128 Subscription Services — Business models where customers pay a recurring fee at regular intervals (for example, monthly or annually) to access products, services, or content.\n\n\n### 2.129 Targeting — A social media advertising term that refers to how you select the potential audience for your advertisements.\n\n\n### 2.130 Thread — A series of comments or conversations happening on discussion forums.\n\n\n### 2.131 Trending — Content that is popular on social media platform.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "2.113",
+      "heading": "2.113 Rich Media Advertisements — Interactive and engaging digital advertisements that go beyond static text or images, often incorporating features such as video, animation, audio, and interactivity.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.113 Rich Media Advertisements — Interactive and engaging digital advertisements that go beyond static text or images, often incorporating features such as video, animation, audio, and interactivity."
+      ],
+      "char_start": 22333,
+      "char_end": 25247,
+      "semantic_chunk_length": 2914,
+      "final_chunk_length": 3216,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0010",
+    "text": "t.\n\n\n### 2.129 Targeting — A social media advertising term that refers to how you select the potential audience for your advertisements.\n\n\n### 2.130 Thread — A series of comments or conversations happening on discussion forums.\n\n\n### 2.131 Trending — Content that is popular on social media platform.\n\n### 2.132 UGC Sharing Platforms — Platforms that actively facilitate sharing of user generated content and enables such users of uploaded content.\n\n\n### 2.133 Uniform Resource Locator (URL) — Mechanism for identifying resources on the Internet (such as web pages) by specifying the address of the resource and the access protocol used.\n\nNOTE — The term as specified by the IETF is uniform resource identifier (URI) of which URL is a subset.\n\n\n### 2.134 User Experience (UX) — Users perceptions and interactions resulting from the use of a product, system or service.\n\n\n### 2.135 User Generated Content (UGC) — Content created and shared online by users.\n\n\n### 2.136 User Interface (UI) — Set of all components of an interactive system that provide information and controls for the user to accomplish specific tasks with the interactive system.\n\n\n2.137 User Profile — Set of attributes that are unique to a specific user or user group, such as job function or subscription to a service, used to control the parts of the system or web page that users can access.\n\n\n\n\n2.138 Video Marketing — Marketing strategies and campaigns that leverage video content to attract, engage, and convert audiences, often distributed through social media, websites, and video-sharing platforms.\n\n\n### 2.139 Video on Demand (VOD) — A media distribution model that allows users to access and watch video content whenever they choose, rather than at scheduled broadcast times.\n\n\n### 2.140 Viral Content — Content that spreads exponentially on social media.\n\n\n### 2.141 Viral Marketing — Promotional strategy that uses social media to make any content go viral.\n\n\n2.142 Virtual — Pertaining to a functional unit that appears to be real, but whose functions are accomplished by other means.\n\n\n2.143 Virtual Reality (VR) — Set of artificial conditions created by computer and dedicated electronic devices that simulate visual images and possibly other sensory information of a user’s surrounding with which the user is allowed to interact.\n\n\n### 2.144 Voice Assistants — Virtual assistants that respond to voice commands and perform tasks or provide information, such as Siri, Alexa, and Google Assistant.\n\n\n2.145 Voice Search Optimization — The process of optimizing digital content (such as websites and apps) to improve visibility and ranking in voice search results, often using natural language processing and conversational keywords.\n\n\n2.146 Wearable Technology — The technology used in electronic devices worn as accessories or embedded into clothing or accessories that can collect data, provide and share information, or perform tasks, such as fitness trackers and smartwatches.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "2.132",
+      "heading": "2.132 UGC Sharing Platforms — Platforms that actively facilitate sharing of user generated content and enables such users of uploaded content.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.132 UGC Sharing Platforms — Platforms that actively facilitate sharing of user generated content and enables such users of uploaded content."
+      ],
+      "char_start": 25250,
+      "char_end": 27910,
+      "semantic_chunk_length": 2660,
+      "final_chunk_length": 2962,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0011",
+    "text": "ral language processing and conversational keywords.\n\n\n2.146 Wearable Technology — The technology used in electronic devices worn as accessories or embedded into clothing or accessories that can collect data, provide and share information, or perform tasks, such as fitness trackers and smartwatches.\n\n### 2.147 Web 2.0 — Loosely defined model of interactive internet services and information sharing.\n\n\n2.148 Web 3.0 — Version of the internet following Web 2.0 which rather than simply connecting internet addresses and data in their formal form additionally does effect data linking through and in favour of their semantic content or meaning thus providing enriched and enlarged information answering requests.\n\nIS 19226 : 2025\n\n\n2.149 Web Browser — Application allowing a person to retrieve and read hypertext, to view the contents of hypertext nodes (webpages), to navigate from one web page to another, and to interact with the content, such as changing the visual appearance of the displayed content.\n\n\n### 2.150 Web Crawler — A computer program or application that downloads and indexes content from all over the Internet.\n\n\n2.151 Web Hosting — A service that allows hosting/post-web-server applications (website or web page) on a computer system through which clients can have easy access to electronic content on the Internet.\n\n\n2.152 Web Page — Coherent presentation of a set of content objects and associated interaction objects delivered to users through a browser in accordance with Internet protocols.\n\n\n### 2.153 Web Server — Computer software and underlying hardware used to store, process and deliver web pages to clients.\n\n\n### 2.154 Website — Collection of logically connected web pages managed as a single entity.\n\nNOTE — A website may contain one or more subordinate websites.\n\n\n### 2.155 Website Owner — Organization responsible for the site content and site design.\n\nNOTE — The website owner may select a supplier as the website provider or may also be the website provider\n\n\n### 2.156 Website Provider — Organization responsible for operation of the website and delivery of site content to users.\n\nNOTE — The website provider may also be the site owner, webmaster, site designer, or the internet service provider for the site.\n\n\n2.157 Widget — Self-contained entity, with extensive communication capabilities, within a rich media user interface, composed of a manifest and associated resources, including scene descriptions for the full and simplified representations and context information.\n\n\n### 2.158 Wireframe — A two-dimensional illustration of a user interface that specifically focuses on space allocation and prioritization of content, functionalities available, and intended behaviors.\n\nNOTE — Wireframes typically do not include any styling, color, or graphics.",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "2.147",
+      "heading": "2.147 Web 2.0 — Loosely defined model of interactive internet services and information sharing.",
+      "heading_path": [
+        "3 Text alternatives are often provided to screen reader users in the form of primary and secondary alternative texts of an image.",
+        "2.147 Web 2.0 — Loosely defined model of interactive internet services and information sharing."
+      ],
+      "char_start": 27913,
+      "char_end": 30407,
+      "semantic_chunk_length": 2494,
+      "final_chunk_length": 2796,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19226_2025_0012",
+    "text": "context information.\n\n\n### 2.158 Wireframe — A two-dimensional illustration of a user interface that specifically focuses on space allocation and prioritization of content, functionalities available, and intended behaviors.\n\nNOTE — Wireframes typically do not include any styling, color, or graphics.\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 13 (26200).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19226_2025.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 30412,
+      "char_end": 31848,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19226",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

@@ -1,0 +1,354 @@
+[
+  {
+    "id": "19235_2025_0000",
+    "text": "Indian Standard\n\n\n|  |  |  |  | भू-तकनीकी इंजीननयर ंग सेवाएँ — अपेक्षाएँ Geotechnical Engineering Services — Requirements ICS 91.010.01, 91.010.20, 91.010.30, 93.010, 93.020  BIS 2025 |  |  |  |  |\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nApril 2025 Price Group 7\n\n\n\n\nPre-Construction Services Sectional Committee, SSD 06\n\nFOREWORD\n\nThis Indian Standard was adopted by Bureau of Indian Standards, after the draft finalized by the Pre-Construction Services Sectional Committee had been approved by the Service Sector Division Council.\n\nGeotechnical engineering service providers play a crucial role in civil engineering projects by assessing ground conditions early in the planning phase. The geotechnical service provider supplies essential data for informed decision making and risk management throughout the project lifecycle. A proactive approach facilitates the decision on appropriate type of geotechnical engineering and foundation design and thus ensures safety and durability by meeting serviceability requirements of the structures and geotechnical works. Additionally, it also minimizes the likelihood of delays, redesigns, and structural and geotechnical failures during construction or during service, having serious implications in terms of cost and other aspects. Geotechnical engineering encompasses geotechnical investigations, analysis and design, making it is an important activity prior to taking up the design of a structure to ensure safety, efficiency and durability. Therefore, correct delivery of geotechnical engineering services becomes an important factor for public safety and also to enhance confidence, reliability and reduce risk on account of errors in the geotechnical investigations, analysis and design.\n\nThe intent of this standard is to:\n\n- a) overcome the shortcomings of the current practices and terminologies being followed (in the government and private sectors) and suggest those that ought to be adopted and followed as a matter of good, safe and sustainable practices; b) eliminate subjectivity/arbitrariness and bring transparency, uniformity, and inclusiveness in the qualification requirements and appointment of agencies to provide geotechnical engineering services; c) remove ambiguities that are evident or implied, by defining and thus clarifying the various associated terms; and d) define the scope of services, deliverables, and associated responsibilities for the Appointing Authority (AA) (owner/consultant/constructor), Geotechnical Consultant (GC) and Geotechnical Investigation Agencies (GIA) so that all stakeholders can take informed decisions while procuring and/or delivering such services.\nThis Indian Standard defines the roles and responsibilities of various stakeholders, different models of appointment, the minimum qualification and experience of team members and team leaders of Geotechnical Consultant (GC) and Geotechnical Investigation Agency (GIA).",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2986,
+      "semantic_chunk_length": 2985,
+      "final_chunk_length": 2985,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0001",
+    "text": "nd/or delivering such services.\nThis Indian Standard defines the roles and responsibilities of various stakeholders, different models of appointment, the minimum qualification and experience of team members and team leaders of Geotechnical Consultant (GC) and Geotechnical Investigation Agency (GIA).\n\nThe educational qualification and experience of the team leader of GC and GIA specified in this standard are the minimum requirements. However, users of such services may take appropriate decisions regarding qualification requirements, based on the nature, importance and scope of work.\n\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nGEOTECHNICAL ENGINEERING SERVICES – REQUIREMENTS\n\n\n## 1 SCOPE\n\n\n1.1 This standard covers the requirements for geotechnical engineering services for all types of civil engineering works. It also includes the roles, responsibilities, qualification and experience as well as deliverables expected from all stakeholders.\n\n\n### 1.2 This standard covers mainly pre-construction services and also interlinked construction stage services with respect to geotechnical engineering.\n\n\n## 2 REFERENCES\n\nThe standard given below contains provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the edition indicated was valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of this standard:\n\nIS No. Title\n\nIS 18299 : 2023 Structural design and proof checking consultancy services for structures — Requirements",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2988,
+      "char_end": 4815,
+      "semantic_chunk_length": 1827,
+      "final_chunk_length": 2129,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0002",
+    "text": "andards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of this standard:\n\nIS No. Title\n\nIS 18299 : 2023 Structural design and proof checking consultancy services for structures — Requirements\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard, the definitions given in IS 18299 and the following shall apply.\n\n\n### 3.1 Appointing Authority (AA)/Employer — Agency responsible for appointment of geotechnical consultant (GC)/geotechnical investigation agency (GIA).\n\n\n### 3.2 Consultant — The individual or the organization responsible for providing engineering consultancy/managerial services for a project.\n\n\n### 3.3 Foundation — Part of the structure which is in direct contact with and transmits all the loads to the subsurface stratum.",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 4818,
+      "char_end": 5364,
+      "semantic_chunk_length": 546,
+      "final_chunk_length": 848,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0003",
+    "text": "vestigation agency (GIA).\n\n\n### 3.2 Consultant — The individual or the organization responsible for providing engineering consultancy/managerial services for a project.\n\n\n### 3.3 Foundation — Part of the structure which is in direct contact with and transmits all the loads to the subsurface stratum.\n\n### 3.4 Geotechnical Consultant (GC) — An individual or organization responsible for providing geotechnical engineering and advisory services.\n\n\n3.5 Geotechnical Design — Relates to the design of civil engineering structures and geotechnical works for the effects of geotechnical conditions which includes subsurface conditions, effects of geotechnical parameters and actions, stability of structures and analysis of soil-structure interaction,\n\ninfluence and response with the structure and soil conditions.\n\n\n3.6 Geotechnical Engineering — Geotechnical engineering includes aspects of soil mechanics, rock mechanics, geology, groundwater conditions, foundation engineering, geotechnical related construction techniques, as applied to civil engineering structures like buildings, bridges/flyovers, dams and irrigation structures, tunnels, road and highways, airports, ports, jetties, all types of industrial structures, off-shore structures, special structures, including geotechnical works of earth excavation, ground stability and strengthening and other relevant aspects of earthwork including slope protection in hilly areas and also forensic geotechnical works.\n\n\n3.7  Geotechnical Engineering Services — Services such as all stages of geotechnical investigations, planning, testing, analysis, design, drawings, site and laboratory test reports related to the behaviors of engineering structures influenced by characteristics of sub strata, groundwater, other earth materials, manmade landfills and natural landforms considering but not limited to safety, stability, serviceability, constructability, durability, sustainability and maintainability to ensure that the structure performs the functions specified over its intended design service life as per applicable standards.\n\n\n3.8  Geotechnical Factual Report (GFR) — It covers the details of site conditions observed including photographs and documents examined, location and detailed data sheet of site samples collected from site of investigation for the purpose of geotechnical studies, data sheet and results of field tests and laboratory testing performed on samples collected from site of investigation with reference to relevant codes, detailed calculations for test results, depth to ground water table and probable seasonal fluctuation.\n\n\n3.9  Geotechnical Interpretive Report (GIR) — It outlines the scope and terms of reference of geotechnical engineering services, summarizes the findings of the geotechnical factual report, presents the analysis, interpretation, conclusions and recommendations for geotechnical design and construction techniques in accordance with various codal provisions.\n\n\n### 3.10 Geotechnical Investigation Agency (GIA) — An individual or organization responsible for geotechnical investigations.\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3.4",
+      "heading": "3.4 Geotechnical Consultant (GC) — An individual or organization responsible for providing geotechnical engineering and advisory services.",
+      "heading_path": [
+        "3 TERMINOLOGY",
+        "3.4 Geotechnical Consultant (GC) — An individual or organization responsible for providing geotechnical engineering and advisory services."
+      ],
+      "char_start": 5367,
+      "char_end": 8312,
+      "semantic_chunk_length": 2945,
+      "final_chunk_length": 3247,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0004",
+    "text": " codal provisions.\n\n\n### 3.10 Geotechnical Investigation Agency (GIA) — An individual or organization responsible for geotechnical investigations.\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n### 3.11 Geotechnical Investigation — Collection, examination and evaluation of geotechnical information through site inspection, document search, site sampling and field and/or laboratory testing.\n\n\n### 3.12 Geotechnical Report (GR) — It is a report submitted by geotechnical consultant (GC) combining geotechnical factual and geotechnical interpretive reports when GC performs the role of GIA also.\n\n\n### 3.13 Owner — An individual or organization that owns the project.\n\n\n### 3.14 Owner’s Representative — An individual or organization nominated/appointed by the owner of the project for planning and execution of the project on its behalf.\n\nNOTE — The term owner shall mean owner/owner’s representative.\n\n\n3.15 Team Leader — The person responsible for overseeing and coordinating the work of the team engaged in geotechnical engineering services or geotechnical investigations and having the authority to sign for and on behalf of the geotechnical consultant (GC) or geotechnical investigation agency (GIA).\n\n\n### 3.16 Team Supervisor — The person responsible for performance of geotechnical work at site and/or laboratory with the help of operators, technicians, labour, equipment and other resources.\n\n\n## 4  REQUIREMENTS FOR SERVICES\n\nWhen determining the requirements for geotechnical engineering services, the geotechnical consultant (GC) and/or geotechnical investigation agency (GIA) shall ensure that the following requirements, but not limited to, are complied with:\n\n- a) applicable statutory, regulatory and codal\nrequirements, as mutually agreed with appointing authority (AA);\n\n- b) adherence to safety provisions during geotechnical investigation;\n- c) delivery of services as per agreed scope and timelines;\n- d) providing all relevant geotechnical engineering data as required including recommendations about the type of foundation/geotechnical interventions;\n- e) recommendation for performance monitoring such as ground improvement, if required; and\n- f) any specific requirements of the appointing authority (AA) pertaining to geotechnical engineering services.\n\n## 5 MODELS OF APPOINTMENT\n\nThe contractual model for the appointment of a geotechnical consultant (GC) and geotechnical investigation agency (GIA) may vary according to the nature of the project and the project delivery mode. Following models of appointment may be adopted;\n\n\n### 5.1  Model 1 — Appointing Authority (AA) appoints GC as well as GIA independently, refer Fig. 1.\n\n\n5.2  Model 2 — Appointing Authority (AA) appoints the GC. The GC may also provide the services of GIA, in-house or appoint a GIA, refer Fig. 2.\n\nNOTES\n\n\n## 1 The owner/consultant/constructor may also perform the role of GC provided they meet the qualification and experience requirements of GC.",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "3.11",
+      "heading": "3.11 Geotechnical Investigation — Collection, examination and evaluation of geotechnical information through site inspection, document search, site sampling and field and/or laboratory testing.",
+      "heading_path": [
+        "3 TERMINOLOGY",
+        "3.11 Geotechnical Investigation — Collection, examination and evaluation of geotechnical information through site inspection, document search, site sampling and field and/or laboratory testing."
+      ],
+      "char_start": 8317,
+      "char_end": 11077,
+      "semantic_chunk_length": 2760,
+      "final_chunk_length": 3062,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0005",
+    "text": " 1.\n\n\n5.2  Model 2 — Appointing Authority (AA) appoints the GC. The GC may also provide the services of GIA, in-house or appoint a GIA, refer Fig. 2.\n\nNOTES\n\n\n## 1 The owner/consultant/constructor may also perform the role of GC provided they meet the qualification and experience requirements of GC.\n\n## 2 Flowcharts at Fig. 1 and Fig. 2 also illustrate the sequence of activities to be performed under Model 1 and Model 2 respectively.\n\n\n\n\nMODEL 1\n\n\n| APPOINTMENT OF GC |  |  | APPOINTING AUTHORITY (AA) |  |\n| --- | --- | --- | --- | --- |\n| GC TO PROPOSE SCOPE FOR GEOTECHNICAL INVESTIGATION BASED ON PROJECT SPECIFIC REQUIREMENT | APPROVED | GIA TO | APPOINTMENT OF GIA CARRY OUT INVESTIGATION AS PER SCOPE FINALIZED | GEOTECHNICAL |\n| REVIEW OF SCOPE BY AA |  |  | GIA TO SUBMIT DRAFT GFR TO AA |  |\n\n\nNOT APPROVED\n\nNOT APPROVED\n\nREVIEW OF GFR BY AA (IF\n\nREQUIRED IN CONSULTATION WITH GC)\n\nAPPROVED\n\n\n|  |  | GC TO PREPARE DRAFT GIR AND SUBMIT TO AA |  |\n| --- | --- | --- | --- |\n|  |  | REVIEW OF GIR BY AA APPROVED SUBMISSION OF FINAL GIR INCORPORATING COMMENTS OF AA APPROVAL OF FINAL GIR BY AA |  |\n\n\nNOT APPROVED\n\n\n**FIG. 1 FLOW CHART FOR MODEL 1 – AA APPOINTS GC AND GIA**\n\n\n\n\nMODEL 2\n\nNOT APPROVED\n\nAPPROVED\n\n\n```text\nAPPOINTMENT OF GC GC TO PROPOSE SCOPE FOR GEOTECHNICAL INVESTIG BASED ON PROJECT SPECIFIC REQUIREMENT\nREVIEW OF SCOPE BY AA GIA TO CARRY OUT GEOTECHNICAL INVESTIGATION AS PER SCOPE FINALIZED BY GC GIA TO PREPARE DRAFT GFR AND SUBMIT TO GC\nREVIEW OF DRAFT GFR BY GC APPROVED GC TO PREPARE DRAFT GIR AND SUBMIT TO AA\nREVIEW OF DRAFT GIR BY AA APPROVED SUBMISSION OF FINAL GIR TO AA\n```\n\n\nAPPOINTMENT OF\n\nGIA BY GC\n\nNOT APPROVED\n\nNOT APPROVED\n\nAPPROVAL OF FINAL GIR BY AA\n\n\n**FIG. 2 FLOW CHART FOR MODEL 2 – AA APPOINTS GC ONLY**\n\nNOTE — When GC also performs the role of GIA, it may submit a single geotechnical report (GC) combining GFR and GIR.",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 6,
+      "clause": "2",
+      "heading": "2 Flowcharts at Fig. 1 and Fig. 2 also illustrate the sequence of activities to be performed under Model 1 and Model 2 respectively.",
+      "heading_path": [
+        "2 Flowcharts at Fig. 1 and Fig. 2 also illustrate the sequence of activities to be performed under Model 1 and Model 2 respectively."
+      ],
+      "char_start": 11080,
+      "char_end": 12654,
+      "semantic_chunk_length": 1574,
+      "final_chunk_length": 1876,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0006",
+    "text": "ROVED SUBMISSION OF FINAL GIR TO AA\n```\n\n\nAPPOINTMENT OF\n\nGIA BY GC\n\nNOT APPROVED\n\nNOT APPROVED\n\nAPPROVAL OF FINAL GIR BY AA\n\n\n**FIG. 2 FLOW CHART FOR MODEL 2 – AA APPOINTS GC ONLY**\n\nNOTE — When GC also performs the role of GIA, it may submit a single geotechnical report (GC) combining GFR and GIR.\n\n## 6 ROLES AND RESPONSIBILITIES\n\n\n### 6.1 Appointing Authority (AA)\n\nAA shall:\n\n- a) appoint GC and GIA as per Model 1, or GC as per Model 2 of appointment;\n- b) in case the GC is appointed by the constructor/consultant, the agreement between the owner and the constructor/ consultant should stipulate the conditions for the appointment of GC in terms of scope of work. It shall be the responsibility of the constructor/consultant to inform and satisfy the owner about the competency of appointed GC including its qualifications and experience;\n- c) be primarily responsible and accountable for appointment of GC/GIA having requisite and relevant expertise and experience to provide adequate and reliable geotechnical engineering services;\n- d) examine documents submitted by the GC and GIA and shall render decisions pertaining thereto. For this purpose, AA may take assistance from other experts as deemed fit;\n- e) clearly define the scope of work for GC and GIA including expected deliverables and time schedules;\n- f) ensure GC/GIA possess the minimum required qualification and experience as specified in 8;\n- g) if the AA proposes to provide in-house geotechnical engineering services, then the geotechnical engineering team of the AA shall possess the minimum qualification and experience as specified in 8 and also comply with roles, responsibilities and other provisions for GC/GIA as prescribed in this standard;\n- h) provide project related information to GC/GIA in a timely manner regarding requirements and parameters of the project, like the design brief, the conceptual drawings, surveyed site plan, proposed materials and methods of construction, the relevant contractual conditions, the functional requirements and constraints, if any, and any special construction loadings;\n- j) give prompt notice to GC/GIA in case AA becomes aware of any error, fault, omission, or defect in the project or non-conformance with the documentation or plans and specifications; and\n- k) issue a completion certificate to the\nIS 19235 : 2025\n\nGC/GIA in relation to the scope of assigned geotechnical engineering work after successful completion.\n\nNOTE — The design brief should cover all the functional requirements as well as any other special needs of the owner. It should also address the issues related to the site and the situation that the owner wants to cover in design and construction of the project. AA may consult the other technical experts to assist and decide the scope of work for geotechnical engineering services.",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "6",
+      "heading": "6 ROLES AND RESPONSIBILITIES",
+      "heading_path": [
+        "6 ROLES AND RESPONSIBILITIES"
+      ],
+      "char_start": 12659,
+      "char_end": 15189,
+      "semantic_chunk_length": 2530,
+      "final_chunk_length": 2832,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0007",
+    "text": " other special needs of the owner. It should also address the issues related to the site and the situation that the owner wants to cover in design and construction of the project. AA may consult the other technical experts to assist and decide the scope of work for geotechnical engineering services.\n\n### 6.2 Geotechnical Consultant (GC)\n\nThe GC shall:",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "6.2",
+      "heading": "6.2 Geotechnical Consultant (GC)",
+      "heading_path": [
+        "6 ROLES AND RESPONSIBILITIES",
+        "6.2 Geotechnical Consultant (GC)"
+      ],
+      "char_start": 15192,
+      "char_end": 15243,
+      "semantic_chunk_length": 51,
+      "final_chunk_length": 353,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0008",
+    "text": "ress the issues related to the site and the situation that the owner wants to cover in design and construction of the project. AA may consult the other technical experts to assist and decide the scope of work for geotechnical engineering services.\n\n### 6.2 Geotechnical Consultant (GC)\n\nThe GC shall:\n\n- a) enter into a written explicit agreement with the appointing authority about the scope of work and terms and conditions for performing the assignment;\n- b) obtain requisite information/reports from the AA such as topographical survey drawings, design brief, functional requirements and constraints, any past data on geotechnical information at the site and incorporate the same in the geotechnical interpretive report (GIR);\n- c) recommend the scope for required geotechnical investigations and field/laboratory testing of geotechnical samples/parameters and shall be responsible for analysis of investigation and testing data, design of geotechnical works, preparation of geotechnical interpretive report (GIR), geotechnical designs and drawings, foundation testing data/analysis and/or perform specialized geotechnical assignments as required;\n- d) ensure that the geotechnical factual report (GFR) is truly representative of site conditions;\n- e) ensure to communicate to the AA about the intention to appoint external GIA, if applicable;\n- f) ensure that the GIA, when appointed externally, meets the qualification and experience requirements as specified in 8;\n- g) in case GC intends to conduct an in-house geotechnical investigation (Model-2), then the GC shall also possess the minimum qualification and the experience and adhere to roles and responsibilities of GIA as specified in 6.3;\n- h) ensure completeness and correctness of geotechnical analysis, designs and report in conformity with the scope of services;\n\n\n\n- j) ensure submission of final report, related to the geotechnical engineering work, to the AA. The analysis and design calculations (consisting of input and output data of the software and manual calculations, if any) shall be presented in a manner that is easily comprehensible and can be checked. Every document shall be page numbered. All documents shall be physically and/or digitally signed with the date and stamped by the team leader of the GC;\n- k) ensure that all communications between GC and owner/constructor/consultant are well documented;\n- m) ensure compliance with the observations\nraised by the AA;\n\n- n) maintain confidentiality throughout;\n- p) declare conflict of interest, if any, prior to accepting the assignment for providing geotechnical engineering services. In case a conflict of interest arises during the progress of the assignment, it shall be declared by the GC immediately. The GC shall not engage in any activity, or accept any employment, other agreement, interest, or contribution that would reasonably appear to compromise the geotechnical consultant’s professional judgment with respect to the project;\n- q) give clarification to the AA on the design, drawings and report provided by the GC during the construction stage;\n- r) prepare an inspection and maintenance manual related to geotechnical engineering services/design, if desired by the owner; and",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "6.2",
+      "heading": "6.2 Geotechnical Consultant (GC)",
+      "heading_path": [
+        "6 ROLES AND RESPONSIBILITIES",
+        "6.2 Geotechnical Consultant (GC)"
+      ],
+      "char_start": 15245,
+      "char_end": 18168,
+      "semantic_chunk_length": 2923,
+      "final_chunk_length": 3225,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0009",
+    "text": "rofessional judgment with respect to the project;\n- q) give clarification to the AA on the design, drawings and report provided by the GC during the construction stage;\n- r) prepare an inspection and maintenance manual related to geotechnical engineering services/design, if desired by the owner; and\n\n- s) be entitled to rely on the accuracy and completeness of information furnished by the AA. The GC shall provide prompt written notice to the AA if the GC becomes aware of any errors, omissions, or inconsistencies in such information.\n\n### 6.3  Geotechnical Investigation Agency (GIA)\n\nThe GIA shall:\n\n- a) ensure the availability and completeness of the information and directions from GC/AA regarding geotechnical investigations to be carried out;\n- b) ensure that the approved methodology, equipment, manpower, and process of site investigation are followed as per the prescribed standard provisions, guidelines, quality assurance and control requirements and good engineering practices;\n- c) ensure to conduct field/laboratory tests as per prescribed standards of testing. GIA shall preferably conduct laboratory tests in- house. In case of specific requirements, with the approval of AA/GC, GIA may conduct laboratory tests by engaging competent external testing laboratory. The external testing laboratory shall be approved by the AA. However, GIA shall primarily be responsible for correctness and accuracy of laboratory test results even if tests are conducted by an external testing laboratory;\n- d) ensure completeness and correctness in recording of investigation data and test results in conformity with site conditions;\n- e) ensure safe handling, transportation and delivery of geotechnical samples;\n- f) adherence to safety provisions during geotechnical investigation;\n- g) ensure communications to the AA/GC regarding the execution of geotechnical investigation activities at site and produce evidence of actual execution of geotechnical investigation work at site;\n- h) ensure compliance with the observations raised by the AA/GC;\n- j) maintain confidentiality throughout;\n- k) declare conflict of interest, if any, prior to accepting the assignment for geotechnical investigation service. In case a conflict of interest arises during the progress of the assignment, it shall be declared by the agency immediately; and\n- m) give clarification to the AA/GC on\ngeotechnical investigations, as and when demanded.\n\n\n## 7 SUPPORT\n\nThe GC and GIA should have adequate resources which shall inter alia include competent and skilled technicians, qualified and experienced geotechnical engineers, draftsmen, supervisors, lab technicians and other associated manpower, infrastructure, equipment, and environment for operation of all the processes and other facilities required to perform and complete the work effectively, accurately and within the time frame mutually agreed with the AA.",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "6.2",
+      "heading": "6.2 Geotechnical Consultant (GC)",
+      "heading_path": [
+        "6 ROLES AND RESPONSIBILITIES",
+        "6.2 Geotechnical Consultant (GC)"
+      ],
+      "char_start": 18169,
+      "char_end": 20766,
+      "semantic_chunk_length": 2597,
+      "final_chunk_length": 2899,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0010",
+    "text": "ngineers, draftsmen, supervisors, lab technicians and other associated manpower, infrastructure, equipment, and environment for operation of all the processes and other facilities required to perform and complete the work effectively, accurately and within the time frame mutually agreed with the AA.\n\n## 8 QUALIFICATION AND EXPERIENCE\n\nThe AA shall ensure that the team members of the GC and GIA, as applicable, engaged for the project, have   the   requisite   minimum   qualification   and\n\n\n\n\nrelevant experience as given below:\n\na)\n\nTeam leader shall have the minimum qualification and experience as given in Table 1; and\n\n- b) Team supervisor for the field work of\ngeotechnical investigation and geotechnical laboratory testing shall be  a  competent, qualified  person with\n\nIS 19235 : 2025\n\nrelevant experience, having degree in civil engineering recognized by government as per the requirements of the assignment.\n\nNOTE — The AA may decide the additional qualification and/or experience for GC based on the site conditions, type of structure, health and safety, and vulnerability to disasters such as earthquakes, floods, and cyclones.\n\n\n**Table 1 Minimum Qualification and Relevant Experiences of Team Leader**\n\n\n| (1) | (2) | (3) | (4) |\n\n\n- i) Buildings up to the height of 15 m, small scale industries, rural roads, low height embankments/excavations upto 3 m height/depth, Culverts (span length up to 6 m).\nB.E./B.Tech (Civil) with 5   years of relevant experience in geotechnical engineering practice with minimum 3 years of relevant experience in geotechnical analysis and designs.\n\nB.E./B.Tech (Civil) with 3 years of relevant experience in geotechnical investigations.\n\n- ii) Buildings of height more than 15 m and up to 50 m, medium scale industries, urban roads, mid height embankments/ excavation upto 6m height/ depth, minor bridges (bridge length up to 60 m).\n- iii) Buildings of height more than 50 m, embankments/ excavations of height/depth more than 6m, state and national highways and specialized structures such as but not limited to tunnels, major bridges, flyovers, elevated roads, dams, chimneys, large industries, marine/offshore and special structures.\n- iv) Specialised geotechnical engineering assignments such as but not limited to hill slope stability, erosion and scour controls, ground improvement, shore protection, forensic geotechnical engineering which are not part of any\nB.E./B.Tech (Civil) with 7 years of relevant experience in geotechnical engineering practice with minimum 5 years of relevant experience in geotechnical analysis and designs.\n\nB.E./B.Tech (Civil) with 5 years of relevant experience in geotechnical investigations.\n\nB.E./B.Tech (Civil) with 10 years of relevant experience in geotechnical investigations.\n\nMaster’s degree with major in geotechnical engineering and 7 years of relevant experience in geotechnical engineering practice out of which minimum 5 years of relevant experience in geotechnical analysis and designs.\n\nOR\n\nB.E./B.Tech (Civil) with 10 years of relevant experience in geotechnical engineering practice out of which minimum 7 years of relevant experience in geotechnical analysis and designs.\n\nB.E./B.Tech (Civil) with 10 years of relevant experience in geotechnical investigations practice.",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "8",
+      "heading": "8 QUALIFICATION AND EXPERIENCE",
+      "heading_path": [
+        "8 QUALIFICATION AND EXPERIENCE"
+      ],
+      "char_start": 20769,
+      "char_end": 23743,
+      "semantic_chunk_length": 2974,
+      "final_chunk_length": 3276,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0011",
+    "text": "and designs.\n\nOR\n\nB.E./B.Tech (Civil) with 10 years of relevant experience in geotechnical engineering practice out of which minimum 7 years of relevant experience in geotechnical analysis and designs.\n\nB.E./B.Tech (Civil) with 10 years of relevant experience in geotechnical investigations practice.\n\nMaster’s degree with major in geotechnical engineering and 10 years of relevant experience in geotechnical engineering practice out of which minimum 5 years of relevant experience in similar specialized geotechnical assignment.\n\nOR\n\nB.E./B.Tech (Civil) with 15 years of\n\n\n\n\n**Table 1 (Concluded)**\n\n| Sl No. | Type of Geotechnical Assignment | Team Leader of Geotechnical Engineering Consultant | Team Leader of  Geotechnical Investigation Agency |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| above. as given above. | category of structure stated 2 years. This note shall not be valid for Sl. No. (iii) and (iv) of Table 1. 3 Engineering geologist may be engaged in the team for the projects involving rock formation. | relevant experience in geotechnical engineering practice out of which minimum 7 years of relevant experience in similar specialized geotechnical assignment. 1 For geotechnical assignments specified above under Sl No. (i) and (ii), in case of master’s degree in geotechnical engineering, the required minimum experience may be reduced by 1 year and in case of a doctoral degree in area of geotechnical engineering, it may be reduced by 2 The team leader of GC/GIA can also be academic faculty member of recognized engineering institutions with relevant qualification and experience 4 The experience of team leader of GC/GIA shall specifically elaborate his/her role and responsibilities in the project with respect to geotechnical |  |\n\n*NOTES engineering assignments. 5 Relevant experience shall mean experience in similar type of projects as per the assignment. 6 In case GC also provides the role of GIA then one team leader meeting all the requirements shall be sufficient.*",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "8",
+      "heading": "8 QUALIFICATION AND EXPERIENCE",
+      "heading_path": [
+        "8 QUALIFICATION AND EXPERIENCE"
+      ],
+      "char_start": 23745,
+      "char_end": 25452,
+      "semantic_chunk_length": 1707,
+      "final_chunk_length": 2009,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19235_2025_0012",
+    "text": "bilities in the project with respect to geotechnical |  |\n\n*NOTES engineering assignments. 5 Relevant experience shall mean experience in similar type of projects as per the assignment. 6 In case GC also provides the role of GIA then one team leader meeting all the requirements shall be sufficient.*\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 06 (26409).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19235_2025.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 25457,
+      "char_end": 26893,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19235",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

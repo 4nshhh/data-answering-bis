@@ -1,0 +1,524 @@
+[
+  {
+    "id": "19225_2025_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2025 Price Group 7\n\n\n\n\nTransport Services Sectional Committee, SSD 01\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Transport Services Sectional Committee has been approved by the Service Sector Division Council.\n\nTransport services are key elements in the infrastructure of a nation as it provides services essential for promoting economic and social development and plays a significant role in mobility, economic activities and improving productivity. Largely, the urban population depends on public transport with a modal split of 20 percent to 70 percent by public transport in different cities. Over the past few years, as there has been a rapid growth in industry, infrastructure, economic activities in the urban areas, the need for better public transportation facilities becomes necessary. The deficiencies in terms of low quality public transport systems and lack of appropriate supply of transport related infrastructure is leading to congested urban roads as well as crowded public transport systems. The present supply of bus fleet in urban areas far lower than the required fleet (demand) leading to a situation of severe congestion and uncomfortable conditions in public transportation systems. The high usage of private vehicles causing many problems like traffic congestion, air and noise pollution leading to unhealthy societies and high energy consumption, therefore leading to serious consequences on the environment. To accommodate the ever increasing high demand for public transport, there is a need to establish minimum standards for attractive, safe, sophisticated and sustainable public bus transport systems in the city.\n\nThough public transport system is considered an integral part of urban transportation system, they continue to suffer from service delivery related issues like frequency, safety, security, comfort, information etc. Because of such impediments, the users are constrained to choose personal transport modes over the public transport.\n\nTo accommodate the ever increasing high demand for public transport, there is a need to establish guidelines for attractive, safe, sophisticated and sustainable public bus transport systems in the city. Therefore, this standard is formulated to improve the quality of public bus transportation services to remove drawbacks in the system and meet the user expectations from the system as well as commuter satisfaction. The standard is applicable to the bus service providers, feeder transport service providers and other stakeholders involved in public bus transportation.\n\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex A.\n\n\n\n\nIndian Standard PUBLIC BUS TRANSPORT SERVICES — GUIDELINES",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2913,
+      "semantic_chunk_length": 2911,
+      "final_chunk_length": 2911,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0001",
+    "text": "cable to the bus service providers, feeder transport service providers and other stakeholders involved in public bus transportation.\n\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex A.\n\n\n\n\nIndian Standard PUBLIC BUS TRANSPORT SERVICES — GUIDELINES\n\n## 1 SCOPE\n\nThis standard provides the guidelines to maintain or improve the quality of public bus transport services in urban areas. It includes the implementation of feeder modes for public bus transport system, parking facilities at public bus transport stations/terminals, use of intelligent transport system (ITS), integration with other mass transport systems and sustainable strategies to restrict the usage and ownership of private vehicles.\n\nNOTE —This standard is primarily applicable for public bus transport services excluding school bus and intercity transport services.\n\n\n## 2 TERMS AND DEFINITIONS\n\n\n2.1  Advanced Public Transport Information Systems (APTIS) — A system that uses advanced navigation and communication technologies to collect, analyse and communicate relevant information to commuters to improve public transportation systems.\n\n\n2.2  Feeder Transport — Travel modes that mainly focus on last mile connectivity for the commuter to travel from their origin to reach nearest public transportation terminal like bus stop or metro station and vice versa. These modes are usually intermediate public transport modes like cycle rickshaws, auto rickshaws, e-rickshaws, mini buses etc.\n\n\n2.3  Intelligent Transport System (ITS) — A system that collect, analyse and disseminate information intelligently so that transport system aims to provide innovative services relating to transport and traffic management and enable users to be better informed and make safer, more coordinated, and smarter use of transport networks.\n\n\n### 2.4  Intermediate Public Transport (IPT) — Informal mode of transport which is in between\n\nprivate and public transport that facilitate demand responsive trips with no schedule and fixed routes.\n\n\n2.5  Multi-Modal Transport – Comprehensive transportation system that connects and integrates various modes of travel, including cars, two wheelers, bicycles, walking, trains, metro, buses, auto rickshaws, taxis etc. in order to have a seamless travel by commuter for the entire trip from origin to destination.\n\n\n### 2.6  Non-Motorised Transport (NMT) — Human powered transportation that doesn't rely on an engine or motor for movement.\n\nNOTE — It includes walking and bicycling, and variants such as small-wheeled transport (cycle rickshaws, skates, skateboards, push scooters and hand carts) and wheelchair travel.\n\n\n### 2.7  Public Bus Transport (PBT) — Bus Transportation System operated by private and public service providers with fixed routes and schedules.\n\n\n2.8  Sustainable Transport — Transport modes that does not rely on the fossil fuels, but uses renewable energy sources to power it. The aim of this type of transport is to reduce the negative impacts on the environment. It includes public transport (electric buses, metro etc), non-motorised transport (bicycles, walking etc) and private transport (electric cars, e-scooters etc).",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "1",
+      "heading": "1 SCOPE",
+      "heading_path": [
+        "1 SCOPE"
+      ],
+      "char_start": 2916,
+      "char_end": 5810,
+      "semantic_chunk_length": 2894,
+      "final_chunk_length": 3196,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0002",
+    "text": "els, but uses renewable energy sources to power it. The aim of this type of transport is to reduce the negative impacts on the environment. It includes public transport (electric buses, metro etc), non-motorised transport (bicycles, walking etc) and private transport (electric cars, e-scooters etc).\n\n## 3 SUSTAINABLE PUBLIC BUS TRANSPORTATION SYSTEM\n\nThe methodology as shown in Fig. 1 should be considered while developing, implementing and evaluating the performance of public transportation in the context of achieving sustainable transportation.\n\n\n\n\n| HYSICAL AC (INCREASED DENS |\n| --- |\n| CONOMIC A (FREQ MPROVEME FARE |\n| PASSENGER |\n| ASSENGER S AND S |\n| CREW BE |\n\n\nOPERATIONAL\n\nQUALITY PARAMETERS\n\nINTELLIGENT TRANSPORT SYSTEM\n\n(ITS)\n\nINTEGRATION WITH\n\nOTHER PUBLIC TRANSPORT MODES\n\nSUSTAINABLE PUBLIC BUS TRANSPORTATION  SYSTEM\n\nSTRATEGIES TO CONTROL PRIVATE\n\nVEHICLE USAGE\n\nINFRASTRUCTURAL\n\nFEEDER TRANSPORT\n\n\n| Y |  | ACCESSIBILITY PARKING FACILITIES AT TERMINALS |  |\n| N | SOCIETAL | SOCIETAL ASPECTS |  |\n\n\n**FIG. 1 FRAMEWORK TO DEVELOP SUSTAINABLE PUBLIC BUS TRANSPORTATION SYSTEM**",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 SUSTAINABLE PUBLIC BUS TRANSPORTATION SYSTEM",
+      "heading_path": [
+        "3 SUSTAINABLE PUBLIC BUS TRANSPORTATION SYSTEM"
+      ],
+      "char_start": 5813,
+      "char_end": 6613,
+      "semantic_chunk_length": 800,
+      "final_chunk_length": 1102,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0003",
+    "text": "NABLE PUBLIC BUS TRANSPORTATION  SYSTEM\n\nSTRATEGIES TO CONTROL PRIVATE\n\nVEHICLE USAGE\n\nINFRASTRUCTURAL\n\nFEEDER TRANSPORT\n\n\n| Y |  | ACCESSIBILITY PARKING FACILITIES AT TERMINALS |  |\n| N | SOCIETAL | SOCIETAL ASPECTS |  |\n\n\n**FIG. 1 FRAMEWORK TO DEVELOP SUSTAINABLE PUBLIC BUS TRANSPORTATION SYSTEM**\n\n## 4 OPERATIONAL REQUIREMENTS\n\n### 4.1 Quality Parameters of Public Transport\n\n\n4.1.1 To enhance quality of public transport systems, the following steps should be taken:\n\n- a) Identify the parameters for evaluation of service quality using appropriate models such as RATER Model;\n- b) Select the parameters required for improvement using techniques such as important performance analysis (IPA), customer satisfaction index (CSI); and\n- c) Based on the selected parameters, the improvement policies should be formulated and implemented to enhance the quality of the public transport system.\nNOTE — A list of typical parameters which are suitable for bus are identified and given in Table 1.\n\n\n4.1.2 To improve the quality of public transport, the following should also be ensured:\n\n- a) The parameters namely frequency, cleanliness of buses and bus stops and management of crowd during travel should be given top priority to attract the passengers towards bus transportation system;\n- b) To retain the existing passengers of bus transportation, the issues such as bus fare, good on-board facilities for passengers including specially-abled persons, staff behaviour, seat priority for specific segments of population (senior citizens, specially abled persons, woman, children), stopping of bus at designated bus stop and proper installation and functioning of electrical equipment's (fan/Light) at bus terminals should be given high consideration;\n\n\n\n\n- c) Seamless and integrated payment system for all public transport services (for example, common mobility card);\n- d) Services (like air conditioning, seats, outreach to all major locations etc) with differential level of passenger services should be operated to enhance comfort level and experience, which may help in attracting people from a special segment of society which prefer private transportation. The fare may vary for such services considering the quality of service being provided;\n- e) Bus routes should be progressive without diversions into loops;\n- f) Bus stops or stations should be close to the entrances of destinations, as far as possible;\n- g) The paths for walking and cycling to the stops or stations should be direct. For the design and layout of cycle tracks special literature may be referred.\nNOTE — Special literature may be IRC:011 ‘Recommended Practice for the Design and Layout of Cycle Tracks’ or any other agreement.\n\n- h) To attract passengers, a public transport service should identify routes which connect major origins and destinations of trips, offer a high frequency service, be reliable and quick, have good quality vehicles and courteous staff and be affordable. To be viable, the service should not incur ongoing costs greater than its revenue;\n- j) The target market for public transport should focus whole of the population, rather than only non-car owners; and\n- k) Real time information including timetable and route information for a single service or group of services at bus stops should be available.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "4.1",
+      "heading": "4.1 Quality Parameters of Public Transport",
+      "heading_path": [
+        "4 OPERATIONAL REQUIREMENTS",
+        "4.1 Quality Parameters of Public Transport"
+      ],
+      "char_start": 6616,
+      "char_end": 9622,
+      "semantic_chunk_length": 3006,
+      "final_chunk_length": 3307,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0004",
+    "text": "oing costs greater than its revenue;\n- j) The target market for public transport should focus whole of the population, rather than only non-car owners; and\n- k) Real time information including timetable and route information for a single service or group of services at bus stops should be available.\n\n### 4.2 Advanced Public Transport Information Systems using ITS Technologies\n\nThe bus service provider should provide the dynamic information of the buses on the network including digital boards near/at bus stops, application and website, for online information about bus schedule through advanced public transport information systems (APTIS) using IT tools to public transport users.\n\nIS 19225 : 2025\n\nThe service provider should consider the following to evaluate the suitability of appropriate ITS technology in terms of advanced public transport information system (APTIS):\n\n- a) Carry out a sample survey of the public transport users to know the modes of access available with passengers, capability of usage by passengers, probable percentage of people who will be using it, and prevailing waiting times at bus stops/ terminals;\n- b) Obtain the information on specification of the system implemented/going to implement in terms of budget, maintenance cost and accuracy of information dissemination along with share of public transport trips in total trips, size of the city, absolute number of trips, and average income of commuters from authentic sources/primary surveys;\n- c) The total savings of all passengers of public transport should be calculated in terms of total savings arising out of reduction in wait time/total travel time and converted into cost by multiplying with average wage rate of passengers;\n- d) The total system cost should be determined by adding initial cost, maintenance cost and capital interest thereof;\n- e) The breakeven period which matches the system cost and system benefits should be determined and examined for the acceptability of APTIS;\n- f) Once the APTIS qualifies for implementation, the service provider should examine the accuracy of information and campaign of the system, including short training of the passengers at terminals, stops and at large gathering places to explain the usage;\n- g) LED displays at bus stops should display the expected buses with arrival times within next 15 min. If the space is limited in LED display, messages can be scrolled so that the passenger can benefit to choose the other routes for their destination; and\n- h) The SMS service about the information on public transport system for non-smart users should also be provided for inclusiveness.\nNOTE — The APTIS may not be viable or successful in small cities less than 10 lakh population or size less than 150 sq. km.\n\n\n\nTable 1 Typical Quality Performance Indicators of Public Transport System\n\n(Clause 4.1.1 and 8.3.1)\n\n\n**Table 1 Typical Quality Performance Indicators of Public Transport System**",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "4.2",
+      "heading": "4.2 Advanced Public Transport Information Systems using ITS Technologies",
+      "heading_path": [
+        "4 OPERATIONAL REQUIREMENTS",
+        "4.2 Advanced Public Transport Information Systems using ITS Technologies"
+      ],
+      "char_start": 9624,
+      "char_end": 12259,
+      "semantic_chunk_length": 2635,
+      "final_chunk_length": 2937,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0005",
+    "text": " The APTIS may not be viable or successful in small cities less than 10 lakh population or size less than 150 sq. km.\n\n\n\nTable 1 Typical Quality Performance Indicators of Public Transport System\n\n(Clause 4.1.1 and 8.3.1)\n\n\n**Table 1 Typical Quality Performance Indicators of Public Transport System**\n\n| Sl No. |  |  |  | Public Transport |  | Quality Performance Indicators |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  | System |  |  |  |  |\n|  | (1) |  |  | (2) |  |  | (3) |  |\n| i) |  |  | Bus transit system |  |  | a) Personal safety on board b) Personal safety at bus stop c) Cleanliness of buses d) Cleanliness of bus stop e) Bus stop maintenance f) Crowd during travel g) Comfort during travel h) Functionality of electrical equipment’s (fan/light) j) Bus fare k) Frequency of buses m) Regularity/punctuality of buses n) Reliability (breakdown rate) p) Parking facilities q) Facilities for specially abled people r) Information dissemination at bus stop and on-Board s) Availability of schedule/map at bus stop, app, booklets t) Complaint registration/redressal facilities u) Periodicity of ticket inspection v) Bus helpline information w) Crew behaviour of bus (conductor, driver, etc) y) Seat priority for woman, children, senior citizen and disable people z) Bus stopping at exact bus stop location aa) Complete stopping at marked space of every bus stop bb) Utilities at bus stop (especially at major stop) – bin, water, urinal, etc cc) Availability of benches and their quality, shelter at bus stop dd) Quality of seats, standing comfort and accessories ee) Panic/STOP button at every seat ff) Bus on-board quality and size (low floor or high floor) gg) Driver’s driving behaviour (over speeding) hh) Safety (accident rate) |  |  |\n\n\n### 4.3 Policy Level Sustainable Strategies to Restrict/Control Usage of Private Vehicles\n\nThe stakeholders involved in bus based public transportation services including bus service provider, feeder bus service provider and other stakeholders involved in public bus transportation system shall ensure compliance to statutory and regulatory requirements including Central Motor Vehicle Rules, 1989, policy level sustainable strategies to restrict/control usage of private vehicles and other rules applicable at national and state levels. The policy level strategies such as vehicle quota/rationalise system, congestion pricing, parking charges, car-pooling etc may be considered to restrict the usage of private vehicles, which would improve the usage of public transport eventually.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4.2",
+      "heading": "4.2 Advanced Public Transport Information Systems using ITS Technologies",
+      "heading_path": [
+        "4 OPERATIONAL REQUIREMENTS",
+        "4.2 Advanced Public Transport Information Systems using ITS Technologies"
+      ],
+      "char_start": 12261,
+      "char_end": 14521,
+      "semantic_chunk_length": 2260,
+      "final_chunk_length": 2562,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0006",
+    "text": "d other rules applicable at national and state levels. The policy level strategies such as vehicle quota/rationalise system, congestion pricing, parking charges, car-pooling etc may be considered to restrict the usage of private vehicles, which would improve the usage of public transport eventually.\n\n### 4.4 Integration of Mass Transportation System through Travel Demand Modelling\n\nThe development of integrated transport reduces the cost of transportation substantially as it allows the various modes of transport to play their part in the most efficient manner, thereby leading to the higher utilization of capacity.\n\nFor developing an integrated public transport system at a city level, the following steps should be taken:\n\n- a) Study of the existing public and private transportation system and travel patterns;\n- b) Performing four stage travel demand modelling using high accurate techniques;\n\n\n\n\n- c) Developing scenarios of integrating mass transport systems; and\n- d) Study on the impact of integrated transport system under different scenarios such as park and ride.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "4.4",
+      "heading": "4.4 Integration of Mass Transportation System through Travel Demand Modelling",
+      "heading_path": [
+        "4 OPERATIONAL REQUIREMENTS",
+        "4.4 Integration of Mass Transportation System through Travel Demand Modelling"
+      ],
+      "char_start": 14524,
+      "char_end": 15302,
+      "semantic_chunk_length": 778,
+      "final_chunk_length": 1080,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0007",
+    "text": "nsportation system and travel patterns;\n- b) Performing four stage travel demand modelling using high accurate techniques;\n\n\n\n\n- c) Developing scenarios of integrating mass transport systems; and\n- d) Study on the impact of integrated transport system under different scenarios such as park and ride.\n\n## 5 INFRASTRUCTURAL REQUIREMENTS\n\nThe bus service provider, feeder transport service providers and other stakeholders involved in public bus transportation should determine, provide and maintain the infrastructure necessary for the operation of its processes to make it sustainable through following systems:",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5",
+      "heading": "5 INFRASTRUCTURAL REQUIREMENTS",
+      "heading_path": [
+        "5 INFRASTRUCTURAL REQUIREMENTS"
+      ],
+      "char_start": 15304,
+      "char_end": 15613,
+      "semantic_chunk_length": 309,
+      "final_chunk_length": 611,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0008",
+    "text": "ASTRUCTURAL REQUIREMENTS\n\nThe bus service provider, feeder transport service providers and other stakeholders involved in public bus transportation should determine, provide and maintain the infrastructure necessary for the operation of its processes to make it sustainable through following systems:\n\n### 5.1 Feeder Transport Systems\n\nA multi-modal transportation system with seamless feeder transport should be placed to ensure the use of public transport to its best potential. The feeder modes of non-motorised transport (NMT) and intermediate public transport (IPT) should be considered to design optimal feeder network to attract large numbers of commuters to use the public transport (PT) system. The various possibilities of different modes as feeder systems for PT are given below:\n\n\n#### 5.1.1 Pedestrian\n\n\n5.1.1.1 Safe pedestrian infrastructure of 1 km (may be extended up to 2 km, if needed) in the periphery of PT terminal/stop should be considered.\n\n\n5.1.1.2 Sky-walks/subways should give direct access and landing into the nearby office and shopping complexes, malls, school buildings, multiplexes, etc, apart from facilitating safe crossing of junctions.\n\nNOTE — In the urban areas, such infrastructure may only be required at mid blocks near bus stops/terminals on high- speed signal free roads. In general, at grade safe pedestrian crossing infrastructure is preferred.\n\n\n##### 5.1.1.3 Development of pedestrian route surrounded by planned vending spaces, green cover, an amphitheater and a shopping arcade.\n\n\n5.1.1.4 The other pedestrian facilities at/around terminals/stops should be adequately and appropriately provided with the following:\n\n- a) Footpaths should be continuous and height of footpath should be safe for all age of users;\n- b) In case, discontinuity occurs due to the presence of driveways in front of residences, or cross-streets, the flushing of footpath should be done with such facility to maintain continuity;\n- c) All the encroachment on footpaths which cause pedestrians to walk on the\nIS 19225 : 2025\n\ncarriageway and get exposed to risks from fast moving traffic should be removed. In case of other obstacles on footpath such as street furniture, trees, construction materials, potholes, manholes, the widening of the footpath on the other side of the carriageway should be considered so that the pedestrians may not come on the carriageway;\n\n- d) Adequate pedestrian infrastructure along the roads and at bus stops as well as metro station entry gates including barrier free ramps and tactile pavers for specially-abled people should be provided to access PT stations;\n- e) In case where the entry of the metro station is located at mid-block, dedicated pedestrian signals or zebra crossings should be installed;\n- f) Adequate and proper illumination should be provided on the footpaths;\n- g) Zebra crossings near bus stands should be visible, clear and free of obstacles; and\n- h) Zebra crossing at locations where two bus stands are located in the opposite directions of each other, should be supported by the ‘speed calming measures’ such as rumble strips or speed breaker.\nNOTE — While creating and maintaining the pedestrian facilities, special literature IRC:103 ‘Guidelines for Pedestrian Facilities may be referred.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5.1",
+      "heading": "5.1 Feeder Transport Systems",
+      "heading_path": [
+        "5 INFRASTRUCTURAL REQUIREMENTS",
+        "5.1 Feeder Transport Systems"
+      ],
+      "char_start": 15616,
+      "char_end": 18584,
+      "semantic_chunk_length": 2968,
+      "final_chunk_length": 3270,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0009",
+    "text": " stands are located in the opposite directions of each other, should be supported by the ‘speed calming measures’ such as rumble strips or speed breaker.\nNOTE — While creating and maintaining the pedestrian facilities, special literature IRC:103 ‘Guidelines for Pedestrian Facilities may be referred.\n\n#### 5.1.2 Bicycle/E-Bike\n\n\n##### 5.1.2.1 Bicycle-to-transit services (trails, on-road bike lanes, cycle tracks and bike parking).\n\nThese services would enlarge transit's catchment area by making it accessible to travelers who are beyond walking distances from PT terminals/stops.\n\n\n5.1.2.2 App based e-bicycle hiring service should be encouraged with a pick-up, charge and drop terminal to be included in facility design.\n\nNOTES\n\n\n1 Willingness to use bicycle and its usage may be promoted to increase PT patronage. The facility of bicycles on rent should be provided, where feasible, to reach the destination from PT terminals/stops.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5.1.2",
+      "heading": "5.1.2 Bicycle/E-Bike",
+      "heading_path": [
+        "5 INFRASTRUCTURAL REQUIREMENTS",
+        "5.1 Feeder Transport Systems",
+        "5.1.2 Bicycle/E-Bike"
+      ],
+      "char_start": 18587,
+      "char_end": 19222,
+      "semantic_chunk_length": 635,
+      "final_chunk_length": 937,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0010",
+    "text": " encouraged with a pick-up, charge and drop terminal to be included in facility design.\n\nNOTES\n\n\n1 Willingness to use bicycle and its usage may be promoted to increase PT patronage. The facility of bicycles on rent should be provided, where feasible, to reach the destination from PT terminals/stops.\n\n## 2  Better bicycle infrastructure may encourage bicycle users to opt for this NMT mode as feeder systems.\n\n\n#### 5.1.3 Cycle Rickshaw/Electric Rickshaw/Auto Rickshaw\n\nSystematic intermediate public transport (IPT)/rickshaw parking or waiting and circulation plans near PT terminal/stop should be available to facilitate the use of rickshaws for access and egress\n\n\n\ntrips at terminal/stops and should be separated as well as properly channelized from main carriageway.\n\n\n#### 5.1.4 Feeder Bus/Gramin Sewa\n\n\n5.1.4.1 An ideal feeder route length should range from 3 km to 5 km. An increase in route length may result in very high round trip cycle time and high operating km and reduced service reliability. Route should be decided as per the last mile connectivity principle.\n\n\n5.1.4.2 The passenger capacity of a feeder bus service should not be more than 20 passengers.\n\n\n5.1.4.3 Feeder buses should have high cleanness, GPS and mobility card enabled with CCTV.\n\n\n5.1.4.4 Seamless integration of all transit modes with other public transport such as metro by unified ticketing should be there and accordingly adequate signage to be placed. Common mobility card may be issued for integrating various modes like metro, bus, feeder bus and parking.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "2",
+      "heading": "2 Better bicycle infrastructure may encourage bicycle users to opt for this NMT mode as feeder systems.",
+      "heading_path": [
+        "2 Better bicycle infrastructure may encourage bicycle users to opt for this NMT mode as feeder systems."
+      ],
+      "char_start": 19225,
+      "char_end": 20472,
+      "semantic_chunk_length": 1247,
+      "final_chunk_length": 1549,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0011",
+    "text": "abled with CCTV.\n\n\n5.1.4.4 Seamless integration of all transit modes with other public transport such as metro by unified ticketing should be there and accordingly adequate signage to be placed. Common mobility card may be issued for integrating various modes like metro, bus, feeder bus and parking.\n\n### 5.2 Advanced Parking Facilities at Public Transport Terminals\n\nEquitable provision of parking for different feeder modes and traffic management plan at and near mass public transport/metro terminals is the prerequisite of a sustainable feeder transport system. The demand should be estimated from feeder transport survey and to be utilized to estimate parking/circulation demand of various feeder modes including intermediate public transport modes. The parking accumulation and parking duration surveys should be carried out for both organised and unorganised parking areas to understand the characteristics and demand for parking by private vehicle users namely car, two wheeler and bicycle. Accordingly, bicycle parking, two wheelers and car parking and intermediate public transport parking facilities should be provided and the optimal design of parking and traffic management/circulation should be implemented.\n\nThe advanced parking facilities at PT terminal should have the following features:\n\n- a) LED display with information about various\navailable feeder modes along with bus information;\n\n- b) Advanced information system as well as\nparking facilities for car, two-wheeler, bicycle to encourage park and ride or pick and drop;\n\n- c) Frequent feeder bus service with designated\nbus bay to avoid congestion;\n\n- d) IPT vehicles should strictly park in\ndesignated lane on first come first serve basis with proper circulation plans in the parking areas;\n\n- e) Rented bicycle facility (non-motorized or\nbattery operated) should be encouraged;\n\n- f) Adequate and friendly infrastructure should\nbe put in place to attract specially-abled people to use PT; and\n\n- g) Reasonable parking charges for private\nvehicles at the terminal should be ensured so that users can make long-term commitment to use of public transport by introducing monthly passes having incentives with discounts. Further, integrated/common card for seamless usage of public transport may also be considered.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "5.2",
+      "heading": "5.2 Advanced Parking Facilities at Public Transport Terminals",
+      "heading_path": [
+        "2 Better bicycle infrastructure may encourage bicycle users to opt for this NMT mode as feeder systems.",
+        "5.2 Advanced Parking Facilities at Public Transport Terminals"
+      ],
+      "char_start": 20475,
+      "char_end": 22461,
+      "semantic_chunk_length": 1986,
+      "final_chunk_length": 2288,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0012",
+    "text": "parking charges for private\nvehicles at the terminal should be ensured so that users can make long-term commitment to use of public transport by introducing monthly passes having incentives with discounts. Further, integrated/common card for seamless usage of public transport may also be considered.\n\n### 5.3 Other Infrastructural Requirements\n\nIn order to ensure physical and economic accessibility, the following should be considered to improve public transport services:\n\n- a) Bus routes that are too narrow for large buses should be replaced with alternative routes if the road cannot be widened. If alternative routes are not possible, use smaller feeder buses with good frequency and economical fares. Large buses should not be allowed on these narrow routes;\n- b) Multi-modal transit facility should be encouraged for seamless travel for commuters at interchanges/terminals;\n- c) Independent semi judicial body for periodical restructuring of fares should be constituted to ensure the viability of the industry;\n- d) Promoting the use of green technologies in PT buses;\n- e) Modification of schedules based on scientific traffic studies, route rationalization, increasing productivity/ employee/bus, bringing down operational expenses, preventive mechanism/materials management should be focused;\n- f) Shortest path to be ensured for pedestrians and bicyclists and should act as a network and not as separate entities;\n- g) Way finding signs to be placed (within 1 km from terminal) displaying major points of interest and way to access PT terminals/stops;\n- h) Vendor space allocation should be ensured to avoid taking over pedestrian space;\n\n\n\n\n- j) Direct access from parking space to public transport station should be given priority along with space for 'accessible parking' at a spot nearest to station for ease of use for differently able commuters;\n- k) In order to restrict private vehicle usage, bus priority strategies like BRTS, priority lanes, etc should be considered, where possible and implemented; and\n- m) Bus stops and terminals are to be user\nfriendly and should be designed as recommended by Indian Road Congress (IRC).\n\nNOTE –— Special literature IRC: 80 ‘Typical Designs for Pick-up Bus Stops on Rural (that is Non- Urban) Highways’ may be referred to enhance commuter safety.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "5.3",
+      "heading": "5.3 Other Infrastructural Requirements",
+      "heading_path": [
+        "2 Better bicycle infrastructure may encourage bicycle users to opt for this NMT mode as feeder systems.",
+        "5.3 Other Infrastructural Requirements"
+      ],
+      "char_start": 22464,
+      "char_end": 24469,
+      "semantic_chunk_length": 2005,
+      "final_chunk_length": 2307,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0013",
+    "text": "nd implemented; and\n- m) Bus stops and terminals are to be user\nfriendly and should be designed as recommended by Indian Road Congress (IRC).\n\nNOTE –— Special literature IRC: 80 ‘Typical Designs for Pick-up Bus Stops on Rural (that is Non- Urban) Highways’ may be referred to enhance commuter safety.\n\n## 6 SOCIETAL BEHAVIOUR REQUIREMENTS TO HANDLE THE SERVICE\n\nSocietal behaviour requirements in context of passenger and crew would make the journey safe, comfortable and provide satisfaction. A good behavioural ecosystem among, passengers, crew members and managing staff would build a sense of belonging and responsibility among the crew, which in turn reflects on performance of public transport system.\n\n\n### 6.1 Passengers\n\n\n6.1.1 Prioritize the safe exit of passengers before allowing new boarding. Encourage passengers to move towards exit doors as the bus approaches its destination to reduce stopping time.\n\n\n6.1.2 Enforce the one-seat-per-person rule. Instruct passengers to hold bags on their laps or place them under seats without blocking the aisle and discourage the use of empty seats for personal belongings.\n\n\n6.1.3 Instruct passengers to have their fare ready before the bus arrives and promote use of card swipe payment mode to reduce unnecessary time for payment of fare. Emphasize the importance of possessing a valid journey ticket and producing it for verification upon request and remind staff to penalize riding without a valid ticket.\n\n\n6.1.4 Ensure that passengers should not lean on the poles, leaving room for others to hold on.\n\n\n#### 6.1.5 Clearly mark and designate priority seating near bus doors and instruct passengers  to  use  these\n\nIS 19225 : 2025\n\nseats if unoccupied but be prepared to yield to individuals with specific needs.\n\n\n#### 6.1.6 Advise passengers to refrain from loud conversations and cell phone usage and encourage the use of headphones and maintaining a low volume for personal devices.\n\n\n#### 6.1.7 Educate passengers on proper hygiene, covering their mouth with a tissue or elbow when coughing or sneezing to emphasize the importance of avoiding the transfer of germs to bus infrastructure.\n\n\n6.1.8 Ensure the availability of designated bins for litter, newspapers, or plastic bottles and that the passengers should dispose trash properly upon exiting the bus.\n\n\n6.1.9 The staff should be courteous to passengers and promote a respectful atmosphere on board.\n\n\n6.1.10 Encourage polite communication among passengers and between staff and passengers. Remind staff to use phrases like ‘excuse me’ or ‘thank you’ to enhance the overall transit experience.\n\nNOTE — Signage/display board may be used to educate the passengers.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "6",
+      "heading": "6 SOCIETAL BEHAVIOUR REQUIREMENTS TO HANDLE THE SERVICE",
+      "heading_path": [
+        "6 SOCIETAL BEHAVIOUR REQUIREMENTS TO HANDLE THE SERVICE"
+      ],
+      "char_start": 24472,
+      "char_end": 26850,
+      "semantic_chunk_length": 2378,
+      "final_chunk_length": 2680,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0014",
+    "text": "ote a respectful atmosphere on board.\n\n\n6.1.10 Encourage polite communication among passengers and between staff and passengers. Remind staff to use phrases like ‘excuse me’ or ‘thank you’ to enhance the overall transit experience.\n\nNOTE — Signage/display board may be used to educate the passengers.\n\n### 6.2 Crew and Staff Members\n\n\n6.2.1 Crew and staff members should ensure proper dressing attire, correct provision of services, ability to solve on-board problems fast and accurately.\n\n\n6.2.2 Driver should stop the bus as closely as possible to the left or nearside when picking up or setting down passengers at the roadside.\n\n\n6.2.3 Driver and the conductor should take reasonable precautions for the safety of passengers who are either boarding or alighting from a vehicle or who are already on board.\n\n\n6.2.4 Driver, inspector or conductor should take reasonable steps to see that passengers comply with all safety and conduct provisions while on board the vehicle, give particulars of their employer’s name and address to any police constable or person having reasonable grounds for requiring it.\n\n\n6.2.5 Crew Members should not prevent a specially-abled person from travelling on a vehicle.\n\n\n6.2.6 Driver should carry a valid licence with endorsement for driving public bus transport.\n\n\n\n\n6.2.7 Crew members should not, but not limited to, engage in the following behaviours:\n\n- a) Cursing and/or using profane vulgar\nlanguage/gestures at customers, even if provoked;\n\n- b) Raising voice/screaming at customer;\n- c) Ignoring reasonable requests from customers for directions/information;\n- d) Failure to provide explanations for delays/disruptions if known;\n- e) Failure to assist when required;\n- f) Speaking to the customer in a dismissive\nfashion;\n\n- g) Prejudging a customer based on past\nexperiences;\n\n- h) Treating customers differently based on\nsex/race/physical disabilities; and\n\n- j) Putting schedule before service.\n\n## 7 DOCUMENTATION REQUIREMENTS\n\nThe following documentation should be maintained by the public transport agencies:\n\n- a) Standard operating procedure documents;\n- b) Route and time schedule; and\n- c) Emergency evacuation procedure including SOP to be followed in case of accidents.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "6.2",
+      "heading": "6.2 Crew and Staff Members",
+      "heading_path": [
+        "6 SOCIETAL BEHAVIOUR REQUIREMENTS TO HANDLE THE SERVICE",
+        "6.2 Crew and Staff Members"
+      ],
+      "char_start": 26853,
+      "char_end": 28772,
+      "semantic_chunk_length": 1919,
+      "final_chunk_length": 2221,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0015",
+    "text": " before service.\n\n## 7 DOCUMENTATION REQUIREMENTS\n\nThe following documentation should be maintained by the public transport agencies:\n\n- a) Standard operating procedure documents;\n- b) Route and time schedule; and\n- c) Emergency evacuation procedure including SOP to be followed in case of accidents.\n\n## 8 RESOURCE REQUIREMENTS\n\n\n### 8.1 Human Resources\n\nAdequate and qualified human resource should be provided based upon the size of the operating fleet (no. of drivers/conductors/or crew per bus).  The bus service provider should determine the internal and external human resource needs for the operating the fleet.\n\n\n8.1.1 Maintain an optimal number of drivers based on the bus fleet size and operational time requirements. Ensure there are enough drivers for regular shifts and peak hours to prevent service disruptions.\n\n\n8.1.2 Assign an appropriate number of conductors or attendants based on the type of service and passengers need. Consider factors such as the size of the bus, route complexity, and passenger demographics while allocating conductors/crew.\n\n\n#### 8.1.3 Employ an adequate number of customer service representatives, stationed at key locations or\n\navailable through contact centres, to address passenger inquiries, feedback, and complaints.\n\n\n### 8.2 Training and Qualifications\n\nThe drivers and other crew members should be trained for standard operating procedures including safety of passengers and emergency evacuation, mock drills. Regular driving assessments should be carried out as per the requirements given in Central Motor Vehicle Rules, 1989.\n\n\n#### 8.2.1 Driver Training\n\nImplement comprehensive training programs for drivers covering safety protocols, customer service, route knowledge, and emergency procedures. The training at a regular interval should be provided to align with industry standards and schedule for training should be prepared for all drivers.\n\n\n#### 8.2.2 Customer Service Training\n\nProvide ongoing training for customer service representatives to enhance communication skills, conflict resolution, and product knowledge. The annual training programme should be prepared and implemented.\n\n\n#### 8.2.3 Technical Training\n\nEnsure that maintenance staff is given regular training on the latest technologies, diagnostic tools, and safety standards for the upkeep of buses. The training programmes should be organized as and when needed.\n\n\n#### 8.2.4 Cross-Training\n\nImplement cross-training programs to enhance the versatility of staff. This allows employees to contribute to different roles during peak periods or emergencies.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "8",
+      "heading": "8 RESOURCE REQUIREMENTS",
+      "heading_path": [
+        "8 RESOURCE REQUIREMENTS"
+      ],
+      "char_start": 28774,
+      "char_end": 31054,
+      "semantic_chunk_length": 2280,
+      "final_chunk_length": 2582,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0016",
+    "text": "and safety standards for the upkeep of buses. The training programmes should be organized as and when needed.\n\n\n#### 8.2.4 Cross-Training\n\nImplement cross-training programs to enhance the versatility of staff. This allows employees to contribute to different roles during peak periods or emergencies.\n\n### 8.3  Performance Evaluation\n\n\n#### 8.3.1  Key Performance Indicators (KPI’s)\n\nIdentify and establish key performance indicators (KPIs) for each role, such as on-time performance for drivers and customer satisfaction for service representatives. Regularly monitor and assess staff performance against these metrics.\n\nNOTE — The quality parameters given in Table 1 may also be considered for establishment of KPIs.\n\n\n#### 8.3.2 Feedback Mechanisms\n\nEstablish and implement mechanism for collecting feedback from passengers, peers, and supervisors to continuously evaluate and improve public bus transport services and staff performance.\n\n\n\n\nThe feedback may be obtained by any of the following means:\n\n- a) Feedback forms;\n- b) Hand written complaint;\n- c) Internet based feedback;\n- d) Verbal complaints over phone or at customer care centre;\n- e) SMS and call based feedback; and\n- f) Automated feedback machines at Bus Stops/Depots and commercial places.\n\n## 9   OTHER INFRASTRUCTURE, FACILITIES AND EQUIPMENT\n\n\n9.1 Transit amenities should be primarily based on the number of passengers boarding at bus stops and park and ride lots along the route.\n\nNOTE — Transit amenities should include seats, benches, shelters, washrooms, cloak rooms, safe drinking water, snack bars, informational signs, maps and schedules, digital and electronic signs, escalators and waste receptacles.\n\n\n9.2 While placement of amenities, the following should be ensured:\n\n- a) safety standards to protect passengers;\n- b) compliance with proper zoning regulations; and\n- c) adherence to all applicable building and construction laws.\n\n### 9.3 Ensure a well-designed bus shelter characterized by:\n\n- a) low maintenance requirements to ensure longevity;\n- b) vandal-resistant features for durability;\n- c) unobstructed visibility and easy access to the bus;\n- d) comfort and convenience for waiting passengers;\n- e) clear information provision for passenger awareness; and\n- f) enhanced safety features for passenger well-being.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "8.3",
+      "heading": "8.3 Performance Evaluation",
+      "heading_path": [
+        "8 RESOURCE REQUIREMENTS",
+        "8.3 Performance Evaluation"
+      ],
+      "char_start": 31057,
+      "char_end": 33065,
+      "semantic_chunk_length": 2008,
+      "final_chunk_length": 2310,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0017",
+    "text": "ents to ensure longevity;\n- b) vandal-resistant features for durability;\n- c) unobstructed visibility and easy access to the bus;\n- d) comfort and convenience for waiting passengers;\n- e) clear information provision for passenger awareness; and\n- f) enhanced safety features for passenger well-being.\n\n## 10 SAFETY AND SECURITY REQUIREMENTS\n\n\n### 10.1 Driver\n\nThe following safety and security requirements should be ensured for driver:\n\n- a) Trained driver with valid driving license only is assigned the duty;\nIS 19225 : 2025\n\n- b) Driver has availed sufficient rest as per statutory requirement and the assigned job is within statutory duty limits;\n- c) Undergone alcohol free test before steering;\n- d) Eye test certified for fitness to drive;\n- e) Given enough time to check/test the vehicle before start and the observations, if any, are fixed to the satisfaction;\n- f) Provided proper training to use fire extinguisher;\n- g) Given all important contact details, like nearby depots, police stations, hospitals, emergency help centres in case of emergency;\n- h) Take halt only at designated/authorised halts for break;\n- j) In case of en-route breakdown, take all precautionary measures, such as safe parking alongside the road and put parking lights/sign on; and\n- k) In case of any rare health issue arises while on duty, reach to nearest halt place and inform the control room for alternative arrangement.\n\n### 10.2 Vehicle\n\nThe following safety and security requirements should be ensured for vehicle:\n\n- a) Valid fitness certificate;\n- b) Vehicle requirements including fuel, oil and water level to be checked along with no leakages;\n- c) Functioning of wipers, passenger door locks, head and tail lamps;\n- d) Presence of hammer to break the exit window in case of emergency;\n- e) Tyres should be checked for non-skid depth (NSD) and ensured that all tyres are having minimum 3mm NSD. Tyre pressure of all tyres should checked and recorded;\n- f) Spare wheel with required tools provided;\n- g) Fire extinguisher with valid date should be provided in the bus and should be visible to passengers with instructions for use tagged;\n- h) First aid box with valid kit; and\n- j) Provisions for on-road maintenance of the vehicle in case of a breakdown.\n\n\n\n\n### 10.3 Passenger\n\nThe following safety and security requirements should be ensured for passenger:\n\n- a) No passenger should be allowed to carry any such items in the vehicle which are inflammable;\n- b) No passenger should distract the driver while driving, which may cause his attention diverted; and\n- c) If any unprecedented behaviour of driver or his rash driving is observed while travelling, passenger should immediately inform the control room/service provider/nearest police help line, whose contact details are depicted within bus at visible place. They may also caution the driver properly and even stop him, if he found under the influence of alcohol.",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "10",
+      "heading": "10 SAFETY AND SECURITY REQUIREMENTS",
+      "heading_path": [
+        "10 SAFETY AND SECURITY REQUIREMENTS"
+      ],
+      "char_start": 33067,
+      "char_end": 35687,
+      "semantic_chunk_length": 2620,
+      "final_chunk_length": 2922,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19225_2025_0018",
+    "text": "iving is observed while travelling, passenger should immediately inform the control room/service provider/nearest police help line, whose contact details are depicted within bus at visible place. They may also caution the driver properly and even stop him, if he found under the influence of alcohol.\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 01 (24996).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19225_2025.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 35692,
+      "char_end": 37128,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19225",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

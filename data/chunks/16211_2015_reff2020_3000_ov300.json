@@ -1,0 +1,520 @@
+[
+  {
+    "id": "16211_2015_reff2020_0000",
+    "text": "Indian Standard\n\nIS 16211 : 2015\n\n(Reaffirmed 2020)\n\nElectromagnetic Radiation from Automotive Vehicles — Permissible Levels and Methods of Tests\n\nICS 43.040.10\n\n© BIS 2015\n\nBUREAU OF INDIAN STANDARDS\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.org.in www.standardsbis.in\n\nDecember 2015\n\nPrice Group 8\n\n\n\n\n\n\nAutomotive Electrical Equipments and Instruments Sectional Committee, TED 11\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Automotive\n\nElectrical Equipments and Instruments Sectional Committee had been approved by the Transport Engineering\n\nDepartment Council.\n\nTo ensure that the electromagnetic radiation emitted by the vehicle and by its various sub-systems should not\n\ncause any undue interference with external systems, this standard has been brought out. The safety standard\n\nspecifies the maximum limits for the wide (broad) band electromagnetic radiation emitted by the vehicle, in the\n\nfrequency range 40 to 400 MHz and is generally in line with the EEC directive No. 72/245.\n\nIn the formulation of this standard considerable assistance has been drawn from AIS -004(Part 1)/1999\n\n'Electromagnetic radiation from automotive vehicle - Permissible levels and methods of tests', issued by\n\nAutomotive Research Association of India on behalf of Automotive Industry Standards Committee.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value,\n\nobserved or calculated expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 1960\n\n‘Rules for rounding off numerical values (revised)’. The number of significant places retained in the rounded off\n\nvalue should be the same as that of the specified value in this standard.\n\n\n\nIndian Standard\n\nELECTROMAGNETIC RADIATION FROM AUTOMOTIVE\n\nVEHICLE - PERMISSIBLE LEVELS AND\n\nMETHODS OF TESTS\n\n\n## 1 SCOPE\n\nThis standard lays down the method of measurement\n\nand permissible limits of interference voltage caused\n\nby automotive vehicles. This standard applies to all\n\ntypes of motor vehicles, including agricultural tractors.\n\nThis also applies to electric vehicle or vehicles fitted\n\nwith electric motors and to components or separate\n\ntechnical units intended for fitment in vehicles.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 0,
+      "char_end": 2319,
+      "semantic_chunk_length": 2319,
+      "final_chunk_length": 2319,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0001",
+    "text": "nterference voltage caused\n\nby automotive vehicles. This standard applies to all\n\ntypes of motor vehicles, including agricultural tractors.\n\nThis also applies to electric vehicle or vehicles fitted\n\nwith electric motors and to components or separate\n\ntechnical units intended for fitment in vehicles.\n\n## 2 REFERENCES\n\nThe following standards contain provisions which\n\nthrough reference in this text, constitute provision of\n\nthis standard. At the time of publication, the editions\n\nindicated were valid. All standard are subject to\n\nrevision, and parties to agreements based on this\n\nstandard are encouraged to investigate the possibility\n\nof applying the most recent editions of the standard\n\nindicated below:\n\n| IS No. | Title |\n| --- | --- |\n| 6873(Part 1) : 2010/CISPR 12 : 2007 | Limits and methods of measurement of radio disturbance characteristics: Part 1 Vehicles, boats and internal combustion engines (third revision) |\n| 10052 (Part 1) : 1999/CISPR 16-1(1993) | Radio disturbance and immunity measuring apparatus and methods: Part 1 Radio disturbance and immunity measuring apparatus (first revision) |",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2322,
+      "char_end": 3135,
+      "semantic_chunk_length": 813,
+      "final_chunk_length": 1115,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0002",
+    "text": "ment of radio disturbance characteristics: Part 1 Vehicles, boats and internal combustion engines (third revision) |\n| 10052 (Part 1) : 1999/CISPR 16-1(1993) | Radio disturbance and immunity measuring apparatus and methods: Part 1 Radio disturbance and immunity measuring apparatus (first revision) |\n\n## 3 DEFINITIONS\n\nFor the purpose of this standard the following\n\ndefinitions shall apply\n\n\n### 3.1 Electromagnetic Disturbance  This is an\n\nelectromagnetic phenomenon that may degrade the\n\nperformance of a vehicle or one of its electronic/\n\nelectrical systems or a separate technical unit. An\n\nelectromagnetic disturbance may be electromagnetic\n\nnoise, an unwanted signal or a change in the\n\npropagation medium itself.\n\n\n### 3.2 Electromagnetic Environment - It is the totality\n\nof electromagnetic phenomena present in a given\n\nlocation.\n\n\n### 3.3 Reference Limit  This is the nominal level, to\n\nwhich the type approval limit values are referenced\n\n\n### 3.4 Reference Antenna - The frequency range of\n\n\n20 to 80 MHz means a shortened balanced dipole being\n\na half wave resonant dipole at 80 MHz, and for the\n\nfrequency range above 80 MHz, means a balanced half\n\nwave resonant dipole tuned to the measurement\n\nfrequency.\n\n\n### 3.5 Broad-Band Emission - It is an emission which\n\nhas a band width exceeding that of a specific receiver\n\nor a particular measuring instrument\n\n\n### 3.6 Narrow-Band Emission - Any emission which\n\nhas a band width less than that of a specific receiver or\n\na particular measuring instrument\n\n\n### 3.7 Electronic/Electrical System  An electronic\n\nand/or electrical device (s) or set(s) of devices together\n\nwith any associated electrical connections which form\n\npart of a vehicle but which are not intended to be type\n\napproved separately from the vehicle.\n\n\n### 3.8 Electrical/Electronic Sub-Assembly (ESA) -\n\nAn electrical and/or electronic device(s) or set(s) of\n\ndevices intended to be part of a vehicle, together with\n\nany associated electrical connections and wiring, which\n\nperforms one or more specialized functions. An ESA\n\nmay be approved at the request of a manufacturer as\n\neither a component or a separate technical unit (STU)\n\n\n### 3.9 Vehicle Type - In relation to electromagnetic\n\nradiation characteristics (compatibility) means vehicles\n\nwhich do not differ essentially in such respects as; the\n\noverall size and shape of the engine compartment; the\n\ngeneral arrangement of the electrical and/or electronic\n\ncomponents and the general wiring arrangements; the\n\nprimary material of which the body or shell (if\n\napplicable) of the vehicle is constructed. The presence\n\nof panels of different material does not change the\n\nvehicle type provided the primary material of the body\n\nis unchanged.\n\n\n### 3.10 ESA Type - In relation to electromagnetic\n\nradiation characteristic (compatibility) means ESAs\n\nwhich do not differ in such essential respects as the\n\nfunction performed by the ESA; the general\n\narrangement of the electrical and/or electronic\n\ncomponents; if applicable.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 DEFINITIONS",
+      "heading_path": [
+        "3 DEFINITIONS"
+      ],
+      "char_start": 3138,
+      "char_end": 5851,
+      "semantic_chunk_length": 2713,
+      "final_chunk_length": 3015,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0003",
+    "text": "ody\n\nis unchanged.\n\n\n### 3.10 ESA Type - In relation to electromagnetic\n\nradiation characteristic (compatibility) means ESAs\n\nwhich do not differ in such essential respects as the\n\nfunction performed by the ESA; the general\n\narrangement of the electrical and/or electronic\n\ncomponents; if applicable.\n\n## 4 TYPE APPROVALS  APPROVAL OF A\n\nVEHICLE TYPE\n\n\n4.1 The vehicle manufacturer shall draw up a schedule\n\ndescribing all projected combinations of relevant\n\nvehicle electronic/electrical systems, or separate\n\ntechnical units, body styles, variations in body material,\n\ngeneral wiring arrangement, engine variations, left\n\nhand/right hand versions and wheel base versions.\n\nRelevant vehicle electrical/electronic systems or ESAs\n\nare those which may emit significant narrow band or\n\nbroad (wide) band radiation and/or those which are\n\ninvolved in the driver's direct control. The driver's\n\ndirect control of the vehicle is exercised by means of\n\nfor example, steering braking or engine speed control.\n\nInformation to be supplied shall contain at least the\n\ndetails given in the format enclosed in Annex A.\n\n\n### 4.2 Type Approval of a Vehicle\n\nThe following alternative routes to type-approval of a\n\nvehicle may be used at the discretion of the vehicle\n\nmanufacturer.\n\n\n#### 4.2.1 Approval of Vehicle Installation\n\nA vehicle installation may achieve type approval\n\ndirectly by following the provisions laid down in 5. If\n\nthis route is chosen by a vehicle manufacturer, no\n\nseparate testing of electrical/electronic systems or\n\nESAs is required.\n\n\n#### 4.2.2 Approval of Vehicle Type by Testing of Individual\n\nESAS\n\nA vehicle manufacturer may obtain approval of the\n\nvehicle by demonstrating to the testing agency that all\n\nthe relevant (see 4.1) electrical/electronic systems or\n\nESAs have been individually approved in accordance\n\nwith this standard and have been installed in accordance\n\nwith any conditions attached thereto.\n\n\n#### 4.2.3 A manufacturer may obtain approval if the vehicle\n\nhas no equipment of the type which is subject to\n\nemission tests. The vehicle shall have no systems as\n\nspecified in 4.1 and no spark ignition equipment. Such\n\napprovals do not require testing.\n\n\n### 4.3 Type Approval of an ESA\n\nAn ESA may achieve type approval, by following the\n\nprovisions laid down in 5. Type approval may be\n\ngranted to an ESA to be fitted either to any vehicle\n\ntype or to a specific vehicle type or types as requested\n\nby the manufacturer. ESAs involved in the direct\n\ncontrol, as explained in 5.1 of vehicles shall normally\n\nreceive type approval in conjunction with applicable\n\nvehicle. Information to be supplied shall contain at least\n\nthe details given in the format in Annex B.\n\n\n4.4 GUIDELINES FOR DECIDING WHETHER TESTING IS NEEDED\n\nAnnex C gives factors to be considered for extension of type approval certificate of one model to changes in technical specifications or its variant(s).",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "4",
+      "heading": "4 TYPE APPROVALS APPROVAL OF A",
+      "heading_path": [
+        "4 TYPE APPROVALS APPROVAL OF A"
+      ],
+      "char_start": 5856,
+      "char_end": 8464,
+      "semantic_chunk_length": 2608,
+      "final_chunk_length": 2910,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0004",
+    "text": "rmation to be supplied shall contain at least\n\nthe details given in the format in Annex B.\n\n\n4.4 GUIDELINES FOR DECIDING WHETHER TESTING IS NEEDED\n\nAnnex C gives factors to be considered for extension of type approval certificate of one model to changes in technical specifications or its variant(s).\n\n## 5 REQUIREMENTS\n\n\n### 5.1 Vehicles\n\n\n#### 5.1.1 Broad Band (Wide Band)\n\n- a) This test is intended to measure the broad band (wide band) emissions generated by spark ignition systems.\n- b) Two, alternate, reference antenna from the vehicle distances are permissible: 10.0 ± 0.2 m or 3.00 ± 0.05 m. The choice of distance can be made upon relation of consistently recorded ambient level with limits specified at the distance.\n- c) Every vehicle when tested for electromagnetic radiation with the method given in this standard shall meet the requirements of the limits of radiation given in Table 1, Figs. 1 and 2 at the spot frequencies described in 6.12.4. On the vehicle tested, the measured values, expressed in dB µV/m, shall be at least 2.0 dB (20 percent) below the reference limits.\n\n**Table 1 Limits for Broad Band Emission from Vehicles (Measured with Quasi-Peak Detector)**\n\n[Clauses 5.1.1 (c) and 6.12.3]\n\n| Sl No. | Frequency Range | If the Antenna is at 10 m Nominal Distance from the Vehicle | | If the Antenna is at 3 m Nominal Distance from the Vehicle | |\n| --- | --- | --- | --- | --- | --- |\n| (1) | MHz (2) | Equivalent dB μV/m (3) | Equivalent dB μV/m (4) | Equivalent dB μV/m (5) | Equivalent dB μV/m (6) |\n| i) | 30 to 75 | 50 | 34 | 160 | 44 |\n| ii) | 75 to 400 | 50 at 75 MHz increasing to 180 at 400 MHz (see Fig. 1) | 34 at 75 MHz increasing to 45 at 400 MHz (see Fig. 1) | 160 at 75 MHz increasing to 562 at 400 MHz (see Fig. 2) | 44 at 75 MHz increasing to 55 at 400 MHz (see Fig. 2) |\n| iii) | 400 to 1 000 | 180 | 45 | 562 | 55 |\n\nNOTE — If a peak detector is used appropriate correction factors given in 7.12.3 shall be used.\n\n\n\nVEHICLE BROADBAND REFERENCE LIMITS\n\nAntenna - Vehicle Separation : 10 m\n\nLimit L [dB(μV/m)], at frequency f (MHz)\n\nBand Width\n\n30 to 75 MHz\n\n75 ta 400 MHz\n\n400 to 1000 MHz\n\n\n## 120 KHz\n\nL = 34\n\nL = 34 + 15.13 log (f75)\n\nL = 45\n\nQuasi - peak\n\ndB vs log frequency\n\nLinear, when plotted\n\nBand width 120 KHz\n\ndBu Vim\n\n- - uvim\n\n\n\n\n\n\n\n\n\n\nt.\n\n\n\n\n\n\n.06.\n\n\n\nSpot frequencies\n\n\n\n\n1000\n\n\n**FIG. 1 VEHICLE BROAD BAND REFERENCE LIMITS (ANTENNA-SEPERATION: 1O m)**\n\nFREQUENCY - MEGAHERTZ-LOGARITHMIC\n\nVEHICLE BROADBAND REFERENCE LIMITS\n\nAntenna - Vehicle Separation : 3 m\n\nLimit L [dB(μVim)l, at frequency'f (MHz)\n\nBand Width\n\n30 1O 75 MHZ\n\n75 to 400 MHz\n\n400 to 1000 MHz",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "5",
+      "heading": "5 REQUIREMENTS",
+      "heading_path": [
+        "5 REQUIREMENTS"
+      ],
+      "char_start": 8467,
+      "char_end": 10787,
+      "semantic_chunk_length": 2320,
+      "final_chunk_length": 2622,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0005",
+    "text": "quencies\n\n\n\n\n1000\n\n\n**FIG. 1 VEHICLE BROAD BAND REFERENCE LIMITS (ANTENNA-SEPERATION: 1O m)**\n\nFREQUENCY - MEGAHERTZ-LOGARITHMIC\n\nVEHICLE BROADBAND REFERENCE LIMITS\n\nAntenna - Vehicle Separation : 3 m\n\nLimit L [dB(μVim)l, at frequency'f (MHz)\n\nBand Width\n\n30 1O 75 MHZ\n\n75 to 400 MHz\n\n400 to 1000 MHz\n\n## 120 KHz\n\nt.= 44\n\nL = 44 + 15.13 10g (f/75)\n\nL = 55\n\nQuasi - peak\n\nLinear, when plotted\n\ndB vs log frequency\n\nBand width 120-KHz\n\ndBu VIm\n\nμVim?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpot frequencies\n\n\n\n\n1000\n\nFrequency - megahertz - logarithmic\n\n\n**FIG. 2 VEHICLE BROAD BAND REFERENCE LIMITS (ANTENNA-SEPERATION: 3 m)**\n\n\n\nin 6.12.4. On the vehicle tested, the measured values, expressed in dB µV/m, shall be at least 2.0 dB (20 percent) below the reference limits.\n\n#### 5.1.2 Narrow Band\n\n- a) This test is intended, to measure narrow band electromagnetic emissions which might generate from a microprocessor-based system or other narrow band source.\n- b) Two, alternate, reference antenna from the vehicle distances are permissible: 10.0 ± 0.2 m or 3.00 ± 0.05 m. The choice of distance can be made upon relation of consistently recorded ambient level with limits specified at the distance.\n- c) Every vehicle when tested for electromagnetic radiation with the method given in this standard shall meet the requirements of limits of radiation given in Table 2, Figs. 3 and 4. On the vehicle tested, the measured values, expressed in dB µV/m, shall be required to be at least 2.0 dB (20 percent) below the reference limits.\n\n\n**Table 2 Maximum Limits for Narrow Band Emission from Vehicles**\n\n[Measured with Mean (Average) Detector for Two or Three Wheelers and with Peak or Mean (Average) Detector for Four Wheelers]\n\n[Clauses 5.1.2 (c) and 6.13]\n\n| Sl No. | Frequency Range | If the Antenna is at 10 m Nominal Distance from the Vehicle | | If the Antenna is at 3 m Nominal Distance from the Vehicle | |\n| --- | --- | --- | --- | --- | --- |\n| (1) | MHz (2) | Equivalent dB μV/m (3) | Equivalent dB μV/m (4) | Equivalent dB μV/m (5) | Equivalent dB μV/m (6) |\n| i) | 30 to 75 | 16 | 24 | 50 | 34 |\n| ii) | 75 to 400 | 16 at 75 MHz increasing to 56 at 400 MHz (see Fig. 3) | 24 at 75 MHz increasing to 35 at 400 MHz (see Fig. 3) | 50 at 75 MHz increasing to 180 at 400 MHz (see Fig. 4) | 34 at 75 MHz increasing to 45 at 400 MHz (see Fig. 4) |\n| iii) | 400 to 1 000 | 56 | 35 | 180 | 45 |\n\nVEHICLE BROADBAND REFERENCE LIMITS\n\nAntenna - Vehicle Separation : 10 m\n\nLimit L [dB(μVIm), at frequency f (MHz)\n\nBand Width\n\n30 to75MHz\n\n75 to 400 MHz\n\n400 to 1000 MHz\n\n\n## 120 KHz\n\nL = 24\n\nL = 24 + 15.13 log (f/75)\n\nL. = 35\n\nPeak\n\nd8 vs iog freqvency\n\nLinear, when plotted\n\nBand width 120 KHz\n\na gp\n\nμVIm\n\n\n\n\n\n\n\n380 1\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\nExamples of\n\nSpot frequencies\n\n\n\n\n1000\n\nFrequency - megahertz - iogarithmic\n\n\n**FIG. 3 VEHICLE NARROW BAND REFERENCE LIMITS (ANTENNA-VEHICLE SEPERATION: 1O m)**\n\n\n\nAntenna - Vehicle Separation : 10 m\n\nLimit L [dB(μV/m)], at frequency f (MHz)\n\nBand Width\n\n30 to 75 MHz\n\n75t400MHz\n\n400 to 1000 MHz",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 7,
+      "clause": "120",
+      "heading": "120 KHz",
+      "heading_path": [
+        "120 KHz"
+      ],
+      "char_start": 10790,
+      "char_end": 13497,
+      "semantic_chunk_length": 2707,
+      "final_chunk_length": 3009,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0006",
+    "text": "\n\n\n\n\nExamples of\n\nSpot frequencies\n\n\n\n\n1000\n\nFrequency - megahertz - iogarithmic\n\n\n**FIG. 3 VEHICLE NARROW BAND REFERENCE LIMITS (ANTENNA-VEHICLE SEPERATION: 1O m)**\n\n\n\nAntenna - Vehicle Separation : 10 m\n\nLimit L [dB(μV/m)], at frequency f (MHz)\n\nBand Width\n\n30 to 75 MHz\n\n75t400MHz\n\n400 to 1000 MHz\n\n## 120 KHz\n\nL = 34\n\n= 34 + 15.13 log (ff75)\n\nL 45\n\nQuasi - peak\n\ndB ys iog frequency\n\nLinear, when plotted\n\nBand width 120 KHz\n\ndBy VIm\n\nμVm?\n\n\n\n\n\n9001\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpot frequencies\n\n\n\n\n1000\n\nFrequency - megahertz - logarithmic\n\nVEHICLE BROADBAND REFERENCE LIMITS\n\n\n**FIG. 4 VEHICLE BRAND BAND REFERENCE LIMITS (ANTENNA-VEHICLE SEPERATION: 10 M)**\n\n- d) Notwithstanding the limits defined in 5.1.2 b), if during the initial step as described in 6.13 the signal strength measured at the vehicle broadcast radio antenna is less than 20 dB µV (10 µV) over the frequency range from 88 to 108 MHz, then the vehicle shall be deemed to comply with the limits for narrow band emissions and no further testing shall be required.\n- e) The emission should be measured as per MEAN detection for two or three wheeled vehicles.\n- f) The emission should be measured as per PEAK detection or AVERAGE detection for four wheeled and other vehicles.\n\n### 5.2 Electronic Sub-Assemblies (ESA)\n\n#### 5.2.1 Broad Band (Wide Band)\n\n5.2.1.1 Every ESA when tested for electromagnetic radiation with the method given in this standard shall meet the limits of radiation given in Table 3, Figs. 5 and 6 at the spot frequencies described at 6.12.4.\n\n\n**Table 3 Limits of Electromagnetic Emission from Electronic Sub Assemblies (ESA)**\n\n(Clause 5.2.2.1)\n\n| Sl No. | Frequency Range | Broad Band (Wide Band) With Quasi Peak Detector1) | | Narrow Band | |\n| --- | --- | --- | --- | --- | --- |\n| (1) | MHz (2) | Equivalent dB μV/m (3) | Equivalent dB μV/m (4) | Equivalent dB μV/m (5) | Equivalent dB μV/m (6) |\n| i) | 30 to 75 | 1600 at 30 MHz decreasing to 500 at 75 MHz (see Fig. 5) | 64 at 30 MHz decreasing to 54 at 75 MHz (see Fig. 5) | 500 at 30 MHz decreasing to 160 at 75 MHz (see Fig. 6) | 54 at 30 MHz decreasing to 44 at 75 MHz (see Fig. 6) |\n| ii) | 75 to 400 | 500 at 75 MHz increasing to 1 800 at 400 MHz | 54 at 75 MHz increasing to 65 at 400 MHz | 160 at 75 MHz increasing to 560 at 400 MHz | 44 at 75 MHz increasing to 55 at 400 MHz |\n| iii) | 400 to 1 000 | 1 800 | 65 | 560 | 55 |\n\n1) If a peak detector is used appropriate correction factors given in 7.12.3 is to be used.\n\n\n\nLimit L [dB(μVIm)], at frequency f (MHz)\n\nBand Width\n\n30 to 75 MHz\n\n\n75 to 400 MHz.\n\n400 to 1000 MHz",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "120",
+      "heading": "120 KHz",
+      "heading_path": [
+        "120 KHz"
+      ],
+      "char_start": 13500,
+      "char_end": 15765,
+      "semantic_chunk_length": 2265,
+      "final_chunk_length": 2567,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0007",
+    "text": "at 400 MHz | 44 at 75 MHz increasing to 55 at 400 MHz |\n| iii) | 400 to 1 000 | 1 800 | 65 | 560 | 55 |\n\n1) If a peak detector is used appropriate correction factors given in 7.12.3 is to be used.\n\n\n\nLimit L [dB(μVIm)], at frequency f (MHz)\n\nBand Width\n\n30 to 75 MHz\n\n\n75 to 400 MHz.\n\n400 to 1000 MHz\n\n## 120 KHz\n\nL= 64 - 25.13 log(30)\n\n1. = 54 + 15.13 log (f/75)\n\nL = 65\n\nQuasi - peak\n\ndB ys log frequency\n\nLinear, when plotted\n\nBand width 120 KHz\n\ndBu Vt!\n\nUVim\n\n\n\n\n\n1800\n\n\n380 1\n\n\n\n1000\n\n\n\n\n\n\n\n\n\n\nSpot frequencies\n\n\n\n1000\n\nFreguency - meganertz - logarithmic\n\n\n**FIG. 5 ELECTROMAGNETIC RADIATION BROAD BAND REFERENCE LIMITS**\n\n(FROM ELECTRICAL/ELECTRONIC SUB-ASSEMBLY)\n\n**FIG. 6 ELECTROMAGNETIC RADIATION NARROW BAND LIMITS**\n\n(FROM ELECTRICAL/ELECTRONIC SUB-ASSEMBLY)\n\n\n\n\n5.2.1.2 On the ESA representative of its type, the\n\nmeasured values, expressed in dB μuV/m shall be at\n\nleast 2.0 dB (20 percent) below the reference limits.\n\n\n#### 5.2.2 Narrow Band\n\n5.2.2.1 Every ESA when tested for electromagnetic\n\nradiation with the method given in this standard shall\n\nmeet the requirements of the limits of radiation given\n\nin Table 3 (see Figs. 5 and 6).\n\n5.2.2.2 On the ESA representative of its type, the\n\nmeasured values, expressed in dB μV/m, shall be at\n\nleast 2.0 dB (20 percent) below the reference limits.\n\n5.2.2.3 The emission should be measured as per MEAN\n\ndetection for ESAs for two or three wheelers.\n\n5.2.2.4 The emission should be measured as per PEAK\n\nor AVERAGE detection for ESAs for four wheeled or\n\nother vehicles.\n\n\n### 5.3 Exceptions\n\n\n#### 5.3.1 Vehicle or electrical/electronic system or ESA\n\nthat does not include an electronic oscillator with an\n\noperating frequency greater than 9 kHz shall be deemed\n\nto comply with the requirements of narrow band\n\nemission in 5.1.2 and 5.2.2.\n\n\n#### 5.3.2 For vehicles fitted with tyres, the vehicle body/\n\nchassis can be considered to be an electrically isolated\n\nstructure. Significant electrostatic forces in relation to\n\nthe vehicle's external environment only occur at the\n\nmoment of occupant entry into or exit from the vehicle\n\nAs the vehicle is stationary at these moments, no type-\n\napproval test for electrostatic discharge is deemed\n\nnecessary.\n\n\n#### 5.3.3 Since during normal driving, no external\n\nelectrical connections are made to vehicles, no\n\nconducted transients are generated in relation to the\n\nexternal environment. The responsibility of ensuring\n\nthat equipment can tolerate the conducted transients\n\nwithin a vehicle, for example due to load switching\n\nand interaction between systems lies with\n\nmanufacturer. No type-approval test for conducted\n\ntransients is deemed necessary.\n\n\n#### 5.3.4 Vehicles with compression ignition engine are\n\ndeemed to comply with the requirements of Broad\n\nBand emission as per 5.1.1. They need to be tested for\n\nnarrow band for the purpose of establishing compliance\n\nas described in 5.1.2.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "120",
+      "heading": "120 KHz",
+      "heading_path": [
+        "120 KHz"
+      ],
+      "char_start": 15768,
+      "char_end": 18374,
+      "semantic_chunk_length": 2606,
+      "final_chunk_length": 2908,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0008",
+    "text": "oval test for conducted\n\ntransients is deemed necessary.\n\n\n#### 5.3.4 Vehicles with compression ignition engine are\n\ndeemed to comply with the requirements of Broad\n\nBand emission as per 5.1.1. They need to be tested for\n\nnarrow band for the purpose of establishing compliance\n\nas described in 5.1.2.\n\n## 6 TEST PROCEDURES\n\n\n### 6.1 Measuring Apparatus\n\n\n6.1.1 The measuring equipment shall meet the\n\nconditions laid down in IS 10052 (Part 1).\n\nIS 16211 : 2015\n\n\n6.1.2 A quasi-peak detector shall be used to measure\n\nbroad-band electromagnetic emissions or if a peak\n\ndetector is used an appropriate correction factor shall\n\nbe used depending on the spark pulse rate (see 6.12.3).\n\n\n#### 6.1.3 A mean (average) detector or a peak detector\n\nshall be used for the measurement of radiated narrow\n\nband electromagnetic emissions.\n\n\n### 6.2 Expression of the Results\n\n\n6.2.1 The measured results are expressed, in dB μV/m\n\n(micro volts/m). In the case of broad band (wide band)\n\nmeasurements, this shall be expressed for a band width\n\nof 120 kHz.\n\n\n#### 6.2.2 If the actual bandwidth B (expressed in kHz) does\n\nnot correspond exactly to 120 kHz, the readings taken\n\nin micro volts/m, are converted to a bandwidth\n\nof 120 kHz through multiplication by a factor of 120/B.\n\n\n### 6.3 Ambient\n\nIn order to ensure the absence of any noise or\n\nextraneous signals of a level that might materially affect\n\nthe measurements, such measurements shall be taken\n\nbefore and after the main test. Steps shall be taken to\n\nensure that no emission from the vehicle can\n\nsignificantly affect the measurements (for example the\n\nignition key should be removed or the battery\n\ndisconnected and or the vehicle is withdrawn from the\n\ntest surface). For both types of measurements, the noise\n\nor extraneous signal shall be at least 10 dB below the\n\nlimits stated in Tables 1, 2 or 3 except for intentional\n\nnarrow-band ambient transmissions.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "6",
+      "heading": "6 TEST PROCEDURES",
+      "heading_path": [
+        "6 TEST PROCEDURES"
+      ],
+      "char_start": 18377,
+      "char_end": 19986,
+      "semantic_chunk_length": 1609,
+      "final_chunk_length": 1911,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0009",
+    "text": " key should be removed or the battery\n\ndisconnected and or the vehicle is withdrawn from the\n\ntest surface). For both types of measurements, the noise\n\nor extraneous signal shall be at least 10 dB below the\n\nlimits stated in Tables 1, 2 or 3 except for intentional\n\nnarrow-band ambient transmissions.\n\n### 6.4 Measuring Location for Tests on Vehicle\n\n\n6.4.1 The test surface shall be a level, clear area free\n\nof electromagnetic reflective surfaces within a\n\nminimum radius of 30 m, measured from a point mid-\n\nway between the vehicle and the antenna (see Fig. 7)\n\n\n#### 6.4.2 Both the measuring equipment and the test cab\n\nor the vehicle in which the measuring equipment is\n\nsituated is positioned within the part of the test surface\n\nshown in Fig 7. Other measuring antennae are allowed\n\nwithin the test area, at a minimum distance of 10 m\n\nboth from receiving antenna and the vehicle under test,\n\nprovided that it can be shown that the test results will\n\nnot be affected.\n\n\n6.4.3 Enclosed testing installations may be used for\n\nthe tests, if correlation can be shown between these\n\ninstallations and the external test site. Such installations\n\nare not subject to the conditions laid down in Fig. 7\n\nexcept for the condition relating to the distance between\n\nthe vehicle and the antenna and to the height of the\n\nlatter. Neither do they need to have ambient emissions\n\n\n\nSee CISPR 12, Edition 2\n\nMinimtm radius 30 m\n\nVehicle\n\nCentre of the 3D m radius of the clear\n\nsurface midway between the antenna\n\nand the vehicle\n\n10 m\n\nAntenna\n\nMinimum radius 15 m\n\nPermitted iocation for the measuring equipment\n\n( or for the cab ar vehicle )\n\nVechicle test surface\n\nClear horizontal surface free of electromagnetic reflection\n\n\n**FIG. 7 TEST CAB/TEST SURFACE WITH THE POSITION OF TEST EQUIPMENT**\n\nchecked before or after the test as indicated in 6.3 of\n\nthis standard.\n\n\n### 6.5 Antenna Type\n\nFor test of vehicle any antenna is permitted, provided\n\nthat it can be normalized with the reference antenna.\n\nThe method described in Annex C of IS 6873 (Part 1)\n\nmay be used to calibrate the antenna.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "6.4",
+      "heading": "6.4 Measuring Location for Tests on Vehicle",
+      "heading_path": [
+        "6 TEST PROCEDURES",
+        "6.4 Measuring Location for Tests on Vehicle"
+      ],
+      "char_start": 19989,
+      "char_end": 21775,
+      "semantic_chunk_length": 1786,
+      "final_chunk_length": 2088,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0010",
+    "text": "*\n\nchecked before or after the test as indicated in 6.3 of\n\nthis standard.\n\n\n### 6.5 Antenna Type\n\nFor test of vehicle any antenna is permitted, provided\n\nthat it can be normalized with the reference antenna.\n\nThe method described in Annex C of IS 6873 (Part 1)\n\nmay be used to calibrate the antenna.\n\n### 6.6 Antenna Position for Tests of Vehicle\n\n\n#### 6.6.1 Height and Distance Measurement\n\n6.6.1.1 Height\n\n- a) 10 m test - The antenna phase centre shall be 3.00 ± 0.05 m above the vehicle resting plane.\n- b) 3 m test - The antenna phase centre shall be 1.80 ± 0.05 m above the vehicle resting plane.\n\nNo part of the antenna receiving components shall be less than 0.25 m from the vehicle resting plane.\n\n6.6.1.2 Distance\n\n- a) 10 m test - The horizontal distance from the tip or other appropriate point of antenna defined during the normalization procedure to the outer body surface of the vehicle shall be 10.0 ± 0.2 m.\n- b) 3 m test - The horizontal distance from the tip or other appropriate point of antenna defined during the normalization procedure to the outer body surface of the vehicle shall be 3.00 ± 0.05 m.\n\n\n#### 6.6.2 Test in Enclosed Installation\n\n6.6.2.1 If the test is carried out in an enclosed\n\ninstallation with the object of creating\n\nan\n\nelectromagnetic screen against radio frequencies, the\n\nposition of the antenna receiving components must not\n\nbe less than 1.0 m from any type of radio-frequency\n\nabsorbent material and no closer than 1.5 m to the wall\n\nof the enclosed testing installation.\n\n\n\n\n6.6.2.2 There shall be no absorbent material between\n\nthe receiving antenna and the vehicle under test.\n\n6.6.2.3 Antenna location relative to vehicle\n\n6.6.2.3.1 The antenna shall be positioned successively\n\non right and left hand side of the vehicle parallel to the\n\nlongitudinal median plane of vehicle and in line with\n\nthe mid-point of the engine (see Fig. 8).\n\nIS 16211 : 2015\n\n6.6.2.3.2 Readings are taken for each measuring point,\n\nfirst with the antenna vertically polarized and also\n\nhorizontally polarized (see Fig. 8).",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "6.6",
+      "heading": "6.6 Antenna Position for Tests of Vehicle",
+      "heading_path": [
+        "6 TEST PROCEDURES",
+        "6.6 Antenna Position for Tests of Vehicle"
+      ],
+      "char_start": 21778,
+      "char_end": 23532,
+      "semantic_chunk_length": 1754,
+      "final_chunk_length": 2056,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0011",
+    "text": "d side of the vehicle parallel to the\n\nlongitudinal median plane of vehicle and in line with\n\nthe mid-point of the engine (see Fig. 8).\n\nIS 16211 : 2015\n\n6.6.2.3.2 Readings are taken for each measuring point,\n\nfirst with the antenna vertically polarized and also\n\nhorizontally polarized (see Fig. 8).\n\n### 6.7 Measuring Location for Tests on ESA\n\n\n6.7.1 The test site shall meet the conditions laid down\n\nin Fig. 10 of IS 10052 (Part 1).\n\nPosition of antenna in relation to vehicle\n\nDipole antenna in position to measure the vertical radiatian components\n\n10.0 ± 0.2 m\n\n(3.00 ± 0.05 m)\n\n3.00 ± 0.05 m\n\n(1.80 ± 0.05 m)\n\n10.0±0.2m\n\n(3.00 ± 0.05m)\n\nElevation\n\nVehicle\n\nmid-point of the engine\n\nEngine\n\nPlan\n\n\n**FIG. 8: POSITION OF DIPOLE ANTENNA IN RELATION TO VEHICLE, TO MEASURE VERTICAL AND HORIZONTAL**\n\nRADIATION COMPONENTS\n\n\n\n1000\n\nTo axis of antenna\n\nOr cosest element ot\n\nShielded enclasure\n\nlog perlodic aray :\n\nDouble shlelded\n\n1000± 50 mm\n\n1000:50\n\ncoaxiaf cable\n\nFeedthrough\n\nTest bench with\n\nESA\n\nground plane banded\n\nMeasuring\n\nto wall\n\nreceiver\n\nTest hamess 1500 ±75 mm\n\nlong and 50 ± 5mm\n\nabove ground plane\n\nPower supply in\n\n500min\n\n.500 min\n\nAntenna matching unit\n\n(where necessary) in\n\nto subject under test\n\n1500min-\n\nclose proximily to antenna\n\nFeedthrough\n\nConnecting box\n\nincluding AN -\n\nClosest radiating elements 500 mm minimum\n\nfrom the edge f the ground plane\n\nRadiated electromagnetic emissions from an EsA test layout\n\n(General plari vlew)\n\nAll dimensions in millimetres.\n\n\n**FIG. 9A RADIATED ELECTROMAGNETIC EMISSIONS FROM AN ESA TEST LAYOUT (GENERAL PLAN VIEW)**\n\n1500min\n\nPlare in which lie the\n\n500min\n\nreference point and\n\n1000±50\n\nAntenna\n\nthe main portion\n\nof the harness\n\nReference point\n\n50±10\n\n1000±100\n\n100±10\n\n250min\n\nRadiated electromagnetic emissions from an EsA view of test bench piane of longitudinal symmetry.\n\nAll dimensions in millimetres.\n\nLONGITUDINAL SYMMETRY\n\n\n\nSee CISPR 16 ( draft)\n\nMinimum radius 15 m\n\nObject tested\n\non eart piate\n\n1 m\n\nArtenna\n\nBoundaries of the testing\n\nsurface\n\n\n**FIG. 1O BOUNDARIES OF THE TESTING SURFACE FREE AREA NOT INCLUDING ANY ELECTROMAGNETICALLY-**\n\nREFLECTING SURFACE\n\n\n#### 6.7.2 The measuring set, test hut or vehicle in which\n\nthe measurement set is located shall be outside the\n\nboundary shown in Fig. 10.\n\n\n6.7.3 Enclosed testing installation may be used for the\n\ntests, provided that correlation can, be shown between\n\nthese installations and the external test site. The testing\n\ninstallations are not subject to the dimensional\n\nconditions laid down in Fig. 10 except for condition\n\nrelating to the distance between the ESA and the\n\nantenna and to the height of the latter (see Figs. 9A\n\nand 9B).\n\n\n\n### 6.8 Antenna Type for Test on ESA\n\nAny linearly polarized antenna shall be permitted,\n\nprovided that it can be normalized with reference\n\nantenna.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 13,
+      "clause": "6.7",
+      "heading": "6.7 Measuring Location for Tests on ESA",
+      "heading_path": [
+        "6 TEST PROCEDURES",
+        "6.7 Measuring Location for Tests on ESA"
+      ],
+      "char_start": 23535,
+      "char_end": 26073,
+      "semantic_chunk_length": 2538,
+      "final_chunk_length": 2840,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0012",
+    "text": " in Fig. 10 except for condition\n\nrelating to the distance between the ESA and the\n\nantenna and to the height of the latter (see Figs. 9A\n\nand 9B).\n\n\n\n### 6.8 Antenna Type for Test on ESA\n\nAny linearly polarized antenna shall be permitted,\n\nprovided that it can be normalized with reference\n\nantenna.\n\n### 6.9 Antenna Position for Tests on ESA\n\n\n#### 6.9.1 Height and Distance Measurement\n\n6.9.1.1 Height\n\nThe phase centre of the antenna shall be 150 ± 10 mm\n\nabove the ground plane for broad band (wide band)\n\n\n\nmeasurements. The phase centre of the antenna shall\n\nbe 50 ± 10 mm above the ground plane for narrow\n\nband measurements\n\n6.9.1.2 Distance of measurement\n\n- a) The horizontal distance measured between the antenna phase centre and the edge of the ground plane shall be 1.00 ± 0.05 m. No part of the antenna shall be less than 0.5 m from the ground plane.\n- b) The antenna shall lie parallel to a plane that is perpendicular to the ground plane and runs coincident with the edge of the ground plane along which the main portion of the harness is situated.\n\n\n#### 6.9.2 General\n\n6.9.2.1 If the test is carried out in an enclosed testing\n\ninstallation with the object of creating a screen against\n\nradio-frequencies, the antenna's components shall not\n\nbe less than 0.5 m from any type of radio - frequency\n\nabsorptive material or less than 1.5 m from the wall of\n\nthe screen in question. There shall be no absorbent\n\nmaterial between the receiving antenna and the ESA\n\nunder test.\n\n6.9.2.2 Readings are to be taken at the measuring\n\npoint, with the antenna polarized horizontally and also\n\nvertically.\n\n\n### 6.10 Vehicle State During Test\n\nTesting shall not be conducted while rain or other\n\nprecipitation is falling on the vehicle or within 10 min\n\nafter such precipitation has stopped.\n\n\n#### 6.10.1 Broad Band (Wide Band) Test\n\n6.10.1.1 The engine shall function at its normal\n\noperating temperature and, where a gear box is fitted.\n\nit shall be in neutral. If this is not possible for practical\n\nreasons, alternative solutions shall be sought by\n\nagreement with the manufacturer and the test agency.\n\n6.10.1.2 Steps shall be taken to ensure that the gear-\n\nchanging mechanism do not exert any influence on\n\nelectromagnetic radiation from the vehicle. During\n\neach measurement, the engine shall operate at a speed\n\nwithin specified range. The same speed shall be used\n\nfor all the frequencies.\n\n| Engine Type - Spark Ignition No. of Cylinders | Method of Measurement - Quasi-peak/Peak | Engine speed |\n| --- | --- | --- |\n| One | Quasi-peak/Peak | 2500 rpm ± 10 percent |\n| More than One | Quasi-peak/Peak | 1500 rpm ± 10 percent |\n\n6.10.1.3 If the vehicle is provided with air conditioning\n\n\nsystem then the same shall be in operation with\n\nmaximum blower speed during testing.\n\n\n#### 6.10.2 Narrow Band Test\n\n6.10.2.1 The vehicle's electronic system shall all be in\n\nnormal operating mode with the vehicle stationary.\n\n6.10.2.2 The ignition shall be switched on. The engine\n\nshall not be operating",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "6.9",
+      "heading": "6.9 Antenna Position for Tests on ESA",
+      "heading_path": [
+        "6 TEST PROCEDURES",
+        "6.9 Antenna Position for Tests on ESA"
+      ],
+      "char_start": 26076,
+      "char_end": 28785,
+      "semantic_chunk_length": 2709,
+      "final_chunk_length": 3011,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0013",
+    "text": " then the same shall be in operation with\n\nmaximum blower speed during testing.\n\n\n#### 6.10.2 Narrow Band Test\n\n6.10.2.1 The vehicle's electronic system shall all be in\n\nnormal operating mode with the vehicle stationary.\n\n6.10.2.2 The ignition shall be switched on. The engine\n\nshall not be operating\n\n### 6.11 State of ESA on Test - Arrangement for ESA\n\n\n6.11.1 The ESA shall be in its normal operating state.\n\nMeasurement shall not be made while rain or other precipitation is falling on the ESA under test or within 10 min after rain or other precipitation has stopped.\n\nThe ESA and its cable harnesses shall be supported on\n\nwooden or insulated table at 50 ± 5 mm above the table.\n\nHowever, if one of the parts of the ESA is intended to\n\nbe connected electrically to the metal bodywork of the\n\nvehicle that part shall be located on and be connected\n\nelectrically to the ground plane.\n\n\n6.11.2 The ground plane shall have to take the form of\n\nmetal sheet at least 0.5 mm thick. The minimum size\n\nof the ground plane shall depend upon the size of the\n\nESA, but it will have to be sufficiently large to receive\n\nthe vehicle system components and the cable harness.\n\nThe ground plane shall be connected to the protective\n\nearth conductor and shall be located at a height\n\nof 1.0 ± 0.1 m above the test facility floor and run\n\nparallel to it.\n\n\n6.11.3 The ESA shall be ready to operate and be\n\nconnected in accordance with the instructions. The\n\npower distribution cables shall run parallel to and lie\n\nat the most at 100 mm from the edge of the ground\n\nplane/table that is closest to the antenna.\n\n\n6.11.4 The ESA shall be earthed as specified by the\n\nmanufacturer; no additional earth connections shall be\n\npermitted.\n\n\n#### 6.11.5 The distance between the ESA and the other\n\nconducting structures such as the walls of a shielded\n\narea (except for the ground plane/table supporting the\n\ntest object) shall be at least 1.0 m.\n\n\n6.11.6 Power shall be applied to the ESA via a 5 micro-H/50 ohm resistance artificial network (AN) that is bonded electrically to the ground plane. The electrical supply voltage shall be maintained within ± 10 percent of the nominal operating voltage of the system. Any\n\nripple voltage shall be less than 1.5 percent of the\n\nnominal operating voltage of the system measured at\n\nthe AN monitoring port . If the ESA consists of more\n\nthan one device the best way of linking these together\n\nis to use the cable harness intended for use on the\n\nvehicle. If such a harness is not available, the length\n\nbetween the electronic control unit and the AN shall\n\n\n\n\nbe 1.500 ± 0.075 m. All cables in the harness shall end\n\nin the most realistic way as possible and preferably.\n\nreceive real loads and actuators. If other equipment is\n\nneeded for the proper functioning of the ESA it shall\n\nbe necessary to compensate for its contributions to\n\nemission measured.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "6.11",
+      "heading": "6.11 State of ESA on Test - Arrangement for ESA",
+      "heading_path": [
+        "6 TEST PROCEDURES",
+        "6.11 State of ESA on Test - Arrangement for ESA"
+      ],
+      "char_start": 28788,
+      "char_end": 31364,
+      "semantic_chunk_length": 2576,
+      "final_chunk_length": 2878,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0014",
+    "text": "\n\n\n\n\nbe 1.500 ± 0.075 m. All cables in the harness shall end\n\nin the most realistic way as possible and preferably.\n\nreceive real loads and actuators. If other equipment is\n\nneeded for the proper functioning of the ESA it shall\n\nbe necessary to compensate for its contributions to\n\nemission measured.\n\n### 6.12 Frequencies of Broad Band Tests\n\n\n#### 6.12.1 Measurements are taken over a range of\n\nfrequencies from 30 to 1 000 MHz .Compliance with\n\nthe required limits will be checked at spot frequencies\n\ndescribed at 6.12.4.\n\nA vehicle/ESA is considered as very likely to satisfy\n\nthe required limits over the whole frequency range if\n\nit satisfies them at the spot frequencies described\n\nat 6.12.4. In the event that the limit is exceeded during\n\nthe tests, steps must be taken to confirm that this is\n\ndue to the vehicle/ESA and not due to back ground\n\nradiation.\n\n\n#### 6.12.2 The limits apply throughout the frequency range\n\n30 to 1 000 MHz.\n\n\n6.12.3 Measurements can be performed with either\n\nquasi-peak or peak detectors. The limits given in\n\nTables 1 and 3 are for quasi-peak. If peak is used, add\n\n\n38 dB for 1 MHz band width or subtract 22 dB for\n\n1 kHz bandwidth.\n\n\n#### 6.12.4 Tolerance on Frequencies\n\n| Spot Frequency (MHz) | Tolerance (MHz) |\n| --- | --- |\n| 45, 65, 90, 120, 150, 190 and 230 | ±5 |\n| 280, 380, 450, 600, 750 and 900 | ±20 |\n\nThe tolerances are applied to the frequencies stated above with the aim of avoiding interference from transmissions operating at, or close to, the nominal frequencies during the measurements.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "6.12",
+      "heading": "6.12 Frequencies of Broad Band Tests",
+      "heading_path": [
+        "6 TEST PROCEDURES",
+        "6.12 Frequencies of Broad Band Tests"
+      ],
+      "char_start": 31367,
+      "char_end": 32614,
+      "semantic_chunk_length": 1247,
+      "final_chunk_length": 1549,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0015",
+    "text": " (MHz) |\n| --- | --- |\n| 45, 65, 90, 120, 150, 190 and 230 | ±5 |\n| 280, 380, 450, 600, 750 and 900 | ±20 |\n\nThe tolerances are applied to the frequencies stated above with the aim of avoiding interference from transmissions operating at, or close to, the nominal frequencies during the measurements.\n\n### 6.13 Frequencies for Narrow Band Tests\n\nAs an initial step the levels of emissions in the FM\n\nfrequency band (88 to108 MHz) shall be measured at\n\nthe vehicle broadcast radio antenna with equipment as\n\nspecified in 5.1.2 d).\n\nIS 16211 : 2015\n\nIf the level specified in Table 2 is not exceeded, then\n\nthe vehicle shall be deemed to comply with the\n\nrequirements of this standard in respect of frequency\n\nband and the full test shall not be carried out.\n\nIn the case of an ESA, as a short (2 to 3 min) initial\n\nstep, choosing one antenna polarization, it is permitted\n\nto make sweeps of the frequency range identified\n\nin 6.13 using a spectrum analyzer to indicate the\n\nexistence and/or whereabouts of peak emissions. This\n\nmay assist in the choice of frequencies to be tested.\n\n\n#### 6.13.1 Measurement\n\nMeasurements are taken over a range of frequencies\n\nfrom 30 to 1 000 MHz. This range is divided\n\ninto 13 bands. In each band a test should be carried\n\nout at one spot frequency. In order to confirm that the\n\nvehicle complies with the requirements of this standard\n\nthe test agency shall test at one such point in each of\n\nthe following 13 frequency bands:\n\n\n30 to 50, 50 to 75, 75 to 100, 100 to 130, 130\n\nto 165, 165 to 200, 200 to 250, 250 to 320,\n\n\n320 to 400, 400 to 520, 520 to 660, 660 to\n\n\n820 and 820 to 1 000 MHz\n\nIn the event that the limit is exceeded during the tests,\n\nsteps must be taken to confirm that this is due to the\n\nvehicle/ESA and not due to background radiation. If\n\nduring the initial step described in the case ofESA the\n\nradiated narrow band emissions for any of the bands\n\nidentified above are at least 1OdB below reference limit.\n\nthen the ESA shall be deemed to comply with the\n\nrequirements of narrow band emission in respect of\n\nthat frequency band.\n\n\n### 6.14 Readings\n\nThe maximum of the four readings taken in the case\n\nof vehicles or two readings in the case of ESAs at each\n\nspot frequency shall be taken as the characteristic\n\nreading at the frequency at which the measurements\n\nare made.\n\nNOTE - Where compliance of vehicle system has already been\n\ncertified for SS 21, for establishing compliance to this standard,\n\nbroad band emissions for frequencies up to 220 MHz need not\n\nbe measured again.",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "6.13",
+      "heading": "6.13 Frequencies for Narrow Band Tests",
+      "heading_path": [
+        "6 TEST PROCEDURES",
+        "6.13 Frequencies for Narrow Band Tests"
+      ],
+      "char_start": 32617,
+      "char_end": 34858,
+      "semantic_chunk_length": 2241,
+      "final_chunk_length": 2543,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0016",
+    "text": " taken as the characteristic\n\nreading at the frequency at which the measurements\n\nare made.\n\nNOTE - Where compliance of vehicle system has already been\n\ncertified for SS 21, for establishing compliance to this standard,\n\nbroad band emissions for frequencies up to 220 MHz need not\n\nbe measured again.\n\n## ANNEX A\n\n(Clause 4.1)\n\nTECHNICAL SPECIFICATIONS FOR EMI TEST (VEHICLE)\n\nA-0 GENERAL\n\na) Type and general commercial description\n   (This covers model and variants)\nb) Name of manufacturer\nc) Address\n\nA-1 MASS AND DIMENSIONS\n\na) Overall length\nb) Overall width\nc) Overall height\nd) Wheel base\ne) Kerb weight\n\nA-2 ENGINE\n\na) Type of engine (2 strokes/4 strokes, SI/CI.)\nb) No. of cylinders\nc) Position and arrangement\nd) Bore and Stroke\ne) Compression ratio\nf) Maximum net power\ng) Fuel\nh) Lubrication mix\nj) No. of carburetors\nk) Intake system\nm) Position/drawing of air filter\nn) Air filter make\np) Air filter type (see 4.1)\n\nA-3 ELECTRICAL EQUIPMENT\n\na) Nominal voltage\nb) Ignition system\nc) Make\nd) Type (see 4.1)\ne) Operating principle\nf) Ignition adv. characteristic\ng) Point gap\nh) Generator:\n   1) Type (see 4.1)\n   2) Nominal power\n\nA-4 INTERFERENCE SUPPRESSION SYSTEM\n\na) Spark Plug:\n   1) Make\n   2) Type (see 4.1)\n   3) Point gap\nb) HT cable and coil:\n   1) Make\n   2) Type (see 4.1)\n   3) Identification\n   4) Length × OD\n   5) Resistance of ignition cable\nc) Cap (Resistive):\n   1) Make\n   2) Type (see 4.1)\n   3) Part no./Identification\nd) Electronic unit:\n   1) Make\n   2) Type (see 4.1)\n   3) Terminology and drawing of\n   4) Interference suppression\n   5) Equipment\n   6) Resistance of ignition cable\n\nPlace :                                                                                         Authorised Signatory :\n\n\n## ANNEX B\n\n(Clause 4.3)\n\nTECHNICAL SPECIFICATIONS FOR EMI TEST (ESA)\n\nB-0 General\n\na) Type (General commercial description) :\nb) Make (Trade-name of manufacturer) :\nc) Name of the manufacturer :\nd) Address :\n\nB-1 This ESA shall be approved as a component/STU\n\n(*)\n\nB-2 Any restrictions of use and conditions for:\n\nNOTE - Any drawing must be supplied in appropriate scale and in sufficient detail. Photographs, if any, must show sufficient details. If the systems, components or separate technical units have electronic controls, information concerning their performance must be supplied. The details shall also include description of the ESA chosen to represent the type and relevant test reports, if parts of ESA are already type approved.\n\n(*) Delete which is not applicable",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 34863,
+      "char_end": 37082,
+      "semantic_chunk_length": 2219,
+      "final_chunk_length": 2521,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0017",
+    "text": "r separate technical units have electronic controls, information concerning their performance must be supplied. The details shall also include description of the ESA chosen to represent the type and relevant test reports, if parts of ESA are already type approved.\n\n(*) Delete which is not applicable\n\n## ANNEX C\n\n(Clause 4.4)\n\nGUIDELINES FOR DECIDING WHETHER TESTING IS NEEDED\n\nC-1 This annex gives factors to be considered for the extension of type approval certificate of one model to changes in technical specifications or its variant(s).\n\nC-2 In general, when changes in technical specifications of vehicle do not affect the performance adversely, and is still within the stipulated limits, the type approval certificates can be extended. The changes in parameters that affect the performance are listed in the table below as a guideline.\n\nC-3 In the case of following changes, with respect to the vehicle tested, in the details submitted as per Annexure A, tests are necessary for establishing compliance as follows:\n\n| Sl No. (1) | Parameter (2) | To be Tested/Not Tested (3) |\n| --- | --- | --- |\n| i) | change in engine power | No test, required, if change in power is within 10 percent |\n| ii) | Compression ratio (SI engines) | No test required, if change in compression ratio is within 10 percent |\n| iii) | Changes in body and cowling | Changes like 2 door to 4 door, shape of fenders or contours of hood, size of wheels or tyres are unlikely to have effect. Other changes need to be tested |\n| iv) | Changes in size and shape of engine compartment. | Test needed |\n| v) | Location of HT coil and consequent change in location of HT cable and high tension harness. | Test needed |\n| vi) | Change in body material such as metal to non-metal and vice-versa | Test needed |\n| vii) | Change in the position and general mounting arrangement of engine consequent to situations like front engine to rear engine, LHS steering to RHS steering and vice-versa, etc | Test needed |\n| viii) | Change in ignition system components such as magneto/ alternator, CDI/transistorized ignition system, HT cable, HT coil, spark plug, suppressor cap, ECU and/or their makes | Test needed |\n| ix) | Addition of any electronic control unit under driver's direct control as defined in 4.1 | Test needed |\n| x) | Changes in constituents of electronic control units as defined in 5.3.2 | Test needed |\n| xi) | Change in type, location and material of air-cleaner. | No test required |\n| xii) | Addition of air-conditioning equipment | Test needed |\n| xiii) | Significant difference in the clear opening to engine compartment:<br>a) around wheel or<br>b) due to metal radiator construction change. | Test needed |\n\nC-4 Above changes are listed for guidance only. It is not practicable to list all the changes that affect EMI.\n\nNOTE - Changes in non-resistive elements of ignition system are considered to have no significant effect in EMI provided the vehicle Manufacturer certifies so (The elements are spark plug, spark plug cap, high tension cable and coil).\n\n\n\n\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote\n\nharmonious development of the activities of standardization, marking and quality certification of goods",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 19,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 37087,
+      "char_end": 40074,
+      "semantic_chunk_length": 2987,
+      "final_chunk_length": 3289,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16211_2015_reff2020_0018",
+    "text": "spark plug, spark plug cap, high tension cable and coil).\n\n\n\n\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote\n\nharmonious development of the activities of standardization, marking and quality certification of goods\n\nand attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form\n\nwithout the prior permission in writing of BIS. This does not preclude the free use, in the course of\n\nimplementing the standard, of necessary details, such as symbols and sizes, type or grade designations.\n\nEnquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed\n\nperiodically; a standard along with amendments is reaffirmed when such review indicates that no changes are\n\nneeded; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards\n\nshould ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of\n\n'BIS Catalogue' and 'Standards : Monthly Additions'.\n\nThis Indian Standard has been developed from Doc No.: TED 11 (0796).\n\nAmendments Issued Since Publication\n\n| Amend No. | Date of Issue | Text Affected |\n| --- | --- | --- |\n| — | — | — |",
+    "metadata": {
+      "source": "16211_2015_reff2020.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 19,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 40076,
+      "char_end": 41255,
+      "semantic_chunk_length": 1179,
+      "final_chunk_length": 1481,
+      "standard_no": "IS 16211",
+      "year": "2015",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

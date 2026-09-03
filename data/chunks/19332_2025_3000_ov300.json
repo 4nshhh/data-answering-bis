@@ -1,0 +1,607 @@
+[
+  {
+    "id": "19332_2025_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nOctober 2025 Price Group 9\n\n\n\n\nInformation Technology and Information Technology Enabled Services Sectional Committee, SSD 10\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards after the draft is finalized by the Information Technology and Information Technology Enabled Services Sectional Committee had been approved by the Service Sector Division Council.\n\nA digital signature is a cryptographic technique used to verify the authenticity, integrity, and non-repudiation of electronic documents and transactions. It is based on public key infrastructure (PKI) and ensures secure communication in digital environments. This standard is essential to maintain clarity, consistency, and interoperability across industries and regulatory frameworks. It helps avoid ambiguity, ensures alignment with international laws, simplifies technical documentation, and enhances adoption by providing a common understanding of key definitions and abbreviations.\n\n\n| This standard is t | he technical adoption | of the Euro | pean Standa | rd ETSI TR | 119 | 001 v 1.2.1 ‘Electro | nic signatures |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| and infrastructure | s (ESI) — The fram | ework for s | tandardizatio | n of signa | tures | — Definitions and | abbreviations’ |\n| developed by the | European Telecom | munication | Standards In | stitute (ET | SI). | To make it suitable | in the Indian |\n| context, modifica | tions have been mad | e solely to r | eference the | applicable | regul | atory framework, th | e Information |\n| Technology Act, | 2000. Where specifi | c clauses o | f the ETSI s | tandard are | not | applicable being n | ot in line with |\n| Indian law, the te | rm ‘void’ has been u | sed to indica | te their excl | usion. |  |  |  |\n| This standard al | so refers to various | publication | s brought ou | t by diffe | rent | organizations which | are listed in |\n| Annex B. |  |  |  |  |  |  |  |\n\n\nThe composition of the Committee responsible for the formulation of this standard is given in Annex C.\n\n\n\n\nIndian Standard\n\nELECTRONIC SIGNATURES AND INFRASTRUCTURES\n\n(ESI)  THE FRAMEWORK FOR STANDARDIZATION OF\n\nSIGNATURES - DEFINITIONS AND ABBREVIATIONS\n\n\n## 1 SCOPE\n\nThis standard provides definitions and abbreviations\n\nfor use in the standardization of digital signature\n\nframework.\n\n\n## 2 REFERENCES\n\nThe standards listed in Annex A contain provisions,\n\nwhich through reference in this text, constitute\n\nprovisions of this standard. At the time of\n\npublication, the editions indicated were valid. All\n\nstandards are subject to revision and parties to\n\nagreements based on this standard are encouraged to\n\ninvestigate the possibility of applying the most\n\nrecent edition of these standards.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2860,
+      "semantic_chunk_length": 2858,
+      "final_chunk_length": 2858,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0001",
+    "text": "t, constitute\n\nprovisions of this standard. At the time of\n\npublication, the editions indicated were valid. All\n\nstandards are subject to revision and parties to\n\nagreements based on this standard are encouraged to\n\ninvestigate the possibility of applying the most\n\nrecent edition of these standards.\n\n## 3 DEFINITIONS AND ABBREVIATIONS\n\n### 3.1 Definitions\n\nFor the purposes of this standard, the definitions\n\nin IS 12373(Part 2)/ISO 7498-2,\n\ngiven\n\nISO/IEC 9594-8 and the following shall apply.\n\n\n#### 3.1.1 AdES (Digital) Signature - Digital signature\n\nthat is either a CAdES signature, or a PAdES\n\nsignature or a XAdES signature.\n\n\n#### 3.1.2 Advanced Electronic Seal  An electronic\n\nseal means data in electronic form, which is attached\n\nto or logically associated with other data in\n\nelectronic form to ensure the latter's origin and\n\nintegrity. An advanced electronic seal is\n\nan\n\nelectronic seal which meets the following:\n\nIt is uniquely linked to the creator of the\n\na)\n\nseal;\n\nb)\n\nIt is capable of identifying the creator of the\n\nseal;\n\nIt is created using electronic seal creation\n\ndata that the creator of the seal can, with a\n\nhigh level of confidence under its control.\n\nuse for electronic seal creation; and\n\n(p\n\nIt is linked to the data to which it relates in\n\nsuch a way that any subsequent change in\n\nthe data is detectable.\n\n\n#### 3.1.3 Advanced Electronic Signature\n\nAn\n\nelectronic signature means data in electronic form\n\nwhich is attached to or logically associated with\n\nother data in electronic form and which is used by\n\nthe signatory to sign. An advanced electronic\n\nsignature is an electronic signature which meets the\n\nfollowing:\n\nIt is uniquely linked to the signatory;\n\na)\n\nb)\n\nIt is capable of identifying the signatory;\n\nIt is created using electronic signature\n\nc)\n\ncreation data that the signatory can, with a\n\nhigh level of confidence, use under his sole\n\ncontrol; and\n\nIt is linked to the data signed therewith in\n\nd)\n\nsuch a way that any subsequent change in\n\nthe data is detectable.\n\n— Void —\n\n3.1.4\n\n\n#### 3.1.5 Approval  Assertion that a trust service,\n\nfalling within the oversight of a particular scheme,\n\nhas been either positively endorsed or assessed for\n\ncompliance against the relevant requirements (active\n\napproval) or has received no explicit restriction\n\nsince the time at which the scheme was aware of the\n\nexistence of the said service (passive approval).\n\n\n#### 3.1.6 Approval Scheme  Any organized process of\n\nsupervision, monitoring， assessment or such\n\npractices that are intended to apply oversight with\n\nthe objective of ensuring adherence to specific\n\ncriteria in order to maintain trust in the services\n\nunder the scope of the scheme.\n\n\n#### 3.1.7 ASiCArchiveManifest File  Container file\n\nwhose\n\nmatches\n\nname\n\n\"* ASiCArchiveManifest*.xml\"\n\ncontaining\n\none\n\nASiCManifest element instance.\n\n\n#### 3.1.8 ASiCEvidenceRecordManifest\n\nFile\n\nContainer file used in ASiC-E to reference a set of\n\nfiles to which an ER applies whose name matches\n\n\"META-INF/ASiCEvidenceRecordManifest*.xml\"\n\nand containing one ASiCManifest element instance.\n\n\n#### 3.1.9 ASiCManifest File — File whose name\n\n\"*ASiCManifest*.xml\"\n\ncontaining\n\nmatches\n\none\n\nASiCManifest element instance.\n\nFile",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3.1",
+      "heading": "3.1 Definitions",
+      "heading_path": [
+        "3 DEFINITIONS AND ABBREVIATIONS",
+        "3.1 Definitions"
+      ],
+      "char_start": 2863,
+      "char_end": 5791,
+      "semantic_chunk_length": 2928,
+      "final_chunk_length": 3229,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0002",
+    "text": "to reference a set of\n\nfiles to which an ER applies whose name matches\n\n\"META-INF/ASiCEvidenceRecordManifest*.xml\"\n\nand containing one ASiCManifest element instance.\n\n\n#### 3.1.9 ASiCManifest File — File whose name\n\n\"*ASiCManifest*.xml\"\n\ncontaining\n\nmatches\n\none\n\nASiCManifest element instance.\n\nFile\n\n#### 3.1.10 Associated Signature Container\n\nholding data objects with related manifest, metadata\n\nand associated digital signature(s), under a specified\n\nhierarchy.\n\n\n\n\n#### 3.1.11 Attribute Authority — Authority which assigns privileges by issuing attribute certificates.\n\n\n#### 3.1.12  Attribute Certificate — Data structure, digitally signed by an attribute authority, that binds some attribute values with identification information about its holder.\n\n\n#### 3.1.13 Auditor — Person who assesses conformity to requirements as specified in a given requirements document.\n\n\n3.1.14 Business Scoping Parameter — Specific parameter scoped in the light of the business process(es) where digital signatures or trust services are to be implemented, which implementers need to take into consideration for appropriately addressing the related business requirements in their implementation.\n\n\n#### 3.1.15  CAdES Signature — Digital signature that satisfies the requirements specified within ETSI EN 319 122-1 or ETSI EN 319 122-2.\n\n\n#### 3.1.16 CA Certificate — Public key certificate for one CA issued by another CA or by the same CA.\n\n\n#### 3.1.17 Certificate — Public key of an entity, together with some other information, rendered unforgeable by digital signature with the private key of the certification authority which issued it.\n\nNOTE — Certificate is a digital signature certificate as defined under the Section 35(4) of Information Technology Act, 2000.\n\n\n#### 3.1.18 Certificate Identifier — Unambiguous identifier of a certificate.\n\n\n#### 3.1.19 Certificate Path (Chain) Validation — Process of verifying and confirming that a certificate path (chain) is valid.\n\n\n#### 3.1.20 Certificate Policy — Named set of rules that indicates the applicability of a certificate to a particular community and/or class of application with common security requirements.\n\nNOTE — This is a specific type of trust service policy.\n\n\n#### 3.1.21 Certificate Revocation List — Signed list indicating a set of certificates that are no longer considered valid by the certificate issuer.\n\n\n#### 3.1.22 Certificate Validation — Process of verifying and confirming that a certificate is valid.\n\n\n#### 3.1.23 Certification Authority — Authority trusted by one or more users to create and assign public-key certificates (also referred to as  certification  service\n\nprovider).\n\nNOTES",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3.1.10",
+      "heading": "3.1.10 Associated Signature Container",
+      "heading_path": [
+        "3 DEFINITIONS AND ABBREVIATIONS",
+        "3.1 Definitions",
+        "3.1.10 Associated Signature Container"
+      ],
+      "char_start": 5794,
+      "char_end": 8154,
+      "semantic_chunk_length": 2360,
+      "final_chunk_length": 2662,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0003",
+    "text": " issuer.\n\n\n#### 3.1.22 Certificate Validation — Process of verifying and confirming that a certificate is valid.\n\n\n#### 3.1.23 Certification Authority — Authority trusted by one or more users to create and assign public-key certificates (also referred to as  certification  service\n\nprovider).\n\nNOTES\n\n## 1 Optionally the certification authority can create the subjects keys.\n\n\n2 A certification authority can be:\n\n- a) a trust service provider that creates and assigns public key certificates; or\n- b) a technical certificate generation service that is used by a certification service provider that creates and assign public key certificates.\n\n#### 3.1.24 Certification Authority Revocation List — Revocation list containing a list of CA-certificates issued to certification authorities that are no longer considered valid by the certificate issuer.\n\n\n3.1.25 Certification Path — Ordered list of one or more public-key certificates, starting with a public- key certificate signed by the trust anchor, and ending with the public key certificate to be validated.\n\nNOTE — All intermediate public-key certificates, if any, are CA-certificates in which the subject of the preceding certificate is the issuer of the following certificate.\n\n\n#### 3.1.26 Certification Practice Statement — Statement of the practices which a certification authority employs in issuing managing, revoking, and renewing or re-keying certificates.\n\nNOTES\n\n\n## 1 See IETF RFC 3647.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "1",
+      "heading": "1 Optionally the certification authority can create the subjects keys.",
+      "heading_path": [
+        "1 Optionally the certification authority can create the subjects keys."
+      ],
+      "char_start": 8157,
+      "char_end": 9308,
+      "semantic_chunk_length": 1151,
+      "final_chunk_length": 1453,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0004",
+    "text": "subject of the preceding certificate is the issuer of the following certificate.\n\n\n#### 3.1.26 Certification Practice Statement — Statement of the practices which a certification authority employs in issuing managing, revoking, and renewing or re-keying certificates.\n\nNOTES\n\n\n## 1 See IETF RFC 3647.\n\n## 2 This is a specific type of trust service practice statement.\n\n\n#### 3.1.27 Certification Service Provider — See 3.1.23.\n\n\n3.1.28 Certification Signature — Digital signature that is used in conjunction with modification detection permissions (MDP).\n\n\n3.1.29 Chain Model — Model for validation of X.509 certificate chains where all CA certificates have to be valid at the time they were used for issuing a certificate and the end-entity certificate was valid when creating the signature.\n\n\n#### 3.1.30 Claimed Signing Time — Time of signing claimed by the signer which on its own does not provide independent evidence of the actual signing time.\n\n3.1.31 (Signature) Commitment Type — Signer- selected indication of the exact implication of a digital signature.\n\n3.1.32  (Signature) Constraints — Abstract formulation of rules, values, ranges and computation\n\n\n\n\nresults that a digital signature can be validated against.\n\nNOTE — Constraints can be defined in a formal signature policy, can be given in configuration parameter files or implied by the behaviour of the SVA.\n\n3.1.33 (Signature) Creation Constraints — Abstract formulation of rules, values, ranges and computation results that are used when creating a digital signature.\n\n\n#### 3.1.34 Conformity Assessment — Process demonstrating whether specified requirements relating to a product, process, service, system, person or body have been fulfilled.\n\nNOTE — As defined in IS/ISO/IEC 17000.\n\n\n3.1.35 Conformity Assessment Body — Body that performs conformity assessment services which is accredited as competent to carry out conformity assessment of a qualified trust service provider and the qualified trust services it provides.\n\n3.1.36 (Signature) Constraints — Abstract formulation of rules, values, ranges and computation results that a digital signature can be validated against.\n\n\n#### 3.1.37 Competence — Ability to apply knowledge and skills to achieve intended results.\n\n\n#### 3.1.38 Container — File created according to ZIP holding as internal elements files with related manifest, metadata and associated signature(s), under a folder hierarchy.\n\n\n#### 3.1.39 Coordinated Universal Time — Time scale based on the second.\n\nNOTES",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "2",
+      "heading": "2 This is a specific type of trust service practice statement.",
+      "heading_path": [
+        "2 This is a specific type of trust service practice statement."
+      ],
+      "char_start": 9311,
+      "char_end": 11512,
+      "semantic_chunk_length": 2201,
+      "final_chunk_length": 2503,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0005",
+    "text": " and skills to achieve intended results.\n\n\n#### 3.1.38 Container — File created according to ZIP holding as internal elements files with related manifest, metadata and associated signature(s), under a folder hierarchy.\n\n\n#### 3.1.39 Coordinated Universal Time — Time scale based on the second.\n\nNOTES\n\n## 1 As defined in recommendation ITU-R TF.460-6.\n\n\n2 For most practical purposes the coordinated universal time is equivalent to mean solar time at the prime meridian (0°). More specifically, it is a compromise between the highly stable atomic time (Temps Atomique International - TAI) and solar time derived from the irregular earth rotation [related to the Greenwich mean sidereal time (GMST) by a conventional relationship].\n\n\n3.1.40 Cross Certificate — Certificate that is used to establish a trust relationship between two certification authorities.\n\n\n#### 3.1.41 Cryptographic Suite — Combination of a signature scheme with a padding method and a cryptographic hash function.\n\n\n#### 3.1.42 Cryptographic System — Collection of transformations, normally defined by a mathematical algorithm, from plain text into cipher\n\ntext and vice versa, the particular transformation(s) to be used being selected by (private or public) keys.\n\n\n#### 3.1.43 Data Object — Actual binary/octet data being operated on (transformed, digested, or signed) by an application.\n\nNOTE — This definition is part of the definition of this term within XMLDSIG.\n\n\n#### 3.1.44 Data Integrity — Property that data has not been altered or destroyed in an unauthorized manner.\n\n\n#### 3.1.45 Data Origin Authentication — Corroboration that the source of data received is as claimed.\n\n\n3.1.46 Data to be Signed Formatted — Data created from the data to be signed objects by formatting them and placing them in the correct sequence for the computation of the data to be signed representation.\n\n\n3.1.47 Data to be Signed Representation — Hash of the data to be signed formatted, which is used to compute the digital signature value.\n\n\n#### 3.1.48 Detached (Digital) Signature — Digital signature that, with respect to the signed data object, is neither enveloping nor enveloped.\n\n\n3.1.49 Digital Signature — Data appended to, or a cryptographic transformation of a data unit that allows a recipient of the data unit to prove the source and integrity of the data unit and protect against forgery for example by the recipient.\n\n\n3.1.50 Digital Signature Value — Result of the cryptographic transformation of a data unit that allows a recipient of the data unit to prove the source and integrity of the data unit and protect against forgery for example by the recipient.\n\n\n#### 3.1.51 Domain Validation Certificate — Certificate which has no validated organizational identity information for the subject and only identifies the subject by its domain name.\n\n\n3.1.52 Driving Application — Application that uses a signature creation system to create a signature or a signature validation application in order to validate digital signatures or a signature augmentation application to augment digital signatures.\n\n\n#### 3.1.53 Electronic Document — Any content stored in electronic form, in particular text or sound, visual or audio-visual recording.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "1",
+      "heading": "1 As defined in recommendation ITU-R TF.460-6.",
+      "heading_path": [
+        "1 As defined in recommendation ITU-R TF.460-6."
+      ],
+      "char_start": 11515,
+      "char_end": 14426,
+      "semantic_chunk_length": 2911,
+      "final_chunk_length": 3213,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0006",
+    "text": "e a signature or a signature validation application in order to validate digital signatures or a signature augmentation application to augment digital signatures.\n\n\n#### 3.1.53 Electronic Document — Any content stored in electronic form, in particular text or sound, visual or audio-visual recording.\n\n#### 3.1.54 Electronic Signature — Is an authentication of any electronic record by a subscriber by means of\n\n\n\n\nthe electronic technique specified in the second schedule and includes digital signature.\n\n\n#### 3.1.55 Enveloped (Digital) Signature — Digital signature embedded within the signed data object.\n\n\n#### 3.1.56 Enveloping (Digital) Signature — Digital signature embedding the signed data object.\n\n3.1.57     — Void —\n\n3.1.58     — Void —\n\n\n#### 3.1.59 EV Certificate — See 3.1.62.\n\n\n3.1.60 Evidence — Information that can be used to resolve a dispute about various aspects of authenticity of archived data objects.\n\n\n3.1.61 Evidence Record — Unit of data, which can be used to prove the existence of an archived data object or an archived data object group at a certain time.\n\nNOTE — See IETF RFC 4998 and IETF RFC 6283.\n\n\n#### 3.1.62  Extended Validation Certificate — As defined in CA/Browser Forum.\n\n\n#### 3.1.63 Generator — Any party which creates, or augments a digital signature.\n\nNOTE — This can be the signer or any party that initially validates or further maintains the signature.\n\n\n#### 3.1.64  Hash Function — As defined in ISO/IEC 10118-3.\n\n\n3.1.65  High Security Zone — Physical location where a CA's private key or cryptographic hardware is located.\n\n\n#### 3.1.66  Identity Provider — Entity that makes available identity information.\n\nNOTE — See ISO/IEC 24760-1.\n\n3.1.67     — Void —\n\n3.1.68     — Void —\n\n3.1.69     — Void —\n\n3.1.70     — Void —\n\n3.1.71     — Void —\n\n3.1.72     — Void —\n\n3.1.73     — Void —\n\n3.1.74     — Void —\n\n3.1.75     — Void —\n\n3.1.76     — Void —\n\n3.1.77     — Void —\n\n3.1.78     — Void —\n\n\n#### 3.1.79 Media Type — Method to label arbitrary content, carried by MIME IETF RFC 2045 or other protocols.\n\nNOTE — Refer to 1 of IETF RFC 6838.\n\n\n#### 3.1.80 Message Imprint — Digest value of the data that is going to be time-stamped.\n\nNOTE — In the case of time-stamp tokens, it corresponds to the digest value incorporated into the hashedMessage field of MessageImprint type.\n\n\n#### 3.1.81 Metadata — Data describing context, content and structure of data objects and their management over time.\n\nNOTE — Refer to 3.12 of IS 16787 (Part 1)/ISO 15489-1.\n\n\n#### 3.1.82 Mobile Device — Personal device which can communicate over a mobile network, usually a device suitable for carrying in hand, purse or pocket such as a mobile or smart phone.\n\n\n#### 3.1.83 Mobile Network — Communications network operated specifically for mobile devices, usually requiring the mobile devices to incorporate a UICC in order to communicate.\n\n\n#### 3.1.84 Mobile Network Operator — Entity which offers mobile network services.\n\n\n3.1.85 Mobile Signature Service — Facility that coordinates and manages the process by which an end user can sign a document, or other information, using a signing key on or connected to a personal device.\n\nNOTE —This service supports local signing only.\n\n\n#### 3.1.86 Mobile Signature Service Provider — Provider of a mobile signature service.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "3.1.54",
+      "heading": "3.1.54 Electronic Signature — Is an authentication of any electronic record by a subscriber by means of",
+      "heading_path": [
+        "1 As defined in recommendation ITU-R TF.460-6.",
+        "3.1.54 Electronic Signature — Is an authentication of any electronic record by a subscriber by means of"
+      ],
+      "char_start": 14429,
+      "char_end": 17428,
+      "semantic_chunk_length": 2999,
+      "final_chunk_length": 3301,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0007",
+    "text": "hat coordinates and manages the process by which an end user can sign a document, or other information, using a signing key on or connected to a personal device.\n\nNOTE —This service supports local signing only.\n\n\n#### 3.1.86 Mobile Signature Service Provider — Provider of a mobile signature service.\n\n#### 3.1.87 National Accreditation Body — Authoritative body that performs accreditation.\n\n\n#### 3.1.88 Organizational Validation Certificate — Certificate that includes validated organizational identity information for the subject.\n\n\n#### 3.1.89 PAdES Signature — Digital signature that satisfies the requirements specified within ETSI EN 319 142-1 or ETSI EN 319 142-2.\n\n\n\n\n3.1.90 PDF Serial Signature — Specific digital signature where the second (and subsequent) signers of a PDF not only sign the document but also the signature of the previous signer and any modification that can also have taken place like form fill-in.\n\n\n3.1.91 PDF Signature — DER-encoded binary data object based on the PKCS #7 IETF RFC 2315 or the CMS (IETF RFC 5652) or related syntax containing a digital signature and other information necessary to validate the electronic signature such as the signers certificate along with any supplied revocation information placed within a PDF document structure.\n\nNOTES\n\n\n## 1 As specified in 12.8 of IS 16276 (Part 1)/ISO 32000-1.\n\n\n2 Electronic signature in this definition is to be understood as a digital signature.\n\n\n3.1.92 Personal Device — Networked device that is assumed to be under the sole control of a natural person at the time of signing/validation.\n\nNOTE — The term personal device includes mobile devices as well as other general computing devices such as personal computers, tablets and laptops.\n\n\n#### 3.1.93 Private Key — In a public key cryptographic system, that key of an entity's key pair which is known only by that entity.\n\n\n#### 3.1.94 Proof of Existence — Evidence that proves that an object existed at a specific date/time.\n\n\n#### 3.1.95 Proof of Integrity — Evidence that proves the accuracy and completeness of an object.\n\n\n3.1.96 Prospective Certificate Chain — Sequence of n certificates which satisfies the conditions (a) to (c) in IETF RFC 5280 and the trust anchor is trusted according to the signature validation policy in use.\n\n\n#### 3.1.97 Public Key — In a public key cryptographic system, that key of an entity's key pair which is publicly known.\n\n\n#### 3.1.98 Public Key Certificate — See 3.1.17.\n\n\n#### 3.1.99  Public Key Infrastructure — Infrastructure able to support the management of public keys able to support authentication, encryption, integrity or non-repudiation services.\n\n\n3.1.100  Publicly-Trusted Certificate — Certificate that is trusted by virtue of the fact that its corresponding root certificate is distributed as a trust anchor in widely-available application software.\n\n3.1.101      — Void —\n\n3.1.102      — Void —\n\n3.1.103      — Void —\n\n3.1.104      — Void —\n\n3.1.105      — Void —\n\n\n#### 3.1.106  Registration Authority — Entity that is responsible for identification and authentication of subjects of certificates mainly.\n\nNOTES\n\n\n## 1 See IETF RFC 3647.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "3.1.87",
+      "heading": "3.1.87 National Accreditation Body — Authoritative body that performs accreditation.",
+      "heading_path": [
+        "1 As defined in recommendation ITU-R TF.460-6.",
+        "3.1.87 National Accreditation Body — Authoritative body that performs accreditation."
+      ],
+      "char_start": 17431,
+      "char_end": 20272,
+      "semantic_chunk_length": 2841,
+      "final_chunk_length": 3143,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0008",
+    "text": " software.\n\n3.1.101      — Void —\n\n3.1.102      — Void —\n\n3.1.103      — Void —\n\n3.1.104      — Void —\n\n3.1.105      — Void —\n\n\n#### 3.1.106  Registration Authority — Entity that is responsible for identification and authentication of subjects of certificates mainly.\n\nNOTES\n\n\n## 1 See IETF RFC 3647.\n\n## 2 A registration authority can assist in the certificate application process or revocation process or both.\n\n\n#### 3.1.107  Registration Officer — Person responsible for verifying information that is necessary for certificate issuance and approval of certification requests.\n\n\n#### 3.1.108  Relying Party — Natural or legal person that relies upon an electronic identification or a trust service.\n\nNOTE — Relying parties include parties verifying a digital signature using a public key certificate.\n\n\n#### 3.1.109  Repudiation — Denial by one of the entities involved in a communication of having participated in all or part of the communication.\n\n\n#### 3.1.110  Revocation Officer — Person responsible for operating certificate status changes.\n\n\n3.1.111 Root CA — Root Certifying Authority of India (RCAI) established by Controller of Certifying Authorities (CCA) as per provisions under Information Technology Act, 2000, the certification authority which is at the highest level and is used to sign subordinate CA(s).\n\nNOTES\n\n\n1 A root CA certificate is generally self-signed but the root CA can also be certified by a (root) CA from another domain (for example, cross-certification, root-signed in the context of a root-signing program).\n\n\n2 A root CA can be used as the trust anchor for many applications (for example, browsers) but nothing prevents the TSP to present subordinate CAs for this purpose, according to the business context.\n\n3.1.112      — Void —\n\n\n#### 3.1.113  Scheme Operator — Body responsible for the operation and/or management of any kind of assessment scheme, whether they are governmental, industry or private.\n\n\n#### 3.1.114  Secure Cryptographic Device — Device which holds the user's private key, protects this key\n\n\n\n\nagainst compromise and performs signing or decryption functions on behalf of the user.\n\n\n#### 3.1.115  Secure Element — Tamper resistant component used in a personal device to provide security, confidentiality, and multiple application environments required to support various business models.\n\nNOTE — Examples of secure element technologies currently used for mobile devices are UICC (also known as SIM card), embedded secure element, smartSD, smart microSD. An external secure device, such as a smart card, can also be used with a personal device to support local signing.\n\n\n#### 3.1.116  Secure Signature Creation Device — As defined in Section 15 under Chapter 5 of Indian Information Technology Act, 2000, for creation of secure electronic signature.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "2",
+      "heading": "2 A registration authority can assist in the certificate application process or revocation process or both.",
+      "heading_path": [
+        "2 A registration authority can assist in the certificate application process or revocation process or both."
+      ],
+      "char_start": 20275,
+      "char_end": 22782,
+      "semantic_chunk_length": 2507,
+      "final_chunk_length": 2809,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0009",
+    "text": "oSD. An external secure device, such as a smart card, can also be used with a personal device to support local signing.\n\n\n#### 3.1.116  Secure Signature Creation Device — As defined in Section 15 under Chapter 5 of Indian Information Technology Act, 2000, for creation of secure electronic signature.\n\n#### 3.1.117  Secure Cryptographic Device — Device which holds the user's private key, protects this key against compromise and performs signing or decryption functions on behalf of the user.\n\n\n3.1.118  Secure Zone — Area (physical or logical) protected by physical and logical controls that appropriately protect the confidentiality, integrity, and availability of the systems used by the trust service provider.\n\n\n3.1.119  Seed Value Dictionary — PDF data structure, of type dictionary, as described in Table 234 of IS 16276 (Part 1)/ISO 32000-1, that contains information that constrains the properties of a digital signature that is applied to a specific signature field.\n\n\n3.1.120  Shell Model — Model for validation of X.509 certificate chains where all certificates have to be valid at a given time.\n\nNOTE — The given time is an input parameter to the validation.\n\n\n#### 3.1.121  Signatory — Subscriber identified in the subject of a certificate performing Electronic Signature under the provisions of Indian Information Technology Act, 2000.\n\n\n#### 3.1.122 Signature Attribute — Signature property.\n\n\n3.1.123  Signature Application Practice Statement — Set of rules applicable to the application and/or its environment implementing the creation, the augmentation and/or the validation of digital signatures.\n\n\n#### 3.1.124  Signature Augmentation — Process of incorporating to a digital signature information aiming to maintain the validity of that signature over\n\nthe long term.\n\nNOTE — Augmenting signatures is a co-lateral process to the validation of signatures, namely the process by which certain material (for example, time stamps, validation data and even archival-related material) is incorporated to the signatures for making them more resilient to change or for enlarging their longevity.\n\n\n#### 3.1.125  Signature Augmentation Application — Application that implements signature augmentation.\n\nNOTES",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "3.1.117",
+      "heading": "3.1.117 Secure Cryptographic Device — Device which holds the user's private key, protects this key against compromise and performs signing or decryption functions on behalf of the user.",
+      "heading_path": [
+        "2 A registration authority can assist in the certificate application process or revocation process or both.",
+        "3.1.117 Secure Cryptographic Device — Device which holds the user's private key, protects this key against compromise and performs signing or decryption functions on behalf of the user."
+      ],
+      "char_start": 22785,
+      "char_end": 24704,
+      "semantic_chunk_length": 1919,
+      "final_chunk_length": 2221,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0010",
+    "text": " (for example, time stamps, validation data and even archival-related material) is incorporated to the signatures for making them more resilient to change or for enlarging their longevity.\n\n\n#### 3.1.125  Signature Augmentation Application — Application that implements signature augmentation.\n\nNOTES\n\n## 1 The signature augmentation application takes inputs from and provides the augmented signature to a driving application.\n\n\n2 The signature augmentation application can be implemented as part of the signature creation application or as part of the signature validation application or as a stand- alone application.\n\n\n3.1.126 Signature Augmentation Policy — Set of rules, applicable to one or more digital signatures, that defines the technical and procedural requirements for their augmentation, in order to meet a particular business need, and under which the digital signature(s) can be determined to be conformant.\n\nNOTE — This covers collection of information and creation of new structures that allows performing, on the long term, validations of a signature.\n\n\n#### 3.1.127  Signature Class — Set of signatures achieving a given functionality.\n\nNOTE — A signature class is implementation independent.\n\n\n#### 3.1.128  Signature Creation Application — Application within the signature creation system, complementing the signature creation device, that creates a signature data object.\n\n\n3.1.129  Signature Creation Data — Unique data, such as codes or private cryptographic keys, which are used by the signer to create a digital signature value.\n\n\n#### 3.1.130  Signature Creation Device — Configured software or hardware used to implement the signature creation data and to create a digital signature value.\n\n\n#### 3.1.131  Signature Creation Environment — Physical, geographical and computational environment of the signature creation system.\n\n\n3.1.132  Signature Creation Policy — Set of rules, applicable to one or more digital signatures, that defines the technical and procedural requirements for their creation, in order to meet a particular business need, and under which the digital signature(s) can be determined to be conformant.\n\n\n\n\n#### 3.1.133  Signature Creation System — Overall system, consisting of the signature creation application and the signature creation device, that creates a digital signature.\n\n\n#### 3.1.134  Signature Dictionary — PDF data structure, of type dictionary, as described in Table 252 of IS 16276 (Part 1)/ISO 32000-1, that contains all information about the digital signature.\n\n\n3.1.135 Signature Handler — Software application, or part of a software application, that knows how to perform digital signature operations (for example, signing and/or validating) in conformance with IS 16276 (Part 1)/ISO 32000-1 and the requirements of the appropriate profile.\n\n\n3.1.136  Signature Invocation — Non-trivial interaction between the signer and the SCA or QSCD/SSCD/SCDev that is necessary to invoke the start of the signing process in the SCA/QSCD/SSCD/SCDev to generate the signed data object.\n\nNOTE — It is the ‘wilful act’ of the signer.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "1",
+      "heading": "1 The signature augmentation application takes inputs from and provides the augmented signature to a driving application.",
+      "heading_path": [
+        "1 The signature augmentation application takes inputs from and provides the augmented signature to a driving application."
+      ],
+      "char_start": 24707,
+      "char_end": 27492,
+      "semantic_chunk_length": 2785,
+      "final_chunk_length": 3087,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0011",
+    "text": "e appropriate profile.\n\n\n3.1.136  Signature Invocation — Non-trivial interaction between the signer and the SCA or QSCD/SSCD/SCDev that is necessary to invoke the start of the signing process in the SCA/QSCD/SSCD/SCDev to generate the signed data object.\n\nNOTE — It is the ‘wilful act’ of the signer.\n\n#### 3.1.137  Signature Level — Format specific definition of a set of data incorporated into a digital signature, which allows to implement a signature class.\n\nExample:\n\nCAdES-B-B, CAdES-E-EPES, XAdES-B- LTA, XAdES-E-C, PAdES-B-T, PAdES-E- LTV are examples of signature levels.\n\n\n#### 3.1.138  Signature Policy — Signature creation policy, signature augmentation policy, signature validation policy or any combination thereof, applicable to the same signature or set of signatures.\n\n\n#### 3.1.139  Signature Policy Authority — Entity responsible for the drafting, registering, maintaining, issuing and updating of a signature policy.\n\n\n#### 3.1.140  Signature Policy Document — Document expressing one or more signature policies in a human readable form.\n\n\n#### 3.1.141 Signature Scheme — Triplet of three algorithms composed of a signature creation algorithm, a signature verification algorithm and a key generation algorithm.\n\n\n#### 3.1.142  Signature Validation — Process of verifying and confirming that a digital signature is valid.\n\n\n#### 3.1.143  Signature Validation Application — Application that implements signature validation.\n\n\n3.1.144  Signature Validation Policy — Set of rules, applicable to one or more digital signatures, that defines the technical and procedural requirements for their validation, in order to meet a particular business need, and under which the digital signature(s) can be determined to be valid.\n\n\n#### 3.1.145  Signature Verification — Process of checking the cryptographic value of a signature using signature verification data.\n\n\n#### 3.1.146  Signature Verification Data — Data, such as codes or public cryptographic keys, used for the purpose of verifying a signature.\n\n\n#### 3.1.147  Signature Verification Device — Configured software or hardware used to implement the signature verification data.\n\n\n#### 3.1.148 Signature Data Object — Data structure containing the digital signature value, signature attributes and other information.\n\n\n#### 3.1.149  Signer — Entity being the creator of a digital signature.\n\n\n3.1.150 Signing Service — Facility that coordinates and manages the process by which an end user, by use of a personal device, can remotely sign a document, or other information, using a signing key stored in the signing service remote from the user.\n\n\n#### 3.1.151 Signing Service Provider — Provider of a signing service.\n\n\n#### 3.1.152  Subject — Entity identified in a certificate as the holder of the private key associated with the public key given in the certificate.\n\n\n3.1.153  Subordinate CA — Certification authority whose certificate is signed by the root CA, or another subordinate CA.\n\nNOTE — A subordinate CA can be a CA that issues end user certificates or other subordinate CA certificates.\n\n\n#### 3.1.154  Subscriber — Legal or natural person bound by agreement with a trust service provider to any subscriber obligations.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "3.1.137",
+      "heading": "3.1.137 Signature Level — Format specific definition of a set of data incorporated into a digital signature, which allows to implement a signature class.",
+      "heading_path": [
+        "1 The signature augmentation application takes inputs from and provides the augmented signature to a driving application.",
+        "3.1.137 Signature Level — Format specific definition of a set of data incorporated into a digital signature, which allows to implement a signature class."
+      ],
+      "char_start": 27495,
+      "char_end": 30392,
+      "semantic_chunk_length": 2897,
+      "final_chunk_length": 3199,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0012",
+    "text": "icate is signed by the root CA, or another subordinate CA.\n\nNOTE — A subordinate CA can be a CA that issues end user certificates or other subordinate CA certificates.\n\n\n#### 3.1.154  Subscriber — Legal or natural person bound by agreement with a trust service provider to any subscriber obligations.\n\n#### 3.1.155  Supervision System — System that allows for the supervision of trust service providers and the services they provide, for compliance with relevant requirements.\n\n\n#### 3.1.156  Technical Expert — Person who provides specific knowledge or expertise to the audit team.\n\nNOTES\n\n\n## 1 Specific knowledge or expertise relates to the organization, the process or activity to be audited, or language or culture.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "3.1.155",
+      "heading": "3.1.155 Supervision System — System that allows for the supervision of trust service providers and the services they provide, for compliance with relevant requirements.",
+      "heading_path": [
+        "1 The signature augmentation application takes inputs from and provides the augmented signature to a driving application.",
+        "3.1.155 Supervision System — System that allows for the supervision of trust service providers and the services they provide, for compliance with relevant requirements."
+      ],
+      "char_start": 30395,
+      "char_end": 30813,
+      "semantic_chunk_length": 418,
+      "final_chunk_length": 720,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0013",
+    "text": "they provide, for compliance with relevant requirements.\n\n\n#### 3.1.156  Technical Expert — Person who provides specific knowledge or expertise to the audit team.\n\nNOTES\n\n\n## 1 Specific knowledge or expertise relates to the organization, the process or activity to be audited, or language or culture.\n\n## 2 A technical expert does not act as an auditor in the audit team.\n\n\n#### 3.1.157 Time Assertion — Time-stamp token or an evidence record.\n\n3.1.158  (Electronic) Time-Stamp — Data in electronic form which binds other electronic data to a particular time establishing evidence that these data existed at that time.\n\n\n#### 3.1.159  Time-Stamp Policy — Named set of rules that indicates the applicability of a time-stamp to a particular community and/or class of application with common security requirements.\n\nNOTE —This is a specific type of trust service policy.\n\n\n#### 3.1.160  Time-Stamp Token — Data object defined in IETF RFC 3161, representing a time-stamp.\n\n\n#### 3.1.161  Time-Stamping Authority — Trust service provider which issues time-stamps using one or more time-stamping units.\n\n\n#### 3.1.162  Time-Stamping Service — Trust service for issuing time-stamps.\n\n\n3.1.163  Time-Stamping Unit — Set of hardware and software which is managed as a unit and has a single time-stamp signing key active at a time.\n\n\n#### 3.1.164 Trust — Firm belief in the reliability and truth of information or in the ability and disposition of an entity to act appropriately, within a specified context.\n\nNOTE — As defined in recommendation ITU-T X.1252.\n\n\n3.1.165 Trust Anchor — Entity that is trusted by a relying party and used for validating certificates in certification paths.\n\n\n3.1.166  Trust Anchor Information — At least the distinguished name of the trust anchor, the associated public key, the algorithm identifier, the public key parameters (if applicable), and any constrains on its use including a validity period.\n\n\n#### 3.1.167  Trust Service — Electronic service which enhances trust and confidence in electronic transactions.\n\nNOTE — Such trust services are typically but not necessarily using cryptographic techniques or involving confidential material.\n\n\n#### 3.1.168  Trust Service Policy — Set of rules that indicates the applicability of a trust service to a\n\nparticular community and/or class of application with common security requirements.\n\n\n#### 3.1.169  Trust Service Practice Statement — Statement of the practices that a trust service provider employs in providing a trust service.\n\n\n#### 3.1.170  Trust Service Provider — Natural or a legal person who provides one or more trust services.\n\n\n#### 3.1.171  Trust Service Status List — Form of a signed list as the basis for presentation of trust service status information.\n\n\n#### 3.1.172 Trust Service Status List Provider — Entity which establishes, maintains and publishes trust service status lists.\n\nNOTE — A trust service status list provider is also called a trust service status list issuer or a trust service status list scheme operator (TSLSO).",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "2",
+      "heading": "2 A technical expert does not act as an auditor in the audit team.",
+      "heading_path": [
+        "2 A technical expert does not act as an auditor in the audit team."
+      ],
+      "char_start": 30818,
+      "char_end": 33544,
+      "semantic_chunk_length": 2726,
+      "final_chunk_length": 3028,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0014",
+    "text": "status information.\n\n\n#### 3.1.172 Trust Service Status List Provider — Entity which establishes, maintains and publishes trust service status lists.\n\nNOTE — A trust service status list provider is also called a trust service status list issuer or a trust service status list scheme operator (TSLSO).\n\n#### 3.1.173 Trust Service Token — Physical or binary (logical) object generated or issued as a result of the use of a trust service.\n\nNOTE — Examples of binary trust service tokens are: certificates, CRLs, time-stamp tokens, OCSP responses. Physical tokens can be devices on which binary objects (tokens or credentials) are stored. Equally, a token can be the performance of an act and the generation of an electronic record, for example, an insurance policy or share certificate.\n\n\n3.1.174 Trusted Execution Environment — Specific execution environment on the mobile or personal device that consists of software and possibly hardware to define a boundary between an internal secure and an external unsecure (operating system) execution environment.\n\nNOTE — See global platform device technology - TEE system architecture.\n\n3.1.175      — Void —\n\n3.1.176      — Void —\n\n3.1.177      — Void —\n\n\n#### 3.1.178  Trusted User Interface — Means to securely address user interaction for sensitive applications through the display, keyboard, microphone.\n\n\n3.1.179  TSA Disclosure Statement — Set of statements about the policies and practices of a time- stamping authority that particularly require emphasis or disclosure to subscribers and relying parties, for example, to meet regulatory requirements. 3.1.180 TSA Practice Statement — Statement of the practices that a time-stamping authority employs in issuing time-stamp.\n\nNOTE — This is a specific type of trust service practice statement.\n\n\n\n\n#### 3.1.181 TSA System — Composition of IT products and components organized to support the provision of time-stamping services.\n\n\n#### 3.1.182 UTC(k) — Time scale realized by the laboratory ‘k’ and kept in close agreement with UTC, with the goal to reach ± 100 ns.\n\nNOTE — A list of UTC(k) laboratories is given in 1 of Circular T.\n\n\n#### 3.1.183 Validation — Process of verifying and confirming that a certificate or a digital signature is valid.\n\n\n#### 3.1.184 Validation Constraint — Criterion, applied by a signature validation application when validating a signature.\n\nNOTE — Validation constraints can be defined in a formal signature policy, can be given in configuration parameter files or implied by the behaviour of the signature validation application.\n\n\n3.1.185 Validation Data — Data that is used to validate a digital signature.\n\n\n#### 3.1.186 Validation Service — System accessible through a communication network, which validates a digital signature.",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "3.1.173",
+      "heading": "3.1.173 Trust Service Token — Physical or binary (logical) object generated or issued as a result of the use of a trust service.",
+      "heading_path": [
+        "2 A technical expert does not act as an auditor in the audit team.",
+        "3.1.173 Trust Service Token — Physical or binary (logical) object generated or issued as a result of the use of a trust service."
+      ],
+      "char_start": 33547,
+      "char_end": 36007,
+      "semantic_chunk_length": 2460,
+      "final_chunk_length": 2762,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0015",
+    "text": "onfiguration parameter files or implied by the behaviour of the signature validation application.\n\n\n3.1.185 Validation Data — Data that is used to validate a digital signature.\n\n\n#### 3.1.186 Validation Service — System accessible through a communication network, which validates a digital signature.\n\n#### 3.1.187 Verifier — Entity that wants to validate or verify a digital signature.\n\n\n3.1.188  Voluntary Accreditation — Any permission, setting out rights and obligations specific to the provision of trust services, to be granted upon request by the trust service provider concerned, by the public or private body charged with the elaboration of, and supervision of compliance with, such rights and obligations, where the trust service provider is not entitled to exercise the rights stemming from the permission until it has received the decision by the body.\n\n\n#### 3.1.189 XAdES Signature — Digital signature that satisfies the requirements specified within ETSI EN 319 132-1 or ETSI EN 319 132-2.\n\n\n#### 3.1.190 ZIP — Format as specified in PKWARE®.\n\n\n### 3.2 Symbols\n\n— Void —",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "3.1.187",
+      "heading": "3.1.187 Verifier — Entity that wants to validate or verify a digital signature.",
+      "heading_path": [
+        "2 A technical expert does not act as an auditor in the audit team.",
+        "3.1.187 Verifier — Entity that wants to validate or verify a digital signature."
+      ],
+      "char_start": 36010,
+      "char_end": 36793,
+      "semantic_chunk_length": 783,
+      "final_chunk_length": 1085,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0016",
+    "text": "ts stemming from the permission until it has received the decision by the body.\n\n\n#### 3.1.189 XAdES Signature — Digital signature that satisfies the requirements specified within ETSI EN 319 132-1 or ETSI EN 319 132-2.\n\n\n#### 3.1.190 ZIP — Format as specified in PKWARE®.\n\n\n### 3.2 Symbols\n\n— Void —\n\n### 3.3 Abbreviations\n\nFor the purpose of this standard, the following abbreviations shall apply.\n\nNOTE — These abbreviations  apply  in the  standardization\n\nof digital signature framework.\n\nAbbreviation Description\n\nAARL Attribute authority revocation list\n\nAC Attribute certificate\n\nACA Attribute certification authority\n\nAE Acquiring entity\n\nANSI American National Standards Institute\n\nAP Asia pacific\n\nARL Authority revocation list\n\nASiC Associated signature container\n\nASN Abstract syntax notation\n\nASN.1 Abstract syntax notation one\n\nATSv2 Archive-time-stamp attribute\n\nATSv3 Archive-time-stamp-v3 attribute\n\nBER Basic encoding rules\n\nBIPM Bureau international des Poids et Mesures\n\nBMP Basic multilingual plane\n\nBPMN Business process modelling notation\n\nBRG Baseline requirements guidelines\n\nBSP Business scoping parameter\n\nBTSP Best practices time-stamp policy\n\nB2B Business to business\n\nB2C Business to consumer\n\nC/S Client/server\n\nCA Certification authority\n\nCAB Conformity assessment body\n\nCAB Forum CA/browser forum\n\nCARL Certification authority revocation list\n\nCC Common criteria\n\nCC Country code\n\nCD Commission decision\n\nCEN European Committee for Standardization\n\n\n\n\nAbbreviation Description\n\nCER Canonical encoding rules\n\nCMS Cryptographic message syntax\n\nCP Certificate policy\n\nCPS Certification practice statement\n\nCR Carriage return\n\nCRL Certificate revocation list\n\nCSP Certification service provider\n\nCV Card verifiable\n\nDA Driving application\n\nDER Distinguished encoding rules\n\nDES Data encryption standard\n\nDIT Directory information tree\n\nDN Distinguished name\n\nDRBG Deterministic random bit generator\n\nDRG Deterministic random generator\n\nDRNG Deterministic random number generator\n\nDS Digital signature\n\nDSA Digital signature algorithm\n\nDSS Digital signature service\n\nDSS-X OASIS digital signature services- eXtended\n\nDTBS Data to be signed\n\nDTBSF Data to be signed formatted\n\nDTBSR Data to be signed representation\n\nDTD Document type definition\n\nDVC Domain validation certificate\n\nDVCP Domain validation certificate policy\n\nEA European cooperation for accreditation\n\nEAL Evaluation assurance level\n\nEAP Extensible authentication protocol\n\nEC European commission\n\nECC Elliptic curve cryptography\n\nAbbreviation Description\n\nECDSA Elliptic curve digital signature algorithm\n\nECGDSA Elliptic curve german digital signature algorithm\n\nEDS Electronic delivery service\n\nEEA European economic area\n\nEL Greece\n\nEN European Standard\n\nENISA European union agency for network and information security\n\nEPES Explicit policy-based electronic signature\n\nER Evidence record\n\nERS Evidence record syntax\n\nESS Enhanced security services\n\nEU European union\n\nEUMS European union member states\n\nEV Extended validation\n\nEVC Extended validation certificate\n\nEVCG Extended validation certificate guidelines\n\nEVCP Extended validation certificate policy\n\nFTP File transfer protocol\n\nGAA 3GPP generic authentication architecture\n\nGCC Gulf cooperation council\n\nGMST Greenwich mean sidereal time",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "3.3",
+      "heading": "3.3 Abbreviations",
+      "heading_path": [
+        "2 A technical expert does not act as an auditor in the audit team.",
+        "3.3 Abbreviations"
+      ],
+      "char_start": 36796,
+      "char_end": 39788,
+      "semantic_chunk_length": 2992,
+      "final_chunk_length": 3294,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0017",
+    "text": "states\n\nEV Extended validation\n\nEVC Extended validation certificate\n\nEVCG Extended validation certificate guidelines\n\nEVCP Extended validation certificate policy\n\nFTP File transfer protocol\n\nGAA 3GPP generic authentication architecture\n\nGCC Gulf cooperation council\n\nGMST Greenwich mean sidereal time\n\nGMT Greenwich mean time\n\nGov2B Government to business\n\nGov2C Government to consumer\n\nGTC General terms & conditions\n\nHMSSP Home MSSP\n\nHTML HyperText markup language\n\nHTTP HyperText transfer protocol\n\nIAF International accreditation forum\n\nICC Integrated circuit card\n\n\n\n\nAbbreviation Description\n\nICS Implementation conformance statement\n\nIdP Identity provider\n\nIERS International earth rotation and reference system service\n\nIETF Internet engineering task force\n\nIP Internet protocol\n\nIPR Intellectual property rights\n\nISMS Information security management system\n\nISO International Organization for Standardization\n\nIT Information technology\n\nKEA Key encipherment or agreement\n\nLCP Lightweight certificate policy\n\nLDAP Lightweight directory access protocol\n\nLF Line feed\n\nLoA Level of assurance\n\nLOTL List of trusted lists\n\nLTV Long term validation\n\nMDP Modification detection and prevention\n\nMNO Mobile network operator\n\nMS Member state\n\nMSSP Mobile signature service provider\n\nNCP Normalized certificate policy\n\nNCP+ Extended normalized certificate policy\n\nNFC Near field communications\n\nNIST National Institute Of Standards And Technology\n\nNR Non-repudiation\n\nNRNG Non-deterministic random number generator\n\nOASIS Organization for the Advancement of Structured Information Standards\n\nOCF Open container format\n\nAbbreviation Description\n\nOCF OEBPS container format\n\nOCSP Online certificate status protocol\n\nODF Open document format\n\nOEBPS Open eBook publication structure\n\nOID Object IDentifier\n\nOJEU Official Journal of the European Union\n\nOVC Organizational validation certificate\n\nOVCP Organizational validation certificate policy\n\nPC Personal computer\n\nPDF Portable document format\n\nPDS PKI disclosure statements\n\nPER Packed encoding rules\n\nPIN Personal identification number\n\nPIV Personal identity\n\nPKC Public key certificate\n\nPKCS Public-key cryptography standards\n\nPKI Public key infrastructure\n\nPOE Proof of existence\n\nPP Protection profile\n\nPSES Preservation service for electronic signatures\n\nPSS Probabilistic signature scheme\n\nPTC Publicly-trusted certificate\n\nQC Qualified certificate\n\nQCP Qualified certificate policy\n\nQCP-l Policy for EU qualified certificate issued to a legal person\n\nQCP-l-qscd Policy for EU qualified certificate issued to a legal person where the private key and the related certificate reside on a QSCD\n\nQCP-n Policy for EU qualified certificate issued to a natural person\n\n\n\n\nAbbreviation\n\nDescription\n\nAbbreviation\n\nDescription\n\nQCP-n-qscd\n\nPolicy for EU qualified certificate\n\nSGML\n\nStandard\n\ngeneralized\n\nmarkup\n\nissued to a natural person where\n\nlanguage\n\nthe private key and the related\n\ncertificate reside on a QSCD\n\nSHA\n\nSecure hash algorithm\n\nQCP-w\n\nPolicy for EU qualified certificate\n\nSIM\n\nSubscriber identity module (for a\n\nissued to a web site\n\nmobile phone)\n\nQSCD\n\nQualified electronic signature/seal\n\nSMS\n\nShort message service\n\ncreation device\n\nSP\n\nNIST special publication\n\nRA\n\nRegistration authority\n\nSPO\n\nService provision option\n\nRE",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 14,
+      "clause": "3.3",
+      "heading": "3.3 Abbreviations",
+      "heading_path": [
+        "2 A technical expert does not act as an auditor in the audit team.",
+        "3.3 Abbreviations"
+      ],
+      "char_start": 39790,
+      "char_end": 42782,
+      "semantic_chunk_length": 2992,
+      "final_chunk_length": 3294,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0018",
+    "text": "QCP-w\n\nPolicy for EU qualified certificate\n\nSIM\n\nSubscriber identity module (for a\n\nissued to a web site\n\nmobile phone)\n\nQSCD\n\nQualified electronic signature/seal\n\nSMS\n\nShort message service\n\ncreation device\n\nSP\n\nNIST special publication\n\nRA\n\nRegistration authority\n\nSPO\n\nService provision option\n\nRE\n\nRouting entity\n\nSSCD\n\nSecure signature creation device\n\nREM\n\nRegistered electronic mail\n\nSSI\n\nSCDev/SCA interface\n\nREM-MD\n\nREM management domain\n\nSSL\n\nSecure socket layer\n\nRFC\n\nRequest for comments\n\nSSP\n\nSigning service provider\n\nRGS\n\nRéférentiel Général de Sécurité\n\nSVA\n\nSignature validation application\n\nRNG\n\nRandom number generator\n\nTA\n\nTrust anchor\n\nRSA\n\nRivest，$\n\nShamir\n\nand\n\nAdleman\n\nTAB\n\nTABulator\n\nalgorithm\n\nRTF\n\nRich text format\n\nTAI\n\nInternational atomic time\n\nTC\n\nTechnical Committee\n\nS/MIME\n\nSecure/multipurpose internet mail\n\nextensions\n\nTDP\n\nTL distribution point\n\nSAA\n\nSignature\n\naugmentation\n\nTEE\n\nTrusted execution environment\n\napplication\n\nTL\n\nTrusted list\n\nSAML\n\nSecurity\n\nassertion\n\nmarkup\n\nlanguage\n\nTLS\n\nTransport layer security\n\nSAPS\n\nSignature\n\napplication\n\npractice\n\nTLS/SSL\n\nTransport layer\n\nsecurity/secure\n\nstatement\n\nsocket layer protocol\n\nSAV\n\nSignature acceptance validation\n\nTLSO\n\nTrusted list scheme operator\n\nSCA\n\nSignature creation application\n\nToC\n\nTable of content\n\nSCD\n\nSignature creation data\n\nTR\n\nTechnical report\n\nSCDev\n\nSignature creation device\n\nTrST\n\nTrust service token\n\nSCE\n\nSignature creation environment\n\nTS\n\nTrust service\n\nSCS\n\nSignature creation system\n\nTSA\n\nTime-stamping authority\n\nSCVP\n\nServer-based certificate validation\n\nTSL\n\nTrust-service status list\n\nprotocol\n\nTSLSO\n\nTrust service status list scheme\n\nSD\n\nSigner's document\n\noperator\n\nSDO\n\nSigned data object\n\nTSM\n\nTrusted service manager\n\nSDR\n\nSigner's document representation\n\nTSP\n\nTrust service provider\n\nSE\n\nSecure element\n\nTST\n\nTime-stamp token\n\n\n\n\nAbbreviation\n\nDescription\n\nAbbreviation\n\nDescription\n\nTSTA\n\nTime-Stamp Token applied in an\n\nUTF\n\nUnicode transformation format\n\narchive level of CAdES signature\n\nor XAdES signature\n\nVCI\n\nValidation context initialization\n\nTSTT-Level\n\nTime-Stamp Token applied in a T-\n\nVE\n\nVerifying entity\n\nLevel of CAdES\n\nsignature\n\nor\n\nVRI\n\nValidation related information\n\nXAdES signature\n\nwww\n\nWorld wide web\n\nTSU\n\nTime-stamping unit\n\nWYSIWHBS\n\nWhat you see is what has been\n\nTUI\n\nTrusted user interface\n\nsigned\n\nUA\n\nUser agent\n\nWYSIWYS\n\nWhat you see is what you sign\n\nUCF\n\nUniversal container format\n\nXER\n\nXML encoding rules\n\nUCS\n\nUniversal character set\n\nXHTML\n\neXtended HTML\n\nUICC\n\nUniversal integrated circuit card\n\nXKISS\n\nXML key i\n\ninformation service\n\n(also known as a SIM card)\n\nspecification\n\nUK\n\nUnited kingdom\n\nXKMS\n\nW3C XML\n\nkey\n\nmanagement\n\nUML\n\nUnified modelling language\n\nspecification\n\nUN\n\nUnited Nations\n\nXML\n\neXtensible markup language\n\nURI\n\nUniform resource identifier\n\nXMLDSIG\n\neXtensible\n\nmarkup\n\nlanguage\n\ndigital SIGnature\n\nURL\n\nUniform resource locator\n\nXMP\n\nExtensible metadata platform\n\nURN\n\nUniform resource name\n\nXSLT\n\neXtensible\n\nstylesheet\n\nt language\n\nUTC\n\nCoordinated universal time\n\ntransformations",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "3.3",
+      "heading": "3.3 Abbreviations",
+      "heading_path": [
+        "2 A technical expert does not act as an auditor in the audit team.",
+        "3.3 Abbreviations"
+      ],
+      "char_start": 42784,
+      "char_end": 45566,
+      "semantic_chunk_length": 2782,
+      "final_chunk_length": 3084,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0019",
+    "text": "nsible markup language\n\nURI\n\nUniform resource identifier\n\nXMLDSIG\n\neXtensible\n\nmarkup\n\nlanguage\n\ndigital SIGnature\n\nURL\n\nUniform resource locator\n\nXMP\n\nExtensible metadata platform\n\nURN\n\nUniform resource name\n\nXSLT\n\neXtensible\n\nstylesheet\n\nt language\n\nUTC\n\nCoordinated universal time\n\ntransformations\n\n## ANNEX A\n\n(Clause 2)\n\nLIST OF REFERRED STANDARDS\n\nIS No./Other\n\nTitle\n\nIS No./Other\n\nTitle\n\nStandards\n\nStandards\n\nIS 16276 (Part 1) :\n\nDocument management\n\nETSI EN 319 122-2\n\nElectronic\n\nsignatures\n\nand\n\n2017/ISO 32000-\n\nPortable document format:\n\ninfrastructures\n\n(ESI);\n\n1 : 2008\n\nPart 1 PDF 1.7\n\nCAdES\n\ndigital signatures;\n\nPart\n\n2:\n\nExtended\n\nCAdES\n\nIS 16787 (Part 1) :\n\nInformation\n\nand\n\nsignatures\n\n2018/ISO 15489-\n\ndocumentation\n\nRecords\n\n1 : 2016\n\nmanagement:\n\nPart\n\nETSI EN 319 132-1\n\nElectronic  signatures\n\nand\n\nConcepts and principles\n\ninfrastructures\n\n(ESI);\n\nXAdES digital signatures;\n\nIS 12373 (Part 2) :\n\nBasic reference model of\n\nPart l: Building blocks and\n\n1992/ISO 7498-2\n\nopen\n\nsystems\n\nXAdES baseline signatures\n\n: 1989\n\ninterconnection\n\nfor\n\nETSI EN 319 132-2\n\nElectronic  signatures\n\nand\n\ninformation\n\nprocessing\n\ninfrastructures\n\n(ESI);\n\nsystems:\n\nPart",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 45571,
+      "char_end": 46450,
+      "semantic_chunk_length": 879,
+      "final_chunk_length": 1181,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0020",
+    "text": "S digital signatures;\n\nIS 12373 (Part 2) :\n\nBasic reference model of\n\nPart l: Building blocks and\n\n1992/ISO 7498-2\n\nopen\n\nsystems\n\nXAdES baseline signatures\n\n: 1989\n\ninterconnection\n\nfor\n\nETSI EN 319 132-2\n\nElectronic  signatures\n\nand\n\ninformation\n\nprocessing\n\ninfrastructures\n\n(ESI);\n\nsystems:\n\nPart\n\n## 2 Security\n\nXAdES\n\ndigital signatures;\n\narchitecture\n\nPart 2: Extended XAdES\n\nsignatures\n\nIS/ISO/IEC 27001 :\n\nInformation\n\nsecurity,\n\n2022\n\ncybersecurity\n\nand privacy\n\nETSIEN 319 142-1\n\nElectronic\n\nsignatures\n\nand\n\nprotection\n\nInformation\n\ninfrastructures\n\n(ESI);\n\nsecurity\n\nmanagement\n\nPAdES\n\ns digital signatures;\n\nsystems\n\nRequirements\n\nPart l: Building blocks and\n\n(second revision)\n\nPAdES baseline signatures\n\nETSIEN 319 142-2\n\nand\n\nIS/ISO/IEC 17000 :\n\nConformity\n\nassessment\n\ninfrastructures\n\nElectronic\n\nsignatures\n\n(ESI);\n\n2020\n\nVocabulary\n\nand\n\ngeneral\n\nPAdES\n\ndigital signatures;\n\nprinciples (first revision)\n\nPart 2: Additional PAdES\n\nISO/IEC 9594-8\n\nInformation technology\n\nsignatures profiles\n\nOpen\n\nsystems\n\nIETF RFC 2045\n\nMultipurpose internet mail\n\ninterconnection\n\nPart 8:\n\nextensions (MIME) part one:\n\nThe directory:\n\nPublic-key\n\nFormat of internet message\n\nand\n\nattribute\n\ncertificate\n\nbodies\n\nframeworks\n\nIETF RFC 2315\n\nPKCS\n\n#7: Cryptographic\n\nISO/IEC 10118-3 :Information technology\n\nmessage syntax version 1.5\n\n2004\n\nSecurity\n\ntechniques\n\nIETF RFC 3161\n\nInternet X.509\n\npublic key\n\nHash-functions\n\nPart 3:\n\ninfrastructure\n\ntime-stamp\n\nDedicated hash-functions\n\nprotocol (TSP)\n\nISO/IEC 24760-1 :\n\nInformation technology\n\nIETF RFC 3647\n\nInternet X.509\n\npublic key\n\n2011\n\nSecurity techniques\n\ninfrastructure\n\ncertificate\n\nframework\n\nfor\n\nidentity\n\npolicy\n\nand\n\ncertification\n\nmanagement\n\nPart l:\n\npractices framework\n\nTerminology and concepts\n\nIETF RFC 4998\n\nEvidence\n\nrecord\n\nsyntax\n\nETSI EN 319 122-1\n\nElectronic signatures\n\nand\n\n(ERS)\n\ninfrastructures\n\n(ESI);\n\nIETF RFC 5280\n\nInternet X.509 public key\n\nCAdES digital signatures;\n\ninfrastructure certificate and\n\nPart l: Building blocks and\n\ncertificate\n\nrevocation\n\nlist\n\nCAdES baseline signatures\n\n(CRL) profile\n\n\n\n\nIS No./Other\n\nStandards\n\nTitle\n\nIS No./Other\n\nStandards\n\nIETF RFC 5652 Cryptographic message syntax (CMS)\n\nIETF RFC 6283 Extensible markup language evidence record syntax (XMLERS)\n\nTitle\n\nIETF RFC 6838 Media type specifications and registration procedures\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "2",
+      "heading": "2 Security",
+      "heading_path": [
+        "2 Security"
+      ],
+      "char_start": 46453,
+      "char_end": 48655,
+      "semantic_chunk_length": 2202,
+      "final_chunk_length": 2504,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19332_2025_0021",
+    "text": "TF RFC 6283 Extensible markup language evidence record syntax (XMLERS)\n\nTitle\n\nIETF RFC 6838 Media type specifications and registration procedures\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n## ANNEX B\n\n(Foreword)\n\nLIST OF OTHER PUBLICATION'S\n\nSl No. Title\n\n- i) CA/Browser Forum: Guidelines for The Issuance and Management of Extended Validation Certificates\n- ii) GlobalPlatform Device Technology: TEE System Architecture, Version 1.0, December 2011\n- iii) Recommendation ITU-R TF.460-6 (2002): Standard-frequency and time-signal emissions\niv)\n\nRecommendation ITU-R TF.460-5: Standard-frequency and time-signal emissions.\n\nv)\n\nRecommendation ITU-T X.1252 (2010): Cyberspace security - Identity management - Baseline identity management terms and definitions\n\n- vi) Recommendation ITU-R TF.536-1: Time-scale notations.\n- vii) Recommendation ITU-T X.509 (ISO/IEC 9594-8): Information technology - Open systems interconnection - The Directory: Public-key and attribute certificate frameworks\n- viii) Recommendation ITU-T X.800 (1991): Security Architecture for Open Systems Interconnection for CCITT applications\n- ix) W3C Recommendation: XML-Signature Syntax and Processing. Version 1.1\n\n\n\n\n## ANNEX C\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 10 (27047).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19332_2025.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 48660,
+      "char_end": 51096,
+      "semantic_chunk_length": 2436,
+      "final_chunk_length": 2738,
+      "standard_no": "IS 19332",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

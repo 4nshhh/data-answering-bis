@@ -1,0 +1,545 @@
+[
+  {
+    "id": "19234_2025_0000",
+    "text": "Indian Standard\n\n\n|  |  | ऑनलाइन कोिचंग सेवाएँ — अपे±ाएँ Online Coaching Services — Requirements  BIS 2025 | ICS 03.180, 35.240.90 |  |  |  |\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2025 Price Group 8\n\n\n\n\nHigher Education, Skill Development and Related Services Sectional Committee, SSD 04\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Higher Education, Skill Development and Related Services Sectional Committee had been approved by the Service Sector Division Council.\n\nAcademic coaching is the act of giving special classes to achieve knowledge, academic goals and ace competitive exams. The mode of coaching could be offline, blended and online.\n\nOnline coaching has grown in significance as an educational tool just like technology has developed and progressed over the years. The rapid increase in internet connectivity in the last few years has been an important catalyst for the growth of online coaching in India. Online coaching provides an opportunity for people living in smaller towns and cities to get access to the best possible learning resources from across the world. This helps create a level playing field.\n\nVarious online coaching service providers in India offer a wide range of courses and programs, catering to different levels of learners, from school students to working professionals. Online learning services are based on e-learning modes, principles and methods of e-content development and may utilize advanced technologies such as artificial intelligence (AI) and machine learning (ML) algorithms to provide personalized learning experiences. These services analyses learners' performance, identify areas of weakness, and provide targeted recommendations and practice exercises. They are built on the concept of user experience.\n\nIn an era of rapidly advancing technology and an ever-evolving educational landscape, the demand for effective and standardized online coaching services has grown exponentially. Online coaching has emerged as a powerful tool for education, offering accessibility, greater reach across regions and classes and flexibility. As India strives to bridge educational gaps, empower its work youth and expand the horizons of knowledge, the need for a robust framework for online coaching services has become increasingly imperative.\n\nThe primary objective of this standard is to establish a comprehensive and adaptable framework that addresses the various facets of online coaching services. The standard provides requirements related to curriculum design, teaching effectiveness, modes of delivery, operational requirements, administrative/backend support, competency of the instructor, information technology (IT) security, assessment, feedback from the learner, and continuous improvement in services.\n\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex D.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2999,
+      "semantic_chunk_length": 2997,
+      "final_chunk_length": 2997,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0001",
+    "text": "al requirements, administrative/backend support, competency of the instructor, information technology (IT) security, assessment, feedback from the learner, and continuous improvement in services.\n\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex D.\n\nIndian Standard\n\n\nONLINE COACHING SERVICES — REQUIREMENTS\n\n\n## 1 SCOPE\n\n\n| This Indian Standard specifies requirements for |  |\n| --- | --- |\n| coaching services provided through online modes |  |\n| but does not include sports, dance, theatre and other |  |\n| creative activities. |  |\n\n*NOTES \n1 Non-specific learning such as standalone knowledge \nvideos by individuals on social media platforms/channels \nl d d f\nthi\nt\nd d*\n\n\nNOTES\n\n\n1 Non-specific learning such as standalone knowledge videos by individuals on social media platforms/channels are excluded from this standard.\n\n\n## 2 The scope may include online coaching for competitive exam/entrance exams or subject specific online coaching part of academic learning.\n\n\n## 2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provision of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of these standards:\n\nIS No. Title\n\nIS 18692 : 2024 Coaching centre services — Requirements\n\nIS/ISO 21001 :\n\n\n## 2018 Educational organizations — Management systems for educational organizations — Requirements with guidance for use\n\nIS/ISO 29995 :\n\n\n## 2021 Education and learning services — Vocabulary",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 3004,
+      "char_end": 4403,
+      "semantic_chunk_length": 1399,
+      "final_chunk_length": 1701,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0002",
+    "text": "f these standards:\n\nIS No. Title\n\nIS 18692 : 2024 Coaching centre services — Requirements\n\nIS/ISO 21001 :\n\n\n## 2018 Educational organizations — Management systems for educational organizations — Requirements with guidance for use\n\nIS/ISO 29995 :\n\n\n## 2021 Education and learning services — Vocabulary\n\n## 3 TERMINOLOGY\n\nFor the purposes of this standard, in addition to IS/ISO 29995, the following terms and definitions shall apply.\n\n\n3.1 Asynchronous — Mode of online coaching where recorded lectures are provided, and learners have the choice of either accessing them \"as they please\" or a schedule of \"re-runs\" needs to be drawn up and notified.\n\n\n### 3.2 Assessment — Activity designed to measure a learner's, knowledge, understanding or skills against specific reference points or/and standards\n\n(educational or professional).\n\n\n3.3 Audit — Systematic, independent and documented process for obtaining objective evidence and evaluating it objectively to determine the extent to which audit criteria are fulfilled.\n\n\n3.4 Audit Criteria — Set of policies, procedures or requirements used as a reference against which objective evidence is compared.\n\n\n### 3.5 Audit Scope — Extent and boundaries of an audit.\n\n\n3.6 Coaching — Consists of tuition, instructions, facilitation and/or guidance in any branch of learning imparted to students/learners. Coaching can be divided into following three types based on the modes of delivering the educational content:\n\n- a) Face-to-Face (Off-line) — This is the traditional method where content is delivered through face-to-face sessions in a physical classroom environment. Here the teacher and learner are facing each other and the content, instructions, doubt clearing as well as feedback is incorporated in the immediate pedagogic exercise, in the classroom. It does not involve e-learning;\n- b) Blended — This mode, is hybrid, and involves the use of e-learning through information and communication technology (ICT) tools or educational technologies to supplement classroom teaching. The teaching-learning process does not intend to either extend the process to learners outside the ambit of the physical classroom or involve any electronic network or platform beyond the immediate group of learners; and\n- c) Online — This is a purely electronic mode of delivery. It involves four elements:\n- 1) Online platform and wide area network;\n- 2) Learning management system;\n- 3) Distance mode through electronic medium, with large enrolment; and\n- 4) Fully automated end-to-end coaching, including all processes.\nNOTE — In recent times a new terminology has come up 'Online-Face-to-face' used in one-to-\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n\n\none teaching of music, dance, yoga, sports and fitness. This Indian standard excludes such a mode.\n\n\n### 3.7 Competence — Ability to apply knowledge and skill to achieve intended results in online coaching services.\n\n\n### 3.8 Faculty — A person providing online lectures on the online coaching platform.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 4406,
+      "char_end": 7209,
+      "semantic_chunk_length": 2803,
+      "final_chunk_length": 3105,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0003",
+    "text": " teaching of music, dance, yoga, sports and fitness. This Indian standard excludes such a mode.\n\n\n### 3.7 Competence — Ability to apply knowledge and skill to achieve intended results in online coaching services.\n\n\n### 3.8 Faculty — A person providing online lectures on the online coaching platform.\n\n### 3.9 Feedback — Opinions, comments and expressions of interest in learning services.\n\n\n3.10  Formative Assessment — Activity which demonstrates that learners are acquiring the knowledge and skills of the programme implemented by the educational or training professional during the learning process.\n\n\n### 3.11  Improvement — Activity to enhance performance.\n\n\n### 3.12  Learner — A person or gaining/acquiring knowledge and skills through online mode.\n\n\n3.13  Learning Management System (LMS) — A software application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, materials or learning and development programs.\n\n\n### 3.14  Online Coaching Service Provider (OCSP) — A skilled/trained/competent person or group or organization providing a platform for online lectures.\n\n\n3.15  Summative Assessment —  Activity which demonstrates the extent of a learner’s success in meeting the assessment criteria used to gauge the intended learning outcomes of a module or programme, and which contributes to the final grade given for the module or programme.\n\n\n3.16  Synchronous — Here learners attend lectures in real time. Most transactions take place online in real time. In such cases, if classes are held across international times zones then adequate care needs to be taken to notify and meet the challenges of time zones.\n\n\n### 3.17  Top Management — Person or group of people who direct and control the online coaching service at the highest level with the role to:\n\n- a) establish, implement and maintain the learning services;\n- b) ensure continual improvement of the online coaching platform;\n- c) define organisational structure;\n- d) carry out risk assessment and implement necessary steps for risk mitigation; and\n- e) define roles, responsibilities and authority.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "3.9",
+      "heading": "3.9 Feedback — Opinions, comments and expressions of interest in learning services.",
+      "heading_path": [
+        "3 TERMINOLOGY",
+        "3.9 Feedback — Opinions, comments and expressions of interest in learning services."
+      ],
+      "char_start": 7212,
+      "char_end": 9060,
+      "semantic_chunk_length": 1848,
+      "final_chunk_length": 2150,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0004",
+    "text": ") establish, implement and maintain the learning services;\n- b) ensure continual improvement of the online coaching platform;\n- c) define organisational structure;\n- d) carry out risk assessment and implement necessary steps for risk mitigation; and\n- e) define roles, responsibilities and authority.\n\n## 4 CONTEXT OF ONLINE COACHING SERVICES\n\n\n### 4.1 General\n\nThe top management shall ensure the following:\n\n- a) Identification of relevant stakeholders and their needs;\n- b) Applicable regulatory and statutory requirements including registration/licence from the concerned government authority necessary to run the online coaching centre;\n- c) Scope, policy and objectives are established and are compatible with the strategic direction of the coaching centre;\n- d) Able to justify the claims made;\n- e) Widely notify necessary information regarding the qualification of the faculty applicable fee to the learners, duration of course and others;\n- f) Availability of online learning resources throughout the course program;\n- g) Maintain the principles of fairness, transparency and confidentiality while using/sharing the information about the learner;\n- h) Develop a comprehensive and structured curriculum aligned with the objectives;\n- j) Ensure a system that caters adequately to users’ experience;\n- k) Determine the method to obtain feedback, monitor perception of stakeholders about the services being provided and review such feedback;\n- m) Control outsourced services to meet the\nneeds of relevant stakeholders;\n\n- n) Maintain open communication channels with relevant stakeholders;\n- p) Provision for learners with special needs to make online coaching inclusive;\n- q) The activities achieve their intended outcome(s); and\n- r) Promoting continual improvement within the organization.\nThe top management shall retain documented information regarding the requirements mentioned in 4.\n\n\n\n\nNOTES\n\n\n1 At the time of enrolment, the learner/guardian should be asked to specify level of confidentiality to authorise to access performance data.\n\n\n## 2 For guidance on user experience, refer Annex A.\n\n\n### 4.2  Teaching Effectiveness\n\nThe top management shall ensure teaching effectiveness while considering the following:\n\n- a) Providing opportunities to the learners to enhance their interaction with other learners and instructors by encouraging collaboration;\n- b) Promoting learners' digital citizenship skills to teach them how to use technology correctly and responsibly;\n- c) Optimum student-to-teacher ratio shall be specified for effective teaching based on teaching pedagogies, methodology of delivery, design of teaching, and applicable regulations;\n- d) Provide learning outcomes as defined by coaching services in instructional design of online courses to the learners;\n- e) Adopt the learning triangle for achieving a balance amongst learning outcomes, appropriate assessment frameworks and relevant content;\n- f) Periodic observation of the teaching learning process for quality assurance; and\n- g) Review of assessment results and the alignment of these results with the learning outcomes.\nNOTES",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "4",
+      "heading": "4 CONTEXT OF ONLINE COACHING SERVICES",
+      "heading_path": [
+        "4 CONTEXT OF ONLINE COACHING SERVICES"
+      ],
+      "char_start": 9062,
+      "char_end": 11878,
+      "semantic_chunk_length": 2816,
+      "final_chunk_length": 3118,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0005",
+    "text": "ngle for achieving a balance amongst learning outcomes, appropriate assessment frameworks and relevant content;\n- f) Periodic observation of the teaching learning process for quality assurance; and\n- g) Review of assessment results and the alignment of these results with the learning outcomes.\nNOTES\n\n## 1 For guidance, refer to Annex B on digital citizenship.\n\n\n2 The learning triangle is the fundamental framework development as a part of the modern technique of e-content. This is represented by an equilateral triangle (refer Fig. 1). Invariably there must be a balance\n\nIS 19234 : 2025\n\nbetween the three vertices including learning outcome, e-content and assessment, in the process of e-content development. The authentication of quality e-content is that there should be no incongruency. Each vertex must be in sync with the other two vertices.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "1",
+      "heading": "1 For guidance, refer to Annex B on digital citizenship.",
+      "heading_path": [
+        "1 For guidance, refer to Annex B on digital citizenship."
+      ],
+      "char_start": 11881,
+      "char_end": 12431,
+      "semantic_chunk_length": 550,
+      "final_chunk_length": 852,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0006",
+    "text": "here must be a balance\n\nIS 19234 : 2025\n\nbetween the three vertices including learning outcome, e-content and assessment, in the process of e-content development. The authentication of quality e-content is that there should be no incongruency. Each vertex must be in sync with the other two vertices.\n\n### 4.3 Design of Learning Services\n\n\n#### 4.3.1 General\n\nThe top management shall design a learning service consisting of curriculum, learning materials and means of assessment and evaluation based on the following:\n\n- a) Expected needs of the learner;\n- b) Proposed intensity and duration of the course;\n- c) Prerequisites for undertaking the course;\n- d) Synchronous and asynchronous scheduling;\n- e) Methods, resources, and responsibilities to optimize the effective transaction of curriculum and transfer of learning;\n- f) Intended means of assessment;\n- g) Intended procedure of monitoring and evaluation;\n- h) Age group for which the course is applicable shall be specified as per existing regulatory requirement/guideline;\n- j) Social and cultural needs, as well as the background of the learners; and\n- k) Accessibility of uploaded content, e-resources and related materials with facility of digital search function.\nThe curriculum, learning resources, and the means of assessment and evaluation shall be disclosed to relevant stakeholders.\n\n\n|  | E-CONTENT |  | LEARNING OUTCOMES | ASSESSMENT - FORMATIVE AND SUMMATIVE |  |\n\n\n**FIG. 1 THE LEARNING TRIANGLE**",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "4.3",
+      "heading": "4.3 Design of Learning Services",
+      "heading_path": [
+        "1 For guidance, refer to Annex B on digital citizenship.",
+        "4.3 Design of Learning Services"
+      ],
+      "char_start": 12434,
+      "char_end": 13602,
+      "semantic_chunk_length": 1168,
+      "final_chunk_length": 1470,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0007",
+    "text": "lated materials with facility of digital search function.\nThe curriculum, learning resources, and the means of assessment and evaluation shall be disclosed to relevant stakeholders.\n\n\n|  | E-CONTENT |  | LEARNING OUTCOMES | ASSESSMENT - FORMATIVE AND SUMMATIVE |  |\n\n\n**FIG. 1 THE LEARNING TRIANGLE**\n\n#### 4.3.2 Design of Course Content\n\nThe lectures delivered by faculty on an online coaching platform shall be:\n\n- a) regulatory compliance of the in house content development;\n- b) factually accurate/free from error or misleading information;\n- c) relevant to the learning outcomes objectives and the needs of the target audience;\n- d) appropriate for the target audience and the learning context, addressing the specific skills or knowledge that learners need to acquire;\n- e) clear and easy to understand, with explanations provided wherever necessary;\n- f) appropriate in tone, style, and formatting in general of the presentation based on the needs, expectations and demands of the learners to help learners focus on the content;\n- g) engaging and interesting, with a variety of media used to convey information this may include text, images, videos, animations, and interactive elements have clear and measurable learning outcomes;\n- h) catering to cultural and linguistic differences and avoid using content that may be offensive or inappropriate;\n- j) closely aligned with the learning outcomes objectives of the course or program;\n- k) designed to help learners achieve the desired outcomes and be relevant to their professional or personal development;\n- m) online lecture timing and duration should\nbe followed as per the standard practice;\n\n- n) ensured that borrowed material must be duly acknowledged and due permissions shall be sought for copyrighted material;\n- p) quality of acquired content and open source content; and\n- q) plagiarism free content.\nNOTES\n\n\n1 The curriculum design and development should be carried out in consultation with the faculty by an experienced and trained person.\n\n\n2 ADDIE (Analysis, Design, Development, Implementation, and Evaluation) model can be used for teaching framework.\n\n\n3 Bloom's Taxonomy framework can be used for instructional design, learning outcomes and assessment.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4.3.2",
+      "heading": "4.3.2 Design of Course Content",
+      "heading_path": [
+        "1 For guidance, refer to Annex B on digital citizenship.",
+        "4.3 Design of Learning Services",
+        "4.3.2 Design of Course Content"
+      ],
+      "char_start": 13607,
+      "char_end": 15535,
+      "semantic_chunk_length": 1928,
+      "final_chunk_length": 2230,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0008",
+    "text": "arried out in consultation with the faculty by an experienced and trained person.\n\n\n2 ADDIE (Analysis, Design, Development, Implementation, and Evaluation) model can be used for teaching framework.\n\n\n3 Bloom's Taxonomy framework can be used for instructional design, learning outcomes and assessment.\n\n#### 4.3.3 Assessment\n\nThe top management shall provide opportunities for learners to practice their skills and apply their knowledge through innovative online assessment mechanisms that are appropriate for different age groups, courses and examinations and may include quizzes, simulations, or real- world scenarios.\n\nIn designing or selecting assessment methods, the following aspects shall be considered:\n\n- a) Intended use of the assessment;\n- b) Measurable learning outcomes;\n- c) Methods of assessment (including formative and summative assessment);\n- d) Scoring, rubrics, scheme of examination and reporting;\n- e) Interested parties involved in or affected by the assessment; and\n- f) Qualitative feedback mechanism to encourage learners for improvement.\nThe progress of learners shall be assessed through continuous and end-term evaluation as per predetermined criteria. The process and outcome of the assessment shall be shared with learners for their self-evaluation and relative performance. Weightage of the continuous and end-term evaluation shall be pre-decided and shared with the learners in the beginning of the course.\n\nNOTES\n\n\n1 Before, or at the beginning of the course, for purposes such as scholarship, abilities section or any other special purpose, an assessment can be made of the learner's level of competence.\n\n\n2 Access to assessment results should not be open with regard to principles of fairness, transparency and confidentiality",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4.3.3",
+      "heading": "4.3.3 Assessment",
+      "heading_path": [
+        "1 For guidance, refer to Annex B on digital citizenship.",
+        "4.3 Design of Learning Services",
+        "4.3.3 Assessment"
+      ],
+      "char_start": 15538,
+      "char_end": 16998,
+      "semantic_chunk_length": 1460,
+      "final_chunk_length": 1762,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0009",
+    "text": "t the beginning of the course, for purposes such as scholarship, abilities section or any other special purpose, an assessment can be made of the learner's level of competence.\n\n\n2 Access to assessment results should not be open with regard to principles of fairness, transparency and confidentiality\n\n## 5 OPERATIONAL REQUIREMENTS\n\n\n### 5.1 General\n\nThe top management shall ensure robust, continuous, easy to access online coaching services considering the following operational requirements:\n\n- a) Online coaching platform;\n- b) Integrated learning management system;\n- c) Sufficient cloud memory and libraries;\n- d) Timely and effective technical support including FAQs or chat bots, if possible, to provide technical and operational support to the learners available on the public site;\n- e) Displayed of necessary information\n\n\n\n\nregarding the timetable/schedule of the coaching class/course, the fee charged, qualification of the tutors and other general information, as specified, regarding the online coaching on the website and/or available publicly;\n\n- f) Community services including wikis, glossaries and discussion groups;\n- g) Online assessment/practice tools;\n- h) Robust internet connectivity and operational readiness; and\n- j) Business continuity plans to be incorporated so that in case there is a problem in the online platform, backups will be in place immediately and downtime can be reduced.\nNOTES\n\n\n1 The online coaching service provider should provide the recorded lecture for a specific period to ensure that learners can access the content at their own pace or participate in live sessions as needed. This may require an indexed library of online resources.\n\n\n2 An attempt should be made to integrate the latest/updated technology.\n\n\n### 5.2    Online Coaching Platform and Cloud Storage\n\nThe top management shall ensure a reliable platform for delivering online coaching services and sufficient cloud storage of relevant information/content to ensure operation of services during disasters or other emergencies.\n\nNOTE — This could be a website with integrated coaching tools, video conferencing software, or a dedicated online coaching platform.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "5",
+      "heading": "5 OPERATIONAL REQUIREMENTS",
+      "heading_path": [
+        "5 OPERATIONAL REQUIREMENTS"
+      ],
+      "char_start": 17001,
+      "char_end": 18873,
+      "semantic_chunk_length": 1872,
+      "final_chunk_length": 2174,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0010",
+    "text": "elivering online coaching services and sufficient cloud storage of relevant information/content to ensure operation of services during disasters or other emergencies.\n\nNOTE — This could be a website with integrated coaching tools, video conferencing software, or a dedicated online coaching platform.\n\n### 5.3  Learning Management System\n\nThe top management shall incorporate an integrated learning management system (LMS) to ensure enhanced learning experiences. The LMS shall have the following features:\n\n- a) Tools to create, organize, and manage courses within the online platform;\n- b) Various types of multimedia content such as videos, presentations, documents, quizzes, and interactive activities as applicable;\n- c) Easy accessibility and irretrievability of e-resources;\n- d) Defined schedule with step wise roll-out of learning program;\n- e) Tracking mechanisms to monitor learner's progress within courses, including completion status, quiz scores, and time\nIS 19234 : 2025\n\nspent on different activities;\n\n- f) Discussion forums, chat rooms, or social features for learners to interact with each other, ask questions, and discuss course topics;\n- g) Robust security measures to protect copyrighted content, learners data, and sensitive information shared within the platform;\n- h) Scalability in mind to accommodate growth in the number of users, courses, and content;\n- j) Seamless integration of the LMS with other processes to provide a cohesive experience preferably through enterprise resource planning; and\n- k) Examination system should have appropriate check and balances to discourage unfair means in online coaching examinations.\n\n### 5.4  Robust Internet Connectivity and\n\nOperational Readiness\n\nThe top management shall ensure the following:\n\n- a) Infrastructure supporting the online coaching platform, such as servers and databases, is reliable enough to handle the expected load;\n- b) Monitor the performance of the online coaching platform and related systems, such as the database and server, to identify and resolve any performance issues quickly;\n- c) Provide regular backups of learner data and have a disaster recovery plan in place to ensure quick restoration of the platform in case of an outage or other disruption;\n- d) Regularly update and maintain the online coaching platform to ensure that it remains secure and up-to-date with the possible latest technologies;\n- e) Provide analytics and reporting on learner progress and performance to help instructors and administrators identify areas for improvement and optimize the learning experience;\n- f) The online coaching platform and related systems comply with relevant industry/educational standards and regulations;\n- g) Have systems in place to ensure that the platform remains available even if there are hardware or software failures. This may\n\n\n\ninclude backup servers, load balancers, and failover mechanisms etc;\n\n- h) Provide technical support to learners and instructors to help them troubleshoot any issues that they encounter while accessing the platform or lectures; and\n- j) Provide multiple access points to the platform and lectures, such as through a website or mobile app, to ensure that learners can access the content from anywhere and on any device.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "5.3",
+      "heading": "5.3 Learning Management System",
+      "heading_path": [
+        "5 OPERATIONAL REQUIREMENTS",
+        "5.3 Learning Management System"
+      ],
+      "char_start": 18876,
+      "char_end": 21835,
+      "semantic_chunk_length": 2959,
+      "final_chunk_length": 3261,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0011",
+    "text": "nstructors to help them troubleshoot any issues that they encounter while accessing the platform or lectures; and\n- j) Provide multiple access points to the platform and lectures, such as through a website or mobile app, to ensure that learners can access the content from anywhere and on any device.\n\n## 6 ADMINISTRATIVE SUPPORT\n\nThe top management shall ensure an administration section in place for effective customer support, enrolment and registration of learners, learners' data management, course and schedule management, documentation and reporting, financial and billing support, communication and coordination and other related tasks. The management shall define the roles, responsibilities and authority of the staff. The identity of the concerned staff shall be verifiable. The administrative staff shall:\n\n- a) handle inquiries, provide assistance to\nlearners and instructors, address technical issues, and resolve problems or complaints promptly and professionally;\n\n- b) manage the enrolment and registration process for learners, ensuring smooth on boarding, accurate data entry, and timely communication regarding course availability, prerequisites, and registration deadlines;\n- c) manage the learning management system including management of learner data and records, course enrolments, troubleshooting technical issues, providing support to learners and instructors in navigating the platform and ensuring compliance with data protection regulations;\n- d) handle documentation and reporting tasks, including generating reports on learner progress, course evaluations, and other relevant administrative data as required;\n- e) maintain proper records, ensure compliance with regulatory requirements, and support internal audits or external inspections related to learning operations;\n- f) communicate and coordinate effectively to liaise with instructors, learners, and other stakeholders to provide updates, share important information, and facilitate smooth operations;\n- g) perform general administrative tasks such\nas managing email correspondence, scheduling meetings, organizing files and documents, and assisting with other administrative functions to ensure efficient operations and if applicable, handle the financial and billing tasks, such as processing payments, issuing invoices, managing refunds, and reconciling financial records; and\n\n- h) have the necessary competence, as per the level, to execute the tasks allocated to them.\nNOTE — The specific requirements for administrative support in learning services may vary depending on the structure, size, and specific needs of the learning service.\n\n\n## 7 QUALIFICATION AND EXPERIENCE\n\nThe minimum qualification requirements for faculty shall be as per IS 18692.\n\nAll faculty shall have the necessary competence and skill in the relevant subject to undertake the teaching and related assigned duties.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "6",
+      "heading": "6 ADMINISTRATIVE SUPPORT",
+      "heading_path": [
+        "6 ADMINISTRATIVE SUPPORT"
+      ],
+      "char_start": 21837,
+      "char_end": 24418,
+      "semantic_chunk_length": 2581,
+      "final_chunk_length": 2883,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0012",
+    "text": "ize, and specific needs of the learning service.\n\n\n## 7 QUALIFICATION AND EXPERIENCE\n\nThe minimum qualification requirements for faculty shall be as per IS 18692.\n\nAll faculty shall have the necessary competence and skill in the relevant subject to undertake the teaching and related assigned duties.\n\n## 8 COMPETENCY\n\nThe top management shall ensure the following:\n\n- a) Necessary competence to design and\ndeliver high-quality learning courses or programs involving knowledge of programming languages, learning management systems, and multimedia tools;\n\n- b) Deep understanding of learning service principles and techniques including knowledge of different learning styles, assessment methods, and online coaching platforms; and\n- c) Commitment to continuous learning and development that involves participating in relevant training programs, attending conferences or workshops, and keeping up- to- date with the latest developments in learning technology and instructional design.\nNOTE — The top management may establish code of ethics and ensure compliance including maintaining learner confidentiality, avoiding conflicts of interest, and upholding academic integrity.\n\n\n## 9 CONTROL ON EXTERNALLY PROVIDED SERVICES\n\n\n9.1  The top management shall ensure that all outsourced processes and services being availed, conform to requirements of this Standard and regulatory requirements. The online coaching service provider shall determine the controls to be\n\n\n\n\napplied to outsourced processes and related services when,\n\n- a) outsourced processes and related services are intended for incorporation into the online coaching service provider's own services;\n- b) outsourced processes and related services are provided directly to the learners or instructor by external providers on behalf of the online coaching service provider; and\n- c) a process, or part of a process, is provided by an outsourced service provider as a result of a decision by the online coaching service provider.\nNOTE — Examples of some outsourced activities in online coaching services are listed in Annex C.\n\n\n9.2 The online coaching service provider shall determine and apply documented criteria for the evaluation, selection, monitoring of performance, and re-evaluation of outsourced service providers, based on their ability to provide processes or products and services in accordance with requirements. The accountability of all outsource activities shall lie with the OCSP. The online coaching service provider shall retain documented information on these activities and record necessary actions arising from the evaluations.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "8",
+      "heading": "8 COMPETENCY",
+      "heading_path": [
+        "8 COMPETENCY"
+      ],
+      "char_start": 24421,
+      "char_end": 26725,
+      "semantic_chunk_length": 2304,
+      "final_chunk_length": 2606,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0013",
+    "text": " provide processes or products and services in accordance with requirements. The accountability of all outsource activities shall lie with the OCSP. The online coaching service provider shall retain documented information on these activities and record necessary actions arising from the evaluations.\n\n## 10 IT SECURITY GUIDELINES\n\nThe online coaching service providers shall comply with relevant data privacy and security regulations and take appropriate measures to protect the learners' personal information and data. The online coaching service provider shall ensure the following:\n\n- a) The personal data of learners, instructors,\nemployees and other stakeholders are protected and stored securely. This may involve using encryption, password protection, and secure servers;\n\n- b) Secure and protected from hacking, malware, and other cyber threats. This may involve implementing security protocols, such as firewalls and antivirus software;\n- c) Implement measures to prevent unauthorized access to the online coaching platform, such as multi-factor authentication and IP blocking;\n- d) Establish clear policies for acceptable use of the online coaching platform and consequences for violating those policies. This may include policies to handle harassment, cyberbullying, and plagiarism;\nIS 19234 : 2025\n\n- e) Provide training to learners, instructors, and other stakeholders on the safe and responsible use of the online coaching platform. This may include training on data privacy, online safety, and cyber hygiene; and\n- f) Security plan shall be in place to address cyber threats, such as data breaches or hacking attempts. This may involve having a dedicated IT security team, performing regular security audits, and having a plan for responding to incidents.\n\n## 11 REFUND PROCESS\n\nThe online coaching service provider shall establish a refund policy which shall be communicated to the learners at the time of admission. The process of refunding fees shall be completed as per the policy preferably within 10 days from the date of submission of refund application by the learner or as mentioned in the refund policy of online coaching service providers.\n\n\n## 12 COMPLAINT HANDLING\n\nThe top management shall establish and maintain procedures to handle complaints lodged by learners and their redressal mechanism. An employee of online coaching shall be designated by the top management for handling and redressal of complaints.\n\nThe redressal of complaints shall preferably be done within 30 days of receipt of complaints.\n\nThe online coaching service provider shall maintain records of complaints and their redressals.\n\nThe status of complaints shall be reviewed by the top management on a regular basis.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "10",
+      "heading": "10 IT SECURITY GUIDELINES",
+      "heading_path": [
+        "10 IT SECURITY GUIDELINES"
+      ],
+      "char_start": 26728,
+      "char_end": 29143,
+      "semantic_chunk_length": 2415,
+      "final_chunk_length": 2717,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0014",
+    "text": "dressal of complaints.\n\nThe redressal of complaints shall preferably be done within 30 days of receipt of complaints.\n\nThe online coaching service provider shall maintain records of complaints and their redressals.\n\nThe status of complaints shall be reviewed by the top management on a regular basis.\n\n## 13 EVALUATION\n\n\n### 13.1 General\n\nThe top management shall incorporate appropriate formative and summative assessments and continuous evaluations to measure the learners' knowledge and progress. The assessments shall be aligned with the learning outcomes and provide meaningful feedback to the learners. The online coaching service provider shall review and evaluate the following:\n\n- a) Instructional design capabilities, including their ability to develop effective learning outcomes, design engaging learning activities, and create appropriate assessment methods;\n\n\n\n- b) Credentials of instructors or employees, such as their educational qualifications, certifications, and relevant experience;\n- c) Technology infrastructure, such as their learning management system, video conferencing tools, and multimedia production capabilities;\n- d) Support services, including technical support, and accessibility accommodations;\n- e) Course outcomes, such as learner's satisfaction, course completion rates, and job placement rates;\n- f) Analysis of the level of satisfaction of learners with the learning service, as well as their feedback and suggestions for improving the quality of the learning service; and\n- g) Analysis of enrolment, attendance and attrition.\n\n### 13.2 Internal Audit\n\nThe top management shall assign responsibility to conduct internal audits at planned intervals, at least once in 12 months, to provide information on whether the established online coaching services are effectively implemented and maintained and ensure the following:\n\n- a) Plan an audit programme(s) including the frequency, methods, responsibilities, planning requirements and reporting;\n- b) Define the audit criteria and scope for each audit;\n- c) Select auditors and conduct audits to ensure objectivity and impartiality of the audit process;\n- d) Results of the audits are reported to top management;\n- e) Make appropriate corrections and implement corrective and preventive actions without undue delay; and\n- f) Retain documented information as evidence of the implementation of the audit programme and the audit results.\n\n## 14 REVIEWS BY TOP MANAGEMENT\n\nThe top management shall review the performance\n\nof online coaching services at regular intervals (preferably every three months) considering the following:\n\n- a) Status of actions from previous management reviews;\n- b) Changes in external and internal issues that are relevant to the online coaching services;\n- c) Actions required on feedback from learners and other stakeholders;\n- d) Status of complaints and their redressal;\n- e) Audit results; and\n- f) Adequacy of resources.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "13",
+      "heading": "13 EVALUATION",
+      "heading_path": [
+        "13 EVALUATION"
+      ],
+      "char_start": 29146,
+      "char_end": 31781,
+      "semantic_chunk_length": 2635,
+      "final_chunk_length": 2937,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0015",
+    "text": "from previous management reviews;\n- b) Changes in external and internal issues that are relevant to the online coaching services;\n- c) Actions required on feedback from learners and other stakeholders;\n- d) Status of complaints and their redressal;\n- e) Audit results; and\n- f) Adequacy of resources.\n\n## 15 IMPROVEMENT/CONTINUOUS QUALITY ENHANCEMENT\n\nThe top management shall determine and select opportunities for improvement and implement any necessary actions to meet the requirements of the learners and ensure the following:\n\n- a) Actions on non-conformities;\n- b) Improvement in quality of online coaching services on the basis of audit results and feedback from learners and other stakeholders;\n- c) Foster a culture of continuous/continual improvement among employees by encouraging them to share ideas, experiment with new approaches, and take calculated risks;\n- d) Professional development of employees by providing training and development opportunities; and\n- e) Collaborate with partners and stakeholders to develop innovative solutions and improve its services.\nData sets and reports resulting from monitoring and evaluation shall be clear and transparent. Reports shall clearly describe the findings and the rationale in light of the learning service outcomes and the result of monitoring and evaluation shall be taken into account and implementing adequate improvements and changes to the learning service, such as in the curriculum, course programs, content development, teaching methods and professional development in future.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "15",
+      "heading": "15 IMPROVEMENT/CONTINUOUS QUALITY ENHANCEMENT",
+      "heading_path": [
+        "15 IMPROVEMENT/CONTINUOUS QUALITY ENHANCEMENT"
+      ],
+      "char_start": 31783,
+      "char_end": 33027,
+      "semantic_chunk_length": 1244,
+      "final_chunk_length": 1546,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0016",
+    "text": " the learning service outcomes and the result of monitoring and evaluation shall be taken into account and implementing adequate improvements and changes to the learning service, such as in the curriculum, course programs, content development, teaching methods and professional development in future.\n\n## ANNEX A\n\n(Informative)\n\n(Clause 4.1)\n\nUSER EXPERIENCE\n\nUser experience is about a set of features, protocols and practices that are aimed at enhancing the user experience. The following description can enable the OCSP to enhance the experience of the users of such services.\n\nA-1 FEATURES\n\nThe following are some of the features that work towards better user experience:\n\n- a) A website map;\n- b) Portal resources;\n- c) External resources;\n- d) Log-in(s);\n- e) Certification;\n- f) Immersive technologies (optional); and\n- g) AI tools (optional).\nA-2 PORTAL PROTOCOLS\n\nThe top management can include following features in the online coaching platform:\n\n- a) Website map with hierarchical dropdown list and/or search facility;\n- b) External web resources with hyperlinks for related matters like announcements and dates about ensuing competitive exams; eligibility conditions, government gazette notifications, or policy bodies, with adequate warnings about change of dates and the like, which provide latest information. Such hyperlinks need to be updated and re-checked if they exist and have the latest information;\n- c) Unique ID and PIN for user verification for login along with help features;\n- d) Multiple categories and levels of login, with varying degrees of authorization, like admin, faculty, and learner;\n- e) Softcopies of certificates with printable format, with built-in verification and audit of course completion; and digital authentication of issuing authority;\n- f) Adequate warning (through online and offline methods) of non-completion of requirements for course registration and for eligibility for final certification; and\n- g) Verifiable authenticity of certifying authority or external agency (if any); and h) Online permission protocol for approval from learner/guardian for OCSP to use of personal data or photograph.\nA-3 LEARNER PRACTICES\n\nThe top management can establish standard operating procedures on learner practices including following:\n\n- a) Maintaining data privacy, such as not share login details with third parties;\n- b) Use of meaningful username specially during live sessions;\n- c) Restriction on imposter in exams and live sessions;\n- d) How and where to keep receiving device (laptop or phone) for better reception;\n- e) Maintain data integrity of shared portal resources;\n- f) How to use device and online coaching platform during lectures; and\n- g) Ethical code of conducts to be followed during lectures.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 33032,
+      "char_end": 35488,
+      "semantic_chunk_length": 2456,
+      "final_chunk_length": 2758,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0017",
+    "text": "exams and live sessions;\n- d) How and where to keep receiving device (laptop or phone) for better reception;\n- e) Maintain data integrity of shared portal resources;\n- f) How to use device and online coaching platform during lectures; and\n- g) Ethical code of conducts to be followed during lectures.\n\n## ANNEX B\n\n(Informative)\n\n(Clause 4.2)\n\nDIGITAL CITIZENSHIP\n\nB-1 Digital citizenship refers to the responsible and ethical use of technology, especially the internet and digital devices. It encompasses a range of behaviours and attitudes that individuals should adopt when navigating the digital world. Digital citizenship is essential in the modern age, as technology plays an integral role in our personal, social, and professional lives.\n\nB-2 Key aspects of digital citizenship include:\n\n- a) Digital Literacy — Understanding how to use digital tools, software, and the internet effectively and safely. This includes knowing how to navigate websites, use software, and assess the credibility of online information;\n- b) Online Safety — Practicing safe and secure behaviour online, such as protecting personal information, using strong passwords, and being cautious about sharing private data;\n- c) Respectful Communication — Treating others with respect and kindness in online interactions, including social media, email, and messaging. This involves avoiding cyberbullying, hate speech, and harassment;\n- d) Privacy Awareness — Understanding the importance of privacy in the digital world and knowing how to protect one's personal information. This includes being aware of data collection practices and privacy settings on social media and other online\nplatforms;\n\n- e) Intellectual Property — Respecting copyright and intellectual property rights, understanding fair use, and avoiding plagiarism when using or sharing digital content;\n- f) Critical Thinking — Developing the ability to evaluate information and sources critically. This includes recognizing fake news, misinformation, and disinformation;\n- g) Digital Footprint — Being aware that every online action leaves a digital trail and considering the potential consequences of one's online behaviour on future opportunities and personal reputation;\n- h) Cybersecurity — Understanding the importance of protecting digital devices from malware, viruses, and other cyber threats. This involves keeping software and antivirus programs up to date;\n- j) Digital Etiquette — Practicing good manners and appropriate behaviour online. This includes being mindful of tone, language, and behaviour in online communities and social media; and\n- k) Digital Rights and Responsibilities — Understanding one's rights in the digital space, including freedom of speech and recognizing that these rights come with responsibilities to maintain a safe and respectful online environment.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 35493,
+      "char_end": 38022,
+      "semantic_chunk_length": 2529,
+      "final_chunk_length": 2831,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0018",
+    "text": "nguage, and behaviour in online communities and social media; and\n- k) Digital Rights and Responsibilities — Understanding one's rights in the digital space, including freedom of speech and recognizing that these rights come with responsibilities to maintain a safe and respectful online environment.\n\n## ANNEX C\n\n(Informative)\n\n(Clause 9.1)\n\nEXAMPLES OF OUTSOURCED ACTIVITY IN ONLINE COACHING SERVICES\n\nC-1 Online coaching service providers can outsource the following activities to enhance their operations and focus on core competencies:\n\n- a) Content Development — Outsourcing content development can involve hiring subject matter experts (SMEs), instructional designers, and multimedia specialists to create engaging and interactive learning materials, including course modules, videos, assessments, and simulations;\n- b) Instructional Design — Online coaching service providers can outsource instructional design tasks to professionals who specialize in designing effective learning experiences. This can include creating learning outcomes, designing curriculum structures, and developing instructional strategies;\n- c) Technical Support — Outsourcing technical support services can involve providing learners and instructors with assistance related to the online coaching platform, troubleshooting technical issues, and resolving user queries or problems;\n- d) Platform Maintenance and Upgrades — Online coaching service providers can outsource the technical maintenance and\nupgrades of their online coaching platform, including server management, software updates, and infrastructure maintenance to ensure smooth and reliable platform performance;\n\n- e) Localization and Translation — If the online coaching services cater to a global audience, outsourcing localization and translation services can ensure that the content is effectively adapted to different languages, cultures, and regions;\n- f) Marketing and Promotion — Online coaching service providers can outsource marketing and promotion activities, including digital marketing campaigns, content creation for social media platforms, search engine optimization (SEO), and lead generation; and\n- g) Quality Assurance and Compliance — Outsourcing quality assurance and compliance activities can involve engaging external auditors or experts to ensure that the learning services comply with industry standards, regulatory requirements, accessibility guidelines, and data privacy regulations.",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 38027,
+      "char_end": 40179,
+      "semantic_chunk_length": 2152,
+      "final_chunk_length": 2454,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19234_2025_0019",
+    "text": " and\n- g) Quality Assurance and Compliance — Outsourcing quality assurance and compliance activities can involve engaging external auditors or experts to ensure that the learning services comply with industry standards, regulatory requirements, accessibility guidelines, and data privacy regulations.\n\n## ANNEX D\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 04 (23832).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19234_2025.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "ANNEX D",
+      "heading": "ANNEX D",
+      "heading_path": [
+        "ANNEX D"
+      ],
+      "char_start": 40184,
+      "char_end": 41620,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19234",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "15862_0000",
+    "text": "(Reaffirmed 2018)\n\nIndian Standard\n\nCOTTON SEED DELINTING MACHINERY — HCl GAS GENERATION UNIT — SPECIFICATION\n\nICS 65.060.70\n\n© BIS 2013\n\nBUREAUOFINDIANSTANDARDS\n\nNEW DELHI 110002\n\nJune 2013\n\nPrice Group 2\n\n\n\n\nAgriculture and Food Processing Equipment Sectional Committee, FAD 20\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Agriculture and Food Processing Equipment Sectional Committee had been approved by the Food and Agriculture Division Council.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 1960 ‘Rules for rounding off numerical values (revised)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\nIndian Standard\n\nCOTTON SEED DELINTING MACHINERY -HCl GAS\n\nGENERATION UNIT - SPECIFICATION\n\n\n## 1 SCOPE\n\nThis standard specifies material, performance, and\n\nconstructional and other requirements of HCl gas\n\ngeneration unit.\n\n\n## 2 REFERENCES\n\nThe standard listed below contain provisions, which through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated below.\n\n| IS No. | Title |\n|---|---|\n| IS 1364 (Part 1): 2002 | Hexagon head bolts, screws and nuts of product grades A and B: M 1.6 to M 64) *(fourth revision)* |\n| (Part 2): 2002 | Hexagon head bolts (size range M 1.6 to M 64) *(fourth revision)* |\n| (Part 2): 2002 | Hexagon head screws (size range M 1.6 to M 64) *(fourth revision)* |\n| (Part 3): 2002 | Hexagon nuts, style 1 (size range M 1.6 to M 64) *(fourth revision)* |\n| (Part 4): 2003/ ISO 4035: 1999 | Hexagon thin nuts (chamfered) (size range M 1.6 to M 64) *(fourth revision)* |\n| (Part 5): 2002/ ISO 4035: 1999 | Hexagon thin nuts — Product grade B (unchamfered) (size range M 1.6 to M 10) *(fourth revision)* |\n| (Part 6): 2002/ ISO 4033: 1999 | Hexagon nuts, style 2 Socket Tight Transmission *(fourth revision)* |\n| IS 2062: 2011 | Hot rolled medium and high tensile structural steel *(seventh revision)* |\n| IS 2403: 1991/ ISO 606: 1982 | Precision roller chains and chain wheels *(second revision)* |\n| IS 5624: 1993 | Foundation bolts — Specification *(first revision)* |\n| IS 6911: 1992 | Stainless steel plate, sheet and strip — Specification *(first revision)* |",
+    "metadata": {
+      "source": "15862.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2708,
+      "semantic_chunk_length": 2707,
+      "final_chunk_length": 2707,
+      "standard_no": "IS 15862",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15862_0001",
+    "text": "tructural steel *(seventh revision)* |\n| IS 2403: 1991/ ISO 606: 1982 | Precision roller chains and chain wheels *(second revision)* |\n| IS 5624: 1993 | Foundation bolts — Specification *(first revision)* |\n| IS 6911: 1992 | Stainless steel plate, sheet and strip — Specification *(first revision)* |\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard following\n\ndefinitions shall apply.\n\n\n### 3.1 HCl Gas Generation Unit\n\nThis unit generates HCl gas by heating HCl liquid\n\nacid along with chemical reagent. The HCl gas\n\ngeneration unit generates HCl gas from HCl liquid\n\nacid 33 percent concentration. This unit holds HCl\n\ngas and it cools down the temperature of HCl gas to\n\natmosphere temperature. This HCl gas is further used\n\nfor cotton seed delinting in delinting reactor.\n\n\n### 3.2 M S Polytetrafluoroethylene Coated Vessel\n\nThis is the cylindrical container where the HCl acid\n\nis heated with the polyelectrolytes, so that HCl\n\nin the form of gas is released. The MS\n\nPolytetrafluoroethylene coated vessel holds\n\n\n33 percent concentrated HCl acid for heating along\n\nwith polyelectrolytes to generate HCl fumes from\n\nthe liquid acid.\n\n\n### 3.3 Glass Condenser/Column\n\nThis is specially designed coil type glass condenser\n\nto condense and collect the HCl vapours. The HCl\n\ngas is released from acid and allowed to pass through\n\nthis coil type condenser where the traces of moisture\n\nare condensed and dry HCl gas is sucked by the gas\n\npump.\n\n\n### 3.4 HCl Gas Suction Pump\n\nThis pump creates negative pressure and sucks all\n\nthe gases released through condenser. The pump\n\nalso compresses the gas to push the gas under\n\npressure to the delinting reactor.\n\n\n### 3.5 HCl Acid Pump\n\nThis pump is used to pump and discharge of HCl\n\nacid to the vessel from acid tank having the capacity\n\nof 1 000 l/h and the discharge head is about 6 m. The\n\npump should be cleaned every day after its use with\n\nfresh.\n\n\n### 3.6 HCl Gas Storage Tank\n\nThis is the cylindrical tank to hold the HCl gas and\n\nthen to supply the gas under pressure to the delinting\n\nreactor.\n\n\n\n\n## 4 MATERIALS\n\nThe material of construction of HCl gas generation\n\nunit shall be as given in Table 1. The material may\n\nconform to the relevant Indian Standard as given in\n\n\n**Table 1 below:**\n\n\nTable 1 Material of Construction of HCl Gs Generation Unit\n\n| Sl No. | Component | Material | Ref to IS No. |\n|---|---|---|---|\n| i) | Body | MS Sheet | IS 2062 |\n| ii) | Condenser | Glass | — |\n| iii) | Pump | SS-316-L | IS 6911 |\n| iv) | Pipeline | HPDE | — |\n| v) | Pressure gauge | Steel and glass | — |\n| vi) | Valve | Steel and glass | — |\n| vii) | Valve | Steel | — |\n| viii) | Foundation bolt | Steel | IS 5624 |\n| ix) | Hexa nut and bolt | Steel | IS 1364 (Parts 1 to 6) |\n| x) | Support stand | Mild steel | IS 2062 |\n| xi) | FRP lining | Fibres and resin | — |\n\n\n## 5 PERFORMANCE REQUIREMENTS\n\nWhen tested with the methods given in Annex A,\n\nthe machine shall pass the test.",
+    "metadata": {
+      "source": "15862.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 2710,
+      "char_end": 5348,
+      "semantic_chunk_length": 2638,
+      "final_chunk_length": 2940,
+      "standard_no": "IS 15862",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15862_0002",
+    "text": "Foundation bolt | Steel | IS 5624 |\n| ix) | Hexa nut and bolt | Steel | IS 1364 (Parts 1 to 6) |\n| x) | Support stand | Mild steel | IS 2062 |\n| xi) | FRP lining | Fibres and resin | — |\n\n\n## 5 PERFORMANCE REQUIREMENTS\n\nWhen tested with the methods given in Annex A,\n\nthe machine shall pass the test.\n\n## 6 CONSTRUCTIONAL REQUIREMENTS\n\nThe MS plates, sheets, channels and angles used in\n\nthe construction of HCl gas generation unit shall\n\nvary depending on the capacity of the machine.\n\nThe plate and sheet thickness may vary from 3 mm,\n\n5 mm, 8 mm, 10 mm and angles 25 mm × 25 mm,\n\n35 mm × 35 mm, 50 mm × 50 mm and channel size\n\n100 mm × 50 mm, 125 mm × 75 mm.\n\nThe MS vessel should be preferably fabricated from\n\n\n10 mm plate with two valves.\n\nThe MS vessel must be coated with 1 000 micron\n\npolytetrafluoroethylene inside and outside for\n\ncorrosion resistance.\n\n\n## 7 OTHER REQUIREMENTS\n\n\n7.1 The necessary power drive shall be provided.\n\n\n7.2 The construction shall be such as to help easy\n\nrepairs and maintenance.\n\n\n7.3 The machine shall be provided with facilities\n\nfor adjustments.\n\n\n7.4 All the joints and connections should be air-\n\ntight and there are no leakages.\n\n\n7.5 The support stand should be Fibre Reinforced\n\nPlastic(FRP) lined 2 mm thick.\n\n\n### 7.6 The openings for pressure and temperature\n\ngauges should be kept at the top of the vessel and\n\nalso opening for oil and HCl acid insertion.\n\n\n## 8 WORKMANSHIP AND FINISH\n\n\n8.1 The components of the machine shall be free\n\nfrom crack and other visual defects.\n\n\n8.2 The welding and joints, if any, shall not be\n\nsmooth and non-porous.\n\n\n### 8.3 The corrosion preventing coating, that is, FRP\n\nlining 2 mm thick shall be provided to the body and\n\nalso the Polytetrafluoroethylene coating of 100\n\nmicron shall be provided to gas storage tank.\n\n\n8.4 The control and adjustment provided shall be\n\neasy and smooth in operation\n\n\n### 8.5 X-ray testing of vessel.\n\n\n## 9 MARKING AND PACKING\n\n\n### 9.1 Marking\n\nEach HCl gas generation unit shall be marked with\n\nthe following particulars:\n\nManufacturer's name and address;\n\na)\n\nb)\n\nModel number;\n\nc)\n\nPower rating;\n\nd)\n\nDrive details;\n\nBatch or code number, if any; and\n\nYear of manufacture.\n\n\n#### 9.1.1 Each HCl gas generation unit may also be\n\nmarked with the overall size and approximate weight\n\nof machine or this information may be given in the\n\ncatalogue supplied by the manufacturer.\n\n\n### 9.2 BIS Certification Marking\n\nEach HCl gas generation unit may also be marked\n\nwith the Standard Mark.\n\n\n9.2.1 The use of the Standard Mark is governed by\n\nthe provisions of the Bureau of Indian Standard\n\nAct, 1986 and Rules and Regulations made there-\n\nunder. The details of conditions under which the\n\nlicence for the use of the Standard Mark may be\n\ngranted to manufacturers or producers may be\n\nobtained from the Bureau of Indian Standards.\n\n\n### 9.3 Packing\n\nThe packing of HCl gas generation unit shall be done\n\nas agreed to between the supplier and the purchaser.",
+    "metadata": {
+      "source": "15862.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "6",
+      "heading": "6 CONSTRUCTIONAL REQUIREMENTS",
+      "heading_path": [
+        "6 CONSTRUCTIONAL REQUIREMENTS"
+      ],
+      "char_start": 5351,
+      "char_end": 8027,
+      "semantic_chunk_length": 2676,
+      "final_chunk_length": 2978,
+      "standard_no": "IS 15862",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15862_0003",
+    "text": "ls of conditions under which the\n\nlicence for the use of the Standard Mark may be\n\ngranted to manufacturers or producers may be\n\nobtained from the Bureau of Indian Standards.\n\n\n### 9.3 Packing\n\nThe packing of HCl gas generation unit shall be done\n\nas agreed to between the supplier and the purchaser.\n\n## ANNEX A\n\n(Clause 5)\n\nMETHODS OF TEST FOR HCl GAS GENERATION UNIT\n\nA-1\n\nAND\n\nPRELIMINARY\n\nRUNNING\n\nADJUSTMENTS\n\nA-1.1 The HCl gas generation unit shall be installed\n\non hard surface preferably levelled.\n\nA-1.2 The HCl gas generation unit shall be\n\npreliminary run for about 30 min before commencing\n\nthe test. All the adjustments shall be carried out in\n\naccordance with the recommendations of the\n\nmanufacturers.\n\nA-2 TESTATNOLOAD\n\nAfter preliminary running is over, the HCl gas\n\ngeneration unit shall be run at no load for 10 min at\n\nthe specific speed. During and after the no load run\n\nthe visual observation of the HCl gas generation unit\n\nshall not show the following:\n\n- a) Presence of any marked vibration during the\noperation.\n\nPresence of undue knocking sound or rattling\n\nb)\n\nsound.\n\nAny marked unusual wear or slackness in any\n\ncomponent.\n\nAny marked leakage.\n\nd)\n\nA-3 TESTATLOAD\n\nThe HCl gas generation unit shall be operated at its\n\ninput capacity specified by the manufacturer\n\nincorporating best combination of adjustment for a\n\nperiod of 30 min. The unit shall run continuously\n\nwithout any breakdown or leakage.\n\nA-4 LONGRUN TEST\n\nThe HCl gas generation unit shall be operated for a\n\nminimum period of 20-h duration. During and after\n\nthe operation no breakdown, defects or leakage shall\n\ndevelop in the HCl gas generation unit.\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: FAD 20 (1747).\n\nAmendments Issued Since Publication ______________________________________________________________________________________\n\nAmendment No. Date of Issue Text Affected ______________________________________________________________________________________\n\n______________________________________________________________________________________",
+    "metadata": {
+      "source": "15862.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 7,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 8032,
+      "char_end": 11010,
+      "semantic_chunk_length": 2978,
+      "final_chunk_length": 3280,
+      "standard_no": "IS 15862",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15862_0004",
+    "text": "__________________________________________________________________________________\n\nAmendment No. Date of Issue Text Affected ______________________________________________________________________________________\n\n______________________________________________________________________________________\n\n______________________________________________________________________________________\n\n______________________________________________________________________________________\n\n______________________________________________________________________________________",
+    "metadata": {
+      "source": "15862.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 10836,
+      "char_end": 11098,
+      "semantic_chunk_length": 262,
+      "final_chunk_length": 564,
+      "standard_no": "IS 15862",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

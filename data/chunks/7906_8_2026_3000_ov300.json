@@ -1,0 +1,136 @@
+[
+  {
+    "id": "7906_8_2026_0000",
+    "text": "Indian Standard\n\n\n|  | Helical Compression Springs Part 8 Method of Inspection of Hot Coiled Compression Springs Made from Circular Section Bars ( First Revision ) |\n|  | ICS 21.160 |\n|  |  BIS 2026 |\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nFebruary 2026 Price Group 4\n\n\n\n\nSprings and Suspension Systems Sectional Committee, TED 34\n\nFOREWORD\n\nThis Indian Standard (Part 8) (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Springs and Suspension Systems Sectional Committee had been approved by the Transport Engineering Division Council.\n\nThis standard was first published in 1989. This standard has been prepared to follow a uniform practice of inspection of hot coiled compression springs made from circular section bar.\n\nThis standard has been published in several parts. Other parts in this series are:\n\nPart 1 Design and calculation for springs made from circular section wire and bar\n\nPart 2 Specification for cold coiled springs made from circular section wire and bar\n\nPart 3 Data sheet for specifications for springs made from circular section wire and bar\n\nPart 4 Selection of standard cold coiled springs made from circular section wire and bar\n\nPart 5 Hot coiled springs made from circular section bars — Specification\n\nPart 6 Design and calculations for springs made from rectangular section bar-steel\n\nPart 7 Quality requirements for cylindrical coil compression springs used mainly as vehicle suspension springs\n\nThe composition of the Committee responsible for the revision of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard HELICAL COMPRESSION SPRINGS\n\n\nPART 8 METHOD OF INSPECTION OF HOT COILED\n\n\nCOMPRESSION SPRINGS MADE FROM CIRCULAR\n\n\nSECTION BARS\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\n\n### 1.1 This standard (Part 8) recommends the methods to be used for dimensional inspection and testing of hot coiled helical compression springs conforming to IS 7906 (Part 5).\n\n\n1.2 For carrying out certain tests this standard recommends the use of gauges. However, it is to be recommended that for very small quantities the use of suitable gauges may not be economical. In that case an alternative method may be agreed between the purchaser and the supplier.",
+    "metadata": {
+      "source": "7906_8_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2717,
+      "semantic_chunk_length": 2715,
+      "final_chunk_length": 2715,
+      "standard_no": "IS 7906",
+      "year": "2026",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7906_8_2026_0001",
+    "text": "S 7906 (Part 5).\n\n\n1.2 For carrying out certain tests this standard recommends the use of gauges. However, it is to be recommended that for very small quantities the use of suitable gauges may not be economical. In that case an alternative method may be agreed between the purchaser and the supplier.\n\n## 2 REFERENCES\n\nThe standard given below contains provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the edition indicated was valid. All standard is subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of this standard:\n\nIS No. Title IS 7906 (Part 5) :\n\n\n## 1989 Helical compression springs: Part 5 Hot coiled springs made from circular section bars — Specification (second revision)",
+    "metadata": {
+      "source": "7906_8_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2720,
+      "char_end": 3271,
+      "semantic_chunk_length": 551,
+      "final_chunk_length": 853,
+      "standard_no": "IS 7906",
+      "year": "2026",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7906_8_2026_0002",
+    "text": "to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of this standard:\n\nIS No. Title IS 7906 (Part 5) :\n\n\n## 1989 Helical compression springs: Part 5 Hot coiled springs made from circular section bars — Specification (second revision)\n\n## 3 DIMENSIONAL AND GEOMETRICAL TESTS\n\n\n### 3.1 Nominal Dimensions\n\nThese are marked for reference only in the spring drawing/data sheet and are not to be checked.\n\n\n3.2 All dimensional tests specified herein shall be carried out after the spring has passed through the complete manufacturing process as specified in IS 7906 (Part 5) and the spring drawing. All these tests shall be conducted with the spring in the free state, that is, unloaded condition.\n\n\n### 3.3 Bar Diameter\n\nThis cannot be measured accurately after the bar has been coiled into spring due to the slight distortion of the bar occurring in this process. An indication of the diameter may be obtained with the use of ball-ended micrometer or vernier caliper.\n\n\n### 3.4 Outside Diameter\n\nThis cannot be measured directly as no two diametrically opposite points. Occur at the bar surface. ‘GO’ ‘NO-GO’ system of ring gauges has to be employed to determine whether the springs will work within the diameter specified. Where the diameter of the spring body is important the minimum gauge length should be 1.25 times the pitch and where the diameter of the end coil is important, the minimum gauge length should be 1.50 times the bar diameter. This method, however, cannot be used for springs having protruding tips.\n\nNOTE — The tolerance specified in Table 1 of IS 7906 (Part 5) is applicable to only two-end coils. For the active coils these tolerances are not applicable and the spring drawing should specify the minimum diameter of the sleeve/maximum diameter of the mandrel on which the spring works. Hence it may be necessary to make two different gauges:\n\n- a) One for the end coils and the second for the active coils; and\n- b) The ring gauge for active coils will have a larger inside diameter than the ring gauge for the end coils.\n\n### 3.5 Inside Diameter\n\nThis cannot be measured as no two diametrically opposite points occur at the bar surface. ‘GO’ ‘NO-GO’ system of plug gauges has to be used to determine whether the spring will work over the diameter specified. Where the diameter of the spring body is important, the minimum gauge length should be 1.25 times the pitch, and where the diameter of the end coil is important the minimum block gauge should be 1.50 times the bar diameter.\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n\n\n\n### 3.6 Mean Diameter\n\nThis cannot be measured but is a calculated value.\n\n\n### 3.7 Total Number of Coils\n\nTotal number of coils are measured from tip of tine end coil to the other.\n\n\n### 3.8 Number of Active Coils\n\nThis cannot be measured but can be calculated as explained in 4.4 of IS 7906 (Part 5).",
+    "metadata": {
+      "source": "7906_8_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 DIMENSIONAL AND GEOMETRICAL TESTS",
+      "heading_path": [
+        "3 DIMENSIONAL AND GEOMETRICAL TESTS"
+      ],
+      "char_start": 3274,
+      "char_end": 6003,
+      "semantic_chunk_length": 2729,
+      "final_chunk_length": 3031,
+      "standard_no": "IS 7906",
+      "year": "2026",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7906_8_2026_0003",
+    "text": "# 3.6 Mean Diameter\n\nThis cannot be measured but is a calculated value.\n\n\n### 3.7 Total Number of Coils\n\nTotal number of coils are measured from tip of tine end coil to the other.\n\n\n### 3.8 Number of Active Coils\n\nThis cannot be measured but can be calculated as explained in 4.4 of IS 7906 (Part 5).\n\n### 3.9 Squareness\n\nThis is applicable to spring with ground ends (see Fig. 1). Squareness shall be measured by standing the spring on a surface plate against a square and measuring the largest deviation from the top end coil and the square, using feeler gauges. While evaluation the results, due allowances must be made tn the following:\n\n- a) Error which can arise due to different outside diameters at the two ends and\nintermediate active coils; and\n\n- b) Error due to width of the top dead coil being less than the bar diameter.\n\n### 3.10 Parallelism\n\nThis is applicable only to spring with ground ends. This can be measured by one of the two following methods:\n\n- a) The spring is placed on a surface plate and a second plate is lowered parallel to the surface plate on the spring until the first contact is made with any point of upper end coil. The maximum deviation between the upper end coil and the plate is measured with the use of feeler gauges over the ground ‘surface (see Fig. 2); and\n- b) Another method is to check the height of the spring at two diametrically opposite points and note the difference in the two heights. This checking at diametrically opposite points has to be done at a number of places to determine where the maximum difference in height occurs.\n\n**FIG. 1 SPRING WITH GROUND ENDS**\n\n\n**FIG. 2 FIRST CONTACT BETWEEN SURFACE PLATE AND UPPER END COIL**\n\n\n\n\n### 3.11 Bow\n\nBow shall be measured by placing the spring on a surface plate (see Fig. 3) and measuring with feeler gauges, the maximum deviation between any coil and the surface plate.\n\n\n### 3.12 Free Length\n\nThe method of checking free length described here is applicable for springs with ground ends. Before carrying out this test the springs should be scragged once as explained in 8.1 of IS 7906 (Part 5). This test should preferably be done when static load testing of the spring is being done so as to avoid duplication of testing.\n\nThe spring is placed on a surface plate with a straight edge across the top dead coil and the height is measured with 3 scale standing approximately in the centre of the spring and touching the straight edge.\n\n\n## 4 LOAD TESTING\n\n\n4.1 Before carrying out these tests the spring shall be scragged as explained under 8.1 static load testing of IS 7906 (Part 5).\n\n\n### 4.2 Load at Length or Length at Load Measurement\n\nLoad/length measurement shall be carried out between parallel lateral constant plates and with reference to a calibrated load indicating device. The test is effected with the spring in the upright position in the direction of loading. Springs which are liable to buckle shall be tested over or in a guide. The method of testing shall be agreed between the purchaser and the manufacturer.\n\n\n### 4.3 Spring Rate\n\nThis test shall be carried out as explained in 8.2 of IS 7906 (Part 5)\n\n\n**FIG. 3 SPRING ON A SURFACE PLATE**",
+    "metadata": {
+      "source": "7906_8_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "3.9",
+      "heading": "3.9 Squareness",
+      "heading_path": [
+        "3 DIMENSIONAL AND GEOMETRICAL TESTS",
+        "3.9 Squareness"
+      ],
+      "char_start": 6006,
+      "char_end": 8872,
+      "semantic_chunk_length": 2866,
+      "final_chunk_length": 3168,
+      "standard_no": "IS 7906",
+      "year": "2026",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7906_8_2026_0004",
+    "text": "on of loading. Springs which are liable to buckle shall be tested over or in a guide. The method of testing shall be agreed between the purchaser and the manufacturer.\n\n\n### 4.3 Spring Rate\n\nThis test shall be carried out as explained in 8.2 of IS 7906 (Part 5)\n\n\n**FIG. 3 SPRING ON A SURFACE PLATE**\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: TED 34 (27420).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "7906_8_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 8877,
+      "char_end": 10313,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 7906",
+      "year": "2026",
+      "part": "Part 8",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

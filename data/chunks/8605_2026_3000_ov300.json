@@ -1,0 +1,502 @@
+[
+  {
+    "id": "8605_2026_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nApril 2026 Price Group 7\n\n\n\n\nDams and Spillways Sectional Committee, WRD 09\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Dams and Spillways Sectional Committee had been approved by the Water Resources Division Council.\n\nStone masonry has extensively been used in dam construction, offering strength, durability, and economic viability, particularly in labor-intensive environments like India. While its use was widespread in the past, advancements in construction materials, techniques, and equipment have led to an evolved approach in modern masonry dam construction. Despite these developments, masonry continues to be a viable choice, especially for medium and small dams, owing to its cost-effectiveness, adaptability to local materials, and sustainability.\n\nSignificant progress has been made in the areas of material science, construction methodologies, and quality control. The adoption of mechanized handling, improved mortar mixes, and precise construction practices has enhanced the performance and longevity of masonry structures. Additionally, the use of small needle vibrators for compaction, first noted in earlier practices, has been further refined, leading to better density and bonding in masonry work.\n\nRecognizing these advancements, this revised standard provides updated guidelines to incorporate modern construction practices, quality control measures, and emerging technologies while maintaining the fundamental principles of strength and durability. This revision aims to serve as a comprehensive reference for engineers and technical professionals involved in masonry dam construction, ensuring the highest standards of safety, efficiency, and sustainability.\n\nThis standard was first published in 1977. This revision of the standard has been brought out based on wide field experience and international practices, also updating the references. In this revision, the following major changes have been made:\n\n- a) The provisions of permeability tests on masonry have been modified; and\n- b) Provisions for determination of strength parameters such as direct testing of the samples, flat jack test, non-destructive tests and estimation of mass density have been added.\nThe composition of the Committee responsible for the revision of this standard is given in Annex B.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test, shall be rounded off in accordance with IS 2 : 2022. ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded- off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nCONSTRUCTION OF MASONRY IN DAMS — CODE OF\n\n\nPRACTICE",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2992,
+      "semantic_chunk_length": 2990,
+      "final_chunk_length": 2990,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0001",
+    "text": "accordance with IS 2 : 2022. ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded- off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nCONSTRUCTION OF MASONRY IN DAMS — CODE OF\n\n\nPRACTICE\n\n( First Revision )\n\n\n## 1 SCOPE\n\n\n### 1.1 This code covers requirements regarding quality of material and general construction practices for stone masonry used in dams and other massive structures.\n\n\n1.2 This standard shall be supplemented by specific instructions, as necessary, to address the unique requirements of each project.\n\n\n## 2 REFERENCES\n\nThe standards listed in Annex A contain provisions, which through reference in this text constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated.\n\n\n## 3 TERMINOLOGY\n\nFor the purpose of this code, the following definitions shall apply.\n\n\n### 3.1 Cement Mortar — A mixture of portland cement, fine aggregate, water and any admixture approved by the engineer-in-charge.\n\n\n### 3.2 Fine Aggregate — Aggregate most of which passes 4.75 mm IS sieve and contains only so much coarser material as permitted in IS 383.\n\n\n### 3.3 Laitance — An extremely fine film of material of little hardness which may form on the surface of freshly laid stone masonry.\n\n\n### 3.4 One-Line Dressing — Finishing given to the stone face with no portion of it projecting more than 10 mm from the straight edge laid along the face of the stone.\n\n\n### 3.5 Quoins — Dressed stones used for the corners.\n\n\n### 3.6 Transverse Joints — Vertical transverse joints provided in the dam for convenience of construction and design considerations.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2995,
+      "char_end": 4597,
+      "semantic_chunk_length": 1602,
+      "final_chunk_length": 1904,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0002",
+    "text": "ce with no portion of it projecting more than 10 mm from the straight edge laid along the face of the stone.\n\n\n### 3.5 Quoins — Dressed stones used for the corners.\n\n\n### 3.6 Transverse Joints — Vertical transverse joints provided in the dam for convenience of construction and design considerations.\n\n## 4 MATERIALS\n\n\n### 4.1 Cement\n\nPortland cement, portland slag cement, portland pozzolana cement and supersulphated cement used for plain and reinforced concrete work and stone masonry work in dams and other massive structures shall comply with the requirements of IS 269, IS 455, IS 1489 and IS 6909 respectively. Special cements may also be specified for use in dam masonry.\n\n\n### 4.2 Admixture\n\nAdmixture including pozzolanas, air entraining agents, wetting agents, etc., shall be used only under specific authorization and wherever so permitted, the proportions and methods of use shall be specified by the engineer-in-charge.\n\n\n4.2.1 Materials permitted as admixtures shall have established merit for improving any specific quality of the mortar without causing deleterious effects. The admixtures shall conform to the specifications mentioned in IS 9103.\n\n\n### 4.3 Sand\n\nThe sand shall conform to IS 2116.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "4",
+      "heading": "4 MATERIALS",
+      "heading_path": [
+        "4 MATERIALS"
+      ],
+      "char_start": 4600,
+      "char_end": 5512,
+      "semantic_chunk_length": 912,
+      "final_chunk_length": 1214,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0003",
+    "text": "engineer-in-charge.\n\n\n4.2.1 Materials permitted as admixtures shall have established merit for improving any specific quality of the mortar without causing deleterious effects. The admixtures shall conform to the specifications mentioned in IS 9103.\n\n\n### 4.3 Sand\n\nThe sand shall conform to IS 2116.\n\n### 4.4 Stone\n\n\n#### 4.4.1 Stone for Masonry\n\nThe stones for masonry shall be hard, dense, durable, tough, sound and clean. They shall be free from decay, weathered faces, soft seams, adhering coatings, sand holes, veins, flaws, cracks, stains and other defects and, shall have, as far as possible, uniform colour and texture. Stones not uniform in colour, texture and/or with stains may be permitted after proper tests mentioned in 4.4.4. The size of stones shall normally vary within 0.05 m3 to 0.01 m3. The stone shall be taken from quarries approved from geological and engineering considerations. No stone weighing less than 25 kg shall be used. The stone used in the hearting shall be roughly cubical in shape. No stone weighing between 75 kg and 150 kg\n\n\n\nshall be less than 225 mm in any direction and no stone weighing between 25 kg and 75 kg shall be less than 150 mm in any direction.\n\n\n4.4.1.1 Spalls with a minimum dimension of 200 mm to 100 mm shall be used to wedge into thick mortar spaces. They shall not normally exceed 10 percent of the volume of stone masonry.\n\n\n#### 4.4.2 Stone for Coursed Face Work\n\nThe height of the stone for face work shall be uniform and is recommended to be 300 mm including the mortar joint. The length and depth of the face stone shall not be less than the height of the stone. At least 50 percent of the stones shall have a length more than twice the height of the stone. At least one-third of the remaining stones shall be bond stones projecting not less than 2.5 times the height into the masonry. The remaining shall be header stones with a depth not less than 1.5 times the height of the stone. The stones shall be hammer-dressed on the face and one-line chisel-dressed on the bed, top and sides for a minimum depth of 75 mm up to which the stones shall be true and rectangular. Beyond 75 mm depth, the stones may be tapered but the tail end of the stones shall have at least half the area of the faces. Bushing on the faces of the stones shall not project more than 40 mm.\n\n\n##### 4.4.2.1 Header stones\n\nThe header stones shall not be less than 300 mm in length and one and a half times the height in depth.\n\n\n##### 4.4.2.2 Stretcher stones\n\nThe stretcher stones shall not be less than 600 mm in length and not less than its height in depth.\n\n\n##### 4.4.2.3 Bond stones\n\nThe bond stones shall not be less than 300 mm in length and two and a half times its height in depth.\n\n\n##### 4.4.2.4 Quoins\n\nQuoin stones shall be of the same height as the face stones, but shall be true and rectangular on two faces with one-line dressing for 75 mm depth in beds and sides. The stones shall be at least 300 mm long on one face and 450 mm on the other face.\n\n\n#### 4.4.3 Stone for Uncoursed Face Work\n\nStones for uncoursed face work shall be selected stones meeting the requirement of stones for coursed face work (see 4.4.2) except that the stones shall be hammer-dressed. The stones shall be nearly rectangular.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "4.4",
+      "heading": "4.4 Stone",
+      "heading_path": [
+        "4 MATERIALS",
+        "4.4 Stone"
+      ],
+      "char_start": 5515,
+      "char_end": 8469,
+      "semantic_chunk_length": 2954,
+      "final_chunk_length": 3256,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0004",
+    "text": "ng on one face and 450 mm on the other face.\n\n\n#### 4.4.3 Stone for Uncoursed Face Work\n\nStones for uncoursed face work shall be selected stones meeting the requirement of stones for coursed face work (see 4.4.2) except that the stones shall be hammer-dressed. The stones shall be nearly rectangular.\n\n#### 4.4.4 Tests\n\nSamples of stone from new quarries shall be tested for compressive strength in accordance with IS 1121 (Part 1). The compressive strength testing shall be conducted with the load parallel to the bedding plane and also perpendicular to the bedding plane. The stone samples shall also be tested for water absorption in accordance with IS 1124 and for soundness in accordance with IS 1126 to ensure suitability of stones for masonry.\n\n\n### 4.5 Water\n\nWater used for mixing mortar, grout and also for washing the stone and curing masonry shall conform to the requirements of IS 456.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "4.4.4",
+      "heading": "4.4.4 Tests",
+      "heading_path": [
+        "4 MATERIALS",
+        "4.4 Stone",
+        "4.4.4 Tests"
+      ],
+      "char_start": 8472,
+      "char_end": 9068,
+      "semantic_chunk_length": 596,
+      "final_chunk_length": 898,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0005",
+    "text": "also be tested for water absorption in accordance with IS 1124 and for soundness in accordance with IS 1126 to ensure suitability of stones for masonry.\n\n\n### 4.5 Water\n\nWater used for mixing mortar, grout and also for washing the stone and curing masonry shall conform to the requirements of IS 456.\n\n### 4.6 Cement Mortar\n\n\n4.6.1 The cement mortar shall consist of cement, sand and other approved admixtures, as required, each complying with its respective specifications in accordance with 4.1 to 4.3, mixed in the proportions as may be defined. The proportions of materials entering into the mortar shall be based on laboratory studies. The moisture content of the sand and its gradation, as available for use, shall be taken into account in proportioning the mix. Pozzolanic material may also be mixed, if directed, in proportions fixed by the engineer-in-charge. If directed, a suitable air entraining agent may be used to improve the quality and workability of the mortar. The exact proportions of air entrainment shall be determined by actual tests.\n\n\n4.6.2 All materials forming the mortar should be measured by mass except for water which may be by mass, or by equivalent volume. Periodical calibration of the measuring instruments shall be carried out. Where weigh-batching is not possible, due consideration to bulkage of sand and its water content shall be given.\n\n\n4.6.3 The mortar shall be mixed in a mixer. Mixers should not be loaded in excess of 10 percent more than the manufacturer's rated capacity. The following general principles shall be followed:\n\n- a) The mixing time for each type of mixer shall be reckoned after all materials except the full amount of water are in the mixer. The thoroughness of mixing and adequacy of mixing time so as to give a uniform mortar shall be tested at the start of the job and at such intervals as may be considered necessary. The uniformity of mortar is a reliable indication of the thoroughness of  mixing  and  adequacy  of  mixing  time.\n\n\n\n\nRetempering requiring the addition of water to preserve the required consistency shall be avoided. The minimum mixing time generally specified is as follows:\n\n\n| Sl No. | Capacity of Mixer m3 | Time of Mixing s |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | 1.50 or less | 90 |\n| ii) | 2.50 | 120 |\n| iii) | 3.00 | 150 |\n| iv) | 4.00 | 165 |\n| v) | 4.50 one mix, the variation in the air-free unit shall not exceed the following: For one batch Average of 3 batches Average of 20 batches Average of 90 batches | 180 35 kg/m3 25 kg/m3 20 kg/m3 15 kg/m3 |",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "4.6",
+      "heading": "4.6 Cement Mortar",
+      "heading_path": [
+        "4 MATERIALS",
+        "4.6 Cement Mortar"
+      ],
+      "char_start": 9071,
+      "char_end": 11331,
+      "semantic_chunk_length": 2260,
+      "final_chunk_length": 2562,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0006",
+    "text": "- b) Use of the same mixer for different mortar mixes consecutively shall be avoided. Also, the first mortar batch at the start of the day's work shall be made richer by addition of extra cement over and above that required for the mix.\n- c) The compressive strength of cement mortar used shall be as specified for the particular job. The strength of one sample shall be taken as the average of at least three test specimens taken from single batch of mortar. If the individual specimen result differs more than ± 15 percent of the average of 3 specimens, the average of the remaining two specimens shall be worked out or the test may be repeated. If the individual results of two specimens of mortar do not come within ±15 percent of the average and where repeat tests are not possible, the whole set of results shall be rejected from analysis. Over a given period of time, not more than 10 percent of specimens tested shall have a compressive strength less than 80 percent of the required strength and the average of all tests shall equal or exceed the required strength. The exact proportions for the cement, sand and water for the mortars shall be fixed after conducting tests for compressive strength.\n- d) The frequency of sampling of mortar separately for each mix proportion shall be as follows:\n- 1) Up to 100 m3 of masonry work per day, one sample per shift per mixer; and\nIS 8605 : 2026\n\n- 2) For every additional 100 m3 masonry work per day, one sample per shift per mixer.\n\n4.6.4 Testing of mortar shall be done in accordance with IS 2250. In special cases, where specimens of different sizes are used such as a 15 cm × 30 cm cylinder or 15 cm cube, necessary correlation shall be established before such tests are adopted for quality control. Tests on mortar shall be regularly conducted and shall comprise compressive, tensile and permeability tests,",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "4.6",
+      "heading": "4.6 Cement Mortar",
+      "heading_path": [
+        "4 MATERIALS",
+        "4.6 Cement Mortar"
+      ],
+      "char_start": 11334,
+      "char_end": 13199,
+      "semantic_chunk_length": 1865,
+      "final_chunk_length": 1865,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0007",
+    "text": "ases, where specimens of different sizes are used such as a 15 cm × 30 cm cylinder or 15 cm cube, necessary correlation shall be established before such tests are adopted for quality control. Tests on mortar shall be regularly conducted and shall comprise compressive, tensile and permeability tests,\n\n## 5 PREPARATION OF FOUNDATION\n\n\n### 5.1 Masonry in Contact with Foundation\n\nAfter completion of rough excavation of foundation, scaling and trimming for the final removal of all slabby or drummy rock or any loosened mass shall be done by chiselling, picking, barring and wedging. Any weathered or decomposed rock remaining should be removed, the doubtful areas cleaned out to sufficient depth and back-filled with concrete or masonry in richer mortar. If foundation conditions permit, consolidation grouting may be carried out before laying masonry. In case steps are required to be provided in the foundation of any individual block, stepping should not exceed 5 m with a maximum difference in elevation of 10 m.\n\n5.1.1 Immediately prior to placing masonry, the foundation shall be moistened and coated by brush with a thick cement slurry. The water cement ratio of the cement slurry shall be 2 : 3 by volume. This shall be done within a few minutes before building masonry. The slurry shall be spread only on a small area of about 1 m2 at a time and mortar spread immediately thereafter. A layer of rich mortar 50 mm to 75 mm thick, shall be spread over the slurry and worked into all irregularities of the rock surface, by trowels, bars or brushes. The composition of this mortar shall be the same as used in the masonry work. The first course of stones shall be carefully pressed into the mortar so as to force the mortar around the corners. The layer of mortar shall be made thicker, if required, to suit stones of sizes larger than 0.06 m3.\n\n\n\n5.1.2 Water from any springs or leakage through the coffer dams shall be kept out of the foundation area and from masonry till the latter has set.\n\n\n### 5.2 Masonry in Contact with Masonry\n\nSurface of masonry shall be treated as follows before laying fresh masonry over it. Loose stones, if any shall be removed. Mortar joints shall be scraped with iron rods and the exposed faces of stone shall be wire brushed. The surface shall be cleaned with\n\n\n\nair-water jet. The water collected in the depressions of masonry shall be removed by sponge or cloth.\n\n\n### 5.3 Masonry in Contact with Old Masonry\n\nSurface of old masonry which has been exposed for a long time, that is, more than 28 days, shall be treated as follows. Loose stones, if any, shall be removed. Old mortar joints shall be scraped to a depth of 15 mm or wet sand blasted and washed with air-water jet. Immediately prior to placing of masonry, the old masonry surface shall be treated in the same way as for foundation masonry described in 5.1.1.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "5",
+      "heading": "5 PREPARATION OF FOUNDATION",
+      "heading_path": [
+        "5 PREPARATION OF FOUNDATION"
+      ],
+      "char_start": 13202,
+      "char_end": 15761,
+      "semantic_chunk_length": 2559,
+      "final_chunk_length": 2861,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0008",
+    "text": "s follows. Loose stones, if any, shall be removed. Old mortar joints shall be scraped to a depth of 15 mm or wet sand blasted and washed with air-water jet. Immediately prior to placing of masonry, the old masonry surface shall be treated in the same way as for foundation masonry described in 5.1.1.\n\n## 6 MASONRY\n\n\n### 6.1 General\n\nThe structure shall be built true to line, plumb or curved or as directed in a workman-like manner, suitable aids like templates, scaffolding, etc, shall be used. The joints shall be the minimum possible and spalls shall be used to minimize mortar requirements in thick joints. Masonry shall be kept wet for at least 21 days after being built and at no time and on no account shall be allowed to be dry in this period. If stones, once kept, in position are to be adjusted, they shall be lifted clear and reset; they shall not be moved one over the other. Walkways are necessary to ensure that the green masonry is not disturbed before it sets.\n\n\n6.1.1 The maximum height of masonry allowed to be constructed at a time shall be 0.6 m in one or more layers. No fresh masonry shall be laid within 24 h over the previously laid masonry layer.\n\n\n6.1.2 In the same block (monolith) the difference in level of masonry layers should normally be not more than 1.5 m.\n\n\n6.1.3 The stones shall be free from dirt and surface- dry before being placed. The quarried stones shall be thoroughly cleaned and watered before they are brought to the block for placement.\n\n\n6.1.4 The following rules shall be observed to ensure efficient construction:\n\n- a) Do not place mortar which bleeds excessively;\n- b) Keep the surface continuously moist;\n- c) Clean the old masonry surface, prior to starting masonry on it, by wet sand blasting or chiselling and washing;\n- d) Thoroughly and effectively broom into the old surface a layer of mortar and  build  the\nmasonry course on it immediately; and\n\n- e) Masonry work should invariably be done during day light hours.\n\n### 6.2 Classification\n\n\n6.2.1 The masonry in dam is classified as under:\n\n- a) Face work\n- 1) Upstream — The upstream face work in spillway, non-spillway and power dam sections consists of face stones hammer-dressed on face and one-line chisel dressed on bed, top and sides for 75 mm from the front face built with the course normal to the face batter. This work can also be constructed in uncoursed rubble masonry.\n- 2) Downstream — The downstream face work in the non-overflow and power dam sections consists of stones hammer-dressed on face, sides and bed for 75 mm with the course normal to the face batter. This work can also be constructed in uncounted rubble masonry.\n- b) Random rubble masonry — The hearting is of random rubble work.\n\n6.2.2 The mortar to be used for each class and location of masonry shall conform to the particular specifications for that class of mortar and the specifications for the materials used therein (see 4.6).",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "6",
+      "heading": "6 MASONRY",
+      "heading_path": [
+        "6 MASONRY"
+      ],
+      "char_start": 15764,
+      "char_end": 18387,
+      "semantic_chunk_length": 2623,
+      "final_chunk_length": 2925,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0009",
+    "text": "n uncounted rubble masonry.\n- b) Random rubble masonry — The hearting is of random rubble work.\n\n6.2.2 The mortar to be used for each class and location of masonry shall conform to the particular specifications for that class of mortar and the specifications for the materials used therein (see 4.6).\n\n### 6.3 Face Work\n\nThe face work shall be of selected stones and dressed as described in 4.4.2. The work shall be in parallel courses of uniform thickness. In each course, stones shall be built in header and stretcher fashion and joints shall break in courses above and below by at least half the height of the course. In case of uncoursed rubble masonry the header stones shall be placed at about 1 m centre-to-centre. The joints in face work shall not be thicker than 15 mm for single-line chisel-dressed stones or 20 mm for hammer-dressed stones.\n\n\n6.3.1 Bond stones in each course shall be so provided that every sixth stone or third header stone is a bond stone. In case of uncoursed face work the bond stones shall be placed at about 2.5 m centre-to- centre. The bond stones shall be staggered and marked for identification. The face masonry shall preferably be constructed simultaneously with the hearting masonry.\n\n\n\n\n6.3.2 The face work shall be struck neatly and smoothed off with a trowel before the mortar takes the final set.\n\n\n6.3.3 Where face work is of uncoursed rubble masonry, guniting is recommended.\n\n\n#### 6.3.4 Pointing\n\n\n##### 6.3.4.1 Mix of mortar\n\nAll pointing shall be done with cement sand mortar 1 : 3 or richer mix. The sand to be used shall be fine, passing through 600 microns IS Sieve (see IS 460) and conforming in all other respects to IS 2116.\n\n\n##### 6.3.4.2 Raking joints\n\nThe joints in masonry to be pointed shall be raked square for a minimum depth of two times the thickness of the joint within 24 hours of laying of masonry. In special circumstances, this period may be relaxed to 48 h. The refilling and pointing shall be done within three days of raking of the joints so as to ensure good adhesion between the two mortars.\n\n\n##### 6.3.4.3 Cleaning joints\n\nBefore pointing, the joints shall be thoroughly cleaned of any dirt or loosely adhering mortar, washed out properly and thoroughly wetted.\n\n\n##### 6.3.4.4 Filling joints\n\nThe joints shall then be filled with cement mortar which shall be rammed and caulked into the joints. The pointing mix shall neither be too dry nor too wet. The mortar shall have just enough water so that it can be moulded into a ball by a slight pressure of hand but will not give out free water when so pressed and will leave the hands damp. Pointing shall be carried out as rapidly as possible and not touched again after the mortar has once set.\n\n\n##### 6.3.4.5 Nyala pointing\n\nThe lines shall be pressed on the joints and the joints shall be neatly rubbed smooth with Nyala (see Fig. 1) as soon as the mortar has begun to set. The extra mortar on edges shall be carefully scraped off to give a neat appearance.\n\n\n##### 6.3.4.6 Final finish to joints\n\nThe joints shall be neat, defined, regular and of a uniform width. The joints may be filled either flush or raised as required. The surfaces pointed should be kept wet for 21 days after pointing is completed.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "6.3",
+      "heading": "6.3 Face Work",
+      "heading_path": [
+        "6 MASONRY",
+        "6.3 Face Work"
+      ],
+      "char_start": 18390,
+      "char_end": 21324,
+      "semantic_chunk_length": 2934,
+      "final_chunk_length": 3236,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0010",
+    "text": "be carefully scraped off to give a neat appearance.\n\n\n##### 6.3.4.6 Final finish to joints\n\nThe joints shall be neat, defined, regular and of a uniform width. The joints may be filled either flush or raised as required. The surfaces pointed should be kept wet for 21 days after pointing is completed.\n\n### 6.4 Random Rubble Masonry\n\n\n6.4.1 Stones received from the quarry shall be used without any dressing except knocking off weak\n\nIS 8605 : 2026\n\ncorners. They shall be set in the work on their flat beds breaking joints. No joint shall be thicker than 35 mm.\n\n\n6.4.2 Following precautions shall be taken:\n\n- a) Place the stone on its natural bed;\n- b) Avoid under-pinning after a stone is laid;\n- c) Avoid inserting spalls in space between stones, before it is filled up with mortar;\n- d) Avoid inserting flat side of the spalls in joints, have all spalls driven end-wise;\n- e) Keep the surface as. rough as possible to secure bond;\n- f) Before inserting spalls, shake the mortar well and vibrate the stone by hammer to facilitate excess mortar to come out;\n- g) Wire brush the masonry surface clean between 20 h and 24 h after it is laid;\n- h) Distribute work so that fresh layers of masonry arc started every alternate day; and\n- j) In case of long stoppage at work, suitable depressions should be left to a depth of one or two courses for proper keying and effective bondage with the new masonry. An illustration is shown in Fig. 2.\n\n### 6.5 Truncated Construction\n\nTruncation of masonry section should be avoided. However, if it is unavoidable, the following precautions shall be taken:\n\n- a) The truncated section should satisfy the design criteria adopted for full section for that particular stage of construction;\n- b) Truncated faces shall be constructed in steps embedding enough dowel bars to ensure proper bond between old and new masonry;\n- c) The later construction on the truncated section shall be started after giving treatment to the truncated face in the same way as for masonry in contact with old masonry described in 5.3;\n- d) In case concrete is used for constructing truncated section, shear keys shall be provided in both horizontal and vertical faces of the truncated section; and\n- e) The joint between old concrete and masonry constructed later shall be grouted after raising the masonry to sufficient height.\n\n\n\n\n**FIG. 1 TYPES OF NYALAS**\n\n\n**FIG. 2 DETAILS OF CONSTRUCTION JOINT**\n\n\n\n\n### 6.6 Mortar Intake\n\nWith good workmanship and to achieve proper imperviousness in masonry dams, the quantity of mortar used in masonry dams should be 40 percent ± 5 percent.\n\n\n### 6.7 Protection\n\nThe fresh masonry shall be protected against vibrations or any other movement which might injure it before it has reached its final set. Stones shall not be allowed to be dumped over the masonry which has not taken its final set. Mortars and fresh masonry shall be protected from rain.\n\n\n### 6.8 Curing\n\nArrangements shall be made to protect the fresh masonry against rapid dying and to cure the masonry. The masonry shall be cured after 4 h to 12 h of construction and water shall be gently sprayed so as to avoid damage. All exposed surfaces of masonry shall be kept continuously moist for a minimum period of 21 days.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 9,
+      "clause": "6.4",
+      "heading": "6.4 Random Rubble Masonry",
+      "heading_path": [
+        "6 MASONRY",
+        "6.4 Random Rubble Masonry"
+      ],
+      "char_start": 21327,
+      "char_end": 24263,
+      "semantic_chunk_length": 2936,
+      "final_chunk_length": 3238,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0011",
+    "text": "ll be made to protect the fresh masonry against rapid dying and to cure the masonry. The masonry shall be cured after 4 h to 12 h of construction and water shall be gently sprayed so as to avoid damage. All exposed surfaces of masonry shall be kept continuously moist for a minimum period of 21 days.\n\n### 6.9 Tests\n\nThe following tests should be conducted to assess the quality of masonry;\n\n\n#### 6.9.1 Permeability Tests\n\nPermeability tests on masonry shall be carried out in accordance with IS 11216 for permeability tests of masonry dams (during and after construction). The water loss shall not be more than 2.5 and 5 lugeons in the upstream and downstream portions of the dam respectively, when tested at a pressure equal to 1.75 times the expected maximum water head at that elevation. As water loss test cannot be done at such high pressures when the masonry blocks are low and are under construction, it is suggested that the permeability tests could be carried out at a convenient pressure which would not cause disturbance to the masonry. Then, assuming a linear variation of water loss with respect to pressure applied, the loss that would result for the ultimate water pressure could be interpreted. The values of water loss obtained from the test are the overall value of masonry including loss into cracks joints, etc. It provides an approximate estimate of the possible leakage that may take place through specific zones of masonry. 76 mm diameter test holes should be drilled with rotary diamond drill on the built up masonry after 28 days curing and hardening.  If\n\nIS 8605 : 2026\n\nthe test results indicate water loss greater than specified values, remedial measures in the form of additional drilling and grouting should be done and confirmatory tests carried out.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "6.9",
+      "heading": "6.9 Tests",
+      "heading_path": [
+        "6 MASONRY",
+        "6.9 Tests"
+      ],
+      "char_start": 24266,
+      "char_end": 25748,
+      "semantic_chunk_length": 1482,
+      "final_chunk_length": 1784,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0012",
+    "text": " drilled with rotary diamond drill on the built up masonry after 28 days curing and hardening.  If\n\nIS 8605 : 2026\n\nthe test results indicate water loss greater than specified values, remedial measures in the form of additional drilling and grouting should be done and confirmatory tests carried out.\n\n#### 6.9.2 Determination of Strength Parameters\n\nThe compressive strength of masonry during design is taken as 12.5 MPa. However, the compressive strength should be more than five times of maximum induced compressive stresses in the dam masonry. The following methods are generally used to determine the strength parameters of masonry in dams.\n\n\n\n##### 6.9.2.1 Direct testing of samples\n\nIt is very difficult to obtain proper size of masonry samples from dam body. As per norms, generally 90 cm diameter with 90 cm height core is required to be extracted from dam body for determination of in-situ properties of mass density and strength parameters. Also as per IS 6512, 45 cm diameter with 90 cm height core or 75 cm cube samples are required to be tested. Extraction of large-size cores causes considerable damage to the dam body. Moreover, results are obtained from very limited locations to avoid damage to the dam body. Hence, nowadays non-invasive techniques are used for determination of physical properties.\n\n\n##### 6.9.2.2 Flat jack test\n\nFlat jack tests on dam masonry shall be carried out in accordance with IS 13946 (Part 4) for estimating the in-situ properties of masonry (old/ after construction) like elastic/deformation modulus, estimated compressive strength of masonry for applied pressure and Poisson’s ratio. The determination of masonry properties by flat jack method consists of measuring the displacement in the masonry by cutting a slot in it. A flat jack is then cemented into the slot and pressure is applied to it until the displacement created due to cutting of the slot is cancelled. This cancellation pressure is then used to compute the masonry properties like elastic/deformation modulus, and the estimated compressive strength of masonry for applied pressure by solving equations. Poisson’s ratio is to be determined when the convergence of the slot is to be measured between four reference pins. Two pins on either side of the slot, are fixed at a known distance prior to cutting of the slot. The consecutive stress-displacement envelope is obtained for inside pins while hydraulic stressing to the flat jack. Two equations for inside and outside pins are generated. Using two equations, the unknown value of Poisson’s ratio is determined.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "6.9.2",
+      "heading": "6.9.2 Determination of Strength Parameters",
+      "heading_path": [
+        "6 MASONRY",
+        "6.9 Tests",
+        "6.9.2 Determination of Strength Parameters"
+      ],
+      "char_start": 25751,
+      "char_end": 28025,
+      "semantic_chunk_length": 2274,
+      "final_chunk_length": 2576,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0013",
+    "text": "xed at a known distance prior to cutting of the slot. The consecutive stress-displacement envelope is obtained for inside pins while hydraulic stressing to the flat jack. Two equations for inside and outside pins are generated. Using two equations, the unknown value of Poisson’s ratio is determined.\n\n##### 6.9.2.3 Non-destructive methods\n\n- a) Ultrasonic pulse velocity (UPV) method for\nmasonry structures\n\nAssessment of the in-situ quality of concrete by ultrasonic pulse velocity (UPV) method shall be carried out in accordance with IS 516 (Part 5/Sec 1). As concrete is considered a homogeneous material, therefore the above criteria cannot be used for characterizing the quality of highly heterogeneous material like masonry. However, the test procedure and principle mentioned for testing concrete can also be followed for masonry.  Since there are no single criteria available for assessing the quality of masonry, therefore based on the experiments conducted for various dams, aqueducts, weirs, and canals in different parts of India, the criteria mentioned in Table 1 can be used for grading the quality of masonry. Ultrasonic waves can penetrate up to a thickness of up to 5 m and, therefore cannot be used for structures where the path length is more than 5 m.\n\n- b) Sonic wave transmission method for\nmasonry structures\n\nThe ultrasonic pulse velocity (UPV) method is suitable for material with a path length of up to 5 m. Due to these limitations, the UPV method is not suitable for massive structures like dams, aqueducts, canals and weirs having a path length of more than 5 m. The non-destructive technique for testing the quality of materials is based on the principle that the propagation velocity of elastic (mechanical) waves through a specimen of the material is related to the elastic constants and the density of the medium. At the same time, it is independent of the shape and size of the material. Therefore, the propagation velocity of elastic waves indicates the quality of the material in the direction of wave transmission.  Higher wave velocities correspond to better quality of the material and the distribution of wave velocities along different paths of wave transmission through a structure provides a safe method to quickly get an idea about the quality of its material. Waves with frequencies between 20 Hz and 20 KHz are termed ‘sonic’ waves and are capable of penetrating more than 5 m. Frequencies in the range of 500 Hz to1 000 Hz are generally used for assessing in-situ quality of masonry structures by the sonic wave transmission method.  Sonic waves in the frequency range of about 500-1000 Hz can be generated by mild impact of about 5 Kg hammer on the surface of",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "6.9.2.3",
+      "heading": "6.9.2.3 Non-destructive methods",
+      "heading_path": [
+        "6 MASONRY",
+        "6.9 Tests",
+        "6.9.2 Determination of Strength Parameters",
+        "6.9.2.3 Non-destructive methods"
+      ],
+      "char_start": 28030,
+      "char_end": 30436,
+      "semantic_chunk_length": 2406,
+      "final_chunk_length": 2708,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0014",
+    "text": "g more than 5 m. Frequencies in the range of 500 Hz to1 000 Hz are generally used for assessing in-situ quality of masonry structures by the sonic wave transmission method.  Sonic waves in the frequency range of about 500-1000 Hz can be generated by mild impact of about 5 Kg hammer on the surface of\n\nthe structure to be tested. When the elastic waves are induced into structural masonry, it undergoes multiple reflections at the boundary of the different materials within the structure. As a result, a complex system of elastic waves developed which includes longitudinal (compressional, P-wave), transverse (shear wave) and surface waves. Among the various types of elastic waves, P-wave travels faster than the others. By detecting the arrival of P- waves and measuring the travel times along different paths through the material, the wave velocities along the travel paths are estimated. The distribution of P-wave velocity throughout the test specimen gives an idea about the overall quality of the structure. Table 1 shows Velocity criteria adopted for assessing in-situ quality of masonry structures.\n\n- c) Cross hole seismic tomography\nCross hole seismic tomography field investigation is carried out by drilling hole from top of the dam at an interval of 8 m to 12 m. study is conducted between two holes by taking one source hole and other as receiver hole. Spark trigger source is used for generating pulse in the source holes which is received at multiple elevations by the receivers in the second hole. A two dimensional picture of the seismic wave velocity distribution between two boreholes is obtained by measurement of numerous travel times data between different source and receiver locations. From this, tomogram anomalies like weak zones, cavities and other undesirable features which could be susceptible to seepage in the dam body are delineated throughout the length and height of the dam.\n\n- d) Delineation of seepage zones by resistivity\nimaging\n\nElectrical resistivity imaging involves a series of resistivity measurements with different electrode spacing using a 2D multi-electrode imaging system to control the measurements. Increasing electrode separation provides information to greater depths. The measured values of apparent resistivity are processed and interpreted to provide an image of true resistivity against depth (geo-electric section). These sections include information on isolated low/high resistive anomalies which could be attributed to zones that are prone to seepage or susceptible to seepage within the structure of earthen, masonry and concrete dams.",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "6.9.2.3",
+      "heading": "6.9.2.3 Non-destructive methods",
+      "heading_path": [
+        "6 MASONRY",
+        "6.9 Tests",
+        "6.9.2 Determination of Strength Parameters",
+        "6.9.2.3 Non-destructive methods"
+      ],
+      "char_start": 30438,
+      "char_end": 32736,
+      "semantic_chunk_length": 2298,
+      "final_chunk_length": 2600,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0015",
+    "text": "to provide an image of true resistivity against depth (geo-electric section). These sections include information on isolated low/high resistive anomalies which could be attributed to zones that are prone to seepage or susceptible to seepage within the structure of earthen, masonry and concrete dams.\n\n#### 6.9.3 Mass Density\n\nThe mass density of masonry dams is generally\n\n\n\n\nconsidered 2 350 kg/m3 during the design. The in-situ mass density of old masonry dams may be estimated through modern test methods such as nuclear borehole logging. This is a very effective technique as mass density throughout the height of the dam is estimated by drilling\n\nIS 8605 : 2026\n\nholes in the dam body from the top of the dam. Mass density can be estimated in multiple blocks from the dam top from a large-sized inspection gallery to the foundation gallery in spillway blocks.\n\n\n**Table 1 Velocity Criteria Adopted for Masonry Structure**\n\n| Sl No. | Criteria | Velocity km/s | Quality |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) | 1 | ≥ 3 | Very good |\n| ii) | 2 | 2  to 3 | Good |\n| iii) | 3 | < 2 | Poor |",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "6.9.3",
+      "heading": "6.9.3 Mass Density",
+      "heading_path": [
+        "6 MASONRY",
+        "6.9 Tests",
+        "6.9.3 Mass Density"
+      ],
+      "char_start": 32739,
+      "char_end": 33549,
+      "semantic_chunk_length": 810,
+      "final_chunk_length": 1112,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0016",
+    "text": "gallery to the foundation gallery in spillway blocks.\n\n\n**Table 1 Velocity Criteria Adopted for Masonry Structure**\n\n| Sl No. | Criteria | Velocity km/s | Quality |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) | 1 | ≥ 3 | Very good |\n| ii) | 2 | 2  to 3 | Good |\n| iii) | 3 | < 2 | Poor |\n\n## ANNEX A\n\n(Clause 2)\n\nLIST OF REFERRED STANDARDS\n\n\n| IS No. | Title |\n| --- | --- |\n| IS 269 : 2015 | Ordinary portland cement — |\n|  | Specification (sixth revision) |\n| IS 383 : 2016 | Coarse and fine aggregate for |\n|  | concrete — Specification |\n|  | (third revision) |\n| IS 455 : 2015 | Portland slag cement — |\n|  | Specification (fifth revision) |\n| IS 456 : 2000 | Plain and reinforced concrete |\n|  | — Code of practice (fourth |\n|  | revision) |\n| IS 516 (Part 5/Sec 1) : | Hardened concrete — Methods |\n| 2018 | of test: Part 5 Non-destructive |\n|  | testing of concrete, Section 1 |\n|  | Ultrasonic pulse velocity |\n|  | testing (first revision) |\n| IS 1121 (Part 1) : | Determination of strength |\n| 2023 | properties of natural building |\n|  | stones — Methods of test: Part |\n|  | 1 Uniaxial compressive |\n|  | strength (third revision) |\n| IS 1124 : 1974 | Method of test for |\n|  | determination of water |\n|  | absorption, apparent specific |\n|  | gravity and porosity of natural |\n|  | building stones (first revision) |\n| IS 1126 : 2013 | Determination of durability of |\n|  | natural building stones — |\n|  | Method of test (second |\n|  | revision) |\n| IS 1489 | Portland pozzolana cement — |\n|  | Specification: |\n| (Part 1) : 2015 | Fly ash based (fourth revision) |\n| (Part 2) : 2015 | Calcined clay based (fourth |\n|  | revision) |\n| IS 2116 : 1980 | Specification for sand for |\n|  | masonry mortars (first |\n|  | revision) |\n\n\n| IS No. | Title |\n| --- | --- |\n| IS 2250 : 1981 | Preparation and use of |\n|  | masonry mortars — Code of |\n|  | practice (first revision) |\n| IS 4997 : 1968 | Criteria for design of hydraulic |\n|  | jump type stilling basins with |\n|  | horizontal and sloping apron |\n| IS 5186 : 1994 | Design of chute and side |\n|  | channel spillways — Criteria |\n|  | (first revision) |\n| IS 6512 : 2019 | Criteria for design of solid |\n|  | gravity dams (second revision) |\n| IS 6909 : 1990 | Supersulphated cement — |\n|  | Specification (first revision) |\n| IS 6934 : 2024 | Hydraulic design of ogee |\n|  | overflow and orifice spillways |\n|  | — Recommendations (third |\n|  | revision) |\n| IS 7365 : 2010 | Criteria for hydraulic design of |\n|  | bucket type energy dissipators |\n|  | (second revision) |\n| IS 7894 : 1975 | Code of practice for stability |\n|  | analysis of earth dams |\n| IS 8237 : 2024 | Protection of slope for |\n|  | reservoir embankment — Code |\n|  | of practice (second revision) |\n| IS 9103 : 1999 | Concrete admixtures — |\n|  | Specification (first revision) |\n| IS 11216 : 1985 | Code of practice for |\n|  | permeability test for masonry |\n|  | during and after construction |\n| IS 13946 (Part 4) : | Determination of rock stress — |\n| 1994 | Code of practice: Part 4 Using |\n|  | flat jack technique |\n\n\nTo access Indian Standards click on the link below:\n\nhttps://standards.bis.gov.in/website/know-your-standards",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 33554,
+      "char_end": 36443,
+      "semantic_chunk_length": 2889,
+      "final_chunk_length": 3191,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "8605_2026_0017",
+    "text": "bility test for masonry |\n|  | during and after construction |\n| IS 13946 (Part 4) : | Determination of rock stress — |\n| 1994 | Code of practice: Part 4 Using |\n|  | flat jack technique |\n\n\nTo access Indian Standards click on the link below:\n\nhttps://standards.bis.gov.in/website/know-your-standards\n\n## ANNEX B\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: WRD 09 (26569).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "8605_2026.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 36448,
+      "char_end": 37884,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 8605",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

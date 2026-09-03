@@ -1,0 +1,331 @@
+[
+  {
+    "id": "16490_2016_amd1_reff2020_0000",
+    "text": "(Reaffirmed 2020)\n\nIndian Standard\n\nLED Destination Board System for Buses — Specification\n\nICS 43.040.10\n\n© BIS 2016\n\nBUREAU OF INDIAN STANDARDS\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.org.in\n\nwww.standardsbis.in\n\nPrice Group 4\n\nMay 2016\n\n\n\n\nIntelligent Transport Systems Sectional Committee, TED 28\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Intelligent Transport Systems Sectional Committee had been approved by the Transport Engineering Division Council.\n\nImproper and unsystematic display of destination board on buses causes problems for commuting public. Installation of destination boards with light emitting diode (LED) display, covered in this standard, will be very helpful in knowing route numbers and destination by the commuting public.\n\nIn the formulation of this standard, considerable assistance has been derived from the following publications:\n\nAIS 47 : 2009 Automotive vehicles —Interior fittings — Specifications for other than M1 category vehicles published by the Automotive Research Association of India on behalf of Automotive Industry Standards Committee AIS 052 : 2008 Code of Practice for bus body design and approval (first revision) published by the Automotive Research Association of India on behalf of Automotive Industry Standards Committee UN ECE R10 Approval of vehicles with regard to electromagnetic compatibility\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 1960 ‘Rules for rounding off numerical values (revised)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nLED DESTINATION BOARD SYSTEM FOR BUSES —\n\n\nSPECIFICATION\n\n\n## 1 SCOPE\n\nThis standard specifies the constructional and performance requirements and methods of tests for LED Destination Board System (LDBS) for use in all categories of buses and coaches (including mini/midi buses).",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2173,
+      "semantic_chunk_length": 2172,
+      "final_chunk_length": 2172,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0001",
+    "text": "\n\n\nIndian Standard\n\n\nLED DESTINATION BOARD SYSTEM FOR BUSES —\n\n\nSPECIFICATION\n\n\n## 1 SCOPE\n\nThis standard specifies the constructional and performance requirements and methods of tests for LED Destination Board System (LDBS) for use in all categories of buses and coaches (including mini/midi buses).\n\n## 2 REFERENCES\n\nThe following standards contain provisions, which, through reference in this text, constitute provisions of this standard. At the time of publication the editions indicated were valid. All standards are subject to revision and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated below:\n\n| IS/International Standard | Title |\n| --- | --- |\n| 2465 : 1984 | Cables for motor vehicles (second revision) |\n| 4905 : 1968 | Methods for random sampling |\n| 9000 (Part 2/Sec 4) : 1977 | Basic environmental testing procedures for electronic and electrical Items: Part 2 Cold test, Section 4 Cold test for heat dissipating items with gradual change of temperature |\n| 9000 (Part 5/Sec 2) : 1981 | Basic environmental testing procedures for electronic and electrical Items: Part 5 Damp heat (cyclic) test, Section 2 12 + 12h cycle |\n| 9000 (Part 3/Sec 5) : 1977 | Basic environmental testing procedures for electronic and electrical items: Part 3 Dry heat test |\n| 10250 : 1982 | Specification for severities for environmental test for automotive electrical equipment |\n| ISO 7637-2 : 2011 | Road vehicles — Electrical disturbances from conduction and coupling — Part 2: Electrical transient conduction along supply lines only |\n| ISO 10605 : 2008 | Road vehicles — Test methods for electrical disturbances from electrostatic discharge |\n| ISO 16750-2 : 2010 | Road vehicles — Environmental conditions and testing for electrical and electronic equipment — Part 2: Electrical loads |\n| ISO 16750-4 : 2010 | Road vehicles — Environmental conditions and testing for electrical and electronic equipment — Part 4: Climatic loads |\n| IS/IEC 60529 : 2001 | Degrees of protection provided by enclosures (IP CODE) |\n| IS/IEC 60947 (Part 1) : 2007 | Low-voltage switchgear and controlgear: Part 1 General rules |\n| AIS 004 (Part 3) : 2009 | Automotive vehicles — Requirements for electromagnetic compatibility |\n| AIS 010 (Part 5) : 2010 | Requirements of color of light emitted from lighting and light-signalling devices |\n| AIS 012 | Performance requirements of lighting and light-signaling devices for motor vehicle having more than three wheels, trailer and semi-trailer |\n| AIS 028 : 2011 | Code of practice for use of CNG fuel in internal combustion engined vehicle |\n| AIS 052 : 2008 | Code of practice for bus body design and approval |",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2176,
+      "char_end": 4619,
+      "semantic_chunk_length": 2443,
+      "final_chunk_length": 2745,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0002",
+    "text": "nce requirements of lighting and light-signaling devices for motor vehicle having more than three wheels, trailer and semi-trailer |\n| AIS 028 : 2011 | Code of practice for use of CNG fuel in internal combustion engined vehicle |\n| AIS 052 : 2008 | Code of practice for bus body design and approval |\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard, the following definitions shall apply.\n\n\n3.1 LED Destination Board System (LDBS) — A system consisting of LED display boards along with requisite software and hardware (controller and associated circuits) used for displaying destinations/ route information, etc, on the buses.\n\n\n3.2 LDBS with Voice — The voice in ‘LDBS with voice’ is used for announcement of route information with GPS assisted trigger along with a manual override.\n\n\n### 3.3 Outward Facing LDB — The display board used to provide information to users present outside the bus.\n\n\n### 3.4 Inward Facing LDB — The display board used to provide information to users present inside the bus.\n\n\n\n\n### 3.5 Bus — A large motor vehicle designed to carry passengers usually along a fixed route.\n\n\n3.6 Coach — A type of bus, used for carrying passengers on excursions and on longer distances between cities - or even between countries. Unlike buses designed for shorter journeys, coaches often have a luggage hold separate from the passenger cabin and are normally equipped with facilities required for longer trips including comfortable seats and sometimes a toilet.\n\n\n3.7 Visibility Distance — Minimum distance at which the text on the display of the LDB can be clearly discerned.\n\n\n### 3.8 Size of LDB — Overall size of the display area.\n\n\n### 3.9 LED Matrix — Array of rows and columns of LEDs in the Display area (see Fig. 1).\n\n\n### 3.10 Pitch — Distance between the center of pixels (expressed in mm) see Fig.1.\n\n\n3.11 Ratings — The voltage and current range at which the LDBS is designed to operate satisfactorily.\n\n\n3.12 Rated Voltage — The operating voltage (12/24 V) specified by the manufacturer for terminal or pair of terminals at which the LDBS is designed to\n\noperate satisfactorily.\n\n\n3.13 Type Tests — Tests carried out to prove conformity of LDBS with respect to the requirements of this standard. These are intended to prove the general quality, design and performance of a given type of LDBS.\n\n\n### 3.14 Acceptance Tests — Tests required to be carried out on samples taken from a lot for the purpose of acceptance of the lot.\n\n\n3.15 Lot — Fifty numbers of LDBSs of the same type, design, rating, manufactured in the same premises, using the same process and materials, offered for inspection at a time shall constitute a lot.\n\n\n### 3.16 Functional Status Classification — Operational status of a device during and after exposure to an electromagnetic environment.",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 4622,
+      "char_end": 7113,
+      "semantic_chunk_length": 2491,
+      "final_chunk_length": 2793,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0003",
+    "text": "f the same type, design, rating, manufactured in the same premises, using the same process and materials, offered for inspection at a time shall constitute a lot.\n\n\n### 3.16 Functional Status Classification — Operational status of a device during and after exposure to an electromagnetic environment.\n\n## 4 RATED VOLTAGE, SIZE AND TYPES OF LDBS\n\n\n### 4.1 Rated Voltage\n\nThe rated voltage shall be either 12 V or 24 V d.c. and the same shall be marked on the LDBS.\n\n\n**FIG. 1 LED MATRIX**\n\n\n\n\n\n### 4.2 Size of LDB Display Area\n\n\n4.2.1 Minimum size of outward facing LDBS display area shall be as given in Table 1.\n\n\n**Table 1 Minimum Size of Outward Facing LDBS**\n\n| Sl No. | Location | Minimum Height mm | Minimum Length mm | Row Min | Column Min |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| i) | Front | 220 | 1800 | 16 | 140 |\n| ii) | Front (Mini/Midi) | 220 | 900 | 16 | 96 |\n| iii) | Rear | 220 | 900 | 16 | 96 |\n| iv) | Service Door | 220 | 900 | 16 | 96 |\n\n\n4.2.2 Minimum size of inward facing LDB display area (if fitted) shall be 800 mm × 100 mm with a minimum of 16 rows and minimum of 112 columns.\n\n\n### 4.3 Types and Requirements of LDBS Controllers\n\n\n4.3.1 Controller of destination boards may be any of the following types, subject to agreement between the purchaser and the supplier:\n\n- a) Without voice and without GPS compatibility,\n- b) With synchronized voice and display on inward facing LDB with in-built GPS / GPS compatible,\n- c) With synchronized voice and display on inward facing LDB with GPS compatibility with provision of two way communication with control centre via an add-on device, and\n- d) Full ITS compliant.\n\n#### 4.3.2 Other Requirements for Controllers Mentioned in 4.3.1\n\n- a) Should be capable of displaying same and different messages on each of the signs (front, rear, side and inner);\n- b) Should have a minimum size of memory as per customer specifications;\n- c) Should be 'automotive grade' rated for –25° C to +85°C. PCB's shall be conformal coated; and\n- d) The controller display should be alphanumeric with a keypad having minimum four keys.\n\n### 4.4 Performance Requirements\n\n\n4.4.1 Display should be alphanumeric with graphic capability in English/Hindi/Other local languages and should be visible in fixed, scrolling and flashing mode with fixed route number as per customer requirements.\n\n\nIS 16490 : 2016\n\n\n4.4.2 Signs should have ability to retain the last message displayed in the memory of the sign even in the event of power failure and without the message being reloaded from controller. Test will be performed by disconnecting the controller from the Sign and power to the Sign will be switched ‘OFF’ and ‘ON’ to see, if the last message is retained and displayed.\n\n\n4.4.3 The LDBS should have a programming capability for a minimum number of routes as per customer requirement.",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "4",
+      "heading": "4 RATED VOLTAGE, SIZE AND TYPES OF LDBS",
+      "heading_path": [
+        "4 RATED VOLTAGE, SIZE AND TYPES OF LDBS"
+      ],
+      "char_start": 7116,
+      "char_end": 9686,
+      "semantic_chunk_length": 2570,
+      "final_chunk_length": 2872,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0004",
+    "text": "troller. Test will be performed by disconnecting the controller from the Sign and power to the Sign will be switched ‘OFF’ and ‘ON’ to see, if the last message is retained and displayed.\n\n\n4.4.3 The LDBS should have a programming capability for a minimum number of routes as per customer requirement.\n\n### 4.5 Classification of Functional Status\n\nThe following classifications are for the total device/ system functional status:\n\n- a) Class A — All functions of a device/system perform as designed during and after exposure to disturbance.\n- b) Class B — all functions of a device/system perform as designed during exposure. However, one or more of them can go beyond specified tolerance. All functions return automatically to within normal limits after exposure is removed. Memory functions shall remain Class A.\n- c) Class C — one or more functions of a device/system do not perform as designed during exposure but return automatically to normal operation after exposure is removed.\n- d) Class D — one or more functions of a device/system do not perform as designed during exposure and do not return to normal operation until exposure is removed and the device/system is reset by simple “operator/use” action.\n- e) Class E — one or more functions of a device/system do not perform as designed during and after exposure and cannot be returned to proper operation without repairing or replacing the device/system.\nNOTE — The word ‘function’ in this context refers only to the function performed by the electronic system.\n\n\n## 5 CONSTRUCTION\n\n\n5.1 The LDBS’s shall be so designed and constructed as to be mechanically robust and free from any operational difficulties. LDBS shall function safely and reliably under the conditions of vibrations, shocks, etc, subjected during normal installation and use. LDBS shall have adequate resistance to corrosion, heat and humidity.\n\n\n5.2 Mounting slot size of the controller shall be as per customer requirement.\n\n\n5.3 The controller system should have provision for a communication port namely RS232/RS485/USB, etc.\n\n\n### 5.4 The electronic components used in the LDBS\n\n\n\nshould be of automotive grade and capable of withstanding –25°C to +85°C so as to meet the test requirements as mentioned in 6.1.1.\n\n\n5.5 LDBS should have a light sensor with continuously variable brightness control to enable the display intensity to change based on outside light conditions.",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "4.5",
+      "heading": "4.5 Classification of Functional Status",
+      "heading_path": [
+        "4 RATED VOLTAGE, SIZE AND TYPES OF LDBS",
+        "4.5 Classification of Functional Status"
+      ],
+      "char_start": 9689,
+      "char_end": 11792,
+      "semantic_chunk_length": 2103,
+      "final_chunk_length": 2405,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0005",
+    "text": "LDBS\n\n\n\nshould be of automotive grade and capable of withstanding –25°C to +85°C so as to meet the test requirements as mentioned in 6.1.1.\n\n\n5.5 LDBS should have a light sensor with continuously variable brightness control to enable the display intensity to change based on outside light conditions.\n\n## 6 TESTS\n\nThe tests listed in 6.1 are applicable to LDBS.",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "6",
+      "heading": "6 TESTS",
+      "heading_path": [
+        "6 TESTS"
+      ],
+      "char_start": 11795,
+      "char_end": 11854,
+      "semantic_chunk_length": 59,
+      "final_chunk_length": 361,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0006",
+    "text": "ding –25°C to +85°C so as to meet the test requirements as mentioned in 6.1.1.\n\n\n5.5 LDBS should have a light sensor with continuously variable brightness control to enable the display intensity to change based on outside light conditions.\n\n## 6 TESTS\n\nThe tests listed in 6.1 are applicable to LDBS.\n\n### 6.1 Classification of Tests\n\n\n#### 6.1.1 Type Tests\n\nThe following shall constitute type tests:\n\n- a) Visual examination (see 6.2);\n- b) Measurement of dimensions (see 6.3);\n- c) Functional test (see 6.4)\n- d) Performance tests (see 6.5);\n- e) Minimum visibility distance test (see 6.6);\n- f) Flicker test (see 6.7);\n- g) Color test (see 6.8)\n- h) Insulation resistance test (see 6.9);\n- j) Electromagnetic compatibility test (see 6.10);\n- k) Electrostatic discharge test (see 6.11);\n- m) Endurance test (see 6.12);\n- n) Vibration test (see 6.13);\n- p) High temperature test (see 6.14);\n- q) Cold test (see 6.15)\n- r) Damp heat test (see 6.16);\n- s) Ingress test (see 6.17);\n- t) Corrosion resistance test (see 6.18);\n- u) Fire resistance test (see 6.19);\n- v) Reverse polarity test (see 6.20);\n- w) High voltage test (see 6.21); and\n- y) Transient test on controllers (see 6.22).\n\n##### 6.1.1.1 Criteria for approval\n\nMinimum three samples sets shall be submitted for testing together with the relevant data. The testing authority shall issue a type approval certificate, if the LDBS is found to comply with the requirements of the tests given in 6.1.1.\n\nNOTE — Sample set means all different combinations of LDBS used in a vehicle.\n\n\n6.1.1.2 The samples shall be tested as per the test sequence in Table 2:\n\nThe sequence of tests on sample sets S1 to S3 shall be as mentioned in Table 2 and is subject to agreement between the manufacturer and the test agency.\n\n\n##### 6.1.1.3 In case of failure in one or more type tests, the\n\n\n\n**Table 2 Sample Wise Test Sequence**\n\n| Sl No. | Tests | S1 | Sample Set No. S2 | S3 |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n| i) | Visual examination | X | X | X |\n| ii) | Measurement of dimensions | X | X | X |\n| iii) | Functional test | X |  |  |\n| iv) | Performance tests | X |  |  |\n| v) | Minimum visibility distance test | X |  |  |\n| vi) Flicker test |  | X |  |  |\n| vii) Color test |  | X |  |  |\n|  | viii) Electromagnetic compatibility test |  | X |  |\n| ix) | Electrostatic discharge test | X |  |  |\n| x) | High temperature test |  | X |  |\n| xi) Cold test |  |  | X |  |\n| xii) | Damp heat test |  | X |  |\n|  | xiii) Insulation resistance test |  | X |  |\n| xiv) Ingress test |  | X |  |  |\n| xv) | Corrosion resistance test |  | X |  |\n| xvi) Fire resistance test |  | X |  |  |\n|  | xvii) Reverse polarity test |  |  | X |\n| xviii) High voltage test |  |  |  | X |\n|  | xix) Transient test on controllers |  |  | X |\n| xx) | Endurance test | X |  |  |\n| xxi) Vibration test |  |  |  | X |\n\n\ntesting authority may call for fresh samples not exceeding twice the number of original samples and subject them to test(s) in which failure occurred. If, in repeated test(s) no failure occurs, the test may be considered to have been satisfactory.",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "6.1",
+      "heading": "6.1 Classification of Tests",
+      "heading_path": [
+        "6 TESTS",
+        "6.1 Classification of Tests"
+      ],
+      "char_start": 11857,
+      "char_end": 14676,
+      "semantic_chunk_length": 2819,
+      "final_chunk_length": 3121,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0007",
+    "text": "t | X |  |  |\n| xxi) Vibration test |  |  |  | X |\n\n\ntesting authority may call for fresh samples not exceeding twice the number of original samples and subject them to test(s) in which failure occurred. If, in repeated test(s) no failure occurs, the test may be considered to have been satisfactory.\n\n#### 6.1.2 Acceptance Tests\n\nThe following shall constitute acceptance tests:\n\n- a) Visual examination (see 6.2),\n- b) Measurement of dimensions (see 6.3);\n- c) Functional tests (see 6.4);\n- d) Minimum visibility distance test (see 6.6);\n- e) Flicker test (see 6.7); and\n- f) Colour test (see 6.8).\n\n### 6.2 Visual Examination\n\nLDBS shall have a smooth finish and shall be properly assembled. It shall not contain any sharp edges, which may cause injury to the persons handling the LDBS.\n\n\n### 6.3 Measurement of Dimensions\n\nLDBS shall conform to the dimensions given in 4.2.\n\n\n### 6.4 Functional Test\n\nLDBS shall be connected in a suitable circuit and tested at three voltage points (rated voltage: ± 25 percent).\n\n\n#### 6.4.1 Requirement\n\nAfter the functional test, the LDBS shall meet requirements of 4.4.1 and 4.4.2 and shall accept change of program by the controller.\n\n\n\n\n### 6.5 Performance Test\n\nLDBS shall be connected in a suitable circuit and tested at nine points: Three voltage points (rated voltage: ± 25 percent) and three temperature points (–25ºC, room temperature and +85ºC). At each test point the system shall be powered on and shut down 5 times as per the supplier’s designated procedure. Minimum dwell time before start of test at each temperature is 1 h. The test will be conducted for at least 0.5 h after the temperature has stabilized.\n\n\n#### 6.5.1 Requirement\n\nAfter performance test, the LDBS shall meet the requirements of Functional Test (see 6.4.1) with all LEDs working at the end of the test.\n\n\n### 6.6 Minimum Visibility Distance Test\n\nThe minimum distance from which the text (single line 16 pixel high) on the LDB should be clearly readable from a normal vision should be 50 m from the front, rear and side of the bus and 15 m from the inside of the bus under ambient light of day and night conditions.\n\n\n### 6.7 Flicker Test\n\nThe LED display on the LDB should be flicker-free (Visual test) for all LDB in all modes, for example fixed, scrolling and any other mode.\n\n\n### 6.8 Colour Test\n\nThe light emitted by LDB shall be of amber colour having trichromaticity coordinates conforming to:\n\n\n|  | A34 Red boundary | A12 Green boundary A23 The spectral locus A41 White boundary | y = x – 0.120 y = 0.390 | y = 0.790 – 0.670x |  |\n| --- | --- | --- | --- | --- | --- |\n| A1: A2: A3: A4 | With intersection points: | X 0.545 0.560 0.609 0.597 |  |  | Y 0.425 0.440 0.390 0.390 |\n\n\nThe dominant wavelength of the light emitted by the LEDs of LDBS shall fall between 585 nm and 595 nm.\n\n\n### 6.9 Insulation Resistance Test\n\nInsulation resistance test will be carried out after the completion of ‘Damp Heat Test’. The insulation resistance shall be measured between any pair of non- short-circuited terminals after applying a voltage of 500 V d.c. as per ISO 16750-2.\n\n\nIS 16490 : 2016\n\n\n#### 6.9.1 Requirement\n\nThe insulation resistance shall be not less than 1M",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "6.1.2",
+      "heading": "6.1.2 Acceptance Tests",
+      "heading_path": [
+        "6 TESTS",
+        "6.1 Classification of Tests",
+        "6.1.2 Acceptance Tests"
+      ],
+      "char_start": 14679,
+      "char_end": 17572,
+      "semantic_chunk_length": 2893,
+      "final_chunk_length": 3195,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0008",
+    "text": "ied out after the completion of ‘Damp Heat Test’. The insulation resistance shall be measured between any pair of non- short-circuited terminals after applying a voltage of 500 V d.c. as per ISO 16750-2.\n\n\nIS 16490 : 2016\n\n\n#### 6.9.1 Requirement\n\nThe insulation resistance shall be not less than 1M\n\n### 6.10 EMI/EMC Test\n\nThe LDBS shall be subjected to following tests.\n\n\n#### 6.10.1 Measurement of radiated broadband electromagnetic emissions from LDBS according to Annex 5 of AIS 004 (Part 3).\n\n\n#### 6.10.2 Measurement of radiated narrowband electromagnetic emissions from LDBS according to Annex 6 of AIS 004 (Part 3).\n\n\n#### 6.10.3 Method(s) of testing for immunity of LDBS to electromagnetic radiation according to Annex 7 of AIS 004 (Part 3).\n\n\n##### 6.10.3.1 Requirement\n\nLDBS shall meet the functional status classification A as per 4.5.\n\n\n#### 6.10.4 Method(s) of testing for immunity to and emission of transients of LDBS according to Annex 8 of AIS 004 (Part 3).\n\n\n##### 6.10.4.1 Requirement\n\nLDBS shall meet the functional status classification mentioned in Table 1 (Immunity of ESA) of AIS 004 (Part 3).\n\n\n### 6.11 Electrostatic Discharge Test\n\nThe controller in LDBS shall be subjected to tests as per ISO 10605. The minimum and maximum test signal severity levels shall be as per Table 3 mentioned below. The suggested intermediate severity levels are ± 6 kV, ± 8 kV and ± 15 kV. However, the test severity levels shall be as decided between manufacturer and test agency depending on the required operational characteristics of the function.\n\n\n**Table 3 Test Severity Levels**\n\n| Sl No. | Type of Tests |  | Test Level Minimum  Maximum |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) Powered condition | a) Direct contact discharge b) Direct air discharge | ± 6 kV ± 6 kV | ± 8 kV ± 8 kV |\n| ii) Unpowered condition | a) Direct contact discharge b) Direct air discharge | ± 8 kV ± 8 kV | ± 15 kV ± 15 kV |\n\n\n#### 6.11.1 Requirement\n\nThe controller in LDBS shall meet the functional status\n\n\n\nof Class C during and after the discharge.\n\n\n### 6.12 Endurance Test\n\nThe LDBS shall be suitably mounted at an ambient temperature preferably at 27 ± 2°C. The system shall be connected in a suitable circuit. The test voltage at terminals shall be 14 and 28 V for systems rated for 12 V and 24 V, respectively. The system shall be operated for 100 000 cycles. Each cycle shall consist of switching ‘ON’ and ‘OFF’ the system with dwell time as follows:\n\n\nDwell time: 10 s ± 1 s (ON condition), 4 s ± 1 s (OFF condition).\n\nAt the end of the test, the LDB shall be brought down to room temperature.\n\n\n#### 6.12.1 Requirement\n\nLDBS shall meet the functional requirements (see 6.4) with all LEDs working at the end of the endurance test.",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "6.10",
+      "heading": "6.10 EMI/EMC Test",
+      "heading_path": [
+        "6 TESTS",
+        "6.10 EMI/EMC Test"
+      ],
+      "char_start": 17575,
+      "char_end": 20026,
+      "semantic_chunk_length": 2451,
+      "final_chunk_length": 2753,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0009",
+    "text": "ll time as follows:\n\n\nDwell time: 10 s ± 1 s (ON condition), 4 s ± 1 s (OFF condition).\n\nAt the end of the test, the LDB shall be brought down to room temperature.\n\n\n#### 6.12.1 Requirement\n\nLDBS shall meet the functional requirements (see 6.4) with all LEDs working at the end of the endurance test.\n\n### 6.13 Vibration Test\n\nThe test specimen (LDBS) mounted on a suitable support shall be rigidly fixed on a suitable vibrating machine constructed to produce simple harmonic function (a total amplitude of 1.5 mm) and shall be subjected to vibration through a frequency range of 10-55-10 Hz in a sweep period of 1 min with continuously varying frequencies. The vibration shall be applied for not less than 1 h in the directions of each of the 3 major axes of the light.\n\n\n#### 6.13.1 Requirements\n\nThe LDBS after vibration test shall meet the requirements of visual examination (see 6.2) and functional requirements (see 6.4) with all LEDs working at the end of the test.\n\n\n### 6.14 High Temperature Test\n\nThe test shall be carried out in accordance with IS 9000 (Part 3/Sec 5). The LDBS shall be subjected to temperature of 80 ± 2°C for 16 h in high temperature. Test with device in working condition. The recovery period shall be 2 h.\n\n\n\n#### 6.14.1 Requirement\n\nLDBS after the test shall meet the requirements of functional tests (see 6.4) with all LEDs working at the end of the test.\n\n\n### 6.15 Cold Test\n\nThe test shall be carried out in accordance with IS 9000 (Part 2/Sec 4). The LDBS shall be subjected to temperature of –25 ± 2°C for 2 h with device in working condition. The recovery period shall be 2 h.\n\n\n\n\n#### 6.15.1 Requirement\n\nLDBS after the test shall meet the requirements of functional tests (see 6.4) with all LEDs working at the end of the test.\n\n\n### 6.16 Damp Heat Test\n\nThe LDBS should be tested according to IS 9000 (Part 5/Sec 2). The test is carried out at +25° to +55° C, Humidity 95 percent. Six cycles (each test cycle of 24 h) should be run with LDBS in off condition. Functional test shall be carried out with power in ‘On condition’ at start of 2nd, 4th and 6th cycle.\n\n\n#### 6.16.1 Requirement\n\nLDBS after the test shall meet the requirements of functional tests as per 6.4 with all LEDs working at the end of the test.\n\n\n### 6.17 Ingress Test\n\nThe ingress test shall be carried out in accordance with IS /IEC 60947-1 in conjunction with IS/IEC 60529 for IP 66 compliance.\n\n\n#### 6.17.1 Requirement\n\nLDBS shall meet the requirements of functional tests (see 6.4) and the requirements of IP 66 compliance.\n\n\n### 6.18 Corrosion Resistance Test\n\nThe LDBS should be tested according to 4.8 of IS 10250 for 96 h.\n\n\n#### 6.18.1 Requirement\n\nThe LDBS shall meet the requirements of functional tests (see 6.4) after the test with all LEDs working at the end of the test.\n\n\n### 6.19 Test for Wiring Harness\n\nThe wiring harness used in the LDBS should be tested for:\n\n- a) Flammability test — As per IS 2465;\n- b) Electrical properties — Such as conductor resistance, spark test and immersion test as per AIS 028; and\n- c) Flammability of corrugated sleeves — As per 7 of UL 94 – 1998, Class HB.",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "6.13",
+      "heading": "6.13 Vibration Test",
+      "heading_path": [
+        "6 TESTS",
+        "6.13 Vibration Test"
+      ],
+      "char_start": 20029,
+      "char_end": 22849,
+      "semantic_chunk_length": 2820,
+      "final_chunk_length": 3122,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0010",
+    "text": "ring Harness\n\nThe wiring harness used in the LDBS should be tested for:\n\n- a) Flammability test — As per IS 2465;\n- b) Electrical properties — Such as conductor resistance, spark test and immersion test as per AIS 028; and\n- c) Flammability of corrugated sleeves — As per 7 of UL 94 – 1998, Class HB.\n\n### 6.20 Reverse Polarity Test\n\nThe LDB should be connected to a reversed voltage of 14 V for 12 V systems and 27 V for 24 V systems for 2 min after connecting the system to the suitable circuit.\n\n\n#### 6.20.1 Requirement\n\nLDBS shall meet the requirements of functional tests (see 6.4), after the reverse polarity test.\n\n\n\n\n### 6.21 High Voltage Test\n\nThe LDBS shall operate for 60 min at 18V (12V system) and 36V (24V system) without affecting the service life or function.\n\n\n#### 6.21.1 Requirement\n\nLDBS shall meet the requirements of functional tests (see 6.4), after the high voltage test.\n\n\n### 6.22 Transient Test on Controllers\n\nThe LDBS shall be subjected to pulse 5a – (123V, 8 , and 200 ms for 24V system) or (65V, 4 , 200 ms for 12V system) as per ISO 7637-2.\n\n\n#### 6.22.1 Requirement\n\nLDBS shall meet the functional status classification B as per 4.5.",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "6.20",
+      "heading": "6.20 Reverse Polarity Test",
+      "heading_path": [
+        "6 TESTS",
+        "6.20 Reverse Polarity Test"
+      ],
+      "char_start": 22851,
+      "char_end": 23718,
+      "semantic_chunk_length": 867,
+      "final_chunk_length": 1169,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16490_2016_amd1_reff2020_0011",
+    "text": "fter the high voltage test.\n\n\n### 6.22 Transient Test on Controllers\n\nThe LDBS shall be subjected to pulse 5a – (123V, 8 , and 200 ms for 24V system) or (65V, 4 , 200 ms for 12V system) as per ISO 7637-2.\n\n\n#### 6.22.1 Requirement\n\nLDBS shall meet the functional status classification B as per 4.5.\n\n## 7 MARKING\n\n\n7.1 The LDBS shall have the following information\n\n\nIS 16490 : 2016\n\nmarked indelibly and legibly at an easily accessible location:\n\n- a) Name and/or trade-mark of the manufacturer;\n- b) Rated voltage;\n- c) Size;\n- d) Type of LDBS;\n- e) Model number (if any);\n- f) Unique identification number;\n- g) Month and year of manufacture; and\n- h) Country of manufacture (if required).\n\n### 7.2 BIS Certification Marking\n\nThe product may also be marked with Standard Mark.\n\n\n7.2.1 The use of the Standard Mark is governed by the provisions of Bureau of Indian Standards Act, 1986 and the Rules and Regulations made thereunder. The details of conditions under which the license for the use of Standard Mark may be granted to manufacturers or producers may be obtained from the Bureau of Indian Standards.\n\n\n\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards : Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: TED 28 (0921).\n\nAmendments Issued Since Publication\n\n\n| Amend No. Date of Issue |  |  |  |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "16490_2016_amd1_reff2020.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 11,
+      "clause": "7",
+      "heading": "7 MARKING",
+      "heading_path": [
+        "7 MARKING"
+      ],
+      "char_start": 23721,
+      "char_end": 25969,
+      "semantic_chunk_length": 2248,
+      "final_chunk_length": 2550,
+      "standard_no": "IS 16490",
+      "year": "2016",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

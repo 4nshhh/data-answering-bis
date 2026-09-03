@@ -1,0 +1,1083 @@
+[
+  {
+    "id": "875_1_2026_0000",
+    "text": "Indian Standard\n\n\n|  | Design Loads (Other than Earthquake) for Buildings and Structures — Code of Practice Part 1 Dead Loads — Unit Weights of Building, Construction and Stored Materials ( Third Revision ) |  |\n|  | ICS 91.100; 91.080.01 |  |\n|  |  BIS 2026 |  |\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2026 Price Group 13\n\n\n\n\nStructural Safety Sectional Committee, CED 37\n\nFOREWORD\n\nThis Indian Standard (Part 1) (Third Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Structural Safety Sectional Committee had been approved by the Civil Engineering Division Council.\n\nA building has to perform many functions satisfactorily.  Amongst these functions are the utility of the building for the intended use and occupancy, structural safety, fire safety; and compliance with hygienic sanitation, ventilation and daylight standards.  The design of the building is dependent upon the minimum requirements prescribed for each of the above functions.  The minimum requirements pertaining to the structural safety of the buildings are being covered in the code by way of laying down minimum design loads which have to be assumed for dead loads, imposed loads, snow loads, and other external loads, the structure would be required to bear,   Strict conformity to loading standards recommended in this code, it is hoped, will not only ensure the structural safety of the buildings which are being designed and constructed in the country and thereby reduce the hazards to life and property caused by unsafe structure, but also eliminate the waste caused by assuming unnecessary heavy loadings.\n\nThis standard deals with dead loads to be considered in the design of buildings and structures and this is given in the form of unit weight of materials. The unit weight of other materials that are likely to be stored in a structure are also included for the purpose of determining dead loads due to stored materials.\n\nThis Indian Standard was first published in 1957 for the guidance of civil engineers, designers and architects associated with planning and design of buildings to determine loads acting on building and structures. It included the provisions for the basic design loads (dead loads, live loads, wind loads and seismic loads) to be considered in the design of buildings. In its first revision in 1964, the wind pressure provisions were modified on the basis of studies of wind phenomenon and its effect on structures, undertaken by the special committee in consultation with the Indian Meteorological Department. In addition to this, new clauses on wind loads for butterfly type structures were included; wind pressure coefficients for sheeted roofs both curved and sloping, were modified; seismic load provisions were deleted (separate code having been prepared) and metric system of weights and measurements was adopted.",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2934,
+      "semantic_chunk_length": 2933,
+      "final_chunk_length": 2933,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0001",
+    "text": "on to this, new clauses on wind loads for butterfly type structures were included; wind pressure coefficients for sheeted roofs both curved and sloping, were modified; seismic load provisions were deleted (separate code having been prepared) and metric system of weights and measurements was adopted.\n\nWith the increased adoption of the code, a number of comments were received on provisions on live load values adopted for different occupancies. Simultaneously, live load surveys have been carried out in America and Canada to arrive at realistic live loads based on actual determination of loading (movable and immovable) in different occupancies. Keeping this in view and other developments in the field of wind engineering, the Sectional Committee responsible for the preparation of the standard prepared in 1987 the second revision in the following five parts:\n\nPart 1 Dead loads\n\nPart 2 Imposed loads\n\nPart 3 Wind loads\n\nPart 4 Snow loads\n\nPart 5 Special loads and loads combinations\n\nIt was further revised in 1987, and IS 1911 : 1967 ‘Schedule of unit weights of building materials (second revision)’ was incorporated in the standard.\n\nEarthquake load are covered in separate standards, namely IS 1893 (Part 1 to 4) ‘Criteria for earthquake resistant design of structures’ which should be considered along with the above loads.\n\nSince the publication of the second revision in 1987, there have been significant improvements in material technology leading to use of a number of new and improved materials for construction of buildings and structures. In this current revision, unit weights of many common new materials have been incorporated, and data on existing materials were reviewed and revised as necessary. The revisions of the corresponding Indian standards of the building materials have\n\n(Continued on third cover)\n\n\n\n\nIndian Standard DESIGN LOADS (OTHER THAN EARTHQUAKE) FOR BUILDINGS AND STRUCTURES — CODE OF PRACTICE\n\n\nPART 1 DEAD LOADS — UNIT WEIGHTS OF BUILDING,\n\n\nCONSTRUCTION AND STORED MATERIALS\n\n\n( Third Revision )\n\n\n## 1 SCOPE\n\n\n1.1 This code (Part 1) covers unit weight of materials, and parts or components in a structure that apply to determination of dead loads in the design of structures. The unit weight of materials that are likely to be stored in a structure are also specified for the purpose of load calculations along with angles of material friction as appropriate.\n\n1.2  The unit weight of materials is given in kN. The equivalent mass in kg may be determined by multiplying the weight by 1 000 and dividing by acceleration due to gravity, 9.81 m/s2.\n\n\n\n### 1.3  In this code, the words ‘structure’ and ‘building’ interchangeably refer to buildings and all other types of structures.\n\nNOTE — Table 1 gives the unit weight of individual building materials in alphabetical order.\n\n\n## 2 REFERENCES\n\nThe standards listed in Annex A contain provisions which through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of these standards.",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2936,
+      "char_end": 5855,
+      "semantic_chunk_length": 2919,
+      "final_chunk_length": 3221,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0002",
+    "text": " text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of these standards.\n\n## 3 DEAD LOAD\n\n\n### 3.1 Assessment of Dead Load\n\nThe dead load in a building shall comprise the weight of all walls, partitions, floors and roofs, and shall include the weights of all other permanent constructions (including built-in partitions, finishes, cladding and other similarly incorporated architectural and structural items, weight of fixed service equipment) in the building.\n\n\n\n3.2  The unit weight of materials used in construction of buildings and structures are specified in Table 1. Also mentioned alongside are the corresponding Indian Standards, if applicable.\n\n\n### 3.3 Gardening and Landscaping\n\nElements on roof gardening or landscaping, including soil, plants, and drainage layers, along with other features like walkways, fences, and walls, are fixed in place and thus classified as dead loads. While the weight of walkways, fences, and walls remains constant. The weight of soil and drainage layers, which support plant growth, can vary significantly due to their ability to absorb and retain water. For load calculations, when the weight adds to other structural loads, the dead load should be based on fully saturated soil and drainage layers to account for maximum weight. If the weight is used to counteract uplift forces, calculations should assume the dry weight of soil and drainage layers. Vegetative or landscaped roof areas may retain even more water than fully saturated soil, either from rainfall or irrigation. This additional water retention should be included in the design to accurately assess load variations. In the design calculation of overturning, uplifting and sliding effects, the beneficial effects of soil shall not be considered. When the soil is used as dead weight and locked permanently, the same may be considered.",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 DEAD LOAD",
+      "heading_path": [
+        "3 DEAD LOAD"
+      ],
+      "char_start": 5858,
+      "char_end": 7626,
+      "semantic_chunk_length": 1768,
+      "final_chunk_length": 2070,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0003",
+    "text": "r retention should be included in the design to accurately assess load variations. In the design calculation of overturning, uplifting and sliding effects, the beneficial effects of soil shall not be considered. When the soil is used as dead weight and locked permanently, the same may be considered.\n\n## 4 STORED AND MISCELLANEOUS MATERIALS\n\n### 4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.\n\n\n4.2 Table 2 gives unit weight of stored materials, and the table shall not be used for volume calculations or any other similar purposes.\n\n\n\nTable 1 Unit Weight of Building Materials\n\n(Clauses 1.3 and 3.2)\n\n\n**Table 1 Unit Weight of Building Materials**\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n| 1. | Acoustical Material (see IS 2526) |  |  |  |\n|  | Eelgrass | 10 | 0.57 to 0.765 × 10-2 | m2 |\n|  | Glass fibre, min | 10 | 0.38 × 10-2 | m2 |\n|  | Hair | 10 | 1.91 × 10-2 | m2 |\n|  | Mineral wool | 10 | 1.345 × 10-2 | m2 |\n|  | Slag wool |  | 2.65 | m3 |\n|  | Cork |  | 2.35 | m3 |\n|  | Wood fibre board |  | 5.9 to 6.15 | m3 |\n|  | Wood particle board |  |  |  |\n|  | As per IS 312 |  | 3.92 | m3 |\n|  | As per IS 1282 |  | 4.9 to 9.9 | m3 |\n|  | As per IS 3478 |  | 8.9 to 11.8 | m3 |\n|  | Compressed wood wool | – | 3.95 to 4.45 | m3 |\n|  | Mineral/glass wool quilts and mats | – | 0.157 to 0.314 | m3 |\n|  | Mineral compressed glass wool tiles | – | 1.87 to 2.06 | m3 |\n|  | Polyester board | – | 1.87 to 2.06 | m3 |\n| 2. | Aggregate, Coarse |  |  |  |\n|  | Broken stone ballast |  |  |  |\n|  | Dry, well-shaken | – | 15.70 to 18.35 | m3 |\n|  | Perfectly wet | – | 18.85 to 21.95 | m3 |\n|  | Shingles, 3 mm to 38 mm | – | 14.35 | m3 |\n|  | Broken bricks: |  |  |  |\n|  | Fine | – | 14.20 | m3 |\n|  | Coarse | – | 9.90 | m3 |\n|  | Foam slag (foundry pumice) | – | 6.85 | m3 |\n|  | Cinder | – | 7.85 | m3 |\n|  | Slag |  |  |  |\n|  | Iron slag |  | 32.4 | m3 |\n|  | Steel Slag |  | 31 to 36 | m3 |\n|  | Copper slag |  | 31 to 36 | m3 |\n|  | River pebbles |  | 15 | m3 |\n| 3. | Aggregate, Fine |  |  |  |\n|  | Sand |  |  |  |\n|  | Dry, clean | – | 15.10 to 15.70 | m3 |\n|  | River | – | 18.05 | m3 |\n|  | Wet | – | 17.25 to 19.60 | m3 |\n|  | Brick dust (surkhi) | – | 9.90 | m3 |\n|  | Crushed stone sand (see IS 383) |  | 19 to 20 | m3 |\n|  | Quarry dust |  | 14 to 20 | m3 |\n| 4. | Aggregate, Organic |  |  |  |\n|  | Saw dust, loose | – | 1.55 | m3 |\n|  | Peat |  |  |  |\n|  | Dry | – | 5.50 to 6.30 | m3 |\n|  | Sandy, compact | – | 7.85 | m3 |\n|  | Wet, compact | – | 13.35 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 7629,
+      "char_end": 10013,
+      "semantic_chunk_length": 2384,
+      "final_chunk_length": 2685,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0004",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  | mm | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n| 5. | Asbestos |  |  |  |\n|  | Felt | 10 | 0.145 | m2 |\n|  | Fibres: |  |  |  |\n|  | Pressed | – | 9.40 | m3 |\n|  | Sprayed | 10 | 0.02 | m2 |\n|  | Natural | – | 29.80 | m3 |\n|  | Raw | – | 5.90 to 8.85 | m2 |\n| 6. | Asbestos Cement Building Pipes (see Sl No. 44 ‘pipes’ in this Table) |  |  |  |\n| 7. | Asbestos Cement Gutters [see IS 1626 (Part 2)] |  |  |  |\n|  | Boundary wall gutters 510 mm × 150 mm × 255 mm 455 mm × 150 mm × 305 mm 305 mm × 150 mm × 225 mm 280 mm × 125 mm × 180 mm | 12.5 12.5 12.5 12.5 | 0.180 0.158 0.129 0.106 | m m m m |\n|  | Valley gutters 915 mm × 205 mm × 230 mm 610 mm × 150 mm × 230 mm 455 mm × 125 mm × 150 mm 405 mm × 125 mm × 255 mm | 12.5 12.5 12.5 12.5 | 0.250 0.162 0.146 0.131 | m m m m |\n|  | Half round gutters 150 mm 230 mm 305 mm | 9.5 9.5 9.5 | 0.043 0.073 0.088 | m m m |\n| 8. | Asbestos Cement Pressure Pipes (see Sl No 44 ‘Pipes’ in this Table) |  |  |  |\n| 9. | Asbestos Cement Sheeting (see IS 459) |  |  |  |\n|  | Corrugated (pitch – 146 mm) | 6 | 0.118 to 0.130 | m2 |\n|  | Semi-corrugated (pitch 388 mm) | 6 | 0.118 to 0.127 | m2 |\n|  | Plain | 5 | 0.09 | m2 |\n| 10. | Bitumen | – | 0.8-1 | m3 |\n| 11 | Binders |  |  |  |\n|  | Fly ash loose |  | 5.05 to 7.05 | m3 |\n|  | Fly ash compacted |  | 16.00 | m3 |\n|  | Ground granulated blast furnace slag |  | 14.9 | m3 |\n|  | Silica fume |  | 3.5 to 7 | m3 |\n|  | Rice husk ash |  | 1.0 to 3.5 | m3 |\n|  | Metakaolin |  | 8 to 10 | m3 |\n| 12 | Blocks |  |  |  |\n|  | Lime-based solid blocks (see IS 3115), min | – | 9.8 | m3 |\n|  | Concrete blocks [ see IS 2185 (Part 1)] |  |  |  |\n|  | Grade A (hollow) | – | 15 | m3 |\n|  | Grade B (hollow) | – | 11 to 15 | m3 |\n|  | Grade C (Solid) | – | 18 | m3 |\n|  | Autoclaved cellular concrete blocks [ see IS 2185 (Part 3)] |  | 4.42 to 9.81 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 10020,
+      "char_end": 11961,
+      "semantic_chunk_length": 1941,
+      "final_chunk_length": 1941,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0005",
+    "text": "(see IS 3115), min | – | 9.8 | m3 |\n|  | Concrete blocks [ see IS 2185 (Part 1)] |  |  |  |\n|  | Grade A (hollow) | – | 15 | m3 |\n|  | Grade B (hollow) | – | 11 to 15 | m3 |\n|  | Grade C (Solid) | – | 18 | m3 |\n|  | Autoclaved cellular concrete blocks [ see IS 2185 (Part 3)] |  | 4.42 to 9.81 | m3 |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| 13.( 1) | Boards (2) | (3) | (4) | (5) |\n|  | Cork boards [ see IS 4253 (Part 1 and Part 2)] |  |  |  |\n|  | Compressed |  | 2.16 to 3.73 | m3 |\n|  | Ordinary |  | 2.15 to 3.72 | m3 |\n|  | Fibre building boards see IS 1658) |  |  |  |\n|  | Medium hardboard | 6, 8, 10, 12 | 3.43 to 7.84 | m3 |\n|  | Standard hardboard | 2,3,4,5,6,7 | 7.84 to 10.05 | m3 |\n|  | Tempered hardboard | 2.5, 3, 4, 5, 6 | 7.84 to 10.05 | m2 |\n|  | Fibre cement boards (see IS 14862) |  | 13 to 16 | m3 |\n|  | Fibre insulation board, ordinary or flame-retardant type bitumen-bounded fibre insulation board (see IS 3348), Max | 9, 12, 18, 25 | 3.924 | M3 |\n|  | Plain gypsum plaster boards [see IS 2095 (Part 1)] |  |  |  |\n|  | Type A | 9.5, 12.5, 15 | 5.39 | m3 |\n|  | Type H1 and H2 | 9.5, 12.5, 15 | 5.88 | m3 |\n|  | Type D | 9.5, 12.5, 15 | 7.84 | m3 |\n|  | Type F and FH | 9.5, 12.5, 15 | 7.84 | m3 |\n|  | Type R1 | 9.5, 12.5, 15 | 8.33 | m3 |\n|  | Type R2 | 9.5, 12.5, 15 | 9.31 | m3 |\n|  | Type W | 9.5, 12.5, 15 | 8.33 | m3 |\n|  | Coated/laminated gypsum plaster boards [see IS 2095 (Part 2)] | 9.5, 12.5, 15 | 11.27 | M3 |\n|  | Reinforced gypsum plaster boards and ceiling tiles [see IS 2095 (Part 3)], min |  |  |  |\n|  | Fibre reinforced Gypsum |  | 7.84 | m3 |\n|  | Glass reinforced Gypsum plaster board |  | 24.52 | m3 |\n|  | Glass reinforced Gypsum plaster tiles |  | 5.88 | m3 |\n|  | Insulating board (fibre) (see IS 3348), mean |  | 0.981 | m3 |\n|  | Laminated board (fibre) Medium density (see IS 14587) |  | 5.88 to 8.82 | m3 |\n|  | Wood particle boards (see IS 3087) | – | 4.90 to 8.85 | m3 |\n|  | Low density wood particles boards for insulation purposes (see IS 3129) | – | 3.52 | m3 |\n|  | High density wood particle boards (see IS 3478) |  |  |  |\n|  | Type 1 & 2, Grade A | – | 11.30 | m3 |\n|  | Type 1 & 2, Grade B | – | 7.94 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 11968,
+      "char_end": 13923,
+      "semantic_chunk_length": 1955,
+      "final_chunk_length": 2257,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0006",
+    "text": "article boards (see IS 3087) | – | 4.90 to 8.85 | m3 |\n|  | Low density wood particles boards for insulation purposes (see IS 3129) | – | 3.52 | m3 |\n|  | High density wood particle boards (see IS 3478) |  |  |  |\n|  | Type 1 & 2, Grade A | – | 11.30 | m3 |\n|  | Type 1 & 2, Grade B | – | 7.94 | m3 |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n| 14. | Bricks |  |  |  |\n|  | Common burnt clay bricks (see IS 1077) | – | 15.70 to 18.85 | m3 |\n|  | Engineering bricks | – | 21.20 | m3 |\n|  | Heavy duty bricks (see IS 2180) | – | 24.50 | m3 |\n|  | Pressed bricks | – | 17.25 to 18.05 | m3 |\n|  | Refractory bricks | – | 17.25 to 19.60 | m3 |\n|  | Sand cement bricks | – | 18.05 | m3 |\n|  | Sand lime bricks | – | 20.40 | m3 |\n|  | Pulverized fuel-ash lime bricks (see IS 12894) |  | 12 to 15 | m3 |\n|  | Pulverized fuel-ash cement bricks (see IS 16720) |  | 10.8 to 19.6 | m3 |\n|  | Acid resistance bricks (see IS 4860) |  | 22.5 to 24.83 | m3 |\n|  | Soil based bricks (see IS 1725) |  | 17.5 | m3 |\n|  | Perforated building bricks (see IS 2222) |  | 6.8 to 7.75 | m3 |\n|  | Calcium silicate bricks (see IS 4139) |  | 25 to 29 | m3 |\n| 15. | Brick Chips and Broken Bricks (see under Sl No. 2 ‘Broken Bricks’ in this Table) |  |  |  |\n| 16. | Brick dust (surkhi) | – | 9.00 | m3 |\n| 17. | Cast Iron, Manhole Covers (see IS 1726) |  |  |  |\n|  | Double triangular (HD) | 500 | 1.16 | Cover |\n|  |  | 560 | 1.37 | Cover |\n|  | Circular (HD) | 500 | 1.16 | Cover |\n|  |  | 560 | 1.37 | Cover |\n|  | Circular (MD) | 500 | 0.57 | Cover |\n|  |  | 560 | 0.63 | Cover |\n|  | Rectangular (MD) | – | 0.78 | Cover |\n|  | Rectangular (LD) : |  |  |  |\n|  | Single seal (Pattern 1) | – | 0.23 | Cover |\n|  | Single seal (Pattern 2) | – | 0.15 | Cover |\n|  | Double seal | – | 0.28 | Cover |\n|  | Square (LD): |  |  |  |\n|  | Single seal | 455 | 0.13 | Cover |\n|  |  | 610 | 0.25 | Cover |\n|  | Double seal | 455 | 0.23 | Cover |\n|  |  | 610 | 0.36 | Cover |\n| 18. | Cast Iron, Manhole Frames (see IS 1726) |  |  |  |\n|  | Double triangular (HD) | 500 | 1.09 | Frame |\n|  |  | 560 | 1.13 | Frame |\n|  | Circular (HD) | 500 | 0.83 | Frame |\n|  |  | 560 | 1.06 | Frame |\n|  | Circular (MD) | 500 | 0.57 | Frame |\n|  |  | 560 | 0.63 | Frame |\n|  | Rectangular (MD) | – | 0.63 | Frame |\n|  | Rectangular (LD): |  |  |  |\n|  | Single seal (Pattern 1) | – | 0.15 | Frame |\n|  | Single seal (Pattern 2) | – | 0.10 | Frame |\n|  | Double seal | – | 0.23 | Frame |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 13930,
+      "char_end": 16175,
+      "semantic_chunk_length": 2245,
+      "final_chunk_length": 2547,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0007",
+    "text": "1.06 | Frame |\n|  | Circular (MD) | 500 | 0.57 | Frame |\n|  |  | 560 | 0.63 | Frame |\n|  | Rectangular (MD) | – | 0.63 | Frame |\n|  | Rectangular (LD): |  |  |  |\n|  | Single seal (Pattern 1) | – | 0.15 | Frame |\n|  | Single seal (Pattern 2) | – | 0.10 | Frame |\n|  | Double seal | – | 0.23 | Frame |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Square (LD): |  |  |  |\n|  | Single seal | 455 | 0.07 | Frame |\n|  |  | 610 | 0.13 | Frame |\n|  | Double seal | 455 | 0.15 | Frame |\n|  |  | 610 | 0.18 | Frame |\n| 19. | Cast Iron Pipes (see under Sl No. 44 ‘Pipes’ in this Table) |  |  |  |\n| 20. | Cement |  |  |  |\n|  | Ordinary (see IS 269) and aluminous (see 6452) | – | 14.10 | m3 |\n|  | Rapid-hardening (see IS 8041) | – | 12.55 | m3 |\n| 21. | Ceilings |  |  |  |\n|  | Plaster on tile or concrete | 13 mm thick | 0.25 | m2 |\n|  | Plaster on wood lath | 25 mm thick | 0.39 | m2 |\n|  | Suspended metal lath and cement plaster | 25 mm thick | 0.74 | m2 |\n|  | Suspended metal lath and gypsum plaster | 25 mm thick | 0.49 | m2 |\n| 22. | Cement Concrete, Plain |  |  |  |\n|  | Aerated |  | 7.45 | m3 |\n|  | No-fines, with heavy aggregate | – | 15.70 to 18.80 | m3 |\n|  | No-fines, with light aggregate | – | 8.65 to 12.55 | m3 |\n|  | With burnt clay aggregate | – | 17.25 to 21.20 | m3 |\n|  | With expanded clay aggregate | – | 9.40 to 16.50 | m3 |\n|  | With clinker aggregate | – | 12.55 to 17.25 | m3 |\n|  | With pumice aggregate | – | 5.50 to 11.00 | m3 |\n|  | With sand and gravel or crushed natural stone aggregate | – | 22.00 to 23.50 | m3 |\n|  | With saw dust | – | 6.30 to 16.50 | m3 |\n|  | With foamed slag aggregate | – | 9.40 to 18.05 | m3 |\n|  | With light weight cinder aggregate |  | 6.4 | m3 |\n|  | Light weight concrete |  | 8 to 20 | m3 |\n|  | Cellular concrete (Foam concrete) (see IS 6598) |  | 3 to 5 | m3 |\n|  | Grade A, max |  | 3.13 | m3 |\n|  | Grade B |  | 3.13 to 3.92 | m3 |\n|  | Grade C |  | 3.93 to 4.9 | m3 |\n|  | Transparent concrete |  | 15 | m3 |\n|  | Glass fiber reinforced concrete |  | 18 to 22 | m3 |\n|  | Alkali activated (Geopolymer) concrete (see IS 17452) |  | 24 to 25 | m3 |\n|  | Shotcrete (see IS 9012) |  | 22 to 25 | m3 |\n|  | Ferro cement |  | 22 to 25 | m3 |\n|  | Roller compacted concrete |  | 22 to 25 | m3 |\n|  | Controlled low strength mix |  | 22 to 25 | m3 |\n|  | Plum concrete (see IS 457) |  | 22 to 25 | m3 |\n|  | Autoclaved aerated concrete |  | 4.42 to 9.81 | m3 |\n|  | Vermiculite concrete |  | 6 to 9 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 16182,
+      "char_end": 18457,
+      "semantic_chunk_length": 2275,
+      "final_chunk_length": 2577,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0008",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n| 23. | Cement Concrete, Prestressed (conforming to IS 1343) | – | 23.50 | m3 |\n| 24. | Cement Concrete, Reinforced: |  |  |  |\n|  | With 1 percent steel | – | 22.75 to 24.20 | m3 |\n|  | With 2 percent steel | – | 23.25 to 24.80 | m3 |\n|  | With 5 percent steel | – | 24.80 to 26.50 | m3 |\n| 25. | Damp-proofing (see Sl No. 28 ‘Felt, bituminous, for waterproofing and damp proofing’ in this Table) |  |  |  |\n| 26 | Earth filling (see Sl No. 49 ‘Soils and gravels in this Table) |  |  |  |\n| 27. | Expanded Metal (conforming to IS 412) |  |  |  |\n|  | Size of Mesh, Nominal |  |  |  |\n|  | SWM | LWM |  |  |\n|  | mm | mm |  |  |\n|  | 100 | 250 | 0.030 | m2 |\n|  | 100 | 250 | 0.024 | m2 |\n|  | 100 | 250 | 0.016 | m2 |\n|  | 75 | 200 | 0.042 | m2 |\n|  | 75 | 200 | 0.032 | m2 |\n|  | 75 | 200 | 0.021 | m2 |\n|  | 40 | 115 | 0.080 | m2 |\n|  | 40 | 115 | 0.060 | m2 |\n|  | 40 | 75 | 0.060 | m2 |\n|  | 40 | 75 | 0.028 | m2 |\n|  | 40 | 115 | 0.039 | m2 |\n|  | 40 | 75 | 0.039 | m2 |\n|  | 40 | 115 | 0.020 | m2 |\n|  | 40 | 75 | 0.020 | m2 |\n|  | 25 | 75 | 0.054 | m2 |\n|  | 25 | 75 | 0.038 | m2 |\n|  | 25 | 75 | 0.028 | m2 |\n|  | 25 | 75 | 0.021 | m2 |\n|  | 20 | 60 | 0.070 | m2 |\n|  | 20 | 50 | 0.070 | m2 |\n|  | 20 | 60 | 0.050 | m2 |\n|  | 20 | 50 | 0.050 | m2 |\n|  | 20 | 60 | 0.036 | m2 |\n|  | 20 | 50 | 0.036 | m2 |\n|  | 20 | 50 | 0.021 | m2 |\n|  | 20 | 60 | 0.021 | m2 |\n|  | 12.5 | 50 | 0.050 | m2 |\n|  | 12.5 | 50 | 0.050 | m2 |\n|  | 12.5 | 40 | 0.040 | m2 |\n|  | 12.5 | 50 | 0.030 | m2 |\n|  | 12.5 | 40 | 0.030 | m2 |\n|  | 12.5 | 50 | 0.025 | m2 |\n|  | 12.5 | 40 | 0.025 | m2 |\n|  | 10 | 40 | 0.050 | m2 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 18464,
+      "char_end": 20223,
+      "semantic_chunk_length": 1759,
+      "final_chunk_length": 1759,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0009",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | 10 | 40 | 0.035 | m2 |\n|  | 10 | 40 | 0.028 | m2 |\n|  | 95 | 285 | 0.050 | m2 |\n|  | 95 | 285 | 0.028 | m2 |\n|  | 95 | 285 | 0.020 | m2 |\n|  | 6 | 25 | 0.074 | m2 |\n|  | 6 | 25 | 0.048 | m2 |\n|  | 6 | 25 | 0.038 | m2 |\n|  | 5 | 20 | 0.050 | m2 |\n|  | 3 | 15 | 0.041 | m2 |\n| 28. | Felt, Bituminous for Waterproof and Damp-proofing (see IS 1322) |  |  |  |\n|  | Fibre base |  |  |  |\n|  | Type 1 (under lay) | – | 7.6 × 10-3 | m2 |\n|  | Type 2 (self-finished felt) | - | 2.6 × 10-2 | m2 |\n|  | Hessian base |  |  |  |\n|  | Type 3 (self-finished felt) |  |  |  |\n|  | Grade 1 | – | 2.26 × 10-2 | m2 |\n|  | Grade 2 | – | 3.64 × 10-2 | m2 |\n| 29. | Finishing (see ‘Floor finishes’ given under Sl No. 31 ‘Flooring’ and 46 ‘Roofing’ in this Table) |  |  |  |\n|  | Plaster: |  |  |  |\n|  | Acoustic | 10 | 0.08 | m2 |\n|  | Anhydrite | 10 | 0.21 | m2 |\n|  | Barium Sulphate | 10 | 0.28 | m2 |\n|  | Fibrous | 10 | 0.09 | m2 |\n|  | Gypsum or lime | 10 | 0.19 | m2 |\n|  | Hydraulic lime or cement | 10 | 0.23 | m2 |\n|  | Plaster ceiling on wire netting | 10 | 0.26 | m2 |\n|  | NOTE — When wood or metal lathing is used, add | – | 0.06 |  |\n| 30. | Float Glass (see IS 2835) and Safety Glass [see IS 2553 (Part 1)] |  |  |  |\n|  | Sheet | 2 | 0.049 | m2 |\n|  |  | 2.5 | 0.062 | m2 |\n|  |  | 3 | 0.074 | m2 |\n|  |  | 4 | 0.098 | m2 |\n|  |  | 5 | 0.123 | m2 |\n|  |  | 5.5 | 0.134 | m2 |\n|  |  | 6.5 | 0.167 | m2 |\n|  |  | 8 | 0.200 | m2 |\n|  |  | 10 | 0.250 | m2 |\n|  |  | 12 | 0.300 | m2 |\n|  |  | 15 | 0.375 | m2 |\n|  |  | 19 | 0.475 | m2 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 20230,
+      "char_end": 21915,
+      "semantic_chunk_length": 1685,
+      "final_chunk_length": 1685,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0010",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n| 31. | Flooring |  |  |  |\n|  | Asphalt flooring | 10 | 0.22 | m2 |\n|  | NOTE — For macadam finish, add | 10 | 0.26 | m2 |\n|  | Compressed cork | 10 | 0.04 | m2 |\n|  | Floors, structural: |  |  |  |\n|  | Hollow clay blocks including reinforcement and mortar jointing between blocks, but excluding any concrete topping | 100 | 1.47 | m2 |\n|  |  | 125 | 1.67 | m2 |\n|  |  | 150 | 1.86 | m2 |\n|  |  | 175 | 2.16 | m2 |\n|  |  | 200 | 2.55 | m2 |\n|  | NOTE — Add extra for concrete topping |  |  |  |\n|  | Hollow clay blocks including reinforcement and concrete ribs between blocks, but excluding any concrete topping | 100 | 1.18 | m2 |\n|  |  | 115 | 1.27 | m2 |\n|  |  | 125 | 1.37 | m2 |\n|  |  | 140 | 1.47 | m2 |\n|  |  | 150 | 1.57 | m2 |\n|  |  | 175 | 1.76 | m2 |\n|  |  | 200 | 1.96 | m2 |\n|  | NOTE — Add extra for concrete typing |  |  |  |\n|  | Hollow concrete units including any concrete topping necessary for constructional purposes | 100 | 1.67 | m2 |\n|  |  | 125 | 1.96 | m2 |\n|  |  | 150 | 2.16 | m2 |\n|  |  | 175 | 2.35 | m2 |\n|  |  | 200 | 2.65 | m2 |\n|  |  | 230 | 3.14 | m2 |\n|  | Floors, wood: |  |  |  |\n|  | Hard wood | 22 | 0.16 | m2 |\n|  |  | 28 | 0.20 | m2 |\n|  | Soft wood | 22 | 0.11 | m2 |\n|  |  | 28 | 0.13 | m2 |\n|  | Weight of mastic used in laying wood block flooring | – | 0.015 | m2 |\n|  | NOTE — All thicknesses are ‘finished thicknesses’. |  |  |  |\n|  | Floor finishes: |  |  |  |\n|  | Clay floor tiles (see IS 1478) | 12.5 to 25.4 | 0.10 to 0.2 | m2 |\n|  | NOTE — This weight is ‘as laid’ but excludes screeding. |  |  |  |\n|  | Magnesium oxychloride: |  |  |  |\n|  | Normal type (saw dust filler) | 10 | 0.142 | m2 |\n|  | Heavy duty type (mineral filler) | 10 | 0.216 | m2 |\n|  | Parquet flooring | – | 0.08 to 0.12 | m2 |\n|  | Rubber (see IS 809) | 3.2 | 0.048 to 0.062 | m2 |\n|  |  | 4.8 | 0.070 to 0.09 | m2 |\n|  |  | 6.4 | 0.093 to 0.130 | m2 |\n|  | Terra cotta, filled ‘as laid’ | – | 5.54 to 7.06 | m2 |\n|  | Terrazzo paving ‘as laid’ | 10 | 0.23 | m2 |\n| 32. | Foam Slag, Foundry Pumice | – | 6.85 | m3 |\n| 33. | Gutters, Asbestos Cement (see under 7 ‘Asbestos cement gutter’ in this Table) |  |  |  |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 21922,
+      "char_end": 24215,
+      "semantic_chunk_length": 2293,
+      "final_chunk_length": 2293,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0011",
+    "text": "m2 |\n|  |  | 6.4 | 0.093 to 0.130 | m2 |\n|  | Terra cotta, filled ‘as laid’ | – | 5.54 to 7.06 | m2 |\n|  | Terrazzo paving ‘as laid’ | 10 | 0.23 | m2 |\n| 32. | Foam Slag, Foundry Pumice | – | 6.85 | m3 |\n| 33. | Gutters, Asbestos Cement (see under 7 ‘Asbestos cement gutter’ in this Table) |  |  |  |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n| 34. | Gypsum |  |  |  |\n|  | Gypsum mortar [see IS 2547 (Part 1 and Part 2)] | – | 18.6 | m3 |\n|  | Gypsum powder (see IS 12679) | – | 13.89 to 17.25 | m3 |\n| 35. | Iron |  |  |  |\n|  | Pig | – | 70.60 | m3 |\n|  | Gray, cast | – | 68.95 to 69.90 | m3 |\n|  | White, cast | – | 74.30 to 75.70 | m3 |\n|  | Wrought | – | 75.70 | m3 |\n| 36. | Lime |  |  |  |\n|  | Lime concrete with burn clay Aggregate (see IS 2541) | – | 18.80 | m3 |\n|  | Lime mortar | – | 15.70 to 18.05 | m3 |\n|  | Lime plaster (see IS 2394) | – | 17.25 | m3 |\n|  | Lime stored in lumps, uncalcined | – | 12.55 to 14.10 | m3 |\n|  | Lime, unslaked, freshly burnt in pieces | – | 8.60 to 10.20 | m3 |\n|  | Lime slaked, fresh | – | 5.70 to 6.30 | m3 |\n|  | Lime slaked, after 10 days | – | 7.85 | m3 |\n|  | Lime, unslaked (kankar) | – | 11.55 | m3 |\n|  | Lime, slaked (kankar) | – | 10.00 | m3 |\n| 37. | Linoleum (see IS 653) |  |  |  |\n|  | Sheets and tiles | 4.5 | 0.0569 | m2 |\n|  |  | 3.2 | 0.0402 | m2 |\n|  |  | 2.0 | 0.0265 | m2 |\n|  |  | 1.65 | 0.0215 | m2 |\n| 38. | Masonry |  |  |  |\n|  | Brick Masonry (excluding plaster) |  |  |  |\n|  | With common burnt clay bricks (see IS 1077) | – | 19.25 | m3 |\n|  | Engineering bricks | – | 21.2 | m3 |\n|  | Glazed bricks | – | 20.40 | m3 |\n|  | Pressed bricks | – | 18.65 | m3 |\n|  | Block Masonry |  |  |  |\n|  | With lime based solid blocks |  | 13.55 | m3 |\n|  | Hollow concrete blocks |  |  |  |\n|  | Grade A |  | 15.4 | m3 |\n|  | Grade B |  | 12.00 | m3 |\n|  | Solid Concrete Blocks |  | 18.15 | m3 |\n|  | Autoclaved cellular concrete blocks |  | 9.1 to 11.1 | m3 |\n| 39. | Masonry, Stone |  |  |  |\n|  | Cast | – | 21.75 | m3 |\n|  | Dry rubble | – | 20.40 | m3 |\n|  | Granite ashlar | – | 25.00 | m3 |\n|  | Granite rubble | – | 23.55 | m3 |\n|  | Lime stone ashlar | – | 25.10 | m3 |\n|  | Marble dressed | – | 26.50 | m3 |\n|  | Sand stone | – | 22.00 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 24222,
+      "char_end": 26252,
+      "semantic_chunk_length": 2030,
+      "final_chunk_length": 2332,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0012",
+    "text": "1 | m3 |\n| 39. | Masonry, Stone |  |  |  |\n|  | Cast | – | 21.75 | m3 |\n|  | Dry rubble | – | 20.40 | m3 |\n|  | Granite ashlar | – | 25.00 | m3 |\n|  | Granite rubble | – | 23.55 | m3 |\n|  | Lime stone ashlar | – | 25.10 | m3 |\n|  | Marble dressed | – | 26.50 | m3 |\n|  | Sand stone | – | 22.00 | m3 |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n| 40. | Mastic Asphalt | 10 | 0.216 | m2 |\n| 41. | Metal Sheeting, Protected Galvanized Steel Sheets, Plain (see IS 277) |  |  |  |\n|  | Class A (corrugated) | 1.60 | 0.131 | m2 |\n|  |  | 1.00 | 0.104 | m2 |\n|  |  | 0.9 | 0.084 | m2 |\n|  |  | 0.80 | 0.069 | m2 |\n|  |  | 0.63 | 0.056 | m2 |\n|  | Class B (corrugated) | 1.60 | 0.129 | m2 |\n|  |  | 1.00 | 0.102 | m2 |\n|  |  | 0.9 | 0.083 | m2 |\n|  |  | 0.80 | 0.067 | m2 |\n|  |  | 0.63 | 0.054 | m2 |\n|  | Class C (corrugated) | 1.60 | 0.128 | m2 |\n|  |  | 1.00 | 0.101 | m2 |\n|  |  | 0.9 | 0.081 | m2 |\n|  |  | 0.80 | 0.066 | m2 |\n|  |  | 0.63 | 0.053 | m2 |\n|  | Class D (corrugated) | 1.60 | 0.127 | m2 |\n|  |  | 1.00 | 0.100 | m2 |\n|  |  | 0.9 | 0.081 | m2 |\n|  |  | 0.80 | 0.065 | m2 |\n|  |  | 0.63 | 0.052 | m2 |\n| 42. | Mortar |  |  |  |\n|  | Cement | – | 20.40 | m3 |\n|  | Gypsum | – | 11.75 | m3 |\n|  | Lime | – | 15.70 to18.05 | m3 |\n| 43. | Pipes |  |  |  |\n|  | Asbestos cement pipes [see IS 1626 (Part 1)] | 50 | 0.032 to 0.034 | m |\n|  |  | 60 | 0.032 to 0.043 | m |\n|  |  | 80 | 0.051 to 0.054 | m |\n|  |  | 90 | 0.052 to 0.060 | m |\n|  |  | 100 | 0.058 to 0.065 | m |\n|  |  | 125 | 0.072 to 0.086 | m |\n|  |  | 150 | 0.086 to 0.108 | m |\n|  | Asbestos cement pressure pipes [(see IS 1592) | 50 | 0.056 | m |\n|  |  | 80 | 0.067 | m |\n|  |  | 100 | 0.090 | m |\n|  |  | 125 | 0.139 | m |\n|  |  | 150 | 0.175 | m |\n|  |  | 200 | 0.264 | m |\n|  |  | 250 | 0.380 | m |\n|  |  | 300 | 0.539 | m |\n|  | Cast iron pipes (see IS 1729 |  |  | m3 |\n|  | Standard overall length 1.8 m with socket | 50 | 0.073 | pipe |\n|  |  | 75 | 0.108 | Pipe |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 26259,
+      "char_end": 28008,
+      "semantic_chunk_length": 1749,
+      "final_chunk_length": 2051,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0013",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  |  | 100 | 0.137 | pipe |\n|  |  | 125 | 0.196 | pipe |\n|  |  | 150 | 0.255 | pipe |\n|  | Standard overall length 1.5 m with socket | 50 | 0.064 | pipe |\n|  |  | 75 | 0.093 | pipe |\n|  |  | 100 | 0.123 | pipe |\n|  |  | 125 | 0.172 | pipe |\n|  |  | 150 | 0.230 | Pipe |\n|  | Pressure pipes for water, gas and sewage: |  |  |  |\n|  | a) Centrifugally cast (see IS 1536) |  |  |  |\n|  | Socket and spigot pipes |  |  |  |\n|  | Barrel: |  |  |  |\n|  | Class LA | 80 | 0.145 | m |\n|  |  | 100 | 0.182 | m |\n|  |  | 125 | 0.237 | m |\n|  |  | 150 | 0.297 | m |\n|  |  | 200 | 0.432 | m |\n|  |  | 250 | 0.582 | m |\n|  |  | 300 | 0.750 | m |\n|  |  | 350 | 0.944 | m |\n|  |  | 400 | 1.146 | m |\n|  |  | 450 | 1.383 | m |\n|  |  | 500 | 1.620 | m |\n|  |  | 600 | 2.156 | m |\n|  |  | 700 | 2.718 | m |\n|  |  | 750 | 3.111 | m |\n|  | Class A | 80 | 0.151 | m |\n|  |  | 100 | 0.201 | m |\n|  |  | 125 | 0.259 | m |\n|  |  | 150 | 0.326 | m |\n|  |  | 200 | 0.472 | m |\n|  |  | 250 | 0.637 | m |\n|  |  | 300 | 0.824 | m |\n|  |  | 350 | 1.030 | m |\n|  |  | 400 | 1.262 | m |\n|  |  | 450 | 1.530 | m |\n|  |  | 500 | 1.775 | m |\n|  |  | 600 | 2.367 | m |\n|  |  | 700 | 3.056 | m |\n|  |  | 750 | 3.422 | m |\n|  | Class B | 80 | 0.172 | m |\n|  |  | 100 | 0.216 | m |\n|  |  | 125 | 0.281 | m |\n|  |  | 150 | 0.352 | m |\n|  |  | 200 | 0.511 | m |\n|  |  | 250 | 0.692 | m |\n|  |  | 300 | 0.896 | m |\n|  |  | 350 | 1.112 | m |\n|  |  | 400 | 1.368 | m |\n|  |  | 450 | 1.657 | M |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 28015,
+      "char_end": 29618,
+      "semantic_chunk_length": 1603,
+      "final_chunk_length": 1603,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0014",
+    "text": "56 | m |\n|  |  | 750 | 3.422 | m |\n|  | Class B | 80 | 0.172 | m |\n|  |  | 100 | 0.216 | m |\n|  |  | 125 | 0.281 | m |\n|  |  | 150 | 0.352 | m |\n|  |  | 200 | 0.511 | m |\n|  |  | 250 | 0.692 | m |\n|  |  | 300 | 0.896 | m |\n|  |  | 350 | 1.112 | m |\n|  |  | 400 | 1.368 | m |\n|  |  | 450 | 1.657 | M |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  |  | 500 | 1.929 | m |\n|  |  | 600 | 2.578 | m |\n|  |  | 700 | 3.317 | m |\n|  |  | 750 | 3.733 | m |\n|  | Sockets for Class LA, Class A and Class B barrels | 80 | 0.054 | Socket |\n|  |  | 100 | 0.069 | Socket |\n|  |  | 125 | 0.090 | Socket |\n|  |  | 150 | 0.113 | Socket |\n|  |  | 200 | 0.165 | Socket |\n|  |  | 250 | 0.225 | Socket |\n|  |  | 300 | 0.292 | Socket |\n|  |  | 350 | 0.368 | Socket |\n|  |  | 400 | 0.454 | Socket |\n|  |  | 450 | 0.549 | Socket |\n|  |  | 500 | 0.647 | Socket |\n|  |  | 600 | 0.876 | Socket |\n|  |  | 700 | 1.145 | Socket |\n|  |  | 750 | 1.292 | Socket |\n|  | Flanged pipe with screwed flanges: |  |  |  |\n|  | Barrel: |  |  |  |\n|  | Class A | 80 to 300 | Same as for centrifugally cast socket and spigot piles, Class A |  |\n|  | Class B | 80 to 300 | Same as for centrifugally cast socket and spigot piles, Class B |  |\n|  | Flanges for Class A and Class B barrels | 80 | 0.042 | Flange |\n|  |  | 100 | 0.049 | Flange |\n|  |  | 125 | 0.065 | Flange |\n|  |  | 150 | 0.080 | Flange |\n|  |  | 200 | 0.112 | Flange |\n|  |  | 250 | 0.144 | Flange |\n|  |  | 300 | 0.182 | Flange |\n|  | Vertically cast socket and spigot pipes (see IS 1537) |  |  |  |\n|  | Barrel: Class A | 80 to 750 | Same as for centrifugally cast socket and spigot pipes, Class A |  |\n|  |  | 800 | 3.82 | m |\n|  |  | 900 | 4.65 | m |\n|  |  | 1 000 | 5.59 | m |\n|  |  | 1 100 | 6.59 | m |\n|  |  | 1 200 | 7.67 | m |\n|  |  | 1 500 | 11.98 | m |\n|  | Class B | 80 to 750 | – | – |\n|  |  | 800 | – | m |\n|  |  | 900 | 5.07 | m |\n|  |  | 1 000 | 6.07 | m |\n|  |  | 1 100 | 7.23 | m |\n|  |  | 1 200 | 8.35 | m |\n|  |  | 1 500 | 13.07 | m |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 29625,
+      "char_end": 31408,
+      "semantic_chunk_length": 1783,
+      "final_chunk_length": 2085,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0015",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Socket of Class A and Class B barrels | 80 to 750 | – | – |\n|  |  | 800 | – | Socket |\n|  |  | 900 | 179 | Socket |\n|  |  | 1 000 | 218 | Socket |\n|  |  | 1 100 | 260 | Socket |\n|  |  | 1 200 | 360 | Socket |\n|  |  | 1 500 | 491 | Socket |\n|  | Sand cast (flanked pipes) |  |  |  |\n|  | Barrel: |  |  |  |\n|  | Class A | 80 to 750 | Same as for centrifugally cast socket and spigot pipes, Class A |  |\n|  |  | 800 to 1 500 | – |  |\n|  | Class B | 80 to 750 | Same as for vertically cast socket and spigot pipes, Class B |  |\n|  |  | 800 to 1 500 |  |  |\n|  | Flanges for Class A and Class B barrels | 80 | 0.036 | Flange |\n|  |  | 100 | 0.041 | Flange |\n|  |  | 125 | 0.052 | Flange |\n|  |  | 150 | 0.066 | Flange |\n|  |  | 200 | 0.091 | Flange |\n|  |  | 250 | 0.117 | Flange |\n|  |  | 300 | 0.145 | Flange |\n|  |  | 350 | 0.186 | Flange |\n|  |  | 400 | 0.229 | Flange |\n|  |  | 450 | 0.250 | Flange |\n|  |  | 500 | 0.315 | Flange |\n|  |  | 600 | 0.431 | Flange |\n|  |  | 750 | 0.587 | Flange |\n|  |  | 700 | 0.685 | Flange |\n|  |  | 800 | 0.792 | Flange |\n|  |  | 900 | 0.928 | Flange |\n|  |  | 1 000 | 1.18 | Flange |\n|  |  | 1 100 | 1.38 | Flange |\n|  |  | 1 200 | 1.70 | Flange |\n|  |  | 1 500 | 2.71 | Flange |\n|  | Concrete pipes (see IS 458) |  |  |  |\n|  | Class NP 1 (unreinforced non- pressure pipes) | 80 | 0.19 | m |\n|  |  | 100 | 0.22 | m |\n|  |  | 150 | 0.30 | m |\n|  |  | 250 | 0.40 | m |\n|  |  | 300 | 0.69 | m |\n|  |  | 350 | 0.84 | m |\n|  |  | 400 | 0.95 | m |\n|  |  | 450 | 1.17 | m |\n|  | Class NP 2 (reinforced concrete, light duty, non- pressure pipes) | 80 | 0.196 | m |\n|  |  | 100 | 0.215 | m |\n|  |  | 150 | 0.324 | m |\n|  |  | 250 | 0.510 | M |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 31415,
+      "char_end": 33243,
+      "semantic_chunk_length": 1828,
+      "final_chunk_length": 1828,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0016",
+    "text": "0 | m |\n|  |  | 250 | 0.40 | m |\n|  |  | 300 | 0.69 | m |\n|  |  | 350 | 0.84 | m |\n|  |  | 400 | 0.95 | m |\n|  |  | 450 | 1.17 | m |\n|  | Class NP 2 (reinforced concrete, light duty, non- pressure pipes) | 80 | 0.196 | m |\n|  |  | 100 | 0.215 | m |\n|  |  | 150 | 0.324 | m |\n|  |  | 250 | 0.510 | M |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  |  | 300 | 0.736 | m |\n|  |  | 350 | 0.902 | m |\n|  |  | 400 | 1.02 | m |\n|  |  | 450 | 1.26 | m |\n|  |  | 500 | 1.38 | m |\n|  |  | 600 | 1.89 | m |\n|  |  | 700 | 2.19 | m |\n|  |  | 800 | 2.81 | m |\n|  |  | 900 | 3.51 | m |\n|  |  | 1 000 | 4.30 | m |\n|  |  | 1 100 | 5.15 | m |\n|  |  | 1 200 | 6.09 | m |\n|  |  | 1 400 | 8.18 | m |\n|  |  | 1 600 | 9.93 | m |\n|  |  | 1 800 | 12.58 | m |\n|  | Class NP 3 (reinforced concrete, heavy duty, non-pressure pipes) | 350 | 2.35 | m |\n|  |  | 400 | 2.63 | m |\n|  |  | 450 | 2.91 | m |\n|  |  | 500 | 3.19 | m |\n|  |  | 600 | 4.02 | m |\n|  |  | 700 | 4.61 | m |\n|  |  | 800 | 5.92 | m |\n|  |  | 900 | 7.39 | m |\n|  |  | 1 000 | 8.13 | m |\n|  |  | 1 100 | 10.34 | m |\n|  |  | 1 200 | 11.18 | m |\n|  | Class P1 (reinforced concrete pressure pipes safe for 20 MPa pressure tests) | 80 | 0.196 | m |\n|  |  | 100 | 0.235 | m |\n|  |  | 150 | 0.324 | m |\n|  |  | 250 | 0.510 | m |\n|  |  | 300 | 0.736 | m |\n|  |  | 350 | 0.902 | m |\n|  |  | 400 | 1.02 | m |\n|  |  | 450 | 1.26 | m |\n|  |  | 500 | 1.38 | m |\n|  |  | 600 | 1.89 | m |\n|  |  | 700 | 2.19 | m |\n|  |  | 800 | 2.81 | m |\n|  |  | 900 | 3.51 | m |\n|  |  | 1 000 | 4.30 | m |\n|  |  | 1 100 | 5.15 | m |\n|  |  | 1 200 | 6.09 | m |\n|  | Class P2 (reinforced concrete pressure pipes safe for 40 MPa pressure tests) | 80 | 0.196 | m |\n|  |  | 100 | 0.235 | m |\n|  |  | 150 | 0.324 | m |\n|  |  | 250 | 0.608 | m |\n|  |  | 300 | 1.01 | m |\n|  |  | 350 | 1.31 | m |\n|  |  | 400 | 1.67 | m |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 33250,
+      "char_end": 34879,
+      "semantic_chunk_length": 1629,
+      "final_chunk_length": 1931,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0017",
+    "text": " 1 100 | 5.15 | m |\n|  |  | 1 200 | 6.09 | m |\n|  | Class P2 (reinforced concrete pressure pipes safe for 40 MPa pressure tests) | 80 | 0.196 | m |\n|  |  | 100 | 0.235 | m |\n|  |  | 150 | 0.324 | m |\n|  |  | 250 | 0.608 | m |\n|  |  | 300 | 1.01 | m |\n|  |  | 350 | 1.31 | m |\n|  |  | 400 | 1.67 | m |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  |  | 450 | 1.84 | m |\n|  |  | 500 | 1.56 | m |\n|  |  | 600 | 3.20 | m |\n|  | Class P3 (reinforced concrete pressure pipes safe for 60 MPa pressure tests) | 80 | 0.196 | m |\n|  |  | 100 | 0.235 | m |\n|  |  | 150 | 0.324 | m |\n|  |  | 250 | 0.736 | m |\n|  |  | 300 | 1.15 | m |\n|  |  | 350 | 1.65 | m |\n|  |  | 400 | 2.04 | m |\n|  | Lead pipes [see IS 404 (Part 1)] (service and distribution pipes to be laid underground) : |  |  |  |\n|  | For working 40 MPa | 10 | 0.018 | m |\n|  |  | 13 | 0.031 | m |\n|  |  | 20 | 0.042 | m |\n|  |  | 25 | 0.060 | m |\n|  |  | 30 | 0.074 | m |\n|  |  | 40 | 0.091 | m |\n|  |  | 50 | 0.142 | m |\n|  | For working 70 MPa | 10 | 0.022 | m |\n|  |  | 15 | 0.038 | m |\n|  |  | 20 | 0.050 | m |\n|  |  | 25 | 0.069 | m |\n|  |  | 32 | 0.126 | m |\n|  |  | 40 | 0.175 | m |\n|  | For working 100 MPa | 10 | 0.029 | m |\n|  |  | 15 | 0.048 | m |\n|  |  | 20 | 0.067 | m |\n|  |  | 25 | 0.105 | m |\n|  | Service pipes to be fixed or laid above ground: |  |  |  |\n|  | For working pressure 40 MPa | 10 | 0.014 | m |\n|  |  | 15 | 0.021 | m |\n|  |  | 20 | 0.027 | m |\n|  |  | 25 | 0.036 | m |\n|  |  | 32 | 0.059 | m |\n|  |  | 40 | 0.091 | m |\n|  |  | 50 | 0.142 | m |\n|  | For working pressure 70 MPa | 10 | 0.018 | m |\n|  |  | 15 | 0.024 | m |\n|  |  | 20 | 0.030 | m |\n|  |  | 25 | 0.069 | m |\n|  |  | 32 | 0.126 | m |\n|  |  | 40 | 0.175 | m |\n|  | For working pressure 100 MPa | 10 | 0.029 | m |\n|  |  | 15 | 0.048 | m |\n|  |  | 20 | 0.067 | m |\n|  |  | 25 | 0.105 | M |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 34886,
+      "char_end": 36524,
+      "semantic_chunk_length": 1638,
+      "final_chunk_length": 1940,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0018",
+    "text": " For working pressure 70 MPa | 10 | 0.018 | m |\n|  |  | 15 | 0.024 | m |\n|  |  | 20 | 0.030 | m |\n|  |  | 25 | 0.069 | m |\n|  |  | 32 | 0.126 | m |\n|  |  | 40 | 0.175 | m |\n|  | For working pressure 100 MPa | 10 | 0.029 | m |\n|  |  | 15 | 0.048 | m |\n|  |  | 20 | 0.067 | m |\n|  |  | 25 | 0.105 | M |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Cold water distribution pipes to be fixed or laid above ground: |  |  |  |\n|  | For working pressure 25 MPa | 10 | 0.014 | m |\n|  |  | 15 | 0.021 | m |\n|  |  | 20 | 0.027 | m |\n|  |  | 25 | 0.036 | m |\n|  |  | 32 | 0.048 | m |\n|  |  | 40 | 0.067 | m |\n|  |  | 50 | 0.084 | m |\n|  | For working pressure 40 MPa | 10 | 0.014 | m |\n|  |  | 15 | 0.021 | m |\n|  |  | 20 | 0.027 | m |\n|  |  | 25 | 0.036 | m |\n|  |  | 32 | 0.059 | m |\n|  |  | 40 | 0.091 | m |\n|  |  | 50 | 0.142 | m |\n|  | Hot water distribution pipes to be fixed or laid above ground: |  |  |  |\n|  | For working pressure 20 MPa | 10 | 0.015 | m |\n|  |  | 15 | 0.023 | m |\n|  |  | 20 | 0.031 | m |\n|  |  | 25 | 0.041 | m |\n|  |  | 32 | 0.062 | m |\n|  |  | 40 | 0.082 | m |\n|  |  | 50 | 0.142 | m |\n|  | For working pressure 35 MPa | 10 | 0.015 | m |\n|  |  | 15 | 0.027 | m |\n|  |  | 20 | 0.045 | m |\n|  |  | 25 | 0.085 | m |\n|  |  | 32 | 0.132 | m |\n|  | Soil, waste, and soil and waste ventilation pipes | 50 | 0.050 | m |\n|  |  | 75 | 0.073 | m |\n|  |  | 100 | 0.097 | m |\n|  |  | 150 | 0.160 | m |\n|  | Flushing and warning pipes | 20 | 0.020 | m |\n|  |  | 25 | 0.025 | m |\n|  |  | 32 | 0.032 | m |\n|  |  | 40 | 0.039 | m |\n|  |  | 50 | 0.049 | m |\n|  | Gas pipes: |  |  |  |\n|  | Heavy weight gas pipes | 10 | 0.008 | m |\n|  |  | 15 | 0.017 | m |\n|  |  | 20 | 0.025 | m |\n|  |  | 25 | 0.034 | m |\n|  |  | 32 | 0.045 | m |\n|  |  | 40 | 0.061 | m |\n|  |  | 50 | 0.071 | m |\n|  | Light weight gas pipes | 10 | 0.008 | m |\n|  |  | 15 | 0.012 | m |\n|  |  | 20 | 0.020 | m |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 19,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 36531,
+      "char_end": 38222,
+      "semantic_chunk_length": 1691,
+      "final_chunk_length": 1993,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0019",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  |  | 25 | 0.029 | m |\n|  |  | 32 | 0.037 | m |\n|  |  | 40 | 0.047 | m |\n|  |  | 50 | 0.058 | m |\n|  | Stoneware, salt-glazed pipes (see IS 651) | 100 | 0.137 | m |\n|  |  | 150 | 0.216 | m |\n|  |  | 200 | 0.324 | m |\n|  |  | 230 | 0.412 | m |\n|  |  | 250 | 0.510 | m |\n|  |  | 300 | 0.775 | m |\n|  |  | 350 | 0.980 | m |\n|  |  | 400 | 1.26 | m |\n|  |  | 450 | 1.44 | m |\n|  |  | 500 | 1.77 | m |\n|  |  | 600 | 2.35 | m |\n| 44. | Plaster |  |  |  |\n|  | Cement | 10 | 0.204 | m2 |\n|  | Lime | 10 | 0.172 | m2 |\n|  | Acoustic | 10 | 0.078 | m2 |\n|  | Anhydrite | 10 | 0.206 | m2 |\n|  | Barium sulphate | 10 | 0.284 | m2 |\n|  | Fibrous | 10 | 0.088 | m2 |\n|  | Gypsum | 10 | 0.186 | m2 |\n| 45. | Roofing |  |  |  |\n|  | Asbestos cement sheeting |  |  |  |\n|  | (see ‘Asbestos cement sheeting’ in Table 1 ) |  |  |  |\n|  | Allahabad tiles (single) including battens (see Note below) | – | 0.83 | m2 |\n|  | Allahabad tiles (double) including battens (see Note below) | – | 1.67 | m2 |\n|  | Country tiles (single) including battens (see Note below) | – | 0.69 | m2 |\n|  | Country tiles (double) including battens (see Note below) | – | 1.18 | m2 |\n|  | Mangalore tiles battens (see Note below) | – | 0.64 | m2 |\n|  | Mangalore tiles bedded in mortar over flat tiles (see Note below) | – | 1.08 | m2 |\n|  | Mangalore tiles with flat tiles (see Note below) | – | 0.78 | m2 |\n|  | Copper sheet roofing including laps and rolls | 0.56 | 0.08 | m2 |\n|  | Flat roofs: | 0.72 | 0.10 | m2 |\n|  | Clay tiles- hollow clay blocks/ clay floor tiles (see Sl No. 31 ‘Flooring’ in this Table) |  |  |  |\n|  | Concrete hollow units (see Sl No. 31 ‘Flooring’ in this Table) |  |  |  |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 20,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 38229,
+      "char_end": 40044,
+      "semantic_chunk_length": 1815,
+      "final_chunk_length": 1815,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0020",
+    "text": " m2 |\n|  | Copper sheet roofing including laps and rolls | 0.56 | 0.08 | m2 |\n|  | Flat roofs: | 0.72 | 0.10 | m2 |\n|  | Clay tiles- hollow clay blocks/ clay floor tiles (see Sl No. 31 ‘Flooring’ in this Table) |  |  |  |\n|  | Concrete hollow units (see Sl No. 31 ‘Flooring’ in this Table) |  |  |  |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Galvanized iron sheeting (see Sl No. ’41 Metal sheeting, protected’ in this Table) |  |  |  |\n|  | Glazed Roofing: |  |  |  |\n|  | Glazing with Aluminum alloy bars for spans up to 3 m | 6.4 | 0.19 | m2 |\n|  | Glazing with lead-covering steel bars at 0.6 m centres | 6.4 | 0.25 to 0.28 | m2 |\n|  | States on battens | – | 0.34 to 0.49 | m2 |\n|  | Thatch with battens | – | 0.34 to 0.49 | m2 |\n|  | NOTE — Weights acting vertically on horizontally projection to be multiplied by cosine of roof angle to obtain weights normal to the roof surface. |  |  |  |\n|  | Roof finished |  |  |  |\n|  | Bitumen macadam | 10 | 0.22 | m2 |\n|  | Felt roofing (see 28 ‘Felt, bituminous, for water-proofing and damp-proofing’ in Table 1) | 10 | 0.008 | m2 |\n|  | Glass silk quilted | 0.5 | 0.05 | m2 |\n|  | Lead sheet | 0.8 | 0.07 | m2 |\n|  | Mortar screeding | 10 | 0.21 | m2 |\n| 46. | Sheeting |  |  |  |\n|  | Asbestos (see under Sl No. 9 'asbestos cement sheeting' in this Table) |  |  |  |\n|  | Galvanized iron (see under Sl No.39 'metal sheeting, protected' in this table) |  |  |  |\n|  | Glass (see under Sl No.30 'Glass' in this table) |  |  |  |\n|  | Plywood (see IS 303) | 1 | 0.007 | m3 |\n| 47. | Slugwool | – | 2.65 | m3 |\n| 48. | Soils and Gravels |  |  |  |\n|  | Alluvial ground, undisturbed | – | 15.69 | m3 |\n|  | Broken stone ballast: |  |  |  |\n|  | Dry, well-shaken | – | 15.70 to 18.35 | m3 |\n|  | Perfectly wet | – | 18.85 to 21.95 | m3 |\n|  | Chalk |  | 15.70 to 18.85 | m3 |\n|  | Clay: |  |  |  |\n|  | China, compact | – | 21.95 | m3 |\n|  | Clay fills: |  |  |  |\n|  | Dry, lumps | – | 10.20 | m3 |\n|  | Dry, compact | – | 14.10 | m3 |\n|  | Damp, compact | – | 17.25 | m3 |\n|  | Wet , compact | – | 20.40 | m3 |\n|  | Undisturbed | – | 18.85 | m3 |\n|  | Undisturbed, gravelly | – | 20.40 | m3 |\n|  | Crush stone sand | – | – | – |\n|  | Earth: |  |  |  |\n|  | Dry | – | 13.85 to 18.05 | m3 |\n|  | Moist | – | 15.70 to 19.60 | m3 |\n|  | Gravel: |  |  |  |\n|  | Loose | – | 15.70 | m3 |\n|  | Rammed | – | 18.85 to 21.20 | m3 |\n|  | Kaolin, compact | – | 25.50 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 40051,
+      "char_end": 42274,
+      "semantic_chunk_length": 2223,
+      "final_chunk_length": 2525,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0021",
+    "text": "ed, gravelly | – | 20.40 | m3 |\n|  | Crush stone sand | – | – | – |\n|  | Earth: |  |  |  |\n|  | Dry | – | 13.85 to 18.05 | m3 |\n|  | Moist | – | 15.70 to 19.60 | m3 |\n|  | Gravel: |  |  |  |\n|  | Loose | – | 15.70 | m3 |\n|  | Rammed | – | 18.85 to 21.20 | m3 |\n|  | Kaolin, compact | – | 25.50 | m3 |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Loam: |  |  |  |\n|  | Dry, loose | – | 11.75 | m3 |\n|  | Dry, compact | – | 15.70 | m3 |\n|  | Wet, compact | – | 18.85 | m3 |\n|  | Loess, dry | – | 14.10 | m3 |\n|  | Marl, compact | – | 17.25 to 18.85 | m3 |\n|  | Mud, river, wet | – | 17.25 to 18.85 | m3 |\n|  | Peat: |  |  |  |\n|  | Dry | – | 5.50 to 6.30 | m3 |\n|  | Sandy, compact | – | 7.85 | m3 |\n|  | Wet, compact | – | 13.35 | m3 |\n|  | Rip-rap | – | 12.55 to 14.10 | m3 |\n|  | Sand: |  |  |  |\n|  | Dry, clean | – | 15.10 to 15.70 | m3 |\n|  | River | – | 18.05 | m3 |\n|  | Wet | – | 17.25 to 19.60 | m2 |\n|  | Shingles: |  |  |  |\n|  | Aggregate 3 to 38 mm | – | 13.75 | m2 |\n|  | Fine sand: |  |  |  |\n|  | Dry | – | 15.70 | m2 |\n|  | Saturated | – | 20.40 | m2 |\n|  | Silt, wet | – | 17.25 to 18.85 | m2 |\n| 49 | Steel Sections |  |  |  |\n|  | Density of steel sections shall be taken as 78.50 kg/m3 |  |  |  |\n|  | Weight of hot rolled sections (ISJB, ISLB, ISMB, ISWB, ISNPB, ISWPB, ISSC, ISHB, ISJC, ISLC, ISMC, ISMPC, ISA, ISPBP) shall be referred from IS 808 |  |  |  |\n|  | Weight of hollow steel sections shall be referred from IS 4923 |  |  |  |\n|  | Weight of cold formed light gauge structural steel sections shall be referred from IS 811 |  |  |  |\n|  | Weight of rolled and slit T bars shall be referred from IS 1173 |  |  |  |\n|  | Weight of steel sheet piling sections shall be referred from IS 2314 |  |  |  |\n| 50. | Stone |  |  |  |\n|  | Agate | – | 25.50 | m3 |\n|  | Aggregate | – | 15.70 to 18.85 | m3 |\n|  | Basalt | – | 27.95 to 29.05 | m3 |\n|  | Cast | – | 21.95 | m3 |\n|  | Chalk | – | 21.50 | m3 |\n|  | Dolomite | – | 28.25 | m3 |\n|  | Emery | – | 39.25 | m3 |\n|  | Flint | – | 25.40 | m3 |\n|  | Gneiss | – | 23.55 to 26.40 | m3 |\n|  | Granite | – | 25.90 to 27.45 | m3 |\n|  | Gravel: |  |  |  |\n|  | Loose | – | 15.70 | m3 |\n|  | Moderately rammed, dry | – | 18.85 | m3 |\n|  | Green stone | – | 28.25 | m3 |\n|  | Gypsum | – | 21.95 to 23.55 | m3 |\n|  | Kota |  |  |  |\n|  | Laterite | – | 20.40 to 23.55 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 42281,
+      "char_end": 44433,
+      "semantic_chunk_length": 2152,
+      "final_chunk_length": 2454,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0022",
+    "text": ".55 to 26.40 | m3 |\n|  | Granite | – | 25.90 to 27.45 | m3 |\n|  | Gravel: |  |  |  |\n|  | Loose | – | 15.70 | m3 |\n|  | Moderately rammed, dry | – | 18.85 | m3 |\n|  | Green stone | – | 28.25 | m3 |\n|  | Gypsum | – | 21.95 to 23.55 | m3 |\n|  | Kota |  |  |  |\n|  | Laterite | – | 20.40 to 23.55 | m3 |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Lime stone | – | 23.55 to 25.90 | m3 |\n|  | Marble | – | 26.70 | m3 |\n|  | Pumice | – | 7.85 to 11.00 | m3 |\n|  | Quartz rock | – | 25.90 | m3 |\n|  | Sand stone | – | 21.95 to 23.54 | m3 |\n|  | Slate | – | 27.45 | m3 |\n|  | Soap stone | – | 26.45 | m3 |\n| 51. | Tar, Coal |  |  |  |\n|  | Crude (see IS 212) | – | 9.90 | m3 |\n|  | Naphtha, light | – | 9.90 | m3 |\n|  | Naphtha, heavy | – | 9.90 | m3 |\n|  | Road tar | – | 9.90 | m3 |\n|  | Pitch (see IS 216) | – | 9.90 | m3 |\n| 52. | Thermal Insulation |  |  |  |\n|  | Unbonded glass wool | – | 12.75 to 23.55 | m3 |\n|  | Unbonded rock and slag wool | – | 11.30 to 19.60 | m3 |\n|  | Cellular concrete |  |  |  |\n|  | Grade A | – | Up to 29.40 | m3 |\n|  | Grade B | – | 29.50 to 39.20 | m3 |\n|  | Grade C | – | 39.30 to 49.00 | m3 |\n|  | Performed calcium silicate Insulation (for temperature up to 650 °C) | – | 19.60 to 34.30 | m3 |\n| 53. | Tiles and Stone Cladding |  |  |  |\n|  | Terra-cotta | – | 18.35 to 23.25 | m2 |\n|  | Terrozzo |  |  |  |\n|  | Paving | 10 | 0.24 | m2 |\n|  | Cast partitions | 40 | 0.93 | m2 |\n|  | Tiles |  |  |  |\n|  | Mangalore pattern (see IS 654) | – | 0.02 to 0.03 | Tile |\n|  | Polystyrene wall tiles | 99 × 99 | 0.013 | m2 |\n|  |  | 148.5 × 148.5 | 0.013 | m2 |\n|  | Pressed ceramic tiles, glazed and unglazed (see IS 15622) |  | 22 | m3 |\n|  | Concrete paving blocks (see IS 15658) |  | 24 | m3 |\n| 54. | Timber |  |  |  |\n|  | Typical Indian timbers (see IS 399) |  |  |  |\n|  | Aglaia | – | 8.34 | m3 |\n|  | Aini | – | 5.83 | m3 |\n|  | Alder | – | 3.63 | m3 |\n|  | Amari | – | 6.13 | m3 |\n|  | Amla | – | 7.85 | m3 |\n|  | Amra | – | 4.41 | m3 |\n|  | Anjan | – | 8.33 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 23,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 44440,
+      "char_end": 46255,
+      "semantic_chunk_length": 1815,
+      "final_chunk_length": 2117,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0023",
+    "text": "15658) |  | 24 | m3 |\n| 54. | Timber |  |  |  |\n|  | Typical Indian timbers (see IS 399) |  |  |  |\n|  | Aglaia | – | 8.34 | m3 |\n|  | Aini | – | 5.83 | m3 |\n|  | Alder | – | 3.63 | m3 |\n|  | Amari | – | 6.13 | m3 |\n|  | Amla | – | 7.85 | m3 |\n|  | Amra | – | 4.41 | m3 |\n|  | Anjan | – | 8.33 | m3 |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Arjun | – | 7.99 | m3 |\n|  | Ash | – | 7.06 | m3 |\n|  | Axlewood | – | 8.82 | m3 |\n|  | Babul | – | 7.70 | m3 |\n|  | Baen | – | 7.70 | m3 |\n|  | Bahera | – | 7.99 | m3 |\n|  | Bakota | – | 4.21 | m3 |\n|  | Balasu | – | 7.55 | m3 |\n|  | Ballagi | – | 11.13 | m3 |\n|  | Bamboo |  |  |  |\n|  | Banati | – | 4.41 | m3 |\n|  | Benteak | – | 6.62 | m3 |\n|  | Ber | – | 6.91 | m3 |\n|  | Bhendi | – | 7.55 | m3 |\n|  | Bijasal | – | 7.85 | m3 |\n|  | Black chuglam | – | 6.13 | m3 |\n|  | Birch | – | 7.85 | m3 |\n|  | Black locust | – | 8.34 | m3 |\n|  | Blue gum | – | 8.34 | m3 |\n|  | Blue pine | – | 5.05 | m3 |\n|  | Bola | – | 6.42 | m3 |\n|  | Bonsum | – | 5.20 | m3 |\n|  | Bullet wood | – | 8.78 | m3 |\n|  | Casuarina | – | 8.34 | m3 |\n|  | Cettis | – | 6.42 | m3 |\n|  | Champ | – | 4.85 | m3 |\n|  | Chaplash | – | 5.05 | m3 |\n|  | Chatian | – | 4.07 | m3 |\n|  | Chikrassy | – | 6.62 | m3 |\n|  | Chilauni | – | 6.42 | m3 |\n|  | Chilla | – | 7.85 | m3 |\n|  | Chir | – | 5.64 | m3 |\n|  | Chuglam: |  |  |  |\n|  | Black | – | 7.85 | m3 |\n|  | White (silver grey-wood) | – | 6.91 | m3 |\n|  | Cinnamon | – | 6.42 | m3 |\n|  | Cypress | – | 5.05 | m3 |\n|  | Debdaru | – | 6.28 | m3 |\n|  | Deodar | – | 5.35 | m3 |\n|  | Devdam | – | 7.06 | m3 |\n|  | Dhaman: |  |  |  |\n|  | Grewia tiliofolia | – | 7.70 | m3 |\n|  | Grewia vestita | – | 7.40 | m3 |\n|  | Dhup | – | 6.42 | m3 |\n|  | Dilenia | – | 6.13 | m3 |\n|  | Dudhi | – | 5.49 | m3 |\n|  | Ebony | – | 8.19 | m3 |\n|  | Elim | – | 5.20 | m3 |\n|  | Eucalyptus | – | 8.33 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 24,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 46262,
+      "char_end": 47928,
+      "semantic_chunk_length": 1666,
+      "final_chunk_length": 1968,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0024",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Figs | – | 4.56 | m3 |\n|  | Fir | – | 4.14 | m3 |\n|  | Frash | – | 6.62 | m3 |\n|  | Gamari | – | 5.05 | m3 |\n|  | Gardenia | – | 7.40 | m3 |\n|  | Garuga | – | 5.98 | m3 |\n|  | Geon | – | 4.07 | m3 |\n|  | Gluta | – | 7.06 | m3 |\n|  | Gokul | – | 4.07 | m3 |\n|  | Grewia sp. | – | 7.55 | m3 |\n|  | Gurjan | – | 7.70 | m3 |\n|  | Gutel | – | 4.41 | m3 |\n|  | Haldu | – | 6.62 | m3 |\n|  | Hathipaila | – | 5.84 | m3 |\n|  | Hiwar | – | 7.70 | m3 |\n|  | Hollock | – | 5.98 | m3 |\n|  | Hollong | – | 7.21 | m3 |\n|  | Hoom | – | 7.21 | m3 |\n|  | Horse chestnut | – | 5.05 | m3 |\n|  | Imli | – | 8.97 | m3 |\n|  | Indian Chestnut | – | 6.28 | m3 |\n|  | Indian Hemlock | – | 3.92 | m3 |\n|  | Indian Oak | – | 8.48 | m3 |\n|  | Indian Olive | – | 10.35 | m3 |\n|  | Irul | – | 8.33 | m3 |\n|  | Jack | – | 5.83 | m3 |\n|  | Jaman | – | 7.70 | m3 |\n|  | Jarul | – | 6.13 | m3 |\n|  | Jathtkai | – | 5.05 | m3 |\n|  | Jhingan | – | 5.63 | m3 |\n|  | Jutili | – | 7.85 | m3 |\n|  | Kadam | – | 4.85 | m3 |\n|  | Kail | – | 5.05 | m3 |\n|  | Kaim | – | 6.42 | m3 |\n|  | Kambli | – | 4.07 | m3 |\n|  | Kanchan | – | 6.62 | m3 |\n|  | Kanjuj | – | 5.84 | m3 |\n|  | Karada | – | 8.34 | m3 |\n|  | Karal | – | 7.99 | m3 |\n|  | Karani | – | 6.28 | m3 |\n|  | Karar | – | 5.34 | m3 |\n|  | Kardahi | – | 9.27 | m3 |\n|  | Karimgotta | – | 3.92 | m3 |\n|  | Kasi | – | 5.83 | m3 |\n|  | Kasum | – | 10.84 | m3 |\n|  | Kathal | – | 5.85 | m3 |\n|  | Keora | – | 6.13 | m3 |\n|  | Khair | – | 9.00 | m3 |\n|  | Khasipine | – | 5.05 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 25,
+      "page_end": 25,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 47935,
+      "char_end": 49582,
+      "semantic_chunk_length": 1647,
+      "final_chunk_length": 1647,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0025",
+    "text": "| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Kindal | – | 7.55 | m3 |\n|  | Kokko | – | 6.28 | m3 |\n|  | Kongoo | – | 9.76 | m3 |\n|  | Kuchla | – | 8.63 | m3 |\n|  | Kumbi | – | 7.70 | m3 |\n|  | Kurchi | – | 5.20 | m3 |\n|  | Kurung | – | 9.76 | m3 |\n|  | Kusum | – | 11.28 | m3 |\n|  | Kuthan | – | 4.71 | m3 |\n|  | Lakooch | – | 6.28 | m3 |\n|  | Lambapatti | – | 5.34 | m3 |\n|  | Lampati | – | 5.05 | m3 |\n|  | Laurel | – | 8.33 | m3 |\n|  | Lendi | – | 7.40 | m3 |\n|  | Machilus: |  |  |  |\n|  | Gamblei | – | 5.05 | m3 |\n|  | Macrantha | – | 5.20 | m3 |\n|  | Maharukh | – | 4.07 | m3 |\n|  | Mahogany | – | 6.62 | m3 |\n|  | Mahua | – | 8.97 | m3 |\n|  | Maina | – | 5.64 | m3 |\n|  | Makai | – | 3.14 | m3 |\n|  | Malabar neem | – | 4.41 | m3 |\n|  | Mango | – | 6.77 | m3 |\n|  | Maniawga | – | 7.40 | m3 |\n|  | Maple | – | 5.64 | m3 |\n|  | Mesua | – | 9.76 | m3 |\n|  | Milla | – | 9.12 | m3 |\n|  | Mokha | – | 7.99 | m3 |\n|  | Mulberry | – | 6.62 | m3 |\n|  | Mullilam | – | 7.21 | m3 |\n|  | Mundani | – | 6.77 | m3 |\n|  | Murtenga | – | 7.70 | m3 |\n|  | Myrabolan | – | 9.27 | m3 |\n|  | Narikel | – | 5.49 | m3 |\n|  | Nedunar | – | 5.05 | m3 |\n|  | Oak | – | 8.48 | m3 |\n|  | Padauk | – | 7.06 | m3 |\n|  | Padri | – | 7.06 | m3 |\n|  | Palang | – | 5.98 | m3 |\n|  | Pali | – | 6.28 | m3 |\n|  | Papita | – | 3.28 | m3 |\n|  | Parrotia | – | 8.48 | m3 |\n|  | Persian lilac | – | 5.84 | m3 |\n|  | Piney | – | 6.13 | m3 |\n|  | Ping | – | 8.97 | m3 |\n|  | Pinus insignis | – | 6.13 | m3 |\n|  | Pipli | – | 5.83 | m3 |\n|  | Pitraj | – | 6.77 | m3 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 26,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 49589,
+      "char_end": 51236,
+      "semantic_chunk_length": 1647,
+      "final_chunk_length": 1647,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0026",
+    "text": "g | – | 5.98 | m3 |\n|  | Pali | – | 6.28 | m3 |\n|  | Papita | – | 3.28 | m3 |\n|  | Parrotia | – | 8.48 | m3 |\n|  | Persian lilac | – | 5.84 | m3 |\n|  | Piney | – | 6.13 | m3 |\n|  | Ping | – | 8.97 | m3 |\n|  | Pinus insignis | – | 6.13 | m3 |\n|  | Pipli | – | 5.83 | m3 |\n|  | Pitraj | – | 6.77 | m3 |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) | (2) | (3) | (4) | (5) |\n|  | Poon | – | 6.42 | m3 |\n|  | Poplar | – | 4.41 | m3 |\n|  | Pula | – | 3.78 | m3 |\n|  | Pyinma | – | 3.98 | m3 |\n|  | Rajbrikh | – | 8.48 | m3 |\n|  | Red sanders | – | 10.84 | m3 |\n|  | Rohini | – | 11.33 | m3 |\n|  | Rosewood (black wood) | – | 8.19 | m3 |\n|  | Rudrak | – | 4.71 | m3 |\n|  | Sal | – | 8.48 | m3 |\n|  | Salai | – | 5.64 | m3 |\n|  | Sandal wood | – | 8.97 | m3 |\n|  | Sadan | – | 8.34 | m3 |\n|  | Satin wood | – | 9.41 | m3 |\n|  | Saykaranji | – | 7.40 | m3 |\n|  | Seleng | – | 4.85 | m3 |\n|  | Semul | – | 3.78 | m3 |\n|  | Silver oak | – | 6.28 | m3 |\n|  | Siris | – | 3.92 | m3 |\n|  | Kala-siris | – | 7.21 | m3 |\n|  | Safed- siris | – | 6.28 | m3 |\n|  | Siaso | – | 7.70 | m3 |\n|  | Spruce | – | 4.71 | m3 |\n|  | Suji | – | 2.65 | m3 |\n|  | Sundri | – | 9.41 | m3 |\n|  | Talauma | – | 5.64 | m3 |\n|  | Tanaku | – | 2.09 | m3 |\n|  | Teak | – | 6.28 | m3 |\n|  | Toon | – | 5.05 | m3 |\n|  | Udal | – | 2.50 | m3 |\n|  | Upas | – | 3.14 | m3 |\n|  | Uriam | – | 7.40 | m3 |\n|  | Vakai | – | 9.41 | m3 |\n|  | Vellapine | – | 5.83 | m3 |\n|  | Walnut | – | 5.64 | m3 |\n|  | White bombwe | – | 5.98 | m3 |\n|  | White cedar | – | 7.06 | m3 |\n|  | White chuglam (silver grey-wood) | – | 6.91 | m3 |\n|  | White dhup | – | 4.22 | m3 |\n|  | Yon | – | 8.33 | m3 |\n|  | NOTE — The unit of timbers correspond to average unit of typical Indian timbers at 12 percent moisture content. |  |  |  |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 51243,
+      "char_end": 52791,
+      "semantic_chunk_length": 1548,
+      "final_chunk_length": 1850,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0027",
+    "text": "we | – | 5.98 | m3 |\n|  | White cedar | – | 7.06 | m3 |\n|  | White chuglam (silver grey-wood) | – | 6.91 | m3 |\n|  | White dhup | – | 4.22 | m3 |\n|  | Yon | – | 8.33 | m3 |\n|  | NOTE — The unit of timbers correspond to average unit of typical Indian timbers at 12 percent moisture content. |  |  |  |\n\n| Sl No. | Materials | Nominal Size or Thickness mm | Weight |  |\n| --- | --- | --- | --- | --- |\n|  |  |  | kN | per |\n| (1) 55. | (2) | (3) | (4) | (5) |\n|  | Water |  |  |  |\n|  | Fresh | – | 10.0 | m3 |\n|  | Salt | – | 10.05 | m3 |\n| 56. | Wood – Wool Building Slabs | 10mm | 0.059 | m2 |\n| 57. | Walling (see IS 6072) |  |  |  |\n|  | Autoclaved reinforced cellular concrete wall slabs |  |  |  |\n|  | Class A | – | 8.35 to 9.80 | m2 |\n|  | Class B | – | 7.35 to 8.35 | m2 |\n|  | Class C | – | 6.35 to 7.35 | m2 |\n|  | Class D | – | 5.40 to 6.35 | m2 |\n|  | Class E | – | 4.40 to 5.40 | m2 |\n|  | Brick masonry (see 38 ‘Masonry brick’ in this Table ) |  |  |  |\n|  | Blocks masonry (see 11 ’Block’ in this Table) |  |  |  |\n|  | Stone masonry (see 37 ‘Masonry stone’ in this Table) |  |  |  |\n|  | Partitions |  |  |  |\n|  | Brick wall | 100 | 1.91 | m2 |\n|  | Cinder concrete | 75 | 1.13 | m2 |\n|  | Galvanized on sheet | – | 0.15 | m2 |\n|  | Hollow glass block (bricks) | 100 | 0.88 | m2 |\n|  | Hollow blocks per 200 mm of thickness |  |  |  |\n|  | Ballast or stone concrete | 200 | 0.201 | m2 |\n|  | Clay | 200 | 0.201 | m2 |\n|  | Clinker concrete | 200 | 0.220 | m2 |\n|  | Coke breeze concrete | 200 | 9.176 | m2 |\n|  | Diatomaceous earth | 200 | 0.093 | m2 |\n|  | Gypsum | 200 | 0.137 | m2 |\n|  | Pumice concrete | 200 | 0.177 | m2 |\n|  | Slag concrete, air-cooled | 200 | 0.196 | m2 |\n|  | Slag concrete foamed | 200 | 0.186 | m2 |\n|  | Lath and plaster | – | 0.392 | m2 |\n|  | Solid blocks per 20 mm of thickness |  |  |  |\n|  | Ballast or stone | 20 | 0.451 | m2 |\n|  | Clinker concrete | 20 | 0.300 | m2 |\n|  | Coke breeze concrete | 20 | 0.221 | m2 |\n|  | Pumice concrete | 20 | 0.221 | m2 |\n|  | Slag concrete, foamed | 20 | 0.250 | m2 |\n|  | Terrazzo cast partitions | 40 | 0.932 | m2 |\n|  | Timber studding plastered | – | 9.981 | m2 |\n|  | NOTE — For unit weight of fixtures and fittings required to buildings including builder's hardware, reference may be made to appropriate Indian standards. |  |  |  |\n\n\n\n\n\nTable 2 Unit Weights of Stored and Miscellaneous Materials\n\n(Clauses 4.1 and 4.2)\n\n\n**Table 2 Unit Weights of Stored and Miscellaneous Materials**",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 28,
+      "page_end": 29,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 52798,
+      "char_end": 54973,
+      "semantic_chunk_length": 2175,
+      "final_chunk_length": 2477,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0028",
+    "text": "eight of fixtures and fittings required to buildings including builder's hardware, reference may be made to appropriate Indian standards. |  |  |  |\n\n\n\n\n\nTable 2 Unit Weights of Stored and Miscellaneous Materials\n\n(Clauses 4.1 and 4.2)\n\n\n**Table 2 Unit Weights of Stored and Miscellaneous Materials**\n\n| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| 1. | Agriculture and Food Products |  |  |\n|  | Butter | 8.45 | – |\n|  | Coffee in bags | 5.50 | – |\n|  | Drinks in bottle, in boxes | 7.35 | – |\n|  | Eggs, packed | 2.95 | – |\n|  | Fats, oil | 5.80 | – |\n|  | Fish meal | 4.90 | 45 |\n|  | Flour in sacks up to 1 m height | 2.20 to 5.90 | – |\n|  | Forage (bales) | 1.25 | – |\n|  | Fruits | 3.45 | – |\n|  | Grains: |  |  |\n|  | Barley | 6.75 | 27 |\n|  | Corn, shelled | 7.55 | 27 |\n|  | Flax seed | 7.35 | 30 |\n|  | Oats | 5.30 | 30 |\n|  | Rice | 6.55 | 33 |\n|  | Soyabeans | 7.35 | 30 |\n|  | Wheat | 8.15 | 28 |\n|  | Wheat flour | 6.85 | 30 |\n|  | Grain sheaves up to 4 m stack height | 0.98 | 30 |\n|  | Grain sheaves over 4 m stack height | 1.45 | 30 |\n|  | Grass and clover | 3.45 | – |\n|  | Hay: |  | – |\n|  | Compressed | 1.65 | – |\n|  | Loose up to about 3 m stack height | 0.69 | – |\n|  | Honey | 14.10 | – |\n|  | Hops: |  |  |\n|  | In stacks | 1.65 | – |\n|  | In cylinder hop bins | 4.60 | – |\n|  | Sewn up or compressed in cylindrical shape in hop cloth | 2.85 | – |\n|  | Malt: |  |  |\n|  | Crushed | 3.90 | 20 |\n|  | Germinated | 1.85 | – |\n|  | Meat and meat products | 7.05 | – |\n|  | Milk | 10.05 | – |\n|  | Molasses | 4.40 | – |\n|  | Onion in bags | 5.40 | 0 |\n\n\n\n\n\n\n| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n|  | Oil cakes, crushed | 5.80 | 0 |\n|  | Potatoes | 7.05 | 30 |\n|  | Preserves (tins in cases) | 4.90 to7.85 | – |\n|  | Bags | 7.05 | – |\n|  | Bulk | 9.40 | – |\n|  | Seeds: |  |  |\n|  | Heaps | 4.90 to 7.85 | 25 |\n|  | Sacks | 3.90 to 6.85 | – |\n|  | Straw and chaff: |  |  |\n|  | Loose up to about 3 m stack height | 0.45 | – |\n|  | Compressed | 1.65 | – |\n|  | Sugar: |  |  |\n|  | Crystal | 7.35 | 30 |\n|  | Cube sugar in boxes | 7.85 | – |\n|  | Sugar beet, pressed out | 7.85 | – |\n|  | Tobacco bundles | 3.45 | – |\n|  | Vinegar | 10.40 | – |\n| 2. | Chemicals and Allied Materials |  |  |\n|  | Acid, hydrochloric | 11.75 | – |\n|  | Acid, nitric 91 percent | 14.80 | – |\n|  | Acid, sulphuric 87 percent | 17.55 | – |\n|  | Alcohol | 7.65 | – |\n|  | Alum, pearl in barrel | 5.20 | – |\n|  | Ammonia, liquid | 8.85 | – |\n|  | Ammonium, chloride, crystalline | 8.15 | 30 to 40 |\n|  | Ammonium nitrate | 7.05 to 9.80 | 25 |\n|  | Ammonium sulphate | 7.05 to 9.00 | 32 to 45 |\n|  | Beeswax | 9.40 | – |\n|  | Benzole | 8.90 | – |\n|  | Benzene hexachloride | 8.75 | – |\n|  | Bicarbonate of soda | 6.40 | – |\n|  | Bone | 18.65 | – |\n|  | Borax | 17.15 | – |\n|  | Calcite | 26.50 | – |\n|  | Camphor | 9.70 | – |\n|  | Carbon disulphide | 12.75 | – |\n|  | Casein | 13.25 | – |\n|  | Caustic soda | 13.85 | – |\n|  | Creosole | 10.50 | – |\n|  | Dicalcium phosphate | 6.65 | – |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 29,
+      "page_end": 30,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 54975,
+      "char_end": 57807,
+      "semantic_chunk_length": 2832,
+      "final_chunk_length": 3134,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0029",
+    "text": "| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n|  | Disodium phosphate | 3.90 to 4.80 | 30 to 45 |\n|  | Iodine | 48.55 | – |\n|  | Oils in bottle or barrels | 5.70 to 8.90 | – |\n|  | Oil, linseed: |  |  |\n|  | In barrels | 5.70 | – |\n|  | In drums | 7.05 | – |\n|  | Oil, turpentine | 8.50 | – |\n|  | Paints | 9.40 | – |\n|  | Paraffin wax | 7.85 to 9.40 | – |\n|  | Petroleum | 9.90 | – |\n|  | Phosphorus | 17.85 | – |\n|  | Plastics and polymers: |  |  |\n|  | Cellulose acetate | 12.25 to 13.35 | – |\n|  | Cellulose nitrate | 13.25 to 15.70 | – |\n|  | Methyl methacrylate (IS 14753) | 11.57 to 11.77 | – |\n|  | Phenol formaldehyde | 12.55 | – |\n|  | Expanded Polystyrene (IS 4671) | 0.15 to 0.35 | – |\n|  | Extruded polystyrene | 0.21 |  |\n|  | Polyvinyl chloride (Perspex) | 11.75 to 13.25 | – |\n|  | Resin bonded sheet | 12.85 to 13.55 | – |\n|  | Urea formaldehyde | 13.25 to 13.55 | – |\n|  | Extruded polystyrene | 0.21 |  |\n|  | Polyurethane | 0.59 to 0.66 |  |\n|  | Polyethylene (IS 2508) | 9.81 to 19.6 |  |\n|  | Polyvinyl Butaryl | 11 |  |\n|  | Polycarbonate (IS 14443) | 12 |  |\n|  | Ethylene tetrafluoroethylene | 17 |  |\n|  | Polytetrafluoroethylene [IS 14635 (part 2)] | 22 |  |\n|  | Potash | 14.40 | – |\n|  | Potassium | 8.65 | – |\n|  | Potassium nitrate | 9.90 | – |\n|  | Red lead, dry | 20.70 | – |\n|  | Red lead, paste | 87.30 | – |\n|  | Rosin in barrels | 6.75 | – |\n|  | Rubber: |  |  |\n|  | Raw | 8.90 to 9.40 | – |\n|  | Vulcanized | 8.90 to 9.10 | – |\n|  | Saltpetre | 9.91 | – |\n|  | Sodium silicate in barrels | 8.35 | – |\n|  | Sulphur | 20.10 | – |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 31,
+      "page_end": 31,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 57814,
+      "char_end": 59453,
+      "semantic_chunk_length": 1639,
+      "final_chunk_length": 1639,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0030",
+    "text": ".90 | – |\n|  | Red lead, dry | 20.70 | – |\n|  | Red lead, paste | 87.30 | – |\n|  | Rosin in barrels | 6.75 | – |\n|  | Rubber: |  |  |\n|  | Raw | 8.90 to 9.40 | – |\n|  | Vulcanized | 8.90 to 9.10 | – |\n|  | Saltpetre | 9.91 | – |\n|  | Sodium silicate in barrels | 8.35 | – |\n|  | Sulphur | 20.10 | – |\n\n| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n|  | Talc | 27.45 | – |\n|  | Varnishes | 9.40 | – |\n|  | Vitriol, blue, in barrels | 7.05 | – |\n| 3. | Fuels |  |  |\n|  | Brown coal | 6.83 | – |\n|  | Brown coal briquettes heaped | 7.85 | 35 |\n|  | Brown coal briquettes stacked | 12.75 | – |\n|  | Charcoal | 2.95 | – |\n|  | Coal: |  |  |\n|  | Untreated, mine-moist | 9.80 | 35 |\n|  | In washeries | 11.75 | 0 |\n|  | Dust | 6.85 | 25 |\n|  | All other sorts | 8.35 | 35 |\n|  | Coke: |  |  |\n|  | Furnace or gas | 4.90 | 35 |\n|  | Brown coal, low-temperature | 9.80 | 35 |\n|  | Hard, raw coal | 8.35 | 35 |\n|  | Hard, raw coal, mine-damp | 9.80 | 35 |\n|  | Diesel oil | 9.40 | 0 |\n|  | Firewood, chopped | 3.90 | 45 |\n|  | Petrol | 6.75 | 0 |\n|  | Wood in chips | 1.95 | 45 |\n|  | Wood shaving, loose | 1.45 | 35 |\n|  | Wood shaving, shaken down | 2.45 | 35 |\n| 4. | Manures |  |  |\n|  | Animal manures: |  |  |\n|  | Loosely heaped | 11.75 | 45 |\n|  | Stacked dung up to 25 m stack height | 17.65 | 45 |\n|  | Artificial manures | 11.75 | 24 to 30 |\n| 5. | Metals and Alloys |  |  |\n|  | Aluminium | 25.30 to 26.60 |  |\n|  | Cast | 25.30 to 26.60 | – |\n|  | Wrought | 25.90 to 27.45 | – |\n|  | Sheet per mm of thickness per m2 | 0.028 | – |\n|  | Antimony, pure: |  |  |\n|  | Amorphous | 60.90 | – |\n|  | Solid | 65.70 | – |\n|  | Bismuth: |  |  |\n|  | Liquid | 98.07 | – |\n|  | Solid | 95.02 to 97.9 | – |\n\n\n\n\n\n\n| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n|  | Cadmium: |  |  |\n|  | Cast | 83.75 to 84.05 | – |\n|  | Wrought | 85.03 | – |\n|  | Calcium | 15.60 | – |\n|  | Chromium | 63.95 to 66.00 | – |\n|  | Cobalt: |  |  |\n|  | Cast | 83.25 to 85.10 | – |\n|  | Wrought | 88.45 | – |\n|  | Copper: |  |  |\n|  | Cast | 86.20 to 87.65 | – |\n|  | Wrought | 86.70 to 87.65 | – |\n|  | Sheet per mm of thickness | 0.09 | – |\n|  | Gold: |  |  |\n|  | Cast | 188.75 to 189.55 | – |\n|  | Wrought | 189.55 | – |\n|  | Iron: |  |  |\n|  | Pig | 70.60 | – |\n|  | Grey, cast | 68.95 to 69.90 | – |\n|  | White, cast | 74.35 to 75.70 | – |\n|  | Wrought | 75.50 | – |\n|  | Lead: |  |  |\n|  | Cast | 111.20 | – |\n|  | Liquid | 105.00 | – |\n|  | Wrought | 111.40 | – |\n|  | Sheet per mm of thickness | 0.11 | – |\n|  | Magnesium | 16.45 to 17.15 | – |\n|  | Manganese | 72.55 | – |\n|  | Mercury | 133.35 | – |\n|  | Nickel | 81.20 to 87.20 | – |\n|  | Platinum | 210.25 | – |\n|  | Silver: |  |  |\n|  | Cast | 102.0 to 102.85 | – |\n|  | Liquid | 93.15 | – |\n|  | Wrought | 103.35 to 103.55 | – |\n|  | Sodium: |  |  |\n|  | Liquid | 9.10 | – |\n|  | Solid | 9.30 | – |\n|  | Tungsten | 188.30 | – |\n|  | Uranium | 180.45 | – |\n|  | Zinc |  |  |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 32,
+      "page_end": 33,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 59460,
+      "char_end": 62212,
+      "semantic_chunk_length": 2752,
+      "final_chunk_length": 3054,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0031",
+    "text": "0 | – |\n|  | Platinum | 210.25 | – |\n|  | Silver: |  |  |\n|  | Cast | 102.0 to 102.85 | – |\n|  | Liquid | 93.15 | – |\n|  | Wrought | 103.35 to 103.55 | – |\n|  | Sodium: |  |  |\n|  | Liquid | 9.10 | – |\n|  | Solid | 9.30 | – |\n|  | Tungsten | 188.30 | – |\n|  | Uranium | 180.45 | – |\n|  | Zinc |  |  |\n\n| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n|  | Cast | 68.95 to 70.20 | – |\n|  | Wrought | 70.50 | – |\n|  | Sheet per mm of thickness | 0.07 | – |\n|  | Alloys: |  |  |\n|  | Aluminium and copper |  |  |\n|  | Aluminium 10 percent, copper 90 percent | 75.40 | – |\n|  | Aluminium 5 percent, copper 95 percent | 82.00 | – |\n|  | Aluminium 3 percent, copper 97 percent | 85.10 | – |\n|  | Aluminium 91 percent zinc 9 percent | 27.45 | – |\n|  | Babbit metal (tin 90 percent, lead 5 percent, copper 5 percent) | 71.70 | – |\n|  | Wood’s metal (bismuth 50 percent,lead 25 percent, cadmium 12.5 percent,tin 12.5 percent) | 95.00 | – |\n|  | Brasses: |  |  |\n|  | Muntz metal (copper 60 percent, zinc 40 percent) | 80.60 | – |\n|  | Red (copper 90 percent, zinc 10 percent) | 84.25 | – |\n|  | White (copper 50 percent, zinc 50 percent) | 80.30 | – |\n|  | Yellow (copper 70 percent, zinc 30 percent) |  |  |\n|  | Cast | 82.75 | – |\n|  | Drawn | 85.10 | – |\n|  | Rolled | 83.85 | – |\n|  | Bronzes: |  |  |\n|  | Bell metal (copper 80 percent, tin 20 percent) | 85.60 | – |\n|  | Gun metal (copper 90 percent, tin 10 percent) | 86.10 | – |\n|  | Cadmium and tin | 75.40 | – |\n|  | German silver: |  |  |\n|  | Copper 52 percent, zinc 26 percent, nickel 22 percent | 82.75 | – |\n|  | Copper 59 percent, zinc 30 percent, nickel 11 percent | 81.70 | – |\n|  | Copper 63 percent, zinc 30 percent, nickel 7 percent | 81.40 | – |\n|  | Gold and Copper: |  |  |\n|  | Gold 98 percent, copper 2 percent | 184.75 | – |\n|  | Gold 90 percent, copper 10 percent | 168.20 | – |\n|  | Lead and Tin: |  |  |\n|  | Lead 87.5 percent, tin 12.5 percent | 103.85 | – |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 34,
+      "page_end": 34,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 62219,
+      "char_end": 63917,
+      "semantic_chunk_length": 1698,
+      "final_chunk_length": 2000,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0032",
+    "text": "| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n|  | Lead 30.5 percent, tin 69.5 percent | 81.10 | – |\n|  | Monel metal cast (nickel 70 percent, copper 30 percent) | 87.00 | – |\n|  | Steel: |  |  |\n|  | Cast | 77.00 | – |\n|  | Wrought mild | 76.30 | – |\n|  | Black plate per mm of thickness | 0.08 | – |\n|  | Steel sections (see 46 ‘Steel sections’ in this Table) |  |  |\n| 6. | Miscellaneous Materials |  |  |\n|  | Aggregate, coarse | 10.80 to 15.70 | 30 |\n|  | Ashes, coal, dry, 12 mm and under | 5.50 to 6.30 | 40 |\n|  | Ashes, coal, dry, 75 mm and under | 5.50 to 6.30 | 38 |\n|  | Ashes, coal, wet 12 mm and under | 7.05 to 7.85 | 52 |\n|  | Ashes, coal, wet 75 mm and under | 7.05 to 7.85 | 50 |\n|  | Asphalt, crushed 12 mm and under | 7.05 | 30 to 45 |\n|  | Ammonium nitrate, polls | 3.55 to 8.35 | 27 |\n|  | Bone | 18.65 | – |\n|  | Books and files, stacked | 8.35 | – |\n|  | Calcium ammonium nitrate | 9.80 | 28 |\n|  | Copper sulphate, ground | 11.75 | 30 |\n|  | Chalk | 21.95 | – |\n|  | Chinaware, earthenware, stacked (including cavities) | 10.80 | – |\n|  | Clinker, furnace, clean | 7.85 | 30 |\n|  | Diammonium phosphate | 7.85 to 8.50 | 29 |\n|  | Double salt (ammonium sulphate nitrate) | 7.05 to 9.30 | 34 |\n|  | Filling cabinet and cupboards with contents in records offices, libraries, archives | 5.90 | – |\n|  | Flue dust, boiler house, dry | 5.50 to 7.05 | 30 |\n|  | Fly ash, pulverised | 5.50 to 7.05 | – |\n|  | Glass, solid | 23.50 to 26.70 | – |\n|  | Wool | 0.16 to 1.18 | – |\n|  | In sheets | 25.50 | – |\n|  | Glue | 12.55 | – |\n|  | Gypsum, calcined, 12mm and under | 8.60 to 9.40 | 40 |\n|  | Gypsum, calcined, powdered | 9.40 to 12.55 | 45 |\n|  | Gypsum, raw, 25 mm and under | 14.10 to 15.70 | 30 to 45 |\n|  | Hides: |  |  |\n|  | Dry Salted Only green | 8.65 | – |\n|  |  | 8.90 | – |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 35,
+      "page_end": 35,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 63924,
+      "char_end": 65800,
+      "semantic_chunk_length": 1876,
+      "final_chunk_length": 1876,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0033",
+    "text": "eets | 25.50 | – |\n|  | Glue | 12.55 | – |\n|  | Gypsum, calcined, 12mm and under | 8.60 to 9.40 | 40 |\n|  | Gypsum, calcined, powdered | 9.40 to 12.55 | 45 |\n|  | Gypsum, raw, 25 mm and under | 14.10 to 15.70 | 30 to 45 |\n|  | Hides: |  |  |\n|  | Dry Salted Only green | 8.65 | – |\n|  |  | 8.90 | – |\n\n| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n|  | Ice |  |  |\n|  | Leather put in rows | 7.85 | – |\n|  | Lime, ground, 3 mm and under | 9.40 | ˃ 45 |\n|  | Lime, hydrated, 3 mm and under | 6.30 | 30 to 45 |\n|  | Lime, hydrated, pulverized | 5.00 to 6.30 | 30 to 45 |\n|  | Lime pebble | 8.25 to 8.75 |  |\n|  | Limestone, agricultural, 3 mm and under | 10.60 |  |\n|  | Limestone, crushed | 13.30 to 14.10 | 30 to 45 |\n|  | Limestone dust | 8.65 to 14.90 | 30 to 45 |\n|  | Magnesite, caustic, in powder form | 7.85 | – |\n|  | Magnesite sinter and Magnesite granular | 19.60 | – |\n|  | Phosphate, rock, pulverized | 9.40 | 40 to 52 |\n|  | Phosphate rock | 11.75 to 13.35 | 30 to 45 |\n|  | Phosphate sand | 14.10 to 15.70 | 30 to 45 |\n|  | Potassium carbonate | 7.95 | 30 to 45 |\n|  | Potassium chloride, pellets | 18.85 to 20.40 | 30 to 45 |\n|  | Potassium nitrate | 4.85 | ˃ 30 |\n|  | Potassium sulphate | 6.55 to 7.45 | 45 |\n|  | Pyrites, pellets | 18.85 to 20.40 | 30 to 45 |\n|  | Pumice | 5.80 to 9.90 | – |\n|  | Rubbish: |  |  |\n|  | Building | 13.80 | – |\n|  | General | 6.30 | – |\n|  | Salt, common, dry, coarse | 6.30 to 10.00 | 30 to 45 |\n|  | Salt, common, dry, fine | 11.00 to 12.55 | 30 to 45 |\n|  | Salt cake, dry, coarse | 13.35 | 30 |\n|  | Salt cake, dry, pulverized | 11.20 to 13.35 | 35 |\n|  | Sand, bank. damp | 17.25 to 20.40 | 45 |\n|  | Sand, bank, dry | 14.10 to 17.25 | 30 |\n|  | Sand, silica, dry | 14.10 to 15.70 | 30 to 45 |\n|  | Saw dust, loose | 1.57 | 30 |\n|  | Silica gel | 4.40 | 30 to 45 |\n|  | Soda ash, heavy | 8.67 to 10.20 | 35 |\n|  | Soda ash, light | 4.70 to 6.00 | 37 |\n|  | Sodium nitrate, granular | 11.00 to 12.55 | 24 |\n|  | Sulphur, crushed, 12 mm and under | 7.85 to 8.25 | 35 to 45 |\n|  | Sulphur, 76 mm and under | 8.65 to 13.35 | 32 |\n|  | Sulphur, powdered | 7.85 to 9.40 | 30 to 45 |\n|  | Single superphosphate ( S.S.P), granulated | 7.65 to 8.25 | 37 |\n|  | Slag, furnace, crushed | 14.90 | 35 |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 33,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 36,
+      "page_end": 36,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 65807,
+      "char_end": 67821,
+      "semantic_chunk_length": 2014,
+      "final_chunk_length": 2316,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0034",
+    "text": " to 12.55 | 24 |\n|  | Sulphur, crushed, 12 mm and under | 7.85 to 8.25 | 35 to 45 |\n|  | Sulphur, 76 mm and under | 8.65 to 13.35 | 32 |\n|  | Sulphur, powdered | 7.85 to 9.40 | 30 to 45 |\n|  | Single superphosphate ( S.S.P), granulated | 7.65 to 8.25 | 37 |\n|  | Slag, furnace, crushed | 14.90 | 35 |\n\n| Sl No. | Materials | Weight KN/m3 | Angle of Friction, Degrees |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n|  | Steel goods: |  |  |\n|  | Cylinders, usually stored for Carbonic acid, etc | 13.80 |  |\n|  | Sheets, railway rails, etc, usually stored | 44.00 |  |\n|  | Trisodium phosphate | 9.40 | 30 to 45 |\n|  | Triple superphosphate | 7.85 to 8.65 | 30 to 45 |\n|  | Turf | 2.85 to 5.70 | – |\n|  | Urea, prills | 6.40 | 23 to 26 |\n| 7. | Ores |  |  |\n|  | Antimony | 29.80 | – |\n|  | Ferrous sulphide | 26.50 | – |\n|  | Ferrous sulphide ore waste after roasting | 13.85 | – |\n|  | Iron ore, compact storing | 29.80 | – |\n|  | Magnesium ore | 19.60 | – |\n| 8. | Textiles, Paper and Allied Materials |  |  |\n|  | Cellulose in bundles | 7.35 | – |\n|  | Cotton, compressed | 12.75 | – |\n|  | Flax, piles and compressed in bales | 2.95 | – |\n|  | Furs | 8.80 | – |\n|  | Jute in bundles | 6.85 | – |\n|  | Paper: |  |  |\n|  | In bundles and rolls | 6.85 | – |\n|  | Newspaper in bundles | 3.90 | – |\n|  | Put in rows | 10.80 | – |\n|  | Thread in bundles | 4.90 | – |\n|  | Wood, compressed | 12.75 | – |\n\n\n\n\n\n\n## ANNEX A\n\n(Clause 2)\n\nLIST OF REFERRED STANDARDS\n\nIS No. Title\n\nIS 212 : 2021 Crude coal tar for general use (third revision)\n\nIS 216 : 2006 Coal tar pitch — Specification (second revision)\n\nIS 269 : 2015 Ordinary Portland Cement — Specification (sixth revision)\n\nIS 277 : 2018 Galvanized steel strips and sheets (Plain and Corrugated) — Specification (seventh revision)\n\nIS 303 : 2024 Plywood for General Purposes — Specification (fourth revision)\n\nIS 383 : 2025 Coarse and fine aggregate for concrete — Specification (fourth revision) under revision\n\nIS 399 : 1963 Classification of commercial timbers and their zonal distribution (revised)\n\nIS 404 (Part1) :",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 34,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 37,
+      "page_end": 38,
+      "clause": "4.1",
+      "heading": "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2.",
+      "heading_path": [
+        "4 STORED AND MISCELLANEOUS MATERIALS",
+        "4.1 Units weights of stored and miscellaneous materials intended for dead load calculation and other general purposes are given in Table 2."
+      ],
+      "char_start": 67828,
+      "char_end": 69602,
+      "semantic_chunk_length": 1774,
+      "final_chunk_length": 2076,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0035",
+    "text": " revision)\n\nIS 303 : 2024 Plywood for General Purposes — Specification (fourth revision)\n\nIS 383 : 2025 Coarse and fine aggregate for concrete — Specification (fourth revision) under revision\n\nIS 399 : 1963 Classification of commercial timbers and their zonal distribution (revised)\n\nIS 404 (Part1) :\n\n## 1993 Lead pipes — Specification: Part 1 For other than chemical purposes (third revision)\n\nIS 412 : 1975 Specification for expanded metal steel sheets for general purposes (second revision)\n\nIS 457 : 1957 Code of practice for general construction of plain and reinforced concrete for dams and other massive structures\n\nIS 458 : 2021 Precast concrete pipes (with and without reinforcement) — Specification (fifth revision)\n\nIS 459 : 1992 Corrugated and semi- corrugated asbestos cement sheets — Specification (third revision)\n\nIS 651 : 2007 Glazed stoneware pipes and fittings — Specification (sixth revision)\n\nIS 653 : 1992 Linoleum sheets and tiles — Specification (third revision)\n\nIS No. Title\n\nIS 654 : 2025 Clay roofing tiles mangalore Pattern —  Specification (fifth revision) under revision\n\nIS 808 : 2021 Hot rolled steel beam, column, channel and angle sections — Dimensions and properties (fourth revision)\n\nIS 809 : 1992 Rubber flooring materials for general purposes — Specification (first revision)\n\nIS 811 : 1987 Specification for cold formed light gauge structural steel sections (second revision)\n\nIS 1077 : 2025 Common burnt clay building bricks — Specification (sixth revision)\n\nIS 1173 : 1978 Specification for hot rolled and slit steel tee bars (second revision)\n\nIS 1322 : 1993 Bitumen Felts for Water Proofing and Damp-proofing — Specification (fourth revision)\n\nIS 1343 : 2012 Prestressed concrete — Code of Practice (second revision)\n\nIS 1478 : 2023 Clay flooring tiles specification (third revision)\n\nIS 1536 : 2023 Centrifugally cast (Spun) iron pressure pipes for water, gas and sewage — Specification (fifth revision)\n\nIS 1537 : 1976 Specification for vertically cast iron pressure pipes for water, gas and sewage (first revision)\n\nIS 1592 : 2003 Asbestos cement pressure pipes and joints — Specification (fourth revision)\n\nIS 1626 Asbestos cement building pipes and pipe fittings, gutters and gutter fittings and roofing fittings — Specification:\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n\n\n\n\nIS No. Title\n\n(Part 1) : 1994 Pipe and pipe fittings (second revision)\n\n(Part 2) : 1994 Gutter and gutter fittings (second revision)\n\nIS 1658 : 2006 Fibre hardboards — Specification (third revision)\n\nIS 1725 : 2023 Stabilized soil blocks used in general building construction — Specification (third revision)\n\nIS 1726 : 1991 Cast iron manhole covers and frames — Specification (third revision)\n\nIS 1729 : 2023 Sand cast iron spigot and socket pipes, fittings and accessories — Specification (third revision)\n\nIS 2095 Gypsum plaster boards — Specification:\n\n(Part 1) : 2011 Plain gypsum plaster boards (fourth revision)\n\n(Part 2) : 2022 Coated laminated gypsum plaster boards (third revision)\n\n(Part 3) : 2022 Reinforced gypsum plaster boards and ceiling tiles (fourth revision)",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 35,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 38,
+      "page_end": 39,
+      "clause": "1993",
+      "heading": "1993 Lead pipes — Specification: Part 1 For other than chemical purposes (third revision)",
+      "heading_path": [
+        "1993 Lead pipes — Specification: Part 1 For other than chemical purposes (third revision)"
+      ],
+      "char_start": 69605,
+      "char_end": 72520,
+      "semantic_chunk_length": 2915,
+      "final_chunk_length": 3217,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0036",
+    "text": "Specification (third revision)\n\nIS 2095 Gypsum plaster boards — Specification:\n\n(Part 1) : 2011 Plain gypsum plaster boards (fourth revision)\n\n(Part 2) : 2022 Coated laminated gypsum plaster boards (third revision)\n\n(Part 3) : 2022 Reinforced gypsum plaster boards and ceiling tiles (fourth revision)\n\nIS 2180 : 2025 Specification for heavy duty burnt clay building bricks (fourth revision) under revision\n\nIS 2185 Concrete masonry units — Specification\n\n(Part 1) : 2005 Part 1 hollow and solid concrete blocks (third revision)\n\n(Part 3) : 1984 Part 3 Autoclaved Cellular Aerated Concrete Blocks\n\nIS 2222 : 2025 Specification for burnt clay perforated building bricks (fourth revision) under revision\n\nIS IS 2314 Steel Sheet Piling Section –– Specification\n\n(Part 1) : 2023 Part 1 Hot Rolled Sheet Pile (second revision)\n\n\nIS 875 (Part 1) : 2026\n\nIS No. Title\n\n(Part 2) : 2023 Part 2 Cold Formed Sheet Pile (second revision)\n\nIS 2394 : 1984 Code of Practice For Application of Lime Plaster Finish (first revision)\n\nIS 2508 : 2024 Polyethylene films and sheets — Specification (fourth revision)\n\nIS 2526 : 1963 Code of practice for acoustical design of auditoriums and conference halls\n\nIS 2541 : 1991 Preparation and use of lime concrete — Code of practice (second revision)\n\nIS 2547 Specification for gypsum building plaster\n\n(Part 1) : 1976 Excluding premixed lightweight plasters (first revision)\n\n(Part 2) : 1976 Premixed lightweight plasters (first revision)\n\nIS 2553 (Part 1) :",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 36,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 39,
+      "page_end": 39,
+      "clause": "1993",
+      "heading": "1993 Lead pipes — Specification: Part 1 For other than chemical purposes (third revision)",
+      "heading_path": [
+        "1993 Lead pipes — Specification: Part 1 For other than chemical purposes (third revision)"
+      ],
+      "char_start": 72522,
+      "char_end": 73703,
+      "semantic_chunk_length": 1181,
+      "final_chunk_length": 1483,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0037",
+    "text": "s\n\nIS 2541 : 1991 Preparation and use of lime concrete — Code of practice (second revision)\n\nIS 2547 Specification for gypsum building plaster\n\n(Part 1) : 1976 Excluding premixed lightweight plasters (first revision)\n\n(Part 2) : 1976 Premixed lightweight plasters (first revision)\n\nIS 2553 (Part 1) :\n\n## 2018 Safety glass — Specification: Part 1 architectural, building and general uses (fourth revision)\n\nIS 2835 : 1987 Specification for flat transparent sheet glass (third revision)\n\nIS 3087 : 2005 Particle boards of wood and other lignocellulosic materials (medium density) for general purposes – Specification (second revision)\n\nIS 3115 : 1992 Lime based blocks — Specification (second revision)\n\nIS 3129 : 1985 Specification for low density particle boards\n\nIS 3348 : 1965 Specification for fibre insulation boards\n\nIS 3478 : 1966 Specification for high density wood particle boards\n\nIS 4139: 1989 Calcium Silicate Bricks — Specification (second revision)\n\n\n\nIS No. Title\n\nIS 4253 Cork composition sheets — Specification\n\n(Part 1) : 2008 Plain cork sheets (second revision)\n\n(Part 2) : 2008 Cork and rubber (second revision)\n\nIS 4671: 2018 Expanded polystyrene for thermal insulation purposes (second revision)\n\nIS 486 0: 1968 Specification for acid — Resistant bricks\n\nIS 4923 : 2017 Hollow steel sections for structural use — Specification (third revision)\n\nIS 6072 : 2023 Autoclaved reinforced cellular concrete wall slabs — Specifications (first revision)\n\nIS 6598 : 2018 Cellular concrete for thermal insulation - Specification (first revision)\n\nIS 8041 : 1990 Rapid hardening portland cement — Specification (second revision)\n\nIS 9012 : 1978 Recommended practice for shotcreting\n\nIS 12679 : 2023 By-product gypsum for construction — Specification (second revision)\n\nIS 12823 : 2015 Prelaminated particle boards from wood and other\n\n\nIS No. Title\n\nlignocellulosic material — Specification (first revision)\n\nIS 12894 : 2002 Pulverized fuel ash — Lime bricks — Specification (first revision)\n\nIS 14443 : 1997 Polycarbonate sheets — Specification\n\nIS 14587 : 2023 Prelaminated medium density fibre board — Specification\n\nIS 14635 Fluoropolymer dispersions and moulding and extrusion materials\n\n(Part 1) : 2020 Designation system (first revision)\n\n(Part 2) : 2020 Preparation of test specimens and determination of properties (first revision)\n\nIS 14753 : 1999 Polymethyl methacrylate (pmma) (acrylic) sheets\n\nIS 14862 : 2000 Fibre cement flat sheets — specification\n\nIS 15622 : 2017 Pressed ceramic tiles — Specification (first revision)\n\nIS 15658 : 2001 Concrete paving blocks — Specification (first revision)\n\nIS 16720 : 2018 Pulverized fuel ash-cement bricks — Specification\n\nIS 17452 : 2020 Use of alkali activated concrete for precast products — Guidelines",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 37,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 39,
+      "page_end": 40,
+      "clause": "2018",
+      "heading": "2018 Safety glass — Specification: Part 1 architectural, building and general uses (fourth revision)",
+      "heading_path": [
+        "2018 Safety glass — Specification: Part 1 architectural, building and general uses (fourth revision)"
+      ],
+      "char_start": 73706,
+      "char_end": 76173,
+      "semantic_chunk_length": 2467,
+      "final_chunk_length": 2769,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "875_1_2026_0038",
+    "text": "tion\n\nIS 15622 : 2017 Pressed ceramic tiles — Specification (first revision)\n\nIS 15658 : 2001 Concrete paving blocks — Specification (first revision)\n\nIS 16720 : 2018 Pulverized fuel ash-cement bricks — Specification\n\nIS 17452 : 2020 Use of alkali activated concrete for precast products — Guidelines\n\n## ANNEX B\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: CED 37 (27769).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "875_1_2026.md",
+      "chunk_index": 38,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 41,
+      "page_end": 41,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 76178,
+      "char_end": 77614,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 875",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

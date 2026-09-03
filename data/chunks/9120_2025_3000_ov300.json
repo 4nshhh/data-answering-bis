@@ -1,0 +1,354 @@
+[
+  {
+    "id": "9120_2025_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nJune 2025 Price Group 8\n\n\n\n\nHydroelectric Power House Structures Sectional Committee, WRD 15\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards after the draft was finalized by the Hydroelectric Power House Structures Sectional Committee and had been approved by the Water Resources Division Council.\n\nWith the progressive harnessing of the hydroelectric potential in the country an increasingly large number of underground hydroelectric power stations are being built. These stations are housed in underground cavities in order to utilize the available head at places where surface hydroelectric power station construction is not possible. The importance of laying down guidelines for planning and layout of these cavities is evident considering the huge investment being made in constructing underground hydroelectric power stations and the economy that can be affected by following these guidelines.\n\nThis standard was first published in 1979. The revision of this standard has been brought out to bring the standard in its latest style and update it with respect to the latest technological advancements and the best practices being followed in the field.\n\nThe following major modifications have been incorporated to the revision of the standard:\n\n- a) Replacement of photoelastic model tests with numerical analyses for determining stress field around the cavity for various stages of excavation;\n- b) Addition of minimum effective rock cover, range of arch height of roof of the cavern and minimum rock width between two cavities;\n- c) Addition of numerical analysis for assessment of stability of cavities; and\n- d) Specifications for rock bolt length.\nThe composition of the Committee responsible for the revision of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test, shall be rounded off in accordance with IS 2 : 2022 ‘Rounding off numerical values (second revision)’. The number of significant places retained in the rounded-off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nPLANNING, LAYOUT AND DESIGN OF CAVITIES\n\n\nIN UNDERGROUND HYDROELECTRIC POWER\n\n\nSTATIONS — GUIDELINES\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard covers the guidelines for planning, layout and design of cavities in underground hydroelectric power stations.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2614,
+      "semantic_chunk_length": 2613,
+      "final_chunk_length": 2613,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0001",
+    "text": "in this standard.\n\n\n\n\nIndian Standard\n\n\nPLANNING, LAYOUT AND DESIGN OF CAVITIES\n\n\nIN UNDERGROUND HYDROELECTRIC POWER\n\n\nSTATIONS — GUIDELINES\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard covers the guidelines for planning, layout and design of cavities in underground hydroelectric power stations.\n\n## 2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the edition indicated was valid. All standards are subject to revision, and parties to agreement based on this standard are encouraged to investigate the possibility of applying the most recent edition of these standards:\n\nIS No. Title\n\nIS 1893 : 1984 Criteria for earthquake resistant design of structures (fourth revision)\n\nIS 13365 (Part 2) :\n\n\n2019 Quantitative classification systems of rock mass — Guidelines: Part 2 Rock mass quality for prediction of support pressure, support system and engineering properties in underground openings (first revision)\n\nIS 15026 Tunneling in rock masses — Guidelines:\n\n(Part 1) : 2022 Conventional tunneling methods (first revision)\n\n(Part 2) : 2023 Mechanized tunneling methods by tunnel boring machines\n\n\n## 3 REQUIREMENTS OF CAVITIES\n\n\n### 3.1 An underground hydroelectric power station may provide cavities for all or some of the following items:\n\n- a) Valve chamber housing the control valves;\n- b) Machine hall, housing the turbine and the\ngenerator and erection bay, required for assembly of rotor, stator, etc, and also as bay;\n\n- c) Transformer hall or deck required for locating the main transformer;\n- d) Control room;\n- e) Cable gallery or shaft for housing the cables from generator and auxiliaries to control room and transformer and from control room to switchyard;\n- f) Access gallery or shaft into the power station;\n- g) Ventilation tunnel or shaft; and\n- h) Collection gallery/downstream surge chamber; and\n- j) Escape tunnel.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 2617,
+      "char_end": 4272,
+      "semantic_chunk_length": 1655,
+      "final_chunk_length": 1957,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0002",
+    "text": "ery or shaft for housing the cables from generator and auxiliaries to control room and transformer and from control room to switchyard;\n- f) Access gallery or shaft into the power station;\n- g) Ventilation tunnel or shaft; and\n- h) Collection gallery/downstream surge chamber; and\n- j) Escape tunnel.\n\n## 4 LAYOUT OF CAVITIES\n\n\n4.1 Depending upon geology and the rock strata, approach and access facilities and arrangement of auxiliary openings, a number of layouts are possible. The alternatives given at 4.1.1 to 4.1.4 intended to serve as broad guidelines in initial planning of the underground power station may be considered.\n\n\n4.1.1 Control Valves may be Housed:\n\n- a) In separate cavity parallel to the machine hall on upstream side;\n- b) In the main cavity; and\n- c) In a separate cavity skew to the machine hall.\n\n4.1.2 Service Bay may be Located:\n\n- a) Between units in the centre of the cavity; and\n- b) On one side of the machine hall.\n\n4.1.3 Transformers may be Placed:\n\n- a) In a separate cavity parallel to the machine hall;\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n\n\n\n- b) In a separate cavity at right angles to the machine hall;\n- c) In the machine hall with lateral cavities on either side;\n- d) In the main cavity along the wall of the machine hall; and\n- e) In the machine hall in continuation of the service bay.\n\n4.1.4 Control Room may be Located:\n\n- a) In an independent cavity;\n- b) In the main cavity and located centrally between units but separate from the units; and\n- c) In the main cavity on either side of the machine hall.\n\n4.1.5 Based on the arrangement chosen from the alternatives given at 4.1.1 to 4.1.4, the layout of cavities may be classified as (see Fig. 1):",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "4",
+      "heading": "4 LAYOUT OF CAVITIES",
+      "heading_path": [
+        "4 LAYOUT OF CAVITIES"
+      ],
+      "char_start": 4274,
+      "char_end": 5784,
+      "semantic_chunk_length": 1510,
+      "final_chunk_length": 1812,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0003",
+    "text": "ty;\n- b) In the main cavity and located centrally between units but separate from the units; and\n- c) In the main cavity on either side of the machine hall.\n\n4.1.5 Based on the arrangement chosen from the alternatives given at 4.1.1 to 4.1.4, the layout of cavities may be classified as (see Fig. 1):\n\n- a) Parallel arrangement, in which valve house, machine hall and transformer hall are situated in parallel independent cavities. Service bay and control room may be located in line with the machine hall. While this arrangement limits the size of individual cavities and leads to a greater safety in the case of fire hazards or pipe burst, the volume of excavation increases and separate erection cranes are required in the parallel cavities. On structural considerations, discourage provision of crown of the cavities at same elevations, particularly, when large sized cavities are planned such as transformer hall, machine hall, downstream surge chamber, etc.\n- b) Linear arrangement, in which valves, machine hall, transformers, service bay and control room are all located in one single large cavity. One common access serves all the component units as also a single gantry crane installed for the generating units can be used for handling the transformer also. The cables from the units to transformers may be taken along the walls of the machine hall and no separate bus bar gallery is needed. This arrangement limits\nthe span in the cavity.\n\n- c) Composite arrangement, in which the control valves, generating unit and transformers are all located in the machine hall cavity, valves located on the upstream side and the transformers on the downstream side. This arrangement reduces the length of the cables to a minimum, a single crane serves all the purposes and only one access gallery is required. This arrangement requires a cavity of comparatively large span, possible only in good geological condition.\n- d) Perpendicular and skew arrangement, in which transformers may be located at right angles or skew to the machine hall.\n\n#### 4.1.6 Alternative layout arrangements are shown in Fig. 2 to Fig. 6.\n\n\n4.1.7 With a view to limiting the size of the cavity and to meet with the specific geological conditions, the relative layout of the control valves, machine hall, transformer hall, service bay and control room may find great variations. As such each underground power station tends to be individualistic in its layout. Further changes from the originally planned layout may be necessary to cope with the adverse geological features met with as the excavation progresses.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "4",
+      "heading": "4 LAYOUT OF CAVITIES",
+      "heading_path": [
+        "4 LAYOUT OF CAVITIES"
+      ],
+      "char_start": 5786,
+      "char_end": 8072,
+      "semantic_chunk_length": 2286,
+      "final_chunk_length": 2588,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0004",
+    "text": "rmer hall, service bay and control room may find great variations. As such each underground power station tends to be individualistic in its layout. Further changes from the originally planned layout may be necessary to cope with the adverse geological features met with as the excavation progresses.\n\n### 4.2 The location of the transformers in the underground cavity is a matter of pure economics, as insulation of cables does not pose a problem.\n\n\n4.3 The machine hall cavity housing the generating units is the single largest cavity in an underground power station and utmost care and planning shall be exercised to limit its size. Some of the possible ways in which this may be done are as follows, depending upon the rock condition:\n\n- a) Optimizing unit size;\n- b) Lifting the rotor off its spider rather than by shaft;\n- c) Using two cranes with an equalizing lifting beam permitting the rotor shaft to extend between the cranes; and\n- d) Deleting gantry columns and casting gantry beams on rock ledges on both sides.\n\n\n\n\nFIG.1 TYPES OF LAYOUT FOR UNDERGROUND POWER STATIONS (BUS DUCT GALLERIES CONNECTING POWER HOUSE CAVITY AND TRANSFORMER HALL CAVITY NEED TO BE PROVIDED AS PER THE SUITABLE ARRANGEMENT\n\nCHOSEN FOR LAYOUT OF UNDERGROUND POWER STATIONS)\n\n\n\n\nVALVE\n\nHOUSE\n\nPRESSURE\n\nSHAFT\n\nACCESS\n\nTUNNEL\n\nMACHINE\n\nHALL\n\nBAY\n\nSERVICE\n\nTRANSFORMER\n\nHALL\n\nCABLE\n\nTUNNEL\n\nCONTROL\n\nROOM\n\nCABLE\n\nTUNNEL\n\nVETLATO\n\nTUNNEL\n\n\n**FIG. 2A TYPICAL LAYOUT -1**\n\n\n\n\n**FIG. 2B  TYPICAL LAYOUT -2**\n\nFIG.2 LAYOUT OF PARALLEL HALL ARRANGEMENT IN POWER STATION\n\n\n\n\n**FIG. 3 LAYOUT OF LINEAR ARRANGEMENT POWER STATION**\n\n\n\n\n**FIG. 4A  TYPICAL LAYOUT 3D**\n\n\n**FIG. 4B TYPICAL LAYOUT 2D**\n\nFIG.4 LAYOUT OF COMPOSITE ARRANGEMENT IN POWER STATION\n\n\n\n\n**FIG. 5 LAYOUT OF PERPENDICULAR ARRANGEMENT POWER STATION**\n\n\n**FIG. 6 LAYOUT OF SKEW ARRANGEMENT POWER STATION**\n\n\n\n\n4.4 Access to power station may be provided through vertical shafts and/or inclined galleries. For use in emergency, provision of alternative route through tunnels/shafts provided for cables, ventilation etc, should also be considered.\n\n\n4.5 Cables (high tension or low tension) from the transformer/generating unit to surface switchyard may be carried in cable tunnels or vertical shaft.\n\n\n4.6 Air for ventilation may be drawn through separate ventilation tunnels, cable cum ventilation tunnel or access cum ventilation shaft.\n\n\n4.7 A collection gallery or a downstream surge tank may be required for meeting fluctuation in discharge as a result of load variation, especially if there is a long tail race tunnel.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 11,
+      "clause": "4.2",
+      "heading": "4.2 The location of the transformers in the underground cavity is a matter of pure economics, as insulation of cables does not pose a problem.",
+      "heading_path": [
+        "4 LAYOUT OF CAVITIES",
+        "4.2 The location of the transformers in the underground cavity is a matter of pure economics, as insulation of cables does not pose a problem."
+      ],
+      "char_start": 8075,
+      "char_end": 10340,
+      "semantic_chunk_length": 2265,
+      "final_chunk_length": 2567,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0005",
+    "text": "n may be drawn through separate ventilation tunnels, cable cum ventilation tunnel or access cum ventilation shaft.\n\n\n4.7 A collection gallery or a downstream surge tank may be required for meeting fluctuation in discharge as a result of load variation, especially if there is a long tail race tunnel.\n\n## 5 DATA REQUIRED\n\nThe following data shall be collected:\n\n- a) Topographic plan of the area;\n- b) Surface and subsurface geological plan of the area;\n- c) Log charts of drifts, boreholes and open excavation;\n- d) Evaluation of mechanical defects in the geological structure of rock, such as folds and associated fractures, faults and related crushing and fracturing; joints, their spacing and pattern; other weakness such as cleavage, bedding plane schistosity, slip plane shear plane, etc;\n- e) Inferred geology along the proposed cavities;\n- f) Depth of unconsolidated material or solid rock;\n- g) Topography and its relation to attaining desired depth of cover;\n- h) Ground water assessment, such as presence of aquifers and aquifuges, chemical properties of water;\n- j) Water pressure tests on representative rock of cavity;\n- k) Grout pressure versus grout mix curve;\n- m) Physical properties of rock and of material\nfilling rock joints;\n\n- n) In-situ Young’s Modulus of rock, its shear strength and coefficient of sliding friction;\n- p) In-situ internal rock stresses;\n- q) Pull out tests on rock bolts and test on\ninstallation of grouted anchors;\n\n- r) Size and dimension of construction equipment, such as pulling unit with the trailer and its turning radius, size of jumbos, size of the largest piece of equipment required to be carried into the cavity; maximum gradient on which the equipment can move, etc; and\n- s) Electromechanical requirements, such as dimensions of unit bays, service bay, control room, transformer hall, if underground, mode of carrying generator terminal connection and high tension or low tension cables, detailed layout of equipment in the power station along with their loads and point of application, air conditioning and ventilation arrangement, lighting arrangement.\n\n## 6 ROCK COVER\n\nEffective rock cover below the line of slumping should be provided depending upon the condition of rock. In good/very good rocks, a minimum effective rock cover equal to 2.0 times the span of cavity may be provided.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "5",
+      "heading": "5 DATA REQUIRED",
+      "heading_path": [
+        "5 DATA REQUIRED"
+      ],
+      "char_start": 10343,
+      "char_end": 12385,
+      "semantic_chunk_length": 2042,
+      "final_chunk_length": 2344,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0006",
+    "text": "ir conditioning and ventilation arrangement, lighting arrangement.\n\n## 6 ROCK COVER\n\nEffective rock cover below the line of slumping should be provided depending upon the condition of rock. In good/very good rocks, a minimum effective rock cover equal to 2.0 times the span of cavity may be provided.\n\n## 7 ALIGNMENT OF CAVITIES\n\n\n7.1 An underground power station involves excavation of a large number of cavities within the rock mass. The rock in which the cavities may be located should be massive and least jointed, hard and of a quality competent to sustain a large opening.\n\n\n7.2 The largest rock span and most difficult part of the excavation within the power station is the machine hall. The machine hall may be oriented in that direction which utilizes to the greatest extent the rock arching action. This is normally achieved by aligning the cavity in a direction normal to the rock strike. However, where the joints, slip planes and seams are numerous, a detailed statistical survey of the ruling joint pattern and orientation of the seams may be carried out and as much regard should be given to these significant discontinuities in the rock mass as to the strike of the rock itself. The stability of an excavated cavity also depends on the principal in-situ stresses and their ratio. The cavity major axis may preferably be aligned along the direction of the maximum horizontal principal stress to avoid development of large stresses along the long wall of the cavity. However, the machine hall cavity alignment may be decided on the basis of an optimum compromise between the direction of the ruling strike, in-situ stress pattern and the direction of such features so as to ensure that inferior rock formation is confined to the shortest dimension of the cavity.\n\n\n\n\n### 7.3 Changes in originally planned layout may become obligatory arising from knowledge of rock condition encountered during actual excavation of the cavity.\n\n\n## 8 SHAPE OF CAVITY\n\nThe underground rock is under stress mainly due to the weight of the overlying rock and due to tectonic stresses. An underground opening due to redistribution of the existing rock stresses causes stress concentration in the rock surrounding the opening. Analysis of stresses around the opening is greatly handicapped due to heterogeneous character of rock mass, irregularities in the boundaries, presence of numerous fissures and slide planes, lack of knowledge of initial state of stress in the rock mass and the rock behaviour under elastic and plastic conditions. The initial state of stresses within the rock mass is best determined from in-situ tests. The best shape of cavity for the power station is one which gives the least stress concentration and does not lead to development of tension around the opening. The arch shape of the roof of the cavern is commonly chosen with an arch height of 1/3 to 1/5 of the span. Improved stability will result by increasing the roof arch height.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "7",
+      "heading": "7 ALIGNMENT OF CAVITIES",
+      "heading_path": [
+        "7 ALIGNMENT OF CAVITIES"
+      ],
+      "char_start": 12388,
+      "char_end": 15042,
+      "semantic_chunk_length": 2654,
+      "final_chunk_length": 2956,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0007",
+    "text": "ower station is one which gives the least stress concentration and does not lead to development of tension around the opening. The arch shape of the roof of the cavern is commonly chosen with an arch height of 1/3 to 1/5 of the span. Improved stability will result by increasing the roof arch height.\n\n## 9 ROCK WIDTH BETWEEN CAVITIES\n\nAdequate rock width between two cavities shall be provided depending upon the quality and the strength of the rock in which the cavities are located. In general, the rock width between two cavities shall be at least 1.5 H for poor rocks; and 1.0 H for fair and good rocks, where H is the height of larger cavity. The suitability of rock width shall be studied through numerical modeling.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "9",
+      "heading": "9 ROCK WIDTH BETWEEN CAVITIES",
+      "heading_path": [
+        "9 ROCK WIDTH BETWEEN CAVITIES"
+      ],
+      "char_start": 15045,
+      "char_end": 15466,
+      "semantic_chunk_length": 421,
+      "final_chunk_length": 723,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0008",
+    "text": "nd the strength of the rock in which the cavities are located. In general, the rock width between two cavities shall be at least 1.5 H for poor rocks; and 1.0 H for fair and good rocks, where H is the height of larger cavity. The suitability of rock width shall be studied through numerical modeling.\n\n## 10 ROOF SUPPORT OF CAVITY\n\n\n10.1 Underground power stations are usually located in competent rock not requiring extensive or expensive supporting arrangements. While selecting the method of roof support, due consideration should be given to the relative cost.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "10",
+      "heading": "10 ROOF SUPPORT OF CAVITY",
+      "heading_path": [
+        "10 ROOF SUPPORT OF CAVITY"
+      ],
+      "char_start": 15469,
+      "char_end": 15731,
+      "semantic_chunk_length": 262,
+      "final_chunk_length": 564,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0009",
+    "text": " studied through numerical modeling.\n\n## 10 ROOF SUPPORT OF CAVITY\n\n\n10.1 Underground power stations are usually located in competent rock not requiring extensive or expensive supporting arrangements. While selecting the method of roof support, due consideration should be given to the relative cost.\n\n#### 10.1.1 Roof support to the main cavity may take the form of one/combination of the following measures:\n\n- a) R.C.C. arch;\n- b) Steel ribs;\n- c) Rock bolting;\n- d) Shotcrete/fibre reinforced shotcrete; and\n- e) Lattice girder.\n\n10.1.2 The structural behaviour of R.C.C. arch and steel ribs are similar. These may be designed  as\n\narches subjected to loads enumerated in 10.2. The provision of lattice girder with shotcrete may be evaluated over steel ribs.\n\n\n10.2 The roof supports may be designed for those of the following loads which come on them:\n\n- a) Rock loads;\n- b) Weight of the arch itself and other directly imposed dead loads;\n- c) Water pressures;\n- d) Pressure imposed by grout;\n- e) Earthquake loads;\n- f) Force due to elastic and plastic deformation of the rock;\n- g) Temperature effect;\n- h) Shrinkage effect; and\n- j) Rib shortening effect.\n\n10.2.1 Rock loads may be determined in accordance with methods contained in IS 13365 (Part 2).\n\n\n10.2.2 Water pressure may be determined by actual observation. If adequate drainage is provided, this load may be neglected.\n\n10.2.3 Grout pressure, employed for rock consolidation, ranges from 3 kg/cm2 to 8 kg/cm2. Since grouting is done hole by hole, causing only local loads, it may be taken into account as under:\n\n\n- a) The grout pressure may be neglected or only a nominal value may be taken (10 percent to 20 percent);\n- b) The grout pressure may be taken as the only rock load in the design; and\n- c) Pressure imposed by grouting, being of transient nature, may not be combined with other loading conditions. However, the concrete lining may be checked for such loads with increased permissible stresses.\n\n10.2.4 Earthquake forces shall be computed in accordance with IS 1893. In case contact grouting is carried out after the construction of the roof arch, earthquake forces may be neglected.\n\n\n10.2.5 Temperature effects may be evaluated by considering temperature variation of 15 °C. Shrinkage effect may be taken as equivalent to a fall of temperature by 10° to 20 °C.\n\n\n10.2.6 Rib shortening effect may be taken at 5 percent to 10 percent of superimposed load.\n\n\n\n\n10.3 The structural behaviour of roof arch depends upon the extent to which the arch has become an integral part of the rock. Should the arch become an integral part of the rock, the superimposed loads will be mostly radial resulting in only compressive stresses in the arch section. In practice, however, the behaviour of the roof arch will be in between the following two limiting conditions:\n\n- a) Integral part of the rock; and\n- b) Completely free from rock except at the abutments.\nThe end conditions of the arch may be taken as between fixed and hinged.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "10.1.1",
+      "heading": "10.1.1 Roof support to the main cavity may take the form of one/combination of the following measures:",
+      "heading_path": [
+        "10 ROOF SUPPORT OF CAVITY",
+        "10.1.1 Roof support to the main cavity may take the form of one/combination of the following measures:"
+      ],
+      "char_start": 15734,
+      "char_end": 18433,
+      "semantic_chunk_length": 2699,
+      "final_chunk_length": 3001,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0010",
+    "text": "es in the arch section. In practice, however, the behaviour of the roof arch will be in between the following two limiting conditions:\n\n- a) Integral part of the rock; and\n- b) Completely free from rock except at the abutments.\nThe end conditions of the arch may be taken as between fixed and hinged.\n\n10.4 Rock bolting has been extensively employed as means of providing temporary and permanent support to the roof of the power station cavity. Rock bolt spacing shall be close and their length may be kept beyond the zone of plastic deformation. For preliminary design, their length may be kept at least equal to the radius of the opening or double the depth of the fractured zone.\n\n\n10.5 The assessment of support pressures and design of rock support system shall be as per IS 13365 (Part 2), IS 15026 (Part 1), and IS 15026 (Part 2). A wedge stability analysis/general stress analysis shall be undertaken for assessing the stability of rock wedges in excavated rock surfaces/rock mass and the support required to achieve stability may be determined on the basis of limit equilibrium analysis.\n\n\n## 11 WALL SUPPORTS OF CAVITY\n\nWide range of treatment to the walls have to be carried out in the underground power station depending mainly on the quality of the rock. The design of wall shall depend on such treatment. The rock support of walls generally consists of rockbolts, shotcrete and cables. For preliminary design, the length of rockbolts may be kept as double the depth of the fractured zone. The assessment of support pressures and design of rock support system shall be done as per 13365 (Part 2), IS 15026 (Part 1), and IS 15026 (Part 2).\n\n\n## 12 GROUTING\n\nThe purpose of grouting is to improve upon rock deformability and strength, close up seams, joints, cracks etc, so as to develop, as far as possible, a strong homogeneous impermeable shell of rock mass around the cavity. The factors which merit attention  are  the  following   depending   upon  site\n\ncondition for the type of rock on the basis of the in- situ test:\n\n- a) Grout mix;\n- b) Grout pressure; and\n- c) Depth, spacing and size of grout holes.\n\n## 13 DRAINAGE\n\nThe purpose of drainage is to decrease the uplift and seepage pressures and increase the stability of the rock mass around the cavity correspondingly. Drainage is affected through holes in the roof and walls of the cavity.\n\n\n## 14 STRESS RELIEVING\n\nOn account of high stresses occurring at sharp boundary corners, it may become necessary to adopt stress relieving measures at these points. The stress relieving may be effected by drilling stress relieving slots.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "10.1.1",
+      "heading": "10.1.1 Roof support to the main cavity may take the form of one/combination of the following measures:",
+      "heading_path": [
+        "10 ROOF SUPPORT OF CAVITY",
+        "10.1.1 Roof support to the main cavity may take the form of one/combination of the following measures:"
+      ],
+      "char_start": 18436,
+      "char_end": 20737,
+      "semantic_chunk_length": 2301,
+      "final_chunk_length": 2603,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0011",
+    "text": " affected through holes in the roof and walls of the cavity.\n\n\n## 14 STRESS RELIEVING\n\nOn account of high stresses occurring at sharp boundary corners, it may become necessary to adopt stress relieving measures at these points. The stress relieving may be effected by drilling stress relieving slots.\n\n## 15 INSTRUMENTATION\n\n\n### 15.1 The purpose of instrumentation in underground power station cavity is:\n\n- a) to provide basic data for the design of the cavity and its supports;\n- b) to provide data for checking the safety and adequacy of cavity supports during construction; and\n- c) to furnish data to determine actual behaviour of the structure vis-à-vis the anticipated one on the basis of various design assumptions and determine remedial measures, if required.\n\n15.2 Hence, regular monitoring of the rock-mass, especially deformation/displacement of the crown and side walls at varying heights, should be carried out using mechanical/electronic borehole extensometers (MPBX). Also, load cells (LC), tape extensometers and piezometers should be employed for different measurements as per need and advice of designers. The convergence of side walls need to be monitored using appropriate instruments and methods. Anchor load cells are frequently installed on rock bolts and ribs to measure their loads.\n\n\n15.3 Generally, above referred instruments are provided in 3 to 4 sections of the underground caverns. Sometimes, an extensive instrumentation program may also be required for monitoring the time dependent behaviour of the invert of the turbine pit.\n\n\n\n\n## 16 NUMERICAL ANALYSIS FOR ASSESSMENT OF STABILITY OF CAVITIES\n\n\n16.1 Numerical analysis may be undertaken for assessment/confirmation of the following:\n\n- a) Corroboration of Empirical rock support design;\n- b) Estimation of depth of distressed zones;\n- c) Estimation of stress pattern in the rock width between two cavities; and\n- d) Deformation in cavity roof and wall.\n\n16.2 Analysis may be carried out using either continuum or discontinuum methods. Special care shall be taken for material modelling and input parameters.",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "15",
+      "heading": "15 INSTRUMENTATION",
+      "heading_path": [
+        "15 INSTRUMENTATION"
+      ],
+      "char_start": 20740,
+      "char_end": 22533,
+      "semantic_chunk_length": 1793,
+      "final_chunk_length": 2095,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9120_2025_0012",
+    "text": "epth of distressed zones;\n- c) Estimation of stress pattern in the rock width between two cavities; and\n- d) Deformation in cavity roof and wall.\n\n16.2 Analysis may be carried out using either continuum or discontinuum methods. Special care shall be taken for material modelling and input parameters.\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: WRD 15 (21609).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "9120_2025.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 22538,
+      "char_end": 23974,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 9120",
+      "year": "2025",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

@@ -1,0 +1,883 @@
+[
+  {
+    "id": "18006_3_1_0000",
+    "text": "|  | Municipal Governance Part 3 Property Tax Section 1 Taxonomy |\n|  | ICS 01.140 |\n|  | © BIS 2021 |\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nJune 2021 \b Price Group 10\n\n\n\n\nSmart Infrastructure Sectional Committee, LITD 28\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the\n\nSmart Infrastructure Sectional Committee, had been approved by the Electronics and Information Technology\n\nDivision Council.\n\nThe taxonomy for property tax was initially created by the Centre for Digital Governance (CDG) at National\n\nInstitute of Urban Affairs (NIUA).\n\nOne of the missions for the Centre for Digital Governance (CDG) at National Institute of Urban Affairs (NIUA)\n\nis to help drive urban standardization effort under the National Urban Digital Mission (NUDM) that was\n\nlaunched by the Ministry for Housing and Urban Affairs (MoHUA) to unlock the digital revolution and transform\n\n4400 +Indian ULBs by 2024.\n\nThe CDG has been working on a set of standards on Taxonomy, Data Models and APIs for few domains such as\n\nto enable integrated e-governance and digital delivery of municipal services. This standard is first in the series.\n\nThe Composition of the panel and the sectional committee, LITD 28 responsible for the formulation of this\n\nstandard is given at Annex B.\n\n\n\n\nCONTENTS\n\n\b Page No.\n\n0 INTRODUCTION ... V\n\n1 SCOPE ... 1\n\n2 REFERENCE ... 1\n\n\n## 3 TERMINOLOGY AND ABBREVIATIONS ... 1\n\n\n### 3.1 Terminology ... 1 3.1.1 Aadhaar ... 1 3.2 Abbreviations ... 1\n\n4 PROPERTY TAX ... 1\n\n\n### 4.1 Property Tax ... 1 4.1.1 Property Tax Components ... 1\n\n\n## 5 TAXONOMY FOR PROPERTY TAX ... 2\n\n\n5.1 Property ... 2 5.1.1 Ownership ... 6 5.1.2 Use ... 7 5.1.3 Structure ... 8 5.1.4 Occupancy ... 9 5.1.5 Property Tax Zone ... 9 5.1.6 Measurements ... 9 5.1.7 Location ... 10 5.1.8 Age of Property ... 10 5.1.9 Building Permission Compliance ... 10 5.1.10 Rent ... 10 5.1.11 Capital Value ... 10 5.2 Property Tax Processes ... 10 5.2.1 Enumeration ... 11 5.2.2 Assessment ... 11 5.2.3 Appellate ... 15 5.2.4 Billing ... 16 5.2.5 Collection ... 18 5.2.6 Recovery ... 19 5.2.7 Tax Payer Services ... 19 5.2.8 Write-Off ... 20 5.2.9 Audit ... 20 5.3 Stakeholders ... 20 5.4 Reports and KPIs ... 21 5.5 Revenue ... 22\n\n\n\n\n\b Page No.\n\n\n## ANNEX A  SAMPLE PARAMETERS AND SPECIFICATIONS IN PROPERTY TAX ... 24\n\nA-1 SAMPLE PARAMETERS AND SPECIFICATIONS FOR LOCATION ... 24\n\nA-2 SAMPLE PARAMETERS AND SPECIFICATIONS OF MEASUREMENTS FOR DIFFERENT TYPES OF PROPERTY ... 24",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 4,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2568,
+      "semantic_chunk_length": 2566,
+      "final_chunk_length": 2566,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0001",
+    "text": ".. 20 5.4 Reports and KPIs ... 21 5.5 Revenue ... 22\n\n\n\n\n\b Page No.\n\n\n## ANNEX A  SAMPLE PARAMETERS AND SPECIFICATIONS IN PROPERTY TAX ... 24\n\nA-1 SAMPLE PARAMETERS AND SPECIFICATIONS FOR LOCATION ... 24\n\nA-2 SAMPLE PARAMETERS AND SPECIFICATIONS OF MEASUREMENTS FOR DIFFERENT TYPES OF PROPERTY ... 24\n\n## ANNEX B  COMMITTEE COMPOSITION ... 25\n\nBIBLIOGRAPHY ... 27\n\nLIST OF FIGURES\n\n\n**Fig. 1 Taxonomy of Property Tax Components ... 2 Fig. 2 Taxonomy of Property Tax ... 3 Fig. 3 Taxonomy of Property ... 4 Fig. 4 Taxonomy of Ownership ... 6 Fig. 5 Taxonomy of Use ... 7 Fig. 6 Taxonomy of Structure ... 8 Fig. 7 Taxonomy of Structure Category ... 8 Fig. 8 Taxonomy of Structure Components ... 8 Fig. 9 Taxonomy of Occupancy ... 9 Fig. 10 Taxonomy of Property Tax Zone ... 9 Fig. 11 Taxonomy of Measurements ... 9 Fig. 12 Taxonomy of Age of Property ... 10 Fig. 13 Taxonomy of Property Tax Processes ... 10 Fig. 14 Taxonomy of Enumeration Process ... 11 Fig. 15 Taxonomy of Property Tax Assessment Process ... 12 Fig. 16 Taxonomy of Exemptions ... 14 Fig. 17 Taxonomy of Appellate Process ... 15 Fig. 18 Taxonomy of Billing Process ... 16 Fig. 19 Taxonomy of Tax Bill ... 17 Fig. 20 Taxonomy of Collection Process ... 18 Fig. 21 Taxonomy of Recovery Process ... 19 Fig. 22 Taxonomy of Tax Payer Services ... 19 Fig. 23 Taxonomy of Stakeholders ... 20 Fig. 24 Taxonomy of Reports and KPIs ... 21 Fig. 25 Taxonomy of Tax Collection Report ... 22 Fig. 26 Taxonomy of Revenue ... 23**\n\n\n\n\n\nO INTRODUCTION\n\nIS 18006 (Part 3/Sec 1) : 2021\n\nULBs across India have different terminology and vocabulary for Municipal Governance. This is due to the\n\nfederal structure of governance in India, state specific laws and different eGovernance system implementations.\n\nNon-standardized interfaces and storage also lead to data interpretation and interoperability issues. Hence, when\n\nmunicipal performance is measured, there are glaring inconsistencies, not merely city to city but also from state\n\nbenchmarks for municipal governance, it is difficult to enable ‘Data Driven Governance'.\n\nThe municipal governance standards are being designed to have minimum base elements common across ULBs\n\nto ensure interoperability, harmonization and data driven governance. These can then be adopted and built upon\n\nby ULBs with higher process complexities.\n\nThe Property tax taxonomy defined in this standard includes common property tax entities, processes, stakeholders\n\nand their definitions. All definitions in this standard are notional definitions for conceptual purposes. The actual\n\nstructure in this document is scalable both vertically and horizontally to accommodate ULB specific complexities\n\nas well as change in people, process and technology over time.\n\nProperty Tax Taxonomy will be used in developing Property Tax Data Models and API Specifications as well\n\nas for creating metadata specifications. Few sample parameters and specification are also given in Annex 1 for\n\nunderstanding purpose.\n\nTogether these standards will ensure semantic and syntactic interoperability among all eGovernance systems in\n\nIndia.\n\nThe audience for this standard includes but is not limited to academics, architects, customers, users, tool developers.\n\nregulators, auditors and standards development organizations.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B COMMITTEE COMPOSITION ... 25",
+      "heading_path": [
+        "ANNEX B COMMITTEE COMPOSITION ... 25"
+      ],
+      "char_start": 2571,
+      "char_end": 5554,
+      "semantic_chunk_length": 2983,
+      "final_chunk_length": 3285,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0002",
+    "text": "ogether these standards will ensure semantic and syntactic interoperability among all eGovernance systems in\n\nIndia.\n\nThe audience for this standard includes but is not limited to academics, architects, customers, users, tool developers.\n\nregulators, auditors and standards development organizations.\n\nThis document is also interrelated with other Indian standards such as IS 18000 and IS 18006 (Part 1)\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nIndian Standards\n\n\nMUNICIPAL GOVERNANCE\n\n\nPART 3 PROPERTY TAX\n\n\nSection 1 Taxonomy\n\n\n## 1 SCOPE\n\nThis Indian standard provides a unified view of the Property Tax data and processes in a municipal corporation and introduces common and widely accepted terminologies and semantics that can be used across multiple systems.\n\n\n## 2 REFERENCE\n\nThe standards given below contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of these standards.\n\nIS No. Title\n\nSP 7 : 2016 National building code of India (third revision)\n\nIS 18006 (Part 1) Municipal Governance — Part 1 Reference Architecture\n\n\n## 3 TERMINOLOGY AND ABBREVIATIONS\n\n\n### 3.1 Terminology\n\nFor the purpose of this standard, the definitions given in IS 18006 shall apply, in addition to the following.\n\n\n#### 3.1.1 Aadhaar\n\nAadhaar is a verifiable 12-digit identification number issued by Unique Identification Authority of India (UIDAI) to the resident of India.\n\n\n### 3.2 Abbreviations\n\n\n| AMRUT | Atal Mission for Rejuvenation and Urban Transformation |\n| --- | --- |\n| CCSG | Citizen Centric Smart Governance |\n| CDG | Centre for Digital Governance |\n| DWGs | Domain Working Groups |\n| GIS | Geographic Information System |\n| NMAM | National Municipal Accounts Manual |\n| NOC | No-Objection Certificate |\n\n\n| NUIS | National Urban Innovation Stack-Strategy and Approach |\n| --- | --- |\n| PT | Property Tax |\n| ULB | Urban Local Body |\n| MoHUA | Ministry of Housing & Urban Affairs |\n| PTIN | Property Tax Identification Number |\n| NGO | Non-Governmental Organization |\n| NPO | Non-Profit Organization |\n| UPIC | Unique Property Identification Code |\n| NBC | National Building Code |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 7,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B COMMITTEE COMPOSITION ... 25",
+      "heading_path": [
+        "ANNEX B COMMITTEE COMPOSITION ... 25"
+      ],
+      "char_start": 5556,
+      "char_end": 7629,
+      "semantic_chunk_length": 2073,
+      "final_chunk_length": 2375,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0003",
+    "text": "- |\n| PT | Property Tax |\n| ULB | Urban Local Body |\n| MoHUA | Ministry of Housing & Urban Affairs |\n| PTIN | Property Tax Identification Number |\n| NGO | Non-Governmental Organization |\n| NPO | Non-Profit Organization |\n| UPIC | Unique Property Identification Code |\n| NBC | National Building Code |\n\n## 4 PROPERTY TAX\n\n\n### 4.1 Property Tax\n\nProperty tax management is an important function for any Urban local body (ULB) and covers making property assessments, paying property tax, generating payment receipts and monitoring tax collection (see 6, IS 18006 (Part 1)).\n\nProperty Tax is defined as the amount assessed by the ULB or self-assessed as per the law and paid by the owner to the ULB for the year based on:\n\n- a) Rent which likely would have been accrued to him\n(if the property is owner occupied) or rent actually received by him (if the property is rented out). b) The defined area of the land or building,\n\nconstruction and vacant land surrounding the property. c) The type of construction. d) The purpose of use. e) The basic civic services provided and/or utilized. f) Capital value of the property X tax rate as per the\n\nlaw. In addition to the Property Tax, a citizen may be liable to pay additional amounts owing to factors like late payment etc. There might also be scenarios where the citizen is allowed a discount on the tax payable.\n\n\n#### 4.1.1 Property Tax Components\n\nIn many scenarios, Property Tax is a composite of more than one component. The most common components that are usually factored into Property Tax are discussed below.\n\n\n\n\n\n**Fig. 1 Taxonomy of Property Tax Components**\n\nKey Terms and Definitions:\n\n\n| Property Tax Amount | This is the main base or component in the Property Tax structure, also known as a house or holding tax. This is the ‘PT amount value’ component of a tax bill. For details, see 5.2.4.1. |\n| --- | --- |\n| Other Taxes | These could be taxes levied by the governing authority for facilitating infrastructure and services that enhance the liveability factor associated with the property. These may include water tax, sewerage tax, etc. |\n| Cess and Charges | These are charges that are levied by the governing authority to raise funds for a specific purpose. These may include miscellaneous cess like Library cess, Swastha Cess. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "4",
+      "heading": "4 PROPERTY TAX",
+      "heading_path": [
+        "4 PROPERTY TAX"
+      ],
+      "char_start": 7632,
+      "char_end": 9622,
+      "semantic_chunk_length": 1990,
+      "final_chunk_length": 2292,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0004",
+    "text": "ance the liveability factor associated with the property. These may include water tax, sewerage tax, etc. |\n| Cess and Charges | These are charges that are levied by the governing authority to raise funds for a specific purpose. These may include miscellaneous cess like Library cess, Swastha Cess. |\n\n## 5 TAXONOMY FOR PROPERTY TAX\n\nWhile building the knowledge models for Property Tax systems, it is imperative to consider entities that are interlinked with Property Tax. Property Tax is a tax-based Municipal Revenue charged against a Property. Assessment, Billing and Collection are the processes that operationalise the Revenue mobilization within a ULB. Hence, taxonomy for Property Tax cannot be built in a silo and needs to be accompanied by entities like Property, Revenue and associated processes and stakeholders.\n\nThe categorizations and sub-categorizations of terms used in Figure 2 Taxonomy of Property Tax are summarized in 5.1 to 5.5. The categorizations and classifications primarily establish hierarchical relationship, and as a whole yield the taxonomy around Property Tax.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "5",
+      "heading": "5 TAXONOMY FOR PROPERTY TAX",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX"
+      ],
+      "char_start": 9625,
+      "char_end": 10415,
+      "semantic_chunk_length": 790,
+      "final_chunk_length": 1092,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0005",
+    "text": "ated processes and stakeholders.\n\nThe categorizations and sub-categorizations of terms used in Figure 2 Taxonomy of Property Tax are summarized in 5.1 to 5.5. The categorizations and classifications primarily establish hierarchical relationship, and as a whole yield the taxonomy around Property Tax.\n\n### 5.1 Property\n\nKey Terms and Definitions:\n\n\n| Property | Property is defined as an immovable real asset that is owned either by an individual, set of individuals or organization(s), for a specific usage, has a specific location and dimensions, includes the land and any structure that is built upon and falls under the jurisdiction of a local governing body. Typically property will include the land itself or together with the structure(s) (or part of it) that is built on that land. It is transferrable by law, deed or will to another individual, set of individuals or organization(s). A property is defined at unit level depending on the ownership status of the unit. This unit can be a plot, building, floor or separate units. A property is identified by a unique house/property number having single/multiple owners. |\n| --- | --- |\n| Property ID | A property ID (PID) or property tax identification number (PTIN) or Unique Property Identification Code (UPIC) is the unique identification number allotted to a property by the ULB for the purpose of property tax records. Typically, the PID/ PTIN is generated after the first-time enumeration of the property and its verification by the ULB officials. |\n| Owner Details | Owner details include the details of the property owner including name, id card, Aadhar number, address, contact information etc. |\n\n\n\n\n**Fig. 2 Taxonomy of Property Tax**\n\n\n\n\n\n|  |  |  |  |  | Property |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Property ID |  | Owner Details |  | Location |  | Plot | Unit |\n\n\nProperty Tax\n\nFactors\n\nOwnership\n\nUse\n\nStructure\n\nOccupancy\n\nProperty Tax Zone\n\nMeasurements\n\nLocation\n\nAge of Property\n\nBuilding Permission\n\nCompliance\n\nRent\n\nCapital Value\n\n\n**Fig. 3 Taxonomy of Property**\n\n\n| Location | Location is an important characteristic of a property that includes address, floor number, ward, zone etc. It also indicates the GIS positioning of a property with respect to the urban base map. In the context of Property Tax, location does not have any categorizations, however, it does have certain specifications associated. They are exemplified in Annex A. |\n| --- | --- |\n| Plot | A plot is a measured piece of land, demarcated for a specific use such as building, vegetation etc. |\n| Unit | Unit is the part of the property (with clear demarcation) for which at least one of the property tax factors (Use, Occupancy, Structure category, Age etc) is different. |\n\n\nProperty Tax Factors: These are the factors associated with a property and used in various property tax processes like assessment, calculation of tax and billing.\n\nOwnership Property ownership is the state or fact of exclusive rights and control over immovable property. Property may be owned by individuals or organizations.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 10,
+      "clause": "5.1",
+      "heading": "5.1 Property",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property"
+      ],
+      "char_start": 10419,
+      "char_end": 13194,
+      "semantic_chunk_length": 2775,
+      "final_chunk_length": 3077,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0006",
+    "text": "se are the factors associated with a property and used in various property tax processes like assessment, calculation of tax and billing.\n\nOwnership Property ownership is the state or fact of exclusive rights and control over immovable property. Property may be owned by individuals or organizations.\n\n| Use | The purpose to which a property is being put to use is again a vital characteristic that defines the entity ‘Property’. It determines factors like the rate of property tax. The Use of the property can be residential, commercial, institutional, public, semi-public, green areas etc. |\n| --- | --- |\n| Structure | A structure is a developed land constructed with any materials whatsoever for any purpose, whether used for human habitation or not. A structure includes the following: a) Foundation, plinth, walls, floors, roofs, chimneys, plumbing and building services, fixed platforms etc; b) Verandahs, balconies, cornices, projections etc; c) Parts of a building or anything affixed thereto; d) Any wall enclosing or intended to enclose any land or space, sign and outdoor display structures; etc. Tanks constructed or fixed for storage of chemicals or chemicals in liquid form and for storage of water, effluent, swimming pool, ponds etc. |\n\n\n\n\n| Occupancy | Occupancy (or Use Group) is the principal occupancy for which a building or a part of a building is used or intended to be used; for the purposes of classification of a building according to occupancy, occupancy shall be deemed to include the subsidiary occupancies which are contingent upon it (National Building Code, 2016)1). |\n| --- | --- |\n| Property Tax Zone | Property Tax Zone or ‘PT Zone’ means the classification of different area or street into value zones for the purpose of determination of unit area value of a property. |\n| Measurements | Measurements of a property are values discovered by measuring the corresponding size, shape and/or area of the property. Measurements include details on the measured parameter, measured value, and unit evidence. Unit evidence is optional and can include digital readings, floor picture etc. Measurements can have certain specifications associated with it. They are exemplified in Annex A. |\n| Location | Location is an important characteristic of a Property. In the context of Property Tax, Location does not have any categorizations, however, it does have certain specifications associated with it like floor number, zone, address etc. It also includes the GIS positioning of a Property with respect to the urban base map. They are exemplified in Annex A. |\n\n\nIS 18006 (Part 3/Sec 1) : 2021",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "5.1",
+      "heading": "5.1 Property",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property"
+      ],
+      "char_start": 13198,
+      "char_end": 15512,
+      "semantic_chunk_length": 2314,
+      "final_chunk_length": 2616,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0007",
+    "text": "Location does not have any categorizations, however, it does have certain specifications associated with it like floor number, zone, address etc. It also includes the GIS positioning of a Property with respect to the urban base map. They are exemplified in Annex A. |\n\n\nIS 18006 (Part 3/Sec 1) : 2021\n\n| Age of Property | The age of property is the chronological age of the built structure which may be considered in the calculation of the property tax. The age factor is not considered in the case of vacant land for the assessment of property tax. |\n| --- | --- |\n| Building Permission Compliance | This is the compliance of buildings to ensure strict adherence to all applicable building or structural- laws and building code requirements. The building permission is granted subject to very stringent scrutiny. This involves various stages starting with the identification and authenticity of land, the geo-location, if the building conforms to all the standards of safety and regulation, the distance from the road, distance from surrounding buildings, height and other criteria set by the Municipal authorities, along with the building plan. Compliance status also determines property tax. |\n| Rent | Rent is the actual amount received from the property let out or the amount which is likely to be received if such owner occupied property is let out. |\n| Capital Value | Capital value means the market value of any building or land fixed in accordance with the provisions of the municipal or other state act. Capital value is generally calculated by multiplying the area of the property with the per sq.ft./per sq. mt. capital value rate (prescribed by the state under municipal or other law of the state) and by deducting depreciation (if prescribed by the law) at the rates prescribed by the law. |\n\n\n- 1) Bureau of Indian Standards. (2016). National Building Code of India (ICS 01.120; 91.040.01). Retrieved from http://mddaonline.in/downloads/MDDALINKS/pdf/nbc.pdf\n\n\n\nIndividual\n\nSingle\n\nMultiple\n\nOwnership\n\nPublic-Private\n\nOrganization Government Organization\n\nCentral Government\n\nState Government\n\nLocal Government\n\nOther Govt.\n\nOrgs.\n\nOrganization\n\nPrivate Organization\n\nNGO\n\nPrivate Trust\n\nOther Pvt. Inst.\n\n\n**Fig. 4 Taxonomy of Ownership**",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "5.1",
+      "heading": "5.1 Property",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property"
+      ],
+      "char_start": 15515,
+      "char_end": 17468,
+      "semantic_chunk_length": 1953,
+      "final_chunk_length": 2255,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0008",
+    "text": "ALINKS/pdf/nbc.pdf\n\n\n\nIndividual\n\nSingle\n\nMultiple\n\nOwnership\n\nPublic-Private\n\nOrganization Government Organization\n\nCentral Government\n\nState Government\n\nLocal Government\n\nOther Govt.\n\nOrgs.\n\nOrganization\n\nPrivate Organization\n\nNGO\n\nPrivate Trust\n\nOther Pvt. Inst.\n\n\n**Fig. 4 Taxonomy of Ownership**\n\n#### 5.1.1 Ownership\n\nKey Terms and Definitions:\n\n\n| Ownership | Property ownership is the state or fact of exclusive rights and control over immovable property. Property may be owned by individuals or organizations. |\n| --- | --- |\n| Individual | A person, a group of persons or a body having a legal interest in land and/or building thereon. (Bureau of Indian Standards, 2016)2). |\n| Single | Single ownership refers to an individual who owns one or multiple properties. |\n| Multiple | Multiple ownership refers to ownership of a property by two or more individuals or groups. |\n| Organization | Organization means a group of people working or functioning together with a set aim. Organization refers to a trust, charitable organization, non-governmental organization etc. |\n\n\n| Government Organization | Government Organization or Public agency is often a government appointed group, it can be a permanent or semi-permanent organization and is funded by the government. A government agency may be created by either a national government or a state government within a federal system. |\n| --- | --- |\n| Public Private Organization | A public–private partnership is a cooperative arrangement between two or more public and private sectors, typically of a long-term nature. In other words, it involves government and business that work together to complete a project and/or to provide services to the population. |\n| Central Government | A central government is a government that is a controlling power over the country. Essentially, the central government has the power to make laws for the whole country, in contrast with local governments. It also includes central government undertakings such as railways, highway authorities, health departments, education departments, airports etc. |\n\n\n- 2) Bureau of Indian Standards. (2016). National Building Code of India (ICS 01.120; 91.040.01). Retrieved from http://mddaonline.in/downloads/MDDALINKS/pdf/nbc.pdf",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "5.1.1",
+      "heading": "5.1.1 Ownership",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property",
+        "5.1.1 Ownership"
+      ],
+      "char_start": 17471,
+      "char_end": 19428,
+      "semantic_chunk_length": 1957,
+      "final_chunk_length": 2259,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0009",
+    "text": "es central government undertakings such as railways, highway authorities, health departments, education departments, airports etc. |\n\n\n- 2) Bureau of Indian Standards. (2016). National Building Code of India (ICS 01.120; 91.040.01). Retrieved from http://mddaonline.in/downloads/MDDALINKS/pdf/nbc.pdf\n\n| State Government | State governments in India are the governments ruling the states of India. It also includes state government undertakings such as state education board, police departments, state health departments, educational institutions etc. |\n| --- | --- |\n| Local Government | Local government means the local authority with a city as a jurisdiction formed under the constitution. This includes, a) Municipal corporations/Nagar Nigam. b) Nagar palikas (also called municipal councils). c) Nagar panchayats/Town area. |\n| Other Government Organization | Other government organization includes government-owned enterprises not listed above in central or state or local government. These companies are wholly or partly owned by the Government of India or one of the many states or territorial governments or both together in parts. |\n| Private Organization | A private organization is any partnership, corporation, person, or agency that is not operated by a profit or a public body. It includes all businesses that are for-profit that are not government owned or operated. |\n| Non- governmental Organisation (NGO) | Non-governmental Organisation (NGO) or Non-Profit Organisation (NPO) is a group, an organisation, a non-profit establishment or a non-profit entrepreneurship of individuals, activists, voluntary and social persons. |\n\n\nIS 18006 (Part 3/Sec 1) : 2021\n\n\n| Private Trust | A private trust, that is created under and governed by the Indian Trusts Act, 1882 manages assigned trust property for private or religious purpose. |\n| --- | --- |\n| Other Private Institutes | It includes other categorization of private ownership not listed above. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "5.1.1",
+      "heading": "5.1.1 Ownership",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property",
+        "5.1.1 Ownership"
+      ],
+      "char_start": 19433,
+      "char_end": 21094,
+      "semantic_chunk_length": 1661,
+      "final_chunk_length": 1963,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0010",
+    "text": "ec 1) : 2021\n\n\n| Private Trust | A private trust, that is created under and governed by the Indian Trusts Act, 1882 manages assigned trust property for private or religious purpose. |\n| --- | --- |\n| Other Private Institutes | It includes other categorization of private ownership not listed above. |\n\n#### 5.1.2 Use\n\nKey Terms and Definitions:\n\n\n| Use | The purpose to which a property is being put to use is again a vital characteristic that defines the entity ‘Property’. It determines factors like the rate of property tax. |\n| --- | --- |\n| Developed Land | Developed land is a piece of land with the provision of various infrastructure including accessibility, utilities, water supply, drainage system, electricity etc. |\n| Vacant Land | A vacant land is a piece of land without having any built structure or any other specific use of land. |\n| With Structure | It is developed land with built structure(s). |\n| Without Structure | It is developed land without built structure(s). |\n| Government | Government, refers to the parliamentary system formed under the constitution of India. This is broadly categorised in the 3 types of government i.e., the Central Government, State Government and Local government. In reference to the property tax, the government means the ULB or the Municipal bodies of the cities. |\n\n\n**Fig. 5 Taxonomy of Use**\n\nNOTE — This is a partial depiction of the subcategories under “Use.” Diagrammatic rendering of broad and extensive subcategories\n\navailable under “Use” may not be effective in the current representation.\n\n\n\n\nPrivate Private means any property, firm or organisation which is owned by any individual or group and not shared by any other individual group or government.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "5.1.2",
+      "heading": "5.1.2 Use",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property",
+        "5.1.2 Use"
+      ],
+      "char_start": 21097,
+      "char_end": 22512,
+      "semantic_chunk_length": 1415,
+      "final_chunk_length": 1717,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0011",
+    "text": ".” Diagrammatic rendering of broad and extensive subcategories\n\navailable under “Use” may not be effective in the current representation.\n\n\n\n\nPrivate Private means any property, firm or organisation which is owned by any individual or group and not shared by any other individual group or government.\n\n#### 5.1.3 Structure\n\nStructure\n\n\n|  |  | Structure Category |  |\n| --- | --- | --- | --- |\n|  |  | Structure Components |  |\n\n\n**Fig. 6 Taxonomy of Structure**\n\nKey Terms and Definitions:\n\n\n| Structure | A structure is a developed land constructed with any materials whatsoever for any purpose, whether used for human habitation or not. A structure includes the following: a) Foundation, plinth, walls, floors, roofs, chimneys, plumbing and building services, fixed platforms etc; b) Verandahs, balconies, cornices, projections etc; c) Parts of a building or anything affixed thereto; d) Any wall enclosing or intended to enclose any land or space, sign and outdoor display structures; etc. Tanks constructed or fixed for storage of chemicals or chemicals in liquid form and for storage of water, effluent, swimming pool, ponds etc. |\n| --- | --- |\n| Structure Category | In the context of Property tax, built structures can be categorized into Kuccha or Pucca or Semi Pucca, based on the materials used. |\n| Structure Components | Structure components are defined as the key parts of the built structure. In the context of Property tax, the material used in each structural component changes the property assessment. for example the structure components are wall, roof, floor. |\n\n\n\n\n##### 5.1.3.1 Structure category\n\n\n**Fig. 7 Taxonomy of Structure Category**\n\nKey Terms and Definitions:\n\n\n| Structure Category | Built structures can be categorized into Kutcha or Pucca, based on the materials used. |\n| --- | --- |\n| Permanent Structure (Pucca) | Permanent structure implies a structure fixed to the ground by any of the various types of foundations, slabs, piers, poles, or other means to remain at one location. |\n| Temporary Structure (Kuccha/kutcha) | A temporary structure means structure that has been built for temporary usage and not expected to maintain its durability for long a period. |\n| Semi-permanent Structure (Semi-pucca) | A house that has fixed walls made up of pucca material but roof is made up of the material other than those used for pucca. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "5.1.3",
+      "heading": "5.1.3 Structure",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property",
+        "5.1.3 Structure"
+      ],
+      "char_start": 22515,
+      "char_end": 24584,
+      "semantic_chunk_length": 2069,
+      "final_chunk_length": 2371,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0012",
+    "text": "y structure means structure that has been built for temporary usage and not expected to maintain its durability for long a period. |\n| Semi-permanent Structure (Semi-pucca) | A house that has fixed walls made up of pucca material but roof is made up of the material other than those used for pucca. |\n\n##### 5.1.3.2 Structure components\n\n\n| Structure Components |  |  |\n| --- | --- | --- |\n| Floor | Roof |  |\n\n\n**Fig. 8 Taxonomy of Structure Components**\n\nKey Terms and Definitions:\n\nStructure Components\n\nStructure components are defined as the key parts of the built structure. The material used in each structural component changes the property assessment. Structure components are wall, roof and floor.\n\n\n\n\n| Floor | Flat surface of the building which is used for walking or other purposes. These can be marble, tandur, granite, wood, shabad, vitrified Tiles, linoleum etc. |\n| --- | --- |\n| Wall | A solid, vertical structure made of stone, brick, etc. that is built round an area of land to protect it or to divide it. This may include mud walls, cement walls etc. |\n| Roof | A roof is the top covering of a building, including all materials and constructions necessary to support it on the walls of the building or on uprights, providing protection against rain, snow, sunlight, extremes of temperature, and wind. A roof is part of the building envelope. Roofs can be made of RCC Slab, Madras Terrace, Jack Arch Roofed, Stone Slab, Slate Roofed, Asbestos Sheets, Mangalore Tiled, GI Sheet Roofed etc. |\n\n\n#### 5.1.4 Occupancy\n\n\n**Fig. 9 Taxonomy of Occupancy**\n\nKey Terms and Definitions:\n\n\n| Occupancy | The principal occupancy for which a building or a part of a building is used or intended to be used; for the purposes of classification of a building according to occupancy, occupancy shall be deemed to include the subsidiary occupancies which are contingent upon it (National Building Code, 2016)3). |\n| --- | --- |\n| Self- Occupied | The Owner resides or utilizes the Property. |\n| Vacant | The property is unoccupied. |\n| Rented | The Property is let out in lieu of a certain amount. |\n\n\nIS 18006 (Part 3/Sec 1) : 2021\n\n\n#### 5.1.5 Property Tax Zone\n\nProperty Tax Zone or ‘PT zone’ means the classification of different area or street into value zones for the purpose of determination of unit area value of a property. It may be possible to group non-contiguous streets/area/locality falling under each value zone together and publish them as PT zones.\n\nKey Terms and Definitions:\n\n\n| Property Tax Zone | Property Tax Zone or PT Zone means classification of different area or street into value zones for the purpose of determination of unit area value of a property. |\n| --- | --- |\n| Valuation Rates | Valuation rate is the actual rate determined for the unit based on the zoning combination and structure combination. |\n| Zoning Combinations | Zoning combinations are the boundary combinations based on which rates or guidance values are published by departments such as municipal, registration or PWD. |\n| Property Tax Rate | Property tax rates are the rates determined by the municipal body for Property Tax which is applicable on the base value determined by the Property Tax calculation method. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "5.1.3.2",
+      "heading": "5.1.3.2 Structure components",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property",
+        "5.1.3 Structure",
+        "5.1.3.2 Structure components"
+      ],
+      "char_start": 24587,
+      "char_end": 27503,
+      "semantic_chunk_length": 2916,
+      "final_chunk_length": 3218,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0013",
+    "text": "on which rates or guidance values are published by departments such as municipal, registration or PWD. |\n| Property Tax Rate | Property tax rates are the rates determined by the municipal body for Property Tax which is applicable on the base value determined by the Property Tax calculation method. |\n\n#### 5.1.6 Measurements\n\nMeasurements of a property are values discovered by measuring the corresponding size, shape and/or area of property.\n\n\n**Fig. 11 Taxonomy of Measurements**\n\nMeasurements include details on the measured parameter, measured value, and unit evidence. Unit evidence are optional and can include digital readings, floor picture etc.\n\n\n**Fig. 10 Taxonomy of Property Tax Zone**\n\n- 3) Bureau of Indian Standards (2016). National Building Code of India (ICS 01.120; 91.040.01).\n\n\n\nMeasurements can have certain specifications associated with it. They are exemplified in Annex A.\n\n\n#### 5.1.7 Location\n\nLocation is an important characteristic of a property that includes address, floor number, ward, zone etc. It also indicates the GIS positioning of a property with respect to the urban base map.\n\nIn the context of Property Tax, location does not have any categorizations, however, it does have certain specifications associated. They are exemplified in Annex A.\n\n\n#### 5.1.8 Age of Property\n\nThe age of property is the chronological age of the built structure which may be considered in the calculation of the property tax. The age factor is not considered in case of vacant land for the assessment of property tax.\n\nGenerally, the age of the property will be observed as declared by the owner or as assessed by the corporation.\n\n\n**Fig. 12 Taxonomy of Age of Property**\n\n\n#### 5.1.9 Building Permission Compliance\n\nThis is the compliance of buildings to ensure strict adherence to all applicable building or structural-laws and building code requirements. The building permission is granted subject to very stringent scrutiny. This involves various stages starting with the identification and authenticity of the land, the geo-location, if the building conforms to all the standards of safety and regulation, the distance from the road, distance from surrounding buildings, height and other criteria set by the municipal authorities, along with the building plan. Compliance status also determines property tax.\n\n\n#### 5.1.10 Rent\n\nRent is the actual amount received from the property let out or the amount which is likely to be received if such owner occupied property is let out.\n\n\n#### 5.1.11 Capital Value\n\nCapital value means the market value of any building or land fixed in accordance with the provisions of the municipal or other state act. Capital value is generally calculated by multiplying the area of the property with the per sq.ft./per sq. mt. capital value rate (prescribed by the state under municipal or other law of the state) and by deducting depreciation (if prescribed by the law) at the rates prescribed by the law.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "5.1.6",
+      "heading": "5.1.6 Measurements",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.1 Property",
+        "5.1.6 Measurements"
+      ],
+      "char_start": 27506,
+      "char_end": 30164,
+      "semantic_chunk_length": 2658,
+      "final_chunk_length": 2960,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0014",
+    "text": "state act. Capital value is generally calculated by multiplying the area of the property with the per sq.ft./per sq. mt. capital value rate (prescribed by the state under municipal or other law of the state) and by deducting depreciation (if prescribed by the law) at the rates prescribed by the law.\n\n### 5.2 Property Tax Processes\n\nThe following processes are usually applicable on a Property that directly or indirectly has a bearing on Tax associated with the Property.\n\nKey Terms and Definitions:\n\n\n| Enumeration | Enumeration of property is the process of enrolling a property in the property tax register of the ULB. The property tax register may be a physical register or a digital property tax database of ULB’s property tax register. |\n| --- | --- |\n| Assessment | Property tax assessment is the method of estimation of property tax by factoring various current and historical property data including size, shape, height, location, age, usage, ownership, rent etc. The property tax assessment also includes factors of deductions, rebates, surge, exemptions etc. Governmental agencies like ULBs conduct an assessment for measuring the applicability of property taxes based on the monetary value of the property. The property tax assessment processes include any changes in the given attributes of the property including merging of property, mutation, occupancy etc. |\n\n\n**Fig. 13 Taxonomy of Property Tax Processes**\n\n\n\n\n\n| Appellate | Appellate is the process followed after the assessment notice are presented and the tax payer is aggrieved by the fixation or the charging of the tax. The appeal process kicks off with a simple property tax assessment appeal letter. |\n| --- | --- |\n| Billing | Billing is the process of generating tax demand for a financial year based on set triggers like time-based roll over on completion of a financial year. |\n| Collection | Collection is the process of collecting money by the governing body from its citizens against taxes, permissions and services. |\n| Recovery | Recovery means, recovery of tax from the tax payers or defaulters. In some cases, recovery may be in terms of impounding any movable or immovable asset of the tax defaulter. Few methods of recovery are: a) by presenting a bill. b) by serving a written notice of demand. c) by distraint and sale of a defaulter’s movable property. |\n|  | d) by the attachment and sale of a defaulter’s immovable property. e) in the case of octroi and toll, by the seizure and sale of goods and vehicles. f) in the case of property tax by the attachment of rent due in respect of the property. g) by a suit. |\n| Tax Payer Services | These are the services availed to all tax payers in a municipality. In the context of property tax, these are grievance redressal, no due certificate and duplicate bills. |\n| Write-Off | Write-Off of property tax is the process of deductions or exemptions of tax, in compliance with any law, or through the guidelines of the ULB or the court of law. Write-off amount is then adjusted in ULB Tax Arrears. |\n| Audit | Audit of the property tax bill is a process by which the correctness of the property tax levied or recovered is assessed. |\n\n\n\nIS 18006 (Part 3/Sec 1) : 2021",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "5.2",
+      "heading": "5.2 Property Tax Processes",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes"
+      ],
+      "char_start": 30167,
+      "char_end": 33069,
+      "semantic_chunk_length": 2902,
+      "final_chunk_length": 3204,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0015",
+    "text": "ance with any law, or through the guidelines of the ULB or the court of law. Write-off amount is then adjusted in ULB Tax Arrears. |\n| Audit | Audit of the property tax bill is a process by which the correctness of the property tax levied or recovered is assessed. |\n\n\n\nIS 18006 (Part 3/Sec 1) : 2021\n\n#### 5.2.1 Enumeration\n\n\n**Fig. 14 Taxonomy of Enumeration Process**\n\nKey Terms and Definitions:\n\n\n| Enumeration | Enumeration of property is the process of enrolling a new or an existing property in the property tax register of the ULB. The property tax register may be a physical register or a digital property tax database of city’s property tax register. Typically, the PID or PTIN is generated after the first-time enrolment of the property and its verification by the ULB officials. |\n| --- | --- |\n| New Enumeration | New Enumeration of property is the process of enrolling a new property in the property tax register of the ULB. |\n| De-enumeration | De-enumeration of property is the process of deleting an existing property from the property tax register of the ULB. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "5.2.1",
+      "heading": "5.2.1 Enumeration",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.1 Enumeration"
+      ],
+      "char_start": 33072,
+      "char_end": 33849,
+      "semantic_chunk_length": 777,
+      "final_chunk_length": 1079,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0016",
+    "text": " officials. |\n| --- | --- |\n| New Enumeration | New Enumeration of property is the process of enrolling a new property in the property tax register of the ULB. |\n| De-enumeration | De-enumeration of property is the process of deleting an existing property from the property tax register of the ULB. |\n\n#### 5.2.2 Assessment\n\nKey Terms and Definitions:\n\n\n| Assessment | Property tax assessment is the method of estimation of property tax by factoring various current and historical property data including size, shape, height, location, age, usage, ownership, rent etc. The property tax assessment also includes factors of deductions, rebates, surge, exemptions etc. ULBs conduct assessment for measuring the applicability of property taxes based on the monetary value of the property. |\n| --- | --- |\n| Owner Details | Owner details include the details of the property owner including name, ID card, Aadhar number, address, contact information etc. |\n\n\n\n\n**Fig. 15 Taxonomy of Property Tax Assessment Process**\n\n\n\n\n\n| Property Details | Property details include the attributes of the property which are required for assessment and identification of the property. This includes PID, locational information, complete address of the property, physical attributes of the property such as area, built-up space, number of floors, structure, age etc see 5.1 for details. |\n| --- | --- |\n| Property Tax Factors | These are the factors associated with a property and used in various property tax processes like assessment, calculation of tax and billing. Property tax factors are detailed in 5.1. |\n| New Assessment | Process undertaken to assess tax for the first time for a specific property. |\n| Revised Assessment | Process undertaken by the ULB of changing the assessment for a property based on the periodic increase in rates (based on Local acts) or based on noticed changes in the property tax factors. |\n| Re-Assessment | Process to determine new tax value based on the change in the usage of an existing property or change in the measurements of existing property. |\n| Self- Assessment | Self-Assessment is a mode of assessment through which the owner or occupier assesses the property tax on their own adhering to the tax calculation rules set by the ULB. A self-declaration is given by the owner or occupier stating that the information about the property including its usage, size, no of floors etc. are correct and updated as per the existing situation of the property. |\n| By Assessing Officer | Property tax assessment done by an individual assessing officer authorised by the ULB. These include tax inspectors, tax surveyors and tax collectors. |\n| Capital Value System | Under this system, the market value of the property is the basis of estimating the tax to be paid. The market value is determined by the government and revised annually, based on the sale and purchase transactions that have taken place in the city and other factors like cost of construction etc. The capital value system in some cases also considers depreciation amount. |\n\n\n\nIS 18006 (Part 3/Sec 1) : 2021",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 19,
+      "clause": "5.2.2",
+      "heading": "5.2.2 Assessment",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.2 Assessment"
+      ],
+      "char_start": 33852,
+      "char_end": 36637,
+      "semantic_chunk_length": 2785,
+      "final_chunk_length": 3087,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0017",
+    "text": "et value is determined by the government and revised annually, based on the sale and purchase transactions that have taken place in the city and other factors like cost of construction etc. The capital value system in some cases also considers depreciation amount. |\n\n\n\nIS 18006 (Part 3/Sec 1) : 2021\n\n| Unit Area Value System | Under this system, the tax is levied on the per unit price of carpet area or the built-up area of the property. |\n| --- | --- |\n| Annual Rent Value or Annual Letting Value System | Annual Rent Value is the amount of the property which might be let out on a yearly basis. In the case of self- occupied property used for staying by the owner, the value is zero. In a situation where the owner is neither staying or letting it out, then too the value is zero. Under this system, the gross annual rent of the property is fixed by the municipal body which is generally higher than the actual rent received or expected rent. |\n| Assessed Value | For the purpose of taxation, a property is assessed for its monetary worth. This ascertained price is known as Assessed value or Taxable property value. Assessment of non-assessed building can be done any time and revision of assessed value is done at regular interval of four or five years as prescribed by local law. |\n| Assessment Notice | Assessment notice is the notice served to the property owner indicating the value of property tax assessed on basis of the property details. This notice is not considered as the final bill. The assessment notice is the interim notice to confirm the tax value of the property. |\n| Demolition | It is typically an order issued when the property structure is dismantled or proposed to be dismantled and the property tax becomes applicable only on the underlying land. |\n| Amalgamation | Processes undertaken when two or more properties are merged into a single property with a Single or Joint owner. |\n| Bifurcation | Process undertaken to split the property into two or more parts with or without change in ownership. (Oftentimes, one of the parts retains the old property number). |\n| Mutation | Process that validates ownership change and incorporates the name of the new owner in the property records. |\n| Change of use | Process undertaken to revise the Property Tax because of the way the property is put to use at present vis-a-vis its earlier use. For details on ‘use’ types, please refer to sec 5.1.2. |\n\n\n\n\n|  |  |  |  | Exemptions |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  | Exemption Criteria Use Vacant Land Recreational Heritage Institutional | Measurements Area |  | Institutional | Government Semi- Government | Ownership |  | Individual Owners (Special Category) |\n\n\n**Fig. 16 Taxonomy of Exemptions**\n\nNOTE — This is a partial depiction of the subcategories under “Exemptions”. Diagrammatic rendering of broad and extensive\n\nsubcategories available under “Exemptions” may not be effective for the use here.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "5.2.2",
+      "heading": "5.2.2 Assessment",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.2 Assessment"
+      ],
+      "char_start": 36640,
+      "char_end": 39314,
+      "semantic_chunk_length": 2674,
+      "final_chunk_length": 2976,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0018",
+    "text": "t | Ownership |  | Individual Owners (Special Category) |\n\n\n**Fig. 16 Taxonomy of Exemptions**\n\nNOTE — This is a partial depiction of the subcategories under “Exemptions”. Diagrammatic rendering of broad and extensive\n\nsubcategories available under “Exemptions” may not be effective for the use here.\n\n##### 5.2.2.1 Exemptions\n\nKey Terms and Definitions:\n\n\n| Exemptions | Exemptions are special permissions granted to ‘Not Pay’ based on some defined criteria as per the Act or Law. For example, Property tax exemption can be provided for following or implementing certain desirable projects like green development, rain water harvesting, solar power installation in building and green building etc. as an incentive (URDPFI Guidelines, 2014)4). |\n| --- | --- |\n| Use | Use factor is considered while assessing the property tax. The usage factor is defined based on the actual use of the property i.e. commercial, residential, public use etc. |\n| Vacant Land | A piece of land which do not have a type of built structure on it and has not been put in any use. |\n| Recreational | Recreational use refers to active public spaces including, sports grounds, parks, gymnasiums, swimming pools etc. |\n| Heritage | “Heritage building” means and includes any building of one or more premises or any part thereof and/or structure and/or artefact which requires conservation and/or preservation for historical and/or architectural and/or artisanry and/or aesthetic and/or cultural and/or environmental and/or |\n\n\n- 4) URDPFI Guidelines. (2014). Volume II A & II B (MoHUD).\n\n\n|  | ecological purpose and includes such portion of land adjoining such building or part thereof as may be required for fencing or covering or in any manner preserving the historical and/or architectural and/or aesthetic and/or cultural value of such building. |\n| --- | --- |\n| Institutional | Includes a building constructed by Government, Semi-Government Organizations or Registered Trusts and used for medical or other treatment, or for an auditorium or complex for cultural and allied activities or for a hospice, care of persons suffering from physical or mental illness, handicap, disease or infirmity, care of orphans, abandoned women, children and infants, convalescents, destitute or aged persons and for penal or correctional detention with restricted liberty of the inmates ordinarily providing sleeping accommodation and includes dharamshalas, hospitals, sanatoria, custodial and penal institutions such as jails, prisons, mental hospitals, houses of correction, detention and reformatories etc. |\n| Religious, Educational, Healthcare | Includes buildings with social purposes constructed by the government or semi government organisations including schools, educational institutions, hospitals, nursing homes etc. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 20,
+      "clause": "5.2.2.1",
+      "heading": "5.2.2.1 Exemptions",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.2 Assessment",
+        "5.2.2.1 Exemptions"
+      ],
+      "char_start": 39317,
+      "char_end": 41808,
+      "semantic_chunk_length": 2491,
+      "final_chunk_length": 2793,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0019",
+    "text": "isons, mental hospitals, houses of correction, detention and reformatories etc. |\n| Religious, Educational, Healthcare | Includes buildings with social purposes constructed by the government or semi government organisations including schools, educational institutions, hospitals, nursing homes etc. |\n\n| Measurements | Includes properties that are smaller in size than a benchmark. These properties may be exempted from property tax. |\n| --- | --- |\n| Ownership | Based on the ownership, various buildings are exempted from property tax, these including buildings owned by trusts, government or semi-government organizations, non-profit organisation. |\n| Institutional | Government and semi-government institutions may also be considered exempted from property tax based on municipal laws of the state. |\n| Government | Buildings on which the government have complete right and legal ownership including offices, institutions etc. |\n| Semi- Government | Buildings on which the government have complete right and legal ownership including offices, institutions etc. |\n| Individual Owners (Special Category) | Individual with a special background including freedom fighter, widow, specially-abled, defence personnel and others such as senior citizens etc. |\n\n\nIS 18006 (Part 3/Sec 1) : 2021\n\n\n#### 5.2.3 Appellate\n\nKey Terms and Definitions:\n\n\n| Appellate | Appellate is the process followed after the assessment notice are presented and the tax payer is aggrieved by the fixation or the charging of the tax. The appeal process kicks off with a simple property tax assessment appeal letter. |\n| --- | --- |\n| Timeline for Appeal | This is the timeline mentioned in an assessment notice by when an aggrieved person can appeal to the appellate authority. |\n| Appellate Authority | Appellate Authority is the authority or representative of the authority assigned to review the procedures and decisions or assessment of property to make sure that the proceedings were fair and that the proper law/regulation are applied appropriately. |\n| Revised Assessment Notice | Revised Assessment notice is the assessment notice served to the property owner post completion of the appellate process (if there is a change). |\n\n\n**Fig. 17 Taxonomy of Appellate Process**\n\n\n\n\n\n|  |  | Billing |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | F |  | Processes | Mode of Distribution |  |\n\n\nDetails Owner Details\n\nProperty\n\nDue Date\n\nTax Bill\n\nBill Calculation Vacancy Remission Digital Bill amendment\n\nDoor to Door\n\n(D2D) Broadcasting\n\n\n**Fig. 18 Taxonomy of Billing Process**",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 22,
+      "clause": "5.2.2.1",
+      "heading": "5.2.2.1 Exemptions",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.2 Assessment",
+        "5.2.2.1 Exemptions"
+      ],
+      "char_start": 41813,
+      "char_end": 44071,
+      "semantic_chunk_length": 2258,
+      "final_chunk_length": 2560,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0020",
+    "text": "#### 5.2.4 Billing\n\nThe below diagram illustrates the classifications for the Billing process.\n\nKey Terms and Definitions:\n\n\n| Billing | Billing is the process of generating tax demand for a financial year or half-year or quarter, based on set triggers like time-based roll over on completion of a financial year. |\n| --- | --- |\n| Owner Details | Owner details include the details of the property owner including name, ID card, Aadhar number, address, contact information etc. |\n| Property Details | Property details include the attributes of the property which are required for assessment and identification of the property. This includes PID, locational information, complete address of the property, physical attributes of the property such as area, built-up space, number of floors, structure, age etc. |\n| Tax Bill | Tax bill is the note in which the actual tax in consolidated form and in a specified format, generated and are distributed to the property owners for payment of the assessed property tax. A tax bill once served is called demand or tax demand. |\n| Due Date | Due date is the date on which the property tax for a particular property is due for the current assessment duration. Upon non-payment of tax by the given due date, a surcharge may be levied on the initial demand by the imposition of a penalty. |\n| Frequency | Frequency of billing means the interval of time in which the property tax is collected by the authority. The tax frequency can be annual, bi-annual or quarterly. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "5.2.4",
+      "heading": "5.2.4 Billing",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.4 Billing"
+      ],
+      "char_start": 44074,
+      "char_end": 45578,
+      "semantic_chunk_length": 1504,
+      "final_chunk_length": 1504,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0021",
+    "text": "on-payment of tax by the given due date, a surcharge may be levied on the initial demand by the imposition of a penalty. |\n| Frequency | Frequency of billing means the interval of time in which the property tax is collected by the authority. The tax frequency can be annual, bi-annual or quarterly. |\n\n| Bill Calculation | Property tax bill calculation process comprises the use of any one or combination of methods like annual rental value or area based or capital value method using various attributes of property such as rent received or likely to be received, ownership, area, location, type of structure, usage, age of the structure, capital value of land and structure, depreciation etc. to come up with a tax amount. |\n| --- | --- |\n| Vacancy Remission | Process undertaken to verify claims of rebates on PT if the property is vacant for a specified period of time as defined in the law. |\n| Bill Amendment | Bill amendment is the process of amending tax bill when tax payer notices a discrepancy in the calculation of the tax bill and submits a request for amendment or when the ULB realises discrepancy in the calculation of tax bill and amends it. |\n| Distribution | Distribution refers to the broadcasting or door to door distribution of the property tax bill through a digital or physical medium. |\n| Door to Door (D2D) | Door to Door means the process of distribution of tax bill and property tax collection by physically visiting every individual property by an authorised representative of the local government or municipal body. |\n| Broadcasting | Broadcasting is a distribution method used by ULB to communicate to the masses about property tax bill distribution, amendment and bill payment schedule. It covers a wide range of different communication methods that include television, SMS, radio, podcasts, blogs, advertising, websites, online streaming and digital journalism. |\n\n\n\n\nDigital Digital means an electronic way to collect, store, process and transmit data in the desired form. In the context of property tax, this refers to all the relevant data of property, owner, and tax register stored and shared in digital form and is used by the authority and the individual for property tax management via web and mobile applications.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 23,
+      "clause": "5.2.4",
+      "heading": "5.2.4 Billing",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.4 Billing"
+      ],
+      "char_start": 45583,
+      "char_end": 47535,
+      "semantic_chunk_length": 1952,
+      "final_chunk_length": 2254,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0022",
+    "text": "ore, process and transmit data in the desired form. In the context of property tax, this refers to all the relevant data of property, owner, and tax register stored and shared in digital form and is used by the authority and the individual for property tax management via web and mobile applications.\n\n##### 5.2.4.1 Tax bill\n\nKey Terms and Definitions:\n\n\n| Assessed Value | For the purpose of taxation, a property is assessed for its monetary worth. This ascertained price is known as Assessed value or Taxable property value. Assessment of non-assessed building can be done any time and revision of assessed value is done at regular interval of four or five years as prescribed by local law. |\n| --- | --- |\n| Arrears | Arrears are defined as previous year’s and/or unpaid property tax. |\n| Current Year PT (PT Amount) | This is the current year PT amount levied by the ULB as a house or holding tax. This is calculated by taking into consideration-tax rate and assessed value. |\n| Penalty | The amount of extra money the citizen has to pay for failing to adhere to Property tax rules and/or/laws, timelines. |\n\n\nTax Bill\n\nIS 18006 (Part 3/Sec 1) : 2021\n\n\n| Interest | The Amount collected above Property Tax in the event of late payment. It is usually determined at a particular rate of Property Tax. |\n| --- | --- |\n| Deductions | Deductions is the component of tax which has been deducted from the gross tax in lieu of advance or any other exemptions made subject to the rules of assessment of taxes. |\n| Rebates | Discount given to the citizen for paying Property Tax in advance or before end of the statutory period or for undertaking certain listed activities as per the applicable rules. |\n| Exemption Status | Exemption status is the status of exemption granted on some defined criteria as per the Act or Law. |\n| Other Taxes | These could be taxes levied by the governing authority for facilitating infrastructure and services that enhance the liveability factor associated with the property. This may include water tax, sewerage tax, etc. |\n| Cess and Charges | These are charges that are levied by the governing authority to raise funds for a specific purpose. These may include miscellaneous cess like Library cess, Swastha Cess. |\n\n\n| Exe s | Arrears & other allied charges |  |  |\n| --- | --- | --- | --- |\n| Arrears | Penalty Interest | Deductions | Rebates |\n\n\nAssessed\n\nCurrent Year PT\n\n\n**Fig. 19 Taxonomy of Tax Bill**\n\n\n\n\nMode of Payment\n\nTax Demand\n\nCollection\n\nChannels\n\nService Providers\n\nGovernment\n\n\n|  | Physical |  |  | Mobile |  |\n| --- | --- | --- | --- | --- | --- |\n| S | Digital |  |  | Door to Door (D2D) Counters |  |\n\n\nSemi-Government\n\nPrivate\n\nCSC\n\nGovernment\n\nCounters\n\n3rd Party Counters\n\nPortal\n\nULB Portal\n\nState Portal\n\n\n**Fig. 20 Taxonomy of Collection Process**",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 24,
+      "clause": "5.2.4.1",
+      "heading": "5.2.4.1 Tax bill",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.4 Billing",
+        "5.2.4.1 Tax bill"
+      ],
+      "char_start": 47538,
+      "char_end": 50041,
+      "semantic_chunk_length": 2503,
+      "final_chunk_length": 2805,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0023",
+    "text": "viders\n\nGovernment\n\n\n|  | Physical |  |  | Mobile |  |\n| --- | --- | --- | --- | --- | --- |\n| S | Digital |  |  | Door to Door (D2D) Counters |  |\n\n\nSemi-Government\n\nPrivate\n\nCSC\n\nGovernment\n\nCounters\n\n3rd Party Counters\n\nPortal\n\nULB Portal\n\nState Portal\n\n\n**Fig. 20 Taxonomy of Collection Process**\n\n#### 5.2.5 Collection\n\n\n**Figure 18 illustrates the Property Tax Collection process.**\n\nKey Terms and Definitions:\n\n\n| Collection | Collection is process of receiving money by the ULB from its citizens against taxes, permissions and services. |\n| --- | --- |\n| Counters | Physical window or office where an individual can physically visit for various purposes for governance related services including payment of taxes, grievances, seeking permissions, applications etc. |\n| Portals | Web portals or web application refers to the websites developed for property tax management. This broadly includes an assessment calculator, property data, owner’s information and facility to pay the property tax through payment gateways linked to the portals. These portals also include a grievance redressal system. |\n| Mobile | A portable handheld device with inbuilt capability for voice, SMS (short messaging service) communication through a cellular |\n\n\n\n\n|  | network (e.g. 2G/3G/4G/5G) with possibly other communication capabilities such as WiFi, Bluetooth, NFC; The Device may have data communication capability. Example: Mobile phone, smartphone, tablet. |\n| --- | --- |\n| Door to Door (D2D) | Door to Door means the process of distribution of demand notice and property tax collection by physically visiting every individual property by an authorised representative of the local government or municipal body. |\n| Physical | In context of property tax, physical refers to the mode of payment of money in physical form like cash, demand draft, cheque etc. |\n| Digital | Digital means electronic way to collect, store, process and transmit data in a desired form. In context of property tax this refers to payment of money in digital form like credit card, debit card, internet banking, e-wallets etc. |\n| Service Provider | A ‘Government body’ or ‘Government body authorized entity’ which can collect monies from citizens. |\n\n\n\n\n| Government | Government Organization or Public agency is often a government appointed group, it can be a permanent or semi-permanent organization and is funded by the government. A government agency may be created by either a national government or a state government within a federal system. |\n| --- | --- |\n| Semi- Government | Semi government arrangement between two or more public and private sectors, typically of a long-term nature. In other words, it involves government and business that work together to complete a project and/or to provide services to the population. |\n| Tax Demand | Tax Demand is the money to be received by the governing body from its citizens against taxes, permissions and services; also known as a demand. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 25,
+      "clause": "5.2.5",
+      "heading": "5.2.5 Collection",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.5 Collection"
+      ],
+      "char_start": 50044,
+      "char_end": 52709,
+      "semantic_chunk_length": 2665,
+      "final_chunk_length": 2967,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0024",
+    "text": "n other words, it involves government and business that work together to complete a project and/or to provide services to the population. |\n| Tax Demand | Tax Demand is the money to be received by the governing body from its citizens against taxes, permissions and services; also known as a demand. |\n\n#### 5.2.6 Recovery\n\n\n**Fig. 21 Taxonomy of Recovery Process**\n\nKey Terms and Definitions:\n\nRecovery Recovery means, recovery of tax from the tax payers or defaulters. In some cases, recovery may be in terms of impounding any movable or immovable asset of the tax defaulter. Few methods of recovery are:\n\n- a) by presenting a bill.\n- b) by serving a written notice of\ndemand.\n\n- c) by distraint and sale of a\ndefaulter’s movable property.\n\n- d) by the attachment and sale\nof a defaulter’s immovable property.\n\n- e) in the case of octroi and toll,\nby the seizure and sale of goods and vehicles.\n\n- f) in the case of property tax by\nthe attachment of rent due in respect of the property.\n\n- g) by a suit.\n\nIS 18006 (Part 3/Sec 1) : 2021\n\n\n| Demand Notice | Demand notice is the tax bill that is served by the authority on the tax payer. |\n| --- | --- |\n| Warrant Notice | Warrant notice is a legal or authorized notice from the authority to property tax defaulter, to pay the tax in the given period of time. The authority, on the basis of the warrant, may recover the taxes by distress or sale of any movable or immovable asset of the defaulter. |\n| Other Penal Processes | These are other penal processes that the authority can undertake for the recovery of the tax amount. |\n\n\n#### 5.2.7 Tax Payer Services\n\n\n**Fig. 22 Taxonomy of Tax Payer Services**\n\nNOTE — This is a partial depiction of the subcategories under\n\n“Tax Payer Services” to show the linkage between Municipal Services and Property Tax. Diagrammatic rendering of broad and extensive subcategories available under “Tax Payer Services” may not be effective for the use here. Key Terms and Definitions:\n\n\n| Tax Payer Services | These are the services availed to all tax payers in a municipality. In the context of property tax, these are Grievance redressal, no due certificate and duplicate bills. |\n| --- | --- |\n| Grievance Redressal | Grievance Redressal is a mechanism where a citizen can lodge their grievances to the ULB on various services. Few categories under Grievance Redressal for property tax are: a) Property tax Assessment. b) Property tax appeal petition. c) Change of title/ownership of property. d) Dealer registration (Cess). e) Dealer Assessment. f) Refund Claims. |\n\n\n\n\n| No Due Certificate | No-Dues is the certificate issued by the ULB upon full payment of property tax. Property Tax No Objection Certificate is majorly required while taking building permission, civil renovation permission from ULB, or at the time of buying and sale of any property. |\n| --- | --- |\n| Duplicate Tax Bills | These are duplicate copies of tax bills that a payer can ask for. |\n\n\n#### 5.2.8 Write-Off\n\nWrite-Off of property tax is the process of deductions or exemptions of tax, in compliance with any law, or through the guidelines of the ULB or the court of law. The write-off amount is then adjusted in ULB Tax Arrears.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 25,
+      "page_end": 26,
+      "clause": "5.2.6",
+      "heading": "5.2.6 Recovery",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.6 Recovery"
+      ],
+      "char_start": 52712,
+      "char_end": 55603,
+      "semantic_chunk_length": 2891,
+      "final_chunk_length": 3193,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0025",
+    "text": "plicate copies of tax bills that a payer can ask for. |\n\n\n#### 5.2.8 Write-Off\n\nWrite-Off of property tax is the process of deductions or exemptions of tax, in compliance with any law, or through the guidelines of the ULB or the court of law. The write-off amount is then adjusted in ULB Tax Arrears.\n\n#### 5.2.9 Audit\n\nAudit of the property tax bill is a process by which the correctness of the property tax levied or recovered is assessed.",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 26,
+      "clause": "5.2.9",
+      "heading": "5.2.9 Audit",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.2 Property Tax Processes",
+        "5.2.9 Audit"
+      ],
+      "char_start": 55606,
+      "char_end": 55745,
+      "semantic_chunk_length": 139,
+      "final_chunk_length": 441,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0026",
+    "text": "mptions of tax, in compliance with any law, or through the guidelines of the ULB or the court of law. The write-off amount is then adjusted in ULB Tax Arrears.\n\n#### 5.2.9 Audit\n\nAudit of the property tax bill is a process by which the correctness of the property tax levied or recovered is assessed.\n\n### 5.3 Stakeholders\n\nKey Terms and Definitions:\n\nPayer Person who is liable to pay or whose behalf it is paid.\n\nStakeholders\n\n\n| Individual | Individual in terms of revenue refers to a person also refers as assessee or the owner, who is liable to pay taxes to the government. |\n| --- | --- |\n| Organization | Organization means a group of people working or functioning together with a set aim. Organization refers to a trust, charitable organization, non-governmental organization etc. |\n| Government | Government, refers to the parliamentary system formed under the constitution of India. This is broadly categorised into the three types of government i.e. the Central government, State Government and Local government. In reference to the property tax, the government means the ULB or the Municipal bodies of the cities. |\n| Private | Private means any property, firm or organisation which is owned by any individual or group and not shared by any other individual group or government. |\n\n\n|  | Payer | Individual |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | Payee Assessor | Organizational |  | Government Private Public Private |  |\n\n\nAppellate Authority\n\nAuditor\n\nULB Admins\n\nState Admins\n\nCommissioner\n\nPT Board\n\n\n**Fig. 23 Taxonomy of Stakeholders**\n\n\n\n\n\n| Public Private | Public private means collaboration of government and individual or group made for a particular aim. |\n| --- | --- |\n| Payee | The governing body which is authorized to collect the tax as per prevailing laws. |\n| Assessor | An assessor is a ULB official who determines the value of a property for taxation purposes. The figures assessors derive are used to calculate future property taxes. The assessor estimates the value of property within a city or town’s boundaries. This value (assessed value) is converted into an assessment, which is one component in the computation of property tax bills. |\n| Appellate Authority | Appellate Authority is the authority or representative of the authority assigned to review the procedures and decisions or assessment of property to make sure that the proceedings were fair and that the proper law/regulation are applied appropriately. |\n| Auditor | Auditor is the person bestowed with the responsibility to check the correctness of the property tax levied or recovered is assessed. |\n| ULB Admins | ULB Admins means and includes all the officers, employees and other staff employed in the Municipality. |\n\n\nIS 18006 (Part 3/Sec 1) : 2021",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 26,
+      "page_end": 27,
+      "clause": "5.3",
+      "heading": "5.3 Stakeholders",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.3 Stakeholders"
+      ],
+      "char_start": 55748,
+      "char_end": 58215,
+      "semantic_chunk_length": 2467,
+      "final_chunk_length": 2769,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0027",
+    "text": "| Commissioner | Commissioner of the ULB or municipal body means an officer appointed by the Government, and includes an Additional Director, a Joint Director, Deputy Director, or any other officer of the Government authorized by it to perform the functions of the Commissioner and Director of Municipal Administration. |\n| --- | --- |\n| State Admins | State Admins means and includes all the officers, employees and such other staff employed in the State government. |\n| Property Tax Board | Property Tax Board is a board constituted by the state government by notification in the official gazette, to exercise the powers conferred on, and to perform the functions assigned to it. |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "5.3",
+      "heading": "5.3 Stakeholders",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.3 Stakeholders"
+      ],
+      "char_start": 58218,
+      "char_end": 58901,
+      "semantic_chunk_length": 683,
+      "final_chunk_length": 683,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0028",
+    "text": "s all the officers, employees and such other staff employed in the State government. |\n| Property Tax Board | Property Tax Board is a board constituted by the state government by notification in the official gazette, to exercise the powers conferred on, and to perform the functions assigned to it. |\n\n### 5.4 Reports and KPIs\n\nKey Terms and Definitions:\n\n\n| Property Coverage Report | Property coverage report is the report that gives coverage of properties under the tax net. |\n| --- | --- |\n| Tax Collection Report | Tax Collection report is the current statement of total receipts or collections and outstanding balance against the demand. These reports are generated in desired formats in a graphical or tabular form summarizing the detail of property tax demand, collection and balance of property tax for a particular period of time. |\n\n\n|  |  |  |  |  |  | Reports & KPIs |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Standard Re ort |  | Reports |  | C stom Re ort |  | Key Met Co |\n\n\nCollection Ratio\n\nProperty Coverage Report\n\nTax Collection Report/ DCB\n\nPT Defaulters List\n\nCoverage Ratio\n\nDigital Adoption\n\nTax Arrears\n\nAmount in Arbitration\n\nOther Metrices\n\n\n**Fig. 24 Taxonomy of Reports and KPIs**\n\n\n\n\n\n| Property Tax Defaulters List | PT Defaulters List is the list of property tax defaulters, as on date. Defaulter is a person or body that has not paid last or previous years property tax. This covers assessment number, owner details, property details, demand year and arrears. |\n| --- | --- |\n| Collection Ratio | Collection ratio is the total amount of Property tax collected against the total Demand for that period in the ULB. |\n| Coverage Ratio | Coverage ratio is the number of properties covered under the tax net against the total properties falling within the ULB. |\n| Digital Adoption | Digital Adoption means attaining a state where an individual is capable enough to utilize an application, software, or tools to its fullest capacity or the potential to carry out a variety of digital processes. Digital adoption of property tax can be measured in the following terms: a) % of Citizens using Digital Channels for PT Payment. b) % of citizens using Digital Channels for accessing Services. c) % Volume from different Channels. |\n| Tax Arrears | Tax arrears are the PT liability that has accrued because of payment not received by the due date. These are reflected as balance and disputed amount in Tax collection report. |\n\n\nTax Collection Report\n\nThe Tax Collection report is the current statement of total receipts or collections and outstanding balance against the demand. These reports are generated in desired formats in a graphical or tabular form summarizing the detail of property tax demand, collection and balance of property tax for a particular period of time.\n\n\nTax Collection Report\n\nTax Demand\n\nCollection\n\nBalance\n\nDisputed\n\n\n**Fig. 25 Taxonomy of Tax Collection Report**\n\nKey Terms and Definitions:",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 28,
+      "clause": "5.4",
+      "heading": "5.4 Reports and KPIs",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.4 Reports and KPIs"
+      ],
+      "char_start": 58904,
+      "char_end": 61561,
+      "semantic_chunk_length": 2657,
+      "final_chunk_length": 2959,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0029",
+    "text": "formats in a graphical or tabular form summarizing the detail of property tax demand, collection and balance of property tax for a particular period of time.\n\n\nTax Collection Report\n\nTax Demand\n\nCollection\n\nBalance\n\nDisputed\n\n\n**Fig. 25 Taxonomy of Tax Collection Report**\n\nKey Terms and Definitions:\n\n| Demand | Tax Demand is the money to be received by the governing body from its citizens against taxes, permissions and services; also known as demand. |\n| --- | --- |\n| Collection | Collection is the actual collection of property tax receipts for a particular tax cycle. |\n| Balance | Balance refers to the amount due or the amount which is pending and is to be realised in the future. The balance amount is sometimes also known as arrears. |\n| Disputed | This is the amount under arbitration. |\n\n\n### 5.5 Revenue\n\nKey Terms and Definitions:\n\n\n| Revenue | Revenue is the income earned by the governing body from taxes, charges and fee. |\n| --- | --- |\n| Tax Based Demand | The amount charged by the governing authority for public purposes enforceable by law e.g, Property Tax. |\n| Permission Based Demand | The amount charged by the governing authority against approvals of permissions provided. e.g.: Building Plan Approval etc. |\n| Service Based | Amount charged by governing authority for services provided such as Water charges, Advertising Charges etc. |\n\n\n\n\n**Fig. 26 Taxonomy of Revenue**\n\nNOTE — This is a partial depiction of the subcategories under “Revenue” to show the linkage between Municipal Revenue and Property\n\nTax. Diagrammatic rendering of broad and extensive subcategories available under “Revenue” may not be effective for the use here.\n\n\n\n\n\n## ANNEX A\n\n( Clause 5.1 )\n\nSAMPLE PARAMETERS AND SPECIFICATIONS IN PROPERTY TAX\n\nA-1 SAMPLE PARAMETERS AND SPECIFICATIONS FOR LOCATION\n\n\n| Type | Location Specification |\n| --- | --- |\n| Address | House No, Building Name, Plot/Survey No, Street Name, Locality, Zone/Ward, City/Town, District, Region, State, Country, Pin code |\n| Geo Location | Latitude, Longitude, Polygon |\n| Digital Numbers | PID or PTIN or UPIC number |\n| Other evidences | This can include Geo tagged images of Property, DDN, QR codes etc. |\n\n\n- a) Address: The address of the property provides the\nparticulars of the place as per the administrative boundaries or norms defined by the local governing body. b) Geo Location: Geolocation is the identification or\n\nestimation of the real-world geographic location of\n\n\nproperty. This refers to the latitude and longitude coordinates of a particular location where property is located. c) Digital Numbers: Property Numbers defined\n\nusing scientific methods and often assigned with QR code for traceability and usability.\n\nA-2 SAMPLE PARAMETERS AND SPECIFICATIONS OF MEASUREMENTS FOR DIFFERENT TYPES OF PROPERTY\n\n\n| Type of Property | Area of Measurement | Representation on Map |\n| --- | --- | --- |\n| Vacant Land | Polygon Area (square feet or m2) | Polygon |\n| Built Structure | Built Up Area of Premise (square feet or m2) | Polygon, Centroid |\n|  | Appurtenant Area (square feet or m2) | Polygon, Centroid |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 28,
+      "page_end": 30,
+      "clause": "5.4",
+      "heading": "5.4 Reports and KPIs",
+      "heading_path": [
+        "5 TAXONOMY FOR PROPERTY TAX",
+        "5.4 Reports and KPIs"
+      ],
+      "char_start": 61564,
+      "char_end": 64360,
+      "semantic_chunk_length": 2796,
+      "final_chunk_length": 3098,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18006_3_1_0030",
+    "text": "## ANNEX B\n\n( Foreword )\n\n1 Town and Country Planning, Ministry of Housing and Urban Development (2014). Urban and Regional Development Plan Formulation and Implementation (URDPFI) Guidelines. 2 Town and Country Planning, Ministry of Housing and Urban Development (2016). Model Building Bye Laws. 3 URDPFI Guidelines (2014). Volume II A and II B (MoHUD).\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 28 (17277).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "18006_3_1.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 31,
+      "page_end": 36,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 64365,
+      "char_end": 66251,
+      "semantic_chunk_length": 1886,
+      "final_chunk_length": 1886,
+      "standard_no": "IS 18006",
+      "year": "2021",
+      "part": "Part 3/Sec 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "9401_1_2026_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nApril  2026 Price Group 4\n\n\n\n\nMeasurement and Cost Analysis of Works for River Valley Projects Sectional Committee, WRD 23\n\nFOREWORD\n\nThis Indian Standard (Part 1) (Second Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Measurement and Cost Analysis of Works for River Valley Projects Sectional Committee had been approved by the Water Resources Division Council.\n\nIn measurement of quantities, in construction of river valley projects a large diversity of methods exists at present according to local practices. Lack of uniformity creates complication regarding measurement and payments.\n\nThis standard has been formulated in various parts, covering each type of work separately and Part 1 is intended to provide a uniform basis for measurement of excavation for foundation in the construction of river valley projects. This standard was first published in 1982 and subsequently revised in 1999 in the light of experience gained during its usage. This revision has been brought out to bring the standard in the latest style and format of the Indian Standards.\n\nThe composition of the Committee responsible for the revision of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard METHOD OF MEASUREMENT OF WORKS  IN RIVER VALLEY\n\n\nPROJECTS (DAMS AND APPURTENANT STRUCTURES)\n\n\nPART 1 EXCAVATION FOR FOUNDATION\n\n\n( Second Revision )\n\n\n## 1 SCOPE\n\nThis standard (Part 1) covers the method of measurement of excavation for foundation in river valley projects (dams and appurtenant structures).\n\n\n## 2 REFERENCES\n\nThe standard given below contain provisions, which through reference in this text constitute provisions of this standard. At the time of publication, the editions indicated was valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of this standard:\n\nIS No. Title\n\n\n| Method of measurement of |  |\n| --- | --- |\n| works in river valley projects |  |\n| (dams and appurtenant |  |\n| structures): Part 2 |  |\n| Dewatering (first revision) |  |\n\n\nIS 9401 (Part 2) :",
+    "metadata": {
+      "source": "9401_1_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2685,
+      "semantic_chunk_length": 2684,
+      "final_chunk_length": 2684,
+      "standard_no": "IS 9401",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9401_1_2026_0001",
+    "text": "ged to investigate the possibility of applying the most recent edition of this standard:\n\nIS No. Title\n\n\n| Method of measurement of |  |\n| --- | --- |\n| works in river valley projects |  |\n| (dams and appurtenant |  |\n| structures): Part 2 |  |\n| Dewatering (first revision) |  |\n\n\nIS 9401 (Part 2) :\n\n## 3 GENERAL\n\n\n3.1 In case of measurement of proposed work, the dimensions are read from drawings and then worked up, that is, reduced to length, area, or volume in recognized units of measurements for the particular item. In case of assessment of executed work, the dimensions are measurements in the field. Calculations of length, area, volume, weight, etc, are made on the basis of these dimensions and payments are made accordingly. Where measurements of a number of units are the same it is the usual practice to take measurements of one unit and multiply the calculated length, area or volume by the number of units.\n\n\n### 3.2 Clubbing of Items\n\nItems may be clubbed together provided that the breakup of items is on the basis of detailed description of items stated in the standard.\n\n\n### 3.3 Booking of Dimensions\n\nIn booking dimensions, order shall be consistent and generally in the sequence of length, width, and height or depth or thickness.\n\n\n### 3.4 Dimensions\n\nUnless otherwise stated, all work shall be measured net in decimal system, as fixed in its place as given in 3.4.1 to 3.4.3.\n\n\n3.4.1 Linear dimensions shall be measured to the nearest 0.01 m.\n\n3.4.2 Areas shall be worked out to the nearest 0.01 m2.\n\n\n\n3.4.3 Volumes shall be worked out to the nearest 0.01 m3.\n\n\n### 3.5 Description of Items\n\nThe description of each item shall include conveyance, delivery, handling, loading, unloading, storing, rehandling, etc, including all inputs for finishing to required shape and size.\n\n\n### 3.6 Work to be Measured Separately\n\n\n3.6.1 Work executed in the following conditions shall be measured separately:\n\n- a) Work in or under water;\n- b) Work in liquid mud/marshy land;\n- c) Work under tides; and\n- d) Work in any other specific condition.\n\n3.6.2 The level and the timings of high and low water tides, where occurring, shall be stated.\n\n\n3.6.3 Wherever dewatering is resorted to, it shall be measured in accordance with (Part 2) of this standard.\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n\n\n\n\n3.7 Measurements are closely linked with detailed drawings, description of items and specifications of the work. These should, therefore, be very clear and properly worded and the order of precedence shall be sanctioned drawings, approved specifications and specified description of items.\n\n\n## 4 MEASUREMENT OF IRREGULAR AREAS AND VOLUMES\n\n\n4.1 Irregular areas shall be divided into a number of figures of known area, say, triangles, rectangles, etc. The remaining part (which cannot be formed into a triangle or a regular figure) shall be evaluated on common basis by Simpson's rule, or average ordinate rule.\n\n\n4.2 In case of an irregular volume the volume shall be determined by Prismoidal formula.",
+    "metadata": {
+      "source": "9401_1_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 GENERAL",
+      "heading_path": [
+        "3 GENERAL"
+      ],
+      "char_start": 2688,
+      "char_end": 5516,
+      "semantic_chunk_length": 2828,
+      "final_chunk_length": 3130,
+      "standard_no": "IS 9401",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9401_1_2026_0002",
+    "text": "s of known area, say, triangles, rectangles, etc. The remaining part (which cannot be formed into a triangle or a regular figure) shall be evaluated on common basis by Simpson's rule, or average ordinate rule.\n\n\n4.2 In case of an irregular volume the volume shall be determined by Prismoidal formula.\n\n## 5 MEASUREMENT OF EXCAVATION FOR FOUNDATION\n\n\n### 5.1 General\n\n\n5.1.1 All excavation for foundation shall be classified into the following four broad heads for purposes of measurements:\n\n- a) Overburden — shall consist of all kinds of strata which can be removed without blasting, including boulders not exceeding 0.5 m3 in volume.\n- b) Rock (blasting permitted) — shall consist of all kinds of strata which cannot be removed without blasting and boulders exceeding 0.5 m3 in volume.\n- c) Rock (Blasting not permitted) — shall consist of all kinds of strata where blasting is not permitted.\n- d) Rock (in restricted spaces) — shall consist of excavation in shafts, faults, seams, feather edges, etc.\n\n5.1.2 If excavated materials are required to be stacked for any special requirement, the percentage to be deducted from apparent volume of stack shall be as follows:\n\nOverburden 20 percent\n\nRock 40 percent\n\n\n5.1.3 The item of excavation shall be measured either with distinct lead and lifts or distinct lead only.\n\n\n\n5.1.4 Shoring and staging, if required, may be measured separately or included in the main work but the method of measurement shall be clearly specified.\n\n\n5.1.5 Due to site conditions, if excavation according to drawing is not practicable, due allowance shall be given for working dimensions which may also include additional excavation in slope to maintain stability of soil, dewatering arrangements and working space.\n\n\n5.1.6 If the excavated soil is to be disposed of at a place other than specified dump areas this may form a separate item.\n\n\n5.1.7 Any activity, such as upheaving, blowing-in, etc, to be measured separately under the item of excavation shall be clearly specified.\n\n\n5.1.8 Excavation shall be measured by taking cross sections at intervals of 5 m generally in the original position before starting of the work and after its completion. This interval may be reduced in undulating and uneven site conditions. However, in isolated and special cases, excavation shall be measured by taking off dimensions of pit excavated.\n\n\n5.1.9 Existing natural cavities, caverns, manmade excavations like wells, etc, within the excavated location shall be deducted from the final measurement.",
+    "metadata": {
+      "source": "9401_1_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "5",
+      "heading": "5 MEASUREMENT OF EXCAVATION FOR FOUNDATION",
+      "heading_path": [
+        "5 MEASUREMENT OF EXCAVATION FOR FOUNDATION"
+      ],
+      "char_start": 5519,
+      "char_end": 7736,
+      "semantic_chunk_length": 2217,
+      "final_chunk_length": 2519,
+      "standard_no": "IS 9401",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9401_1_2026_0003",
+    "text": "ing and uneven site conditions. However, in isolated and special cases, excavation shall be measured by taking off dimensions of pit excavated.\n\n\n5.1.9 Existing natural cavities, caverns, manmade excavations like wells, etc, within the excavated location shall be deducted from the final measurement.\n\n### 5.2 Excavation\n\n\n#### 5.2.1 Surface Excavation or Dressing\n\n- a) Surface excavation, dressing, trimming or levelling not exceeding 300 mm in depth shall be measured in square metres giving average depth of excavation work;\n- b) Surface excavation, dressing, trimming or levelling exceeding 300 mm in depth shall be measured in cubic metres;\n- c) The measurement shall be made to the pay line as shown in the drawing or actually excavated whichever is less (see 5.1.6);\n- d) If any clearance in excavation beyond the foundation area is to be allowed, the extent of such clearance should be specified and the same should be included in the measurement; and\n- e) Dental excavation shall be measured separately.\n\n\n\n\n#### 5.2.2 Excavation of Trenches\n\n- a) If the section of trench is 150 mm × 150 mm or less, the measurement shall be in running metres specifying the section;\n- b) If the section of the trench is greater than 150 mm × 150 mm but less than 300 mm × 300 mm the measurement shall be in square metres of cross section giving the average depth; and\n- c) If the section of the trench is greater than 300 mm × 300 mm measurement shall be in cubic metres.\n\n#### 5.2.3 Additional Lead and Lift\n\n\n5.2.3.1 Additional lead shall be given for all excavation of foundation for cases where material has to be thrown beyond initial lead (see 5.1.3).\n\n\n5.2.3.2 Lead for the purpose of measurement shall be the shortest practical route from the centre of gravity of the borrow pit or foundation to the centre of gravity of the bank or location where the excavated materials have been dumped.\n\n\n5.2.3.3 All items of foundation excavation work beyond initial lift shall be measured separately as given in 5.2.3.4.\n\n\n5.2.3.4 The lift shall be taken as the vertical distance from the centre of gravity of the heaped materials\n\n\nIS 9401 (Part 1) : 2026\n\nfrom the ground level plus the depth of centre of gravity of the borrow pit or foundation from the same ground level.\n\n\n#### 5.2.4 Excavation of Old Foundation\n\nThe unit of measurement shall be cubic metres. The nature of work to be done shall be specified clearly.\n\n\n#### 5.2.5 Puddling\n\nThe unit of measurement shall be cubic metres. The nature of puddling work shall be clearly specified.\n\n\n#### 5.2.6 Underpinning\n\nThe unit of measurement of excavation for underpinning shall be in cubic metres. The work shall be described in detail stating the length, width and depth of the excavated trench requiring underpinning.\n\n\n#### 5.2.7 Overbreaks\n\nOverbreaks extending beyond pay line of excavation shall not be measured. Only such overbreaks shall be measured separately, the occurrence of which is unavoidable resulting from adverse geological conditions due to concealed joints, faults and other structural defects in rock and not due to negligence or lack of reasonable care and skill in excavation.",
+    "metadata": {
+      "source": "9401_1_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "5.2",
+      "heading": "5.2 Excavation",
+      "heading_path": [
+        "5 MEASUREMENT OF EXCAVATION FOR FOUNDATION",
+        "5.2 Excavation"
+      ],
+      "char_start": 7739,
+      "char_end": 10589,
+      "semantic_chunk_length": 2850,
+      "final_chunk_length": 3152,
+      "standard_no": "IS 9401",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "9401_1_2026_0004",
+    "text": "l not be measured. Only such overbreaks shall be measured separately, the occurrence of which is unavoidable resulting from adverse geological conditions due to concealed joints, faults and other structural defects in rock and not due to negligence or lack of reasonable care and skill in excavation.\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: WRD 23 (27473).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "9401_1_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 10594,
+      "char_end": 12030,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 9401",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

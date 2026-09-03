@@ -1,0 +1,747 @@
+[
+  {
+    "id": "18004_1_0000",
+    "text": "|  | ICS 35.020 |  |\n|  | ©  BIS  2021 |  |\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nJune 2021 \b Price Group 9\n\n\n\n\nSmart Infrastructure Sectional Committee, LITD 28\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Smart\n\nInfrastructure Sectional Committee, had been approved by the Electronics and Information Technology Division\n\nCouncil.\n\nIn the formulation of this standard, considerable assistance has been derived from the following publications:\n\nISO/IEC 30141 : 2018 Internet of Things (IoT) - Reference Architecture\n\na)\n\nITU-T Y.3056 Framework for bootstrapping of devices and applications for open access to trusted\n\nservices in distributed ecosystems\n\nTEC 30001 : 2020 oneM2M Functional Architecture\n\nc)\n\n- d) TEC-TR-SN-M2M-009 - Release 01 Recommendations for IoT / M2M Security (Technical report)\nThe IoT Concept Model Diagram and Definitions used in this document are adapted from the ISO/IEC 30141,\n\nthe Functional Architecture has been adapted from ITU-T Y.3056, and The Common Service Layer architecture\n\nhas been adapted from the TEC 30001 : 2020. The Classification of Use Cases (Cl 8.2.2) is derived from\n\nTEC-TR-SN-M2M-009.\n\nThe IoT Reference Architecture described in this Standard aims to fulfil the broad requirements identified\n\noneM2M-Requirements.\n\nThe Department of Telecommunications, Ministry of Communications, Government of India vide Gazette\n\nNotification No. G.S.R. 1131(E) dated 5th September, 2017 has amended the Indian Telegraph Rules, 1951\n\n(Amendment 2017) to introduce Mandatory Testing & Certification of Telecom Equipment (MTCTE). As per\n\nMTCTE, every telecom equipment must undergo mandatory testing and certification before its sell or import.\n\nThe requirements for the security management (8.2) has been set to fulfil the requirements for the MTCTE.\n\nThe Composition of the panel, LITD 28/P9 and the sectional committee, LITD 28 responsible for the formulation\n\nof this standard is given at Annex C.\n\n\n\nContents\n\nPages\n\nINTRODUCTION\n\n\n0.1\n\nBackground\n\n\n0.2\n\nMotivation & Objectives\n\n\nSCOPE\n\nREFERENCES\n\nTERMINOLOGY, SYMBOLS AND ABBREVIATIONS\n\n3.1\n\nTerminology\n\n3.2\n\nAbbreviations\n\nOVERVIEW\n\n4.1\n\nIoT Concept Model\n\n4.2\n\nIoT Reference Model\n\n4.3\n\nIoT Reference Architecture\n\nIOT CONCEPT MODEL\n\nIOT REFERENCE MODELS\n\n6.1\n\nDomain Based Reference Model\n\n6.2\n\nEntity based IoT reference model\n\nIOT REFERENCE ARCHITECTURE\n\n7.1\n\nIoT Architecture Layers and Planes\n\n7.1.1\n\nPhysical Layer\n\n7.1.2\n\nNetwork Layer\n\n7.1.3\n\nCommon Service Layer\n\n7.1.4\n\nApplication Layer\n\n7.1.5\n\nFunctional Plane\n\n7.1.6\n\nData and Security Management Plane\n\n7.1.7\n\nStandards, Certification and Compliance Plane\n\n7.2\n\nIoT Functional Architecture\n\n7.3\n\nEntity based components and functional blocks\n\n7.4\n\nSematic Interoperability\n\n7.5\n\nFunctional description of the Semantics CSF\n\nIOT DEPLOYMENT VIEWS\n\n\n8.1\n\nGeneral\n\n\n8.1.1\n\nIoT Role Based View\n\n\n8.1.2",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2986,
+      "semantic_chunk_length": 2984,
+      "final_chunk_length": 2984,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0001",
+    "text": "Plane\n\n7.1.7\n\nStandards, Certification and Compliance Plane\n\n7.2\n\nIoT Functional Architecture\n\n7.3\n\nEntity based components and functional blocks\n\n7.4\n\nSematic Interoperability\n\n7.5\n\nFunctional description of the Semantics CSF\n\nIOT DEPLOYMENT VIEWS\n\n\n8.1\n\nGeneral\n\n\n8.1.1\n\nIoT Role Based View\n\n\n8.1.2\n\nIoT System Deployment View\n\n\n\n\nPages\n\n8.2\n\nIoT Security Management View\n\n\n8.2.1\n\nEnd point security and classification\n\n\n8.2.2\n\nClassification of Use Cases\n\n\n8.2.3\n\nAuthentication and Authorization framework\n\n8.2.4\n\nTrust framework\n\n\n\n## ANNEX A\n\nUSE CASE BASED REQUIREMENT CATEGORISATION\n\n\n## ANNEX B\n\nBROAD FUNCTIONAL REQUIREMENTS\n\n\n\n## ANNEX C\n\n### 0.1 Background\n\nThe Internet of Things (IoT) or Machine to Machine\n\n(M2M) ecosystem generally comprises of devices\n\nand/or sensors which generate information in the\n\nform of data which flows through various electronic\n\ncommunication means to a set of Digital Infrastructure\n\nfor storing, forwarding, analysis, and subsequent\n\nactions by humans or machines including actuators.\n\n\n### 0.2 Motivation & Objectives\n\nIoT is considered to be a significant element ofthe digital\n\ninfrastructure and is an integral part of the 'Unified\n\ndigital infrastructure ICT Reference Architecture\n\n(ICTRA) defined in IS 18000. Therefore, it is necessary\n\nto provide a special focus on the standardization of the\n\nIoT Ecosystem.\n\nThis Standard recommends a blueprint for realizing the\n\ndigital infrastructure required for scalable, secure and\n\nglobally interoperable IoT solutions. The IoT Reference\n\nArchitecture described in this Standard includes a\n\nconcept model, reference models, architectures and\n\ndeployment views, along with references to global\n\nstandards and specifications, such as to facilitate an\n\norderly proliferation of the IoT Ecosystem.\n\nA significant other motivation is to ensure that the\n\nIoT sub-systems seamless integrate with the sub-\n\nIS 18004 (Part 1) : 2021\n\nsystems involved with performing towards the ICT RA\n\nspecifications. The IoT RA focuses on the three key\n\nprinciples enshrined in the ICT RA, namely:\n\n- a) Interoperability  Refers to the ability of\ndiverse systems and components to work\n\ntogether, even as parts from diverse set of\n\nsuppliers are substituted and integrated;\n\n- b) Composability — Refers to the ability to\ncombine discrete components into a complete\n\nsystem to achieve a set of goals and objectives;\n\nand\n\nRefers to achieving\n\nHarmonization\n\nbetween technologies\n\nand\n\ncompatibility\n\nwhen they at first appear\n\nsystems, even\n\nincompatible.\n\nThe Standard is useful for anyone involved in the\n\ndesign, development, deployment, and implementation\n\nor certification of an IoT device, network or application\n\necosystem. Further, the IoT Reference Architecture\n\nassists in obtaining the objectives of IS 18000,\n\nwhich are to provide a unified digital infrastructure\n\narchitecture that can serve as a template for both the\n\ncity administrators and those who are the consumers\n\nof such IoT and ICT based solutions, as well as the IoT\n\nand ICT solution providers who develop and deploy\n\nsuch solutions.\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\nIndian Standards\n\nIOT SYSTEM\n\nPART 1REEERENCE ARCHTTECTURE",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 7,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2988,
+      "char_end": 5879,
+      "semantic_chunk_length": 2891,
+      "final_chunk_length": 3193,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0002",
+    "text": "or both the\n\ncity administrators and those who are the consumers\n\nof such IoT and ICT based solutions, as well as the IoT\n\nand ICT solution providers who develop and deploy\n\nsuch solutions.\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\nIndian Standards\n\nIOT SYSTEM\n\nPART 1REEERENCE ARCHTTECTURE\n\n## 1 SCOPE\n\nTERMINOLOGY.\n\nSYMBOLS\n\nAND\n\nABBREVIATIONS\n\nThis Indian Standard describes the Internet of Things\n\n(IoT) Reference Architecture, that comprises IoT\n\n\n### 3.1 Terminology\n\nConcept Model, IoT Reference Models (Domain based\n\nFor the purpose of this standard, the definitions given in\n\nIoT reference model, Entity based IoT reference model)\n\nIS 18000 : 2020 and ISO/IEC 30141 shall apply.\n\nand IoT Deployment Views.\n\n\n### 3.2 Abbreviations\n\nIoT Concept Model and Reference models elaborate\n\nthe interactions between various entities, both digital\n\nAPI\n\nApplication Programmable Interface\n\nand non-digital.\n\nCSF\n\nCommon Service Function\n\n\n## 2 REFERENCES\n\nFA\n\nFunctional Architecture\n\nIoT\n\nInternet of Things\n\nThe standards given below contain provisions which,\n\nJSON\n\nJavaScript Object Notation\n\nthrough reference in this text, constitute provisions of\n\nthis standard. At the time of publication, the editions\n\nM2M\n\nMachine-to-Machine\n\nindicated were valid. All standards are subject to\n\nOTP\n\nOne-time-password\n\nrevision, and parties to agreements based on this\n\nRA\n\nReference Architecture\n\nstandard are encouraged to investigate the possibility\n\nof applying the most recent editions of these standards.'\n\nRM\n\nReference Model\n\nIS 18000 : 2020\n\nUnified Digital Infrastructure ICT\n\nSEM CSF\n\nSemantics (SEM)\n\nCommon Service\n\nReference Architecture\n\nFunction\n\nIS 18002\n\nUnified\n\nDigital\n\nInfrastructure\n\nSP\n\nService Provider\n\n(Part 1) : 2021\n\nData Layer Part\n\nReference\n\nTSP\n\nTelecommunications Service Provider\n\nArchitecture\n\nXML\n\nExtensible Markup Language\n\nISO/IEC 30141\n\nInternet of Things (loT) -\n\nReference Architecture",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "1",
+      "heading": "1 SCOPE",
+      "heading_path": [
+        "1 SCOPE"
+      ],
+      "char_start": 5882,
+      "char_end": 7510,
+      "semantic_chunk_length": 1628,
+      "final_chunk_length": 1930,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0003",
+    "text": "\nReference Architecture\n\nFunction\n\nIS 18002\n\nUnified\n\nDigital\n\nInfrastructure\n\nSP\n\nService Provider\n\n(Part 1) : 2021\n\nData Layer Part\n\nReference\n\nTSP\n\nTelecommunications Service Provider\n\nArchitecture\n\nXML\n\nExtensible Markup Language\n\nISO/IEC 30141\n\nInternet of Things (loT) -\n\nReference Architecture\n\n## 4 OVERVIEW\n\nTEC 30001 :\n\noneM2M Functional Architecture\n\n2020\n\nInternet of Things (IoT) refers to a vast and growing\n\ncollection of devices and applications that are\n\nTEC 30003 :\n\noneM2M-Security Solutions\n\nconnecting every part of our lives today. The IoT use\n\n2020\n\ncases are spread into smart city, smart grid, smart home\n\nTEC 30004 :\n\noneM2M-Service\n\nLayer\n\nCore\n\nand building, digital agriculture, smart manufacturing,\n\n2020\n\nProtocol\n\nintelligent transport system, e-Health etc. IoT is a\n\nTEC 30009 :\n\noneM2M-HTTP Protocol Binding\n\ngeneral reference to many enabling technologies\n\n2020\n\nincluding sensing, networking, communications, data\n\nmanagement, control, analytics etc. The IoT Reference\n\nTEC 30010 :\n\noneM2M-MQTT protocol binding\n\nArchitecture described in this standard comprises a set\n\n2020\n\nof models, architectures and views, the overall structure\n\nTEC 30015 :\n\noneM2M-Testing Framework\n\nof which is depicted in Fig. 1.\n\n2020\n\n\n### 4.1 IoT Concept Model\n\nTEC 30020 :\n\noneM2M-WebSocket\n\nProtocol\n\n2020\n\nBinding\n\nThe IoT concept model is an abstract, implementation\n\nITU-T Y.3056\n\nFramework\n\nfor\n\nbootstrapping\n\nindependent representation of the actors, entities,\n\n(2021)\n\nof devices and applications for\n\ninteractions\n\nand\n\nenforcements\n\nrequired\n\nfor\n\nopen access to trusted services in\n\nsupporting the requirements and use cases in the IoT\n\ndistributed ecosystems\n\necosystem.\n\n\n\nDomainBased\n\nloTReference\n\nModel\n\nIoT CM\n\nEntity Based\n\nloT Reference\n\nModel\n\nIoT\n\nIoT\n\nConcept\n\nReference\n\nModel\n\nModel\n\nloT Role\n\nBasedView\n\nloT Service\n\nLayer\n\nArchitecture\n\nloT System\n\nDeployment\n\nViews\n\nloT Functional\n\nArchitecture\n\nloT Security\n\nManagement\n\nView\n\nIoT\n\nIoT\n\nReference\n\nImplementation\n\nArchitecture\n\nViews\n\n\n**FIG. 1 THE PROGRESSION OF THE IoT ECOSYSTEM STANDARD**\n\n\n### 4.2 IoT Reference Model\n\nThe IoT reference model describes the important\n\ndomains and the entities within the domains. It also\n\npresents the three types of interactions between the\n\ndomains that are important to the IoT ecosystem:\n\nhuman-machine\n\nmachine-machine\n\ninteractions,\n\ninteractions. Two\n\ninteractions and inter-domain\n\napproaches have been adopted while arriving at the\n\nIoT Reference Model namely Domain based Reference\n\nModel and Entity based Reference Model.\n\n\n### 4.3 IoT Reference Architecture\n\nThe IoT Reference Architecture is described through\n\nthe IoT Functional Architecture and the IoT Service\n\nLayer Architecture.\n\n\n### 4.4 IoT Deployment Views\n\nFor the implementation of the IoT System, the IoT\n\nReference Architecture needs to be realised using clear\n\ndefinitions of the roles, the subsystems which include\n\nthe device and data management subsystems and also\n\nthe security management system. A set of deployment\n\nviews are provided to assist the implementation of\n\nthe IoT system using the IoT Reference Architecture.\n\nThe following deployment views are provided in the\n\ndocument:\n\n- a) IoT Role Based View\n- b) IoT System Deployment View\n) IoT Security Management View",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "4",
+      "heading": "4 OVERVIEW",
+      "heading_path": [
+        "4 OVERVIEW"
+      ],
+      "char_start": 7513,
+      "char_end": 10498,
+      "semantic_chunk_length": 2985,
+      "final_chunk_length": 3287,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0004",
+    "text": "ity management system. A set of deployment\n\nviews are provided to assist the implementation of\n\nthe IoT system using the IoT Reference Architecture.\n\nThe following deployment views are provided in the\n\ndocument:\n\n- a) IoT Role Based View\n- b) IoT System Deployment View\n) IoT Security Management View\n\n## 5 IOT CONCEPT MODEL\n\nFor the IoT Conceptual Model, reference is drawn\n\ntowards ISO/IEC 30141 : 2018, 8.3 providing the high\n\nlevel IoT Concept Model which describes the common\n\nstructure and definitions for describing the concepts,\n\nrelationships, and behaviour within an IoT system.\n\nThe primary objective of the IoT concept Model is\n\nto provide a common structure and definitions for\n\ndescribing the concepts of, and relationships among,\n\nthe entities within IoT systems.\n\nThe IoT Concept Model benefits the emerging\n\nrequirements from a wide array of Use Cases belonging\n\nto an ever growing industrial, home and governmental\n\nsectors as well as Smart City use cases covering\n\nSafety and Surveillance, Health, Education, Energy,\n\nUtilities, Transportation, Governance, Sustainability\n\nand Buildings. It aims to be generic, abstract and\n\nsimple in order to address the various IoT use cases in a\n\nstandardised manner across all vertical domains.\n\nThe IoT Concept Model shown in Fig. 2 presents the\n\nrelationships between the entities, including Digital\n\nEntities and their Physical Entities. It also illustrates\n\nhow things and services collaborate via the network.\n\n\n\nIdentity\n\nseusinBunsip\n\nIdentfer\n\nwithin\n\nidentified\n\nIdentity context\n\nhas\n\nidentifes\n\nIOT-User\n\nisa\n\nHuman user\n\nDlgital user\n\nVirtual entity\n\nrepresents\n\nPhysical Entity\n\nTag\n\nisa\n\ncontains\n\nsesn\n\n4585\n\niscontained\n\nmonitors\n\nacis\n\nwithin\n\nData store\n\nApplication\n\nService\n\nsensor\n\nActuator\n\ninteracts\n\ninteracts.\n\nwith\n\nwith\n\ninteracis\n\ninteracts\n\nlOTdevice\n\nthrough\n\nwith\n\ninteracts\n\nthrough\n\nconnecls\n\nNetwork\n\nIOTgateway\n\ninteracts\n\nthrough\n\nNEC\n\n\n**FIG. 2 IoT CONCEPT MoDEL [SoURCE: ISO/IEC 30141]**\n\nAn Entity is anything (both physical and non-physical)\n\nelectronic appliances to closed or open environments. A\n\nthat has a distinct and independent existence. Every\n\nPhysical Entity is a specialization of entity. A Physical\n\nentity has a unique identity.\n\nEntity can contain other physical entities.\n\nA Digital Entity is a computational or data element of\n\nAn IoT-User is a user of an IoT system, which can\n\nan IoT system. These elements include applications,\n\nbe human or non-human. An IoT-User is part of an\n\nservices, virtual entities, data stores, IoT devices and\n\nIoT system. An IoT-User is a specialization of entity\n\nIoT gateways. A Digital Entity is a specialization\n\nrepresenting a human user or digital user.\n\nof Entity. A Digital Entity can contain other Digital\n\nEntities.\n\nA Network is the infrastructure that connects a set\n\nof Digital Entities, enabling communication of data\n\nA Physical Entity is a discrete, identifiable and\n\nbetween them. A network is a specialization of entity\n\nobservable\n\npart of thephysical environment.\n\nPhysical Entities can be almost any physical object\n\nMost entities in IoT, especially Physical Entities\n\nor environment; from humans or animals to cars;\n\n(\"things\"), have an Identity. An Identifier is a set of\n\nfrom store or logistics chain items to computers; from",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "5",
+      "heading": "5 IOT CONCEPT MODEL",
+      "heading_path": [
+        "5 IOT CONCEPT MODEL"
+      ],
+      "char_start": 10501,
+      "char_end": 13493,
+      "semantic_chunk_length": 2992,
+      "final_chunk_length": 3294,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0005",
+    "text": "\npart of thephysical environment.\n\nPhysical Entities can be almost any physical object\n\nMost entities in IoT, especially Physical Entities\n\nor environment; from humans or animals to cars;\n\n(\"things\"), have an Identity. An Identifier is a set of\n\nfrom store or logistics chain items to computers; from\n\nattributes of the entity that can be used to uniquely\n\n\n\nidentify the entity in a context. An entity can have more than one identifier, but it requires at least one unique identifier within any Identity Context through which it can be accessed. For example, the identity information from a tag can be used as an identifier to identify the Physical Entity to which it is attached.\n\nEntities which interact via networks do so by exposing one or more endpoints on a network. A network connects endpoints. A Service exposes one or more endpoints by which it can be invoked. An endpoint has one or more network interfaces. Services, which are located remotely, can be reached by endpoints through network interfaces across a communication network. Endpoints exist on one or more networks.\n\nA Service is a set of distinct capabilities provided through a defined interface. A service can be composed of other services. A service is typically implemented as software. A service defines network interfaces and is exposed by an endpoint. A service interacts with other entities via one or more networks. A service may or may not\n\n- a) interact with IoT gateways or IoT devices b) interact with other services c) use data stores\nData associated with services, IoT devices and with IoT gateways can be held in a Data Store used by one or more entities.\n\nAn Application is a software entity or system that offers a collection of functions and solutions designed to help IoT users perform particular tasks or to handle particular types of IT problems. An application can use one or more services. An application can be used by a human user (via a human-machine interface (HMI)) or by a digital user (via an API). The Services and Applications are illustrated in the Reference Models described in 6.1 (see Fig. 3).\n\nAn interface is defined as a named set of operations that characterize the behaviour of an entity and is specifically a set of operations and associated parameters which can be used by one Digital Entity to request actions from another Digital Entity.\n\nThe Concept Model also addresses the OT Asset Management as given in clause 8.11.2 of IS 18000, which requires that the management of all IT or non-IT field device should be protected and managed. Every such device should be easily identifiable through a well- defined asset tagging mechanism, maintained in an asset registry using the asset tag as the key, identifying asset ownership and custodian. The registry must maintain the entire lifecycle of the asset, right from its procurement, installation, maintenance to disposal of a device.\n\n\nThe Concept Model also addresses the Field Security Management requirements given in clause 8.11.6 of IS 18000, which requires that the IoT devices are genuine, the firmware and/or software are not compromised and that they are authenticated, authorized and managed using security keys so as to be protected against cyber-attacks throughout the lifecycle.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "5",
+      "heading": "5 IOT CONCEPT MODEL",
+      "heading_path": [
+        "5 IOT CONCEPT MODEL"
+      ],
+      "char_start": 13495,
+      "char_end": 16448,
+      "semantic_chunk_length": 2953,
+      "final_chunk_length": 3255,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0006",
+    "text": "agement requirements given in clause 8.11.6 of IS 18000, which requires that the IoT devices are genuine, the firmware and/or software are not compromised and that they are authenticated, authorized and managed using security keys so as to be protected against cyber-attacks throughout the lifecycle.\n\n## 6 IOT REFERENCE MODELS\n\n### 6.1 Domain Based Reference Model\n\nThe IoT Domain based Reference Model (RM) depicted in Fig. 3 is shown as a set of entities within well-defined domains which interact with each other whilst being governed by a set of Policy, Regulatory, Governmental Guidelines, and Standards.\n\nIn order to provide a sustainable, interoperable, standardised and scalable framework for the proliferation of the IoT Use Cases, these concept model envisages the need for IoT Reference Models which can be used to develop implementation models for various use cases across sectors.\n\nThe Entities in the Domain based IoT RM represent both Physical and Digital entities as they form a relationship with each other including the devices, networks, platforms and applications as illustrated in Fig. 3. Though Fig. 3 depicts the interactions between domains, the actors and entities have however been shown here within the domains for exemplification.\n\nThe following domains are important from the perspective of a standardised IoT Ecosystem:\n\n- a) Device / Network Domain b) Consumer Domain c) Provider Domain d) Service / Application Domain e) Standards / Policy / Regulatory / Governance\nDomain f) Trust Establishment, Registration, Certification\n\nDomain\n\nIt acknowledges the existence of multiple entities, including but not limited to Device Manufacturer, App Developer, Device or App Buyer, Device or App User, Various Service Providers, System Integrators, Trust Providers, Regulators, Registration and Certification Authorities and Application Verticals etc.\n\nIn Fig. 3, the horizontal domains have been depicted using rectangular shapes with rounded edges having dotted boundaries. The two vertical domains have been represented using sharp edged rectangles with dotted boundaries. The horizontal domains are more or less specific to the actors or entities depicted therein and have interactions with more than one domain.\n\n\n\n\nApplication\n\nAutomotive\n\nDomain\n\nService/\n\nAgriculture\n\nloTReference Architecture\n\nProvider\n\nDomain\n\nConsumer\n\nDomain\n\nNetwork\n\nDomain\n\nNetworks\n\nHM Interactions\n\nIS 18004 (Part 1) : 2021\n\nIIoT\n\nSmartCities\n\nEducation\n\nHealthcare\n\nTrust Establishment, Registration, Certification\n\nApplications & Service Providers,\n\nloT ImplementationViews\n\nDeviceManufacturer\n\nSystemsIntegrators\n\nNetworkOperator&M2MService\n\nApp Developers\n\nProvider\n\nDevice/ App Buyer\n\nDevice/AppUser\n\nPlatforms\n\nDevices\n\nGateways\n\nSensors\n\nActuators\n\nDevice Apps\n\nM2MInteractions\n\nD2DInteractions\n\n\n**FIG. 3 DOMAIN BASED IoT REFERENCE MODEL**\n\nThe vertical domains are the ones which encompass\n\nthe entire IoT ecosystem and are mainly driven by\n\nstandards, policy, regulatory frameworks, governance\n\netc. There are two pillars shown at the two sides of the\n\ndiagram which germinate from the model contained\n\nwithin. They are:\n\n- a) IoT Reference Architecture\n- b) IoT Deployment Views\nThe following three types of interactions are used in\n\n\n**Fig. 3:**",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "6.1",
+      "heading": "6.1 Domain Based Reference Model",
+      "heading_path": [
+        "6 IOT REFERENCE MODELS",
+        "6.1 Domain Based Reference Model"
+      ],
+      "char_start": 16451,
+      "char_end": 19415,
+      "semantic_chunk_length": 2964,
+      "final_chunk_length": 3265,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0007",
+    "text": "rds, policy, regulatory frameworks, governance\n\netc. There are two pillars shown at the two sides of the\n\ndiagram which germinate from the model contained\n\nwithin. They are:\n\n- a) IoT Reference Architecture\n- b) IoT Deployment Views\nThe following three types of interactions are used in\n\n\n**Fig. 3:**\n\n- a) Human to Machine Interaction (HM) -\nThese are mainly the interactions between\n\nhuman entities with machines or subsystems.\n\nThe arrows depicting these interactions cross\n\nthe domain boundary which signifies that the\n\ninteractions are between the actors and/or\n\nentities within a specific domain to other actors\n\nand/or entities.\n\n- b) Machine to Machine Interaction (M2M) -\nThese are the interactions between machines/\n\nsubsystems mainly between the actors or\n\nentities of the Device/Network Domain and\n\nthe Service/Application Domain. The arrows\n\ndepicting these interactions also cross the\n\ndomain boundary signifying such interactions.\n\n- c) Domain to Domain Interaction (D2D) -\nThese are the interaction between the domains\n\nand does not indicate any specific actor or entity\n\ncontained within the individual domains. The\n\narrows depicting these interactions, therefore.\n\ndo not cross the domain boundary and that\n\nsignifies that the interactions are between the\n\nentirety of the domains.\n\n\n### 6.2 Entity based IoT reference model\n\nThe entity based IoT Reference Model is shown in\n\n\n**Fig. 4. While the Domain based IoT Reference Model**\n\ndescribed the domains from the perspective of HMI,\n\nM2M and D2D interactions, it is also necessary to\n\nconsider the physical and digital entities and the\n\ninteractions between them. The concept of layers is\n\nintroduced in this description in the following way:\n\n- a) Users or Application Layer  This layer\ncontains the State/Corporate Entity, Consumer\n\nEntity and Governance Entity\n\n- b) Services Layer - This layer contains the IoT/\nM2M Data Management Entity and IoT/M2M\n\nService Entity\n\nNetwork Layer  This layer contains the\n\nvarious Network Entities of an IoT ecosystem\n\nnamely Public Network, M2M Area Network\n\n(also known as Personal Area Network) and\n\nCaptive Network.\n\nPhysical Layer — This layer contains the\n\nd)\n\nphysical Entities that are Sensors/Actuators\n\nand IoT/M2M Devices/Gateways\n\n\n\nConsumer\n\nState/Corporate\n\nGovernance\n\nUsers\n\nEntity\n\nEntity\n\nEntity\n\n(Application)\n\nIoT/M2MData\n\nloT/M2M\n\nServices\n\nManagement\n\nService Entity\n\nEntity\n\nCaptive\n\nM2M Area\n\nPublicNetwork\n\nNetwork\n\nNetwork\n\nNetwork\n\nIoT/M2M\n\nSensors/Actuators\n\nPhysical\n\nDevices/Gateways\n\nloT/M2MFunctionalPlane\n\nloT/M2MStandards,CertificationandCompliancePlane\n\nloT/M2MDataandSecurityManagementPlane\n\n\n**FIG. 4 ENTITY BASED IOT REFERENCE MODEL**\n\nThe layers, along with the related entities, cut across\n\nand operate at three planes, namely:\n\n- a) IoT/M2M Functional Plane,\n- b) IoT/M2M\nand\n\nStandards\n\nCertification\n\nCompliance Plane\n\nIoT/M2M Data and Security Management\n\nPlane",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "6.1",
+      "heading": "6.1 Domain Based Reference Model",
+      "heading_path": [
+        "6 IOT REFERENCE MODELS",
+        "6.1 Domain Based Reference Model"
+      ],
+      "char_start": 19417,
+      "char_end": 22028,
+      "semantic_chunk_length": 2611,
+      "final_chunk_length": 2913,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0008",
+    "text": "curityManagementPlane\n\n\n**FIG. 4 ENTITY BASED IOT REFERENCE MODEL**\n\nThe layers, along with the related entities, cut across\n\nand operate at three planes, namely:\n\n- a) IoT/M2M Functional Plane,\n- b) IoT/M2M\nand\n\nStandards\n\nCertification\n\nCompliance Plane\n\nIoT/M2M Data and Security Management\n\nPlane\n\n## 7 IOT REFERENCE ARCHITECTURE\n\nThe IoT Reference Architecture (loT RA) is derived\n\nfrom the two reference models described in 6 which\n\ndescribed the Domains, Entities and their interactions.\n\nThe IoT System implemented in the city shall adhere\n\nto the Unified Digital infrastructure (UDI) properties\n\ndefined in IS 18000 and the data principles defined in\n\n\n**Table 1 of IS 18002.**\n\nThe various layers and planes described in 6 are further\n\ndetailed in a layered architecture. The IoT Reference\n\nArchitecture is created from a deployment perspective,\n\nit provides for the implementation of the individual\n\ncomponents and the interaction between the different\n\nlayers. Each layer talks to the other layer as shown in\n\n\n**Fig. 5 below without ignoring any one of them. Each of**\n\nthe layers is technology agnostic.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "7",
+      "heading": "7 IOT REFERENCE ARCHITECTURE",
+      "heading_path": [
+        "7 IOT REFERENCE ARCHITECTURE"
+      ],
+      "char_start": 22031,
+      "char_end": 22846,
+      "semantic_chunk_length": 815,
+      "final_chunk_length": 1117,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0009",
+    "text": "created from a deployment perspective,\n\nit provides for the implementation of the individual\n\ncomponents and the interaction between the different\n\nlayers. Each layer talks to the other layer as shown in\n\n\n**Fig. 5 below without ignoring any one of them. Each of**\n\nthe layers is technology agnostic.\n\n### 7.1 IoT Architecture Layers and Planes\n\n\n**Fig. 5 shows an abstract view of the IoT Reference**\n\nthat comprises four layers. It also\n\nArchitecture\n\nthe interaction between the different\n\ndemonstrates\n\nlayers both\n\nat the horizontal and vertical level.\n\nThe architecture\n\ntechnology agnostics\n\nsuch\n\nis\n\nthat it gives guidance to architect an IoT System.\n\nEach layer of the\n\nIoT Reference Architecture\n\nis explained as below.\n\n\n#### 7.1.1 Physical Layer\n\nConsists of things\"' that have independent existence\n\nand consists of sensors, actuators, gateway devices\n\nthat capture the real time and offline data from the\n\nenvironment.\n\n\n#### 7.1.2 Network Layer\n\nThis layer encapsulates the different communication\n\ntechnologies and protocols that constitute an IoT\n\nNetwork as suggested by the domain-based reference\n\nmodel mentioned in 6.1.\n\n\n#### 7.1.3 Common Service Layer\n\nAs the name suggests, this layer is the common service\n\nutility layer for the IoT platform. All the necessary\n\nfunctions of any IoT Ecosystem is contained here that\n\n\n\n\ncan be provided as a service. These are called Common\n\nService Functions (CSFs). Example of such Common\n\nService Functions are registration and authorization;\n\nsecured data exchange; location services; notification\n\nand event detection services; data storage and data\n\nexchanges; and Semantics (This module enable\n\napplications to manage semantic information and\n\nprovide functionalities based on this information).\n\nRefer TEC 30001 : 2020, TEC 30004 : 2020, and\n\nTEC 30003 : 2020 for the Common Service Layer and\n\nits constituent Common Service Functions.\n\nThis layer provides the APIs to access the physical\n\nentities and exchange data between the physical entities.\n\n\n#### 7.1.4 Application Layer\n\nThis Layer encapsulates the components which are\n\nproviding the interfaces or visualisation which enables\n\nthe Human to Machine Interactions. The Digital\n\nEntities which add meaning to the things are contained\n\nin this layer that may also provide user interfaces that\n\nact as a dashboard for the end users and interacts with\n\nthe Common Service Layer.\n\n\n#### 7.1.5 Functional Plane\n\nThe said four layers perform the functions on any or all\n\nof the three planes depicted in Fig. 5. The Functional\n\nIS 18004 (Part 1) : 2021\n\nPlane provides the management aspect of the entire IoT\n\necosystem be it the Digital Infrastructure Management,\n\nAgreements, Contracts, Workflow Management etc.\n\nThe ‘Reliability' of an IoT System, which is the ability\n\nto perform the intended function in the prescribed\n\nconditions for a specific period of time that can be\n\nmeasured in various metric form such as Quality of\n\nService, Availability of Service etc. is one of the key\n\ndeliverables of this plane and that cut across all the\n\ncomponents of all the four layers.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "7.1",
+      "heading": "7.1 IoT Architecture Layers and Planes",
+      "heading_path": [
+        "7 IOT REFERENCE ARCHITECTURE",
+        "7.1 IoT Architecture Layers and Planes"
+      ],
+      "char_start": 22849,
+      "char_end": 25641,
+      "semantic_chunk_length": 2792,
+      "final_chunk_length": 3094,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0010",
+    "text": "rform the intended function in the prescribed\n\nconditions for a specific period of time that can be\n\nmeasured in various metric form such as Quality of\n\nService, Availability of Service etc. is one of the key\n\ndeliverables of this plane and that cut across all the\n\ncomponents of all the four layers.\n\n#### 7.1.6 Data and Security Management Plane\n\nData and Security Management Plane covers\n\nthe\n\naspects of Security and its association with Data that\n\nis generated by the IoT Ecosystem. Security in the IoT\n\nEcosystem has another dimension in the perspective of\n\nSafety. Safety in IoT parlance is defined as a condition\n\ninjury or damage to human health either directly or\n\nindirectly or posing any risk to the environment Safety\n\nis a major concern for the IoT systems not only with\n\nrespect to the human beings but also to other living\n\nbeings and environment as it interacts and applies\n\ncontrol mechanism for the physical world. Safety can\n\nnot be compromised at any entity starting from the\n\nphysical entity to the application entity. A wrong data\n\ncaptured by a physical entity can lead to wrong control\n\nApplicationLayer\n\nCommon Service Layer\n\nNetwork Layer\n\nPhysical Layer\n\nloT/M2MFunctionalPlane\n\nloT/M2MStandards,CertificationandCompliancePlane\n\nloT/M2MDataandSecurityManagementPlane\n\n\n**FIG. 5 IoT SERVICE LAYER ARCHITECTURE**\n\n\n\nmechanism at the application levels and may lead to\n\n\n#### 7.1.7 Standards, Certification and Compliance Plane\n\nfunctions and N1 is the reference point between device\n\nStandards, Certification and Compliance Plane binds\n\nfunctions and network functions. All four functions\n\nall the components of the IoT ecosystem with the\n\nwill interact with each other based on these reference\n\npoints. There is another block parallel to the common\n\nstandards, its certification methods and compliance when\n\nit is mandated orrecommended. The policies, regulations\n\nservice function that may be called a supporting/utility\n\nand legal aspects are all covered under this plane and\n\nfunction block that only interacts with the CSF and\n\nthis supporting /utility function is out of the scope of\n\nthus establishes a framework that binds the entire\n\nthe IoT RA.\n\necosystem.\n\nOther realm\n\nApplication\n\nApplication\n\nApplication\n\nFunction\n\nFunctions\n\nFunction\n\nA.\n\nCommon\n\nOrchestration\n\nOther realm\n\nService\n\nFunctions\n\n(API,\n\nCs Function\n\nFunctions\n\nWorkflow, ...)\n\nNetwork\n\nFunction\n\nDevice Application\n\nFunctions\n\nN.\n\nDevice Common\n\nService Functions\n\nImplementation specific, outside the scope of loT RA\n\n\n**FIG. 6 IoT FUNCTIONAL ARCHITECTURE**",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "7.1.6",
+      "heading": "7.1.6 Data and Security Management Plane",
+      "heading_path": [
+        "7 IOT REFERENCE ARCHITECTURE",
+        "7.1 IoT Architecture Layers and Planes",
+        "7.1.6 Data and Security Management Plane"
+      ],
+      "char_start": 25644,
+      "char_end": 27907,
+      "semantic_chunk_length": 2263,
+      "final_chunk_length": 2565,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0011",
+    "text": "\n\nFunction\n\nA.\n\nCommon\n\nOrchestration\n\nOther realm\n\nService\n\nFunctions\n\n(API,\n\nCs Function\n\nFunctions\n\nWorkflow, ...)\n\nNetwork\n\nFunction\n\nDevice Application\n\nFunctions\n\nN.\n\nDevice Common\n\nService Functions\n\nImplementation specific, outside the scope of loT RA\n\n\n**FIG. 6 IoT FUNCTIONAL ARCHITECTURE**\n\n### 7.2 IoT Functional Architecture\n\nThe IoT Functional Architecture (FA) is shown in\n\nenvironment where the IoT system is operating.\n\n\n**Fig. 6. The IoT FA is derived from TEC 30001 :**\n\nSimilar to the Cybersecurity ecosystem, the Security\n\n2020, and in alignment with TEC 30004 : 2020 and\n\nof an IoT System can be defined as the condition in\n\nTEC 30003 : 2020. The IoT FA defines five nodes\n\nwhich there is no compromise of data while flowing in\n\n(see note), five functions and four reference points.\n\nThe reference points are called RPa, RPc, RPn and\n\nor out of the IoT System. This includes the information\n\nsystems involved, the physical systems, and the\n\nare further suffixed with numerals to show the distinct\n\ninterfaces between nodes.\n\ncontrolling systems.\n\n- a) RPa is the reference point between the\nInformation Security is the major threat in the context\n\nApplication Functions and Common Service\n\nof the IoT System. IoT Systems pose a big challenge in\n\nFunctions.\n\nterms of Information Security as they are distributed\n\n- b) RPd is the reference point between the cyber-\nand connected and hence create a big challenge as\n\nphysical device and common service function.\n\nthere may be a huge number of IoT systems installed\n\nin the network. Any compromise in one of the IoT\n\nRPc is the reference point between two\n\nsystems makes the complete network vulnerable.\n\ncommon service functions within a realm\n\nThe main objective to have Safety and Security\n\nRPo is the reference point between two\n\n(p\n\nacross the IoT Reference Architecture is to ensure the\n\ncommon service functions outside each other's\n\nConfidentiality, Integrity and Availability of the IoT\n\nrealm\n\nSystems.\n\nC2 is the reference point between two common service\n\n\n\n\n### 7.3 Entity based components and functional blocks\n\nTable 1 lists out the different functions of Common Service Layer with a brief explanation.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "7.2",
+      "heading": "7.2 IoT Functional Architecture",
+      "heading_path": [
+        "7 IOT REFERENCE ARCHITECTURE",
+        "7.2 IoT Functional Architecture"
+      ],
+      "char_start": 27910,
+      "char_end": 29794,
+      "semantic_chunk_length": 1884,
+      "final_chunk_length": 2186,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0012",
+    "text": "s outside each other's\n\nConfidentiality, Integrity and Availability of the IoT\n\nrealm\n\nSystems.\n\nC2 is the reference point between two common service\n\n\n\n\n### 7.3 Entity based components and functional blocks\n\nTable 1 lists out the different functions of Common Service Layer with a brief explanation.\n\n### 7.4 Sematic Interoperability\n\nIn the IoT ecosystems, the various devices and applications operate without adequate compatibility with products from different manufacturers. For example, Smart Street Light application provided by one vendor does not work seamlessly with the lights provided by another vendor. This leads to a vendor locked-in siloed environment. standards resolve this issue by enabling horizontal and vertical communication, operation, and programming across devices and platforms, regardless of their model or manufacturer. Though standardised common service layer solves this problem to a great extent in order to utilize the full potential of the interoperable IoT ecosystem, standardised semantic annotations, mashups and semantic reasoning is necessary. The commonly agreed information models and ontologies for the data produced by the IoT devices, that are processed by the interfaces or are included in the exchanged data can provide the required meaning\n\nIS 18004 (Part 1) : 2021\n\nof the data. However, as there are several ontologies for describing each distinct Thing, we need semantic interoperability mechanisms to perform common data mapping across the various utilized formats (e.g. XML or JSON) and ontology alignment.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "7.4",
+      "heading": "7.4 Sematic Interoperability",
+      "heading_path": [
+        "7 IOT REFERENCE ARCHITECTURE",
+        "7.4 Sematic Interoperability"
+      ],
+      "char_start": 29797,
+      "char_end": 31052,
+      "semantic_chunk_length": 1255,
+      "final_chunk_length": 1557,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0013",
+    "text": "provide the required meaning\n\nIS 18004 (Part 1) : 2021\n\nof the data. However, as there are several ontologies for describing each distinct Thing, we need semantic interoperability mechanisms to perform common data mapping across the various utilized formats (e.g. XML or JSON) and ontology alignment.\n\n### 7.5 Functional description of the Semantics CSF\n\nThe architectural model assumed in this standard is based on the generic architecture for the Common Service Layer in Fig. 5. The core functionality supporting semantics resides at various common service entities, providing services to the application entities interacting with other common service entities.\n\n\nThe Semantics (SEM) Common Service Function (CSF) enables semantic information management and provides the related functionality based on this semantic information. The functionality of this CSF is based on semantic descriptions. This functionality is also enabled by other, more generic, resources and procedures described in TEC 30001 : 2020 and further referenced in this specification. The main features of the SEM CSF\n\n\n**Table 1 Functions of Common Service Layer**\n\n| Sl No. | Functions | Description |\n| --- | --- | --- |\n| 1 2 3 4 5 6 7 8 9 10 11 12 13 | Registration (REG) Discovery (DIS) Security (SEC) Group Management (GM) Data Management and Repository (DMR) Subscription and Notification (S&N) Device Management (DM) Application and Service Management (ASM) Location (LOC) Network Service Exposure (NSE) Communication Management and Delivery Handling (CMDH) Service Charging & Accounting (SCA) Transaction Management (TM) | This function will enable the registration of the Applications (and each instance of the application) with the CSF This function allows the application to discover the resources (devices as well as applications) within the CSF This module ensures security of the data as well as communication CSF allows the application to create groups for different IoT devices to initiate a common action for the group This block manages the storage of data within the CSF and facilitates data exchange within the applications The module is responsible for notifying applications about data arrival or events. The individual application needs to subscribe for such notification. This module is responsible for the management of devices based on different technologies such as TR069, LWM2M, OMA-DM The management of applications and service subscriptions is done by this module The location services and data management are taken care by the Location entity in the CSF This module facilitates the IoT System to choose the optimal network for application & device triggering. The module is responsible for the frequency and the channels of the communication taking place in the IoT System. This module is responsible for providing charging data for billing and accounting purpose. This module takes care of the scheduling of a transaction, locking and unlocking of resources targeted by a transaction. |\n\n\n\n\n\nare listed in clause 10.2.14 of TEC 30001 : 2020\n\nand further detailed in 6 and 7 of this standard. The\n\nSEM CSF includes specialized functional blocks such\n\nas SPARQL engine, repositories for ontologies and\n\nsemantic descriptions, which may be implemented via",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "7.5",
+      "heading": "7.5 Functional description of the Semantics CSF",
+      "heading_path": [
+        "7 IOT REFERENCE ARCHITECTURE",
+        "7.5 Functional description of the Semantics CSF"
+      ],
+      "char_start": 31055,
+      "char_end": 34010,
+      "semantic_chunk_length": 2955,
+      "final_chunk_length": 3257,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0014",
+    "text": "urces targeted by a transaction. |\n\n\n\n\n\nare listed in clause 10.2.14 of TEC 30001 : 2020\n\nand further detailed in 6 and 7 of this standard. The\n\nSEM CSF includes specialized functional blocks such\n\nas SPARQL engine, repositories for ontologies and\n\nsemantic descriptions, which may be implemented via\n\npermanent or temporary Semantic Graph Stores, etc.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "7.5",
+      "heading": "7.5 Functional description of the Semantics CSF",
+      "heading_path": [
+        "7 IOT REFERENCE ARCHITECTURE",
+        "7.5 Functional description of the Semantics CSF"
+      ],
+      "char_start": 34012,
+      "char_end": 34062,
+      "semantic_chunk_length": 50,
+      "final_chunk_length": 352,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0015",
+    "text": "n clause 10.2.14 of TEC 30001 : 2020\n\nand further detailed in 6 and 7 of this standard. The\n\nSEM CSF includes specialized functional blocks such\n\nas SPARQL engine, repositories for ontologies and\n\nsemantic descriptions, which may be implemented via\n\npermanent or temporary Semantic Graph Stores, etc.\n\n## 8 IOT DEPLOYMENT VIEWS\n\n### 8.1 General\n\nIn order to implement the IoT System following the\n\nIoT Reference Architecture, it is important to describe\n\nand understand the roles which are necessary to be\n\nplayed by the corresponding stakeholders. Similarly,\n\nthe functional blocks described in 7 shall have to be\n\nexpanded in a way that can touch upon all the necessary\n\ncomponents of practical deployment. Also, as the\n\ndevice, data security and privacy aspects are paramount\n\nin the IoT ecosystem, it is prudent to have a very precise\n\nand crisp specification for security implementation in a\n\nreal IoT world.\n\nThis objective is being met by the following three\n\nviews that have been presented in this section:\n\n- a) IoT Role Based View\n- b) IoT Systems Deployment View\n- c) IoT Security Management View\n\n#### 8.1.1 IoT Role Based View\n\nThe three layered IoT Reference Architecture described\n\nin 7 gets manifest in various deployment views. A\n\ngeneric form of the deployment view is illustrated in\n\n\n**Fig. 7 which is developed keeping in mind the key**\n\nstakeholders from the perspective of the roles played\n\nby them towards the service delivery and consumption\n\nstandpoint of the IoT ecosystem as presented in Fig. 7.\n\nThese roles are purely functional and may coincide or\n\nclubbed with any other role.\n\nThe roles depicted in Fig. 7 are described as follows:\n\n- a) The User (individual or company) fulfils all of\nthe following criteria:\n\n- 1) Lawfully\nIoT/M2M\n\nyäsubscribesätoäanä\n\nsolution.\n\n- b) The Application Service Provider fulfils all of\nthe following criteria:\n\ngets\n\nthe\n\nApplication,\n\n- 1) Registers\nit certified\n\nthe\n\nper\n\nas\n\nprovisions\n\nof the\n\nandprovides\n\nlaw,\n\nit\n\nas\n\nan IoT/M2M Application Service.\n\n- 2) Operates IoT/M2M Applications.\n- c) The IoT/M2M Service Provider fulfils all of\nthe following criteria:\n\n- 1) Obtains the required registrations and\ncertifications for the provisioning of end\n\n\nto end IoT Services including devices,\n\nconnectivity and applications, undertakes\n\nthe custodian KYC, provisions\n\nthe\n\nIoT/M2M Services for retail, enterprise\n\nand government beneficiaries.\n\n- 2) Operates the IoT/M2M Services.\n- d) The Network Service Provider fulfils all of the\nfollowing criteria:\n\n- 1) Provides Connectivity and related services\nfor IoT/M2M Service Providers.\n\n- 2) Operates an Underlying Network. Such\nan Underlying Network could， for\n\nexample be a licensed telecom network\n\nor an unlicensed Machine to machine\n\nconnectivity network\n\nall the\n\n- e) The Device Manufacturers\nfulfil\n\nfollowing criteria:\n\n- 1) Manufacturers/Provides\ndevices\n\nthe\n\n(sensors/actuators/gateways) in the field\n\n- 2) Conforms to the specifications of the\nstandards as applicable in the IoT/M2M\n\necosystem\n\nAll the above roles are having mapping to various\n\nlayers as defined in the IoT RA and are governed by\n\nthe Governance, Regulations and Standards entities as\n\ndefined in the IoT Reference Model.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "8.1",
+      "heading": "8.1 General",
+      "heading_path": [
+        "8 IOT DEPLOYMENT VIEWS",
+        "8.1 General"
+      ],
+      "char_start": 34065,
+      "char_end": 36984,
+      "semantic_chunk_length": 2919,
+      "final_chunk_length": 3220,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0016",
+    "text": " the field\n\n- 2) Conforms to the specifications of the\nstandards as applicable in the IoT/M2M\n\necosystem\n\nAll the above roles are having mapping to various\n\nlayers as defined in the IoT RA and are governed by\n\nthe Governance, Regulations and Standards entities as\n\ndefined in the IoT Reference Model.\n\n#### 8.1.2 IoT System Deployment View\n\nFrom the deployment standpoint, the layered\n\narchitectures facilitate the understanding of roles,\n\nfunctions, positions, and the abstraction of different\n\nhardware, software and networking entities. Fig. 8\n\ngives an elaborate view of the entities and functions\n\ninvolved in the deployment of the IoT ecosystem.\n\nThe deployment view is the layered representation\n\nof the way the IoT devices, associated applications,\n\nservice functions and other related entities interact\n\nwith each other. The associated functions and\n\nother related entities like Information Technology\n\nService Management (ITSM), Disaster Recovery\n\nand Business Continuity Management (BCM), Data\n\nCentre Network Management System (DCNMS),\n\nManagement,\n\nMicroservice\n\nConfiguration\n\nManagement and Orchestration, Autoscaling and CI/\n\nCD (Continuous Integration/Continuous Deployment)\n\netc. though extremely important, are implementation\n\nspecific entities and hence are out of scope of this\n\nstandard.\n\nThis deployment view is derived from the IoT Service\n\nLayer Architecture and IoT Functional Architecture.\n\nTEC 30001 : 2020, TEC 30004 : 2020, TEC 30009 :\n\n2020, TEC 30010 : 2020, TEC 30020 : 2020 were also\n\nreferred to for validating the deployment scenarios with\n\nreference to the specifications contained therein.\n\n\n\nloT/M2MApplication\n\nUSERS\n\nProviders\n\nIoT/M2MAPPLICATIONS\n\nIoT/M2M\n\nplatform/Service\n\nProvider\n\nCOMMONSERVICELAYER\n\nUnderlyingNetwork\n\nGovernance, Regulation, Standards\n\nServiceProvider\n\nUNDERLYINGNETWORK\n\nDevice\n\nManufacturers\n\nTOPIOTCOMPANIES\n\n\n**FIG. 7 IoT ROLE BASED VIEW**\n\nCitizen App\n\nGovernance Apps\n\nSmart Education\n\nHealthCare\n\nPublic Safety\n\nRobotics\n\nSmart Agri.\n\nSmart Lighting\n\nWaste Mgmt.\n\nSmart Building\n\nSmart Energy\n\nApplications\n\nSmart Mobility\n\nSmart Parking\n\nSmart Metering\n\nSmart Logistics\n\nGeo Spatial Registry\n\nESB\n\nBig Data Analytics\n\nApplications\n\nEntities\n\nConfiguration\n\nData Centre NMs\n\nITSM\n\nManagement\n\nGovernance\n\nMicroservice\n\nAutoscaling and\n\nManagement and\n\nCI/CD\n\nOrchestration\n\nDatabase\n\nData Governance\n\nData Exchange\n\nData Ingestion\n\nData Flow\n\nData Semantics\n\nProcessing\n\nAPI Mgmt.\n\nSECURI\n\n(Trust Cent res)\n\nCommon Service Functions\n\nDisaster Recovery &BCM\n\nCommon\n\nDomain Adaptations\n\nS&N\n\nASM\n\nDM\n\nTM\n\nSCA\n\nDMR\n\nNSE\n\nCMDH\n\nService\n\nEntities\n\nService Orchestration\n\nLocation\n\nSemantics\n\nSecurity\n\nGroup Mgmt.\n\nDiscovery\n\nRegistration\n\nService Catalog\n\nNetwork\n\nEntities\n\n(Wireless Overlay Networks, WSN, IEEE 802.15. , IP Networks, xDSL, FTTx, WiFi, 2G,3G, 4G, 5G, NB-loT)\n\nOperations and\n\nintenance\n\nReliability\n\nloT Hub\n\nPhysical\n\nField Devices : Smart Lights, Dss Cameras,\n\nEntities\n\nSmart Sensors, Actuators, RFID tags, GPs Devices ..\n\nloT Gateway\n\n\n**FIG. 8 IoT SYSTEM DEPLOYMENT VIEW**\n\n\n\n8.1.2.1 Node based Deployment Architecture view\n\nAn IoT application deployment as per the IoT Reference\n\nArchitecture would have the following nodes:",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 18,
+      "clause": "8.1.2",
+      "heading": "8.1.2 IoT System Deployment View",
+      "heading_path": [
+        "8 IOT DEPLOYMENT VIEWS",
+        "8.1 General",
+        "8.1.2 IoT System Deployment View"
+      ],
+      "char_start": 36987,
+      "char_end": 39902,
+      "semantic_chunk_length": 2915,
+      "final_chunk_length": 3217,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0017",
+    "text": "es : Smart Lights, Dss Cameras,\n\nEntities\n\nSmart Sensors, Actuators, RFID tags, GPs Devices ..\n\nloT Gateway\n\n\n**FIG. 8 IoT SYSTEM DEPLOYMENT VIEW**\n\n\n\n8.1.2.1 Node based Deployment Architecture view\n\nAn IoT application deployment as per the IoT Reference\n\nArchitecture would have the following nodes:\n\n- a) Field domain sensor nodes: These are the field\ndomain nodes connecting the sensors and/or\n\nactuators directly using a wired interface. They\n\ncommunicate to the Common Service Layer\n\nthrough one or more Gateway nodes using any\n\nform of network connectivity.\n\n- b) Level one Gateways: These are the nodes that\nconnect to one or more types of sensors and/\n\nor actuators and may have multiple instances\n\nof the applications with the business logic of\n\nthe respective vertical segments being catered\n\nto by them. These nodes can connect to the\n\ncommon service layer of the nodes placed\n\nhierarchically above them either in the field\n\ndomain or in the infrastructure domain i.e.\n\nthe Service Providers' domain having core\n\ninfrastructure.\n\n- c) Level two Gateways: These are the Gateway\nnodes that must have the field domain form of\n\ncommon service layer and would essentially\n\nconnect to the field domain sensor nodes\n\neither directly or through level one gateways\n\nor through another level two gateway. They\n\nApplication1\n\nApplication 2\n\nNetwork Service Provider 1\n\nCommon Service Platform\n\n(loT Service Provideri)\n\nL2-G\n\nWired\n\n5G\n\npueqpeojg\n\nL2-G\n\nL1-G\n\n5G\n\nWired\n\nNB-IoT\n\nL1-G\n\nL1-G\n\nWired\n\nconnectivity\n\nwould also connect to the common service\n\nlayer in the infrastructure domain. More often\n\nthan not they are termed as the aggregation\n\ngateways.\n\n- d) Service Providers' Domain Infrastructure:\nThe core infrastructure that would provide the\n\nmajority of the services as articulated as part\n\nof the common service layer. For the sake of\n\ndifferentiation from the field domain common\n\nservice layer, this infrastructure is termed\n\nas Common Service Platform of the Service\n\nProvider.\n\nA simplistic illustration of IoT application deployment\n\nusing the above nodes following the IoT RA is given\n\nin Fig. 9 which is in harmony with TEC 30001 : 2020,\n\nTEC 30004 : 2020. TEC 30009 : 2020, TEC 30010 :\n\n2020, TEC 30020 : 2020 and also with TEC 30003 :\n\n2020.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "8.1.2",
+      "heading": "8.1.2 IoT System Deployment View",
+      "heading_path": [
+        "8 IOT DEPLOYMENT VIEWS",
+        "8.1 General",
+        "8.1.2 IoT System Deployment View"
+      ],
+      "char_start": 39904,
+      "char_end": 41863,
+      "semantic_chunk_length": 1959,
+      "final_chunk_length": 2261,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0018",
+    "text": "form of the Service\n\nProvider.\n\nA simplistic illustration of IoT application deployment\n\nusing the above nodes following the IoT RA is given\n\nin Fig. 9 which is in harmony with TEC 30001 : 2020,\n\nTEC 30004 : 2020. TEC 30009 : 2020, TEC 30010 :\n\n2020, TEC 30020 : 2020 and also with TEC 30003 :\n\n2020.\n\n### 8.2 IoT Security Management View\n\nThe Security management shall adhere to the following\n\nrequirements (refer TEC 30003 : 2020 for more details):\n\nUnique identification and registration of IoT\n\na)\n\nDevices and Applications framework based on\n\na trust framework permitting sectoral, national\n\nand international registrars\n\nApplication 4\n\nApplication3\n\nNetwork Service Provider 2\n\nCommon Service Platform\n\n(loT Service Provider2)\n\n3GP\n\nL2-G\n\nLORaWAN\n\n3GR\n\nL1-G\n\nL1-G\n\nLi-G : Level one Gateway having applications with the business logic of the respective vertical segments\n\nL2-G : Level two Gatewayessentially having the field domain form of common service layer\n\n\n**FIG. 9 NODE BASED DEPLOYMENT ARCHITECTURE VIEW**\n\n\n\n\n\n- b) Registration of Service Providers to the\nrespective trust authorities, registrars (Telecom Service Providers, Machine to Machine Service Providers, Application Service Providers) c) Classification of Use Cases and differential trust\n\nrequirements based on these classifications d) Identification and registration of IoT/ M2M\n\nApplications and the M2M Devices, tamper resistant roots of trust for mission critical and sensitive use cases e) Mandatory testing and certification of all\n\nconnected devices and applications by the Original Equipment Manufacturer in India or the person importing telegraph (device) for sale in India as per Gazette Notification No. G.S.R. 1131(E) dated 5th September, 2017 of Department of Telecommunications, Ministry of Communications, Government of India. f) The connectivity elements shall be compliant\n\nto the relevant Generic Requirements(GR), Interface Requirements(IR) and Essential Requirements (ER) published by TEC. g) Mutual Authentication and Authorization of\n\nsecurity nodes belonging to service providers, application providers and registrars using online and real time systems h) Frequent and regular mutual authentication\n\nbetween devices and the servers receiving and hosting the data from the device i) Remote management and configuration shall\n\nbe compliant to national and international standards like ETSI TS 101 181 V8.9.0 or OMA DM (wireless) or BBF TR-69 (wireline) j) Location information requirement for mission\n\ncritical use cases k) Identities and information elements that\n\nare private and sensitive to users, networks or service providers shall be transported encrypted and transformed such that the real identities are only known to the party that owns the private data and not to agencies that are transporting or processing the information. l) Principles of ‘secure by design’ and ‘end\n\nto end encryption’ shall be applicable, security algorithms and key management for encryption and signing shall be based on use case classification and minimum requirements as specified by the relevant regulations. m) Device identity, may be linked to the globally",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "8.2",
+      "heading": "8.2 IoT Security Management View",
+      "heading_path": [
+        "8 IOT DEPLOYMENT VIEWS",
+        "8.2 IoT Security Management View"
+      ],
+      "char_start": 41866,
+      "char_end": 44706,
+      "semantic_chunk_length": 2840,
+      "final_chunk_length": 3142,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0019",
+    "text": "les of ‘secure by design’ and ‘end\n\nto end encryption’ shall be applicable, security algorithms and key management for encryption and signing shall be based on use case classification and minimum requirements as specified by the relevant regulations. m) Device identity, may be linked to the globally\n\nunique, tamper resistant identity provided by a TSP/ M2MSP, provided that the tamper resistant secure element of the device is provisioned with the custodian (for example Aadhaar), machine (for example vehicle chassis number) and communication identity (for example IccID/\n\nIS 18004 (Part 1) : 2021\n\nEID) by the sectoral registrar (for example vahan or AIS140 backend server) using bi- directional authentication based on keys and certificates stored on the secure element of the device (secure authentication channel) n) Custodian verification and Know Your\n\nCustomer (KYC) norms for devices using embedded and tamper resistant roots of trust shall be simplified if the inherent trust capabilities of the device and service provider are used. The M2M SP/ TSP shall be allowed to access the manufacturer’s data lawfully published on the servers of sector registrar servers by the manufacturer, by using their authenticated user access provided by the trust registrar. o) For the pluggable SIM that can be changed\n\nin the field by the customer, the custodian- machine KYC shall follow the digital KYC processes as specified by the department of telecommunications from time to time. p) The KYC may be completed by the TSP/ M2M\n\nSP digitally and remotely, if using its private key to retrieve the secure triplet from the secure element, and having that information verified by the custodian using an one-time- password (OTP) to the mobile number of the custodian registered with the sector registrar as an owner of the machine.\n\n\n#### 8.2.1 End point security and classification\n\nThe End Point Devices are an essential component and enabler for security, it is required to establish the assurance level of End Point devices, as they manifest themselves in different forms with unique requirements of the use cases they serve.\n\nThe end point device identity and security assurance requirement is shown in Fig. 10.",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 19,
+      "clause": "8.2",
+      "heading": "8.2 IoT Security Management View",
+      "heading_path": [
+        "8 IOT DEPLOYMENT VIEWS",
+        "8.2 IoT Security Management View"
+      ],
+      "char_start": 44708,
+      "char_end": 46618,
+      "semantic_chunk_length": 1910,
+      "final_chunk_length": 2212,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0020",
+    "text": "ential component and enabler for security, it is required to establish the assurance level of End Point devices, as they manifest themselves in different forms with unique requirements of the use cases they serve.\n\nThe end point device identity and security assurance requirement is shown in Fig. 10.\n\n#### 8.2.2 Classification of Use Cases\n\nThe use cases may be classified as per clause 7.1.2 of TEC-TR-SN-M2M-009 as reproduced below:\n\nThe most important aspect of M2M / IoT Security is in how it is able to protect the data generated by the end points and the applications that use the end point data to create services. The classifications of IoT / M2M Use Cases, and the proposed mandatory recommendations, are in the context of the said primary objective of M2M / IoT data protection\n\n- a) Use Case categories 1) Mission Critical, High QoS, Sensitive Information [CQS] 2) Mission Critical, High QoS, Non Sensitive Information [CQN]\n\n\n\nLevel of Identity Assurance Features\n\nIncreased Security & Cost\n\nPIN\n\nID\n\nMedium\n\nNo ID\n\nLow\n\nL2\n\nL1\n\nLO\n\nPersonalization\n\nBiometrics\n\nAuthentication\n\nUser Name\n\npassword\n\nVery\n\nHigh\n\nHigh\n\nAverage\n\nL3\n\nL4\n\nL5\n\nNeed for Identity Assurance\n\n\n**FIG. 1O END POINT DEVICE IDENTITY AND SECURITY ASSURANCE**\n\nEffort, Sensitive\n\n- 3) Non Critical, Best\nInformation [NBS]\n\n- 4) Non Critical, Best Effort, Non Sensitive\nInformation [NBN]\n\n- 5) Mission Critical, Best Effort, Sensitive\nInformation [CBS]\n\nEffort,\n\nCritical，Best\n\nNon\n\n- 6) Mission\nSensitive Information [CBN]\n\n- 7) Non Critical，High\nSensitive\n\nQoS,\n\nInformation [NQS]\n\n- 8) Non Critical, High QoS, Non Sensitive\nInformation [NQN]\n\n- b) Mission Critical,\nHigh\n\nQoS, Sensitive\n\nInformation [CQS]\n\n- 1) All Use Cases serving individual users\nfrom governmental or non-governmental\n\ninfrastructure that affect health, safety\n\nor security such as Personal Vehicle\n\nSolutions,\n\nMetering\n\nAutomotive\n\nSolutions, Home Automation and Safety\n\netc that collect or manage Personally\n\nIdentifiable Information [PII] or Privacy\n\nProtected Information [PPI]\n\n- c) Mission Critical, High QoS, non-Sensitive\nInformation [CQN]\n\n- 1) All Use Cases serving the public at\nlarge from Governmental Infrastructure\n\nsuch as Emergency Services, Disaster\n\nManagement,PublicSafety，Smart\n\nCities, Intelligent Transport Systems,\n\nAutomotive Solutions, Financial Services\n\n(ATMs, PoS, Payment Terminals, Identity\n\nTerminals)，Health Services\n\n(ICDS,\n\nHospital Management)\n\nthat\n\ndo\n\nnot\n\ncollect or manage information private to\n\nindividuals\n\n- 2) All Use Cases serving the public at large\nfrom non-governmental infrastructure\n\nfor services such as Emergency Services,\n\nDisaster Response, Health Services,\n\nIndustrial Safety, Transport Services that\n\ndo not collect or manage information\n\nprivate to individuals\n\n- d) Non Critical, Best Effort, Sensitive Information\n[NBS]\n\n- 1) All Use Cases serving a private individual\nfrom governmental or non-governmental\n\ninfrastructure that affect non\n\ncritical\n\ninformation for day to day use but\n\ncollect or manage Personally Identifiable\n\nInformation [PII] or Privacy Protected\n\nInformation [PPI]\n\n- e) Non Critical, Best\nEffort, non-Sensitive\n\nInformation [NBN]\n\n- 1) All Use Cases serving the public at large\nfrom governmental or non-governmental\n\ninfrastructure that affects non critical",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "8.2.2",
+      "heading": "8.2.2 Classification of Use Cases",
+      "heading_path": [
+        "8 IOT DEPLOYMENT VIEWS",
+        "8.2 IoT Security Management View",
+        "8.2.2 Classification of Use Cases"
+      ],
+      "char_start": 46621,
+      "char_end": 49615,
+      "semantic_chunk_length": 2994,
+      "final_chunk_length": 3296,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0021",
+    "text": " but\n\ncollect or manage Personally Identifiable\n\nInformation [PII] or Privacy Protected\n\nInformation [PPI]\n\n- e) Non Critical, Best\nEffort, non-Sensitive\n\nInformation [NBN]\n\n- 1) All Use Cases serving the public at large\nfrom governmental or non-governmental\n\ninfrastructure that affects non critical\n\ninformation for day to day use that does not\n\nin any way collect or manage information\n\nprivate to individuals\n\n- f) Other Classifications\n- 1) Several other combinations of Criticality,\nQuality of Service and Data Sensitivity\n\nare possible which can generate further\n\nclassifications\n\n- g) IoT Application shall be classified as per\nclassification at (a) above and prominently\n\ndisplay this classification on Portals and Apps\n\nfor the user to be correctly informed\n\n\n\n\n#### 8.2.3 Authentication and Authorization framework\n\nThe authentication and authorization of connected devices and applications may be as per the ITU-T Y.3056. The functional architecture as defined in 9 of ITU-T Y.3056 is reproduced in Fig. 11.\n\nThe corrections are also marked in the pdf file.\n\n\n#### 8.2.4 Trust framework\n\n\n**Figure 11**\n\nThe framework for interaction between national trust centre, sectoral registrars and international registrars\n\nPage/Clause No Corrections required 1 Front cover page Add ICS No – 35.020 2 4.4 Add a space after 4.4 3 Fig 11 Partial figure is black. Replace it with the figure given below the table. 4 Committee composition\n\nIS 18004 (Part 1) : 2021\n\nReplace “Hawlett Packard Enterprise” with “Hewlett Packard Enterprise” in the main composition 5 Panel composition Add “(Convener) after the name “Mr Aurindam Bhatt acharya”\n\nis shown in Fig. 12. This framework shall allow the registration of connected devices and applications, vulnerability assessment and management of security lifecycle of all IoT/ M2M devices and applications.\n\nThe Information flows may be considered as per ITU-T Y.3056, which includes the process of registration and transfer, or other such guidelines as published by sectoral authorities from time to time.\n\n\n**Fig. 11 IoT/ M2M Identification, Authentication and Authorization**\n\n\n**Fig. 12 Trust Centre framework**",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 21,
+      "clause": "8.2.2",
+      "heading": "8.2.2 Classification of Use Cases",
+      "heading_path": [
+        "8 IOT DEPLOYMENT VIEWS",
+        "8.2 IoT Security Management View",
+        "8.2.2 Classification of Use Cases"
+      ],
+      "char_start": 49617,
+      "char_end": 51471,
+      "semantic_chunk_length": 1854,
+      "final_chunk_length": 2156,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0022",
+    "text": "ormation flows may be considered as per ITU-T Y.3056, which includes the process of registration and transfer, or other such guidelines as published by sectoral authorities from time to time.\n\n\n**Fig. 11 IoT/ M2M Identification, Authentication and Authorization**\n\n\n**Fig. 12 Trust Centre framework**\n\n## ANNEX A\n\nUSE CASE BASED REQUIREMENT CATEGORISATION\n\nThe IoT System Reference Architecture addresses the\n\nIoT Use Cases and Requirements referenced to the\n\nfollowing standards, gazettes and technical reports\n\n- a) IS 18004-6 Requirements for Internet of\nThings (under development)\n\nTEC 30002 : 2020 oneM2M-Requirements\n\nGazette Notification No. G.S.R. 1131(E)\n\ndated 5th September, 2017 of Department\n\nMinistry\n\nof\n\nof\n\nTelecommunications,\n\nCommunications, Government of India, and\n\n- d) Use\nCases\n\ndescribed in TEC-TR-SN-\n\nM2M-009 - Release 01 Recommendations for\n\nIoT / M2M Security (Technical report)\n\nWhile capturing the requirements across a wide\n\nvariety of divergent domains, that serve as a basis of\n\nthe reference architecture described in this standard,\n\nthe following domains were considered as candidate\n\nverticals to represent the entire spectrum of vertical\n\ndomains. The detailed requirements for IoT system is\n\nspecified in IS 18004 (Part 6) IoT System Functional\n\nRequirements (Under development)\n\nElectricity Utility\n\na)\n\nWater Utility\n\nb)\n\nWater Management\n\nd)\n\nGas\n\nSmart Street Light\n\nf)\n\nSurveillance\n\nEnvironment\n\ng)\n\nh)\n\nTraffic Management\n\ni)\n\nTransportation\n\nICCC\n\nj)\n\nSolid Waste Management\n\n- 1) Smart Home\nCitizen Engagement Platform\n\nm)\n\nn)\n\nDistribution Automation\n\nIndustrial Automation\n\n0)\n\n- p) Smart Health\nIn IoT/M2M, a device is an electronic element with\n\ncommunication capabilities. This standard attempts\n\nto classify the devices in the IoT ecosystem in the\n\nfollowing way:\n\n\n**Table 2 classifies the devices based on its compute**\n\ncapability, the presence of Operating System and the\n\nmethodology used for communication (in purely IP\n\nor non-IP way). Such categorisation or classification\n\nof IoT devices is done in order to come up with an\n\narchitectural reference model which along with the\n\nmain functional entities derived from the use cases can\n\ndefine the reference architecture that may help towards\n\nthe implementation of IoT solutions.\n\nHere the categorization or classification of devices do\n\nnot differentiate between sensing and actuating devices\n\nand general devices. This categorization is purely on\n\nthe basis of the processing capabilities and the way the\n\ndevices communicate. So, those devices which may be\n\ntermed as passive devices for example, ID tags using\n\nidentification technologies such as radio frequency\n\nidentification (RFID) or near field communication\n\n(NFC), applied to a disposable package, are not\n\nincluded as part of devices categorised as IoT devices.\n\nThe rationale behind this is the fact that these passive\n\ndevices would require devices with compute and\n\ncommunication capabilities to obtain, process and\n\ncommunicate the data to the other entities in the\n\necosystem.\n\n\n**Table 2 Classification of IoT Devices**\n\nSI\n\nDevice Type\n\nNo.#\n\nHigh Constrained Devices\n\nConstrained Device\n\nSmall Compute Device\n\nMedium Compute Device\n\nLarge Compute Device\n\nVirtual Machine/Server\n\nCompute Capacity\n\n8/16 bit Microcontroller",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 51477,
+      "char_end": 54477,
+      "semantic_chunk_length": 3000,
+      "final_chunk_length": 3302,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0023",
+    "text": "te the data to the other entities in the\n\necosystem.\n\n\n**Table 2 Classification of IoT Devices**\n\nSI\n\nDevice Type\n\nNo.#\n\nHigh Constrained Devices\n\nConstrained Device\n\nSmall Compute Device\n\nMedium Compute Device\n\nLarge Compute Device\n\nVirtual Machine/Server\n\nCompute Capacity\n\n8/16 bit Microcontroller\n\n16/32 bit Microcontroller\n\nSingle core 32 bit Microprocessors\n\nSingle/Dual core 32/64 bit Microprocessors\n\nMulti core(>2) 64 bit Microprocessors\n\nMulti core VMs/Dockers/Servers\n\n\nCommunication\n\nMethodology\n\nNO\n\nNon-IP/IP\n\nNon-IP/IP\n\nNO/RTOS\n\nIP\n\nyes\n\nIP\n\nyes\n\nIP\n\nyes\n\nIP\n\nyes",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 54479,
+      "char_end": 54755,
+      "semantic_chunk_length": 276,
+      "final_chunk_length": 578,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0024",
+    "text": "16 bit Microcontroller\n\n16/32 bit Microcontroller\n\nSingle core 32 bit Microprocessors\n\nSingle/Dual core 32/64 bit Microprocessors\n\nMulti core(>2) 64 bit Microprocessors\n\nMulti core VMs/Dockers/Servers\n\n\nCommunication\n\nMethodology\n\nNO\n\nNon-IP/IP\n\nNon-IP/IP\n\nNO/RTOS\n\nIP\n\nyes\n\nIP\n\nyes\n\nIP\n\nyes\n\nIP\n\nyes\n\n## ANNEX B\n\nBROAD FUNCTIONAL REQUIREMENTS\n\nThe broad functional requirements are being covered\n\nas a separate standard IS 18004 (Part 6) (under\n\ndevelopment). However, the summary of the same is\n\nbeing captured here to give a high level view to the\n\nreaders about the functional requirements fulfilled by\n\nthe IoT System RA. Following list gives the different\n\ncategories in which the functional requirements are\n\nidentified and articulated.\n\n- a) Overall System Requirements\nManagement Requirements\n\nSemantics Requirements\n\nc)\n\nd)\n\nData Analytics Requirements\n\nSecurity Requirements\n\ne)\n\nCharging Requirements\n\nf)\n\nOperational Requirements\n\n- h) Communication Management Requirements\nThe Overall System requirements would be covering\n\nthe generic requirements of registration, onboarding\n\ncommunication and data handling etc. by the IoT\n\nSystem.\n\nThe management requirement would be providing the\n\ncomprehensive requirements of management of the\n\ndevices within the IoT ecosystem. This would also\n\ncover the management of the software entities.\n\nfor\n\nthe\n\nSemantics\n\nextremely\n\nimportant\n\nare\n\nwithin the IoT ecosystem\n\nand\n\ninteroperability\n\nalso for seamless sharing of data within the IoT\n\nsystem. This would be covering Ontology Related\n\nRequirements,Semantics Annotation Requirements,\n\nSemantics Query Requirements, Semantics Mashup\n\nRequirements and Semantics Reasoning Requirements\n\netc.\n\nThe ability of the IoT System to support capabilities\n\n(e.g. processing function) for performing IoT data\n\nanalytics based on semantic descriptions from IoT\n\nApplications and /or from the IoT System would be\n\ncovered in the Data Analytics Requirements. It would\n\nalso lay down the requirements from the IoT system\n\nto support a standardized format for the rules/policies\n\nused to define service logic.\n\nThe importance of Security for the IoT System is\n\nparamount. While the overall digital as well as physical\n\necosystem has to follow elaborate security guidelines,\n\nit is equally important to identify and elaborate the\n\nsecurity requirements for the IoT System so that the\n\nfulfilment of the same can be a standardised practice\n\nfor any entity getting onboarded.\n\nEven though the IoT system does not and shall not\n\nbe prescriptive about the monetisation aspects of\n\nthe IoT deployments, it is important for the sake of\n\nstandardisation to define the Charging Requirements\n\nso that the IoT System is able to support collection\n\nof charging specific information related to the\n\nindividual services facilitated by the IoT System (such\n\nas Data Management, Device Management and/or\n\nConnectivity Management), Collection of charging\n\nspecific information with concurrent resource usage\n\nand support mechanisms to facilitate correlation of\n\ncharging information (e.g. of a User) collected for\n\nIoT Services, IoT Application Services and services\n\nprovided by Underlying Network Operators.\n\nFollowing the deployment of the IoT System, it is\n\nessential to standardize the operational aspects of the",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 23,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 54760,
+      "char_end": 57749,
+      "semantic_chunk_length": 2989,
+      "final_chunk_length": 3291,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0025",
+    "text": "ort mechanisms to facilitate correlation of\n\ncharging information (e.g. of a User) collected for\n\nIoT Services, IoT Application Services and services\n\nprovided by Underlying Network Operators.\n\nFollowing the deployment of the IoT System, it is\n\nessential to standardize the operational aspects of the\n\nIoT System. It therefore, becomes necessary to capture\n\nand define all such essential requirements which are\n\nmandatory to operationalize any IoT System.\n\nLast but not the least, the communication management\n\nrequirements are also equally important for any\n\nIoT System. While the IoT RA is agnostic to any\n\ncommunication technology, the generic communication\n\nmanagement needs shall have to be fulfilled for efficient\n\nhandling and distribution of IoT data.\n\n\n\n\n\n## ANNEX C\n\n( Foreword )\n\n## 1 IS 18004-6 Requirements for Internet of Things (under development)",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 24,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 57751,
+      "char_end": 58311,
+      "semantic_chunk_length": 560,
+      "final_chunk_length": 862,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18004_1_0026",
+    "text": "T System. While the IoT RA is agnostic to any\n\ncommunication technology, the generic communication\n\nmanagement needs shall have to be fulfilled for efficient\n\nhandling and distribution of IoT data.\n\n\n\n\n\n## ANNEX C\n\n( Foreword )\n\n## 1 IS 18004-6 Requirements for Internet of Things (under development)\n\n## 2 ISO/IEC 30118-1 : 2018 Information technology\n\nSpecification - Part 1 : Core specification\n\nOpen Connectivity Foundation (OCF)\n\nTEC-TR-SN-M2M-009 - Recommendations for IoT / M2M Security (Technical report Release 01)\n\nTEC 30001 - 30040TEC Standards for IoT/M2M Ecosystems\n\nTEC 30002 : 2020 oneM2M Requirements\n\nTEC 30005 : 2020 oneM2M Management Enablement (OMA)\n\nTEC 30006 : 2020 oneM2M Management enablement (BBF)\n\nTEC 30011 : 2020 oneM2M Common Terminology\n\nTEC 30012 : 2020 oneM2M Base Ontology\n\nTEC 30014 : 2020 oneM2M LWM2M Interworking\n\n\nTEC 30023 : 2020 oneM2M Home Appliances Information Model and Mapping\n\n\nMTCTE: https://www.tec.gov.in/mandatory-testing-and-certification-of-telecom-equipments-mtcte\n\n\nETSI TS 101 181 V8.9.0 (2005-06) Technical Specification, Digital cellular telecommunications system\n\n\n(Phase 2+); Security mechanisms for SIM application toolkit; Stage 2 (3GPP TS 03.48 version 8.9.0\n\nRelease 1999)\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 28 (17304).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "18004_1.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 30,
+      "clause": "2",
+      "heading": "2 ISO/IEC 30118-1 : 2018 Information technology",
+      "heading_path": [
+        "2 ISO/IEC 30118-1 : 2018 Information technology"
+      ],
+      "char_start": 58314,
+      "char_end": 60779,
+      "semantic_chunk_length": 2465,
+      "final_chunk_length": 2767,
+      "standard_no": "IS 18004",
+      "year": "2021",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

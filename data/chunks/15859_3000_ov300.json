@@ -1,0 +1,135 @@
+[
+  {
+    "id": "15859_0000",
+    "text": "(Reaffirmed 2018)\n\nIndian Standard\n\nCOTTON SEED DELINTING MACHINERY — BUFFING MACHINE WITH AIR JET AND NYLON BRUSH — SPECIFICATION\n\nICS 65.060.70\n\n© BIS 2013\n\nBUREAUOFINDIANSTANDARDS\n\nNEW DELHI 110002\n\nJune 2013\n\nPrice Group 2\n\n\n\n\nAgriculture and Food Processing Equipment Sectional Committee, FAD 20\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Agriculture and Food Processing Equipment Sectional Committee had been approved by the Food and Agriculture Division Council.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 1960 ‘Rules for rounding off numerical values (revised)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nCOTTON SEED DELINTING MACHINERY — BUFFING MACHINE WITH AIR JET AND NYLON\n\n\nBRUSH — SPECIFICATION\n\n\n## 1 SCOPE\n\nThis standard specifies material, performance, and constructional and other requirements of buffing machine with air jet and nylon brush.\n\n\n## 2 REFERENCES\n\nThe standards listed below contain provisions, which through reference in this text, constitute provisions of this standard.  At the time of publication, the editions indicated were valid.  All standards are subject to revision and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated below:\n\nIS No. Title IS 1364 Hexagon head bolts, screws and nuts of product grades A and B: (Part 1) : 2002 Hexagon head bolts (size range M 1.6 to M 64) (fourth revision) (Part 2) : 2002 Hexagon head screws (size range M 1.6 to  M 64) (fourth revision) (Part 3) : 2002 Hexagon nuts, style 1 (size range M 1.6 to M 64) (fourth revision) (Part 4) : 2003/ Hexagon thin nuts (chamfered) ISO 4035 : 1999 (size range M 1.6 to M 64) (fourth revision) (Part 5) : 2002 Hexagon thin nuts — Product grade B (unchamfered) (size range M 1.6 to M 10) (fourth revision) (Part 6) : 2002/ Hexagon nuts, style 2 ISO 4033 : 1999 IS 2062 : 2011 Hot rolled medium and high tensile structural steel (seventh revision) IS 2403 : 1991/ Short pitch transmission ISO 606 : 1982 precision roller chains and chain wheels (second revision)\n\nIS 5624 : 1993 Foundation bolts — Specification (first revision)",
+    "metadata": {
+      "source": "15859.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2517,
+      "semantic_chunk_length": 2516,
+      "final_chunk_length": 2516,
+      "standard_no": "IS 15859",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15859_0001",
+    "text": "gon nuts, style 2 ISO 4033 : 1999 IS 2062 : 2011 Hot rolled medium and high tensile structural steel (seventh revision) IS 2403 : 1991/ Short pitch transmission ISO 606 : 1982 precision roller chains and chain wheels (second revision)\n\nIS 5624 : 1993 Foundation bolts — Specification (first revision)\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard following definitions shall apply.\n\n\n\n### 3.1 Buffing Machine\n\nThe buffing machine separates hydrolyzed linters from cotton seed by mechanical friction in the buffer reel. The cotton seed is separated from the linter in the buffing machine and linters are dropped down through perforated buffer reels. Thus separation of cotton seeds and linters takes place in buffing machine.\n\n\n### 3.2 Anhydrous HCl (AHCl) Treated Seed\n\nThe cotton seeds are treated with AHCl gas. The reaction of AHCl and exothermic heat hydrolyzes fine linters and disintegrates and becomes loose. Such cotton seeds are called as AHCl gas treated seeds.\n\n\n### 3.3 Delinted Seed\n\nThe clear brown/black colour cotton seeds received after the separation of linters in buffing machine. These seeds are bold, good seed, small seed and cut seed, etc.\n\n\n### 3.4 Body\n\nThe body of buffing machine supports and holds rotating perforated cylinders. This is stationary part of buffing machine, which is free on level ground. All the functional and revolving components of buffing machine are mounted on body.\n\n\n### 3.5 Buffer Reel\n\nThe buffer reels separates the hydrolyzed linters from AHCl treated cotton seeds.  Buffer reels are perforated rotating cylinders.\n\n\n### 3.6 Linter Collection and Conveying\n\nBottom hopper is provided for collection of linter. These linters are dropped on the screw fixed at the opening of the hopper and screw transfer the linters to bagging unit or trolleys are provided which collects the lint and then the trolleys are taken to the bagging unit.  Conveying can be done pneumatically or by screw conveyor.\n\n\n## 4 MATERIALS\n\n\n4.1 The material of construction of buffing  machine with air jet and nylon brush shall be as given in\n\n\n\nTable 1. The material may conform to the relevant Indian Standard as given in Table 1 below:\n\n\n**Table 1 Material of Construction of Buffing**\n\n| S l No. | Component | Material | Ref to IS No. |\n| --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) |\n| i) | Body | MS sheet | IS 2062 |\n| ii) | Legs | MS channel | IS 2062 |\n| iii) | Screen | MS sheet | IS 2062 |\n| iv) | Shaft | MS material | IS 2062 |\n| v) | Nylon brush | Wood and nylon thread |  |\n| vi) | Sprocket | Carbon steel | IS 2403 |\n| vii) | Chain | Steel | IS 2403 |\n| viii) | Foundation bolt | Steel | IS 5624 |\n| ix) | Hexa nut and bolt | Steel | IS 1364 (Parts 1 to 6) |\n| x) | Air jet nozzles | Plastic | — |\n\n\n## 5 PERFORMANCE REQUIREMENTS\n\nWhen tested with the methods given in Annex A, the machine shall pass the test.",
+    "metadata": {
+      "source": "15859.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY",
+      "heading_path": [
+        "3 TERMINOLOGY"
+      ],
+      "char_start": 2520,
+      "char_end": 5080,
+      "semantic_chunk_length": 2560,
+      "final_chunk_length": 2862,
+      "standard_no": "IS 15859",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15859_0002",
+    "text": "2403 |\n| vii) | Chain | Steel | IS 2403 |\n| viii) | Foundation bolt | Steel | IS 5624 |\n| ix) | Hexa nut and bolt | Steel | IS 1364 (Parts 1 to 6) |\n| x) | Air jet nozzles | Plastic | — |\n\n\n## 5 PERFORMANCE REQUIREMENTS\n\nWhen tested with the methods given in Annex A, the machine shall pass the test.\n\n## 6 CONSTRUCTIONAL REQUIREMENTS\n\nThe MS sheets, channels and angles used in the construction of buffing machine with air jet and nylon brush shall vary from 1.6 mm, 3 mm, 5 mm and 8 mm and angles 25 mm × 25 mm, 35 mm × 35 mm and 50 mm × 50 mm depending on the capacity of the machine. All the parts of machine should be Fibre Reinforced Plastic (FRP) lined 2 mm thick. Nylon brush and air jet system should be provided to clean the perforations.\n\n\n## 7 OTHER REQUIREMENTS\n\n\n7.1 The necessary bearing, chain sprocket and power drive shall be provided.\n\n\n7.2 The necessary provision of greasing, oiling for bearings shall be provided.\n\n\n7.3 The construction shall be such as to help easy repairs and maintenance.\n\n\n7.4 The machine shall be provided with easy facilities for adjustments.\n\n\n7.5 All the perforated screens must be Polytetrafluoroethylene coated with 40-50-micron thick coating.\n\n\n\n### 7.6 No leakages of seeds through rotating reels.\n\n\n## 8 WORKMANSHIP AND FINISH\n\n\n8.1 The components of the machine shall be free from crack and other visual defects.\n\n\n8.2 The welding and joints, if any, shall not be porous and shall be smooth.\n\n\n8.3 The corrosion resistance coating shall be provided to the body with FRP lining 2-mm thick shall be provided. Coloured resin should be used for painting over Fiber Reinforced Plastic (FRP) lining.\n\n\n8.4 The control and adjustment provided shall be easy and smooth in operation.\n\n\n## 9 MARKING AND PACKING\n\n\n### 9.1 Marking\n\nEach buffing machine with air jet and nylon brush shall be marked with the following particulars:\n\n- a) Manufacturer’s name and address; b) Model number; c) Power rating; d) Drive details; e) Batch or code number, if any; and f) Year of manufacture.\n\n9.1.1 Each buffing machine with air jet and nylon brush may also be marked with the overall size and approximate weight of machine or this information may be given in the catalogue supplied by the manufacturer.\n\n\n### 9.2 BIS Certification Marking\n\nEach buffing machine with air jet and nylon brush may also be marked with the Standard Mark.\n\n\n9.2.1 The use of the Standard Mark is governed by the provisions of the Bureau of Indian Standard Act 1986 and Rules and Regulations made there- under. The details of conditions under which the license for the use of the Standard Mark may be granted to manufacturers or producers may be obtained from the Bureau of Indian Standards.\n\n\n### 9.3 Packing\n\nThe packing of buffing machine with air jet and nylon brush shall be done as agreed to between the supplier and the purchaser.",
+    "metadata": {
+      "source": "15859.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "6",
+      "heading": "6 CONSTRUCTIONAL REQUIREMENTS",
+      "heading_path": [
+        "6 CONSTRUCTIONAL REQUIREMENTS"
+      ],
+      "char_start": 5083,
+      "char_end": 7627,
+      "semantic_chunk_length": 2544,
+      "final_chunk_length": 2846,
+      "standard_no": "IS 15859",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15859_0003",
+    "text": "under which the license for the use of the Standard Mark may be granted to manufacturers or producers may be obtained from the Bureau of Indian Standards.\n\n\n### 9.3 Packing\n\nThe packing of buffing machine with air jet and nylon brush shall be done as agreed to between the supplier and the purchaser.\n\n## ANNEX A\n\n\n(Clause 5)\n\nMETHODS OF TEST FOR BUFFING MACHINE WITH  AIR JET AND NYLON BRUSH\n\nA-1 PRELIMINARY             RUNNING             AND ADJUSTMENTS\n\nA-1.1 The buffing machine with air jet and nylon brush shall be installed  on hard surface preferably levelled.\n\nA-1.2  The buffing machine with air jet and nylon brush shall be preliminary run for about 30 min before commencing the test. All the adjustments shall be carried out in accordance with the recommendations of the manufacturers.\n\nA-2 TEST AT NO LOAD\n\nAfter preliminary running is over, the buffing machine with air jet and nylon brush shall be run at no load for 10 min at the specific speed.  During and after the no load run, the visual observation of the buffing machine  shall not show the following:\n\n- a) Presence of any marked vibration during the operation.\n\n- b) Presence of undue knocking sound or rattling sound. c) Any marked rise in the bearing temperature. d) Any marked unusual wear or slackness in any component.\nA -3 TEST AT LOAD\n\nThe buffing machine with air jet and nylon brush shall be operated at its input capacity specified by the manufacturer incorporating best combination of adjustment for a period of 30 min. During the running period rpm of drum shall be noted. The observed speed shall not be less than one percent of the specified speed.\n\nA-4 LONG RUN TEST\n\nThe buffing machine with air jet and nylon brush shall be operated for a minimum period of 20-h duration.  During and after the operation no breakdown or defects shall be developed in the buffing machine.\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 1986 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: FAD 20 (1744).\n\nAmendments Issued Since Publication ______________________________________________________________________________________",
+    "metadata": {
+      "source": "15859.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 7,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 7632,
+      "char_end": 10605,
+      "semantic_chunk_length": 2973,
+      "final_chunk_length": 3275,
+      "standard_no": "IS 15859",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "15859_0004",
+    "text": "ndments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: FAD 20 (1744).\n\nAmendments Issued Since Publication ______________________________________________________________________________________\n\nAmendment No. Date of Issue Text Affected ______________________________________________________________________________________\n\n______________________________________________________________________________________\n\n______________________________________________________________________________________\n\n______________________________________________________________________________________\n\n______________________________________________________________________________________",
+    "metadata": {
+      "source": "15859.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 10607,
+      "char_end": 11087,
+      "semantic_chunk_length": 480,
+      "final_chunk_length": 782,
+      "standard_no": "IS 15859",
+      "year": "2013",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

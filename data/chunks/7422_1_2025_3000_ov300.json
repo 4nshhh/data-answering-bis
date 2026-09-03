@@ -1,0 +1,221 @@
+[
+  {
+    "id": "7422_1_2025_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nJuly 2025 Price Group 5\n\n\n\n\nGeological Investigations and Subsurface Exploration Sectional Committee, WRD 05\n\nFOREWORD\n\nThis Indian Standard (First Revision) was adopted by the Bureau of Indian Standards, after the draft was finalized by the Geological Investigations and Subsurface Exploration Sectional Committee and had been approved by the Water Resources Division Council.\n\nIn all spheres of engineering construction, data on the nature of the geological formations constituting the foundations are indispensable. Often, these data are given on maps or in geological sections using symbols and abbreviations. Geological maps and, sections are also required for other activities, such as mining- and mineral prospecting. Such maps and sections are, therefore, being prepared by various agencies in the country. In the absence of any standard for the guidance of the engineering geologist or engineer, different symbols and abbreviations are being used for different agencies, the result being entirely different representations of the same geological data. The data collected and presented by one agency for a particular purpose are often useful to other agencies investigating for a different job. It, therefore, becomes essential for all agencies to follow the same practice. This standard fulfils this need.\n\nThis standard deals with abbreviations while other parts are as follows:\n\nPart 2 Igneous rocks\n\nPart 3 Sedimentary rocks\n\nPart 4 Metamorphic rocks\n\nPart 5 Line symbols for formation contacts and structural — Feature\n\nThe standard was first published in 1974. This revision of the standard has been brought out to bring the standard in latest style and update with respect to the latest field practices.  In revision of this standard, due weightage has been given to international co-ordination among the standards and practices prevailing in different countries in addition to relating it to the practices in the field in this country. In this first revision of standard, assistance have been derived from ISO 710-5 : 1989 ‘Graphical symbol for use on detailed maps, plans and geological cross section — Part 5: Representation of minerals\n\nThe following major modifications have been incorporated to the revision of the standard:\n\n- a) Abbreviation for stratigraphic division such as Cenozoic Era has been added. Permian and Carboniferous have been given as separate periods.\n- b) Abbreviation for Cambrian period has been updated.\n- c) Abbreviation  for  minerals  like  Carnallite, Cassiterite, Kyanite, Ozokerite, and Zinnwaldite have been\nupdated.\n\n- d) Abbreviation for minerals like Glaucophane and Jadeite have been added and Gilbertite has been deleted.\nThe composition of the Committee responsible for the revision of this standard is given in Annex A.",
+    "metadata": {
+      "source": "7422_1_2025.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2896,
+      "semantic_chunk_length": 2895,
+      "final_chunk_length": 2895,
+      "standard_no": "IS 7422",
+      "year": "2025",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7422_1_2025_0001",
+    "text": "als  like  Carnallite, Cassiterite, Kyanite, Ozokerite, and Zinnwaldite have been\nupdated.\n\n- d) Abbreviation for minerals like Glaucophane and Jadeite have been added and Gilbertite has been deleted.\nThe composition of the Committee responsible for the revision of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test, shall be rounded off in accordance with IS 2 : 2022 ‘Rounding off numerical values (second revision)’. The number of significant places retained in the rounded-off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard SYMBOLS AND ABBREVIATIONS FOR USE IN GEOLOGICAL\n\n\nMAPS, SECTIONS AND SUBSURFACE EXPLORATORY LOGS\n\n\nPART 1 ABBREVIATIONS\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard (Part 1) gives abbreviations to be used for describing stratigraphic divisions, geological features and minerals for use in geological maps, sections and logs of bore holes, test pits, exploratory drifts and shafts.",
+    "metadata": {
+      "source": "7422_1_2025.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2898,
+      "char_end": 3710,
+      "semantic_chunk_length": 812,
+      "final_chunk_length": 1114,
+      "standard_no": "IS 7422",
+      "year": "2025",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7422_1_2025_0002",
+    "text": "ORATORY LOGS\n\n\nPART 1 ABBREVIATIONS\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard (Part 1) gives abbreviations to be used for describing stratigraphic divisions, geological features and minerals for use in geological maps, sections and logs of bore holes, test pits, exploratory drifts and shafts.\n\n## 2 ABBREVIATIONS\n\n\n### 2.1 Abbreviations to be used for describing stratigraphic divisions on geological maps and sections are given in Table 1.\n\n\n| Sl No. | Age (ERA) | Abbreviation |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| xvii) | Pre Cambrian | A |\n\n\n2.2 Where necessary, the abbreviations given in Table 2 should be used for describing geological features in drill hole logs and geological sections.",
+    "metadata": {
+      "source": "7422_1_2025.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2",
+      "heading": "2 ABBREVIATIONS",
+      "heading_path": [
+        "2 ABBREVIATIONS"
+      ],
+      "char_start": 3713,
+      "char_end": 4120,
+      "semantic_chunk_length": 407,
+      "final_chunk_length": 709,
+      "standard_no": "IS 7422",
+      "year": "2025",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7422_1_2025_0003",
+    "text": "maps and sections are given in Table 1.\n\n\n| Sl No. | Age (ERA) | Abbreviation |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| xvii) | Pre Cambrian | A |\n\n\n2.2 Where necessary, the abbreviations given in Table 2 should be used for describing geological features in drill hole logs and geological sections.\n\n### 2.3 Abbreviations for Minerals\n\nAbbreviations for minerals given in Table 3 may be used for better characterization of rocks on geological maps and logs.\n\n\n**Table 1 Abbreviations for Describing**\n\n| Sl No. | Age (ERA) | where letters are Abbreviation rock characteristi should be marked |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | Cenozoic | CZ the abbreviations) |\n| ii) | Quaternary Tertiary | Q in a key. If the occ same rock is t |\n| iii) | Neogene | TT abbreviations sho |\n| iv) | Palaeogene | importance of th N mineral should be |\n| v) | Mesozoic | Pze |\n| vi) | undifferentiated | 2.3.2 Graphic Sym MZ 2.3.2.1 The repr |\n| vii) | Cretaceous | K necessary for be |\n| viii) | Jurassic | rocks. In princip J represent these m |\n| ix) | Triassic | T given below: |\n| x) ad | Palaeozoic undifferentiated | PZ a) By character elementa Perm |\n| xi) | Permian | (given in |\n| xii) | Carboniferous | Carb b) By inscr |\n| xiii) | Devonian | D the rock |\n| xiv) | Silurian | S 2.3.2.2 It is impos |\n| xv) | Ordovician | O minerals because some of the com |\n| xvi) | Cambrian | Cm given in Table 4. |\n\n\n2.3.1 The mineral abbreviations should be in small letters, with the exception of chemical elements of which the first letter is a capital. In those cases, where letters are also used for designation of other rock characteristics, the abbreviations for minerals should be marked in a special way (for example, by choosing a different type of writing or by framing the abbreviations). The marking should be precised in a key. If the occurrence of several minerals in the same rock is to be indicated by letters, the abbreviations should be listed in the range of importance of the minerals. The most frequent mineral should be placed on top.",
+    "metadata": {
+      "source": "7422_1_2025.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "2.3",
+      "heading": "2.3 Abbreviations for Minerals",
+      "heading_path": [
+        "2 ABBREVIATIONS",
+        "2.3 Abbreviations for Minerals"
+      ],
+      "char_start": 4123,
+      "char_end": 5872,
+      "semantic_chunk_length": 1749,
+      "final_chunk_length": 2051,
+      "standard_no": "IS 7422",
+      "year": "2025",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7422_1_2025_0004",
+    "text": "f writing or by framing the abbreviations). The marking should be precised in a key. If the occurrence of several minerals in the same rock is to be indicated by letters, the abbreviations should be listed in the range of importance of the minerals. The most frequent mineral should be placed on top.\n\n#### 2.3.2 Graphic Symbols for Important Minerals\n\n\n2.3.2.1 The representation of minerals may be necessary for better characterization of certain rocks. In principle there are two possibilities to represent these minerals in the symbols for rocks as given below:\n\n- a) By adding an additional symbol characterizing the mineral to the elementary symbol of the rock in question (given in Table 4); and\n- b) By inscription of letters in the symbol of the rock (given in Table 3).\n\n2.3.2.2 It is impossible to fix symbols for all existent minerals because of their great number. Symbols for some of the common rock-forming minerals are given in Table 4.\n\n\n\n\n\n**Table 2 Abbreviations for Describing Geological Feature in Logs and Sections**\n\n| Sl No. | Feature | Abbreviation | Sl No. | Feature | Abbreviation |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (1) | (2) | (3) |\n| i) | Altered | altd | xxxviii) | Fragment | frag |\n| ii) | Alternating | alt | xxxix) | Friable | fri |\n| iii) | Angular | ang | xl) | Granular | gran |\n| iv) | Auger hole | AH | xli) | Gravel | grav |\n| v) | Bedded | bdd | xlii) | Ground water | GW |\n| vi) | Bedding plane | bdg.pl | xliii) | Ground water table | GWT |\n| vii) | Bedrock | BR | xliv) | Hard | hd |\n| viii) | Bore hole | BH | xlv) | Heavily | hly |\n| ix) | Bottom | bot | xlvi) | Horizontal | horiz |\n| x) | Boulders | bldrs | xlvii) | Igneous | ig |\n| xi) | Brecciated | brec | xlviii) | Impervious | impv |\n| xii) | Calcareous (limey) | calc | xlix) | Indurated | ind |\n| xiii) | Calyx hole | CXH | l) | Interbedded | interb |\n| xiv) | Carbonaceous | carb | li) | Joint | jt |\n| xv) | Cavity | cav | lii) | Laminated | lam |\n| xvi) | Chert | ch | liii) | Light | lt |\n| xvii) | Churn drill hole | CDH | liv) | Limestone | lst |\n| xviii) | Clay | cl | lv) | Massive | masv |\n| xix) | Clay-filled | cl.fd | lvi) | Medium | m or med |\n| xx) | Coarse | c | lvii) | Medium- grained | m.gr |\n| xxi) | Coarse-grained | c.gr | lviii) | Metamorphic | metc |\n| xxii) | Compact | compt | lix) | Micaceous | mic |\n| xxiii) | Conglomerate | cgl | lx) | Mineralized | mrld |\n| xxiv) | Consolidated | consol | lxi) | Mixture | mixt |\n| xxv) | Contact | cont | lxii) | Moderately | mod |\n| xxvi) | Core hole | CH | lxiii) | Mottled | motld |\n| xxvii) | Cross bedding | c.bdg | lxiv) | Non-slaking | non-slkg |\n| xxviii) | Crystalline | x-lline | lxv) | Occasional | occ |\n| xxix) | Dark | dk | lxvi) | Outcrop | otc |\n| xxx) | Drill hole | DH | lxvii) | Overburden | ob |\n| xxxi) | Drive sample hole | DSH | lxviii) | Pervious | perv |\n| xxxii) | Fine | f | lxix) | Plastic | plas |\n| xxxiii) | Fine grained | f.gr | lxx) | Porous | por |\n| xxxiv) | Fishtailed hole | FH | lxxi) | Quartz | qtz |\n| xxxv) | Fissile | fis | lxxii) | Quartzite | qzt |\n| xxxvi) | Formation | fm | lxxiii) | Reddish | red |\n| xxxvii) | Fracture | frac | lxxiv) | Rounded | rdd |",
+    "metadata": {
+      "source": "7422_1_2025.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "2.3.2",
+      "heading": "2.3.2 Graphic Symbols for Important Minerals",
+      "heading_path": [
+        "2 ABBREVIATIONS",
+        "2.3 Abbreviations for Minerals",
+        "2.3.2 Graphic Symbols for Important Minerals"
+      ],
+      "char_start": 5875,
+      "char_end": 8770,
+      "semantic_chunk_length": 2895,
+      "final_chunk_length": 3197,
+      "standard_no": "IS 7422",
+      "year": "2025",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7422_1_2025_0005",
+    "text": " lxix) | Plastic | plas |\n| xxxiii) | Fine grained | f.gr | lxx) | Porous | por |\n| xxxiv) | Fishtailed hole | FH | lxxi) | Quartz | qtz |\n| xxxv) | Fissile | fis | lxxii) | Quartzite | qzt |\n| xxxvi) | Formation | fm | lxxiii) | Reddish | red |\n| xxxvii) | Fracture | frac | lxxiv) | Rounded | rdd |\n\n| Sl No. | Feature | Abbreviation | Sl No. | Mineral | Symbol |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (1) | (2) | (3) |\n| lxxv) | Sand | sd | v) | Alunite | at |\n| lxxvi) | Sand stone | sst | vi) | Amphibole | am |\n| lxxvii) | Sandy | sdy | vii) | Andalusite | ad |\n| lxxviii) | Sedimentary | sed | viii) | Anhydrite | ah |\n| lxxix) | Shaft | S | ix) | Anorthite | an |\n| lxxx) | Shale | sh | x) | Anthophyllite | ay |\n| lxxxi) | Shaly | shy | xi) | Apatite | ap |\n| lxxxii) | Sheared | shd | xii) | Arsenopyrite | ar |\n| lxxxiii) | Siliceous | silic | xiii) | Asbestos | as |\n| lxxxiv) | Silt | st | xiv) | Augite | au |\n| lxxxv) | Silt stone | slst | xv) | Axinite | ax |\n| lxxxvi) | Silty | sty | xvi) | Barite | ba |\n| lxxxvii) | Sink-hole | SH | xvii) | Beryl | be |\n| lxxxviii) | Slaking | slkg | xviii) | Biotite | bi |\n| lxxxix) | Slate | sl | xix) | Bismuthinite | bs |\n| xc) | Solution channel | sol. chan | xx) xxi) | Calcite Cancrinite | cc ca |\n| xci) | Specimen | spec | xxii) | Carnallite | ct |\n| xcii) | Speckled | specd | xxiii) | Cassiterite | cs |\n| xciii) | Sticky | stky | xxiv) | Cerussite | ce |\n| xciv) | Sub-angular | subang | xxv) | Chalcedony | cn |\n| xcv) | Sub-rounded | subrdd | xxvi) | Chalcopyrite | cp |\n| xcvi) | Test pit | TP | xxvii) | Chlorite | ch |\n| xcvii) | Trench | T | xxviii) | Chromite | cr |\n| xcviii) | Tunnel | Tun | xxix) | Cinnabar | hg |\n| xcix) | Unconformity | unconf | xxx) | Cobaltite | cb |\n| c) | Unconsolidated | uncons | xxxi) | Columbite | cl |\n| ci) | Vertical | vert | xxxii) | Cordierite | co |\n| cii) | Very coarse | v.c | xxxiii) | Corundum | ko |\n| ciii) | Very fine | v.f | xxxiv) | Datolite | da |\n| civ) | Wash boring | WB | xxxv) | Desmine | dn |\n| cv) | Water table | WT | xxxvi) | Diallage | dl |\n\n\n**Table 3 Abbreviations for Minerals**\n\n| Sl No. | Mineral | Symbol |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | Actinolite | ak |\n| ii) | Aegirine | ae |\n| iii) | Albite | ab |\n| iv) | Almandine | al |\n\n\n\n- xxxvii) Diamond dm\n- xxxviii) Dickite dt\n- xxxix) Diopside di\n- xl) Dolomite do\n- xli) Epidote ep\n- xlii) Feldspar f\n- xliii) Fireclay fc\n- xliv) Fluorite fl\n- xlv) Galena ga\n- xlvi) Garnet gr",
+    "metadata": {
+      "source": "7422_1_2025.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "2.3.2",
+      "heading": "2.3.2 Graphic Symbols for Important Minerals",
+      "heading_path": [
+        "2 ABBREVIATIONS",
+        "2.3 Abbreviations for Minerals",
+        "2.3.2 Graphic Symbols for Important Minerals"
+      ],
+      "char_start": 8777,
+      "char_end": 10973,
+      "semantic_chunk_length": 2196,
+      "final_chunk_length": 2498,
+      "standard_no": "IS 7422",
+      "year": "2025",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7422_1_2025_0006",
+    "text": "(3) |\n| i) | Actinolite | ak |\n| ii) | Aegirine | ae |\n| iii) | Albite | ab |\n| iv) | Almandine | al |\n\n\n\n- xxxvii) Diamond dm\n- xxxviii) Dickite dt\n- xxxix) Diopside di\n- xl) Dolomite do\n- xli) Epidote ep\n- xlii) Feldspar f\n- xliii) Fireclay fc\n- xliv) Fluorite fl\n- xlv) Galena ga\n- xlvi) Garnet gr\n\n| Sl No. | Mineral | Symbol | Sl No. | Mineral | Symbol |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (1) | (2) | (3) |\n| xlvii) | Glauconite | gk | lxxxv) | Pyrite | p |\n| xlviii) | Glaucophane | gp | lxxxvi) | Pyrochlore | pc |\n| xlix) | Gold (Native) | Au | lxxxvii) | Pyroxene | pz |\n| l) | Graphite | gf | lxxxviii) | Pyrope | po |\n| li) | Gypsum | g | lxxxix) | Purokene | py |\n| lii) | Haematite | hm | xc) | Pyrrhotite | pn |\n| liii) | Halite, Rock salt | na | xci) | Quartz | q |\n| liv) | Hornblende | h | xcii) | Rhodochrosite | ro |\n| lv) | Hypersthene | hy | xciii) | Rutile | ru |\n| lvi) | Ilite | it | xciv) | Scapolite | sk |\n| lvii) | Ilmenite | il | xcv) | Scheelite | sh |\n| lviii) | Jarosite | jr | xcvi) | Scorodite | so |\n| lix) | Jadeite | jd | xcvii) | Sericite | sc |\n| lx) | Kaolinite | kl | xcviii) | Serpentine | se |\n| lxi) | Kyanite | ky | xcix) | Siderite | si |\n| lxii) | Lepidolite | le | c) | Sillimanite | sl |\n| lxiii) | Leptochlorite | lt | ci) | Silver (Native) | Ag |\n| lxiv) | Leucite | lc | cii) | Spessartine | sn |\n| lxv) | Limonite | lm | ciii) | Sphalerite | zn |\n| lxvi) | Magnetite | mt | civ) | Spinel | sp |\n| lxvii) | Marcasite | ma | cv) | Spodumene | sd |\n| lxviii) | Mica | mi | cvi) | Staurolite | st |\n| lxix) | Microcline | mk | cvii) | Stibnite | sb |\n| lxx) | Molybdenite | mo | cviii) | Sulphur | S |\n| lxxi) | Monazite | mz | cix) | Sylvine | sy |\n| lxxii) | Montmorillonite | mm | cx) | Talc | tk |\n| lxxiii) | Muscovite | mu | cxi) | Titanite, Sphene | ti |\n| lxxiv) | Nacrite | nk | cxii) | Titanomagnetite | tm |\n| lxxv) | Nepheline | ne | cxiii) | Topaz | to |\n| lxxvi) | Nontronite | nt | cxiv) | Tourmaline | tu |\n| lxxvii) | Olivine | ov | cxv) | Tremolite | tr |\n| lxxviii) | Orthite | ot | cxvi) | Vanadinite | va |\n| lxxix) | Orthoclase | or | cxvii) | Vesuvianite | vs |\n| lxxx) | Ozokerite | oz | cxviii) | Wolframite | w |\n| lxxxi) | Perovskite | pw | cxix) | Wollastonite | wo |\n| lxxxii) | Phlogopite | pl | cxx) | Zeolite | ze |\n| lxxxiii) | Plagioclase | pg | cxxi) | Zinnwaldite | z |\n| lxxxiv) | Platinum (Native) | Pt | cxxii) | Zircon | zr |\n\n\n\n\n\nTable 4 Symbols for Some Common Rock-Forming Minerals\n\n[Clauses 2.3.2.1 (a) and 2.3.2.2]\n\n\n**Table 4 Symbols for Some Common Rock-Forming Minerals**\n\n| Sl No. | Mineral | Symbol | Mineral | Symbol |\n| --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) |\n| i) | Albite |  | Kyanite |  |\n| ii) | Amphibole |  | Magnetite |  |\n| iii) | Andalusite |  | Muscovite |  |\n| iv) | Biotite |  | Olivine |  |\n| v) | Calcite |  | Phosphorite |  |\n| vi) | Chlorite |  | Plagioclase |  |\n| vii) | Cordierite |  | Pyrite |  |\n| viii) | Epidote |  | Pyroxene |  |\n| ix) | Feldspar |  | Quartz |  |\n| x) | Garnet |  | Sillimanite |  |\n| xi) | Glauconite |  | Staurolite |  |\n| xii) | Graphite |  | Tourmaline |  |\n| xiii) | Hypersthene |  |  |  |",
+    "metadata": {
+      "source": "7422_1_2025.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "2.3.2",
+      "heading": "2.3.2 Graphic Symbols for Important Minerals",
+      "heading_path": [
+        "2 ABBREVIATIONS",
+        "2.3 Abbreviations for Minerals",
+        "2.3.2 Graphic Symbols for Important Minerals"
+      ],
+      "char_start": 10978,
+      "char_end": 13858,
+      "semantic_chunk_length": 2880,
+      "final_chunk_length": 3182,
+      "standard_no": "IS 7422",
+      "year": "2025",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "7422_1_2025_0007",
+    "text": "## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: WRD 05 (21364).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "7422_1_2025.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 13865,
+      "char_end": 15301,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1436,
+      "standard_no": "IS 7422",
+      "year": "2025",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

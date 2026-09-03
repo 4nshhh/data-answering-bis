@@ -1,0 +1,765 @@
+[
+  {
+    "id": "17041_2018_reff2021_0000",
+    "text": "(Reaffirmed 2021)\n\n\nSoftware Quality Engineering — Development Process — Software Development Management System (SDMS) — Requirements\n\nICS 35.080\n\n© BIS 2018\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nOctober 2018 \b Price Group 7\n\n\n\n\nSoftware and System Engineering Sectional Committee, LITD 14\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Software and Systems Engineering Sectional Committee had been approved by the Electronic and IT Division Council. This Indian Standard provides a model for establishing, implementing, operating, monitoring, reviewing, maintaining and improving the software development management system (SDMS). The purpose of an SDMS is to ensure that SDUs put systems and structures in place to ensure that the projects they execute systematically safeguard against product and execution environment risks. In current practice, projects have quality plans to ensure that requirements are identified, agreed upon and addressed systematically, and risk management plans to identify and mitigate project risks. However, it has been observed that these plans often tend to be deficient in a couple of areas: risks associated with the project execution (environment) are not identified and addressed systematically; and sometimes key non-functional concerns are missed because the focus is on functional requirements and some of the non-functional aspects that are of immediate concern to particular stakeholders. In the past, there have been incidents associated with leakage of critical information from software development units that have generated considerable concern in potential customers; there have also been incidents where implicit non-functional requirements such as security were not identified and addressed, leading later on to high-profile incidents. The composition of the Committee responsible for the formulation of this standard is given in Annex C.\n\n\n\n\nINTRODUCTION\n\nThe SDMS standard is aimed at ensuring that any conformant organization in India that delivers software will have systems in place at the level of business units (SDUs) that will identify quality requirements based on threat assessment and support SDUs to choose mitigation controls from the pre-defined annexure controls listed in Annex B. Thereby it will give confidence to customers of Indian software industry that any organization that conforms to this standard will have systematic identification of quality requirements and mitigation of such risks.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 2588,
+      "semantic_chunk_length": 2587,
+      "final_chunk_length": 2587,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0001",
+    "text": "choose mitigation controls from the pre-defined annexure controls listed in Annex B. Thereby it will give confidence to customers of Indian software industry that any organization that conforms to this standard will have systematic identification of quality requirements and mitigation of such risks.\n\nThe adoption of a SDMS should be a strategic decision for a software development unit (SDU). The design and implementation of an organization’s SDMS is influenced by their needs and objectives, functional and non-functional requirements, the processes employed and the size and structure of the SDU. These and their supporting systems are expected to change over time. It is expected that an SDMS implementation will be scaled in accordance with the needs of the SDU, for example, a simple situation requires a simple SDMS solution.\n\nThis Standard can be used in order to assess conformance by interested internal and external stakeholders covered in general as developer, user and Owner or producer. The process on the usage of this Standard is illustrated in Fig. 1",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2590,
+      "char_end": 3357,
+      "semantic_chunk_length": 767,
+      "final_chunk_length": 1069,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0002",
+    "text": " for example, a simple situation requires a simple SDMS solution.\n\nThis Standard can be used in order to assess conformance by interested internal and external stakeholders covered in general as developer, user and Owner or producer. The process on the usage of this Standard is illustrated in Fig. 1\n\n### 0.1 Process Approach\n\nThis Indian Standard adopts a process approach for establishing, implementing, operating, monitoring, reviewing, maintaining and improving a software development units’ SDMS.\n\nAn SDU needs to identify and manage many activities in order to function effectively. Any activity using resources and managed in order to enable the transformation of inputs into outputs can be considered to be a process. Often the output from one process directly forms the input to the next process.\n\nThe application of a system of processes, activities and tasks within the SDU, together with the identification and interactions of these processes, and their management, can be referred to as a “process approach”.\n\n\n**Fig. 1 Process on The Usage**\n\n\n\n\nThe process approach for software development management process is presented in this Indian Standard encourages its users to emphasize the importance of:\n\n- a) Understanding an SDU’s software quality requirements and the need to establish policy and objectives for establishing and inculcating the quality attributes; b) Implementing and operating controls to manage\nthe software applications risks in the context of the SDU’s overall business risks; c) Monitoring and reviewing the performance and\n\neffectiveness of the SDMS; and d) Continual improvement based on objective\n\nmeasurement. This Indian Standard adopts the “Plan-Do-Check-Act” (PDCA) model, which is applied to structure all software development management (SDM) processes. Fig. 2 illustrates how a SDMS takes as input the functional and non-functional requirements and expectations of the interested parties like developer, user, owner and through the necessary actions and processes produces software quality outcomes that meets those requirements and expectations. Fig. 2 also illustrates the links in the processes presented in 4, 5, 6, 7 and 8.\n\nThe adoption of the PDCA model will also reflect the principles as set out in IS/ISO/IEC 27001 : 2005 but governing the software quality attributes. This Indian Standard provides a robust model for implementing the principles in those guidelines governing risk assessment, qualitative design implementation, software development management and reassessment.\n\nExample 1\n\nThe quality requirement might be that ignorance\n\nof best practices will not cause serious financial damage to the software development unit and/or cause embarrassment to the organization.\n\nExample 2\n\nAn expectation might be that if a serious incident\n\noccurs — perhaps hacking of an organization’s e Business web site — there should be people with sufficient training in appropriate procedures to minimize the impact.\n\n\n**Table 1 P-D-C-A Phases of SDMS**",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "0.1",
+      "heading": "0.1 Process Approach",
+      "heading_path": [
+        "0.1 Process Approach"
+      ],
+      "char_start": 3360,
+      "char_end": 6059,
+      "semantic_chunk_length": 2699,
+      "final_chunk_length": 3001,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0003",
+    "text": "mbarrassment to the organization.\n\nExample 2\n\nAn expectation might be that if a serious incident\n\noccurs — perhaps hacking of an organization’s e Business web site — there should be people with sufficient training in appropriate procedures to minimize the impact.\n\n\n**Table 1 P-D-C-A Phases of SDMS**\n\n| Phase | Description |\n| --- | --- |\n| Plan (establish the SDMS) | Establish SDMS policy, objectives, processes and procedures relevant to managing risk and improving software quality to deliver results in accordance with SDU's overall policies and objectives. |\n| Do (implement and operate the SDMS) | Implement and operate the SDMS policy, controls, processes and procedures. |\n| Check (monitor and review the SDMS) | Assess and, where applicable, measure process performance against SDMS policy, objectives and practical experience and report the results to management for review. |\n| Act (maintain and improve the SDMS) | Take corrective and preventive actions, based on the results of the internal SDMS audit and management review or other relevant information, to achieve continual improvement of the SDMS. |\n\n\n### 0.2 Compatibility with Other Management Systems\n\nThis Indian Standard is aligned with IS/ISO 9001 : 2000, IS/ISO IEC 27001, and IS/ISO 20000 in order to support consistent and integrated implementation and operation with related management standards. One suitably designed management system can thus satisfy the requirements of all these standards.\n\nThis Indian Standard is designed to enable the software development unit to align or integrate its SDMS with related management system requirements.\n\n\n**Fig. 2 PDCA Model Applied SDMS Process**\n\n\n\n\n\nIndian Standard\n\n\nSOFTWARE QUALITY ENGINEERING —\n\n\nDEVELOPMENT PROCESS — SOFTWARE DEVELOPMENT MANAGEMENT\n\n\nSYSTEM (SDMS) — REQUIREMENTS\n\n\n## 1 SCOPE\n\nThis Standard covers all types of Software development unit (for example, standalone, web-based, embedded). This Indian Standard specifies the requirements for establishing, implementing, operating, monitoring, reviewing, maintaining and improving a documented Software Development Management System (SDMS) within the context of the software development unit (SDU) and its overall business risks. It specifies requirements for the implementation of quality attributes customized to the needs of individual SDU or parts thereof.\n\nThe SDMS is designed to ensure the selection of adequate and proportionate quality-attribute controls that protect from application flaws in terms of functional, security, usability, performance, safety requirements and give confidence to interested parties.\n\nIt covers the following;\n\n- a) Identification of software requirements, b) Identification of quality requirements, c) Identification of software development controls\nand tasks, and d) Auditing and conformance procedures.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "0.1",
+      "heading": "0.1 Process Approach",
+      "heading_path": [
+        "0.1 Process Approach"
+      ],
+      "char_start": 6061,
+      "char_end": 8591,
+      "semantic_chunk_length": 2530,
+      "final_chunk_length": 2832,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0004",
+    "text": "y, performance, safety requirements and give confidence to interested parties.\n\nIt covers the following;\n\n- a) Identification of software requirements, b) Identification of quality requirements, c) Identification of software development controls\nand tasks, and d) Auditing and conformance procedures.\n\n## 2 REFERENCES\n\nThe standards listed in Annex A contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards listed in Annex A.\n\nIn case the Software Development Unit (SDU) already has an operative business process management system ( for example, in relation with IS/ISO 9001, IS/ISO/IEC 27001 or IS/ISO/IEC 20000-1), it is preferable in most cases to satisfy the requirements of this Standard within this existing management system.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 8594,
+      "char_end": 9317,
+      "semantic_chunk_length": 723,
+      "final_chunk_length": 1025,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0005",
+    "text": "se the Software Development Unit (SDU) already has an operative business process management system ( for example, in relation with IS/ISO 9001, IS/ISO/IEC 27001 or IS/ISO/IEC 20000-1), it is preferable in most cases to satisfy the requirements of this Standard within this existing management system.\n\n## 3 TERMINOLOGY\n\n### 3.1 For the purposes of this document, the following terms and definitions apply.\n\n\n#### 3.1.1 Asset — Anything that has value to the organization ((see ISO/IEC 13335-1: 2004)).\n\n\n#### 3.1.2 Software Feature — A distinguishing characteristic of a software item (for example, performance, portability, or functionality) (see IEEE 829 : 1983).\n\n\n#### 3.1.3 A software characteristic specified or implied by requirements documentation (for example, functionality, performance, attributes, or design constraints). (see IEEE 1008 : 1987).\n\n\n#### 3.1.4 Software Item — Source code, object code, job control code, control data, or a collection of these items. (see IEEE 829 : 1983).\n\n\n3.1.5 Software Quality — The discipline of software quality is a planned and systematic set of activities to ensure quality is built into the software. It consists of software quality assurance, software quality control, and software quality engineering. As an attribute, software quality is:\n\n- a) The degree to which a system, component, or\nprocess meets specified requirements; and b) The degree to which a system, component,\n\nor process meets customer or user needs or expectations (see ISO/IEC/IEEE 24765 : 2010).\n\n\n3.1.6 Quality Event — An identified occurrence of a system, service or network state indicating a possible breach software development policy or failure of safeguards, or a previously unknown situation that may be quality relevant (see ISO/IEC TR 18044 : 2004) .\n\n\n3.1.7 Quality Incident — A single or a series of unwanted or unexpected quality events that have a significant probability of compromising business operations and threatening software quality (see ISO/ IEC TR 18044 : 2004) .\n\n\n\n\n\n3.1.8 Software Development Management System — This is a part of the overall management system that addresses software engineering quality principles in software development units, based on a business risk approach, to establish, implement, operate, monitor, review, maintain and improve software quality.\n\nNOTE — The management system includes organizational\n\nstructure, policies, planning activities, responsibilities, practices, procedures, processes and resources.\n\n\n#### 3.1.9 Integrity — The property of safeguarding the accuracy and completeness of assets (see IS/ISO/IEC 13335-1 : 2004).\n\n\n#### 3.1.10 Residual Risk — The risk remaining after risk treatment (see ISO/IEC Guide 73: 2002, IS/ISO 31000 : 2009).\n\n\n#### 3.1.11 Risk Acceptance — Decision to accept a risk (see ISO/IEC Guide 73 : 2002).\n\n\n#### 3.1.12 Risk Analysis — Systematic use of information to identify sources and to estimate the risk (see ISO/ IEC Guide 73 : 2002).\n\n\n#### 3.1.13 Risk Assessment — Overall process of risk analysis and risk evaluation (see ISO/IEC Guide 73 : 2002) .\n\n\n#### 3.1.14 Risk Evaluation — Process of comparing the estimated risk against given risk criteria to determine the significance of the risk (see ISO/IEC Guide 73 : 2002).",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "3.1",
+      "heading": "3.1 For the purposes of this document, the following terms and definitions apply.",
+      "heading_path": [
+        "3 TERMINOLOGY",
+        "3.1 For the purposes of this document, the following terms and definitions apply."
+      ],
+      "char_start": 9320,
+      "char_end": 12269,
+      "semantic_chunk_length": 2949,
+      "final_chunk_length": 3250,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0006",
+    "text": "3 : 2002).\n\n\n#### 3.1.13 Risk Assessment — Overall process of risk analysis and risk evaluation (see ISO/IEC Guide 73 : 2002) .\n\n\n#### 3.1.14 Risk Evaluation — Process of comparing the estimated risk against given risk criteria to determine the significance of the risk (see ISO/IEC Guide 73 : 2002).\n\n#### 3.1.15 Risk Management — Coordinated activities to direct and control an organization with regard to risk (see ISO/IEC Guide 73 : 2002).\n\n\n#### 3.1.16 Risk Treatment — Process of selection and implementation of measures to modify risk (see ISO/ IEC Guide 73 : 2002).\n\n\n#### 3.1.17 Statement of Applicability — Documented statement describing the control objectives and controls that are relevant and applicable to the organization’s SDMS(see IS/ISO/IEC 27001 : 2013).\n\nNOTE — Control objectives and controls are based on the\n\nresults and conclusions of the risk assessment and risk treatment processes, legal or regulatory requirements, contractual obligations and the organization’s business requirements for information security.\n\n\n#### 3.1.18 Software Development Unit — A section or an entity that studies, designs, develops, tests and/ or maintains software applications (In-house or outsourced development)\n\n\n### 3.2 Abbreviations\n\nFor the purpose of this standard the following abbreviations shall apply:\n\n\n\n| Description | Abbreviations |\n| --- | --- |\n| Software development management system | SDMS |\n| Software development unit | SDU |\n| Risk assessment | RA |\n| International Organization for Standardization | ISO |\n| Statement of applicability | SOA |\n| Failure mode and effects analysis | FMEA |\n| Fault tree Analysis | FTA |\n| Business process | BP |\n| Plan, Do, Check and Act | PDCA |\n| Software requirement specification | SRS |\n| Information Technology | IT |",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "3.1.15",
+      "heading": "3.1.15 Risk Management — Coordinated activities to direct and control an organization with regard to risk (see ISO/IEC Guide 73 : 2002).",
+      "heading_path": [
+        "3 TERMINOLOGY",
+        "3.1 For the purposes of this document, the following terms and definitions apply.",
+        "3.1.15 Risk Management — Coordinated activities to direct and control an organization with regard to risk (see ISO/IEC Guide 73 : 2002)."
+      ],
+      "char_start": 12272,
+      "char_end": 13755,
+      "semantic_chunk_length": 1483,
+      "final_chunk_length": 1785,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0007",
+    "text": "rnational Organization for Standardization | ISO |\n| Statement of applicability | SOA |\n| Failure mode and effects analysis | FMEA |\n| Fault tree Analysis | FTA |\n| Business process | BP |\n| Plan, Do, Check and Act | PDCA |\n| Software requirement specification | SRS |\n| Information Technology | IT |\n\n## 4 SOFTWARE DEVELOPMENT MANAGE­ MENT PROCESS\n\n\n### 4.1 General Requirements\n\nThe SDU shall establish, implement, operate, monitor, review, maintain and improve a documented SDMS within the context of the SDU’s overall business activities and the risks it faces due to lack of quality. For the purposes of this Indian Standard the process used is based on the PDCA model shown in Fig. 1.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4",
+      "heading": "4 SOFTWARE DEVELOPMENT MANAGE­ MENT PROCESS",
+      "heading_path": [
+        "4 SOFTWARE DEVELOPMENT MANAGE­ MENT PROCESS"
+      ],
+      "char_start": 13758,
+      "char_end": 14146,
+      "semantic_chunk_length": 388,
+      "final_chunk_length": 690,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0008",
+    "text": "hall establish, implement, operate, monitor, review, maintain and improve a documented SDMS within the context of the SDU’s overall business activities and the risks it faces due to lack of quality. For the purposes of this Indian Standard the process used is based on the PDCA model shown in Fig. 1.\n\n### 4.2 Establishing and Managing the SDMS\n\n#### 4.2.1 Establish the SDMS\n\nThe SDU shall do the following:\n\n- a) Define the scope and boundaries of the SDMS in\nterms of the characteristics of the application, the SDU, its location, and technology, and including details of and justification for any exclusion from the scope (see 1). b) Define an SDMS policy in terms of the\n\ncharacteristics of the application, SDU, its location, and technology that: 1) Includes a framework for setting objectives and establishes an overall sense of direction and principles for action with regard to quality requirement; 2) Takes into account business obligations and legal regulatory requirements, 3) Aligns with the organization’s strategic threat management context in which the establishment and maintenance of the SDMS will take place; 4) Establishes criteria against which threat will be evaluated (see c) of Cl 4.2.1); and 5) Has been approved by management.\n\n\n\n\n- c) Define the threat assessment approach of the\norganization. 1) Identify a threat assessment methodology that is suited to the SDMS, and the identified requirement for the inculcation of software quality based on the software requirement; and 2) Establish criteria for accepting threats and associated vulnerabilities expected during development and identify the acceptable levels of risk associated with the threat. (see f ) of Cl 5.1). The threat assessment methodology selected shall\n\nensure that threat assessments produce comparable and reproducible results. d) Identify the risks. 1) Identify the assets within the scope of the SDMS, and the owners1) of these assets. 2) Identify the threats to those SDU and its associated functions developed 3) Identify the vulnerabilities that might be exploited by the threats. 4) Identify the impacts that losses of quality that may have on the SDU and its functions developed e) Analyse, evaluate and plan countermeasures for\n\nthe threat: 1) Assess the business impacts upon the SDU that might result from application failures, taking into account the consequences of a loss of functional and non-functional attribute (functionality, safety, security, exception, performance and usability of the application). 2) Assess the realistic likelihood of security failures occurring in the light of prevailing threats and vulnerabilities, and impacts associated with these assets, and the controls currently implemented. 3) Estimate the levels of risks assessed for a threat. 4) Determine whether the risks are acceptable or require treatment using the criteria for accepting risks established in 2) of c) of 4.2.1. f) Identify and evaluate options for the treatment of\n\nrisks. Possible actions include: 1) Applying appropriate controls; 2) knowingly and objectively accepting risks, providing they clearly satisfy the organization’s policies and the criteria for accepting risks (see 2) of c) of 4.2.1);\n\nIS 17041 : 2018",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "4.2.1",
+      "heading": "4.2.1 Establish the SDMS",
+      "heading_path": [
+        "4 SOFTWARE DEVELOPMENT MANAGE­ MENT PROCESS",
+        "4.2 Establishing and Managing the SDMS",
+        "4.2.1 Establish the SDMS"
+      ],
+      "char_start": 14149,
+      "char_end": 17068,
+      "semantic_chunk_length": 2919,
+      "final_chunk_length": 3220,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0009",
+    "text": "entify and evaluate options for the treatment of\n\nrisks. Possible actions include: 1) Applying appropriate controls; 2) knowingly and objectively accepting risks, providing they clearly satisfy the organization’s policies and the criteria for accepting risks (see 2) of c) of 4.2.1);\n\nIS 17041 : 2018\n\n- 3) Avoiding risks; and 4) Transferring the associated business risks to other parties, for example, insurers, suppliers. g) Select control objectives and controls for the\ntreatment of risks. Control objectives and controls shall be selected\n\nand implemented to meet the requirements identified by the risk assessment and risk treatment process. This selection shall take account of the criteria for accepting risks (see 2) of c) of 4.2.1) as well as legal, regulatory and contractual requirements. The control objectives and controls from Annex B\n\nshall be selected as part of this process as suitable to cover the identified requirements. The control objectives and controls listed in",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.2.1",
+      "heading": "4.2.1 Establish the SDMS",
+      "heading_path": [
+        "4 SOFTWARE DEVELOPMENT MANAGE­ MENT PROCESS",
+        "4.2 Establishing and Managing the SDMS",
+        "4.2.1 Establish the SDMS"
+      ],
+      "char_start": 17070,
+      "char_end": 17757,
+      "semantic_chunk_length": 687,
+      "final_chunk_length": 989,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0010",
+    "text": " criteria for accepting risks (see 2) of c) of 4.2.1) as well as legal, regulatory and contractual requirements. The control objectives and controls from Annex B\n\nshall be selected as part of this process as suitable to cover the identified requirements. The control objectives and controls listed in\n\n## Annex B are not exhaustive and additional control objectives and controls may also be selected.\n\nNOTE — Annex B contains a comprehensive list of control objectives and controls that have been found to be commonly relevant in organizations. Users of this Indian standard are directed to Annex B as a starting point for control selection to ensure that no important control options are overlooked. h) Obtain management approval of the proposed\n\nresidual risks. j) Obtain management authorization to implement\n\nand operate the SDMS. k) Prepare a Statement of Applicability. A Statement of Applicability shall be prepared that\n\nincludes the following: 1) the control objectives and controls selected in g) of Cl 4.2.1 and the reasons for their selection; 2) the control objectives and controls currently implemented (see 2) of e) of Cl 4.2.1); and 3) the exclusion of any control objectives and controls in Annex B and the justification for their exclusion.\n\nNOTE — The statement of applicability provides a summary\n\nof decisions concerning risk treatment. Justifying exclusions provides a cross-check that no controls have been inadvertently omitted.\n\n\n#### 4.2.2 Implement and Operate the SDMS\n\nThe organization shall do the following:\n\n- a) Formulate a risk treatment plan that identifies\nthe appropriate management action, resources, responsibilities and priorities for managing information security risks (see 5).\n\n- 1) NOTE — The term ‘owner’ identifies an individual or entity that has approved management responsibility for controlling the requirement, design, coding and maintenance, use and quality of the applications. The term ’owner’ does not mean that the person actually has any property rights to the asset.\n\n\n\n- b) Implement the risk treatment plan in order to\nachieve the identified control objectives, which includes consideration of funding and allocation of roles and responsibilities. c) Implement controls selected in g) of 4.2.1 to meet\n\nthe control objectives. d) Define how to measure the effectiveness of the\n\nselected controls or groups of controls and specify how these measurements are to be used to assess control effectiveness to produce comparable and reproducible results (see c) of 4.2.3).\n\nNOTE — Measuring the effectiveness of controls allows\n\nmanagers and staff to determine how well controls achieve planned control objectives. e) Implement training and awareness programs\n\n(see 5.2.2). f) Manage operation of the SDMS. g) Manage resources for the SDMS (see 5.2). h) Implement procedures and other controls capable\n\nof enabling prompt detection of security events and response to security incidents (see a) of 4.2.3).",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "ANNEX B",
+      "heading": "Annex B are not exhaustive and additional control objectives and controls may also be selected.",
+      "heading_path": [
+        "Annex B are not exhaustive and additional control objectives and controls may also be selected."
+      ],
+      "char_start": 17760,
+      "char_end": 20415,
+      "semantic_chunk_length": 2655,
+      "final_chunk_length": 2957,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0011",
+    "text": "bjectives. e) Implement training and awareness programs\n\n(see 5.2.2). f) Manage operation of the SDMS. g) Manage resources for the SDMS (see 5.2). h) Implement procedures and other controls capable\n\nof enabling prompt detection of security events and response to security incidents (see a) of 4.2.3).\n\n#### 4.2.3 Monitor and Review the SDMS\n\nThe organization shall do the following:\n\n- a) Execute monitoring and reviewing procedures and\nother controls to: 1) promptly detect errors in the results of processing; 2) promptly identify attempted and successful security breaches and incidents; 3) enable management to determine whether the security activities delegated to people or implemented by information technology are performing as expected; 4) help detect security events and thereby prevent security incidents by the use of indicators; and 5) Determine whether the actions taken to resolve a breach of security were effective. b) Undertake regular reviews of the effectiveness of\n\nthe SDMS (including meeting SDMS policy and objectives, and review of security controls) taking into account results of security audits, incidents, results from effectiveness measurements, suggestions and feedback from all interested parties. c) Measure the effectiveness of controls to verify\n\nthat security requirements have been met. d) Review risk assessments at planned intervals\n\nand review the residual risks and the identified acceptable levels of risks, taking into account changes to: 1) the organization; 2) technology;\n\n\n- 3) business objectives and processes; 4) identified threats; 5) effectiveness of the implemented controls; and 6) external events, such as changes to the legal or regulatory environment, changed contractual obligations, and changes in social climate. e) Conduct internal SDMS audits at planned intervals\n(see 6).\n\nNOTE — Internal audits, sometimes called first party audits,\n\nare conducted by, or on behalf of, the organization itself for internal purposes. f) Undertake a management review of the SDMS on\n\na regular basis to ensure that the scope remains adequate and improvements in the SDMS process are identified (see 7.1). g) Update security plans to take into account the\n\nfindings of monitoring and reviewing activities. h) Record actions and events that could have an\n\nimpact on the effectiveness or performance of the SDMS (see 4.3.3).\n\n\n#### 4.2.4 Maintain and Improve the SDMS\n\nThe organization shall regularly do the following:\n\n- a) Implement the identified improvements in the\nSDMS. b) Take appropriate corrective and preventive actions\n\nin accordance with 8.2 and 8.3. Apply the lessons learnt from the security experiences of other organizations and those of the organization itself. c) Communicate the actions and improvements to all\n\ninterested parties with a level of detail appropriate to the circumstances and, as relevant, agree on how to proceed. d) Ensure that the improvements achieve their\n\nintended objectives.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.2.3",
+      "heading": "4.2.3 Monitor and Review the SDMS",
+      "heading_path": [
+        "Annex B are not exhaustive and additional control objectives and controls may also be selected.",
+        "4.2.3 Monitor and Review the SDMS"
+      ],
+      "char_start": 20418,
+      "char_end": 23075,
+      "semantic_chunk_length": 2657,
+      "final_chunk_length": 2959,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0012",
+    "text": "s of other organizations and those of the organization itself. c) Communicate the actions and improvements to all\n\ninterested parties with a level of detail appropriate to the circumstances and, as relevant, agree on how to proceed. d) Ensure that the improvements achieve their\n\nintended objectives.\n\n### 4.3 Documentation Requirements\n\n\n#### 4.3.1 General\n\nDocumentation shall include records of management decisions, ensure that actions are traceable to management decisions and policies, and ensure that the recorded results are reproducible.\n\nIt is important to be able to demonstrate the relationship from the selected controls back to the results of the risk assessment and risk treatment process, and subsequently back to the SDMS policy and objectives.\n\nThe SDMS documentation shall include:\n\n- a) documented statements of the SDMS policy\n(see b) of 4.2.1) and objectives; b) the scope of the SDMS (see a) of 4.2.1); c) procedures and controls in support of the SDMS; d) a description of the Threat assessment methodology\n\n(see c) of 4.2.1);\n\n\n\n\n- e) the Threat assessment report (see c) to g) of 4.2.1); f) the treatment plan for risks associated with the\nthreat (see b) of 4.2.2); g) documented procedures needed by the organization\n\nto ensure the effective planning, operation and control of its information security processes and describe how to measure the effectiveness of controls (see c) of 4.2.3); h) Records required by this Indian standard (see\n\n4.3.3); and j) The Statement of Applicability.\n\nNOTES 1 Where the term “documented procedure” appears within this\n\nIndian standard, this means that the procedure is established, documented, implemented and maintained. 2 The extent of the SDMS documentation can differ from one\n\norganization to another owing to: a) the size of the organization, and the type of its activities; and b) the scope and complexity of software quality requirement and the system being managed. 3 Documents and records may be in any form or type of\n\nmedium.\n\n\n#### 4.3.2 Control of Documents\n\nDocuments required by the SDMS shall be protected and controlled. A documented procedure shall be established to define the management actions needed to:\n\n- a) approve documents for adequacy prior to issue; b) review and update documents as necessary and re-\napprove documents; c) ensure that changes and the current revision status\n\nof documents are identified; d) ensure that relevant versions of applicable\n\ndocuments are available at points of use; e) ensure that documents remain legible and readily\n\nidentifiable; f) ensure that documents are available to those\n\nwho need them, and are transferred, stored and ultimately disposed of in accordance with the procedures applicable to their classification; g) ensure that documents of external origin are\n\nidentified; h) ensure that the distribution of documents is\n\ncontrolled; j) Prevent the unintended use of obsolete documents;\n\nand k) apply suitable identification to them if they are\n\nretained for any purpose.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "4.3",
+      "heading": "4.3 Documentation Requirements",
+      "heading_path": [
+        "Annex B are not exhaustive and additional control objectives and controls may also be selected.",
+        "4.3 Documentation Requirements"
+      ],
+      "char_start": 23078,
+      "char_end": 25779,
+      "semantic_chunk_length": 2701,
+      "final_chunk_length": 3003,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0013",
+    "text": "ures applicable to their classification; g) ensure that documents of external origin are\n\nidentified; h) ensure that the distribution of documents is\n\ncontrolled; j) Prevent the unintended use of obsolete documents;\n\nand k) apply suitable identification to them if they are\n\nretained for any purpose.\n\n#### 4.3.3 Control of Records\n\nRecords shall be established and maintained to provide evidence of conformity to requirements and the effective operation of the SDMS. They shall be\n\n\nIS 17041 : 2018\n\nprotected and controlled. The SDMS shall take account of any relevant legal or regulatory requirements and contractual obligations. Records shall remain legible, readily identifiable and retrievable. The controls needed for the identification, storage, protection, retrieval, retention time and disposition of records shall be documented and implemented.\n\nRecords shall be kept of the performance of the process as outlined in 4.2 and of all occurrences of significant security incidents related to the SDMS.\n\nFor example: Visitors’ book, audit reports and completed access authorization forms.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "4.3.3",
+      "heading": "4.3.3 Control of Records",
+      "heading_path": [
+        "Annex B are not exhaustive and additional control objectives and controls may also be selected.",
+        "4.3 Documentation Requirements",
+        "4.3.3 Control of Records"
+      ],
+      "char_start": 25782,
+      "char_end": 26575,
+      "semantic_chunk_length": 793,
+      "final_chunk_length": 1095,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0014",
+    "text": " disposition of records shall be documented and implemented.\n\nRecords shall be kept of the performance of the process as outlined in 4.2 and of all occurrences of significant security incidents related to the SDMS.\n\nFor example: Visitors’ book, audit reports and completed access authorization forms.\n\n## 5 MANAGEMENT RESPONSIBILITIES\n\n\n### 5.1 Management Commitment\n\nManagement shall provide evidence of its commitment to the establishment, implementation, operation, monitoring, review, maintenance and improvement of the SDMS by:\n\n- a) Establishing an SDMS policy; b) Ensuring that SDMS objectives and plans are\nestablished; c) Establishing roles and responsibilities for software\n\ndevelopment; d) Communicating to the organization the importance\n\nof meeting quality objectives and conforming to the SDMS policy, its responsibilities under the law and the need for continual improvement; e) Providing sufficient resources to establish,\n\nimplement, operate, monitor, review, maintain and improve the SDMS (see 5.2.1); f) Deciding the criteria for accepting risks associated\n\nwith the threats and optimization of quality controls; g) Ensuring that internal SDMS audits are conducted\n\n(see 6); and h) Conducting management reviews of the SDMS\n\n(see 7).\n\n\n### 5.2 Resource Management\n\n\n#### 5.2.1 Provision of Resources\n\nThe organization shall determine and provide the resources needed to:\n\n- a) Establish, implement, operate, monitor, review,\nmaintain and improve an SDMS; b) Ensure that software quality requirement procedures support the business requirements; c) Identify and address legal and regulatory\n\nrequirements and contractual software quality obligations; d) Maintain adequate software quality by correct\n\napplication of all implemented controls; and\n\n\n\n- e) Carry out reviews when necessary, and to react\nappropriately to the results of these reviews; and where required, improve the effectiveness of the SDMS.\n\n\n#### 5.2.2 Training, Awareness and Competence\n\nThe organization shall ensure that all personnel who are assigned responsibilities defined in the SDMS are competent to perform the required tasks by:\n\n- a) Determining the necessary competencies for\npersonnel performing work affecting the SDMS; b) Providing training or taking other actions (for\n\nexample, employing competent personnel) to satisfy these needs; c) Evaluating the effectiveness of the actions taken;\n\nand d) Maintaining records of education, training, skills,\n\nexperience and qualifications (see 4.3.3). The organization shall also ensure that all relevant personnel are aware of the relevance and importance of their software development activities and how they contribute to the achievement of the SDMS objectives.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "5",
+      "heading": "5 MANAGEMENT RESPONSIBILITIES",
+      "heading_path": [
+        "5 MANAGEMENT RESPONSIBILITIES"
+      ],
+      "char_start": 26578,
+      "char_end": 28982,
+      "semantic_chunk_length": 2404,
+      "final_chunk_length": 2706,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0015",
+    "text": "ing records of education, training, skills,\n\nexperience and qualifications (see 4.3.3). The organization shall also ensure that all relevant personnel are aware of the relevance and importance of their software development activities and how they contribute to the achievement of the SDMS objectives.\n\n## 6 INTERNAL SDMS AUDITS\n\nThe organization shall conduct internal SDMS audits at planned intervals to determine whether the control objectives, controls, processes and procedures of its SDMS:\n\n- a) Conform to the requirements of this Indian\nstandard and relevant legislation or regulations; b) Conform to the identified software quality\n\nrequirements; c) Are effectively implemented and maintained; and d) Perform as expected.\n\nAn audit programme shall be planned, taking into consideration the status and importance of the processes and areas to be audited, as well as the results of previous audits. The audit criteria, scope, frequency and methods shall be defined. The selection of auditors and conduct of audits shall ensure objectivity and impartiality of the audit process. Auditors shall not audit their own work.\n\nThe responsibilities and requirements for planning and conducting audits, and for reporting results and maintaining records (see 4.3.3) shall be defined in a documented procedure.\n\nThe management responsible for the area being audited shall ensure that actions are taken without undue delay to eliminate detected nonconformities and their causes. Follow-up activities shall include the verification of the actions taken and the reporting of verification results (see 8).\n\nNOTE — ISO 19011 : 2002, Guidelines for quality and/or\n\nenvironmental management systems auditing, may provide helpful guidance for carrying out the internal SDMS audits.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "6",
+      "heading": "6 INTERNAL SDMS AUDITS",
+      "heading_path": [
+        "6 INTERNAL SDMS AUDITS"
+      ],
+      "char_start": 28985,
+      "char_end": 30451,
+      "semantic_chunk_length": 1466,
+      "final_chunk_length": 1768,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0016",
+    "text": "ses. Follow-up activities shall include the verification of the actions taken and the reporting of verification results (see 8).\n\nNOTE — ISO 19011 : 2002, Guidelines for quality and/or\n\nenvironmental management systems auditing, may provide helpful guidance for carrying out the internal SDMS audits.\n\n## 7 MANAGEMENT REVIEW OF THE SDMS\n\n\n### 7.1 General\n\nManagement shall review the organization’s SDMS at planned intervals (at least once a year) to ensure its continuing suitability, adequacy and effectiveness. This review shall include assessing opportunities for improvement and the need for changes to the SDMS, including the software quality policy and quality objectives. The results of the reviews shall be clearly documented and records shall be maintained (see 4.3.3).\n\n\n### 7.2 Review Input\n\nThe input to a management review shall include:\n\n- a) Results of SDMS audits and reviews; b) Feedback from interested parties; c) Techniques, products or procedures, which could\nbe used in the organization to improve the SDMS performance and effectiveness; d) Status of preventive and corrective actions; e) Vulnerabilities or threats not adequately addressed\n\nin the previous risk assessment; f) Results from effectiveness measurements; g) Follow-up actions from previous management\n\nreviews; h) Any changes that could affect the SDMS; and j) Recommendations for improvement.\n\n\n### 7.3 Review Output\n\nThe output from the management review shall include any decisions and actions related to the following:\n\n- a) Improvement of the effectiveness of the SDMS. b) Update of the risk assessment and risk treatment\nplan. c) Modification of procedures and controls that effect\n\ninformation security, as necessary, to respond to internal or external events that may impact on the SDMS, including changes to: 1) business requirements; 2) software quality requirements; 3) business processes effecting the existing business requirements; 4) regulatory or legal requirements; 5) contractual obligations; and 6) levels of risk and associated threats/or criteria for selection mitigation control to ensure quality. d) Resource needs. e) Improvement to how the effectiveness of controls\n\nis being measured.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "7",
+      "heading": "7 MANAGEMENT REVIEW OF THE SDMS",
+      "heading_path": [
+        "7 MANAGEMENT REVIEW OF THE SDMS"
+      ],
+      "char_start": 30455,
+      "char_end": 32350,
+      "semantic_chunk_length": 1895,
+      "final_chunk_length": 2197,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0017",
+    "text": "the existing business requirements; 4) regulatory or legal requirements; 5) contractual obligations; and 6) levels of risk and associated threats/or criteria for selection mitigation control to ensure quality. d) Resource needs. e) Improvement to how the effectiveness of controls\n\nis being measured.\n\n## 8 SDMS IMPROVEMENT\n\n\n### 8.1 Continual Improvement\n\nThe organization shall continually improve the effectiveness of the SDMS through the use of the software development policy, software quality objectives, audit results, analysis of monitored events, corrective and preventive actions and management review (see 7).\n\n\n### 8.2 Corrective Action\n\nThe organization shall take action to eliminate the cause of nonconformities with the SDMS requirements in order to prevent recurrence. The documented procedure for corrective action shall define requirements for:\n\n- a) Identifying nonconformities; b) Determining the causes of nonconformities; c) Evaluating the need for actions to ensure that\nnonconformities do not recur; d) Determining and implementing the corrective\n\naction needed; e) Recording results of action taken (see 4.3.3); and f) Reviewing of corrective action taken.\n\nIS 17041 : 2018\n\n\n### 8.3 Preventive Action\n\nThe organization shall determine action to eliminate the cause of potential nonconformities with the SDMS requirements in order to prevent their occurrence. Preventive actions taken shall be appropriate to the impact of the potential problems. The documented procedure for preventive action shall define requirements for:\n\n- a) Identifying potential nonconformities and their\ncauses; b) Evaluating the need for action to prevent\n\noccurrence of nonconformities; c) Determining and implementing preventive action\n\nneeded; d) Recording results of action taken (see 4.3.3); and e) Reviewing of preventive action taken. The organization shall identify the possible threats and identify preventive action requirements focusing attention on significantly changed risks.\n\nThe priority of preventive actions shall be determined based on the results of the threat assessment.\n\nNOTE — Action to prevent nonconformities is often more\n\ncost-effective than corrective action.\n\n\n\n\n\n## ANNEX A\n\n( Clause 2 )\n\n\nLIST OF REFERRED INDIAN AND INTERNATIONAL STANDARDS\n\n| IS No./ Other Publications | Title |\n| --- | --- |\n| IS/ISO/IEC 13335-1 : 2004 | Information technology — Security techniques — Management of information and communications technology security: Part 1 Concepts and models for information and communications technology security management |\n| IS/ISO/IEC 27001 : 2013 | Information technology — Security techniques — Information security management systems — Requirements |\n| IS/ISO 31000 : 2009 | Risk management — Principles and guidelines |\n| IS/ISO 19011 : 2002 | Guidelines for auditing management systems |\n| ISO/IEC/IEEE 24765 : 2010 | Systems and software engineering — Vocabulary |\n| ISO/IEC TR 18044 : 2004 | Information technology — Open Systems Interconnection — The directory: Overview of concepts, models and services: Part 1 |\n| ISO/IEC Guide 73 : 2002 | Risk management — Vocabulary |\n| IEEE Std 1008 : 1987 | IEEE standard for software unit testing |\n| IEEE 829 : 1983 | IEEE standard for software test documentation |",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "8",
+      "heading": "8 SDMS IMPROVEMENT",
+      "heading_path": [
+        "8 SDMS IMPROVEMENT"
+      ],
+      "char_start": 32355,
+      "char_end": 35313,
+      "semantic_chunk_length": 2958,
+      "final_chunk_length": 3260,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0018",
+    "text": "nology — Open Systems Interconnection — The directory: Overview of concepts, models and services: Part 1 |\n| ISO/IEC Guide 73 : 2002 | Risk management — Vocabulary |\n| IEEE Std 1008 : 1987 | IEEE standard for software unit testing |\n| IEEE 829 : 1983 | IEEE standard for software test documentation |\n\n## ANNEX B\n\n( Clause 4.2.1 )\n\n\nCONTROL OBJECTIVES AND CONTROLS\n\n\nThe control objectives and controls listed in Table 2 are directly derived from and aligned with this Indian standard. The lists in Table 2 are not exhaustive and an organization may consider that additional control objectives and controls are necessary. Control objectives and controls from this table shall be selected as part of the SDMS process specified in 4.2.1.\n\n\nTable 2 Control Objectives and Controls",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 35319,
+      "char_end": 35794,
+      "semantic_chunk_length": 475,
+      "final_chunk_length": 777,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0019",
+    "text": "tandard. The lists in Table 2 are not exhaustive and an organization may consider that additional control objectives and controls are necessary. Control objectives and controls from this table shall be selected as part of the SDMS process specified in 4.2.1.\n\n\nTable 2 Control Objectives and Controls\n\n- a) Requirement Analysis\n- 1) Software development management policy\nObjective: To provide management direction and support for software development in accordance with business requirements and relevant laws and regulations.\n\n- i) Software development policy document\nSoftware development system policy document shall be approved by management, and published and communicated to all employees and relevant external parties.\n\n- ii) Review of the information software development policy\nSoftware development policy shall be reviewed at planned intervals or if significant changes occur to ensure its continuing suitability, adequacy, and effectiveness.\n\n- iii) Quality requirements analysis and specification\nStatements of business requirements for new information systems, or enhancements to existing information systems shall specify the requirements for software quality.\n\n- iv) Threat Analysis Shall define procedure and practice the threat analysis\n- v) Abuse/Misuse Case Shall define formal method to derive the abuse and misuse test cases\n- vi) Document Security Requirement Shall establish procedure to document, derive and shall practice the template for addressing the security requirements\n- vii) Document Requirement Checklist Shall establish procedure to document, derive and shall practice the checklist for addressing the requirements\n- viii) Determine Operational Profile Shall define the procedure and metrics to determine the operational profile to address the software reliability requirement\n- ix) Categorization of Failures Shall define a formal procedure to list and categories the failures associated with the software development process\n- x) List Customer Reliability needs Shall address reliability needs and shall be clearly identified and an inventory of all important needs are drawn up and maintained.\n- xi) Conduct Trade of Studies Shall identify requirements shall be addressed and conduct formal trade of studies on existing application\n- xii) List Reliability Objective Shall address all reliability objectives and shall be clearly identified and an inventory of all important objectives are drawn up and maintained.\n- xiii) Scenario Analysis Shall define and derive a procedure to conduct a formal scenario analysis addressing the requirements listed in the software requirement specification\n- xiv) Hardware interface requirement Analysis\nShall define and derive a procedure to conduct a formal Hardware interface requirement Analysis addressing the requirements listed in the software requirement specification\n\n- xv) Document Exception Requirements Shall establish procedure to document, derive and practice the template for addressing the exception requirements\n- xvi) Document Exception Checklist Shall establish procedure to document, derive and practice the template for addressing the exception requirements",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 35796,
+      "char_end": 38645,
+      "semantic_chunk_length": 2849,
+      "final_chunk_length": 3151,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0020",
+    "text": " xv) Document Exception Requirements Shall establish procedure to document, derive and practice the template for addressing the exception requirements\n- xvi) Document Exception Checklist Shall establish procedure to document, derive and practice the template for addressing the exception requirements\n\n- xvii) Speed and Latency Requirement Analysis\nShall define and derive a procedure to conduct a formal speed and latency requirement Analysis addressing the requirements listed in the software requirement specification\n\n- xviii) Safety critical Requirement Analysis Shall define and derive a procedure to conduct a formal safety critical requirement Analysis addressing the requirements listed in the software requirement specification\n- xix) Capacity requirement Analysis Shall define and derive a procedure to conduct a formal capacity requirement Analysis addressing the requirements listed in the software requirement specification\n- xx) Longevity Requirement Analysis Shall define and derive a procedure to conduct a formal longevity requirement Analysis addressing the requirements listed in the software requirement specification\n- xxi) Document usability requirement Shall establish procedure to document, derive and practice the template for addressing the usability requirements\n\n\n\n\nTable 2 ( Continued )",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 38646,
+      "char_end": 39660,
+      "semantic_chunk_length": 1014,
+      "final_chunk_length": 1316,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0021",
+    "text": "nduct a formal longevity requirement Analysis addressing the requirements listed in the software requirement specification\n- xxi) Document usability requirement Shall establish procedure to document, derive and practice the template for addressing the usability requirements\n\n\n\n\nTable 2 ( Continued )\n\n- xxii) Document usability Checklist Shall establish procedure to document, derive and practice the template for addressing the usability requirements\n- xxiii) Contextual Interview Shall define and derive a procedure to conduct a formal contextual interview with the user addressing the requirements listed in the software requirement specification\n- xxiv) Document performance Checklist Shall establish procedure to document, derive and practice the template for addressing the performance requirements\n- xxv) Software Requirement specification Shall define a template and develop a document addressing all the functional requirements of application.\n- b) Design analysis\n- 1) Software design analysis\nObjective: To design and inculcate quality practices into software application.\n\n- i) Security Architecture Shall define formal security architecture procedures, and controls shall be in place to protect the possible threats\n- ii) Listing Security Principles Shall list the security principles shall be classified in terms of its requirements, sensitivity and criticality to the application\n- iii) Document Software Surface Shall define formal software surface prone to be attached and shall derive methodology to identify the surface attack\n- iv) Threat Modeling Shall define and drive a procedure to conduct a Threat modeling analysis addressing various threats and vulnerabilities\n- v) Risk Analysis Shall define and drive a procedure to conduct a Risk analysis addressing various threats and vulnerabilities\n- vi) Reliability Block Diagram Shall define and drive a procedure to conduct a RBD analysis addressing the reliability objectives and requirements specified in the reliability requirement specification\n- vii) Redundancy Analysis Shall establish a control to adapt the redundancy mechanism to establish the availability of the application over a specified time under stated conditions\n- viii) FTA Software Shall define and drive a procedure to conduct a FTA analysis addressing the reliability objectives and requirements specified in the reliability requirement specification\n- ix) FMEA-Software Shall define and drive a procedure to conduct a FMEA analysis addressing the reliability objectives and requirements specified in the reliability requirement specification\n- x) Reliability Prediction Shall define and drive a procedure to conduct a Reliability prediction addressing the reliability objectives and requirements specified in the reliability requirement specification\n- xi) Document Reliability Design Shall establish procedure to document, derive and practice the template for addressing the reliability design requirements\n- xii) Document Reliability Requirements Shall establish procedure to document, derive and practice the template for addressing the reliability requirements\n- xiii) Document Reliability Checklist Shall establish procedure to document, derive and practice the template for addressing the reliability requirements",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 39662,
+      "char_end": 42623,
+      "semantic_chunk_length": 2961,
+      "final_chunk_length": 3263,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0022",
+    "text": "ment Reliability Requirements Shall establish procedure to document, derive and practice the template for addressing the reliability requirements\n- xiii) Document Reliability Checklist Shall establish procedure to document, derive and practice the template for addressing the reliability requirements\n\n- xiv) Verification of Reliability Requirements Shall establish a Control and adapt procedure for verification of reliability requirements meeting the reliability objectives\n- xv) Design Structure Analysis Shall define and drive a procedure to conduct a Design structure analysis addressing the reliability objectives and requirements specified in the reliability requirement specification\n- xvi) Dataflow Diagram Shall define, drive and control a procedure to draw dataflow diagram meeting the reliability objectives and requirements specified in the reliability requirement specification\n- xvii) Threat Surface Analysis Shall define and drive a procedure to threat surface analysis to address the security requirement specification\n- xviii) Handle/Terminate Analysis Shall define and drive a procedure to handle and terminate analysis to address the security requirement specification\n- xix) Verification of Exception Requirement Shall have a control and verify the exception requirement in the design\n- xx) H/W Analysis Shall define and drive a procedure to hardware analysis to address the security requirement specification\n- xxi) Prototype Development Shall define and drive a procedure to develop prototype and test to address the software requirement specification.\n\n\n\n\nTable 2 ( Continued )",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 42624,
+      "char_end": 43923,
+      "semantic_chunk_length": 1299,
+      "final_chunk_length": 1601,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0023",
+    "text": "sign\n- xx) H/W Analysis Shall define and drive a procedure to hardware analysis to address the security requirement specification\n- xxi) Prototype Development Shall define and drive a procedure to develop prototype and test to address the software requirement specification.\n\n\n\n\nTable 2 ( Continued )\n\n- xxii) Prototype Evaluation Shall define and drive a procedure to evaluate prototype addressing the software requirement specification\n- xxiii) Impact Analysis Shall define and drive a procedure to practice impact analysis addressing the software requirement specification\n- xxiv) Document Performance Guidelines Shall establish procedure to document, derive and practice the template for addressing the performance guidelines\n- xxv) Verify Performance Requirements Shall establish procedure to document, derive and practice the template for verifying the performance requirements\n- xxvi) Verify Usability Requirements Shall establish procedure to document, derive and practice the template for verifying the usability requirements\n- xxvii) Design document Shall drive and document the design requirement and shall be controlled.\n- c) Software Code management\n- 1) Coding responsibility\nObjective: To practice and maintain appropriate coding guidelines and Indian Standard to ensure quality\n\n- i) Static Analysis Shall define and drive a procedure to static analysis to address the security requirement specification\n- ii) Document Code Shall establish procedure to document the code to securely store and retrieve\n- iii) Code Review Shall establish procedure to review the code to ensure software quality requirements\n- iv) Verification of Security Requirements Shall establish a procedure to verify the requirements of the software quality requirements\n- v) Coding Shall establish procedure and guideline for coding\n- vi) Static Analysis Measurements Shall establish procedure and metrics for static analysis\n- vii) Black Box Testing and Measurement Shall establish procedure for black box testing and shall derive metrics for its measurements\n- viii) Code Verification Reliability Requirement\nShall build a Control and adapt procedure for code verification of reliability requirements meeting the reliability objectives\n\n- ix) Unit Test Shall establish procedure and metrics for unit test\n- x) Verification of Exception Requirement Shall build a control and adapt procedure for code verification of exception requirements\n- xi) Code Bottle Neck Assessment Shall establish procedure for black box testing and shall derive metrics for its measurements\n- xii) Lock Contention Shall establish procedure for lock contention level and shall derive metrics for its measurements\n- xiii) Verification of Design Requirement Shall build a Control and adapt procedure for verification of design requirements for software performance\n- xiv) Code Moderation Shall build a Control and adapt procedure for code moderation for software performance\n- xv) Code document Shall generate a formal code document template and shall maintain the code with adequate security.\n- d) Software Test Management",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 43925,
+      "char_end": 46708,
+      "semantic_chunk_length": 2783,
+      "final_chunk_length": 3085,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0024",
+    "text": "ign requirements for software performance\n- xiv) Code Moderation Shall build a Control and adapt procedure for code moderation for software performance\n- xv) Code document Shall generate a formal code document template and shall maintain the code with adequate security.\n- d) Software Test Management\n\n- 1) Test case design, verification and validation\nObjective: To ensure that all adequate test cases addressing all aspects discussed in the requirement specification and ensuring the inculcation of quality attributes\n\n- i) Security Testing Shall build a Control and adapt procedure for security testing and shall address the security requirements\n- ii) Document Test Result Shall establish procedure documenting the test results and shall derive metric to evaluate the test results\n- iii) Track Testing Programs Shall establish procedure and implement control in place to track the testing configuration items\n- iv) Reliability Growth Testing Shall establish method and procedure reliability growth testing and shall derive metric to evaluate the test results\n- v) Integration Test Shall establish method and procedure for integration testing and shall derive metric to evaluate the test results\n\n\n\n\nTable 2 ( Continued )",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 46709,
+      "char_end": 47631,
+      "semantic_chunk_length": 922,
+      "final_chunk_length": 1224,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0025",
+    "text": "bility Growth Testing Shall establish method and procedure reliability growth testing and shall derive metric to evaluate the test results\n- v) Integration Test Shall establish method and procedure for integration testing and shall derive metric to evaluate the test results\n\n\n\n\nTable 2 ( Continued )\n\n- vi) Partial Failure Test Shall establish method and procedure partial failure test and shall derive metric to evaluate the test results\n- vii) Scenario Based Test Shall establish method and procedure for scenario based testing and shall derive metric to evaluate the test results\n- viii) Pilot Testing Shall establish method and procedure for pilot testing and shall derive metric to evaluate the test results\n- ix) Memory Allocation Testing Shall establish method and procedure for memory allocation testing and shall derive metric to evaluate the test results\n- x) Generation of Audit checklist Shall develop minimum set of audit checklist for the application based on scope of software under development.\n- xi) Document Performance Test result Shall establish procedure for document the performance test results and shall derive metric to evaluate the test results\n- xii) Document Usability Test result Shall establish procedure for document the usability test results and shall derive metric to evaluate the test results\n- 2) Final review and evaluation\nObjective: To ensure all functions defined in the requirement specifications pertaining to quality needs are addressed and evaluated\n\n- i) Final Security Review Shall establish a formal method and guideline for review on developed product to ensure software security\n- ii) Final Exception Evaluation Shall establish a formal method and guideline for review on developed product to ensure sound exception mechanism\n- iii) Performance Requirement Evaluation Shall establish a formal method and guideline for review on performance requirement to improve the software performance\n- iv) Usability Requirement Evaluation Shall establish a formal method and guideline for review of usability requirement to ensure software usability\n- v) Reliability Evaluation Shall establish a formal method and guideline for review of end product to ensure software reliability\n- vi) Intellectual property rights Shall establish procedures to ensure compliance with legislative, regulatory and contractual requirements related to intellectual property rights and use of proprietary software products for development.\n- vii) Protection of Privacy of Information Shall ensure privacy and protection of privacy information within the application under development as required in relevant legislation and regulation\n- e) Software Maintenance\n- 1) Installation and configuration\nObjective: To prevent unauthorized logical or physical deviation on quality requirement during the installation and configuration\n\n- i) Set Default Configurations Shall establish a documented procedure to derive the essential default configurations for the desired quality attribute and shall ensure its protection and integrity\n- ii) Document Security Guidelines Shall establish a procedure to document the security guidelines and shall address its integrity",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 47633,
+      "char_end": 50505,
+      "semantic_chunk_length": 2872,
+      "final_chunk_length": 3174,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0026",
+    "text": "ons Shall establish a documented procedure to derive the essential default configurations for the desired quality attribute and shall ensure its protection and integrity\n- ii) Document Security Guidelines Shall establish a procedure to document the security guidelines and shall address its integrity\n\n- iii) Document Reliability Requirement in user manual\nShall list the reliability requirements in the user manual and shall ensure it only upgraded version of the requirements are in place of use\n\n- iv) Fault Logging Faults shall be logged, analyzed, and appropriate action taken.\n- v) Log Optimization Analysis Shall define procedure for log optimization and ensure its effectives by analyzing and appropriate corrective actions in time\n- vi) Document Initial Configuration Shall establish a procedure to document the appropriate initial configuration and ensure its integrity\n- vii) Verify and Validate User Manual Shall have a formal procedure to verify and validate the user manual and ensure its integrity due changes in the application\n- viii) Impact Analysis on Failure Shall establish a method and procedure to study on the impact of failure in the application\n- ix) Outsourced application development Shall establish appropriate control to supervise and monitor the activities of development and necessary escrow arrangements.\n\n\n\n\nTable 2 ( Concluded )\n\n- 2) Centered maintenance\nObjective: To prevent effectiveness of quality requirement due to localized maintenance of the software application.\n\n- i) Periodic Review Shall define procedure to review the quality review periodically and shall ensure the review is adequate\n- ii) Generate User Manual Shall establish a controlled process to generate the user manual of the application upon the changes in the application\n- iii) Maintenance Review Shall define procedure for maintenance review of the quality attributes periodically and shall ensure the review is adequate\n- iv) Log User Action Audit logs recording user activities, exceptions, and information security events shall be produced and kept for an agreed period to assist in future investigations and access control monitoring\n- v) Archival of records Shall establish process to protect all associated records (logs. specifications, configurations etc.,) from loss, destruction, falsification, unauthorized access and unauthorized release, in accordance with legislatory, regulatory, contractual and business requirements.\n- vi) Monitoring and review of stakeholder Shall establish a procedure and principles to regularly monitor, review and audit all development processes and activities of associated stakeholders\n- f) Information Software Development Incident Management\n- 1) Reporting information security events and weaknesses\nObjective: To ensure software development process events and weaknesses associated with application are communicated in a manner allowing timely corrective action to be taken.\n\n- i) Reporting software development process events\nControl\n\nInformation security events shall be reported through appropriate management channels as quickly as possible.",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 50506,
+      "char_end": 53305,
+      "semantic_chunk_length": 2799,
+      "final_chunk_length": 3101,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17041_2018_reff2021_0027",
+    "text": "ess events and weaknesses associated with application are communicated in a manner allowing timely corrective action to be taken.\n\n- i) Reporting software development process events\nControl\n\nInformation security events shall be reported through appropriate management channels as quickly as possible.\n\n- ii) Reporting development weaknesses Control\nAll employees, contractors and third party users of information systems and services shall be required to note and report any observed or suspected development weaknesses in systems or services.\n\n- 2) Management of information security incidents and improvements\nObjective: To ensure a consistent and effective approach is applied to the management of software development incidents.\n\n- i) Responsibilities and procedures Control\nManagement responsibilities and procedures shall be established to ensure a quick, effective, and orderly response to software development process related incidents.\n\n- ii) Learning from information security incidents\n- iii) Collection of evidence Control\nControl\n\nThere shall be mechanism of SDMS in place to enable the types, volumes, and costs of information security incidents to be quantified and monitored.\n\nWhere a follow-up action against a person or organization after an information security incident involves legal action (either civil or criminal), evidence shall be collected, retained, and presented to conform to the rules for evidence laid down in the relevant jurisdiction(s).\n\n\n\n\n\n## ANNEX C\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 14 (10608).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "17041_2018_reff2021.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 53307,
+      "char_end": 55939,
+      "semantic_chunk_length": 2632,
+      "final_chunk_length": 2934,
+      "standard_no": "IS 17041",
+      "year": "2018",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

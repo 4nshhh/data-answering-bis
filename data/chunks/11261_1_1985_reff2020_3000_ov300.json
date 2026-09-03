@@ -1,0 +1,27 @@
+[
+  {
+    "id": "11261_1_1985_reff2020_0000",
+    "text": "(Reaffirmed 2005)\n\nIndian Standard\n\n(Reaffirmed 2015)\n\n(Reaffirmed 2020)\n\nMETHOD FOR\n\nASSESSMENT OF POST-HARVEST\n\nGRAIN LOSSES BY RODENTS\n\nPART 1 GENERAL CONSIDERATIONS, DIRECT MEASUREMENT\n\nTECHNIQUES AND BIOLOGICAL ASPECTS OF\n\nSURVEY PROCEDURES\n\nUDC 631.155.3 [632.693.21 : 631.164] 28\n\n@ Copyright 1985\n\nINDIAN STANDARDS INSTITUTION\n\nMANAK BHAVAN,\n\n9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI 110002\n\nGr 2",
+    "metadata": {
+      "source": "11261_1_1985_reff2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 1,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 401,
+      "semantic_chunk_length": 400,
+      "final_chunk_length": 400,
+      "standard_no": "IS 11261",
+      "year": "1985",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  }
+]

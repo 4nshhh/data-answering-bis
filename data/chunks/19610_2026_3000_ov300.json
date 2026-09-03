@@ -1,0 +1,432 @@
+[
+  {
+    "id": "19610_2026_0000",
+    "text": "Indian Standard\n\n\n|  |  |  | बंद बॉडी वाहनों के परिवहन — ददशादनदेश Transportation of Closed Body Vehicles — Guidelines ICS 55.180.10  BIS 2026 |  |  |\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2026 Price Group 8\n\n\n\n\nTransport Services Sectional Committee, SSD 01\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Transport Services Sectional Committee had been approved by the Service Sector Division Council.\n\nClosed body transportation is a widely used mode of transport in India, widely used by express and e-commerce companies for the first mile, hub-to-hub movements, and last-mile deliveries. The consumer durable industry relies on closed body vehicles to transport items such as TVs, refrigerators, air conditioners, and washing machines. Similarly, the FMCG industry uses these vehicles to transport goods packed in cartons. Closed body vehicles are preferred for transporting packed cargo that requires protection from weather, damage, and pilferage. Additionally, they are frequently employed for the transportation of two-wheelers.\n\nDespite the widespread use and significance of this transportation method, the industry lacks standardized dimensions and construction for the closed bodies, resulting in a variety of sizes and construction techniques. There are also no consistent standards for stowing, lashing, and locking cargo, which leads to transit damage, losses, and accidents. Furthermore, there is a lack of uniform safety protocols and driver responsibility and training standards, exacerbating these issues.\n\nThis standard aims to plug these gaps in closed body transportation and build a set of common guidelines for the industry and service providers.\n\nThis standard is formulated to provide guidelines for all the stakeholders including goods vehicle owners/transport agencies, contractors, consignors, consignees, operators and drivers engaged in the carriage of goods/substances for the safe transportation of closed body cargo.\n\nWhile formulating this standard assistance has been taken from the following references:\n\n- a) The Motor Vehicles Act, 1988;\n- b) Central Motor Vehicle Rules, 1989;\n- c) Motor Transport Workers Act, 1961;\n- d) Public Liability Insurance Act, 1991;\n- e) IS 6566 : 2020 Series 1 Freight containers — Classification dimensions and ratings;\n- f) IS 7694 : 2021 Series 1 Freight containers —Corner and intermediate fittings specification; and\n- g) IS 13288 : 2021 Series 1 Freight containers — Specification and testing: Part 1 General cargo containers for general purposes.\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex C.",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2763,
+      "semantic_chunk_length": 2761,
+      "final_chunk_length": 2761,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0001",
+    "text": " containers —Corner and intermediate fittings specification; and\n- g) IS 13288 : 2021 Series 1 Freight containers — Specification and testing: Part 1 General cargo containers for general purposes.\nThe composition of the Committee, responsible for the formulation of this standard is given in Annex C.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with the final value, observed or calculated, expressing the result of a test or analysis shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard TRANSPORTATION OF CLOSED BODY VEHICLES —\n\n\nGUIDELINES\n\n\n## 1 SCOPE\n\nThis standard specifies the guidelines for safe the transportation of freight cargo in closed body vehicles, including:\n\n- a) loading, stowing, lashing, and locking guidelines for stuffing the cargo;\n- b) dimensions, design, construction, materials, testing, markings (reflectors), paintings, safety, and inspection of closed body structures;\n- c) responsibility and training needs for the drivers and transport agencies; and\n- d) general safety guidelines to be followed during transit.\nNOTE — This standard is applicable only for MCV and HCV categories of vehicles.\n\n\n## 2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provision of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of these standards:\n\nIS No. Title\n\nIS 18149 : 2023 Transportation of dangerous goods — Guidelines\n\n\n## 3 TERMS AND DEFINITIONS\n\nFor the purpose of this standard, the following definitions shall apply.\n\n\n3.1  Closed Body Vehicle — A special body vehicle covered from all sides in the form of a closed body on a vehicle. The closed body is constructed and firmly attached to the chassis of the vehicle.\n\n\n### 3.2    Freight   Container   —   Article   of   transport\n\nequipment which is:\n\n- a) of a permanent character and accordingly strong enough to be suitable for repeated use;\n- b) specially designed to facilitate the carriage of goods by one or more modes of transport, without intermediate repacking;\n- c) fitted with devices permitting its ready handling, particularly its transfer from one mode of transport to another;\n- d) so designed as to be easy to pack/fill and empty; and\n- e) having an internal volume of at least 1 m3.\nNOTE — The term ‘freight container’ does not include vehicles or conventional packing.\n\n\n3.3  Lashing Point — A point to which lashings or straps securing a load can be safely attached.\n\n\n### 3.4  Lashing — Fastening devices such as, chains, cables, ropes or webbing used to restrain loads.",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2765,
+      "char_end": 5450,
+      "semantic_chunk_length": 2685,
+      "final_chunk_length": 2987,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0002",
+    "text": "ast 1 m3.\nNOTE — The term ‘freight container’ does not include vehicles or conventional packing.\n\n\n3.3  Lashing Point — A point to which lashings or straps securing a load can be safely attached.\n\n\n### 3.4  Lashing — Fastening devices such as, chains, cables, ropes or webbing used to restrain loads.\n\n## 4 STATUTORY AND REGULATORY REQUIREMENTS\n\nThe stakeholders involved in the transportation of dangerous goods including consignor, consignee, carrier agency shall ensure compliance with statutory and regulatory requirements and guidelines applicable at National and International Levels including Central Motor Vehicle Rules, 198; Carriage by Road Act, 2007; and Motor Transport Workers Act, 1961.",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "4",
+      "heading": "4 STATUTORY AND REGULATORY REQUIREMENTS",
+      "heading_path": [
+        "4 STATUTORY AND REGULATORY REQUIREMENTS"
+      ],
+      "char_start": 5453,
+      "char_end": 5851,
+      "semantic_chunk_length": 398,
+      "final_chunk_length": 700,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0003",
+    "text": "gerous goods including consignor, consignee, carrier agency shall ensure compliance with statutory and regulatory requirements and guidelines applicable at National and International Levels including Central Motor Vehicle Rules, 198; Carriage by Road Act, 2007; and Motor Transport Workers Act, 1961.\n\n## 5 STRUCTURE OF CLOSED BODY\n\n\n5.1  The closed body box should be a steel/iron/fibre or cladded framework, consisting of four corner posts and two bottom side rails, two top side rails, two bottom cross members, a front top end rail and a door header. The load-carrying parts should be made of steel profiles and corrugated steel sheet may be used for the outer walls. The closed body box shall be painted to protect against corrosion (see Fig. 1).\n\nTo access Indian Standards click on the link below:\n\nhttps://standards.bis.gov.in/website/know-your-standards\n\n\n\n\n**FIG. 1 CLOSED BODY STEEL FRAME**",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 4,
+      "clause": "5",
+      "heading": "5 STRUCTURE OF CLOSED BODY",
+      "heading_path": [
+        "5 STRUCTURE OF CLOSED BODY"
+      ],
+      "char_start": 5854,
+      "char_end": 6453,
+      "semantic_chunk_length": 599,
+      "final_chunk_length": 901,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0004",
+    "text": "l profiles and corrugated steel sheet may be used for the outer walls. The closed body box shall be painted to protect against corrosion (see Fig. 1).\n\nTo access Indian Standards click on the link below:\n\nhttps://standards.bis.gov.in/website/know-your-standards\n\n\n\n\n**FIG. 1 CLOSED BODY STEEL FRAME**\n\n### 5.2  The following are the structural components of the closed body as shown in Fig. 2:\n\n- a) Corner Post — Vertical structural member located at the four corners of the closed body and to which the corner fittings are joined;\n- b) Door Header — Lateral structural member situated over the door opening and joined to the corner fittings in the door end frame;\n- c) Door Sill — Lateral structural member at the bottom of the door opening and joined to the corner fittings in the door end frame;\n- d) Rear End Frame — The structural assembly at the rear (door end) of the closed body consisting of the door sill and header joined at the rear corner fittings to the rear corner posts to form the door opening;\n- e) Top End Rail — Lateral structural member situated at the top edge of the front end (opposite the door end) of the closed body and joined to the corner fittings;\n- f) Bottom End Rail — Lateral structural member situated at the bottom edge of the front end (opposite the door end) of the closed body and joined to the corner fittings;\n- g) Front End Frame — The structural assembly at the front end (opposite the door end) of the closed body consisting of top and bottom end rails joined at the front corner fittings to the front corner posts;\n- h) Top Side Rail — Longitudinal structural member situated at the top edge of each side of the closed body and joined to the corner fittings of the end frames;\n- j) Bottom Side Rail — Longitudinal structural member situated at the bottom edge of each\nside of the closed body and joined to the corner fittings to form a part of the under structure;\n\n- k) Cross Member — Lateral structural member attached to the bottom side rails that supports the flooring;\n- m) Understructure — An assembly consisting\nof bottom side and end rails, door sill (when applicable), cross members;\n\n- n) Wall Panel — Corrugated or flat sheet steel, or honeycomb material that forms the side wall or end wall;\n- p) Wall Post — Interior or exterior intermediate vertical component to which sheet is riveted or welded to form a wall panel;\n- q) Wall Beam — Encapsulated vertical component to which sheet steel is bonded to form a wall panel;\n- r) Lining — Plywood or other like material attached to the interior side and end wall to protect the walls and/or cargo and facilitate loading operations;\n- s) Ventilator — Two or more devices permanently attached to the side or end wall panel that provides openings for the exchange of air (but not water) between the outside and the closed body interior;\n- t) Roof Panel — Corrugated or flat sheet steel panel that forms the top closure of the closed body;\n- u) Roof Beam — Encapsulated horizontal component to which sheet steel is bonded to form a roof panel;\n- v) Flooring — Material that is supported by the cross members and bottom rails to form a load bearing surface for the cargo. The",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "5.2",
+      "heading": "5.2 The following are the structural components of the closed body as shown in Fig. 2:",
+      "heading_path": [
+        "5 STRUCTURE OF CLOSED BODY",
+        "5.2 The following are the structural components of the closed body as shown in Fig. 2:"
+      ],
+      "char_start": 6456,
+      "char_end": 9328,
+      "semantic_chunk_length": 2872,
+      "final_chunk_length": 3174,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0005",
+    "text": " sheet steel panel that forms the top closure of the closed body;\n- u) Roof Beam — Encapsulated horizontal component to which sheet steel is bonded to form a roof panel;\n- v) Flooring — Material that is supported by the cross members and bottom rails to form a load bearing surface for the cargo. The\n\nflooring is usually constructed of laminated wood planks, plywood sheets, or other composition material and is screwed or bolted to the cross members;\n\n- w) Joint Strip — A formed steel strip (usually\nhat-shaped section) installed between joints of the plywood sheet flooring or joints of the plywood sheet lining to help integrate and support the edges of the plywood; and\n\n- y) Threshold Plate — Plate forward of the door\nsill to protect the entrance area of the closed body floor. This plate is commonly referred to as a crash plate.\n\n\n## 6 DIMENSIONS\n\nThe closed body vehicle shall conform to the dimensions of the motor vehicle as per Central Motor Vehicle Rules, 1989.\n\nNOTE — Annex A may be referred for a set of external and internal dimensions of the standard closed body boxes and the nomenclature to designate them.",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "5.2",
+      "heading": "5.2 The following are the structural components of the closed body as shown in Fig. 2:",
+      "heading_path": [
+        "5 STRUCTURE OF CLOSED BODY",
+        "5.2 The following are the structural components of the closed body as shown in Fig. 2:"
+      ],
+      "char_start": 9333,
+      "char_end": 10159,
+      "semantic_chunk_length": 826,
+      "final_chunk_length": 1128,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0006",
+    "text": "ash plate.\n\n\n## 6 DIMENSIONS\n\nThe closed body vehicle shall conform to the dimensions of the motor vehicle as per Central Motor Vehicle Rules, 1989.\n\nNOTE — Annex A may be referred for a set of external and internal dimensions of the standard closed body boxes and the nomenclature to designate them.\n\n## 7 MATERIAL LOADING IN THE CLOSED BODY VEHICLES\n\nThe consignor and the transport agency should ensure the following while loading and stowing the cargo inside the closed body vehicle:\n\n- a) Before a vehicle is loaded, it should be checked to ensure that its load platform, the sidewalls, and lashing hoop rings are appropriate for the load, and are in a sound and serviceable condition;\n- b) The legal requirements of maximum permitted axle and gross weight limits should be met. The cargo weight should not exceed the permissible weight limit of the vehicle;\n- c) To avoid tipping/tilting of goods during transportation, the dimensions of the consignment as well as its centre of gravity should be ensured when deciding on the consignment stowing method. The centre of gravity of load should be kept as low as possible to achieve maximum stability when the vehicle is braked or accelerated or changes direction;\n- d) To achieve maximum vehicle stability and\nIS 19610 : 2026\n\nmaintain centre of gravity, the following may also be ensured:\n\n- 1) the load should be spread to give an even weight distribution over the whole floor area;\n- 2) when a load is stacked the larger and heavier items should be placed at the bottom otherwise, there is a risk of lighter items getting crushed;\n- 3) the heavier items should be placed nearer to the centreline of the vehicle and the lighter ones towards the sides;\n- 4) when a load is stacked the lower packages should be strong enough to support the others when the vehicle is braking, cornering or accelerating;\n- 5) no layer should be bigger than the one underneath it;\n- 6) stacks are to be neat and boxes are to be stacked evenly; and\n- 7) the identity sticker should be visible for easy locating of stocks;\n- e) Goods should not be stacked against the walls. Small space may be provided between the side walls and the cargo to avoid any damage, discoloration, spots on the cargo;\n- f) Ensure there are no holes in the vehicle, the floor is even, and the gates are secure;\n- g) Material should be stacked according to the arrows indicated on the carton box. The height of the stack should be determined by the type of material and the handling method, whether manual or with machinery. Heavy items should not be stacked at awkward heights if they are to be handled manually; instead, they should be stored between knee and shoulder height to avoid accidents and promote ergonomic lifting.\n- h) After completing the loading, any space left should be filled with dunnage airbags or any other dunnage material; and\n- j) The cargo should be properly lashed using\nthe hoop rings inside the closed body to ensure no shifting of the cargo during transit.\n\n\n\n\n**FIG. 2 CLOSED BODY COMPONENTS**",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "7",
+      "heading": "7 MATERIAL LOADING IN THE CLOSED BODY VEHICLES",
+      "heading_path": [
+        "7 MATERIAL LOADING IN THE CLOSED BODY VEHICLES"
+      ],
+      "char_start": 10162,
+      "char_end": 12892,
+      "semantic_chunk_length": 2730,
+      "final_chunk_length": 3032,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0007",
+    "text": "ng.\n- h) After completing the loading, any space left should be filled with dunnage airbags or any other dunnage material; and\n- j) The cargo should be properly lashed using\nthe hoop rings inside the closed body to ensure no shifting of the cargo during transit.\n\n\n\n\n**FIG. 2 CLOSED BODY COMPONENTS**\n\n## 8 SECURING OF CARGO\n\n\n8.1 Securing of cargo through lashing should be done in the following ways (see Fig. 3):\n\n- a) Cross Lashing — This common lashing method prevents cargo from moving sideways. Cross lashings are the most efficient for preventing sliding and tipping but require securing points on the cargo unit;\n- b) Top Over Lashing — This lashing is secured downwards to increase friction, preventing the cargo from shifting; and\n- c) Loop Lashing — This method prevents transverse sliding and tipping. Loop lashings should be used in pairs and installed lengthwise to stop movement in the length direction.\n\n### 8.2 E-Track System\n\n\n8.2.1 This system may also be used for securing of cargo. While minimal tie-down points and lack of adjustability in closed bodies can sometimes make it difficult to get a secure grip on the cargo, an e-track system provides a variety of anchor points that make securing cargo straightforward (see Fig. 4).\n\n\n#### 8.2.2 Following are the characteristics of e-track\n\nTop Over\n\nLoop Lashing (To Be Used\n\nLashing (Cargo Can\n\nSlip)\n\nin Pairs)\n\nIS 19610 : 2026\n\nsystem:\n\n- a) An e-track system consists of at least one track running along each side of the trailer. Sometimes there may be multiple tracks. The tracks take their name from the shape of the receiving holes. Those holes accept a locking mechanism that, when looked at from the side resembles the letter ‘E’;\n- b) There are several attachments available that allow you to customize your cargo system to meet the exact needs;\n- c) E track straps, can create anchor points throughout the truck in order to securely keep items in place. E-Track straps are a type of ratchet strap;\n- d) E-Track cam buckle strap is one of the ways to secure cargo in the back of a trailer by utilizing e-track rails that are aligned on the walls and the flooring of the trailer;\n- e) A cam buckle strap is a piece of hardware that allows for the tightening of excess slack from the polyester tie down webbing; and\n- f) Wall to wall lashing is another possibility with e-track system. One can adjust different types of loads in single truck with the help of e-track system and appropriate cam buckle or ratchet straps.\nCross Lashing (If Lashing\n\nEyes)\n\n\n**FIG. 3 TYPES OF LASHING**\n\n\n\n\n### 8.3 Dunnage Bags\n\nAlso known as airbags, dunnage bags are a convenient, fast, and cost- effective alternative for securing and stabilizing cargo in closed body\n\nvehicles. They are placed in the voids between cargo items and inflate rapidly using an inflator with compressed air. Dunnage bags come in various types, including paper, woven polypropylene, and polypropylene laminated dunnage bags (see Fig. 5).\n\n\n**FIG. 4 E-TRACK SYSTEM**\n\n\n**FIG. 5 DUNNAGE BAGS**\n\n\n\n\n### 8.4 Cargo Securing Nets\n\nA wide array of webbing cargo nets is available in different capacities to meet specific needs. These nets are often used to secure fragile cargo (see Fig. 6).",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 9,
+      "clause": "8",
+      "heading": "8 SECURING OF CARGO",
+      "heading_path": [
+        "8 SECURING OF CARGO"
+      ],
+      "char_start": 12897,
+      "char_end": 15820,
+      "semantic_chunk_length": 2923,
+      "final_chunk_length": 3225,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0008",
+    "text": "nd polypropylene laminated dunnage bags (see Fig. 5).\n\n\n**FIG. 4 E-TRACK SYSTEM**\n\n\n**FIG. 5 DUNNAGE BAGS**\n\n\n\n\n### 8.4 Cargo Securing Nets\n\nA wide array of webbing cargo nets is available in different capacities to meet specific needs. These nets are often used to secure fragile cargo (see Fig. 6).\n\n## 9 LOCKING\n\nThe closed body vehicles need to be secured and locked to prevent pilferage and tampering of the goods within, while in transit. The following should be ensured while locking the cargo:\n\n- a) The closed body cargo should be secured using manual locks or container seals. However, container seals are the preferred and recommended method for securing cargo (see Fig. 7). Container seals should be used as ‘one-time door locks’ to secure goods in the closed body. Each seal-lock can only be used once and should be strong enough to withstand natural elements throughout the journey until the consignee removes it at the destination;\n- b) Container seals should come in a variety of shapes, sizes, and materials. Each seal\nIS 19610 : 2026\n\nshould have a unique alphanumeric identification number that confirms, it has not been changed during the container’s voyage;\n\n- c) If the cargo is secured by a container seal, the seal number should be mentioned on the Lorry Receipt (LR);\n- d) The consignee should ensure the container seal is intact, has not been tampered with, and the seal number matches the number mentioned in the LR before removing it; and\n- e) The consignee should be aware that container seals come in different types, including lead wire seals, plastic seals, metal strip seals, bolt seals, and sometimes number padlocks, which are used to seal closed bodies during their voyage. A unique seal number should be displayed on both the pin and the barrel of the seal.\nNOTE — The safest and most recommended type of container seal is the bolt seal. It consists of a metal pin driven into a plastic-coated steel barrel, forming a one- time lock and tamper-proof seal. Bolt seals should be made of heavy-duty steel, coated with tough, weather- resistant, anti-corrosive plastic.\n\n\n**FIG. 6 CARGO SECURING NETS**\n\nNOTE — Refer IS 18149 for the guidelines for packaging, labelling, handling and transportation of dangerous goods.\n\n\n\n\n**FIG. 7 TYPES OF LOCKS AND SEALS**\n\n\n## 10 MATERIAL FOR THE CONSTRUCTION OF CLOSED BODY\n\nThe closed body should be designed and constructed for the carriage of general cargo by road throughout India. All materials used in the construction should be able to withstand extreme temperature ranges from - 20 °C to + 60 °C without effect on the strength of the basic structure and watertightness. The material being used should be capable of lasting at least 20 years of working life. Annex B may be referred for the details of the material to be used for various parts of the closed body.",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "9",
+      "heading": "9 LOCKING",
+      "heading_path": [
+        "9 LOCKING"
+      ],
+      "char_start": 15823,
+      "char_end": 18362,
+      "semantic_chunk_length": 2539,
+      "final_chunk_length": 2841,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0009",
+    "text": "re ranges from - 20 °C to + 60 °C without effect on the strength of the basic structure and watertightness. The material being used should be capable of lasting at least 20 years of working life. Annex B may be referred for the details of the material to be used for various parts of the closed body.\n\n## 11 RESPONSIBILITY OF DRIVER/ TRANSPORT AGENCY\n\nIn order to reduce the accidents during transportation, the driver/transport agency should ensure the following:\n\n- a) To adhere to all rules and regulations, and safe work procedures whilst operating the vehicles;\n- b) Driver should conduct regular inspection of vehicle as per checklist made available by the management;\n- c) Transport agency/agent should ensure all loads are stowed and lashed securely before being transported. Agency and driver should ensure that vehicle is properly locked;\n- d) Driver should inform all incidents to consignor/transport agency;\n- e) Driver should park the vehicle at the designated parking area only;\n- f) Driver should maintain the speed of the vehicle as per the load;\n- g) Driver should give prior signal before taking turn to the right or left;\n- h) Drivers should not allow any person to stand at footrest or sit on the loaded material of the vehicle;\n- j) Consignor should be responsible to provide all proper transit documents of consignment to the transport agency for the seamless movement of the cargo;\n- k) The transport agency should ensure proper education and health (physical/ mental) of the driver. The transport agency is responsible to ensure certification of drivers as well as to arrange periodic trainings and health check-ups. All such records of driver to be maintained by the transport agency and should be produced on demand by the authorities. The drivers having requisite certification, training and health should only be allowed to drive the vehicle; and\n- m) The owner of vehicle should ensure valid insurance of the vehicle to comply with the provisions of Indian Public Liability Insurance Act, 1991.",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "11",
+      "heading": "11 RESPONSIBILITY OF DRIVER/ TRANSPORT AGENCY",
+      "heading_path": [
+        "11 RESPONSIBILITY OF DRIVER/ TRANSPORT AGENCY"
+      ],
+      "char_start": 18365,
+      "char_end": 20086,
+      "semantic_chunk_length": 1721,
+      "final_chunk_length": 2023,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0010",
+    "text": "produced on demand by the authorities. The drivers having requisite certification, training and health should only be allowed to drive the vehicle; and\n- m) The owner of vehicle should ensure valid insurance of the vehicle to comply with the provisions of Indian Public Liability Insurance Act, 1991.\n\n## 12 GENERAL SAFETY REQUIREMENTS\n\nIn order to reduce the accidents during transportation, the various stakeholders should ensure the following:\n\n- a) Never overload the vehicle beyond its carrying capacity;\n- b) Before starting the vehicle, transport agency/agent should ensure that the material loaded on the vehicle is properly stowed, lashed and secured;\n\n\n\n\n- c) Consignor, if desired, may also inspect the loaded cargo to ensure that the consignment is adequately secured to meet the required standards;\n- d) Never drive the vehicle beyond the speed limit;\n- e) Never sit or take rest under the vehicle or within the vicinity of 10 feet of the vehicle or at any parking place area;\n- f) Use seat belt while driving vehicle and all the vehicles should be fitted with seat belt for all the crew member(s), if allowed;\n- g) Any crewmember including helper should not distract/disturb the driver while driving the vehicle;\n- h) Date and time of duty start of the driver should be recorded in a logbook so as to monitor duty stipulated hours;\n- j) No illegal person should be allowed to travel in the vehicle. Seating capacity should be as per the registration certificate of the vehicle;\n- k) Trainings of crew members including first aid use should be ensured;\n- m) Should not use mobile phones while\ndriving, with or without accessories like hands free, wireless, headset and bluetooth etc; and\n\n- n) Vehicle servicing and maintenance should\nIS 19610 : 2026\n\nbe performed at least according to the manufacturer’s manual/instructions and at the appropriate time, mileage, and driving condition intervals specified in the vehicle’s operator’s manual. Drivers should ensure to carry vehicle registration certificate, vehicle fitness certification.\n\nNOTE — In addition to above, the compliance of Motor Vehicle Driving Regulations, 2017 by the driver shall be ensured.\n\n\n## 13 TRAINING AND DEVELOPMENT\n\nIn order to reduce the accidents during transportation, adequate training of the transportation agent/drivers/operators should be imparted in the following areas:\n\n- a) Periodical training and assessment should be conducted by designated authorities like Regional Transport Office (RTO)/ Logistics Skill Council (LSC) for drivers;\n- b) Clear understanding of the risks involved while travelling on the public roads;\n- c) Plan of loading, stowing and lashing of cargo inside the closed body;\n- d) Stability of the loaded materials;\n- e) Behavioural training to the drivers; and\n- f) Actions should be taken immediately in case of accident/emergency situations.",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "12",
+      "heading": "12 GENERAL SAFETY REQUIREMENTS",
+      "heading_path": [
+        "12 GENERAL SAFETY REQUIREMENTS"
+      ],
+      "char_start": 20088,
+      "char_end": 22650,
+      "semantic_chunk_length": 2562,
+      "final_chunk_length": 2864,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0011",
+    "text": "the risks involved while travelling on the public roads;\n- c) Plan of loading, stowing and lashing of cargo inside the closed body;\n- d) Stability of the loaded materials;\n- e) Behavioural training to the drivers; and\n- f) Actions should be taken immediately in case of accident/emergency situations.\n\n## ANNEX A\n\n(Clause 6)\n\n(Informative)\n\nTHE DIMENSIONS OF THE CLOSED BODY\n\nA-1 EXTERNAL DIMENSIONS\n\nThe codes for the standard external length, width, and height for a closed body could be as under:\n\nLength\n\n\n| Sl No. |  |  | Code |  |  |  | Feet |  | Length | mm |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | (1) |  |  |  | (2) |  |  | (3) |  |  | (4) |\n|  | i) |  |  |  | A |  |  | 40 |  |  | 12 192 |\n|  |  | ii) |  |  | B |  |  | 32 |  |  | 9 754 |\n|  | iii) |  |  |  | C |  |  | 24 |  |  | 7 315 |\n|  |  | iv) |  |  | D |  |  | 20 |  |  | 6 096 |\n|  | v) |  |  |  | E |  |  | 17 |  |  | 5 182 |\n|  |  | vi) |  |  | F |  |  | 14 |  |  | 4 267 |\n| Sl No. |  | vii) | Code |  | G | Width | Feet | 10 | Width | mm | 3 048 |\n|  | (1) |  |  |  | (2) |  |  | (3) |  |  | (4) |\n| i) |  |  | 1 |  |  |  | 8.5 |  |  | 2 591 |  |\n| ii) |  |  | 2 |  |  |  | 8 |  |  | 2 438 |  |\n| iii) |  |  | 3 |  |  |  | 7 |  |  | 2 134 |  |\n| iv) |  | Sl No. | 4 Code |  |  | Height Feet | 6 | Height | mm | 1 829 |  |\n|  |  | (1) |  |  | (2) | (3) |  |  | (4) |  |  |\n|  |  | i) | a |  |  | 9.5 |  |  | 2 896 |  |  |\n|  |  | ii) | b |  |  | 8.5 |  |  | 2 591 |  |  |\n|  |  | iii) | g |  |  | 7 |  |  | 2 134 |  |  |\n|  |  | iv) | d |  |  | 6 |  |  | 1 829 |  |  |\n\n\n\n\nA-2 THE CLOSED BODY BOX DIMENSIONS\n\nIS 19610 : 2026\n\nBased on the external dimensions specified in A-1, Table 1 specifies the 25 standard recommended dimensions for closed body boxes.\n\n\n**Table 1 Recommended Closed Body Box Dimensions**",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 22655,
+      "char_end": 24177,
+      "semantic_chunk_length": 1522,
+      "final_chunk_length": 1824,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0012",
+    "text": "134 |  |  |\n|  |  | iv) | d |  |  | 6 |  |  | 1 829 |  |  |\n\n\n\n\nA-2 THE CLOSED BODY BOX DIMENSIONS\n\nIS 19610 : 2026\n\nBased on the external dimensions specified in A-1, Table 1 specifies the 25 standard recommended dimensions for closed body boxes.\n\n\n**Table 1 Recommended Closed Body Box Dimensions**\n\n| Sl No. | Body Type Nomenclature | Feet | Length mm | Feet | Width mm | Feet | Height mm |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) |\n| i) | A1a | 40 | 12 192 | 8.5 | 2 591 | 9.5 | 2 896 |\n| ii) | A2a | 40 | 12 192 | 8 | 2 438 | 9.5 | 2 896 |\n| iii) | A2b | 40 | 12 192 | 8 | 2 438 | 8.5 | 2 591 |\n| iv) | B1a | 32 | 9 754 | 8.5 | 2 591 | 9.5 | 2 896 |\n| v) | B2a | 32 | 9 754 | 8 | 2 438 | 9.5 | 2 896 |\n| vi) | B2b | 32 | 9 754 | 8 | 2 438 | 8.5 | 2 591 |\n| vii) | C1a | 24 | 7 315 | 8.5 | 2 591 | 9.5 | 2 896 |\n| viii) | C2a | 24 | 7 315 | 8 | 2 438 | 9.5 | 2 896 |\n| ix) | C2b | 24 | 7 315 | 8 | 2 438 | 8.5 | 2 591 |\n| x) | D1a | 20 | 6 096 | 8.5 | 2 591 | 9.5 | 2 896 |\n| xi) | D2a | 20 | 6 096 | 8 | 2 438 | 9.5 | 2 896 |\n| xii) | D2b | 20 | 6 096 | 8 | 2 438 | 8.5 | 2 591 |\n| xiii) | E1b | 17 | 5 182 | 8.5 | 2 591 | 8.5 | 2 591 |\n| xiv) | E2b | 17 | 5 182 | 8 | 2 438 | 8.5 | 2 591 |\n| xv) | E2g | 17 | 5 182 | 8 | 2 438 | 7 | 2 134 |\n| xvi) | E3b | 17 | 5 182 | 7 | 2 134 | 8.5 | 2 591 |\n| xvii) | E3g | 17 | 5 182 | 7 | 2 134 | 7 | 2 134 |\n| xviii) | F2b | 14 | 4 267 | 8 | 2 438 | 8.5 | 2 591 |\n| xix) | F2g | 14 | 4 267 | 8 | 2 438 | 7 | 2 134 |\n| xx) | F3b | 14 | 4 267 | 7 | 2 134 | 8.5 | 2 591 |\n| xxi) | F3g | 14 | 4 267 | 7 | 2 134 | 7 | 2 134 |\n| xxii) | G3g | 10 | 3 048 | 7 | 2 134 | 7 | 2 134 |\n| xxiii) | G3d | 10 | 3 048 | 7 | 2 134 | 6 | 1 829 |\n| xxiv) | G4g | 10 | 3 048 | 6 | 1 829 | 7 | 2 134 |\n| xxv) | G4d | 10 | 3 048 | 6 | 1 829 | 6 | 1 829 |\n\n\n\nA-3 THE INTERNAL DIMENSIONS AND THE VOLUMETRIC CAPACITIES\n\n\n**Table 2 specifies the internal dimensions and the volumetric capacities in cubic feet and cubic metres (m³) for the**",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 24179,
+      "char_end": 25896,
+      "semantic_chunk_length": 1717,
+      "final_chunk_length": 2019,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0013",
+    "text": " 6 | 1 829 |\n| xxiv) | G4g | 10 | 3 048 | 6 | 1 829 | 7 | 2 134 |\n| xxv) | G4d | 10 | 3 048 | 6 | 1 829 | 6 | 1 829 |\n\n\n\nA-3 THE INTERNAL DIMENSIONS AND THE VOLUMETRIC CAPACITIES\n\n\n**Table 2 specifies the internal dimensions and the volumetric capacities in cubic feet and cubic metres (m³) for the**\n\n| Sl No. | Body Type Nomenclature | Feet | Internal Length mm | Feet | Internal Width mm | Feet | Internal Height mm | Volumetric Capacity Cubic Feet | m³ |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | (10) |\n| i) | A1a | 39.42 | 12 014 | 8.17 | 2 489 | 8.83 | 2 692 | 2 843.5 | 80.5 |\n| ii) | A2a | 39.42 | 12 014 | 7.67 | 2 337 | 8.83 | 2 692 | 2 669.4 | 75.6 |\n| iii) | A2b | 39.42 | 12 014 | 7.67 | 2 337 | 7.83 | 2 388 | 2 367.2 | 67.0 |\n| iv) | B1a | 31.42 | 9 576 | 8.17 | 2 489 | 8.83 | 2 692 | 2 266.4 | 64.2 |\n| v) | B2a | 31.42 | 9 576 | 7.67 | 2 337 | 8.83 | 2 692 | 2 127.6 | 60.2 |\n| vi) | B2b | 31.42 | 9 576 | 7.67 | 2 337 | 7.83 | 2 388 | 1 886.7 | 53.4 |\n| vii) | C1a | 23.42 | 7 137 | 8.17 | 2 489 | 8.83 | 2 692 | 1 689.3 | 47.8 |\n| viii) | C2a | 23.42 | 7 137 | 7.67 | 2 337 | 8.83 | 2 692 | 1 585.8 | 44.9 |\n| ix) | C2b | 23.42 | 7 137 | 7.67 | 2 337 | 7.83 | 2 388 | 1 406.3 | 39.8 |\n| x) | D1a | 19.42 | 5 918 | 8.17 | 2 489 | 8.83 | 2 692 | 1 400.7 | 39.7 |\n| xi) | D2a | 19.42 | 5 918 | 7.67 | 2 337 | 8.83 | 2 692 | 1 314.9 | 37.2 |\n| xii) | D2b | 19.42 | 5 918 | 7.67 | 2 337 | 7.83 | 2 388 | 1 166.1 | 33.0 |\n| xiii) | E1b | 16.42 | 5 004 | 8.17 | 2 489 | 7.83 | 2 388 | 1 050.2 | 29.7 |\n| xiv) | E2b | 16.42 | 5 004 | 7.67 | 2 337 | 7.83 | 2 388 | 985.9 | 27.9 |\n| xv) | E2g | 16.42 | 5 004 | 7.67 | 2 337 | 6.33 | 1 930 | 797.1 | 22.6 |\n| xvi) | E3b | 16.42 | 5 004 | 6.67 | 2 032 | 7.83 | 2 388 | 857.3 | 24.3 |\n| xvii) | E3g | 16.42 | 5 004 | 6.67 | 2 032 | 6.33 | 1 930 | 693.1 | 19.6 |\n| xviii) | F2b | 13.42 | 4 089 | 7.67 | 2 337 | 7.83 | 2 388 | 805.7 | 22.8 |\n| xix) | F2g | 13.42 | 4 089 | 7.67 | 2 337 | 6.33 | 1 930 | 651.5 | 18.4 |\n| xx) | F3b | 13.42 | 4 089 | 6.67 | 2 032 | 7.83 | 2 388 | 700.6 | 19.8 |\n| xxi) | F3g | 13.42 | 4 089 | 6.67 | 2 032 | 6.33 | 1 930 | 566.5 | 16.0 |\n| xxii) | G3g | 9.42 | 2 870 | 6.67 | 2 032 | 6.33 | 1 930 | 397.6 | 11.3 |\n| xxiii) | G3d | 9.42 | 2 870 | 6.67 | 2 032 | 5.33 | 1 626 | 334.8 | 9.5 |\n| xxiv) | G4g | 9.42 | 2 870 | 5.67 | 1 727 | 6.33 | 1 930 | 338.0 | 9.6 |\n| xxv) | G4d | 9.42 | 2 870 | 5.67 | 1727 | 5.33 | 1 626 | 284.6 | 8.1 |\n\n\nNOTE — Maximum 1 percent tolerance may be allowed for internal dimensions.\n\n\n\n\nA-4 DOOR OPENING DIMENSIONS\n\nIS 19610 : 2026\n\nThe door should be located at the rear end of the closed body. The dimensions of the rear doors corresponding to the 25 standard recommended closed body box dimensions are given in Table 3.\n\n\n**Table 3 Rear Door Dimensions of Closed Body Boxes**",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 25898,
+      "char_end": 28469,
+      "semantic_chunk_length": 2571,
+      "final_chunk_length": 2873,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0014",
+    "text": "ons.\n\n\n\n\nA-4 DOOR OPENING DIMENSIONS\n\nIS 19610 : 2026\n\nThe door should be located at the rear end of the closed body. The dimensions of the rear doors corresponding to the 25 standard recommended closed body box dimensions are given in Table 3.\n\n\n**Table 3 Rear Door Dimensions of Closed Body Boxes**\n\n| Sl No. | Body Type Nomenclature | Feet | Width mm | Height Feet | mm |\n| --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) |\n| i) | A1a | 8.17 | 2 489 | 9.1 | 2 591 |\n| ii) | A2a | 7.67 | 2 337 | 9.1 | 2 591 |\n| iii) | A2b | 7.67 | 2 337 | 8.1 | 2 286 |\n| iv) | B1a | 8.17 | 2 489 | 9.1 | 2 591 |\n| v) | B2a | 7.67 | 2 337 | 9.1 | 2 591 |\n| vi) | B2b | 7.67 | 2 337 | 8.1 | 2 286 |\n| vii) | C1a | 8.17 | 2 489 | 9.1 | 2 591 |\n| viii) | C2a | 7.67 | 2 337 | 9.1 | 2 591 |\n| ix) | C2b | 7.67 | 2 337 | 8.1 | 2 286 |\n| x) | D1a | 8.17 | 2 489 | 9.1 | 2 591 |\n| xi) | D2a | 7.67 | 2 337 | 9.1 | 2 591 |\n| xii) | D2b | 7.67 | 2 337 | 8.1 | 2 286 |\n| xiii) | E1b | 8.17 | 2 489 | 8.1 | 2 286 |\n| xiv) | E2b | 7.67 | 2 337 | 8.1 | 2 286 |\n| xv) | E2g | 7.67 | 2 337 | 6 | 1 829 |\n| xvi) | E3b | 6.67 | 2 032 | 8.1 | 2 286 |\n| xvii) | E3g | 6.67 | 2 032 | 6 | 1 829 |\n| xviii) | F2b | 7.67 | 2 337 | 8.1 | 2 286 |\n| xix) | F2g | 7.67 | 2 337 | 6 | 1 829 |\n| xx) | F3b | 6.67 | 2 032 | 8.1 | 2 286 |\n| xxi) | F3g | 6.67 | 2 032 | 6 | 1 829 |\n| xxii) | G3g | 6.67 | 2 032 | 6 | 1 829 |\n| xxiii) | G3d | 6.67 | 2 032 | 5 | 1 524 |\n| xxiv) | G4g | 5.67 | 1 727 | 6 | 1 829 |\n| xxv) | G4d | 5.67 | 1 727 | 5 | 1 524 |\n\n\n\n\n## ANNEX B\n\n(Clause 10)\n\nMATERIALS FOR PARTS OF CLOSED BODY\n\n\n| Sl No. | Closed Body Part | Material Specification |\n| --- | --- | --- |\n| (1) | (2) | (3) |\n| i) | Roof panels, Door panels, Side panels, Front panels, Bottom side rails, Cross members, Door Sill, Door header (upper and lower), Door horizontal frames, Door vertical frames, Top side rails, Front corner posts, Front bottom end rail and Front top end rail | Anti-Corrosive Steel: CORTEN A, SPA- H, B480 or equivalent, Y.P. : 345 MPa, T.S. : 480 MPa |\n| ii) | Rear corner posts (inner) | Rolled high tensile steel: SM490A or equivalent, Y.P. : 325 MPa, T.S. : 490 MPa |\n| iii) Floor centre rail |  | Structural Steel: SS400, Y.P. : 245 MPa, T.S. : 400 MPa |\n| iv) Door locking bars |  | Structural steel round pipe: STK41, Y.P. : 235 MPa, T.S. : 400 MPa |\n| v) Corner fitting |  | Casted weldable steel: SCW480, Y.P. : 275 MPa, T.S. : 480 MPa |\n| vi) | Locking gear cams and keepers | Forged weldable steel: S20C, Y.P. : 225 MPa, T.S. : 430 MPa |\n| vii) | Door hinge pins, Door gasket retainer | Stainless steel: SUS304 |\n| viii) Floorboard |  | Hardwood plywood, 19-ply or Metallic in the form of Steel/Aluminium checker plates. |\n| ix) Ventilator |  | ABS resin labyrinth type |\n\n*NOTES 1 Y.P. (Yield point) 2 T.S. (Tensile strength)*",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 28471,
+      "char_end": 31003,
+      "semantic_chunk_length": 2532,
+      "final_chunk_length": 2834,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19610_2026_0015",
+    "text": " 430 MPa |\n| vii) | Door hinge pins, Door gasket retainer | Stainless steel: SUS304 |\n| viii) Floorboard |  | Hardwood plywood, 19-ply or Metallic in the form of Steel/Aluminium checker plates. |\n| ix) Ventilator |  | ABS resin labyrinth type |\n\n*NOTES 1 Y.P. (Yield point) 2 T.S. (Tensile strength)*\n\n## ANNEX C\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: SSD 01 (27967).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19610_2026.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 31008,
+      "char_end": 32444,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19610",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

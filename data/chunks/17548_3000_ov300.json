@@ -1,0 +1,1136 @@
+[
+  {
+    "id": "17548_0000",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002 www.bis.gov.in  www.standardsbis.in\n\n\b Price Group 9\n\n\n\n\nSoftware and System Engineering Sectional Committee, LITD 14\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Software and System Engineering Sectional Committee, had been approved by the Electronics and Information Technology Division Council. This standard defines set of core practices that are present in any Agile methodology. These practices are grouped in accordance with the process groups of IS 16124 : 2020 (identical to ISO/IEC/IEEE 12207 : 2017) as practices under agreement processes, practices under technical management processes, practices under technical processes and practices under organizational project-enabling processes. These practices enable the application of any Agile methodology in acquisition, supply, development, operation, maintenance and disposal of software systems, products and services. The Committee responsible for the formulation of this standard has reviewed the provisions of the International publications listed in Annex B and has decided that these may be used in conjunction with this standard till Indian Standards on these subjects are published. The composition of the Committee responsible for the formulation of this standard is given in Annex C.\n\n\n\nINTRODUCTION",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 1395,
+      "semantic_chunk_length": 1393,
+      "final_chunk_length": 1393,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0001",
+    "text": "s of the International publications listed in Annex B and has decided that these may be used in conjunction with this standard till Indian Standards on these subjects are published. The composition of the Committee responsible for the formulation of this standard is given in Annex C.\n\n\n\nINTRODUCTION\n\n0.1 Overview All software systems have a lifecycle, irrespective of whether it is established formally or not. A lifecycle is a set of distinguishable phases or stages that the software goes through from its conceptualization until it ceases to exist. Lifecycle models are often considered as a framework of processes and activities that serve as the baseline for understanding and communicating about the software system. Software systems typically passes through its lifecycle as the result of tasks being performed by organizations and people, by instantiating a framework of processes and activities for their respective contexts. IS 16124 : 2020 (Identical to ISO/IEC/IEEE 12207 : 2017) standard provides requirements related to a common process framework for describing the life cycle of software systems. These processes can be used by any organization to construct life cycle models for their product and service offerings. The Agile way of software development has become a necessity due to ever changing nature of business requirements that defines the software. The Agile Manifesto and related values and principles have served as reference for agile practices across many organizations. However, there is no uniform adoption of agile practices in the industry. Different organizations exhibit different levels of maturity and diverse ways of interpreting, adopting, and implementing these practices. The Agile practices discussed in this document offer a lightweight, adaptive, and collaborative development approach based on empiricism with the focus on rapid business value delivery. This standard enlists core practices, which should be part of any Agile methodology. Requirements of this document are marked using the verb “shall”. Recommendations are marked using the verb “should”. Permissions are marked using the verb “may”.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1398,
+      "char_end": 3242,
+      "semantic_chunk_length": 1844,
+      "final_chunk_length": 2146,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0002",
+    "text": "cism with the focus on rapid business value delivery. This standard enlists core practices, which should be part of any Agile methodology. Requirements of this document are marked using the verb “shall”. Recommendations are marked using the verb “should”. Permissions are marked using the verb “may”.\n\n### 0.2 Need for the Standard Standardization of agile practices is essential for the following reasons:\n\n- a) For Vendors — It provides a list of core practices. b) For Acquirers — It provides a basis to differentiate the maturity of the vendor by assessing against these\npractices. c) For Both Parties — It provides a basis for agreement. Standardization in this area will be very useful for software vendors, software acquirers, software service providers, large delivery and maintenance projects, system integration engagements having software components and in general, the entire software community.\n\n\n0.3 Purpose The purpose of the standard is to document the core practices, which Agile projects must demonstrate. Acquirers, suppliers, developers, integrations, operators, maintainers, managers, quality assurers, and users of software systems, products and services, for a range of situations and contexts can use this standard.\n\n\n\n\n\n\n\n\n\nCONTENTS\n\n\b Page No.\n\nINTRODUCTION ... iii\n\n\n0.1 Overview ... iii 0.2 Need for the Standard ... iii 0.3 Purpose ... iii\n\n1 SCOPE ... 1\n\n2 REFERENCES ... 1\n\n3 TERMINOLOGY ... 1\n\n4 CONCEPTUAL FOUNDATIONS ... 1\n\n\n### 4.1 Lifecycle Processes ... 1 4.2 Agile Practices ... 2 4.3 Criteria for Practices ... 2 4.4 Description of Practices ... 2\n\n5 AGILE PRACTICES ... 2\n\n\n5.1 Practices under Agreement Processes ... 2 5.2 Practices under Organizational Project-enabling Processes ... 3 5.3 Practices under Technical Management Processes ... 5 5.4 Practices under Technical Processes ... 12\n\n\n## ANNEX A  LIST OF REFERRED INDIAN STANDARDS ... 19\n\n\n## ANNEX B  LIST OF REFERRED INTERNATIONAL STANDARDS/PUBLICATIONS ... 19\n\n\n## ANNEX C  COMMITTEE COMPOSITION ... 20\n\n\n\n\n\n\n\n\n\nIndian Standard\n\n\nSOFTWARE AND SYSTEMS ENGINEERING — CORE AGILE PRACTICES\n\n\n## 1 SCOPE\n\nThis standard defines set of core practices that are present in any Agile methodology. These practices are grouped in accordance with the process groups of IS 16124 : 2020 (identical to ISO/IEC/IEEE 12207 : 2017) as practices under agreement processes, practices under technical management processes, practices under technical processes and practices under organizational project-enabling processes. These practices enable the application of any Agile methodology in acquisition, supply, development, operation, maintenance and disposal of software systems, products and services.\n\nThe practices defined in this standard are applicable for a single Agile project, as well as for an organization performing multiple Agile projects. These practices are applicable throughout the lifecycle of software systems, products and services.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 7,
+      "clause": "0.2",
+      "heading": "0.2 Need for the Standard Standardization of agile practices is essential for the following reasons:",
+      "heading_path": [
+        "0.2 Need for the Standard Standardization of agile practices is essential for the following reasons:"
+      ],
+      "char_start": 3245,
+      "char_end": 5875,
+      "semantic_chunk_length": 2630,
+      "final_chunk_length": 2932,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0003",
+    "text": "sposal of software systems, products and services.\n\nThe practices defined in this standard are applicable for a single Agile project, as well as for an organization performing multiple Agile projects. These practices are applicable throughout the lifecycle of software systems, products and services.\n\n## 2 REFERENCES\n\nThe standards listed in Annex A and Annex B contains provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision and parties to agreement based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards indicated in Annex A and Annex B.\n\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard the following terms and definitions shall apply.\n\n\n### 3.1 Acceptance Criteria — Adoption of Agile values, principles and practices in the way of working.\n\n\n### 3.2 Agile Adoption — Change in process to agile principles.\n\n\n### 3.3 Agile — Iterative and incremental approach to software delivery.\n\n\n### 3.4 Product Backlog — Prioritized listing of product requirements.\n\n\n### 3.5 Agile Workspace — Collaborative workspaces conducive to agile ways of working.\n\n\n### 3.6 Continuous Improvement — Method to identify opportunities for streamlining work and reducing waste.\n\n\n### 3.7 Cross-team Synchronization — Method of coordination between team and other collaborators.\n\n\n### 3.8 Definition of Ready — Working agreement on the product backlog item’s readiness criteria.\n\n\n### 3.9 Definition of Done — Working agreement on the delivery readiness criteria.\n\n\n### 3.10 Iteration Retrospective — meeting where the team explores the results of the previous iteration to improve their practice.\n\n\n### 3.11 Release Backlog — subset of product backlog planned for the next release.\n\n\n### 3.12 User Story — Brief description of required functionality describing the stakeholder roles, goals, benefits, and motivation.\n\nNOTE — Larger user stories that are at an earlier stage of\n\nproduct backlog refinement are sometimes referred to as epics and/or features. For example — The scaled Agile Framework describes a\n\n\n3 level hierarchical requirement model. Epics can be subdivided into features. Features can be subdivided in user stories (see ISO/IEC/IEEE 26515 : 2018).\n\n\n### 3.13 Working Agreement — Statement of the working relationship in an agile environment.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 5878,
+      "char_end": 8024,
+      "semantic_chunk_length": 2146,
+      "final_chunk_length": 2448,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0004",
+    "text": " example — The scaled Agile Framework describes a\n\n\n3 level hierarchical requirement model. Epics can be subdivided into features. Features can be subdivided in user stories (see ISO/IEC/IEEE 26515 : 2018).\n\n\n### 3.13 Working Agreement — Statement of the working relationship in an agile environment.\n\n## 4 CONCEPTUAL FOUNDATIONS\n\n\n### 4.1 Lifecycle Processes\n\nEvery software product or service has a lifecycle IS 16124 : 2020 (identical to ISO/IEC/IEEE 12207 : 2017) describes this life-cycle as an abstract functional model that represents the conceptualization of the needs, realization by addressing the needs, subsequent utilization after realization, evolution based on change in environment or evolving needs and retiring or disposing the software product or service at the end of\n\n\n\n\nits useful life. IS 16124 : 2020 proposes 4 interacting process groups:\n\n- a) Agreement processes, b) Organizational project-enabling processes, c) Technical management processes, and d) Technical processes. Covering the activities that are typically performed during the software systems lifecycle.\nThe agreement processes aid organizations to agree on the responsibilities of the different functions related to software during its conceptualization, realization, utilization, evolution, and subsequent disposal. The organizational project-enabling processes enable an organization to acquire and supply software through the initiation, support, and control of projects. The technical management processes aid organizations to manage resources and assets provided by the organization to meet the agreements and other organizational commitments. The technical processes aid organizations to understand requirements, transform them into appropriate software products or services, reproduce software as and when needed, utilize the software in different environments, sustain the software till they are decommissioned, and retire or dispose the software at the end of its useful life.\n\n\n### 4.2 Agile Practices\n\nThis standard provides agile practices that can be utilized while implementing IS 16124 : 2020 in an agile way in organizations. These practices are grouped into four practice groups and relevant subgroups in alignment with the process groups as outlined in IS 16124 : 2020. Each of the practices within those groups and subgroups are described in terms of its purpose, goals and desired outcomes. The practices described in this standard are not intended to preclude or discourage the use of additional practices that organizations may find useful.\n\nThe practices in this standard can be used by any organization fully or partially while using, creating, or supplying a software product or service. The sequence that the practices are presented in, does not imply any prescriptive order in their use. Concurrent use of practices might exist in a project and between projects.\n\n\n### 4.3 Criteria for Practices\n\nThe determination of agile practices is based upon three basic principles:\n\n- a) Each agile practice has strong relationships to its\noutcomes; b) The dependencies between the practices are\n\nreduced to a minimum; and c) A practice can be adopted by a single organization\n\nor project.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "4",
+      "heading": "4 CONCEPTUAL FOUNDATIONS",
+      "heading_path": [
+        "4 CONCEPTUAL FOUNDATIONS"
+      ],
+      "char_start": 8027,
+      "char_end": 10920,
+      "semantic_chunk_length": 2893,
+      "final_chunk_length": 3195,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0005",
+    "text": "ia for Practices\n\nThe determination of agile practices is based upon three basic principles:\n\n- a) Each agile practice has strong relationships to its\noutcomes; b) The dependencies between the practices are\n\nreduced to a minimum; and c) A practice can be adopted by a single organization\n\nor project.\n\n### 4.4 Description of Practices\n\nEach practice is described in terms of the following attributes:\n\n- a) The title summarizes the practice; b) The overview describes the purpose and goals of\nperforming the practice; and c) The outcomes describe the observable results\n\nthat are expected on successful execution of the practice.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.4",
+      "heading": "4.4 Description of Practices",
+      "heading_path": [
+        "4 CONCEPTUAL FOUNDATIONS",
+        "4.4 Description of Practices"
+      ],
+      "char_start": 10924,
+      "char_end": 11251,
+      "semantic_chunk_length": 327,
+      "final_chunk_length": 629,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0006",
+    "text": "tices\n\nEach practice is described in terms of the following attributes:\n\n- a) The title summarizes the practice; b) The overview describes the purpose and goals of\nperforming the practice; and c) The outcomes describe the observable results\n\nthat are expected on successful execution of the practice.\n\n## 5 AGILE PRACTICES\n\n### 5.1 Practices under Agreement Processes\n\nThese practices provide considerations that should be applied while defining contracts in agile projects. They should enable both acquirers and suppliers to realize value and support business strategies for their organizations.\n\nThis clause defines the requirements for the establishment of agreements with organizational entities external and internal to the organization.\n\nThe practices under agreement processes consist of the following:\n\n- a) Contracting Practice — Used by organizations\ntowards building work agreements. b) Practices under Acquisition Processes — Used by\n\nthe acquirer to obtain a product or service. c) Practices under Supply Processes — Used by a\n\nsupplier to supply a product or service.\n\n\n#### 5.1.1 Contracting Practice\n\nThe purpose of the contracting practice is to establish the working agreement between two parties involved in an agile endeavour. The contracting practice provides for establishing a work agreement based on specific terms, conditions, capacity, and deliverables. Typical things that are detailed out and agreed upon are: number of agile teams, model experience profiles, technology focused agile teams, functional specialists, delivery capability, payment intervals, amount to be paid, mode of payment, deviation processes to be followed for any variation, change in demand, delivery quality details as required, scope of delivery, range of services expected, small changes and enhancements and so on.\n\n\n##### 5.1.1.1 Outcomes\n\nAs a result of the successful implementation of the contracting practice:\n\n- a) Statement of work is established; b) Contract agreement is established; c) Concept of operations is established; d) Service-level agreements are established; and e) Terms and conditions of engagement is established.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "5.1",
+      "heading": "5.1 Practices under Agreement Processes",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.1 Practices under Agreement Processes"
+      ],
+      "char_start": 11254,
+      "char_end": 13093,
+      "semantic_chunk_length": 1839,
+      "final_chunk_length": 2140,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0007",
+    "text": "mes\n\nAs a result of the successful implementation of the contracting practice:\n\n- a) Statement of work is established; b) Contract agreement is established; c) Concept of operations is established; d) Service-level agreements are established; and e) Terms and conditions of engagement is established.\n\n#### 5.1.2 Practices under Acquisition Process\n\nThe purpose of this practice is to obtain a product or service in accordance with the acquirer’s requirements and in alignment with agile values and principles. The acquirer should define a strategy for how the acquisition should be conducted and prepare a request for the supply of the product or service in accordance with agile requirement management practices.\n\nNOTE — IS 16124 Systems and software engineering —\n\nSoftware life cycle processes contains detailed activities that describe preparation for the acquisition, advertising the application, supplier selection, establishing, maintaining, monitoring the contract and acceptance of the product or service.\n\n\n##### 5.1.2.1 Outcomes\n\nAs a result of the successful implementation of this practice:\n\n- a) One or more acquisition strategies are identified; b) One or more analysis is performed; c) One or more business cases for acquisition are\nestablished; and d) Agile implementation approach is identified.\n\nNOTE — These outcomes are in addition to the results of\n\nthe successful implementation of the IS 16124 – Systems and software engineering – Software life cycle processes – Acquisition process.\n\n\n#### 5.1.3 Practices under Supply Process\n\nThe purpose of this practice is to provide a product or service to the acquirer in accordance with the acquirer’s requirements and in alignment with agile values and principles. The supplier should define a supply strategy towards identifying potential acquirers for the product or service and responding to requests for supply of the product or service from acquirers.\n\nNOTE — IS 16124 : 2020 contains detailed activities that\n\ndescribe preparation for the supply, responding to a request for supply of product or services, establishing, maintaining, executing the contract and, delivering and supporting the product or service.\n\n\n##### 5.1.3.1 Outcomes\n\nAs a result of the successful implementation of this practice:\n\n- a) One or more supplier strategies are identified; b) One or more analysis is performed; c) One or more business cases for supply are\nestablished; and d) Agile implementation approach is identified.\n\nNOTE — These outcomes are in addition to the results of\n\nthe successful implementation of the IS 16124 : 2020 Supply process.\n\nIS 17548 : 2021",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "5.1.2",
+      "heading": "5.1.2 Practices under Acquisition Process",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.1 Practices under Agreement Processes",
+        "5.1.2 Practices under Acquisition Process"
+      ],
+      "char_start": 13098,
+      "char_end": 15414,
+      "semantic_chunk_length": 2316,
+      "final_chunk_length": 2618,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0008",
+    "text": "ntified; b) One or more analysis is performed; c) One or more business cases for supply are\nestablished; and d) Agile implementation approach is identified.\n\nNOTE — These outcomes are in addition to the results of\n\nthe successful implementation of the IS 16124 : 2020 Supply process.\n\nIS 17548 : 2021\n\n### 5.2 Practices under Organizational Project-Enabling Processes\n\nThese practices establish the environment in which the agile projects are conducted. They apply outside the span of a project’s life cycle as well as during a project’s lifespan. They are typically concerned with the provision and deployment of resources and assets towards ensuring the project meets the need and expectations of the stakeholders and achieves expected business outcomes.\n\nThis clause defines the requirements for the establishment of practices under organizational project-enabling processes. These practices ensure the organization’s capability to provide resources and infrastructure necessary to support agile projects and help ensure the satisfaction of the organizational objectives and established contracts. These practices consist of Agile team management practice – used by organization to create the right environment for teams.\n\nNOTE — These practices should be considered as an extension\n\nto the organizational project-enabling processes described in IS 16124 : 2020.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "5.2",
+      "heading": "5.2 Practices under Organizational Project-Enabling Processes",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.2 Practices under Organizational Project-Enabling Processes"
+      ],
+      "char_start": 15417,
+      "char_end": 16480,
+      "semantic_chunk_length": 1063,
+      "final_chunk_length": 1365,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0009",
+    "text": "jectives and established contracts. These practices consist of Agile team management practice – used by organization to create the right environment for teams.\n\nNOTE — These practices should be considered as an extension\n\nto the organizational project-enabling processes described in IS 16124 : 2020.\n\n#### 5.2.1 Agile Team Management Practices\n\nAgile team management practices are used to harness the abundance of global talent and optimize economics.\n\nThe agile team management practices consist of the following:\n\n- a) Cross Functional Team Practice — Used to\nenhance value delivery. b) Feature Team Practice — Used to optimize\n\ndelivery of business value. c) Component Team Practice — Used to develop\n\ncomponents. d) Co-located Team Practice — Used to optimize\n\ncollaboration and cooperation. e) Distributed Team Practice — Used to optimize\n\nresource availability and economics. f) Shared Code Practice — Used to reduce\n\ndependencies within teams.\n\n\n##### 5.2.1.1 Cross functional team practice\n\nThe purpose of the cross functional team practice is to define the common working goal for a team with different functional expertise to collaborate in an efficient manner. The cross functional team practice provides for establishing an amicable collaborative atmosphere which can deal effectively with cross-functional dependencies. All the skills that are necessary to deliver a successful incremental product is available within the team. This allows for a less structured, more interactive, highly performant team\n\n\n\n\nthat are self-directed and can leverage the experience and variety in the team to make better decisions. Typical things that are detailed out and agreed upon are: shared responsibilities, roles, skillsets, consensus criteria, prioritization criteria, goals and objectives, resources and logistics, and so on.\n\n5.2.1.1.1 Outcomes\n\nAs a result of the successful implementation of the cross functional team practice:\n\n- a) Common working goals, working criteria and\nobjectives are established; b) Working agreement, required resources and\n\nlogistics are established; c) Agile team with enhanced ability to self-organize\n\nis established; d) External dependencies are reduced; e) Value delivery is accelerated; and f) Trust and accountability within the team is\n\nincreased.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "5.2.1",
+      "heading": "5.2.1 Agile Team Management Practices",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.2 Practices under Organizational Project-Enabling Processes",
+        "5.2.1 Agile Team Management Practices"
+      ],
+      "char_start": 16483,
+      "char_end": 18471,
+      "semantic_chunk_length": 1988,
+      "final_chunk_length": 2290,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0010",
+    "text": "tives are established; b) Working agreement, required resources and\n\nlogistics are established; c) Agile team with enhanced ability to self-organize\n\nis established; d) External dependencies are reduced; e) Value delivery is accelerated; and f) Trust and accountability within the team is\n\nincreased.\n\n##### 5.2.1.2 Feature team practice\n\nThe purpose of the feature team practice is to define a set of end-to-end features and the order in which they need to be delivered for a cross-functional, cross-component, long-lived team that leads to a potentially shippable product increment. The feature team practice provides for establishing an end-to-end feature ownership and delivery mechanism which can deal effectively with shipping a product increment on schedule. All the skills that are necessary to deliver a successful incremental product is available within the team. Further, the team should focus on delivering one end-to-end customer centric complete feature at a time. This allows for a focused, less structured, more interactive, highly performant team that are self- directed and can leverage the expertise in the team to deliver high quality products. Typical things that are detailed out and agreed upon are: feature set, sequence of delivering the features, shared responsibilities, roles, skillsets, consensus criteria, prioritization criteria, goals and objectives, resources, and logistics, and so on.\n\n5.2.1.2.1 Outcomes\n\nAs a result of the successful implementation of the feature team practice:\n\n- a) Set of end to end features and the order of delivery\nis established; b) Common working goals, working criteria and\n\nobjectives are established; c) Working agreement, required resources and\n\nlogistics are established; d) Agile team with enhanced ability to deliver\n\nend-to-end features is setup;\n\n\n- e) Customer-centricity of the product is increased;\nand f) Incremental product is shipped.\n\n\n##### 5.2.1.3 Component team practice\n\nThe purpose of the component team practice is to define a set of components that are owned, developed, maintained, and delivered by a focused component development team which contributes to solutions. The component team practice provides for establishing an end-to-end component ownership and delivery mechanism which can deal effectively with shipping a customer-valuable solution. All the skills that are necessary to develop, maintain and deliver these components are available within the team. This allows for a focused, interactive, tightly coupled team that are self-directed and can leverage the expertise in the team to deliver high quality reusable components. Typical things that are detailed out and agreed upon are: set of components, roles, responsibilities, architecture robustness, goals and objectives, resources and logistics, and so on.\n\n5.2.1.3.1 Outcomes\n\nAs a result of the successful implementation of the component team practice:\n\n- a) Agile team with enhanced ability to deliver shared\ncomponents is setup; b) Working agreement, necessary resources and\n\nlogistics are established; c) Common working goals, criteria and objectives\n\nare established; and d) Solutions are delivered.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "5.2.1.2",
+      "heading": "5.2.1.2 Feature team practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.2 Practices under Organizational Project-Enabling Processes",
+        "5.2.1 Agile Team Management Practices",
+        "5.2.1.2 Feature team practice"
+      ],
+      "char_start": 18474,
+      "char_end": 21328,
+      "semantic_chunk_length": 2854,
+      "final_chunk_length": 3156,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0011",
+    "text": "ul implementation of the component team practice:\n\n- a) Agile team with enhanced ability to deliver shared\ncomponents is setup; b) Working agreement, necessary resources and\n\nlogistics are established; c) Common working goals, criteria and objectives\n\nare established; and d) Solutions are delivered.\n\n##### 5.2.1.4 Co-located team practice\n\nThe purpose of the co-located team practice is to define strategies, resources and goals to be achieved in order to achieve high productivity, working relationships, efficient and effective communication, high collaboration and strong team bonding. The co-located team practice provides for establishing a physically co-located team-based delivery mechanism with high productivity, high collaboration, strong team bonding, efficient and effective communication. The goals and objectives of the team are well understood and all the skills that are necessary to achieve the goals and objectives are co-located together. This allows for a focused, interactive, productive, tightly coupled team that are self-directed and can deliver at high rates. Typical things that are detailed out and agreed upon are: location, roles, responsibilities, knowledge sharing, escalation matrix, decision guidelines, goals and objectives, resources, and logistics, and so on.\n\n5.2.1.4.1 Outcomes\n\nAs a result of the successful implementation of the co-located team practice:\n\n\n\n\n- a) Highly productive agile team with faster\ndecision-making capability based out of a common location is setup; b) Working agreement, necessary resources, location\n\nand logistics are established; c) Communication, Collaboration, cooperation and\n\nworking relationships within the team is enhanced; d) A sense of belonging and being part of community\n\nis developed; and e) Conflict resolution and knowledge sharing\n\nbecomes swift.\n\n\n##### 5.2.1.5 Distributed team practice\n\nThe purpose of the distributed team practice is to define strategies, resources, and goals to be achieved to deal with domain complexity, organizational scale-up, global reach, technical complexity, quicker time to market, and increasing production costs. The distributed team practice provides for establishing a physically geographically distributed team-based delivery mechanism that scale-up with less investment, deals with technical and domain complexity, deals with customers spread across different geographies, and reach geographically distributed talents with requisite skills. Communication and collaboration occur using virtual spaces which allows a team located geographically at different locations to come together for delivering a solution. Typical things that are detailed out and agreed upon are: communication channels, roles, responsibilities, workflow, delivery schedules, decision guidelines, goals and objectives, resources, and so on.\n\n5.2.1.5.1 Outcomes\n\nAs a result of the successful implementation of the distributed team practice:\n\n- a) Ability to leverage global talent is established; b) Workflow, delivery schedules, decision guidelines\nand working agreement is established; c) Virtual communication, collaboration and cooperation is established; d) Team diversity and collective knowledge is\n\nenhanced; e) Superior product or solution is delivered; and f) Distributed team is setup.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "5.2.1.4",
+      "heading": "5.2.1.4 Co-located team practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.2 Practices under Organizational Project-Enabling Processes",
+        "5.2.1 Agile Team Management Practices",
+        "5.2.1.4 Co-located team practice"
+      ],
+      "char_start": 21331,
+      "char_end": 24318,
+      "semantic_chunk_length": 2987,
+      "final_chunk_length": 3289,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0012",
+    "text": " b) Workflow, delivery schedules, decision guidelines\nand working agreement is established; c) Virtual communication, collaboration and cooperation is established; d) Team diversity and collective knowledge is\n\nenhanced; e) Superior product or solution is delivered; and f) Distributed team is setup.\n\n##### 5.2.1.6 Shared code practice\n\nThe purpose of the shared code practice is to define strategies, resources, and goals to own the deliverable in its entirety and to reduce dependencies within the organization and provide an environment to enhance creativity and innovation across the board. This practice is also called as the collective ownership practice. The\n\nIS 17548 : 2021\n\nshared code practice provides for cooperative ownership and collective responsibility of the deliverables by all the members of the team, encourages contribution of new ideas to all segments of the deliverables, focuses on creative problem solving, and establishes an explicit convention that every team member can own, create and update the deliverables. Typical things that are detailed out and agreed upon are: ownership tokens, communication channels, acceptance criteria, roles, responsibilities, delivery schedules, decision guidelines, goals and objectives, and so on.\n\n5.2.1.6.1 Outcomes\n\nAs a result of the successful implementation of the collective ownership team practice:\n\n- a) Ability to leverage new ideas is established; b) Ownership tokens and working agreements are\nestablished; c) Communication channels, decision and design\n\nguidelines are established; d) Ownership and responsibility towards deliverables\n\nare increased; e) Collaboration, cooperation, team-spirit is improved; and f) Superior product or solution is delivered.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "5.2.1.6",
+      "heading": "5.2.1.6 Shared code practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.2 Practices under Organizational Project-Enabling Processes",
+        "5.2.1 Agile Team Management Practices",
+        "5.2.1.6 Shared code practice"
+      ],
+      "char_start": 24321,
+      "char_end": 25751,
+      "semantic_chunk_length": 1430,
+      "final_chunk_length": 1732,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0013",
+    "text": "ip tokens and working agreements are\nestablished; c) Communication channels, decision and design\n\nguidelines are established; d) Ownership and responsibility towards deliverables\n\nare increased; e) Collaboration, cooperation, team-spirit is improved; and f) Superior product or solution is delivered.\n\n### 5.3 Practices under Technical Management Processes\n\nThese practices are concerned with managing the resources and assets towards ensuring the project meets the needs and expectations of the stakeholders and achieves expected business outcomes. These practices are used to establish and perform technical plans for the project and assess the progress towards expected business outcomes. This sub-clause defines the requirements for the establishment of practices under technical management processes. These practices relate to the technical effort of projects, to planning, synchronizing and governance. These practices are used in tandem with practices under technical processes to achieve the desired solution attributes. The practices under technical management processes consist of the following:\n\n- a) Agile Planning and Synchronization Practices —\nUsed to plan and synchronize agile projects and execution. b) Agile Governance Practices — Used to govern\n\nagile projects and execution.\n\nNOTES 1 Technical management is ‘the application of technical\n\nand administrative resources to plan, organize and control engineering functions’ (see ISO/IEC/IEEE 24765 : 2017). 2 These practices should be considered as an extension to the\n\ntechnical management processes described in IS 16124 : 2020.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "5.3",
+      "heading": "5.3 Practices under Technical Management Processes",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes"
+      ],
+      "char_start": 25754,
+      "char_end": 27050,
+      "semantic_chunk_length": 1296,
+      "final_chunk_length": 1598,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0014",
+    "text": "OTES 1 Technical management is ‘the application of technical\n\nand administrative resources to plan, organize and control engineering functions’ (see ISO/IEC/IEEE 24765 : 2017). 2 These practices should be considered as an extension to the\n\ntechnical management processes described in IS 16124 : 2020.\n\n#### 5.3.1 Agile Planning and Synchronization Practices\n\nThe Agile planning and synchronization practices are used by an organization to produce and coordinate effective and workable plans that are adaptive to the evolving customer needs and emerging conditions. They are applied in accordance with the various planning horizons.\n\nThe agile planning and synchronization practices consists of the following:\n\n- a) Cadence practice, b) Release planning practice, c) Deployment planning practice, d) Iteration planning practice, e) Synchronized iterations practice, f) Daily synchronization meeting practice, g) Cross team synchronization meeting practice, h) Product owner synchronization meeting practice, j) Value stream mapping practice, and k) Limiting work in progress practice.\n\n##### 5.3.1.1 Cadence practice\n\nThe purpose of the cadence practice is to establish a predictable schedule around events and activities. One such capability is the length of the development cycle and related activities and events leading to the capacity of predicting project outcomes. The cadence practice provides for establishing a sequence of repeatable time-bound activities and events which leads to a predictable, synchronized rhythm of product development with appropriate overlaps. All the other down-stream activities depend on this rhythm thereby enabling the agile project team to know what they are doing and when will the work get done. This enables the team to make reliable commitments on their deliverables as the team obtains a fair idea of their capability and capacity from the cadence. There are many factors that impact the selection of the cadence: criticality, risk, release frequency, success criteria, priorities, type of project, and so on. Cadence is used in iteration-based development approaches like iteration planning, iteration review, iteration retrospective, and so on.\n\n5.3.1.1.1 Outcomes\n\nAs a result of the successful implementation of the cadence practice:\n\n- a) Iteration cadence and agile events cadence are\nestablished; b) Delivery schedules and communication plans are\n\nupdated; c) Risk related to activities and events are reduced; d) Synchronization and Queue management is\n\nimproved;\n\n\n- e) Dependencies are planned appropriately; and f) Project outcomes are predictable.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "5.3.1",
+      "heading": "5.3.1 Agile Planning and Synchronization Practices",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.1 Agile Planning and Synchronization Practices"
+      ],
+      "char_start": 27056,
+      "char_end": 29356,
+      "semantic_chunk_length": 2300,
+      "final_chunk_length": 2602,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0015",
+    "text": "ce and agile events cadence are\nestablished; b) Delivery schedules and communication plans are\n\nupdated; c) Risk related to activities and events are reduced; d) Synchronization and Queue management is\n\nimproved;\n\n\n- e) Dependencies are planned appropriately; and f) Project outcomes are predictable.\n\n##### 5.3.1.2 Release planning practice\n\nThe purpose of the release planning practice is to establish the right business and functional goals for the subsequent release and to assert the ability and feasibility of meeting the goals. The release planning practice provides for establishing the delivery goals, priorities, delivery ownership while considering the uncertainty, intangibility, and flexible nature of software development. Typical things that are considered are: features, user stories, AS IS and TO BE scenarios from multiple perspectives, functional and technical dependencies, technical debt, key milestones, iteration length, number of iterations, iteration frequency, estimates, release schedule, team size, and so on.\n\n5.3.1.2.1 Outcomes\n\nAs a result of the successful implementation of the release planning practice:\n\n- a) Release vision, release plan and release schedule\nare established; b) Product backlog and impediment register are\n\nupdated; c) Technical debt, functional and technical dependencies are established; d) Prioritised business features are deployed in the\n\nsubsequent release; e) Dependencies and mitigation plans are established; f) Team composition and configuration is established; g) Team is committed to the release plan; h) Delivery goals, ownership and priorities are\n\nestablished; and j) Acceptable and feasible release plan is established.\n\n\n##### 5.3.1.3 Deployment planning practice\n\nThe purpose of the deployment planning practice is to establish the right systematic, repeatable approach for transitioning the developed software into the target production environment. The deployment planning practice provides for technically defining and governing specific activities for release management and artefacts management as part of deployment. Typical things that are considered include: target schema, migration plan, release plan, customization plan, roll-out plan, configuration plan, business rule configurations, workflow configuration, build and deployment plan, deployment strategy, and so on.\n\n5.3.1.3.1 Outcomes\n\nAs a result of the successful implementation of the deployment planning practice:\n\n- a) Release plan and schedule, migration plan and\nprocedures, recovery plan and schedule are established;\n\n\n\n\n- b) Solution is deployed in the target environment; c) All released functions, services and capabilities\nare available; d) Team informed and engaged; and e) Traceability is established.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "5.3.1.2",
+      "heading": "5.3.1.2 Release planning practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.1 Agile Planning and Synchronization Practices",
+        "5.3.1.2 Release planning practice"
+      ],
+      "char_start": 29358,
+      "char_end": 31807,
+      "semantic_chunk_length": 2449,
+      "final_chunk_length": 2751,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0016",
+    "text": ":\n\n- a) Release plan and schedule, migration plan and\nprocedures, recovery plan and schedule are established;\n\n\n\n\n- b) Solution is deployed in the target environment; c) All released functions, services and capabilities\nare available; d) Team informed and engaged; and e) Traceability is established.\n\n##### 5.3.1.4 Iteration planning practice\n\nThe purpose of the iteration planning practice is to establish the delivery goals and related commitments for the subsequent iteration. The iteration planning practice helps in establishing a sensible commitment at the beginning of each iteration by determining the value that can be created by delivering high priority features. Typical things that are considered include: prioritized user stories, team backlog, incremental value, definition of readiness, dependencies, acceptance criteria, capability and capacity of the team, velocity and related estimates, design approach, and so on.\n\n5.3.1.4.1 Outcomes\n\nAs a result of the successful implementation of the iteration planning practice:\n\n- a) Iteration goals and iteration backlog are established; b) Acceptance criteria, estimates, risk register and\nproduct backlog are updated; c) Team commitment towards the iteration goal is\n\nestablished; d) Shared understanding between the development\n\nteam and product owner is established; and e) Predictability of project outcomes is enhanced.\n\n\n##### 5.3.1.5 Synchronized iteration practice\n\nThe purpose of the synchronized iteration practice is to establish a common cadence at which all the iterations are initiated, performed, or terminated in a project across multiple agile teams. The synchronized iteration practice provides for establishing a common cadence across multiple agile teams in a project. The iterations can start or stop at around the same schedule or the respective durations can also be similar. Typical things that are considered include: Release plans, delivery schedules, domain and technical dependencies, acceptance criteria, capability and capacity of the team, velocity and related estimates, value delivery, integration constraints, and so on.\n\n5.3.1.5.1 Outcomes\n\nAs a result of the successful implementation of the synchronized iteration practice:\n\n- a) Iteration schedule and duration are established; b) Dependency management between agile teams is\nimproved; c) Application and system integration are improved;\n\nIS 17548 : 2021\n\n- d) Collaboration and alignment between agile teams\nis improved; and e) Complete integrated solution released on schedule.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "5.3.1.4",
+      "heading": "5.3.1.4 Iteration planning practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.1 Agile Planning and Synchronization Practices",
+        "5.3.1.4 Iteration planning practice"
+      ],
+      "char_start": 31810,
+      "char_end": 34036,
+      "semantic_chunk_length": 2226,
+      "final_chunk_length": 2528,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0017",
+    "text": "Iteration schedule and duration are established; b) Dependency management between agile teams is\nimproved; c) Application and system integration are improved;\n\nIS 17548 : 2021\n\n- d) Collaboration and alignment between agile teams\nis improved; and e) Complete integrated solution released on schedule.\n\n##### 5.3.1.6 Daily synchronization meeting practice\n\nThe purpose of the daily synchronization meeting practice is to facilitate the progress of the agile team towards achieving the iteration goals and commitments by effectively dealing with risks, dependencies, impediments, related information, and alignment. The daily synchronization meeting practice provides ways and means for establishing a fundamental change in how responsibilities are met by the team; improving the alignment within the team and providing requisite information pertaining to the progress towards achieving the goals. Typical things that are considered include: status updates, activities performed, impediments, alignment issues, progress updates, and so on.\n\nNOTE — The daily synchronization meeting is commonly\n\nreferred to as the “Daily scrum” or “Daily standup” when using the scrum framework.\n\n5.3.1.6.1 Outcomes\n\nAs a result of the successful implementation of the daily synchronization meeting practice:\n\n- a) Team task board and iteration goals are updated; b) Product backlog, impediments and risk register\nare updated; c) Alignment towards the iteration goals are\n\nimproved; d) Dependencies and alignment issues are made\n\nvisible; e) Collaboration and alignment between agile team\n\nmembers is improved; and f) Visible progress made towards achieving the\n\niteration goals.\n\n\n##### 5.3.1.7 Cross team synchronization meeting practice\n\nThe purpose of the cross-team synchronization meeting practice is to facilitate the progress of multiple agile teams towards achieving the collective release goal, team iteration goals and commitments by effectively dealing with risks, dependencies, impediments, related information and alignment. The cross-team synchronization meeting practice provides ways and means for establishing a fundamental change in how responsibilities are met by different teams; improving the alignment between the different teams and providing requisite information pertaining to the progress towards achieving the release goals. Typical things that are considered include: cross-team status updates, cross-team impediments, cross-team alignment issues, cross-team progress updates, cross-team activities performed, and so on.\n\nNOTE — The cross team synchronization meeting is also\n\nreferred to as the “Scrum of Scrums”, when using the scrum framework.\n\n\n\n\n5.3.1.7.1 Outcomes\n\nAs a result of the successful implementation of the cross-team synchronization meeting practice:\n\n- a) Product backlog, iteration goals and release goals\nare updated; b) Impediments and risk register are updated; c) Alignment towards the release goals are improved; d) Cross-team dependencies and impediments are\n\nmade visible; e) Cross-team alignment issues are made visible; f) Cross-team dependencies are addressed; g) Collaboration and alignment between multiple\n\nagile teams is improved; h) Visible progress made towards achieving the\n\nrelease goals; and j) Individual team plans, iteration goals are updated.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "5.3.1.6",
+      "heading": "5.3.1.6 Daily synchronization meeting practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.1 Agile Planning and Synchronization Practices",
+        "5.3.1.6 Daily synchronization meeting practice"
+      ],
+      "char_start": 34039,
+      "char_end": 37032,
+      "semantic_chunk_length": 2993,
+      "final_chunk_length": 3295,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0018",
+    "text": "made visible; e) Cross-team alignment issues are made visible; f) Cross-team dependencies are addressed; g) Collaboration and alignment between multiple\n\nagile teams is improved; h) Visible progress made towards achieving the\n\nrelease goals; and j) Individual team plans, iteration goals are updated.\n\n##### 5.3.1.8 Product owner synchronization meeting practice\n\nThe purpose of the product-owner synchronization meeting practice is to facilitate the progress of agile releases towards achieving the program increment by effectively dealing with risks, dependencies, impediments, related information, and alignment. The product owner synchronization meeting practice provides ways and means for establishing a fundamental change in how responsibilities are met by providing visibility into progress and impediments. Typical things that are considered include: milestones, program increment objectives, internal dependencies among the teams, alignment issues, progress updates, activities performed, scope adjustment, program backlogs, and so on.\n\n5.3.1.8.1 Outcomes\n\nAs a result of the successful implementation of the product owner synchronization meeting practice:\n\n- a) Program backlogs, program goals and release\ngoals are updated; b) Alignment towards the program increment goals\n\nare improved; c) Program impediments are resolved and made\n\nvisible; d) Program alignment issues are made visible; e) Program dependencies are addressed; f) Visible progress made towards achieving the\n\nprogram goals; and g) Business priorities are aligned, and status updated.\n\n\n##### 5.3.1.9 Value stream mapping practice\n\nThe purpose of value stream mapping practice is to establish ways and means for analysing, improving the\n\n\nflow of information, reducing and eliminating waste by discovering the root causes and sources of waste. The value stream mapping practice provides ways and means to analyse the flow of information, people and resources required to deliver a software by identifying and eliminating process waste thereby increasing efficiency, throughput, and effectiveness. Typical things that are considered include, product backlog, deliverables, deliverable qualities, business value, delays, waste, constraints, assumptions, information flows, activities, processes, inventories, non-value adding activities, alternative flows, and so on.\n\n5.3.1.9.1 Outcomes\n\nAs a result of the successful implementation of the value stream mapping practice:\n\n- a) Product backlogs are updated; b) Processes are optimized; c) Information flows are established; d) Lead times are improved; e) Wait times are shortened; f) Handoffs are reduced; g) Waste reduced or eliminated; h) Non-value adding activities eliminated; and j) Foundational view of business developed.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "5.3.1.8",
+      "heading": "5.3.1.8 Product owner synchronization meeting practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.1 Agile Planning and Synchronization Practices",
+        "5.3.1.8 Product owner synchronization meeting practice"
+      ],
+      "char_start": 37035,
+      "char_end": 39487,
+      "semantic_chunk_length": 2452,
+      "final_chunk_length": 2754,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0019",
+    "text": "Product backlogs are updated; b) Processes are optimized; c) Information flows are established; d) Lead times are improved; e) Wait times are shortened; f) Handoffs are reduced; g) Waste reduced or eliminated; h) Non-value adding activities eliminated; and j) Foundational view of business developed.\n\n##### 5.3.1.10 Limiting work in progress practice\n\nThe purpose of limiting work in progress practice is to establish ways and means for identifying inefficiencies and bottlenecks that potentially impact an agile team’s ability to meet their goals and increase the throughput. The limiting work in progress practice provides ways and means to identify and eliminate inefficiencies, remove bottlenecks, reduce risks, optimize work capacity, establish optimal pace of work, thereby improving the ability of the team to meet the release goals, focus the team’s effort and improve throughput. Typical things that are considered include: waste, bottlenecks, delays, inefficiencies, velocity, iteration goals, release goals, release activities, team capability and capacity, key performance indicators, prioritizations, and so on.\n\n5.3.1.10.1 Outcomes\n\nAs a result of the successful implementation of the limiting work in progress practice:\n\n- a) Delivery maturity and release certainty is\nachieved; b) Continuous improvement is established; c) Throughput is increased; d) Inefficiencies and bottlenecks are reduced; e) Productivity and effectiveness are increased; f) Capacity management is improved; and g) Value delivery is enhanced.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "5.3.1.10",
+      "heading": "5.3.1.10 Limiting work in progress practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.1 Agile Planning and Synchronization Practices",
+        "5.3.1.10 Limiting work in progress practice"
+      ],
+      "char_start": 39489,
+      "char_end": 40718,
+      "semantic_chunk_length": 1229,
+      "final_chunk_length": 1531,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0020",
+    "text": "ice:\n\n- a) Delivery maturity and release certainty is\nachieved; b) Continuous improvement is established; c) Throughput is increased; d) Inefficiencies and bottlenecks are reduced; e) Productivity and effectiveness are increased; f) Capacity management is improved; and g) Value delivery is enhanced.\n\n#### 5.3.2 Agile Governance Practices\n\nThe Agile governance practices are used to establish and maintain oversight to ensure that effective and workable plans are adapted, program and iteration risks are handled effectively, releases deliver the intended features and capabilities, programs are aligned towards organizational and business goals, and the program operates within the establish constraints.\n\nThe agile governance practices consist of the following:\n\n- a) Release review practice, b) Iteration review practice, c) Team retrospective practice, d) Program retrospective practice, e) Metrics governance practice, f) Technical debt governance practice, g) Program Board governance practice, h) Agile adoption maturity governance practice, j) Visual management practic,e k) Gemba practice, and m) Distributed agile governance practice.\n\n##### 5.3.2.1 Release review practice\n\nThe purpose of release review practice is to validate the product increment and verify if the product increment is ready for release. The release review practice provides for verification and validation of the product increment. Typical things that are considered include: state of confidence, changes to feature definitions, changes to user stories, differences in effort estimates, progress visibility, milestones, key performance indicators, risks, product quality, value adds, potential ROI impact, potential business value, product backlog, release vision, release goals, and so on.\n\n5.3.2.1.1 Outcomes\n\nAs a result of the successful implementation of the release review practice:\n\n- a) Improvement backlog is updated; b) Corrective actions are established; c) Continuous improvement areas are established; d) Effectiveness and efficiency is improved; and e) Business needs and future releases are aligned.\n\n##### 5.3.2.2 Iteration review practice\n\nThe purpose of iteration review practice is to evaluate the iteration progress and determine any corrective actions. The iteration review practice provides for verification and validation of the iteration progress. Typical things that are considered include: product backlog, number of user stories addressed, number of features incorporated, differences in effort estimates, velocity, progress visibility, milestones, key performance indicators, risks, iteration goals, iteration\n\nIS 17548 : 2021\n\nbacklog, feedback, dependencies, impediments, alignment issues, iteration schedule, and so on.\n\nNOTE — The iteration review practice is also referred to as the\n\n“Sprint Review”, when using the scrum framework\n\n5.3.2.2.1 Outcomes\n\nAs a result of the successful implementation of the iteration review practice:\n\n- a) Product backlog updated; b) Definition of Done and Definition of Ready\nupdated; c) Corrective actions are established; d) Continuous improvement areas are established; e) Effectiveness and efficiency are improved; and f) Iteration alignment is improved.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "5.3.2",
+      "heading": "5.3.2 Agile Governance Practices",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.2 Agile Governance Practices"
+      ],
+      "char_start": 40723,
+      "char_end": 43628,
+      "semantic_chunk_length": 2905,
+      "final_chunk_length": 3207,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0021",
+    "text": "tation of the iteration review practice:\n\n- a) Product backlog updated; b) Definition of Done and Definition of Ready\nupdated; c) Corrective actions are established; d) Continuous improvement areas are established; e) Effectiveness and efficiency are improved; and f) Iteration alignment is improved.\n\n##### 5.3.2.3 Team retrospective practice\n\nThe purpose of team retrospective practice is to inspect current way of working with respect to people, processes, resources, tools, methods, and technologies and establish actions for improvement. The team retrospective practice provides for self-reflection and causal analysis on a completed iteration and establishes improvements and corrective actions on the way forward. Typical things that are considered include, past events, past situations, problematic scenarios, milestones, opinions, ideas, concerns, iteration backlog, product backlog, activities performed, impediments dealt, success stories, issues addressed, risks mitigated, priorities, accomplishments, constraints, assumptions, release goals, release schedule, and so on.\n\nNOTE — The team retrospective practice is also referred to as\n\nthe “Sprint Retrospective”, when using the scrum framework.\n\n5.3.2.3.1 Outcomes\n\nAs a result of the successful implementation of the team retrospective practice:\n\n- a) Iteration and release plans are established; b) Product backlog and improvement backlog are\nupdated; c) Definition of ready and Definition of done is\n\nupdated; d) Relevant analysis is developed; e) Corrective actions and improvement areas are\n\nestablished; f) Effectiveness and efficiency are improved; and g) Iteration alignment is improved.\n\n\n##### 5.3.2.4 Program retrospective review practice\n\nThe purpose of program retrospective practice is to evaluate the extent of value delivered over multiple releases and establish the way forward for the program. The program retrospective practice provides for self-reflection and causal analysis “in the way of working of the team” on a completed release and\n\n\n\n\nestablishes improvements and corrective actions on the way forward. Typical things that are considered include: past events, past situations, problematic scenarios, milestones, opinions, ideas, concerns, release backlog, product backlog, activities performed, impediments dealt, success stories, issues addressed, risks mitigated, priorities, accomplishments, constraints, assumptions, release goals, release schedule, and so on.\n\n5.3.2.4.1 Outcomes\n\nAs a result of the successful implementation of the iteration review practice:\n\n- a) Definition of ready and definition of done are\nupdated; b) Product backlog, release backlog and improvement\n\nbacklog are updated; c) Iteration and release plans are updated; d) Corrective actions and improvements are established; e) Plans to improve delivery efficiency is established; f) Continuous improvement areas are established;\n\nand g) Significant impediments addressed.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "5.3.2.3",
+      "heading": "5.3.2.3 Team retrospective practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.2 Agile Governance Practices",
+        "5.3.2.3 Team retrospective practice"
+      ],
+      "char_start": 43631,
+      "char_end": 46269,
+      "semantic_chunk_length": 2638,
+      "final_chunk_length": 2940,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0022",
+    "text": "elease backlog and improvement\n\nbacklog are updated; c) Iteration and release plans are updated; d) Corrective actions and improvements are established; e) Plans to improve delivery efficiency is established; f) Continuous improvement areas are established;\n\nand g) Significant impediments addressed.\n\n##### 5.3.2.5 Metrics governance practice\n\nThe purpose of metrics governance practice is to gather metrics at various levels and use them to govern agile delivery by taking appropriate corrective actions. The metrics governance practice provides for definition, collection and analysis of metrics which can then be used to manage different aspects of the agile delivery. Typical things that are considered include: Quality metrics, business outcome metrics, agile maturity metrics, economic metrics, operational metrics, ROI, TOM, Cycle and lead time, post release defects, velocity, commitment adherence, backlog, de-scope index, retrospective index, automation coverage index, and so on.\n\n5.3.2.5.1 Outcomes\n\nAs a result of the successful implementation of the metrics governance practice:\n\n- a) Product backlog, iteration backlog, improvement\nbacklog and release backlog are updated; b) Release plans and iteration plans are updated; c) Quality of delivery is improved; d) IT Operations and delivery is improved; e) Predictable delivery capability is developed; and f) Continuous improvement areas are established.\n\n\n##### 5.3.2.6 Technical debt governance practice\n\nThe purpose of technical debt governance is to monitor the consequences of software development actions\n\n\nthat inadvertently prioritize client value and project constraints over technical implementation and design considerations and resolve it amicably by appropriate refactoring. The technical debt governance practice provides for dealing with the consequences of software development actions that inadvertently result in technical debt which needs to be dealt with appropriately in the later release cycles by means of appropriate refactoring or rework. Typical things that are considered include, domain and technical complexity, schedule slippages, capability and capacity of the team, conflicting user stories and features, cycle and lead time, pre-release defects, backlog, productivity, and so on.\n\n5.3.2.6.1 Outcomes\n\nAs a result of the successful implementation of the technical debt governance practice:\n\n- a) Product backlog, improvement backlog, release\nback and iteration backlog are updated; b) Corrective actions and decisions are undertaken; c) Technical debt for future releases is minimized; d) Technical debt accumulation is reduced; e) Cost of change is reduced; f) Quality of delivery is improved; and g) Technical management is improved.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "5.3.2.5",
+      "heading": "5.3.2.5 Metrics governance practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.2 Agile Governance Practices",
+        "5.3.2.5 Metrics governance practice"
+      ],
+      "char_start": 46272,
+      "char_end": 48702,
+      "semantic_chunk_length": 2430,
+      "final_chunk_length": 2732,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0023",
+    "text": "elease\nback and iteration backlog are updated; b) Corrective actions and decisions are undertaken; c) Technical debt for future releases is minimized; d) Technical debt accumulation is reduced; e) Cost of change is reduced; f) Quality of delivery is improved; and g) Technical management is improved.\n\n##### 5.3.2.7 Program board governance practice\n\nThe purpose of the program board governance is to manage the dependency of product backlog items across multiple agile teams. The Program board governance practice provides for governance of the technical, domain and functional dependencies items across multiple agile teams and enables agile teams to address these. Typical things that are considered include: Domain, technical and functional dependencies, resource dependencies, user stories and features, release plans, iteration plans, release schedule, iteration schedule, milestones, and so on.\n\n5.3.2.7.1 Outcomes\n\nAs a result of the successful implementation of the program board governance practice:\n\n- a) Program board and related dependencies are\nestablished; b) Corrective actions to resolve dependencies are\n\nestablished; c) Iteration plan, release plans and milestones are\n\nupdated; d) Dependency related risks are mitigated; e) Domain dependencies are addressed; f) Technical dependencies are addressed; g) Functional dependencies are addressed; and h) Resource dependencies are addressed.\n\n\n\n\n##### 5.3.2.8 Agile adoption maturity governance practice\n\nThe purpose of agile adoption maturity governance practice is to manage the maturity of agile practices and their adoption by agile teams and enable continuous improvement. The agile adoption maturity governance practice provides for evaluation, management and improvement of the maturity of agile practices and their adoption by agile teams. Typical things that are considered include: Agile adoption strategies, agile adoption trends, observations, change management strategies, successful transformations, scalability of agile practices, progressive improvements, agile readiness assessments, agile practice maturity, agile maturity levels, agile measurement index, degrees of adoption, corrective actions, and so on.\n\n5.3.2.8.1 Outcomes\n\nAs a result of the successful implementation of the agile adoption maturity governance practice:\n\n- a) Agile adoption and scalability strategies are\nupdated; b) Improvement plans are updated; c) Corrective actions are established; d) Predictability is increased; e) Organizations agile maturity level is increased; f) Business and delivery outcomes are improved;\n\nand g) Agile practices successfully implemented.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "5.3.2.7",
+      "heading": "5.3.2.7 Program board governance practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.2 Agile Governance Practices",
+        "5.3.2.7 Program board governance practice"
+      ],
+      "char_start": 48705,
+      "char_end": 51026,
+      "semantic_chunk_length": 2321,
+      "final_chunk_length": 2623,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0024",
+    "text": "ption and scalability strategies are\nupdated; b) Improvement plans are updated; c) Corrective actions are established; d) Predictability is increased; e) Organizations agile maturity level is increased; f) Business and delivery outcomes are improved;\n\nand g) Agile practices successfully implemented.\n\n##### 5.3.2.9 Visual management practice\n\nThe purpose of visual management practice is to provide ways and means to organize, manage and communicate large sets of information in simple and effective manner. The visual management practice provides for organization, management, and communication of large sets of information that are relevant for the different agile programs and projects. Typical things that are considered include: Work lists, status information, metrics and measures, iteration goals, release goals, dependencies, release plans, iteration plans, product backlog, release backlog, iteration backlog, and so on.\n\n5.3.2.9.1 Outcomes\n\nAs a result of the successful implementation of the visual management practice:\n\n- a) Dependencies are better managed; b) Impediments are addressed; c) The flow of work is improved; d) Different kinds of visualizations are established; e) Clarity of work status is improved; f) Work organization is improved; g) Transparency is improved;\nIS 17548 : 2021\n\n- h) Trust between teams and stakeholders are\nimproved; and j) Efficiency of delivery is improved;\n\n\n##### 5.3.2.10 Gemba\n\nThe purpose of Gemba is to provide ways and means to observe the actual work processes, identify bottlenecks, and explore opportunities for continuous improvement. This includes leaders being in touch with the Agile team, observing their work and participating in Agile events, monitoring progress of work and providing feedback. The Gemba practice provides for observation, identification, analysis, and improvement of work processes for different agile programs and projects. Typical things that are considered include: Feedback, observations, discussions, activities performed, activities planned, work lists, metrics and measures, workspace issues, work processes, concerns, achievements, improvement efforts, and so on.\n\n5.3.2.10.1 Outcomes\n\nAs a result of the successful implementation of the Gemba practice:\n\n- a) Improvement plans and work processes are\nupdated; b) Productivity is improved and cost reduced; c) Problems and opportunities are visible; d) Understanding of work and work processes is\n\nimproved; e) Delays, waste, and issues are identified; and f) Work processes optimized.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "5.3.2.9",
+      "heading": "5.3.2.9 Visual management practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.2 Agile Governance Practices",
+        "5.3.2.9 Visual management practice"
+      ],
+      "char_start": 51029,
+      "char_end": 53252,
+      "semantic_chunk_length": 2223,
+      "final_chunk_length": 2525,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0025",
+    "text": "the Gemba practice:\n\n- a) Improvement plans and work processes are\nupdated; b) Productivity is improved and cost reduced; c) Problems and opportunities are visible; d) Understanding of work and work processes is\n\nimproved; e) Delays, waste, and issues are identified; and f) Work processes optimized.\n\n##### 5.3.2.11 Distributed agile governance practice\n\nThe purpose of distributed agile governance practice is to enable agile teams to self-organize, collaborate, and adapt to geographically distributed environments and deliver the desired value. The distributed agile governance practice provides ways and means for self-organization, collaboration, and adaptation to different environments to improve the efficiency of the agile teams. Typical things that are considered include: Communication barriers, time zone differences, cultural diversities, delays, impediments, alignment issues, lack of shared understanding, vision, success parameters, definition of ready, definition of done, working agreement, feedbacks, retrospectives, and so on.\n\n5.3.2.11.1 Outcomes\n\nAs a result of the successful implementation of the distributed agile governance practice:\n\n- a) Shared vision and understanding is established; b) Sense of ownership is established;\n\n\n\n- c) Work processes are updated; d) Early detection of impediments; e) Increased business efficiency; f) Transparency is improved; g) Trust between distributed teams is improved; h) Delays are reduced; and j) Right skills and roles are utilized appropriately.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "5.3.2.11",
+      "heading": "5.3.2.11 Distributed agile governance practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.3 Practices under Technical Management Processes",
+        "5.3.2 Agile Governance Practices",
+        "5.3.2.11 Distributed agile governance practice"
+      ],
+      "char_start": 53255,
+      "char_end": 54468,
+      "semantic_chunk_length": 1213,
+      "final_chunk_length": 1515,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0026",
+    "text": "b) Sense of ownership is established;\n\n\n\n- c) Work processes are updated; d) Early detection of impediments; e) Increased business efficiency; f) Transparency is improved; g) Trust between distributed teams is improved; h) Delays are reduced; and j) Right skills and roles are utilized appropriately.\n\n### 5.4 Practices under Technical Processes\n\nThese practices are concerned with the technical actions throughout the project lifecycle towards ensuring the project meets the needs and expectations of the stakeholders and achieves expected business outcomes. These practices transform the needs of stakeholders into a product or service. This sub-clause defines the requirements for the establishment of practices under Technical processes. The practices under technical processes relate to the technical effort of projects, to requirements definition, architecting and implementation. These practices are used in tandem with practices under technical management processes to achieve the desired solution attributes.\n\nThe practices under technical processes consist of the following:\n\n- a) Agile requirements management practices, b) Agile architecture practices, and c) Agile implementation practices.\nNOTE — The practices under Technical processes described\n\nin this document should be considered as an extension to the technical processes described in IS 16124 : 2020.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "5.4",
+      "heading": "5.4 Practices under Technical Processes",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes"
+      ],
+      "char_start": 54470,
+      "char_end": 55540,
+      "semantic_chunk_length": 1070,
+      "final_chunk_length": 1372,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0027",
+    "text": "e following:\n\n- a) Agile requirements management practices, b) Agile architecture practices, and c) Agile implementation practices.\nNOTE — The practices under Technical processes described\n\nin this document should be considered as an extension to the technical processes described in IS 16124 : 2020.\n\n#### 5.4.1 Agile Requirement Management Practices\n\nThe Agile requirement management practices are used to establish the requirements backlog and to ensure that the requirements backlog is addressed appropriately.\n\nThe agile requirement management practices consist of the following:\n\n- a) User stories practice; b) Product backlog elicitation practice; c) Product backlog refinement practice; d) User story mapping practice; e) Relative estimation practice; f) Active stakeholder participation practice; g) Deferred commitment practice; and h) Specification by example practice.\n\n##### 5.4.1.1 User stories practice\n\nThe purpose of user stories practice is to provide ways and means to gather desired requirements, functionalities, non-functional requirements, features, and capabilities from an end user point of view. The user stories practice provides for identification and\n\n\nelicitation of requirements as user stories from an end-user perspective. Typical things that are considered include: user needs, user wants, value to end-users, software qualities, functional requirements, non-functional requirements, situation context, problem statements, difficulties, issues, risks, features, assumptions, constraints, and so on.\n\n5.4.1.1.1 Outcomes\n\nAs a result of the successful implementation of the user stories practice:\n\n- a) User stories are established; b) Requirements are clearly stated; c) Stated requirements are well understood; and d) Product backlog is updated.\n\n##### 5.4.1.2 Product backlog elicitation practice\n\nThe purpose of product backlog elicitation practice is to provide ways and means to gather and prioritize high level requirements, constraints, boundaries, high level objectives and work items. The product backlog elicitation practice is a continuous practice that provides for identification and elicitation of high-level requirements and objectives to arrive at the product backlog which is a living and evolving document. Typical things that are considered include: interface requirements, interaction requirements, domain requirements, functional requirements, non-functional requirements, work items, problems, difficulties, stakeholder concerns, technical tasks, process and related outcomes, scenarios and context, constraints, and so on.\n\n5.4.1.2.1 Outcomes\n\nAs a result of the successful implementation of the product backlog elicitation practice:\n\n- a) Use cases and usage scenarios are established; b) Multiple aspects of business domain are\nunderstood; c) Conflicting priorities are identified; d) Product backlog is established; and e) Priorities of business and other stakeholders are\n\nwell understood.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "5.4.1",
+      "heading": "5.4.1 Agile Requirement Management Practices",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.1 Agile Requirement Management Practices"
+      ],
+      "char_start": 55543,
+      "char_end": 58190,
+      "semantic_chunk_length": 2647,
+      "final_chunk_length": 2949,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0028",
+    "text": "he product backlog elicitation practice:\n\n- a) Use cases and usage scenarios are established; b) Multiple aspects of business domain are\nunderstood; c) Conflicting priorities are identified; d) Product backlog is established; and e) Priorities of business and other stakeholders are\n\nwell understood.\n\n##### 5.4.1.3 Product backlog refinement practice\n\nThe purpose of the product backlog refinement practice is to refine, clean, review, clarify and prioritize product backlog items for the current scope of work. The product backlog refinement practice is a continuous practice that provides for refining, cleaning, reviewing, clarifying, and prioritizing product backlog items. Typical things that are considered include, vision, storyboards, personas, assumptions, acceptance criteria, market research, experiments, product backlog, and so on.\n\n\n\n\n5.4.1.3.1 Outcomes\n\nAs a result of the successful implementation of the product backlog refinement practice:\n\n- a) Scope of work and use cases are refined; b) Release goals and team plans are updated; c) Estimates for user stories, features and iteration\ngoals are updated; d) Multiple aspects of business domain and\n\nimmediate priorities are understood; e) Dependencies across agile teams are understood; f) Product backlog is refined; and g) Priorities of business and other stakeholders are\n\nwell understood.\n\n\n##### 5.4.1.4 User story mapping practice\n\nThe purpose of the user story mapping practice is to facilitate the gathering, analysis, understanding and organizing requirements and managing their subsequent changes within a particular context and in prioritizing product delivery. The user story mapping practice provides the ways and means to develop views, identify dependencies, establish desired functionality, identify gaps, plan iterations and releases, and deliver value to stakeholders. Typical things that are considered include: Storyboards, personas, agile backlog, release backlog, user needs, user activities, user tasks, epics, user stories, features, journey maps, prioritizations, vision, user experience, and so on.\n\n5.4.1.4.1 Outcomes\n\nAs a result of the successful implementation of the user story mapping practice:\n\n- a) Journey maps and Product backlog is refined; b) Release plans is updated; c) Target outcomes and the corresponding impact is\nestablished; d) Relationships between user stories are established; e) Holistic understanding of the requirements\n\nbecomes possible; f) Dependencies across agile teams are understood; g) agile backlog and release backlog are refined; and h) Interdependencies and potential risks are identified.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "5.4.1.3",
+      "heading": "5.4.1.3 Product backlog refinement practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.1 Agile Requirement Management Practices",
+        "5.4.1.3 Product backlog refinement practice"
+      ],
+      "char_start": 58193,
+      "char_end": 60512,
+      "semantic_chunk_length": 2319,
+      "final_chunk_length": 2621,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0029",
+    "text": "ct is\nestablished; d) Relationships between user stories are established; e) Holistic understanding of the requirements\n\nbecomes possible; f) Dependencies across agile teams are understood; g) agile backlog and release backlog are refined; and h) Interdependencies and potential risks are identified.\n\n##### 5.4.1.5 Relative estimation practice\n\nThe purpose of the relative estimation practice is to determine the estimates or measures for different entities relative to a point of reference. The relative estimation practice provides the ways and means of estimating or measuring different kinds of entities by determining the relative difference or scale from a point of reference. The relative estimation practice provides credible estimates to determine cost and effort, establish priorities and forecast a schedule. Typical\n\nIS 17548 : 2021\n\nthings that are considered include, user stories, epics, features, prior release metrics, prior iteration metrics, complexity, size, uncertainty, difficulties, impediments, constraints, reference information, known factors, unknown factors, changing requirements, capability and capacity of the team, dependencies, technical and domain readiness, maturity levels, and so on.\n\n5.4.1.5.1 Outcomes\n\nAs a result of the successful implementation of the relative estimation practice:\n\n- a) Knowledge about different aspects of the delivery\nis established; b) Release plan is updated; c) Realistic estimate of release effort is established; d) Realistic estimate of iteration effort is established; e) Ability to track progress of development is\n\nestablished; f) Complexity of user stories, epics and features is\n\nreduced; and g) Accuracy of estimation is improved.\n\n\n##### 5.4.1.6 Active stakeholder participation practice\n\nThe purpose of the active stakeholder participation practice is to establish the access, interaction and communication channels between stakeholders and agile teams. The active stakeholder participation practice provides the ways and means to ensure active involvement of stakeholders in the development and delivery of the product. This involves establishing the access to the stakeholders, establishing communication channels, and having continuous interactions with the stakeholders. Typical things that are considered include, communication channels, roles, responsibilities, user needs, user stories, skills and knowledge of the domain, perspectives and views, design principles, stakeholder concerns, features, epics, relationship, participation styles, interactions, location, communication channels, events, hand-offs, requisite inputs, feedback, and so on.\n\n5.4.1.6.1 Outcomes\n\nAs a result of the successful implementation of the relative estimation practice:\n\n- a) Openness is increased; b) Accountability is established; c) Degree of information exchange is established; d) Clarity on business needs and priorities is\nestablished; e) Effectiveness and impact of the release is\n\nincreased; f) Quality of the deliverables are increased; g) Legitimacy of the decisions are improved; h) Coherence and consistency of the release is\n\nincreased;\n\n\n\n\n- j) Wider participation is ensured; and k) Stakeholder engagement and interactions is\nensured.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "5.4.1.5",
+      "heading": "5.4.1.5 Relative estimation practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.1 Agile Requirement Management Practices",
+        "5.4.1.5 Relative estimation practice"
+      ],
+      "char_start": 60515,
+      "char_end": 63427,
+      "semantic_chunk_length": 2912,
+      "final_chunk_length": 3214,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0030",
+    "text": "ctiveness and impact of the release is\n\nincreased; f) Quality of the deliverables are increased; g) Legitimacy of the decisions are improved; h) Coherence and consistency of the release is\n\nincreased;\n\n\n\n\n- j) Wider participation is ensured; and k) Stakeholder engagement and interactions is\nensured.\n\n#### 5.4.2 Agile Architecture Practices\n\nThe Agile architecture practices are used to establish the architecture and design of a system by providing a set of values, practices and collaborations.\n\nThe agile architecture practices consist of the following:\n\n- a) Initial architecture practice; b) Intentional architecture practice; c) Architecture description practice; d) Architecture runway practice; and e) Simple design practice.\nNOTE — The architecture practices described in this document\n\nshould be considered as an extension to the architecture processes described in IS 16124 : 2020.\n\n\n##### 5.4.2.1 Initial architecture practice\n\nThe purpose of initial architecture practice is to establish the initial technical direction by providing high level architectural models and specifications. The initial architecture practice provides ways and means to establish the initial technical architecture to establish a technical strategy within the agile team and the various stakeholders. Typical things that are considered include, high level scope, business goals, business scenarios, initial requirements stack, architectural vision, product backlog, stakeholders, stakeholder concerns, situation context, constraints, assumptions, and so on.\n\n5.4.2.1.1 Outcomes\n\nAs a result of the successful implementation of the initial architecture practice:\n\n- a) Architecture strategy is established; b) Product backlog is improved; c) Architecture description artefacts are established; d) Architecture framework is established; e) Productivity is improved; f) Technical challenges are identified; g) Architecture vision and direction is established; h) Technical risk is reduced; j) Communication is improved; k) Team organization is improved; and m) Development time is reduced.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 20,
+      "clause": "5.4.2",
+      "heading": "5.4.2 Agile Architecture Practices",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.2 Agile Architecture Practices"
+      ],
+      "char_start": 63430,
+      "char_end": 65204,
+      "semantic_chunk_length": 1774,
+      "final_chunk_length": 2076,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0031",
+    "text": "ished; d) Architecture framework is established; e) Productivity is improved; f) Technical challenges are identified; g) Architecture vision and direction is established; h) Technical risk is reduced; j) Communication is improved; k) Team organization is improved; and m) Development time is reduced.\n\n##### 5.4.2.2 Intentional architecture practice\n\nThe purpose of intentional architecture practice is to define a set of purposeful architectural strategies and principles to enhance the design, performance, and usability of the solution. The intentional architecture practice provides ways and means to define a set of architectural strategies, principles, and directives to\n\nenhance solution design, performance, extensibility, and usability by leveraging common architectural patterns, design constraints and implementation technologies. Typical things that are considered include, architectural strategy, design patterns, architecture frameworks, architecture vision, design principles and constraints, architecture styles, reference architectures, architecture models, stakeholder analysis, scenario analysis, requirements analysis, user behavioural insights, and so on.\n\n5.4.2.2.1 Outcomes\n\nAs a result of the successful implementation of the intentional architecture practice:\n\n- a) Architecture related artefacts, architecture vision\nand strategy are updated; b) Product backlog is updated; c) The problem being addressed is clearly defined\n\nand understood; d) The potential solutions are clearly defined and\n\nunderstood; e) The architecture’s key concepts, properties, and\n\nprinciples are clearly defined; and f) The architecture is clearly conceived and key\n\ntrade-offs are understood.\n\n\n##### 5.4.2.3 Architecture description practice\n\nThe purpose of architecture description practice is to define the representation of the solution in a form that provides the ability to portray, understand or predict the solution characteristics under certain situations of interest. The architecture description practice provides ways and means to establish a representation of an architecture to illustrate a specific set of information items that are relevant to the agile teams and stakeholders. Typical things that are considered include: architecture concepts, solution characteristics, solution components, functional requirements, non-functional requirements, product backlog, user stories, features, capabilities, capacities, resources, architecture decisions, architecture rationale, solution concepts, architecture principles, architecture views, inherent processes, design patterns, interfaces, architecture approaches, modelling languages, meta-models, and so on.\n\nNOTE — The architecture description practices described in\n\nthis document should be considered as an extension to the architecture elaboration processes described in IS 16124 : 2020 and ISO/IEC/IEEE 42020 : 2019.\n\n5.4.2.3.1 Outcomes\n\nAs a result of the successful implementation of the architecture description practice:\n\n- a) System structure and behaviour is visualized; b) System complexity is understood; c) System dependencies are exposed;\n\n\n\n\n- d) Architecture is amenable for analysis; e) Risks management is improved; and f) Architecture decisions are documented.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 21,
+      "clause": "5.4.2.2",
+      "heading": "5.4.2.2 Intentional architecture practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.2 Agile Architecture Practices",
+        "5.4.2.2 Intentional architecture practice"
+      ],
+      "char_start": 65206,
+      "char_end": 68151,
+      "semantic_chunk_length": 2945,
+      "final_chunk_length": 3247,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0032",
+    "text": "ntation of the architecture description practice:\n\n- a) System structure and behaviour is visualized; b) System complexity is understood; c) System dependencies are exposed;\n\n\n\n\n- d) Architecture is amenable for analysis; e) Risks management is improved; and f) Architecture decisions are documented.\n\n##### 5.4.2.4 Architectural runway practice\n\nThe purpose of architectural runway is to establish necessary technical infrastructure to implement new features and capabilities without extensive redesign and delay thereby ensuring the overall velocity. The architectural runway practice provides ways and means to establish a technical infrastructure for implementing new features and capabilities with minimal or no change in the existing architecture or agile environment. The objective is to extend the architecture as and when necessary. Typical things that are considered include, new features, change requirements, new user stories, new epics, new solution characteristics, new architecture principles, new scenarios, frequency of change, available enablers, value created, value destructed, velocity, and so on.\n\n5.4.2.4.1 Outcomes\n\nAs a result of the successful implementation of the architectural runway practice:\n\n- a) Architecture runway enablers are established; b) Architecture artefacts and fundamental concepts\nare established; c) Product backlog is updated; d) Continuous delivery pipeline is established; e) Ability to respond to business challenges is\n\nincreased; f) Time to market is shorter and faster; g) Technical debt is reduced; h) Velocity is sustained; j) Application performance and stability is increased;\n\nand k) Economic outcomes are improved.\n\n\n##### 5.4.2.5 Simple design practice\n\nThe purpose of simple design practice is to keep things, as simple as possible, while addressing current requirements and moving forward with least resistance. The simple design practice provides ways and means to keep the design and architecture of the solution as simple and as relevant as possible to the current requirements so that the iteration and release can move forward with least resistance. The objective is to extend the design as and when necessary. Typical things that are considered include, product backlog, iteration backlog, release backlog, solution characteristics, solution design, design flaws, design decisions, core concepts, design decisions, new features, change requirements, new user stories, new epics, new solution characteristics, new architecture principles, new scenarios, and so on.\n\nIS 17548 : 2021\n\n5.4.2.5.1 Outcomes\n\nAs a result of the successful implementation of the simple design practice:\n\n- a) System design and its architecture description are\nupdated; b) Architecture decisions, rationale, capabilities and\n\nfeatures are updated; c) Risk due to overdesign is mitigated; d) Design flaws are identified and fixed; e) Cost is reduced; f) Flexibility to make changes is improved; g) Maintenance is improved; and, h) System design is minimalistic.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "5.4.2.4",
+      "heading": "5.4.2.4 Architectural runway practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.2 Agile Architecture Practices",
+        "5.4.2.4 Architectural runway practice"
+      ],
+      "char_start": 68153,
+      "char_end": 70853,
+      "semantic_chunk_length": 2700,
+      "final_chunk_length": 3002,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0033",
+    "text": "\nupdated; b) Architecture decisions, rationale, capabilities and\n\nfeatures are updated; c) Risk due to overdesign is mitigated; d) Design flaws are identified and fixed; e) Cost is reduced; f) Flexibility to make changes is improved; g) Maintenance is improved; and, h) System design is minimalistic.\n\n#### 5.4.3 Agile Implementation Practices\n\nThe Agile implementation practices are used to transform requirements, architecture and design into a product increment or software element that leads towards a product increment.\n\nThe agile implementation practices consist of the following:\n\n- a) Test driven development practice; b) Acceptance test driven development practice; c) Behaviour driven development practice; d) Feature driven development practice; e) Agile testing pyramid practice; f) Continuous integration practice; g) Continuous deployment practice; h) Continuous delivery practice; j) Continuous documentation practice; k) Lean documentation practice; m) Clean code practice; n) Feature toggles practice; and p) Refactoring practice.\nNOTE — The agile implementation practices described in\n\nthis document should be considered as an extension to the implementation processes described in IS 16124 : 2020.\n\n\n##### 5.4.3.1 Test driven development practice\n\nThe purpose of test-driven development practice is to evolve towards a clearer, simpler and bug-free code. The test-driven development practice provides for establishing tests before the actual implementation of the related parts of the system. Typical things to be considered include, functionality, user stories, features, change requirements, epics, unit tests, testing frameworks, test cases, and so on.\n\n5.4.3.1.1 Outcomes\n\nAs a result of the successful implementation of the test-driven development practice:\n\n- a) Automated tests are performed and test results\ngathered;\n\n\n\n\n- b) Test configurations, frameworks and strategy are\nupdated; c) Debugging effort is reduced; d) Development effort is reduced; e) Defects are reduced; f) More effective and sustainable testing strategy\n\nand implementation; g) Code is modularized, flexible and extensible; h) Code quality is enhanced; and j) Time to market is improved\n\n\n##### 5.4.3.2 Acceptance test driven development practice\n\nThe purpose of acceptance test-driven development practice is to evolve towards a software that addresses the specified acceptance criteria. The acceptance test-driven development practice provides for establishing acceptance tests before the actual implementation of the related system. Typical things to be considered include, functionality, desired behavior, user stories, acceptance criteria, features, change requirements, epics, unit tests, testing frameworks, test cases, and so on.\n\n5.4.3.2.1 Outcomes\n\nAs a result of the successful implementation of the acceptance test-driven development practice:\n\n- a) Debugging effort is reduced; b) Test configuration is updated; c) Automated tests are performed and test results\ngathered; d) Defects are reduced; e) More effective and sustainable testing strategy\n\nand implementation; f) Code is modularized, flexible and extensible; g) Code quality is enhanced; h) Time to market is improved; and j) Customer engagement is enhanced.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 33,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 22,
+      "clause": "5.4.3",
+      "heading": "5.4.3 Agile Implementation Practices",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.3 Agile Implementation Practices"
+      ],
+      "char_start": 70856,
+      "char_end": 73782,
+      "semantic_chunk_length": 2926,
+      "final_chunk_length": 3228,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0034",
+    "text": "utomated tests are performed and test results\ngathered; d) Defects are reduced; e) More effective and sustainable testing strategy\n\nand implementation; f) Code is modularized, flexible and extensible; g) Code quality is enhanced; h) Time to market is improved; and j) Customer engagement is enhanced.\n\n##### 5.4.3.3 Behavior driven development practice\n\nThe purpose of behavior driven development (BDD) practice is to evolve towards a software that achieves the specified system behavior. The behavior driven development practice provides for establishing tests before the actual implementation of the related behavior of the system. Typical things to be considered include: functionality, system behavior, key scenarios, shared vocabulary, acceptance criteria, user stories, features, change requirements, epics, unit tests, testing frameworks, test cases, and so on.\n\n5.4.3.3.1 Outcomes\n\nAs a result of the successful implementation of the behaviour driven development practice:\n\n- a) Automated tests are performed, and test results\ngathered;\n\n\n- b) Test configuration is updated; c) Debugging effort is reduced; d) Development effort is reduced; e) Defects are reduced; f) More effective and sustainable testing strategy\nand implementation; g) Code is modularized, flexible and extensible; h) Code quality is enhanced; j) Time to market is improved; and k) Customer engagement is enhanced.\n\n\n##### 5.4.3.4 Feature driven development practice\n\nThe purpose of feature driven development practice is to deliver tangible, working software repeatedly in a timely manner in accordance with the agile principles. The feature driven development practice provides for establishing, managing, and developing feature sets comprising features that deliver business value with minimum effort. Typical things to be considered include, functionalities, capabilities, feature sets, features, user stories, change requirements, roles and responsibilities, inspections, feature models, use cases, data structures, interfaces, priorities, epics, and so on.\n\n5.4.3.4.1 Outcomes\n\nAs a result of the successful implementation of the feature driven development practice:\n\n- a) Definition of ready and definition of done is\nupdated; b) Architecture and technical design are updated; c) Debugging effort is reduced; d) Development effort is reduced; e) Defects are reduced; f) More effective and sustainable testing strategy\n\nand implementation; g) Code is modularized, flexible and extensible; h) Code quality is enhanced; j) Time to market is improved; and k) Customer engagement is enhanced.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 34,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "5.4.3.3",
+      "heading": "5.4.3.3 Behavior driven development practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.3 Agile Implementation Practices",
+        "5.4.3.3 Behavior driven development practice"
+      ],
+      "char_start": 73785,
+      "char_end": 76055,
+      "semantic_chunk_length": 2270,
+      "final_chunk_length": 2572,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0035",
+    "text": "ng effort is reduced; d) Development effort is reduced; e) Defects are reduced; f) More effective and sustainable testing strategy\n\nand implementation; g) Code is modularized, flexible and extensible; h) Code quality is enhanced; j) Time to market is improved; and k) Customer engagement is enhanced.\n\n##### 5.4.3.5 Agile testing pyramid practice\n\nThe purpose of agile testing pyramid practice is to establish the testing strategy for agile development. The agile testing pyramid practice provides for establishing, managing, and developing test strategies and test automation strategies for agile development with minimum effort. Typical things to be considered include, testing frameworks, unit tests, acceptance tests, component tests, user interface tests, behavior tests, manual tests, defects, test cases, automation frameworks, and so on.\n\n5.4.3.5.1 Outcomes\n\nAs a result of the successful implementation of the agile testing pyramid practice:\n\n\n\n\n- a) Testing strategy is updated; b) Test configurations are updated; c) Debugging effort is reduced; d) Development effort is reduced; e) Defects are reduced; f) More effective and sustainable testing strategy\nand implementation; g) Code is modularized, flexible and extensible; h) Code quality is enhanced; j) Time to market is improved; and k) Customer engagement is enhanced.\n\n\n##### 5.4.3.6 Continuous integration practice\n\nThe purpose of continuous integration practice is to establish the integration strategy for agile development. The continuous integration practice provides for establishing, managing, and developing system integration strategies for agile development. Typical things to be considered include: integration frameworks, integration tools, acceptance tests, components, interfaces, use cases, underlying technologies, check-in policies, build management policies, development environments, third party components, self-testing, testing environment, test cases, automation frameworks, and so on.\n\n5.4.3.6.1 Outcomes\n\nAs a result of the successful implementation of the continuous integration practice:\n\n- a) Test configurations are updated; b) Testing strategies are updated; c) Integration effort is reduced; d) Debugging effort is reduced; e) Downstream integration defects are reduced; f) Branches and diversions are eliminated; g) Build overhead is reduced; h) transparency around code is increased; j) code versioning is improved; and k) Overall efficiency is improved.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 35,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 23,
+      "clause": "5.4.3.5",
+      "heading": "5.4.3.5 Agile testing pyramid practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.3 Agile Implementation Practices",
+        "5.4.3.5 Agile testing pyramid practice"
+      ],
+      "char_start": 76058,
+      "char_end": 78209,
+      "semantic_chunk_length": 2151,
+      "final_chunk_length": 2453,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0036",
+    "text": "; c) Integration effort is reduced; d) Debugging effort is reduced; e) Downstream integration defects are reduced; f) Branches and diversions are eliminated; g) Build overhead is reduced; h) transparency around code is increased; j) code versioning is improved; and k) Overall efficiency is improved.\n\n##### 5.4.3.7 Continuous deployment practice\n\nThe purpose of continuous deployment practice is to establish the deployment strategy for agile development. The continuous deployment practice provides for establishing, managing, and developing system deployment strategies for agile development. Typical things to be considered include, deployment frameworks, deployment tools, components, services, interfaces, packages, target environment, third party components, self-testing, automation frameworks, deployable artefacts, and so on.\n\n5.4.3.7.1 Outcomes\n\nAs a result of the successful implementation of the continuous deployment practice:\n\nIS 17548 : 2021\n\n- a) Test configurations are updated; b) Testing strategies are updated; c) Deployment effort is reduced; d) Lead time is reduced; e) Return on investment is realized; f) Deployment overhead is reduced; and g) Overall efficiency is improved.\n\n##### 5.4.3.8 Continuous delivery practice\n\nThe purpose of continuous delivery practice is to establish the ready for release and subsequent manual deployment strategy for agile development. The continuous delivery practice provides for establishing, managing, and developing system release strategies for agile development. Typical things to be considered include, development environments, version control, automation frameworks, change requests, new user stories, new features, new epics, bug fixes, experiments, configuration changes, release strategy, deployment pipeline, acceptance tests, and so on.\n\n5.4.3.8.1 Outcomes\n\nAs a result of the successful implementation of the continuous delivery practice:\n\n- a) Implementation strategies are updated; b) Overall effort is reduced; c) Delivery costs are lowered; d) Lead time is reduced; e) Return on investment is realized; f) Improved productivity and efficiency; g) Improved product quality; h) Improved customer satisfaction; and j) Accelerated time to market.\n\n##### 5.4.3.9 Continuous documentation practice\n\nThe purpose of continuous documentation practice is to establish the documentation strategy for agile development. The continuous documentation practice provides for establishing, managing, and developing documentation strategies for agile development. Typical things to be considered include, release artefacts, deployable artefacts, integration artefacts, code, configuration management information, test results, use cases, test cases, user stories, features, requirements, epics, change requirements, structured information, unstructured information, information sources, repository, and so on.\n\n5.4.3.9.1 Outcomes\n\nAs a result of the successful implementation of the continuous documentation practice:\n\n- a) Documentation strategy is updated; b) System documentation is updated; c) Delivery risk is mitigated;\n\n\n\n- d) Accuracy risk is mitigated; e) Artefacts are up to date; and f) Lead time is reduced.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 36,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 24,
+      "clause": "5.4.3.7",
+      "heading": "5.4.3.7 Continuous deployment practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.3 Agile Implementation Practices",
+        "5.4.3.7 Continuous deployment practice"
+      ],
+      "char_start": 78211,
+      "char_end": 81087,
+      "semantic_chunk_length": 2876,
+      "final_chunk_length": 3178,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0037",
+    "text": "1 Outcomes\n\nAs a result of the successful implementation of the continuous documentation practice:\n\n- a) Documentation strategy is updated; b) System documentation is updated; c) Delivery risk is mitigated;\n\n\n\n- d) Accuracy risk is mitigated; e) Artefacts are up to date; and f) Lead time is reduced.\n\n##### 5.4.3.10 Lean documentation practice\n\nThe purpose of lean documentation practice is to eliminate waste due to documentation. The lean documentation practice provides for establishing, managing, and developing documentation for relevant stakeholders. Typical things to be considered include, release artefacts, deployable artefacts, integration artefacts, code, configuration management information, test results, use cases, test cases, user stories, features, requirements, epics, change requirements, structured information, unstructured information, information sources, repository, value adding activities, non-value adding activities, and so on.\n\n5.4.3.10.1 Outcomes\n\nAs a result of the successful implementation of the lean documentation practice:\n\n- a) Documentation strategy is updated; b) Documentation activities are updated; c) System documentation is updated; d) Documentation requirements are addressed; e) Documentation is simplified; f) Communication is improved; g) Relevant documents are developed; and h) Waste due to documentation is reduced.\n\n##### 5.4.3.11 Clean code practice\n\nThe purpose of the clean code practice is to establish the development and maintenance strategy for agile development. The clean code practice provides for establishing development and maintenance strategy for code. Typical things to be considered include code, coding standards, coding guidelines, use cases, test cases, user stories, features, requirements, epics, change requirements, information sources, repository, and so on.\n\n5.4.3.11.1 Outcomes\n\nAs a result of the successful implementation of the clean code practice:\n\n- a) Code is refactored; b) Code quality is improved; c) Technical debt is reduced; d) Delivery outcomes are improved; e) Code is clean and simple;\n\n- f) Code is consistent and coherent; and g) Maintenance cost is reduced.\n\n##### 5.4.3.12 Feature toggles practice\n\nThe purpose of feature toggle practice is to establish ways and means of reducing feature branches. The features toggle practice provides for establishing, managing, and developing strategies for dealing with feature branches. Typical things to be considered include features set, user stories, epics, customizations, feature groups, integration frameworks, integration tools, toggle rules, interfaces, components, functionalities, services, and so on.\n\nNOTE — Feature toggles are also referred as feature flags.\n\n5.4.3.12.1 Outcomes\n\nAs a result of the successful implementation of the feature toggles practice:\n\n- a) Code repository and test configurations are\nupdated; b) Feature branches are reduced; c) Branching risk is mitigated; d) Merging changes across branches is removed; e) Dead code is reduced; and f) Dynamic extensibility is provisioned.",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 37,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 24,
+      "clause": "5.4.3.10",
+      "heading": "5.4.3.10 Lean documentation practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.3 Agile Implementation Practices",
+        "5.4.3.10 Lean documentation practice"
+      ],
+      "char_start": 81089,
+      "char_end": 83839,
+      "semantic_chunk_length": 2750,
+      "final_chunk_length": 3052,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17548_0038",
+    "text": " successful implementation of the feature toggles practice:\n\n- a) Code repository and test configurations are\nupdated; b) Feature branches are reduced; c) Branching risk is mitigated; d) Merging changes across branches is removed; e) Dead code is reduced; and f) Dynamic extensibility is provisioned.\n\n##### 5.4.3.13 Refactoring practice\n\nThe purpose of refactoring practice is to improve the internal structure of an existing software, while preserving its behavior. The purpose of refactoring practice is to provide ways and means for dealing with the degradation in software and improving the ability to maintain and extend the software. Typical things to be considered include, functionalities, features, external behavior, services, interfaces, responses, interactions, interfaces, risks, user stories, test cases, use cases, system qualities, and so on.\n\n5.4.3.13.1 Outcomes\n\nAs a result of the successful implementation of the clean code practice:\n\n- a) Code is refactored; b) Code quality is improved; c) Technical debt is reduced; d) Delivery outcomes are improved; e) Code is clean and simple; f) Code is consistent and coherent; and g) Maintenance cost is reduced.\n\n\n\n\n## ANNEX A\n\n( Clause 2 )\n\nLIST OF REFERRED INDIAN STANDARDS\n\nIS No. Title\n\n16124 : 2020/ISO/IEC/IEEE 12207 : 2017 Systems and software engineering — Software life cycle processes\n\n\n## ANNEX B\n\n( Foreword, Clause 2 )\n\nLIST OF REFERRED INTERNATIONAL STANDARDS/PUBLICATIONS\n\nInternational Standards/Other\n\nPublication\n\nISO/IEC/IEEE 24765\n\n: 2017\n\nISO/IEC/IEEE 26515\n\n: 2018\n\nInternational Standards/Other\n\nTitle\n\nPublication\n\nISO/IEC/IEEE 42020\n\nSystems and software engineering — Vocabulary\n\n: 2019\n\nSystems and software engineering — Developing information for users in an agile environment\n\n\nTitle\n\nSoftware, systems and enterprises — Architecture processes\n\n\n\n\n## ANNEX C\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 14 (13806).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "17548.md",
+      "chunk_index": 38,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 26,
+      "clause": "5.4.3.13",
+      "heading": "5.4.3.13 Refactoring practice",
+      "heading_path": [
+        "5 AGILE PRACTICES",
+        "5.4 Practices under Technical Processes",
+        "5.4.3 Agile Implementation Practices",
+        "5.4.3.13 Refactoring practice"
+      ],
+      "char_start": 83842,
+      "char_end": 86838,
+      "semantic_chunk_length": 2996,
+      "final_chunk_length": 3298,
+      "standard_no": "IS 17548",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

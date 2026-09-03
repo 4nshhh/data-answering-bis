@@ -1,0 +1,1660 @@
+[
+  {
+    "id": "17428_2_2020_0000",
+    "text": "Data Privacy Assurance Part 2 Engineering and Management Guidelines\n\nICS 35.030\n\n© BIS 2020\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nDecember 2020 \b Price Group 10\n\n\n\n\nInformation Systems Security and Privacy Sectional committee, LITD 17\n\nFOREWORD\n\nThis Indian Standard (Part 2) was adopted by the Bureau of Indian Standards, after the draft finalized by Information Systems Security and Privacy Sectional committee had been approved by the Electronics and Information Technology Divisional council. Other parts in this series are:\n\nPart 1 Engineering and management requirements It is imperative for any organization processing personal information as part of its in-house business function, or its customer solution offering, to provide privacy assurance to those whose data it processes. The trigger for this is not only from data privacy regulations but also for consumer delight, market differentiation and employee satisfaction. This Indian standard is intended to serve as a privacy assurance framework for such organizations. Implementation of Part 1 of this standard will help organizations to provide privacy assurance to customers, employees, and also to achieve and sustain privacy compliance to regulatory and contractual requirements. Implementing Part 1 of this standard and guidelines of this standard is not a substitute for regulatory compliance. Depending on applicable jurisdiction, nature of business and type of personal information processed, various data protection related laws may apply to an organization, which needs to be determined and complied to, by the organization. Besides providing certain level of assurance to consumers on data privacy, this standard will also help the organizations in developing better understanding of such privacy requirements, embedding them into design and sustaining privacy assurance. The composition of the Committee, responsible for the formulation of this standard is given at Annex C.\n\n\n\n\nCONTENTS\n\n\b Page No.\n\n1 SCOPE ... 1\n\n2 REFERENCES ... 1\n\n3 DEFINITIONS ... 1\n\n4 PRIVACY ENGINEERING ... 1\n\n\n### 4.1 Development of Privacy Requirements ... 1\n\n### 4.2 Privacy Principles Based Design Considerations ... 4\n\n### 4.3 Verification and Testing ... 11\n\n5 PRIVACY MANAGEMENT ... 12\n\n\n### 5.1 Privacy Objectives ... 12\n\n### 5.2 Data Privacy Function ... 12\n\n### 5.3 Data Privacy Management System (DPMS) ... 13\n\n### 5.4 Policies and Processes ... 14\n\n### 5.5 Records and Document Management ... 14\n\n### 5.6 Privacy Impact Assessments ... 15\n\n### 5.7 Data Processor Management ... 16\n\n### 5.8 Privacy Risk Management ... 17\n\n### 5.9 Privacy Incident Management ... 18\n\n### 5.10 Data Subject's Request Management ... 19\n\n### 5.11 Grievance Redress ... 20\n\n### 5.12 Staff Competency and Accountability ... 20\n\n### 5.13 Ongoing Regulatory Compliance ... 21\n\n### 5.14 Periodic Audits ... 21\n\n### 5.15 Measurement and Continuous Improvement ... 21",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2963,
+      "semantic_chunk_length": 2961,
+      "final_chunk_length": 2961,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0001",
+    "text": "ncident Management ... 18\n\n### 5.10 Data Subject's Request Management ... 19\n\n### 5.11 Grievance Redress ... 20\n\n### 5.12 Staff Competency and Accountability ... 20\n\n### 5.13 Ongoing Regulatory Compliance ... 21\n\n### 5.14 Periodic Audits ... 21\n\n### 5.15 Measurement and Continuous Improvement ... 21\n\n## ANNEX A  LEGAL PROVISIONS IN INDIA ON DATA PRIVACY ... 23\n\nA GENERAL LAWS ... 23\n\nA-1 INDIAN CONSTITUTION ... 23\n\nA-2 INFORMATION TECHNOLOGY (AMENDMENT) ACT, 2008 ... 23\n\nA-3  IT RULES (REASONABLE SECURITY PRACTICES AND PROCEDURES AND SENSITIVE PERSONAL INFORMATION OR INFORMATION): ... 23\n\nA-4 SECTORAL LAWS ... 23\n\nA-4.1 Banking ... 23 A-4.2 E-governance and Identity ... 23 A-4.3 Consumer ... 23 A-4.4 Freedom of Expression ... 23 A-4.5 Law Enforcement ... 23\n\n\n\n\nA-4.6 Internet and Communications ... 24 A-4.7 Health & Medical ... 24 A-4.8 Transparency & Other Regulations ... 24\n\n\n## ANNEX B  SECURITY AND PRIVACY CONSIDERATIONS FOR CLOUD INFRASTRUCTURE ... 24\n\nB-1 SECURITY CONSIDERATIONS ... 24\n\nB-2 PRIVACY CONSIDERATIONS ... 24\n\nB-2.1 Compliance to Applicable Regulations 24 B-2.2 Data Transfer Restrictions 24 B-2.3 Data Deletion 25 B-2.4 Neighbor Subpoena Risk 25 B-2.5 Data Breach Reporting 25 B-2.6 Logs and Audit Trails 25 B-2.7 Data Custody 25 B-2.8 Data Privacy Clauses 25 B-2.9 Data Subject Access 25\n\n­  ANNEX  C  COMMITTEE COMPOSITION ... 26\n\nFIGURES\n\n\n**Fig. 1 Flow of Personal information among stakeholders and Triggers**\n\nfor Data Privacy ... 2 Fig. 2 Integration of Privacy Engineering and Management Aspects ... 15 Fig. 3 Typical “Privacy Impact Assessment” Process ... 16\n\nTABLES\n\nTable 1 Determining Right Privacy Control ... 5\n\n\n\n\nIndian Standard\n\n\nDATA PRIVACY ASSURANCE\n\n\nPART 2 ENGINEERING AND MANAGEMENT GUIDELINES\n\n\n## 1 SCOPE\n\n\n1.1 This standard (Part 2) provides only guidelines for implementation of IS 17428 (Part 1). The guidelines are optional and intended to serve as good practices for deploying various data privacy controls and also illustrates the significance of each control element which further helps in choosing the right control.\n\n\n1.2 These guidelines shall not be construed as prescriptive, to comply with any particular data privacy regulation in a particular industry sector and they are not exhaustive. While establishing the DPMS (Data Privacy Management System), the organization should choose the adequate methods, processes and tools depending on factors such as the environment, culture, technology, geography (both where organization is located and location of individuals), industry domain, and data volume in terms of number of data subjects involved.\n\n2. REFERENCES\n\nThe standard given below contains provisions, which through reference in this text constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreement based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards listed as follows:\n\nIS No. Title\n\n17428 Part 1 : 2020\n\nData privacy assurance: Part 1 Engineering and management requirements IS/ISO/IEC\n\n\n## 27001 Information technologies — Security techniques — Information security management systems — Requirements",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 5,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A LEGAL PROVISIONS IN INDIA ON DATA PRIVACY ... 23",
+      "heading_path": [
+        "ANNEX A LEGAL PROVISIONS IN INDIA ON DATA PRIVACY ... 23"
+      ],
+      "char_start": 2966,
+      "char_end": 5924,
+      "semantic_chunk_length": 2958,
+      "final_chunk_length": 3260,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0002",
+    "text": "plying the most recent editions of the standards listed as follows:\n\nIS No. Title\n\n17428 Part 1 : 2020\n\nData privacy assurance: Part 1 Engineering and management requirements IS/ISO/IEC\n\n\n## 27001 Information technologies — Security techniques — Information security management systems — Requirements\n\n## 3 DEFINITIONS\n\nFor the purpose of this standard, the definitions given in IS 17428 (Part 1) shall apply.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "3",
+      "heading": "3 DEFINITIONS",
+      "heading_path": [
+        "3 DEFINITIONS"
+      ],
+      "char_start": 5927,
+      "char_end": 6034,
+      "semantic_chunk_length": 107,
+      "final_chunk_length": 409,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0003",
+    "text": "privacy assurance: Part 1 Engineering and management requirements IS/ISO/IEC\n\n\n## 27001 Information technologies — Security techniques — Information security management systems — Requirements\n\n## 3 DEFINITIONS\n\nFor the purpose of this standard, the definitions given in IS 17428 (Part 1) shall apply.\n\n## 4 PRIVACY ENGINEERING\n\nAny product, solution or service offered that requires processing of personal information need to take into account data privacy considerations during the entire\n\nlife cycle of solution development, and should cover various stages of personal data life cycle including data collection, processing operations, decommissioning, archival stages, etc. Right from requirements development, designing through testing, data privacy becomes inherent part of development life cycle. Depending on the development methodology used, the exact stages may be further broken down, as applicable. An illustration showing flow of personal information among stakeholders and triggers for data privacy is given in Fig. 1.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "4",
+      "heading": "4 PRIVACY ENGINEERING",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING"
+      ],
+      "char_start": 6037,
+      "char_end": 6765,
+      "semantic_chunk_length": 728,
+      "final_chunk_length": 1030,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0004",
+    "text": " testing, data privacy becomes inherent part of development life cycle. Depending on the development methodology used, the exact stages may be further broken down, as applicable. An illustration showing flow of personal information among stakeholders and triggers for data privacy is given in Fig. 1.\n\n### 4.1 Development of Privacy Requirements\n\nPrior to designing for privacy, the requirements on data privacy should be determined by the organization. In doing so, it is recommended that the organization should:\n\n- a) Ascertain applicable jurisdiction, both territorial\nand sectoral, b) Evaluate the applicability of regulations, which\n\ncould be omnibus or sectoral laws, c) Identify contractual requirements pertaining to\n\ndata privacy, as applicable, d) Obtain inputs from Market and Consumer\n\nExpectations on data privacy, e) Factor for Design-induced requirements, f) Consider data classification criteria for the\n\npersonal data that the organization is likely to process, g) Derive privacy and security controls from\n\norganization’s own business needs, privacy and security policies and processes, and h) Evaluate if there is any requirement originating\n\nfrom data localization regulations. Detailed guidance on the above, follows:",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "4.1",
+      "heading": "4.1 Development of Privacy Requirements",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.1 Development of Privacy Requirements"
+      ],
+      "char_start": 6768,
+      "char_end": 7705,
+      "semantic_chunk_length": 937,
+      "final_chunk_length": 1239,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0005",
+    "text": "t the organization is likely to process, g) Derive privacy and security controls from\n\norganization’s own business needs, privacy and security policies and processes, and h) Evaluate if there is any requirement originating\n\nfrom data localization regulations. Detailed guidance on the above, follows:\n\n#### 4.1.1 Regulatory\n\nData Privacy regulations typically fall under one of the following broad categories – Omnibus, sectoral or territorial. Applicability of all these should be taken into account.\n\n\n##### 4.1.1.1 Types of regulations\n\nThere are various laws, rules and other legal provisions that deal with data privacy. In India, there is no omnibus law on data privacy at the time of drafting of this\n\n\n\n\nFig 1. Flow of Personal Information Among Stakeholders and Triggers for Data Privacy\n\nstandard, but some of those that are directly or indirectly related to data privacy and protection are listed for illustration purpose, in Annex A. Also, privacy related regulatory requirements are provided with the license guidelines and other regulatory frameworks published by the sector specific regulator in India. List of some of the sectoral laws in India that deal with data privacy in that particular sector is also given in Annex A.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "4.1.1",
+      "heading": "4.1.1 Regulatory",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.1 Development of Privacy Requirements",
+        "4.1.1 Regulatory"
+      ],
+      "char_start": 7708,
+      "char_end": 8646,
+      "semantic_chunk_length": 938,
+      "final_chunk_length": 1240,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0006",
+    "text": "ex A. Also, privacy related regulatory requirements are provided with the license guidelines and other regulatory frameworks published by the sector specific regulator in India. List of some of the sectoral laws in India that deal with data privacy in that particular sector is also given in Annex A.\n\n##### 4.1.1.2 Determination of jurisdiction\n\nWith increase in online activities, and most of the personal information based solutions being online; the issue of determination of jurisdiction, in case of a privacy incident or while lodging a complaint is increasingly becoming an important point for consideration. Even when data collection is not online, this becomes important when the data subjects, the organization and the location of  processing all fall under different geographical territories. This is particularly due to increasing number of disputes around data privacy with the parent organization being in one country and operations being held in local jurisdiction of another country. Hence, organizations that collect and process personal information should carefully determine their jurisdiction before determining the privacy requirements. In the event of a dispute, it is the applicable courts that have the authority to decide to take up a case and determine whether it has:\n\n- a) ‘personal jurisdiction’ over the parties, b) ‘territorial jurisdiction’, and c) ‘subject matter’ based jurisdiction.\n\nDue to its nature, Internet and cyberspace have disrupted traditional notions of applicability of law and jurisdiction, as Internet based transactions often involve data transfer across national boundaries. Due to this, individuals and organizations can now become subject to the law of a foreign country even without a physical presence in that country.\n\nDetermination of jurisdiction will depend primarily on following factors:\n\n- 1) Nature of the personal information, 2) Sector (for example telecommunication, banking, etc), 3) The country where data processing takes place, and; 4) The country to which the data subject belongs to. In various jurisdictions, the enforcement of the law will often depend on the presence of legal entity in the country from where data subjects originate. The General Data Protection Regulation (GDPR) enacted in Europe however, is an example where the law applies to organization processing personal information of EU (European Union) residents regardless of where the organization is located.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4.1.1.2",
+      "heading": "4.1.1.2 Determination of jurisdiction",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.1 Development of Privacy Requirements",
+        "4.1.1 Regulatory",
+        "4.1.1.2 Determination of jurisdiction"
+      ],
+      "char_start": 8649,
+      "char_end": 10795,
+      "semantic_chunk_length": 2146,
+      "final_chunk_length": 2448,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0007",
+    "text": "gal entity in the country from where data subjects originate. The General Data Protection Regulation (GDPR) enacted in Europe however, is an example where the law applies to organization processing personal information of EU (European Union) residents regardless of where the organization is located.\n\n#### 4.1.2 Contractual\n\nExtent of applicability of laws on an organization processing personal information will depend on whether the organization is a data controller or a data processor. Data Privacy laws and regulations primarily\n\n\n\n\napply to data controllers, although increasingly the scope of some of the privacy regulations extend to data processors also, for example HIPAA, GDPR. However, as a data processor, organizations are bound to adhere to obligations agreed as part of contract/master services agreement. As a data processor, companies are required to follow client’s instructions and process personal information on their behalf.\n\nAll the regulations and requirements applicable to an organization as a data processor should be clearly listed down in the contract. Before entering into an agreement with the client, an organization should do a thorough review of the contractual clauses and should ensure they understand all such requirements clearly. Once agreed, the organization should deploy adequate measures to comply with those requirements. Non-compliance to any such contractual requirements agreed as part of contract may lead to penalties as prescribed in the contract in form of a clause or as per the contract laws applicable in the jurisdiction.\n\nDuring contract review, if the data processor comes across any client requirement which according to them conflicts with any of the requirements of the applicable laws and regulations in jurisdiction of data processor, it should be immediately flagged and brought to client’s notice. Few examples of contractual requirements include personal data breach notification, records of processing, disclosure of appropriate security and organizational measures, etc.\n\nIn India, as of now, the issue of data protection is generally governed by the contractual relationship between the parties, and the parties are free to enter into contracts to determine their relationship defining the terms, cross-border data transfer restrictions, and mode of handling of the same.\n\n\n#### 4.1.3 Market and Consumer Expectations\n\nData privacy is becoming a pressing concern due to consumer’s increased reliance and involvement in digital world. For any organization processing personal information of consumers, it is imperative that they determine privacy expectations before designing the solution or product. Such expectations may be obtained from various sources few of which are listed below:\n\n- a) Consumer feedback from their use of the existing\nsolution, b) Consumer Survey reports obtained from external\n\nparties, c) Analysis of customer complaints and grievances, d) Privacy choices exercised by existing consumers,\n\nand e) Benchmarking study with similar products in the\n\nmarket.\n\n\nIS 17428 (Part 2) : 2020",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "4.1.2",
+      "heading": "4.1.2 Contractual",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.1 Development of Privacy Requirements",
+        "4.1.2 Contractual"
+      ],
+      "char_start": 10797,
+      "char_end": 13571,
+      "semantic_chunk_length": 2774,
+      "final_chunk_length": 3076,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0008",
+    "text": "back from their use of the existing\nsolution, b) Consumer Survey reports obtained from external\n\nparties, c) Analysis of customer complaints and grievances, d) Privacy choices exercised by existing consumers,\n\nand e) Benchmarking study with similar products in the\n\nmarket.\n\n\nIS 17428 (Part 2) : 2020\n\n#### 4.1.4 Data Classification Criteria\n\n- a) It is important to establish a framework in the\norganization for classifying personal information based on its level of sensitivity, value and criticality, which will aid in determining baseline data privacy and security controls for the protection of data. b) Classifying data is the process of categorizing\n\ndata assets based on their sensitivity, which is determined by the likely impact and harm caused to an individual in the event of a data breach or misuse. Since the interpretation of sensitivity may be subjective and may vary depending on culture, business priorities etc. Therefore, it is the applicable regulation which determines the sensitivity of particular data. Personal information is broadly classified as sensitive or non-sensitive. Usually data such as date of birth, telephone number etc. are treated as non-sensitive whereas health, financial information, sexual orientation, biometrics, religious beliefs etc. are often considered sensitive. The exact classification should be based on applicable jurisdiction and the nature of processing involved. c) Classification will apply both for data and\n\nmetadata d) If an organization already has information\n\nclassification guidelines defined for various types of data, which includes both personal and non-personal information, the organization may choose to include the personal information under the overall classification. for example if an organization has three levels of classification ‘Restricted’, ‘Confidential’, ‘Public’, it may choose to put ‘personal information’ as part of ‘Confidential’ and ‘sensitive personal information’ as part of ‘Restricted’ category. Furthermore, when dealing with non- personal information, the risk of combining non-personal information to infer or derive an identity or profile of a unique user or at least small enough subset of users should be understood and evaluated. The primary purpose of classifying data is to decide on downstream data privacy controls that an organization needs to deploy. In general, stricter controls are required for protecting sensitive data due to the potential harm they could cause to the individual.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.1.4",
+      "heading": "4.1.4 Data Classification Criteria",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.1 Development of Privacy Requirements",
+        "4.1.4 Data Classification Criteria"
+      ],
+      "char_start": 13574,
+      "char_end": 15764,
+      "semantic_chunk_length": 2190,
+      "final_chunk_length": 2492,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0009",
+    "text": "rs should be understood and evaluated. The primary purpose of classifying data is to decide on downstream data privacy controls that an organization needs to deploy. In general, stricter controls are required for protecting sensitive data due to the potential harm they could cause to the individual.\n\n#### 4.1.5 Design-Induced Requirements\n\nThe design itself may introduce additional privacy risks and in this case organizations may need to revisit design considerations for data privacy. Organizations may decide to implement certain processes in order to meet data privacy requirements which are then\n\n\n\nlikely to bring in newer privacy challenges. In such cases, organizations need to do a detailed assessment on what challenges can arise and how it needs to alter upstream design to prevent the risks. For example, an organization may decide to monitor emails, both official and personal, of its staff, in order to prevent/detect unauthorized leakage of its consumer data. In this process, employee’s personal emails may also be monitored which may intrude into their privacy and cause distress especially if an email consists of sensitive personal information and found to be a false positive.\n\n\n#### 4.1.6 Data localization\n\nData localization laws are typically intended to prevent or restrict transfer of personal data to countries that do not offer similar protection and to help law enforcement agencies have access to data when there is compelling need. Such regulations, for certain types of data, may require companies to process and store data locally first and only then, if required, transfer the data to other secondary locations, while certain other types of data may not be permitted to be stored outside at all. Before transferring any data across borders, companies are expected to assess the impact and required to adhere to local data privacy regulations.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "4.1.5",
+      "heading": "4.1.5 Design-Induced Requirements",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.1 Development of Privacy Requirements",
+        "4.1.5 Design-Induced Requirements"
+      ],
+      "char_start": 15767,
+      "char_end": 17343,
+      "semantic_chunk_length": 1576,
+      "final_chunk_length": 1878,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0010",
+    "text": "ly then, if required, transfer the data to other secondary locations, while certain other types of data may not be permitted to be stored outside at all. Before transferring any data across borders, companies are expected to assess the impact and required to adhere to local data privacy regulations.\n\n### 4.2 Privacy Principles Based Design Considerations\n\n#### 4.2.1 Personal Data Collection Limitation\n\nPersonal data may be required by organizations for various purposes, such as to fulfill a contractual requirement with the data subject, to comply with specific regulation, to provide an optional feature for those data subjects who choose such option, for business and commercial purposes. It may be collected by an organization either directly or indirectly. Direct collection happens when active involvement from individual is required for an organization to collect data from an individual for example when data is entered into a screen or a form by the individual. Indirect collection on the other hand are scenarios where no action is required from an individual when data is collected by an organization, for example, IP address during web browsing, placement of cookie in individual’s end point device, CCTV surveillance, etc. Additionally, such indirect data collection can happen when the data is purchased from or collected through an external party.\n\nOrganizations should process data only when it is necessary and not excessive. Before collecting the data, organization should define the purpose of collecting the information. The organization then, should collect the minimum information which is required for the defined purpose. It may be tempting for organizations to collect more data even without adequate justification, with the presumption that it may need such data at a later stage. Such a practice may not only violate data privacy\n\n\nlaws, but it will also put unnecessary burden on the organization in terms of the need to deploy additional measures to protect such data and justification why such data was collected. Any information collected more than minimum, and which is in interest of an individual, could be collected based on choice and not forced.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 8,
+      "clause": "4.2.1",
+      "heading": "4.2.1 Personal Data Collection Limitation",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.1 Personal Data Collection Limitation"
+      ],
+      "char_start": 2174,
+      "char_end": 19231,
+      "semantic_chunk_length": 17057,
+      "final_chunk_length": 2186,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0011",
+    "text": "put unnecessary burden on the organization in terms of the need to deploy additional measures to protect such data and justification why such data was collected. Any information collected more than minimum, and which is in interest of an individual, could be collected based on choice and not forced.\n\n##### 4.2.1.1 Proportionality\n\nEvery personal information collected should be proportional to the intended use and not more than minimum. It should have a valid purpose and only that information which is required to fulfill a business need should be collected and processed by organizations. For example, employer may need birth dates of employees to wish them on their birthdays, in this case collection of birth date should be in dd-mm format as year of birth will be considered excessive and not relevant to the purpose stated above. Similarly, B2C (business to consumer) organizations may collect address for billing or delivery purposes however collecting date of birth and making it mandatory for registration purposes maybe considered excessive. The organizations before collecting personal information should determine,\n\n- a) Need to collect the data; b) Data collected is adequate and relevant; and c) Data collected is not excessive and has a valid\npurpose. Tools and processes should be designed in such a way that data collected and stored on systems is minimal and not excessive. This would also put less burden on organizations towards maintaining such personal information.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.2.1.1",
+      "heading": "4.2.1.1 Proportionality",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.1 Personal Data Collection Limitation",
+        "4.2.1.1 Proportionality"
+      ],
+      "char_start": 19234,
+      "char_end": 20422,
+      "semantic_chunk_length": 1188,
+      "final_chunk_length": 1490,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0012",
+    "text": "e and relevant; and c) Data collected is not excessive and has a valid\npurpose. Tools and processes should be designed in such a way that data collected and stored on systems is minimal and not excessive. This would also put less burden on organizations towards maintaining such personal information.\n\n##### 4.2.1.2 Lawful basis\n\nPersonal information collected and processed by organizations should be legitimate. The lawful basis for collection of personal information may vary from country to country depending on applicable regulations. Collection and processing of Biometrics for authentication purpose, for instance is considered legitimate in certain jurisdictions, whereas it is not permitted in some other jurisdiction, unless the security requirements are extremely critical and justify such processing.\n\nOrganizations should be aware of such regulations and should perform a proper assessment to ensure that data collected is legitimate. Illegitimate data collection and processing by an organization may result in fines, lawsuits, customer grievances etc., and therefore it is imperative for organizations to determine if there are any regulations applicable that prohibit collection of certain types of data that may be required by the organization. Certain checks and controls may need to be put in place so that the system flags illegitimate collection of personal information.\n\n\n\n\nWhen sensitive personal information is collected solely for complying with a regulatory requirement, the endeavor should be to collect it anonymously. For example, when information about caste or race is collected from a new employee in an organization, to comply to diversity obligations, especially in private sector, separate forms may be made available to collect the information either in an anonymous manner or in a manner that they cannot be linked with other personal information of the employee. This way it helps prevent any scope for discrimination during employment. This example however may not be valid for government organizations, which collect and use caste data due to applicable mandatory reservation rules of recruitment and career progression.\n\nFor each type of data collection, the organization should determine the appropriate lawful basis for collection and processing of personal data and document the same. Such lawful basis will typically be one of the following:\n\n- a) To fulfill a service or contract with the individual; b) For legitimate business interest of organization,\nbalanced with potential privacy harms for the individual; c) To fulfill a legal obligation; d) To protect vital interests of the individual; and e) For public interest.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "4.2.1.2",
+      "heading": "4.2.1.2 Lawful basis",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.1 Personal Data Collection Limitation",
+        "4.2.1.2 Lawful basis"
+      ],
+      "char_start": 20425,
+      "char_end": 22791,
+      "semantic_chunk_length": 2366,
+      "final_chunk_length": 2668,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0013",
+    "text": " of the following:\n\n- a) To fulfill a service or contract with the individual; b) For legitimate business interest of organization,\nbalanced with potential privacy harms for the individual; c) To fulfill a legal obligation; d) To protect vital interests of the individual; and e) For public interest.\n\n##### 4.2.1.3 Collection at the right stage\n\nIS 17428 (Part 2) : 2020\n\nvalid business need for data collection exists at that point of time.\n\nWhile providing personal information in a web based screen, design should ensure that individuals should not face a situation whereby some of their data is captured by the organization and retained before the individual reads and agrees to privacy policy or before the individual chooses to discontinue the transaction any further. For example, situation should not arise whereby an individual may find that he is not comfortable providing one or more of the data elements being sought mandatorily in the second screen during registration process, based on which he decides to abandon registration, but the system does not allow to revoke data submitted in the first screen. This type of elusive practice of layering data collection with progressively decreasing privacy is not only privacy unfriendly but also may be treated as a privacy violation.\n\nSimilarly, data required at the time of joining an organization should not be collected from candidates at the time of recruitment, providing the reason that organization may anyway collect it at the time of joining. This may be considered as unlawful and will violate privacy regulations.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "4.2.1.3",
+      "heading": "4.2.1.3 Collection at the right stage",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.1 Personal Data Collection Limitation",
+        "4.2.1.3 Collection at the right stage"
+      ],
+      "char_start": 22794,
+      "char_end": 24076,
+      "semantic_chunk_length": 1282,
+      "final_chunk_length": 1584,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0014",
+    "text": "iolation.\n\nSimilarly, data required at the time of joining an organization should not be collected from candidates at the time of recruitment, providing the reason that organization may anyway collect it at the time of joining. This may be considered as unlawful and will violate privacy regulations.\n\n#### 4.2.2 Privacy Notice\n\n\n**table 1 may be referred to, while determining the right**\n\n| Is data necessary to provide service/ product or to enter into a contract? | PII or SPI | Basis for data collection to be used | Data minimization required? | Privacy notice or consent | Example |\n| --- | --- | --- | --- | --- | --- |\n| Mandatory | Does not matter | Use one of the following: a)\t Contractual Requirement b)\t Legally required c)\t To protect vital interest of data subjects d)\t Legitimate business interest e)\t Public interest | Yes | Fair Collection Notice | Address, telephone number, bank a/c number in an e-commerce platform. Blood group, age, ailment in a hospital Photo and education certificates, during employment |\n| Optional | Does not matter | Consent | No, unless required by applicable legislation | Explicit Consent and Choice for each non- mandatory data element | Marriage anniversary date, annual salary in e-commerce site Geo location for an app that tests students’ IQ Telephone number when purchasing vegetables and grocery in retail store. |\n\n\nNOTE — Even in cases when data minimization is not required, all privacy principles like proportionality, fairness, lawfulness, and other data protection measures should be applied. Also certain jurisdictions may require consent for sensitive personal data, even if such data collection is mandatory, and care should be exercised in such cases to ensure fairness.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "4.2.2",
+      "heading": "4.2.2 Privacy Notice",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.2 Privacy Notice"
+      ],
+      "char_start": 24079,
+      "char_end": 25513,
+      "semantic_chunk_length": 1434,
+      "final_chunk_length": 1736,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0015",
+    "text": "l privacy principles like proportionality, fairness, lawfulness, and other data protection measures should be applied. Also certain jurisdictions may require consent for sensitive personal data, even if such data collection is mandatory, and care should be exercised in such cases to ensure fairness.\n\n##### 4.2.2.1 Contents\n\nOrganizations should design the privacy notices in such a way that it clearly provides purpose of data attributes that it intends to collect. Organizations should be open and transparent about their personal information collection practices and processes. Whenever there is a personal information processing, individuals should be clearly informed with a privacy notice about the data controller’s policies, procedures and practices with respect to the processing of the personal information before commencing such processing. The organization should determine the contents of notice depending on the applicable jurisdiction and business reasons. Typical details provided in the notice are as follows:\n\n- a) The fact that specific personal information will be\ncollected. b) Purpose of data collection. c) Name and address of entity collecting the personal\n\ndata (Data Controller). d) Name and address of entity retaining the data,\n\nif different from above. e) The identity of the data controller including\n\ninformation on how to contact the data controller. f) Intended data recipients. g) Data Retention including the reasons to retain data\n\nbeyond use and policies on data deletion. h) Security measures organization will adopt. j) Whether the data will be shared with external\n\nparties. k) The name and contact number of the relevant data\n\nprivacy officer. m) Method to withdraw consent. The contents of notice may vary depending on applicable jurisdiction. However, the basic elements as mentioned above should be captured in order to be transparent to the individuals.\n\nThe privacy notice should neither be too detailed nor too abstract. It should cover the necessary details and should be simple to read and understand for example, if an organization is collecting data from a consumer for delivering services, then it is not sufficient to mention ‘registration and service delivery purpose’. It should mention purposes for various categories of information such as address for delivering a product, demographic details to send targeted advertising, etc. Although organizations may be tempted to use privacy notices which are too abstract, but this makes it less transparent and in the process may violate the regulations. On the other hand, if it is too detailed, every time an organization makes minor internal changes on data processing which does not impact the broad purpose of collection, they may be unnecessarily required to go back to individuals for obtaining fresh consent which makes it cumbersome for organizations and as well as for the individuals.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "4.2.2.1",
+      "heading": "4.2.2.1 Contents",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.2 Privacy Notice",
+        "4.2.2.1 Contents"
+      ],
+      "char_start": 25519,
+      "char_end": 28112,
+      "semantic_chunk_length": 2593,
+      "final_chunk_length": 2895,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0016",
+    "text": ", every time an organization makes minor internal changes on data processing which does not impact the broad purpose of collection, they may be unnecessarily required to go back to individuals for obtaining fresh consent which makes it cumbersome for organizations and as well as for the individuals.\n\n##### 4.2.2.2 Mode of communication\n\nOrganizations may adopt various means to deploy privacy notices. An assessment should be done to determine which mode would be the most suitable and effective for the organization and business:\n\n- a) Electronic privacy notices This mode is usually effective when personal\ninformation is being collected through a web application or through a mobile app, some common examples being ecommerce mobile apps collecting data from consumers. When the user logs into an application, a notice should be displayed before the data is captured/saved in organization’s systems. b) Hard copy privacy notices Hard copy notices/consents may be deployed\n\nwhere data elements are collected through hard copy forms, for example, feedback forms in hotels usually ask date of birth, anniversary date, email ID, phone number. Notices should be provided along with these forms. c) Posters Notices can be displayed where it is not feasible to\n\ngive a separate notice to each individual. One such example is CCTV surveillance at entry/exit points. Notices with proper messages should be displayed in such areas and should be clearly visible to the individuals. d) Website privacy policy Organizations may publish a privacy policy on\n\ntheir website broadly for two reasons: 1) for website visitors, for information collected during website browsing. Users should also be informed about indirect data collection such as cookie information, IP address. 2) to make all data subjects aware about organization’s privacy policies and practices for all data collected & processed by the organization, and not confined to data collected on the website.\n\n\n##### 4.2.2.3 Timing of providing notice\n\nOrganizations should ensure that notices are provided to individuals at the right time during the personal data collection stage, ideally, just before the collection, regardless of whether such data is collected directly or indirectly. Providing a notice too early may lead to an individual not remembering the contents of a notice and therefore inability to take informed decision. On the other hand, providing a notice subsequent to data collection defeats the very purpose of a privacy notice and hence will lead to violation of data privacy principles.\n\nOrganization may have provided notice to employees few years prior to collection of data, but privacy\n\n\n\n\npractices and processes may change over a period of time and therefore in such cases privacy notices also require changes.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "4.2.2.2",
+      "heading": "4.2.2.2 Mode of communication",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.2 Privacy Notice",
+        "4.2.2.2 Mode of communication"
+      ],
+      "char_start": 28116,
+      "char_end": 30602,
+      "semantic_chunk_length": 2486,
+      "final_chunk_length": 2788,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0017",
+    "text": "cy notice and hence will lead to violation of data privacy principles.\n\nOrganization may have provided notice to employees few years prior to collection of data, but privacy\n\n\n\n\npractices and processes may change over a period of time and therefore in such cases privacy notices also require changes.\n\n##### 4.2.2.4 Accessibility and comprehensibility\n\nThe accessibility options for people with special needs (such as braille, special fonts, auditory versions, etc.) may be considered, as appropriate.  Systems should be designed in such a way so that these privacy notices designed for people with special needs can be seamlessly embedded.\n\nThe organization may make privacy notices available in vernacular language depending on the product or solution offering caters to, the population segment. Individuals should be able to read and understand these privacy policies/notices without difficulty. For example individuals can be given an option to choose the preferred language and upon selection, privacy notice can be displayed in the language user has selected.\n\n\n##### 4.2.2.5 Ease of readability\n\nPrivacy Policies/Notices should be device friendly, for instance, the look and design of notice may be different for a mobile phone and a desktop computer. They should be easily readable by individuals using any type of device. Language used in the privacy notice should be simple and easy to understand. Appropriate font type and display size should be selected to make it readable and complex fonts and representation which are difficult to read should be avoided.\n\n\n##### 4.2.2.6 Acknowledgement of privacy notices\n\nThe organization should, as much as practicable, provide notice in a manner that requires an individual to affirmatively acknowledge that he has read and understood the contents of the notice. This helps in demonstrating evidence and prevents situations when an individual denies having read a privacy notice, for example, a notice simply sent by an email which one would not have read due to various reasons including its movement to junk folder. Organization should ensure that right versions of notices are maintained.\n\nThere may be situations where it is not feasible to record an acknowledgment receipt of privacy notices for example, hard copy notices displayed for CCTV recording, whereas for employees and staff, organizations may consider including it in their annual code of conduct or employee joining contract or its website.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "4.2.2.4",
+      "heading": "4.2.2.4 Accessibility and comprehensibility",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.2 Privacy Notice",
+        "4.2.2.4 Accessibility and comprehensibility"
+      ],
+      "char_start": 30605,
+      "char_end": 32762,
+      "semantic_chunk_length": 2157,
+      "final_chunk_length": 2459,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0018",
+    "text": "ituations where it is not feasible to record an acknowledgment receipt of privacy notices for example, hard copy notices displayed for CCTV recording, whereas for employees and staff, organizations may consider including it in their annual code of conduct or employee joining contract or its website.\n\n#### 4.2.3 Choice and Consent\n\nWhen consent is the lawful basis for data collection and processing, the organizations should ensure the following:\n\n- a) That the consent given is a valid consent, being\ngiven freely and not under any compulsion /undue influence.\n\nIS 17428 (Part 2) : 2020\n\n- b) That the consent is taken only after displaying the\nprivacy notice to individual as in 4.2.2. c) That the consent is an informed consent. d) In case of a minor, the consent is given by the legal\n\nguardian. Organizations should give enough choices to individuals through various mechanisms. Personal information of individuals should not be processed, if they opt out for such processing.\n\nPrivacy-by-default should be the norm and opt-in consent should be the preferred approach.\n\n\n##### 4.2.3.1 Opt-in and opt-out considerations\n\nIt is imperative for organizations to understand opt in and opt out options especially when dealing with activities related to marketing purposes.\n\nIf organizations need to use opt in mechanism for marketing activities, they need to take customer’s permission before sending newsletters, updates on emails etc. Organizations may decide on best methods to deploy such practices, for example enabling checkboxes on websites for permissions, email confirmation or an explicit action from individual like clicking on a link to provide opt in. Only those who opt in, should receive messages and calls from the organization for example, many countries in Europe require organizations to use opt in mechanism, as per e-privacy directive for electronic marketing.\n\nOpt out is a method by which recipients may choose to unsubscribe unsolicited calls/mails and messages. Organizations should provide opt out facility before making direct marketing calls to prospects/clients. Organizations should be cautious and respect privacy preferences before adding any prospect to their marketing database. Once opted out, organizations should ensure they adhere and respect such decisions of individual and stop making calls/sending messages to these individuals immediately. An opt-out option, preferably in the first transaction itself, may be provided through one or more of the following ways:\n\n- a) Calling a phone number provided and opting out. b) Email address to which individuals can send, in\norder to opt out. c) Link – Clicking a link to opt out. d) Customer Acquisition Forms – pre-checked box. Organizations should use opt-out method only when risk of privacy intrusion is least and when permitted by law. In general, the decision on the right method to choose would be based on following parameters:\n\n- a) Applicable regulations in the jurisdiction. b) Harm or distress caused to the individual and to\nthe extent it is irreversible.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "4.2.3",
+      "heading": "4.2.3 Choice and Consent",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.3 Choice and Consent"
+      ],
+      "char_start": 32765,
+      "char_end": 35518,
+      "semantic_chunk_length": 2753,
+      "final_chunk_length": 3055,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0019",
+    "text": " only when risk of privacy intrusion is least and when permitted by law. In general, the decision on the right method to choose would be based on following parameters:\n\n- a) Applicable regulations in the jurisdiction. b) Harm or distress caused to the individual and to\nthe extent it is irreversible.\n\n##### 4.2.3.2 Fairness of discretion\n\nWhen consent is the lawful basis for collection of data, such choice needs to be fair and transparent. Following scenarios illustrate the concept of fairness:\n\n- a) An e-commerce portal should not force a consumer\nto provide information that is not essential, for completing a transaction, and to offer a service. Such collection does not give a fair choice to consumer because by then, consumer would have already provided some personal information and entered into a transaction, and cannot reverse the collection. b) If an app asks consent for sharing data with a\n\nthird party on which it relies for fulfilling the service to the individual, such consent will not be appropriate. The app owner which will be the data controller, should take accountability for data transfer and need to ensure that the third party, most likely a data processor, is made liable contractually for data protection measures. c) Where consent is the lawful basis for collection\n\nand processing of personal data, then organizations should present consent in such a way that it is vivid and not combined with other ‘declarations’ or ‘Terms and Conditions’. To ensure fairness, consent for mandatory and optional personal data collection should not be combined into one. d) Timing of obtaining consent - see 4.2.2.3\n\n\n##### 4.2.3.3 Revocation of consent\n\nAn individual’s preferences on data collection and processing may change over a period of time due to their personal choice, nature of processing by the organization etc. so individuals may have in general a reasonable expectation to have their preferences changed subsequently. Hence the organization should provide an option to individuals to revoke consents provided by them earlier for data collection and processing. In due course of time, whenever individual feels that he/she needs to revoke his/her consent due to any reason, he should be able to do that. Organizations should be transparent on consequences of revoking consent by an individual. Many countries, including India have a legal requirement to provide this.\n\nAn individual may be deprived of corresponding benefits and services if he/she wishes to withdraw consent on data processing. There might be times when it may be difficult to permit to revoke consent for example, certain laws may require few personal information elements to be retained for certain period of time, in this case, individuals may not be permitted to revoke consent before the retention period required by law.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "4.2.3.2",
+      "heading": "4.2.3.2 Fairness of discretion",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.3 Choice and Consent",
+        "4.2.3.2 Fairness of discretion"
+      ],
+      "char_start": 35524,
+      "char_end": 38048,
+      "semantic_chunk_length": 2524,
+      "final_chunk_length": 2826,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0020",
+    "text": ". There might be times when it may be difficult to permit to revoke consent for example, certain laws may require few personal information elements to be retained for certain period of time, in this case, individuals may not be permitted to revoke consent before the retention period required by law.\n\n##### 4.2.3.4 Preservation of evidence for consents\n\nThe organization should maintain records of consents obtained from the individuals from time to time. Appropriate record and document management controls should be implemented in line with the individual’s right to access, correct or erase the personal information pertaining to them.\n\nPreservation of evidence of consent is to ensure and demonstrate the following:\n\n- a) Individual’s active participation in the decision-\nmaking process regarding the processing of their personal information. b) the stored consent information is related to the\n\nright version of privacy policy and is for the same intended purpose. c) legal basis for processing the relevant personal\n\ninformation.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "4.2.3.4",
+      "heading": "4.2.3.4 Preservation of evidence for consents",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.3 Choice and Consent",
+        "4.2.3.4 Preservation of evidence for consents"
+      ],
+      "char_start": 38052,
+      "char_end": 38787,
+      "semantic_chunk_length": 735,
+      "final_chunk_length": 1037,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0021",
+    "text": "’s active participation in the decision-\nmaking process regarding the processing of their personal information. b) the stored consent information is related to the\n\nright version of privacy policy and is for the same intended purpose. c) legal basis for processing the relevant personal\n\ninformation.\n\n#### 4.2.4 Use Limitation\n\n\n##### 4.2.4.1 Restrict to original purpose\n\nThe organization should use personal information only for the purpose for which it was originally collected.\n\nAs mentioned in 4.2.2.1, if an organization specifies purposes superficially to keep the flexibility to use data as it wishes at a later stage, such processing may lead to a privacy violation. In the event that the data is required to be used for a different purpose, it should obtain fresh consent or provide notice to individuals as applicable before processing. If the organization intends to use such data for statistical analysis purpose, it should use aggregated data after de-identifying the same.\n\nThe restriction on use applies not only for the organization but also to any other entity to whom processing has been outsourced.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "4.2.4",
+      "heading": "4.2.4 Use Limitation",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.4 Use Limitation"
+      ],
+      "char_start": 38790,
+      "char_end": 39607,
+      "semantic_chunk_length": 817,
+      "final_chunk_length": 1119,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0022",
+    "text": "applicable before processing. If the organization intends to use such data for statistical analysis purpose, it should use aggregated data after de-identifying the same.\n\nThe restriction on use applies not only for the organization but also to any other entity to whom processing has been outsourced.\n\n##### 4.2.4.2 De-identification\n\nIn scenarios where organizations may need to use data for a secondary purpose or to transfer data to an external party, (for example to carry out a questionnaire based survey or to an external party to use it for larger good of the society) and the purpose can be achieved without identifying the individual, they should do so only after de-identifying data.\n\nThe objective is to prevent an individual to be identifiable from the data set. Organizations should make use of de-identification techniques wherever possible, to minimize potential privacy harms.\n\n4.2.4.2.1 Anonymization\n\nAnonymization is a de-identification technique. In this technique, identity of an individual remains completely\n\n\n\n\nanonymous and individual can never be identified, even by referring to other sources of information. Such technique may be used when data is shared with a third party or put in public domain after deriving meaningful insights for the larger good of society for example, illness patterns in a geographic region, traffic data, diversity related statistics etc.\n\n4.2.4.2.2 Pseudonymization\n\nPseudonymity is another de-identification technique that involves replacing the identifiable part of the data with ‘pseudonym’, which is a dummy attribute used instead of a real one so that it is not possible to decipher the identity of an individual from the modified data without accessing additional information that links pseudonym to real identifier. Pseudonymization does not rule out the possibility that there might be (a restricted set of) organizations which are able to determine the individual’s identity based on the alias and data linked to it. Pseudonymization is a reversible process i.e. data may be re-identified if the key is made available. It should be used when possible to minimize privacy harms, for example, when an organization engages with external parties to conduct surveys, pseudonymization is recommended, so that the external party could not establish identity, while organization/ owner of the data should be able to re-identify the data set by tracing back to the original data. If organizations specifically mention that surveys conducted by them will be anonymous, they should adhere to the same.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "4.2.4.2",
+      "heading": "4.2.4.2 De-identification",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.4 Use Limitation",
+        "4.2.4.2 De-identification"
+      ],
+      "char_start": 39610,
+      "char_end": 41863,
+      "semantic_chunk_length": 2253,
+      "final_chunk_length": 2555,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0023",
+    "text": "ded, so that the external party could not establish identity, while organization/ owner of the data should be able to re-identify the data set by tracing back to the original data. If organizations specifically mention that surveys conducted by them will be anonymous, they should adhere to the same.\n\n#### 4.2.5 Data Accuracy\n\nThe organization should ensure that personal information remains accurate, complete, up-to-date (unless there is a legitimate basis for keeping outdated data), adequate, relevant and reliable for the purpose of use.\n\nInaccurate information can lead to inappropriate decisions and processing which may harm the individual. Appropriate tools, such as digital signatures, may be used to ensure data integrity. In order to prevent inadvertent modification of data while stored in servers and databases, by admin teams, dual authentication may be introduced and logs for any modification, deletion etc. from backend, should be maintained for audit trail purpose.\n\nAccuracy is also about keeping data up to date, to prevent it getting obsolete, for which the individual should be provided access to make changes, where appropriate and required.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "4.2.5",
+      "heading": "4.2.5 Data Accuracy",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.5 Data Accuracy"
+      ],
+      "char_start": 41866,
+      "char_end": 42730,
+      "semantic_chunk_length": 864,
+      "final_chunk_length": 1166,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0024",
+    "text": " be introduced and logs for any modification, deletion etc. from backend, should be maintained for audit trail purpose.\n\nAccuracy is also about keeping data up to date, to prevent it getting obsolete, for which the individual should be provided access to make changes, where appropriate and required.\n\n#### 4.2.6 Security\n\nPersonal information should be secured by use of appropriate controls to ensure their confidentiality, integrity, availability and to prevent unauthorized access or disclosure. Organizations should deploy appropriate security measures commensurate to the\n\nIS 17428 (Part 2) : 2020\n\nlikely harm caused to individuals’ rights and freedom from a potential breach.\n\nThe organization should implement an information security program, commensurate to the need and size of the organization and relevant to the privacy risk involved. The organization should implement the Standard IS/ISO/IEC 27001 or the codes of best practices for data protection as per Rule 8 of Information Technology (Reasonable security practices and procedures and sensitive personal information or information) Rules, 2011 to demonstrate its commitment towards security of personal information. Additionally, other appropriate established best practices, guidelines such as NIST Cybersecurity Framework and DSCI Security Framework, etc. may also be implemented. It may also be stipulated as per the agreement between the parties or as per the laws such as medical code of ethics, legal code of ethics, Indian evidence act, etc.\n\nThe scope of such program should cover all types of personal information collected or processed by the organization. The legal and regulatory requirements should be identified and covered in the scope of security program. Compliance to all security requirements should be documented.\n\nSecurity control measures will typically fall under two categories – security of data at source and securing the environment. Other categories may be relevant to the nature of business based on the applicable legislation and the risk appetite of the organization.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "4.2.6",
+      "heading": "4.2.6 Security",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.6 Security"
+      ],
+      "char_start": 42733,
+      "char_end": 44498,
+      "semantic_chunk_length": 1765,
+      "final_chunk_length": 2067,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0025",
+    "text": " requirements should be documented.\n\nSecurity control measures will typically fall under two categories – security of data at source and securing the environment. Other categories may be relevant to the nature of business based on the applicable legislation and the risk appetite of the organization.\n\n##### 4.2.6.1 Security of data at source\n\nRegardless of how well the environment is secured, security measures need to be also deployed on data at source. This will at the outset, require data to be classified as stated in 5.3.1, into appropriate category, based on which suitable control measures should be planned and deployed. The controls will depend on whether data is at rest or in motion both of which need to be taken care of.\n\n4.2.6.1.1 Data at rest\n\nData which is stored should be protected by appropriate techniques from unauthorized access, modification or destruction. The methods used such as encryption, password protection, and digital rights management, multi-factor authentication etc. should be determined based on potential threat scenarios for various categories of data.\n\n4.2.6.1.2 Data in motion\n\nData that is in transit is subjected to different set of risks when compared to those at rest, and hence needs separate control measures. The organizations should ensure the following:\n\n- a) Documented encryption policy for protection of\npersonal information during transmission and rest.\n\n\n\n\n- b) All documents and records containing sensitive\nIn certain rare situations, where informing individual about disclosure may impede the very purpose of disclosure, consent or notice may be waived but only when legally permitted. Regardless of whether individual is aware or not, the organization should ensure that the data privacy obligations are communicated to the external party and such party is obliged to comply with all such provisions.\n\npersonal information and where, applicable personal information, should be encrypted before transmitting them by mail or other means. c) All personal information to external networks\n\nshould be transmitted through secure channels. Any remote access to computer systems containing personal information should be restricted, or should be controlled, logged and monitored.\n\n\n##### 4.2.7.2 Transfer for processing by data processors and cloud providers",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "4.2.6.1",
+      "heading": "4.2.6.1 Security of data at source",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.6 Security",
+        "4.2.6.1 Security of data at source"
+      ],
+      "char_start": 44501,
+      "char_end": 46511,
+      "semantic_chunk_length": 2010,
+      "final_chunk_length": 2312,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0026",
+    "text": "l information to external networks\n\nshould be transmitted through secure channels. Any remote access to computer systems containing personal information should be restricted, or should be controlled, logged and monitored.\n\n\n##### 4.2.7.2 Transfer for processing by data processors and cloud providers\n\n##### 4.2.6.2 Security of environment\n\nWhen personal information is transferred to a data processor for part of processing during data life cycle, the individual should be informed and consent should be obtained where appropriate. Data Privacy contractual clauses should form part of the contract with the data processor and the data processor should be contractually obliged to comply with all such stated and applicable contractual and regulatory requirements. The purpose for which data is transferred to the data processor should be clearly specified and the data processor should not use the data for any other purpose other than that stated in the contract.\n\nSecuring the environment in which personal information is stored or processed will typically require logical security, physical security, network security, end-point security, cloud security, background check of people involved in processing personal information, etc.\n\nSecurity considerations for cloud are provided in Annex B.\n\n\n##### 4.2.6.3 Retention of access logs\n\nThe organization should ensure that only authorized users access the personal information and prevent unauthorized access to the personal information. Organization should define the access logs that need to be retained in order to demonstrate compliance to data privacy regulations. Such retention plans should include the following:\n\nIn certain situations, a data processor may be authorized by the data controller to collect personal information from an individual, in which case the organization should specify what data may be collected, how it should be collected and ensure that privacy safeguards are communicated to the data processor including deployment of privacy notice as applicable.\n\n- a) Different types of access logs (such as read, write,\nupdate, delete), exceptions, faults and security. b) Types of storage repositories such as database,\n\nWhen personal information is transferred to an external party cloud, additional safeguards should be considered depending on whether the cloud is private, public or hybrid. A detailed privacy impact assessment should be conducted by the organization before transferring data to a cloud. Some of the privacy considerations are given in Annex B.\n\nservers, cloud etc. c) Types of data based on sensitivity. Organization should retain and maintain the logs of user access for a defined period, depending on regulations.\n\nAs retention of logs require significant hardware space, an organization needs to weigh the retention requirements versus the operational constraints while defining policy. Apart from retaining the logs, organization should regularly review the logs.\n\n\n#### 4.2.8 Personal data storage limitation\n\nPersonal information should not be retained indefinitely and should be kept only as long as it is required by the law or when there is a business requirement. Requirements for retention of personal data should be determined at the time of acquisition of data.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "4.2.6.2",
+      "heading": "4.2.6.2 Security of environment",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.6 Security",
+        "4.2.6.2 Security of environment"
+      ],
+      "char_start": 46514,
+      "char_end": 49482,
+      "semantic_chunk_length": 2968,
+      "final_chunk_length": 3270,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0027",
+    "text": " 4.2.8 Personal data storage limitation\n\nPersonal information should not be retained indefinitely and should be kept only as long as it is required by the law or when there is a business requirement. Requirements for retention of personal data should be determined at the time of acquisition of data.\n\n#### 4.2.7 Disclosure and Transfer\n\nDuring the life cycle of personal information, transfer or disclosure to external parties is often inevitable. Transfer often involves outsourcing part of processing to a data processor which will only process data as instructed by the data controller. Disclosure on the other hand involves providing data to an external body such as regulators, government bodies, law firms in the event of a subpoena, audits etc. not part of life cycle process.\n\nRequirements of data deletion may also originate from ‘right to be forgotten’. Individuals may at times request for deletion of their data due to various reasons. In these cases, unless there are overriding legitimate grounds for the processing or other applicable regulations do not permit deletion, the organization should have provision to remove individual’s personal data promptly. Such requests are more common in the internet domain such as social media, where not deleting information may cause distress to the individual due to rapid dissemination of unwanted information.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "4.2.7",
+      "heading": "4.2.7 Disclosure and Transfer",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.7 Disclosure and Transfer"
+      ],
+      "char_start": 49485,
+      "char_end": 50550,
+      "semantic_chunk_length": 1065,
+      "final_chunk_length": 1367,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0028",
+    "text": "ot permit deletion, the organization should have provision to remove individual’s personal data promptly. Such requests are more common in the internet domain such as social media, where not deleting information may cause distress to the individual due to rapid dissemination of unwanted information.\n\n##### 4.2.7.1 Disclosure to external agencies (including mandated requirements of data disclosure)\n\nWhenever personal information is disclosed to an external agency, it should be only on individual’s consent, unless required/permitted by applicable law.\n\nThe retention period varies based on type of data and purpose for which they were collected and hence it\n\n\n\n\nrequires an organization to study and evolve a data retention strategy based on which a data retention policy should be defined, best suited for its business. The exact period for which data needs to be kept should be documented in data retention policy and should be based on applicable sectoral regulatory and contractual requirements.\n\nWhen organizations use profiling, provision should be provided to individuals to let them know about existence of such profiling, the logic involved and when individual could object to such profiling and consequences.\n\nLikewise, in today’s world, more and more processes are being automated with least human intervention. When organizations focus on technology driven decision making, it can result in unfavorable consequences to individuals in the event of incorrect decision. Organizations should ensure that as a consequence of any decision about an individual, that can cause distress or harm to an individual is not solely taken based on automated processing, but should be supplemented with manual intervention. Extent of potential harm to individuals from data privacy perspective needs to be evaluated based on nature of transaction involved, for example, financial impact, health related condition, reputation loss due to public disclosure of private matters, suspension of employment, identity theft, discrimination, etc.\n\nSuitable and secure methods should be used for deletion of personal information. Such methods should be considered while decommissioning assets, media, and mobile devices.\n\nIf the organizations require data to be retained for statistical purposes beyond retention period, appropriate de-identification techniques should be adopted as an alternative but in such cases it should be ensured that data cannot be re-identified.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "4.2.7.1",
+      "heading": "4.2.7.1 Disclosure to external agencies (including mandated requirements of data disclosure)",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.7 Disclosure and Transfer",
+        "4.2.7.1 Disclosure to external agencies (including mandated requirements of data disclosure)"
+      ],
+      "char_start": 50553,
+      "char_end": 52711,
+      "semantic_chunk_length": 2158,
+      "final_chunk_length": 2460,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0029",
+    "text": "ecommissioning assets, media, and mobile devices.\n\nIf the organizations require data to be retained for statistical purposes beyond retention period, appropriate de-identification techniques should be adopted as an alternative but in such cases it should be ensured that data cannot be re-identified.\n\n#### 4.2.9 Other Design Considerations to fulfill data subject’s rights\n\nIn order to fulfil rights of individuals, additional privacy features may need to be considered during design and taken for implementation. These could come from regulations or may be part of consumer expectations. In either case, there would be significant impact on both technology and process, dependency on external parties and hence it is prudent to factor such aspects in the upstream stage.\n\nFor example, some banks use verification services from external parties before issuing cards to customers, whereby they may scan prospective customers’ digital footprints on the web and social media activity using algorithms. In such cases if the bank solely uses the recommendations from external parties in deciding issuance of credit card or downgrading credit card, it will be considered as an automated decision making and in such cases, individuals may have right to know and question the rationale for the decision, and seek human intervention. Outcomes from automated decision making often cause significant level of distress among customers and hence to mitigate the risk involved, banks should establish facts with the affected individuals before taking such actions.\n\nExamples of such considerations are:\n\n- a) Data portability This requires provision to port personal data of an individual to a different data controller at the discretion of the individual. The benefit for individual would be:\n- 1) to facilitate transfer of already provided data and privacy preferences to the new data controller 2) to get data deleted from previous data controller Such feature should not put burden on individual and should not be requiring effort and skill from individual. Since technologies adopted by various organizations (competing data controllers) may be different and not compatible, use of different or same tools may be required to ease the porting of data.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "4.2.9",
+      "heading": "4.2.9 Other Design Considerations to fulfill data subject’s rights",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.2 Privacy Principles Based Design Considerations",
+        "4.2.9 Other Design Considerations to fulfill data subject’s rights"
+      ],
+      "char_start": 52714,
+      "char_end": 54654,
+      "semantic_chunk_length": 1940,
+      "final_chunk_length": 2242,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0030",
+    "text": " feature should not put burden on individual and should not be requiring effort and skill from individual. Since technologies adopted by various organizations (competing data controllers) may be different and not compatible, use of different or same tools may be required to ease the porting of data.\n\n### 4.3 Verification and Testing\n\nThe data privacy requirements incorporated in design should be verified and tested prior to deployment of solution or product. This will reduce the risk of penalties and data breach notification requirements for the organization.\n\n- b) Object to profiling and automated decision making Profiling involves creation of a database and maintaining data against each individual to evaluate certain personal aspects, in particular to analyse or predict aspects concerning that individual’s performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements, and is often considered sensitive. Examples where this may be used (not necessarily legitimate) are:\n\n#### 4.3.1 Privacy Test Scenarios\n\nFor each design aspect, privacy test scenarios and test cases should be created, taking into account boundary conditions. While designing, all aspects of potential violations and breaches in each stage of processing should be taken into consideration.\n\n\n#### 4.3.2 Independent Testing\n\nPrior to deployment, the solution should be tested by an independent team. Whenever the solution is reworked to fix identified bugs, it should be retested prior to deployment. Care should be taken to identify and fix new privacy bugs that may get introduced during bug fixing.\n\n- a) Credit rating. b) Premium determination by Insurance companies. c) User and entity behaviour analytics.\n\n\n\nIn situations when a solution enhancement needs to be released due to emergency fixes, where risk of data privacy is relatively low, the solution may be permitted to be deployed but only with a call-back procedure (in the event when subsequent testing yields a failure).\n\n\n#### 4.3.3 Periodic Compliance Check\n\nIn addition to testing as part of life cycle of solution development, periodic compliance checks should be done to ensure that the solutions continue to comply with applicable privacy requirements. This is necessary due to changing regulations, technology, platforms, business model on outsourcing etc. Such compliance checks may involve performing remote privacy vulnerability scans or actual on-line testing of an application. The method adopted should depend on the criticality of application.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "4.3",
+      "heading": "4.3 Verification and Testing",
+      "heading_path": [
+        "4 PRIVACY ENGINEERING",
+        "4.3 Verification and Testing"
+      ],
+      "char_start": 54656,
+      "char_end": 56923,
+      "semantic_chunk_length": 2267,
+      "final_chunk_length": 2569,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0031",
+    "text": ". This is necessary due to changing regulations, technology, platforms, business model on outsourcing etc. Such compliance checks may involve performing remote privacy vulnerability scans or actual on-line testing of an application. The method adopted should depend on the criticality of application.\n\n## 5 PRIVACY MANAGEMENT\n\n\n### 5.1 Privacy Objectives\n\nPrivacy objectives, along with privacy policy constitutes one of the key inputs while an organization embarks on data privacy program. It sets the directions for planning activities, and is influenced by organization’s perspective on data privacy. One organization may consider data privacy as a compliance requirement, while another may want to use it as opportunity to create differentiation in the market, while for a third organization personal data may be the key raw material that drives the business. Each type of organization will therefore set different privacy objectives. While compliance to regulations is given as a necessity, there is always flexibility for organizations to choose the degree of privacy controls they may introduce while being compliant.\n\nThe objectives could differ for the same organization in case of its role as a data controller and as a data processor, since in the latter, the objectives are a lot driven by contractual terms from data controller. The privacy objectives in such cases should be documented separately for controller and processor roles clearly defining the data subjects and type of personal information it collects and processes for each of the roles.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "5",
+      "heading": "5 PRIVACY MANAGEMENT",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT"
+      ],
+      "char_start": 56926,
+      "char_end": 58186,
+      "semantic_chunk_length": 1260,
+      "final_chunk_length": 1562,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0032",
+    "text": "ter, the objectives are a lot driven by contractual terms from data controller. The privacy objectives in such cases should be documented separately for controller and processor roles clearly defining the data subjects and type of personal information it collects and processes for each of the roles.\n\n### 5.2 Data Privacy Function\n\n\n#### 5.2.1 Organization Structure\n\nThe organization should clearly identify and define the Data Privacy organization structure within its overall organization structure. The scope of the function/role should be clearly defined, allocated and communicated to the relevant stakeholders. A member of the top management should have the overall responsibility of the privacy program and need to be clearly defined and documented. While defining responsibilities care should be taken to ensure that there is adequate\n\n\nindependence for the data privacy function from the Operations, Sales, Marketing and IT organization, and where applicable, Security function to avoid any scope for conflict of interest.\n\n\n#### 5.2.2 Responsibility and Accountability\n\nThe top management should appoint management representative(s) who irrespective of the other responsibilities, should have defined roles, responsibilities and authority for:\n\n- a) Ensuring that the privacy program is established,\nimplemented and maintained in accordance with the organization’s privacy policy; b) Reporting on the performance of the privacy\n\nprogram to the top management; c) Promoting awareness of the privacy program\n\nacross the organization; d) Ensuring effectiveness of procedures developed\n\nfor incident response and privacy impact assessment Individuals with allocated privacy responsibilities may delegate tasks to others, however they remain accountable and should determine that any delegated tasks have been correctly performed.\n\n\n#### 5.2.3 Cross-Functional Participation\n\nData Privacy in an organization needs participation of several internal functions that process personal data which require such functions to work very closely with the data privacy office. Hence, a cross functional data privacy committee should be constituted, particularly in large organizations, in which representatives from each function or location of the organization should be identified to assist in the implementation of the privacy program. Such committee should convene periodically and discuss data privacy issues and performance. The roles, responsibilities and authorities of the committee members should be defined and integrated into job descriptions and skill sets which may be reinforced by including them in the organization’s appraisal, reward and recognition policy.\n\nSecurity and privacy functions have a significant overlap, and hence there should be good coordination between personnel handling security and privacy during the entire data life cycle and during the engineering of privacy.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "5.2",
+      "heading": "5.2 Data Privacy Function",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.2 Data Privacy Function"
+      ],
+      "char_start": 58189,
+      "char_end": 60782,
+      "semantic_chunk_length": 2593,
+      "final_chunk_length": 2895,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0033",
+    "text": "luding them in the organization’s appraisal, reward and recognition policy.\n\nSecurity and privacy functions have a significant overlap, and hence there should be good coordination between personnel handling security and privacy during the entire data life cycle and during the engineering of privacy.\n\n#### 5.2.4 Governance and Senior Management Oversight\n\nThe organization should ensure that policies and processes are defined to provide direction and oversight to the privacy program related activities.\n\nThe organization may appoint other bodies, such as a steering committee, to oversee the implementation of the privacy program. The governing body should put in a process to evaluate, direct, monitor, assure and communicate the process to govern privacy. The\n\n\n\n\ngovernance of privacy program should be an integral part of the overall organization governance.\n\nWhere possible, performance on privacy compliance should be reported and monitored using metrics and quantifiable data on periodic basis. The metrics should be reviewed for improvement trends and for performance against benchmark targets.\n\nThe program should be subject to audit periodically.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 33,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "5.2.4",
+      "heading": "5.2.4 Governance and Senior Management Oversight",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.2 Data Privacy Function",
+        "5.2.4 Governance and Senior Management Oversight"
+      ],
+      "char_start": 60785,
+      "char_end": 61642,
+      "semantic_chunk_length": 857,
+      "final_chunk_length": 1159,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0034",
+    "text": "nance.\n\nWhere possible, performance on privacy compliance should be reported and monitored using metrics and quantifiable data on periodic basis. The metrics should be reviewed for improvement trends and for performance against benchmark targets.\n\nThe program should be subject to audit periodically.\n\n### 5.3 Data Privacy Management System (DPMS)\n\n\n#### 5.3.1 Data Classification\n\nOrganizations should classify all personal information in its possession according to defined and documented criteria (as per 4.1.4). Possible data classification categories include, but are not limited to, general ones such as sensitive and non-sensitive personal information. A classification scheme could also include more specific categories such as personal health information (PHI), personal financial information (PFI) and so on. The actual categories used will depend upon the requirements defined in relevant data protection legislation and regulation, other legal (for example contractual) obligations, the nature and sensitivity of the information, and the risk of harm that might arise in the event of a breach.\n\nSome personal information that may be classified non-sensitive in one country may be treated as sensitive elsewhere, depending on the applicable data protection laws.\n\nThe classification for an element of personal information could need re-evaluation and modification when associated with one or more additional attributes. Appropriate guidelines and procedures should be put in place.\n\nAll types of personal information need not require equal degree of protection. Data classification helps in channelizing right degree of protection depending on sensitivity of information which in turn may depend on applicable regulations and harm caused to individuals in the event of misuse or unauthorized disclosure.\n\nAppropriate labelling may be used to identify records with various classification to facilitate deployment of right data protection controls.\n\n\n#### 5.3.2 Inventory of Personal Information\n\nThe organization should ensure that all the personal information the organization owns and holds as a custodian, is identified and an inventory of personal information is created, maintained and periodically updated. The inventory should contain all the relevant information about personal information which will be helpful in ensuring effective management of personal information and in ensuring compliance to data privacy regulations. The inventory of personal information should have the below mentioned details with respect to the personal information identified:\n\nIS 17428 (Part 2) : 2020\n\n- a) Business Process Name. b) Data owner. c) Type of data. d) Applications/Systems. e) Data attribute. f) Individual. g) Purpose of processing. h) Lawful basis of processing. j) Form of data. k) Recipients. m) Country of processing. n) Whether outsourced. p) Retention period. Such inventory of personal information may be combined with inventory of other types of information that already exists in the organization for the sake of convenience, but such act of combining should not have any adverse impact in fulfilling any requirement of  IS 17428 (Part 1).",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 34,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 17,
+      "clause": "5.3",
+      "heading": "5.3 Data Privacy Management System (DPMS)",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.3 Data Privacy Management System (DPMS)"
+      ],
+      "char_start": 61645,
+      "char_end": 64504,
+      "semantic_chunk_length": 2859,
+      "final_chunk_length": 3161,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0035",
+    "text": "Retention period. Such inventory of personal information may be combined with inventory of other types of information that already exists in the organization for the sake of convenience, but such act of combining should not have any adverse impact in fulfilling any requirement of  IS 17428 (Part 1).\n\n#### 5.3.3 Process Depicting Flow of Personal Information\n\nOrganizations should have documented processes in place, clearly depicting the personal information flow for each process and function. A separate documentation need not be maintained only to fulfil conformance to IS 17428 (Part 1), if respective functions already have process documentation in place, focusing on processing of personal information. Process Flows should be able to depict data flows within systems internally within organization, between organization and its various entities, subsidiaries and service providers, level of access to the data recipients, form of storage etc. Personal information inventory together with process flow documents should form the basis of defining and implementing privacy controls in an organization.\n\n\n#### 5.3.4 Change in Processing or data inventory\n\nThe process for any change in processing of a particular personal information, including but not limited to, collection of new data, new kind of data disclosure, access by an additional stakeholder, cross-border data transfer, addition of a process stage etc., should be defined and workflow should be built as part of internal organizational systems.\n\nThis is required to ensure that processing of personal information in the organization and by external parties happens only as agreed and base lined in the personal information inventory.\n\nAppropriate approval process by data privacy function for any change, introduction of new personal information or processing purpose should happen before such personal information is processed.\n\nChanges in personal information inventory may also be triggered by regulatory developments or change in technology.\n\n\n\n\n\n#### 5.3.5 Triggers for Updating DPMS\n\nDPMS needs to be updated by the organization on a regular basis, and such need may arise due to various triggers including but not limited to:\n\n- a) Regulatory developments and updates; b) Change in the processing; c) New locations; d) Merger and acquisition; e) Data transfers to external parties.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 35,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "5.3.3",
+      "heading": "5.3.3 Process Depicting Flow of Personal Information",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.3 Data Privacy Management System (DPMS)",
+        "5.3.3 Process Depicting Flow of Personal Information"
+      ],
+      "char_start": 64506,
+      "char_end": 66560,
+      "semantic_chunk_length": 2054,
+      "final_chunk_length": 2356,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0036",
+    "text": "\n\nDPMS needs to be updated by the organization on a regular basis, and such need may arise due to various triggers including but not limited to:\n\n- a) Regulatory developments and updates; b) Change in the processing; c) New locations; d) Merger and acquisition; e) Data transfers to external parties.\n\n### 5.4 Policies and Processes\n\n\n#### 5.4.1 Privacy Policy\n\nThe organization should define, approve, and publish a privacy policy that applies to all units and locations of the organization and should be authorized by the senior management representative or Board member overseeing the data privacy function. This policy should be communicated to all stakeholders setting out the approach to manage the privacy objectives.\n\nThe privacy policy should contain statements concerning:\n\n- a) Definition, objectives and principles to guide\nactivities related to privacy. b) Responsibility and Accountability for implementing the policy. c) Processes to handle deviation and exceptions. The privacy policy should address the requirements from:\n\n- 1) Organization business strategy. 2) Regulation, legislations and contracts. 3) The current and projected privacy threat environment. The structure of policy may defer between organizations and best designed depending on how it fits in overall quality system documentation and process repository. It is recommended to keep policy at sufficiently high level and more detailed privacy aspects may be covered in procedures and guidelines.\nThe objective of privacy policy is to state company’s commitment towards data privacy, which will largely depend on the organization culture, diversity, and strategic business aspects, most of which do not change over long periods of time such as,\n\n- i) Whether it is a consumer-oriented or\nbusiness to business company, ii) Whether the company uses personal data\n\nfor commercial benefit, ii) Geographic distribution of the processing\n\nand market it caters to, iv) Nature of data processing involved, etc. Hence to avoid regular updates to privacy policy, it is recommended not to include in the privacy policy, those\n\n\naspects that change more often - such as data privacy procedures, controls deployed, processes, templates, etc.\n\n\n#### 5.4.2 Processes & Guidelines\n\nThe organization should define, document and deploy processes that are needed to implement the privacy policy across the organization. Such process should cover the following:\n\n- a) Determine the inputs required and the output\nexpected from these processes. b) Determine the sequence and interaction of the\n\nprocesses. c) Determine and apply the criteria and methods\n\n(including monitoring, measurements and related performance indicators) needed to ensure the effective operation and control of these processes. d) Determine the guidelines required to ensure the\n\nprocesses are followed uniformly across the organization producing consistent and repeatable results. e) Determine the responsibilities and accountability\n\nfor each activity. f) Determine the steps to be taken in case these\n\nprocesses and guidelines are deviated and how such exceptions should be handled. The process definition and deployment should take into account the need to integrate engineering and management aspects of DPMS as illustrated in Fig. 2.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 36,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "5.4",
+      "heading": "5.4 Policies and Processes",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.4 Policies and Processes"
+      ],
+      "char_start": 66562,
+      "char_end": 69532,
+      "semantic_chunk_length": 2970,
+      "final_chunk_length": 3272,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0037",
+    "text": " each activity. f) Determine the steps to be taken in case these\n\nprocesses and guidelines are deviated and how such exceptions should be handled. The process definition and deployment should take into account the need to integrate engineering and management aspects of DPMS as illustrated in Fig. 2.\n\n### 5.5 Records and Document Management\n\nOrganization should maintain records of all processing activities that demonstrate accountability towards data privacy compliance.\n\nWhile the list of records depends on the organization, below is an illustrative list of records that organization may need to keep in order to demonstrate accountability:\n\n- a) Evidence of acknowledgment for privacy notice\nand choice for consent. Records of various versions of privacy notice. b) Logs of Data subjects request to their personal\n\ninformation. c) Logs to demonstrate accountability of staff\n\nhandling personal data. d) Personal data inventory and personal data flows. e) List of sub processors. f) Logs to demonstrate fulfilment of data subject\n\nrights. g) Privacy Incidents and personal data breach\n\nanalysis – Root cause analysis reports. h) Privacy impact assessment reports. j) Records of deployment of various data privacy\n\nand security controls. k) Periodic Risk Assessment Reports.\n\n\n\nFig 2. Integration of Privacy Engineering and Management Aspects",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 37,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "5.5",
+      "heading": "5.5 Records and Document Management",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.5 Records and Document Management"
+      ],
+      "char_start": 69535,
+      "char_end": 70579,
+      "semantic_chunk_length": 1044,
+      "final_chunk_length": 1346,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0038",
+    "text": " Privacy Incidents and personal data breach\n\nanalysis – Root cause analysis reports. h) Privacy impact assessment reports. j) Records of deployment of various data privacy\n\nand security controls. k) Periodic Risk Assessment Reports.\n\n\n\nFig 2. Integration of Privacy Engineering and Management Aspects\n\n### 5.6 Privacy Impact Assessments\n\nPrivacy Impact Assessment (PIA) is a set of activities which is conducted by an organization to identify and analyze the impact on data privacy due to a change either in regulation, business process or a technology platform, and to recommend data privacy controls and measures to minimize the impact of such change on data privacy of applicable stakeholders including data subjects. Such assessment should be conducted according to documented process, and records of the same should be retained for verifications and audit purpose. A typical PIA process is shown in Fig. 3.\n\nFollowing are minimum recommended steps for PIA:\n\n- a) Develop thorough understanding of data processing involved, the data flow (both internal and external to the organization), various actors involved, applicable jurisdictions, type of information, purpose, etc.\n\n- b) Analyze the applicability of privacy principles\ndepending on jurisdiction, organization’s own privacy policy and contractual requirements. c) Determine if the data collected is appropriate,\n\nlegitimate, proportionate, not excessive and has a clear defined purpose. d) Identify areas of potential non-compliance, or\n\ngaps and identify alternative solutions. Emphasis should be privacy by-design and use of technology to minimize possibility of breach. e) Recommend the solution based on privacy\n\nprinciples and regulatory requirements. f) Verify compliance once recommendations are\n\nimplemented. The organization should ensure effectiveness of privacy impact assessment process for identifying, analyzing, evaluating, consulting, communicating and planning the treatment of potential privacy impacts with regard to the processing of personal information.\n\n\n\n\n**Fig. 3 Typical “Privacy Impact Assessment” Process**\n\n\n#### 5.6.1 Triggers for Conducting PIA\n\nA review of different components of the PIA process may be triggered by the following considerations:\n\n- a) Technology change. b) Periodic review. c) Change in business or data ownership. d) Change in business strategy. e) Product or service change. f) Regulatory change. g) Customer and/or contractual change. h) Operational change, including new/change application, supply chain (insourcing/ outsourcing), and site/facility resources. j) Structural change. k) Privacy incident or personal data breach.\n\n#### 5.6.2 Assessment Templates and Tools\n\nThe organization should use standardized assessment templates and tools across the organization to ensure uniform, reliable, accurate and repeatable privacy impact assessment. Records of privacy impact assessment should be retained for future reference.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 38,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "5.6",
+      "heading": "5.6 Privacy Impact Assessments",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.6 Privacy Impact Assessments"
+      ],
+      "char_start": 70582,
+      "char_end": 73220,
+      "semantic_chunk_length": 2638,
+      "final_chunk_length": 2940,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0039",
+    "text": "h.\n\n#### 5.6.2 Assessment Templates and Tools\n\nThe organization should use standardized assessment templates and tools across the organization to ensure uniform, reliable, accurate and repeatable privacy impact assessment. Records of privacy impact assessment should be retained for future reference.\n\n### 5.7 Data Processor Management\n\n\n#### 5.7.1 Data Processor Evaluation and Shortlisting\n\nThe organization should have an effective process to evaluate and shortlist its data processors from a data privacy perspective to ensure that its controls are effective throughout the life-cycle of products and services.\n\nData processor evaluation allows an organization to understand and assess the capability of the data processor and its suitability for processing the personal information with minimal privacy risks. It helps in\n\n\nunderstanding the risk, the data processor brings with it into the organization. The evaluation and shortlisting approach should be consistent, however, the depth of analysis of any given data processor needs to reflect their criticality to the organization’s activities and the level of risk to which they are exposed.\n\nThe approach used for data processor evaluation will depend on the sensitivity of data. An organization may adopt the following broad structure for evaluation and shortlisting of data processors:\n\n- a) Organize relevant documentation currently available within the organization, for example, privacy impact analysis, business impact analysis, risk assessments, etc. b) Define and document the approach, including\ndefining parameters which will be used to assess the data processor criticality, privacy requirements etc. c) Undertake the privacy impact analysis and privacy\n\nrisk assessment with each data processor d) Assess the overall level of privacy risk from each\n\ndata processor e) Review the results of data processors’ own analysis\n\nof its compliance to data privacy laws and data privacy contractual terms with the organization on periodic basis f) Produce an overall analysis of the data\n\nprocessor capability against their criticality and organizations’ needs\n\n\n#### 5.7.2 Transfer of Obligations\n\nThe organization should ensure that proper contracts (clearly mentioning the data processor obligations) with the data processors are executed. Organizations should ensure the obligations are documented, understood, agreed by the data processor, and they are enforceable\n\n\n\n\nat the instance of the organization or the data controller as permissible by law.\n\nThe organization is expected to take responsibility for its data processors. Individual has the option to hold the organization (rather than its data processors) responsible for failure to protect their personal information and hence accountability in the event of a data breach should be agreed between the parties and clearly documented as part of contract. Therefore, an organization’s brand is also at risk of damage in the event of a privacy incident by its data processor.\n\nThe organization may deploy suitable mechanisms to ensure that the data privacy function is made aware whenever a data processing is outsourced, so that proactively the privacy aspects are addressed.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 39,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 21,
+      "clause": "5.7",
+      "heading": "5.7 Data Processor Management",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.7 Data Processor Management"
+      ],
+      "char_start": 73223,
+      "char_end": 76117,
+      "semantic_chunk_length": 2894,
+      "final_chunk_length": 3196,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0040",
+    "text": "ization’s brand is also at risk of damage in the event of a privacy incident by its data processor.\n\nThe organization may deploy suitable mechanisms to ensure that the data privacy function is made aware whenever a data processing is outsourced, so that proactively the privacy aspects are addressed.\n\n#### 5.7.3 Periodic Reports and Compliance Checks\n\nThe organization should ensure a process to report the privacy health of a data processor periodically. The nature of reporting can be defined based on the criticality of the data processor and the organization policies. The privacy key performance indicator’s (KPI) of critical data processor should be reported to the top management as per the governance defined. The privacy KPI’s should be reviewed with respective data processors periodically and accordingly actions should be prioritized.\n\nThe organization should ensure privacy compliance checks are done periodically to determine the privacy health of a data processor. These can be part of the organization internal audit program. The organization can consider doing a second party audit or a third party audit on the data processor depending on the criticality of the data processor to the organization. The summary of the results of these compliance audits and checks should be presented to the top management as part of the organization’s governance and management review and actions should be formulated for the issues crossing the organization’s risk thresholds.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 40,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "5.7.3",
+      "heading": "5.7.3 Periodic Reports and Compliance Checks",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.7 Data Processor Management",
+        "5.7.3 Periodic Reports and Compliance Checks"
+      ],
+      "char_start": 76120,
+      "char_end": 77297,
+      "semantic_chunk_length": 1177,
+      "final_chunk_length": 1479,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0041",
+    "text": "e data processor to the organization. The summary of the results of these compliance audits and checks should be presented to the top management as part of the organization’s governance and management review and actions should be formulated for the issues crossing the organization’s risk thresholds.\n\n### 5.8 Privacy Risk Management\n\nData Privacy as a need for individuals often conflicts with business interests and innovation in organizations that collect personal information from such individuals. Any enterprise needs to make profit to survive and in the digital era, personal information is often not only an information asset that needs to be protected but also leveraged for business benefit within legally permissible limits. Hence, there is a delicate balance which organizations need to maintain by taking into account the privacy risk exposure vis-a-vis business interests. Privacy risk management involves identifying, analyzing and evaluating privacy related risks, responding to them by building or modifying controls to reduce their likelihood or consequences in order to maintain the residual risks within acceptable limits, before a solution or product is rolled out.\n\nIS 17428 (Part 2) : 2020\n\n\n#### 5.8.1 Triggers and Periodicity for Privacy Risk Assessments\n\nThe organization should define, document and implement a process for assessing the level of risk to individuals associated with the processing of their personal information. Such risks should be conducted periodically for various entities such as data processing functions, units, locations, products or solutions. Such assessment should be done separately for privacy and should not be combined with security since there are areas where there could be conflict between the two.\n\nThe risk assessment process should define the method of risk evaluation adopted which could include a risk outcome metric derived as a factor of parameters such as estimation of probability of occurrence of event, impact the risk is likely to have on individuals and organization, detectability of risk before it materializes, etc.\n\nRisk assessment is quite similar to privacy impact assessment, except that the former is a periodic exercise, whereas the latter is triggered based on certain events, as mentioned in 5.6. The periodicity of risk assessment should be determined based on risk exposure and how dynamic the organization environment is. Organizations typically follow periodicity of one year, although in rapidly changing environment, half-yearly frequency or even more often, may be desirable.\n\n\n#### 5.8.2 Criteria for Risk Evaluation\n\nOrganizations should define privacy risk evaluation criteria and the same should be used consistently while assessing privacy risks. Such criteria should take into various factors such as:\n\n- a) Sensitivity of personal data. b) Potential harm to data subjects in the event of a\npersonal data breach. c) The volume of data. d) The extent of data use by various recipients. e) The degree of data protection measures implemented, such as encryption, pseudonymization, etc. f) Involvement of external party in processing data. g) Data transfer to a country outside organization’s\n\njurisdiction. h) Organization’s risk exposure in the event of a\n\nprivacy incident.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 41,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "5.8",
+      "heading": "5.8 Privacy Risk Management",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.8 Privacy Risk Management"
+      ],
+      "char_start": 77300,
+      "char_end": 80268,
+      "semantic_chunk_length": 2968,
+      "final_chunk_length": 3270,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0042",
+    "text": " recipients. e) The degree of data protection measures implemented, such as encryption, pseudonymization, etc. f) Involvement of external party in processing data. g) Data transfer to a country outside organization’s\n\njurisdiction. h) Organization’s risk exposure in the event of a\n\nprivacy incident.\n\n#### 5.8.3 Privacy Risk Response Strategy\n\nThe organization should define the strategy for reducing privacy risks to acceptable levels. Based on the outcome of the risk evaluation, privacy risks are typically classified into relevant severity levels. The risk response strategies would define how risks will be treated based on evaluation. Privacy risk response options may include the following:\n\n\n\n\n- a) Mitigating the risk by reducing the likelihood. b) Mitigating the risk by reducing the consequences. c) Building contingencies to manage the risk at a\nlater date. d) Transferring the risk to external party. e) Terminating the process that leads to the risk. f) Accepting the risk. Risks with low probability may not be ignored and care should be taken to focus on those risks the probability of which is very low but impact is extremely high. Compensating controls may need to be planned when a risk needs to be accepted. The appetite for risk may vary from organization to organization. It is also important to implement a program to periodically exercise the contingencies planned, if this is the chosen risk response.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 42,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 22,
+      "clause": "5.8.3",
+      "heading": "5.8.3 Privacy Risk Response Strategy",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.8 Privacy Risk Management",
+        "5.8.3 Privacy Risk Response Strategy"
+      ],
+      "char_start": 80271,
+      "char_end": 81397,
+      "semantic_chunk_length": 1126,
+      "final_chunk_length": 1428,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0043",
+    "text": "act is extremely high. Compensating controls may need to be planned when a risk needs to be accepted. The appetite for risk may vary from organization to organization. It is also important to implement a program to periodically exercise the contingencies planned, if this is the chosen risk response.\n\n### 5.9 Privacy Incident Management\n\nDespite adoption of best practices and processes, no organization can be completely immune from data privacy incidents, including personal data breaches, and hence they should be always prepared to handle such incidents effectively, in case they happen. Organizations should put in place a data privacy incident handling process that includes awareness of incident occurrence, management, reporting obligations to regulators and affected individuals, corrective and preventive action planning and implementation.\n\nOrganizations should put in place mechanisms on how individuals (whether affected party or not) can report data privacy incidents to the data privacy function within the organization. The organization should communicate these incident reporting channels to all individuals through various means including the company website.\n\n\n#### 5.9.1 Incident Handling\n\nAny incident reported, should be promptly attended to and tracked to closure. Incident handling may typically involve following stages:\n\n- a) Incident reported and logged. b) Acknowledgement to the person or organization\nwho reported incident. c) Immediate corrective action to contain data\n\nprivacy violation. d) Root cause analysis, including determination of\n\ninvolvement of any data processor /external party. e) Data Breach reporting to affected individuals and\n\nregulators (if applicable as per regulations). f) Preventive action. Functions within the organization and any external agencies that need to support incident management, should be promptly involved during various stages of incident handling based on the need. In the event\n\n\nthat external party is responsible for having caused the breach and there are penalties levied or individual claims, the incident management should also involve determination of accountability for the incident and sharing of any financial impact between the parties involved. Often personal data breaches occur due to a security lapse, in which case the information security function should also be part of incident handling.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 43,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "5.9",
+      "heading": "5.9 Privacy Incident Management",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.9 Privacy Incident Management"
+      ],
+      "char_start": 81400,
+      "char_end": 83478,
+      "semantic_chunk_length": 2078,
+      "final_chunk_length": 2380,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0044",
+    "text": "dent management should also involve determination of accountability for the incident and sharing of any financial impact between the parties involved. Often personal data breaches occur due to a security lapse, in which case the information security function should also be part of incident handling.\n\n#### 5.9.2 Personal Data Breach Reporting\n\nPersonal data breaches often impact individuals, and hence, organizations should determine the need for reporting the breach to affected individuals, if they have reasonable grounds to believe that individual’s privacy has been compromised. Such notifications should have a clear purpose such that the individuals who have been affected can take steps to protect themselves. Not all personal data breaches impact individuals, for example when a file consisting of personal information is inadvertently sent by an employee of an organization to his personal email address, if the organization ensures that the same is promptly deleted, and if it was not forwarded or distributed further, reporting to individuals may not be required. But if personal information is exposed in a website to public inadvertently or accidentally, the same may have been viewed by public, and hence may need reporting. It also depends on the nature of personal data involved and likely harm the disclosure can cause to individuals.\n\nOrganizations may also be required to report to regulators and appropriate government bodies, about a data breach, if required by the applicable laws. Timeline within which data breach needs to be reported should be as per the timelines specified in applicable law. The need for this should be established by the organization and relevant procedures should be promptly followed. Personal data breach reporting may depend on various factors such as:\n\n- a) Legal requirement from applicable regulations to\nnotify. b) Contractual obligations, in the event the\n\norganization is a processor. c) Sensitivity of personal information. d) Notification of such breaches will help the\n\nindividual protect themselves. e) Number of data subjects affected. When organization is a data processor, it should not decide on breach reporting to Data Privacy Authorities and instead act as directed by data controller organization.\n\nThe notification may include the following:\n\n- 1) Description of data breach. 2) Number of individuals, type of data subjects, nature of data.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 44,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 22,
+      "page_end": 22,
+      "clause": "5.9.2",
+      "heading": "5.9.2 Personal Data Breach Reporting",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.9 Privacy Incident Management",
+        "5.9.2 Personal Data Breach Reporting"
+      ],
+      "char_start": 83481,
+      "char_end": 85590,
+      "semantic_chunk_length": 2109,
+      "final_chunk_length": 2411,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0045",
+    "text": "ation is a data processor, it should not decide on breach reporting to Data Privacy Authorities and instead act as directed by data controller organization.\n\nThe notification may include the following:\n\n- 1) Description of data breach. 2) Number of individuals, type of data subjects, nature of data.\n\n#### 5.10.2 Ability to Update Data\n\n- 3) Action taken to contain the consequences of breach. 4) Root cause. 5) Measures being undertaken by the organization to prevent recurrence. The organization may also consider notifying external agencies such as law enforcement agencies, insurers, industry bodies, bank or credit card companies which can assist in containing the damage or help in reducing the risks of financial loss caused by the data breach.\nOrganizations should provide means for individuals to update their data. Personal information often changes with time, for example photograph, marital status, etc. and it is individual’s right to ensure that these changes are correctly reflected in organization’s database. If online access cannot be provided then organizations may have an email address to which individuals can write to, and organizations should, within a reasonable time, update the data, and also once updated a notification should be sent to individual to check the correctness of data.\n\n\n#### 5.9.3 Preventive Actions\n\nPrivacy incidents including personal data breaches may invoke penalties not only from regulators and customers (if the organization is a data processor for that customer) but sometimes victims may also claim compensation, depending on applicable laws. More importantly instances of non-compliance and data breach lead to negative brand impact.\n\n\n#### 5.10.3 Access to Privacy Notices\n\nPrivacy notices which an individual would have read and agreed to, should be always available for them to access. This helps an individual to know what terms they agreed to for processing.\n\nThe organization should therefore retain evidence of consent provided and options chosen.\n\nThe penalties can be significantly lower or can be avoided if the organization can establish that the breach is not caused due to absence of process, control measures and that the due diligence was exercised. Hence, organizations that process personal information should take appropriate measures to minimize possibility of data breaches.\n\nThis may be made available online to the extent possible, but only after establishing identity. Alternatively, they may be provided on request.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 45,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 23,
+      "clause": "5.10.2",
+      "heading": "5.10.2 Ability to Update Data",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.9 Privacy Incident Management",
+        "5.10.2 Ability to Update Data"
+      ],
+      "char_start": 85595,
+      "char_end": 87787,
+      "semantic_chunk_length": 2192,
+      "final_chunk_length": 2494,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0046",
+    "text": " diligence was exercised. Hence, organizations that process personal information should take appropriate measures to minimize possibility of data breaches.\n\nThis may be made available online to the extent possible, but only after establishing identity. Alternatively, they may be provided on request.\n\n#### 5.10.4 Requesting Mechanism\n\nFor any access request from individual to be valid, it should be made in writing. Although organizations can provide a standard format for individuals to include all the details the organization might need to locate the information they want, such formats should not be deemed mandatory.\n\nOrganizations should define, document and implement process to conduct detailed investigation for root causes of privacy incidents with help of all stakeholders including any external parties involved in data life cycle and determine a preventive action plan to minimize probability of recurrence of incidents. Records of preventive action should be maintained.\n\nData requests may be valid in some jurisdictions even if the individual has not sent it directly to the person or function which normally deals with such requests and hence organizations should put in place procedures that make it easy for anyone in the organization to recognize such requests and route it appropriately.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 46,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 23,
+      "clause": "5.10.4",
+      "heading": "5.10.4 Requesting Mechanism",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.9 Privacy Incident Management",
+        "5.10.4 Requesting Mechanism"
+      ],
+      "char_start": 87790,
+      "char_end": 88797,
+      "semantic_chunk_length": 1007,
+      "final_chunk_length": 1309,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0047",
+    "text": "valid in some jurisdictions even if the individual has not sent it directly to the person or function which normally deals with such requests and hence organizations should put in place procedures that make it easy for anyone in the organization to recognize such requests and route it appropriately.\n\n### 5.10 Data Subject’s Request Management\n\n\n#### 5.10.1 Access to View Data\n\nOrganizations should be able to provide access to individuals to view their own data available with the organization. An individual may typically like to know what data is held about him/her, how long it is kept, how to access his/her data and may request such data to be provided. In certain jurisdictions, organizations may levy a small fee for providing data, particularly to prevent frivolous requests from individuals. Most of the data privacy regulations require organizations to have a mechanism in place to receive individual access requests and handle them to respond within reasonable amount of time.\n\nOrganizations should seek enough information, as appropriate to establish identity of the person making the request. This is to avoid personal information about one individual being sent to another, accidentally or as a result of deception. The level of checks to be made depends on the possible harm and distress which inappropriate disclosure of the information could cause to the concerned individual.\n\n\n#### 5.10.5 Service Level Agreements\n\nThe organization should ensure that they respond to an individual’s access request promptly or as communicated in the privacy policies. If regulation or contracts specify time for servicing access requests, the same should take precedence.\n\nOrganizations may face penalties and fines if they are unable to do so in timely manner. However, organizations need not provide data when the retention period for the data has lapsed and data is deleted as per defined policy on periodic basis.\n\nIf a longer duration is required to retrieve information being sought, the individual should be informed about the possible delay.\n\nIt is extremely important for organizations to establish the identity of an individual before providing data, to avoid unauthorized disclosure.\n\n\n\n\n\n#### 5.10.6 Considerations for Fee\n\nOrganizations should be allowed, if they so require, to charge a fee to service individual’s access requests. Such fees should not be charged for access requests to health records. Even though, organizations need not comply with a request until the fee has been received, they should not ignore a request simply because the individual has not sent a fee. If a fee is payable but has not been sent with the request, the organization should contact the individual promptly and inform them about the same.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 47,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 23,
+      "page_end": 24,
+      "clause": "5.10",
+      "heading": "5.10 Data Subject’s Request Management",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.10 Data Subject’s Request Management"
+      ],
+      "char_start": 88800,
+      "char_end": 91241,
+      "semantic_chunk_length": 2441,
+      "final_chunk_length": 2743,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0048",
+    "text": "tions need not comply with a request until the fee has been received, they should not ignore a request simply because the individual has not sent a fee. If a fee is payable but has not been sent with the request, the organization should contact the individual promptly and inform them about the same.\n\n### 5.11 Grievance Redress\n\nThe organization should implement an efficient and effective grievance redress mechanism. Depending on jurisdiction, certain regulations may specify timelines within which a grievance should be resolved, as in case of individual access requests. Such mechanism should also take into account the possibility of the cause for the grievance originating from the processing undertaken by a different entity, external or internal.\n\n\n#### 5.11.1 Identification and Publication of Identity of the Grievance Officer\n\nDepending on applicable laws and regulations, there may be a requirement where an organization should appoint an Officer, who should be in charge of the grievance redress process. Once appointed, the name and contact details of the Officer should be published at the various public and internal touch points that the organization has.\n\nThe organization, may chose the Data Privacy officer to play the role of a Grievance officer or keep these roles different.\n\n\n#### 5.11.2 Channels for Receiving Complaints\n\nApart from providing contact details (as mentioned in 5.11.1), the organization should also provide alternate mechanisms to the individuals so that they are able to direct their grievances regarding the data privacy to the appropriate department in the organization. These mechanisms or channels may take various forms including, but not limited to:\n\n- a) Online forms. b) Telephone contact centers. c) Kiosks/help desks. d) Email addresses.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 48,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 24,
+      "clause": "5.11",
+      "heading": "5.11 Grievance Redress",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.11 Grievance Redress"
+      ],
+      "char_start": 91244,
+      "char_end": 92731,
+      "semantic_chunk_length": 1487,
+      "final_chunk_length": 1789,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0049",
+    "text": "o that they are able to direct their grievances regarding the data privacy to the appropriate department in the organization. These mechanisms or channels may take various forms including, but not limited to:\n\n- a) Online forms. b) Telephone contact centers. c) Kiosks/help desks. d) Email addresses.\n\n### 5.12 Staff Competency and Accountability\n\nIn any organization, staff and employees have a key role in protecting personal information held by the organization, since they will often have access to the data, during processing operations, Any mishandling of data, whether due to ignorance or negligence can lead to personal data breach, financial and reputational damage to the organization.\n\n\nIt is therefore important for the organization to establish accountability for staff responsible in ensuring data privacy, and create regular awareness.\n\n\n#### 5.12.1 Traceability to Employee’s Actions\n\nThe organization should establish mechanism for maintaining traceability, logs and audit trails to employee’s actions on data processing. This is extremely important to,\n\n- a) Comply with the ‘due diligence’ requirements of\napplicable laws. b) Identify root causes in the event of a personal data\n\nbreach. c) Defend the organization from a litigation. d) Bring ownership to data processing activities from\n\nemployee’s actions. e) Reduce incidence of personal data breaches.\n\n\n#### 5.12.2 Training and awareness\n\nThe organization should define and document process to create awareness, and train staff involved in processing personal information. Appropriate interventions should be introduced to ensure that such training and awareness programs are conducted periodically, cover entire staff involved in data processing, in any of its functions, departments and business units.\n\nTraining modes should take into account the varying needs and capabilities of participants from different functions, countries, cultural group, and educational background.\n\nThe mode of delivery could be class-room based, web based, live meetings, e-learning, emails, video conference, etc. Awareness and training content should be regularly updated to reflect regulatory developments, process changes, etc.\n\nAttending such programs should be mandatory for entire staff, failing which appropriate disciplinary action may have to be taken.\n\n\n#### 5.12.3 Employee Declaration\n\nIn any organization, staff from certain functions have relatively higher access to personal information by nature of their work responsibility. Such employees should be signing a privacy declaration stating that they will exercise due diligence and they are aware of impact due to a privacy incident including personal data breach. Such declaration could be in hard copy form or electronic.\n\nSigning of such declaration by employees acts as a deterrent and not a substitute to make them aware of new developments on regulations, technologies, threats etc.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 49,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 24,
+      "clause": "5.12",
+      "heading": "5.12 Staff Competency and Accountability",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.12 Staff Competency and Accountability"
+      ],
+      "char_start": 92733,
+      "char_end": 95340,
+      "semantic_chunk_length": 2607,
+      "final_chunk_length": 2909,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0050",
+    "text": "re aware of impact due to a privacy incident including personal data breach. Such declaration could be in hard copy form or electronic.\n\nSigning of such declaration by employees acts as a deterrent and not a substitute to make them aware of new developments on regulations, technologies, threats etc.\n\n#### 5.12.4 Disciplinary Actions\n\nIf any staff who is responsible for data privacy is proven to be negligent or ignorant, and leads to causing a\n\n\n\n\nprivacy incident, that individual should be subjected to disciplinary actions. The action could be ranging from an email warning to termination depending on severity and applicable employment laws.\n\nSuch actions not only help in conveying a serious message to entire staff that the organization takes data privacy very seriously, but also helps to set an example to regulators and customers.\n\n\n### 5.13 Ongoing Regulatory Compliance\n\nOngoing compliance with all applicable regulations and contracts is a hallmark of a good Privacy Program. Privacy and related regulations evolve and get updated regularly, which may impact the effectiveness of data privacy controls deployed by the organization.\n\nThe organization should put in place policies and procedures that allow data privacy function to continually assess whether the Data Privacy Management Systems will be able to demonstrate compliance with the applicable data protection legislations and regulations, and any changes to regulations are incorporated in timely manner.\n\nSome of these day-to-day responsibilities should include:\n\n- a) Ensuring the organization has access to legislative\nupdates and appropriate guidance related to data protection legislation. b) Conducting management reviews of the privacy\n\npolicies and processes. c) Continuously checking that the DPMS reflects\n\nchanges in legislation, practice and technology. d) Assist in the interpretation and application of the\n\nvarious regulatory exemptions applicable to the processing of personal information. The organization should incorporate policies and procedures that allow it to identify when amendments to contracts or regulatory changes occur and trigger alerts so that changes are undertaken on data processing and privacy controls in solutions and products. In the event that the amendments require a revision of the organization’s privacy procedures related to these contracts, such changes will need to be assessed prior to implementation to ensure that the requirements of the privacy policy and regulations are met.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 50,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 24,
+      "page_end": 25,
+      "clause": "5.12.4",
+      "heading": "5.12.4 Disciplinary Actions",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.12 Staff Competency and Accountability",
+        "5.12.4 Disciplinary Actions"
+      ],
+      "char_start": 95343,
+      "char_end": 97542,
+      "semantic_chunk_length": 2199,
+      "final_chunk_length": 2501,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0051",
+    "text": "cy controls in solutions and products. In the event that the amendments require a revision of the organization’s privacy procedures related to these contracts, such changes will need to be assessed prior to implementation to ensure that the requirements of the privacy policy and regulations are met.\n\n### 5.14 Periodic Audits\n\nLike in case of any other compliance and risk function, conducting periodic audits is a very important activity for data privacy program. In order to make audits effective, the audit function should be independent from the function responsible to implement data privacy controls. The audits should be conducted at a periodicity appropriate for the organization, at least once in a year.\n\nIS 17428 (Part 2) : 2020\n\n\n#### 5.14.1 Compliance to DPMS and Effectiveness of DPMS\n\nPrivacy Audits may be broadly classified into following two types:\n\n- a) Adequacy Audits These are intended to verify whether the\nplanned arrangements in the organization, when implemented will lead to compliance to data privacy regulations and intended privacy objectives. b) Compliance Audits These audit activities are focused on verifying\n\nthe actual deployment of privacy controls with reference to the planned arrangements such as privacy policy, privacy processes, guidelines etc. Since an organization can never be sure that all kinds of privacy threats are known and take mitigation action on them, it is important for audits to not restrict itself to verification against plans and processes, but examine if the mechanisms to identify privacy risks are being effectively implemented.\n\n\n#### 5.14.2 Audits Reporting\n\nAudit findings may pertain to non-conformance to established data privacy policies and processes or may be related to planned policies and processes not being effective to meet regulatory requirements. While the former category of non-conformances are attributed to business enabling and support functions within the organizations, the latter ones are normally in the purview of the data privacy function. Hence, the reporting of audit findings should be done to the senior management function to which the data privacy functions reports, in order to avoid conflict of interest and should be tracked for timely closure.\n\n\n#### 5.14.3 Auditor Skills\n\nSince detecting non-compliances in data privacy requires thorough understanding of data privacy laws, data processing activities, data processing technologies, information security domains, it should be ensured that the audit team possesses all these skills and experience.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 51,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 25,
+      "page_end": 25,
+      "clause": "5.14",
+      "heading": "5.14 Periodic Audits",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.14 Periodic Audits"
+      ],
+      "char_start": 97545,
+      "char_end": 99793,
+      "semantic_chunk_length": 2248,
+      "final_chunk_length": 2550,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0052",
+    "text": "### 5.14.3 Auditor Skills\n\nSince detecting non-compliances in data privacy requires thorough understanding of data privacy laws, data processing activities, data processing technologies, information security domains, it should be ensured that the audit team possesses all these skills and experience.\n\n### 5.15 Measurement and Continuous Improvement\n\nMeasurement is key to demonstrate improvement hence appropriate metrics should be developed to track various aspects of DPMS. The metrics could be qualitative or quantitative, and need to be chosen among other factors, based on the current maturity of the organization. Examples of metrics are:\n\n- a) Lead time to mitigate privacy risks. b) Number of critical privacy incidents. c) Service Level Agreement to address and close\nprivacy incidents/breaches.\n\n\n\n\n- d) Number of changes that were not subjected to\nImprovement can be demonstrated broadly in two forms:\n\nPIA. e) Percentage of staff trained on data privacy. Continuous improvement requires sustained improvement in specific aspects of the DPMS without adversely impacting other aspect of DPMS. The triggers for improvement initiatives could be from unfavorable performance as reflected by the measurement program.\n\n- 1) Consistent trend in improvement. 2) Exceeding set target based on industry standard.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 52,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 25,
+      "page_end": 26,
+      "clause": "5.15",
+      "heading": "5.15 Measurement and Continuous Improvement",
+      "heading_path": [
+        "5 PRIVACY MANAGEMENT",
+        "5.15 Measurement and Continuous Improvement"
+      ],
+      "char_start": 99796,
+      "char_end": 100808,
+      "semantic_chunk_length": 1012,
+      "final_chunk_length": 1314,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0053",
+    "text": "ovement in specific aspects of the DPMS without adversely impacting other aspect of DPMS. The triggers for improvement initiatives could be from unfavorable performance as reflected by the measurement program.\n\n- 1) Consistent trend in improvement. 2) Exceeding set target based on industry standard.\n\n## ANNEX A\n\n( Clause 4.1.1 )\n\nLEGAL PROVISIONS IN INDIA ON DATA PRIVACY\n\nThe list given below is not exhaustive and the latest applicable version with any Amendment (if any) should be referred to:\n\nA GENERAL LAWS\n\nA-1 INDIAN CONSTITUTION\n\n‘State’ as defined in Article 12 of Indian constitution is obliged to protect Right to life defined in Article 21 of  Indian Constitution. In August 2017, in a landmark judgement, the Indian supreme court declared “The right to privacy is protected as an intrinsic part of the right to life and personal liberty under article 21 and as a part of the freedoms guaranteed by Part III of the constitution.”\n\nA-2 INFORMATION TECHNOLOGY (AMENDMENT) ACT, 2008\n\n- a) Section 43 and 43 A: Deals with the issues\nrelating to payment of compensation (Civil) and punishment (Criminal) in case of wrongful disclosure and misuse of personal data and violation of contractual terms in respect of personal data. b) Section 72 A: Deals with disclosure of\n\ninformation, knowingly and intentionally, without the consent of the person concerned and in breach of the lawful contract. The offence has been also made punishable with imprisonment and fine as prescribed. c) Section 85: Imposes corporate criminal liability\n\nand liability upon the officers of the company for offences related to privacy breach committed in a company.\n\nA-3 IT RULES (REASONABLE SECURITY PRACTICES AND PROCEDURES AND SENSITIVE PERSONAL INFORMATION OR INFORMATION):\n\nThe most comprehensive regulation as on date that is applicable to data privacy in India is IT Rules notified in 2011 under Sec 43A of IT (Amendment) Act 2008, which applies to body corporate processing Personal information.\n\nA-4 SECTORAL LAWS\n\nA-4.1 Banking\n\n- a) The Negotiable Instruments Act, 1881 b) The Prevention of Money Laundering Act, 2002 c) The Bankers Book Evidence Act, 1891\n\n- d) Credit Information Companies (Regulation) Act,\n2005 e) The Insurance Act, 1999 f) Public Financial Institutions (Obligation as to\n\nFidelity and Secrecy) Act, 1983 g) Payment and Settlement Systems Act, 2007 h) The Banking Regulation Act, 1949 j) Indian Income Tax Act, 1961 k) Reserve Bank of India Act, 1934 m) Foreign Contribution Regulation Act, 2010 n) Fair Practice Code for Credit Card Operations,\n\n2010 p) RBI regulations with reference to the Gopalakrishna Working Group report, 2011 q) Goods & Services Tax (GST) Act, 2017\n\nA-4.2 E-governance and Identity\n\n- a) The Passport Act, 1967 b) The Representation of People Act, 1950 c) The Indian Penal Code, 1860 d) The Census Act, 1948 e) The Citizenship Act, 1955 f) The Registration of Births and Deaths Act, 1969 g) The Collection of Statistics Act, 2008 h) The AADHAAR (Targeted Delivery of Financial\nAnd Other Subsidies, Benefits And Services) Act 2016\n\nA-4.3 Consumer",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 53,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 27,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 100813,
+      "char_end": 103598,
+      "semantic_chunk_length": 2785,
+      "final_chunk_length": 3087,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0054",
+    "text": "t, 1950 c) The Indian Penal Code, 1860 d) The Census Act, 1948 e) The Citizenship Act, 1955 f) The Registration of Births and Deaths Act, 1969 g) The Collection of Statistics Act, 2008 h) The AADHAAR (Targeted Delivery of Financial\nAnd Other Subsidies, Benefits And Services) Act 2016\n\nA-4.3 Consumer\n\n- a) The Indian Contract Act, 1872 b) The Consumer Protection Act, 2019\nA-4.4 Freedom of Expression\n\n- a) The Press Council Act, 1978. Cable Television\nNetworks Regulations Act, 1995 b) Content Certification Rules, 2008 c) Justice (Care and Protection of Children) Act,\n\n2000 d) Contempt of Courts Act, 1971 e) Indian Penal Code 18607. f) The Indian Copyright Act, 1957\n\nA-4.5 Law Enforcement\n\n- a) The National Security Act, 1980 b) The Indian Evidence Act, 1872 c) National Investigation Agency Act, 2008\n\n\n\n- d) Intelligences Organizations (Restrictions of Rights) Act, 1985 e) Central Bureaus of Investigations Bill, 2010\nA-4.6 Internet and Communications\n\n- a) The Information Technology Act 2000 b) The Telegraph Act 1885 c) The Unlawful Activities (Prevention) Act, 2002 d) Internet Service Provider (ISP) License e) Unified Access Service License (UASL) License f) TRAI Regulations on Unsolicited Marketing Calls\nA-4.7 Health & Medical\n\n- a) Medical Council of India’s Code of Ethics\nRegulations, 2002 b) Epidemic Diseases Act, 1897\n\n- c) Mental Health Act, 1987 d) The Persons with Disabilities Act, 1955 e) Pre-Natal Diagnostic Techniques Act, 1994 f) Medical Termination of Pregnancy Act, 1971 g) Ethical Guidelines for Biomedical Research on\nHuman Subjects\n\nA-4.8 Transparency & Other Regulations\n\n- a) The Right to Information Act, 2005 b) The Official Secrets Act, 1923 c) The Prevention of Corruption Act, 1988 d) The Securities and Exchange Board of India Act,\n1992 e) The Competition Act of 2002 f) The Lokpal and Lokayuktas Act, 2013 g) Whistle Blowers Protection Act, 2011",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 54,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 27,
+      "page_end": 28,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 103600,
+      "char_end": 105191,
+      "semantic_chunk_length": 1591,
+      "final_chunk_length": 1893,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0055",
+    "text": "Other Regulations\n\n- a) The Right to Information Act, 2005 b) The Official Secrets Act, 1923 c) The Prevention of Corruption Act, 1988 d) The Securities and Exchange Board of India Act,\n1992 e) The Competition Act of 2002 f) The Lokpal and Lokayuktas Act, 2013 g) Whistle Blowers Protection Act, 2011\n\n## ANNEX B\n\n( Clause 4.2.6, 4.2.7.2 )\n\nSECURITY AND PRIVACY CONSIDERATIONS FOR CLOUD INFRASTRUCTURE\n\nB-1 SECURITY CONSIDERATIONS\n\nB-1.8 The organization should ensure that incident management processes of the cloud service provider is aligned with organizations’ requirement to prevent, detect, and report personal data breaches in compliance to applicable regulations.\n\nB-1.1 The organization should consider extending organization security policies to the public cloud infrastructure and assets.\n\nB-1.2 Perform security architecture review to assess that cloud service provider’s electronic discovery capabilities does not compromise privacy or security of data and applications.\n\nB-2 PRIVACY CONSIDERATIONS\n\nB-2.1 Compliance to Applicable Regulations\n\nOrganizations should be aware that despite outsourcing the processing activities to the cloud provider, it continues to be a data controller. Data Controller should comply with data protection laws which vary from country to country. Data Processor/Cloud provider is also required to adhere to laws and regulations to the extent applicable and stated as part of the contract.\n\nB-1.3 The organization should establish clear and exclusive right to data ownership. This control should be documented in the contract with the cloud service provider.\n\nB-1.4 The organization should perform a risk assessment for virtualization and other logical isolation techniques that the cloud service provider employs in a multi-tenant architecture.\n\nB-2.2 Data Transfer Restrictions\n\nIn public cloud, organizations may not have control on which employee’s data is located in which jurisdiction at different points of time. There are restrictions imposed by Privacy laws on data transfer between countries, for example, GDPR and other member nation laws put certain restrictions on data transfers outside Europe. Organizations should determine if such restrictions apply to them and if applicable implement appropriate controls to ensure data transfer is as per the applicable regulations.\n\nB-1.5 Define and document cryptographic key management with the facilities and processes of cloud service provider in the organization encryption policy.\n\nB-1.6  Evaluate data security policies including security of data at rest, transmission and during disposal and deletion.\n\nB-1.7 The organization should regularly analyze, monitor, and perform system audits for indication of inappropriate activity affecting personal information or to investigate suspicious activity.\n\n\n\n\nB-2.3 Data Deletion\n\nB-2.5 Data Breach Reporting\n\nData deletion may not be effective due to following reasons:\n\nIn the event of a data breach, regulations in certain countries require disclosure to the individuals and regulators. Cloud providers are expected to promptly inform the organizations about the breach and same should also be added in the contract. The cloud provider need to deploy mechanisms to proactively monitor and carry out timely reporting in the event of a data breach.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 55,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 28,
+      "page_end": 29,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 105194,
+      "char_end": 108188,
+      "semantic_chunk_length": 2994,
+      "final_chunk_length": 3296,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0056",
+    "text": "osure to the individuals and regulators. Cloud providers are expected to promptly inform the organizations about the breach and same should also be added in the contract. The cloud provider need to deploy mechanisms to proactively monitor and carry out timely reporting in the event of a data breach.\n\n- a) Data is not strictly wiped. b) Timely data deletion may not be always possible,\neither because extra copies of data are stored elsewhere, or because the storage media also stores data from other clients. c) In scenarios where organizations use less space\n\nB-2.6 Logs and Audit Trails\n\nthan estimated, the part of storage media which usually stores their data could be used for another organization by the cloud provider. d) Organizations should ensure that relevant clauses\n\nLogs and audit trails should be maintained by the cloud provider and made available to organization for processing of data in the cloud.\n\nB-2.7 Data Custody\n\non deletion are added to the contract and cloud provider effectively deletes the data as per the requirements agreed.\n\nOrganization should clearly determine the following and take appropriate steps to have this documented in the contract as well:\n\nB-2.4 Neighbor Subpoena Risk\n\n- a) Who actually owns the data on cloud? b) What happens to the data if the contract gets\nIn the event of a subpoena on another customer of the cloud provider, if physical hardware of cloud provider is confiscated by law-enforcement agencies as part of e-discovery, due to the centralized storage as well as shared tenancy of physical hardware, there is a risk of disclosure of organization’s data to unwanted parties. The organization may be required under various regulations to inform their customers about the circumstances of the transfer of personal information to the cloud provider and the purposes of the transfer. Cloud provider should promptly inform the co-tenant of the cloud in case of subpoena and organizations should ensure the same is also added as part of the contract.\n\nterminated by either parties?\n\nB-2.8 Data Privacy Clauses\n\nAppropriate Data privacy clauses should be agreed and added to the contract between organization and cloud provider.\n\nB-2.9 Data Subject Access\n\nData Privacy regulations may require organizations to provide timely access to personal information when requested by employee. Cloud provider should ensure that data retrieval and recovery is in line with customer expectations.",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 56,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 29,
+      "page_end": 29,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 108190,
+      "char_end": 110329,
+      "semantic_chunk_length": 2139,
+      "final_chunk_length": 2441,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17428_2_2020_0057",
+    "text": "ct between organization and cloud provider.\n\nB-2.9 Data Subject Access\n\nData Privacy regulations may require organizations to provide timely access to personal information when requested by employee. Cloud provider should ensure that data retrieval and recovery is in line with customer expectations.\n\n## ANNEX  C\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 17 (12163).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "17428_2_2020.md",
+      "chunk_index": 57,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 30,
+      "page_end": 30,
+      "clause": "ANNEX C",
+      "heading": "ANNEX C",
+      "heading_path": [
+        "ANNEX C"
+      ],
+      "char_start": 110335,
+      "char_end": 111792,
+      "semantic_chunk_length": 1457,
+      "final_chunk_length": 1759,
+      "standard_no": "IS 17428",
+      "year": "2020",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

@@ -1,0 +1,554 @@
+[
+  {
+    "id": "19738_2026_0000",
+    "text": "Indian Standard\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2026 Price Group 7\n\n\n\n\nEnvironmental Assessment and Management of Water Resources Projects Sectional Committee, WRD 24\n\nFOREWORD\n\nThis Indian Standard by the Bureau of Indian Standards, after the draft was finalized by the Environmental Assessment and Management of Water Resources Projects Sectional Committee and had been approved by the Water Resources Division Council.\n\nThe provision of environmental flows is crucial for integrated water resources management. As river flows are increasingly modified by dams, weirs, and water abstraction for agriculture and urban supply, these interventions significantly impact ecological and hydrological services. Environmental Flow Assessment (EFA) methods are evolving to address these impacts, ensuring balanced river flow modifications that maintain essential water- dependent ecological services.\n\nEnvironmental flows (EF) or environmental flow requirements (EFR) are the flows required to meet both ecological needs and human uses such as bathing, washing, and religious activities. The science of EFA helps determine the quantity and quality of water required to support ecosystem conservation and resource protection.\n\nA question often arises regarding the terminology: what constitutes environmental flows versus minimum flows? While environmental flows (EF) primarily address ecological needs, minimum flows encompass environmental requirements along with other human uses such as bathing and washing. Nevertheless, both terms are commonly used interchangeably.\n\nThe quantum of flow in a river and its quality are inherently interconnected. River water quality, affected by discharges of treated or untreated wastewater, relies on the dilution offered by the river flow. Adequate flow is essential to maintain acceptable water quality standards, particularly in the context of in-stream uses such as religious rituals and bathing.\n\nRivers should be viewed as integral component of the total environment, supporting chain of life that must be conserved. Conservation is achievable only through the maintenance of adequate flow and acceptable water quality standards in rivers. This standard has been formulated to provide a comprehensive framework for evaluating and ensuring adequate downstream flows, promoting sustainable water management practices that protect ecological balance and support the well-being of both natural ecosystems and human population.\n\nWhile preparing this standard, assistance has been derived from Instream flow methods: a comparison of approaches, I. G. Jowett 1997.\n\nThe composition of the Committee responsible for the formulation of this standard is given in Annex A.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2777,
+      "semantic_chunk_length": 2775,
+      "final_chunk_length": 2775,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0001",
+    "text": "e well-being of both natural ecosystems and human population.\n\nWhile preparing this standard, assistance has been derived from Instream flow methods: a comparison of approaches, I. G. Jowett 1997.\n\nThe composition of the Committee responsible for the formulation of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\n\n\n\nIndian Standard\n\n\nPARAMETERS AND ASSESSMENT CRITERIA FOR DOWNSTREAM FLOW TO MAINTAIN ECOLOGICAL\n\n\nBALANCE — GUIDELINES\n\n\n## 1 SCOPE\n\nThis standard covers the methods to identify the parameters and criteria for assessment of downstream flow required to maintain ecological balance and also catering to sustainable water management to support the wellbeing of human population.\n\n\n## 2 NEED FOR MINIMUM FLOWS\n\n\n### 2.1 Water Requirements\n\nIn modern society, water is put to a variety of uses for the benefit of the human population.  The following are the important uses.\n\n- a) Domestic and municipal supply;\n- b) Irrigation;\n- c) Thermal power and Industrial requirements;\n- d) Generation of hydroelectric power;\n- e) Navigation;\n- f) Requirement to maintain the natural ecosystem of the water stream, and the pollution control;\n- g) Growing of fish, crabs and other aquatic animals for food, oil and other purposes,\n- h) Growing of aquatic plants for food and other applications;\n- j) Swimming, boating and other recreational uses; and\n- k) Cattle bathing and washing.\n\n### 2.2 Pollution Loads\n\n\n2.2.1 The minimum flow necessary in a river for various purposes, including the maintenance of water quality, varies across different locations due to factors such as population density, industrial presence, and potential discharge of effluents into the river. Consequently, it is generally impractical to establish a uniform minimum flow for the entire river stretch. Ideally, the minimum flow requirement can only be determined for specific segments of the river.\n\n\n\n2.2.2 Sewage and industrial effluents must undergo treatment in accordance with the provisions outlined in the Environmental (Protection) Act, 1986 to meet specified standards before being discharged into the river. This ensures the preservation of the river’s water quality.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2779,
+      "char_end": 5052,
+      "semantic_chunk_length": 2273,
+      "final_chunk_length": 2575,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0002",
+    "text": "egments of the river.\n\n\n\n2.2.2 Sewage and industrial effluents must undergo treatment in accordance with the provisions outlined in the Environmental (Protection) Act, 1986 to meet specified standards before being discharged into the river. This ensures the preservation of the river’s water quality.\n\n## 3 MINIMUM FLOW ASSESSMENT METHODS\n\nEnvironmental flow assessment methods are classified into two main categories: prescriptive and interactive. Numerous methodologies have been devised within each classification as given in Table 1.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 MINIMUM FLOW ASSESSMENT METHODS",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS"
+      ],
+      "char_start": 5055,
+      "char_end": 5290,
+      "semantic_chunk_length": 235,
+      "final_chunk_length": 537,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0003",
+    "text": "er. This ensures the preservation of the river’s water quality.\n\n## 3 MINIMUM FLOW ASSESSMENT METHODS\n\nEnvironmental flow assessment methods are classified into two main categories: prescriptive and interactive. Numerous methodologies have been devised within each classification as given in Table 1.\n\n### 3.1 Historic Methods or Hydrological Methodologies\n\nNumerous historical flow methodologies, relying on hydrological data, have been utilized to establish minimum flow thresholds. These methods are commonly known as fixed percentage or look-up table methodologies, wherein a predetermined proportion of flow, often termed as minimum flow, is designated to uphold the Ecological Flow Requirements (EFRs) necessary for maintaining freshwater fisheries, highlighting other ecological features, or sustaining river health at an acceptable level. Typically, these thresholds are assessed on an annual, seasonal, or monthly basis.\n\nOccasionally, hydrology-based environmental flow methodologies (EFMs) integrate catchment variables or are adjusted to accommodate hydraulic, biological, or geomorphological criteria. They may also incorporate diverse hydrological formulas or indices. Three variants of these are described below.\n\n\n#### 3.1.1 Exceedance Methods\n\nThese include flow measurements such as the mean annual flow, the 7-day low flow that occurs once every 5, 10, or 20 years (or for another specified duration), or percentages of these flows. Additionally, there are percentage exceedance flows, which define the minimum flow as a flow that is equalled or exceeded for a certain proportion of time, such as 96 percent of the time. This approach is similar to the Tennant method but uses naturally occurring low flows instead of mean flow to determine the minimum flow.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3.1",
+      "heading": "3.1 Historic Methods or Hydrological Methodologies",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS",
+        "3.1 Historic Methods or Hydrological Methodologies"
+      ],
+      "char_start": 5293,
+      "char_end": 6768,
+      "semantic_chunk_length": 1475,
+      "final_chunk_length": 1777,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0004",
+    "text": "ercentage exceedance flows, which define the minimum flow as a flow that is equalled or exceeded for a certain proportion of time, such as 96 percent of the time. This approach is similar to the Tennant method but uses naturally occurring low flows instead of mean flow to determine the minimum flow.\n\n#### 3.1.2 Tennant Method — Percentage of Average Annual Flow (AAF)\n\n\n3.1.2.1 The tennant method, also known in New Zealand as the montana method, defines the required percentage of the average annual flow (AAF) to achieve various objectives. These percentages are expressed as instantaneous flow rates.\n\n\n3.1.2.2 The tennant method was developed from field observations of the wetted perimeter, cross- sectional area, and velocity of North American rivers at different flow rates. The study revealed that stream width, water velocity, and depth increased more rapidly from zero flow to 10 percent of the mean annual flow than at higher flow rates. This method of assessment of minimum flow is primarily based on the habitat needs of trout. It was determined that an average depth of 0.3 meters and a velocity of 0.23 m/s, achieved at 10 percent of the mean annual flow, were the lower limits for trout well-being. Conversely, an average depth of 0.46 meters and a velocity of 0.46 m/s, achieved at 30 percent of the mean annual flow, were found to fall within the good to the optimum range.\n\n\n3.1.2.3 From the above observations, the following are recommended for tennant method:\n\n- a) 60 percent to 100 percent of the mean\nannual flow for optimal conditions for most aquatic life;\n\n- b) 30 percent of the mean annual flow to provide good habitat;\n- c) 10 percent of the mean annual flow as a minimum threshold, below which only short-term survival of aquatic life is possible; and\n- d) Periodic flushing flows of 200 percent of the mean annual flow to maintain stream health.\n\n3.1.2.4 The change in stream width, depth, and velocity (as a proportion of the mean flow) for two types of channels (single-thread uniform and single- thread non-uniform) is depicted as a function of the percentage of the mean flow. Generally, hydraulic conditions change rapidly from zero to approximately 10 percent of the mean flow. However, this rate of change varies depending on the hydraulic parameter and the channel's geometry.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "3.1.2",
+      "heading": "3.1.2 Tennant Method — Percentage of Average Annual Flow (AAF)",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS",
+        "3.1 Historic Methods or Hydrological Methodologies",
+        "3.1.2 Tennant Method — Percentage of Average Annual Flow (AAF)"
+      ],
+      "char_start": 6773,
+      "char_end": 8789,
+      "semantic_chunk_length": 2016,
+      "final_chunk_length": 2318,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0005",
+    "text": "rm and single- thread non-uniform) is depicted as a function of the percentage of the mean flow. Generally, hydraulic conditions change rapidly from zero to approximately 10 percent of the mean flow. However, this rate of change varies depending on the hydraulic parameter and the channel's geometry.\n\n##### 3.1.2.4 The recommended percentage of average annual flow (AAF) to achieve certain objectives and percentage of AAF required to maintain certain river condition are given in Table 2.\n\n\n**Table 1 Minimum Flow Assessment Methods**\n\n| Sl No. | Output | Method | Data and time requirements | Approximate duration of assessment | Relative confidence in output | Level of Experience |\n| --- | --- | --- | --- | --- | --- | --- |\n| (1) | (2) | (3) | (4) | (5) | (6) | (7) |\n| i) | Prescriptive | Tennant Method | Moderate to low | Two weeks | Low | extensive |\n| ii) |  | Wetted perimeter method | Moderate | 2-4 months | Low | extensive |\n| iii) |  | Expert panels | Moderate to low | 1-2 months | Medium | extensive |\n| iv) |  | Holistic method | Moderate to high | 6-18 months | Medium | very limited |\n| v) | Interactive | IFIM | Very high | 2-5 years | High | extensive |\n| vi) |  | DRIFT | High to very high | 1-3 years | High | very limited |\n\n\n\n\n\n\n**Table 2 Percentage of Average Annual Flow (AAF)**\n\n\n| (1) | (2) | (3) | (4) |\n\n\n- ii) Optimum range of AAF 60 to 100 60 to 100\nPercentage AAF required to maintain a river condition\n\n- iii) Outstanding 40 60\n- iv) Excellent 30 50\n- v) Good 20 40\n- vi) Fair or degrading 10 30\n- vii) Poor or minimum 10 10\n- viii) Severe degradation 10 zero flow 10 zero flow\n\n#### 3.1.3 Modified Tennant Method\n\n\n3.1.3.1 The modified tennant method provides guidelines for determining flow levels based on the mean flow for each month. It categorizes flow levels as:\n\n- a) Optimum: 100 percent of the mean monthly flow;\n- b) Acceptable: 75 percent to 99 percent of the mean monthly flow;\n- c) Poor to Fair: 30 percent 74 percent of the mean monthly flow; and\n- d) Unacceptable: 29 percent or less of the mean monthly flow.\n\n3.1.3.2 This approach is suggested as an emergency rule-of-thumb. However, that implementing this regime might reduce peak flood flows, which are important for maintaining the normal ecosystem in some rivers. Therefore, it is recommended to maintain flushing flows for both optimum and acceptable flow regimes to support ecosystem health.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "3.1.2.4",
+      "heading": "3.1.2.4 The recommended percentage of average annual flow (AAF) to achieve certain objectives and percentage of AAF required to maintain certain river condition are given in Table 2.",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS",
+        "3.1 Historic Methods or Hydrological Methodologies",
+        "3.1.2 Tennant Method — Percentage of Average Annual Flow (AAF)",
+        "3.1.2.4 The recommended percentage of average annual flow (AAF) to achieve certain objectives and percentage of AAF required to maintain certain river condition are given in Table 2."
+      ],
+      "char_start": 8792,
+      "char_end": 10893,
+      "semantic_chunk_length": 2101,
+      "final_chunk_length": 2403,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0006",
+    "text": "an emergency rule-of-thumb. However, that implementing this regime might reduce peak flood flows, which are important for maintaining the normal ecosystem in some rivers. Therefore, it is recommended to maintain flushing flows for both optimum and acceptable flow regimes to support ecosystem health.\n\n### 3.2 Hydraulic Methods or Hydraulic Rating Methodologies\n\n\n3.2.1 Hydraulic methods typically focus on changes in simple hydraulic variables, such as river width or wetted perimeter, which increase with higher flows. This increase is non-linear, and there is usually a\n\n\npoint where the rate of increase slows significantly. This point, known as the point of inflection, indicates where the additional flow will have a diminishing impact on the hydraulic parameter in question. Water velocity is not commonly considered in hydraulic methods, possibly because its inflection points are less distinct.\n\n\n3.2.2 The wetted perimeter approach examines the effect of different flows on the wetted area of the river channel, which is assumed to provide habitat for aquatic life. For both uniform and non-uniform channel cross-sections, the wetted perimeter increases rapidly from zero discharge to the discharge at the inflection point. Beyond this point, additional flow results in only minor increases in the wetted perimeter. Minimum flows are typically set near the inflection point on the wetted perimeter versus discharge curve. However, the braided channels or channels with gravel bed characteristics, which have very flat cross-sections and poorly defined banks, do not exhibit a clear inflection point.\n\n\n3.2.3 For the wetted perimeter method, at least fifteen cross-sections should be randomly selected. These cross-sections are ideally placed in riffles and runs, as these areas are most affected by reduced discharges. However, this technique may not be effective for determining minimum flows in uniform, steep-banked channels because a small flow might just cover the channel bed between the banks, resulting in shallow depth and low velocity that are unsuitable for many aquatic organisms. In contrast, rivers with non-uniform channel cross-\n\n\n\nsections will produce a variety of channel depths across the cross-section when the inflection point is reached due to their irregular shapes.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "3.2",
+      "heading": "3.2 Hydraulic Methods or Hydraulic Rating Methodologies",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS",
+        "3.2 Hydraulic Methods or Hydraulic Rating Methodologies"
+      ],
+      "char_start": 10896,
+      "char_end": 12894,
+      "semantic_chunk_length": 1998,
+      "final_chunk_length": 2300,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0007",
+    "text": "the banks, resulting in shallow depth and low velocity that are unsuitable for many aquatic organisms. In contrast, rivers with non-uniform channel cross-\n\n\n\nsections will produce a variety of channel depths across the cross-section when the inflection point is reached due to their irregular shapes.\n\n### 3.3 Habitat Methodology\n\nHabitat refers to the physical environment where plants and animals live. Some features of aquatic habitats, such as depth and velocity, are directly related to flow, while others describe the river and its surroundings. Habitat methods extend hydraulic methods by assessing flow requirements based on hydraulic conditions that fulfill specific biological needs rather than focusing solely on hydraulic parameters. Hydraulic models predict water depth and velocity throughout a river reach. These predictions are then compared with habitat suitability criteria to determine the area of suitable habitat for the target aquatic species. By doing this for various flow levels (flow increments), the change in the area of suitable habitat with the flow can be observed. The resulting outputs, typically presented as habitat discharge curves for the biota or extended as habitat time and exceedance series, are used to predict optimal flows as environmental flow requirements (EFRs).\n\n\n#### 3.3.1 Habitat Suitability\n\n\n3.3.1.1 Instream habitat typically refers to physical factors such as water velocity, depth, substrate, and sometimes cover. Animals are generally most abundant where habitat quality is highest, less numerous in poor habitats, and absent from unsuitable habitats. Many aquatic species thrive in similar hydraulic conditions across different rivers. By surveying the characteristic habitats occupied by a species, one can determine the relative quality of these habitats based on the abundance of animals present.\n\n\n3.3.1.2 Preference curves illustrate how the frequency of animals varies with changes in depth, velocity, and substrate. These curves can be developed quickly and easily using established sampling and analysis techniques. Methods for locating animals include electro-fishing for small benthic fish, bank observation for larger trout and birds, and Surber sampling for invertebrates.\n\n\n3.3.1.3 Habitat suitability curves for a particular river section show how the total quantity of habitat for a specific species changes with flow. Habitat suitability ranges from zero (unsuitable) to one (optimum). Once preference curves for a species (or life stage) are determined, it is possible to quantify the suitable habitat area within a river for that species. This area is known as the usable area or weighted usable area (WUA).\n\n\n\n#### 3.3.2 Habitat Retention Method\n\nIn this method, minimum flow recommendations are based on the retention of hydraulic characteristics in various habitat types (such as riffles, runs and pools). The criteria used include average depth, average velocity, and wetted perimeter. Instream flow recommendations are established when two or more of these criteria are met for the appropriate stream size and habitat.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "3.3",
+      "heading": "3.3 Habitat Methodology",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS",
+        "3.3 Habitat Methodology"
+      ],
+      "char_start": 12897,
+      "char_end": 15694,
+      "semantic_chunk_length": 2797,
+      "final_chunk_length": 3099,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0008",
+    "text": "hydraulic characteristics in various habitat types (such as riffles, runs and pools). The criteria used include average depth, average velocity, and wetted perimeter. Instream flow recommendations are established when two or more of these criteria are met for the appropriate stream size and habitat.\n\n#### 3.3.3 Instream Flow Incremental Methodology (IFIM)\n\n\n3.3.3.1 The Instream Flow Incremental Methodology (IFIM) calculates the amount of suitable habitat for various flow levels (flow increments) using habitat suitability curves or criteria. Although it seems reasonable to assess stream flow needs based on the amount of suitable habitat, a fundamental criticism of IFIM is the lack of evidence correlating species abundance with the amount of suitable habitat. This criticism highlights that habitat assessments should be viewed as representing a river's potential to support a target species population.\n\n\n3.3.3.2 However, studies have shown a correlation between habitat availability and the abundance of many benthic invertebrates and fish species. It is also crucial to consider all the requirements for a species' survival. For example, salmonids need both space and food. Therefore, assessing a river's instream flow needs must include considerations for salmonids' space and food production requirements. Additionally, reproductive needs (spawning) must be considered in river reaches used for this purpose.\n\n\n#### 3.3.4 Hydraulic Modelling and Prediction of Habitat Suitability\n\n\n3.3.4.1 The standard step method, widely used in engineering practice, models non-uniform steady flow in natural rivers. This method is based on the principle of energy conservation and uses data on flow, slope, hydraulic roughness, and hydraulic properties of cross-sections to calculate the longitudinal flow profile. A key assumption is that the distance between cross-sections must be short enough for the hydraulic properties of the cross- sections to approximate the properties and slope between them. This means that cross-sections should be positioned close enough that the cross- sectional area increases or decreases uniformly between them, with minimal slope change. In practice, this involves decreasing the spacing at the heads and tails of riffles, where water slopes and cross-sectional areas change rapidly, and increasing the spacing where hydraulic conditions are uniform.\n\n\n\n\nThis sampling procedure aligns with those used for sampling instream physical habitats.\n\n\n3.3.4.2 Hydraulic roughness (Manning’s n) is determined from field data on discharge, cross- sectional area, hydraulic radius, and slope. However, Manning’s n can vary unpredictably with flow, limiting the range of flows for which the roughness calibration is valid.\n\n\n3.3.4.3 The distribution of water velocities across a cross-section can be calculated from its conveyance once the water level and flow are known. Each velocity can be adjusted for site-specific features, such as an upstream obstruction which might cause a reduction in velocity or a current on a bend increasing local velocities. Each measurement point represents a cell of the total river area, for which the suitability of velocity, depth, and substrate is evaluated on a scale from 0 (unsuitable) to 1 (optimum).",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "3.3.3",
+      "heading": "3.3.3 Instream Flow Incremental Methodology (IFIM)",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS",
+        "3.3 Habitat Methodology",
+        "3.3.3 Instream Flow Incremental Methodology (IFIM)"
+      ],
+      "char_start": 15697,
+      "char_end": 18660,
+      "semantic_chunk_length": 2963,
+      "final_chunk_length": 3265,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0009",
+    "text": "upstream obstruction which might cause a reduction in velocity or a current on a bend increasing local velocities. Each measurement point represents a cell of the total river area, for which the suitability of velocity, depth, and substrate is evaluated on a scale from 0 (unsuitable) to 1 (optimum).\n\n#### 3.3.5 Habitat Mapping\n\n\n3.3.5.1 Traditionally, the application of the instream flow incremental methodology (IFIM) involved surveying and hydraulically modelling habitat across a series of contiguous cross-sections over a range of flows in representative river reaches. An alternative approach, which requires less knowledge of hydraulic modelling, is meso habitat typing or habitat mapping. This approach more accurately represents the physical habitat in the river for the intended survey.\n\n\n3.3.5.2 Meso habitat typing begins with mapping the habitat over the river segment under study to calculate the proportions of different habitats of interest (such as pool, riffle, run). Next, several cross-sections are selected to represent each habitat type. At each cross-section, depths, mean column velocities, and substrate composition are recorded at approximately 0.5 m to 1 m intervals, or frequently enough to characterize changes in depth and velocity across the section, similar to hydraulic modelling. Flow and water levels are recorded for each cross- section and repeated at two or more other flows to establish a stage-discharge relationship. Using these relationships and the channel geometry, water velocities and depths can be predicted for a range of flows. This prediction is usually more accurate than those made by water surface profile modelling.\n\n\n3.3.5.3 The area of suitable habitat, or weighted usable area (WUA), can be calculated for each species of interest. The WUA at each cross-section is multiplied by the proportion of the total river length that each cross-section represents. The total WUA is then the sum of the WUAs from all the cross-sections. Computer programs can also be used\n\n\nIS 19738 : 2026\n\nto evaluate habitat surveys based on habitat modelling and carry out the derivation and comparison of rating curves at cross-sections.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "3.3.5",
+      "heading": "3.3.5 Habitat Mapping",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS",
+        "3.3 Habitat Methodology",
+        "3.3.5 Habitat Mapping"
+      ],
+      "char_start": 18663,
+      "char_end": 20535,
+      "semantic_chunk_length": 1872,
+      "final_chunk_length": 2174,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0010",
+    "text": "ngth that each cross-section represents. The total WUA is then the sum of the WUAs from all the cross-sections. Computer programs can also be used\n\n\nIS 19738 : 2026\n\nto evaluate habitat surveys based on habitat modelling and carry out the derivation and comparison of rating curves at cross-sections.\n\n### 3.4 Holistic Methodologies\n\n\n3.4.1 Holistic methodologies have evolved from a shared conceptual foundation to establish themselves as a distinct category of environmental flow methodologies (EFMs), primarily focused on addressing the ecological flow requirements (EFRs) of entire riverine ecosystems. Within a holistic methodology, critical flow events are identified based on specific criteria that delineate flow variability across various aspects of the riverine system. This identification process can involve a bottom-up, top-down, or hybrid approach, demanding diverse multidisciplinary expertise.\n\n\n3.4.2 The basis of most methodologies is a systematic construction of a modified flow regime from the ground up (bottom-up), considering each month or element individually. Each element corresponds to a distinct aspect of the flow regime, tailored to meet specific ecological, geomorphological, water quality, social, or other objectives within the modified system. In contrast, top-down approaches typically rely on scenario- based assessments, defining environmental flows by acceptable deviations from the natural flow regime. This renders them less prone to overlooking critical flow characteristics or processes compared to their bottom-up counterparts.\n\n\n### 3.5 Hybrid Methodologies\n\nHybrid methodologies encompass a broad spectrum of approaches that exhibit traits from multiple basic types, including partially holistic EFMs that integrate elements of holistic methodologies within frameworks that may be underdeveloped. These methodologies are categorized as combination or hybrid approaches, alongside various other methods not originally devised for ecological flow assessments (EFAs) but adapted with potential utility for this purpose. These alternative approaches are labelled as other EFMs.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "3.4",
+      "heading": "3.4 Holistic Methodologies",
+      "heading_path": [
+        "3 MINIMUM FLOW ASSESSMENT METHODS",
+        "3.4 Holistic Methodologies"
+      ],
+      "char_start": 20538,
+      "char_end": 22354,
+      "semantic_chunk_length": 1816,
+      "final_chunk_length": 2118,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0011",
+    "text": " may be underdeveloped. These methodologies are categorized as combination or hybrid approaches, alongside various other methods not originally devised for ecological flow assessments (EFAs) but adapted with potential utility for this purpose. These alternative approaches are labelled as other EFMs.\n\n## 4 CONCEPTUAL DIFFERENCES BETWEEN MINIMUM FLOW ASSESSMENT METHODS FOR HABITAT\n\nThe subsequent clauses delineate the conceptual distinctions among various assessment methodologies and their appropriateness for achieving management objectives.\n\n\n### 4.1 Historic Flow Methods\n\nHistorical  methodologies  offer  simplicity in application\n\n\n\nas they rely on straightforward hydrological calculations. Despite not explicitly considering factors such as food, habitat, water quality, and temperature, these methods presume adequacy based on the survival of aquatic species under past conditions. They aim to adopt a low risk approach by specifying flows within the historical range, providing some flexibility in determining the level of protection. However, as flow serves as a proxy for biological response, it lacks direct biological quantification.\n\n\n#### 4.1.1 Exceedance Flows\n\nUsing an exceedance flow (that is, annual, 5 year, or 10 year 7 day low flow) tends to maintain the status quo. The protection level offered by these methods correlates with how often the minimum flow occurs naturally. Thus, higher protection is provided to the biological community if the minimum flow matches a frequently occurring natural low flow. Therefore, the selection of the exceedance period should align with the significance of the biological community at risk, with more significant communities receiving greater protection by setting more frequently occurring natural low flows as the minimum flows.\n\n\n#### 4.1.2 Tennant Methods\n\nThe Tennant and modified Tennant methods also aim to maintain the status quo. These methods are based on the reasonable assumption that a certain proportion of the mean flow can sustain the instream environment, and their use is well-established. The modified Tennant method provides a range of minimum flows, accompanied by a descriptive measure of their acceptability. This allows for consideration of the significance of the biological community at risk and the level of environmental protection provided. Small streams are more at risk than large streams for the same aquatic community, as their velocity and depth are already relatively low.\n\n\n### 4.2 Hydraulic Methods\n\nHydraulic methods aim to describe the extent to which the river channel is filled at given flows, based on the assumption that a full channel maintains the river's food-producing capacity. When using the inflection point method to determine flow requirements, the resulting water depth, velocity, and ecological response depend on the channel geometry. For instance, in uniform channels, a small and shallow flow is sufficient to maintain water across the full stream width, but this may result in water depths and velocities unsuitable for many species. Conversely, in non-uniform channels, the water depth and velocity will reflect those of natural flows, thereby preserving the natural system's character and ecology.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "4",
+      "heading": "4 CONCEPTUAL DIFFERENCES BETWEEN MINIMUM FLOW ASSESSMENT METHODS FOR HABITAT",
+      "heading_path": [
+        "4 CONCEPTUAL DIFFERENCES BETWEEN MINIMUM FLOW ASSESSMENT METHODS FOR HABITAT"
+      ],
+      "char_start": 22357,
+      "char_end": 25277,
+      "semantic_chunk_length": 2920,
+      "final_chunk_length": 3222,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0012",
+    "text": "icient to maintain water across the full stream width, but this may result in water depths and velocities unsuitable for many species. Conversely, in non-uniform channels, the water depth and velocity will reflect those of natural flows, thereby preserving the natural system's character and ecology.\n\n### 4.3 Habitat Methods\n\n\n4.3.1 The primary goal of habitat methods is to provide or maintain a suitable physical environment for the aquatic organisms inhabiting a river. While these methods focus on target species, there is a risk of neglecting other critical components of the stream ecosystem. Selecting appropriate habitat suitability curves and considering factors such as food, temperature, and water quality are essential. Successful minimum flow recommendations should ensure sufficient habitat for all life stages of the target species while considering the entire stream ecosystem's requirements.\n\n\n4.3.2 Habitat methods aim to preserve or enhance habitat in terms of depth and velocity, rather than maintaining the river's character. For example, a swift-flowing river may contain large areas of deep, high-velocity water that are not utilized by most aquatic species. A minimum flow based on habitat would suggest reducing flows to increase areas with water velocities and depths preferred by the target species. However, this approach may result in losing high-velocity areas that lend the river its character.\n\n\n4.3.3 Flow assessments based on habitat tend to standardize rivers to the habitat requirements of the target species. While habitat methods offer the most flexible approach to minimum flow assessments, they can be challenging to apply and interpret. The outcomes heavily depend on the specific application of the method, including the species or uses considered and the suitability curves employed. Habitat methods provide more options for determining flow requirements compared to historic flow or hydraulic methods. The relationship between flow and suitable habitat is typically non- linear. Flows can be set to maintain optimal fish habitat levels, retain a percentage of habitat at average or median flow, or ensure a minimum amount of habitat. Flows can also be established at the point of inflection in the habitat/flow relationship, where more habitat is lost with decreasing flow than is gained with increasing flow. This approach is possibly the most common for assessing minimum flow requirements using habitat methods. While there is no specific percentage or absolute value for this protection level, it represents a point of diminishing returns. Thus, habitat methods are valuable for examining and presenting the relative protection levels offered by different minimum flow options.\n\n\n4.3.4 Habitat-based methods differ from both historic and hydraulic methods in that they do not make any priori assumptions about the state of the natural ecosystem. While historical and hydraulic methods assume that flows lower than natural levels will degrade the stream ecosystem, habitat methods\n\n\n\n\nconsider the possibility that a natural ecosystem, or at least some particularly valued target species, could be improved by flows that differ from naturally occurring ones.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "4.3",
+      "heading": "4.3 Habitat Methods",
+      "heading_path": [
+        "4 CONCEPTUAL DIFFERENCES BETWEEN MINIMUM FLOW ASSESSMENT METHODS FOR HABITAT",
+        "4.3 Habitat Methods"
+      ],
+      "char_start": 25281,
+      "char_end": 28185,
+      "semantic_chunk_length": 2904,
+      "final_chunk_length": 3206,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0013",
+    "text": "rical and hydraulic methods assume that flows lower than natural levels will degrade the stream ecosystem, habitat methods\n\n\n\n\nconsider the possibility that a natural ecosystem, or at least some particularly valued target species, could be improved by flows that differ from naturally occurring ones.\n\n## 5 LEVELS OF ENVIRONMENTAL PROTECTION\n\n\n5.1 The use of surrogate measures for biological response means that the level of environmental protection offered by biological assessment methods does not necessarily increase linearly with minimum flow as shown in Fig. 1.\n\n\n### 5.2 The assumed relationship between the level of environmental protection offered by various biological assessment methods and flow is given in Table 3.\n\n\n### 5.2 Historical flow methods assume a direct relationship between biological response and flow, with the level of environmental protection rising as flow increases.\n\n\n5.3 Hydraulic methods assume that biological response is related to a hydraulic parameter such as wetted perimeter. Hydraulic parameters have a non- linear relationship with flow which is a function of channel geometry, implying that environmental protection increases with flow but follows the law of diminishing returns.\n\n\n### 5.4 Habitat methods have a non-linear relationship with flow which is a function of channel geometry\n\nIS 19738 : 2026\n\nand preferred habitat of the target species. Habitat methods therefore assume that environmental protection for the target species is optimized at a certain flow, with any increase or decrease in flow reducing the level of protection.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "5",
+      "heading": "5 LEVELS OF ENVIRONMENTAL PROTECTION",
+      "heading_path": [
+        "5 LEVELS OF ENVIRONMENTAL PROTECTION"
+      ],
+      "char_start": 28188,
+      "char_end": 29469,
+      "semantic_chunk_length": 1281,
+      "final_chunk_length": 1583,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0014",
+    "text": "th flow which is a function of channel geometry\n\nIS 19738 : 2026\n\nand preferred habitat of the target species. Habitat methods therefore assume that environmental protection for the target species is optimized at a certain flow, with any increase or decrease in flow reducing the level of protection.\n\n## 6 COMPONENTS OF MINIMUM FLOWS\n\nThere are four components that constitute minimum flows:\n\n- a) Low flows;\n- b) Flushing flows;\n- c) Special purpose flows; and\n- d) Maintenance of impoundment levels.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "6",
+      "heading": "6 COMPONENTS OF MINIMUM FLOWS",
+      "heading_path": [
+        "6 COMPONENTS OF MINIMUM FLOWS"
+      ],
+      "char_start": 29472,
+      "char_end": 29672,
+      "semantic_chunk_length": 200,
+      "final_chunk_length": 502,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0015",
+    "text": "timized at a certain flow, with any increase or decrease in flow reducing the level of protection.\n\n## 6 COMPONENTS OF MINIMUM FLOWS\n\nThere are four components that constitute minimum flows:\n\n- a) Low flows;\n- b) Flushing flows;\n- c) Special purpose flows; and\n- d) Maintenance of impoundment levels.\n\n### 6.1 Low Flows\n\nAquatic ecosystems are assumed to be adapted to periods of low flow or no flow. Such conditions are presumed to have occurred before human intervention and still occur in pristine catchments. It has been argued that natural low or no flow periods play an important role in stressing ecosystems, permitting re-colonization and succession. However, this stress should not be exacerbated by unnatural long periods of low or no flow. Ecosystems are particularly sensitive to impact when stressed and further stress will result in harmful impacts. Low flows need to be maintained as close to natural levels as possible.\n\n\n|  |  |  |  |  |  |  |  | HISTORIC FLOW HYDRAULIC HABITAT |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | FLOW |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n\n*NOTE — The level of environmental protection is measured in terms of the surrogate measures for biological response: flo\nhistoric methods, wetted perimeter for hydraulic methods, and weighted useable area for habitat methods. \nG 1 RELATIONSHIPS BETWEEN FLOW AND THE LEVEL OF ENVIRONMENTAL PROTECTION OFFERED BY TH*\n\n\nNOTE — The level of environmental protection is measured in terms of the surrogate measures for biological response: flow for historic methods, wetted perimeter for hydraulic methods, and weighted useable area for habitat methods.\n\n\n**FIG. 1 RELATIONSHIPS BETWEEN FLOW AND THE LEVEL OF ENVIRONMENTAL PROTECTION OFFERED BY THE**\n\nDIFFERENT BIOLOGICAL ASSESSMENT METHODS FOR A HYPOTHETICAL RIVER\n\n\n\n\n**Table 3 Levels of Protection for Different Biological Assessment Methods**\n\n\n| (1) | (2) | (3) | (4) | (5) |\n\n\n- (1) (2) (3) (4) (5) i) Historic methods: Exceedance\nLinear increase with flow Exceedance\n\n\n10 year, 5 year, mean annual low\n\nflow\n\nflow ii) Historic methods: Tennant\n\n\n10 percent of mean flow 30 percent of mean flow iii) Hydraulic methods\n\nLinear increase with flow percent of mean flow\n\nNon-linear increase with\n\nHydraulic parameters\n\nIncreasing percentage retention\n\nincreasing flow\n\nof hydraulic parameter values iv) Habitat methods Optimum conditions at a given flow Reducing protection for flows\n\nHabitat quantity\n\nMinimum habitat\n\nInflection points\n\ngreater than or less than optimum\n\noptimum",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "6.1",
+      "heading": "6.1 Low Flows",
+      "heading_path": [
+        "6 COMPONENTS OF MINIMUM FLOWS",
+        "6.1 Low Flows"
+      ],
+      "char_start": 29674,
+      "char_end": 32477,
+      "semantic_chunk_length": 2803,
+      "final_chunk_length": 3105,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0016",
+    "text": " increase with\n\nHydraulic parameters\n\nIncreasing percentage retention\n\nincreasing flow\n\nof hydraulic parameter values iv) Habitat methods Optimum conditions at a given flow Reducing protection for flows\n\nHabitat quantity\n\nMinimum habitat\n\nInflection points\n\ngreater than or less than optimum\n\noptimum\n\n### 6.2 Flushing Flows\n\nThese are flushes of fresh water following storm events, which are necessary for the maintenance of aquatic ecosystems and channel structure. Flushing flows are of particular importance in streams downstream of water supply dams. Water supply requirements often drastically change natural flow regimes, causing damage to downstream aquatic communities and stream structures.\n\n\n### 6.3 Special Purpose Flows\n\nThese are flood flows for specific ecosystem requirements, for example, the inundation of wetlands.\n\n- a) There is a need to identify critical reaches in our river basins that are likely to be impacted due to diversion or impoundment of water in the reservoirs.\n\n### 6.4 Maintenance of Impoundment Levels\n\n- b) In the case of a hydropower project, such critical reach shall be from the point of diversion or dam to the outfall of the tailrace or joining of a tributary as shown in Fig. 2. After the outfall of the tailrace, all the water diverted to the powerhouse comes back to the river system.\nThese are flows required to maintain the water level of urban lakes and ponds and to prevent the water level from lowering too far below the spillway level for a significant period.\n\n\n## 7 METHODOLOGY TO BE ADOPTED FOR COMPUTING MINIMUM FLOWS\n\n- c) In case of diversion for consumptive uses like irrigation, the critical reach shall be from the point of diversion or dam till the location where the flow is augmented by a tributary contributing significantly to the river as shown in Fig. 2.\nSeveral methodologies have been described above for the computation of minimum flows, along with their data requirements, limitations, adaptability, dependability, etc. Any suitable methodology may be adopted, depending on data availability, accuracy desired, manpower available, etc. Minimum flows have to be worked out river-wise, reach-wise and season-wise.",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "6.2",
+      "heading": "6.2 Flushing Flows",
+      "heading_path": [
+        "6 COMPONENTS OF MINIMUM FLOWS",
+        "6.2 Flushing Flows"
+      ],
+      "char_start": 32480,
+      "char_end": 34361,
+      "semantic_chunk_length": 1881,
+      "final_chunk_length": 2183,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0017",
+    "text": "utation of minimum flows, along with their data requirements, limitations, adaptability, dependability, etc. Any suitable methodology may be adopted, depending on data availability, accuracy desired, manpower available, etc. Minimum flows have to be worked out river-wise, reach-wise and season-wise.\n\n## 8 RECOMMENDED APPROACH FOR ASSESSMENT AND IMPLEMENTATION OF E-FLOWS\n\n\n8.1 On perusal of the recommendations of various research studies that are available in India on E- flows, hydrological characteristics of rivers and dependence of the society on river water, the suggested approach for assessment and implementation of E-flows consisting of a combination of hydraulic rating and habitat simulation methods may be adopted as follows.\n\n\n\n\n8.2 Implementation of E-flows should be taken up in adaptive mode. As shown in Fig. 3, this consists of assessment, implementation, monitoring and then modification based on feedback.\n\n\n8.3 Accordingly, the following methodology/framework for assessing the environmental flows (E-flows) is proposed:\n\n\n8.3.1 There is a wide range of methodologies available for assessing the E-flows. However, there are lack of both the understanding of and quantitative data on relationships between river flows and the ecological characteristics of rivers. In the majority of the assessments of E-flows, hydraulic cum habitat simulation methodology has been implied wherein the requisite flows are assessed based on minimum ecological flow characteristics such as flow depth, flow velocity, perimeter, top width, etc. at the given location of a river. This methodology (hydraulic cum habitat simulation) for assessing E-flows appears to be simple and explicit and is capable of reflecting the requisite E-flows with a reasonable confidence levels, particularly during the lean period. Accordingly, the methodology and procedure for assessing the E-flows are proposed as under:\n\n- a) Assess the aquatic habitat characteristics and ecological status of the identified reaches. This assessment may be carried out by expert agencies such as the Wildlife Institute of India (WII), Dehradun, Central Inland Fishery Research Institute (CIFRI), Kolkata, State Government Fishery Research Institutes etc. A biodiversity survey documenting the baseline ecological status of these reaches will be invaluable;\n- b) Identify the critical reach which is likely to be impacted due to any diversion or impoundment of water in the river. In the case of a hydropower project, such critical reach shall be from the point of diversion or dam to the outfall of the tailrace or joining of a tributary. In case of diversion for consumptive uses like irrigation, the critical reach shall be from the point of\n\nIS 19738 : 2026\n\ndiversion or dam till the location where the flow is augmented by a tributary contributing significantly to the river;",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "8",
+      "heading": "8 RECOMMENDED APPROACH FOR ASSESSMENT AND IMPLEMENTATION OF E-FLOWS",
+      "heading_path": [
+        "8 RECOMMENDED APPROACH FOR ASSESSMENT AND IMPLEMENTATION OF E-FLOWS"
+      ],
+      "char_start": 34365,
+      "char_end": 36914,
+      "semantic_chunk_length": 2549,
+      "final_chunk_length": 2851,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0018",
+    "text": " to the outfall of the tailrace or joining of a tributary. In case of diversion for consumptive uses like irrigation, the critical reach shall be from the point of\n\nIS 19738 : 2026\n\ndiversion or dam till the location where the flow is augmented by a tributary contributing significantly to the river;\n\n- c) Take river cross-sections at regular intervals say 200 m to 1 000 m depending upon variability in river geomorphology;\n- d) Carry out hydraulic simulation using a hydrodynamic model such as HEC-RAS, MIKE11, etc. for various inflow discharges;\n- e) Assess the requisite discharges corresponding to hydraulic parameters fulfilling the ecological requirements in different seasons. Generally, simulations may be carried out corresponding to three seasons that is high flow period or the monsoon season (June to September), the average flow period (April, May, October and November) and the lean or dry period (December to March);\n- f) The requisite discharges in different seasons may be expressed as a percentage of average flows or 90 percent dependable flows in that season for ease of implementation; and\n- g) Biodiversity surveys may be repeated after say, 5 years, and results be compared with the baseline. Depending upon the outcome, the E-flow assessment may be repeated.\n\n8.3.2 Though the above approach takes care of the assessment of E-flow requirements in all seasons, it is generally seen that river flows are adequate during the monsoon season and the ecological needs of the rivers are naturally fulfilled. Thus the issue of E-flows is critical largely during the lean period only.\n\n\n8.3.3 For the time being, the above method for assessing the E-flow requirements may be adopted. When the understanding and data availability on relationships between river flows and ecological characteristics of rivers improve, comprehensive methods such as a holistic approach may also be used.\n\n\n\nDIVERSION\n\nWEIR/DAM\n\nAFFECTED/CRITICAL REACH\n\nRIVER\n\nTRIBUTARY\n\n\n**FIG. 2 CRITICAL REACH AN A RIVER FROM E-FLOWS VIEW POINT**\n\n\nFEEDBACK\n\n\nASSESSMENT\n\n\nIMPLEMENTATION\n\n\nMONITORING\n\n\n**FIG. 3 ADAPTIVE MODE OF E-FLOWS ASSESSMENT AND IMPLEMENTATION**",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "8",
+      "heading": "8 RECOMMENDED APPROACH FOR ASSESSMENT AND IMPLEMENTATION OF E-FLOWS",
+      "heading_path": [
+        "8 RECOMMENDED APPROACH FOR ASSESSMENT AND IMPLEMENTATION OF E-FLOWS"
+      ],
+      "char_start": 36916,
+      "char_end": 38765,
+      "semantic_chunk_length": 1849,
+      "final_chunk_length": 2151,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "19738_2026_0019",
+    "text": "ods such as a holistic approach may also be used.\n\n\n\nDIVERSION\n\nWEIR/DAM\n\nAFFECTED/CRITICAL REACH\n\nRIVER\n\nTRIBUTARY\n\n\n**FIG. 2 CRITICAL REACH AN A RIVER FROM E-FLOWS VIEW POINT**\n\n\nFEEDBACK\n\n\nASSESSMENT\n\n\nIMPLEMENTATION\n\n\nMONITORING\n\n\n**FIG. 3 ADAPTIVE MODE OF E-FLOWS ASSESSMENT AND IMPLEMENTATION**\n\n## ANNEX A\n\n(Foreword)\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: WRD 24 (23492).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "19738_2026.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 38771,
+      "char_end": 40207,
+      "semantic_chunk_length": 1436,
+      "final_chunk_length": 1738,
+      "standard_no": "IS 19738",
+      "year": "2026",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

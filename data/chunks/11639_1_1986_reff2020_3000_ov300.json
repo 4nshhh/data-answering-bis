@@ -1,0 +1,192 @@
+[
+  {
+    "id": "11639_1_1986_reff2020_0000",
+    "text": "IS : 11639 (Part 1) : 1986\n\n(Reaffirmed 2001)\n\n(Reaffirmed 2015)\n\n(Reaffirmed 2020)\n\nIndian Standard\n\nCRITERIA FOR STRUCTURAL DESIGN OF PENSTOCKS\n\nPART 1 SURFACE PENSTOCKS\n\n```text\nINDIAN STANDARDS INSTITUTION\n[garbled address]\nNEW DELHI 110002\nNovember 1986\n```\n\n\n\n\nIS : 11639 (Part 1) : 1986\n\nIndian Standard\n\nCRITERIA FOR STRUCTURAL DESIGN OF PENSTOCKS\n\nPART 1 SURFACE PENSTOCKS\n\nWater Conductor Systems Sectional Committee, BDC 58\n\n[Committee composition table flattened due to OCR corruption — members/affiliations merged into garbled prose; flagged for manual review]\n\n\nINDIAN STANDARDS INSTITUTION\n\nThis publication is protected under the Indian Standards Act (XIV of 1957) and reproduction in whole or in part by any means except with written permission of the publisher shall be deemed to be an infringement of copyright under the said Act.\n\n\n\n\nIS : 11639 (Part 1) : 1986\n\n[Continued from page 1]\n\n\n\n\n\nIS : 11639 (Part 1) : 1986\n\nIndian Standard\n\nCRITERIA FOR STRUCTURAL DESIGN OF PENSTOCKS\n\nPART 1 SURFACE PENSTOCKS\n\n\n## 0 FOREWORD\n\n\n### 0.1\n\nThis Indian Standard (Part I) was adopted by the Indian Standards Institution on 31 January 1986, after the draft finalized by the Water Conductor Systems Sectional Committee had been approved by the Civil Engineering Division Council.\n\n\n### 0.2\n\nConduits carrying water from surge tanks or directly from a reservoir, forebay, to the power house are known as penstocks. Penstocks are generally of concrete or steel or a combination of both. The pressure varies from minimum at the upstream end to the maximum at the junction with the scroll case.\n\n\n## 1 SCOPE\n\n\n### 1.1\n\nThis standard (Part I) lays down the various forces acting on surface penstocks and structural design of penstocks conveying water under pressure flow conditions. However, this does not cover specials of penstocks like penstock supports, manifolds, bends, expansion joints, manholes, branch outlets, etc.",
+    "metadata": {
+      "source": "11639_1_1986_reff2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 4,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 1,
+      "char_end": 1929,
+      "semantic_chunk_length": 1928,
+      "final_chunk_length": 1928,
+      "standard_no": "IS 11639",
+      "year": "1986",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11639_1_1986_reff2020_0001",
+    "text": " standard (Part I) lays down the various forces acting on surface penstocks and structural design of penstocks conveying water under pressure flow conditions. However, this does not cover specials of penstocks like penstock supports, manifolds, bends, expansion joints, manholes, branch outlets, etc.\n\n## 2 NOTATIONS\n\n\n### 2.1\n\nFor the purpose of this standard, the following notations shall have the meaning indicated against each:\n\n| Symbol | Meaning |\n| --- | --- |\n| A | cross-sectional area of pipe shell material, mm² |\n| A₁ | cross sectional area of stiffener ring, mm² |\n| b | width of ring girder or stiffener ring, mm |\n| C | moment coefficient |\n| E | modulus of elasticity |\n| f₁, f₂, f₃ | longitudinal stresses, N/mm² |\n| f₄ | secondary bending stress, N/mm² |\n| f₅ | total circumferential stress, N/mm² |\n| f₆ | total longitudinal stress, N/mm² |\n| l | height of stiffener ring or ring girder, mm |\n| L | span length of pipe, mm |\n| M, M₁ | moments |\n| P | internal pressure including water hammer, N/mm² |\n| P₁ | total reaction at support, N |\n| q | shear stress, N/mm² |\n| r₁ | radius of pipe shell, mm |\n| r | mean radius of shell, mm |\n| S | hoop stress in pipe, N/mm² |\n| Sₑ | equivalent stress, N/mm² |\n| Sₓ, Sᵧ | principal stresses, N/mm² |\n| T | temperature rise or drop, °C |\n| t | thickness of pipe shell, mm |\n| t₁ | thickness of stiffener ring or ring girder, mm |\n| W | total distributed weight, that is, self-weight of shell + weight of water, N/m |\n| W₁ | total weight, that is, weight of shell + weight of water, N |\n| Z | section modulus of pipe shell, m³ |\n| α | coefficient of linear expansion or contraction of pipe shell material, per °C |\n| μ | coefficient of friction |\n\n\n## 3 DATA REQUIRED\n\n\n### 3.1\n\nThe following data is required for the structural design of penstocks:\n\n- a) General drawing of installation;\n- b) Complete longitudinal profile;\n- c) Type of penstock:\n    - i) Free penstock pipe laid in a tunnel, and\n    - ii) Steel lined pressure shaft.\n- d) Geological data;\n    - i) Geology of area,\n    - ii) Type of ground/rock,\n    - iii) Bearing capacity of ground,\n    - iv) Shear properties of soil,\n    - v) Modulus of deformation, and\n    - vi) Seismic coefficient.\n- e) Climatic conditions;\n    - i) Temperature (maximum, mean, minimum, by day and night and in summer and winter),\n    - ii) Wind conditions (direction and maximum speed), and\n    - iii) Snow conditions (period and average depth of snow).\n- f) Hydraulic data;\n    - i) Diameter of penstock, and\n    - ii) Discharge through penstock.",
+    "metadata": {
+      "source": "11639_1_1986_reff2020.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "2",
+      "heading": "2 NOTATIONS",
+      "heading_path": [
+        "2 NOTATIONS"
+      ],
+      "char_start": 1932,
+      "char_end": 4181,
+      "semantic_chunk_length": 2249,
+      "final_chunk_length": 2551,
+      "standard_no": "IS 11639",
+      "year": "1986",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11639_1_1986_reff2020_0002",
+    "text": ") Temperature (maximum, mean, minimum, by day and night and in summer and winter),\n    - ii) Wind conditions (direction and maximum speed), and\n    - iii) Snow conditions (period and average depth of snow).\n- f) Hydraulic data;\n    - i) Diameter of penstock, and\n    - ii) Discharge through penstock.\n\n## 4 LOADS ON PENSTOCK\n\n\n### 4.1\n\nThe following are the main loads considered for the design of penstocks:\n\n- a) Internal water pressure,\n- b) Weight of penstock and water, and\n- c) Temperature.\n\nIn addition, the other loads considered depending on location are:\n\n- a) Wind load,\n- b) Snow load, and\n- c) Seismic forces.\n\n\n### 4.2\n\nThe loads given in 4.1 are of the following nature:\n\n- a) Permanent loads,\n- b) Intermittent loads, and\n- c) Exceptional loads.\n\n\n#### 4.2.1\n\nThe loads of permanent nature are the forces which act upon the penstock in normal operation. They correspond to:\n\n- a) The maximum operating pressure which is the sum of maximum static pressure and over pressure due to water hammer under normal operating conditions, taking into account the oscillations in surge tank;\n- b) The weight of penstock and water between the supports;\n- c) Spacing and type of supports;\n\n\n\nIS : 11639 (Part 1) : 1986\n\n- d) The difference between the temperature which may exist in the penstock in normal operation and the temperature existing when coupling up the sections during erection;\n- e) Friction at supports; and\n- f) Temperature variation.\n\n\n#### 4.2.2\n\nThe loads of intermittent nature are the forces which though not exceptional, do not arise often.\n\nThe two main cases are:\n\n- a) Penstock during filling, and\n- b) Empty penstock under partial vacuum.\n\nThe forces to be taken into account in each case correspond to:\n\n- a) The weight of penstock and water between the supports,\n- b) The type and spacing between supports,\n- c) The temperature effect, and\n- d) Friction at supports.\n\nIn addition to the forces enumerated in (a) to (d), intermittent loads may also occur due to wind or snow load and earthquakes.\n\n\n#### 4.2.3\n\nThe loads of exceptional nature that may act upon the penstocks are:\n\n- a) Shop or site test;\n- b) Erection stresses;\n- c) Bad operation of safety devices during filling such as non-operation of air valves which would create vacuum inside during emptying operation of penstocks;\n- d) Pressure rise caused due to unforeseen operation of regulating equipment of turbine/pump distribution:\n    - i) In case of impulse turbine, pressure rise due to needle slam on loss of oil pressure or mechanical failure; and\n    - ii) In case of reaction turbine, turbine gates may be closed instantaneously at any time by action of governor manual control of main relay valve or by the emergency solenoid device.\n- e) Stresses developed due to resonance in penstock (As far as possible, the frequency of penstock pipe in any reach shall not match with the frequency of the machine, frequency of vortex shedding in the draft tube, frequency of the system, etc, and resonance shall be avoided); and\n- f) Seismic forces.",
+    "metadata": {
+      "source": "11639_1_1986_reff2020.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 7,
+      "clause": "4",
+      "heading": "4 LOADS ON PENSTOCK",
+      "heading_path": [
+        "4 LOADS ON PENSTOCK"
+      ],
+      "char_start": 4184,
+      "char_end": 6923,
+      "semantic_chunk_length": 2739,
+      "final_chunk_length": 3041,
+      "standard_no": "IS 11639",
+      "year": "1986",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11639_1_1986_reff2020_0003",
+    "text": " Stresses developed due to resonance in penstock (As far as possible, the frequency of penstock pipe in any reach shall not match with the frequency of the machine, frequency of vortex shedding in the draft tube, frequency of the system, etc, and resonance shall be avoided); and\n- f) Seismic forces.\n\n## 5 STRESSES IN PENSTOCK SHELL\n\n\n### 5.1\n\nThe stresses in the penstock shell of surface penstocks are subjected to circumferential and longitudinal stresses. The stresses in pipe at the mid-span and at the supports are as below:\n\n- a) At mid-span:\n    - i) Hoop stresses developed due to internal pressure equal to sum of static pressure due to maximum water level in reservoir or surge tank plus the dynamic pressure due to water hammer as calculated for operating conditions,\n    - ii) Longitudinal stresses developed due to its own weight and weight of water by beam action,\n    - iii) Longitudinal stresses developed due to sliding friction over the supports, and\n    - iv) Longitudinal stresses developed due to expansion or contraction of penstock shell due to variation of temperature.\n- b) At supports:\n    - i) Circumferential stresses developed at the supports due to bending caused by internal pressure,\n    - ii) Longitudinal stresses due to secondary bending moments caused by the restraints imposed by ring girder or stiffener rings,\n    - iii) Longitudinal stresses developed at the supports due to beam action, and\n    - iv) Longitudinal stresses developed by forces enumerated in 4.1.\n\n\n### 5.2\n\nThe stresses in penstock shell shall also be checked to withstand the stresses developed due to intermittent and exceptional loading and for the following forces:\n\n- a) Longitudinal stresses developed due to earthquake and wind,\n- b) Circumferential stresses developed due to pressure rise caused by non-operation as specified in 4.2.3 (d),\n- c) Longitudinal stresses developed due to wind, and\n- d) Stresses developed due to filling and draining of penstocks.",
+    "metadata": {
+      "source": "11639_1_1986_reff2020.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5",
+      "heading": "5 STRESSES IN PENSTOCK SHELL",
+      "heading_path": [
+        "5 STRESSES IN PENSTOCK SHELL"
+      ],
+      "char_start": 6926,
+      "char_end": 8600,
+      "semantic_chunk_length": 1674,
+      "final_chunk_length": 1976,
+      "standard_no": "IS 11639",
+      "year": "1986",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11639_1_1986_reff2020_0004",
+    "text": "s:\n\n- a) Longitudinal stresses developed due to earthquake and wind,\n- b) Circumferential stresses developed due to pressure rise caused by non-operation as specified in 4.2.3 (d),\n- c) Longitudinal stresses developed due to wind, and\n- d) Stresses developed due to filling and draining of penstocks.\n\n## 6 METHOD OF CALCULATION OF STRESSES IN PIPE SHELL\n\n### 6.1\n\nThe stresses for different forces shall be calculated as given in 6.1.1 to 6.1.7.\n\n\n\nIS : 11639 (Part 1) : 1986\n\n\n#### 6.1.1 Hoop Stress Due to Internal Pressure\n\n\n##### 6.1.1.1\n\nThe hoop stress developed due to internal pressure is given by:\n\ns = PD / (2t)\n\nNOTE — The internal pressure P is due to static head + dynamic head.\n\n\n#### 6.1.2 Longitudinal Joint Efficiency (η)\n\n\n##### 6.1.2.1\n\nIt shall be taken as 1.0 for fully radiographed joint.\n\n\n#### 6.1.3 Longitudinal Stress Due to Beam Action\n\n\n##### 6.1.3.1\n\nThe stress developed due to self-weight and weight of water pipe spanning over supports due to beam action shall be calculated by the following formula:\n\n\nwhere\n\nM = bending moment caused due to self-weight and weight of water.\n\nNOTE — Bending moment, M, at mid-span and at support shall be calculated for each case considering the pipe as a beam spanning continuously over intermediate supports.\n\n\n##### 6.1.3.2\n\nThe longitudinal stresses developed due to radial strain caused by internal pressure may be taken equal to 0.303 times the hoop tension.\n\n\n##### 6.1.3.3\n\nThe longitudinal stresses developed due to seismic forces in the pipe spanning over the support due to beam action is equivalent to seismic coefficient times stresses calculated in 6.1.3.1. These stresses should be added to stresses calculated in 6.1.3.1.\n\n\n##### 6.1.3.4\n\nThe longitudinal stresses developed due to wind or snow load acting on the pipe spanning over the support are calculated as given in 6.1.3.1, where bending moment, M, is caused due to wind load or snow load.\n\n\n#### 6.1.4 Longitudinal Stress Due to Sliding Friction\n\n\n##### 6.1.4.1\n\nThe maximum longitudinal stress developing over all supports within a section between an expansion joint and the subsequent support shall be calculated by the formula:\n\nf = (μW cos β ± W sin β) / A ± (P₁ × a) / Z\n\nwhere\n\nP₁ = total sliding friction in section between an expansion joint and subsequent support = μW cos β,\n\na = eccentricity of frictional force relative to centre line of penstock,\n\nZ = section modulus of pipe shell, and\n\nβ = angle of section under consideration with the horizontal.\n\nThe coefficient of friction, μ, between shell and support shall be taken from Table 1.\n\n\n\nIS : 11639 (Part 1) : 1986\n\n\n**TABLE 1 FRICTION COEFFICIENTS FOR DIFFERENT MATERIALS**\n\n(Clause 6.1.4.1)\n\n| Sl No. | Type of Supports | Friction Coefficient μ |\n| --- | --- | --- |\n| i) | Steel on concrete | 0.60 |\n| ii) | Steel on concrete with asphalt roofing paper in between | 0.50 |\n| iii) | Steel on steel (rusty) | 0.50 |\n| iv) | Steel on steel (greased) | 0.25 |\n| v) | Steel on steel with two layers of graphite service sheets in between | 0.25 |\n| vi) | Rocker support | 0.15 |\n| vii) | Roller support | 0.10 |\n| viii) | Concrete on concrete | 0.50 |",
+    "metadata": {
+      "source": "11639_1_1986_reff2020.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 10,
+      "clause": "6.1",
+      "heading": "6.1",
+      "heading_path": [
+        "6 METHOD OF CALCULATION OF STRESSES IN PIPE SHELL",
+        "6.1"
+      ],
+      "char_start": 8603,
+      "char_end": 11457,
+      "semantic_chunk_length": 2854,
+      "final_chunk_length": 3155,
+      "standard_no": "IS 11639",
+      "year": "1986",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11639_1_1986_reff2020_0005",
+    "text": "g paper in between | 0.50 |\n| iii) | Steel on steel (rusty) | 0.50 |\n| iv) | Steel on steel (greased) | 0.25 |\n| v) | Steel on steel with two layers of graphite service sheets in between | 0.25 |\n| vi) | Rocker support | 0.15 |\n| vii) | Roller support | 0.10 |\n| viii) | Concrete on concrete | 0.50 |\n\n#### 6.1.5 Temperature Stress\n\n\n##### 6.1.5.1\n\nLongitudinal stresses caused due to expansion or contraction of pipe shell shall be calculated by the following formulae:\n\n- a) Pipe shell without expansion joint\n\nf₆ = E α T\n\n- b) Pipe shell with expansion joint\n\nf₆ = (μ₁ P₁₁) / A\n\nwhere\n\nμ₁ = coefficient of friction between packing material and pipe shell, and\n\nA_c = contact area between penstock shell and packing material in mm².\n\n\n#### 6.1.6 Circumferential Bending Stresses at Support\n\n\n##### 6.1.6.1\n\nCircumferential stresses at supports due to bending caused by internal pressure shall be calculated by the following formula:\n\nM = C P l r² / 9\n\n\n\nIS : 11639 (Part 1) : 1986\n\nThe value of C for different angles of support is given in Fig. 1. The effective length of shell resisting the bending moment is equal to 4 times the radius of the shell.\n\n[Figure: FIG. 1 — VARIATION OF CIRCUMFERENTIAL MOMENT AROUND SHELL RESTING ON SADDLE SUPPORT — graph showing C vs angle of shell in degrees (0-360)]\n\n\n#### 6.1.7 Longitudinal Bending Stress Due to Restraint by Ring Girder or Stiffener Rings at the Support\n\n\n##### 6.1.7.1\n\nThe secondary bending stress due to restraint shall be calculated by the formula:\n\n\nNOTE — This stress is local and the effect shall be taken for a distance of 3√(rt) on either side of the supporting ring and pipe thickness shall be increased, if required, in this zone.\n\n\n## 7 EQUIVALENT STRESSES\n\nIS : 11639 (Part 1) : 1986\n\n\n### 7.1\n\nThe circumferential and longitudinal stresses obtained as specified in 6.1.1 to 6.1.7, shall be combined to obtain equivalent stresses in accordance with Hencky Mises Theory, given by the formula:\n\n\nwhere\n\nf₆ = longitudinal stress, f₅ = hoop stress, and q = shear stress.\n\nThe equivalent stresses may be readily obtained from Fig. 2.\n\n\n## 8 LINER THICKNESS\n\n\n### 8.1\n\nThe liner thickness of an exposed penstock shall withstand the equivalent stress as specified in 7.\n\n\n### 8.2\n\nNotwithstanding the thickness obtained as specified in 8.1 and regardless of pressure, a minimum thickness of liner shall be provided to resist the distortion during fabrication and erection. A minimum thickness of (D + 6.5) / 400 cm is recommended where D is the diameter of shell in cm.\n\n\n### 8.3\n\nNo corrosion allowance is recommended. Instead, it is suggested to paint the inside and the outside surface of pipe with a paint conforming to the relevant Indian Standard.",
+    "metadata": {
+      "source": "11639_1_1986_reff2020.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "6.1.5",
+      "heading": "6.1.5 Temperature Stress",
+      "heading_path": [
+        "6 METHOD OF CALCULATION OF STRESSES IN PIPE SHELL",
+        "6.1",
+        "6.1.5 Temperature Stress"
+      ],
+      "char_start": 11460,
+      "char_end": 13875,
+      "semantic_chunk_length": 2415,
+      "final_chunk_length": 2717,
+      "standard_no": "IS 11639",
+      "year": "1986",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "11639_1_1986_reff2020_0006",
+    "text": "ation and erection. A minimum thickness of (D + 6.5) / 400 cm is recommended where D is the diameter of shell in cm.\n\n\n### 8.3\n\nNo corrosion allowance is recommended. Instead, it is suggested to paint the inside and the outside surface of pipe with a paint conforming to the relevant Indian Standard.\n\n## 9 WORKING STRESSES AND FACTOR OF SAFETY\n\n\n### 9.1 Normal Operating Condition\n\nIt is recommended that under normal operating condition as specified in 4.2.1, the working stresses with a factor of safety of 3 based on the minimum ultimate tensile strength shall be adopted for design but in no case the maximum stresses obtained in 7.1 shall exceed 0.5 times the specified minimum yield strength of material.\n\n\n### 9.2 Intermittent Loading Condition\n\nIt is recommended that under intermittent loading condition as specified in 4.2.2, the working stresses with a factor of safety of 2.5 based on minimum ultimate tensile strength shall be adopted for designs but in no case the maximum stresses obtained in 7.1 shall exceed 2/3 the specified minimum yield strength of material.\n\n\n\nIS : 11639 (Part 1) : 1986\n\n[Figure: FIG. 2 — EQUIVALENT STRESS DIAGRAM]\n\n\n### 9.3 Exceptional Condition\n\nUnder exceptional loading condition as specified in 4.2.3, it is recommended that the working stresses with a factor of safety 2.0 based on minimum ultimate strength shall be adopted for design but in no case the maximum stresses obtained in 7.1 shall exceed 0.8 times the specified minimum yield strength of material.\n\n\n\n(Continued from page 2)\n\nIS : 11639 (Part 1) : 1986\n\n[Committee composition continued — flagged for manual review due to heavy OCR corruption]\n\n\n\n\nIS : 11639 (Part 1) : 1986\n\nINTERNATIONAL SYSTEM OF UNITS (SI UNITS)\n\n\nBase Units\n\n| Quantity | Unit | Symbol |\n| --- | --- | --- |\n| Length | metre | m |\n| Mass | kilogram | kg |\n| Time | second | s |\n| Electric current | ampere | A |\n| Thermodynamic temperature | kelvin | K |\n| Luminous intensity | candela | cd |\n| Amount of substance | mole | mol |\n\n\nSupplementary Units\n\n| Quantity | Unit | Symbol |\n| --- | --- | --- |\n| Plane angle | radian | rad |\n| Solid angle | steradian | sr |\n\n\nDerived Units\n\n| Quantity | Unit | Symbol | Definition |\n| --- | --- | --- | --- |\n| Force | newton | N | = 1 kg·m/s² |\n| Energy | joule | J | = 1 N·m |\n| Power | watt | W | = 1 J/s |\n| Flux | weber | Wb | = 1 V·s |\n| Flux density | tesla | T | = 1 Wb/m² |\n| Frequency | hertz | Hz | = 1 c/s (s⁻¹) |\n| Electric conductance | siemens | S | = 1 A/V |\n| Electromotive force | volt | V | = 1 W/A |\n| Pressure, stress | pascal | Pa | = 1 N/m² |",
+    "metadata": {
+      "source": "11639_1_1986_reff2020.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 15,
+      "clause": "9",
+      "heading": "9 WORKING STRESSES AND FACTOR OF SAFETY",
+      "heading_path": [
+        "9 WORKING STRESSES AND FACTOR OF SAFETY"
+      ],
+      "char_start": 13878,
+      "char_end": 16165,
+      "semantic_chunk_length": 2287,
+      "final_chunk_length": 2589,
+      "standard_no": "IS 11639",
+      "year": "1986",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  }
+]

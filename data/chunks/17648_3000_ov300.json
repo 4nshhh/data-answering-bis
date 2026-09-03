@@ -1,0 +1,908 @@
+[
+  {
+    "id": "17648_0000",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002 www.bis.gov.in  www.standardsbis.in\n\n\b Price Group 7\n\n\n\n\nPower System Control and Associated Communications Sectional Committee, LITD 10\n\nFOREWORD\n\nThis Indian Standard was adopted by the Bureau of Indian Standards, after the draft finalized by the Power System Control and Associated Communications Sectional Committee had been approved by the Electronics and Information Technology Division Council.\n\nIndian grids have seen tremendous growth in electricity consumption in last few decades, which resulted into requirement of increase in efficiency in operation in all the sectors of power systems. This standard is focused on the distribution system. This standard provides a set of requirements to guide the Indian utilities who want to implement such a solution. The requirements mentioned in the standard are minimum and utilities may incorporate additional requirements to develop the reference project on case to case basis. These requirements are developed in accordance with present operational practices of Indian power distribution system operate. The requirements in this standard are listed and explained to make the utilities aware of their features and must not be construed as mandatory but rather be used as a guide to the Utilities to understand these tools so as to help them decide along with the solution provider what is the best course for their implementation within the utility’s network.\n\n\n**Fig. 1 Operation Technology Overview**\n\n\n\n\nCONTENTS\n\n\b Page No.\n\n1 SCOPE ... 1\n\n2 REFERENCES ... 1\n\n\n## 3 DISTRIBUTION SYSTEM OPERATION MODEL (DSOM) ... 1\n\n\n## 4 DISTRIBUTION MANAGEMENT APPLICATION ... 2\n\n\n4.1 Network Connectivity Analysis (NCA) ... 2 4.2 Distribution Load/Power Flow (DLF/DPF) ... 3 4.3 Characteristics of LF Application ... 3 4.4 Real Time Load Flow Execution ... 3 4.5 Input/Output ... 4 4.6 Alarms ... 4 4.7 Display and Reports ... 4\n\n5 VOLT-VAR CONTROL ... 4\n\n\n### 5.1 Voltage Control ... 4 5.2 VAR Control ... 5 5.3 Modes of Operation ... 5 5.4 Reports ... 5 5.5 Displays ... 5\n\n\n## 6 DISTRIBUTION LOAD FORECASTING ... 5\n\n\n### 6.1 Short-Term Load Forecasting (STLF) ... 6 6.2 Long Term Forecasting ... 6\n\n\n## 7 FAULT IDENTIFICATION & SERVICE RESTORATION ... 6\n\n\n7.1 The FISR function shall have the General Characteristics ... 7 7.2 Detection of Fault ... 7 7.3 System Isolation and Restoration ... 8 7.4 Reports ... 9 7.5 Graphical User Interface ... 9\n\n\n## 8 LOAD SHEDDING APPLICATION (LS) ... 9\n\n\n8.1 Basic Rules for Load Shedding and Restoration ... 9 8.2 Modes of Operation ... 9 8.3 Manual Load Shed ... 9 8.4 Manual Load Restoration ... 9 8.5 Auto Load Shed ... 10 8.6 Auto Load Restoration ... 10 8.7 Alarms/Events ... 10 8.8 Summary Report ... 10\n\n9 OPERATIONS MONITORING ... 11\n\n\n\n\n\b Page No.\n\n\n## 10 DISTRIBUTION OPERATIONAL MODIFICATION (JUMPER, GROUND & CUT) ... 11\n\n\n### 10.1 Jumper ... 11 10.2 Ground ... 11 10.3 Cuts ... 11 10.4 Reports and Displays ... 12",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 4,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2973,
+      "semantic_chunk_length": 2971,
+      "final_chunk_length": 2971,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0001",
+    "text": "8.6 Auto Load Restoration ... 10 8.7 Alarms/Events ... 10 8.8 Summary Report ... 10\n\n9 OPERATIONS MONITORING ... 11\n\n\n\n\n\b Page No.\n\n\n## 10 DISTRIBUTION OPERATIONAL MODIFICATION (JUMPER, GROUND & CUT) ... 11\n\n\n### 10.1 Jumper ... 11 10.2 Ground ... 11 10.3 Cuts ... 11 10.4 Reports and Displays ... 12\n\n## 11 OUTAGE MANAGEMENT SYSTEM ... 12\n\n\n11.1 Objective of the OMS is Intended to Provide Following Functions ... 12 11.2 OMS Integration other System ... 12\n\n\n## 12 OPTIMAL FEEDER RECONFIGURATION ... 13\n\n\n### 12.1 Objective Functions ... 13 12.2 Output ... 14 12.3 Modes of Operation ... 14 12.4 Reports ... 14 12.5 Displays ... 14\n\n\n## 13 DISTRIBUTION SYSTEM STATE ESTIMATOR (DSSE) ... 14\n\n\n### 13.1 Determination of Load Base Values ... 14 13.2 Trust Factor ... 14 13.3 Load Adaptation ... 14\n\n\n## 14 SHORT CIRCUIT CALCULATION (SCC) ... 14\n\n\n### 14.1 SCC Calculation ... 15 14.2 Modes of Operation ... 15\n\n\n## 15 QUALITY OF SERVICE INDICES ... 15\n\n\n## ANNEX A   LIST OF REFERRED INDIAN/INTERNATIONAL STANDARDS ... 16\n\n\n## ANNEX B  ABBREVIATION ... 16\n\nLIST OF FIGURES\n\n\n**Fig. 1 Operation Technology Overview ... ii Fig. 2 Sample Utility Implementation (see IS/IEC 61968) ... 2 Fig. 3 Sample Concept of Outage Management System ... 13**\n\n\n\n\n\nIndian Standard\n\n\nGUIDELINE FOR DISTRIBUTION MANAGEMENT SYSTEM IN THE CONTEXT OF ELECTRICAL UTILITIES\n\n\n## 1 SCOPE\n\nat regular intervals. Data import from GIS shall be compatible to import related reference layers such as streets, buildings, poles etc. and other background information.\n\nThe scope of this standard is limited to the requirement of the processes and technological enablement for distribution operation. This includes outage, interruption handling to enhance reliability and safety with optimized resources. The scope covers integration scenarios at the interfaces with other applications in line with common information model [Ref IS 16336 (Part 1) with IS/IEC 61968].\n\nAll Technological addresses (TAs) shall be automatically assigned within the system to the tags linking the graphic data to the attribute data in the GIS, the attribute data shall be loaded into the SCADA/DMS data base and the data/text shall be displayed on SCADA/DMS diagrams if viewed in GIS mode. The display shall be in GIS background with zoom, pan, scaling and UI navigation techniques in synch with SCADA/DMS system displays. This model repository will be the single model authority for the entire utility network to be used by utility. This integrated repository is to be maintained at the GIS System. In absence of GIS system at the utility, this shall be developed in SCADA/DMS system dedicatedly.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "11",
+      "heading": "11 OUTAGE MANAGEMENT SYSTEM ... 12",
+      "heading_path": [
+        "11 OUTAGE MANAGEMENT SYSTEM ... 12"
+      ],
+      "char_start": 2976,
+      "char_end": 5314,
+      "semantic_chunk_length": 2338,
+      "final_chunk_length": 2640,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0002",
+    "text": "CADA/DMS system displays. This model repository will be the single model authority for the entire utility network to be used by utility. This integrated repository is to be maintained at the GIS System. In absence of GIS system at the utility, this shall be developed in SCADA/DMS system dedicatedly.\n\n## 2 REFERENCES\n\nThe standards listed in Annex A and abbreviations in Annex B contains provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreement based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards.\n\nThe GIS shall use CIM/XML adapters, if available with other applications. In case GIS does not support CIM/XML then pgdb and DxF export should be provided. SCADA model adapters need to be GIS aware; SCADA shall be able to update its models from GIS. The system shall utilize an IS/IEC 61970 (Part 1) and IS/IEC 61968 compliant interfaces. The system shall enable export of all data as per IEC 61970-552 : 2016 (CIM-XML). Where GIS data is not available DSOM Data shall be created manually.\n\n\n## 3 DISTRIBUTION SYSTEM OPERATION MODEL (DSOM)\n\nThe solution shall include a Distribution System Operations Model (DSOM). The DSOM shall serve as a central interface and information resource. DSOM shall represent the operating state of Utility’s distribution network as well as the operating state of the solution, other systems with which it communicates, field devices, and communication systems.\n\nData exchange shall be over model neutral messaging services and CIM/XML data exchange for real-time RDBMS will be used.\n\nThe DSOM shall provide as a minimum complete network model including data of the electrical asset for example, line (that is, length, type of conductor, technical particular of conductor, transformer etc), and land-based data. GIS interface adaptor to enable the connectivity with GIS application and its data format/model shall be provided. The Graphic data import from GIS systems shall support native formats of GIS systems and be usable for data import. Data transfer/input shall be supported both globally and incrementally on manual request and automatically\n\nThe DSOM shall adequately represent power system elements generators, substation buses, on-load tap changing transformers, reactors, breakers, recloser, overhead lines, underground cables, voltage regulators, load break switches, fuses, switched capacitor banks, distribution transformers, loads (with parameterized voltage dependencies), automatic transfer switches, and temporary connections and disconnections applied in the field using jumpers, grounds, and cuts.\n\n\n\n\n\n**Fig. 2 Sample Utility Implementation (see IS/IEC 61968)**",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "2",
+      "heading": "2 REFERENCES",
+      "heading_path": [
+        "2 REFERENCES"
+      ],
+      "char_start": 5317,
+      "char_end": 7859,
+      "semantic_chunk_length": 2542,
+      "final_chunk_length": 2844,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0003",
+    "text": "ses, switched capacitor banks, distribution transformers, loads (with parameterized voltage dependencies), automatic transfer switches, and temporary connections and disconnections applied in the field using jumpers, grounds, and cuts.\n\n\n\n\n\n**Fig. 2 Sample Utility Implementation (see IS/IEC 61968)**\n\n## 4 DISTRIBUTION MANAGEMENT APPLICATION\n\nThe distribution management applications shall consists of a set of tools to help the operator monitor, control and aid in the observation and restoration of the distribution system. Following applications to be included:\n\n- a) Network connectivity analyzer (topology analyzer); b) Distribution load/power flow; c) Volt/var control; d) Load forecasting; e) Fault isolation and system restoration; f) Rotational load shed; g) Operations monitoring; h) Distribution network (modification (jumper,\nground and cut)/temporary network changes; j) Outage management system; k) Optimal feeder reconfiguration; m) Distribution system state estimator (DSSE); n) Short circuit calculation (SCC).\n\n\n### 4.1 Network Connectivity Analysis (NCA)\n\n\n#### 4.1.1 Definition and Purpose\n\nAn accurate insight into the present topology of the distribution network (normal or disturbed) is required for management of distribution networks. Network connectivity analysis (NCA) analytical function is a general tool for various topology analysis of the distribution network represented in form of graphs. On the basis of network connectivity and switchgear statuses, this function provides the network topology that is used in other functions.\n\n\n\n#### 4.1.2 Functionality\n\nMain analyses to be provided by the NCA are:\n\n- a) Locating an element of the network (transformer,\nsection, etc) by name or ID. b) Locating and marking supply paths of network\n\nelements. c) Determining and marking of statuses of network\n\nelements (making distinction among energized and de-energized network elements, switchgear statuses, etc.). d) Locating and marking of networks loops. e) Locating and marking of all network elements\n\ndownstream a selected element. f) Locating and marking of all elements supplied in\n\na radial way by a selected root. g) Locating and marking of all sources and flow\n\ndirections that supply a point. h) Colouring the network element by voltage level. j) Colouring of grounded parts of network. k) Colouring by on/off status of elements. m) Colouring by active phases.\n\n\n#### 4.1.3 Methodology\n\nGraph topological searching procedures are basis for this function establishment. Different types of coloring are mainly applied for presentation of results of the function running. The function can be used in both the on-line and simulation mode.\n\n\n#### 4.1.4 Input/Output\n\nMain input of the function is the considered network graph (network connectivity) provided by the network model function running.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4",
+      "heading": "4 DISTRIBUTION MANAGEMENT APPLICATION",
+      "heading_path": [
+        "4 DISTRIBUTION MANAGEMENT APPLICATION"
+      ],
+      "char_start": 7862,
+      "char_end": 10387,
+      "semantic_chunk_length": 2525,
+      "final_chunk_length": 2827,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0004",
+    "text": "oring are mainly applied for presentation of results of the function running. The function can be used in both the on-line and simulation mode.\n\n\n#### 4.1.4 Input/Output\n\nMain input of the function is the considered network graph (network connectivity) provided by the network model function running.\n\n### 4.2 Distribution Load/Power Flow (DLF/DPF)\n\n\n4.2.1 Distribution load/power flow is a numerical analysis of the flow of electric power that is, an application that uses network topology information provided by the connectivity analyses application, as well as the current estimated load demands, measured input to determine present state of network. The network’s state shall consist of;\n\n- a) Complex voltage, b) Current, flow of active and reactive power, c) Voltage drop, and d) Losses.\n\n4.2.2 Generally, load (power) flow model of power systems (distribution networks included) represents a mathematical description of the active and reactive power balance in the system (the power supply equals to the load and losses), for selected voltage conditions. The load flow application shall provide estimated values for those electrical quantities at network locations where telemetered measurements are not available/not provided by user. Load flow shall be the base for establishment of all other DMS functions.\n\nThe LF shall take following into consideration:\n\n- a) Telemetered data from SCADA; b) Manual entry data; c) Estimated data from last state estimator/LF raw; d) Power source injections including DER generation, if applicable; e) Loops and parallels; f) Unbalanced and balanced loads; g) Manually edited values; h) Temporary changes through jumper/cut/ground\netc. j) Electrical connectivity information from the\n\nreal-time distribution network model; k) Transformer tap settings; m) Generator voltages, real and reactive generations; n) Capacitor/reactor bank ON/OFF status value; p) HVDS and Non HVDS Network; q) Data from meter data repository for load\n\nprofiling of the loads (for example, distribution transformers); and r) Saved case data.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.2",
+      "heading": "4.2 Distribution Load/Power Flow (DLF/DPF)",
+      "heading_path": [
+        "4 DISTRIBUTION MANAGEMENT APPLICATION",
+        "4.2 Distribution Load/Power Flow (DLF/DPF)"
+      ],
+      "char_start": 10392,
+      "char_end": 12151,
+      "semantic_chunk_length": 1759,
+      "final_chunk_length": 2061,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0005",
+    "text": "model; k) Transformer tap settings; m) Generator voltages, real and reactive generations; n) Capacitor/reactor bank ON/OFF status value; p) HVDS and Non HVDS Network; q) Data from meter data repository for load\n\nprofiling of the loads (for example, distribution transformers); and r) Saved case data.\n\n### 4.3 Characteristics of LF Application\n\nThe following general characteristics/capabilities shall be provided as minimum for LF to be considered as compliant to this standard:\n\n- a) The LF model shall support the different kind of\nlines/conductors at different site conditions, such as cable feeders, overhead lines and different kind\n\n\nIS 17648 : 2021\n\nof transformers having various vector groups and winding configurations. b) Unbalanced and balanced three phase and single\n\nor two phase loads connected in radial and non-radial modes. In case reliable data is not readily available, balanced mode shall be more accurate and be used. c) Compute voltages and currents and power factor\n\nfor each phase for every node, feeder and network devices (like switches, transformer etc). d) Compute each phase active and reactive loads and\n\ntechnical losses for the distribution system as a whole, for individual substations and feeder wise taking into account the telemetered data. e) Use previous save-case to make new save case or\n\nuse new snapshots to set the base case for LF. f) The results of the LF application shall reasonably\n\nmatch with the operating condition in which the distribution system is stable that is, operating capability due to equipment constraint. g) The LFA shall be executed in real time and study\n\nmode (study mode is used to run “What If” scenarios). h) It shall be possible to model load either as a\n\npercentage of system load or profile base load modelling. j) It shall be possible to model individual component\n\nof load i.e. Active and Reactive parts.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.3",
+      "heading": "4.3 Characteristics of LF Application",
+      "heading_path": [
+        "4 DISTRIBUTION MANAGEMENT APPLICATION",
+        "4.3 Characteristics of LF Application"
+      ],
+      "char_start": 12154,
+      "char_end": 13732,
+      "semantic_chunk_length": 1578,
+      "final_chunk_length": 1880,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0006",
+    "text": " shall be executed in real time and study\n\nmode (study mode is used to run “What If” scenarios). h) It shall be possible to model load either as a\n\npercentage of system load or profile base load modelling. j) It shall be possible to model individual component\n\nof load i.e. Active and Reactive parts.\n\n### 4.4 Real Time Load Flow Execution\n\nThe Real-Time LF function shall be executed:\n\n- a) on event trigger; b) on periodic basis; and c) on demand basis. The event triggered LF execution shall have the highest priority. The study mode LF function shall be executed on a snapshot or save case with user defined changes made to these cases. The study mode execution of LF Function shall not affect the Real-time mode execution of LF function.\n\n#### 4.4.1 Event Triggered Real Time LF Execution\n\nThe LF function shall be executed by pre-defined events that affect the distribution system. Some of the events the dispatcher should choose for triggers include:\n\n- a) Power system topology change that is, alteration\nin distribution system configuration. b) Transformer tap position change/capacitive/reactor\n\nMVAR change. c) Feeder over loading.\n\n\n#### 4.4.2 Periodic Real Time LF Execution\n\nThe real-time distribution system load flow application shall be executed periodically as configured by the\n\n\n\ndispatcher or administrator. The function shall be executed periodically even if there are no significant changes in the operating conditions, to provide summaries (losses, power trend etc).\n\nlines are de-energized. Dispatcher should be warned when any abnormal operating condition exists through SCADA/DMS displays.\n\nAlarms generated during Study Mode shall not be treated as real-time alarms but it should be displayed only at study mode window/Workstation at which the LF application is running in study mode.\n\n\n#### 4.4.3 On Demand Real Time LF Execution\n\nDispatchers should initiate the real-time LF function at any time through dispatcher command.\n\n\n### 4.7 Display and Reports\n\n\n#### 4.4.4 Real Time LF Execution initiated by other DMS Applications\n\nAll input and output data shall be viewable through tabular displays and overlay on the one line network diagram. Tabular displays shall consist of voltages, currents (including phase angles), real and reactive powers, real and reactive losses as well as accumulated total and per phase losses for each substation, feeder and project area. All line sections that are overloaded and all buses that have voltage violations shall be highlighted in color. All loops and parallel-fed loads shall be highlighted in a distinct manner.\n\nOther DMS functions shall initiate the real-time LF function at any time as required for the execution of the respective functions (for example, Volt/Var control, FISR, OFR etc).",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "4.4",
+      "heading": "4.4 Real Time Load Flow Execution",
+      "heading_path": [
+        "4 DISTRIBUTION MANAGEMENT APPLICATION",
+        "4.4 Real Time Load Flow Execution"
+      ],
+      "char_start": 13735,
+      "char_end": 16197,
+      "semantic_chunk_length": 2462,
+      "final_chunk_length": 2764,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0007",
+    "text": "ge violations shall be highlighted in color. All loops and parallel-fed loads shall be highlighted in a distinct manner.\n\nOther DMS functions shall initiate the real-time LF function at any time as required for the execution of the respective functions (for example, Volt/Var control, FISR, OFR etc).\n\n### 4.5 Input/Output\n\nMain inputs for the function consist of magnitudes of voltages of network roots (HV or MV bus bars of supply transformers) and loads at MV or LV bus bars of distribution transformers (active and reactive powers, or current magnitude and power factors), for the considered state. Bus loads can be:\n\nThe Load Flow results shall be presented on the graphical displays used for real-time dispatching as well as in tabular form on dedicated displays. The results of the load flow calculation shall be subject to the same limit alarm processing as other calculated data, that is, each calculated variable shall be tested against two (optionally three )pairs of alarm limits, and an alarm shall be generated when a limit violation is detected. Alarms and overloads determined by load flow shall be indicated to the user simply and clearly.\n\n- a) Calculated by state estimation. b) Loaded from a save case file. c) Simulated as a user-specified percentage of peak\nloads, expected loads or rated loads of MV/LV transformers. d) Manually entered by the user and the same shall\n\nhave higher priority than that of telemetered data. The following output capability shall be provided:",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.5",
+      "heading": "4.5 Input/Output",
+      "heading_path": [
+        "4 DISTRIBUTION MANAGEMENT APPLICATION",
+        "4.5 Input/Output"
+      ],
+      "char_start": 16200,
+      "char_end": 17392,
+      "semantic_chunk_length": 1192,
+      "final_chunk_length": 1494,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0008",
+    "text": " b) Loaded from a save case file. c) Simulated as a user-specified percentage of peak\nloads, expected loads or rated loads of MV/LV transformers. d) Manually entered by the user and the same shall\n\nhave higher priority than that of telemetered data. The following output capability shall be provided:\n\n## 5 VOLT-VAR CONTROL\n\nThe high-quality coordination of voltages and reactive power flows control requires coordination of Volt and the Var control function. This goal is provided with the Volt/VAR Control (VVC) analytical application. This function shall have the following objective function quality voltage profiles, minimal losses, relaxation of the network capacities of reactive power flows, minimal reactive power demands from the supply network.\n\n- 1) Complex voltages – voltage magnitudes and phase angles for all nodes; 2) Values of current and power factors for all sections and transformers; 3) Active and reactive power flows in all sections, transformers, and shunts (consumers, generators, motors and capacitors); 4) Losses of active and reactive powers in all network elements; 5) List of limit violations of voltage magnitudes, overloading; 6) Voltage drops of all buses in the system; 7) Losses; 8) Network portions where the LF is not converging and possible option to converge; 9) Trust factor of output that is, accuracy declaration by the application; and 10) Summary of reasons of non–convergence.\n\n### 5.1 Voltage Control\n\nThe voltage control shall provide the capability to raise or lower voltage levels on the distribution feeders. During periods of peak demand, the voltage control function will be used to reduce voltage levels in order to reduce the overall system load.\n\nThe operator will initiate the function by specifying the targeted percentage raise or drop in nominal voltage (generally 2.5 percent or 5 percent). The voltage control function shall respond by commanding on load tap changers (OLTCs) associated with substation transformers and line voltage regulators, if applicable. The same shall be used to take corrective action due to penalty provisions on power quality, reactive power requirements, to manage loss or for demand management also.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "5",
+      "heading": "5 VOLT-VAR CONTROL",
+      "heading_path": [
+        "5 VOLT-VAR CONTROL"
+      ],
+      "char_start": 17395,
+      "char_end": 19282,
+      "semantic_chunk_length": 1887,
+      "final_chunk_length": 2189,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0009",
+    "text": "spond by commanding on load tap changers (OLTCs) associated with substation transformers and line voltage regulators, if applicable. The same shall be used to take corrective action due to penalty provisions on power quality, reactive power requirements, to manage loss or for demand management also.\n\n### 4.6 Alarms\n\nThe LF Application shall warn the dispatcher when the limit violations are detected for any element or when\n\n\n\n\n\nTo meet the above objective, the function shall be capable of:\n\n- a) Identifying the transformers subject to remote\ncontrol; b) Distinguishing those transformers whose controllers accept voltage set point controls from transformers where the tap position has to be controlled directly; c) Monitoring the controlled voltages; d) Monitoring the tap positions of transformers; e) Calculating the changes in tap position that most\n\nclosely correspond to the requested reduction in nominal voltage; f) Estimating voltages at the critical locations\n\non the feeder and the low voltage lines (that is, the highest and the lowest voltages delivered to customers) that would result from the requested control action; and g) Controlling of switched capacitors. When initiated, the voltage control program shall recommend switching action to send voltage control set points or tap raise or lower pulses that result in adjustments to the tap positions of transformers, as appropriate for the transformer type, to all transformers that are subject to control. However, no controls shall be sent to transformers if the resultant voltage for any customer affected by that transformer is estimated to be outside the permitted range and without dispatcher intervention. The voltage control shall estimate customer voltages automatically by calling on the distribution load flow.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "4.6",
+      "heading": "4.6 Alarms",
+      "heading_path": [
+        "5 VOLT-VAR CONTROL",
+        "4.6 Alarms"
+      ],
+      "char_start": 19285,
+      "char_end": 20774,
+      "semantic_chunk_length": 1489,
+      "final_chunk_length": 1791,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0010",
+    "text": "ntrols shall be sent to transformers if the resultant voltage for any customer affected by that transformer is estimated to be outside the permitted range and without dispatcher intervention. The voltage control shall estimate customer voltages automatically by calling on the distribution load flow.\n\n### 5.2 VAR Control\n\nThe Var control function shall be used to limit reactive power flows in the related distribution network. This shall be accomplished by recommending the switching action of sending on/off control signals to the switchable shunt capacitor banks in the system, including those on feeders and in substations consistent with maintaining customers’ delivery voltages within defined norms (± 5 percent of nominal), under continuously varying load conditions.\n\nTo meet the above objective, the function shall be capable of:\n\n- a) Identifying the switched shunt capacitors that are\navailable; b) Monitoring substation active and reactive power\n\nloads and voltages; c) Estimating voltages at the critical locations on the\n\nfeeder and the low voltage lines (that is, the highest and the lowest voltages delivered to customers); d) Checking power factors against desired limits,\n\nwhere the limits shall be expressed in either leading or lagging VAR; and\n\nIS 17648 : 2021\n\n- e) Sending control signals to bring capacitors\non-line or off-line, as appropriate, if power factors are outside their limits, where the limits will be established by distributor as per regulatory norms and shall be dispatcher-adjustable. VAR control shall execute periodically or on configured triggers. It shall use dead-bands to ensure that no unnecessary control actions are taken. VAR control shall use the distribution power flow calculation to estimate voltage effects prior to switching a capacitor bank, so that operator-adjustable voltage limits shall not be violated control shall also be skipped if the capacitor bank was last operated by the function within an adjustable time period, as per user define for example, 10-15 min.\n\n\n### 5.3 Modes of Operation\n\nThe VVC function shall have following modes of reconfiguration process:\n\n- a) Auto mode; and b) Manual mode. The dispatcher shall be able to select one of the above modes. These modes are described below.\n\n#### 5.3.1 Auto Mode\n\nIn auto mode, the function shall determine switching plans automatically and perform switching operations upon dispatcher validation automatically.\n\n\n#### 5.3.2 Manual Mode\n\nIn manual mode, the function shall determine switching plans automatically and perform switching operations in step-by-step manner.\n\nA filter for remote operable and manual switches shall be provided with switching plan,\n\n\n### 5.4 Reports\n\nDetailed reports of complete switching sequence for VVC operation, including voltage/VAR levels before switching and after switching shall be presented.\n\n\n### 5.5 Displays\n\nThe User interface for VVC function shall have following summary displays as minimum:\n\n- a) Network and tabular display to VVC switching;\nand b) Tabular display giving chronological sequence for\n\nVVC operation.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "5.2",
+      "heading": "5.2 VAR Control",
+      "heading_path": [
+        "5 VOLT-VAR CONTROL",
+        "5.2 VAR Control"
+      ],
+      "char_start": 20777,
+      "char_end": 23557,
+      "semantic_chunk_length": 2780,
+      "final_chunk_length": 3082,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0011",
+    "text": "e/VAR levels before switching and after switching shall be presented.\n\n\n### 5.5 Displays\n\nThe User interface for VVC function shall have following summary displays as minimum:\n\n- a) Network and tabular display to VVC switching;\nand b) Tabular display giving chronological sequence for\n\nVVC operation.\n\n## 6 DISTRIBUTION LOAD FORECASTING\n\nTo support operations planning and analysis, area loads shall be forecast for equal interval for a day up to seven days in the future. The user shall be able to save forecasts cases, one of which shall contain the active forecast that should be available for study functions such as distribution load flow.\n\n\n\n\nThe user shall be able to make adjustments to the active forecast. In addition, Distribution Load Forecast shall make adjustments to future half-hourly forecasts automatically. This should be based on the amount of mismatch between the forecasted loads and the actual loads of previous half-hours as they become known.\n\n\n### 6.1 Short-Term Load Forecasting (STLF)\n\nShort-term load forecasting (STLF) analytical function will be used for assessment of the sequence of average electrical loads in equal time intervals, from 1 to 7 days ahead.\n\nForecast module is executed for up to next 7 days including weather forecast. Results are available in tabular and graphical form. The user shall be able to make adjustments to the active forecast. The adjustments can also be done through weather conditional data parameters that is, temperature, humidity, precipitation level, wind speed, wind direction acquired through telemetered sensors or manually.\n\nSTLF will be used for forecasting of loads for the next short-term period (up to 7 days), to provide planning of the (optimal) network operation at the daily level. in periodic time (15 min to 1 h).\n\n\n#### 6.1.1 Similar ay Forecasting\n\nA similar day forecast shall be used that is based on the normalized half-hourly load values stored for each of seven-day types. There shall be provision for storing day types for the last 24 months. The storage shall be updated each day by replacing the oldest of the same day type with the most current actual load curve.\n\nThe similar day forecast shall search the 24 month file for the same day type whose weather conditions best match. It shall then present the user-entered and best-matched conditions, for user comparison, together with the chosen day’s loads as the suggested forecast. The user shall be able to modify any of the forecast’s loads manually. In addition, the user shall be able to scale the entire forecast by simply specifying an appropriate peak load value or by some percent or by some absolute value or by absolute total energy value for the day.\n\nMulti-day forecasts shall be constructed by permitting the user to define the input data for each forecast day.\n\nThe results of the previous forecasts will be compared with the actual load realization. The performed differences will be used for updating the forecasting procedure parameters.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "6",
+      "heading": "6 DISTRIBUTION LOAD FORECASTING",
+      "heading_path": [
+        "6 DISTRIBUTION LOAD FORECASTING"
+      ],
+      "char_start": 23560,
+      "char_end": 26256,
+      "semantic_chunk_length": 2696,
+      "final_chunk_length": 2998,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0012",
+    "text": "he day.\n\nMulti-day forecasts shall be constructed by permitting the user to define the input data for each forecast day.\n\nThe results of the previous forecasts will be compared with the actual load realization. The performed differences will be used for updating the forecasting procedure parameters.\n\n### 6.2 Long Term Forecasting\n\nIn addition to the above, Long term load forecasting shall also be available for at least one year. The same shall be calculated based on the peak load values or energy consumptions on weekly/monthly basis for at least two preceding years, array of forecasted peak loads imported from STLF/entered manually.\n\n\nThe user shall be able to print and display the forecasts in both tabular and graphical form. This shall include the ability to display the active forecast with the actual loads of current and past days superimposed, energy consumption/peak load curves in the forecasting period.\n\n\n### 6.3 Results of Function\n\nMain input data for the LF shall be:\n\n- a) Historical load measurements for specified\nnetwork points, associated with corresponding weather conditions. b) Daily load curves and energy consumption from\n\nthe past, for all type of days and seasons. c) Weather prognosis for the forecasting period. d) Special Day Types Main output data of the STLF shall before casted load for the forecasting period.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "6.2",
+      "heading": "6.2 Long Term Forecasting",
+      "heading_path": [
+        "6 DISTRIBUTION LOAD FORECASTING",
+        "6.2 Long Term Forecasting"
+      ],
+      "char_start": 26259,
+      "char_end": 27308,
+      "semantic_chunk_length": 1049,
+      "final_chunk_length": 1351,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0013",
+    "text": "nts, associated with corresponding weather conditions. b) Daily load curves and energy consumption from\n\nthe past, for all type of days and seasons. c) Weather prognosis for the forecasting period. d) Special Day Types Main output data of the STLF shall before casted load for the forecasting period.\n\n## 7 FAULT IDENTIFICATION & SERVICE RESTORATION\n\nThe fault identification and system restoration application software shall provide assistance to the dispatcher for detection, localization, isolation and restoration of distribution system after a fault in the system. The FISR function shall be initiated by any change in the network connectivity due to any fault. It shall generate automatic report on switching sequence depicting analysis/location of the fault and recommendations for isolation of faulty sections and restoration of supply.\n\nThe FISR function shall have the ability to detect the presence of substation and feeder fault conditions that are considered permanent from the un-commanded trip and lockout status of circuit breakers and line recloser based on the analysis of the fault current recorded in system from relay or fault passage indicators and possible likely faulty equipment where the fault is.\n\nFor a permanent substation fault, FISR shall act to restore power to all affected feeders by switching to alternative sources of power, as available by closing the substation’s load transfer switch or the tie-switches that may be used to connect the feeders to other feeders or substations. In this way, the effect of the outage will be limited to the time it takes to complete the required reconfiguration.\n\nFor a permanent fault on a line section, FISR shall act to:\n\n- a) Isolate the faulted section by opening the closest\navailable switching element. b) Restore power to any healthy upstream feeder\n\nsections by reclosing the line’s originally tripped switching element. c) Restore power to any healthy downstream feeder\n\nsections by switching to an alternative available\n\n\n\n\npower source. In this way, the long-term effect of the outage shall be limited to only those customers on the faulted section. Once an outage is cleared, FISR shall be capable of returning the power system to its pre-fault configuration.\n\n\n7.1 The FISR function shall have the General Characteristics\n\n- a) FISR shall be capable of handling over current,\nphase-to-ground and phase-to-phase faults and is not restricted by their time of occurrence on one or more feeders. Thus, the ability to handle multiple faults of different types, on multiple feeders, shall be provided. It shall be capable to carry out restoration of large area after an occurrence wide spread faults amounting to substantial outages in the town. b) FISR shall be capable of allowing the substitution\n\nof an auxiliary circuit breaker or line recloser that shall temporarily function in place of a circuit breaker or line recloser that is undergoing maintenance. c) FISR, at the discretion of the operator, shall be",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "7",
+      "heading": "7 FAULT IDENTIFICATION & SERVICE RESTORATION",
+      "heading_path": [
+        "7 FAULT IDENTIFICATION & SERVICE RESTORATION"
+      ],
+      "char_start": 27311,
+      "char_end": 30000,
+      "semantic_chunk_length": 2689,
+      "final_chunk_length": 2991,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0014",
+    "text": "substantial outages in the town. b) FISR shall be capable of allowing the substitution\n\nof an auxiliary circuit breaker or line recloser that shall temporarily function in place of a circuit breaker or line recloser that is undergoing maintenance. c) FISR, at the discretion of the operator, shall be\n\ncapable of acting automatically. The Operator shall have the option, however, of implementing the FISR-determined switching actions through the system’s supervisory control and switching order management facilities. In this case, FISR shall determine the necessary switching actions following its automatic detection of a permanent fault, but shall present the switching actions to the Operator as a set of recommendations. d) To avoid potential difficulties during severe storm\n\nconditions, the operator shall be able to suspend FISR restoration capabilities by activating a single control point. The operator shall be able to resume FISR’s normal operation by deactivating the storm-mode control point. When this occurs, FISR shall be ready to restore power as well as detect and isolate faults following the next outage event. e) FISR shall be capable of monitoring circuit\n\nbreaker and line recloser trips. This shall include discrimination between commanded and un- commanded trips and the determination of lockout conditions. f) FISR shall be capable of checking the fault\n\nindications from RTUs to determine the line section where the fault has occurred. After the fault has been located, FISR shall issue an event message that identifies the faulted feeder section. g) FISR shall be capable of isolating line faults by\n\nopening any available line recloser or load break switch that shall be necessary, however FISR Shall not operate any such device that has its control inhibit flag set or a tag set that inhibits control action.\n\n\nIS 17648 : 2021\n\n- h) FISR shall be capable of determining the switching\norders that can be used to restore power to all healthy feeder sections that are de-energized by the power system’s protective devices. Before any switching takes place, FISR shall utilize the results of distribution Power flow for recommendations of switching steps for restoration where in it shall guide the operator for amount of overloading in lines, bus voltage violations and amount of load that can be restored for various options of restorations. The operator shall also be to simulate the DPF for the recommended switching actions, so that the necessary violations can be displayed on graphical display also. If an overloaded condition is expected as a result of the proposed switching, it shall be displayed to the operator on a graphical display and proposed alternative switching sequence to avoid or minimize the overload. j) FISR shall be capable of using data derived from",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "7",
+      "heading": "7 FAULT IDENTIFICATION & SERVICE RESTORATION",
+      "heading_path": [
+        "7 FAULT IDENTIFICATION & SERVICE RESTORATION"
+      ],
+      "char_start": 30002,
+      "char_end": 32503,
+      "semantic_chunk_length": 2501,
+      "final_chunk_length": 2803,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0015",
+    "text": "yed on graphical display also. If an overloaded condition is expected as a result of the proposed switching, it shall be displayed to the operator on a graphical display and proposed alternative switching sequence to avoid or minimize the overload. j) FISR shall be capable of using data derived from\n\nsubstation RTUs/FRTUs/FPIs to recognize faults in substation transformer banks or any fault on the primary side of these banks that cause loss of outgoing feeder voltage and current. Substation protective devices will normally clear these faults. If FISR monitors a continuous loss of feeder supply beyond an Operator-adjustable time interval, FISR shall determine the switching orders that can be used to reconfigure available tie-switches in order to connect the de-energized feeders to alternative energy sources, such as other substations and/or feeders. In order to avoid unnecessary reconfigurations, FISR shall use available substation data and relevant logic to safeguard against a false loss-of-feeder voltage signal, that is,, loss of potential due to a blown control fuse. k) FISR shall be capable of estimating and\n\ndisplaying the load that is to be restored following each recommended control action. In addition, the operator shall have access to an interactive environment to investigate the impact of alternative restoration strategies, based on operator selectable objective functions, prior to the operator’s actual execution of a final restoration control sequence. This shall include comparisons based on line loadings, voltage profiles, load restoration levels, number of affected customers, etc. m) FISR shall be capable to find delay in the restoration\n\nof network beyond specified time (Dispatcher configurable) and shall be able to report separately in the form of pending restoration actions.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "7",
+      "heading": "7 FAULT IDENTIFICATION & SERVICE RESTORATION",
+      "heading_path": [
+        "7 FAULT IDENTIFICATION & SERVICE RESTORATION"
+      ],
+      "char_start": 32505,
+      "char_end": 34023,
+      "semantic_chunk_length": 1518,
+      "final_chunk_length": 1820,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0016",
+    "text": "sed on line loadings, voltage profiles, load restoration levels, number of affected customers, etc. m) FISR shall be capable to find delay in the restoration\n\nof network beyond specified time (Dispatcher configurable) and shall be able to report separately in the form of pending restoration actions.\n\n### 7.2 Detection of Fault\n\nFISR function shall detect the faulty condition of the network causing CB tripping due to protection operation or FPI indication. The circuit breakers having auto-reclose feature, the FISR application shall wait for\n\n\n\nprogrammer specified (settable for individual feeders) duration before declaring the network as faulty. On detection of fault in the network, an alarm shall be generated to draw attention of the dispatcher.\n\nSwitching device tripping caused by SCADA/DMS applications shall not be considered as a faulty condition. FISR application need not be initiated if the quality flags, such as, manually replaced value and out of scan are set for a switching device.\n\nTo avoid potential difficulties during severe storm conditions, the operator shall be able to suspend FISR switching sequence of restoration capabilities by activating a single control point. Otherwise, FISR may continue to operate for fault detection and isolation purposes. The Operator shall be able to resume FISR’s normal operation by deactivating the storm-mode control point. When this occurs, FISR shall be ready to restore power as well as detect and isolate faults following the next outage event. The same shall be recorded as an event.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "7.2",
+      "heading": "7.2 Detection of Fault",
+      "heading_path": [
+        "7 FAULT IDENTIFICATION & SERVICE RESTORATION",
+        "7.2 Detection of Fault"
+      ],
+      "char_start": 34026,
+      "char_end": 35277,
+      "semantic_chunk_length": 1251,
+      "final_chunk_length": 1553,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0017",
+    "text": "tion and isolation purposes. The Operator shall be able to resume FISR’s normal operation by deactivating the storm-mode control point. When this occurs, FISR shall be ready to restore power as well as detect and isolate faults following the next outage event. The same shall be recorded as an event.\n\n#### 7.2.1 Localization of Fault\n\nWherever protection signal or FPI indication is not available, FISR function shall determine the faulty section by logically analyzing the telemetered data (status of CBs, analog values etc) as acquired through SCADA system.\n\nAn impedance-based search shall match the impedance values provided by a short circuit calculation algorithm with the set of devices regarded as faulty by FPI and breaker trip signal. The search algorithm shall determine likely faulty equipment even if no fault indicators are available or with a minimum of installed fault indicators. Impedance-based location shall able to decrease or eliminate the effort of manually checking fault indicators by identifying the likely faulted equipment before the crew can provide feedback from the field. This method may also minimize communications expense by leveraging impedance values returned from feeder head protection relays rather than establishing communication to a number of fault indicators.\n\nIn absence of impedance based search, for exceptional cases an iterative method for determining fault shall be used for example, In case of fault, upstream breaker is tripped and long stretch of multiple sections are having no intermediate fault indicators and intermediate switches are not capable to trip on fault up to the closest NO (Normal Open) point, the dispatcher can open the last or any other switch before NO point & try to close breaker , if trips again fault is on further upstream & the same method is to be repeated else fault is located in the downstream section only.\n\nFor the sections where protection signal or FPI indication is available, the same shall be derived through these telemetered signals. Network diagram\n\n\nidentifying the faulty sections/components shall be displayed identifying the relevant section and various configurations of switch types etc. Further, following minimum switch types shall be usedby FISR system:\n\n- a) Remote controllable circuit breaker with capability\nto interrupt fault currents. b) Non-remote controllable circuit breaker with\n\ncapability to interrupt fault currents. c) Remote controllable circuit breaker with no\n\ncapability to interrupt fault currents. d) Non-remote controllable circuit breaker with no\n\ncapability to interrupt fault currents. e) Remote controllable disconnects. f) Non remote controllable disconnects. g) Fuse. h) Ground/Earth switch etc.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 12,
+      "clause": "7.2.1",
+      "heading": "7.2.1 Localization of Fault",
+      "heading_path": [
+        "7 FAULT IDENTIFICATION & SERVICE RESTORATION",
+        "7.2 Detection of Fault",
+        "7.2.1 Localization of Fault"
+      ],
+      "char_start": 35280,
+      "char_end": 37703,
+      "semantic_chunk_length": 2423,
+      "final_chunk_length": 2725,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0018",
+    "text": "rrents. c) Remote controllable circuit breaker with no\n\ncapability to interrupt fault currents. d) Non-remote controllable circuit breaker with no\n\ncapability to interrupt fault currents. e) Remote controllable disconnects. f) Non remote controllable disconnects. g) Fuse. h) Ground/Earth switch etc.\n\n### 7.3 System Isolation and Restoration\n\nOnce faulty section is identified, the FISR function shall determine the switching plan to isolate healthy area from unhealthy area. FISR function shall suggest switching plans for restoration of power to the de-energized healthy sections of the network. It shall be done by closing NOP switch to allow the power from alternate source. In case more than one feasible switching plan exist, the dispatcher shall be guided for most optimum plan based on the merit order that is, minimum switching operations, minimum loss path, system operation within the safe limits of various network elements. The dispatcher shall have the option to simulate switching operations and visualize the effect on the distribution network by comparisons based on line loadings, voltage profiles, load restored, system losses, number of affected customers. The FISR function shall have feature to attain the pre-fault configuration on dispatcher request after repair of faulty sections.\n\nThe FISR function shall have following modes of restoration process: and dispatcher shall be able to select one of these modes as described below:\n\n- a) Auto mode of Restoration — FISR shall determine\nswitching plans automatically upon experiencing fault and proper isolation of unhealthy network from healthy part of the network and perform restoration actions upon dispatcher validation automatically. b) Manual Mode of Restoration — FISR shall\n\ndetermine switching plans upon experiencing faulty state and proper isolation of unhealthy network from healthy part of the network. The switching plans shall be presented to dispatcher for step by step restoration. Dispatcher shall be allowed to introduce new steps. A filter for remote operable and manual switches shall be provided with switching plan.\n\n\n\n\n### 7.4 Reports\n\nor any other important load. The load assigned with the higher priorities shall be advised to be shed later and restore earlier than load with relatively lower priorities. Each load priority shall be user definable over the scale of at least 1-10.\n\nDetailed reports of events with unique IDs complete switching sequence from outage to restoration, feeder-wise outage duration with date & time stamp, and quantum of served and un-served load, number of consumers interrupted, consumer minute interruption numbers and restored and network parameters limits violations shall be generated by FISR application.\n\n\n#### 8.1.2 By 24 h Load Shed/Restore History\n\nThe loads of equal priorities shall be advised for restoration in such a way that loads shed first shall be advised to be restored first. The application shall ensure that tripping operations is done in a cyclic manner to avoid the same consumers being affected repeatedly, however, priority loads shall be affected least. Switches, those are affected due to any other reason like breakdown/plan, un-plan shut down shall generate alarms to dispatcher to take appropriate decision.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "7.3",
+      "heading": "7.3 System Isolation and Restoration",
+      "heading_path": [
+        "7 FAULT IDENTIFICATION & SERVICE RESTORATION",
+        "7.3 System Isolation and Restoration"
+      ],
+      "char_start": 37706,
+      "char_end": 40672,
+      "semantic_chunk_length": 2966,
+      "final_chunk_length": 3268,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0019",
+    "text": " operations is done in a cyclic manner to avoid the same consumers being affected repeatedly, however, priority loads shall be affected least. Switches, those are affected due to any other reason like breakdown/plan, un-plan shut down shall generate alarms to dispatcher to take appropriate decision.\n\n### 7.5 Graphical User Interface\n\nThe user interface for FISR function shall have following summary displays:\n\n- a) Network and tabular display to identify faulty\nnetwork. b) Network and tabular display to identify remotely\n\ncontrollable devices. c) Network display to show plan for isolation of\n\n\n#### 8.1.3 By number of Consumers Affected\n\nThe consumer with equal priority and similar past load shed history shall be considered by the application in such a way that minimum number of consumers are affected during the proposed load shed. The data for number of consumers connected to a feeder/device shall be taken from consumer indexing (CI) of GIS or CIS.\n\nfaulty sections from the network using single line diagram of substation or network as selected by the dispatcher. d) Tabular display for restoration plans with\n\nidentification name and respective merit orders and execution of restoration plan using network display and single line diagram of substation.\n\n\n### 8.2 Modes of Operation",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "7.5",
+      "heading": "7.5 Graphical User Interface",
+      "heading_path": [
+        "7 FAULT IDENTIFICATION & SERVICE RESTORATION",
+        "7.5 Graphical User Interface"
+      ],
+      "char_start": 40675,
+      "char_end": 41669,
+      "semantic_chunk_length": 994,
+      "final_chunk_length": 1296,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0020",
+    "text": "using single line diagram of substation or network as selected by the dispatcher. d) Tabular display for restoration plans with\n\nidentification name and respective merit orders and execution of restoration plan using network display and single line diagram of substation.\n\n\n### 8.2 Modes of Operation\n\n## 8 LOAD SHEDDING APPLICATION (LS)\n\nThe load-shed application shall operate in the following modes:\n\nThe load-shed application shall automate and optimise the process of selecting the best combination of switches to be opened and controlling in order to shed the desired amount of load. Given a total amount of load to be shed, the load shed application shall recommend different possible combinations of switches to be opened, in order to meet the requirement. The dispatcher is presented with various combinations of switching operations, which shall result in a total amount of load shed, which closely resembles the specified total. The dispatcher can then choose any of the recommended actions and execute them. The recommendation is based on basic rules for load shedding and restoration. It shall exchange data with ABT or any other power portfolio management application regarding real time overdraw and other system constraints.\n\n- a) Manual load shed/restoration; and b) Auto load shed/restoration. Each mode of operation can be enabled or disabled by operator independently. The load may be shed and restore in possible combination that is, manually shed and auto restore vice versa or both operations in the same modes.\n\n### 8.3 Manual Load Shed\n\nIn this mode operator specifies a load to be shed in a project area The software shall determine and propose all the possible combinations of switches to be operated for the requested load shed considering the basic rules for load shed and restoration.\n\nIn case more than one options are possible, then the application shall identify all such options with the priority of consumers along with the number of consumers are likely to be affected for the particular load shed option. The dispatcher shall select and execute one of these options for affecting the load shed.\n\nIn case of failure of supervisory control for few switches, the total desired load shed/restore will not be met. Under such conditions, the application shall inform the dispatcher the balance amount of load to be shed /restore. The load-shed application shall run again to complete the desired load shed/restore process.\n\n\n### 8.4 Manual Load Restoration",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 13,
+      "clause": "8",
+      "heading": "8 LOAD SHEDDING APPLICATION (LS)",
+      "heading_path": [
+        "8 LOAD SHEDDING APPLICATION (LS)"
+      ],
+      "char_start": 41672,
+      "char_end": 43857,
+      "semantic_chunk_length": 2185,
+      "final_chunk_length": 2487,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0021",
+    "text": "ches, the total desired load shed/restore will not be met. Under such conditions, the application shall inform the dispatcher the balance amount of load to be shed /restore. The load-shed application shall run again to complete the desired load shed/restore process.\n\n\n### 8.4 Manual Load Restoration\n\n### 8.1 Basic Rules for Load Shedding and Restoration\n\nIn this mode operator specifies the desired load to be restored. The software shall determine the switches to be operated for the requested load restore considering the basic rules for load shed & restoration.\n\nThe load shall be shed or restored on the basis of following basic rules.\n\n\n#### 8.1.1 By Load Priority\n\nIn case more than one options are possible, then the application shall identify all such options with the\n\nThe LS shall have a priority mechanism that shall allow the user to assign higher priorities for express consumer\n\n\n\n\npriority of consumers along with the number of consumers are likely to be restored for the particular load restore option if chosen by dispatcher. The dispatcher shall select and execute one of these options for effecting the load restoration.\n\nThe load shed application shall maintain a load restore timer, which shall automatically start after tripping of CB due to manual load shedding. An alarm shall be generated to remind the operator to restore the loads when this timer expires. For manual mode of operation, the dispatcher shall enter the value of load restore timer.\n\n\n### 8.5 Auto Load Shed\n\nThis function should have two modes namely frequency based load shed and time of day based load shed as described below:\n\n\n#### 8.5.1 Frequency based Load Shed\n\nThis function should execute the tripping of breakers based on the system frequency automatically considering the basic rules for load shed and restoration.\n\nThe software should automatically execute the switching operations as soon as system frequency reaches at load shed start (LSS_str )frequency threshold and it should continue to do so unless system frequency crosses the load shed stop (LSS-stp) frequency limit. The frequency limits should be dispatcher assignable up to single decimal points. Once frequency crosses below LSS_stp limit , then load shed can only be started again when frequency attains LSS_str. Limit LSS_str should be lower than LSS_stp and suitable validation should ensure prohibition of wrong entry for this variable.\n\nThe application should integrally intact with load schedule/actual drawl of project area so that under draw and over draw of power based on frequency should also suggest appropriate switching.\n\n\n#### 8.5.2 Time of day Based Load Shed\n\nThe function should operate to shed load at the predefined time of the day and load to be shed. The software should automatically execute the switching operations considering the basic rules for load shed and restoration.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "8.1",
+      "heading": "8.1 Basic Rules for Load Shedding and Restoration",
+      "heading_path": [
+        "8 LOAD SHEDDING APPLICATION (LS)",
+        "8.1 Basic Rules for Load Shedding and Restoration"
+      ],
+      "char_start": 43860,
+      "char_end": 46424,
+      "semantic_chunk_length": 2564,
+      "final_chunk_length": 2866,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0022",
+    "text": " also suggest appropriate switching.\n\n\n#### 8.5.2 Time of day Based Load Shed\n\nThe function should operate to shed load at the predefined time of the day and load to be shed. The software should automatically execute the switching operations considering the basic rules for load shed and restoration.\n\n### 8.6 Auto Load Restoration\n\nThis function should have two modes namely frequency based load restoration and time of day based load restoration as described below.\n\n\n#### 8.6.1 Frequency Based Restoration\n\nThe function should execute the closing of breakers based on the system frequency automatically considering the basic rules for load shed and restoration.\n\nThe software should automatically execute the switching operations as soon as system frequency attains load\n\n\nrestore start frequency limit (LSR_ str) and it should continue to do so as long as system frequency is crosses below the mark load shed restore stop frequency limit (LSR_stp)_. The frequency limits should be dispatcher assignable up to single decimal points. Once frequency crosses below LSR_stp limit , then load shed can only be started again when frequency attains LSR_str.\n\nIn case if fluctuation in frequency band will change rapidly, it should generate alarm to Dispatcher to take appropriate action.\n\n\n#### 8.6.2 Time of Day Based Restoration\n\nThe function should operate to restore load at the predefined time of the day and load to be restored. The software should automatically execute the switching operations considering the basic rules for load shed and restoration.\n\n\n### 8.7 Alarms/Events\n\nAll loads shed and restore operations executed shall be logged in the system as events. In case the supervisory control fails during the operation in predefined time, an alarm shall be generated with the possible reason for the failure.\n\n\n### 8.8 Summary Report\n\nLoad shed application shall generate Summary Reports for project area on daily basis. These reports shall be available online for minimum period of two days. The following reports shall be made:\n\n- a) Daily Load shed report indicating, substation\nname, feeder/device name, date/time, duration of load shed and amount of load shed, Number of consumers affected based on consumer indexing information, mode of load shed including planned outages of feeders/network equipment’s. b) Daily alarm summary pertaining to LSA,\n\nsubstation wise. c) Substation wise daily served, un-served power\n\nand energy for every 15 min time block, for the same aggregation of LS events and moderation for the 15 min block is needed to be done in system d) Every load shed event shall be having a unique\n\nid along with the type of load shed that is, the reason (frequency, asset overloading or system overloading etc.) Served and un-served power for last seven days for every 15 min time block to calculate load forecast for the next day. The report shall contain a column to define weightage factor (multiplier) by dispatcher to calculate load forecast for the next day. The weightage factor is required to consider the type of the day such as holiday, festivals, rainy day, etc. Separate report for total load forecast of complete project area shall be generated from above two reports.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "8.6",
+      "heading": "8.6 Auto Load Restoration",
+      "heading_path": [
+        "8 LOAD SHEDDING APPLICATION (LS)",
+        "8.6 Auto Load Restoration"
+      ],
+      "char_start": 46427,
+      "char_end": 49335,
+      "semantic_chunk_length": 2908,
+      "final_chunk_length": 3210,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0023",
+    "text": "tage factor (multiplier) by dispatcher to calculate load forecast for the next day. The weightage factor is required to consider the type of the day such as holiday, festivals, rainy day, etc. Separate report for total load forecast of complete project area shall be generated from above two reports.\n\n## 9 OPERATIONS MONITORING\n\nThe operations monitoring function shall track the number of operations made by every breaker, capacitor switch, recloser, and load break switch that is monitored by the system. It shall also track an associated contact-replacement index. Devices shall be identified by area of responsibility, substation, feeder, and device ID to provide the necessary information for condition-based maintenance of these devices.\n\nEach monitored device shall be associated with a total operations counter. This counter shall be incremented whenever the associated device changes state. When a multiple change (such as a trip-close-trip sequence) is reported by an DCU/RTU/FRTU, each transition shall be counted separately. In addition, a fault operations counter is required. This counter shall be incremented only for un-commanded trip operations. The date and time of the last operation shall be saved for each device when one of the counters is incremented.\n\nAn operator with proper authorization shall be able to enter total operations and fault operations limit for each counter. An alarm shall be generated when a counter exceeds its limits. No additional alarms shall be generated if the counter is incremented again before it is reset. For each counter, the System shall calculate the present number of operations expressed as a percent (which shall exceed 100 percent) of the corresponding limit.\n\nThe ability to reset individual counters shall also be provided. In addition, a user shall be able to inhibit operations counting for individual devices. Such devices shall be included in summaries based on areas of responsibility. Resetting and inhibiting counters shall be permitted only for devices that belong to the areas of responsibility to which the console is assigned, and resetting shall require the console to be assigned to an appropriate mode of authority. The date and time when each counter was last reset shall be saved.\n\nThe counters, contact-replacement index values, and other related information shall be available for display and inclusion in reports. The user shall be able to view the date and time of a device’s last operation together with its accumulated operations data by simply selecting the device on any display where it appears.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "9",
+      "heading": "9 OPERATIONS MONITORING",
+      "heading_path": [
+        "9 OPERATIONS MONITORING"
+      ],
+      "char_start": 49340,
+      "char_end": 51621,
+      "semantic_chunk_length": 2281,
+      "final_chunk_length": 2583,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0024",
+    "text": "replacement index values, and other related information shall be available for display and inclusion in reports. The user shall be able to view the date and time of a device’s last operation together with its accumulated operations data by simply selecting the device on any display where it appears.\n\n## 10 DISTRIBUTION OPERATIONAL MODIFICATION (JUMPER, GROUND & CUT)\n\nThe functionality allows temporary modifications at any point in the distribution network to change the network configuration, to isolate faults, restore services or perform maintenance. A Summary shall list the jumpers, cuts and grounds that are currently applied. The function is performed by the DMS through connectivity analysis. Any temporary modifications shall not be affected due to incremental up-gradation in network topology.\n\nIS 17648 : 2021\n\n\n### 10.1 Jumper\n\nJumpers are a means of providing a temporary, switchable connection between two points on the network. The operator shall be able to select two points and place the jumper with relevant details. The initial state of the jumper shall be set to open or closed. The jumper popup automatically defaults to show the phases available for connection between the two points but other partial or cross-phase connections shall be made if required. The popup shall warn the operator about abnormal connections such as not all phases being connected or the nominal voltage being different at the two connection points. Once the jumper has been placed the switch symbol in the centre can be selected and switched open or closed. The topology of the network model is updated accordingly. There is no restriction on the placement of jumpers between lines connected to different feeders or different substations.\n\nTemporary connections between phases on the same line segment, known as a phase jumper shall be supported with an alert message. This can be used in conditions where one phase is de-energized and is desired to restore customers by energizing the dead conductor from one of the live phases. Jumper shall only allow if network in de energized mode to depict real operational scenario.\n\n\n### 10.2 Ground\n\nTemporary grounds shall only be placed, for obvious reasons, on de-energized sections of a line. These grounds represent the mechanical grounding of lines for safety purposes during maintenance or construction.\n\nA temporary ground shall be placed on one or more of the available phases. It must be given a name and additional information shall be included in the description field. If a line segment is re-energized while a temporary ground is still applied, the ground will be automatically removed or alert along with acknowledgement to the Dispatcher would be used.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 24,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 15,
+      "clause": "10",
+      "heading": "10 DISTRIBUTION OPERATIONAL MODIFICATION (JUMPER, GROUND & CUT)",
+      "heading_path": [
+        "10 DISTRIBUTION OPERATIONAL MODIFICATION (JUMPER, GROUND & CUT)"
+      ],
+      "char_start": 51624,
+      "char_end": 54033,
+      "semantic_chunk_length": 2409,
+      "final_chunk_length": 2711,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0025",
+    "text": " available phases. It must be given a name and additional information shall be included in the description field. If a line segment is re-energized while a temporary ground is still applied, the ground will be automatically removed or alert along with acknowledgement to the Dispatcher would be used.\n\n### 10.3 Cuts\n\nCuts facilitated in any line segment in the network. The cut shall be applied to one or more available phases of the conductor. The cut could also be applied as a temporary switch inserted in the line.\n\n- a) The cut must be given a name or id number for\nidentification, which is displayed as a label on the geographic network view. b) It shall be possible to select the position of the\n\nlabel relative to the cut symbol. c) The position can be altered after the cut has been\n\nplaced. Once placed the cut symbol can be selected and switched on and off by the operator in the same way as a standard disconnect switch. Cuts can also be tagged.\n\n\n\n\n\n### 10.4 Reports and Displays\n\nThe reports and displays shall be generated indicating the following:\n\n- a) Abnormal switches in tabular display; b) De-energized components of network in tabular\ndisplay; c) Presence of loops and parallels on network\n\ndisplays; d) Un-served/disconnected loads (loads affected due\n\nto tripping of CBs) in tabular displays; and e) List of temporary jumpers/cuts/grounds.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 25,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 16,
+      "clause": "10.3",
+      "heading": "10.3 Cuts",
+      "heading_path": [
+        "10 DISTRIBUTION OPERATIONAL MODIFICATION (JUMPER, GROUND & CUT)",
+        "10.3 Cuts"
+      ],
+      "char_start": 54036,
+      "char_end": 55097,
+      "semantic_chunk_length": 1061,
+      "final_chunk_length": 1363,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0026",
+    "text": "\n\n- a) Abnormal switches in tabular display; b) De-energized components of network in tabular\ndisplay; c) Presence of loops and parallels on network\n\ndisplays; d) Un-served/disconnected loads (loads affected due\n\nto tripping of CBs) in tabular displays; and e) List of temporary jumpers/cuts/grounds.\n\n## 11 OUTAGE MANAGEMENT SYSTEM\n\nIntegrated OMS application with SCADA/DMS is available in modern systems and has advantages over the earlier separate systems. The OMS application shall have a graphical map display capability to include functionality for locating outages and crews on a geographic background of land containing the electric distribution system with user defined settings for display of various layers of graphical data (land, roads, poles, switches, all outages, predicted locations, etc) at various scales. The graphics system shall be able to have different symbols for different types of crews and outages and the ability to suppress the display of lower priority calls and include normal pan, zoom, and locate functionality. Outages affecting sections of primary shall highlight the affected circuit(s). The graphics system shall allow manual placement of outages. A method of linking raster images, vector design files, jpeg, bitmap or gif files, and operating procedures or other documents to specific objects shall be included which will allow selection of the object to display the associated document, image or file. A second schematic view of feeder section open point of the distribution system shall be automatically generated from the geographic view/SCADA displays to assist in development of planned and un-planned switching procedures.\n\n\n11.1 Objective of the OMS is Intended to Provide Following Functions\n\n- a) A graphical display of the electric sub-transmission\nand distribution network with dynamic symbols indicating outages, crews and predicted failure points in 11kV or LT network. b) A predictive engine to identify potential outage\n\ndevices based on the number, type and location of customer outage calls and input from real-time system. c) Optimizing wheeling energy and reliable power\n\nsupply to customer.\n\n\n- d) Crew scheduling and tracking capability to\nmanage crews and field personnel during outages. e) Delay in the restoration of network beyond\n\nspecified time (dispatcher configurable) shall be reported separately in the form of pending restoration actions in tabular display. f) Sections not restored with the reasons for\n\nnon-restoration such as overloading and voltage limit violations etc. shall be indicated.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 26,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 16,
+      "clause": "11",
+      "heading": "11 OUTAGE MANAGEMENT SYSTEM",
+      "heading_path": [
+        "11 OUTAGE MANAGEMENT SYSTEM"
+      ],
+      "char_start": 55100,
+      "char_end": 57365,
+      "semantic_chunk_length": 2265,
+      "final_chunk_length": 2567,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0027",
+    "text": "restoration of network beyond\n\nspecified time (dispatcher configurable) shall be reported separately in the form of pending restoration actions in tabular display. f) Sections not restored with the reasons for\n\nnon-restoration such as overloading and voltage limit violations etc. shall be indicated.\n\n### 11.2 OMS Integration with other Systems\n\n- a) Customer Care Information System (CCS); b) Distribution Management System (DMS); c) Work Force Management System (WFMS); and d) Meter Data Management system(MDMS).\n\n#### 11.2.1 OMS from/to CCS Interface\n\nThe following are the flows from CCS to the OMS:\n\n- a) The OMS will receive trouble calls from the CCS\non an interactive basis. This includes all IVR calls received by the CCS. b) The OMS will need to receive a subset of the\n\ncustomer information on a daily basis. This subset includes at a minimum the customer’s name, phone, premise address, and its priority code. c) The OMS will need to receive list of newly\n\nconnected customers and any changes to the electrical network connectivity on a regular basis (this customer connectivity information shall go to the GIS first and then to the OMS via daily incremental transfer. The following are the flows of information from OMS to the CCS:\n\n- 1) The OMS will need to provide the following outage status information: i) confirmed outage status, ii) crew dispatched information, iii) cause of outage, and iv) the estimated restoration time. 2) The OMS will need to provide the number of times the customer has been part of an outage for a given date range.\n\n#### 11.2.2 OMS from/to SCADA/DMS Interface\n\nIn case OMS and SCADA/DMS are separate packages, there shall be a two-way interface or one way between the Distribution Management System (DMS) and the OMS. All Device status data will pass from the DMS to the OMS for status, outage indication and network reconfiguration. This will help to optimize the DMS application.\n\n\n\n\n#### 11.2.3 OMS from/to Work Management System (WMS) Interface\n\nThere shall be an interface between the OMS and the future work management system (WMS) to create work orders for follow-up work from an outage, such as additional investigative work, clean-up, broken pole replacement, tree trimming, service and meter re-attachment, etc. Depending on the robustness of the interface, there shall be a need for an interface from WMS to OMS for work orders requiring switching orders. This functionality shall further extended for automate field force management.\n\n\n#### 11.2.4 OMS from/to Meter Data management system (MDMS) Interface\n\nThere shall be an interface between the OMS and the meter data management system (MDMS) to create no power supply event and last gaps information to OMS. The meter information shall be required to decided predication logic triggered and outage information. Integration with Outage management system (OMS) for last gasp events with time stamp are required for consumption of OMS, the MDMS is expected to consume the already published list of affected customers and then publish the exception list from MDMS for effective outage list preparation by OMS.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 27,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 16,
+      "page_end": 17,
+      "clause": "11.2",
+      "heading": "11.2 OMS Integration with other Systems",
+      "heading_path": [
+        "11 OUTAGE MANAGEMENT SYSTEM",
+        "11.2 OMS Integration with other Systems"
+      ],
+      "char_start": 57368,
+      "char_end": 60182,
+      "semantic_chunk_length": 2814,
+      "final_chunk_length": 3116,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0028",
+    "text": "tion. Integration with Outage management system (OMS) for last gasp events with time stamp are required for consumption of OMS, the MDMS is expected to consume the already published list of affected customers and then publish the exception list from MDMS for effective outage list preparation by OMS.\n\n## 12 OPTIMAL FEEDER RECONFIGURATION\n\nThe Optimal Feeder Reconfiguration (OFR) function shall determine the optimal network configuration to eliminate adverse operating conditions such as line or\n\nCustomer Care system\n\nIS 17648 : 2021\n\ntransformer overloads. This function shall propose to the operators a series of switching actions that would enforce the reconfiguration of the distribution feeders reducing the system losses and equilibrating the loading of the primary stations. As result, loads on one feeder are transferred to another feeder, etc, changing line and supply transformer loadings.\n\n\n### 12.1 Objective Functions\n\nFollowing types of objective functions (tangible benefits) shall be supported by the OFR. The user shall select the desired objective function. The possible objectives of the control function shall be as follows:\n\n- a) Removal of Constraint Violations — The objective\nshall be reached in the minimum number of switching actions. b) Minimize Distribution System Power Loss —\n\nPower losses calculated by summing up active power losses occurring in all line sections and transformers within the study boundary. c) Load balancing among supplying primary stations. d) Multi Objective — Combination of load balancing\n\nand loss minimization, where each objective is included in the total sum with user-specified or default weighting factors. To run the OFR the user shall be required to specify the area to be considered for feeder reconfiguration and the desired objective function. The results of the feeder reconfiguration function include switching actions, the values of the objective functions before and after the feeder reconfiguration.\n\nWork Force Management\n\nsystem\n\n\n|  |  | OMS system |  |\n\n**SCADA/DMS*\n\n\nMeter Data Management system\n\nGeographical Information System\n\n•• If SCADA/DMS is a separate system, Fig. 3 Sample Concept of Outage Management System\n\n\n\n\n\n### 12.2 Output\n\nThe following switching operations shall be presented on a network diagram:\n\n- a) Highlighted identification of the switches to be\nclosed/opened; b) Distribution system area affected by reconfiguration; and c) Distribution system topology after switching.\n\n\n#### 12.2.1 Tabular Output\n\nThe output processing shall provide specific OFR results for dispatcher review through tabular displays. These results shall consist of following parts:\n\n- a) The summary of power flow results shall\ninclude the following values before and after reconfiguration: 1) objective function, 2) total power loss, 3) unevenness in primary station loading, 4) violation indexes, and 5) overload, low and high voltage. b) A list of switches to be opened/closed (in pairs\n\nfor normal conditions) in the desired (optimal) sequence, and their impact on the objective function improvement shall be shown on separate tabular display. Dispatcher must be able to review, simulate and execute switching through one display e.g to Switching Procedure Management (SPM).",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 28,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 17,
+      "page_end": 18,
+      "clause": "12",
+      "heading": "12 OPTIMAL FEEDER RECONFIGURATION",
+      "heading_path": [
+        "12 OPTIMAL FEEDER RECONFIGURATION"
+      ],
+      "char_start": 60185,
+      "char_end": 63137,
+      "semantic_chunk_length": 2952,
+      "final_chunk_length": 3254,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0029",
+    "text": "d (in pairs\n\nfor normal conditions) in the desired (optimal) sequence, and their impact on the objective function improvement shall be shown on separate tabular display. Dispatcher must be able to review, simulate and execute switching through one display e.g to Switching Procedure Management (SPM).\n\n### 12.3 Modes of Operation\n\nThe OFR function shall have following modes of reconfiguration process. The dispatcher shall be able to select one of these modes.\n\n\n#### 12.3.1 Auto mode\n\nIn auto mode, the function shall determine switching plans automatically and perform switching operations upon dispatcher validation automatically.\n\n\n#### 12.3.2 Manual Mode\n\nIn manual mode, the function shall determine switching plans automatically and perform switching operations in step-by-step manner.\n\n\n### 12.4 Reports\n\nDetailed reports of complete switching sequence for OFR operation shall be presented.\n\n\n### 12.5 Displays\n\nThe User interface for OFR function shall have following summary displays as minimum:\n\n- a) Network and tabular display to OFR switching;\nand\n\n\n- b) Tabular display giving chronological sequence for\nOFR operation.\n\n\n## 13 DISTRIBUTION SYSTEM STATE ESTIMATOR (DSSE)\n\nDSSE shall provide a solution for real-time monitoring, control, and optimization of the network. Unlike DPF, it shall utilize available current magnitude and measured power values. It shall consistently correct incoming mismatched information during the estimation process, including topology analysis, load data, and measured values.\n\nDSSE statistically shall estimate the most probable active and reactive power values of the loads using existing measured values, switching positions, and initial active and reactive power consumption of the power system loads. This function shall:\n\n- a) Estimate loads matching measurements using\nweighting factors for measurements and loads, and b) Detect obviously wrong measurements. DSSE shall calculate loads so that their values, initialized from load curves, scheduled loads and/or measured loads, best fit existing measurements and actual network topology. The adaptation of loads shall use an optimization process which minimizes the deviation between measured and calculated values. It shall take into account measurements, load curves, and rated outputs as weighted information.\n\n\n### 13.1 Determination of Load Base Values\n\nDifferent sources shall be used in DSSE for determining load base values, including:\n\n- a) Load rating values, load curve values, and STLS\nvalues; and b) Measurements. DSSE shall adapt system loads in such a way that the calculated values fit the measured values and load information (on the basis of their respective weighting factor) as closely as possible.\n\n\n### 13.2 Trust Factor\n\nThis factor shall mirror results and the load flow information available.\n\n\n### 13.3 Load Adaptation\n\nLoad adaptation shall adapt loads to conforming measurements as accurate as possible. It shall minimize the residuals between measurements and their calculated values taking into account their respective weighting factors.",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 29,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 18,
+      "clause": "12.3",
+      "heading": "12.3 Modes of Operation",
+      "heading_path": [
+        "12 OPTIMAL FEEDER RECONFIGURATION",
+        "12.3 Modes of Operation"
+      ],
+      "char_start": 63140,
+      "char_end": 65908,
+      "semantic_chunk_length": 2768,
+      "final_chunk_length": 3070,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0030",
+    "text": " results and the load flow information available.\n\n\n### 13.3 Load Adaptation\n\nLoad adaptation shall adapt loads to conforming measurements as accurate as possible. It shall minimize the residuals between measurements and their calculated values taking into account their respective weighting factors.\n\n## 14 SHORT CIRCUIT CALCULATION (SCC)\n\nShort circuit calculation (SCC) is used to calculate currents that are results of a short circuit due to a fault\n\n\n\n\nor an incorrect connection in an electric network. It basically solves symmetric or asymmetric faults in balanced or unbalanced distribution networks. SCC should be used to determine:\n\n- a) The maximum short-circuit current which\ndetermines the rating of electrical equipment (normally a circuit breaker for real-time SCC). b) The minimum short-circuit current which can be\n\na basis for the protection sensitivity checking or fuses selection. c) Fault current calculation at selected location. d) Earth fault current for ungrounded networks.\n\n\n### 14.1 SCC Calculation\n\nSCC should check for violations of the breaking capability, violation of the protections sensitivity settings and violation of the earth fault currents. Short circuit calculation should either be activated upon user request or automatically (after network changes or cyclically). The function should be able to simulate following fault types and each of them should contain fault impedance and/or grounding impedance, depending on user requirements:\n\nThree phase faults (L-L-L):\n\n- a) Three phase faults with ground connection\n(L-L-L-G), b) Two phase faults (L-L), c) Two phase faults with ground connection (L-L-G),\n\nand d) Single phase faults, with or without neutral point\n\n(L-G). It should be able to calculate minimum and maximum current for the complete distribution network.\n\n\n### 14.2 Modes of Operation\n\n- a) Real Time Mode — SCC calculation should\nbe based on the current electrical network configuration. b) Study— SCC should work with copies of the\n\ndatabase. It should be possible to simulate different scenarios and/or “What if” studies.\n\nIS 17648 : 2021",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 30,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 19,
+      "clause": "14",
+      "heading": "14 SHORT CIRCUIT CALCULATION (SCC)",
+      "heading_path": [
+        "14 SHORT CIRCUIT CALCULATION (SCC)"
+      ],
+      "char_start": 65911,
+      "char_end": 67705,
+      "semantic_chunk_length": 1794,
+      "final_chunk_length": 2096,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0031",
+    "text": "tion network.\n\n\n### 14.2 Modes of Operation\n\n- a) Real Time Mode — SCC calculation should\nbe based on the current electrical network configuration. b) Study— SCC should work with copies of the\n\ndatabase. It should be possible to simulate different scenarios and/or “What if” studies.\n\nIS 17648 : 2021\n\n## 15 QUALITY OF SERVICE INDICES\n\nThe system shall provide the ability to calculate quality of service indices that can be used to track and report on the performance characteristics of distribution network over various time periods specified by the user. This shall include quality of service indices pre-defined in the database or created by the user on-line. The following quality of service indices Shall be implemented:\n\n- a) System Average Interruption Duration Index\n(SAIDI), b) Momentary Average Interruption Frequency Index\n\n(MAIFI), c) System Average Interruption Frequency Index\n\n(SAIFI), and d) Customer Average Interruption Duration Index\n\n(CAIDI). The user shall be able to view the quality of service indices and the variables used to calculate them.\n\nThe calculation variables shall include any values available, including real-time and historical data. Tools shall be provided to compare sets of indices created at different times and over different time periods. These tools shall allow statistical information to be generated for user-selected indices. In addition, the user shall be able to generate, review, and obtain reports based on the quality of service indices.\n\nThe quality of service indices shall be as followed. Given the following symbols definitions:\n\nNi = number of interrupted customers per interruption event i;\n\n\nNT = total number of customers served; and\n\n\nri = restoration time per interruption event i.\n\n\nThe implementation of the quality of service indices defined as follows:\n\nSAIFI = Σ Ni/NT\n\n\na) MAIFI = Σ Ni/NT, where only events of duration\n\n\nless than 5 min are counted. b) SAIDI = Σ ri Ni/NT. c) CAIDI =Σ ri Ni/Σ Ni.\n\n\n\n\n\n\n## ANNEX A\n\n( Clause 2 )\n\nLIST OF REFERRED INDIAN/INTERNATIONAL STANDARDS\n\nIS No./Other\n\nTitle\n\nPublication\n\nIS 16336 (Part 1) Common information model (CIM) for information exchange in the context of electrical utilities: Part 1 Companion specification\n\nIEC 61968 series Application integration at electrical utilities — System Interfaces for Distribution management\n\nIS No./Other\n\nTitle\n\nPublication\n\nIEC 61970 (Part 1)\n\nEnergy management system application program interface (EMS-API) — Part 1: Guidelines and general requirements\n\n: 2005\n\nIEC 61970-552 :\n\n\n## 2016 Energy management system application program interface (EMS-API) — Part 552: CIMXML Model exchange format",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 31,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 19,
+      "page_end": 20,
+      "clause": "15",
+      "heading": "15 QUALITY OF SERVICE INDICES",
+      "heading_path": [
+        "15 QUALITY OF SERVICE INDICES"
+      ],
+      "char_start": 67708,
+      "char_end": 70053,
+      "semantic_chunk_length": 2345,
+      "final_chunk_length": 2647,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17648_0032",
+    "text": "./Other\n\nTitle\n\nPublication\n\nIEC 61970 (Part 1)\n\nEnergy management system application program interface (EMS-API) — Part 1: Guidelines and general requirements\n\n: 2005\n\nIEC 61970-552 :\n\n\n## 2016 Energy management system application program interface (EMS-API) — Part 552: CIMXML Model exchange format\n\n## ANNEX B\n\n( Clause 2 )\n\nABBREVIATION\n\n\n| Abbreviation | Details |\n| --- | --- |\n| DSOM | Distribution System Operations Model |\n| NCA | Network Connectivity Analysis |\n| DLF | Distribution Load Flow |\n| DPF | Distribution Power Flow |\n| LF | Load Flow |\n| CIM | Common Information Model |\n| VVC | Volt Var Control |\n| STLF | Short Term Load Forecasting |\n| FISR | Fault Isolation and Service Restoration |\n| SPM | Switching procedure Management |\n| LS | Load Shed |\n| JGC | Jumper Ground and Cuts |\n| OMS | Outage Management System |\n\n\n\n\n| Abbreviation | Details |\n| --- | --- |\n| SCADA | Supervisory Control and Data Acquisition |\n| DMS | Distribution management System |\n| OFR | Optimal Feeder Reconfiguration |\n| DSSE | Distribution System State Estimator |\n| SCC | Short Circuit calculation |\n| DSA | Distribution Security Analysis |\n| MDMS | Meter Data Management system |\n| AMI | Advance metering infrastructure |\n| HES | Head End System |\n| TA | Technological Address |\n| GIS | Geographical information System |\n| ABT | Availability Based Tariff |\n| CCS | Customer Care System |\n| WFMS | Work force Management System |\n\n\n\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 10 (10187).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "17648.md",
+      "chunk_index": 32,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 20,
+      "page_end": 22,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 70056,
+      "char_end": 72622,
+      "semantic_chunk_length": 2566,
+      "final_chunk_length": 2868,
+      "standard_no": "IS 17648",
+      "year": "2021",
+      "part": null,
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

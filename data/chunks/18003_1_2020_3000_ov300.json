@@ -1,0 +1,674 @@
+[
+  {
+    "id": "18003_1_2020_0000",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002\n\nwww.bis.gov.in  www.standardsbis.in\n\nDecember 2020 \b Price Group 8\n\n\n\n\nSmart Infrastructure Sectional Committee, LITD 28\n\nFOREWORD\n\nThis Indian Standard was adopted by Bureau of Indian Standards, after the draft finalized by the Smart Infrastructure Sectional Committee, had been approved by the Electronics and Information Technology Division Council. This standard is an Integral part of IS 18002 (under development). The system design principles, high level architecture and other aspects mentioned in this standard are derived from IS 18002 (Data layer Key guiding principles, Key characteristics, and Core functions). The traceability of this standard with the IS 18002 is provided in the Annex A. The composition of the committee responsible for the formulation of this standard is given at Annex B.\n\n\n\n\nINTRODUCTION\n\nData empowerment is a key aspect of any smart city implementation to harness maximum value from the enormous data cities generate. The current smart city implementations are unable to satisfy this need efficiently due to the proprietary and ad-hoc nature of the interfaces and their implementations. Hence, it is difficult to develop next generation AI/ML based applications for providing new solutions and services at scale, using the existing frameworks. The Data Exchange as discussed in this document aims to address this gap, by creating an architecture (Part 1) and interface specifications (Part 2) for interconnecting various IT systems of different government departments as well as external organizations.\n\nThe data exchange will provide three key services:\n\n- a) A catalogue service which will host a catalogue of meta-information about the various data sets, with\ninformation about the custodian of the data, data model for the data, the API endpoints, API methods etc. b) One or more authorization services that will enable a data custodian (one who is responsible for the data)\n\nto regulate access to their data sets. c) One or more resource access services which will allow a standardized way to access resources. Security and privacy will be incorporated by design in this architecture. This architecture should simplify the life of the data custodian as well as the application developer.\n\nThe data exchange architecture will enable new applications to emerge that can take advantage of data from different IT Systems, to provide novel services. For example, a Women’s safety index can calculate the live safety index of any street, combining data from smart streetlights, video analytics from traffic cameras, data from police databases along with analysis of land use. Such an index can be used by trip planning apps to allow for determining safe routes or used by the city or police to plan on patrolling.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2810,
+      "semantic_chunk_length": 2808,
+      "final_chunk_length": 2808,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0001",
+    "text": "ety index of any street, combining data from smart streetlights, video analytics from traffic cameras, data from police databases along with analysis of land use. Such an index can be used by trip planning apps to allow for determining safe routes or used by the city or police to plan on patrolling.\n\nBy defining the architecture and specifying the interfaces and data models, the data exchange architecture standards will enable a whole new ecosystem of application developers to provide new, data driven, solutions and services. Additionally, adopting the data exchange architecture nationally, will enable economies of scale for the developers and will allow the same applications to run across the country. For data custodians – the data exchange architecture will allow a simple way to expose, provide consent, audit and track their data usage.\n\n\n\n\n\n\n\n\nIndian Standard\n\n\nUNIFIED DATA EXCHANGE\n\n\nPART 1 ARCHITECTURE\n\n​1 SCOPE\n\n\n1.1 This Indian Standard (Part 1) describes the architecture for the data exchange, interfaces of data exchange components and the use cases that are enabled in this ecosystem. It also describes the responsibilities of various stakeholders, their interactions with other stakeholders in the system, and the respective consequences of those interactions.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 5,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2812,
+      "char_end": 3796,
+      "semantic_chunk_length": 984,
+      "final_chunk_length": 1286,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0002",
+    "text": "tecture for the data exchange, interfaces of data exchange components and the use cases that are enabled in this ecosystem. It also describes the responsibilities of various stakeholders, their interactions with other stakeholders in the system, and the respective consequences of those interactions.\n\n### 1.2 This Standard (Part 1) also describes the high level architecture of the following three main components of the data exchange services:\n\n- a) Catalogue service that provides APIs to manage\nmeta-information about resources; b) Authorization service, that manages authorization\n\nto access the resources; and c) Resource access service, that provides a\n\nstandardized way to access resources.\n\n\n1.3 A more detailed specification and the API definitions for the data exchange architecture is described in part 2.\n\n​2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent editions of these standards.\n\n​2.1 Normative References\n\nThe following referenced documents are necessary for the application of the present document.\n\n[1] IETF RFC 2818: “HTTP Over TLS”. [2] IETF RFC 3986: “Uniform Resource Identifier\n\n(URI): Generic Syntax”. [3] IETF RFC 5246: “The Transport Layer Security\n\n(TLS) Protocol Version 1.2”. [4] IETF RFC 6749: The OAuth 2.0 Authorization\n\nFramework. [5] IETF RFC 7231: “Hypertext Transfer Protocol\n\n(HTTP/1.1): Semantics and Content”. [6] IETF RFC 7232: “Hypertext Transfer Protocol\n\n(HTTP/1.1): Conditional Requests”.\n\n[7] IETF RFC 7946: “The Geo JSON Format”. [8] IETF RFC 8259: “The Java Script Object Notation\n\n(JSON) Data Interchange Format”. [9] IS 7900 : 2007: “Data elements and interchange\n\nformats — Information interchange — Representation of dates and times”. [10] ISO/IEC 19464 Information technology —\n\nAdvanced Message Queuing Protocol (AMQP) v1.0 specification. [11] IS/ISO/IEC 29100 : 2011 (en) Information\n\ntechnology — Security techniques — Privacy framework. [12] OASIS : MQTT 5.0, OASIS Standard. [13] Open Geospatial Consortium Inc. OGC 06-103r4: “OpenGIS® Implementation Standard for Geographic information-Simple feature access — Part 1: Common architecture”. [14] TRADE/CEFACT/2005/24 Recommendation No.\n\n20 - Units of Measure used in International Trade.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "1.2",
+      "heading": "1.2 This Standard (Part 1) also describes the high level architecture of the following three main components of the data exchange services:",
+      "heading_path": [
+        "1.2 This Standard (Part 1) also describes the high level architecture of the following three main components of the data exchange services:"
+      ],
+      "char_start": 3799,
+      "char_end": 6009,
+      "semantic_chunk_length": 2210,
+      "final_chunk_length": 2512,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0003",
+    "text": "12] OASIS : MQTT 5.0, OASIS Standard. [13] Open Geospatial Consortium Inc. OGC 06-103r4: “OpenGIS® Implementation Standard for Geographic information-Simple feature access — Part 1: Common architecture”. [14] TRADE/CEFACT/2005/24 Recommendation No.\n\n20 - Units of Measure used in International Trade.\n\n## 3 TERMINOLOGY AND DEFINITIONS\n\nFor the purpose of this standard, the following definitions shall apply:\n\n- a) The key terminologies use consolas font type and\ndark cornflower blue 3 color encoding; and b) The lower Camel Case is used in attribute naming.\n\nFor nouns, UpperCamelCase is used.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "3",
+      "heading": "3 TERMINOLOGY AND DEFINITIONS",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS"
+      ],
+      "char_start": 6012,
+      "char_end": 6305,
+      "semantic_chunk_length": 293,
+      "final_chunk_length": 595,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0004",
+    "text": "rade.\n\n## 3 TERMINOLOGY AND DEFINITIONS\n\nFor the purpose of this standard, the following definitions shall apply:\n\n- a) The key terminologies use consolas font type and\ndark cornflower blue 3 color encoding; and b) The lower Camel Case is used in attribute naming.\n\nFor nouns, UpperCamelCase is used.\n\n### 3.1 Definitions\n\n\n#### 3.1.1 Provider\n\nProvider is a legal entity. Human (possibly delegated by an organization), organization or an organizational role that has responsibility to provide authorization to use resources.\n\n\n#### 3.1.2 Resource Server\n\nResource server is a service. Serves resources to authorized Apps or Consumers.\n\n\n#### 3.1.3 Consumer\n\nConsumer is a legal entity. Human or organization or an organizational role that consumes a resource via a web or mobile App. Autonomous systems may also act as a Consumer on behalf of a legal entity.\n\n\n\n\n\n#### 3.1.4 App\n\nApp is an application. Software (like a mobile app, web app, device app or server app), that uses resources to provide a service to the consumer.\n\n\n#### 3.1.5 Provider App\n\nProvider App is an Application. An App that enables a provider to manage the meta-data and access control in the data exchange, for the resources they are responsible for.\n\n\n#### 3.1.6 Data Exchange\n\nData exchange is a service. Hosts and manages meta-data about resources and interfaces to manage authorization for accessing the resources.\n\n\n#### 3.1.7 Consent\n\nProvider’s freely given, specific and informed agreement to the accessing and processing of specific resources in their responsibility.\n\n\n#### 3.1.8 Certificate Authority\n\nAn entity which provides digital identities to participants of DX in the form of digital certificates.\n\n\n#### 3.1.9 Personally Identifiable Information\n\nAny information that (a) can be used to identify the PII principal to whom such information relates, or (b) is or might be directly or indirectly linked to a PII principal.\n\nNOTE — To entry: To determine whether a PII principal is\n\nidentifiable, account should be taken of all the means which can reasonably be used by the privacy stakeholder holding the data, or by any other party, to identify that natural person.\n\n\n#### 3.1.10 PII Principal\n\nNatural person to whom the personally identifiable information (PII) relates\n\nNOTE — To entry: Depending on the jurisdiction and the\n\nparticular data protection and privacy legislation, the synonym “data subject” can also be used instead of the term “PII principal”.\n\n\n#### 3.1.11 Authorization Token\n\nA machine-readable token that allows a consumer to get access to a provider’s data. The authorization token is requested by a consumer for a set of resources, and is generated by an authorization service after running consent rules of a provider. The authorization token is to be presented to a resource server by a consumer while requesting for data. All authorization tokens shall have a valid expiration time.\n\n\n#### 3.1.12 Catalogue\n\nA registry of meta-data about the resources in the data exchange available for consumption.\n\n\n#### 3.1.13 Resource Item\n\nAn entry in the catalogue that describes the\n\n\nmeta-information of the resource that is hosted in an associated resource server.\n\n\n#### 3.1.14 DX Authorization Service\n\nAuthorization service of the data exchange.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "3.1",
+      "heading": "3.1 Definitions",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "3.1 Definitions"
+      ],
+      "char_start": 6308,
+      "char_end": 9266,
+      "semantic_chunk_length": 2958,
+      "final_chunk_length": 3260,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0005",
+    "text": " resources in the data exchange available for consumption.\n\n\n#### 3.1.13 Resource Item\n\nAn entry in the catalogue that describes the\n\n\nmeta-information of the resource that is hosted in an associated resource server.\n\n\n#### 3.1.14 DX Authorization Service\n\nAuthorization service of the data exchange.\n\n#### 3.1.15 DX Catalogue Service\n\nCatalogue service of the data exchange.\n\n\n#### 3.1.16 DX Adaptor\n\nAdapter service in front of a non-DX compliant resource server.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "3.1.15",
+      "heading": "3.1.15 DX Catalogue Service",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "3.1 Definitions",
+        "3.1.15 DX Catalogue Service"
+      ],
+      "char_start": 9269,
+      "char_end": 9432,
+      "semantic_chunk_length": 163,
+      "final_chunk_length": 465,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0006",
+    "text": "ce that is hosted in an associated resource server.\n\n\n#### 3.1.14 DX Authorization Service\n\nAuthorization service of the data exchange.\n\n#### 3.1.15 DX Catalogue Service\n\nCatalogue service of the data exchange.\n\n\n#### 3.1.16 DX Adaptor\n\nAdapter service in front of a non-DX compliant resource server.\n\n#### 3.1.17 DX Administrator\n\nDX administrator is a legal entity. Responsible for administering, managing and running the data exchange.\n\nAbbreviations\n\n\n| Abbreviation | Definition |\n| --- | --- |\n| DX | Data Exchange |\n| XML | eXtensible Markup Language |\n| JSON | Javascript Object Notation |\n| API | Application Programming Interface |\n| PII | Personally Identifiable Information |\n| CA | Certificate Authority |\n| RS | Resource Server |\n| AS | Authorization Service |\n| TLS | Transport Level Security |\n| CSR | Certificate Signing Request |\n| CCA | Controller of Certifying Authorities |\n\n\n​4 DATA EXCHANGE ARCHITECTURE\n\nThe data exchange (DX) is a set of services that enables consumption of resources (like data) by a consumer from one or more resource servers, based on explicit consent obtained from the provider of the resources.\n\n4.1 ​System Design Principles\n\nThe architecture and design described in this Standard is based on the following principles:\n\n- a) Technology Agnostic — A system is said to\nbe technology agnostic if its design is neutral to applications, programming languages, and platforms. The aim of DX is to be technology agnostic to provide seamless and secure flow of electronic data between different stakeholders. b) Reliability and Scaling — Reliability is the\n\nprobability of failure-free software operation for a specified period of time in a specified environment. DX systems shall be designed in a way that failure of one system should affect other systems minimally. Systems must also be\n\n\n\n\ndesigned to recover quickly from failures. The design should also allow for scaling individual systems when necessary. c) Privacy by Design — Privacy by design is an\n\napproach where privacy is taken into account in the design and engineering aspects from early on. The data exchange implementation defines the data sharing mechanisms, based on Electronic Consent and results in a non-repudiable audit trail. The provider of the data resources controls the consent to access the resources. Hence, the provider shall ensure that PII of PII principals are dealt with as per the laws of the land [b.1, b.2]. The data exchange will also maintain the privacy of consumers and all other actors who interact with the exchange based on international standards [11]. d) Security by Design — Secure by design indicates\n\nthat a software system has been designed from the ground up to be secure. The software and systems in the DX shall be secure by design. There shall be end-to-end security of data (PKI, Digital Certificates, tamper detection) and it shall be network agnostic and data centric. e) Consumer Centric — Consumer experience and\n\nease of use are critical to successfully deliver various services in an ecosystem. The DX should take into account the various stakeholder responsibilities and mechanisms to simplify interactions and ease the access to data and services for consumers. f) Consent Driven — A consent-driven architecture is",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "3.1.17",
+      "heading": "3.1.17 DX Administrator",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "3.1 Definitions",
+        "3.1.17 DX Administrator"
+      ],
+      "char_start": 9435,
+      "char_end": 12401,
+      "semantic_chunk_length": 2966,
+      "final_chunk_length": 3268,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0007",
+    "text": " of use are critical to successfully deliver various services in an ecosystem. The DX should take into account the various stakeholder responsibilities and mechanisms to simplify interactions and ease the access to data and services for consumers. f) Consent Driven — A consent-driven architecture is\n\none where data is shared with a data consumer only if the data provider explicitly provides consent. In such a system, data providers must be provided with enough information about the consumer to make the consent decision. Mechanisms for dynamic discovery, empowerment of the provider in accordance with the consent architecture proposed in [b.2] shall be incorporated to enhance trust and ensure data privacy. g) Open APIs for Interoperability — Systems should\n\nhave standardized programmatic interfaces (Open APIs) for sharing and accessing digital resources easily. The data exchange specification shall define standard APIs to promote interoperability and deliver services that are designed to work with any device, form factor or network. h) Transparency through Data — Transparency in\n\ncity operations can be achieved through access to Open Data [b.3]. Access to such open data will enable high-quality analytics, accurate fraud\n\n\nIS 18003 (Part 1) : 2020\n\ndetection, shorter cycles for system improvement and, most importantly, high responsiveness to consumer’s needs. The DX shall allow cities to adopt this model of transparency by providing options to host Open Data through Open APIs.\n\n\n### 4.2 Entities and their Responsibilities\n\n\n```text\nTable 1 outlines the roles and responsibilities of\nthe various entities involved in the data exchange\necosystem.\n```\n\n\nTable 1 Entities and their Responsibilities\n\n( Clauses 4.2 and 4.3 )\n\n\n**Table 1 outlines the roles and responsibilities of**\n\n| Entity | Responsibilities |\n| --- | --- |\n| a) Provider | 1 Manages DX catalogue entries for resources owned. 2 Provides data for resources owned. 3 Manages access control list to authorize consumers. |\n| b) Consumer | 1 Request consent if needed for accessing secured data-set from appropriate provider. 2 Secure access token received to prevent any misuse. |\n| c) Data Exchange | Hosts and manages meta-data about resources and interfaces to manage authorization for accessing the resources. |\n| d) Resource Server | Serves provider’s resources to authorized clients. |\n| e) App | Consumer’s application, that consumes resources on behalf of consumers. |\n| f) Authorization Service | Provides authorization tokens to consumers of a DX if the consumers are authorized to. It also validates an Authorization token, when requested by a resource service. |\n| g) Certificate Authority | Provides digital certificates. Their trust can be traced to the root certificate authorities. |\n| h) Provider App | Helper application used by providers to manage interactions with the data exchange. |\n| j) App Developer | An organisation or an individual developing applications that consumes, produces or manages resources. |\n| k) Data Exchange Provider | Operates the data exchange. |",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "3.1.17",
+      "heading": "3.1.17 DX Administrator",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "3.1 Definitions",
+        "3.1.17 DX Administrator"
+      ],
+      "char_start": 12403,
+      "char_end": 15175,
+      "semantic_chunk_length": 2772,
+      "final_chunk_length": 3074,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0008",
+    "text": "ities. |\n| h) Provider App | Helper application used by providers to manage interactions with the data exchange. |\n| j) App Developer | An organisation or an individual developing applications that consumes, produces or manages resources. |\n| k) Data Exchange Provider | Operates the data exchange. |\n\n### 4.3 High Level Architecture\n\nThe data exchange (DX) architecture consists of entities described in Table 1. The entities interact using interfaces as shown in Fig. 1.\n\n\n\n\n**Fig. 1 Data Exchange Architecture**\n\nThe data exchange comprises the following interfaces:\n\nconsent to consume the resources via the authorization interface by obtaining an authorization token.\n\n- a) Resource interface; b) Authorization interface; c) Discover interface; d) Manage interface; e) Consent interface; and f) Identity interface. Resources, managed by a provider, are hosted on one or more resource servers, and are made available for consumption to entities via a description of its meta-information (like its format, provider, etc.), through a catalogue in the data exchange. The catalogue is both human readable as well as machine-understandable.\nAny request to a provider’s resource by a consumer App will be checked against the existing access control policies. If no decision can be made, the data exchange may coordinate between the provider and the consumer to complete a consent transaction and generate the authorization token. The authorization token will be logged by the system to ensure auditability of the consent flows. The coordination between the provider and consumer is done outside the scope of this specification and can be built using any of the available messaging technologies like SMS/OTP/EMAIL etc. The data licensing terms and conditions will also be outside the scope of this specification. However, reference to license can be provided in the meta-data for the resource.\n\nThe provider registers and manages the meta-data of its resources and their associated access control policies via the management interface of the data exchange. The provider may use a helper application, like the provider App. The meta-data of each resource should help an app developer to ease the consumption of resources in order to create useful applications for consumers.\n\nIn order to provide for a better consumer experience, the App developer may also enter into a resource licensing agreement with the provider. In this case, the consumer can be shielded from having to get consent separately, as long as the App developer and the App adhere to the licensing terms and conditions of the provider.\n\nThe App can register with the data exchange to get notified about any changes to the meta-data of the resources of interest to the consumer. The App obtains\n\nThe set of interfaces for this data exchange architecture are listed in Table 2.\n\n\n\n\n\nTable 2 Data Exchange Interfaces and\n\n\nFunctionalities\n\n( Clause 4.3 )\n\n\n**Table 2 Data Exchange Interfaces and**",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 9,
+      "clause": "4.3",
+      "heading": "4.3 High Level Architecture",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "4.3 High Level Architecture"
+      ],
+      "char_start": 15178,
+      "char_end": 17833,
+      "semantic_chunk_length": 2655,
+      "final_chunk_length": 2957,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0009",
+    "text": "ed about any changes to the meta-data of the resources of interest to the consumer. The App obtains\n\nThe set of interfaces for this data exchange architecture are listed in Table 2.\n\n\n\n\n\nTable 2 Data Exchange Interfaces and\n\n\nFunctionalities\n\n( Clause 4.3 )\n\n\n**Table 2 Data Exchange Interfaces and**\n\n| Interface | Functionality | Remarks |\n| --- | --- | --- |\n| Manage | Create, update, delete, list, search and view the items in the catalogue. Create, update, delete and view access control policies. List and view information about consumers. | Interface for the provider to manage the resource meta-info and access-control policies. |\n| Discover | List, search, view and count items in the catalogue | Search can use complex queries and filters involving geo, time and other attributes |\n| Authorization | Request, grant, revoke, introspect access tokens for resources. | Federated authorization flows. |\n| Resource | Get latest data, search for resources, get status, get counts, subscribe, update subscription, unsubscribe. Playback of live and archived media streams, download media files. Stop, Pause and Stop playback. GIS resources access. Service resources access. | Retrieve latest data and search for resources using complex queries and filters. Search can be on Geo, time and other attributes. |\n| Identity | Get identities | This interface connects with external identity management systems. Defining this will be out of scope for this standard currently. |\n| Consent | Get consent from provider | This interface enables consumers to get providers information to request consent for accessing protected, private or confidential data. Since it involves interactions with Humans - it is not defined as part of this standard currently. SMS/Phone/Mail etc can be used. Note that in case of embedded PII, provider has responsibility to get consent from PII principals. |\n\n\nIS 18003 (Part 1) : 2020\n\nThese interfaces are specified in detail in Part 2 of this standard.\n\nThere are no deployment restrictions imposed by the DX. Data exchange using the said architecture and the associated interface specifications, can be deployed in multiple different ways and DX does not favour or impose any specific deployment model.\n\n\n### 4.4 Establishing Identities of Participants\n\n\nThe identities of the providers, App developers shall be established via X.509 certificates. The identity of consumers may also be established via ID tokens (Open ID connect, SAML 2.0 or industry standards). The provisioning and management of these certificates or Tokens will be outside the scope of this standard.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "4.3",
+      "heading": "4.3 High Level Architecture",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "4.3 High Level Architecture"
+      ],
+      "char_start": 17835,
+      "char_end": 20130,
+      "semantic_chunk_length": 2295,
+      "final_chunk_length": 2597,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0010",
+    "text": "of the providers, App developers shall be established via X.509 certificates. The identity of consumers may also be established via ID tokens (Open ID connect, SAML 2.0 or industry standards). The provisioning and management of these certificates or Tokens will be outside the scope of this standard.\n\n### 4.5 Data Exchange Services\n\n\nThe two main services provided by the data exchange (DX) are the catalogue service, that allows management and search of meta-data about resources, and the Authorization service that manages authorization to access the resources. These are described in detail in 4.5.1 and 4.5.2.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 9,
+      "clause": "4.5",
+      "heading": "4.5 Data Exchange Services",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "4.5 Data Exchange Services"
+      ],
+      "char_start": 20133,
+      "char_end": 20445,
+      "semantic_chunk_length": 312,
+      "final_chunk_length": 614,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0011",
+    "text": " Exchange Services\n\n\nThe two main services provided by the data exchange (DX) are the catalogue service, that allows management and search of meta-data about resources, and the Authorization service that manages authorization to access the resources. These are described in detail in 4.5.1 and 4.5.2.\n\n#### 4.5.1 Catalogue Service\n\nOn a high level the DX catalogue service enables the following:\n\n\na) Discovery of Data Resources — By providing\n\n\nvarious search mechanisms to discover the resources of interest. 1) For example, geo-based search, text search on meta-information, attribute search with a given value etc. b) Ease of Consumption of Data — By providing\n\n\nlinks to data models objects that describe various attributes of the given resource. This facilitates data interoperability and easy integration into various applications. 1) Data-models may contain description of data types, units, value constraints, text descriptions, semantic context etc. for the data associated with a given resource. c) Semantic Modelling of Meta-information — By\n\n\nproviding semantic contexts for the attributes describing meta-information which leads to improved machine readability, interpretability, operational interoperability and enables vocabulary reuse from other data-model stores and taxonomies. d) Ease of Access to Data from a Resource — By\n\nproviding formal descriptions of how to access the data from a resource.\n\n\n\n\n- 1) For example, API objects to describe REST based resources etc. e) Feedback Mechanism — The catalogue shall\nprovide a feedback mechanism for consumers of the data to rate and review the resource. At the core, DX catalogue is a store of meta-information associated with the data assets/resources available with the data exchange. A meta-information object may be related to another meta-information object by providing explicit references to one another. Further, using concepts of linked-data1), semantic grounding may be provided for the attributes contained in the meta-information objects. The DX catalogue, built on top of the meta-information store, provides powerful search capabilities to discover resources of interest and their associated meta-information (for example, data models, api objects etc.). Additionally, the DX catalogue provides services to build and maintain the meta-information store in a consistent and collaborative fashion.\n\nThe meta-information in catalog shall be in machine-understandable format and may use open standards such as JSON-LD. The meta-information for a resource shall support reviews from consumers.\n\n​4.5.1.1 Catalogue interface\n\nDX catalogue exposes services via a set of APIs built on top of the meta-information store. The APIs can be broadly categorised into two sets:\n\n- a) Search APIs to discover resources of interest. The\ncatalogue supports the following search methods: 1) Geo-spatial search: Discover items in a given geo-spatial bound (applicable to items containing geo-spatial attributes); 2) Attribute search: Discover items with a given value for a given attribute; and 3) Text search: Discover items that contain matching words in a set of textual attributes (for example, text descriptions etc.). b) Management APIs to create, update and delete",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "4.5.1",
+      "heading": "4.5.1 Catalogue Service",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "4.5 Data Exchange Services",
+        "4.5.1 Catalogue Service"
+      ],
+      "char_start": 20448,
+      "char_end": 23379,
+      "semantic_chunk_length": 2931,
+      "final_chunk_length": 3233,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0012",
+    "text": "items containing geo-spatial attributes); 2) Attribute search: Discover items with a given value for a given attribute; and 3) Text search: Discover items that contain matching words in a set of textual attributes (for example, text descriptions etc.). b) Management APIs to create, update and delete\n\nitems. Further details of catalogue are provided in Part 2 of this specification. In particular the following catalogue aspects will be described in detail:\n\n- 1) API Specifications; and 2) Representational aspects of meta-information objects: various types of objects and relationships between the objects, representation formats etc.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 10,
+      "clause": "4.5.1",
+      "heading": "4.5.1 Catalogue Service",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "4.5 Data Exchange Services",
+        "4.5.1 Catalogue Service"
+      ],
+      "char_start": 23381,
+      "char_end": 23716,
+      "semantic_chunk_length": 335,
+      "final_chunk_length": 637,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0013",
+    "text": " are provided in Part 2 of this specification. In particular the following catalogue aspects will be described in detail:\n\n- 1) API Specifications; and 2) Representational aspects of meta-information objects: various types of objects and relationships between the objects, representation formats etc.\n\n#### 4.5.2 Authorization Service\n\n- 1)  https://www.w3.org/DesignIssues/LinkedData\n\n​4.5.2.1 Goals and non-goals\n\nThe main goal of the DX framework is to enable seamless sharing of resources while respecting ownership, privacy and compliance requirements. DX achieves this by defining a set of open standards for authorization, data classification, and policy authoring, and providing sample implementations according to these standards. The standards enable data providers and application developers to target a consistent set of APIs for authoring policies and accessing data across smart city platforms. When DX is used for sharing sensitive or PII, the standards ensure that PII principals retain control over data shared on the platform in accordance with the strongest privacy regulations.\n\nThe authorization service in DX is designed to reduce barriers for adoption. In particular, resource providers should be able to start sharing resources with authorized entities with minimal effort. Towards this end, DX will support mechanisms for plugging existing non-DX compliant resource and authorization servers into the DX ecosystem with simple extensions. The authorization service also supports a simple-to-understand data classification framework and policy authoring tools to help providers migrate to the DX framework.\n\nThe following aspects of resource sharing are out of scope of DX authorization service.\n\n- a) Data Collection Mechanisms — DX does not\nmandate how data is collected from edge devices and transferred to the resource server. b) Enforcement of Policy Mechanisms — DX does\n\nnot currently provide mechanisms for enforcing policies such as data retention. Data providers are expected to enforce policies through other means such as legal agreements. However, the DX framework shall support technologies such as trusted execution environments for policy enforcement at the time of data use. c) Compliance Requirements — DX does not\n\nmandate that policies meet specific compliance requirements. It is the responsibility of the provider to ensure that the policy they define meets the required compliance requirements and laws. For example, DX does not mandate that a data provider only share information for which consent for sharing has been obtained. d) Information Leakage — DX is not responsible\n\nfor any leakage of information that may occur through sharing. Providers are expected to ensure that data is appropriately sanitized, for example, via anonymization. e) It is outside the scope of DX to prescribe what\n\nthe consumer ought to do with the received data,\n\n\n\n\npost the retention period set by the provider. It is expected that the consumer disposes of the data in accordance with the policy requirements set by the provider, any legal agreement entered into with the provider or any regulatory framework governing the data. [dr(1)] f) DX is not responsible for the correctness of the data",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "4.5.2",
+      "heading": "4.5.2 Authorization Service",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "4.5 Data Exchange Services",
+        "4.5.2 Authorization Service"
+      ],
+      "char_start": 23718,
+      "char_end": 26639,
+      "semantic_chunk_length": 2921,
+      "final_chunk_length": 3223,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0014",
+    "text": "t by the provider. It is expected that the consumer disposes of the data in accordance with the policy requirements set by the provider, any legal agreement entered into with the provider or any regulatory framework governing the data. [dr(1)] f) DX is not responsible for the correctness of the data\n\nsharing policy rules of a provider. The providers shall ensure that their data policy rules match their organization’s policies; and go through the review process, be vetted by concerned parties, and tested before applying.\n\n​4.5.2.2 Functionalities\n\nThe authorization service in DX shall support the following functionalities:\n\n- a) Authentication — A DX authorization service\nshall allow users to authenticate themselves and participate in data exchange with valid X.509 certificates. b) Resource Access Policy Management — A\n\nregistered resource provider should be able to register resources to be shared in the DX catalog service and enable the DX authorization server to authorize access to resources on behalf of the provider. Resources may be associated with scopes and policies that define the set of resource attributes a consumer can access. c) Resource Access Authorization — A consumer\n\napplication uses the information in the catalog to request access from a DX compliant resource server. The resource server in conjunction with the DX authorization server determines if the consumer should be granted data access. Once authorization has been obtained, subsequent requests for data access may be serviced entirely by the resource server.\n\n​4.5.2.3​ Actors in the authorization flow\n\nThe main actors of the architecture are:\n\n- a) Provider — Data providers setup access control\npolicies for resources they are serving via the policy interface exposed by the DX authorization server. b) Consumer Application — The consumer application requests access to data from the resource server on behalf of the consumer. Consumers are expected to obtain X.509 certificates from a certificate authority trusted by the DX. The trusted CAs shall include certificate authorities licensed by Controller of Certifying Authorities, Ministry of Electronics and Information Technology, Government of India. The DX may also accept certificates from other trusted CAs. c) Resource Server — The resource server hosts\n\nresources (data and services). It grants access to\n\n\nIS 18003 (Part 1) : 2020\n\nresources after validating tokens issued by the DX authorization server. d) DX Adapter — The DX Adapter is an optional\n\nentity that sits in front of a non-DX compliant resource server. It handles resource access requests from the consumer application on behalf of the resource server. e) DX Authorization Server (DX AS) — The DX\n\nauthorization server is a DX/UMA 2.0 compliant auth server that can be configured to control access to resources on behalf of the provider. It exposes endpoints needed for managing policies, permissions and tokens.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 11,
+      "clause": "4.5.2",
+      "heading": "4.5.2 Authorization Service",
+      "heading_path": [
+        "3 TERMINOLOGY AND DEFINITIONS",
+        "4.5 Data Exchange Services",
+        "4.5.2 Authorization Service"
+      ],
+      "char_start": 26641,
+      "char_end": 29271,
+      "semantic_chunk_length": 2630,
+      "final_chunk_length": 2932,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0015",
+    "text": "cation on behalf of the resource server. e) DX Authorization Server (DX AS) — The DX\n\nauthorization server is a DX/UMA 2.0 compliant auth server that can be configured to control access to resources on behalf of the provider. It exposes endpoints needed for managing policies, permissions and tokens.\n\n## 5 SECURITY AND PRIVACY\n\nThis section elaborates on the prerequisites for maintaining security and privacy in the data exchange architecture. It details the means by which authentication, consent and identity is established. The manner in which Authorization policies are to be created by the provider is also detailed. Privacy requirements in particular shall adhere to the laws of the land [b.1].\n\n\n### 5.1 Security Requirements\n\n- a) All participants shall use TLS [1][3] to connect\nwith DX. b) The DX shall accept client side TLS certificates\n\nissued by a list of trusted CAs. c) The list of trusted CAs shall be decided by the DX\n\nand shall be communicated to DX participants. d) Security Techniques and best practices specified in [b.4][b.5][b.6][b.7][b.8][b.9][b.10] [b.11][b.12][b.13][b.14][b.15] may be followed. e) Scheduled and on-demand security updates from\n\nthe cloud to edge devices shall be possible.\n\n\n### 5.2 Privacy Requirements\n\n- a) All resource-items shall be tagged as either “public”, “protected”, “private”, or “confidential”. b) The protocols used to access resources shall\nalways use secure protocols based on TLS. c) The authorization token shall be sent through a\n\nsecure and encrypted channel. d) The authorization token shall contain the\n\nalong with the token, additional consent may be required from data principals in the form of OTP or biometrics.\n\n\n\n\n**Fig. 2 Authorization Flow**\n\n\n### 5.3 Authentication and Consent\n\n- 2) The entries in the catalog are linked to the DN of a user’s certificate. Thus, only the original owner shall be able to modify their own entry. e) Consent history: Consent history data is to be\n- a) All Providers shall use certificates from DX-CA\nor trusted certificate authorities to connect with DX. b) The certificates shall be validated by authorization\n\nconsidered private and is only available to the Provider of the resource. Consent history can be made available to providers for audit purposes.\n\nservice and be checked against certificate revocation lists or OCSP. c) All providers shall be able to manage the access",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 15,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "5",
+      "heading": "5 SECURITY AND PRIVACY",
+      "heading_path": [
+        "5 SECURITY AND PRIVACY"
+      ],
+      "char_start": 29274,
+      "char_end": 31360,
+      "semantic_chunk_length": 2086,
+      "final_chunk_length": 2388,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0016",
+    "text": "ll be validated by authorization\n\nconsidered private and is only available to the Provider of the resource. Consent history can be made available to providers for audit purposes.\n\nservice and be checked against certificate revocation lists or OCSP. c) All providers shall be able to manage the access\n\n### 5.4 Authorization Policies\n\ncontrol list of their resources using their valid digital certificates. d) Catalog security: 1) Only people with proper authorization shall be able to create, update and delete entries in the catalog.\n\nDX shall enable providers to associate a policy with every resource-item in the catalog. The policy should govern who has access to the resource described by the item and how entities with access should handle storage of resource’s data.\n\nA policy P is a pair of the form (C, A), where:\n\n\n\n\n\na) C defines the set of consumers that are authorized\n\n\nfor resource access. C may be defined in a policy language, such as XACML or Aperture. A consumer is any entity, such as an individual, organization, an organizational role, or a trusted execution environment that has been issued a certificate or token by a trusted CA. b) A is a list of attribute-value pairs which defines\n\nrequirements on consumers who have access to data. The policy framework does not capture requirements around ownership of data. However, further additions\n\nIS 18003 (Part 1) : 2020\n\n\nto the list of attributes or attribute values may be made while maintaining backward compatibility.\n\nStandard Operating Procedures (SOPs) may be defined for data usage, access rights and enforcement of integrity. And blockchain based technologies may be used to ensure data integrity. Also, business continuity procedures may be laid down as per ISO 22301.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 16,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "5.4",
+      "heading": "5.4 Authorization Policies",
+      "heading_path": [
+        "5 SECURITY AND PRIVACY",
+        "5.4 Authorization Policies"
+      ],
+      "char_start": 31363,
+      "char_end": 32809,
+      "semantic_chunk_length": 1446,
+      "final_chunk_length": 1748,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0017",
+    "text": "e while maintaining backward compatibility.\n\nStandard Operating Procedures (SOPs) may be defined for data usage, access rights and enforcement of integrity. And blockchain based technologies may be used to ensure data integrity. Also, business continuity procedures may be laid down as per ISO 22301.\n\n#### 5.4.1 Policy Labels\n\nIn order to simplify the process of authoring policies, the standard defines a set of policy labels that capture commonly used policy specifications as shown in Table 4.\n\n\nTable 3 Authorization Policy Attributes and Values.\n\n( Clause 5.4 )\n\n\n| Attribute key | Description | Possible Values |\n| --- | --- | --- |\n| Authorization protocol and policy | Specifies protocol that a consumer shall use to request access from a resource server | None, OAuth/UMA, OAuth/UMA + XACML Policy, Token/DX + Aperture policy language |\n| Data locality | Specifies requirements on where a consumer is allowed to store data after getting access | Country, State, Organization (Service-based access), None |\n| Data retention | Specifies requirements on how long consumers may retain data | Fixed period, Up to a certain event or date, None |\n| Data storage | Specifies in what form a consumer may store data | Encrypted (using adequately protected keys), Encrypted at rest and in transit (using keys owned by data owner), Any |\n| Data usage | Specifies requirements on the purpose for which data is used. | Privacy preserving computation, Anonymization, Computation certified by a third party, Any |\n| Data audit | Specifies audit requirements on data that the consumer shall satisfy | Audit accesses along with time and duration of access, None |\n\n\nTable 4 List of Policy Labels\n\n( Clause 5.4.1 )\n\n\n**Table 4 List of Policy Labels**\n\n| Labels → Meaning \\| v | Public | Protected | Private | Confidential |\n| --- | --- | --- | --- | --- |\n| Nature of data | Information which can be made available to the public. It shall not contain any personally identifiable information | May contain anonymized information | May contain personally identifiable information | May contain personally identifiable information and/or other data that is confidential within an organization |\n| Authorization protocol and policy | None | Requires authorization using DX/UMA | Requires authorization using DX/UMA | Requires authorization using DX/UMA |\n| Consent | None | Requires consent of Provider | Requires consent of Provider and owners | Requires consent of Providers and owners |\n| Data locality | None | None | Configurable or as per regulatory framework | Only service based access |\n| Data retention | None | None | Configurable or as per regulatory framework | NA |\n| Data storage | Any | Any | Encrypted | NA |\n| Data usage | Any | License | Licensed with legal framework | Licensed with legal framework |\n| Data audit | None | Random audit | Regular audit | Regular audit |\n| Data Monetization | Not to be monetized | Provider’s decision | Provider’s decision | Provider’s decision |\n\n\n\n\n\nClassification of data shall be the responsibility of the data provider and needs strict regulation wherever deemed necessary.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 17,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "5.4.1",
+      "heading": "5.4.1 Policy Labels",
+      "heading_path": [
+        "5 SECURITY AND PRIVACY",
+        "5.4 Authorization Policies",
+        "5.4.1 Policy Labels"
+      ],
+      "char_start": 32812,
+      "char_end": 35628,
+      "semantic_chunk_length": 2816,
+      "final_chunk_length": 3118,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0018",
+    "text": "it | None | Random audit | Regular audit | Regular audit |\n| Data Monetization | Not to be monetized | Provider’s decision | Provider’s decision | Provider’s decision |\n\n\n\n\n\nClassification of data shall be the responsibility of the data provider and needs strict regulation wherever deemed necessary.\n\n#### 5.4.2 Identity\n\nThe identities of the providers and consumers accessing private data must be clearly established using digital certificates, whereas consumers accessing public data could be anonymous.\n\nIdentity of providers/consumers of data in DX is through:\n\n- a) Certificates; and b) Tokens. However Individuals, app developers, or employees of an organization who wish to access protected private, or confidential data shall require a valid certificate.\nDX shall accept TLS connections using certificates from any licensed CA in India (certified by the CCA).\n\n\n5.4.2.1 A DX may issue certificates to users based on their email IDs. A DX may host a certificate authority (CA) which can grant certificates to:\n\n- a) Resource servers; b) Individuals/App developers; c) Organizations; d) Data officers of an organization; and e) Employees of an organization. A simple email based scheme may be chosen to issue certificates; for example:\nIndividuals and App developers can send a certificate signing request (CSR) as an attachment in an email to the DX Certificate Authority with subject “Certificate request”. The CA will validate the CSR and will respond back with a certificate.\n\nOrganizations can send a certificate signing request (CSR) as an attachment in an email from their organization domain to DX Certificate Authority. The CA will validate the CSR and will respond back with a certificate. The certificate provided to an organization can only be used to grant certificates to employees of the organization. Thus, the domain name of the organization shall match with the e-mail of the employee to whom the certificate is granted.\n\nFor organizations to be able to request certificates from CA, they shall register themselves with CA (this may be through an online form). All registered organizations’ domain names shall be added to a white-list; and DX shall only accept certificate requests from organizations in the white-list.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 18,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "5.4.2",
+      "heading": "5.4.2 Identity",
+      "heading_path": [
+        "5 SECURITY AND PRIVACY",
+        "5.4 Authorization Policies",
+        "5.4.2 Identity"
+      ],
+      "char_start": 35631,
+      "char_end": 37574,
+      "semantic_chunk_length": 1943,
+      "final_chunk_length": 2245,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0019",
+    "text": ".\n\nFor organizations to be able to request certificates from CA, they shall register themselves with CA (this may be through an online form). All registered organizations’ domain names shall be added to a white-list; and DX shall only accept certificate requests from organizations in the white-list.\n\n##### 5.4.2.2 Organizations while generating a certificate may add more details about the employee, such as organization, organization unit, first name, last name, role of the employee, state, city, etc.\n\nEmployees of an organization may send a certificate signing request (CSR) as an attachment in an email to\n\n\nDX Certificate Authority. The organization that will act as a sub-CA or a registration-authority will validate the CSR and will respond back with a certificate. The scripts/tools to grant certificates may be provided by the DX to organizations.\n\nThe DX Certificate Authority shall issue 5 classes of certificates:\n\n- a) Class 1: Which shall be issued to resource servers\nfor validating tokens. b) Class 2: Which shall be issued to individuals or\n\nemployees of an organization (which are registered and whitelisted with the DX). This certificate is expected to be used to access protected data. c) Class 3: Which can be issued to employees and data-\n\nofficers of an organization (which are registered and whitelisted with the DX). Such employees shall have access rights to upload and manage resource- items in the catalogue of the DX. This certificate shall be used to create/manage catalog items. d) Class 4: Which is to be issued to trusted employees\n\nof an organization (which are registered and whitelisted with the DX). This certificate is expected to be used to access protected and private data. e) Class 5: Which is to be issued to trusted employees\n\nof an organization (which are registered and whitelisted with the DX). This certificate is expected to be used to access protected, private, and confidential data.\n\n\n### 5.5 Audit Considerations\n\nAll interfaces shall make statistics available and log all events to allow audit of interactions.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 19,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "5.4.2.2",
+      "heading": "5.4.2.2 Organizations while generating a certificate may add more details about the employee, such as organization, organization unit, first name, last name, role of the employee, state, city, etc.",
+      "heading_path": [
+        "5 SECURITY AND PRIVACY",
+        "5.4 Authorization Policies",
+        "5.4.2 Identity",
+        "5.4.2.2 Organizations while generating a certificate may add more details about the employee, such as organization, organization unit, first name, last name, role of the employee, state, city, etc."
+      ],
+      "char_start": 37577,
+      "char_end": 39342,
+      "semantic_chunk_length": 1765,
+      "final_chunk_length": 2067,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0020",
+    "text": "oyees\n\nof an organization (which are registered and whitelisted with the DX). This certificate is expected to be used to access protected, private, and confidential data.\n\n\n### 5.5 Audit Considerations\n\nAll interfaces shall make statistics available and log all events to allow audit of interactions.\n\n### 5.6 Reliability Considerations\n\nThe systems shall be designed to be highly available, scalable using a distributed architecture for vertical and horizontal scale, and high on performance where:\n\n- a) Reliability is defined as the ability of a device or a\nsystem to perform its intended function under given conditions of use for a specified period of time or number of cycles. b) Availability is defined as the property of being\n\naccessible and usable upon demand by an authorized entity. c) Scalability is defined as the property of a system to\n\nhandle a growing amount of work/load by adding resources to the system. The public API status page may be provided by the authorization service provider, catalogue service provider and the resource server that reports the status of each API (along with other open data like average response time, latency, etc). Furthermore, these may also implement the heartbeat API for reporting their system uptime in real-time.\n\nThe various failure scenarios that shall be handled are as follows:\n\n\n\n\n#### 5.6.1 Failure to Notify Provider\n\nIn this scenario, when the AS or RS is not able to notify the provider on the status of the consent flow or data flow, a mechanism has to be put in place to notify the provider at a later stage. This can be achieved by reinitiating the notification message to the provider or by providing the provider an option to check the status through an application, or by providing a list of all consent flows and data flows (with status) in the application.\n\n\n#### 5.6.2 Response from AS does not Reach the Consumer\n\nIn this scenario, when the response sent by AS does not reach the Consumer, the latter should have a mechanism provided by AS to initiate a request to know the status of the consent flows.\n\nIS 18003 (Part 1) : 2020\n\n\n#### 5.6.3 Response from Catalogue Service does not Reach Consumer\n\nIn this scenario, when the response sent by catalogue service does not reach the consumer, the consumer should have a mechanism provided by catalogue service to initiate a request to know the status of catalogue services.\n\n\n#### 5.6.4 RS is not Available to Consumer\n\nIn this scenario, when RS is not available to consumer, consumer may have a mechanism to re-initiate the request to RS.",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 20,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 15,
+      "clause": "5.6",
+      "heading": "5.6 Reliability Considerations",
+      "heading_path": [
+        "5 SECURITY AND PRIVACY",
+        "5.6 Reliability Considerations"
+      ],
+      "char_start": 39345,
+      "char_end": 41604,
+      "semantic_chunk_length": 2259,
+      "final_chunk_length": 2561,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0021",
+    "text": "er, the consumer should have a mechanism provided by catalogue service to initiate a request to know the status of catalogue services.\n\n\n#### 5.6.4 RS is not Available to Consumer\n\nIn this scenario, when RS is not available to consumer, consumer may have a mechanism to re-initiate the request to RS.\n\n## 6 INTERACTION SCENARIOS\n\nThe minimal set of interaction scenarios supported by the data exchange ecosystem is indicated in Fig. 3. Details for each follows.\n\n\n**Fig. 3 Basic Interaction Scenarios**\n\n\n\n\n\n### 6.1 Provider Registration\n\nThe provider needs to obtain a certificate from the CA to establish identity. An example workflow is given as follows:\n\n\n### 6.2 Create and Manage Metadata of Resources\n\nIn this use case, a Provider is requesting the authorization service to allow access to use the catalogue. Once approved, the provider can create or update an entry in the catalogue.\n\n\n**Fig. 4 Provider Registration Flow**\n\n\n**Fig. 5 Resource Provider Creating an Item in the Catalogue**\n\n\n\n\n\n| Summary | The use case allows Providers to update the catalogue |\n| --- | --- |\n| Pre-condition | • A valid certificate provided by a trusted CA |\n| Actor | Provider |\n| Post-condition | An approval is provided to perform the requested operation |\n\n\nIf a resource is not public, then the Provider can request an Authorization Service to set policies for data access.\n\nSummary The use case allows Providers to set policies for their resources\n\nIS 18003 (Part 1) : 2020\n\n\n| Pre-condition | • A valid certificate provided by a trusted CA |\n| --- | --- |\n| Actor | Provider |\n| Post-condition | A policy is set for the provider’s resources. |\n\n\n### 6.3 Discover Data\n\nIn this use case, a consumer is using the search APIs of the catalogue service to find interested entities. Once the entities are identified, a consumer using consumer App can request for consent and access their data.\n\n\n**Fig. 6 Setting up a Permissions for a Resource by the Provider**\n\n\n**Fig. 7 Consumer Discovering Data**\n\n\n\n\n\n| Summary | This use case allows consumers to search the catalogue using customer app |\n| --- | --- |\n| Pre-condition | – |\n| Actor | Consumer |\n| Post-condition | A list of search hits are sent to the consumer app |",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 21,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 15,
+      "page_end": 18,
+      "clause": "6",
+      "heading": "6 INTERACTION SCENARIOS",
+      "heading_path": [
+        "6 INTERACTION SCENARIOS"
+      ],
+      "char_start": 41607,
+      "char_end": 43521,
+      "semantic_chunk_length": 1914,
+      "final_chunk_length": 2216,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0022",
+    "text": "ssions for a Resource by the Provider**\n\n\n**Fig. 7 Consumer Discovering Data**\n\n\n\n\n\n| Summary | This use case allows consumers to search the catalogue using customer app |\n| --- | --- |\n| Pre-condition | – |\n| Actor | Consumer |\n| Post-condition | A list of search hits are sent to the consumer app |\n\n### 6.4 Request Consent and Access Data\n\nA consumer application can request access to data from an DX compliant resource server using any one of the supported APIs. If requested data does not require authorization that is, does not have an authorization policy, or the request contains a valid access token, then the resource server serves the request after token validation.\n\nIf data requires authorization and the request does not contain a token, the resource server initiates authorization following a DX/UMA 2.0 compliant protocol. The protocol supports a subset of UMA 2.0 workflows:\n\n- a) Accept policies specified in a policy language. b) Support identities based on X.509 certificates\nissued by DX CA (as described above) c) Accept claims based on X.509 certificates issued\n\nby a set of trusted CAs d) No support interactive claims gathering. All\n\nclaims shall be pushed. e) Include a reference to the policy object in access\n\ntokens issued\n\n\n**Fig. 8 Consumer Requesting Access to a Resource**\n\n\n\n\n\n| Summary | This use case allows the Consumer to access the requested data |\n| --- | --- |\n| Pre-condition | • A valid X.509 certificate issued by a DX compliant CA |\n| Actor | Consumer Application |\n| Post-condition | The requested data is provided to the Consumer |\n\n\n### 6.5 Revoke Consent\n\nA provider shall be able to revoke access to a particular resource by calling the/revoke API.\n\nIS 18003 (Part 1) : 2020\n\n\n| Summary | This use case allows the Provider to revoke access to data |\n| --- | --- |\n| Pre-condition | • A valid X.509 certificate issued by a DX compliant CA |\n| Actor | Provider Application |\n| Post-condition | The consumer is no longer able to access the resource |\n\n\n**Fig. 9 Revoking Consent Flow**\n\n\n\n\n\n## ANNEX A\n\n( Foreword )\n\nTRACEABILITY WITH DATA LAYER REFERENCE ARCHITECTURE\n\nThe below table shows the traceability of this document with IS 18002 data layer reference architecture (Under Development). The sections detailed in this\n\ndocument expand on the initial definitions and concepts in the data layer document.\n\n\n| Section in this Document | Section in the DL Document |\n| --- | --- |\n| 3: Terminology and Definitions | • Terminology and Definitions |\n| 4.1: System Design Principles 4.2: Entities and their responsibilities | • Data Layer-Key Guiding Principles • Data Layer-Key Characteristics |\n| 4.3: High Level Architecture | • Data Layer Core Functions (Architecture diagram) |\n| 4.4: Entities and their responsibilities | • Data Layer-Key Guiding Principles (Accessibility) |\n| 4.5: Data Exchange Services | • Data Layer-Core Functions • Unified Data Layer Architecture and Components-Data Exchange API • Data Exchange |\n| 5: Security and Privacy | • Unified Data Layer Architecture and Components - Data Governance |\n| 6: Interaction Scenarios | • Data Exchange-Data APIs |",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 22,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 18,
+      "page_end": 20,
+      "clause": "6.4",
+      "heading": "6.4 Request Consent and Access Data",
+      "heading_path": [
+        "6 INTERACTION SCENARIOS",
+        "6.4 Request Consent and Access Data"
+      ],
+      "char_start": 43524,
+      "char_end": 46349,
+      "semantic_chunk_length": 2825,
+      "final_chunk_length": 3127,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "18003_1_2020_0023",
+    "text": "## ANNEX B\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 28 (14073).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "18003_1_2020.md",
+      "chunk_index": 23,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 21,
+      "page_end": 21,
+      "clause": "ANNEX B",
+      "heading": "ANNEX B",
+      "heading_path": [
+        "ANNEX B"
+      ],
+      "char_start": 46356,
+      "char_end": 47812,
+      "semantic_chunk_length": 1456,
+      "final_chunk_length": 1456,
+      "standard_no": "IS 18003",
+      "year": "2020",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

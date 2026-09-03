@@ -1,0 +1,415 @@
+[
+  {
+    "id": "17737_2_2021_0000",
+    "text": "MANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI-110002 www.bis.gov.in  www.standardsbis.in\n\n\b Price Group 7\n\n\n\n\nInformation Systems Security and Privacy Sectional Committee, LITD 17\n\nFOREWORD\n\nThis Indian Standard (Part 2) was adopted by the Bureau of Indian Standards, after the draft finalized by Information Systems Security and Privacy Sectional committee had been approved by the Electronics and Information Technology Divisional council.\n\nThere is no ISO/IEC Standard on this subject.\n\nThis standard is one of the series of Indian Standards on Mobile device security. Other parts in this series are:\n\nPart 1 Overview Part 3 Security levels Part 4 Assessment and evaluation As mobile based services especially, financial services are gaining popularity, focus on the security of data and content on mobile devices is obvious. Mobile devices need additional protection because their extensive mobility (portability) and always on connectivity (generally using untrusted public network) places them at higher exposure to threats than other client devices, such as desktop and laptop devices which are normally used only within the organization’s facilities and on the organization’s networks\n\nIt requires a totally different approach and strategy to address security of mobile devices as compared to normal computer based systems and applications. Mobile devices uses mobile ecosystem that involves various subsystems and components to provide an environment to enable the operations and connectivity of mobile devices and information systems. Therefore, security of mobile needs to be addressed at different layers (subsystems and components) of the mobile ecosystem covering mobile device technology stack (including Firmware, Embedded components, Operating System, Pre-installed Applications like Mobile Browser, Device Management Software Agent, VPN Client, Email Client, etc.), Third party mobile applications, networks and communication interfaces (including cellular, Wi-Fi, Bluetooth, NFC), mobile infrastructure (including mobile app store and services) and enterprise mobile support/monitoring services (Enterprise Mobility Management [EMM]/ Device Management Software and Mobile Application Management [MAM]). All these components of the mobile ecosystem shall be considered for defining and assessing the security of mobile devices to meet the common security objectives-confidentiality, integrity and availability.\n\nThis series of standards is applicable to the following:",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2493,
+      "semantic_chunk_length": 2491,
+      "final_chunk_length": 2491,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0001",
+    "text": "bile Application Management [MAM]). All these components of the mobile ecosystem shall be considered for defining and assessing the security of mobile devices to meet the common security objectives-confidentiality, integrity and availability.\n\nThis series of standards is applicable to the following:\n\n- a) Organizations designing, developing, and manufacturing mobile devices; b) Customers seeking confidence in the security of mobile devices used by them; c) Organizations seeking confidence in the security of mobile devices used by them; and d) Organizations performing security assessment of mobile devices In the formulation of this standard, assistance has been derived from the following standards:\nNIST Special Publication 1800-4b (Draft) — Mobile Device Security, Approach, Architecture, and Security\n\nCharacteristics Cloud and Hybrid Builds NIST Special Publication 800-124 Revision 1; Guidelines for Managing the Security of Mobile Devices in\n\nthe Enterprise, June 2013 The composition of the Committee, responsible for the formulation of this standard is given at Annex A.\n\n\n\n\nCONTENTS\n\n\b Page No.\n\n0 INTRODUCTION ... 1\n\n1 SCOPE ... 3\n\n2 REFERENCES ... 3\n\n3 TERMINOLOGY ... 3\n\n\n## 4 USE CASE SCENARIOS ... 3\n\n\n## 5 MOBILE SECURITY MAP FROM SECURITY RISK TO SECURITY CONTROL REQUIREMENTS ... 3\n\n\n### 5.1 Mobile Device – High Level Security Risks ... 3\n\n\n## 6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS ... 4\n\n\n## ANNEX A  COMMITTEE COMPOSITION ... 12\n\nLIST OF FIGURES\n\n\n**Fig. 1 Mobile Security Map ... 4**\n\nLIST OF TABLES\n\nTable 1 High Level Security Risks - Security Threats – Characteristics ... 5 Table 2 Security Characteristics and Security Controls to Mitigate Threats ... 5 Table 3 Security Control – Details and Explanation ... 6\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\n## 0 INTRODUCTION\n\nIS 17737 (Part 2) : 2021\n\nMobile devices are subjected to a unique set of security threats affecting the users which could be an individual or an enterprise. Typical mobile device protections against security threats, addressing mobile apps, malware, physical access, etc. may fail to fully mitigate the security challenges associated with the complex mobile ecosystem. Hence, a set of security controls and countermeasures that address mobile threats in a holistic manner shall be identified, necessitating a broader view of the entire mobile security ecosystem. This shall go beyond mobile devices to include, as an example, the mobile networks, and infrastructure used to support mobile applications and native mobile services.\n\nIn this part of the standard, high level security risks and related security threats are identified and described. Further, to mitigate these threats, Security characteristics and associated security control requirements are defined for the mobile devices. It also identifies the minimum set of security requirements pertaining to Mobile OS and pre-installed Apps. This covers security threats associated with mobile device; mobile network; mobile user behavior; and untrusted third party applications and malicious systems.\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nIndian Standard\n\n\nMOBILE DEVICE SECURITY\n\n\nPART 2 SECURITY REQUIREMENTS",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 2,
+      "page_end": 7,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2495,
+      "char_end": 5435,
+      "semantic_chunk_length": 2940,
+      "final_chunk_length": 3242,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0002",
+    "text": "installed Apps. This covers security threats associated with mobile device; mobile network; mobile user behavior; and untrusted third party applications and malicious systems.\n\n\n\n\n\nThis page has been intentionally left blank\n\n\n\n\nIndian Standard\n\n\nMOBILE DEVICE SECURITY\n\n\nPART 2 SECURITY REQUIREMENTS\n\n## 1 SCOPE\n\nThis standard (Part 2) identifies high level security risks, related security threats, and define security characteristics with security control requirements to mitigate threats to mobile device technology stack consisting of mobile hardware, firmware, operating system, and pre-installed apps from the mobile ecosystem.\n\nThe security threats to mobile device for personal and enterprise use covered in this standard are:\n\n- a) Direct security threats by mobile device; and b) Indirect security threats from other components\nof mobile ecosystem like network, user and malicious apps. The security threats to other core components of the mobile ecosystem such as third party mobile apps, mobile network, and infrastructure are out of scope as independent entities.\n\n\n## 2 REFERENCES\n\nThe standards/documents given below contains provisions, which through reference in this text constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards/documents are subject to revision, and parties to agreement based on this standard are encouraged to investigate the possibility of applying the most recent editions of the standards listed as follows:\n\nIS No./Other\n\nTitle\n\nPublication\n\n17737 (Part 1) : 2021 Mobile device security: Part 1 Overview\n\n17737 (Part 4) : 2021 Mobile device security: Part 4 Assessment and evaluation\n\nIS 15256 (Part 1)\n\nBanking — Key management (retail): Part 1 Principles (first revision)\n\n: 2011\n\nISO/IEC 19790 :\n\n\n## 2012 Information technology — Security techniques — Security requirements for cryptographic modules\n\nCIS Benchmarks (Android and iOS)\n\nOWASP Top 10 Mobile Security Risks, 2016\n\nOWASP Mobile Application Security Verification Standard (MASVS), Version 1.1\n\nSANS Mobile Device Checklist\n\n\n## 3 TERMINOLOGY\n\nFor the purpose of this standard (Part 2) the definitions given in IS 17737 (Part 1) shall apply.\n\n\n## 4 USE CASE SCENARIOS\n\nThe mobile device may be used for various situations. The typical uses cases for mobile device are described below:\n\n- a) Use Case-1 — Mobile device for personal use;\nand b) Use Case-2 — Mobile device for enterprise use\n\nand personal use. Depending up on the use case, a mobile device shall be evaluated against one of the two security levels as defined in Part 3 of this standard.\n\nThe applicable security to these use cases may be different and has to be determined by the users/organizations using the mobile device. The security levels are defined in 4 of Part 3 of this standard and security control requirements are specified in 6.",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "1",
+      "heading": "1 SCOPE",
+      "heading_path": [
+        "1 SCOPE"
+      ],
+      "char_start": 5438,
+      "char_end": 8009,
+      "semantic_chunk_length": 2571,
+      "final_chunk_length": 2873,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0003",
+    "text": "evels as defined in Part 3 of this standard.\n\nThe applicable security to these use cases may be different and has to be determined by the users/organizations using the mobile device. The security levels are defined in 4 of Part 3 of this standard and security control requirements are specified in 6.\n\n## 5 MOBILE SECURITY MAP FROM SECURITY RISK TO SECURITY CONTROL REQUIREMENTS\n\nThe high level security risks, related security threats, security characteristics and security controls pertaining to mobile devices are described in this clause.\n\nThe approach for defining security control requirements is based on identifying security threats from high level security risk.",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "5",
+      "heading": "5 MOBILE SECURITY MAP FROM SECURITY RISK TO SECURITY CONTROL REQUIREMENTS",
+      "heading_path": [
+        "5 MOBILE SECURITY MAP FROM SECURITY RISK TO SECURITY CONTROL REQUIREMENTS"
+      ],
+      "char_start": 8012,
+      "char_end": 8381,
+      "semantic_chunk_length": 369,
+      "final_chunk_length": 671,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0004",
+    "text": "REMENTS\n\nThe high level security risks, related security threats, security characteristics and security controls pertaining to mobile devices are described in this clause.\n\nThe approach for defining security control requirements is based on identifying security threats from high level security risk.\n\n### 5.1 Mobile Device – High Level Security Risks\n\nThe high level security risks to mobile device (mobile hardware, firmware, mobile OS, and pre-installed apps) are grouped into following 4-different categories which covers CIA (Confidentiality, Integrity and Availability) objectives:\n\n- a) Mobile device based security risks (untrusted\nmobile device); b) Mobile network based security risks (untrusted\n\nnetwork);\n\n\n\n\n\nThe high level security risks, related security threats, security characteristics and security controls pertaining to mobile devices are described in this clause. The approach for defining security control requirements is based on identifying security threats from high level security risk.\n\nIS 17737 (Part 2) : 2021\n\n\n|  |  | High Level Security Risks |  | Security Threats | Security Characteristics | Security Control requirements to Mitigate Threats |  |\n\n\n**FIG. 1  MOBILE SECURITY MAP 5.1 Mobile Device – High Level Security Risks The high level security risks to mobile device (mobile hardware, firmware, mobile OS, and pre-installed apps) are grouped into following 4-different categories which covers CIA (Confidentiality, Integrity and Availability) objectives:**\n\n\n**Fig. 1 Mobile Security Map**\n\n\n#### 5.1.1 Mobile Device Based Security Risks (Untrusted Mobile Device)\n\nMalicious apps and mobile malware can steal sensitive data and collect user data. In addition, mobile malware can be used to mount targeted attacks against mobile device users. Smartphones and tablets are susceptible to worms, viruses, Trojans and spyware similarly to desktops.\n\nMobile devices are used by end-users to perform a variety of business-related tasks and store a significant amount of sensitive data. This data can be compromised due to vulnerabilities in the insecurely designed mobile device leading to breach of device integrity and data security; the always-on connectivity of the mobile devices allowing opportunities to unauthorized parties to access data; and portable form-factor devices making them susceptible to theft and misplacement leading to misuse.\n\n\n#### 5.1.2 Mobile Network Based Security Risks (Untrusted Network)",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "5.1",
+      "heading": "5.1 Mobile Device – High Level Security Risks",
+      "heading_path": [
+        "5 MOBILE SECURITY MAP FROM SECURITY RISK TO SECURITY CONTROL REQUIREMENTS",
+        "5.1 Mobile Device – High Level Security Risks"
+      ],
+      "char_start": 8384,
+      "char_end": 10532,
+      "semantic_chunk_length": 2148,
+      "final_chunk_length": 2450,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0005",
+    "text": "nd data security; the always-on connectivity of the mobile devices allowing opportunities to unauthorized parties to access data; and portable form-factor devices making them susceptible to theft and misplacement leading to misuse.\n\n\n#### 5.1.2 Mobile Network Based Security Risks (Untrusted Network)\n\n#### 5.1.3 Mobile User Behavior based Security Risks (User Behavior and Awareness)\n\n- c) Mobile user behavior based security risks (user\nbehavior and awareness); and d) Malicious apps and malware based security risks\n\nMobile empowers end-users and provides various features for their personal and business purposes. However, end-users often indulge in risky behaviors primarily due to lack of awareness that could compromise business data. The risky behaviors of end users include Jail breaking/rooting devices to bypass security controls; using un-approved cloud-based apps to share and sync data; Using un-approved productivity apps that maintain copies of corporate data; Using malicious apps from un-approved app-stores; and Exposing business data with malicious intent.\n\n(untrusted third party applications and malicious systems). The first category of security risks (that is, mobile device security risks) is the direct security risks to the mobile devices whereas the remaining three categories of risks are indirect and operational security risks to the mobile device. These 4-categories of high level security risks are decomposed into specific security threats. To address these security threats; security characteristics are defined, which are elaborated into security control requirements as in 6.\n\n- a) Mobile device based security risks (untrusted mobile device); b) Mobile network based security risks (untrusted network); c) Mobile user behavior based security risks (user behavior and awareness); and d) Malicious apps and malware based security risks (untrusted third party applications\n\nand malicious systems). The first category of security risks (that is, mobile device security risks) is the direct security risks to the mobile devices whereas the remaining three categories of risks are indirect and operational security risks to the mobile device. These 4-categories of high level security risks are decomposed into specific security threats. To address these security threats; security characteristics are defined, which are elaborated into security control requirements as in 6. Security risks are briefly described below: 5.1.1 Mobile Device Based Security Risks (Untrusted Mobile Device) Mobile devices are used by end-users to perform a variety of business-related tasks and store\n\n\n#### 5.1.4 Malicious Apps and Malware Based Security Risks (Untrusted Third Party Applications and Malicious Systems)\n\nSecurity risks are briefly described below:",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "5.1.3",
+      "heading": "5.1.3 Mobile User Behavior based Security Risks (User Behavior and Awareness)",
+      "heading_path": [
+        "5 MOBILE SECURITY MAP FROM SECURITY RISK TO SECURITY CONTROL REQUIREMENTS",
+        "5.1 Mobile Device – High Level Security Risks",
+        "5.1.3 Mobile User Behavior based Security Risks (User Behavior and Awareness)"
+      ],
+      "char_start": 10535,
+      "char_end": 13010,
+      "semantic_chunk_length": 2475,
+      "final_chunk_length": 2777,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0006",
+    "text": " Security Risks (Untrusted Mobile Device) Mobile devices are used by end-users to perform a variety of business-related tasks and store\n\n\n#### 5.1.4 Malicious Apps and Malware Based Security Risks (Untrusted Third Party Applications and Malicious Systems)\n\nSecurity risks are briefly described below:\n\n## 6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS\n\n\n6.1 The security characteristics are related to the security risks and are given in Table 1",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "6",
+      "heading": "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS"
+      ],
+      "char_start": 13013,
+      "char_end": 13192,
+      "semantic_chunk_length": 179,
+      "final_chunk_length": 481,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0007",
+    "text": " Security Risks (Untrusted Third Party Applications and Malicious Systems)\n\nSecurity risks are briefly described below:\n\n## 6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS\n\n\n6.1 The security characteristics are related to the security risks and are given in Table 1\n\n### 6.2 Security characteristics are further associated with security controls and are given in Table 2.\n\nThe mobile devices in general are constantly connected to the internet. The end-users might use untrusted public networks enabling malicious parties to access and intercept transmitted data through rogue access points; the Wi-Fi sniffing; eavesdropping; skimming; and sophisticated Man-in-the-Middle (MitM) attacks.\n\n\n6.3 Explanation of each of the security controls and inputs required to check the implemented control is given in Table 3. The security control requirements mentioned below address the security of mobile device technology stack consisting of 4-layers (hardware, firmware, OS and pre-installed applications).\n\n\n\n\n\nTable 1 High Level Security Risks - Security Threats – Characteristics\n\n( Clause 6.1 )\n\n\n**Table 1 High Level Security Risks - Security Threats – Characteristics**\n\n| High Level Security Risks | Security Threats | Security Characteristics |\n| --- | --- | --- |\n| a) Device based security risks (hardware, firmware, OS and pre-installed apps related attacks) | 1) Loss of mobile device integrity; 2) Device physical access (lost, stolen, disposal); 3) Unauthorized access. | i) Device protection; ii) Data protection; iii) Data isolation; iv) Identity and authorization; v) Monitoring; vi) Privacy protection. |\n| b) Network based security risks (network based attacks on device) | 1) Eavesdropping; 2) Skimming; 3) Relay attack; 4) Man-in-the-middle; 5) Denial of Service; 6) Sniffing. |  |\n| c) User based security risks (user behavior and awareness Issues) | 1) Social engineering; 2) Loss of sensitive data. |  |\n| d) Application based security risks (malicious apps, malware and other systems based attacks on device) | 1) Mobile malicious apps, spyware and malware; 2) Un-approved cloud-based apps; 3) Un-approved productivity apps. |  |\n\n\nTable 2 Security Characteristics and Security Controls to Mitigate Threats\n\n( Clause 6.2 )\n\n\n**Table 2 Security Characteristics and Security Controls to Mitigate Threats**",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 9,
+      "clause": "6.2",
+      "heading": "6.2 Security characteristics are further associated with security controls and are given in Table 2.",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+        "6.2 Security characteristics are further associated with security controls and are given in Table 2."
+      ],
+      "char_start": 13195,
+      "char_end": 15248,
+      "semantic_chunk_length": 2053,
+      "final_chunk_length": 2355,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0008",
+    "text": "vice) | 1) Mobile malicious apps, spyware and malware; 2) Un-approved cloud-based apps; 3) Un-approved productivity apps. |  |\n\n\nTable 2 Security Characteristics and Security Controls to Mitigate Threats\n\n( Clause 6.2 )\n\n\n**Table 2 Security Characteristics and Security Controls to Mitigate Threats**\n\n| Security Characteristics | Security Controls |\n| --- | --- |\n| a) Device protection (device integrity) | 1) Baseband integrity checks, 2) Application black/whitelisting, 3) Device integrity checks: i) Boot validation, 4) Application verification, 5) Verified application and OS updates. |\n| b) Data protection | 1) Protected storage: i) Device encryption, ii) Secure containers, iii) Trusted key storage, iv) Remote wipe. 2) Protected communications: i) Virtual private network (VPN), ii) To include per-App VPN. 3) Data protection in process: i) Encrypted memory, ii) Trusted execution environment. |\n| c) Data isolation | 1) Sandboxing, 2) Memory isolation, 3) Trusted execution environment, 4) Device resource management, 5) Baseband isolation. |\n| d) Identity and authorization | 1) Local user authentication to applications, 2) Local user authentication to device, 3) Remote user authentication, 4) Credential and token in storage and while in use |\n| e) Monitoring | 1) Auditing and logging, 2) Root and jailbreak detection. |\n| f) Privacy protection | 1) Informed consent of user, 2) Privacy notification provided to user. |\n\n\nNOTE — Not all of these security controls may be applicable for a mobile device. Applicable security controls are selected and used to\n\naddress the security of mobile device.\n\n\n\n\n\nTable 3 Security Control – Details and Explanation\n\n( Clause 6.3 )\n\n\n**Table 3 Security Control – Details and Explanation**",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "6.2",
+      "heading": "6.2 Security characteristics are further associated with security controls and are given in Table 2.",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+        "6.2 Security characteristics are further associated with security controls and are given in Table 2."
+      ],
+      "char_start": 15250,
+      "char_end": 16689,
+      "semantic_chunk_length": 1439,
+      "final_chunk_length": 1741,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0009",
+    "text": "E — Not all of these security controls may be applicable for a mobile device. Applicable security controls are selected and used to\n\naddress the security of mobile device.\n\n\n\n\n\nTable 3 Security Control – Details and Explanation\n\n( Clause 6.3 )\n\n\n**Table 3 Security Control – Details and Explanation**\n\n| Security Characteristics | Security Controls | Details and Explanation of Security Controls | Security Threats Addressed |\n| --- | --- | --- | --- |\n| a) Device protection (device integrity) | 1) Baseband integrity checks | The baseband is the subsystem of the mobile that controls radio communications - basically a chipset on the phone that directly controls cellular hardware and communications with cell towers. Each mobile platform has integrity checking mechanisms. Check what integrity checking mechanisms are used to verify software, firmware, and information files integrity. | i) \u0007Loss of Mobile Device Integrity |\n|  | 2) Application black/whitelisting | Only mission appropriate content may be uploaded within the application. The application should employ functionality to restrict upload of file types to those expressly required for operations (for example, TIFF, JPEG, and PDF). Blacklist unauthorized apps and Whitelist authorized apps Using device management software and/ or antivirus software this feature may be demonstrated. | i) \u0007Mobile malicious apps and malware; ii) \u0007Un-approved cloud-based apps; iii) \u0007Un-approved productivity apps. |\n|  | 3) Device integrity checks: i) Boot validation | Boot validation: Validation that the device is in a known working state and unmodified at boot (for example, basic input output system (BIOS) integrity checks). Device-specific implementations of boot validation, verified application and OS updates. Each of the mobile platforms has integrity checking mechanisms - examine the native file integrity mechanisms as well as malicious code protection. | i) \u0007Loss of Mobile Device Integrity |\n|  | 4) Application verification | Application verification: Ensures that applications being installed come from a valid source. OS-level capability provided by each mobile OS to verify the digital signature of applications. Each platform requires application developer to digitally sign applications before they are available for users – providing application verification capability. | i) \u0007Mobile malicious apps and malware; ii) \u0007Un-approved cloud-based apps; iii) \u0007Un-approved productivity apps. |\n|  | 5) Verified application and OS updates | Verified application and OS updates: Ensure that OS and application updates being installed come from a valid source. OS-level capability provided by each mobile OS to verify the digital signature of applications and OS updates. | i) \u0007Mobile malicious apps and malware; ii) \u0007Un-approved cloud-based apps; iii) \u0007Un-approved productivity apps; iv) \u0007Loss of mobile device integrity; v) Unauthorized access; |\n\n\n\n\n\n\nTable 3 ( Continued )",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 11,
+      "clause": "6.2",
+      "heading": "6.2 Security characteristics are further associated with security controls and are given in Table 2.",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+        "6.2 Security characteristics are further associated with security controls and are given in Table 2."
+      ],
+      "char_start": 16691,
+      "char_end": 19327,
+      "semantic_chunk_length": 2636,
+      "final_chunk_length": 2938,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0010",
+    "text": "lity provided by each mobile OS to verify the digital signature of applications and OS updates. | i) \u0007Mobile malicious apps and malware; ii) \u0007Un-approved cloud-based apps; iii) \u0007Un-approved productivity apps; iv) \u0007Loss of mobile device integrity; v) Unauthorized access; |\n\n\n\n\n\n\nTable 3 ( Continued )\n\n| Security Characteristics | Security Controls | Details and Explanation of Security Controls | Security Threats Addressed |\n| --- | --- | --- | --- |\n| b) Data protection | 1) Protected storage | Device encryption, application-level encryption, and remote wipe capabilities. |  |\n|  | i) \u0007Device encryption | Device encryption: Cryptographic protection of all or portions of a device’s data storage locations - primarily flash memory locations. OS-level capability provided by each mobile OS ISO/IEC 19790 compliant mechanism may be used to secure data in storage. | i) \u0007Device physical access (lost, stolen, disposal); ii) Unauthorized access; iii) \u0007Loss of sensitive data. |\n|  | ii) \u0007Secure containers | Data is accessible only to authorized users and services. Data is protected during storage and processing. Application isolation solution, such as a secure container provides application level encryption. | i) Unauthorized access; ii) \u0007Loss of sensitive data. |\n|  | iii) \u0007Trusted key storage | Trusted key storage: Protected locations in software, firmware or hardware in which long- term cryptographic keys can be held. | i) \u0007Loss of mobile device integrity; unauthorized access; ii) \u0007Loss of sensitive data. |\n|  | iv) Remote wipe | Remote wipe: Renders access to enterprise data stored on the device infeasible, but may only wipe a portion of flash memory. Security incident remediation - The organization can perform remote remediation when a security incident is detected on the device. Options include disabling access to email/contacts/calendar from the server side or remotely wiping the mobile device. Using device management software , this feature may be demonstrated. | i) \u0007Device physical access (lost, stolen, disposal); ii) \u0007Loss of sensitive data. |\n|  | 2) Protected communications: | All network communication channels in the architecture use transport layer security (TLS). |  |\n|  | i) \u0007Virtual private network (VPN) | The confidentiality and integrity of information is protected while in transit using a cryptographic mechanism. ISO/IEC 19790 compliant mechanism shall be used to secure data in transit. | i) Eavesdropping; ii) Skimming; iii) Relay attack; iv) Man-in-the-middle; v) \u0007Loss of sensitive data |\n|  | ii) \u0007To include per- App VPN | Data in transit protection: Use of a VPN communication to cloud services is protected by TLS. | i) Eavesdropping; ii) Skimming; iii) Relay attack; iv) Man-in-the-middle; v) \u0007Loss of sensitive data |\n|  | 3) \u0007Data protection in process: | Encrypted memory and trusted execution environment. |  |\n|  | i) \u0007Encrypted memory | Encrypted memory to store information, such as sensitive data, passwords, or secret keys. ISO/IEC 19790 compliant mechanism may be used to secure data in process. | i) Unauthorized access; ii) Loss of sensitive data |\n\n\n\n\n\n\nTable 3 ( Continued )",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 11,
+      "page_end": 12,
+      "clause": "6.2",
+      "heading": "6.2 Security characteristics are further associated with security controls and are given in Table 2.",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+        "6.2 Security characteristics are further associated with security controls and are given in Table 2."
+      ],
+      "char_start": 19330,
+      "char_end": 22174,
+      "semantic_chunk_length": 2844,
+      "final_chunk_length": 3146,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0011",
+    "text": "xecution environment. |  |\n|  | i) \u0007Encrypted memory | Encrypted memory to store information, such as sensitive data, passwords, or secret keys. ISO/IEC 19790 compliant mechanism may be used to secure data in process. | i) Unauthorized access; ii) Loss of sensitive data |\n\n\n\n\n\n\nTable 3 ( Continued )\n\n| Security Characteristics | Security Controls | Details and Explanation of Security Controls | Security Threats Addressed |\n| --- | --- | --- | --- |\n|  | ii) \u0007Execution environment | Trusted execution environment is a protected environment that runs a secure operating system in the main processor of a mobile device. The protected/secure execution environment includes key-storage and management functionalities conforming to IS 15256 (Part 1). It also includes secure storage, which can be used to store transaction logs and authentication credentials in a private area. Protected/secure execution environment that runs independently from the main operating system (for example, Android or iOS). | i) Unauthorized access; ii) Loss of sensitive data |\n| c) Data isolation | 1) Sandboxing | Sandboxing: OS or application-level mechanisms utilizing multiple protection, isolation, and integrity capabilities to achieve higher levels of overall isolation. OS-level capability provided by each mobile OS OS mechanisms that isolate user-level applications from each other to prevent data leakage between applications. | i) Unauthorized access; ii) \u0007Loss of sensitive data |\n|  | 2) Memory isolation | Memory isolation: Processes should not be able to access or modify another process’s memory OS-level capability provided by each mobile OS. | i) Unauthorized access; ii) \u0007Loss of sensitive data |\n|  | 3) Trusted execution | Trusted execution: A process is created and runs in a trustworthy and isolated execution environment leveraging distinct memory spaces and controlled interfaces. OS-level capability provided by each mobile OS. | i) Unauthorized access; ii) \u0007Loss of sensitive data |\n|  | 4) Device resource management | Device resource management: Ability to enable/ disable device peripherals. Automatic, regular device integrity and compliance checks Using device management software this feature may be demonstrated. The device management software and mobile Threat protection (MTP) clients periodically scan the device for threats and compliance. Results are accessible to system administrators. | i) Unauthorized access; ii) \u0007Loss of sensitive data; iii) Denial of service |\n|  | 5) Baseband isolation | Baseband activities to manage network connections which include the cellular and Wi-Fi baseband, the NFC subsystem and others are isolated from main processor that runs the device’s primary operating system and SIM. | i) Unauthorized access; |\n\n\n\n\n\n\nTable 3 ( Continued )",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 12,
+      "page_end": 13,
+      "clause": "6.2",
+      "heading": "6.2 Security characteristics are further associated with security controls and are given in Table 2.",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+        "6.2 Security characteristics are further associated with security controls and are given in Table 2."
+      ],
+      "char_start": 22177,
+      "char_end": 24663,
+      "semantic_chunk_length": 2486,
+      "final_chunk_length": 2788,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0012",
+    "text": "| Security Characteristics | Security Controls | Details and Explanation of Security Controls | Security Threats Addressed |\n| --- | --- | --- | --- |\n| d) Identity and authorization | 1) Local user authentication to applications | Local authentication of user to applications Verify that only users authorized for local access via mobile devices are able to exercise the access. Using device management software this feature may be demonstrated -Users who are not members of the appropriate group attempt to access their email on an enrolled mobile device, and those attempts fail. | i) Unauthorized access; |\n|  | 2) Local user authentication to device | Local user authentication to device Provided by all mobile OSs Using device management software this feature may be demonstrated: Verify device authorization - To ensure that only enrolled devices could access organizational resources. Verification includes users not enrolled and devices enrolled. Authentication of device owner - The device management software service enforces authentication of the device owner using their enterprise credentials. | i) Unauthorized access; ii) \u0007Device physical access (lost, stolen, disposal) |\n|  | 3) Remote user authentication | Remote user authentication Using device management software this feature may be demonstrated: Verify that only users authorized for remote access via mobile devices are able to exercise the access. | i) Unauthorized access |\n|  | 4) Credential and token storage and use | Security of credentials and tokens in storage and while in use. | i) Unauthorized access; ii) \u0007Loss of sensitive data |\n| e) Monitoring | 1) Auditing and logging | Auditing and logging: Capture and store device and application information. Using device management software this feature may be demonstrated: Device, mobile operating system, and application information is available through an on-premises configuration manager (hybrid build) or a device management administration portal (cloud build). | i) Unauthorized access; ii) Denial of Service; |\n|  | 2) Root and jailbreak detection | Root and jailbreak detection: Ensures that the security architecture for a mobile device has not been compromised. | i) \u0007Loss of mobile device integrity |\n\n\n\n\n\nTable 3 ( Concluded )",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 13,
+      "page_end": 14,
+      "clause": "6.2",
+      "heading": "6.2 Security characteristics are further associated with security controls and are given in Table 2.",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+        "6.2 Security characteristics are further associated with security controls and are given in Table 2."
+      ],
+      "char_start": 24666,
+      "char_end": 26936,
+      "semantic_chunk_length": 2270,
+      "final_chunk_length": 2270,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0013",
+    "text": "ration portal (cloud build). | i) Unauthorized access; ii) Denial of Service; |\n|  | 2) Root and jailbreak detection | Root and jailbreak detection: Ensures that the security architecture for a mobile device has not been compromised. | i) \u0007Loss of mobile device integrity |\n\n\n\n\n\nTable 3 ( Concluded )\n\n| Security Characteristics | Security Controls | Details and Explanation of Security Controls | Security Threats Addressed |\n| --- | --- | --- | --- |\n| f) Privacy protection | 1) Informed consent of user | Permission model used for consent to use user data. | i) Unauthorized access; ii) Social engineering; iii) \u0007Loss of sensitive data |\n|  | 2) Privacy notification provided to user | Notifications provided to users about the privacy implications of certain device and application functionality. Implemented via privacy policy presented to users. Privacy notifications-Device owners are informed of privacy implications of certain device and application functionality during device management enrollment. The ability to display a warning banner that a user shall accept before gaining access. As an alternative, redirect users to an organizational website containing a sample privacy policy. | i) Social engineering; ii) \u0007Loss of sensitive data |\n\n\n6.4 The mobile operating system security requirements and Pre-installed application security requirements are defined in this sub-clause.\n\n\n#### 6.4.1 Mobile Operating System Security Requirements\n\nThe security of the mobile operating system shall be verified by checking the configuration settings. This shall be based on the checklist with focus on security configuration issues that are unique to the mobile platform. The checklist shall be based on the following security principles:\n\n- a) Data at rest protection (protection of confidentiality\nand integrity of stored data); b) Data in transit protection (protection of confidentiality and integrity of data as it is transmitted from and to the mobile device); c) Access control (access to assets are authorized and\n\nrestricted as per security requirements); d) Application updates (ensuring that updates of\n\nfirmware, OS and Apps are only from legitimate and authentic source); e) Security updates (ensuring that security updates of\n\nfirmware, OS and Apps are only from legitimate and authentic source); f) Integrity violation checking (ensuring that files,\n\nOS and Apps are not tampered); and g) Verified boot mechanism (ensuring that unauthorized entity is not able to modify the boot process of a device, and any attempt to do so is detected.\n\n\nThe evaluator may design a checklist covering above security principles or following checklists may be used:\n\n- a) SANS checklist, b) CIS checklist for Android; and c) CIS checklist for iOS. A checklist for mobile operating system based on SANS and CIS checklists is given in Annex A of Part 4 this standard.",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "6.2",
+      "heading": "6.2 Security characteristics are further associated with security controls and are given in Table 2.",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+        "6.2 Security characteristics are further associated with security controls and are given in Table 2."
+      ],
+      "char_start": 26939,
+      "char_end": 29504,
+      "semantic_chunk_length": 2565,
+      "final_chunk_length": 2867,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "17737_2_2021_0014",
+    "text": "uator may design a checklist covering above security principles or following checklists may be used:\n\n- a) SANS checklist, b) CIS checklist for Android; and c) CIS checklist for iOS. A checklist for mobile operating system based on SANS and CIS checklists is given in Annex A of Part 4 this standard.\n\n#### 6.4.2 Mobile Pre-installed Application Security Requirements\n\nThe app testing as per latest OWASP Top 10 mobile security risks and OWASP mobile application security verification Standard (MASVS) L1 shall be undertaken:\n\n- a) Following tests shall be carried out as per OWASP\nTop 10 Mobile Security Risks: 1) M1: Improper Platform Usage 2) M2: Insecure Data Storage 3) M3: Insecure Communication 4) M4: Insecure Authentication 5) M5: Insufficient Cryptography 6) M6: Insecure Authorization 7) M7: Client Code Quality 8) M8: Code Tampering 9) M9: Reverse Engineering 10) M10: Extraneous Functionality\n\n\n\n- 5) V5: Network Communication Requirements 6) V6: Platform Interaction Requirements 7) V7: Code Quality and Build Setting Requirements MASVS based checklist is given in Annex B of Part 4 of this standard.\n- b) Following tests shall be carried out as per OWASP\nMobile Application Security Verification Standard (MASVS) L1: 1) V1: Architecture, Design and Threat Modeling Requirements 2) V2: Data Storage and Privacy Requirements 3) V3: Cryptography Requirements 4) V4: Authentication and Session Management Requirements\n\n\n\n\n\n## ANNEX A\n\n( Foreword )\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Director (Publications), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the latest issue of ‘BIS Catalogue’ and ‘Standards: Monthly Additions’.\n\nThis Indian Standard has been developed from Doc No.: LITD 17 (14997).\n\n\nAmendments Issued Since Publication\n\n\n| Amend No. |  |  | Date of Issue |  |  | Text Affected |\n| --- | --- | --- | --- | --- | --- | --- |",
+    "metadata": {
+      "source": "17737_2_2021.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 16,
+      "clause": "6.4.2",
+      "heading": "6.4.2 Mobile Pre-installed Application Security Requirements",
+      "heading_path": [
+        "6 RELATIONSHIP AMONG SECURITY RISKS, SECURITY THREATS AND SECURITY CHARACTERISTICS",
+        "6.2 Security characteristics are further associated with security controls and are given in Table 2.",
+        "6.4.2 Mobile Pre-installed Application Security Requirements"
+      ],
+      "char_start": 29506,
+      "char_end": 32094,
+      "semantic_chunk_length": 2588,
+      "final_chunk_length": 2890,
+      "standard_no": "IS 17737",
+      "year": "2021",
+      "part": "Part 2",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]

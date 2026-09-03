@@ -1,0 +1,415 @@
+[
+  {
+    "id": "16137_1_2026_0000",
+    "text": "Indian Standard\n\n\nAutomotive Vehicles — Methods of Measurement of Braking Coefficient of Road Surfaces\n\nPart 1 SRTT Method\n\n( First Revision )\n\nICS 43.040.40; 93.080.01\n\n© BIS 2026\n\n\nMANAK BHAVAN, 9 BAHADUR SHAH ZAFAR MARG\n\nNEW DELHI - 110002 www.bis.gov.in     www.standardsbis.in\n\nMarch 2026 Price Group 6\n\n\n\n\nAutomotive Braking Systems, Vehicle Testing, Steering and Performance Evaluation Sectional Committee, TED 04\n\nFOREWORD\n\nThis Indian Standard (Part 1) (First Revision) was adopted by the Bureau of Indian Standards, after the draft finalized by the Automotive Braking Systems, Vehicle Testing, Steering and Performance Evaluation Sectional Committee had been approved by the Transport Engineering Division Council.\n\nFriction is the force that opposes the relative motion or tendency of such motion of two surfaces in contact. The coefficient of friction (also known as the frictional coefficient or the friction coefficient) is a scalar value which describes the ratio of the force of friction between two bodies and the force pressing them together.\n\nThis standard was first published in 2014. In this revision, the standard has been aligned with latest version of ASTM E 1337.\n\nThis revision has been brought out with a view to incorporating the modifications found necessary as a result of experience gained on the use of this standard. Also, in this revision, the standard has been brought into the latest style and format of Indian Standard, and references to standards, wherever applicable have been updated.\n\nThis standard has been published in two parts. Other part in this series is:\n\nPart 2   Pendulum method\n\nThis standard covers the test method for measurement of peak braking coefficient (PBC) using SRTT method; while Part 2 covers pendulum test method for quick and periodical checks of skid resistance on the road surfaces to evaluate its status of surface roughness.\n\nThe standard reference test tyre (SRTT) shall be designed to conform to the tyre and rim association (TRA) standard nominal dimensions and tolerances for cross-section and overall diameter found in the 2024 year book (available from the tyre and rim association 175, montrose west aveu suite 150 Copley OH 44321).\n\nWhile formulating this standard considerable assistance has been derived from ASTM E 1337 : 2019, 'Standard test method for determining longitudinal peak braking coefficient (PBC) of paved surfaces using a standard reference test tire'.\n\nThe composition of the Committee responsible for the revision of this standard is given in Annex A.\n\nFor the purpose of deciding whether a particular requirement of this standard is complied with, the final value, observed or calculated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 0,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 1,
+      "page_end": 2,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2,
+      "char_end": 2980,
+      "semantic_chunk_length": 2978,
+      "final_chunk_length": 2978,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0001",
+    "text": "ulated, expressing the result of a test or analysis, shall be rounded off in accordance with IS 2 : 2022 ‘Rules for rounding off numerical values (second revision)’. The number of significant places retained in the rounded off value should be the same as that of the specified value in this standard.\n\nIndian Standard AUTOMOTIVE VEHICLES — METHODS OF MEASUREMENT\n\n\nOF BRAKING COEFFICIENT OF ROAD SURFACES\n\n\nPART 1 SRTT METHOD\n\n\n( First Revision )\n\n\n## 1 SCOPE\n\nThis standard (Part 1) specifies test method for measurement of longitudinal peak braking coefficient (PBC) of road surfaces using a standard reference test tyre (SRTT) primarily to be used for demonstrating compliance of the PBC to statutory requirements.\n\n\n## 2 REFERENCES\n\nThe standards given below contain provisions which, through reference in this text, constitute provisions of this standard. At the time of publication, the editions indicated were valid. All standards are subject to revision and parties to agreements based on this standard are encouraged to investigate the possibility of applying the most recent edition of these standard:\n\n| Others Standards | Title |\n| --- | --- |\n| ASTM E 1136 | Specification for P195/75R14 radial standard reference test tire |\n| ASTM F 2493 | Specification for P225/60R16 97S radial standard reference test tire |\n| ASTM E 867 | Terminology relating to vehicle — Pavement systems |\n| ASTM F 408 | Specification for nickel-iron- chromium alloy rod and bar |\n| ASTM F 457 | Test method for speed and distance calibration of fifth wheel equipped with either analog or digital instrumentation |",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 1,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": null,
+      "heading": null,
+      "heading_path": [],
+      "char_start": 2985,
+      "char_end": 4285,
+      "semantic_chunk_length": 1300,
+      "final_chunk_length": 1602,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0002",
+    "text": "d reference test tire |\n| ASTM E 867 | Terminology relating to vehicle — Pavement systems |\n| ASTM F 408 | Specification for nickel-iron- chromium alloy rod and bar |\n| ASTM F 457 | Test method for speed and distance calibration of fifth wheel equipped with either analog or digital instrumentation |\n\n## 3 DEFINITIONS\n\nFor the purpose of this standard following definitions shall apply (for other definitions related to this standard, refer terminology ASTM E 867 and method ASTM F 408).\n\n\n### 3.1 Braking Force Coefficient, Tyre — The ratio of braking force to vertical load.\n\n\n### 3.2 Braking Force Coefficient, Tyre, Peak — The maximum  value,  as   defined  in  4.9.2,  of  the  tyre\n\nbraking force  coefficient that occurs prior to wheel lock up as the braking torque is progressively increased.\n\n\n### 3.3 Braking Force Coefficient, Tyre Slide — The value of the braking force coefficient obtained on a locked wheel.\n\n\n### 3.4 Braking Torque — The negatively directed wheel torque.\n\n\n### 3.5 Braking Force, Tyre — The negative longitudinal force resulting from braking torque application.\n\n\n3.6 Chirp Test — The progressive application of brake torque required to produce the maximum value of longitudinal braking force that will occur prior to wheel lockup with subsequent brake release to prevent any wheel lockup (tyre slide).\n\n\n### 3.7 Longitudinal Force, Tyre (Fx) — The component of a tyre force vector in the ‘X’ direction.\n\n\n### 3.8 Peak Braking Coefficient (PBC) — The measure of tyre to road surface friction based on the maximum deceleration of a rolling tyre.\n\n\n3.9 Torque Wheel (T) — The external torque applied to a tyre from a vehicle about the wheel spin axis. Driving torque is positive wheel torque; braking torque is negative wheel torque.\n\n\n3.10 Tyre-Axis System — The origin of the tyre-axis system is the centre of the tyre contact. The ‘X’ axis is the intersection of the wheel plane and the road plane with a positive direction forward. The ‘Z’ axis is perpendicular to the road plane with a positive direction downward. The ‘Y’ axis is in the road plane, its direction being chosen to make the axis system orthogonal and right-hand (see Fig. 1 in method ASTM F 408).\n\n\n### 3.11 Tyre Forces — The external forces acting on the tyre by the road.\n\n\n### 3.12 Vertical Load (Fz) — The downward vertical component of force between the tyre and the road.\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 2,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 3,
+      "page_end": 3,
+      "clause": "3",
+      "heading": "3 DEFINITIONS",
+      "heading_path": [
+        "3 DEFINITIONS"
+      ],
+      "char_start": 4288,
+      "char_end": 6518,
+      "semantic_chunk_length": 2230,
+      "final_chunk_length": 2532,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0003",
+    "text": "nal forces acting on the tyre by the road.\n\n\n### 3.12 Vertical Load (Fz) — The downward vertical component of force between the tyre and the road.\n\nTo access Indian Standards click on the link below: https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/\n\n## 4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD\n\n\n### 4.1 General\n\n\n4.1.1 This method prescribes use of a standard reference test tire (SRTT) as described in ASTM E 1136 or ASTM F 2493 that represents current technology passenger car radial tyres. General test procedures and limitations are presented for determining PBC independent of surface conditions. Actual test surface conditions are determined and controlled by the user at the time of test. Test and surface condition documentation procedures and details are specified. This measurement quantifies the PBC at the time of test and does not necessarily represent a maximum or fixed value.\n\n\n4.1.2 This test method utilizes a measurement representing the peak braking force on a braked SRTT passing over a road surface. This test is conducted with a tyre under a nominal vertical load at a constant speed while its major plane is parallel to its direction of motion and perpendicular to the pavement.\n\n\n4.1.3 The measured PBC obtained with the equipment and procedures stated herein may not necessarily agree or correlate directly with those obtained by other surface friction coefficient measuring methods.\n\n\n4.1.4 This standard may involve hazardous materials, operations and equipment. This standard does not purport to address all of the safety problems associated with its use. It is the responsibility of the user of this standard to establish appropriate safety and health practices and determine the applicability of regulatory limitations prior to use.\n\n\n### 4.2 Purpose\n\n\n4.2.1 Pavement surfaces have different traction characteristics depending on many factors such as surface texture, binder content, usage, environmental exposure and surface conditions (that is, wet, dry), etc.\n\n\n4.2.2 The measured values represent PBC for tyres of the general type in operation on passenger vehicles, obtained with a towed test trailer on a prescribed road surface, under user defined surface conditions. Such surface conditions may include the water depth used to wet the road surface and the type of water application method. Variations in these conditions may influence the test results.",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 3,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 4,
+      "clause": "4",
+      "heading": "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD"
+      ],
+      "char_start": 6523,
+      "char_end": 8719,
+      "semantic_chunk_length": 2196,
+      "final_chunk_length": 2498,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0004",
+    "text": " vehicles, obtained with a towed test trailer on a prescribed road surface, under user defined surface conditions. Such surface conditions may include the water depth used to wet the road surface and the type of water application method. Variations in these conditions may influence the test results.\n\n### 4.3 Test Method\n\n\n4.3.1 The measurements are conducted with a SRTT\n\n(see ASTM E1136 or ASTM F2493) mounted on a test trailer towed by a vehicle. The trailer contains a transducer, instrumentation and actuation controls for the braking of the test tyre (see 4.5 for trailer instrumentation).\n\n\n4.3.2 The test apparatus is normally brought to a test speed of 64 km/h. The brake is progressively applied until sufficient braking torque results to produce the maximum braking force that will occur prior to wheel lockup. Longitudinal force, vertical load and vehicle speed are recorded with the aid of suitable instrumentation and data acquisition equipment.\n\n\n4.3.3 The PBC of the road surface is determined from the ratio of the maximum value of braking force to the simultaneous vertical load occurring prior to wheel lockup as the braking torque is progressively increased.\n\n\n### 4.4 Test Apparatus\n\n\n4.4.1 The apparatus consists of a tow vehicle and test trailer. The vehicle and trailer shall comply with all legal requirements applicable to state laws when operated on public roads.\n\n\n#### 4.4.2 Tow Vehicle\n\nThe vehicle shall have capability of maintaining a test speed of 64 km/h within ± 0.8 km/h, even at maximum level of application of braking forces.\n\n\n#### 4.4.3 Test Trailer\n\nThe test wheel shall be equipped with a sufficient braking torque to produce the maximum value of braking test wheel longitudinal force at the conditions specified.\n\n\n4.4.4 Each of the trailer wheels shall have a suspension capable of holding toe and camber changes to within ± 0.05° with maximum vertical suspension displacements under both static and dynamic conditions.\n\n\n4.4.5 The rate of brake application shall be sufficient to control the time interval between initial brake application and peak longitudinal force to be between 0.3 s and 0.5 s.\n\n\n#### 4.4.6 Vertical Load\n\nThe trailer shall be of such a design as to provide a static load of 4 586 N ± 67 N (ASTM E 1136) or 5 249 N ± 67 N (ASTM F 2493) to the test wheel and on detachable trailers a static down load of 445 N to 890 N at the hitch point.\n\n\n\n\n#### 4.4.7 Tyre and Rim\n\nThe test tyre shall be the standard reference test tyre (SRTT) for pavement tests, as specified in\n\nASTM E 1136 or ASTM F 2493, mounted on a suitable 14 X 6 JJ. (ASTM E 1136) or 16 X 6.5 JJ. (ASTM F 2493) rim. When irregular wear or damage results from tests, or when wear or usage influences the test results, the tyres shall be replaced.",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 4,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 4,
+      "page_end": 5,
+      "clause": "4.3",
+      "heading": "4.3 Test Method",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+        "4.3 Test Method"
+      ],
+      "char_start": 8722,
+      "char_end": 11194,
+      "semantic_chunk_length": 2472,
+      "final_chunk_length": 2774,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0005",
+    "text": "erence test tyre (SRTT) for pavement tests, as specified in\n\nASTM E 1136 or ASTM F 2493, mounted on a suitable 14 X 6 JJ. (ASTM E 1136) or 16 X 6.5 JJ. (ASTM F 2493) rim. When irregular wear or damage results from tests, or when wear or usage influences the test results, the tyres shall be replaced.\n\n### 4.5 Instrumentation\n\n#### 4.5.1 General Requirements for Measuring System\n\nThe instrumentation system shall conform to the following overall requirements at ambient temperatures between    4 °C and 38 °C.\n\n\n4.5.1.1 Overall system accuracy of ± 1.5 percent of applied load from 890 N to full scale; for example, at 890 N, applied calibration force of the system output shall be determinable within ± 13 N.\n\n\n4.5.1.2 The exposed portions of the system shall tolerate 100 percent relative humidity (rain or spray) and all other adverse conditions, such as dust, shock and vibrations, which may be encountered to highway operations.\n\n\n##### 4.5.1.3 Braking forces\n\nThe braking force measuring transducer shall measure longitudinal reaction force within range between 0 kN and 8.9 kN generated at the tyre- pavement interface as a result of brake application. The tyre force-measuring transducer shall be of such design as to measure the tyre-pavement interface force with minimum inertial effects. Transducers are recommended to provide an output directly proportional to force with hysteresis less than 1 percent of the applied load, non-linearity less than 1 percent of the applied load up to the maximum expected loading and sensitivity to any expected cross-axis loading or torque loading less than 1 percent of the applied load. The force transducer shall be mounted in such a manner as to experience less than 1 angular rotation with respect to its measuring plane at the maximum expected loading.\n\n\n##### 4.5.1.4 Vertical load\n\nThe vertical load measuring transducer shall measure the vertical load at the test wheel during brake application. The transducer shall have the same specifications as those described in 4.5.1.3.\n\nNOTE — Other transducer systems may be used to determine PBC, if they can be shown to correlate with the force measuring transducer system with the same overall accuracy.\n\n\n##### 4.5.1.5 Vehicle speed-measuring transducers\n\nTransducers such as ‘fifth wheel’ or a free-rolling wheel coupled tachometer shall provide speed resolution and accuracy of ± 1.5 percent of the indicated speed or ± 0.8 km/h, whichever is greater. Output shall be directly viewable by the driver and shall be simultaneously recorded. Fifth wheel systems shall conform to method given in ASTM F 457.",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 5,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 5,
+      "clause": "4.5.1",
+      "heading": "4.5.1 General Requirements for Measuring System",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+        "4.5 Instrumentation",
+        "4.5.1 General Requirements for Measuring System"
+      ],
+      "char_start": 11197,
+      "char_end": 13502,
+      "semantic_chunk_length": 2305,
+      "final_chunk_length": 2606,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0006",
+    "text": "ing wheel coupled tachometer shall provide speed resolution and accuracy of ± 1.5 percent of the indicated speed or ± 0.8 km/h, whichever is greater. Output shall be directly viewable by the driver and shall be simultaneously recorded. Fifth wheel systems shall conform to method given in ASTM F 457.\n\n##### 4.5.1.6 Signal conditioning and data acquisition\n\nAll signal conditioning and recording equipment shall provide linear output and shall allow data reading resolution to meet the requirements of 4.5.1.1.\n\n\n4.5.1.7 All strain-gage transducers shall be equipped with resistance shunt calibration resistors or equivalent that can be connected before or after test sequences. The calibration signal shall be at least 50 percent of the normal vertical load and shall be recorded.\n\n\n4.5.1.8 A digital data acquisition system shall be employed to individually digitize the braking force, vertical load   and vehicle speed analog outputs. The braking force, vertical load and test wheel  speed input signals to be digitized shall be sampled (as close to simultaneous as possible to minimize phase shifting) at 100 samples per second for each channel from unfiltered analog signals. Vehicle speed can be analog filtered, if necessary, to remove noise since this is a steady-state signal.\n\nNOTE — Experience indicates that data sampling at 100 samples per second of unfiltered analog skid trailer data will properly describe the significant frequencies. To prevent 'aliasing', caution must be exercised in digitizing skid trailer data which contains any significant frequencies above 50 Hz or other type of analog data.\n\n\n### 4.6 Hazards\n\nThe test vehicle as well as all attachments to it shall comply with all applicable statutory laws. All necessary precautions shall be taken beyond those imposed by laws and regulations to ensure maximum safety of operating personnel and other traffic. No test shall be done when there is danger that the dispersed water may freeze on the pavement.\n\n\n### 4.7 Preparation of Apparatus\n\n\n#### 4.7.1 Preparation of Test Tyres\n\n- a) Trim the test tyres to remove all protuberances in the tread area caused by mold air vents or flashes at mold junctions;\n\n\n\n\n- b) Location that they all have the same ambient temperature prior to testing and shield them from the sun to avoid excessive heating by solar radiation;\n- c) Mount the tyre on recommended rim width (see 4.4.7) by using conventional mounting methods.Care should be taken regarding proper bead seating by use of, if required, proper lubricant. Excessive use of lubricant should be avoided to prevent slipping of the tyre on the wheel rim; and\n- d) Check the test tyres for the specified inflation pressure at ambient temperature when cold, just prior to testing. The test tyre inflation pressure shall be 241 kPa ± 3 kPa (35 psi ± 0.5 psi).",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 6,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 5,
+      "page_end": 6,
+      "clause": "4.5.1.6",
+      "heading": "4.5.1.6 Signal conditioning and data acquisition",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+        "4.5 Instrumentation",
+        "4.5.1 General Requirements for Measuring System",
+        "4.5.1.6 Signal conditioning and data acquisition"
+      ],
+      "char_start": 13505,
+      "char_end": 16032,
+      "semantic_chunk_length": 2527,
+      "final_chunk_length": 2829,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0007",
+    "text": "nt. Excessive use of lubricant should be avoided to prevent slipping of the tyre on the wheel rim; and\n- d) Check the test tyres for the specified inflation pressure at ambient temperature when cold, just prior to testing. The test tyre inflation pressure shall be 241 kPa ± 3 kPa (35 psi ± 0.5 psi).\n\n### 4.8 Calibration\n\nCalibrate the test vehicle speed indicator at the test speed by determining the time for traversing at constant speed a reasonably level and straight, accurately measured pavement of a length appropriate for the method of timing. Load the test trailer to its specified operating weight for this calibration. Record speed variations during a traverse with the test system. Make a minimum of three runs at each test speed to complete the calibration. Other methods of equivalent accuracy may be used. Calibration of a fifth wheel shall be performed in accordance with method given in ASTM F 457.\n\n\n### 4.9 Conditioning\n\n\n#### 4.9.1 Pretest Tyre Conditioning\n\n- a) Test tyre pretest conditioning shall be performed to precondition all tyres prior to initial testing. Pretest conditioning is to be done only once per tyre and prior to any actual test measurements. This process is recommended because the new tyre burnish effect may have an influence on the PBC obtained and to minimize test variability caused by transient, non-preconditioned, tyre braking performance; and\n- b) Pretest tyre conditioning shall be conducted on a dry and level surface. Each tyre shall be chirped ten times at a speed of 32 km/h under test load.\n\n#### 4.9.2 General Test Conditions\n\nThe test surface shall be free of loose material or foreign deposits. Do  not test when  wind  conditions\n\ninterfere with wetted test repeatability. Test results may be influenced by wind speed, or direction, or both. The magnitude of this dependence is a function of the water depth, application procedures and surface wind protection.",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 7,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 6,
+      "clause": "4.8",
+      "heading": "4.8 Calibration",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+        "4.8 Calibration"
+      ],
+      "char_start": 16035,
+      "char_end": 17654,
+      "semantic_chunk_length": 1619,
+      "final_chunk_length": 1921,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0008",
+    "text": "ose material or foreign deposits. Do  not test when  wind  conditions\n\ninterfere with wetted test repeatability. Test results may be influenced by wind speed, or direction, or both. The magnitude of this dependence is a function of the water depth, application procedures and surface wind protection.\n\n### 4.10 Procedure\n\n\n#### 4.10.1 Warm up electronic test equipment as required for stabilization.\n\n\n4.10.2 Install an SRTT (as per ASTM E 1136 or ASTM F 2493) in the test position of the test trailer. A tyre with a similar loaded radius and high cornering properties should be used on the opposite side to level the axle and to minimize trailer yaw during brake torque application.\n\n\n#### 4.10.3 Check and if necessary, adjust the test trailer static weight on the test tyre to the specified test load (see 4.4.6).\n\n\n#### 4.10.4 Check and adjust tyre inflation pressure as required immediately before testing to specified value [see 4.7.1(d)].\n\n\n4.10.5 When testing on an externally wetted surface, offset the trailer test wheel sufficiently to prevent ‘tracking’ of the towing vehicle. An offset of 305 mm to 406 mm is suggested.\n\n\n4.10.6 Record tyre identification and other data, including date, time, ambient temperature, test surface temperature, tyre durometer, test surface type and water depth (if wetted surface is used). Measure the water depth with a variable height probe type device.\n\n\n#### 4.10.7 Record electrical calibration signals prior to and after testing each surface, or as needed to ensure valid test data.\n\n\n#### 4.10.8 Perform pretest tyre conditioning (see 4.7.1) if using a new tyre.\n\n\n4.10.9 Conduct test at the required test vehicle speed. It is recommenced that PBC measurement tests be conducted using the chirp test methodology to minimize tyre damage due to tyre sliding.\n\n\n#### 4.10.10 Make at least 10 determinations of the PBC evenly distributed over the test surface with the test system at the specified test speed.\n\n\n\n\n#### 4.10.11 Lateral Positioning of the Test Vehicle on Highway Surface\n\nNormally, testing shall be done in the centre of either wheel track of a traffic lane on a highway. The specific details regarding lane and the wheel-path used should be provided when reporting the data.\n\n\n#### 4.10.12 Test Speeds\n\n\n4.10.12.1 The standard test speed shall be 64 km/h and tests shall normally be conducted at that speed. Where the legal maximum speed is less than 64 km/h, the test may have to be conducted at a lower speed. Where the legal speed is considerably in excess of 64 km/h, test may be made at the prevailing traffic speed, but it is recommended that at the same locations, additional tests be made at 64 km/h. Maintain the test speed within ± 1.5 km/h.\n\n\n4.10.12.2 The test speed must be mentioned when the PBC is quoted. This may be done by adding the numerals of actual test speed in km/h in parenthesis to the coefficient. For example, 0.50 (50) indicates that the PBC was obtained at test speed of 50 km/h.",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 8,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 6,
+      "page_end": 7,
+      "clause": "4.10",
+      "heading": "4.10 Procedure",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+        "4.10 Procedure"
+      ],
+      "char_start": 17657,
+      "char_end": 20326,
+      "semantic_chunk_length": 2669,
+      "final_chunk_length": 2971,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0009",
+    "text": "Maintain the test speed within ± 1.5 km/h.\n\n\n4.10.12.2 The test speed must be mentioned when the PBC is quoted. This may be done by adding the numerals of actual test speed in km/h in parenthesis to the coefficient. For example, 0.50 (50) indicates that the PBC was obtained at test speed of 50 km/h.\n\n### 4.11 Calculation\n\n\n#### 4.11.1 Data Reduction\n\n\n##### 4.11.1.1 Digitally filter the digitized input analogue signals of braking force, vertical load and vehicle speed using a five point moving average technique.\n\n##### 4.11.1.2 Digital filtering methodology\n\nCalculate an average value for the first five digital data points. Drop the first data point and add the sixth data point, calculate another five-point average value. Repeat the procedure for all remaining data points. This sequence is done individuality on all the above digitized input analog signals. The following example computations illustrate the method using one channel:\n\n(pt1 + pt2 + pt3 + pt4 + pt5)/5 = PT1\n\n(pt2 + pt3 + pt4 + pt5 + pt6)/5 = PT2\n\n(pt3 + pt4 + pt5 + pt6 + pt7)/5 = PT3\n\nA new set of data points (indicated by capital letters) are then defined to represent the filtered data for each channel (that is, average ptx = PTy).\n\nPT1, PT2, PT3, etc — braking force PT1, PT2, PT3, etc — Vertical force.",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 9,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 7,
+      "clause": "4.11",
+      "heading": "4.11 Calculation",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+        "4.11 Calculation"
+      ],
+      "char_start": 20329,
+      "char_end": 21313,
+      "semantic_chunk_length": 984,
+      "final_chunk_length": 1286,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0010",
+    "text": "pt2 + pt3 + pt4 + pt5 + pt6)/5 = PT2\n\n(pt3 + pt4 + pt5 + pt6 + pt7)/5 = PT3\n\nA new set of data points (indicated by capital letters) are then defined to represent the filtered data for each channel (that is, average ptx = PTy).\n\nPT1, PT2, PT3, etc — braking force PT1, PT2, PT3, etc — Vertical force.\n\n#### 4.11.2 Determining and Calculating Peak Braking Coefficient (PBC)\n\n\n4.11.2.1 The PBC shall be determined for each run (brake application).\n\n\n4.11.2.2 Using the digitally filtered data (PT1, PT2, PT3, etc), scan the longitudinal channel and determine the highest absolute filtered value (PTy) prior to wheel lock up. Calculate an average peak braking force value using the highest filtered value (PTy) and one filtered point directly before (PTy-1) and directly after it (PTy+1). This three point average is the PBC value developed for this individual lock up.\n\n\n4.11.2.3 Determine the vertical load value from its respective digitally filtered data that corresponds to the highest absolute value for braking force, from 4.11.2.1. Calculate an average vertical load value using this corresponding value and one point directly before and directly after it. This three point average is the vertical load value that corresponds to the average peak braking force for this individual lock up.\n\n\n4.11.2.4 Calculate the PBC by dividing the three point average peak braking force, determined from 4.11.2.1, by the three point average vertical load, as determined in 4.11.2.2. The PBC be reported to two decimal places.\n\n\n4.11.3 For each test (see 4.10.10) the mean and standard deviation for PBC are calculated from the individual determinations.\n\n\n4.11.4 Correlating between the ASTM E 1136 (14 inches) SRTT and the ASTM F 2493 (16 inches) SRTT can be done as follows.\n\n\n4.11.4.1 Data collected with the ASTM F 2493 can be adjusted to determine compliance to ASTM E 1136 standards by using the following equation:\n\n(F 2493 result × 0.83) + 0.0518 = E 1136 result ....(1)\n\nExample:\n\nA PBC result with the ASTM F 2493 of 1.056 converted to compare with an ASTM E 1136 standard would be: (1.056 × 0.83) + 0.0518 = 0.928.\n\n\n4.11.4.2 Likewise, a specification that is based on the ASTM E 1136 SRTT can be converted to apply  to  the  ASTM F 2493  SRTT   by   using   the\n\n\n\n\nfollowing equation:\n\n(E 1136 specification × 1.17) - 0.0360 = new F 2493  specification ....(2)\n\nExample:\n\nA specification of 0.9 PBC based on the ASTM E 1136 can be converted to a new specification as:  (0.9 × 1.17) – 0.0360 = 1.017.\n\nNOTE — It is typical to express PBC in terms of the calculation × 100. Thus, a PBC calculated as 1.056 would be expressed as 105.6 (1.056 × 100). Thus, the above equations for use with PBC would be: (ASTM  F 2493 result × 0.83) + 5.18 = ASTM E 1136 result. For example, a PBC result with the ASTM F 2493 of 105.6 converted to compare with ASTM E 1136 data would be:  (105.6 × 0.83) + 5.18 = 92.8. Likewise, a specification that is based on the ASTM E 1136 SRTT can be converted to apply to the ASTM F 2493 SRTT by using the following equation: (ASTM E 1136 specification × 1.17) – 3.60 = ASTM F 2493 specification. For example, a specification of 90 PBC based on the ASTM E 1136 can be converted to a new specification as: (90 × 1.17) – 3.60 = 101.7.",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 10,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 7,
+      "page_end": 8,
+      "clause": "4.11.2",
+      "heading": "4.11.2 Determining and Calculating Peak Braking Coefficient (PBC)",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+        "4.11 Calculation",
+        "4.11.2 Determining and Calculating Peak Braking Coefficient (PBC)"
+      ],
+      "char_start": 21316,
+      "char_end": 24269,
+      "semantic_chunk_length": 2953,
+      "final_chunk_length": 3255,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0011",
+    "text": " 1136 SRTT can be converted to apply to the ASTM F 2493 SRTT by using the following equation: (ASTM E 1136 specification × 1.17) – 3.60 = ASTM F 2493 specification. For example, a specification of 90 PBC based on the ASTM E 1136 can be converted to a new specification as: (90 × 1.17) – 3.60 = 101.7.\n\n### 4.12 Report\n\n\n4.12.1 The field report for each test section shall contain the following data:\n\n- a) Identify test procedure used;\n- b) Location and identification of test section;\n- c) Date and time of day;\n- d) Weather conditions;\n- e) Lane and wheel-path tested;\n- f) Speed of test vehicle (for each test);\n- g) Peak braking coefficient (PBC) (for each test);\n- h) Water depth (if wetted surface is used); and\n- j) Ambient and surface temperature.\n\n#### 4.12.2 Summary Report\n\nThe summary report shall include for each test section data on the following items in so far as they are pertinent to the variables or combinations of variables under investigation:\n\n- a) Location and identification of test section;\n- b) Number of lanes and presence of lane separators;\n- c) Grade and alignment;\n- d) Pavement type, mix design of surface course, condition and aggregate type (specific source, if available);\n- e) Age of pavement;\n- f) Average daily traffic;\n- g) Posted speed limit;\n- h) Date and time of day;\n- j) Weather conditions;\n- k) Lane and wheel-path tested;\n- m) Ambient and surface temperature; and\n- n) Average, high and low PBC for the test section and speed at which the tests were made (if values are reported that were not used in computing the average this fact should be reported).\n\n### 4.13 Precision and Bias\n\n\n#### 4.13.1 Precision\n\nData are not yet available for making a statement on the precision of this test method. When such data become available, a precision statement will be included in this method.\n\n\n#### 4.13.2 Bias\n\nThere is no standards or references with which the results of this test can be compared. The function of the test as indicated above is to be able to make comparisons among road surfaces tested with the same tyre. It is believed that the results of the test method are adequate for making such comparisons without an external reference for assessing accuracy. It must be noted that surface friction is affected by many variables such as environmental conditions, usage, age, surface contamination (externally applied water), etc and measured values are only valid until one of these conditions significantly changes.\n\n\n### 4.14 Recommendations for Tyre Use and Operational Requirements\n\nWhen irregular wear or damage results from tests,or when wear or usage influences the test results, the use of the tyre should be discontinued.\n\nNOTE — Test results such as measured braking force may be influenced by tyre groove depth or tread harness, or both. The magnitude of this dependence is a function of the water depth, pavement characteristics, test speed, tyre aging effects and break-in (preconditioning).",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 11,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 8,
+      "page_end": 8,
+      "clause": "4.12",
+      "heading": "4.12 Report",
+      "heading_path": [
+        "4 MEASUREMENT OF PEAK BRAKING CO-EFFICIENT (PBC) BY STANDARD REFERENCE TEST TYRE (SRTT) METHOD",
+        "4.12 Report"
+      ],
+      "char_start": 24272,
+      "char_end": 26926,
+      "semantic_chunk_length": 2654,
+      "final_chunk_length": 2956,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0012",
+    "text": "re should be discontinued.\n\nNOTE — Test results such as measured braking force may be influenced by tyre groove depth or tread harness, or both. The magnitude of this dependence is a function of the water depth, pavement characteristics, test speed, tyre aging effects and break-in (preconditioning).\n\n## ANNEX A\n\n(Foreword)\n\nCOMMITTEE COMPOSITION Automotive Braking and Steering Systems, Vehicle Testing and Performance Evaluation\n\nSectional Committee, TED 04\n\nOrganization Representative(s)\n\nAutomotive Research Association of India, Pune SHRI A. AKBAR BADUSHA (Chairperson)\n\nAshok Leyland Ltd, Chennai SHRI D. BALAKRISHNAN\n\nAssociation of State Road Transport Undertakings,\n\nNew Delhi\n\nAutomotive Component Manufacturers Association\n\nof India, New Delhi\n\nSHRI VED PRAKASH GAUTAM (Alternate)\n\nSHRI R. CHANDRABABU\n\nSHRI ULHAS BABU (Alternate)\n\nSHRI SANJAY TANK\n\nSHRIMATI SEEMA BABAL (Alternate)\n\nAutomotive Research Association of India, Pune SHRI P. D. BETGERI\n\nSHRI KONAKI RAMU (Alternate)\n\nBajaj Auto Ltd, Pune SHRI R. NARASIMHAN\n\nSHRI ARVIND V. KUMBHAR (Alternate)\n\nBosch Chassis Systems India Ltd, Pune SHRI CHAITRAY SHINDE\n\nSHRI TARUN APPACHU (Alternate)\n\nBrakes India Pvt Ltd, Chennai SHRI B. RUBAN DEVA PRASATH\n\nSHRI G. DEVENDRAN (Alternate)\n\nCentral Road Research Institute, New Delhi SHRI P. V. PRADEEP KUMAR\n\nSHRI SUDESH KUMAR (Alternate)\n\nCentral Farm Machine Training and Testing SHRI P. K. PANDEY\n\nSHRI C.V. CHIMOTE (Alternate) Institute, Budhni\n\nCentral Institute of Road Transport, Pune SHRI S. N. DHOLE\n\nContinental Automotive Components (India) Pvt\n\nLtd, Gurugram\n\nDaimler India Commercial Vehicles Pvt Ltd,\n\nChennai\n\nSHRI SANTOSH GUTTE (Alternate)\n\nSHRI RAHUL MARE\n\nSHRI RAGHAVENDRA HARIHARAN (Alternate)\n\nSHRI D. KARTHIKEYAN\n\nSHRI MOHAN KUMAR MUTHUSAMY (Alternate)\n\nDenso International India Pvt Ltd, Gurugram SHRI NOEL ALEXANDER PETERS\n\nSHRI ALOK KUMAR (Alternate)\n\nFederal Mogul Motorparts India Ltd, Chennai SHRI R. VENKATARAMAIAH\n\nSHRI VENKATESH SANKARAN (Alternate)\n\nGlobal Automotive Research Centre, Chennai SHRI M. V. RAMACHANDRAN\n\nHero Motocorp Ltd, New Delhi SHRI FEROZ ALI KHAN\n\nSHRI S. PERUMAL (Alternate)\n\nSHRI PIYUSH CHOWDHRY (Alternate)\n\n\n\n\nOrganization Representative(s)\n\nHonda Motorcycle and Scooter India Pvt Ltd,\n\nGurugram\n\nInternational Centre for Automotive Technology\n\n(ICAT), Manesar\n\nSHRI KARAN RAJPUT\n\nSHRI NAVNEET KAUSHIK (Alternate)\n\nSHRI GAVENDRA SINGH\n\nSHRIMATI VIJAYANTA AHUJA (Alternate)\n\nIndian Institute of Petroleum, Dehradun SHRI M. K. SHUKLA\n\nKnorr-Bremse Systems for Commercial Vehicles\n\nIndia Pvt Ltd, Pune\n\nMahindra and Mahindra Ltd, Mumbai SHRI S. RAGHUPATHI\n\nDR SUNIL KUMAR PATHAK (Alternate)\n\nSHRI ARUN BISHT\n\nSHRI DEVINDER TANGRI (Alternate)\n\nMahindra Trucks and Buses Ltd, Mumbai SHRI V. G. KULKARNI\n\nMando Automotive India Pvt Ltd, Chennai SHRI ASHOK KUMAR M.\n\nSHRI JAYABAL M. (Alternate)\n\nMaruti Suzuki India Ltd, Gurugram SHRI GURURAJ RAVI\n\nSHRI RAJ KUMAR DWIVEDI (Alternate)\n\nMinistry of Heavy Industries and Public SHRI RAJESH K. JAISWAL\n\nEnterprises, New Delhi\n\nMinistry of Road Transport and Highways, SHRI R. H. URDHWARESHE\n\nNew Delhi\n\nNational Automotive Testing and R&D DR P. P. CHATTRARAJ\n\nInfrastructure Project (NATRIP), Indore SHRI SAGAR BENDRE (Alternate)\n\nOrdinance Factory Board, Jabalpur SHRI UMESH KUMAR",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 12,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 9,
+      "page_end": 10,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 26931,
+      "char_end": 29916,
+      "semantic_chunk_length": 2985,
+      "final_chunk_length": 3287,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0013",
+    "text": "RI RAJESH K. JAISWAL\n\nEnterprises, New Delhi\n\nMinistry of Road Transport and Highways, SHRI R. H. URDHWARESHE\n\nNew Delhi\n\nNational Automotive Testing and R&D DR P. P. CHATTRARAJ\n\nInfrastructure Project (NATRIP), Indore SHRI SAGAR BENDRE (Alternate)\n\nOrdinance Factory Board, Jabalpur SHRI UMESH KUMAR\n\nSHRI VIKAS PURWAR (Alternate)\n\nRane TRW Steering Systems Ltd, Trichy SHRI R. M. THIRUPATHI\n\nSHRI K.V. BANUPRASATH (Alternate)\n\nRenault Nissan Tech and Business Centre, Chennai SHRI RAJENDRA KHILE\n\nSHRI S. VIVEKRAJ (Alternate)\n\nSML Isuzu Ltd, Ropar SHRI MOHIT GUPTA\n\nSociety of Indian Automobile Manufacturers,\n\nNew Delhi\n\nSHRI SANDEEP AGARWAL (Alternate I) SHRI VIKAS SHARMA (Alternate II)\n\nSHRI P. K. BANERJEE\n\nSHRI AMIT KUMAR (Alternate)\n\nSundaram Brake Linings Ltd, Chennai DR J. GOPALAKRISHNAN\n\nSHRI R. BALASUBRAMANIAN (Alternate)\n\nSHRI AVINASH KHOT Suzuki Motorcycle India Pvt Ltd, Gurugram\n\nTVS Motor Co Ltd, Hosur SHRI M. S. ANAND KUMAR\n\nSHRI R. NAGARAJAN (Alternate)\n\nTata Motors Ltd, Pune SHRI P. GOWRISHANKAR\n\nSHRI UDAY SALUNKHE (Alternate)\n\n\n\n\nOrganization Representative(s)\n\nToyota Kirloskar Motors Pvt Ltd, Bengaluru SHRI RAJU M.\n\nSHRI VIJETH GETTY (Alternate)\n\nVE Commercial Vehicles, Dewas SHRI SHYAM BUTE\n\nSHRI MOHAN KUMAR MUTHUSAMY (Alternate)\n\nVehicle Research and Development Establishment, SHRI VINOD KUMAR\n\nSHRI SAM SHAIKH (Alternate) Ahmednagar\n\nVolvo Buses India Pvt Ltd, Bengaluru SHRI PRAMOD KUMAR HUGAR\n\nZF Commercial Vehicle Control Systems India Ltd,\n\nPune\n\nSHRI ATUL KUMAR KATTI (Alternate)\n\nSACHIN DESHMUKH\n\nSHRI PRABHAKARAN DURAIRAJ (Alternate)\n\nZF Steering Gear India Ltd, Pune SHRI CHANDRAKANT K. DANGE\n\nSHRI SAMSON BORDE (Alternate)\n\nBIS Directorate General SHRI A. P. D. DWIVEDI, SCIENTIST ‘F’/SENIOR DIRECTOR AND HEAD (TRANSPORT ENGINEERING) [REPRESENTING DIRECTOR GENERAL (Ex-officio)]\n\nMember Secretary SHRI GALI AJIT KUMAR SCIENTIST ‘C’/DEPUTY DIRECTOR\n\n(TRANSPORT ENGINEERING), BIS\n\n\n\n\n\n\n\n\n\n\n\n\nBureau of Indian Standards\n\nBIS is a statutory institution established under the Bureau of Indian Standards Act, 2016 to promote harmonious development of the activities of standardization, marking and quality certification of goods and attending to connected matters in the country.\n\nCopyright\n\nBIS has the copyright of all its publications. No part of these publications may be reproduced in any form without the prior permission in writing of BIS. This does not preclude the free use, in the course of implementing the standard, of necessary details, such as symbols and sizes, type or grade designations. Enquiries relating to copyright be addressed to the Head (Publication & Sales), BIS.\n\nReview of Indian Standards\n\nAmendments are issued to standards as the need arises on the basis of comments. Standards are also reviewed periodically; a standard along with amendments is reaffirmed when such review indicates that no changes are needed; if the review indicates that changes are needed, it is taken up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: TED 04 (25687).\n\n\nAmendments Issued Since Publication",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 13,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 10,
+      "page_end": 14,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 29918,
+      "char_end": 32860,
+      "semantic_chunk_length": 2942,
+      "final_chunk_length": 3244,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": true,
+      "table_repaired": false,
+      "tail_truncated": false
+    }
+  },
+  {
+    "id": "16137_1_2026_0014",
+    "text": "up for revision. Users of Indian Standards should ascertain that they are in possession of the latest amendments or edition by referring to the website- www.bis.gov.in or www.standardsbis.in.\n\nThis Indian Standard has been developed from Doc No.: TED 04 (25687).\n\n\nAmendments Issued Since Publication\n\n| Amend No. | Date of Issue | Text Affected |\n| --- | --- | --- |",
+    "metadata": {
+      "source": "16137_1_2026.md",
+      "chunk_index": 14,
+      "chunk_size_target": 3000,
+      "overlap": 300,
+      "page_start": 14,
+      "page_end": 14,
+      "clause": "ANNEX A",
+      "heading": "ANNEX A",
+      "heading_path": [
+        "ANNEX A"
+      ],
+      "char_start": 32862,
+      "char_end": 32927,
+      "semantic_chunk_length": 65,
+      "final_chunk_length": 367,
+      "standard_no": "IS 16137",
+      "year": "2026",
+      "part": "Part 1",
+      "low_confidence": false,
+      "table_repaired": false,
+      "tail_truncated": true
+    }
+  }
+]
