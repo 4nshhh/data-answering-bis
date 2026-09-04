@@ -11,9 +11,13 @@ benchmark concepts here (no QUERIES, gold labels, or reports).
 
 from __future__ import annotations
 
-from .models import load_query_encoder, load_reranker
+import logging
+
+from .models import device_info, load_query_encoder, load_reranker
 from .store import ChunkStore, LocalNpyStore
 from .types import RetrievedEvidence
+
+logger = logging.getLogger(__name__)
 
 DEFAULT_TOP_N = 10
 
@@ -21,11 +25,19 @@ DEFAULT_TOP_N = 10
 class Retriever:
     """Reusable retrieval pipeline; construct once, call per query."""
     def __init__(self, store: ChunkStore | None = None, top_n: int = DEFAULT_TOP_N,
-                 device: str = "cuda") -> None:
+                 device: str | None = None) -> None:
         self.store = store or LocalNpyStore()
         self.top_n = top_n
         self._model = load_query_encoder(device=device)
         self._reranker = load_reranker(device=device)
+        info = device_info()
+        logger.info(
+            "Retriever ready: encoder=%s reranker=%s (cuda_available=%s, gpu=%s)",
+            getattr(self._model, "device", "?"),
+            getattr(self._reranker, "device", "?"),
+            info["cuda_available"],
+            info["gpu_name"],
+        )
 
     def retrieve(self, query: str, top_k: int = 10) -> list[RetrievedEvidence]:
         """Ranked evidence for one user query (raw query text only)."""
@@ -72,6 +84,14 @@ class Retriever:
 
 
 _default_retriever: Retriever | None = None
+
+
+def loaded_retriever() -> Retriever | None:
+    """Return the shared retriever if already constructed, else None.
+
+    Never triggers model loading; for read-only device diagnostics.
+    """
+    return _default_retriever
 
 
 def retrieve(query: str, top_k: int = 10) -> list[RetrievedEvidence]:

@@ -27,7 +27,7 @@ from app.generator.pipeline import QueryResult, run_query
 from app.generator.refusal import DEFAULT_THRESHOLD
 
 __all__ = ["app", "QueryRequest", "CitationModel", "RetrievalMetaModel", "QueryResponse",
-           "UTF8JSONResponse"]
+           "DeviceResponse", "UTF8JSONResponse"]
 
 
 class UTF8JSONResponse(JSONResponse):
@@ -80,6 +80,20 @@ class QueryResponse(BaseModel):
     refusal_reason: Optional[str] = None
 
 
+class DeviceResponse(BaseModel):
+    """Runtime device diagnostics (no keys or secrets, safe to expose)."""
+
+    cuda_available: bool
+    torch_version: str
+    cuda_build: Optional[str] = None
+    device_count: int = 0
+    gpu_name: Optional[str] = None
+    resolved_device: str = "cpu"
+    retriever_loaded: bool = False
+    encoder_device: Optional[str] = None
+    reranker_device: Optional[str] = None
+
+
 def _result_to_response(result: QueryResult) -> QueryResponse:
     meta = result.retrieval_meta
     return QueryResponse(
@@ -126,6 +140,34 @@ def build_app(
     @application.get("/healthz")
     def healthz() -> dict[str, str]:
         return {"status": "ok"}
+
+    @application.get("/api/v1/device", response_model=DeviceResponse,
+                      response_class=UTF8JSONResponse)
+    def device() -> DeviceResponse:
+        """Report ML execution-device diagnostics for the live process.
+
+        ``retriever_loaded`` is False until the first query lazily
+        constructs the shared ``Retriever``; device fields are populated
+        from the actually loaded models once present.
+        """
+        from retrieval import device_info as _device_info
+        from retrieval import loaded_retriever as _loaded_retriever
+
+        info = _device_info()
+        shared = _loaded_retriever()
+        return DeviceResponse(
+            cuda_available=info["cuda_available"],
+            torch_version=info["torch_version"],
+            cuda_build=info["cuda_build"],
+            device_count=info["device_count"],
+            gpu_name=info["gpu_name"],
+            resolved_device=info["resolved_device"],
+            retriever_loaded=shared is not None,
+            encoder_device=str(getattr(shared._model, "device", None))
+            if shared is not None else None,
+            reranker_device=str(getattr(shared._reranker, "device", None))
+            if shared is not None else None,
+        )
 
     @application.post("/api/v1/query", response_model=QueryResponse,
                        response_class=UTF8JSONResponse)
