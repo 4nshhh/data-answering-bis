@@ -239,7 +239,6 @@ class _ChatCompletionsProvider:
     ) -> LLMResponse:
         client = self._client()
         attempts = 1 + self._max_retries
-        last_error: BaseException | None = None
         for attempt in range(attempts):
             try:
                 # Telemetry: count every actual provider request. This
@@ -267,11 +266,18 @@ class _ChatCompletionsProvider:
                     raw_usage=usage["raw"],
                 )
             except Exception as exc:  # noqa: BLE001 - classified below, then re-raised
-                last_error = exc
-                if not _is_transient_error(exc) or attempt == attempts - 1:
+                if not _is_transient_error(exc):
                     raise
+                if attempt == attempts - 1:
+                    # Retries exhausted on a rate-limit/timeout/5xx:
+                    # surface a uniform provider error (HTTP 502
+                    # downstream) carrying the original failure, instead
+                    # of leaking SDK-specific types that map to opaque
+                    # HTTP 500s.
+                    raise RuntimeError(
+                        f"{self.name} API error after {attempts} attempts: {exc}"
+                    ) from exc
                 time.sleep(2**attempt)  # 1s, 2s, ... backoff, dependency-free
-        raise last_error  # pragma: no cover - loop always raises first
 
 
 class GroqProvider(_ChatCompletionsProvider):
@@ -407,7 +413,9 @@ class GeminiProvider(_ChatCompletionsProvider):
                     continue
                 if isinstance(exc, RuntimeError):
                     raise
-                raise RuntimeError(f"Gemini API error: {exc}") from exc
+                raise RuntimeError(
+                    f"Gemini API error after {attempts} attempts: {exc}"
+                ) from exc
         raise last_error  # pragma: no cover - loop always raises first
 
 

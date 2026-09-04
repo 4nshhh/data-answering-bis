@@ -234,3 +234,39 @@ def test_no_retry_on_auth_error(monkeypatch):
     with pytest.raises(Exception, match="bad key"):
         provider.generate(system="s", user="u", model="m", temperature=0.0, timeout_s=60.0)
     assert attempts["n"] == 1
+
+
+def test_exhausted_transient_maps_to_provider_error(monkeypatch):
+    attempts = {"n": 0}
+
+    class AlwaysLimited:
+        class chat:
+            class completions:
+                @staticmethod
+                def create(**kwargs):
+                    attempts["n"] += 1
+                    raise type("RateLimitError", (Exception,), {})("slow down")
+
+    monkeypatch.setattr(GroqProvider, "_client", lambda self: AlwaysLimited())
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    provider = GroqProvider(api_key="gsk_test", max_retries=2)
+    with pytest.raises(RuntimeError, match="groq API error after 3 attempts"):
+        provider.generate(system="s", user="u", model="m",
+                          temperature=0.0, timeout_s=60.0)
+    assert attempts["n"] == 3
+
+
+def test_non_transient_still_propagates_original_type(monkeypatch):
+    class StrictClient:
+        class chat:
+            class completions:
+                @staticmethod
+                def create(**kwargs):
+                    raise type("AuthenticationError", (Exception,), {})("bad key")
+
+    monkeypatch.setattr(GroqProvider, "_client", lambda self: StrictClient())
+    provider = GroqProvider(api_key="gsk_test", max_retries=2)
+    with pytest.raises(Exception, match="bad key") as exc_info:
+        provider.generate(system="s", user="u", model="m",
+                          temperature=0.0, timeout_s=60.0)
+    assert type(exc_info.value).__name__ == "AuthenticationError"
