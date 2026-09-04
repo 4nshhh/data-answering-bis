@@ -25,14 +25,24 @@ Verdict model (three states, deliberately):
 Clause matching is text-anchored, not metadata-only: chunks carry one
 metadata clause label but their text routinely contains sub-clauses
 (e.g. chunk ``26.4`` containing ``26.4.1``/``26.4.2.1``). A cited label
-verifies when it equals the metadata clause, a markdown header label,
-or a bare line-initial label extending the metadata clause — and,
+verifies when it equals the metadata clause, a markdown header label
+(single- or multi-level, e.g. ``## 7 SAMPLING``), or a bare line-initial
+label extending the metadata clause or any header label — and,
 additionally, when it is the one-level parent of such a label (cited
-``26.5.2`` against shown ``26.5.2.2``). Sibling labels and coarser
-ancestors never match. Page scope and year rules apply unchanged. Formal partial
-references (``Clause X`` + ``Page Y`` pairs, parenthesized clause
-mentions) are extracted and verified the same way; bare prose mentions
-are ignored.
+``26.5.2`` against shown ``26.5.2.2``). Inline (mid-line) occurrences of
+deep dotted labels (3+ parts, e.g. OCR line-wrap casualties like
+``, 26.5.3.1 Longitudinal``) extending the metadata clause also attest,
+since 3+-part dotted numbers are clause references in practice, never
+measurements. Sibling labels and coarser ancestors never match.
+Harmless formatting qualifiers are normalized away before comparison:
+parenthesized subdivisions (``26.5.3.1(a)`` -> ``26.5.3.1``,
+``26.5.1 (Table 16)`` -> ``26.5.1``) and clause ranges (``3.4-3.6`` ->
+``3.4``, ``3.5``, ``3.6``, every member must be attested). A cited
+``N/A`` clause verifies only against a block whose own clause metadata
+is unknown, with standard/year/page still checked. Page scope and year
+rules apply unchanged. Formal partial references (``Clause X`` +
+``Page Y`` pairs, parenthesized clause mentions) are extracted and
+verified the same way; bare prose mentions are ignored.
 """
 
 from __future__ import annotations
@@ -219,33 +229,59 @@ def parse_references(text: str) -> list[Citation]:
 
 
 def _norm_clause(value: str | None) -> str | None:
-    """Normalize a clause label for comparison (case/terminal-dot insensitive)."""
+    """Normalize a clause label for comparison.
+
+    Case/terminal-dot insensitive; parenthesized subdivision qualifiers
+    (``26.5.3.1(a)``, ``26.5.1 (Table 16)``, ``8 (Table 1)``) are stripped
+    to the base clause they refine, and Unicode dashes are folded to
+    ASCII so ranges (``3.4-3.6``) split deterministically downstream.
+    The base clause must still be attested — qualifiers never excuse an
+    unshown clause.
+    """
     if value is None:
         return None
     cleaned = value.strip().rstrip(".")
+    cleaned = re.sub(r"\s*\([^()]*\)", "", cleaned).strip()
+    cleaned = re.sub(r"[\u2010-\u2015\u2212]", "-", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).rstrip(".")
     return cleaned.upper() or None
 
 
-#: Markdown clause headings (``#### 26.4.1 Nominal Cover``). Unambiguous
-#: clause titles — always count as labels present in the chunk.
-_HEADER_CLAUSE_RE = re.compile(r"^#{1,6}\s*(\d+(?:\.\d+)+)\b", re.MULTILINE)
+#: Markdown clause headings (``#### 26.4.1 Nominal Cover``, ``## 7 SAMPLING``).
+#: Single-level headings are genuine clause titles too (Scope, Sampling,
+#: Tests); bare prose numbers are still never trusted from headers alone.
+_HEADER_CLAUSE_RE = re.compile(r"^#{1,6}\s*(\d+(?:\.\d+)*)\b", re.MULTILINE)
 
 #: Markdown annex headings (``ANNEX B``), optionally bare.
 _HEADER_ANNEX_RE = re.compile(r"^#{0,6}\s*(ANNEX\s+[A-Z][A-Z0-9]*)\b", re.MULTILINE)
 
 #: Bare line-initial dotted numbers (``26.4.2.1 However for, ...``).
-#: Only trusted as strict dotted-children of the chunk's metadata clause
-#: (a line-initial ``0.5`` is a measurement, not Clause 0.5).
+#: Trusted as strict dotted-children of the chunk's metadata clause or of
+#: any markdown header label in the chunk (a line-initial ``0.5`` is a
+#: measurement, not Clause 0.5; ``7.2`` under header ``7.1`` is a sibling,
+#: not a child).
 _BARE_CLAUSE_RE = re.compile(r"^(\d+(?:\.\d+)+)\b", re.MULTILINE)
+
+#: Inline deep clause mentions (``..., 26.5.3.1 Longitudinal ...``).
+#: Three-or-more-part dotted numbers occurring anywhere in the text that
+#: strictly extend the metadata clause (typically line-wrap casualties of
+#: genuine sub-clause titles). Two-part numbers are excluded: those are
+#: routinely measurements (``0.5``) rather than clause references.
+_INLINE_CLAUSE_RE = re.compile(r"\b(\d+(?:\.\d+){2,})\b")
 
 
 def _block_label_sets(block: Any) -> tuple[str | None, set[str]]:
     """Clause labels a chunk attests: (metadata_label, scoped_text_labels).
 
-    Scoped text labels = markdown header labels (any) plus bare
-    line-initial labels that extend the metadata clause
-    (``26.4`` admits ``26.4.1`` but never a stray ``0.5``). Blocks with
-    no metadata clause admit header labels only.
+    Scoped text labels = markdown header labels (any level) plus bare
+    line-initial labels that extend the metadata clause or any header
+    label (``26.4``/header ``8`` admit ``26.4.1``/``8.1`` but never a
+    stray ``0.5`` or a sibling ``7.2``), plus inline deep labels
+    extending the metadata clause. Blocks with no metadata clause admit
+    header labels only, plus the literal ``N/A`` marker for their own
+    unknown clause (so a ``Clause N/A`` citation links to the genuinely
+    clause-less block it came from, with standard/year/page still
+    checked — never to a labelled block).
     """
     meta = _norm_clause(block.evidence.clause)
     text = block.text
@@ -255,11 +291,44 @@ def _block_label_sets(block: Any) -> tuple[str | None, set[str]]:
     scoped: set[str] = set(headers)
     if meta is not None:
         scoped.add(meta)
+        parents = {meta} | headers
         for m in _BARE_CLAUSE_RE.finditer(text):
             bare = _norm_clause(m.group(1))
-            if bare is not None and bare.startswith(meta + "."):
+            if bare is not None and any(bare.startswith(p + ".") for p in parents):
                 scoped.add(bare)
+        for m in _INLINE_CLAUSE_RE.finditer(text):
+            inline = _norm_clause(m.group(1))
+            if inline is not None and inline.startswith(meta + "."):
+                scoped.add(inline)
+    else:
+        scoped.add("N/A")
     return meta, scoped
+
+
+def _expand_clause_range(cited: str) -> list[str]:
+    """Expand a cited clause range into its member labels.
+
+    ``3.4-3.6`` -> ``[3.4, 3.5, 3.6]``; ``5.1-5.2`` -> ``[5.1, 5.2]``.
+    Anything that is not a same-prefix integer range returns the input
+    unchanged as a single-element list. Every member must be attested
+    for the citation to verify — a range never excuses an unshown clause.
+    """
+    if "-" not in cited:
+        return [cited]
+    start, _, end = cited.partition("-")
+    start, end = start.strip(), end.strip()
+    sparts, eparts = start.split("."), end.split(".")
+    if (
+        len(sparts) == len(eparts)
+        and sparts[:-1] == eparts[:-1]
+        and sparts[-1].isdigit()
+        and eparts[-1].isdigit()
+    ):
+        lo, hi = int(sparts[-1]), int(eparts[-1])
+        if 0 < hi - lo <= 50:
+            prefix = ".".join(sparts[:-1])
+            return [f"{prefix}.{i}" if prefix else str(i) for i in range(lo, hi + 1)]
+    return [cited]
 
 
 def _clause_supported(cited: str, attested: set[str]) -> bool:
@@ -375,13 +444,30 @@ def _verify_one(
             )
 
     want_clause = _norm_clause(citation.clause)
-    scoped_hits = []
+    want_labels = _expand_clause_range(want_clause) if want_clause is not None else []
+    # Coverage per block: how many cited labels (single or range members)
+    # each block attests. Single-label behavior is unchanged (first hit
+    # wins); ranges link the block covering the most members.
+    coverage: list[tuple[int, Any]] = []
     for block in candidates:
         _, scoped = _block_label_sets(block)
-        if want_clause is not None and _clause_supported(want_clause, scoped):
-            scoped_hits.append(block)
+        hit = sum(
+            1 for label in want_labels if _clause_supported(label, scoped)
+        ) if want_labels else 0
+        coverage.append((hit, block))
+    best = max((hit for hit, _ in coverage), default=0)
+    scoped_hits = [block for hit, block in coverage if hit == best and best > 0]
+    # For ranges, every member must be attested *somewhere* in the
+    # selection; the linked block is the one with the widest coverage.
+    attested_elsewhere = set()
+    for hit, block in coverage:
+        _, scoped = _block_label_sets(block)
+        for label in want_labels:
+            if _clause_supported(label, scoped):
+                attested_elsewhere.add(label)
+    missing = [label for label in want_labels if label not in attested_elsewhere]
     checked.append("clause")
-    if not scoped_hits:
+    if not scoped_hits or missing:
         if citation.partial:
             return VerifiedCitation(
                 citation=citation,
@@ -389,6 +475,16 @@ def _verify_one(
                 chunk_id=None,
                 detail=f"partial reference to clause {citation.clause!r} "
                 f"not supported by retrieved context",
+                checked_fields=checked,
+            )
+        if len(want_labels) > 1:
+            return VerifiedCitation(
+                citation=citation,
+                verdict="mismatch",
+                chunk_id=(scoped_hits[0].evidence.chunk_id if scoped_hits
+                          else candidates[0].evidence.chunk_id),
+                detail=f"clause range {citation.clause!r} not fully in retrieved "
+                f"context (missing: {', '.join(missing)})",
                 checked_fields=checked,
             )
         got = sorted({(b.evidence.clause or "N/A") for b in candidates})

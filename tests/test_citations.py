@@ -558,7 +558,200 @@ def test_meta_none_block_admits_headers_only(tmp_path: Path):
     assert bare_miss.citations[0].verdict == "mismatch"
 
 
-# --- formal partial references -------------------------------------------------------
+# --- harmless qualifier normalization (live-model fidelity) ------------------------
+#
+# The production model refines clause cites with subdivision qualifiers
+# ("26.5.3.1(a)", "26.5.1 (Table 16)", "8 (Table 1)"). The base clause
+# must still be attested — qualifiers never excuse an unshown clause.
+
+QUALIFIER_TEXT = (
+    "#### 26.5.3 Columns\n"
+    "\n"
+    ", 26.5.3.1 Longitudinal reinforcement\n"
+    "\n"
+    "- a) Area shall be not less than 0.8 percent.\n"
+)
+
+
+def _qualifier_context(tmp_path: Path):
+    chunk = {
+        "id": "q_0078",
+        "text": QUALIFIER_TEXT,
+        "metadata": {
+            "source": "q.md",
+            "chunk_index": 78,
+            "clause": "26.5.3",
+            "heading": "26.5.3 Columns",
+            "heading_path": [],
+            "standard_no": "IS 456",
+            "year": "2000",
+            "page_start": 49,
+            "page_end": 50,
+            "tail_truncated": False,
+            "table_repaired": False,
+        },
+    }
+    (tmp_path / "qq_3000_ov300.json").write_text(json.dumps([chunk]), encoding="utf-8")
+    index = load_chunk_index(tmp_path)
+    ev = make_evidence("q_0078", QUALIFIER_TEXT, source="q.md",
+                       clause="26.5.3", heading="26.5.3 Columns",
+                       page_start=49, page_end=50)
+    return build_context([ev], chunk_index=index, top_k=1), index
+
+
+def test_parenthesized_subdivision_verifies_to_base_clause(tmp_path: Path):
+    context, index = _qualifier_context(tmp_path)
+    result = verify_answer(
+        answer_with("Area rule [IS 456:2000, Clause 26.5.3.1(a), Page 49]."),
+        context, index,
+    )
+    assert result.all_verified is True
+
+
+def test_table_qualifier_verifies_to_base_clause(tmp_path: Path):
+    context, index = _qualifier_context(tmp_path)
+    result = verify_answer(
+        answer_with("Columns [IS 456:2000, Clause 26.5.3 (Table 16), Page 49]."),
+        context, index,
+    )
+    assert result.all_verified is True
+
+
+def test_qualified_but_unshown_clause_still_mismatches(tmp_path: Path):
+    context, index = _qualifier_context(tmp_path)
+    result = verify_answer(
+        answer_with("Rule [IS 456:2000, Clause 26.5.3.9(z), Page 49]."),
+        context, index,
+    )
+    assert result.citations[0].verdict == "mismatch"
+
+
+def test_inline_deep_label_verifies_without_qualifier(tmp_path: Path):
+    # ", 26.5.3.1 Longitudinal" is mid-line (line-wrap casualty), yet a
+    # genuine sub-clause title attested by the chunk text.
+    context, index = _qualifier_context(tmp_path)
+    result = verify_answer(
+        answer_with("Longitudinal [IS 456:2000, Clause 26.5.3.1, Page 49]."),
+        context, index,
+    )
+    assert result.all_verified is True
+
+
+# --- single-level header clauses -------------------------------------------------
+#
+# Front-matter chunks (scope, sampling, tests) carry clause=None metadata
+# while their text holds genuine single-level titles ("## 1 SCOPE").
+
+
+def test_single_level_header_clause_verifies(tmp_path: Path):
+    chunk = {
+        "id": "s_0000",
+        "text": "## 1 SCOPE\n\nThis standard covers the requirements.\n",
+        "metadata": {
+            "source": "s.md", "chunk_index": 0, "clause": None, "heading": None,
+            "heading_path": [], "standard_no": "IS 2415", "year": "2025",
+            "page_start": 1, "page_end": 3,
+            "tail_truncated": False, "table_repaired": False,
+        },
+    }
+    (tmp_path / "s1_3000_ov300.json").write_text(json.dumps([chunk]), encoding="utf-8")
+    index = load_chunk_index(tmp_path)
+    ev = make_evidence("s_0000", chunk["text"], source="s.md", clause=None,
+                       heading=None, standard_no="IS 2415", page_start=1, page_end=3)
+    context = build_context([ev], chunk_index=index, top_k=1)
+    result = verify_answer(
+        answer_with("Scope [IS 2415:2025, Clause 1, Page 1]."), context, index
+    )
+    assert result.all_verified is True
+
+
+def test_na_clause_links_only_to_clauseless_block(tmp_path: Path):
+    chunk = {
+        "id": "s_0000",
+        "text": "## 1 SCOPE\n\nThis standard covers the requirements.\n",
+        "metadata": {
+            "source": "s.md", "chunk_index": 0, "clause": None, "heading": None,
+            "heading_path": [], "standard_no": "IS 2415", "year": "2025",
+            "page_start": 1, "page_end": 3,
+            "tail_truncated": False, "table_repaired": False,
+        },
+    }
+    (tmp_path / "s2_3000_ov300.json").write_text(json.dumps([chunk]), encoding="utf-8")
+    index = load_chunk_index(tmp_path)
+    ev = make_evidence("s_0000", chunk["text"], source="s.md", clause=None,
+                       heading=None, standard_no="IS 2415", page_start=1, page_end=3)
+    context = build_context([ev], chunk_index=index, top_k=1)
+    result = verify_answer(
+        answer_with("Scope [IS 2415:2025, Clause N/A, Page 1]."), context, index
+    )
+    assert result.all_verified is True
+    assert result.citations[0].chunk_id == "s_0000"
+
+
+def test_na_clause_mismatches_labelled_block(context_and_index):
+    # The 5.4 block genuinely knows its clause; "N/A" must not attach to it.
+    context, index = context_and_index
+    result = verify_answer(
+        answer_with("Rule [IS 456:2000, Clause N/A, Page 15]."), context, index
+    )
+    assert result.citations[0].verdict == "mismatch"
+
+
+# --- clause ranges -----------------------------------------------------------------
+#
+# "3.4-3.6" expands to member labels; every member must be attested.
+
+
+def test_clause_range_verifies_when_all_members_attested(tmp_path: Path):
+    chunk = {
+        "id": "r_0001",
+        "text": ("## 3 DEFINITIONS\n\n3.3 Tube Size Designation.\n\n"
+                 "3.4 Flat Length.\n\n### 3.5 Flat Width.\n\n### 3.6 Thickness.\n"),
+        "metadata": {
+            "source": "r.md", "chunk_index": 1, "clause": "3", "heading": "3 DEFINITIONS",
+            "heading_path": [], "standard_no": "IS 2415", "year": "2025",
+            "page_start": 3, "page_end": 3,
+            "tail_truncated": False, "table_repaired": False,
+        },
+    }
+    (tmp_path / "r_3000_ov300.json").write_text(json.dumps([chunk]), encoding="utf-8")
+    index = load_chunk_index(tmp_path)
+    ev = make_evidence("r_0001", chunk["text"], source="r.md", clause="3",
+                       heading="3 DEFINITIONS", standard_no="IS 2415",
+                       page_start=3, page_end=3)
+    context = build_context([ev], chunk_index=index, top_k=1)
+    result = verify_answer(
+        answer_with("Definitions [IS 2415:2025, Clause 3.4-3.6, Page 3]."),
+        context, index,
+    )
+    assert result.all_verified is True
+
+
+def test_clause_range_mismatch_lists_missing(tmp_path: Path):
+    chunk = {
+        "id": "r_0001",
+        "text": ("## 3 DEFINITIONS\n\n3.3 Tube Size Designation.\n\n"
+                 "3.4 Flat Length.\n\n### 3.5 Flat Width.\n\n### 3.6 Thickness.\n"),
+        "metadata": {
+            "source": "r.md", "chunk_index": 1, "clause": "3", "heading": "3 DEFINITIONS",
+            "heading_path": [], "standard_no": "IS 2415", "year": "2025",
+            "page_start": 3, "page_end": 3,
+            "tail_truncated": False, "table_repaired": False,
+        },
+    }
+    (tmp_path / "r2_3000_ov300.json").write_text(json.dumps([chunk]), encoding="utf-8")
+    index = load_chunk_index(tmp_path)
+    ev = make_evidence("r_0001", chunk["text"], source="r.md", clause="3",
+                       heading="3 DEFINITIONS", standard_no="IS 2415",
+                       page_start=3, page_end=3)
+    context = build_context([ev], chunk_index=index, top_k=1)
+    result = verify_answer(
+        answer_with("Definitions [IS 2415:2025, Clause 3.4-3.9, Page 3]."),
+        context, index,
+    )
+    (v,) = result.citations
+    assert v.verdict == "mismatch"
+    assert "3.7" in v.detail
 
 def test_partial_pair_verifies_with_linked_standard(tmp_path: Path):
     context, index = _subclause_context(tmp_path)

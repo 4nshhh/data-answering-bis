@@ -43,6 +43,14 @@ __all__ = [
 #: Dense+rerank candidate window passed to the reranker (frozen retrieval spec).
 DEFAULT_CANDIDATES_K = 10
 
+#: Fallback context widening on abstention: when the first generation pass
+#: yields zero parseable citations (the model itself reports the evidence
+#: as insufficient, as in table-heavy standards where the table chunk
+#: ranks just below top-K), retry once with a wider window. Strictly
+#: monotonic — the wider pass replaces the first only when it fully
+#: verifies; otherwise the first-pass result stands byte-identical.
+WIDEN_STEP = 3
+
 
 @dataclass
 class CitationOut:
@@ -171,6 +179,22 @@ def run_query(
     bundle = build_prompt(query.strip(), context, chunk_index=chunk_index)
     generated: GeneratedAnswer = generate_answer(query.strip(), bundle, provider)
     verified = verify_answer(generated, context, chunk_index)
+
+    if not verified.has_citations and len(evidence) > top_k:
+        # Abstention recovery: the model found nothing citable in top-K
+        # (typical when a table chunk ranks just below the cutoff).
+        # One wider retry over already-retrieved evidence — no new
+        # retrieval, no threshold change, verification still enforced.
+        wider_k = min(len(evidence), top_k + WIDEN_STEP)
+        wider_context = build_context(evidence, chunk_index=chunk_index,
+                                      top_k=wider_k, expand_neighbors=expand_neighbors)
+        wider_bundle = build_prompt(query.strip(), wider_context, chunk_index=chunk_index)
+        wider_generated: GeneratedAnswer = generate_answer(query.strip(), wider_bundle, provider)
+        wider_verified = verify_answer(wider_generated, wider_context, chunk_index)
+        if wider_verified.all_verified:
+            context, bundle, generated, verified = (
+                wider_context, wider_bundle, wider_generated, wider_verified,
+            )
 
     post = evaluate_refusal(evidence, threshold=threshold, verified=verified)
     if post.should_refuse:

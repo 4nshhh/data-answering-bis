@@ -186,6 +186,72 @@ def test_provider_error_propagates():
         run_query("q?", retrieve_fn=retrieve_ok, provider=ExplodingProvider())
 
 
+# --- abstention-triggered context widening -------------------------------------------
+#
+# When the first pass yields zero parseable citations, run_query retries
+# once over already-retrieved evidence with a wider window. The wider
+# pass wins only on full verification; otherwise the first result stands.
+
+
+class ScriptedProvider:
+    name = "scripted"
+
+    def __init__(self, texts: list[str]):
+        self.texts = list(texts)
+        self.calls = 0
+
+    def generate(self, **kwargs) -> LLMResponse:
+        text = self.texts[min(self.calls, len(self.texts) - 1)]
+        self.calls += 1
+        return LLMResponse(text=text, model="fake-model")
+
+
+def test_widening_recovers_table_answer(chunk_index):
+    provider = ScriptedProvider([
+        "The excerpts do not contain the value.",  # abstention, no citations
+        GOOD_TEXT,  # wider pass cites canonically
+    ])
+    result = run_query("What is the pH?", top_k=1, retrieve_fn=retrieve_ok,
+                       chunk_index=chunk_index, provider=provider)
+    assert provider.calls == 2
+    assert result.refused is False
+    assert result.answer == GOOD_TEXT
+    (c,) = result.citations
+    assert c.verified is True
+
+
+def test_widening_keeps_first_pass_when_retry_fails(chunk_index):
+    provider = ScriptedProvider([
+        "The excerpts do not contain the value.",
+        "Still nothing citable here.",
+    ])
+    result = run_query("What is the pH?", top_k=1, retrieve_fn=retrieve_ok,
+                       chunk_index=chunk_index, provider=provider)
+    assert provider.calls == 2
+    assert result.refused is False  # byte-identical to pre-widening behavior
+    assert result.citations == []
+    assert result.answer == "The excerpts do not contain the value."
+
+
+def test_no_widening_when_first_pass_cites(chunk_index):
+    provider = ScriptedProvider([GOOD_TEXT, GOOD_TEXT])
+    result = run_query("What is the pH?", retrieve_fn=retrieve_ok,
+                       chunk_index=chunk_index, provider=provider)
+    assert provider.calls == 1
+    assert result.refused is False
+
+
+def test_no_widening_when_no_reserve_evidence(chunk_index):
+    def retrieve_single(query: str, top_k: int = 10) -> list[RetrievedEvidence]:
+        return [make_evidence("456_2000_amd5_reff2021_0014", 5.0)]
+
+    provider = ScriptedProvider(["No citations at all."])
+    result = run_query("What is the pH?", retrieve_fn=retrieve_single,
+                       chunk_index=chunk_index, provider=provider)
+    assert provider.calls == 1
+    assert result.refused is False
+
+
 # --- Tier 3 abstention regressions (live-measured rerank scores) ----------------------
 #
 # The bge-reranker emits sigmoid probabilities in [0, 1]. Unanswerable
