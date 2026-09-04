@@ -160,7 +160,11 @@ def test_build_provider_rejects_unknown():
         build_provider("anthropic")
 
 
-def test_gemini_missing_key_raises():
+def test_gemini_missing_key_raises(monkeypatch):
+    import app.generator.llm_client as llm_client
+
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    monkeypatch.setattr(llm_client, "_read_env_file", lambda _key, _f=".env": None)
     with pytest.raises(RuntimeError, match="GEMINI_API_KEY"):
         GeminiProvider(api_key=None)
 
