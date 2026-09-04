@@ -834,3 +834,70 @@ def test_adjacent_neighbor_page_accepted(tmp_path: Path):
         answer_with("Rule [IS 456:2000, Clause 5.4, Page 16]."), context, index
     )
     assert result.all_verified is True
+
+
+# --- repaired table fragments + front-matter cites ---------------------------------
+#
+# Live models emit table-cell fragments ("26.4.1, IS 456:2000, Page 47")
+# and front-matter cites ("[IS 2415:2025, Foreword, Page 1-3]") despite
+# the canonical-format rule. Both carry every checkable field, so they
+# parse and verify under the unchanged strict rules.
+
+def test_table_fragment_repairs_and_verifies(tmp_path: Path):
+    context, index = _subclause_context(tmp_path)
+    result = verify_answer(
+        answer_with("| Definition | text | 26.4.1, IS 456:2000, Page 47 |"),
+        context, index,
+    )
+    assert result.has_citations is True
+    assert result.all_verified is True
+    (v,) = result.citations
+    assert (v.citation.standard_no, v.citation.year,
+            v.citation.clause, v.citation.page) == ("456", "2000", "26.4.1", 47)
+    assert v.chunk_id == "456_0014"
+
+
+def test_table_fragment_wrong_clause_still_mismatches(tmp_path: Path):
+    context, index = _subclause_context(tmp_path)
+    result = verify_answer(
+        answer_with("| X | text | 26.9.9, IS 456:2000, Page 47 |"),
+        context, index,
+    )
+    assert result.all_verified is False
+    (v,) = result.citations
+    assert v.verdict == "mismatch"
+
+
+def test_foreword_cite_links_to_clauseless_block(tmp_path: Path):
+    chunk = {
+        "id": "f_0000",
+        "text": "FOREWORD\n\nThis standard was adopted by the Bureau.\n",
+        "metadata": {
+            "source": "f.md", "chunk_index": 0, "clause": None, "heading": None,
+            "heading_path": [], "standard_no": "IS 2415", "year": "2025",
+            "page_start": 1, "page_end": 3,
+            "tail_truncated": False, "table_repaired": False,
+        },
+    }
+    (tmp_path / "f_3000_ov300.json").write_text(json.dumps([chunk]), encoding="utf-8")
+    index = load_chunk_index(tmp_path)
+    ev = make_evidence("f_0000", chunk["text"], source="f.md", clause=None,
+                       heading=None, standard_no="IS 2415", page_start=1, page_end=3)
+    context = build_context([ev], chunk_index=index, top_k=1)
+    result = verify_answer(
+        answer_with("Refer to IS 2415:2025 [IS 2415:2025, Foreword, Page 1-3]."),
+        context, index,
+    )
+    assert result.all_verified is True
+    (v,) = result.citations
+    assert v.citation.clause == "N/A"
+    assert v.chunk_id == "f_0000"
+
+
+def test_foreword_cite_mismatches_labelled_block(context_and_index):
+    context, index = context_and_index
+    result = verify_answer(
+        answer_with("Refer [IS 456:2000, Foreword, Page 15]."), context, index
+    )
+    (v,) = result.citations
+    assert v.verdict == "mismatch"

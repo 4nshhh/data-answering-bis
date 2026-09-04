@@ -60,6 +60,7 @@ __all__ = [
     "VerifiedCitation",
     "VerifiedAnswer",
     "parse_citations",
+    "parse_fragments",
     "parse_references",
     "verify_answer",
 ]
@@ -70,10 +71,14 @@ __all__ = [
 #: non-breaking hyphens in page ranges like ``Page 15-16``); these are
 #: normalized 1:1 before matching so the canonical shape still parses.
 #: Clause labels may contain dots, dashes, spaces, and Annex names.
+#: The ``Foreword`` keyword is accepted as a harmless front-matter
+#: variant (normalized to ``N/A`` downstream): front-matter chunks carry
+#: no clause metadata, so a Foreword cite can only link to the genuinely
+#: clause-less block it came from — never to a numbered clause.
 CITATION_RE = re.compile(
     r"\[\s*IS\s+(?P<standard_no>[0-9][A-Za-z0-9.\-]*)"
     r"\s*:\s*(?P<year>\d{4})\s*,\s*"
-    r"Clause\s+(?P<clause>[^,\]]+?)\s*,\s*"
+    r"(?:Clause\s+(?P<clause>[^,\]]+?)|(?P<frontmatter>Foreword))\s*,\s*"
     r"Pages?\s+(?P<page>\d+)(?:\s*[-\u2010-\u2015\u2212]\s*\d+)?\s*\]"
 )
 
@@ -145,6 +150,49 @@ def _normalize_standard(value: str | None) -> str | None:
     return digits or None
 
 
+#: Bare table-style citation fragments (e.g. ``26.4.1, IS 456:2000,
+#: Page 47`` inside a Markdown table cell). Live models emit these
+#: despite the canonical-format rule; every field needed for strict
+#: verification (standard, year, clause, page) is present, so they are
+#: repaired into canonical citations and verified unchanged — never
+#: weakened. Fragments without a year are ignored (the year check
+#: could not be performed). Canonical spans are never double-counted.
+_FRAGMENT_RE = re.compile(
+    r"(?P<clause>\d+(?:\.\d+)*(?:\s*\([^()]*\))?)\s*,\s*"
+    r"IS\s+(?P<standard_no>[0-9][A-Za-z0-9.\-]*)\s*:\s*(?P<year>\d{4})"
+    r"\s*,\s*Pages?\s+(?P<page>\d+)(?:\s*[-\u2010-\u2015\u2212]\s*\d+)?"
+)
+
+
+def parse_fragments(text: str, covered: list[tuple[int, int]] | None = None) -> list[Citation]:
+    """Repair bare table-style fragments into canonical citations.
+
+    Matches ``<clause>, IS <std>:<year>, Page <p>`` occurrences (as
+    emitted inside Markdown table cells) that do not overlap already
+    parsed spans. Returned citations carry all four checkable fields
+    and are verified by the unchanged strict rules.
+    """
+    folded = text.translate(_PARSE_FOLD)
+    covered = list(covered) if covered else []
+    found = []
+    for match in _FRAGMENT_RE.finditer(folded):
+        span = (match.start(), match.end())
+        if _overlaps(span, covered):
+            continue
+        covered.append(span)
+        found.append(
+            Citation(
+                standard_no=match.group("standard_no").strip(),
+                year=match.group("year"),
+                clause=match.group("clause").strip(),
+                page=int(match.group("page")),
+                span_start=span[0],
+                span_end=span[1],
+            )
+        )
+    return found
+
+
 def parse_citations(text: str) -> list[Citation]:
     """Extract canonical citations in order of appearance.
 
@@ -157,11 +205,14 @@ def parse_citations(text: str) -> list[Citation]:
     folded = text.translate(_PARSE_FOLD)
     found = []
     for match in CITATION_RE.finditer(folded):
+        clause_raw = match.group("clause")
+        if clause_raw is None and match.group("frontmatter") is not None:
+            clause_raw = "N/A"
         found.append(
             Citation(
                 standard_no=match.group("standard_no").strip(),
                 year=match.group("year"),
-                clause=match.group("clause").strip(),
+                clause=(clause_raw or "").strip(),
                 page=int(match.group("page")),
                 span_start=match.start(),
                 span_end=match.end(),
@@ -204,6 +255,8 @@ def parse_references(text: str) -> list[Citation]:
     folded = text.translate(_PARSE_FOLD)
     canonical = parse_citations(text)
     covered = [(c.span_start, c.span_end) for c in canonical]
+    repaired = parse_fragments(text, covered)
+    covered.extend((c.span_start, c.span_end) for c in repaired)
     partials: list[Citation] = []
     for pattern, has_page in (
         (_PARTIAL_PAIR_RE, True),
@@ -225,7 +278,15 @@ def parse_references(text: str) -> list[Citation]:
                     partial=True,
                 )
             )
-    return sorted(canonical + partials, key=lambda c: c.span_start)
+    return sorted(canonical + repaired + partials, key=lambda c: c.span_start)
+
+
+#: Front-matter section names that resolve to the clause-less block.
+#: A ``Foreword`` cite names front matter, which by construction lives
+#: in chunks with no clause metadata — so it normalizes to ``N/A``
+#: and can only ever link to such a block (standard/year/page still
+#: checked; numbered clauses never match it).
+_FRONT_MATTER_AS_NA = frozenset({"FOREWORD"})
 
 
 def _norm_clause(value: str | None) -> str | None:
@@ -244,7 +305,10 @@ def _norm_clause(value: str | None) -> str | None:
     cleaned = re.sub(r"\s*\([^()]*\)", "", cleaned).strip()
     cleaned = re.sub(r"[\u2010-\u2015\u2212]", "-", cleaned)
     cleaned = re.sub(r"\s+", " ", cleaned).rstrip(".")
-    return cleaned.upper() or None
+    normalized = cleaned.upper() or None
+    if normalized in _FRONT_MATTER_AS_NA:
+        return "N/A"
+    return normalized
 
 
 #: Markdown clause headings (``#### 26.4.1 Nominal Cover``, ``## 7 SAMPLING``).
