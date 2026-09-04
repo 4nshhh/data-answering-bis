@@ -66,7 +66,7 @@ EXPANSION_SUFFIX = " Indian Standard specification requirements scope"
 #: out-of-corpus ones) into an answerable one. The expansion therefore
 #: fires only when the ORIGINAL query already shows borderline affinity
 #: to the corpus (top score in [EXPANSION_MIN_SCORE, threshold)):
-#: product phrasing that nearly matches (e.g. R003 at 0.35) earns a
+#: product phrasing that nearly matches earns a
 #: second opinion; rock-bottom scores (out-of-corpus probes at ~0.03)
 #: stay refused on the first verdict. General and query-agnostic.
 EXPANSION_MIN_SCORE = 0.20
