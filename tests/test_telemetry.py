@@ -302,7 +302,8 @@ def test_sdk_client_reused_across_generations(monkeypatch, chunk_index):
 def test_response_model_carries_telemetry():
     tele = Telemetry()
     tele.llm_generation_attempts = 2
-    tele.groq_api_calls = 2
+    tele.llm_api_calls = 2
+    assert tele.groq_api_calls == 2  # backward-compatible read alias
     tele.correction_retry = True
     tele.widen_retry = False
     tele.retrieval_expansion = False

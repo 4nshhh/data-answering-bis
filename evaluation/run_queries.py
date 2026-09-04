@@ -344,12 +344,21 @@ def print_report(results: list[dict]) -> None:
     teles = [r.get("telemetry") for r in results]
     teles = [t for t in teles if isinstance(t, dict)]
     if teles:
-        n_groq = sum(int(t.get("groq_api_calls", 0) or 0) for t in teles)
+        def _api_calls(t: dict) -> int:
+            # Prefer the provider-neutral counter; fall back to the legacy
+            # alias for servers predating it.
+            for key in ("llm_api_calls", "groq_api_calls"):
+                value = t.get(key)
+                if isinstance(value, (int, float)):
+                    return int(value or 0)
+            return 0
+
+        n_groq = sum(_api_calls(t) for t in teles)
         n_gen = sum(int(t.get("llm_generation_attempts", 0) or 0) for t in teles)
         n_corr = sum(1 for t in teles if t.get("correction_retry") is True)
         n_wide = sum(1 for t in teles if t.get("widen_retry") is True)
         n_exp = sum(1 for t in teles if t.get("retrieval_expansion") is True)
-        print(f"Groq API calls: {n_groq}")
+        print(f"LLM API calls: {n_groq}")
         print(f"Logical generation attempts: {n_gen}")
         print(f"Correction retries: {n_corr} | Widen generations: {n_wide} | Retrieval expansions: {n_exp}")
         stage_totals: dict[str, float] = {}

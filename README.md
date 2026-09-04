@@ -223,20 +223,29 @@ pydantic>=2.0.0
 fastapi>=0.100.0
 uvicorn>=0.20.0
 groq>=0.4.0
+google-genai>=1.0.0
 openai>=1.0.0
 psycopg[binary]>=3.1.0
 ```
 
 ### Environment Variables (`.env`)
-Create a `.env` file in the repository root:
+Create a `.env` file in the repository root (see `.env.example`):
 
 ```ini
 # Storage Backend (Optional: set for PostgreSQL/Supabase deployment, omit for LocalNpyStore fallback)
 DATABASE_URL=postgresql://user:password@localhost:5432/bis_standards
 
+# LLM provider selection: "groq" (default) or "gemini"
+LLM_PROVIDER=groq
+
 # Generation LLM API Keys
 GROQ_API_KEY=your_groq_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 OPENAI_API_KEY=your_openai_api_key_here
+
+# Optional model overrides (defaults: openai/gpt-oss-120b, gemini-3.5-flash-lite)
+GROQ_MODEL=
+GEMINI_MODEL=gemini-3.5-flash-lite
 
 # Service Settings
 PORT=8000
@@ -308,6 +317,49 @@ normal users who describe only their product (`product_to_standard`,
     flagged for manual semantic review since no substring matching is used).
     `C002` (Clause 26.5) is a known `citation_mismatch` regression kept
     permanently as `expected: answer` — do not change RAG behavior to force it.
+
+### Programmatic API (`app.generator.answer`)
+
+The canonical answering interface is one importable Python function
+(analogous to Repo 2's `retrieve()`), executing the complete pipeline
+(masking, retrieval, reranking, context, prompting, generation,
+citation verification, correction retry) and returning a `QueryResult`:
+
+```python
+from app.generator import answer
+
+result = answer(
+    "What is the minimum pH value of water for mixing concrete in IS 456?",
+    top_k=3,
+)
+```
+
+`POST /api/v1/query` is a thin HTTP adapter around this same function:
+it validates the request, calls `answer()`, and serializes the
+`QueryResult` to JSON. No pipeline logic lives in the HTTP layer.
+
+### Provider Configuration
+
+The default provider remains Groq. Select the backend without code changes:
+
+```ini
+LLM_PROVIDER=groq    # GROQ_API_KEY required (GROQ_MODEL optional override)
+LLM_PROVIDER=gemini  # GEMINI_API_KEY required (GEMINI_MODEL optional override)
+```
+
+The Gemini alternative (`gemini-3.5-flash-lite` default) runs the exact
+same pipeline — only the LLM backend differs. Per-query telemetry
+records `llm_provider` / `llm_model` alongside attempts, API calls,
+correction/widen/expansion flags, and stage latencies.
+
+### Provider Latency Experiment (`evaluation/compare_llm_latency.py`)
+
+Latency-only comparison over 5 stable benchmark queries
+(S001, C002, N001, M001, N003); the 30-query benchmark is untouched:
+
+```bash
+python evaluation/compare_llm_latency.py --provider both
+```
 
 ---
 

@@ -29,7 +29,7 @@ from retrieval.types import RetrievedEvidence
 from app.generator.citations import verify_answer
 from app.generator.context_builder import BuiltContext, ChunkIndex, ContextBlock, build_context
 from app.generator.llm_client import GeneratedAnswer, GroqProvider, LLMProvider, generate_answer
-from app.generator.prompts import build_prompt
+from app.generator.prompts import DEFAULT_MODEL, build_prompt
 from app.generator.refusal import DEFAULT_THRESHOLD, REFUSAL_TEXT, evaluate_refusal
 from app.generator.telemetry import Telemetry
 
@@ -216,6 +216,7 @@ def run_query(
     retrieve_fn: Callable[..., list[RetrievedEvidence]] = retrieve,
     chunk_index: Optional[ChunkIndex] = None,
     provider: Optional[LLMProvider] = None,
+    model: Optional[str] = None,
     telemetry: Optional[Telemetry] = None,
 ) -> QueryResult:
     """Execute the full retrieval-to-answer pipeline for one query.
@@ -230,6 +231,8 @@ def run_query(
         chunk_index: read-only chunk lookup for enrichment/expansion.
         provider: LLM backend; a ``GroqProvider`` is built when omitted
             (requires ``GROQ_API_KEY`` only on the answerable path).
+        model: generation model identifier; defaults to the provider's
+            ``default_model`` (Groq historical default preserved).
         telemetry: request-scoped counters; a fresh instance is used
             when omitted. Observability only — never affects behavior.
 
@@ -277,12 +280,13 @@ def run_query(
 
     if provider is None:
         provider = GroqProvider()
+    resolved_model = model or getattr(provider, "default_model", None) or DEFAULT_MODEL
     _t0 = time.perf_counter()
     context = build_context(evidence, chunk_index=chunk_index, top_k=top_k,
                             expand_neighbors=expand_neighbors)
     telemetry.add_stage("context_ms", (time.perf_counter() - _t0) * 1000.0)
     _t0 = time.perf_counter()
-    bundle = build_prompt(query.strip(), context, chunk_index=chunk_index)
+    bundle = build_prompt(query.strip(), context, chunk_index=chunk_index, model=resolved_model)
     telemetry.add_stage("prompt_ms", (time.perf_counter() - _t0) * 1000.0)
     telemetry.prompt_chars = len(bundle.user)
     _t0 = time.perf_counter()

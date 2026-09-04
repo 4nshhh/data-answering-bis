@@ -8,7 +8,8 @@ import so Phase 4's dependency-free footprint is preserved (the
 ``openai`` package is not in ``requirements.txt``).
 
 Scope:
-  * Provider protocol + ``GroqProvider`` / ``OpenAIProvider``.
+  * Provider protocol + ``GroqProvider`` / ``GeminiProvider`` /
+    ``OpenAIProvider`` behind ``build_provider()``.
   * ``generate_answer()`` orchestration: message passthrough,
     deterministic defaults, usage capture.
   * Timeout + small dependency-free retry on transient errors.
@@ -34,11 +35,14 @@ __all__ = [
     "DEFAULT_TEMPERATURE",
     "DEFAULT_TIMEOUT_SECONDS",
     "DEFAULT_MAX_RETRIES",
+    "GEMINI_DEFAULT_MODEL",
     "LLMResponse",
     "GeneratedAnswer",
     "LLMProvider",
     "GroqProvider",
+    "GeminiProvider",
     "OpenAIProvider",
+    "build_provider",
     "generate_answer",
 ]
 
@@ -50,6 +54,18 @@ DEFAULT_TIMEOUT_SECONDS = 60.0
 
 #: Retries after the first attempt, transient errors only.
 DEFAULT_MAX_RETRIES = 2
+
+#: Default Gemini model for the alternative provider (overridable with
+#: ``GEMINI_MODEL``). The Groq default stays ``prompts.DEFAULT_MODEL``
+#: (overridable with ``GROQ_MODEL``).
+GEMINI_DEFAULT_MODEL = "gemini-3.5-flash-lite"
+
+#: Environment variable selecting the provider (``groq`` default).
+LLM_PROVIDER_ENV_VAR = "LLM_PROVIDER"
+
+#: Optional model overrides; unset preserves historical defaults.
+GROQ_MODEL_ENV_VAR = "GROQ_MODEL"
+GEMINI_MODEL_ENV_VAR = "GEMINI_MODEL"
 
 #: Exception class names treated as transient for retry. Matched by
 #: name so neither SDK needs to be imported to decide retryability.
@@ -92,6 +108,7 @@ class LLMProvider(Protocol):
     """Minimal contract for a chat-completions backend."""
 
     name: str
+    default_model: str
 
     def generate(
         self,
@@ -179,6 +196,7 @@ class _ChatCompletionsProvider:
     name = "chat-completions"
     env_var = ""
     missing_hint = ""
+    default_model = DEFAULT_MODEL
 
     def __init__(
         self,
@@ -229,7 +247,7 @@ class _ChatCompletionsProvider:
                 # transient re-attempts are counted individually, while
                 # hidden SDK-internal HTTP retries stay unobserved.
                 if telemetry is not None:
-                    telemetry.groq_api_calls += 1
+                    telemetry.llm_api_calls += 1
                 completion = client.chat.completions.create(
                     model=model,
                     messages=[
@@ -262,6 +280,11 @@ class GroqProvider(_ChatCompletionsProvider):
     name = "groq"
     env_var = "GROQ_API_KEY"
 
+    @property
+    def default_model(self) -> str:
+        """GROQ_MODEL override, else the historical default (unchanged)."""
+        return os.environ.get(GROQ_MODEL_ENV_VAR) or DEFAULT_MODEL
+
     def _client(self) -> Any:
         def _build() -> Any:
             try:
@@ -274,6 +297,145 @@ class GroqProvider(_ChatCompletionsProvider):
             return groq.Groq(api_key=self._api_key, timeout=self._timeout_s)
 
         return self._cached(_build)
+
+
+#: HTTP statuses treated as transient for the Gemini provider (429 /
+#: 5xx only). Mirrors the application-level retry policy of the
+#: chat-completions providers: same attempt count, same backoff.
+_TRANSIENT_HTTP_STATUSES = frozenset({408, 429, 500, 502, 503, 504})
+
+
+def _gemini_status_code(exc: BaseException) -> int | None:
+    """Best-effort HTTP status extraction from Gemini SDK errors."""
+    for attr in ("status_code", "code", "status"):
+        value = getattr(exc, attr, None)
+        if isinstance(value, bool):
+            continue
+        if isinstance(value, int):
+            return value
+        if isinstance(value, str) and value.strip().isdigit():
+            return int(value.strip())
+    return None
+
+
+class GeminiProvider(_ChatCompletionsProvider):
+    """Alternative provider: Gemini via the official ``google-genai`` SDK.
+
+    Same orchestration contract as ``GroqProvider`` (system + user in,
+    raw text out); only the transport differs (``generate_content`` with
+    a system instruction instead of chat-completions). Prompts,
+    temperature default, verification, refusal, and retry behavior are
+    unchanged. One SDK client is reused per provider instance, matching
+    the Groq reuse pattern.
+    """
+
+    name = "gemini"
+    env_var = "GEMINI_API_KEY"
+
+    @property
+    def default_model(self) -> str:
+        """GEMINI_MODEL override, else ``gemini-3.5-flash-lite``."""
+        return os.environ.get(GEMINI_MODEL_ENV_VAR) or GEMINI_DEFAULT_MODEL
+
+    def _client(self) -> Any:
+        def _build() -> Any:
+            try:
+                from google import genai
+            except ImportError as exc:
+                raise RuntimeError(
+                    "The 'google-genai' package is required for GeminiProvider "
+                    "(pip install 'google-genai>=1.0.0')."
+                ) from exc
+            return genai.Client(api_key=self._api_key)
+
+        return self._cached(_build)
+
+    def generate(
+        self,
+        *,
+        system: str,
+        user: str,
+        model: str,
+        temperature: float,
+        timeout_s: float,
+        telemetry: Telemetry | None = None,
+    ) -> LLMResponse:
+        from google.genai import types
+
+        client = self._client()
+        attempts = 1 + self._max_retries
+        last_error: BaseException | None = None
+        for attempt in range(attempts):
+            try:
+                # Telemetry: count every actual provider request, exactly
+                # like the chat-completions providers. Hidden SDK-internal
+                # HTTP retries stay unobserved (documented in telemetry.py).
+                if telemetry is not None:
+                    telemetry.llm_api_calls += 1
+                response = client.models.generate_content(
+                    model=model,
+                    contents=user,
+                    config=types.GenerateContentConfig(
+                        system_instruction=system,
+                        temperature=temperature,
+                        http_options=types.HttpOptions(
+                            timeout=max(1, int(timeout_s * 1000))
+                        ),
+                    ),
+                )
+                text = response.text or ""
+                if not text.strip():
+                    raise RuntimeError(
+                        "Provider returned an empty completion; "
+                        "refusing to continue with no text."
+                    )
+                usage = getattr(response, "usage_metadata", None)
+                return LLMResponse(
+                    text=text,
+                    model=model,
+                    prompt_tokens=getattr(usage, "prompt_token_count", None),
+                    completion_tokens=getattr(usage, "candidates_token_count", None),
+                    raw_usage=None,
+                )
+            except Exception as exc:  # noqa: BLE001 - classified below, then re-raised
+                last_error = exc
+                transient = _is_transient_error(exc) or (
+                    _gemini_status_code(exc) in _TRANSIENT_HTTP_STATUSES
+                )
+                if transient and attempt < attempts - 1:
+                    time.sleep(2**attempt)  # 1s, 2s, ... same policy as Groq
+                    continue
+                if isinstance(exc, RuntimeError):
+                    raise
+                raise RuntimeError(f"Gemini API error: {exc}") from exc
+        raise last_error  # pragma: no cover - loop always raises first
+
+
+def build_provider(
+    name: str | None = None,
+    *,
+    api_key: str | None = None,
+    timeout_s: float = DEFAULT_TIMEOUT_SECONDS,
+    max_retries: int = DEFAULT_MAX_RETRIES,
+) -> LLMProvider:
+    """Construct the configured LLM provider (Groq default).
+
+    Args:
+        name: ``"groq"`` or ``"gemini"`` (case-insensitive); when
+            omitted, ``LLM_PROVIDER`` decides (default ``"groq"``).
+        api_key: explicit key, else the provider's ``*_API_KEY`` variable.
+        timeout_s / max_retries: same transport knobs for both backends.
+
+    Raises:
+        ValueError: unknown provider name.
+        RuntimeError: missing API key (from the provider constructor).
+    """
+    want = (name or os.environ.get(LLM_PROVIDER_ENV_VAR) or "groq").strip().lower()
+    if want == "groq":
+        return GroqProvider(api_key=api_key, timeout_s=timeout_s, max_retries=max_retries)
+    if want == "gemini":
+        return GeminiProvider(api_key=api_key, timeout_s=timeout_s, max_retries=max_retries)
+    raise ValueError(f"unknown LLM provider {want!r}; expected 'groq' or 'gemini'")
 
 
 class OpenAIProvider(_ChatCompletionsProvider):
@@ -320,16 +482,20 @@ def generate_answer(
     """
     if not query or not query.strip():
         raise ValueError("query must be a non-blank string")
-    # Telemetry: one logical generation attempt per execution.
+    # Telemetry: one logical generation attempt per execution, plus the
+    # provider/model identity behind it (fixed per request, idempotent).
+    resolved_model = bundle.model or DEFAULT_MODEL
     if telemetry is not None:
         telemetry.llm_generation_attempts += 1
+        telemetry.llm_provider = provider.name
+        telemetry.llm_model = resolved_model
     # Telemetry is forwarded only when present, so backends implementing
     # the original protocol (without the telemetry kwarg) keep working;
     # observability must never break generation.
     generate_kwargs: dict[str, object] = {
         "system": bundle.system,
         "user": bundle.user,
-        "model": bundle.model or DEFAULT_MODEL,
+        "model": resolved_model,
         "temperature": temperature,
         "timeout_s": timeout_s,
     }

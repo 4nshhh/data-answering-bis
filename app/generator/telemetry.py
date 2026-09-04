@@ -37,7 +37,13 @@ class Telemetry:
     """Per-query counters, reset by construction for every request."""
 
     llm_generation_attempts: int = 0
-    groq_api_calls: int = 0
+    # Observable LLM API invocations (any provider): incremented once per
+    # actual provider request (``create()`` / ``generate_content()``),
+    # including application-level transient re-attempts.
+    llm_api_calls: int = 0
+    # Provider/model identity behind this request (set by generate_answer).
+    llm_provider: str = ""
+    llm_model: str = ""
     correction_retry: bool = False
     widen_retry: bool = False
     retrieval_expansion: bool = False
@@ -60,11 +66,19 @@ class Telemetry:
         """Record (or accumulate, for repeated stages) a stage duration."""
         self.stages[name] = self.stages.get(name, 0.0) + ms
 
+    @property
+    def groq_api_calls(self) -> int:
+        """Backward-compatible alias of ``llm_api_calls`` (read-only)."""
+        return self.llm_api_calls
+
     def to_dict(self) -> dict[str, object]:
         """Plain-JSON snapshot for API responses and evaluation records."""
         return {
             "llm_generation_attempts": self.llm_generation_attempts,
-            "groq_api_calls": self.groq_api_calls,
+            "llm_api_calls": self.llm_api_calls,
+            "groq_api_calls": self.llm_api_calls,
+            "llm_provider": self.llm_provider,
+            "llm_model": self.llm_model,
             "correction_retry": self.correction_retry,
             "widen_retry": self.widen_retry,
             "retrieval_expansion": self.retrieval_expansion,

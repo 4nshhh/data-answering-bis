@@ -21,9 +21,10 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
+from app.generator import answer
 from app.generator.context_builder import ChunkIndex, load_chunk_index
-from app.generator.llm_client import GroqProvider, LLMProvider
-from app.generator.pipeline import QueryResult, run_query
+from app.generator.llm_client import LLMProvider, build_provider
+from app.generator.pipeline import QueryResult
 from app.generator.refusal import DEFAULT_THRESHOLD
 from app.generator.telemetry import Telemetry
 
@@ -74,7 +75,10 @@ class TelemetryModel(BaseModel):
     """Per-query LLM usage telemetry (observability only, no secrets)."""
 
     llm_generation_attempts: int = 0
+    llm_api_calls: int = 0
     groq_api_calls: int = 0
+    llm_provider: str = ""
+    llm_model: str = ""
     correction_retry: bool = False
     widen_retry: bool = False
     retrieval_expansion: bool = False
@@ -139,7 +143,10 @@ def _result_to_response(result: QueryResult) -> QueryResponse:
         refusal_reason=result.refusal_reason,
         telemetry=TelemetryModel(
             llm_generation_attempts=tele.llm_generation_attempts if tele else 0,
+            llm_api_calls=tele.llm_api_calls if tele else 0,
             groq_api_calls=tele.groq_api_calls if tele else 0,
+            llm_provider=tele.llm_provider if tele else "",
+            llm_model=tele.llm_model if tele else "",
             correction_retry=tele.correction_retry if tele else False,
             widen_retry=tele.widen_retry if tele else False,
             retrieval_expansion=tele.retrieval_expansion if tele else False,
@@ -162,7 +169,9 @@ def build_app(
     @asynccontextmanager
     async def lifespan(application: FastAPI):
         application.state.chunk_index = chunk_index if chunk_index is not None else load_chunk_index(chunks_dir)
-        application.state.provider = provider if provider is not None else GroqProvider()
+        # Provider from LLM_PROVIDER (Groq default); same singleton serves
+        # every request in this process.
+        application.state.provider = provider if provider is not None else build_provider()
         # Optional one-time retriever warmup (BIS_WARMUP=1): load BGE-M3 +
         # CrossEncoder and run one dummy retrieval at startup so the first
         # real query pays ~0.5s instead of ~40s model load. No LLM call,
@@ -223,10 +232,12 @@ def build_app(
         if not payload.query.strip():
             raise HTTPException(status_code=400, detail="query must be a non-blank string")
         try:
+            # Thin adapter: the canonical pipeline lives in
+            # app.generator.answer(); HTTP only validates + serializes.
             telemetry = Telemetry()
-            result = run_query(
+            result = answer(
                 payload.query,
-                top_k=payload.top_k,
+                payload.top_k,
                 expand_neighbors=payload.expand_neighbors,
                 threshold=payload.confidence_threshold,
                 retrieve_fn=retrieve_fn,
