@@ -1,329 +1,8 @@
 # BIS Standards Assistant — Answering & RAG Repository (`data-answering-bis`)
 
-The production **Answering, RAG (Retrieval-Augmented Generation), and LLM Pipeline** for the Bureau of Indian Standards (BIS) Assistant.
+The **Answering / RAG / LLM pipeline** for the Bureau of Indian Standards (BIS) Assistant. Given a natural-language question about BIS documents, it retrieves grounded context chunks, assembles a structured prompt, generates an answer with a configured LLM, and verifies every technical claim against retrieved evidence with inline page/clause citations — or refuses when the evidence is insufficient.
 
-This repository (`data-answering-bis`) consumes grounded context candidates from the production retrieval package, assembles context-enriched system prompts, enforces 100% strict engineering grounding rules, and orchestrates LLM generation to produce accurate, verifiable technical answers with inline clause and page citations.
-
----
-
-## 1. Project Overview & Multi-Repository Architecture
-
-The BIS Standards Assistant system is partitioned into three decoupled repositories to maintain strict software boundaries and modular development:
-
-```text
-┌─────────────────────────┐    ┌──────────────────────────────────┐    ┌──────────────────────────────────┐
-│  Repo 1: Ingestion      │    │  Repo 2: Chunking & Retrieval    │    │  Repo 3: data-answering-bis      │
-│  - Raw PDF extraction   │ ──►│  - Structure & Semantic chunking │ ──►│  - Grounded LLM Context Builder │
-│  - OCR normalization    │    │  - BGE-M3 1024-dim Vector Cache  │    │  - System Prompt Formatting      │
-│  - Markdown conversion  │    │  - Cross-Encoder Reranker        │    │  - Groq / OpenAI API Generation  │
-│                         │    │  - retrieval/ Package & Indexer  │    │  - Citation Parser & Verification│
-│                         │    │  - 87-Query Benchmark Suite      │    │  - FastAPI REST Endpoint         │
-└─────────────────────────┘    └──────────────────────────────────┘    └──────────────────────────────────┘
-```
-
-1. **Repo 1 — Ingestion Repository:** Raw PDF extraction, OCR normalization, and Markdown conversion.
-2. **Repo 2 — Processing, Chunking & Retrieval Repository:** Markdown structure extraction, semantic chunking (3,000 chars / 300 overlap), metadata attachment, vector embedding (`BAAI/bge-m3`), vector storage indexing, and retrieval evaluation benchmarks.
-3. **data-answering-bis — Answering / RAG Repository (THIS REPOSITORY):** Storage layer connection, context assembly, neighbor chunk expansion, grounding prompt engineering, LLM orchestration, inline citation post-processing, abstention/refusal evaluation, and API serving.
-
----
-
-## 2. Repository Boundary & Separation of Concerns
-
-To preserve system stability and maintain clean software boundaries:
-
-### What THIS Repository (`data-answering-bis`) Owns
-*   **Retrieval Package Consumption:** Importing the query-time retrieval package (`retrieval/` package containing `retrieve()`, `Retriever`, `ChunkStore`, `LocalNpyStore`, `PgVectorStore`).
-*   **Dual Storage Seam Connection:** Connecting to candidate storage via `ChunkStore` (local `.npy` memory-mapped vector cache for development or PostgreSQL / pgvector / Supabase for production).
-*   **Abstention & Refusal Evaluation:** Inspecting candidate `rerank_score` values, score margins, and `is_mask_restricted` flags to decide whether a query is unanswerable from the corpus before passing context to the LLM.
-*   **Context Window Assembly & Expansion:** Deduplicating 300-char overlapping text, preserving clause metadata headers, and executing adjacent chunk stitching (`chunk_index ± 1`) for split tables or clauses.
-*   **Prompt Engineering & Grounding Directives:** Injecting strict system prompts that constrain LLM output strictly to retrieved evidence with zero unstated extrapolation.
-*   **LLM Orchestration:** Interfacing with LLM APIs (Groq `openai/gpt-oss-120b` / OpenAI API) for answer generation.
-*   **Citation Parsing & Verification:** Appending and validating inline citations (`[IS <no>:<year>, Clause <cl>, Page <p>]`) against retrieved metadata.
-*   **FastAPI REST Web Service:** Serving the end-to-end RAG pipeline via `POST /api/v1/query`.
-
-### What Belongs to Previous Repositories (FROZEN & IMMUTABLE)
-*   **Raw Markdown Ingestion:** Raw PDF parsing and Markdown text live in Repo 1/Repo 2 (`input_md/`).
-*   **Chunking Pipeline (`scripts/chunker.py`):** Chunking is **FROZEN at 3,000 chars / 300 overlap** (2,081 chunks across 101 files).
-*   **Corpus Vector Generation & Migration:** Pre-computed vector embeddings (`artifacts/bge_m3_enriched_vectors_gpu.npy`) and database loading (`indexing/migrate_from_artifacts.py`).
-
----
-
-## 3. Production Retrieval Architecture
-
-Retrieval is production-validated on the 87-query benchmark suite (Tier 2B). Repo 3 consumes candidate evidence via the unified entry point:
-
-```python
-from retrieval import retrieve, RetrievedEvidence
-
-evidence_list: list[RetrievedEvidence] = retrieve("What is the minimum pH value of water in IS 456?", top_k=10)
-```
-
-### Retrieval Execution Flow
-
-```text
-User Query
-   │
-   ▼
-1. Query-Side Candidate Filtering (query_side_candidate_mask)
-   │ Restricts candidate set if IS standard number is explicitly named in query (is_mask_restricted=True)
-   ▼
-2. Dense Candidate Retrieval (BAAI/bge-m3@5617a9f, 1024-dim)
-   │ Query encoded via BGE-M3 (pinned commit 5617a9f); dot-product or pgvector cosine similarity search
-   ▼ Top-10 Candidates Selected
-3. Cross-Encoder Reranker (BAAI/bge-reranker-base)
-   │ Re-scores (query, enriched_text) pairs using SAME enriched context format
-   ▼ Ranked Candidates (list[RetrievedEvidence])
-4. Generation Layer (data-answering-bis) Context Assembly & Abstention
-```
-
-### Storage Seam (`ChunkStore` Protocol)
-The system decouples retrieval logic from physical vector storage via the `ChunkStore` seam:
-*   **`LocalNpyStore` (Development / Fallback):** Loads `artifacts/bge_m3_enriched_vectors_gpu.npy` (shape `(2081, 1024)` float32) for fast, zero-dependency local memory-mapped vector search (< 0.05s).
-*   **`PgVectorStore` (Production):** Connects to PostgreSQL / Supabase with the `pgvector` extension enabled using `DATABASE_URL` (direct connection via `psycopg` v3 with `prepare_threshold=None` for transaction pooler compatibility). Cosine distance (`<=>`) matches local dot-product similarity scores identically (`score = 1 - dist`).
-
-### Environment-Specific Storage Selection
-
-| Environment | Backend | Purpose |
-|---|---|---|
-| **SIH Demo / Showcase** | `LocalNpyStore` | Fast, simple, reliable local retrieval |
-| **Production / Deployment** | `PgVectorStore` | Supabase/PostgreSQL + pgvector for persistent and scalable storage |
-
-The SIH demo uses `LocalNpyStore` to minimize latency and avoid dependency on database/network availability. The production deployment uses `PgVectorStore` with Supabase/PostgreSQL + pgvector.
-
----
-
-## 4. End-to-End Retrieval $\to$ Answering Data Flow
-
-The runtime execution flow within `data-answering-bis` proceeds through eight structured stages:
-
-```text
-1. User Query Received (POST /api/v1/query)
-   │
-   ▼
-2. Candidate Retrieval (retrieval.retrieve(query, top_k=10))
-   │ Output: list[RetrievedEvidence] from LocalNpyStore or PgVectorStore
-   ▼
-3. Generation-Layer Abstention Check
-   │ Inspect top rerank_score logit and score margin against confidence threshold τ (e.g. τ < -2.0)
-   │ If scores indicate unanswerable / missing evidence, return standard refusal response
-   ▼
-4. Neighbor Expansion (Optional)
-   │ Fetch adjacent chunk_index ± 1 from output_chunks/ if candidate ends mid-sentence or mid-table
-   ▼
-5. Context Assembly & Deduplication
-   │ Merge overlapping text and format Top-3 to Top-5 evidence items into structured Markdown context blocks
-   ▼
-6. System Prompt Injection
-   │ Inject strict engineering grounding rules & standard identity into LLM prompt
-   ▼
-7. LLM Answer Generation
-   │ Execute API call (Groq / OpenAI) to generate grounded technical text
-   ▼
-8. Post-Processing & Citation Rendering
-   │ Verify facts and append formatted inline citations: [IS 456:2000, Clause 5.4, Page 15]
-```
-
----
-
-## 5. Retrieval $\to$ Answering Data Contract
-
-The retrieval package supplies the generation layer with strictly typed data structures exported by `retrieval.types`:
-
-```python
-from dataclasses import dataclass, field
-from typing import Optional, Dict, Any
-
-@dataclass
-class RetrievedEvidence:
-    """One ranked candidate returned to the generation layer."""
-    chunk_id: str                          # Stable chunk identifier (e.g. "456_2000_amd5_reff2021_0014")
-    text: str                              # Chunk text with 300-char overlap
-    source: str                            # Source document filename (e.g. "456_2000_amd5_reff2021.md")
-    clause: Optional[str]                  # Clause label (e.g. "5.4") or None
-    heading: Optional[str]                 # Section heading leaf or None
-    standard_no: Optional[str]             # Standard ID (e.g. "IS 456") or None
-    page_start: Optional[int]              # Physical PDF start page
-    page_end: Optional[int]                # Physical PDF end page
-    dense_score: Optional[float]           # BGE-M3 cosine similarity score
-    rerank_score: Optional[float]          # Cross-Encoder output logit score
-    is_mask_restricted: bool               # True if query named IS number and candidate mask fired
-    extra: Dict[str, Any] = field(default_factory=dict)
-```
-
----
-
-## 6. Migrated Assets (Received from Repo 2)
-
-This repository includes and depends on the following frozen data assets and production modules:
-
-1.  **`output_chunks/*.json`** (2,081 files): Ground-truth text, clause numbers, headings, and page boundaries for all corpus chunks.
-2.  **`artifacts/bge_m3_enriched_vectors_gpu.npy`** (8.5 MB, shape `(2081, 1024)`): Pre-computed BGE-M3 embeddings for local memory-mapped vector search.
-3.  **`retrieval/` Package**: Canonical query-time retrieval package containing `retrieve.py`, `types.py`, `store.py`, `pg_store.py`, and `models.py`.
-4.  **`indexing/migrate_from_artifacts.py`**: Idempotent database migration script loading `output_chunks/*.json` and vector cache into PostgreSQL + pgvector `chunks` table.
-5.  **`artifacts/provenance_index.json`**: Fast lookup index mapping `(standard_no, clause)` and `(source, page)` to chunk IDs.
-6.  **`retrieval_queries.md`**: Official 87-query benchmark test suite (80 scored queries + 6 probes + 1 missing).
-7.  **`artifacts/chunk_hashes.json`**: SHA-256 hashes verifying zero drift between chunk JSONs and vector cache.
-
----
-
-## 7. Answering & RAG Components (To Be Implemented in Repo 3)
-
-The following core answering modules are defined in `AGENTS.md` and will be implemented in `data-answering-bis`:
-
-*   **Context Builder & Neighbor Stitcher (`app/generator/context_builder.py`):** Assembles Top-3 to Top-5 evidence blocks, formats metadata headers, and stitches adjacent chunks (`chunk_index ± 1`) when tables or clauses cross chunk boundaries.
-*   **Grounding Directives & System Prompts (`app/generator/prompts.py`):** Formats prompts enforcing 100% strict engineering grounding — no unstated extrapolation, exact numerical values/units, and conditional requirement handling.
-*   **LLM Service Client (`app/generator/llm_client.py`):** Integrates Groq (`openai/gpt-oss-120b`) and OpenAI API clients.
-*   **Refusal & Abstention Evaluator (`app/generator/refusal.py`):** Evaluates top `rerank_score` logit and score margins against threshold $\tau$ (e.g. $\text{logit} < -2.0$) to return standard refusals for out-of-corpus queries:
-    > *"The provided Indian Standards documents do not contain sufficient technical information to answer this query."*
-*   **Citation Parser & Post-Processor (`app/generator/citations.py`):** Extracts, verifies, and formats inline citations (`[IS <no>:<year>, Clause <cl>, Page <p>]`).
-*   **FastAPI Endpoint (`app/main.py`):** Exposes `POST /api/v1/query` REST API serving end-to-end RAG responses.
-
----
-
-## 8. Repository Layout
-
-```text
-data-answering-bis/
-├── AGENTS.md                         # Master Development Plan & Instructions
-├── README.md                         # Project Overview & Architecture Guide
-├── requirements.txt                  # Python runtime dependencies
-├── retrieval_queries.md              # Official 87-Query Benchmark Suite
-├── output_chunks/                    # 2,081 ground-truth chunk JSON files
-├── artifacts/
-│   ├── bge_m3_enriched_vectors_gpu.npy # Pre-computed BGE-M3 vector cache (2081, 1024)
-│   ├── provenance_index.json         # Standard/clause/page lookup index
-│   └── chunk_hashes.json             # SHA-256 chunk integrity hashes
-├── indexing/
-│   └── migrate_from_artifacts.py     # PostgreSQL + pgvector migration script
-└── retrieval/                        # Production retrieval package (from Repo 2)
-    ├── __init__.py                   # Package exports (retrieve, RetrievedEvidence, ChunkStore)
-    ├── types.py                      # Dataclasses (RetrievedEvidence, ChunkRecord)
-    ├── store.py                      # ChunkStore protocol & LocalNpyStore implementation
-    ├── pg_store.py                   # PgVectorStore implementation (PostgreSQL/pgvector)
-    ├── models.py                     # Pinned model loaders (BGE-M3@5617a9f, BGE-reranker-base)
-    └── retrieve.py                   # Main backend retrieval entry point
-```
-
----
-
-## 9. Environment Setup & Configuration
-
-### Prerequisites
-*   Python 3.10+
-*   PyTorch (CUDA recommended for GPU reranking, CPU supported)
-*   PostgreSQL 15+ with `pgvector` extension (optional for database-backed deployment)
-
-### Dependencies (`requirements.txt`)
-```ini
-torch>=2.0.0
-sentence-transformers>=2.2.2
-transformers>=4.30.0
-numpy>=1.24.0
-pydantic>=2.0.0
-fastapi>=0.100.0
-uvicorn>=0.20.0
-groq>=0.4.0
-google-genai>=1.0.0
-openai>=1.0.0
-psycopg[binary]>=3.1.0
-```
-
-### Environment Variables (`.env`)
-Create a `.env` file in the repository root (see `.env.example`):
-
-```ini
-# Storage Backend (Optional: set for PostgreSQL/Supabase deployment, omit for LocalNpyStore fallback)
-DATABASE_URL=postgresql://user:password@localhost:5432/bis_standards
-
-# LLM provider selection: "groq" (default) or "gemini"
-LLM_PROVIDER=groq
-
-# Generation LLM API Keys
-GROQ_API_KEY=your_groq_api_key_here
-GEMINI_API_KEY=your_gemini_api_key_here
-OPENAI_API_KEY=your_openai_api_key_here
-
-# Optional model overrides (defaults: openai/gpt-oss-120b, gemini-3.5-flash-lite)
-GROQ_MODEL=
-GEMINI_MODEL=gemini-3.5-flash-lite
-
-# Service Settings
-PORT=8000
-HOST=0.0.0.0
-```
-
----
-
-## 10. Database Migration (Optional PostgreSQL / Supabase Path)
-
-To populate a PostgreSQL database with `pgvector` from the local artifacts:
-
-```bash
-# Ensure DATABASE_URL is set in .env
-python indexing/migrate_from_artifacts.py --drop-first
-```
-
-This creates the `chunks` table with a `vector(1024)` column, loads all 2,081 chunks and vectors, and verifies post-load row parity.
-
----
-
-## 11. Frozen Invariants & Rejection Matrix
-
-Future development in `data-answering-bis` MUST obey the following frozen invariants:
-
-1.  **Chunking is Frozen:** Do NOT modify chunk sizes (3,000 chars), overlap (300 chars), or chunk JSON files in `output_chunks/`.
-2.  **Embedding Model is Frozen:** Do NOT change candidate embedder (`BAAI/bge-m3` pinned to revision `5617a9f`) or vector dimensions (1024-dim).
-3.  **Enriched Representation is Frozen:** Embeddings and reranking MUST use the `Standard + Clause + Heading + Text` representation.
-4.  **Re-Use Pre-Computed Vectors:** Always load `artifacts/bge_m3_enriched_vectors_gpu.npy` or query PostgreSQL via `PgVectorStore`. Do NOT re-embed the corpus.
-
-### Rejected Architectures (DO NOT REVIVE)
-
-| Rejected Approach | Benchmark Outcome | Rejection Rationale |
-|---|---|---|
-| **BM25 Primary** | Clause @1: 25% | Fails on semantic paraphrases and clause headers. |
-| **all-MiniLM-L6-v2** | Answerability: 68.4% | 512-token limit truncated 72% of chunks, losing tail context. |
-| **Hybrid BM25 + Dense RRF** | Clause @1 dropped 100% $\to$ 50% | Naive rank fusion pulled up keyword-heavy wrong-clause chunks. |
-| **Raw-Text Cross-Encoder** | Answerability fell 89.5% $\to$ 63.2% | Without metadata headers, reranker favors generic prose over clauses. |
-| **Table Router** | Over-triggered on prose | Dense enriched retrieval natively handles tabular chunks without routing. |
-
----
-
-## 12. Evaluation Framework & Benchmark Targets
-
-System evaluation is conducted against the **87-query benchmark suite** (`retrieval_queries.md`):
-
-*   **Retrieval Metrics:** Document Retrieval @1 (Target: 100%), Clause Retrieval @1 (Target: 100%), Clause MRR@3 (Target: 1.000).
-*   **Strict Answerability:** Target $\ge 89.5\%$ phrase-hit verification against ground-truth answer keys.
-*   **Citation Accuracy:** 100% verification that cited clauses and page numbers match retrieved chunk metadata.
-*   **Zero Hallucination:** 0% tolerance for ungrounded numerical values, fabricated clauses, or unverified standard numbers.
-
-### Reusable End-to-End Query Suite (`evaluation/`)
-
-A 30-query regression suite covering expert users (IS/clause-specific) and
-normal users who describe only their product (`product_to_standard`,
-`product_requirement`):
-
-*   `evaluation/test_queries.json` — 8 categories (`supported_exact`,
-    `supported_clause`, `supported_numerical`, `supported_multi_clause`,
-    `product_to_standard`, `product_requirement`, `out_of_corpus`,
-    `general_bis`) with stable IDs and `expected` (`answer`/`refusal`/`review`).
-*   Start the API first: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
-*   Run: `python evaluation/run_queries.py` (see `--help` for
-    `--url/--top-k/--output/--category/--limit`); results go to
-    `evaluation/results/latest_results.json`.
-*   Verdicts: `PASS` (grounded answer / correct refusal), `FAIL` (refused or
-    unverified when an answer was expected, or answered when refusal was
-    expected), `REVIEW` (general-BIS questions; `product_*` passes are still
-    flagged for manual semantic review since no substring matching is used).
-    `C002` (Clause 26.5) is a known `citation_mismatch` regression kept
-    permanently as `expected: answer` — do not change RAG behavior to force it.
-
-### Programmatic API (`app.generator.answer`)
-
-The canonical answering interface is one importable Python function
-(analogous to Repo 2's `retrieve()`), executing the complete pipeline
-(masking, retrieval, reranking, context, prompting, generation,
-citation verification, correction retry) and returning a `QueryResult`:
+The canonical programmatic interface is one function (analogous to Repo 2's `retrieve()`):
 
 ```python
 from app.generator import answer
@@ -334,58 +13,233 @@ result = answer(
 )
 ```
 
-`POST /api/v1/query` is a thin HTTP adapter around this same function:
-it validates the request, calls `answer()`, and serializes the
-`QueryResult` to JSON. No pipeline logic lives in the HTTP layer.
+`POST /api/v1/query` (FastAPI) is a thin HTTP adapter around this same function.
 
-### Provider Configuration
+---
 
-The default provider remains Groq. Select the backend without code changes:
+## 1. Multi-Repository Architecture
 
-```ini
-LLM_PROVIDER=groq    # GROQ_API_KEY required (GROQ_MODEL optional override)
-LLM_PROVIDER=gemini  # GEMINI_API_KEY required (GEMINI_MODEL optional override)
+| Repo | Responsibility |
+|---|---|
+| **Repo 1 — Ingestion** | Raw PDF extraction, OCR normalization, Markdown conversion. |
+| **Repo 2 — Chunking & Retrieval** | Structure extraction, semantic chunking (3000 chars / 300 overlap), metadata, `BAAI/bge-m3` embeddings, vector indexing, retrieval benchmarks. |
+| **Repo 3 — This repository (`data-answering-bis`)** | Vector-store connection, runtime retrieval, reranking, context assembly, prompt engineering, LLM orchestration (Groq default, Gemini experimental), citation verification, refusal/correction logic, telemetry, API serving. |
+
+### What THIS repository owns
+* Consuming the `retrieval/` package (`retrieve()`, `Retriever`, `ChunkStore`, `LocalNpyStore`, `PgVectorStore`).
+* Query-time candidate filtering, dense retrieval, CrossEncoder reranking.
+* Context assembly, neighbor expansion, table widening, retrieval-expansion fallback.
+* System prompts, grounding rules, LLM orchestration via a provider abstraction.
+* Citation parsing/repair/verification, abstention & refusal, one-shot correction retry.
+* Request-scoped telemetry, error mapping, FastAPI adapter, evaluation tooling.
+
+### Frozen (belongs to earlier repos — do not touch)
+* Chunking: **3000 chars / 300 overlap, 2,081 chunks in 101 files** (`data/chunks/*.json`).
+* Candidate embedder: **`BAAI/bge-m3` pinned revision `5617a9f`** (1024-dim); reranker `BAAI/bge-reranker-base`.
+* Corpus vectors are pre-computed (`data/vectors/bge_m3_enriched_vectors.npy`); never re-embed at runtime.
+* Rejected approaches stay rejected: BM25-primary, hybrid RRF, raw-text reranking.
+
+---
+
+## 2. Repository Layout (actual)
+
+```text
+data-answering-bis/
+├── AGENTS.md                    # Master spec & agent instructions (authoritative)
+├── README.md                    # This file
+├── requirements.txt             # Runtime dependencies
+├── .env.example                 # Configuration template (copy to .env; never commit .env)
+├── retrieval/                   # Query-time retrieval package (from Repo 2)
+│   ├── __init__.py              # Exports: retrieve, RetrievedEvidence, ChunkStore, ...
+│   ├── retrieve.py              # retrieve(query, top_k=10): dense + rerank pipeline
+│   ├── types.py                 # RetrievedEvidence, ChunkRecord dataclasses
+│   ├── store.py                 # ChunkStore protocol + LocalNpyStore
+│   ├── pg_store.py              # PgVectorStore (PostgreSQL/pgvector production path)
+│   └── models.py                # Pinned model loaders (CUDA preferred, loud CPU fallback)
+├── app/
+│   ├── main.py                  # FastAPI adapter: validates, calls answer(), serializes
+│   └── generator/
+│       ├── __init__.py          # Canonical answer() API + process singletons
+│       ├── pipeline.py          # run_query(): the one end-to-end orchestration
+│       ├── llm_client.py        # LLMProvider protocol, Groq/Gemini/OpenAI providers
+│       ├── prompts.py           # System prompt + grounding/citation rules
+│       ├── context_builder.py   # Context blocks, neighbor expansion, dedup
+│       ├── citations.py         # Citation parsing, repair, verification
+│       ├── refusal.py           # Abstention logic (τ = 0.5), canonical refusal text
+│       └── telemetry.py         # Request-scoped LLM/stage telemetry
+├── data/
+│   ├── chunks/                  # 101 chunk JSON files (+ human-readable .md mirrors)
+│   ├── vectors/                 # Pre-computed BGE-M3 cache (2081, 1024)
+│   └── provenance_index.json    # (standard_no, clause) / (source, page) lookup asset
+├── indexing/
+│   └── migrate_from_artifacts.py# PostgreSQL + pgvector migration helper (deploy-time;
+│                                # defaults reference the old output_chunks/artifacts layout —
+│                                # pass explicit paths for this data/ layout)
+├── evaluation/
+│   ├── test_queries.json        # 30-query regression suite (8 categories, stable IDs)
+│   ├── run_queries.py           # Runs the suite against a live API; records telemetry
+│   ├── compare_llm_latency.py   # 5-query Groq-vs-Gemini latency experiment
+│   ├── run_benchmark.py         # Generic query-file harness (uses run_query directly)
+│   └── results/latest_results.json  # Recorded clean-run result (27/30 baseline)
+└── tests/                       # Offline unit tests (no keys/GPU/network required)
+    ├── test_api.py, test_pipeline.py, test_citations.py, test_refusal.py, ...
+    ├── test_provider.py         # Provider selection, answer() API, delegation
+    ├── test_telemetry.py        # Telemetry counters/flags/stages
+    ├── test_evaluation.py       # Suite loading + verdict classification
+    └── retrieval_queries.md     # Chunking-evaluation query-type notes (Repo-2 era doc)
 ```
 
-The Gemini alternative (`gemini-3.5-flash-lite` default) runs the exact
-same pipeline — only the LLM backend differs. Per-query telemetry
-records `llm_provider` / `llm_model` alongside attempts, API calls,
-correction/widen/expansion flags, and stage latencies.
+---
 
-### Provider Latency Experiment (`evaluation/compare_llm_latency.py`)
+## 3. Setup & Configuration
 
-Latency-only comparison over 5 stable benchmark queries
-(S001, C002, N001, M001, N003); the 30-query benchmark is untouched:
+### Prerequisites
+* Python 3.10+, PyTorch (CUDA recommended; CPU works with a warning).
+* `pip install -r requirements.txt` (includes `groq`, `google-genai`, `fastapi`, `sentence-transformers`).
+
+### Configuration (`.env`, see `.env.example`)
+```ini
+LLM_PROVIDER=groq              # "groq" (default) or "gemini"
+GROQ_API_KEY=...               # required for the default provider
+GROQ_MODEL=                    # optional override (default: openai/gpt-oss-120b)
+GEMINI_API_KEY=...             # required for LLM_PROVIDER=gemini
+GEMINI_MODEL=gemini-3.5-flash-lite   # optional override (same default)
+BIS_WARMUP=0                   # set to 1 to preload retrieval models at server startup
+DATABASE_URL=...               # optional; only for the PgVectorStore production path
+```
+No `PORT`/`HOST` variables exist — pass host/port to uvicorn directly.
+
+### Run the API
+```bash
+uvicorn app.main:app --host 127.0.0.1 --port 8000
+```
+With `BIS_WARMUP=1`, startup preloads BGE-M3 + reranker (~40s once) so the first query serves in ~0.5s instead of ~40s.
+
+---
+
+## 4. Answering Pipeline (actual call graph)
+
+```text
+answer(query, top_k)                        # app/generator/__init__.py (canonical API)
+  └─ run_query()                            # app/generator/pipeline.py (one implementation)
+       ├─ retrieve(query, top_k=10)         # frozen retrieval package
+       │    ├─ query_side_candidate_mask    # IS-number filter (unmasked product queries skip it)
+       │    ├─ BGE-M3 encode → dot-product  # 2081×1024, CUDA
+       │    └─ bge-reranker-base re-score   # top-10 enriched pairs, CUDA
+       ├─ pre-generation refusal (top rerank < τ=0.5 → refuse; sigmoid scale)
+       ├─ near-miss expansion (unmasked queries scoring in [0.20, 0.5) only)
+       ├─ build_context (top_k blocks) → build_prompt (system + user)
+       ├─ generate_answer → provider (Groq/Gemini), temperature 0.0
+       ├─ verify_answer (citation ↔ evidence linkage; table-fragment repair,
+       │                 Foreword→N/A front-matter rule)
+       ├─ widen once (zero-cite pass + reserve evidence) → re-verify
+       ├─ correction retry once (mismatch, or non-abstention zero-cite) → re-verify
+       └─ QueryResult(answer, citations, refused, refusal_reason,
+                      retrieval_meta, telemetry)
+```
+
+FastAPI (`app/main.py`) only validates the request, calls `answer()` with its
+lifespan singletons, and serializes `QueryResult` to JSON (`/healthz`,
+`/api/v1/device`, `/api/v1/query`). Error mapping: `ValueError` → 400,
+provider `RuntimeError` → 502, anything else → 500.
+
+---
+
+## 5. LLM Providers
+
+| Provider | Class | Default model | Key | Status |
+|---|---|---|---|---|
+| Groq | `GroqProvider` | `openai/gpt-oss-120b` | `GROQ_API_KEY` | **Default** |
+| Gemini | `GeminiProvider` | `gemini-3.5-flash-lite` | `GEMINI_API_KEY` | Experimental |
+| OpenAI | `OpenAIProvider` | `openai/gpt-oss-120b` | `OPENAI_API_KEY` | Lazy optional (package not required) |
+
+Select with `LLM_PROVIDER=groq|gemini` (or `build_provider(name)` in code).
+The same pipeline runs either way — only the transport differs
+(chat-completions vs `generate_content` with system instruction).
+One SDK client is reused per provider instance; the app-level retry
+policy (2 transient retries, 1s/2s backoff) is identical for both.
+
+---
+
+## 6. Telemetry (per query, in every API response)
+
+```json
+"telemetry": {
+  "llm_provider": "groq", "llm_model": "openai/gpt-oss-120b",
+  "llm_generation_attempts": 2, "llm_api_calls": 2,
+  "correction_retry": false, "widen_retry": true, "retrieval_expansion": false,
+  "latency_ms": 35935.3,
+  "stages": {"retrieval_ms": 496.1, "gen_initial_ms": 18524.0,
+             "gen_widen_ms": 40674.5, "verify_ms": 5.3, "...": 0},
+  "prompt_chars": 8232, "prompt_tokens_total": 8586, "completion_tokens_total": 420
+}
+```
+(`groq_api_calls` is retained as a read alias of `llm_api_calls`.)
+Counts cover observable provider invocations; hidden SDK-internal HTTP
+retries are documented as unobservable. No secrets are ever exposed.
+
+Exhausted transient provider errors (rate-limit/timeout/5xx after all
+retries) raise a uniform `"<provider> API error after N attempts: ..."`
+→ **HTTP 502** with the cause in the detail, instead of an opaque 500.
+Non-transient errors (auth, bad request) propagate unchanged.
+
+---
+
+## 7. Evaluation
+
+### Protected baseline: 27/30 (clean run, `evaluation/results/latest_results.json`)
+| Category | Score |
+|---|---|
+| Supported Exact | 4/4 |
+| Supported Clause | 5/5 |
+| Supported Numerical | 4/5 (N002 *or* N003 — same IS-1005-table abstention variance, alternates per run) |
+| Multi-Clause | 3/3 |
+| Product → Standard | 5/5 |
+| Product Requirement | 3/3 |
+| Out-of-Corpus refusals | 3/3 |
+| General BIS | 2 REVIEW (by design) |
+
+Run (server must be up): `python evaluation/run_queries.py --url http://127.0.0.1:8000/api/v1/query`.
+Scoring is grounding-based (refusal flags, present + verified citations, retrieval metadata) — never naive substring matching. Quota-interrupted runs record `ERROR`, never PASS/FAIL; do not confuse them with quality results.
+
+### Latency experiment (`evaluation/compare_llm_latency.py`, 5 queries)
+`python evaluation/compare_llm_latency.py --provider both` — same pipeline, only the backend differs. Measured: no Gemini speedup (4 mutually answered queries; Gemini ~24% slower on average, Groq far more variable at 1.9–81.7s). N003/Gemini returns a deterministic provider-side HTTP 404 (same key/model answers the other 4) — an infrastructure anomaly, not a quality signal. **No full Gemini quality benchmark has been run; do not claim one.**
+
+### Known limitations
+* N002/N003 alternate PASS/FAIL across runs (reranker buries the IS-1005 Table-1 chunk; honest abstention follows).
+* Groq on-demand latency varies ~70× run to run (5–400 tok/s observed); multi-call tails (up to ~212s seen) are provider-side.
+* Groq daily token quota interrupts long runs; the 502 mapping above keeps these diagnosable.
+
+---
+
+## 8. Verified Performance Snapshot
+
+| Stage | Measured |
+|---|---|
+| Model load | ~38.6s once (eliminated from requests via `BIS_WARMUP=1`) |
+| Warm retrieval (encode + matmul + mask + rerank) | ~0.3–0.7s (matmul 0.6ms, mask 6.6ms) |
+| Context / prompt / verification | ~0.1–30ms |
+| Groq generation | ~90–99% of request time (avg ~22.6s initial, ~37.6s widen) |
+| Clean-run average | ~27.3s (was ~35s before client reuse + warmup) |
+
+No promises beyond these measurements. Both models stay on CUDA (`/api/v1/device` reports placement); the retriever is a process singleton — never loaded per request.
+
+---
+
+## 9. Tests
 
 ```bash
-python evaluation/compare_llm_latency.py --provider both
+python -m pytest tests/ -q   # offline: no keys, GPU, network, or quota needed
 ```
+Covers pipeline orchestration, citations/repair/verification, refusal,
+prompts, context assembly, providers + `answer()` delegation, telemetry,
+evaluation verdicts, and device/store paths.
 
 ---
 
-## 13. Implementation Roadmap & Current Status
+## 10. Frozen Invariants
 
-Development in `data-answering-bis` proceeds in 8 structured phases:
-
-- [x] **Phase 1: Repository Architecture & Migration Plan** — *(Completed: Asset inventory, data contract definition, `retrieval/` package alignment, and master `AGENTS.md` specification).*
-- [x] **Phase 2: Data Asset & Retrieval Package Integration** — *(Completed: Imported `output_chunks/`, vector cache, `indexing/` script, and `retrieval/` package supporting `LocalNpyStore` and `PgVectorStore`).*
-- [ ] **Phase 3: Context Assembly & Neighbor Expansion** — Implement prompt context builder, metadata formatting, and adjacent chunk stitcher.
-- [ ] **Phase 4: System Prompt Engineering & Grounding Directives** — Implement system prompts enforcing 100% strict engineering grounding.
-- [ ] **Phase 5: LLM Integration & Orchestration** — Wire Groq (`openai/gpt-oss-120b`) / OpenAI API connectors for answer generation.
-- [ ] **Phase 6: Citation Parser & Post-Processor** — Implement automated post-processing to append verified inline citations (`[IS ..., Clause ..., Page ...]`).
-- [ ] **Phase 7: Refusal & Abstention Logic** — Wire confidence-gated refusal when top reranker score is below threshold $\tau$ or margins indicate unanswerable query.
-- [ ] **Phase 8: FastAPI Service & Benchmark Evaluation** — Build `POST /api/v1/query` REST API and evaluate end-to-end performance on the 87-query benchmark.
-
----
-
-### Component Status Summary
-
-| Component | Status | Location / Details |
-|---|---|---|
-| **Chunking Pipeline** | **FROZEN & COMPLETED** | 2,081 chunks across 101 files (`output_chunks/`) |
-| **Vector Storage Assets** | **FROZEN & COMPLETED** | `artifacts/bge_m3_enriched_vectors_gpu.npy` & `indexing/migrate_from_artifacts.py` |
-| **Production Retrieval Package** | **MIGRATED & COMPLETED** | `retrieval/` package (`retrieve()`, `RetrievedEvidence`, `LocalNpyStore`, `PgVectorStore`) |
-| **Master Specifications** | **COMPLETED** | `AGENTS.md` & `README.md` |
-| **LLM Context Builder & Prompts** | **CURRENT WORK (Phase 3–5)** | `app/generator/` (to be implemented) |
-| **Citation Post-Processor & Refusal** | **FUTURE (Phase 6–7)** | `app/generator/` (to be implemented) |
-| **FastAPI REST Service** | **FUTURE (Phase 8)** | `app/main.py` (to be implemented) |
+* Chunking, chunk JSONs, embedding model/revision, enriched representation, pre-computed vectors.
+* `retrieve(query, top_k=10)` signature and the BGE-M3 → CrossEncoder architecture.
+* Refusal threshold τ = 0.5; strict citation linkage; one-shot correction/widening; no fabricated evidence or hardcoded answers.
+* Rejected retrievers (BM25-primary, hybrid RRF, raw-text rerank) stay rejected.
