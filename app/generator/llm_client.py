@@ -274,8 +274,10 @@ class _ChatCompletionsProvider:
                     # downstream) carrying the original failure, instead
                     # of leaking SDK-specific types that map to opaque
                     # HTTP 500s.
+                    made = attempt + 1
+                    suffix = f" after {made} attempts" if made > 1 else ""
                     raise RuntimeError(
-                        f"{self.name} API error after {attempts} attempts: {exc}"
+                        f"{self.name} API error{suffix}: {exc}"
                     ) from exc
                 time.sleep(2**attempt)  # 1s, 2s, ... backoff, dependency-free
 
@@ -413,9 +415,9 @@ class GeminiProvider(_ChatCompletionsProvider):
                     continue
                 if isinstance(exc, RuntimeError):
                     raise
-                raise RuntimeError(
-                    f"Gemini API error after {attempts} attempts: {exc}"
-                ) from exc
+                made = attempt + 1
+                suffix = f" after {made} attempts" if made > 1 else ""
+                raise RuntimeError(f"Gemini API error{suffix}: {exc}") from exc
         raise last_error  # pragma: no cover - loop always raises first
 
 

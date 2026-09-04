@@ -61,6 +61,17 @@ def load_benchmark_queries() -> dict[str, str]:
     return {qid: by_id[qid] for qid in QUERY_IDS}
 
 
+def tok_per_s(out_tokens: int, generation_ms: float) -> float | None:
+    """Output tokens/sec; None when unmeasurable (no tokens or no time).
+
+    With multi-attempt requests the token total is cumulative across
+    attempts, so the rate is an aggregate, not a per-pass rate.
+    """
+    if out_tokens > 0 and generation_ms > 0:
+        return out_tokens / (generation_ms / 1000.0)
+    return None
+
+
 def run_once(query_id: str, query: str, provider, chunk_index, top_k: int) -> dict:
     """One measured answer() call; failures become error rows."""
     telemetry = Telemetry()
@@ -83,6 +94,7 @@ def run_once(query_id: str, query: str, provider, chunk_index, top_k: int) -> di
         }
     stages = dict(telemetry.stages)
     gen_ms = sum(v for k, v in stages.items() if k.startswith("gen_"))
+    out_toks = telemetry.completion_tokens_total
     meta = result.retrieval_meta
     return {
         "id": query_id,
@@ -97,6 +109,10 @@ def run_once(query_id: str, query: str, provider, chunk_index, top_k: int) -> di
         "correction": telemetry.correction_retry,
         "widen": telemetry.widen_retry,
         "expansion": telemetry.retrieval_expansion,
+        "in_tokens": telemetry.prompt_tokens_total,
+        "out_tokens": out_toks,
+        "tok_per_s": tok_per_s(out_toks, gen_ms),
+        "prompt_chars": telemetry.prompt_chars,
         "refused": result.refused,
         "refusal_reason": result.refusal_reason,
         "top_reranker_score": meta.top_reranker_score if meta else None,
@@ -106,16 +122,18 @@ def run_once(query_id: str, query: str, provider, chunk_index, top_k: int) -> di
 
 
 def print_table(rows: list[dict]) -> None:
-    print("Query   Provider       Model                  Total(s)   Gen(s)   Attempts   Refused")
-    print("-" * 95)
+    print("Query   Provider       Model                  Total(s)   Gen(s)   InTok   OutTok  tok/s   Att  Ref")
+    print("-" * 105)
     for row in rows:
         if row["error"] is not None:
             print(f"{row['id']:<8}{row['provider']:<15}{row['model']:<23}ERROR: {row['error'][:60]}")
             continue
+        tps = f"{row['tok_per_s']:.0f}" if row["tok_per_s"] is not None else "-"
         print(
             f"{row['id']:<8}{row['provider']:<15}{row['model']:<23}"
             f"{row['total_ms'] / 1000.0:<11.1f}{row['generation_ms'] / 1000.0:<9.1f}"
-            f"{row['attempts']:<11}{row['refused']}"
+            f"{row['in_tokens']:<8}{row['out_tokens']:<8}{tps:<8}"
+            f"{row['attempts']:<5}{row['refused']}"
         )
 
 
@@ -127,6 +145,7 @@ def print_aggregates(rows: list[dict], provider: str, label: str) -> dict:
         return {}
     totals = [r["total_ms"] for r in ok]
     gens = [r["generation_ms"] for r in ok]
+    tps = [r["tok_per_s"] for r in ok if r["tok_per_s"] is not None]
     stats = {
         "n": len(ok),
         "avg_total": sum(totals) / len(totals),
@@ -134,6 +153,10 @@ def print_aggregates(rows: list[dict], provider: str, label: str) -> dict:
         "min_total": min(totals),
         "max_total": max(totals),
         "avg_gen": sum(gens) / len(gens),
+        "median_gen": statistics.median(gens),
+        "min_gen": min(gens),
+        "max_gen": max(gens),
+        "avg_tok_per_s": (sum(tps) / len(tps)) if tps else None,
         "total_calls": sum(r["api_calls"] for r in ok),
     }
     print(f"  Answered queries: {stats['n']}")
@@ -142,6 +165,11 @@ def print_aggregates(rows: list[dict], provider: str, label: str) -> dict:
     print(f"  Min: {stats['min_total'] / 1000.0:.1f}s")
     print(f"  Max: {stats['max_total'] / 1000.0:.1f}s")
     print(f"  Average generation latency: {stats['avg_gen'] / 1000.0:.1f}s")
+    print(f"  Median generation latency: {stats['median_gen'] / 1000.0:.1f}s")
+    print(f"  Min generation latency: {stats['min_gen'] / 1000.0:.1f}s")
+    print(f"  Max generation latency: {stats['max_gen'] / 1000.0:.1f}s")
+    if stats["avg_tok_per_s"] is not None:
+        print(f"  Average output tok/s: {stats['avg_tok_per_s']:.0f}")
     print(f"  Total logical LLM calls: {stats['total_calls']}")
     return stats
 
