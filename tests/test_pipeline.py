@@ -152,7 +152,19 @@ def test_post_generation_citation_mismatch_refuses(chunk_index):
     assert result.refusal_reason == "citation_mismatch"
     assert result.answer == REFUSAL_TEXT
     assert result.citations == []
-    assert provider.calls == 1
+    # One correction retry with verifier feedback, then the refusal stands.
+    assert provider.calls == 2
+
+
+def test_correction_retry_recovers_after_mismatch(chunk_index):
+    provider = ScriptedProvider([BAD_TEXT, GOOD_TEXT])
+    result = run_query("What is the pH?", retrieve_fn=retrieve_ok,
+                       chunk_index=chunk_index, provider=provider)
+    assert provider.calls == 2
+    assert result.refused is False
+    assert result.answer == GOOD_TEXT
+    (c,) = result.citations
+    assert c.verified is True
 
 
 def test_empty_retrieval_refuses():
@@ -248,8 +260,13 @@ def test_no_widening_when_no_reserve_evidence(chunk_index):
     provider = ScriptedProvider(["No citations at all."])
     result = run_query("What is the pH?", retrieve_fn=retrieve_single,
                        chunk_index=chunk_index, provider=provider)
-    assert provider.calls == 1
+    # No wider window exists (no reserve), but the non-abstention
+    # zero-citation answer still earns one canonical-format correction
+    # retry on the same context; it fails, so the first result stands.
+    assert provider.calls == 2
     assert result.refused is False
+    assert result.answer == "No citations at all."
+    assert result.citations == []
 
 
 # --- Tier 3 abstention regressions (live-measured rerank scores) ----------------------
@@ -368,3 +385,84 @@ def test_subclause_answer_passes_end_to_end(tmp_path: Path):
     assert result.refused is False
     assert [c.verified for c in result.citations] == [True, True]
     assert {c.chunk_id for c in result.citations} == {"cov_0074"}
+
+
+# --- unmasked low-confidence expansion fallback ----------------------------------
+#
+# Generic product-applicability phrasing scores low even when the right
+# standard was retrieved. One generic scope-seeking re-retrieval (same
+# threshold, no standard names) may rescue it; masked queries and
+# still-weak expansions stay refused.
+
+
+def test_expansion_rescues_unmasked_low_confidence(chunk_index):
+    calls = []
+
+    def retrieve_two_phase(query: str, top_k: int = 10):
+        calls.append(query)
+        if len(calls) == 1:
+            return [make_evidence("456_2000_amd5_reff2021_0014", rerank_score=0.3552)]
+        return [make_evidence("456_2000_amd5_reff2021_0014", rerank_score=0.91)]
+
+    provider = FakeProvider()
+    result = run_query("I produce concrete. Which standard applies?",
+                       retrieve_fn=retrieve_two_phase,
+                       chunk_index=chunk_index, provider=provider)
+    assert len(calls) == 2
+    assert "Indian Standard specification requirements scope" in calls[1]
+    assert result.refused is False
+    assert result.answer == GOOD_TEXT
+
+
+def test_expansion_never_fires_for_masked_queries(chunk_index):
+    calls = []
+
+    def retrieve_masked_weak(query: str, top_k: int = 10):
+        calls.append(query)
+        return [make_evidence("456_2000_amd5_reff2021_0014", rerank_score=0.10,
+                              is_mask_restricted=True)]
+
+    provider = FakeProvider()
+    result = run_query("IS 456 concrete?", retrieve_fn=retrieve_masked_weak,
+                       chunk_index=chunk_index, provider=provider)
+    assert len(calls) == 1
+    assert result.refused is True
+    assert result.refusal_reason == "below_threshold"
+    assert provider.calls == 0
+
+
+def test_expansion_still_weak_stays_refused():
+    calls = []
+
+    def retrieve_always_weak(query: str, top_k: int = 10):
+        calls.append(query)
+        return [make_evidence("x", rerank_score=0.03),
+                make_evidence("y", rerank_score=0.02)]
+
+    provider = FakeProvider()
+    result = run_query("What is the capital of France?",
+                       retrieve_fn=retrieve_always_weak, provider=provider)
+    assert result.refused is True
+    assert result.refusal_reason == "below_threshold"
+    assert provider.calls == 0
+    # Rock-bottom score is outside the near-miss band: no second retrieval.
+    assert len(calls) == 1
+
+
+def test_expansion_gated_to_near_miss_band(chunk_index):
+    calls = []
+
+    def retrieve_band(query: str, top_k: int = 10):
+        calls.append(query)
+        if len(calls) == 1:
+            return [make_evidence("456_2000_amd5_reff2021_0014", rerank_score=0.19)]
+        return [make_evidence("456_2000_amd5_reff2021_0014", rerank_score=0.91)]
+
+    provider = FakeProvider()
+    result = run_query("Borderline generic query?",
+                       retrieve_fn=retrieve_band,
+                       chunk_index=chunk_index, provider=provider)
+    assert len(calls) == 1  # 0.19 < EXPANSION_MIN_SCORE: no expansion
+    assert result.refused is True
+    assert result.refusal_reason == "below_threshold"
+    assert provider.calls == 0

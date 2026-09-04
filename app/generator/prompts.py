@@ -66,9 +66,10 @@ Grounding rules — follow all of them without exception:
 Citation rules — follow all of them without exception:
 
 A. Cite every technical assertion using ONLY this exact format: [IS <standard_no>:<year>, Clause <clause>, Page <page>], copying the Standard, Clause, and Location headers of the context block it comes from. Example: [IS 456:2000, Clause 5.4, Page 15].
-B. Never use any other citation style: no bare clause numbers, no "Foreword" or section-name cites, no parenthetical remarks inside the brackets (write [IS 456:2000, Clause 26.5.3.1, Page 49], never [IS 456:2000, Clause 26.5.3.1(a), Page 49]), and no non-bracket markers.
+B. Never use any other citation style: no bare clause numbers, no "Foreword" or section-name cites (front-matter blocks have Clause "N/A" — cite them as Clause N/A), no parenthetical remarks inside the brackets (write [IS 456:2000, Clause 26.5.3.1, Page 49], never [IS 456:2000, Clause 26.5.3.1(a), Page 49]), no non-bracket markers of any kind (never 【1†L13-L22】, file references, or footnote styles), and no shorthand fragments such as "26.4.1, IS 456:2000, Page 47" — even inside Markdown tables, always write the full bracket form.
 C. If a block's Clause header is "N/A", cite it as Clause N/A with that block's Standard and Page.
-D. If the question names a parent clause (e.g. 26.5) but the blocks show numbered sub-clauses, cite the shown sub-clause numbers exactly as written.\
+D. If the question names a parent clause (e.g. 26.5) but the blocks show numbered sub-clauses, cite the shown sub-clause numbers exactly as written.
+E. If the fact comes from a table (e.g. Table 1, Table 16), cite the Clause header of the block containing that table exactly as written (e.g. a Table 1 shown in a Clause 8 block is cited as Clause 8 or 8.1 as shown), never "Table 1" as the clause.\
 """
 
 

@@ -27,7 +27,7 @@ from retrieval import retrieve
 from retrieval.types import RetrievedEvidence
 
 from app.generator.citations import verify_answer
-from app.generator.context_builder import ChunkIndex, ContextBlock, build_context
+from app.generator.context_builder import BuiltContext, ChunkIndex, ContextBlock, build_context
 from app.generator.llm_client import GeneratedAnswer, GroqProvider, LLMProvider, generate_answer
 from app.generator.prompts import build_prompt
 from app.generator.refusal import DEFAULT_THRESHOLD, REFUSAL_TEXT, evaluate_refusal
@@ -50,6 +50,77 @@ DEFAULT_CANDIDATES_K = 10
 #: monotonic — the wider pass replaces the first only when it fully
 #: verifies; otherwise the first-pass result stands byte-identical.
 WIDEN_STEP = 3
+
+#: Generic retrieval-expansion suffix for unmasked low-confidence queries
+#: (product-applicability questions naming no IS number). Same confidence
+#: threshold applies to the expanded retrieval; it only changes which
+#: evidence is considered, never the bar for answering. Contains no
+#: standard names or query-specific terms.
+EXPANSION_SUFFIX = " Indian Standard specification requirements scope"
+
+#: Lower bound of the near-miss band licensing the expansion above.
+#: The suffix matches scope-defining chunks on its own strength, so an
+#: unrestricted expansion could launder any query (even clearly
+#: out-of-corpus ones) into an answerable one. The expansion therefore
+#: fires only when the ORIGINAL query already shows borderline affinity
+#: to the corpus (top score in [EXPANSION_MIN_SCORE, threshold)):
+#: product phrasing that nearly matches (e.g. R003 at 0.35) earns a
+#: second opinion; rock-bottom scores (out-of-corpus probes at ~0.03)
+#: stay refused on the first verdict. General and query-agnostic.
+EXPANSION_MIN_SCORE = 0.20
+
+#: Phrases marking an honest abstention (the model itself reports the
+#: blocks lack the answer). A correction retry is never pressured onto
+#: these: the widen path already handles coverage, and pressuring an
+#: abstention risks a verified-but-unfounded claim. Non-abstention
+#: answers with zero parseable citations (e.g. non-bracket markers)
+#: are retry-eligible instead.
+_ABSTENTION_MARKERS = frozenset(
+    {
+        "do not contain",
+        "does not contain",
+        "cannot be determined",
+        "cannot be provided",
+        "not given in",
+        "not included in",
+        "insufficient technical information",
+        "no specification",
+        "not specify",
+        "not state",
+    }
+)
+
+
+def _looks_like_abstention(text: str) -> bool:
+    """True when the answer reads as an honest insufficient-evidence report."""
+    lowered = text.lower()
+    return any(marker in lowered for marker in _ABSTENTION_MARKERS)
+
+
+def _correction_bundle(
+    query: str,
+    context: BuiltContext,
+    chunk_index: Optional[ChunkIndex],
+    feedback: str,
+):
+    """Rebuild the prompt with verifier feedback appended (one retry only).
+
+    The honest exit stays open: when the blocks lack the answer the
+    model must still abstain plainly without citing. Verification is
+    re-applied unchanged, so a failed retry can never leak through.
+    """
+    from dataclasses import replace
+
+    retry_bundle = build_prompt(query.strip(), context, chunk_index=chunk_index)
+    retry_bundle = replace(
+        retry_bundle,
+        user=retry_bundle.user
+        + "\n\nCorrection required before answering: "
+        + feedback
+        + " If the evidence blocks above do not contain the answer, "
+        "reply in one plain sentence WITHOUT any citation.",
+    )
+    return retry_bundle
 
 
 @dataclass
@@ -169,6 +240,22 @@ def run_query(
     evidence = list(retrieve_fn(query.strip(), top_k=candidates_k))
 
     pre = evaluate_refusal(evidence, threshold=threshold)
+    if pre.should_refuse and pre.reason == "below_threshold" and not pre.is_mask_restricted:
+        # Product-applicability fallback: the query names no IS number and
+        # generic phrasing scores low against technical chunks even when
+        # the right standard was retrieved. Re-retrieve once with a
+        # generic scope-seeking expansion (no standard names, no
+        # query-specific terms) and apply the SAME threshold — a
+        # different selection strategy, not a lowered bar. Gated to the
+        # near-miss band (see EXPANSION_MIN_SCORE): clearly
+        # out-of-corpus queries stay refused on the first verdict.
+        # Out-of-corpus queries still score ~0.00-0.03 and stay refused.
+        top1 = pre.top_score if pre.top_score is not None else float("-inf")
+        if EXPANSION_MIN_SCORE <= top1 < threshold:
+            expanded = list(retrieve_fn(query.strip() + EXPANSION_SUFFIX, top_k=candidates_k))
+            if evaluate_refusal(expanded, threshold=threshold).reason == "ok":
+                evidence = expanded
+                pre = evaluate_refusal(evidence, threshold=threshold)
     if pre.should_refuse:
         return _refused_result(query.strip(), pre.reason, evidence, elapsed_ms())
 
@@ -197,6 +284,49 @@ def run_query(
             )
 
     post = evaluate_refusal(evidence, threshold=threshold, verified=verified)
+    if post.should_refuse and post.reason == "citation_mismatch":
+        # Correction retry: the model attempted citations but linked them
+        # wrongly (variance-induced refusal despite strong evidence).
+        # One regeneration with verifier feedback on the SAME context;
+        # adoption requires full verification, else the refusal stands.
+        mismatches = [v for v in verified.citations if v.verdict == "mismatch"]
+        feedback = (
+            "your previous answer failed citation verification (" +
+            "; ".join(v.detail for v in mismatches) +
+            "). Rewrite using ONLY the exact canonical citation format "
+            "[IS <standard_no>:<year>, Clause <clause>, Page <page>] copied "
+            "from the Standard/Clause/Location headers above, citing only "
+            "sub-clause numbers actually shown in the blocks."
+        )
+        retry_bundle = _correction_bundle(query.strip(), context, chunk_index, feedback)
+        retry_generated: GeneratedAnswer = generate_answer(query.strip(), retry_bundle, provider)
+        retry_verified = verify_answer(retry_generated, context, chunk_index)
+        if retry_verified.all_verified:
+            generated, verified = retry_generated, retry_verified
+            post = evaluate_refusal(evidence, threshold=threshold, verified=verified)
+    elif (
+        not post.should_refuse
+        and not verified.has_citations
+        and not _looks_like_abstention(generated.text)
+        and (evidence[0].rerank_score or 0.0) >= threshold
+    ):
+        # Non-abstention answer with zero parseable citations (e.g.
+        # non-bracket markers): the model made claims it did not ground
+        # in the canonical format. Same one-shot correction pattern.
+        retry_bundle = _correction_bundle(
+            query.strip(),
+            context,
+            chunk_index,
+            "your previous answer contained no citations in the required "
+            "canonical format [IS <standard_no>:<year>, Clause <clause>, "
+            "Page <page>]. Restate the same facts with one such citation "
+            "per technical assertion, copied from the block headers above.",
+        )
+        retry_generated = generate_answer(query.strip(), retry_bundle, provider)
+        retry_verified = verify_answer(retry_generated, context, chunk_index)
+        if retry_verified.all_verified:
+            generated, verified = retry_generated, retry_verified
+            post = evaluate_refusal(evidence, threshold=threshold, verified=verified)
     if post.should_refuse:
         return _refused_result(query.strip(), post.reason, evidence, elapsed_ms())
 
