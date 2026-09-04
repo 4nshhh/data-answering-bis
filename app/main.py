@@ -25,8 +25,9 @@ from app.generator.context_builder import ChunkIndex, load_chunk_index
 from app.generator.llm_client import GroqProvider, LLMProvider
 from app.generator.pipeline import QueryResult, run_query
 from app.generator.refusal import DEFAULT_THRESHOLD
+from app.generator.telemetry import Telemetry
 
-__all__ = ["app", "QueryRequest", "CitationModel", "RetrievalMetaModel", "QueryResponse",
+__all__ = ["app", "QueryRequest", "CitationModel", "RetrievalMetaModel", "TelemetryModel", "QueryResponse",
            "DeviceResponse", "UTF8JSONResponse"]
 
 
@@ -69,6 +70,17 @@ class RetrievalMetaModel(BaseModel):
     execution_time_ms: float = 0.0
 
 
+class TelemetryModel(BaseModel):
+    """Per-query LLM usage telemetry (observability only, no secrets)."""
+
+    llm_generation_attempts: int = 0
+    groq_api_calls: int = 0
+    correction_retry: bool = False
+    widen_retry: bool = False
+    retrieval_expansion: bool = False
+    latency_ms: float = 0.0
+
+
 class QueryResponse(BaseModel):
     """Response payload (AGENTS.md section 12 + refusal extras)."""
 
@@ -78,6 +90,7 @@ class QueryResponse(BaseModel):
     retrieval_meta: RetrievalMetaModel = Field(default_factory=RetrievalMetaModel)
     refused: bool = False
     refusal_reason: Optional[str] = None
+    telemetry: TelemetryModel = Field(default_factory=TelemetryModel)
 
 
 class DeviceResponse(BaseModel):
@@ -96,6 +109,7 @@ class DeviceResponse(BaseModel):
 
 def _result_to_response(result: QueryResult) -> QueryResponse:
     meta = result.retrieval_meta
+    tele = result.telemetry
     return QueryResponse(
         query=result.query,
         answer=result.answer,
@@ -119,6 +133,14 @@ def _result_to_response(result: QueryResult) -> QueryResponse:
         ),
         refused=result.refused,
         refusal_reason=result.refusal_reason,
+        telemetry=TelemetryModel(
+            llm_generation_attempts=tele.llm_generation_attempts if tele else 0,
+            groq_api_calls=tele.groq_api_calls if tele else 0,
+            correction_retry=tele.correction_retry if tele else False,
+            widen_retry=tele.widen_retry if tele else False,
+            retrieval_expansion=tele.retrieval_expansion if tele else False,
+            latency_ms=tele.latency_ms if tele else 0.0,
+        ),
     )
 
 
@@ -177,6 +199,7 @@ def build_app(
         if not payload.query.strip():
             raise HTTPException(status_code=400, detail="query must be a non-blank string")
         try:
+            telemetry = Telemetry()
             result = run_query(
                 payload.query,
                 top_k=payload.top_k,
@@ -185,6 +208,7 @@ def build_app(
                 retrieve_fn=retrieve_fn,
                 chunk_index=request.app.state.chunk_index,
                 provider=request.app.state.provider,
+                telemetry=telemetry,
             )
         except ValueError as exc:
             raise HTTPException(status_code=400, detail=str(exc)) from exc

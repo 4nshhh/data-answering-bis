@@ -28,6 +28,7 @@ from pathlib import Path
 from typing import Any, Protocol
 
 from app.generator.prompts import DEFAULT_MODEL, PromptBundle
+from app.generator.telemetry import Telemetry
 
 __all__ = [
     "DEFAULT_TEMPERATURE",
@@ -100,6 +101,7 @@ class LLMProvider(Protocol):
         model: str,
         temperature: float,
         timeout_s: float,
+        telemetry: Telemetry | None = None,
     ) -> LLMResponse:
         """Complete one ``(system, user)`` turn."""
         ...
@@ -203,12 +205,19 @@ class _ChatCompletionsProvider:
         model: str,
         temperature: float,
         timeout_s: float,
+        telemetry: Telemetry | None = None,
     ) -> LLMResponse:
         client = self._client()
         attempts = 1 + self._max_retries
         last_error: BaseException | None = None
         for attempt in range(attempts):
             try:
+                # Telemetry: count every actual provider request. This
+                # sits immediately before create() so application-level
+                # transient re-attempts are counted individually, while
+                # hidden SDK-internal HTTP retries stay unobserved.
+                if telemetry is not None:
+                    telemetry.groq_api_calls += 1
                 completion = client.chat.completions.create(
                     model=model,
                     messages=[
@@ -281,6 +290,7 @@ def generate_answer(
     *,
     temperature: float = DEFAULT_TEMPERATURE,
     timeout_s: float = DEFAULT_TIMEOUT_SECONDS,
+    telemetry: Telemetry | None = None,
 ) -> GeneratedAnswer:
     """Generate one grounded answer for a prompt bundle.
 
@@ -292,13 +302,22 @@ def generate_answer(
     """
     if not query or not query.strip():
         raise ValueError("query must be a non-blank string")
-    response = provider.generate(
-        system=bundle.system,
-        user=bundle.user,
-        model=bundle.model or DEFAULT_MODEL,
-        temperature=temperature,
-        timeout_s=timeout_s,
-    )
+    # Telemetry: one logical generation attempt per execution.
+    if telemetry is not None:
+        telemetry.llm_generation_attempts += 1
+    # Telemetry is forwarded only when present, so backends implementing
+    # the original protocol (without the telemetry kwarg) keep working;
+    # observability must never break generation.
+    generate_kwargs: dict[str, object] = {
+        "system": bundle.system,
+        "user": bundle.user,
+        "model": bundle.model or DEFAULT_MODEL,
+        "temperature": temperature,
+        "timeout_s": timeout_s,
+    }
+    if telemetry is not None:
+        generate_kwargs["telemetry"] = telemetry
+    response = provider.generate(**generate_kwargs)  # type: ignore[arg-type]
     if not response.text or not response.text.strip():
         raise RuntimeError("Provider returned an empty completion; refusing to continue with no text.")
     return GeneratedAnswer(

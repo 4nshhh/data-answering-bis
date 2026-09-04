@@ -31,12 +31,14 @@ from app.generator.context_builder import BuiltContext, ChunkIndex, ContextBlock
 from app.generator.llm_client import GeneratedAnswer, GroqProvider, LLMProvider, generate_answer
 from app.generator.prompts import build_prompt
 from app.generator.refusal import DEFAULT_THRESHOLD, REFUSAL_TEXT, evaluate_refusal
+from app.generator.telemetry import Telemetry
 
 __all__ = [
     "DEFAULT_CANDIDATES_K",
     "CitationOut",
     "RetrievalMeta",
     "QueryResult",
+    "Telemetry",
     "run_query",
 ]
 
@@ -156,6 +158,7 @@ class QueryResult:
     retrieval_meta: Optional[RetrievalMeta] = None
     refused: bool = False
     refusal_reason: Optional[str] = None
+    telemetry: Optional[Telemetry] = None  # observability only; never affects behavior
 
 
 def _record_year(
@@ -182,6 +185,7 @@ def _refused_result(
     reason: str,
     evidence: list[RetrievedEvidence],
     elapsed_ms: float,
+    telemetry: Optional[Telemetry] = None,
 ) -> QueryResult:
     mask = bool(evidence) and bool(evidence[0].is_mask_restricted)
     top = evidence[0] if evidence else None
@@ -198,6 +202,7 @@ def _refused_result(
         ),
         refused=True,
         refusal_reason=reason,
+        telemetry=telemetry,
     )
 
 
@@ -211,6 +216,7 @@ def run_query(
     retrieve_fn: Callable[..., list[RetrievedEvidence]] = retrieve,
     chunk_index: Optional[ChunkIndex] = None,
     provider: Optional[LLMProvider] = None,
+    telemetry: Optional[Telemetry] = None,
 ) -> QueryResult:
     """Execute the full retrieval-to-answer pipeline for one query.
 
@@ -224,6 +230,8 @@ def run_query(
         chunk_index: read-only chunk lookup for enrichment/expansion.
         provider: LLM backend; a ``GroqProvider`` is built when omitted
             (requires ``GROQ_API_KEY`` only on the answerable path).
+        telemetry: request-scoped counters; a fresh instance is used
+            when omitted. Observability only — never affects behavior.
 
     Raises:
         ValueError: blank query or invalid ``top_k``.
@@ -233,6 +241,8 @@ def run_query(
         raise ValueError("query must be a non-blank string")
     if not isinstance(top_k, int) or isinstance(top_k, bool) or top_k < 1:
         raise ValueError(f"top_k must be a positive int, got {top_k!r}")
+    if telemetry is None:
+        telemetry = Telemetry()
 
     started = time.perf_counter()
     elapsed_ms = lambda: (time.perf_counter() - started) * 1000.0
@@ -252,19 +262,21 @@ def run_query(
         # Out-of-corpus queries still score ~0.00-0.03 and stay refused.
         top1 = pre.top_score if pre.top_score is not None else float("-inf")
         if EXPANSION_MIN_SCORE <= top1 < threshold:
+            telemetry.retrieval_expansion = True
             expanded = list(retrieve_fn(query.strip() + EXPANSION_SUFFIX, top_k=candidates_k))
             if evaluate_refusal(expanded, threshold=threshold).reason == "ok":
                 evidence = expanded
                 pre = evaluate_refusal(evidence, threshold=threshold)
     if pre.should_refuse:
-        return _refused_result(query.strip(), pre.reason, evidence, elapsed_ms())
+        telemetry.latency_ms = elapsed_ms()
+        return _refused_result(query.strip(), pre.reason, evidence, elapsed_ms(), telemetry)
 
     if provider is None:
         provider = GroqProvider()
     context = build_context(evidence, chunk_index=chunk_index, top_k=top_k,
                             expand_neighbors=expand_neighbors)
     bundle = build_prompt(query.strip(), context, chunk_index=chunk_index)
-    generated: GeneratedAnswer = generate_answer(query.strip(), bundle, provider)
+    generated: GeneratedAnswer = generate_answer(query.strip(), bundle, provider, telemetry=telemetry)
     verified = verify_answer(generated, context, chunk_index)
 
     if not verified.has_citations and len(evidence) > top_k:
@@ -272,11 +284,12 @@ def run_query(
         # (typical when a table chunk ranks just below the cutoff).
         # One wider retry over already-retrieved evidence — no new
         # retrieval, no threshold change, verification still enforced.
+        telemetry.widen_retry = True
         wider_k = min(len(evidence), top_k + WIDEN_STEP)
         wider_context = build_context(evidence, chunk_index=chunk_index,
                                       top_k=wider_k, expand_neighbors=expand_neighbors)
         wider_bundle = build_prompt(query.strip(), wider_context, chunk_index=chunk_index)
-        wider_generated: GeneratedAnswer = generate_answer(query.strip(), wider_bundle, provider)
+        wider_generated: GeneratedAnswer = generate_answer(query.strip(), wider_bundle, provider, telemetry=telemetry)
         wider_verified = verify_answer(wider_generated, wider_context, chunk_index)
         if wider_verified.all_verified:
             context, bundle, generated, verified = (
@@ -299,7 +312,8 @@ def run_query(
             "sub-clause numbers actually shown in the blocks."
         )
         retry_bundle = _correction_bundle(query.strip(), context, chunk_index, feedback)
-        retry_generated: GeneratedAnswer = generate_answer(query.strip(), retry_bundle, provider)
+        telemetry.correction_retry = True
+        retry_generated: GeneratedAnswer = generate_answer(query.strip(), retry_bundle, provider, telemetry=telemetry)
         retry_verified = verify_answer(retry_generated, context, chunk_index)
         if retry_verified.all_verified:
             generated, verified = retry_generated, retry_verified
@@ -322,13 +336,15 @@ def run_query(
             "Page <page>]. Restate the same facts with one such citation "
             "per technical assertion, copied from the block headers above.",
         )
-        retry_generated = generate_answer(query.strip(), retry_bundle, provider)
+        telemetry.correction_retry = True
+        retry_generated = generate_answer(query.strip(), retry_bundle, provider, telemetry=telemetry)
         retry_verified = verify_answer(retry_generated, context, chunk_index)
         if retry_verified.all_verified:
             generated, verified = retry_generated, retry_verified
             post = evaluate_refusal(evidence, threshold=threshold, verified=verified)
     if post.should_refuse:
-        return _refused_result(query.strip(), post.reason, evidence, elapsed_ms())
+        telemetry.latency_ms = elapsed_ms()
+        return _refused_result(query.strip(), post.reason, evidence, elapsed_ms(), telemetry)
 
     mask = bool(evidence[0].is_mask_restricted)
     blocks_by_id = {b.evidence.chunk_id: b for b in context.blocks}
@@ -344,6 +360,7 @@ def run_query(
         )
         for v in verified.citations
     ]
+    telemetry.latency_ms = elapsed_ms()
     return QueryResult(
         query=query.strip(),
         answer=verified.text,
@@ -357,4 +374,5 @@ def run_query(
         ),
         refused=False,
         refusal_reason=None,
+        telemetry=telemetry,
     )

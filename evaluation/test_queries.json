@@ -1,0 +1,168 @@
+{
+  "supported_exact": [
+    {
+      "id": "S001",
+      "query": "What is the minimum pH value of water for mixing concrete in IS 456?",
+      "expected": "answer"
+    },
+    {
+      "id": "S002",
+      "query": "What is the minimum starch content specified for edible maize starch in IS 1005?",
+      "expected": "answer"
+    },
+    {
+      "id": "S003",
+      "query": "What is the minimum thickness specified for cycle rubber tubes in IS 2415?",
+      "expected": "answer"
+    },
+    {
+      "id": "S004",
+      "query": "What is the maximum moisture content specified for edible maize starch in IS 1005?",
+      "expected": "answer"
+    }
+  ],
+  "supported_clause": [
+    {
+      "id": "C001",
+      "query": "What does Clause 5.4 of IS 456 specify about water used for mixing and curing?",
+      "expected": "answer"
+    },
+    {
+      "id": "C002",
+      "query": "What does Clause 26.5 of IS 456 specify about reinforcement?",
+      "expected": "answer"
+    },
+    {
+      "id": "C003",
+      "query": "What does Clause 5.2 of IS 2415 specify about the thickness of cycle rubber tubes?",
+      "expected": "answer"
+    },
+    {
+      "id": "C004",
+      "query": "What does Clause 6.5 of IS 2415 specify about the leak test?",
+      "expected": "answer"
+    },
+    {
+      "id": "C005",
+      "query": "What does Clause 4.6 of IS 1005 require for the material?",
+      "expected": "answer"
+    }
+  ],
+  "supported_numerical": [
+    {
+      "id": "N001",
+      "query": "What is the maximum water-cement ratio specified in IS 456 for severe exposure conditions?",
+      "expected": "answer"
+    },
+    {
+      "id": "N002",
+      "query": "What is the pH range specified for edible maize starch in IS 1005?",
+      "expected": "answer"
+    },
+    {
+      "id": "N003",
+      "query": "What is the maximum limit of lead specified for edible maize starch in IS 1005?",
+      "expected": "answer"
+    },
+    {
+      "id": "N004",
+      "query": "What are the minimum tensile strength and elongation at break specified for Class A cycle rubber tubes in IS 2415?",
+      "expected": "answer"
+    },
+    {
+      "id": "N005",
+      "query": "What is the uniformity of thickness tolerance specified for cycle rubber tubes in IS 2415?",
+      "expected": "answer"
+    }
+  ],
+  "supported_multi_clause": [
+    {
+      "id": "M001",
+      "query": "What are the nominal cover requirements for reinforcement in IS 456?",
+      "expected": "answer"
+    },
+    {
+      "id": "M002",
+      "query": "What are the requirements for tensile strength and elongation of cycle rubber tubes in IS 2415?",
+      "expected": "answer"
+    },
+    {
+      "id": "M003",
+      "query": "What information is required to be marked on edible maize starch containers under IS 1005?",
+      "expected": "answer"
+    }
+  ],
+  "product_to_standard": [
+    {
+      "id": "P001",
+      "query": "I manufacture rubber tubes for bicycle tyres. Which Indian Standard should I refer to for the tube requirements?",
+      "expected": "answer"
+    },
+    {
+      "id": "P002",
+      "query": "I am making moulded or jointed rubber tubes for bicycles. Which Indian Standard covers this product?",
+      "expected": "answer"
+    },
+    {
+      "id": "P003",
+      "query": "I manufacture edible maize starch that is sold as corn flour. Which Indian Standard should I check for its requirements?",
+      "expected": "answer"
+    },
+    {
+      "id": "P004",
+      "query": "I want to test packaged edible maize starch for things like moisture, pH, ash and microbiological requirements. Which Indian Standard should I look at?",
+      "expected": "answer"
+    },
+    {
+      "id": "P005",
+      "query": "I am producing cycle rubber tubes and need the standard covering their dimensions, thickness and performance requirements. Which IS standard applies?",
+      "expected": "answer"
+    }
+  ],
+  "product_requirement": [
+    {
+      "id": "R001",
+      "query": "I make bicycle inner tubes. What kind of dimensions and physical requirements should I check before selling them?",
+      "expected": "answer"
+    },
+    {
+      "id": "R002",
+      "query": "I manufacture edible maize starch for food use. What kinds of quality and safety requirements should I check?",
+      "expected": "answer"
+    },
+    {
+      "id": "R003",
+      "query": "I produce concrete for construction. What standard should I consult for basic concrete requirements?",
+      "expected": "answer"
+    }
+  ],
+  "out_of_corpus": [
+    {
+      "id": "O001",
+      "query": "What is the capital of France?",
+      "expected": "refusal"
+    },
+    {
+      "id": "O002",
+      "query": "Explain quantum computing.",
+      "expected": "refusal"
+    },
+    {
+      "id": "O003",
+      "query": "What is the population of Mumbai?",
+      "expected": "refusal"
+    }
+  ],
+  "general_bis": [
+    {
+      "id": "G001",
+      "query": "What is the full form of BIS?",
+      "expected": "review"
+    },
+    {
+      "id": "G002",
+      "query": "What is the purpose of an Indian Standard?",
+      "expected": "review"
+    }
+  ]
+}

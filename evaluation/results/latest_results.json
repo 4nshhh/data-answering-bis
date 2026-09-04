@@ -1,0 +1,1982 @@
+{
+  "generated_at": "2026-09-04T07:25:25.153143+00:00",
+  "endpoint": "http://127.0.0.1:8000/api/v1/query",
+  "top_k": 3,
+  "n_queries": 30,
+  "results": [
+    {
+      "id": "S001",
+      "category": "supported_exact",
+      "query": "What is the minimum pH value of water for mixing concrete in IS 456?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:08:14.142344+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The minimum pH value of water for mixing concrete shall be **6**. [IS 456:2000, Clause 5.4, Page 15-16]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "5.4",
+          "page": 15,
+          "chunk_id": "456_2000_amd5_reff2021_0014",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 456",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.9940680265426636,
+        "execution_time_ms": 30052.046099997824
+      },
+      "latency_ms": 30069.7,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What is the minimum pH value of water for mixing concrete in IS 456?",
+        "answer": "The minimum pH value of water for mixing concrete shall be **6**. [IS 456:2000, Clause 5.4, Page 15-16]",
+        "citations": [
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "5.4",
+            "page": 15,
+            "chunk_id": "456_2000_amd5_reff2021_0014",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 456",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.9940680265426636,
+          "execution_time_ms": 30052.046099997824
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "S002",
+      "category": "supported_exact",
+      "query": "What is the minimum starch content specified for edible maize starch in IS 1005?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:08:50.077730+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The specification requires a minimum starch content of **98.0 % (on a dry‑basis)** for edible maize starch. [IS 1005:1992, Clause 8.1, Page 3-5]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "8.1",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 1005",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.9537197351455688,
+        "execution_time_ms": 35930.91039999854
+      },
+      "latency_ms": 35935.3,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What is the minimum starch content specified for edible maize starch in IS 1005?",
+        "answer": "The specification requires a minimum starch content of **98.0 % (on a dry‑basis)** for edible maize starch. [IS 1005:1992, Clause 8.1, Page 3-5]",
+        "citations": [
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "8.1",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 1005",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.9537197351455688,
+          "execution_time_ms": 35930.91039999854
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "S003",
+      "category": "supported_exact",
+      "query": "What is the minimum thickness specified for cycle rubber tubes in IS 2415?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:09:13.876630+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The standard specifies that the thickness of cycle rubber tubes shall be **0.8 mm, minimum**【IS 2415:2025, Clause 5.2, Page 5】.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "5.2",
+          "page": 5,
+          "chunk_id": "2415_2025_0003",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 2415",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.9881487488746643,
+        "execution_time_ms": 23786.224100011168
+      },
+      "latency_ms": 23799.3,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What is the minimum thickness specified for cycle rubber tubes in IS 2415?",
+        "answer": "The standard specifies that the thickness of cycle rubber tubes shall be **0.8 mm, minimum**【IS 2415:2025, Clause 5.2, Page 5】.",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "5.2",
+            "page": 5,
+            "chunk_id": "2415_2025_0003",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 2415",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.9881487488746643,
+          "execution_time_ms": 23786.224100011168
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "S004",
+      "category": "supported_exact",
+      "query": "What is the maximum moisture content specified for edible maize starch in IS 1005?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:10:08.806135+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The specification limits the moisture content of edible maize starch to a maximum of **12.5 % by mass** [IS 1005:1992, Clause 8.1, Page 3-5].",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "8.1",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 1005",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.8657038807868958,
+        "execution_time_ms": 54908.00310000486
+      },
+      "latency_ms": 54928.8,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What is the maximum moisture content specified for edible maize starch in IS 1005?",
+        "answer": "The specification limits the moisture content of edible maize starch to a maximum of **12.5 % by mass** [IS 1005:1992, Clause 8.1, Page 3-5].",
+        "citations": [
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "8.1",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 1005",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.8657038807868958,
+          "execution_time_ms": 54908.00310000486
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "C001",
+      "category": "supported_clause",
+      "query": "What does Clause 5.4 of IS 456 specify about water used for mixing and curing?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:10:33.632559+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "Clause 5.4 of IS 456 : 2000 requires that the water used for mixing and curing concrete be **clean and of a type appropriate to the cement system**; the **pH of the water shall not be less than 6**; **mixing or curing with sea‑water is not permitted**; and **water that is satisfactory for mixing may also be used for curing, provided it does not cause objectionable stains or unsightly deposits on the concrete surface and does not contain tannic acid or iron compounds**. [IS 456:2000, Clause 5.4, Page 15-16]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "5.4",
+          "page": 15,
+          "chunk_id": "456_2000_amd5_reff2021_0014",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 456",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.9993246793746948,
+        "execution_time_ms": 24823.49099998828
+      },
+      "latency_ms": 24827.1,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What does Clause 5.4 of IS 456 specify about water used for mixing and curing?",
+        "answer": "Clause 5.4 of IS 456 : 2000 requires that the water used for mixing and curing concrete be **clean and of a type appropriate to the cement system**; the **pH of the water shall not be less than 6**; **mixing or curing with sea‑water is not permitted**; and **water that is satisfactory for mixing may also be used for curing, provided it does not cause objectionable stains or unsightly deposits on the concrete surface and does not contain tannic acid or iron compounds**. [IS 456:2000, Clause 5.4, Page 15-16]",
+        "citations": [
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "5.4",
+            "page": 15,
+            "chunk_id": "456_2000_amd5_reff2021_0014",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 456",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.9993246793746948,
+          "execution_time_ms": 24823.49099998828
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "C002",
+      "category": "supported_clause",
+      "query": "What does Clause 26.5 of IS 456 specify about reinforcement?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:11:00.766473+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "Clause 26.5 of IS 456 : 2000 lays down the requirements governing reinforcement and detailing for reinforced‑concrete members. It specifies, for example:\n\n* **Longitudinal reinforcement in columns** – the area of longitudinal steel shall be not less than 0.8 % and not more than 6 % of the gross cross‑sectional area of the column; the minimum number of longitudinal bars shall be four for rectangular columns and six for circular columns; individual bars shall not be less than 12 mm in diameter; a column with helical reinforcement shall contain at least six longitudinal bars within the helix, which must be in contact with the helix and equally spaced around its inner circumference; spacing of longitudinal bars measured along the periphery shall not exceed 300 mm; for pedestals where longitudinal steel is not taken in strength calculations, a minimum of 0.15 % steel of the cross‑sectional area shall be provided [IS 456:2000, Clause 26.5.3.1, Page 49‑50].\n\n* **Transverse (lateral) reinforcement in columns** – every longitudinal bar nearest a compression face must have effective lateral support provided by circular rings or polygonal links whose internal angles do not exceed 135°; the ends of the transverse reinforcement shall be properly anchored; the pitch of transverse reinforcement shall not exceed the least of (i) the least lateral dimension of the compression member, (ii) sixteen times the smallest diameter of the longitudinal bar to be tied, and (iii) 300 mm; the diameter of polygonal links or ties shall be not less than one‑fourth of the largest longitudinal bar and in any case not less than 16 mm [IS 456:2000, Clause 26.5.3.2, Page 49‑50] [IS 456:2000, Clause 26.5.3, Page 50].\n\n* **Maximum bar diameter for slabs** – the diameter of reinforcing bars in a slab shall not exceed one‑eighth of the total slab thickness [IS 456:2000, Clause 26.5.2.2, Page 49‑50].\n\nThese provisions together constitute the reinforcement requirements set out in Clause 26.5.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.5.3.1",
+          "page": 49,
+          "chunk_id": "456_2000_amd5_reff2021_0078",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.5.3.2",
+          "page": 49,
+          "chunk_id": "456_2000_amd5_reff2021_0079",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.5.3",
+          "page": 50,
+          "chunk_id": "456_2000_amd5_reff2021_0079",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.5.2.2",
+          "page": 49,
+          "chunk_id": "456_2000_amd5_reff2021_0078",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 456",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.9991344809532166,
+        "execution_time_ms": 27130.011900007958
+      },
+      "latency_ms": 27133.1,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 4/4 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What does Clause 26.5 of IS 456 specify about reinforcement?",
+        "answer": "Clause 26.5 of IS 456 : 2000 lays down the requirements governing reinforcement and detailing for reinforced‑concrete members. It specifies, for example:\n\n* **Longitudinal reinforcement in columns** – the area of longitudinal steel shall be not less than 0.8 % and not more than 6 % of the gross cross‑sectional area of the column; the minimum number of longitudinal bars shall be four for rectangular columns and six for circular columns; individual bars shall not be less than 12 mm in diameter; a column with helical reinforcement shall contain at least six longitudinal bars within the helix, which must be in contact with the helix and equally spaced around its inner circumference; spacing of longitudinal bars measured along the periphery shall not exceed 300 mm; for pedestals where longitudinal steel is not taken in strength calculations, a minimum of 0.15 % steel of the cross‑sectional area shall be provided [IS 456:2000, Clause 26.5.3.1, Page 49‑50].\n\n* **Transverse (lateral) reinforcement in columns** – every longitudinal bar nearest a compression face must have effective lateral support provided by circular rings or polygonal links whose internal angles do not exceed 135°; the ends of the transverse reinforcement shall be properly anchored; the pitch of transverse reinforcement shall not exceed the least of (i) the least lateral dimension of the compression member, (ii) sixteen times the smallest diameter of the longitudinal bar to be tied, and (iii) 300 mm; the diameter of polygonal links or ties shall be not less than one‑fourth of the largest longitudinal bar and in any case not less than 16 mm [IS 456:2000, Clause 26.5.3.2, Page 49‑50] [IS 456:2000, Clause 26.5.3, Page 50].\n\n* **Maximum bar diameter for slabs** – the diameter of reinforcing bars in a slab shall not exceed one‑eighth of the total slab thickness [IS 456:2000, Clause 26.5.2.2, Page 49‑50].\n\nThese provisions together constitute the reinforcement requirements set out in Clause 26.5.",
+        "citations": [
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.5.3.1",
+            "page": 49,
+            "chunk_id": "456_2000_amd5_reff2021_0078",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.5.3.2",
+            "page": 49,
+            "chunk_id": "456_2000_amd5_reff2021_0079",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.5.3",
+            "page": 50,
+            "chunk_id": "456_2000_amd5_reff2021_0079",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.5.2.2",
+            "page": 49,
+            "chunk_id": "456_2000_amd5_reff2021_0078",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 456",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.9991344809532166,
+          "execution_time_ms": 27130.011900007958
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "C003",
+      "category": "supported_clause",
+      "query": "What does Clause 5.2 of IS 2415 specify about the thickness of cycle rubber tubes?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:12:15.569587+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "Clause 5.2 states that the thickness of cycle rubber tubes, when measured according to the method described in Annex A, shall be **0.8 mm minimum**.  \n\n*Note:* For tubes whose designation is a new marking (ETRTO) greater than 57 mm or an old marking greater than 2.125 in, the tube thickness shall be **as agreed between the purchaser and the supplier**. [IS 2415:2025, Clause 5.2, Page 5]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "5.2",
+          "page": 5,
+          "chunk_id": "2415_2025_0003",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 2415",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.9623310565948486,
+        "execution_time_ms": 74787.10499999579
+      },
+      "latency_ms": 74803.7,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What does Clause 5.2 of IS 2415 specify about the thickness of cycle rubber tubes?",
+        "answer": "Clause 5.2 states that the thickness of cycle rubber tubes, when measured according to the method described in Annex A, shall be **0.8 mm minimum**.  \n\n*Note:* For tubes whose designation is a new marking (ETRTO) greater than 57 mm or an old marking greater than 2.125 in, the tube thickness shall be **as agreed between the purchaser and the supplier**. [IS 2415:2025, Clause 5.2, Page 5]",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "5.2",
+            "page": 5,
+            "chunk_id": "2415_2025_0003",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 2415",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.9623310565948486,
+          "execution_time_ms": 74787.10499999579
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "C004",
+      "category": "supported_clause",
+      "query": "What does Clause 6.5 of IS 2415 specify about the leak test?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:13:25.429101+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "Clause 6.5 states that a cycle rubber tube, when inflated to a pressure sufficient to increase its cross‑sectional circumference by a maximum of 20 percent from its initial circumference, shall not show any sign of leakage when immersed in water for 1 minute. [IS 2415:2025, Clause 6.5, Page 5-7]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "6.5",
+          "page": 5,
+          "chunk_id": "2415_2025_0004",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 2415",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.8631059527397156,
+        "execution_time_ms": 69855.6957999972
+      },
+      "latency_ms": 69859.0,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What does Clause 6.5 of IS 2415 specify about the leak test?",
+        "answer": "Clause 6.5 states that a cycle rubber tube, when inflated to a pressure sufficient to increase its cross‑sectional circumference by a maximum of 20 percent from its initial circumference, shall not show any sign of leakage when immersed in water for 1 minute. [IS 2415:2025, Clause 6.5, Page 5-7]",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "6.5",
+            "page": 5,
+            "chunk_id": "2415_2025_0004",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 2415",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.8631059527397156,
+          "execution_time_ms": 69855.6957999972
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "C005",
+      "category": "supported_clause",
+      "query": "What does Clause 4.6 of IS 1005 require for the material?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:13:46.466099+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "Clause 4.6 requires that the material also comply with the requirements given in Table I [IS 1005:1992, Clause 4.6, Page 3].",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "4.6",
+          "page": 3,
+          "chunk_id": "1005_0001",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 1005",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.6909880042076111,
+        "execution_time_ms": 21033.541700002388
+      },
+      "latency_ms": 21036.9,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What does Clause 4.6 of IS 1005 require for the material?",
+        "answer": "Clause 4.6 requires that the material also comply with the requirements given in Table I [IS 1005:1992, Clause 4.6, Page 3].",
+        "citations": [
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "4.6",
+            "page": 3,
+            "chunk_id": "1005_0001",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 1005",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.6909880042076111,
+          "execution_time_ms": 21033.541700002388
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "N001",
+      "category": "supported_numerical",
+      "query": "What is the maximum water-cement ratio specified in IS 456 for severe exposure conditions?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:14:08.289261+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The maximum water‑cement ratio given for **severe** exposure conditions is **0.50**. [IS 456:2000, Clause 8.2.5.4, Page 21-22]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "8.2.5.4",
+          "page": 21,
+          "chunk_id": "456_2000_amd5_reff2021_0024",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 456",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.99310302734375,
+        "execution_time_ms": 21826.393199997256
+      },
+      "latency_ms": 21830.3,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What is the maximum water-cement ratio specified in IS 456 for severe exposure conditions?",
+        "answer": "The maximum water‑cement ratio given for **severe** exposure conditions is **0.50**. [IS 456:2000, Clause 8.2.5.4, Page 21-22]",
+        "citations": [
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "8.2.5.4",
+            "page": 21,
+            "chunk_id": "456_2000_amd5_reff2021_0024",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 456",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.99310302734375,
+          "execution_time_ms": 21826.393199997256
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "N002",
+      "category": "supported_numerical",
+      "query": "What is the pH range specified for edible maize starch in IS 1005?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:15:25.439946+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The specification requires the pH of an aqueous extract of edible maize starch to be **4.5 to 7.0**. [IS 1005:1992, Clause 6, Page 3-5]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "6",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 1005",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.9568763971328735,
+        "execution_time_ms": 77134.51069999428
+      },
+      "latency_ms": 77146.9,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What is the pH range specified for edible maize starch in IS 1005?",
+        "answer": "The specification requires the pH of an aqueous extract of edible maize starch to be **4.5 to 7.0**. [IS 1005:1992, Clause 6, Page 3-5]",
+        "citations": [
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "6",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 1005",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.9568763971328735,
+          "execution_time_ms": 77134.51069999428
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "N003",
+      "category": "supported_numerical",
+      "query": "What is the maximum limit of lead specified for edible maize starch in IS 1005?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:16:37.680850+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The provided IS 1005:1992 excerpts do not specify a maximum limit for lead in edible maize starch.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [],
+      "retrieval_meta": {
+        "filtered_standard": "IS 1005",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.7984248399734497,
+        "execution_time_ms": 72234.33779999323
+      },
+      "latency_ms": 72238.0,
+      "evaluation_status": "FAIL",
+      "evaluation_notes": "no citations present",
+      "error": null,
+      "api_response": {
+        "query": "What is the maximum limit of lead specified for edible maize starch in IS 1005?",
+        "answer": "The provided IS 1005:1992 excerpts do not specify a maximum limit for lead in edible maize starch.",
+        "citations": [],
+        "retrieval_meta": {
+          "filtered_standard": "IS 1005",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.7984248399734497,
+          "execution_time_ms": 72234.33779999323
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "N004",
+      "category": "supported_numerical",
+      "query": "What are the minimum tensile strength and elongation at break specified for Class A cycle rubber tubes in IS 2415?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:17:08.756215+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The standard requires that a Class A cycle‑rubber tube have a minimum tensile strength of **81.5 kgf / cm² (equivalent to 8 MPa)** and a minimum elongation at break of **450 %**【IS 2415:2025, Clause 6, Page 5-7】.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "6",
+          "page": 5,
+          "chunk_id": "2415_2025_0004",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 2415",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.9985007047653198,
+        "execution_time_ms": 31072.185099998023
+      },
+      "latency_ms": 31075.2,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What are the minimum tensile strength and elongation at break specified for Class A cycle rubber tubes in IS 2415?",
+        "answer": "The standard requires that a Class A cycle‑rubber tube have a minimum tensile strength of **81.5 kgf / cm² (equivalent to 8 MPa)** and a minimum elongation at break of **450 %**【IS 2415:2025, Clause 6, Page 5-7】.",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "6",
+            "page": 5,
+            "chunk_id": "2415_2025_0004",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 2415",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.9985007047653198,
+          "execution_time_ms": 31072.185099998023
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "N005",
+      "category": "supported_numerical",
+      "query": "What is the uniformity of thickness tolerance specified for cycle rubber tubes in IS 2415?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:17:34.726140+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The uniformity of thickness tolerance for cycle rubber tubes is **± 15 percent at any point** (excluding the region at or near a lap or splice) 【IS 2415:2025, Clause 5.2.1, Page 5】.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "5.2.1",
+          "page": 5,
+          "chunk_id": "2415_2025_0003",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 2415",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.9731345772743225,
+        "execution_time_ms": 25966.979600008926
+      },
+      "latency_ms": 25969.8,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What is the uniformity of thickness tolerance specified for cycle rubber tubes in IS 2415?",
+        "answer": "The uniformity of thickness tolerance for cycle rubber tubes is **± 15 percent at any point** (excluding the region at or near a lap or splice) 【IS 2415:2025, Clause 5.2.1, Page 5】.",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "5.2.1",
+            "page": 5,
+            "chunk_id": "2415_2025_0003",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 2415",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.9731345772743225,
+          "execution_time_ms": 25966.979600008926
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "M001",
+      "category": "supported_multi_clause",
+      "query": "What are the nominal cover requirements for reinforcement in IS 456?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:18:00.479597+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "**Nominal cover – definition**\n\n- Nominal cover is the design depth of concrete cover to all steel reinforcement, including links, and shall not be less than the diameter of the bar. [IS 456:2000, Clause 26.4.1, Page 47]\n\n**Minimum nominal cover for durability (exposure conditions)**  \n\n- Minimum values of nominal cover for normal‑weight aggregate concrete to all reinforcement (including links) are given in **Table 16** and depend on the exposure condition (mild, moderate, severe, very severe, extreme). [IS 456:2000, Clause 26.4.2, Page 47]  \n\n- For a longitudinal reinforcing bar in a **column**, the nominal cover shall in any case be **not less than 40 mm**, or less than the bar diameter, whichever is greater.  \n  - If the column’s minimum dimension is **200 mm or less** and the reinforcing bars do not exceed **12 mm** in diameter, a nominal cover of **25 mm** may be used. [IS 456:2000, Clause 26.4.2.1, Page 47]  \n\n- For **footings**, the minimum nominal cover shall be **50 mm**. [IS 456:2000, Clause 26.4.2.2, Page 47]\n\n**Nominal cover for fire‑resistance periods**\n\n- Minimum values of nominal cover required to achieve a specified period of fire resistance are given in **Table 16A**. [IS 456:2000, Clause 26.4.3, Page 47]\n\n**Tolerance on actual cover**\n\n- Unless specified otherwise, the actual concrete cover shall not deviate from the required nominal cover by **+ 10 mm**. [IS 456:2000, Clause 12.3.2, Page 26‑27]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.4.1",
+          "page": 47,
+          "chunk_id": "456_2000_amd5_reff2021_0074",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.4.2",
+          "page": 47,
+          "chunk_id": "456_2000_amd5_reff2021_0074",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.4.2.1",
+          "page": 47,
+          "chunk_id": "456_2000_amd5_reff2021_0074",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.4.2.2",
+          "page": 47,
+          "chunk_id": "456_2000_amd5_reff2021_0074",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "26.4.3",
+          "page": 47,
+          "chunk_id": "456_2000_amd5_reff2021_0074",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "12.3.2",
+          "page": 26,
+          "chunk_id": "456_2000_amd5_reff2021_0035",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 456",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.9991140961647034,
+        "execution_time_ms": 25750.202700000955
+      },
+      "latency_ms": 25753.5,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 6/6 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What are the nominal cover requirements for reinforcement in IS 456?",
+        "answer": "**Nominal cover – definition**\n\n- Nominal cover is the design depth of concrete cover to all steel reinforcement, including links, and shall not be less than the diameter of the bar. [IS 456:2000, Clause 26.4.1, Page 47]\n\n**Minimum nominal cover for durability (exposure conditions)**  \n\n- Minimum values of nominal cover for normal‑weight aggregate concrete to all reinforcement (including links) are given in **Table 16** and depend on the exposure condition (mild, moderate, severe, very severe, extreme). [IS 456:2000, Clause 26.4.2, Page 47]  \n\n- For a longitudinal reinforcing bar in a **column**, the nominal cover shall in any case be **not less than 40 mm**, or less than the bar diameter, whichever is greater.  \n  - If the column’s minimum dimension is **200 mm or less** and the reinforcing bars do not exceed **12 mm** in diameter, a nominal cover of **25 mm** may be used. [IS 456:2000, Clause 26.4.2.1, Page 47]  \n\n- For **footings**, the minimum nominal cover shall be **50 mm**. [IS 456:2000, Clause 26.4.2.2, Page 47]\n\n**Nominal cover for fire‑resistance periods**\n\n- Minimum values of nominal cover required to achieve a specified period of fire resistance are given in **Table 16A**. [IS 456:2000, Clause 26.4.3, Page 47]\n\n**Tolerance on actual cover**\n\n- Unless specified otherwise, the actual concrete cover shall not deviate from the required nominal cover by **+ 10 mm**. [IS 456:2000, Clause 12.3.2, Page 26‑27]",
+        "citations": [
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.4.1",
+            "page": 47,
+            "chunk_id": "456_2000_amd5_reff2021_0074",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.4.2",
+            "page": 47,
+            "chunk_id": "456_2000_amd5_reff2021_0074",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.4.2.1",
+            "page": 47,
+            "chunk_id": "456_2000_amd5_reff2021_0074",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.4.2.2",
+            "page": 47,
+            "chunk_id": "456_2000_amd5_reff2021_0074",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "26.4.3",
+            "page": 47,
+            "chunk_id": "456_2000_amd5_reff2021_0074",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "12.3.2",
+            "page": 26,
+            "chunk_id": "456_2000_amd5_reff2021_0035",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 456",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.9991140961647034,
+          "execution_time_ms": 25750.202700000955
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "M002",
+      "category": "supported_multi_clause",
+      "query": "What are the requirements for tensile strength and elongation of cycle rubber tubes in IS 2415?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:18:22.012804+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The standard requires that the tensile strength and elongation at break of a rubber sample cut from a tube be at least the values shown in Table 3 [IS 2415:2025, Clause 6, Page 5‑7].\n\n| Class of tube | Tensile strength – minimum | Elongation at break – minimum |\n|---------------|----------------------------|------------------------------|\n| **Class A**   | 81.5 kgf / cm² (= 8 MPa)    | 450 % |\n| **Class B and C** | 61.2 kgf / cm² (= 6 MPa) | 350 % |\n| **Class D**   | 102 kgf / cm² (= 10 MPa)   | 430 % |\n\nThese values are the minimum requirements for tensile strength and elongation at break for the respective tube classes.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "6",
+          "page": 5,
+          "chunk_id": "2415_2025_0004",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 2415",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.9987539052963257,
+        "execution_time_ms": 21509.51499999792
+      },
+      "latency_ms": 21533.0,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What are the requirements for tensile strength and elongation of cycle rubber tubes in IS 2415?",
+        "answer": "The standard requires that the tensile strength and elongation at break of a rubber sample cut from a tube be at least the values shown in Table 3 [IS 2415:2025, Clause 6, Page 5‑7].\n\n| Class of tube | Tensile strength – minimum | Elongation at break – minimum |\n|---------------|----------------------------|------------------------------|\n| **Class A**   | 81.5 kgf / cm² (= 8 MPa)    | 450 % |\n| **Class B and C** | 61.2 kgf / cm² (= 6 MPa) | 350 % |\n| **Class D**   | 102 kgf / cm² (= 10 MPa)   | 430 % |\n\nThese values are the minimum requirements for tensile strength and elongation at break for the respective tube classes.",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "6",
+            "page": 5,
+            "chunk_id": "2415_2025_0004",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 2415",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.9987539052963257,
+          "execution_time_ms": 21509.51499999792
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "M003",
+      "category": "supported_multi_clause",
+      "query": "What information is required to be marked on edible maize starch containers under IS 1005?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:18:50.455924+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The standard requires that each container be marked/printed with an indelible insoluble ink showing the following information:\n\n- a) Name of the material,  \n- b) Name and address of the manufacturer,  \n- c) Batch or code number,  \n- d) Date of manufacture,  \n- e) Net mass of contents, and  \n- f) Any other details required under the Standards of Weights and Measures (Packaged Commodities) Rules 1977 / PFA Rules.  \n\n[IS 1005:1992, Clause 6, Page 3-5]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "6",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": "IS 1005",
+        "is_mask_restricted": true,
+        "candidates_retrieved": 7,
+        "top_reranker_score": 0.9957975149154663,
+        "execution_time_ms": 28440.506600003573
+      },
+      "latency_ms": 28443.7,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations",
+      "error": null,
+      "api_response": {
+        "query": "What information is required to be marked on edible maize starch containers under IS 1005?",
+        "answer": "The standard requires that each container be marked/printed with an indelible insoluble ink showing the following information:\n\n- a) Name of the material,  \n- b) Name and address of the manufacturer,  \n- c) Batch or code number,  \n- d) Date of manufacture,  \n- e) Net mass of contents, and  \n- f) Any other details required under the Standards of Weights and Measures (Packaged Commodities) Rules 1977 / PFA Rules.  \n\n[IS 1005:1992, Clause 6, Page 3-5]",
+        "citations": [
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "6",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": "IS 1005",
+          "is_mask_restricted": true,
+          "candidates_retrieved": 7,
+          "top_reranker_score": 0.9957975149154663,
+          "execution_time_ms": 28440.506600003573
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "P001",
+      "category": "product_to_standard",
+      "query": "I manufacture rubber tubes for bicycle tyres. Which Indian Standard should I refer to for the tube requirements?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:19:19.157481+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "You should refer to **IS 2415:2025 – “Cycle — Rubber Tubes (Moulded/Jointed) – Specification.”** This standard provides the dimensions and other requirements for bicycle rubber tubes. [IS 2415:2025, Clause N/A, Page 1-3]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "N/A",
+          "page": 1,
+          "chunk_id": "2415_2025_0000",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.9888944625854492,
+        "execution_time_ms": 28697.36260001082
+      },
+      "latency_ms": 28700.9,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations; semantic standard-mapping still requires manual review",
+      "error": null,
+      "api_response": {
+        "query": "I manufacture rubber tubes for bicycle tyres. Which Indian Standard should I refer to for the tube requirements?",
+        "answer": "You should refer to **IS 2415:2025 – “Cycle — Rubber Tubes (Moulded/Jointed) – Specification.”** This standard provides the dimensions and other requirements for bicycle rubber tubes. [IS 2415:2025, Clause N/A, Page 1-3]",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "N/A",
+            "page": 1,
+            "chunk_id": "2415_2025_0000",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.9888944625854492,
+          "execution_time_ms": 28697.36260001082
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "P002",
+      "category": "product_to_standard",
+      "query": "I am making moulded or jointed rubber tubes for bicycles. Which Indian Standard covers this product?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:19:38.498723+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The Indian Standard that specifies moulded and jointed rubber tubes for bicycles is **IS 2415:2025 – “Cycle – Rubber Tubes (Moulded/Jointed) – Specification.”**【IS 2415:2025, Clause N/A, Page 1-3】",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "N/A",
+          "page": 1,
+          "chunk_id": "2415_2025_0000",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.998059093952179,
+        "execution_time_ms": 19338.816999996197
+      },
+      "latency_ms": 19342.1,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations; semantic standard-mapping still requires manual review",
+      "error": null,
+      "api_response": {
+        "query": "I am making moulded or jointed rubber tubes for bicycles. Which Indian Standard covers this product?",
+        "answer": "The Indian Standard that specifies moulded and jointed rubber tubes for bicycles is **IS 2415:2025 – “Cycle – Rubber Tubes (Moulded/Jointed) – Specification.”**【IS 2415:2025, Clause N/A, Page 1-3】",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "N/A",
+            "page": 1,
+            "chunk_id": "2415_2025_0000",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.998059093952179,
+          "execution_time_ms": 19338.816999996197
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "P003",
+      "category": "product_to_standard",
+      "query": "I manufacture edible maize starch that is sold as corn flour. Which Indian Standard should I check for its requirements?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:19:59.264959+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "You should refer to **IS 1005:1992 – “Edible Maize Starch (Corn Flour) – Specification.”** [IS 1005:1992, Clause 4, Page 3]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "4",
+          "page": 3,
+          "chunk_id": "1005_0001",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.9919772744178772,
+        "execution_time_ms": 20762.22140000027
+      },
+      "latency_ms": 20765.0,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations; semantic standard-mapping still requires manual review",
+      "error": null,
+      "api_response": {
+        "query": "I manufacture edible maize starch that is sold as corn flour. Which Indian Standard should I check for its requirements?",
+        "answer": "You should refer to **IS 1005:1992 – “Edible Maize Starch (Corn Flour) – Specification.”** [IS 1005:1992, Clause 4, Page 3]",
+        "citations": [
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "4",
+            "page": 3,
+            "chunk_id": "1005_0001",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.9919772744178772,
+          "execution_time_ms": 20762.22140000027
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "P004",
+      "category": "product_to_standard",
+      "query": "I want to test packaged edible maize starch for things like moisture, pH, ash and microbiological requirements. Which Indian Standard should I look at?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:20:26.538142+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "You should refer to **IS 1005:1992 – “Edible Maize Starch (Corn Flour) – Specification.”** This standard prescribes the requirements and the methods of sampling and testing (including moisture, pH, ash and microbiological limits) for packaged edible maize starch【IS 1005:1992, Clause N/A, Page 1-3】.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "N/A",
+          "page": 1,
+          "chunk_id": "1005_0000",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.8687343001365662,
+        "execution_time_ms": 27255.86159998784
+      },
+      "latency_ms": 27273.6,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations; semantic standard-mapping still requires manual review",
+      "error": null,
+      "api_response": {
+        "query": "I want to test packaged edible maize starch for things like moisture, pH, ash and microbiological requirements. Which Indian Standard should I look at?",
+        "answer": "You should refer to **IS 1005:1992 – “Edible Maize Starch (Corn Flour) – Specification.”** This standard prescribes the requirements and the methods of sampling and testing (including moisture, pH, ash and microbiological limits) for packaged edible maize starch【IS 1005:1992, Clause N/A, Page 1-3】.",
+        "citations": [
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "N/A",
+            "page": 1,
+            "chunk_id": "1005_0000",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.8687343001365662,
+          "execution_time_ms": 27255.86159998784
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "P005",
+      "category": "product_to_standard",
+      "query": "I am producing cycle rubber tubes and need the standard covering their dimensions, thickness and performance requirements. Which IS standard applies?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:20:52.448494+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The applicable Indian Standard for the dimensions, thickness and other performance requirements of cycle rubber tubes (moulded and jointed) is **IS 2415:2025 – “Cycle – Rubber Tubes (Moulded/Jointed) – Specification.”** [IS 2415:2025, Clause N/A, Page 1-3]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "N/A",
+          "page": 1,
+          "chunk_id": "2415_2025_0000",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.971385657787323,
+        "execution_time_ms": 25907.70130000601
+      },
+      "latency_ms": 25910.6,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations; semantic standard-mapping still requires manual review",
+      "error": null,
+      "api_response": {
+        "query": "I am producing cycle rubber tubes and need the standard covering their dimensions, thickness and performance requirements. Which IS standard applies?",
+        "answer": "The applicable Indian Standard for the dimensions, thickness and other performance requirements of cycle rubber tubes (moulded and jointed) is **IS 2415:2025 – “Cycle – Rubber Tubes (Moulded/Jointed) – Specification.”** [IS 2415:2025, Clause N/A, Page 1-3]",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "N/A",
+            "page": 1,
+            "chunk_id": "2415_2025_0000",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.971385657787323,
+          "execution_time_ms": 25907.70130000601
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "R001",
+      "category": "product_requirement",
+      "query": "I make bicycle inner tubes. What kind of dimensions and physical requirements should I check before selling them?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:21:19.545571+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "**Dimensions to be checked**\n\n| Nominal tube size (as marked on the tube) | Flat‑length of the double‑folded tube (mm) | Flat‑width of the tube (mm) |\n|---|---|---|\n| 47/57‑152 (10 × 1.75/2.25) | 306 ± 15 | 44 ± 2.0 |\n| 47/57‑203 (12.5 × 1.75/2.25) | 386 ± 15 | 44 ± 2.0 |\n| 58/75‑203 (12.5 × 2.35/2.90) | 400 ± 15 | 58 ± 2.0 |\n| … | … | … |\n| 58/75‑559 (26 × 2.35/2.90) | 959 ± 15 | 58 ± 2.0 |\n\n*(All sizes listed in Table 2 of IS 2415:2025; the flat‑length tolerance is **± 15 mm** and the flat‑width tolerance is **± 2.0 mm**) [IS 2415:2025, Clause 5.1, Page 3‑5]*  \n\nFor **Class A** tubes the dimensions may be altered “as per the agreement between the purchaser and the supplier” [IS 2415:2025, Clause 5.1, Page 3‑5].\n\n**Physical / material requirements to be checked**\n\n1. **Classification of the tube** – The tube must be classified according to the rubber material used (Table 1):  \n   * Class A – Butyl rubber or equivalent  \n   * Class B – Synthetic rubbers other than butyl rubber  \n   * Class C – Natural rubber blended with compatible synthetic rubber  \n   * Class D – Natural rubber or equivalent [IS 2415:2025, Clause 4.1, Page 3‑5]\n\n2. **Designation** – The tube shall be designated in accordance with the designation of the corresponding tyre [IS 2415:2025, Clause 4.2, Page 3‑5].\n\n3. **Scope of use** – The tubes are intended for use with tyres prescribed in IS 2414 [IS 2415:2025, Clause 1, Page 1‑3].\n\n4. **Reference standards for related components** – If the tube includes a valve, the valve and valve‑tubing must conform to IS 532 (“Bicycle tube valves and valve‑tubing”) [IS 2415:2025, Clause 2, Page 1‑3].\n\n**Summary of what to verify before selling**\n\n- Identify the tube’s **class (A‑D)** based on its rubber composition.  \n- Ensure the **tube marking (size designation)** matches the tyre it is meant for.  \n- Measure the **flat length** and **flat width** of the double‑folded tube and confirm they fall within the **± 15 mm** (length) and **± 2.0 mm** (width) tolerances given for the specific nominal size in Table 2.  \n- For Class A tubes, confirm any dimension deviation is covered by a written agreement with the purchaser.  \n- Verify that any valve fitted complies with IS 532.  \n\nThese are the dimensions and physical requirements stipulated in IS 2415:2025 that must be checked before the inner tubes are placed on the market.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "5.1",
+          "page": 3,
+          "chunk_id": "2415_2025_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "5.1",
+          "page": 3,
+          "chunk_id": "2415_2025_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "4.1",
+          "page": 3,
+          "chunk_id": "2415_2025_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "4.2",
+          "page": 3,
+          "chunk_id": "2415_2025_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "1",
+          "page": 1,
+          "chunk_id": "2415_2025_0000",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 2415",
+          "year": "2025",
+          "clause": "2",
+          "page": 1,
+          "chunk_id": "2415_2025_0000",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.5056658983230591,
+        "execution_time_ms": 27093.249099998502
+      },
+      "latency_ms": 27096.4,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 6/6 verified citations; semantic standard-mapping still requires manual review",
+      "error": null,
+      "api_response": {
+        "query": "I make bicycle inner tubes. What kind of dimensions and physical requirements should I check before selling them?",
+        "answer": "**Dimensions to be checked**\n\n| Nominal tube size (as marked on the tube) | Flat‑length of the double‑folded tube (mm) | Flat‑width of the tube (mm) |\n|---|---|---|\n| 47/57‑152 (10 × 1.75/2.25) | 306 ± 15 | 44 ± 2.0 |\n| 47/57‑203 (12.5 × 1.75/2.25) | 386 ± 15 | 44 ± 2.0 |\n| 58/75‑203 (12.5 × 2.35/2.90) | 400 ± 15 | 58 ± 2.0 |\n| … | … | … |\n| 58/75‑559 (26 × 2.35/2.90) | 959 ± 15 | 58 ± 2.0 |\n\n*(All sizes listed in Table 2 of IS 2415:2025; the flat‑length tolerance is **± 15 mm** and the flat‑width tolerance is **± 2.0 mm**) [IS 2415:2025, Clause 5.1, Page 3‑5]*  \n\nFor **Class A** tubes the dimensions may be altered “as per the agreement between the purchaser and the supplier” [IS 2415:2025, Clause 5.1, Page 3‑5].\n\n**Physical / material requirements to be checked**\n\n1. **Classification of the tube** – The tube must be classified according to the rubber material used (Table 1):  \n   * Class A – Butyl rubber or equivalent  \n   * Class B – Synthetic rubbers other than butyl rubber  \n   * Class C – Natural rubber blended with compatible synthetic rubber  \n   * Class D – Natural rubber or equivalent [IS 2415:2025, Clause 4.1, Page 3‑5]\n\n2. **Designation** – The tube shall be designated in accordance with the designation of the corresponding tyre [IS 2415:2025, Clause 4.2, Page 3‑5].\n\n3. **Scope of use** – The tubes are intended for use with tyres prescribed in IS 2414 [IS 2415:2025, Clause 1, Page 1‑3].\n\n4. **Reference standards for related components** – If the tube includes a valve, the valve and valve‑tubing must conform to IS 532 (“Bicycle tube valves and valve‑tubing”) [IS 2415:2025, Clause 2, Page 1‑3].\n\n**Summary of what to verify before selling**\n\n- Identify the tube’s **class (A‑D)** based on its rubber composition.  \n- Ensure the **tube marking (size designation)** matches the tyre it is meant for.  \n- Measure the **flat length** and **flat width** of the double‑folded tube and confirm they fall within the **± 15 mm** (length) and **± 2.0 mm** (width) tolerances given for the specific nominal size in Table 2.  \n- For Class A tubes, confirm any dimension deviation is covered by a written agreement with the purchaser.  \n- Verify that any valve fitted complies with IS 532.  \n\nThese are the dimensions and physical requirements stipulated in IS 2415:2025 that must be checked before the inner tubes are placed on the market.",
+        "citations": [
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "5.1",
+            "page": 3,
+            "chunk_id": "2415_2025_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "5.1",
+            "page": 3,
+            "chunk_id": "2415_2025_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "4.1",
+            "page": 3,
+            "chunk_id": "2415_2025_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "4.2",
+            "page": 3,
+            "chunk_id": "2415_2025_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "1",
+            "page": 1,
+            "chunk_id": "2415_2025_0000",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 2415",
+            "year": "2025",
+            "clause": "2",
+            "page": 1,
+            "chunk_id": "2415_2025_0000",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.5056658983230591,
+          "execution_time_ms": 27093.249099998502
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "R002",
+      "category": "product_requirement",
+      "query": "I manufacture edible maize starch for food use. What kinds of quality and safety requirements should I check?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:21:49.273427+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "**Quality and safety checks required for edible maize starch (corn flour) – IS 1005:1992**\n\n| Area | Requirement (what to check) | Standard reference |\n|------|-----------------------------|--------------------|\n| **Physical description** | Fine‑powder form, normally white (or light creamy); free from rancidity, adulterants, insect or fungus infestation, fermented, musty or other objectionable odours; no added sweetening, flavouring, colouring agents or foreign matter. | [IS 1005:1992, Clause 4.1, Page 3] |\n| **Microscopic appearance** | Starch granules must be polygonal or rounded, uniform in size, longest axis 10 – 30 µm, with a marked hilum, fissures but no striae, and distinct polarized crosses. | [IS 1005:1992, Clause 4.2, Page 3] |\n| **Purity (dirt & extraneous matter)** | Material must be free from dirt and other suspended or extraneous matter when examined as prescribed in IS 4706 (Part 1). | [IS 1005:1992, Clause 4.3, Page 3] |\n| **Particle‑size distribution** | ≤ 2 % (by mass) retained on a 75 µm IS sieve and ≤ 0.5 % (by mass) retained on a 150 µm IS sieve. | [IS 1005:1992, Clause 4.4, Page 3] |\n| **Hygienic manufacturing conditions** | Production premises and equipment must be maintained under hygienic conditions (see IS 2491:1972). | [IS 1005:1992, Clause 4.5, Page 3] |\n| **Packing material** | Clean, sound, new high‑density polyethylene (HDPE) woven bags or A‑twill jute bags (lined with polyethylene); mouth machine‑stitched or rolled‑over and hand‑stitched. | [IS 1005:1992, Clause 5.1, Page 3] |\n| **Marking of containers** | Each container must be marked with indelible, insoluble ink showing: (a) name of material, (b) name & address of manufacturer, (c) batch or code number, (d) date of manufacture, (e) net mass, and (f) any other details required under the Standards of Weights and Measures (Packaged Commodities) Rules 1977/PFA Rules. | [IS 1005:1992, Clause 6.1, Page 3-5] |\n| **Sampling** | A representative sample must be drawn and conformity determined by the method prescribed in IS 4662:1977. | [IS 1005:1992, Clause 7, Page 3-5] |\n| **Test methodology** | All tests shall be carried out as prescribed in clauses 4.2, 4.3, 4.4 and column 4 of Table 1. | [IS 1005:1992, Clause 8.1, Page 3-5] |\n| **Reagents** | Pure chemicals (free of impurities that affect analysis) and distilled water (IS 1070:1977) shall be used unless otherwise specified. | [IS 1005:1992, Clause 8.2, Page 3-5] |\n| **Key quality parameters (Table 1, Clause 8.1)** | • **Moisture** – ≤ 12.5 % (mass)  <br>• **Total ash** – ≤ 0.20 % (dry basis)  <br>• **Acid‑insoluble ash** – ≤ 0.10 % (dry basis)  <br>• **Starch** – ≥ 98.0 % (dry basis)  <br>• **Protein (N × 6.25)** – ≤ 0.60 % (dry basis)  <br>• **pH of aqueous extract** – 4.5 to 7.0  <br>• **Alcoholic acidity (as H₂SO₄, 90 % alcohol)** – ≤ 0.025 % (mass)  <br>• **E. coli (in 25 g)** – Absent  <br>• **Salmonella (in 25 g)** – Absent  <br>• **Arsenic** – ≤ 1.2 mg kg⁻¹  <br>• **Lead** – ≤ 2.5 mg kg⁻¹  <br>• **Copper** – ≤ 30.0 mg kg⁻¹  <br>• **Zinc** – ≤ 50.0 mg kg⁻¹  <br>• **Tin** – ≤ 250.0 mg kg⁻¹  <br>• **Mercury** – ≤ 0.1 mg kg⁻¹  <br>• **Cadmium** – ≤ 1.5 mg kg⁻¹ | [IS 1005:1992, Clause 8.1, Page 3-5] |\n\n**Summary:**  \nWhen manufacturing edible maize starch you must verify that the product meets the physical‑appearance, microscopic, purity, particle‑size, and hygienic‑condition criteria; is packed and marked as specified; is sampled according to IS 4662; and passes all analytical tests listed in Table 1 (moisture, ash, starch, protein, pH, acidity, microbiological absence of *E. coli* and *Salmonella*, and the specified limits for arsenic, lead, copper, zinc, tin, mercury and cadmium).",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "4.1",
+          "page": 3,
+          "chunk_id": "1005_0001",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "4.2",
+          "page": 3,
+          "chunk_id": "1005_0001",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "4.3",
+          "page": 3,
+          "chunk_id": "1005_0001",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "4.4",
+          "page": 3,
+          "chunk_id": "1005_0001",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "4.5",
+          "page": 3,
+          "chunk_id": "1005_0001",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "5.1",
+          "page": 3,
+          "chunk_id": "1005_0001",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "6.1",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "7",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "8.1",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "8.2",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "8.1",
+          "page": -1,
+          "chunk_id": "1005_0002",
+          "verified": true
+        },
+        {
+          "standard_no": "IS 1005",
+          "year": "1992",
+          "clause": "8.1",
+          "page": 3,
+          "chunk_id": "1005_0002",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.9358730316162109,
+        "execution_time_ms": 29723.129699996207
+      },
+      "latency_ms": 29727.7,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 12/12 verified citations; semantic standard-mapping still requires manual review",
+      "error": null,
+      "api_response": {
+        "query": "I manufacture edible maize starch for food use. What kinds of quality and safety requirements should I check?",
+        "answer": "**Quality and safety checks required for edible maize starch (corn flour) – IS 1005:1992**\n\n| Area | Requirement (what to check) | Standard reference |\n|------|-----------------------------|--------------------|\n| **Physical description** | Fine‑powder form, normally white (or light creamy); free from rancidity, adulterants, insect or fungus infestation, fermented, musty or other objectionable odours; no added sweetening, flavouring, colouring agents or foreign matter. | [IS 1005:1992, Clause 4.1, Page 3] |\n| **Microscopic appearance** | Starch granules must be polygonal or rounded, uniform in size, longest axis 10 – 30 µm, with a marked hilum, fissures but no striae, and distinct polarized crosses. | [IS 1005:1992, Clause 4.2, Page 3] |\n| **Purity (dirt & extraneous matter)** | Material must be free from dirt and other suspended or extraneous matter when examined as prescribed in IS 4706 (Part 1). | [IS 1005:1992, Clause 4.3, Page 3] |\n| **Particle‑size distribution** | ≤ 2 % (by mass) retained on a 75 µm IS sieve and ≤ 0.5 % (by mass) retained on a 150 µm IS sieve. | [IS 1005:1992, Clause 4.4, Page 3] |\n| **Hygienic manufacturing conditions** | Production premises and equipment must be maintained under hygienic conditions (see IS 2491:1972). | [IS 1005:1992, Clause 4.5, Page 3] |\n| **Packing material** | Clean, sound, new high‑density polyethylene (HDPE) woven bags or A‑twill jute bags (lined with polyethylene); mouth machine‑stitched or rolled‑over and hand‑stitched. | [IS 1005:1992, Clause 5.1, Page 3] |\n| **Marking of containers** | Each container must be marked with indelible, insoluble ink showing: (a) name of material, (b) name & address of manufacturer, (c) batch or code number, (d) date of manufacture, (e) net mass, and (f) any other details required under the Standards of Weights and Measures (Packaged Commodities) Rules 1977/PFA Rules. | [IS 1005:1992, Clause 6.1, Page 3-5] |\n| **Sampling** | A representative sample must be drawn and conformity determined by the method prescribed in IS 4662:1977. | [IS 1005:1992, Clause 7, Page 3-5] |\n| **Test methodology** | All tests shall be carried out as prescribed in clauses 4.2, 4.3, 4.4 and column 4 of Table 1. | [IS 1005:1992, Clause 8.1, Page 3-5] |\n| **Reagents** | Pure chemicals (free of impurities that affect analysis) and distilled water (IS 1070:1977) shall be used unless otherwise specified. | [IS 1005:1992, Clause 8.2, Page 3-5] |\n| **Key quality parameters (Table 1, Clause 8.1)** | • **Moisture** – ≤ 12.5 % (mass)  <br>• **Total ash** – ≤ 0.20 % (dry basis)  <br>• **Acid‑insoluble ash** – ≤ 0.10 % (dry basis)  <br>• **Starch** – ≥ 98.0 % (dry basis)  <br>• **Protein (N × 6.25)** – ≤ 0.60 % (dry basis)  <br>• **pH of aqueous extract** – 4.5 to 7.0  <br>• **Alcoholic acidity (as H₂SO₄, 90 % alcohol)** – ≤ 0.025 % (mass)  <br>• **E. coli (in 25 g)** – Absent  <br>• **Salmonella (in 25 g)** – Absent  <br>• **Arsenic** – ≤ 1.2 mg kg⁻¹  <br>• **Lead** – ≤ 2.5 mg kg⁻¹  <br>• **Copper** – ≤ 30.0 mg kg⁻¹  <br>• **Zinc** – ≤ 50.0 mg kg⁻¹  <br>• **Tin** – ≤ 250.0 mg kg⁻¹  <br>• **Mercury** – ≤ 0.1 mg kg⁻¹  <br>• **Cadmium** – ≤ 1.5 mg kg⁻¹ | [IS 1005:1992, Clause 8.1, Page 3-5] |\n\n**Summary:**  \nWhen manufacturing edible maize starch you must verify that the product meets the physical‑appearance, microscopic, purity, particle‑size, and hygienic‑condition criteria; is packed and marked as specified; is sampled according to IS 4662; and passes all analytical tests listed in Table 1 (moisture, ash, starch, protein, pH, acidity, microbiological absence of *E. coli* and *Salmonella*, and the specified limits for arsenic, lead, copper, zinc, tin, mercury and cadmium).",
+        "citations": [
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "4.1",
+            "page": 3,
+            "chunk_id": "1005_0001",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "4.2",
+            "page": 3,
+            "chunk_id": "1005_0001",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "4.3",
+            "page": 3,
+            "chunk_id": "1005_0001",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "4.4",
+            "page": 3,
+            "chunk_id": "1005_0001",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "4.5",
+            "page": 3,
+            "chunk_id": "1005_0001",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "5.1",
+            "page": 3,
+            "chunk_id": "1005_0001",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "6.1",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "7",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "8.1",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "8.2",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "8.1",
+            "page": -1,
+            "chunk_id": "1005_0002",
+            "verified": true
+          },
+          {
+            "standard_no": "IS 1005",
+            "year": "1992",
+            "clause": "8.1",
+            "page": 3,
+            "chunk_id": "1005_0002",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.9358730316162109,
+          "execution_time_ms": 29723.129699996207
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "R003",
+      "category": "product_requirement",
+      "query": "I produce concrete for construction. What standard should I consult for basic concrete requirements?",
+      "expected": "answer",
+      "timestamp": "2026-09-04T07:25:21.087503+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "You should refer to **IS 456:2000 – “Code of Practice for Plain and Reinforced Concrete”** for the basic requirements governing concrete used in construction. [IS 456:2000, Clause 5, Page 14]",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 456",
+          "year": "2000",
+          "clause": "5",
+          "page": 14,
+          "chunk_id": "456_2000_amd5_reff2021_0009",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.7914606332778931,
+        "execution_time_ms": 211794.06660000677
+      },
+      "latency_ms": 211814.2,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "grounded answer with 1/1 verified citations; semantic standard-mapping still requires manual review",
+      "error": null,
+      "api_response": {
+        "query": "I produce concrete for construction. What standard should I consult for basic concrete requirements?",
+        "answer": "You should refer to **IS 456:2000 – “Code of Practice for Plain and Reinforced Concrete”** for the basic requirements governing concrete used in construction. [IS 456:2000, Clause 5, Page 14]",
+        "citations": [
+          {
+            "standard_no": "IS 456",
+            "year": "2000",
+            "clause": "5",
+            "page": 14,
+            "chunk_id": "456_2000_amd5_reff2021_0009",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.7914606332778931,
+          "execution_time_ms": 211794.06660000677
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    },
+    {
+      "id": "O001",
+      "category": "out_of_corpus",
+      "query": "What is the capital of France?",
+      "expected": "refusal",
+      "timestamp": "2026-09-04T07:25:21.925347+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+      "refused": true,
+      "refusal_reason": "below_threshold",
+      "citations": [],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.034371569752693176,
+        "execution_time_ms": 832.4151999986498
+      },
+      "latency_ms": 838.4,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "refusal with empty citations and refusal_reason present",
+      "error": null,
+      "api_response": {
+        "query": "What is the capital of France?",
+        "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+        "citations": [],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.034371569752693176,
+          "execution_time_ms": 832.4151999986498
+        },
+        "refused": true,
+        "refusal_reason": "below_threshold"
+      }
+    },
+    {
+      "id": "O002",
+      "category": "out_of_corpus",
+      "query": "Explain quantum computing.",
+      "expected": "refusal",
+      "timestamp": "2026-09-04T07:25:22.440704+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+      "refused": true,
+      "refusal_reason": "below_threshold",
+      "citations": [],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.002414937596768141,
+        "execution_time_ms": 510.36840000597294
+      },
+      "latency_ms": 514.6,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "refusal with empty citations and refusal_reason present",
+      "error": null,
+      "api_response": {
+        "query": "Explain quantum computing.",
+        "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+        "citations": [],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.002414937596768141,
+          "execution_time_ms": 510.36840000597294
+        },
+        "refused": true,
+        "refusal_reason": "below_threshold"
+      }
+    },
+    {
+      "id": "O003",
+      "category": "out_of_corpus",
+      "query": "What is the population of Mumbai?",
+      "expected": "refusal",
+      "timestamp": "2026-09-04T07:25:22.783453+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+      "refused": true,
+      "refusal_reason": "below_threshold",
+      "citations": [],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.0033259715419262648,
+        "execution_time_ms": 333.363300000201
+      },
+      "latency_ms": 343.3,
+      "evaluation_status": "PASS",
+      "evaluation_notes": "refusal with empty citations and refusal_reason present",
+      "error": null,
+      "api_response": {
+        "query": "What is the population of Mumbai?",
+        "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+        "citations": [],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.0033259715419262648,
+          "execution_time_ms": 333.363300000201
+        },
+        "refused": true,
+        "refusal_reason": "below_threshold"
+      }
+    },
+    {
+      "id": "G001",
+      "category": "general_bis",
+      "query": "What is the full form of BIS?",
+      "expected": "review",
+      "timestamp": "2026-09-04T07:25:23.114761+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+      "refused": true,
+      "refusal_reason": "below_threshold",
+      "citations": [],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.02542153000831604,
+        "execution_time_ms": 322.7296000113711
+      },
+      "latency_ms": 331.6,
+      "evaluation_status": "REVIEW",
+      "evaluation_notes": "general question recorded for manual review; no automatic verdict applied",
+      "error": null,
+      "api_response": {
+        "query": "What is the full form of BIS?",
+        "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+        "citations": [],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.02542153000831604,
+          "execution_time_ms": 322.7296000113711
+        },
+        "refused": true,
+        "refusal_reason": "below_threshold"
+      }
+    },
+    {
+      "id": "G002",
+      "category": "general_bis",
+      "query": "What is the purpose of an Indian Standard?",
+      "expected": "review",
+      "timestamp": "2026-09-04T07:25:25.153143+00:00",
+      "http_status": 200,
+      "success": true,
+      "answer": "An Indian Standard sets out the requirements (and, where applicable, the methods of sampling and testing) that must be met for the item or service it covers【IS 10500:2012, Clause 1, Page 3】.",
+      "refused": false,
+      "refusal_reason": null,
+      "citations": [
+        {
+          "standard_no": "IS 10500",
+          "year": "2012",
+          "clause": "1",
+          "page": 3,
+          "chunk_id": "10500_2012_reaff2023_amd4_0002",
+          "verified": true
+        }
+      ],
+      "retrieval_meta": {
+        "filtered_standard": null,
+        "is_mask_restricted": false,
+        "candidates_retrieved": 10,
+        "top_reranker_score": 0.9313659071922302,
+        "execution_time_ms": 2019.054500007769
+      },
+      "latency_ms": 2039.3,
+      "evaluation_status": "REVIEW",
+      "evaluation_notes": "general question recorded for manual review; no automatic verdict applied",
+      "error": null,
+      "api_response": {
+        "query": "What is the purpose of an Indian Standard?",
+        "answer": "An Indian Standard sets out the requirements (and, where applicable, the methods of sampling and testing) that must be met for the item or service it covers【IS 10500:2012, Clause 1, Page 3】.",
+        "citations": [
+          {
+            "standard_no": "IS 10500",
+            "year": "2012",
+            "clause": "1",
+            "page": 3,
+            "chunk_id": "10500_2012_reaff2023_amd4_0002",
+            "verified": true
+          }
+        ],
+        "retrieval_meta": {
+          "filtered_standard": null,
+          "is_mask_restricted": false,
+          "candidates_retrieved": 10,
+          "top_reranker_score": 0.9313659071922302,
+          "execution_time_ms": 2019.054500007769
+        },
+        "refused": false,
+        "refusal_reason": null
+      }
+    }
+  ]
+}
