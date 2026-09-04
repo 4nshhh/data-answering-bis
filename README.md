@@ -288,6 +288,27 @@ System evaluation is conducted against the **87-query benchmark suite** (`retrie
 *   **Citation Accuracy:** 100% verification that cited clauses and page numbers match retrieved chunk metadata.
 *   **Zero Hallucination:** 0% tolerance for ungrounded numerical values, fabricated clauses, or unverified standard numbers.
 
+### Reusable End-to-End Query Suite (`evaluation/`)
+
+A 30-query regression suite covering expert users (IS/clause-specific) and
+normal users who describe only their product (`product_to_standard`,
+`product_requirement`):
+
+*   `evaluation/test_queries.json` — 8 categories (`supported_exact`,
+    `supported_clause`, `supported_numerical`, `supported_multi_clause`,
+    `product_to_standard`, `product_requirement`, `out_of_corpus`,
+    `general_bis`) with stable IDs and `expected` (`answer`/`refusal`/`review`).
+*   Start the API first: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
+*   Run: `python evaluation/run_queries.py` (see `--help` for
+    `--url/--top-k/--output/--category/--limit`); results go to
+    `evaluation/results/latest_results.json`.
+*   Verdicts: `PASS` (grounded answer / correct refusal), `FAIL` (refused or
+    unverified when an answer was expected, or answered when refusal was
+    expected), `REVIEW` (general-BIS questions; `product_*` passes are still
+    flagged for manual semantic review since no substring matching is used).
+    `C002` (Clause 26.5) is a known `citation_mismatch` regression kept
+    permanently as `expected: answer` — do not change RAG behavior to force it.
+
 ---
 
 ## 13. Implementation Roadmap & Current Status
