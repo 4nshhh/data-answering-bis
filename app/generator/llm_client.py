@@ -25,7 +25,7 @@ import os
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Protocol
+from typing import Any, Callable, Protocol
 
 from app.generator.prompts import DEFAULT_MODEL, PromptBundle
 from app.generator.telemetry import Telemetry
@@ -193,9 +193,21 @@ class _ChatCompletionsProvider:
             raise ValueError(f"max_retries must be non-negative, got {max_retries!r}")
         self._timeout_s = timeout_s
         self._max_retries = max_retries
+        self._cached_client: Any | None = None
 
     def _client(self) -> Any:
         raise NotImplementedError
+
+    def _cached(self, build: Callable[[], Any]) -> Any:
+        """Reuse one SDK client per provider (same key/timeout/params).
+
+        Previously a fresh client (fresh connection pool + TLS handshake)
+        was built on every generation. Caching only reuses transport;
+        requests, model, and retry policy are byte-identical.
+        """
+        if self._cached_client is None:
+            self._cached_client = build()
+        return self._cached_client
 
     def generate(
         self,
@@ -251,14 +263,17 @@ class GroqProvider(_ChatCompletionsProvider):
     env_var = "GROQ_API_KEY"
 
     def _client(self) -> Any:
-        try:
-            import groq
-        except ImportError as exc:
-            raise RuntimeError(
-                "The 'groq' package is required for GroqProvider "
-                "(pip install 'groq>=0.4.0')."
-            ) from exc
-        return groq.Groq(api_key=self._api_key, timeout=self._timeout_s)
+        def _build() -> Any:
+            try:
+                import groq
+            except ImportError as exc:
+                raise RuntimeError(
+                    "The 'groq' package is required for GroqProvider "
+                    "(pip install 'groq>=0.4.0')."
+                ) from exc
+            return groq.Groq(api_key=self._api_key, timeout=self._timeout_s)
+
+        return self._cached(_build)
 
 
 class OpenAIProvider(_ChatCompletionsProvider):
@@ -273,14 +288,17 @@ class OpenAIProvider(_ChatCompletionsProvider):
     env_var = "OPENAI_API_KEY"
 
     def _client(self) -> Any:
-        try:
-            import openai
-        except ImportError as exc:
-            raise RuntimeError(
-                "The 'openai' package is required for OpenAIProvider "
-                "(pip install 'openai>=1.0.0')."
-            ) from exc
-        return openai.OpenAI(api_key=self._api_key, timeout=self._timeout_s)
+        def _build() -> Any:
+            try:
+                import openai
+            except ImportError as exc:
+                raise RuntimeError(
+                    "The 'openai' package is required for OpenAIProvider "
+                    "(pip install 'openai>=1.0.0')."
+                ) from exc
+            return openai.OpenAI(api_key=self._api_key, timeout=self._timeout_s)
+
+        return self._cached(_build)
 
 
 def generate_answer(
@@ -318,6 +336,11 @@ def generate_answer(
     if telemetry is not None:
         generate_kwargs["telemetry"] = telemetry
     response = provider.generate(**generate_kwargs)  # type: ignore[arg-type]
+    if telemetry is not None:
+        if response.prompt_tokens:
+            telemetry.prompt_tokens_total += response.prompt_tokens
+        if response.completion_tokens:
+            telemetry.completion_tokens_total += response.completion_tokens
     if not response.text or not response.text.strip():
         raise RuntimeError("Provider returned an empty completion; refusing to continue with no text.")
     return GeneratedAnswer(

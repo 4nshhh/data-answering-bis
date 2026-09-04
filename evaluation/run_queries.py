@@ -352,6 +352,24 @@ def print_report(results: list[dict]) -> None:
         print(f"Groq API calls: {n_groq}")
         print(f"Logical generation attempts: {n_gen}")
         print(f"Correction retries: {n_corr} | Widen generations: {n_wide} | Retrieval expansions: {n_exp}")
+        stage_totals: dict[str, float] = {}
+        stage_counts: dict[str, int] = {}
+        for t in teles:
+            stages = t.get("stages")
+            if isinstance(stages, dict):
+                for name, ms in stages.items():
+                    if isinstance(ms, (int, float)):
+                        stage_totals[name] = stage_totals.get(name, 0.0) + float(ms)
+                        stage_counts[name] = stage_counts.get(name, 0) + 1
+        if stage_totals:
+            breakdown = " | ".join(
+                f"{name}: avg {stage_totals[name] / stage_counts[name]:.1f}ms (n={stage_counts[name]})"
+                for name in sorted(stage_totals)
+            )
+            print(f"Stage breakdown: {breakdown}")
+        prompt_sizes = [t.get("prompt_chars") for t in teles if isinstance(t.get("prompt_chars"), (int, float))]
+        if prompt_sizes:
+            print(f"Prompt chars: avg {sum(prompt_sizes) / len(prompt_sizes):.0f} | max {max(prompt_sizes):.0f}")
     print("=" * 50)
     for r in results:
         if r["evaluation_status"] == "PASS":

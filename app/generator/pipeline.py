@@ -247,7 +247,9 @@ def run_query(
     started = time.perf_counter()
     elapsed_ms = lambda: (time.perf_counter() - started) * 1000.0
 
+    _t0 = time.perf_counter()
     evidence = list(retrieve_fn(query.strip(), top_k=candidates_k))
+    telemetry.add_stage("retrieval_ms", (time.perf_counter() - _t0) * 1000.0)
 
     pre = evaluate_refusal(evidence, threshold=threshold)
     if pre.should_refuse and pre.reason == "below_threshold" and not pre.is_mask_restricted:
@@ -263,7 +265,9 @@ def run_query(
         top1 = pre.top_score if pre.top_score is not None else float("-inf")
         if EXPANSION_MIN_SCORE <= top1 < threshold:
             telemetry.retrieval_expansion = True
+            _t0 = time.perf_counter()
             expanded = list(retrieve_fn(query.strip() + EXPANSION_SUFFIX, top_k=candidates_k))
+            telemetry.add_stage("retrieval_expansion_ms", (time.perf_counter() - _t0) * 1000.0)
             if evaluate_refusal(expanded, threshold=threshold).reason == "ok":
                 evidence = expanded
                 pre = evaluate_refusal(evidence, threshold=threshold)
@@ -273,11 +277,20 @@ def run_query(
 
     if provider is None:
         provider = GroqProvider()
+    _t0 = time.perf_counter()
     context = build_context(evidence, chunk_index=chunk_index, top_k=top_k,
                             expand_neighbors=expand_neighbors)
+    telemetry.add_stage("context_ms", (time.perf_counter() - _t0) * 1000.0)
+    _t0 = time.perf_counter()
     bundle = build_prompt(query.strip(), context, chunk_index=chunk_index)
+    telemetry.add_stage("prompt_ms", (time.perf_counter() - _t0) * 1000.0)
+    telemetry.prompt_chars = len(bundle.user)
+    _t0 = time.perf_counter()
     generated: GeneratedAnswer = generate_answer(query.strip(), bundle, provider, telemetry=telemetry)
+    telemetry.add_stage("gen_initial_ms", (time.perf_counter() - _t0) * 1000.0)
+    _t0 = time.perf_counter()
     verified = verify_answer(generated, context, chunk_index)
+    telemetry.add_stage("verify_ms", (time.perf_counter() - _t0) * 1000.0)
 
     if not verified.has_citations and len(evidence) > top_k:
         # Abstention recovery: the model found nothing citable in top-K
@@ -286,10 +299,17 @@ def run_query(
         # retrieval, no threshold change, verification still enforced.
         telemetry.widen_retry = True
         wider_k = min(len(evidence), top_k + WIDEN_STEP)
+        _t0 = time.perf_counter()
         wider_context = build_context(evidence, chunk_index=chunk_index,
                                       top_k=wider_k, expand_neighbors=expand_neighbors)
         wider_bundle = build_prompt(query.strip(), wider_context, chunk_index=chunk_index)
+        telemetry.add_stage("context_widen_ms", (time.perf_counter() - _t0) * 1000.0)
+        _t0 = time.perf_counter()
         wider_generated: GeneratedAnswer = generate_answer(query.strip(), wider_bundle, provider, telemetry=telemetry)
+        telemetry.add_stage("gen_widen_ms", (time.perf_counter() - _t0) * 1000.0)
+        _t0 = time.perf_counter()
+        wider_verified = verify_answer(wider_generated, wider_context, chunk_index)
+        telemetry.add_stage("verify_ms", (time.perf_counter() - _t0) * 1000.0)
         wider_verified = verify_answer(wider_generated, wider_context, chunk_index)
         if wider_verified.all_verified:
             context, bundle, generated, verified = (
@@ -313,8 +333,12 @@ def run_query(
         )
         retry_bundle = _correction_bundle(query.strip(), context, chunk_index, feedback)
         telemetry.correction_retry = True
+        _t0 = time.perf_counter()
         retry_generated: GeneratedAnswer = generate_answer(query.strip(), retry_bundle, provider, telemetry=telemetry)
+        telemetry.add_stage("gen_correction_ms", (time.perf_counter() - _t0) * 1000.0)
+        _t0 = time.perf_counter()
         retry_verified = verify_answer(retry_generated, context, chunk_index)
+        telemetry.add_stage("verify_ms", (time.perf_counter() - _t0) * 1000.0)
         if retry_verified.all_verified:
             generated, verified = retry_generated, retry_verified
             post = evaluate_refusal(evidence, threshold=threshold, verified=verified)
@@ -337,8 +361,12 @@ def run_query(
             "per technical assertion, copied from the block headers above.",
         )
         telemetry.correction_retry = True
+        _t0 = time.perf_counter()
         retry_generated = generate_answer(query.strip(), retry_bundle, provider, telemetry=telemetry)
+        telemetry.add_stage("gen_correction_ms", (time.perf_counter() - _t0) * 1000.0)
+        _t0 = time.perf_counter()
         retry_verified = verify_answer(retry_generated, context, chunk_index)
+        telemetry.add_stage("verify_ms", (time.perf_counter() - _t0) * 1000.0)
         if retry_verified.all_verified:
             generated, verified = retry_generated, retry_verified
             post = evaluate_refusal(evidence, threshold=threshold, verified=verified)

@@ -79,6 +79,10 @@ class TelemetryModel(BaseModel):
     widen_retry: bool = False
     retrieval_expansion: bool = False
     latency_ms: float = 0.0
+    stages: dict[str, float] = Field(default_factory=dict)
+    prompt_chars: int = 0
+    prompt_tokens_total: int = 0
+    completion_tokens_total: int = 0
 
 
 class QueryResponse(BaseModel):
@@ -140,6 +144,10 @@ def _result_to_response(result: QueryResult) -> QueryResponse:
             widen_retry=tele.widen_retry if tele else False,
             retrieval_expansion=tele.retrieval_expansion if tele else False,
             latency_ms=tele.latency_ms if tele else 0.0,
+            stages=dict(tele.stages) if tele else {},
+            prompt_chars=tele.prompt_chars if tele else 0,
+            prompt_tokens_total=tele.prompt_tokens_total if tele else 0,
+            completion_tokens_total=tele.completion_tokens_total if tele else 0,
         ),
     )
 
@@ -155,6 +163,22 @@ def build_app(
     async def lifespan(application: FastAPI):
         application.state.chunk_index = chunk_index if chunk_index is not None else load_chunk_index(chunks_dir)
         application.state.provider = provider if provider is not None else GroqProvider()
+        # Optional one-time retriever warmup (BIS_WARMUP=1): load BGE-M3 +
+        # CrossEncoder and run one dummy retrieval at startup so the first
+        # real query pays ~0.5s instead of ~40s model load. No LLM call,
+        # no quota, best-effort (lazy loading remains the fallback).
+        # Opt-in so test lifespans stay fast.
+        import os as _os
+
+        if _os.environ.get("BIS_WARMUP", "0") == "1":
+            try:
+                from retrieval import retrieve as _warmup_retrieve
+
+                _warmup_retrieve("Bureau of Indian Standards specification")
+            except Exception as exc:  # noqa: BLE001 - lazy path still works
+                import logging as _logging
+
+                _logging.getLogger(__name__).warning("retriever warmup failed: %s", exc)
         yield
 
     application = FastAPI(title="BIS Standards Assistant (Answering/RAG)", lifespan=lifespan)

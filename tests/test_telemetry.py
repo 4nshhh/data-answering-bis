@@ -43,7 +43,6 @@ class _StubCompletion:
         self.model = "stub-model"
         self.usage = None
 
-
 class _StubCompletions:
     def __init__(self, owner: "_StubClient"):
         self._owner = owner
@@ -138,6 +137,34 @@ def test_single_generation_single_call(chunk_index):
     assert result.telemetry is tele
 
 
+def test_stage_timings_recorded_per_pass(chunk_index):
+    tele = Telemetry()
+    run_query("What is the pH?", retrieve_fn=retrieve_ok,
+              chunk_index=chunk_index,
+              provider=StubProvider([GOOD_TEXT]), telemetry=tele)
+    for key in ("retrieval_ms", "context_ms", "prompt_ms",
+                "gen_initial_ms", "verify_ms"):
+        assert key in tele.stages, f"missing stage {key}"
+        assert tele.stages[key] >= 0.0
+    assert "gen_widen_ms" not in tele.stages
+    assert "gen_correction_ms" not in tele.stages
+    assert tele.prompt_chars > 0
+    snapshot = tele.to_dict()
+    assert snapshot["stages"]["gen_initial_ms"] >= 0.0
+    assert snapshot["prompt_chars"] == tele.prompt_chars
+
+
+def test_widen_and_correction_stages_recorded(chunk_index):
+    tele = Telemetry()
+    run_query("What is the pH?", top_k=1, retrieve_fn=retrieve_ok,
+              chunk_index=chunk_index,
+              provider=StubProvider([NO_CITE_TEXT, BAD_TEXT, GOOD_TEXT]),
+              telemetry=tele)
+    assert tele.stages.get("gen_widen_ms", -1.0) >= 0.0
+    assert tele.stages.get("gen_correction_ms", -1.0) >= 0.0
+    assert tele.stages.get("context_widen_ms", -1.0) >= 0.0
+
+
 def test_initial_plus_correction(chunk_index):
     tele = Telemetry()
     result = run_query("What is the pH?", retrieve_fn=retrieve_ok,
@@ -216,6 +243,60 @@ def test_refusal_reports_zero_calls_with_latency():
     assert tele.llm_generation_attempts == 0
     assert tele.groq_api_calls == 0
     assert tele.latency_ms >= 0.0
+
+
+def test_token_totals_accumulate_across_attempts(chunk_index):
+    from app.generator.llm_client import LLMResponse
+
+    class UsageProvider:
+        name = "usage"
+
+        def __init__(self, texts):
+            self.texts = list(texts)
+            self.calls = 0
+
+        def generate(self, **kwargs):
+            text = self.texts[min(self.calls, len(self.texts) - 1)]
+            self.calls += 1
+            return LLMResponse(text=text, model="m",
+                               prompt_tokens=100, completion_tokens=25)
+
+    tele = Telemetry()
+    result = run_query("What is the pH?", retrieve_fn=retrieve_ok,
+                       chunk_index=chunk_index,
+                       provider=UsageProvider([GOOD_TEXT]), telemetry=tele)
+    assert result.refused is False
+    assert tele.prompt_tokens_total == 100
+    assert tele.completion_tokens_total == 25
+    assert tele.to_dict()["completion_tokens_total"] == 25
+
+
+def test_sdk_client_reused_across_generations(monkeypatch, chunk_index):
+    import sys
+    import types
+
+    from app.generator.llm_client import GroqProvider
+
+    built: list = []
+
+    class FakeGroq:
+        def __init__(self, api_key=None, timeout=None):
+            built.append((api_key, timeout))
+            stub_owner = _StubClient([GOOD_TEXT])
+            self.chat = type("Chat", (), {"completions": _StubCompletions(stub_owner)})()
+
+    monkeypatch.setitem(sys.modules, "groq", types.SimpleNamespace(Groq=FakeGroq))
+    provider = GroqProvider(api_key="test-key")
+    tele = Telemetry()
+    for _ in range(2):
+        result = run_query("What is the pH?", retrieve_fn=retrieve_ok,
+                           chunk_index=chunk_index, provider=provider,
+                           telemetry=tele)
+        assert result.refused is False
+    assert len(built) == 1  # one SDK client for both generations
+    assert built[0][0] == "test-key"
+    assert tele.llm_generation_attempts == 2
+    assert tele.groq_api_calls == 2
 
 
 def test_response_model_carries_telemetry():

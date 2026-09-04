@@ -27,7 +27,7 @@ application code and are deliberately NOT counted here:
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 __all__ = ["Telemetry"]
 
@@ -42,6 +42,23 @@ class Telemetry:
     widen_retry: bool = False
     retrieval_expansion: bool = False
     latency_ms: float = 0.0
+    # Stage timings in milliseconds, measured with time.perf_counter().
+    # Keys (when that stage executes): retrieval_ms,
+    # retrieval_expansion_ms, context_ms, context_widen_ms, prompt_ms,
+    # gen_initial_ms, gen_widen_ms, gen_correction_ms, verify_ms
+    # (verify_ms accumulates parse+verify across passes).
+    stages: dict[str, float] = field(default_factory=dict)
+    # Prompt size proxy (characters of the user message incl. evidence;
+    # no extra tokenizer — prompts.py already estimates tokens as chars/4).
+    prompt_chars: int = 0
+    # Cumulative provider-reported token usage across all attempts in
+    # this request (None-safe: providers that omit usage contribute 0).
+    prompt_tokens_total: int = 0
+    completion_tokens_total: int = 0
+
+    def add_stage(self, name: str, ms: float) -> None:
+        """Record (or accumulate, for repeated stages) a stage duration."""
+        self.stages[name] = self.stages.get(name, 0.0) + ms
 
     def to_dict(self) -> dict[str, object]:
         """Plain-JSON snapshot for API responses and evaluation records."""
@@ -52,4 +69,8 @@ class Telemetry:
             "widen_retry": self.widen_retry,
             "retrieval_expansion": self.retrieval_expansion,
             "latency_ms": self.latency_ms,
+            "stages": dict(self.stages),
+            "prompt_chars": self.prompt_chars,
+            "prompt_tokens_total": self.prompt_tokens_total,
+            "completion_tokens_total": self.completion_tokens_total,
         }
