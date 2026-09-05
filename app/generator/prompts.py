@@ -173,6 +173,13 @@ Do not infer applicability from general knowledge or from product
 similarity alone. The evidence blocks must provide the basis for
 identifying a standard as applicable.
 
+A standard number merely mentioned inside another standard's text
+(reference lists, bibliographies, and annex tables name standards
+that are not necessarily applicable to the product) must never be
+presented as applicable on that basis alone. Present a standard as
+applicable only when the evidence blocks show its own scope or
+requirements under that standard's `Standard:` header.
+
 Cite every claim canonically. If the evidence blocks do not provide
 enough basis to identify an applicable standard, abstain plainly
 without citing.

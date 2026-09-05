@@ -321,3 +321,87 @@ def test_adapters_never_touch_retrieval():
                 imported.add(node.module.split(".")[0])
     assert "retrieval" not in imported
     assert adapters.__name__ == "app.generator.adapters"
+
+
+# --- prose-abstention consistency (product_match) ----------------------
+
+ABSTAIN_TEXT = (
+    "The evidence blocks mention standards inside reference lists "
+    "(such as IS 15658 and IS 17452) [IS 875:2026, Clause ANNEX B, Page 41], "
+    "but do not provide their own scope or requirements under a `Standard:` "
+    "header. Therefore, based on the provided evidence blocks, there is not "
+    "enough basis to identify and present an applicable standard."
+)
+
+
+def _abstain_result() -> QueryResult:
+    base = _match_result()
+    return QueryResult(
+        query=base.query,
+        answer=ABSTAIN_TEXT,
+        citations=list(base.citations),
+        retrieval_meta=base.retrieval_meta,
+        refused=False,
+        refusal_reason=None,
+    )
+
+
+def test_match_adapter_prose_abstention_empties_matches():
+    body = to_match_response(_abstain_result(), "concrete product")
+    assert body == {"matches": [], "input_interpreted_as": "concrete product"}
+
+
+def test_match_adapter_abstention_variants_empty_matches():
+    for text in (
+        "I abstain: the blocks cannot identify an applicable standard.",
+        "Unable to identify any applicable standard from the evidence.",
+        "There is no applicable standard established by the blocks.",
+    ):
+        result = _match_result()
+        result = QueryResult(
+            query=result.query, answer=text, citations=list(result.citations),
+            retrieval_meta=result.retrieval_meta, refused=False,
+            refusal_reason=None,
+        )
+        body = to_match_response(result, "widget")
+        assert body["matches"] == [], text
+        assert body["input_interpreted_as"] == "widget"
+
+
+def test_match_adapter_normal_answer_preserves_matches():
+    # Normal presenting prose — including an "Applicable" header and a
+    # "does not specify" limitation note — must never be misread as abstention.
+    result = _match_result()
+    result = QueryResult(
+        query=result.query,
+        answer="**Applicable Standard:** IS 2415:2025. The blocks do not "
+        "specify packaging details. Scope per [IS 2415:2025, Clause 5.2, Page 5].",
+        citations=list(result.citations),
+        retrieval_meta=result.retrieval_meta, refused=False,
+        refusal_reason=None,
+    )
+    body = to_match_response(result, "9W B22 LED bulb")
+    assert [m["standard_id"] for m in body["matches"]] == ["IS-2415-2025", "IS-2414-2004"]
+
+
+# --- O2: product_match must not promote mentioned-only standards -----
+
+def _bundles_both_modes(chunk_index):
+    context = build_context(retrieve_ok("q"), chunk_index=chunk_index, top_k=2)
+    return (
+        build_prompt("q?", context, chunk_index=chunk_index, mode="ask"),
+        build_prompt("q?", context, chunk_index=chunk_index, mode="product_match"),
+    )
+
+
+def test_product_match_forbids_mentioned_only_standards(chunk_index):
+    ask_bundle, pm_bundle = _bundles_both_modes(chunk_index)
+    assert "merely mentioned inside another standard" in pm_bundle.system
+    assert "merely mentioned inside another standard" not in ask_bundle.system
+
+
+def test_universal_grounding_present_in_both_modes(chunk_index):
+    ask_bundle, pm_bundle = _bundles_both_modes(chunk_index)
+    for bundle in (ask_bundle, pm_bundle):
+        assert SYSTEM_PROMPT in bundle.system
+        assert "citation" in bundle.system.lower()

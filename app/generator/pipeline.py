@@ -393,13 +393,32 @@ def run_query(
         block = blocks_by_id.get(chunk_id or "")
         return block.evidence.rerank_score if block is not None else None
 
+    def _citation_page(citation_page: int, chunk_id: str | None) -> int:
+        """Resolve the response page for one verified citation.
+
+        Partial references (e.g. a parenthesized "(see clause X)")
+        state no page (the parser's ``-1`` sentinel) and verify
+        clause-only; the linked block's own page scope is the honest
+        location, so the sentinel must never reach the API response.
+        Canonical citations always keep their stated page unchanged.
+        """
+        if citation_page >= 0:
+            return citation_page
+        block = blocks_by_id.get(chunk_id or "")
+        if block is not None:
+            if block.evidence.page_start is not None:
+                return block.evidence.page_start
+            if block.evidence.page_end is not None:
+                return block.evidence.page_end
+        return citation_page
+
     citations = [
         CitationOut(
             standard_no=f"IS {v.citation.standard_no}",
             year=_record_year(blocks_by_id.get(v.chunk_id or ""), chunk_index)
             or v.citation.year or None,
             clause=v.citation.clause,
-            page=v.citation.page,
+            page=_citation_page(v.citation.page, v.chunk_id),
             chunk_id=v.chunk_id or "",
             verified=(v.verdict == "verified"),
             rerank_score=_block_rerank(v.chunk_id),

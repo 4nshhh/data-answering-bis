@@ -466,3 +466,70 @@ def test_expansion_gated_to_near_miss_band(chunk_index):
     assert result.refused is True
     assert result.refusal_reason == "below_threshold"
     assert provider.calls == 0
+
+
+# --- O1: partial (page-unstated) citations must not leak page -1 ------
+
+PAREN_TEXT = (
+    "Offset bars at splices (Clause 26.5.3.3) need lateral support "
+    "[IS 456:2000, Clause 26.5.3, Page 50]."
+)
+
+
+def _paren_chunk(tmp_path: Path):
+    chunk = {
+        "id": "456_2000_amd5_reff2021_0079",
+        "text": "26.5.3 Columns. Transverse reinforcement. "
+        "See 26.5.3.3 for offset bars at splices.",
+        "metadata": {
+            "source": "456_2000_amd5_reff2021.md",
+            "chunk_index": 79,
+            "clause": "26.5.3",
+            "heading": "26.5.3 Columns",
+            "heading_path": ["26 REINFORCEMENT", "26.5.3 Columns"],
+            "standard_no": "IS 456",
+            "year": "2000",
+            "page_start": 50,
+            "page_end": 50,
+            "tail_truncated": False,
+            "table_repaired": False,
+        },
+    }
+    (tmp_path / "c_3000_ov300.json").write_text(json.dumps([chunk]), encoding="utf-8")
+    return load_chunk_index(tmp_path)
+
+
+def _retrieve_paren(query: str, top_k: int = 10) -> list[RetrievedEvidence]:
+    return [RetrievedEvidence(
+        chunk_id="456_2000_amd5_reff2021_0079",
+        text="26.5.3 Columns. Transverse reinforcement. "
+        "See 26.5.3.3 for offset bars at splices.",
+        source="456_2000_amd5_reff2021.md",
+        clause="26.5.3",
+        heading="26.5.3 Columns",
+        standard_no="IS 456",
+        page_start=50,
+        page_end=50,
+        dense_score=0.9,
+        rerank_score=5.0,
+        is_mask_restricted=False,
+    )]
+
+
+def test_paren_partial_citation_resolves_block_page(tmp_path: Path):
+    """Live O1 repro: '(Clause 26.5.3.3)' verified clause-only with the
+    parser's page -1 sentinel; the API response must carry the linked
+    block's page (50), never -1. Canonical pages pass through unchanged."""
+    provider = FakeProvider(PAREN_TEXT)
+    result = run_query("What does Clause 26.5 say?", retrieve_fn=_retrieve_paren,
+                       chunk_index=_paren_chunk(tmp_path), provider=provider)
+    assert result.refused is False
+    assert result.citations, "expected canonical + partial citations"
+    assert all(c.page >= 0 for c in result.citations), (
+        [(c.clause, c.page) for c in result.citations]
+    )
+    paren = [c for c in result.citations if c.clause == "26.5.3.3"]
+    assert len(paren) == 1 and paren[0].page == 50
+    assert paren[0].verified is True
+    canon = [c for c in result.citations if c.clause == "26.5.3"]
+    assert len(canon) == 1 and canon[0].page == 50

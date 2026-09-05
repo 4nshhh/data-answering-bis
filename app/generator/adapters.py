@@ -68,6 +68,32 @@ def _citation_label(citation: CitationOut) -> str:
     return f"{number}, Cl. {citation.clause}"
 
 
+#: Prose markers showing a product_match answer abstains from
+#: identifying any applicable standard (rather than presenting one).
+#: Deliberately narrow — only explicit identification-failure phrasing
+#: counts, so normal answers presenting standards (even ones noting
+#: limits such as "does not specify") are never affected.
+_APPLICABILITY_ABSTENTION_MARKERS = frozenset(
+    {
+        "not enough basis to identify",
+        "no basis to identify",
+        "insufficient basis to identify",
+        "cannot identify",
+        "unable to identify",
+        "no applicable standard",
+        "cannot establish an applicable standard",
+        "cannot determine an applicable standard",
+        "abstain",
+    }
+)
+
+
+def _is_applicability_abstention(text: str | None) -> bool:
+    """True when product_match prose abstains from naming an applicable standard."""
+    lowered = (text or "").lower()
+    return any(marker in lowered for marker in _APPLICABILITY_ABSTENTION_MARKERS)
+
+
 def _snippet_for(
     chunk_id: str,
     chunk_index: Any | None,
@@ -164,8 +190,13 @@ def to_match_response(
     determine, and the fallback is documented, not asserted as fact.
     ``reason`` describes the evidence linkage only. ``input_interpreted_as``
     echoes the normalized description (no separate parsing stage exists).
+    When the answer prose itself abstains from identifying any applicable
+    standard, ``matches`` is empty (emitting cited-but-disavowed matches
+    would contradict the answer); ``input_interpreted_as`` is preserved.
     """
     interpreted = (description or "").strip()
+    if _is_applicability_abstention(result.answer):
+        return {"matches": [], "input_interpreted_as": interpreted}
     groups: dict[tuple[str, Optional[str]], dict[str, Any]] = {}
     for citation in result.citations:
         if not citation.verified:
