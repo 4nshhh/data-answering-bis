@@ -34,6 +34,7 @@ from app.generator.context_builder import load_chunk_index  # noqa: E402
 from app.generator.llm_client import GroqProvider  # noqa: E402
 from app.generator.pipeline import run_query  # noqa: E402
 from app.generator.refusal import DEFAULT_THRESHOLD  # noqa: E402
+from evaluation.progress import QueryProgress  # noqa: E402
 
 
 def load_queries(path: Path) -> list[str]:
@@ -70,6 +71,10 @@ def build_parser() -> argparse.ArgumentParser:
     # logit-scale default could never fire, silently disabling refusal.
     parser.add_argument("--threshold", type=float, default=DEFAULT_THRESHOLD)
     parser.add_argument("--chunks-dir", default="data/chunks")
+    parser.add_argument("--delay-secs", type=float, default=0.0,
+                        help="Opt-in pause between queries (rate-limit courtesy); 0 disables")
+    parser.add_argument("--no-progress", action="store_true",
+                        help="Disable the terminal progress display")
     return parser
 
 
@@ -88,9 +93,13 @@ def main(argv: list[str] | None = None) -> int:
     provider = GroqProvider()
 
     out_fh = open(args.out, "w", encoding="utf-8") if args.out else None
+    prog = QueryProgress(len(queries), enabled=False) if args.no_progress \
+        else QueryProgress(len(queries))
     rows = []
     try:
-        for i, query in enumerate(queries):
+        for pos, query in enumerate(queries, 1):
+            i = pos - 1
+            prog.waiting(pos, "Waiting for LLM response...")
             try:
                 result = run_query(
                     query,
@@ -109,7 +118,22 @@ def main(argv: list[str] | None = None) -> int:
             rows.append(record)
             if out_fh:
                 out_fh.write(json.dumps(record) + "\n")
+            if record["error"] is not None:
+                status, ok, latency = "ERROR", False, None
+            elif record["refused"]:
+                status, ok = "REFUSED", False
+                latency = (record["execution_time_ms"] or 0.0) / 1000.0 \
+                    if isinstance(record.get("execution_time_ms"), (int, float)) else None
+            else:
+                status, ok = "OK", True
+                latency = (record["execution_time_ms"] or 0.0) / 1000.0 \
+                    if isinstance(record.get("execution_time_ms"), (int, float)) else None
+            short = query if len(query) <= 47 else query[:47] + "..."
+            prog.finish(pos, status, latency, note=f"q{i} {short}", ok=ok)
+            if args.delay_secs > 0 and pos < len(queries):
+                prog.delay(args.delay_secs)
     finally:
+        prog.close()
         if out_fh:
             out_fh.close()
 

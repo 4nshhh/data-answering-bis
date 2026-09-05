@@ -33,6 +33,7 @@ from app.generator import answer  # noqa: E402
 from app.generator.context_builder import load_chunk_index  # noqa: E402
 from app.generator.llm_client import build_provider  # noqa: E402
 from app.generator.telemetry import Telemetry  # noqa: E402
+from evaluation.progress import QueryProgress  # noqa: E402
 
 # Five stable benchmark queries covering distinct pipeline shapes.
 # IDs double as labels; texts load from evaluation/test_queries.json so
@@ -180,6 +181,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--runs", type=int, default=1, help="Repetitions per query/provider")
     parser.add_argument("--top-k", type=int, default=3)
     parser.add_argument("--chunks-dir", default="data/chunks")
+    parser.add_argument("--delay-secs", type=float, default=0.0,
+                        help="Opt-in pause between runs (rate-limit courtesy); 0 disables")
+    parser.add_argument("--no-progress", action="store_true",
+                        help="Disable the terminal progress display")
     args = parser.parse_args(argv)
 
     if args.runs < 1:
@@ -210,11 +215,31 @@ def main(argv: list[str] | None = None) -> int:
     retrieve_fn("Bureau of Indian Standards specification warmup")
     print("Retrieval warmup done (discarded).")
 
+    total = args.runs * len(names) * len(queries)
+    prog = QueryProgress(total, enabled=False) if args.no_progress \
+        else QueryProgress(total)
     rows: list[dict] = []
+    pos = 0
     for run in range(args.runs):
         for name in names:
             for qid, text in queries.items():
-                rows.append(run_once(qid, text, providers[name], chunk_index, args.top_k))
+                pos += 1
+                prog.waiting(pos, f"{qid} ({name}) — waiting for LLM response...")
+                row = run_once(qid, text, providers[name], chunk_index, args.top_k)
+                rows.append(row)
+                if row["error"] is not None:
+                    status, ok = "ERROR", False
+                elif row["refused"]:
+                    status, ok = "REFUSED", False
+                else:
+                    status, ok = "OK", True
+                latency = row.get("total_ms")
+                prog.finish(pos, status,
+                            (latency / 1000.0 if isinstance(latency, (int, float)) else None),
+                            note=f"{qid} ({name})", ok=ok)
+                if args.delay_secs > 0 and pos < total:
+                    prog.delay(args.delay_secs)
+    prog.close()
 
     print()
     print_table(rows)

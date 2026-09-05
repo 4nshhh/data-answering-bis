@@ -31,6 +31,8 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+from evaluation.progress import QueryProgress
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_DATASET = REPO_ROOT / "evaluation" / "test_queries.json"
 DEFAULT_OUTPUT = REPO_ROOT / "evaluation" / "results" / "latest_results.json"
@@ -244,10 +246,21 @@ def run_suite(
     url: str,
     top_k: int,
     timeout_s: float,
+    delay_s: float = 0.0,
+    progress: QueryProgress | None = None,
 ) -> list[dict]:
-    """Execute all queries against the live API; never raises per-query errors."""
+    """Execute all queries against the live API; never raises per-query errors.
+
+    Display-only extras: a shared :class:`QueryProgress` (auto-created
+    when omitted) narrates each query, and ``delay_s`` inserts an
+    opt-in, counted-down pause between queries. Execution order,
+    results, files, and error handling are unchanged.
+    """
     results: list[dict] = []
-    for record in records:
+    total = len(records)
+    prog = progress if progress is not None else QueryProgress(total)
+    for pos, record in enumerate(records, 1):
+        prog.waiting(pos, f"{record['id']} ({record['category']}) — waiting for API response...")
         started = time.perf_counter()
         http_status, body, error = post_query(url, record["query"], top_k, timeout_s)
         latency_ms = (time.perf_counter() - started) * 1000.0
@@ -297,6 +310,12 @@ def run_suite(
                 "api_response": body,
             }
         )
+        prog.finish(pos, status, latency_ms / 1000.0,
+                    note=f"{record['id']} ({record['category']})",
+                    ok=(status == "PASS"))
+        if delay_s > 0 and pos < total:
+            prog.delay(delay_s)
+    prog.close()
     return results
 
 
@@ -408,7 +427,7 @@ def print_report(results: list[dict]) -> None:
             print(f"  error: {r['error']}")
 
 
-def main(argv: list[str] | None = None) -> int:
+def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="BIS Answering/RAG end-to-end evaluation")
     parser.add_argument("--url", default=DEFAULT_URL, help="Full API endpoint URL")
     parser.add_argument("--dataset", default=str(DEFAULT_DATASET), help="Path to test_queries.json")
@@ -418,6 +437,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--category", default=None, choices=list(VALID_CATEGORIES),
                         help="Run a single category only")
     parser.add_argument("--limit", type=int, default=None, help="Max queries to run")
+    parser.add_argument("--delay-secs", type=float, default=0.0,
+                        help="Opt-in pause between queries (rate-limit courtesy); 0 disables")
+    parser.add_argument("--no-progress", action="store_true",
+                        help="Disable the terminal progress display")
+    return parser
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = build_parser()
     args = parser.parse_args(argv)
 
     if not 1 <= args.top_k <= 5:
@@ -440,7 +468,9 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     print(f"Running {len(records)} queries against {args.url} ...")
-    results = run_suite(records, url=args.url, top_k=args.top_k, timeout_s=args.timeout)
+    progress = QueryProgress(len(records), enabled=False) if args.no_progress else None
+    results = run_suite(records, url=args.url, top_k=args.top_k, timeout_s=args.timeout,
+                        delay_s=args.delay_secs, progress=progress)
 
     out_path = Path(args.output)
     out_path.parent.mkdir(parents=True, exist_ok=True)
