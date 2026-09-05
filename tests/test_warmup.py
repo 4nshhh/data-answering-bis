@@ -204,3 +204,27 @@ def test_fastapi_lifespan_delegates_warmup(monkeypatch, tmp_path):
     with TestClient(application):
         pass
     assert len(calls) == 1, "BIS_WARMUP=1 lifespan must delegate to generator.warmup()"
+
+
+def test_fastapi_lifespan_passes_chunks_dir_to_warmup(monkeypatch, tmp_path):
+    """P1: a custom chunks_dir must reach warmup(), not just the app index."""
+    httpx = pytest.importorskip("httpx", reason="fastapi.testclient requires httpx")
+    del httpx
+    import app.main as main_module
+    from fastapi.testclient import TestClient
+
+    calls: list = []
+
+    def spy(chunks_dir=None):
+        calls.append(chunks_dir)
+        return {"chunks": 0, "retriever_loaded": True}
+
+    monkeypatch.setattr(main_module, "warmup", spy)
+    monkeypatch.setenv("BIS_WARMUP", "1")
+    custom = tmp_path / "custom_chunks"
+    application = main_module.build_app(
+        chunk_index=load_chunk_index(tmp_path), provider=FakeProvider(),
+        chunks_dir=custom)
+    with TestClient(application):
+        pass
+    assert calls == [custom]

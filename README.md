@@ -237,7 +237,7 @@ Run (server must be up): `python evaluation/run_queries.py --url http://127.0.0.
 Scoring is grounding-based (refusal flags, present + verified citations, retrieval metadata) — never naive substring matching. Quota-interrupted runs record `ERROR`, never PASS/FAIL; do not confuse them with quality results.
 
 ### Latency experiment (`evaluation/compare_llm_latency.py`, 5 queries)
-`python evaluation/compare_llm_latency.py --provider both` — same pipeline, only the backend differs. Measured: no Gemini speedup (4 mutually answered queries; Gemini ~24% slower on average, Groq far more variable at 1.9–81.7s). N003/Gemini returns a deterministic provider-side HTTP 404 (same key/model answers the other 4) — an infrastructure anomaly, not a quality signal. **No full Gemini quality benchmark has been run; do not claim one.**
+`python evaluation/compare_llm_latency.py --provider both` — same pipeline, only the backend differs. Measured: no Gemini speedup (4 mutually answered queries; Gemini ~24% slower on average, Groq far more variable at 1.9–81.7s). N003/Gemini returned a provider-side HTTP 404 in that run (same key/model answers the other 4) — an infrastructure anomaly, not a quality signal. Note: Gemini 404s have also proven transient on retry for other queries, so a 404 alone never implies a deterministic model/query failure. **No full Gemini quality benchmark has been run; do not claim one.**
 
 ### Known limitations
 * N002/N003 alternate PASS/FAIL across runs (reranker buries the IS-1005 Table-1 chunk; honest abstention follows).
@@ -265,7 +265,7 @@ No promises beyond these measurements. Both models stay on CUDA (`/api/v1/device
 ```bash
 python -m pytest tests/ -q   # offline: no keys, GPU, network, or quota needed
 ```
-**253 passed.** Covers pipeline orchestration, citations/repair/verification, refusal,
+**255 passed.** Covers pipeline orchestration, citations/repair/verification, refusal,
 prompts, context assembly, providers + `answer()` delegation, `warmup()` direct-library
 usage (including zero-LLM-call verification), `ask` vs `product_match` modes, telemetry,
 evaluation verdicts, latency-experiment guards, and device/store paths. The suite runs with

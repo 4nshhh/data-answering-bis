@@ -32,7 +32,7 @@ To preserve system stability and maintain clean software boundaries, the respons
 *   System prompt formatting, grounding constraints, and LLM orchestration (Groq / OpenAI API).
 *   Inline citation generation (`[IS <no>:<year>, Clause <cl>, Page <p>]`) and evidence verification.
 *   **Abstention & Refusal Handling:** Owning the "not in corpus" or insufficient-evidence decision based on `rerank_score` values, score margins, and `is_mask_restricted` (since `retrieve()` explicitly returns candidates unconditionally without internal abstention).
-*   FastAPI web service endpoint (`POST /api/v1/query`) and end-to-end RAG benchmark evaluation.
+*   Optional FastAPI HTTP adapter (`POST /api/v1/query`) around the `answer()` library, and end-to-end RAG benchmark evaluation.
 
 ### What BELONGS TO PREVIOUS REPOSITORIES (DO NOT RE-IMPLEMENT OR MODIFY)
 *   **Raw Markdown Ingestion & Extraction:** Raw document text lives in Repo 1/Repo 2 (`input_md/`). Do NOT re-parse raw PDFs or Markdown source files.
@@ -362,7 +362,7 @@ Development in data-answering-bis proceeds in 8 structured phases:
 - [ ] **Phase 5: LLM Integration & Orchestration** — Wire Groq (`openai/gpt-oss-120b`) / OpenAI API connectors for answer generation.
 - [ ] **Phase 6: Citation Parser & Post-Processor** — Implement automated post-processing to append verified inline citations (`[IS ..., Clause ..., Page ...]`).
 - [ ] **Phase 7: Refusal & Abstention Logic** — Wire confidence-gated refusal when top reranker score is below threshold $\tau$ or margins indicate unanswerable query.
-- [ ] **Phase 8: FastAPI Service & Benchmark Evaluation** — Build `POST /api/v1/query` REST API and evaluate end-to-end performance on the 87-query benchmark.
+- [x] **Phase 8: FastAPI Service & Benchmark Evaluation** — *(Completed: optional `POST /api/v1/query` adapter around `answer()`; direct-library usage is primary).*
 
 ---
 
@@ -387,5 +387,5 @@ Future Antigravity sessions working in data-answering-bis MUST obey the followin
 | **Vector Storage Assets** | **FROZEN** | `artifacts/bge_m3_enriched_vectors_gpu.npy` & `indexing/migrate_from_artifacts.py` |
 | **Production Retrieval Package** | **COMPLETED** | `retrieval/` package (`retrieve()`, `RetrievedEvidence`, `LocalNpyStore`, `PgVectorStore`) |
 | **Migration Specification** | **COMPLETED** | Documented in `AGENTS.md` & `README.md` |
-| **LLM Answering & Context Builder** | **NEXT (Phase 2–5)** | To be implemented in data-answering-bis |
-| **FastAPI REST Endpoint** | **FUTURE (Phase 8)** | To be implemented in data-answering-bis |
+| **LLM Answering & Context Builder** | **COMPLETED** | `app/generator` library (`answer()` / `warmup()`, ask + product_match modes) |
+| **FastAPI REST Endpoint** | **COMPLETED (optional adapter)** | `app/main.py` (`POST /api/v1/query`) around `answer()` |

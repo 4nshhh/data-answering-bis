@@ -55,6 +55,13 @@ _TERMINAL_CHARS = frozenset('.!?"\'\u201d\u2019)]')
 #: Radius for neighbor lookup (``chunk_index +/- 1`` per AGENTS.md 8.3).
 _NEIGHBOR_RADIUS = 1
 
+#: Repository root (this file lives at ``<root>/app/generator/``).
+#: The default chunk directory anchors here — not to the process
+#: working directory — matching ``app.generator`` and ``retrieval``
+#: defaults so direct-library backends work from any directory.
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+DEFAULT_CHUNKS_DIR = REPO_ROOT / "data" / "chunks"
+
 
 @dataclass
 class ChunkIndex:
@@ -90,7 +97,7 @@ class BuiltContext:
     prompt_text: str  # formatted blocks joined, ready for Phase 4
 
 
-def load_chunk_index(chunks_dir: Path | str = Path("data/chunks")) -> ChunkIndex:
+def load_chunk_index(chunks_dir: Path | str = DEFAULT_CHUNKS_DIR) -> ChunkIndex:
     """Load a read-only positional index over chunk JSON files.
 
     Each ``*.json`` file holds a list of ``{"id", "text", "metadata"}``

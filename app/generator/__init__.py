@@ -28,8 +28,9 @@ via :func:`warmup`::
 
     result = answer(query, mode="ask")
 
-``warmup()`` never builds an LLM provider and never touches the
-network beyond loading local model weights.
+``warmup()`` never builds an LLM provider, needs no API key, and makes
+no LLM API call (first-ever model-weight download from the model hub
+is the only network use, and only when weights are not cached).
 """
 
 from __future__ import annotations
@@ -38,7 +39,11 @@ from pathlib import Path
 from typing import Callable, Optional
 
 from app.generator.adapters import to_ask_response, to_match_response
-from app.generator.context_builder import ChunkIndex, load_chunk_index
+from app.generator.context_builder import (
+    DEFAULT_CHUNKS_DIR,
+    ChunkIndex,
+    load_chunk_index,
+)
 from app.generator.llm_client import LLMProvider, build_provider
 from app.generator.pipeline import (
     DEFAULT_CANDIDATES_K,
@@ -65,14 +70,6 @@ __all__ = [
     "DEFAULT_THRESHOLD",
     "DEFAULT_CANDIDATES_K",
 ]
-
-#: Repository root (this file lives at ``<root>/app/generator/__init__.py``).
-#: Default chunk paths anchor here — not to the process working
-#: directory — so direct-library backends keep working no matter which
-#: directory the host process starts from. Identical to the old
-#: CWD-relative default when run from the repository root.
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_CHUNKS_DIR = REPO_ROOT / "data" / "chunks"
 
 _shared_chunk_index: ChunkIndex | None = None
 _shared_provider: LLMProvider | None = None
@@ -116,8 +113,8 @@ def warmup(chunks_dir: str | Path = DEFAULT_CHUNKS_DIR) -> dict:
     the already-loaded singletons.
 
     Never builds an LLM provider (no API key required) and never
-    generates text. ``answer()`` stays safe to call without ``warmup()``
-    — lazy initialization remains the fallback.
+    makes an LLM API call. ``answer()`` stays safe to call without
+    ``warmup()`` — lazy initialization remains the fallback.
 
     Returns:
         ``{"chunks": <indexed chunk count>, "retriever_loaded": True}``.

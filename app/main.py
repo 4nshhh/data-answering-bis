@@ -22,7 +22,7 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
 from app.generator import answer, warmup
-from app.generator.context_builder import ChunkIndex, load_chunk_index
+from app.generator.context_builder import DEFAULT_CHUNKS_DIR, ChunkIndex, load_chunk_index
 from app.generator.llm_client import LLMProvider, build_provider
 from app.generator.pipeline import QueryResult
 from app.generator.refusal import DEFAULT_THRESHOLD
@@ -164,7 +164,7 @@ def _result_to_response(result: QueryResult) -> QueryResponse:
 def build_app(
     chunk_index: ChunkIndex | None = None,
     provider: LLMProvider | None = None,
-    chunks_dir: str | Path = Path(__file__).resolve().parent.parent / "data" / "chunks",
+    chunks_dir: str | Path = DEFAULT_CHUNKS_DIR,
 ) -> FastAPI:
     """Assemble the application (singletons injectable for tests)."""
 
@@ -185,7 +185,7 @@ def build_app(
 
         if _os.environ.get("BIS_WARMUP", "0") == "1":
             try:
-                warmup()
+                warmup(chunks_dir)
             except Exception as exc:  # noqa: BLE001 - lazy path still works
                 import logging as _logging
 

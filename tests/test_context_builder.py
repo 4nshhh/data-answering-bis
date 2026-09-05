@@ -304,3 +304,10 @@ def test_real_chunk_fixture_smoke():
     ctx = build_context([ev], top_k=1)
     assert first["id"] in ctx.prompt_text
     assert "IS 456" in ctx.prompt_text
+
+
+def test_load_chunk_index_default_survives_foreign_cwd(tmp_path, monkeypatch):
+    """Bare load_chunk_index() must resolve the repo-anchored default
+    from any working directory (JSON reads only — no models)."""
+    monkeypatch.chdir(tmp_path)
+    assert len(load_chunk_index().by_id) == 2081
