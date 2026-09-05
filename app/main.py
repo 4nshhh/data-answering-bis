@@ -21,7 +21,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
-from app.generator import answer
+from app.generator import answer, warmup
 from app.generator.context_builder import ChunkIndex, load_chunk_index
 from app.generator.llm_client import LLMProvider, build_provider
 from app.generator.pipeline import QueryResult
@@ -79,6 +79,7 @@ class TelemetryModel(BaseModel):
     groq_api_calls: int = 0
     llm_provider: str = ""
     llm_model: str = ""
+    mode: str = "ask"
     correction_retry: bool = False
     widen_retry: bool = False
     retrieval_expansion: bool = False
@@ -147,6 +148,7 @@ def _result_to_response(result: QueryResult) -> QueryResponse:
             groq_api_calls=tele.groq_api_calls if tele else 0,
             llm_provider=tele.llm_provider if tele else "",
             llm_model=tele.llm_model if tele else "",
+            mode=tele.mode if tele else "ask",
             correction_retry=tele.correction_retry if tele else False,
             widen_retry=tele.widen_retry if tele else False,
             retrieval_expansion=tele.retrieval_expansion if tele else False,
@@ -172,18 +174,18 @@ def build_app(
         # Provider from LLM_PROVIDER (Groq default); same singleton serves
         # every request in this process.
         application.state.provider = provider if provider is not None else build_provider()
-        # Optional one-time retriever warmup (BIS_WARMUP=1): load BGE-M3 +
-        # CrossEncoder and run one dummy retrieval at startup so the first
-        # real query pays ~0.5s instead of ~40s model load. No LLM call,
-        # no quota, best-effort (lazy loading remains the fallback).
-        # Opt-in so test lifespans stay fast.
+        # Optional one-time retriever warmup (BIS_WARMUP=1) delegating to
+        # the core library's warmup(): loads BGE-M3 + CrossEncoder and
+        # runs one dummy retrieval at startup so the first real query
+        # pays ~0.5s instead of ~40s model load. No LLM call, no quota,
+        # best-effort (lazy loading remains the fallback). Opt-in so
+        # test lifespans stay fast. Direct-library backends that never
+        # start this server call warmup() themselves instead.
         import os as _os
 
         if _os.environ.get("BIS_WARMUP", "0") == "1":
             try:
-                from retrieval import retrieve as _warmup_retrieve
-
-                _warmup_retrieve("Bureau of Indian Standards specification")
+                warmup()
             except Exception as exc:  # noqa: BLE001 - lazy path still works
                 import logging as _logging
 
@@ -234,6 +236,7 @@ def build_app(
         try:
             # Thin adapter: the canonical pipeline lives in
             # app.generator.answer(); HTTP only validates + serializes.
+            # The versioned query endpoint always answers in ask mode.
             telemetry = Telemetry()
             result = answer(
                 payload.query,
@@ -244,6 +247,7 @@ def build_app(
                 chunk_index=request.app.state.chunk_index,
                 provider=request.app.state.provider,
                 telemetry=telemetry,
+                mode="ask",
             )
         except ValueError as exc:
             raise HTTPException(status_code=400, detail=str(exc)) from exc

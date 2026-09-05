@@ -16,6 +16,20 @@ citation verification, correction retry) by delegating to the single
 canonical implementation, ``pipeline.run_query``. There is exactly one
 pipeline; FastAPI (``app.main``) is a thin HTTP adapter around this
 function.
+
+This package is a standalone library: it never imports FastAPI or
+Uvicorn. Expensive local retrieval resources (chunk index, BGE-M3
+encoder, reranker, vector store) load lazily on first use, or eagerly
+via :func:`warmup`::
+
+    from app.generator import answer, warmup
+
+    warmup()  # optional; no LLM call, no API key required
+
+    result = answer(query, mode="ask")
+
+``warmup()`` never builds an LLM provider and never touches the
+network beyond loading local model weights.
 """
 
 from __future__ import annotations
@@ -23,6 +37,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Callable, Optional
 
+from app.generator.adapters import to_ask_response, to_match_response
 from app.generator.context_builder import ChunkIndex, load_chunk_index
 from app.generator.llm_client import LLMProvider, build_provider
 from app.generator.pipeline import (
@@ -33,11 +48,16 @@ from app.generator.pipeline import (
     Telemetry,
     run_query,
 )
+from app.generator.prompts import validate_mode
 from app.generator.refusal import DEFAULT_THRESHOLD
 
 __all__ = [
     "answer",
+    "warmup",
+    "WARMUP_QUERY",
     "reset_singletons",
+    "to_ask_response",
+    "to_match_response",
     "CitationOut",
     "QueryResult",
     "RetrievalMeta",
@@ -71,6 +91,40 @@ def _shared_llm_provider() -> LLMProvider:
     return _shared_provider
 
 
+#: Dummy query used by :func:`warmup` to force construction of the
+#: shared ``retrieval.Retriever`` (BGE-M3 encoder + reranker + vector
+#: store). Plain corpus-domain prose: no IS number (so no candidate
+#: mask), no LLM involvement.
+WARMUP_QUERY = "Bureau of Indian Standards specification"
+
+
+def warmup(chunks_dir: str | Path = Path("data/chunks")) -> dict:
+    """Preload expensive local retrieval resources (no LLM call).
+
+    Loads the shared chunk index and constructs the shared
+    ``retrieval`` retriever (BGE-M3 query encoder, CrossEncoder
+    reranker, pre-computed vector store) so the first real query pays
+    ~0.5s instead of ~40s model load. Idempotent: repeat calls reuse
+    the already-loaded singletons.
+
+    Never builds an LLM provider (no API key required) and never
+    generates text. ``answer()`` stays safe to call without ``warmup()``
+    — lazy initialization remains the fallback.
+
+    Returns:
+        ``{"chunks": <indexed chunk count>, "retriever_loaded": True}``.
+    """
+    index = _shared_index(chunks_dir)
+    # Imported here (not at module top) to preserve this package's
+    # dependency-free footprint; looked up at call time so tests can
+    # substitute ``retrieval.retrieve`` without loading real models.
+    from retrieval import loaded_retriever
+    from retrieval import retrieve as _retrieve
+
+    _retrieve(WARMUP_QUERY)
+    return {"chunks": len(index.by_id), "retriever_loaded": loaded_retriever() is not None}
+
+
 def answer(
     query: str,
     top_k: int = 3,
@@ -83,6 +137,7 @@ def answer(
     provider: Optional[LLMProvider] = None,
     model: Optional[str] = None,
     telemetry: Optional[Telemetry] = None,
+    mode: str = "ask",
 ) -> QueryResult:
     """Answer one BIS question with the complete RAG pipeline.
 
@@ -92,11 +147,15 @@ def answer(
     ``retrieve_fn`` falls back to a fresh ``retrieval.retrieve`` lookup
     per call (matching the FastAPI adapter's monkeypatch-friendly
     behavior). ``model`` defaults to the provider's ``default_model``.
+    ``mode`` (``"ask"`` or ``"product_match"``) selects task-specific
+    prompt instructions only; retrieval, verification, refusal, and
+    retries are identical across modes.
 
     Returns:
         :class:`QueryResult` (answer, citations, refusal info,
         retrieval metadata, request-scoped telemetry).
     """
+    validate_mode(mode)
     if retrieve_fn is None:
         from retrieval import retrieve as _retrieve
 
@@ -116,4 +175,5 @@ def answer(
         provider=provider,
         model=model,
         telemetry=telemetry,
+        mode=mode,
     )
