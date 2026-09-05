@@ -1,0 +1,1161 @@
+[
+  {
+    "query": "What products fall under the scope of the protective helmet standard for two-wheeler riders?",
+    "mode": "ask",
+    "response": {
+      "answer": "The standard that applies is IS 4151:2015 [IS 4151:2015, Clause 1, Page 3]. \n\nThe products that fall under its scope are protective helmets (with or without lower face cover) for everyday use by two-wheeler riders [IS 4151:2015, Clause 1.1, Page 3]. However, the helmets covered by this standard are not intended for high-speed competitive events [IS 4151:2015, Clause 1.2, Page 3].",
+      "citations": [
+        {
+          "id": "clause-4151-1",
+          "label": "IS 4151:2015, Cl. 1",
+          "standard_id": "IS-4151-2015",
+          "clause_number": "1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-4151-11",
+          "label": "IS 4151:2015, Cl. 1.1",
+          "standard_id": "IS-4151-2015",
+          "clause_number": "1.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-4151-12",
+          "label": "IS 4151:2015, Cl. 1.2",
+          "standard_id": "IS-4151-2015",
+          "clause_number": "1.2",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "direct-factual",
+      "expected": "IS 4151 Cl.1 / 4151_2015_amd1_reff2020",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 3.1,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9429389238357544,
+      "error": null
+    }
+  },
+  {
+    "query": "What is electric regenerative braking according to the braking standard?",
+    "mode": "ask",
+    "response": {
+      "answer": "According to IS 15986:2015, electric regenerative braking is defined as a braking system which, during deceleration, provides for the conversion of vehicle kinetic energy into electrical energy [IS 15986:2015, Clause 3.17, Page 4-5].",
+      "citations": [
+        {
+          "id": "clause-15986-317",
+          "label": "IS 15986:2015, Cl. 3.17",
+          "standard_id": "IS-15986-2015",
+          "clause_number": "3.17",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "definition",
+      "expected": "IS 15986 Cl.3.17",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 1.9,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9973140358924866,
+      "error": null
+    }
+  },
+  {
+    "query": "What are the requirements for transverse reinforcement in columns?",
+    "mode": "ask",
+    "response": {
+      "answer": "Based on IS 456:2000, the requirements for transverse reinforcement in columns are as follows:\n\n### General Requirements\n* Transverse reinforcement shall be provided either in the form of circular rings capable of taking up circumferential tension or by polygonal links (lateral ties) with internal angles not exceeding $135^\\circ$ [IS 456:2000, Clause 26.5.3, Page 50].\n* The ends of the transverse reinforcement shall be properly anchored [IS 456:2000, Clause 26.5.3, Page 50].\n\n### Arrangement of Transverse Reinforcement\n* If the longitudinal bars are not spaced more than 75 mm on either side, transverse reinforcement need only to go round corner and alternate bars for the purpose of providing effective lateral supports [IS 456:2000, Clause 26.5.3, Page 50].\n* If the longitudinal bars are spaced at a distance not exceeding 48 times the diameter of the tie and are effectively tied in two directions, additional longitudinal bars in between these bars need to be tied in one direction by open ties [IS 456:2000, Clause 26.5.3, Page 50].\n* Where the longitudinal reinforcing bars in a compression member are placed in more than one row, effective lateral support to the longitudinal bars in the inner rows may be assumed to have been provided if:\n  1) transverse reinforcement is provided for the outer-most row in accordance with 26.5.3.2; and [IS 456:2000, Clause 26.5.3, Page 50]\n  2) no bar of the inner row is closer to the nearest compression face than three times the diameter of the largest bar in the inner row [IS 456:2000, Clause 26.5.3, Page 50].\n* Where the longitudinal bars in a compression member are grouped (not in contact) and each group is adequately tied with transverse reinforcement in accordance with 26.5.3.2, the transverse reinforcement for the compression member as a whole may be provided on the assumption that each group is a single longitudinal bar for the purpose of determining the pitch and diameter of the transverse reinforcement in accordance with 26.5.3.2. The diameter of such transverse reinforcement need not, however, exceed 20 mm [IS 456:2000, Clause 26.5.3, Page 50].\n\n### Pitch and Diameter of Lateral Ties\n* **Pitch:** The pitch of transverse reinforcement shall be not more than the least of the following distances:\n  1) The least lateral dimension of the compression members; [IS 456:2000, Clause 26.5.3, Page 50]\n  2) Sixteen times the smallest diameter of the longitudinal reinforcement bar to be tied; and [IS 456:2000, Clause 26.5.3, Page 50]\n  3) 300 mm [IS 456:2000, Clause 26.5.3, Page 50].\n* **Diameter:** The diameter of the polygonal links or lateral ties shall be not less than one-fourth of the diameter of the largest longitudinal bar, and in no case less than 16 mm [IS 456:2000, Clause 26.5.3, Page 50]. *(Note: The text states \"l6mm\", which is reproduced exactly as written in the source block).*\n\n### Helical Reinforcement\n* **Pitch:** Helical reinforcement shall be of regular formation with the turns of the helix spaced evenly and its ends shall be anchored properly by providing one and a half extra turns of the spiral bar [IS 456:2000, Clause 26.5.3, Page 50]. \n* Where an increased load on the column on the strength of the helical reinforcement is allowed for, the pitch of helical turns shall be not more than 75 mm, nor more than one-sixth of the core diameter of the column, nor less than 25 mm, nor less than three times the diameter of the steel bar forming the helix. In other cases, the requirements of 26.5.3.2 shall be complied with [IS 456:2000, Clause 26.5.3, Page 50].\n* **Diameter:** The diameter of the helical reinforcement shall be in accordance with 26.5.3.2(c) (2) [IS 456:2000, Clause 26.5.3, Page 50].",
+      "citations": [
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-2653",
+          "label": "IS 456:2000, Cl. 26.5.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "26.5.3",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "clause-specific",
+      "expected": "IS 456 Cl.26.5.3",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 4.2,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9895311594009399,
+      "error": null
+    }
+  },
+  {
+    "query": "How is the target mean strength for concrete mix proportioning calculated?",
+    "mode": "ask",
+    "response": {
+      "answer": "The target mean compressive strength ($f'_{ck}$) for concrete mix proportioning is calculated using the following relation:\n\n$f'_{ck} = f_{ck} + 1.65 S$ \nor \n$f'_{ck} = f_{ck} + X$ \nwhichever is higher [IS 10262:2019, Clause 4.2, Page 4]\n\nWhere:\n* $f'_{ck}$ = target mean compressive strength at 28 days, in $\\text{N/mm}^2$ [IS 10262:2019, Clause 4.2, Page 4]\n* $f_{ck}$ = characteristic compressive strength at 28 days, in $\\text{N/mm}^2$ [IS 10262:2019, Clause 4.2, Page 4]\n* $S$ = standard deviation, in $\\text{N/mm}^2$ (calculated based on test strength of samples or assumed per Table 2 when sufficient test results are not available) [IS 10262:2019, Clause 4.2, Page 4, and Clause 4.2.1.3, Page 4-5]\n* $X$ = factor based on the grade of concrete, as per Table 1 [IS 10262:2019, Clause 4.2, Page 4]\n\nFor mass concrete, the target strength calculated as above shall additionally be increased by 20 percent for 80 mm maximum nominal size of aggregate (msa), and by 25 percent for 150 mm msa, to account for the higher strength achieved after wet sieving the concrete through a 40 mm sieve for making 150 mm cubes (unless any other relationship is established at site) [IS 10262:2019, Clause 9.2, Page 14-15].",
+      "citations": [
+        {
+          "id": "clause-10262-42",
+          "label": "IS 10262:2019, Cl. 4.2",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "4.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-42",
+          "label": "IS 10262:2019, Cl. 4.2",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "4.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-42",
+          "label": "IS 10262:2019, Cl. 4.2",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "4.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-42",
+          "label": "IS 10262:2019, Cl. 4.2",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "4.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-4213",
+          "label": "IS 10262:2019, Cl. 4.2.1.3",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "4.2.1.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-42",
+          "label": "IS 10262:2019, Cl. 4.2",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "4.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-92",
+          "label": "IS 10262:2019, Cl. 9.2",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "9.2",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "numerical",
+      "expected": "IS 10262 Cl.4.2",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 2.7,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9986761212348938,
+      "error": null
+    }
+  },
+  {
+    "query": "What unit weight should be taken for stored cement bags when calculating dead loads?",
+    "mode": "ask",
+    "response": {
+      "answer": "The provided blocks do not contain the answer.",
+      "citations": [],
+      "confidence": "low",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "table-based",
+      "expected": "IS 875 Table 2",
+      "verdict": "PASS (appropriate abstention)",
+      "refused": false,
+      "latency_seconds": 3.0,
+      "llm_attempts": 2,
+      "llm_api_calls": 2,
+      "correction_retry": false,
+      "widen_retry": true,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9818651080131531,
+      "error": null
+    }
+  },
+  {
+    "query": "What are the combined requirements for water quality and aggregate size in concrete?",
+    "mode": "ask",
+    "response": {
+      "answer": "Based on the provided standards, the requirements for water quality and aggregate size in concrete are as follows:\n\n**Water Quality and Mixing Water Requirements:**\n* Water proposed for use in concrete shall be tested, and the average compressive strength of at least three 150 mm concrete cubes prepared with the water proposed to be used shall not be less than 90 percent of the average strength of three similar concrete cubes prepared with distilled water [IS 456:2000, Clause 5.3.3, Page 15].\n* The initial setting time of a test block made with the appropriate cement and the water proposed to be used shall not be less than 30 min and shall not differ by $\\pm$ 30 min from the initial setting time of a control test block prepared with the same cement and distilled water [IS 456:2000, Clause 5.3.3, Page 15].\n* Sea water may be used for mixing or curing only in plain concrete with no embedded steel under unavoidable circumstances, after giving due consideration to the presence of harmful salts [IS 456:2000, Clause 5.3.3, Page 15].\n* The quantity of mixing water is influenced by the maximum size, particle shape, and grading of the aggregate, as well as the quantity of cement, pozzolanic material, and the type of chemical admixture used [IS 10262:2019, Clause 6.2.4, Page 9-10]. For high-strength concrete without chemical admixtures, water content estimates are given in Table 7 [IS 10262:2019, Clause 6.2.4, Page 9-10], and the water so calculated shall be reduced by the use of high-range water-reducing admixtures conforming to IS 9103 [IS 10262:2019, Clause 6.2.4, Page 10]. In the case of water-cement ratios on the upper limits of the durability clause, water contributed by admixtures must be considered in calculations to fix the final water-cement ratio [IS 10262:2019, Clause 6.2.4, Page 10].\n\n**Aggregate Size Requirements:**\n* The nominal maximum size of coarse aggregate should be as large as possible within the specified limits, but in no case greater than one-fourth of the minimum thickness of the member, provided the concrete can be placed without difficulty to surround all reinforcement thoroughly and fill corners [IS 456:2000, Clause 5.3.3, Page 15].\n* Where there is no restriction to the flow of concrete into sections, 40 mm or larger size may be permitted [IS 456:2000, Clause 5.3.3, Page 15].\n* In concrete elements with thin sections, closely spaced reinforcement, or small cover, consideration should be given to using 10 mm nominal maximum size [IS 456:2000, Clause 5.3.3, Page 15].\n* For heavily reinforced concrete members, a smaller maximum size of aggregate is usually recommended [IS 456:2000, Clause 5.3.3, Page 15].\n* Plums above 160 mm and up to any reasonable size may be used in plain concrete work up to a maximum limit of 20 percent by volume of concrete when specifically permitted by the engineer-in-charge, distributed evenly and not closer than 150 mm from the surface [IS 456:2000, Clause 5.3.3, Page 15].\n* For high-strength concrete (Grade M 65 and above), the maximum size of aggregates is generally restricted to 20 mm based on strength requirements, though for grades M80 and above, aggregates of maximum size 10.0 mm to 12.5 mm may be preferable [IS 10262:2019, Clause 6.2.2, Page 9].",
+      "citations": [
+        {
+          "id": "clause-456-533",
+          "label": "IS 456:2000, Cl. 5.3.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "5.3.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-533",
+          "label": "IS 456:2000, Cl. 5.3.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "5.3.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-533",
+          "label": "IS 456:2000, Cl. 5.3.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "5.3.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-624",
+          "label": "IS 10262:2019, Cl. 6.2.4",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "6.2.4",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-624",
+          "label": "IS 10262:2019, Cl. 6.2.4",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "6.2.4",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-624",
+          "label": "IS 10262:2019, Cl. 6.2.4",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "6.2.4",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-624",
+          "label": "IS 10262:2019, Cl. 6.2.4",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "6.2.4",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-533",
+          "label": "IS 456:2000, Cl. 5.3.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "5.3.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-533",
+          "label": "IS 456:2000, Cl. 5.3.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "5.3.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-533",
+          "label": "IS 456:2000, Cl. 5.3.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "5.3.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-533",
+          "label": "IS 456:2000, Cl. 5.3.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "5.3.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-533",
+          "label": "IS 456:2000, Cl. 5.3.3",
+          "standard_id": "IS-456-2000",
+          "clause_number": "5.3.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-622",
+          "label": "IS 10262:2019, Cl. 6.2.2",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "6.2.2",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "multi-clause",
+      "expected": "IS 456 Cl.5.4 + 5.3.3",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 4.2,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9894659519195557,
+      "error": null
+    }
+  },
+  {
+    "query": "Under what conditions can nominal mix concrete be used instead of design mix?",
+    "mode": "ask",
+    "response": {
+      "answer": "Nominal mix concrete may be used for grades of M 20 or lower if design mix concrete cannot be used for any reason on the work, with the permission of the engineer-in-charge [IS 456:2000, Clause 9.1, Page 23]. Additionally, nominal mix concrete may be used for concrete of M 20 or lower [IS 456:2000, Clause 10.1, Page 6-24].",
+      "citations": [
+        {
+          "id": "clause-456-91",
+          "label": "IS 456:2000, Cl. 9.1",
+          "standard_id": "IS-456-2000",
+          "clause_number": "9.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-456-101",
+          "label": "IS 456:2000, Cl. 10.1",
+          "standard_id": "IS-456-2000",
+          "clause_number": "10.1",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "conditional",
+      "expected": "IS 456 Cl.9.1.1",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 3.9,
+      "llm_attempts": 2,
+      "llm_api_calls": 2,
+      "correction_retry": true,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9740910530090332,
+      "error": null
+    }
+  },
+  {
+    "query": "In concrete mix designation, what does the letter M stand for?",
+    "mode": "ask",
+    "response": {
+      "answer": "In the designation of concrete mix, the letter M refers to the mix [IS 456:2000, Clause 1, Page 17].",
+      "citations": [
+        {
+          "id": "clause-456-1",
+          "label": "IS 456:2000, Cl. 1",
+          "standard_id": "IS-456-2000",
+          "clause_number": "1",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "classification",
+      "expected": "IS 456 designation",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 1.8,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.8382599353790283,
+      "error": null
+    }
+  },
+  {
+    "query": "How should trial mixes be checked and adjusted during concrete mix design?",
+    "mode": "ask",
+    "response": {
+      "answer": "Based on the provided standards, calculated mix proportions must be checked by means of trial batches [IS 10262:2019, Clause 5.8, Page 8]. The trial mixes are checked and adjusted as follows:\n\n1. **Trial Mix No. 1:** Measure the workability of Trial Mix No. 1 and carefully observe the mix for freedom from segregation, bleeding, and its finishing properties [IS 10262:2019, Clause 5.8, Page 8]. \n2. **Water/Admixture Adjustment:** If the measured workability of Trial Mix No. 1 differs from the stipulated value, adjust the water and/or admixture content suitably [IS 10262:2019, Clause 5.8, Page 8].\n3. **Trial Mix No. 2:** Recalculate the mix proportion with the adjusted water and/or admixture content while keeping the free water-cement/water-cementitious materials ratio at the pre-selected value [IS 10262:2019, Clause 5.8, Page 8-9].\n4. **Trial Mixes No. 3 and 4:** Make two additional trial mixes (Trial Mixes No. 3 and 4) using the same water content as Trial Mix No. 2, but varying the free water-cement/cementitious materials ratio by about ± 10 percent of the pre-selected value, while also satisfying the workability requirements [IS 10262:2019, Clause 5.8, Page 8-9].\n5. **Finalization:** Mixes No. 2 to 4 normally provide sufficient information (including the relationship between compressive strength and water-cement ratio) to finalize the mix proportions so that strength and durability requirements are satisfied [IS 10262:2019, Clause 5.8, Page 9]. Additional field trials (produced by methods of actual concrete production) are recommended, particularly for workability requirements [IS 10262:2019, Clause 5.8, Page 9].",
+      "citations": [
+        {
+          "id": "clause-10262-58",
+          "label": "IS 10262:2019, Cl. 5.8",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "5.8",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-58",
+          "label": "IS 10262:2019, Cl. 5.8",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "5.8",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-58",
+          "label": "IS 10262:2019, Cl. 5.8",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "5.8",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-58",
+          "label": "IS 10262:2019, Cl. 5.8",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "5.8",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-58",
+          "label": "IS 10262:2019, Cl. 5.8",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "5.8",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-58",
+          "label": "IS 10262:2019, Cl. 5.8",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "5.8",
+          "snippet": ""
+        },
+        {
+          "id": "clause-10262-58",
+          "label": "IS 10262:2019, Cl. 5.8",
+          "standard_id": "IS-10262-2019",
+          "clause_number": "5.8",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "procedure",
+      "expected": "IS 10262 Cl.5.8/9.10",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 2.7,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9967294931411743,
+      "error": null
+    }
+  },
+  {
+    "query": "What are the key requirements for pet food for dogs and cats?",
+    "mode": "ask",
+    "response": {
+      "answer": "Based on the provided standards, the key requirements for pet food for dogs and cats are as follows:\n\n* **General Description and Condition:** Pet foods for dogs and cats must be in the form of meal (or mesh), crumbs, or biscuits, and must be free from rancidity, musty odour, toxic ingredients, visible mold, and insect infestation [IS 11968:2019, Clause 5.1, Page 4].\n* **Nutritional Requirements:** \n  * Complete pet food for puppies and adult dogs must conform to the requirements prescribed in Table 1 [IS 11968:2019, Clause 5.2, Page 4].\n  * Complete pet food for kittens and adult cats must conform to the requirements prescribed in Table 2 [IS 11968:2019, Clause 5.2, Page 4].\n* **Undesirable Substances:** Pet food products must conform to the requirements prescribed in Table 3 regarding undesirable substances or feed materials used in production [IS 11968:2019, Clause 5.3, Page 4]. Feed materials or compound pet food products containing levels of an undesirable substance exceeding the maximum limits fixed in Table 3 shall not be mixed for dilution purposes with the same or other products intended for pet food [IS 11968:2019, Clause 5.3, Page 4].\n* **Metabolizable Energy:** The predictable metabolizable energy of pet food can be calculated using the method given in Annex C [IS 11968:2019, Clause 5.4, Page 4].\n* **Ingredients:** Only the ingredients listed in Annex B shall be used for manufacturing complete food for dogs and cats [IS 11968:2019, Clause 5.5, Page 4].\n* **Prohibited Additives and Residue Limits:** Antibiotics, hormones, or other drugs shall not be used in preparing pet food for dogs and cats [IS 11968:2019, Clause 5.6, Page 4]. Residues of agricultural chemicals and veterinary residues must not exceed those permitted for human consumption [IS 11968:2019, Clause 5.6, Page 4].\n* **Temperature Control:** Where temperature control of raw materials, intermediate or finished pet food products, processes, or environments is critical to product safety and quality, it must be adequately controlled, monitored, and recorded [IS 11968:2019, Clause 5.8.1, Page 4].\n* **Heat Treatment Requirements:**\n  * Canned pet food and other hermetically sealed heat-treated containers must be subjected to heat treatment to a minimum $F_0$ value of 3 or the specified equivalent heat treatments (ranging from $110^\\circ\\text{C}$ for 40 min to $136^\\circ\\text{C}$ for 6 s) [IS 11968:2019, Clause 5.8.2, Page 4-5].\n  * Processed pet food (other than canned or hermetically sealed containers) must be subjected to a heat treatment of at least $90^\\circ\\text{C}$ throughout its substance or equivalent to destroy pathogens, protected from subsequent contamination, and packed in new packaging [IS 11968:2019, Clause 5.8.3, Page 5].\n  * Dog chews must undergo sufficient heat treatment during processing to destroy pathogenic organisms, including *Salmonella*, protected from contamination post-treatment, and packed in new packaging [IS 11968:2019, Clause 5.8.4, Page 5].\n* **Pet Food Hygiene:** Manufacturers must ensure that all stages of production, processing, and distribution (whether under their control or outsourced) are carried out in accordance with the World Health Organization’s (WHO) Good Manufacturing Practices (GMP) and satisfy relevant statutory hygiene requirements [IS 11968:2019, Clause 5.8.5, Page 5]. Manufacturers must adopt and maintain a suitable preventive food safety management system following human food Hazard Analysis and Critical Control Points (HACCP) covering all stages under their control, per IS/ISO 22000 and IS 2491 [IS 11968:2019, Clause 5.8.5, Page 5].",
+      "citations": [
+        {
+          "id": "clause-11968-51",
+          "label": "IS 11968:2019, Cl. 5.1",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-52",
+          "label": "IS 11968:2019, Cl. 5.2",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-52",
+          "label": "IS 11968:2019, Cl. 5.2",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-53",
+          "label": "IS 11968:2019, Cl. 5.3",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-53",
+          "label": "IS 11968:2019, Cl. 5.3",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-54",
+          "label": "IS 11968:2019, Cl. 5.4",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.4",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-55",
+          "label": "IS 11968:2019, Cl. 5.5",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.5",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-56",
+          "label": "IS 11968:2019, Cl. 5.6",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.6",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-56",
+          "label": "IS 11968:2019, Cl. 5.6",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.6",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-581",
+          "label": "IS 11968:2019, Cl. 5.8.1",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.8.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-582",
+          "label": "IS 11968:2019, Cl. 5.8.2",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.8.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-583",
+          "label": "IS 11968:2019, Cl. 5.8.3",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.8.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-584",
+          "label": "IS 11968:2019, Cl. 5.8.4",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.8.4",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-585",
+          "label": "IS 11968:2019, Cl. 5.8.5",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.8.5",
+          "snippet": ""
+        },
+        {
+          "id": "clause-11968-585",
+          "label": "IS 11968:2019, Cl. 5.8.5",
+          "standard_id": "IS-11968-2019",
+          "clause_number": "5.8.5",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "product-material",
+      "expected": "IS 11968 Cl.5",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 4.2,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9965644478797913,
+      "error": null
+    }
+  },
+  {
+    "query": "Which BIS standard applies to cycle and rickshaw pneumatic tyres?",
+    "mode": "ask",
+    "response": {
+      "answer": "The BIS standard that applies to cycle and rickshaw pneumatic tyres is IS 2414:2005 (fourth revision), referenced within the scope of cycle rubber tubes [IS 2415:2025, Clause 1, Page 3].",
+      "citations": [
+        {
+          "id": "clause-2415-1",
+          "label": "IS 2415:2025, Cl. 1",
+          "standard_id": "IS-2415-2025",
+          "clause_number": "1",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "product-to-standard",
+      "expected": "IS 2415",
+      "verdict": "PASS (reference-list grounded)",
+      "refused": false,
+      "latency_seconds": 1.9,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9287880063056946,
+      "error": null
+    }
+  },
+  {
+    "query": "What is an enveloping digital signature, and does the standard specify policy content?",
+    "mode": "ask",
+    "response": {
+      "answer": "An enveloping digital signature is defined as a digital signature embedding the signed data object [IS 19278:2025, Clause 3.1.20, Page 4]. \n\nRegarding policy content, the standard notes that an augmentation policy can be uniquely identified by an OID/URI, but the standard does not further specify the content of such a policy [IS 19278:2025, Clause 2, Page 4-5].",
+      "citations": [
+        {
+          "id": "clause-19278-3120",
+          "label": "IS 19278:2025, Cl. 3.1.20",
+          "standard_id": "IS-19278-2025",
+          "clause_number": "3.1.20",
+          "snippet": ""
+        },
+        {
+          "id": "clause-19278-2",
+          "label": "IS 19278:2025, Cl. 2",
+          "standard_id": "IS-19278-2025",
+          "clause_number": "2",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "cross-chunk",
+      "expected": "IS 19278 Cl.3.1.20 + Cl.2",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 1.8,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9695529341697693,
+      "error": null
+    }
+  },
+  {
+    "query": "What is a Notice in the context of data privacy assurance?",
+    "mode": "ask",
+    "response": {
+      "answer": "A Notice is defined as information regarding the processing of personal information [IS 17428:2020, Clause 3.9, Page 6].",
+      "citations": [
+        {
+          "id": "clause-17428-39",
+          "label": "IS 17428:2020, Cl. 3.9",
+          "standard_id": "IS-17428-2020",
+          "clause_number": "3.9",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "technical-term",
+      "expected": "IS 17428 Cl.3.9",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 3.3,
+      "llm_attempts": 2,
+      "llm_api_calls": 2,
+      "correction_retry": false,
+      "widen_retry": true,
+      "retrieval_expansion": true,
+      "top_reranker_score": 0.9270235300064087,
+      "error": null
+    }
+  },
+  {
+    "query": "What are the positioning requirements for brake fluid reservoir symbols on vehicles?",
+    "mode": "ask",
+    "response": {
+      "answer": "The symbols identifying the type of fluid to be used in hydraulic transmission braking systems shall be affixed in a visible position in indelible form within 100 mm of the filling ports of the fluid reservoirs [IS 15986:2015, Clause 5.2, Page 8].",
+      "citations": [
+        {
+          "id": "clause-15986-52",
+          "label": "IS 15986:2015, Cl. 5.2",
+          "standard_id": "IS-15986-2015",
+          "clause_number": "5.2",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "limit-range",
+      "expected": "IS 15986 Cl.5.2.14",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 3.2,
+      "llm_attempts": 2,
+      "llm_api_calls": 2,
+      "correction_retry": true,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9250978827476501,
+      "error": null
+    }
+  },
+  {
+    "query": "What requirements and marking provisions apply to edible maize starch?",
+    "mode": "ask",
+    "response": {
+      "answer": "Based on IS 1005:1992, the applicable standard, requirements, and marking provisions for edible maize starch (corn flour) are as follows:\n\n### **Standard Scope**\nThe standard prescribes the requirements and the methods of sampling and test for edible maize starch (corn flour) [IS 1005:1992, Clause 1, Page 3]. Edible maize starch (corn flour) is defined as starch obtained from maize (*Zea mays* Linn.) manufactured by the wet grinding process, as distinct from maize (corn) flour popularly known as *MAKAI KA ATTA* in Hindi [IS 1005:1992, Clause 3, Page 3].\n\n---\n\n### **Requirements**\n\n#### **1. Description**\n* The material shall be in the form of a fine powder and normally white in colour, except when light creamy [IS 1005:1992, Clause 4.1, Page 3].\n* It shall be free from rancidity, adulterants, insect or fungus infestation, and from fermented, musty, or other objectionable odours [IS 1005:1992, Clause 4.1, Page 3].\n* It shall not contain added sweetening, flavouring, colouring agents, or any foreign matter [IS 1005:1992, Clause 4.1, Page 3].\n\n#### **2. Microscopic Appearance and Granule Size**\nWhen subjected to microscopic examination prescribed in IS 4706 (Part 1) : 1978, the starch granules shall conform to the following description:\n* Granules are usually polygonal or rounded in shape and appear quite uniform in size [IS 1005:1992, Clause 4.2, Page 3].\n* The longest axis ranges from 10 to 30 $\\mu$m (0.01 to 0.03 mm) [IS 1005:1992, Clause 4.2, Page 3].\n* The hilum is fairly marked and is starred with fissures, but no striae are observed; distinct polarized crosses are seen [IS 1005:1992, Clause 4.2, Page 3].\n\n#### **3. Extraneous Matter**\nThe material, when examined by the method prescribed in 6 of IS 4706 (Part 1) : 1978, shall be free from dirt and other suspended and extraneous matter [IS 1005:1992, Clause 4.3, Page 3].\n\n#### **4. Particle Size**\nWhen tested by the method prescribed in 3 of IS 4706 (Part 1) : 1978:\n* Not more than 2 percent by mass of the material shall be retained on a 75-micron IS Sieve [IS 1005:1992, Clause 4.4, Page 3].\n* Not more than 0.5 percent by mass shall be retained on a 150-micron IS Sieve [IS 1005:1992, Clause 4.4, Page 3].\n\n#### **5. Hygienic Conditions**\nThe material shall be manufactured in premises and equipment maintained under hygienic conditions (see IS 2491 : 1972) [IS 1005:1992, Clause 4.5, Page 3].\n\n#### **6. Chemical, Microbiological, and Metallic Impurity Requirements (Table 1)**\nThe material shall comply with the following limits:\n* Moisture, percent by mass, Max: 12.5 [IS 1005:1992, Table 1, Page 5]\n* Total ash (on dry basis), percent by mass, Max: 0.20 [IS 1005:1992, Table 1, Page 5]\n* Acid insoluble ash (on dry basis), percent by mass, Max: 0.10 [IS 1005:1992, Table 1, Page 5]\n* Starch (on dry basis), percent by mass, Min: 98.0 [IS 1005:1992, Table 1, Page 5]\n* Protein ($N \\times 6.25$) (on dry basis), percent by mass, Max: 0.60 [IS 1005:1992, Table 1, Page 5]\n* pH of aqueous extract: 4.5 to 7.0 [IS 1005:1992, Table 1, Page 5]\n* Alcoholic acidity (expressed as $\\text{H}_2\\text{SO}_4$) with 90 percent alcohol, percent by mass, Max: 0.025 [IS 1005:1992, Table 1, Page 5]\n* E. coli (in 25 g): Absent [IS 1005:1992, Table 1, Page 5]\n* Salmonella (in 25 g): Absent [IS 1005:1992, Table 1, Page 5]\n* Arsenic, mg/kg, Max: 1.2 [IS 1005:1992, Table 1, Page 5]\n* Lead, mg/kg, Max: 2.5 [IS 1005:1992, Table 1, Page 5]\n* Copper, mg/kg, Max: 30.0 [IS 1005:1992, Table 1, Page 5]\n* Zinc, mg/kg, Max: 50.0 [IS 1005:1992, Table 1, Page 5]\n* Tin, mg/kg, Max: 250.0 [IS 1005:1992, Table 1, Page 5]\n* Mercury, mg/kg, Max: 0.1 [IS 1005:1992, Table 1, Page 5]\n* Cadmium, mg/kg, Max: 1.5 [IS 1005:1992, Table 1, Page 5]\n\n---\n\n### **Marking Provisions**\n* Each container shall be suitably marked/printed with an indelible insoluble ink to give the following information [IS 1005:1992, Clause 6.1, Page 3]:\n  * a) Name of the material [IS 1005:1992, Clause 6.1, Page 3]\n  * b) Name and address of the manufacturer [IS 1005:1992, Clause 6.1, Page 3]\n  * c) Batch or code number [IS 1005:1992, Clause 6.1, Page 3]\n  * d) Date of manufacture [IS 1005:1992, Clause 6.1, Page 3]\n  * e) Net mass of contents [IS 1005:1992, Clause 6.1, Page 3]\n  * f) Any other details required under the Standards of Weights and Measures (Packaged Commodities) Rules 1977/PFA Rules [IS 1005:1992, Clause 6.1, Page 3].\n* Standard Marking details are available with the Bureau of Indian Standards [IS 1005:1992, Clause 6.1.1, Page 4].",
+      "citations": [
+        {
+          "id": "clause-1005-1",
+          "label": "IS 1005:1992, Cl. 1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-3",
+          "label": "IS 1005:1992, Cl. 3",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-41",
+          "label": "IS 1005:1992, Cl. 4.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-41",
+          "label": "IS 1005:1992, Cl. 4.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-41",
+          "label": "IS 1005:1992, Cl. 4.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-42",
+          "label": "IS 1005:1992, Cl. 4.2",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-42",
+          "label": "IS 1005:1992, Cl. 4.2",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-42",
+          "label": "IS 1005:1992, Cl. 4.2",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.2",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-43",
+          "label": "IS 1005:1992, Cl. 4.3",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.3",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-44",
+          "label": "IS 1005:1992, Cl. 4.4",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.4",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-44",
+          "label": "IS 1005:1992, Cl. 4.4",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.4",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-45",
+          "label": "IS 1005:1992, Cl. 4.5",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "4.5",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-61",
+          "label": "IS 1005:1992, Cl. 6.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "6.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-61",
+          "label": "IS 1005:1992, Cl. 6.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "6.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-61",
+          "label": "IS 1005:1992, Cl. 6.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "6.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-61",
+          "label": "IS 1005:1992, Cl. 6.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "6.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-61",
+          "label": "IS 1005:1992, Cl. 6.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "6.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-61",
+          "label": "IS 1005:1992, Cl. 6.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "6.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-61",
+          "label": "IS 1005:1992, Cl. 6.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "6.1",
+          "snippet": ""
+        },
+        {
+          "id": "clause-1005-611",
+          "label": "IS 1005:1992, Cl. 6.1.1",
+          "standard_id": "IS-1005-1992",
+          "clause_number": "6.1.1",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "multi-requirement",
+      "expected": "IS 1005 Cl.4 + Cl.6",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 5.7,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9950226545333862,
+      "error": null
+    }
+  },
+  {
+    "query": "Is there a mass limit for protective helmets for two-wheeler riders?",
+    "mode": "ask",
+    "response": {
+      "answer": "Yes, there is a mass limit for protective helmets for two-wheeler riders. The mass of the complete helmet (without peak, visor, and detachable lower face cover, if provided) shall not exceed 1 500 g, though protective helmets with lesser mass are preferred [IS 4151:2015, Clause 6.9, Page 6-7].",
+      "citations": [
+        {
+          "id": "clause-4151-69",
+          "label": "IS 4151:2015, Cl. 6.9",
+          "standard_id": "IS-4151-2015",
+          "clause_number": "6.9",
+          "snippet": ""
+        }
+      ],
+      "confidence": "high",
+      "refusal_message": null,
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "realistic-user",
+      "expected": "IS 4151 mass",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 1.9,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.9839613437652588,
+      "error": null
+    }
+  },
+  {
+    "query": "What is the capital of Australia and what is its population?",
+    "mode": "ask",
+    "response": {
+      "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+      "citations": [],
+      "confidence": "refused",
+      "refusal_message": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "out-of-context",
+      "expected": "expect refusal",
+      "verdict": "PASS (appropriate refusal)",
+      "refused": true,
+      "latency_seconds": 0.2847,
+      "llm_attempts": 0,
+      "llm_api_calls": 0,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.04924849420785904,
+      "error": null
+    }
+  },
+  {
+    "query": "How do I bake sourdough bread at home?",
+    "mode": "ask",
+    "response": {
+      "answer": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+      "citations": [],
+      "confidence": "refused",
+      "refusal_message": "The provided Indian Standards documents do not contain sufficient technical information to answer this query.",
+      "suggested_action": null,
+      "language": "en"
+    },
+    "evaluation": {
+      "category": "out-of-context",
+      "expected": "expect refusal",
+      "verdict": "PASS (appropriate refusal)",
+      "refused": true,
+      "latency_seconds": 0.5297999999999999,
+      "llm_attempts": 0,
+      "llm_api_calls": 0,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.000967759289778769,
+      "error": null
+    }
+  },
+  {
+    "query": "We manufacture pneumatic tyres for bicycles and cycle-rickshaws. Which BIS standards apply to our product?",
+    "mode": "product_match",
+    "response": {
+      "matches": [],
+      "input_interpreted_as": "We manufacture pneumatic tyres for bicycles and cycle-rickshaws. Which BIS standards apply to our product?"
+    },
+    "evaluation": {
+      "category": "product-clear",
+      "expected": "IS 2415",
+      "verdict": "PASS (appropriate abstention)",
+      "refused": false,
+      "latency_seconds": 3.2,
+      "llm_attempts": 2,
+      "llm_api_calls": 2,
+      "correction_retry": false,
+      "widen_retry": true,
+      "retrieval_expansion": false,
+      "top_reranker_score": 0.5480737686157227,
+      "error": null
+    }
+  },
+  {
+    "query": "We make a smartphone app for fitness tracking. Which BIS standards apply to our product?",
+    "mode": "product_match",
+    "response": {
+      "matches": [
+        {
+          "standard_id": "IS-17737-2021",
+          "number": "IS 17737:2021",
+          "title": "IS 17737:2021",
+          "confidence": 0.5562,
+          "is_qco_mandatory": false,
+          "reason": "Matched in retrieved evidence: Clause 6.4.2 (Page 14); Clause 6.4.2 (Page 14) of IS 17737:2021."
+        }
+      ],
+      "input_interpreted_as": "We make a smartphone app for fitness tracking. Which BIS standards apply to our product?"
+    },
+    "evaluation": {
+      "category": "product-ambiguous",
+      "expected": "expect abstention",
+      "verdict": "PASS",
+      "refused": false,
+      "latency_seconds": 2.9,
+      "llm_attempts": 1,
+      "llm_api_calls": 1,
+      "correction_retry": false,
+      "widen_retry": false,
+      "retrieval_expansion": true,
+      "top_reranker_score": 0.5561805963516235,
+      "error": null
+    }
+  }
+]
