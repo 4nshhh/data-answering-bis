@@ -429,6 +429,13 @@ def test_product_match_forbids_mentioned_only_standards(chunk_index):
     assert "merely mentioned inside another standard" not in ask_bundle.system
 
 
+def test_product_match_requires_stated_scope_coverage(chunk_index):
+    ask_bundle, pm_bundle = _bundles_both_modes(chunk_index)
+    assert "Technical similarity" in pm_bundle.system
+    assert "does not establish" in pm_bundle.system
+    assert "Technical similarity" not in ask_bundle.system
+
+
 def test_universal_grounding_present_in_both_modes(chunk_index):
     ask_bundle, pm_bundle = _bundles_both_modes(chunk_index)
     for bundle in (ask_bundle, pm_bundle):

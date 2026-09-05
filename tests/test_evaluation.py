@@ -201,3 +201,80 @@ def test_benchmark_threshold_defaults_to_calibrated_tau():
     from app.generator.refusal import DEFAULT_THRESHOLD
 
     assert harness.build_parser().get_default("threshold") == DEFAULT_THRESHOLD == 0.5
+
+
+def _harness_result(answer="Water pH not less than 6 [IS 456:2000, Clause 5.4, Page 15]."):
+    from app.generator.pipeline import CitationOut, QueryResult, RetrievalMeta
+
+    return QueryResult(
+        query="What is the pH?",
+        answer=answer,
+        citations=[CitationOut(standard_no="IS 456", year="2000", clause="5.4",
+                               page=15, chunk_id="c14", verified=True,
+                               rerank_score=0.99)],
+        retrieval_meta=RetrievalMeta(filtered_standard="IS 456",
+                                     is_mask_restricted=True,
+                                     candidates_retrieved=10,
+                                     top_reranker_score=0.99,
+                                     execution_time_ms=10.0),
+        refused=False,
+        refusal_reason=None,
+    )
+
+
+def test_adapt_result_ask_is_exact_backend_response():
+    import evaluation.run_benchmark as harness
+    from app.generator.adapters import to_ask_response
+
+    result = _harness_result()
+    assert harness.adapt_result("What is the pH?", "ask", result) == to_ask_response(result)
+
+
+def test_adapt_result_product_match_is_exact_backend_response():
+    import evaluation.run_benchmark as harness
+    from app.generator.adapters import to_match_response
+
+    result = _harness_result()
+    assert harness.adapt_result("bulb", "product_match", result) == to_match_response(result, "bulb")
+
+
+def test_adapt_result_rejects_unknown_mode():
+    import evaluation.run_benchmark as harness
+
+    with pytest.raises(ValueError, match="mode must be one of"):
+        harness.adapt_result("q?", "bulk", _harness_result())
+
+
+def test_benchmark_parser_mode_flag():
+    import evaluation.run_benchmark as harness
+
+    assert harness.build_parser().get_default("mode") == "ask"
+    with pytest.raises(SystemExit):
+        harness.build_parser().parse_args(["--queries", "q.txt", "--mode", "bulk"])
+
+
+def test_default_responses_path_is_timestamped_json():
+    import re
+
+    import evaluation.run_benchmark as harness
+
+    path = harness.default_responses_path()
+    assert path.parent.name == "results"
+    assert re.fullmatch(r"responses_\d{8}T\d{6}Z\.json", path.name)
+
+
+def test_saved_entries_round_trip_as_json():
+    import evaluation.run_benchmark as harness
+
+    saved = [
+        {"query": "What is the pH?", "mode": "ask",
+         "response": harness.adapt_result("What is the pH?", "ask", _harness_result()),
+         "evaluation": {"refused": False, "latency_ms": 10.0, "error": None}},
+        {"query": "bulb", "mode": "product_match",
+         "response": harness.adapt_result("bulb", "product_match", _harness_result()),
+         "evaluation": {"refused": False, "latency_ms": 12.0, "error": None}},
+    ]
+    reloaded = json.loads(json.dumps(saved, ensure_ascii=False))
+    assert reloaded[0]["response"]["answer"].startswith("Water pH")
+    assert reloaded[0]["response"]["confidence"] == "high"
+    assert reloaded[1]["response"]["matches"][0]["standard_id"] == "IS-456-2000"

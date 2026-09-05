@@ -22,6 +22,7 @@ queries, models load lazily on first query)::
 from __future__ import annotations
 
 import argparse
+import datetime as _dt
 import json
 import sys
 from dataclasses import asdict
@@ -30,9 +31,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
+from app.generator.adapters import to_ask_response, to_match_response  # noqa: E402
 from app.generator.context_builder import load_chunk_index  # noqa: E402
 from app.generator.llm_client import GroqProvider  # noqa: E402
 from app.generator.pipeline import run_query  # noqa: E402
+from app.generator.prompts import validate_mode  # noqa: E402
 from app.generator.refusal import DEFAULT_THRESHOLD  # noqa: E402
 from evaluation.progress import QueryProgress  # noqa: E402
 
@@ -60,12 +63,33 @@ def score_row(result) -> dict:
     }
 
 
+def adapt_result(query: str, mode: str, result, chunk_index=None) -> dict:
+    """Convert one :class:`QueryResult` with the exact backend adapter.
+
+    ``mode="ask"`` uses :func:`to_ask_response`, ``mode="product_match"``
+    uses :func:`to_match_response`. The returned dict is the adapter's
+    own output, unmodified — the backend response contract, verbatim.
+    """
+    validate_mode(mode)
+    if mode == "product_match":
+        return to_match_response(result, query)
+    return to_ask_response(result, chunk_index=chunk_index)
+
+
+def default_responses_path() -> Path:
+    """Timestamped responses file; every run gets its own path."""
+    stamp = _dt.datetime.now(_dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    return REPO_ROOT / "evaluation" / "results" / f"responses_{stamp}.json"
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="End-to-end RAG pipeline benchmark")
     parser.add_argument("--queries", required=True, help="Text file, one query per line")
     parser.add_argument("--out", default=None, help="JSONL output path (default: stdout records only)")
     parser.add_argument("--limit", type=int, default=None, help="Max queries to run")
     parser.add_argument("--top-k", type=int, default=3)
+    parser.add_argument("--mode", default="ask", choices=("ask", "product_match"),
+                        help="Answering mode for every query (selects the backend adapter)")
     parser.add_argument("--expand-neighbors", action="store_true")
     # Calibrated sigmoid-scale default (refusal.py): the old -2.0
     # logit-scale default could never fire, silently disabling refusal.
@@ -96,6 +120,7 @@ def main(argv: list[str] | None = None) -> int:
     prog = QueryProgress(len(queries), enabled=False) if args.no_progress \
         else QueryProgress(len(queries))
     rows = []
+    saved = []
     try:
         for pos, query in enumerate(queries, 1):
             i = pos - 1
@@ -108,13 +133,35 @@ def main(argv: list[str] | None = None) -> int:
                     threshold=args.threshold,
                     chunk_index=chunk_index,
                     provider=provider,
+                    mode=args.mode,
                 )
                 record = {"i": i, "query": query, "answer": result.answer,
                           "citations": [asdict(c) for c in result.citations],
                           **score_row(result), "error": None}
+                saved.append({
+                    "query": query,
+                    "mode": args.mode,
+                    "response": adapt_result(query, args.mode, result, chunk_index),
+                    "evaluation": {
+                        "refused": result.refused,
+                        "refusal_reason": result.refusal_reason,
+                        "n_citations": len(result.citations),
+                        "n_verified": sum(1 for c in result.citations if c.verified),
+                        "top_reranker_score": result.retrieval_meta.top_reranker_score
+                        if result.retrieval_meta else None,
+                        "latency_ms": record["execution_time_ms"],
+                        "error": None,
+                    },
+                })
             except Exception as exc:  # noqa: BLE001 - recorded per row, run continues
                 record = {"i": i, "query": query, "answer": None, "citations": [],
                           "refused": None, "error": f"{type(exc).__name__}: {exc}"}
+                saved.append({
+                    "query": query,
+                    "mode": args.mode,
+                    "response": None,
+                    "evaluation": {"error": record["error"]},
+                })
             rows.append(record)
             if out_fh:
                 out_fh.write(json.dumps(record) + "\n")
@@ -147,7 +194,12 @@ def main(argv: list[str] | None = None) -> int:
         "citation_rate": (sum(1 for r in answered if r["n_citations"] > 0) / len(answered)) if answered else None,
         "all_verified_rate": (sum(1 for r in answered if r["all_verified"]) / len(answered)) if answered else None,
     }
+    responses_path = default_responses_path()
+    responses_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(responses_path, "w", encoding="utf-8") as fh:
+        json.dump(saved, fh, ensure_ascii=False, indent=2)
     print(json.dumps(summary, indent=2))
+    print(f"Responses written to {responses_path}")
     return 0
 
 
