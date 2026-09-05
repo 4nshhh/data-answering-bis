@@ -19,7 +19,7 @@ from __future__ import annotations
 import re
 from typing import Any, Callable, Optional
 
-from app.generator.pipeline import CitationOut, QueryResult
+from app.generator.pipeline import CitationOut, QueryResult, is_abstention_prose
 
 __all__ = [
     "standard_id_for",
@@ -133,6 +133,12 @@ def to_ask_response(
     if result.refused:
         confidence = "refused"
         refusal_message: Optional[str] = result.answer
+    elif not result.citations and is_abstention_prose(result.answer):
+        # Honest uncited abstention that passed retrieval (F6): a
+        # score-based band would contradict the prose, so cap at low.
+        # Cited answers — even ones noting limits — are unaffected.
+        confidence = "low"
+        refusal_message = None
     else:
         confidence = confidence_band(top)
         refusal_message = None

@@ -46,8 +46,41 @@ class ChunkStore(Protocol):
         """Reranker-ready representation for one row (enriched, not raw)."""
         ...
 
+    def enriched_texts(self, indices: list[int]) -> list[str]:
+        """Batch reranker-ready representations, in the requested order.
+
+        Default loops over :meth:`enriched_text`; remote-backed stores
+        override this with a single round trip. Outputs must be
+        identical either way — batching is transport only, never a
+        behavior change. Callers use it when present and fall back to
+        the single-row method otherwise, so minimal implementations
+        without this hook keep working.
+        """
+        return [self.enriched_text(i) for i in indices]
+
     def __len__(self) -> int:
         ...
+
+
+def read_env_file(key: str, filename: str | Path = ".env") -> str | None:
+    """Read one key from a dotenv file in the working directory.
+
+    Shared parsing rules for every backend (``KEY=value`` lines only;
+    ``#`` comments and surrounding quotes stripped). The LLM layer
+    delegates to this so storage and provider configuration can never
+    drift apart.
+    """
+    path = Path(filename)
+    if not path.exists():
+        return None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        name, value = line.split("=", 1)
+        if name.strip() == key:
+            return value.strip().strip('"').strip("'") or None
+    return None
 
 
 def load_chunks(chunks_dir: Path) -> list[ChunkRecord]:
@@ -177,6 +210,9 @@ class LocalNpyStore:
 
     def enriched_text(self, index: int) -> str:
         return self._enriched[index]
+
+    def enriched_texts(self, indices: list[int]) -> list[str]:
+        return [self._enriched[i] for i in indices]
 
     def mask_for(self, query_text: str) -> set[int] | None:
         return query_side_candidate_mask(query_text, self._records)

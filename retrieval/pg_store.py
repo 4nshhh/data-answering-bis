@@ -12,15 +12,15 @@ Table layout (see `indexing/migrate_from_artifacts.py`):
 
 Similarity is cosine distance (`<=>`); stored vectors are unit-norm, so
 score = 1 - dist matches the dot-product scoring of `LocalNpyStore`.
-Row indices are positional over `ORDER BY chunk_id`; the migration writes
-rows in sorted-glob chunk order and chunk IDs sort identically, so local
-row i == remote row i (verified by the parity harness).
+Row indices are positional over `ORDER BY row_pos` (NOT `ORDER BY
+chunk_id`: Postgres collations sort ``_`` before digits, unlike Python
+codepoint order); the migration assigns ``row_pos`` in sorted-glob chunk
+order, so local row i == remote row i.
 """
 
 from __future__ import annotations
 
 import os
-from pathlib import Path
 
 import numpy as np
 
@@ -31,16 +31,9 @@ EMBEDDING_DIM = 1024
 
 
 def _dsn() -> str:
-    dsn = os.environ.get("DATABASE_URL", "")
-    if not dsn:
-        env_path = Path(".env")
-        if env_path.exists():
-            for line in env_path.read_text(encoding="utf-8").splitlines():
-                line = line.strip()
-                if line and not line.startswith("#") and "=" in line:
-                    k, v = line.split("=", 1)
-                    if k.strip() == "DATABASE_URL":
-                        dsn = v.strip().strip('"').strip("'")
+    from .store import read_env_file
+
+    dsn = os.environ.get("DATABASE_URL", "") or read_env_file("DATABASE_URL") or ""
     if not dsn:
         raise SystemExit("DATABASE_URL not set (env or .env); refusing to guess.")
     return dsn
@@ -157,6 +150,24 @@ class PgVectorStore:
         if row is None:
             raise KeyError(f"No row at index {index}")
         return self._row_to_enriched(row)
+
+    def enriched_texts(self, indices: list[int]) -> list[str]:
+        """Batch reranker texts in one round trip (F5: avoids one
+        connection per candidate on every query). Order follows
+        ``indices``; output is identical to looping :meth:`enriched_text`."""
+        if not indices:
+            return []
+        want = [self._ids[i] for i in indices]
+        with self._connect() as conn:
+            rows = conn.execute(
+                f"SELECT * FROM {self._table} WHERE chunk_id = ANY(%s)",
+                (want,)).fetchall()
+        by_id = {r["chunk_id"]: r for r in rows}
+        try:
+            ordered = [by_id[c] for c in want]
+        except KeyError as exc:
+            raise KeyError(f"No row for chunk_id {exc}") from exc
+        return [self._row_to_enriched(r) for r in ordered]
 
     def mask_for(self, query_text: str) -> set[int] | None:
         """Same IS-number candidate mask as the local path, over row metadata."""

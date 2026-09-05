@@ -62,7 +62,13 @@ class Retriever:
         dense_order = [i for i, _ in
                        sorted(enumerate(sims), key=lambda kv: kv[1], reverse=True)]
         cand_idx = [i for i in dense_order if np.isfinite(sims[i])][:self.top_n]
-        cand_texts = [self.store.enriched_text(i) for i in cand_idx]
+        batch_texts = getattr(self.store, "enriched_texts", None)
+        if callable(batch_texts):
+            # Single round trip on remote-backed stores; identical output
+            # to the loop below (verified by tests on both backends' logic).
+            cand_texts = batch_texts(cand_idx)
+        else:  # minimal ChunkStore implementations without the batch hook
+            cand_texts = [self.store.enriched_text(i) for i in cand_idx]
         cross = self._reranker.predict([(query, t) for t in cand_texts])
         if isinstance(cross, np.ndarray):
             cross = cross.tolist()

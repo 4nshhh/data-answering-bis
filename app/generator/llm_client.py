@@ -25,7 +25,6 @@ from __future__ import annotations
 import os
 import time
 from dataclasses import dataclass
-from pathlib import Path
 from typing import Any, Callable, Protocol
 
 from app.generator.prompts import DEFAULT_MODEL, PromptBundle
@@ -127,20 +126,14 @@ class LLMProvider(Protocol):
 def _read_env_file(key: str, filename: str = ".env") -> str | None:
     """Read one key from a dotenv file in the working directory.
 
-    Minimal reader (no new dependency): ``KEY=value`` lines only,
-    ``#`` comments and surrounding quotes stripped.
+    Delegates to :func:`retrieval.store.read_env_file` (lazy import
+    preserves this module's dependency-free footprint) so provider and
+    storage configuration share identical parsing rules. Kept under
+    this name as the monkeypatch seam used by tests.
     """
-    path = Path(filename)
-    if not path.exists():
-        return None
-    for line in path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        name, value = line.split("=", 1)
-        if name.strip() == key:
-            return value.strip().strip('"').strip("'") or None
-    return None
+    from retrieval.store import read_env_file
+
+    return read_env_file(key, filename)
 
 
 def _resolve_api_key(explicit: str | None, env_var: str) -> str:

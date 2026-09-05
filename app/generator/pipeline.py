@@ -19,6 +19,7 @@ canonical ``REFUSAL_TEXT`` with empty citations.
 
 from __future__ import annotations
 
+import math
 import time
 from dataclasses import dataclass, field
 from typing import Callable, Optional
@@ -36,9 +37,10 @@ from app.generator.telemetry import Telemetry
 __all__ = [
     "DEFAULT_CANDIDATES_K",
     "CitationOut",
-    "RetrievalMeta",
     "QueryResult",
+    "RetrievalMeta",
     "Telemetry",
+    "is_abstention_prose",
     "run_query",
 ]
 
@@ -93,10 +95,19 @@ _ABSTENTION_MARKERS = frozenset(
 )
 
 
+def is_abstention_prose(text: str | None) -> bool:
+    """True when the answer reads as an honest insufficient-evidence report.
+
+    Public so presentation layers (adapters) can stay consistent with
+    the pipeline's own reading without duplicating the marker set.
+    """
+    lowered = (text or "").lower()
+    return any(marker in lowered for marker in _ABSTENTION_MARKERS)
+
+
 def _looks_like_abstention(text: str) -> bool:
     """True when the answer reads as an honest insufficient-evidence report."""
-    lowered = text.lower()
-    return any(marker in lowered for marker in _ABSTENTION_MARKERS)
+    return is_abstention_prose(text)
 
 
 def _correction_bundle(
@@ -254,6 +265,13 @@ def run_query(
         raise ValueError("query must be a non-blank string")
     if not isinstance(top_k, int) or isinstance(top_k, bool) or top_k < 1:
         raise ValueError(f"top_k must be a positive int, got {top_k!r}")
+    if (
+        isinstance(threshold, bool)
+        or not isinstance(threshold, (int, float))
+        or math.isnan(threshold)
+        or math.isinf(threshold)
+    ):
+        raise ValueError(f"threshold must be a finite number, got {threshold!r}")
     validate_mode(mode)
     if telemetry is None:
         telemetry = Telemetry()

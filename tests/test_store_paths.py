@@ -103,3 +103,104 @@ def test_shape_mismatch_guard_still_active(tmp_path: Path):
     _write_chunks(tmp_path, "t_3000_ov300.json", 1)
     with pytest.raises(ValueError, match="incompatible"):
         LocalNpyStore(chunks_dir=tmp_path)
+
+
+def test_enriched_texts_matches_loop():
+    store = LocalNpyStore()
+    rows = [0, 7, 2080]
+    assert store.enriched_texts(rows) == [store.enriched_text(i) for i in rows]
+    assert store.enriched_texts([]) == []
+
+
+def test_retriever_prefers_batch_texts():
+    """Retriever must use one enriched_texts() call (not N single calls)
+    so remote-backed stores avoid per-candidate round trips. No models,
+    keys, or network: the Retriever is assembled with fakes."""
+    from retrieval.retrieve import Retriever
+    from retrieval.types import ChunkRecord
+
+    class BatchStore:
+        def __init__(self):
+            self.batch_calls: list = []
+            self.single_calls: list = []
+
+        def __len__(self):
+            return 2
+
+        def search(self, query_vector, k, mask):
+            return [(0, 0.9), (1, 0.8)][:k]
+
+        def fetch(self, indices):
+            return [ChunkRecord(id=f"c{i}", text=f"t{i}", source="s.md",
+                                clause="1", heading="H", standard_no="IS 1",
+                                page_start=1, page_end=1,
+                                low_confidence=False) for i in indices]
+
+        def enriched_text(self, index):
+            self.single_calls.append(index)
+            raise AssertionError("batch path must be preferred")
+
+        def enriched_texts(self, indices):
+            self.batch_calls.append(list(indices))
+            return [f"enriched-{i}" for i in indices]
+
+    class FakeEncoder:
+        def encode(self, texts, normalize_embeddings=True):
+            return np.zeros((len(texts), 4), dtype=np.float32)
+
+    class FakeReranker:
+        def predict(self, pairs):
+            return np.array([0.9, 0.1][:len(pairs)])
+
+    store = BatchStore()
+    retriever = Retriever.__new__(Retriever)
+    retriever.store = store
+    retriever.top_n = 10
+    retriever._model = FakeEncoder()
+    retriever._reranker = FakeReranker()
+
+    out = retriever.retrieve("q?", top_k=2)
+    assert store.batch_calls == [[0, 1]]
+    assert store.single_calls == []
+    assert [e.chunk_id for e in out] == ["c0", "c1"]
+    assert [e.rerank_score for e in out] == [0.9, 0.1]
+
+
+def test_retriever_falls_back_without_batch_hook():
+    """Minimal ChunkStore implementations without enriched_texts keep
+    working through the single-row method (protocol backward compat)."""
+    from retrieval.retrieve import Retriever
+    from retrieval.types import ChunkRecord
+
+    class MinimalStore:
+        def __len__(self):
+            return 1
+
+        def search(self, query_vector, k, mask):
+            return [(0, 0.5)]
+
+        def fetch(self, indices):
+            return [ChunkRecord(id="c0", text="t", source="s.md", clause="1",
+                                heading="H", standard_no="IS 1", page_start=1,
+                                page_end=1, low_confidence=False)]
+
+        def enriched_text(self, index):
+            return "enriched-0"
+
+    class FakeEncoder:
+        def encode(self, texts, normalize_embeddings=True):
+            return np.zeros((len(texts), 4), dtype=np.float32)
+
+    class FakeReranker:
+        def predict(self, pairs):
+            return np.array([0.7])
+
+    retriever = Retriever.__new__(Retriever)
+    retriever.store = MinimalStore()
+    retriever.top_n = 10
+    retriever._model = FakeEncoder()
+    retriever._reranker = FakeReranker()
+
+    (evidence,) = retriever.retrieve("q?", top_k=1)
+    assert evidence.chunk_id == "c0"
+    assert evidence.rerank_score == 0.7

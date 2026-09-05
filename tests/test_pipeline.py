@@ -575,3 +575,21 @@ def test_widen_and_correction_keep_resolved_model(chunk_index):
     assert result.refused is False
     assert provider.calls == 3  # initial + widen + correction
     assert provider.models == ["custom-model"] * 3
+
+
+@pytest.mark.parametrize("bad", [float("nan"), float("inf"), float("-inf"),
+                                 "0.5", None, True])
+def test_run_query_rejects_nonfinite_threshold(chunk_index, bad):
+    with pytest.raises(ValueError, match="finite number"):
+        run_query("q?", retrieve_fn=retrieve_ok, chunk_index=chunk_index,
+                  provider=FakeProvider(), threshold=bad)
+
+
+def test_run_query_accepts_negative_finite_threshold(chunk_index):
+    """A negative finite threshold is a legitimate operator choice
+    (effectively disables pre-generation refusal); only NaN/inf/types fail."""
+    provider = FakeProvider()
+    result = run_query("What is the pH?", retrieve_fn=retrieve_ok,
+                       chunk_index=chunk_index, provider=provider,
+                       threshold=-1.0)
+    assert result.refused is False

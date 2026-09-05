@@ -161,7 +161,7 @@ class RetrievedEvidence:
     page_start: Optional[int]              # Physical PDF start page
     page_end: Optional[int]                # Physical PDF end page
     dense_score: Optional[float]           # BGE-M3 cosine similarity score
-    rerank_score: Optional[float]          # Cross-Encoder output logit score
+    rerank_score: Optional[float]          # Cross-Encoder output score (sigmoid probability in [0, 1])
     is_mask_restricted: bool               # True if query named IS number and mask fired
     extra: Dict[str, Any] = field(default_factory=dict)
 
@@ -196,7 +196,7 @@ The end-to-end execution flow within data-answering-bis follows eight structured
    │ Returns list[RetrievedEvidence] using ChunkStore (LocalNpyStore or PgVectorStore)
    ▼
 3. Abstention & Refusal Check (Generation Layer)
-   │ Inspect top rerank_score logit and score margin against threshold τ
+   │ Inspect top rerank_score and score margin against threshold τ
    │ If scores indicate unanswerable query, return standard refusal response
    ▼
 4. Neighbor Expansion (Optional)
@@ -266,7 +266,7 @@ Every technical assertion in the generated answer MUST be accompanied by an inli
 To prevent unsafe engineering hallucinations:
 
 1.  **Generation Layer Abstention Ownership:** `retrieve()` does not filter out unanswerable queries internally. The generation layer MUST inspect `rerank_score` values, score margins, and `is_mask_restricted`.
-2.  **Insufficient Evidence Refusal:** If top `rerank_score` logit is below confidence threshold $\tau$ (e.g. $\text{logit} < -2.0$) or if candidates lack facts to answer the question, the LLM MUST respond with a standard refusal:
+2.  **Insufficient Evidence Refusal:** If top `rerank_score` is below confidence threshold $\tau$ (default `0.5` on the sigmoid `[0, 1]` scale) or if candidates lack facts to answer the question, the LLM MUST respond with a standard refusal:
     > *"The provided Indian Standards documents do not contain sufficient technical information to answer this query."*
 3.  **Negative Grounding Check:** The system must reject answers that cite non-existent clauses or invent standard numbers not present in the retrieved context.
 
@@ -274,7 +274,7 @@ To prevent unsafe engineering hallucinations:
 
 ## 12. API & Service Design
 
-The primary interface for data-answering-bis is a **FastAPI Web Service**:
+The primary interface for data-answering-bis is the **`app.generator` library** (`answer()` / `warmup()`, usable without any server); FastAPI below is an optional HTTP adapter around the same pipeline:
 
 ### Endpoint Specification: `POST /api/v1/query`
 
@@ -284,7 +284,7 @@ The primary interface for data-answering-bis is a **FastAPI Web Service**:
   "query": "What is the minimum pH value of water for mixing concrete in IS 456?",
   "top_k": 3,
   "expand_neighbors": false,
-  "confidence_threshold": -2.0
+  "confidence_threshold": 0.5
 }
 ```
 

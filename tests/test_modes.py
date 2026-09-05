@@ -247,6 +247,35 @@ def test_ask_adapter_no_snippet_without_index():
     assert body["citations"][0]["snippet"] == ""
 
 
+# --- F6: abstention prose caps ask confidence at low ---------------------
+
+ABSTAIN_ASK_TEXT = (
+    "The provided context blocks do not contain sufficient technical "
+    "information to answer this query."
+)
+
+
+def test_ask_adapter_abstention_prose_confidence_low():
+    body = to_ask_response(_result(answer=ABSTAIN_ASK_TEXT, citations=[]))
+    assert body["confidence"] == "low"
+    assert body["refusal_message"] is None
+    assert body["citations"] == []
+
+
+def test_ask_adapter_cited_answer_keeps_score_band():
+    # A cited answer noting a limitation is not abstention: the
+    # reranker-driven band stands.
+    body = to_ask_response(_result(
+        answer="IS 456 applies [IS 456:2000, Clause 5.4, Page 15]. "
+        "The blocks do not specify packaging."))
+    assert body["confidence"] == "high"
+
+
+def test_ask_adapter_uncited_non_abstention_keeps_score_band():
+    body = to_ask_response(_result(answer="The value is 42.", citations=[]))
+    assert body["confidence"] == "high"
+
+
 # --- /api/match-product adapter -------------------------------------------
 
 def _match_result() -> QueryResult:
