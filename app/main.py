@@ -164,7 +164,7 @@ def _result_to_response(result: QueryResult) -> QueryResponse:
 def build_app(
     chunk_index: ChunkIndex | None = None,
     provider: LLMProvider | None = None,
-    chunks_dir: str | Path = Path("data/chunks"),
+    chunks_dir: str | Path = Path(__file__).resolve().parent.parent / "data" / "chunks",
 ) -> FastAPI:
     """Assemble the application (singletons injectable for tests)."""
 

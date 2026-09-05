@@ -105,16 +105,20 @@ def _correction_bundle(
     chunk_index: Optional[ChunkIndex],
     feedback: str,
     mode: str = "ask",
+    model: Optional[str] = None,
 ):
     """Rebuild the prompt with verifier feedback appended (one retry only).
 
     The honest exit stays open: when the blocks lack the answer the
     model must still abstain plainly without citing. Verification is
     re-applied unchanged, so a failed retry can never leak through.
+    ``model`` carries the caller's resolved model so retries never fall
+    back to the default model of another provider.
     """
     from dataclasses import replace
 
-    retry_bundle = build_prompt(query.strip(), context, chunk_index=chunk_index, mode=mode)
+    retry_bundle = build_prompt(query.strip(), context, chunk_index=chunk_index,
+                                model=model or DEFAULT_MODEL, mode=mode)
     retry_bundle = replace(
         retry_bundle,
         user=retry_bundle.user
@@ -314,7 +318,8 @@ def run_query(
         _t0 = time.perf_counter()
         wider_context = build_context(evidence, chunk_index=chunk_index,
                                       top_k=wider_k, expand_neighbors=expand_neighbors)
-        wider_bundle = build_prompt(query.strip(), wider_context, chunk_index=chunk_index, mode=mode)
+        wider_bundle = build_prompt(query.strip(), wider_context, chunk_index=chunk_index,
+                                      model=resolved_model, mode=mode)
         telemetry.add_stage("context_widen_ms", (time.perf_counter() - _t0) * 1000.0)
         _t0 = time.perf_counter()
         wider_generated: GeneratedAnswer = generate_answer(query.strip(), wider_bundle, provider, telemetry=telemetry)
@@ -342,7 +347,8 @@ def run_query(
             "from the Standard/Clause/Location headers above, citing only "
             "sub-clause numbers actually shown in the blocks."
         )
-        retry_bundle = _correction_bundle(query.strip(), context, chunk_index, feedback, mode)
+        retry_bundle = _correction_bundle(query.strip(), context, chunk_index, feedback,
+                                              mode, resolved_model)
         telemetry.correction_retry = True
         _t0 = time.perf_counter()
         retry_generated: GeneratedAnswer = generate_answer(query.strip(), retry_bundle, provider, telemetry=telemetry)
@@ -371,6 +377,7 @@ def run_query(
             "Page <page>]. Restate the same facts with one such citation "
             "per technical assertion, copied from the block headers above.",
             mode,
+            resolved_model,
         )
         telemetry.correction_retry = True
         _t0 = time.perf_counter()

@@ -125,6 +125,18 @@ def test_warmup_importable_from_package():
     assert callable(warmup)
 
 
+def test_shared_index_default_survives_foreign_cwd(tmp_path, monkeypatch):
+    """The library chunk index must load from any working directory
+    (JSON reads only — no models, keys, or network)."""
+    monkeypatch.chdir(tmp_path)
+    generator_api.reset_singletons()
+    try:
+        index = generator_api._shared_index()
+    finally:
+        generator_api.reset_singletons()
+    assert len(index.by_id) == 2081
+
+
 def test_warmup_preloads_without_llm_or_keys(monkeypatch, tmp_path, stub_retrieval):
     _strip_llm_keys(monkeypatch)
     result = warmup(tmp_path)

@@ -20,6 +20,15 @@ from .types import ChunkRecord
 IS_IN_QUERY_RE = re.compile(r"\bIS\s+(\d+)\b", re.IGNORECASE)
 EMBEDDING_DIM = 1024
 
+#: Repository root (this file lives at ``<root>/retrieval/store.py``).
+#: Default asset paths anchor here — not to the process working
+#: directory — so direct-library backends keep working no matter which
+#: directory the host process starts from. Identical to the old
+#: CWD-relative defaults when run from the repository root.
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_CHUNKS_DIR = REPO_ROOT / "data" / "chunks"
+DEFAULT_VECTOR_CACHE = REPO_ROOT / "data" / "vectors" / "bge_m3_enriched_vectors.npy"
+
 
 class ChunkStore(Protocol):
     """Minimal contract for candidate retrieval + record fetch."""
@@ -135,9 +144,9 @@ class LocalNpyStore:
     `chunks_combined.jsonl` order == `.npy` rows.
     """
 
-    def __init__(self, chunks_dir: Path | str = "data/chunks",
-                  vector_cache: Path | str = "data/vectors/bge_m3_enriched_vectors.npy",
-                  expected_dim: int = EMBEDDING_DIM) -> None:
+    def __init__(self, chunks_dir: Path | str = DEFAULT_CHUNKS_DIR,
+                   vector_cache: Path | str = DEFAULT_VECTOR_CACHE,
+                   expected_dim: int = EMBEDDING_DIM) -> None:
         self._chunks_dir = Path(chunks_dir)
         self._records = load_chunks(self._chunks_dir)
         self._dicts = load_chunk_dicts(self._chunks_dir)

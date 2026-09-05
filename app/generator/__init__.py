@@ -66,6 +66,14 @@ __all__ = [
     "DEFAULT_CANDIDATES_K",
 ]
 
+#: Repository root (this file lives at ``<root>/app/generator/__init__.py``).
+#: Default chunk paths anchor here — not to the process working
+#: directory — so direct-library backends keep working no matter which
+#: directory the host process starts from. Identical to the old
+#: CWD-relative default when run from the repository root.
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+DEFAULT_CHUNKS_DIR = REPO_ROOT / "data" / "chunks"
+
 _shared_chunk_index: ChunkIndex | None = None
 _shared_provider: LLMProvider | None = None
 
@@ -77,7 +85,7 @@ def reset_singletons() -> None:
     _shared_provider = None
 
 
-def _shared_index(chunks_dir: str | Path = Path("data/chunks")) -> ChunkIndex:
+def _shared_index(chunks_dir: str | Path = DEFAULT_CHUNKS_DIR) -> ChunkIndex:
     global _shared_chunk_index
     if _shared_chunk_index is None:
         _shared_chunk_index = load_chunk_index(chunks_dir)
@@ -98,7 +106,7 @@ def _shared_llm_provider() -> LLMProvider:
 WARMUP_QUERY = "Bureau of Indian Standards specification"
 
 
-def warmup(chunks_dir: str | Path = Path("data/chunks")) -> dict:
+def warmup(chunks_dir: str | Path = DEFAULT_CHUNKS_DIR) -> dict:
     """Preload expensive local retrieval resources (no LLM call).
 
     Loads the shared chunk index and constructs the shared

@@ -192,3 +192,12 @@ def test_post_query_signature_without_network():
 
     params = inspect.signature(post_query).parameters
     assert set(params) == {"url", "query", "top_k", "timeout_s"}
+
+
+def test_benchmark_threshold_defaults_to_calibrated_tau():
+    """run_benchmark must refuse on the same sigmoid scale as the API:
+    the old -2.0 logit-scale default could never fire."""
+    import evaluation.run_benchmark as harness
+    from app.generator.refusal import DEFAULT_THRESHOLD
+
+    assert harness.build_parser().get_default("threshold") == DEFAULT_THRESHOLD == 0.5

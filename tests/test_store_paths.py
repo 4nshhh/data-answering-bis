@@ -22,11 +22,25 @@ from retrieval.store import EMBEDDING_DIM, LocalNpyStore
 
 
 def test_default_paths_match_migrated_layout():
+    from retrieval.store import DEFAULT_CHUNKS_DIR, DEFAULT_VECTOR_CACHE
+
     signature = inspect.signature(LocalNpyStore.__init__)
-    assert signature.parameters["chunks_dir"].default == "data/chunks"
-    assert signature.parameters["vector_cache"].default == \
-        "data/vectors/bge_m3_enriched_vectors.npy"
+    assert signature.parameters["chunks_dir"].default == DEFAULT_CHUNKS_DIR
+    assert signature.parameters["vector_cache"].default == DEFAULT_VECTOR_CACHE
     assert signature.parameters["expected_dim"].default == EMBEDDING_DIM == 1024
+    # Anchored to the repo root (not CWD) with the migrated layout intact.
+    assert Path(DEFAULT_CHUNKS_DIR).is_absolute()
+    assert Path(DEFAULT_VECTOR_CACHE).is_absolute()
+    assert Path(DEFAULT_CHUNKS_DIR).name == "chunks"
+    assert Path(DEFAULT_VECTOR_CACHE).name == "bge_m3_enriched_vectors.npy"
+
+
+def test_default_init_works_from_foreign_cwd(tmp_path: Path, monkeypatch):
+    """Direct-library backends start from any directory: defaults must
+    still resolve (proves CWD-independence without loading models)."""
+    monkeypatch.chdir(tmp_path)
+    store = LocalNpyStore()
+    assert len(store) == 2081
 
 
 def test_default_init_loads_validated_cache():

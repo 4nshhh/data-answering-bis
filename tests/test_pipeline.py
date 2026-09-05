@@ -533,3 +533,45 @@ def test_paren_partial_citation_resolves_block_page(tmp_path: Path):
     assert paren[0].verified is True
     canon = [c for c in result.citations if c.clause == "26.5.3"]
     assert len(canon) == 1 and canon[0].page == 50
+
+
+# --- F1: retries keep the resolved model ---------------------------------
+
+ZERO_CITE_TEXT = "The value is 42."
+
+
+class RecordingProvider(FakeProvider):
+    def __init__(self, text: str = GOOD_TEXT):
+        super().__init__(text)
+        self.models: list = []
+
+    def generate(self, **kwargs) -> LLMResponse:
+        self.models.append(kwargs.get("model"))
+        return super().generate(**kwargs)
+
+
+def _retrieve_five(query: str, top_k: int = 10) -> list[RetrievedEvidence]:
+    return [make_evidence(f"c{i}", rerank_score=5.0) for i in range(5)]
+
+
+def test_correction_retry_keeps_resolved_model(chunk_index):
+    """Mismatch → one-shot correction must regenerate with the caller's
+    model, not the default model (which belongs to another provider)."""
+    provider = RecordingProvider(BAD_TEXT)
+    result = run_query("What is the pH?", retrieve_fn=retrieve_ok,
+                       chunk_index=chunk_index, provider=provider,
+                       model="custom-model")
+    assert result.refused is True  # always-bad text never verifies
+    assert provider.models == ["custom-model", "custom-model"]
+
+
+def test_widen_and_correction_keep_resolved_model(chunk_index):
+    """Zero-cite answer with reserve evidence exercises widen + correction;
+    every generation must carry the resolved model."""
+    provider = RecordingProvider(ZERO_CITE_TEXT)
+    result = run_query("What is the value?", retrieve_fn=_retrieve_five,
+                       chunk_index=chunk_index, provider=provider,
+                       model="custom-model", top_k=3)
+    assert result.refused is False
+    assert provider.calls == 3  # initial + widen + correction
+    assert provider.models == ["custom-model"] * 3

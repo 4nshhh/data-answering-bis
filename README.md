@@ -265,7 +265,7 @@ No promises beyond these measurements. Both models stay on CUDA (`/api/v1/device
 ```bash
 python -m pytest tests/ -q   # offline: no keys, GPU, network, or quota needed
 ```
-**229 passed.** Covers pipeline orchestration, citations/repair/verification, refusal,
+**240 passed.** Covers pipeline orchestration, citations/repair/verification, refusal,
 prompts, context assembly, providers + `answer()` delegation, `warmup()` direct-library
 usage (including zero-LLM-call verification), `ask` vs `product_match` modes, telemetry,
 evaluation verdicts, latency-experiment guards, and device/store paths. The suite runs with

@@ -33,6 +33,7 @@ sys.path.insert(0, str(REPO_ROOT))
 from app.generator.context_builder import load_chunk_index  # noqa: E402
 from app.generator.llm_client import GroqProvider  # noqa: E402
 from app.generator.pipeline import run_query  # noqa: E402
+from app.generator.refusal import DEFAULT_THRESHOLD  # noqa: E402
 
 
 def load_queries(path: Path) -> list[str]:
@@ -58,15 +59,22 @@ def score_row(result) -> dict:
     }
 
 
-def main(argv: list[str] | None = None) -> int:
+def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="End-to-end RAG pipeline benchmark")
     parser.add_argument("--queries", required=True, help="Text file, one query per line")
     parser.add_argument("--out", default=None, help="JSONL output path (default: stdout records only)")
     parser.add_argument("--limit", type=int, default=None, help="Max queries to run")
     parser.add_argument("--top-k", type=int, default=3)
     parser.add_argument("--expand-neighbors", action="store_true")
-    parser.add_argument("--threshold", type=float, default=-2.0)
+    # Calibrated sigmoid-scale default (refusal.py): the old -2.0
+    # logit-scale default could never fire, silently disabling refusal.
+    parser.add_argument("--threshold", type=float, default=DEFAULT_THRESHOLD)
     parser.add_argument("--chunks-dir", default="data/chunks")
+    return parser
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = build_parser()
     args = parser.parse_args(argv)
 
     queries = load_queries(Path(args.queries))
