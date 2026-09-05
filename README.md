@@ -85,15 +85,18 @@ data-answering-bis/
 │                                # pass explicit paths for this data/ layout)
 ├── evaluation/
 │   ├── test_queries.json        # 30-query regression suite (8 categories, stable IDs)
+│   ├── progress.py              # Shared QueryProgress display (any query count, stdlib only)
 │   ├── run_queries.py           # Runs the suite against a live API; records telemetry
 │   ├── compare_llm_latency.py   # 5-query Groq-vs-Gemini latency experiment
-│   ├── run_benchmark.py         # Generic query-file harness (uses run_query directly)
-│   └── results/latest_results.json  # Recorded clean-run result (27/30 baseline)
+│   ├── run_benchmark.py         # Generic query-file harness (answer() + backend adapters,
+│   │                            # --mode/--delay-secs/--no-progress, timestamped responses file)
+│   └── results/                 # latest_results.json (27/30 baseline), responses_<ts>.json runs
 └── tests/                       # Offline unit tests (no keys/GPU/network required)
     ├── test_api.py, test_pipeline.py, test_citations.py, test_refusal.py, ...
     ├── test_provider.py         # Provider selection, answer() API, delegation
     ├── test_warmup.py           # Direct answer()/warmup() usage, zero-LLM-call warmup
     ├── test_modes.py            # ask vs product_match behavior
+    ├── test_progress.py         # Generic progress/counter/countdown behavior
     ├── test_telemetry.py        # Telemetry counters/flags/stages
     ├── test_evaluation.py       # Suite loading + verdict classification
     └── retrieval_queries.md     # Chunking-evaluation query-type notes (Repo-2 era doc)
@@ -235,6 +238,15 @@ Non-transient errors (auth, bad request) propagate unchanged.
 
 Run (server must be up): `python evaluation/run_queries.py --url http://127.0.0.1:8000/api/v1/query`.
 Scoring is grounding-based (refusal flags, present + verified citations, retrieval metadata) — never naive substring matching. Quota-interrupted runs record `ERROR`, never PASS/FAIL; do not confuse them with quality results.
+All runners share `evaluation/progress.py` (`QueryProgress`: `04/20 (20%)` counters, waiting/finish lines with latency, live `--delay-secs` countdown, stderr only, auto-off without a terminal, `--no-progress` override) — display only, never affecting execution, results, or timing defaults.
+
+### Gemini-only 20-query validation (`evaluation/results/responses_20260905T144223Z.json`)
+Sequential `answer()` run (18 `ask` + 2 `product_match`, 8s inter-query delays, no code changes), each entry saved as `{query, mode, response, evaluation}` where `response` is the exact `to_ask_response()` / `to_match_response()` output:
+* 2/2 out-of-context queries correctly refused pre-generation (scores ~0.05/0.001, zero LLM spend).
+* 0 pipeline errors; no rate-limit (429) errors.
+* Every answered query fully verified: 100% `verified:true` citations, no negative pages, no missing years.
+* Q19 (tyres product_match) was a correct conservative abstention with `matches: []` — IS 2415 covers tubes while the true tyres standard (IS 2414) has no chunks in the corpus.
+* Q20 (fitness-app product_match) exposed a borderline applicability call (IS 17737 @0.556 on truncated scope evidence). This motivated the stricter product_match scope rule now in production (applicability requires stated scope coverage; similarity alone never qualifies) — covered offline and live re-verified on 9 queries with no regressions.
 
 ### Latency experiment (`evaluation/compare_llm_latency.py`, 5 queries)
 `python evaluation/compare_llm_latency.py --provider both` — same pipeline, only the backend differs. Measured: no Gemini speedup (4 mutually answered queries; Gemini ~24% slower on average, Groq far more variable at 1.9–81.7s). N003/Gemini returned a provider-side HTTP 404 in that run (same key/model answers the other 4) — an infrastructure anomaly, not a quality signal. Note: Gemini 404s have also proven transient on retry for other queries, so a 404 alone never implies a deterministic model/query failure. **No full Gemini quality benchmark has been run; do not claim one.**
@@ -265,10 +277,10 @@ No promises beyond these measurements. Both models stay on CUDA (`/api/v1/device
 ```bash
 python -m pytest tests/ -q   # offline: no keys, GPU, network, or quota needed
 ```
-**255 passed.** Covers pipeline orchestration, citations/repair/verification, refusal,
+**273 passed.** Covers pipeline orchestration, citations/repair/verification, refusal,
 prompts, context assembly, providers + `answer()` delegation, `warmup()` direct-library
-usage (including zero-LLM-call verification), `ask` vs `product_match` modes, telemetry,
-evaluation verdicts, latency-experiment guards, and device/store paths. The suite runs with
+usage (including zero-LLM-call verification), `ask` vs `product_match` modes, runner
+progress display, telemetry, evaluation verdicts, latency-experiment guards, and device/store paths. The suite runs with
 no provider API keys set — any live LLM call would fail instead of passing silently.
 
 ---

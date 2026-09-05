@@ -409,4 +409,4 @@ Future Antigravity sessions working in data-answering-bis MUST obey the followin
 | **LLM Answering & Context Builder** | **COMPLETED** | `app/generator` library (`answer()` / `warmup()`, ask + product_match modes) |
 | **FastAPI REST Endpoint** | **COMPLETED (optional adapter)** | `app/main.py` (`POST /api/v1/query`) around `answer()` |
 | **Backend Integration Contract** | **READY** | `from app.generator import answer, warmup`; `warmup()` once at startup (no key/LLM call), `answer(query, mode="ask"\|"product_match")`; repo-root-anchored data defaults work from any CWD |
-| **Offline Test Suite** | **255 passed** | `python -m pytest tests/ -q` (no keys/GPU/network; any live LLM call would fail) |
+| **Offline Test Suite** | **273 passed** | `python -m pytest tests/ -q` (no keys/GPU/network; any live LLM call would fail) |
