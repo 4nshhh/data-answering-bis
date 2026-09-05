@@ -2,18 +2,24 @@
 
 The **Answering / RAG / LLM pipeline** for the Bureau of Indian Standards (BIS) Assistant. Given a natural-language question about BIS documents, it retrieves grounded context chunks, assembles a structured prompt, generates an answer with a configured LLM, and verifies every technical claim against retrieved evidence with inline page/clause citations — or refuses when the evidence is insufficient.
 
-The canonical programmatic interface is one function (analogous to Repo 2's `retrieve()`):
+The canonical programmatic interface is the `app.generator` library (analogous to Repo 2's `retrieve()`). **Direct function calls are the primary backend integration — FastAPI is an optional HTTP adapter and is never required by the answering pipeline:**
 
 ```python
-from app.generator import answer
+from app.generator import answer, warmup
+
+warmup()  # optional, once at backend startup; preloads retrieval
+          # models so the first query skips ~40s of model load.
+          # Makes zero LLM calls and needs no API key.
 
 result = answer(
     "What is the minimum pH value of water for mixing concrete in IS 456?",
     top_k=3,
+    mode="ask",  # or mode="product_match" (prompt framing only;
+                 # retrieval, verification, refusal are identical)
 )
 ```
 
-`POST /api/v1/query` (FastAPI) is a thin HTTP adapter around this same function.
+`POST /api/v1/query` (FastAPI, `app/main.py`) only validates the request, calls this same `answer()`, and serializes the result.
 
 ---
 
@@ -23,7 +29,7 @@ result = answer(
 |---|---|
 | **Repo 1 — Ingestion** | Raw PDF extraction, OCR normalization, Markdown conversion. |
 | **Repo 2 — Chunking & Retrieval** | Structure extraction, semantic chunking (3000 chars / 300 overlap), metadata, `BAAI/bge-m3` embeddings, vector indexing, retrieval benchmarks. |
-| **Repo 3 — This repository (`data-answering-bis`)** | Vector-store connection, runtime retrieval, reranking, context assembly, prompt engineering, LLM orchestration (Groq default, Gemini experimental), citation verification, refusal/correction logic, telemetry, API serving. |
+| **Repo 3 — This repository (`data-answering-bis`)** | Vector-store connection, runtime retrieval, reranking, context assembly, prompt engineering, LLM orchestration (Groq default, Gemini alternative), citation verification, refusal/correction logic, telemetry, optional API serving. |
 
 ### What THIS repository owns
 * Consuming the `retrieval/` package (`retrieve()`, `Retriever`, `ChunkStore`, `LocalNpyStore`, `PgVectorStore`).
@@ -31,7 +37,8 @@ result = answer(
 * Context assembly, neighbor expansion, table widening, retrieval-expansion fallback.
 * System prompts, grounding rules, LLM orchestration via a provider abstraction.
 * Citation parsing/repair/verification, abstention & refusal, one-shot correction retry.
-* Request-scoped telemetry, error mapping, FastAPI adapter, evaluation tooling.
+* Explicit `warmup()` for direct-library backends (server needs no warmup endpoint).
+* Request-scoped telemetry, error mapping, optional FastAPI adapter, evaluation tooling.
 
 ### Frozen (belongs to earlier repos — do not touch)
 * Chunking: **3000 chars / 300 overlap, 2,081 chunks in 101 files** (`data/chunks/*.json`).
@@ -57,9 +64,10 @@ data-answering-bis/
 │   ├── pg_store.py              # PgVectorStore (PostgreSQL/pgvector production path)
 │   └── models.py                # Pinned model loaders (CUDA preferred, loud CPU fallback)
 ├── app/
-│   ├── main.py                  # FastAPI adapter: validates, calls answer(), serializes
-│   └── generator/
-│       ├── __init__.py          # Canonical answer() API + process singletons
+│   ├── main.py                  # Optional FastAPI adapter: validates, calls answer(), serializes
+│   └── generator/               # Standalone library: never imports FastAPI/Uvicorn
+│       ├── __init__.py          # Canonical answer()/warmup() API + process singletons
+│       ├── adapters.py          # to_ask_response()/to_match_response() frontend contracts
 │       ├── pipeline.py          # run_query(): the one end-to-end orchestration
 │       ├── llm_client.py        # LLMProvider protocol, Groq/Gemini/OpenAI providers
 │       ├── prompts.py           # System prompt + grounding/citation rules
@@ -84,6 +92,8 @@ data-answering-bis/
 └── tests/                       # Offline unit tests (no keys/GPU/network required)
     ├── test_api.py, test_pipeline.py, test_citations.py, test_refusal.py, ...
     ├── test_provider.py         # Provider selection, answer() API, delegation
+    ├── test_warmup.py           # Direct answer()/warmup() usage, zero-LLM-call warmup
+    ├── test_modes.py            # ask vs product_match behavior
     ├── test_telemetry.py        # Telemetry counters/flags/stages
     ├── test_evaluation.py       # Suite loading + verdict classification
     └── retrieval_queries.md     # Chunking-evaluation query-type notes (Repo-2 era doc)
@@ -97,6 +107,22 @@ data-answering-bis/
 * Python 3.10+, PyTorch (CUDA recommended; CPU works with a warning).
 * `pip install -r requirements.txt` (includes `groq`, `google-genai`, `fastapi`, `sentence-transformers`).
 
+### Use the library directly (primary integration)
+```python
+from app.generator import answer, warmup
+
+warmup()  # once at backend startup; loads chunk index + BGE-M3 +
+          # reranker + vector store (~40s once). No LLM call, no key.
+          # Safe to skip: answer() lazily initializes on first call.
+
+result = answer("What is the minimum pH of water per IS 456?", mode="ask")
+result.answer       # grounded text with [IS ...] citations
+result.citations    # verified CitationOut list
+result.refused      # True when evidence is insufficient
+result.telemetry    # per-query counters (no secrets)
+```
+`mode="product_match"` selects product-matching prompt instructions only; retrieval, verification, refusal, and retries are identical. `to_ask_response()` / `to_match_response()` (`adapters.py`) map `QueryResult` to the frontend contracts without new LLM calls.
+
 ### Configuration (`.env`, see `.env.example`)
 ```ini
 LLM_PROVIDER=groq              # "groq" (default) or "gemini"
@@ -104,23 +130,27 @@ GROQ_API_KEY=...               # required for the default provider
 GROQ_MODEL=                    # optional override (default: openai/gpt-oss-120b)
 GEMINI_API_KEY=...             # required for LLM_PROVIDER=gemini
 GEMINI_MODEL=gemini-3.5-flash-lite   # optional override (same default)
-BIS_WARMUP=0                   # set to 1 to preload retrieval models at server startup
+BIS_WARMUP=0                   # server-only shortcut for warmup(); direct-library
+                               # backends call warmup() explicitly instead
 DATABASE_URL=...               # optional; only for the PgVectorStore production path
 ```
+Key resolution order: explicit argument → process env → `.env` file. `BIS_DEVICE=cpu|cuda` optionally pins the retrieval device (CUDA preferred by default).
 No `PORT`/`HOST` variables exist — pass host/port to uvicorn directly.
 
-### Run the API
+### Run the optional API
 ```bash
 uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
-With `BIS_WARMUP=1`, startup preloads BGE-M3 + reranker (~40s once) so the first query serves in ~0.5s instead of ~40s.
+With `BIS_WARMUP=1`, server startup calls `warmup()` so the first query serves in ~0.5s instead of ~40s. The API adds no RAG behavior — it is the same `answer()` behind HTTP.
 
 ---
 
 ## 4. Answering Pipeline (actual call graph)
 
 ```text
-answer(query, top_k)                        # app/generator/__init__.py (canonical API)
+warmup()                                    # app/generator/__init__.py (optional preload,
+                                            # no LLM call; answer() works without it)
+answer(query, top_k, mode)                  # app/generator/__init__.py (canonical API)
   └─ run_query()                            # app/generator/pipeline.py (one implementation)
        ├─ retrieve(query, top_k=10)         # frozen retrieval package
        │    ├─ query_side_candidate_mask    # IS-number filter (unmasked product queries skip it)
@@ -138,10 +168,11 @@ answer(query, top_k)                        # app/generator/__init__.py (canonic
                       retrieval_meta, telemetry)
 ```
 
-FastAPI (`app/main.py`) only validates the request, calls `answer()` with its
+FastAPI (`app/main.py`, optional) only validates the request, calls `answer()` with its
 lifespan singletons, and serializes `QueryResult` to JSON (`/healthz`,
 `/api/v1/device`, `/api/v1/query`). Error mapping: `ValueError` → 400,
-provider `RuntimeError` → 502, anything else → 500.
+provider `RuntimeError` → 502, anything else → 500. The pipeline never
+imports FastAPI — stopping the server changes nothing about `answer()`.
 
 ---
 
@@ -150,10 +181,13 @@ provider `RuntimeError` → 502, anything else → 500.
 | Provider | Class | Default model | Key | Status |
 |---|---|---|---|---|
 | Groq | `GroqProvider` | `openai/gpt-oss-120b` | `GROQ_API_KEY` | **Default** |
-| Gemini | `GeminiProvider` | `gemini-3.5-flash-lite` | `GEMINI_API_KEY` | Experimental |
+| Gemini | `GeminiProvider` | `gemini-3.5-flash-lite` | `GEMINI_API_KEY` | Alternative (no full quality benchmark yet — see §7) |
 | OpenAI | `OpenAIProvider` | `openai/gpt-oss-120b` | `OPENAI_API_KEY` | Lazy optional (package not required) |
 
-Select with `LLM_PROVIDER=groq|gemini` (or `build_provider(name)` in code).
+Select with `LLM_PROVIDER=groq|gemini` (or `build_provider(name)` in code,
+or `answer(..., provider=...)` per call). API keys resolve as explicit
+argument → process env → `.env` file; SDKs are imported lazily so the
+unselected provider needs neither package nor key.
 The same pipeline runs either way — only the transport differs
 (chat-completions vs `generate_content` with system instruction).
 One SDK client is reused per provider instance; the app-level retry
@@ -231,9 +265,11 @@ No promises beyond these measurements. Both models stay on CUDA (`/api/v1/device
 ```bash
 python -m pytest tests/ -q   # offline: no keys, GPU, network, or quota needed
 ```
-Covers pipeline orchestration, citations/repair/verification, refusal,
-prompts, context assembly, providers + `answer()` delegation, telemetry,
-evaluation verdicts, and device/store paths.
+**229 passed.** Covers pipeline orchestration, citations/repair/verification, refusal,
+prompts, context assembly, providers + `answer()` delegation, `warmup()` direct-library
+usage (including zero-LLM-call verification), `ask` vs `product_match` modes, telemetry,
+evaluation verdicts, latency-experiment guards, and device/store paths. The suite runs with
+no provider API keys set — any live LLM call would fail instead of passing silently.
 
 ---
 
@@ -243,3 +279,4 @@ evaluation verdicts, and device/store paths.
 * `retrieve(query, top_k=10)` signature and the BGE-M3 → CrossEncoder architecture.
 * Refusal threshold τ = 0.5; strict citation linkage; one-shot correction/widening; no fabricated evidence or hardcoded answers.
 * Rejected retrievers (BM25-primary, hybrid RRF, raw-text rerank) stay rejected.
+* Library-first: `answer()`/`warmup()` never import FastAPI/Uvicorn; `app/main.py` stays an optional adapter.
