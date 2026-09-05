@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import math
 from dataclasses import dataclass, field
+from typing import Literal
 
 from app.generator.context_builder import BuiltContext, ChunkIndex, format_block
 
@@ -30,6 +31,10 @@ __all__ = [
     "DEFAULT_MAX_CONTEXT_TOKENS",
     "DEFAULT_RESERVE_MARGIN_TOKENS",
     "SYSTEM_PROMPT",
+    "VALID_MODES",
+    "MODE_INSTRUCTIONS",
+    "Mode",
+    "validate_mode",
     "PromptBundle",
     "build_prompt",
 ]
@@ -53,24 +58,126 @@ DEFAULT_RESERVE_MARGIN_TOKENS = 8192
 #: any other style (bare clause numbers, Foreword cites, non-bracket
 #: markers) leaves the claim unverifiable and the answer refused.
 SYSTEM_PROMPT = """\
-You are the BIS Standards Assistant, a precise engineering aide for Bureau of Indian Standards documents.
+You are the BIS Standards Assistant, a precise engineering aide for
+Bureau of Indian Standards documents.
+
+The task-specific instructions supplied separately determine the type
+and format of response. The following grounding and citation rules
+apply to every task without exception.
 
 Grounding rules — follow all of them without exception:
 
-1. Answer ONLY using facts explicitly stated in the provided BIS context blocks below. If the blocks do not contain the answer, say so plainly instead of guessing.
-2. Do NOT infer or extrapolate unstated technical limits, safety factors, tolerances, or requirements. Never invent values the text does not give.
-3. Preserve technical details with 100% exactness: numerical values, units (e.g. N/mm^2, pH >= 6, mm), clause numbers, and categories (e.g. M1, N2) must be reproduced exactly as written in the context.
-4. If a requirement is conditional (e.g. "subject to agreement between purchaser and manufacturer"), state the condition explicitly alongside the requirement.
-5. If the blocks do not contain the answer, say so plainly in one sentence WITHOUT any citation (an uncited abstention is honest; a fabricated citation is a failure).
+1. Answer ONLY using facts explicitly stated in the provided BIS
+   context blocks below. The context blocks are the complete
+   authoritative evidence available for this response. Do not use
+   your pretrained/general knowledge as evidence.
+
+2. Do NOT infer or extrapolate unstated technical limits, safety
+   factors, tolerances, requirements, applicability, or relationships.
+   Never invent values the text does not give.
+
+3. You may synthesize or combine facts explicitly stated across
+   multiple context blocks, but the synthesis must not introduce any
+   new technical fact, assumption, value, or relationship that is not
+   supported by the provided context.
+
+4. Preserve technical details with 100% exactness: numerical values,
+   units (e.g. N/mm^2, pH >= 6, mm), clause numbers, and categories
+   (e.g. M1, N2) must be reproduced exactly as written in the context.
+
+5. If a requirement is conditional (e.g. "subject to agreement between
+   purchaser and manufacturer"), state the condition explicitly
+   alongside the requirement.
+
+6. If context blocks contain conflicting values, requirements, or
+   statements, do not resolve the conflict using prior knowledge or
+   intuition. State that the retrieved context contains conflicting
+   information and cite the relevant evidence.
+
+7. If the blocks do not contain the answer, say so plainly in one
+   sentence WITHOUT any citation. An uncited abstention is honest;
+   a fabricated citation is a failure.
 
 Citation rules — follow all of them without exception:
 
-A. Cite every technical assertion using ONLY this exact format: [IS <standard_no>:<year>, Clause <clause>, Page <page>], copying the Standard, Clause, and Location headers of the context block it comes from. Example: [IS 456:2000, Clause 5.4, Page 15].
-B. Never use any other citation style: no bare clause numbers, no "Foreword" or section-name cites (front-matter blocks have Clause "N/A" — cite them as Clause N/A), no parenthetical remarks inside the brackets (write [IS 456:2000, Clause 26.5.3.1, Page 49], never [IS 456:2000, Clause 26.5.3.1(a), Page 49]), no non-bracket markers of any kind (never 【1†L13-L22】, file references, or footnote styles), and no shorthand fragments such as "26.4.1, IS 456:2000, Page 47" — even inside Markdown tables, always write the full bracket form.
-C. If a block's Clause header is "N/A", cite it as Clause N/A with that block's Standard and Page.
-D. If the question names a parent clause (e.g. 26.5) but the blocks show numbered sub-clauses, cite the shown sub-clause numbers exactly as written.
-E. If the fact comes from a table (e.g. Table 1, Table 16), cite the Clause header of the block containing that table exactly as written (e.g. a Table 1 shown in a Clause 8 block is cited as Clause 8 or 8.1 as shown), never "Table 1" as the clause.\
+A. Cite every technical assertion using ONLY this exact format:
+   [IS <standard_no>:<year>, Clause <clause>, Page <page>]
+
+   Copy the Standard, Clause, and Location/Page headers of the
+   context block it comes from.
+
+   Example:
+   [IS 456:2000, Clause 5.4, Page 15]
+
+B. Never use any other citation style: no bare clause numbers,
+   no "Foreword" or section-name cites, no parenthetical remarks
+   inside the brackets, no non-bracket markers of any kind, and no
+   shorthand citation fragments.
+
+C. If a block's Clause header is "N/A", cite it as Clause N/A with
+   that block's Standard and Page.
+
+D. If the question names a parent clause (e.g. 26.5) but the blocks
+   show numbered sub-clauses, cite the shown sub-clause numbers
+   exactly as written.
+
+E. If the fact comes from a table, cite the Clause header of the
+   block containing that table exactly as written. Never use the
+   table number itself as the clause.\
 """
+
+#: Task modes selecting mode-specific instructions. The universal
+#: grounding/citation rules above apply unchanged in every mode.
+Mode = Literal["ask", "product_match"]
+
+VALID_MODES: tuple[str, ...] = ("ask", "product_match")
+
+
+def validate_mode(mode: str) -> str:
+    """Return the mode, or raise for anything but an explicit task type."""
+    if mode not in VALID_MODES:
+        raise ValueError(
+            f"mode must be one of {list(VALID_MODES)}, got {mode!r}"
+        )
+    return mode
+
+
+#: Mode-specific instructions appended after the universal rules.
+#: Task framing only — grounding, citation format, verification, and
+#: refusal behavior are identical across modes.
+MODE_INSTRUCTIONS: dict[str, str] = {
+    "ask": """\
+Task instructions (ask mode):
+Answer the user's BIS question directly using ONLY the evidence blocks.
+When asked which standard applies, name the standard with its year
+and state the scope basis found in the blocks.
+
+Synthesize information across multiple evidence blocks when needed,
+but do not introduce any technical fact, value, requirement, or
+relationship that is not supported by the blocks.
+""",
+    "product_match": """\
+Task instructions (product_match mode):
+
+Identify and rank the BIS standards applicable to the described
+product using ONLY the evidence blocks.
+
+For each applicable standard, state:
+- its standard number and year,
+- the scope basis found in the blocks, and
+- the key applicable requirements explicitly supported by the blocks.
+
+Order the most applicable standard first.
+
+Do not infer applicability from general knowledge or from product
+similarity alone. The evidence blocks must provide the basis for
+identifying a standard as applicable.
+
+Cite every claim canonically. If the evidence blocks do not provide
+enough basis to identify an applicable standard, abstain plainly
+without citing.
+""",
+}
 
 
 @dataclass
@@ -83,6 +190,7 @@ class PromptBundle:
     used_block_ids: list[str] = field(default_factory=list)  # chunk_ids included, in order
     reserve_block_ids: list[str] = field(default_factory=list)  # chunk_ids left out
     insufficient_evidence_hook: bool = False  # True when zero blocks fit; Phase 7 owns behavior
+    mode: str = "ask"  # task mode selecting MODE_INSTRUCTIONS
 
 
 def _estimate_tokens(text: str) -> int:
@@ -163,6 +271,7 @@ def build_prompt(
     max_context_tokens: int = DEFAULT_MAX_CONTEXT_TOKENS,
     reserve_margin_tokens: int = DEFAULT_RESERVE_MARGIN_TOKENS,
     chunk_index: ChunkIndex | None = None,
+    mode: str = "ask",
 ) -> PromptBundle:
     """Assemble ``system`` + ``user`` messages for the LLM client.
 
@@ -177,6 +286,8 @@ def build_prompt(
             for year/``heading_path`` header enrichment matching
             ``BuiltContext.prompt_text``. When ``None``, headers use
             the raw evidence fields.
+        mode: task mode (``"ask"`` or ``"product_match"``) selecting
+            ``MODE_INSTRUCTIONS``; the universal rules are identical.
 
     Returns:
         ``PromptBundle`` with the two chat roles and id bookkeeping.
@@ -189,6 +300,7 @@ def build_prompt(
         raise ValueError(f"max_context_tokens must be positive, got {max_context_tokens!r}")
     if reserve_margin_tokens < 0:
         raise ValueError(f"reserve_margin_tokens must be non-negative, got {reserve_margin_tokens!r}")
+    validate_mode(mode)
 
     rendered = _render_blocks(context, chunk_index)
     kept, hook = _fit_blocks(rendered, query.strip(), max_context_tokens, reserve_margin_tokens)
@@ -196,16 +308,18 @@ def build_prompt(
     kept_blocks = [context.blocks[i] for i in kept]
     evidence_section = "\n\n".join(rendered[i] for i in kept)
     user = f"Question:\n{query.strip()}\n\nEvidence:\n{evidence_section}"
+    system = SYSTEM_PROMPT + "\n\n" + MODE_INSTRUCTIONS[mode]
 
     used_ids = [block.evidence.chunk_id for block in kept_blocks]
     dropped_ids = [block.evidence.chunk_id for i, block in enumerate(context.blocks) if i not in kept]
     reserve_ids = dropped_ids + [item.chunk_id for item in context.reserve]
 
     return PromptBundle(
-        system=SYSTEM_PROMPT,
+        system=system,
         user=user,
         model=model,
         used_block_ids=used_ids,
         reserve_block_ids=reserve_ids,
         insufficient_evidence_hook=hook,
+        mode=mode,
     )

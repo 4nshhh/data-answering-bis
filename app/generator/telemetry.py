@@ -44,6 +44,9 @@ class Telemetry:
     # Provider/model identity behind this request (set by generate_answer).
     llm_provider: str = ""
     llm_model: str = ""
+    # Task mode behind this request ("ask" or "product_match"); prompt
+    # framing only, recorded for observability.
+    mode: str = "ask"
     correction_retry: bool = False
     widen_retry: bool = False
     retrieval_expansion: bool = False
@@ -79,6 +82,7 @@ class Telemetry:
             "groq_api_calls": self.llm_api_calls,
             "llm_provider": self.llm_provider,
             "llm_model": self.llm_model,
+            "mode": self.mode,
             "correction_retry": self.correction_retry,
             "widen_retry": self.widen_retry,
             "retrieval_expansion": self.retrieval_expansion,

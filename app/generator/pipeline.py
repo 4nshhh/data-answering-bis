@@ -29,7 +29,7 @@ from retrieval.types import RetrievedEvidence
 from app.generator.citations import verify_answer
 from app.generator.context_builder import BuiltContext, ChunkIndex, ContextBlock, build_context
 from app.generator.llm_client import GeneratedAnswer, GroqProvider, LLMProvider, generate_answer
-from app.generator.prompts import DEFAULT_MODEL, build_prompt
+from app.generator.prompts import DEFAULT_MODEL, build_prompt, validate_mode
 from app.generator.refusal import DEFAULT_THRESHOLD, REFUSAL_TEXT, evaluate_refusal
 from app.generator.telemetry import Telemetry
 
@@ -104,6 +104,7 @@ def _correction_bundle(
     context: BuiltContext,
     chunk_index: Optional[ChunkIndex],
     feedback: str,
+    mode: str = "ask",
 ):
     """Rebuild the prompt with verifier feedback appended (one retry only).
 
@@ -113,7 +114,7 @@ def _correction_bundle(
     """
     from dataclasses import replace
 
-    retry_bundle = build_prompt(query.strip(), context, chunk_index=chunk_index)
+    retry_bundle = build_prompt(query.strip(), context, chunk_index=chunk_index, mode=mode)
     retry_bundle = replace(
         retry_bundle,
         user=retry_bundle.user
@@ -135,6 +136,7 @@ class CitationOut:
     page: int
     chunk_id: str
     verified: bool  # Phase 6 verdict; extension over the base schema
+    rerank_score: Optional[float] = None  # linked evidence score, for ranking only
 
 
 @dataclass
@@ -218,6 +220,7 @@ def run_query(
     provider: Optional[LLMProvider] = None,
     model: Optional[str] = None,
     telemetry: Optional[Telemetry] = None,
+    mode: str = "ask",
 ) -> QueryResult:
     """Execute the full retrieval-to-answer pipeline for one query.
 
@@ -235,17 +238,22 @@ def run_query(
             ``default_model`` (Groq historical default preserved).
         telemetry: request-scoped counters; a fresh instance is used
             when omitted. Observability only — never affects behavior.
+        mode: task mode (``"ask"`` or ``"product_match"``); selects
+            mode-specific prompt instructions only. Retrieval,
+            verification, refusal, and retries are identical.
 
     Raises:
-        ValueError: blank query or invalid ``top_k``.
+        ValueError: blank query, invalid ``top_k``, or unknown mode.
         RuntimeError: provider failures (Phase 8 maps these to HTTP 502).
     """
     if not query or not query.strip():
         raise ValueError("query must be a non-blank string")
     if not isinstance(top_k, int) or isinstance(top_k, bool) or top_k < 1:
         raise ValueError(f"top_k must be a positive int, got {top_k!r}")
+    validate_mode(mode)
     if telemetry is None:
         telemetry = Telemetry()
+    telemetry.mode = mode
 
     started = time.perf_counter()
     elapsed_ms = lambda: (time.perf_counter() - started) * 1000.0
@@ -286,7 +294,7 @@ def run_query(
                             expand_neighbors=expand_neighbors)
     telemetry.add_stage("context_ms", (time.perf_counter() - _t0) * 1000.0)
     _t0 = time.perf_counter()
-    bundle = build_prompt(query.strip(), context, chunk_index=chunk_index, model=resolved_model)
+    bundle = build_prompt(query.strip(), context, chunk_index=chunk_index, model=resolved_model, mode=mode)
     telemetry.add_stage("prompt_ms", (time.perf_counter() - _t0) * 1000.0)
     telemetry.prompt_chars = len(bundle.user)
     _t0 = time.perf_counter()
@@ -306,7 +314,7 @@ def run_query(
         _t0 = time.perf_counter()
         wider_context = build_context(evidence, chunk_index=chunk_index,
                                       top_k=wider_k, expand_neighbors=expand_neighbors)
-        wider_bundle = build_prompt(query.strip(), wider_context, chunk_index=chunk_index)
+        wider_bundle = build_prompt(query.strip(), wider_context, chunk_index=chunk_index, mode=mode)
         telemetry.add_stage("context_widen_ms", (time.perf_counter() - _t0) * 1000.0)
         _t0 = time.perf_counter()
         wider_generated: GeneratedAnswer = generate_answer(query.strip(), wider_bundle, provider, telemetry=telemetry)
@@ -314,7 +322,6 @@ def run_query(
         _t0 = time.perf_counter()
         wider_verified = verify_answer(wider_generated, wider_context, chunk_index)
         telemetry.add_stage("verify_ms", (time.perf_counter() - _t0) * 1000.0)
-        wider_verified = verify_answer(wider_generated, wider_context, chunk_index)
         if wider_verified.all_verified:
             context, bundle, generated, verified = (
                 wider_context, wider_bundle, wider_generated, wider_verified,
@@ -335,7 +342,7 @@ def run_query(
             "from the Standard/Clause/Location headers above, citing only "
             "sub-clause numbers actually shown in the blocks."
         )
-        retry_bundle = _correction_bundle(query.strip(), context, chunk_index, feedback)
+        retry_bundle = _correction_bundle(query.strip(), context, chunk_index, feedback, mode)
         telemetry.correction_retry = True
         _t0 = time.perf_counter()
         retry_generated: GeneratedAnswer = generate_answer(query.strip(), retry_bundle, provider, telemetry=telemetry)
@@ -363,6 +370,7 @@ def run_query(
             "canonical format [IS <standard_no>:<year>, Clause <clause>, "
             "Page <page>]. Restate the same facts with one such citation "
             "per technical assertion, copied from the block headers above.",
+            mode,
         )
         telemetry.correction_retry = True
         _t0 = time.perf_counter()
@@ -380,6 +388,11 @@ def run_query(
 
     mask = bool(evidence[0].is_mask_restricted)
     blocks_by_id = {b.evidence.chunk_id: b for b in context.blocks}
+
+    def _block_rerank(chunk_id: str | None) -> Optional[float]:
+        block = blocks_by_id.get(chunk_id or "")
+        return block.evidence.rerank_score if block is not None else None
+
     citations = [
         CitationOut(
             standard_no=f"IS {v.citation.standard_no}",
@@ -389,6 +402,7 @@ def run_query(
             page=v.citation.page,
             chunk_id=v.chunk_id or "",
             verified=(v.verdict == "verified"),
+            rerank_score=_block_rerank(v.chunk_id),
         )
         for v in verified.citations
     ]
