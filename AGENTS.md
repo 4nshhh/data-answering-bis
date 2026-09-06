@@ -29,7 +29,7 @@ To preserve system stability and maintain clean software boundaries, the respons
 *   Runtime query candidate filtering (`query_side_candidate_mask` / `is_mask_restricted`).
 *   Dense candidate retrieval (`BAAI/bge-m3@5617a9f`) and Cross-Encoder reranking (`BAAI/bge-reranker-base`).
 *   Context window assembly, chunk ordering, and optional neighboring-chunk expansion (`chunk_index ± 1`).
-*   System prompt formatting, grounding constraints, and LLM orchestration via a provider abstraction: Groq (default, `openai/gpt-oss-120b`) and Gemini (`gemini-3.5-flash-lite`), selected with `LLM_PROVIDER`; OpenAI supported via lazy optional import.
+*   System prompt formatting, grounding constraints, and LLM orchestration via a provider abstraction: Gemini (default, `gemini-3.5-flash-lite`) and Groq (fallback, `openai/gpt-oss-120b`), selected with `LLM_PROVIDER`; OpenAI supported via lazy optional import.
 *   Inline citation generation (`[IS <no>:<year>, Clause <cl>, Page <p>]`) and evidence verification.
 *   **Abstention & Refusal Handling:** Owning the "not in corpus" or insufficient-evidence decision based on `rerank_score` values, score margins, and `is_mask_restricted` (since `retrieve()` explicitly returns candidates unconditionally without internal abstention).
 *   Optional FastAPI HTTP adapter (`POST /api/v1/query`) around the `answer()` library, and end-to-end RAG benchmark evaluation.
@@ -378,7 +378,7 @@ Development in data-answering-bis proceeds in 8 structured phases:
 - [x] **Phase 2: Storage Connection & Retrieval Engine Integration** — *(Completed: `retrieval/` package with `LocalNpyStore` (`data/vectors/*.npy`) and `PgVectorStore` backends behind the `ChunkStore` seam; lazy shared `Retriever` singleton).*
 - [x] **Phase 3: Context Assembly & Neighbor Expansion** — *(Completed: `answering/generator/context_builder.py` — Top-K blocks with `Standard/Clause/Heading/Location` headers, `chunk_index ± 1` stitching, overlap dedup).*
 - [x] **Phase 4: System Prompt Engineering & Grounding Constraints** — *(Completed: `answering/generator/prompts.py` — strict grounding/citation system prompt plus `ask` / `product_match` task modes; temperature 0.0).*
-- [x] **Phase 5: LLM Integration & Orchestration** — *(Completed: `answering/generator/llm_client.py` provider abstraction — Groq default (`openai/gpt-oss-120b`), Gemini (`gemini-3.5-flash-lite`) via `LLM_PROVIDER`, OpenAI via lazy optional import; shared SDK clients, uniform transient-retry policy).*
+- [x] **Phase 5: LLM Integration & Orchestration** — *(Completed: `answering/generator/llm_client.py` provider abstraction — Gemini default (`gemini-3.5-flash-lite`), Groq fallback (`openai/gpt-oss-120b`) via `LLM_PROVIDER`, OpenAI via lazy optional import; shared SDK clients, uniform transient-retry policy).*
 - [x] **Phase 6: Citation Parser & Post-Processor** — *(Completed: `answering/generator/citations.py` — canonical parse, table-fragment repair, clause-anchored verification with verified/mismatch/unverifiable verdicts; no negative pages in responses).*
 - [x] **Phase 7: Refusal & Abstention Logic** — *(Completed: `answering/generator/refusal.py` — confidence-gated refusal at τ = 0.5 sigmoid scale, near-miss expansion band [0.20, τ), negative grounding check; canonical refusal text).*
 - [x] **Phase 8: FastAPI Service & Benchmark Evaluation** — *(Completed: optional `POST /api/v1/query` adapter around `answer()`; direct-library usage is primary).*

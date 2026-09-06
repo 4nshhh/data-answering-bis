@@ -140,11 +140,15 @@ def test_fastapi_delegates_to_answer(tmp_path, monkeypatch):
     assert response.json()["answer"] == GOOD_TEXT
 
 
-def test_build_provider_defaults_to_groq(monkeypatch):
+def test_build_provider_defaults_to_gemini(monkeypatch):
+    import answering.generator.llm_client as llm_client
+
     monkeypatch.delenv("LLM_PROVIDER", raising=False)
+    monkeypatch.setattr(llm_client, "_read_env_file", lambda _key, _f=".env": None)
+    monkeypatch.setenv("GEMINI_API_KEY", "test-gemini-key")
     provider = build_provider()
-    assert isinstance(provider, GroqProvider)
-    assert provider.name == "groq"
+    assert isinstance(provider, GeminiProvider)
+    assert provider.name == "gemini"
 
 
 def test_build_provider_selects_gemini(monkeypatch):

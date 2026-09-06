@@ -171,8 +171,8 @@ def build_app(
     @asynccontextmanager
     async def lifespan(application: FastAPI):
         application.state.chunk_index = chunk_index if chunk_index is not None else load_chunk_index(chunks_dir)
-        # Provider from LLM_PROVIDER (Groq default); same singleton serves
-        # every request in this process.
+        # Provider from LLM_PROVIDER (Gemini default, Groq fallback);
+        # same singleton serves every request in this process.
         application.state.provider = provider if provider is not None else build_provider()
         # Optional one-time retriever warmup (BIS_WARMUP=1) delegating to
         # the core library's warmup(): loads BGE-M3 + CrossEncoder and

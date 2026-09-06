@@ -29,7 +29,7 @@ result = answer(
 |---|---|
 | **Repo 1 — Ingestion** | Raw PDF extraction, OCR normalization, Markdown conversion. |
 | **Repo 2 — Chunking & Retrieval** | Structure extraction, semantic chunking (3000 chars / 300 overlap), metadata, `BAAI/bge-m3` embeddings, vector indexing, retrieval benchmarks. |
-| **Repo 3 — This repository (`data-answering-bis`)** | Vector-store connection, runtime retrieval, reranking, context assembly, prompt engineering, LLM orchestration (Groq default, Gemini alternative), citation verification, refusal/correction logic, telemetry, optional API serving. |
+| **Repo 3 — This repository (`data-answering-bis`)** | Vector-store connection, runtime retrieval, reranking, context assembly, prompt engineering, LLM orchestration (Gemini default, Groq fallback alternative), citation verification, refusal/correction logic, telemetry, optional API serving. |
 
 ### What THIS repository owns
 * Consuming the `retrieval/` package (`retrieve()`, `Retriever`, `ChunkStore`, `LocalNpyStore`, `PgVectorStore`).
@@ -129,11 +129,11 @@ result.telemetry    # per-query counters (no secrets)
 
 ### Configuration (`.env`, see `.env.example`)
 ```ini
-LLM_PROVIDER=groq              # "groq" (default) or "gemini"
-GROQ_API_KEY=...               # required for the default provider
-GROQ_MODEL=                    # optional override (default: openai/gpt-oss-120b)
-GEMINI_API_KEY=...             # required for LLM_PROVIDER=gemini
+LLM_PROVIDER=gemini            # "gemini" (default) or "groq" (fallback)
+GEMINI_API_KEY=...             # required for the default provider
 GEMINI_MODEL=gemini-3.5-flash-lite   # optional override (same default)
+GROQ_API_KEY=...               # required for LLM_PROVIDER=groq
+GROQ_MODEL=                    # optional override (default: openai/gpt-oss-120b)
 BIS_WARMUP=0                   # server-only shortcut for warmup(); direct-library
                                # backends call warmup() explicitly instead
 DATABASE_URL=...               # optional; only for the PgVectorStore production path
@@ -184,11 +184,11 @@ imports FastAPI — stopping the server changes nothing about `answer()`.
 
 | Provider | Class | Default model | Key | Status |
 |---|---|---|---|---|
-| Groq | `GroqProvider` | `openai/gpt-oss-120b` | `GROQ_API_KEY` | **Default** |
-| Gemini | `GeminiProvider` | `gemini-3.5-flash-lite` | `GEMINI_API_KEY` | Alternative (no full quality benchmark yet — see §7) |
+| Groq | `GroqProvider` | `openai/gpt-oss-120b` | `GROQ_API_KEY` | Fallback / explicit alternative |
+| Gemini | `GeminiProvider` | `gemini-3.5-flash-lite` | `GEMINI_API_KEY` | **Default** (no full quality benchmark yet — see §7) |
 | OpenAI | `OpenAIProvider` | `openai/gpt-oss-120b` | `OPENAI_API_KEY` | Lazy optional (package not required) |
 
-Select with `LLM_PROVIDER=groq|gemini` (or `build_provider(name)` in code,
+Select with `LLM_PROVIDER=gemini|groq` (or `build_provider(name)` in code,
 or `answer(..., provider=...)` per call). API keys resolve as explicit
 argument → process env → `.env` file; SDKs are imported lazily so the
 unselected provider needs neither package nor key.

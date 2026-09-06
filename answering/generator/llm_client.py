@@ -2,10 +2,12 @@
 
 Sends the Phase 4 ``PromptBundle`` (separate ``system`` + ``user``
 messages) to a chat-completions LLM and returns the raw generated
-text. Groq (default model ``openai/gpt-oss-120b``) is the primary
-provider; OpenAI is supported through the same protocol with a lazy
-import so Phase 4's dependency-free footprint is preserved (the
-``openai`` package is not in ``requirements.txt``).
+text. Gemini (default model ``gemini-3.5-flash-lite``) is the default
+provider; Groq (default model ``openai/gpt-oss-120b``) remains
+available as the explicit fallback alternative. OpenAI is supported
+through the same protocol with a lazy import so Phase 4's
+dependency-free footprint is preserved (the ``openai`` package is not
+in ``requirements.txt``).
 
 Scope:
   * Provider protocol + ``GroqProvider`` / ``GeminiProvider`` /
@@ -59,7 +61,8 @@ DEFAULT_MAX_RETRIES = 2
 #: (overridable with ``GROQ_MODEL``).
 GEMINI_DEFAULT_MODEL = "gemini-3.5-flash-lite"
 
-#: Environment variable selecting the provider (``groq`` default).
+#: Environment variable selecting the provider (``gemini`` default,
+#: ``groq`` stays available as the explicit fallback alternative).
 LLM_PROVIDER_ENV_VAR = "LLM_PROVIDER"
 
 #: Optional model overrides; unset preserves historical defaults.
@@ -276,7 +279,7 @@ class _ChatCompletionsProvider:
 
 
 class GroqProvider(_ChatCompletionsProvider):
-    """Primary provider: Groq chat-completions (OpenAI-compatible)."""
+    """Fallback / explicit-alternative provider: Groq chat-completions (OpenAI-compatible)."""
 
     name = "groq"
     env_var = "GROQ_API_KEY"
@@ -320,7 +323,7 @@ def _gemini_status_code(exc: BaseException) -> int | None:
 
 
 class GeminiProvider(_ChatCompletionsProvider):
-    """Alternative provider: Gemini via the official ``google-genai`` SDK.
+    """Default provider: Gemini via the official ``google-genai`` SDK.
 
     Same orchestration contract as ``GroqProvider`` (system + user in,
     raw text out); only the transport differs (``generate_content`` with
@@ -414,6 +417,35 @@ class GeminiProvider(_ChatCompletionsProvider):
         raise last_error  # pragma: no cover - loop always raises first
 
 
+def _resolve_provider_name(name: str | None) -> str:
+    """Resolve the provider name without constructing any provider.
+
+    Priority (first non-blank value wins):
+
+    1. Explicit ``name`` argument to :func:`build_provider`.
+    2. ``LLM_PROVIDER`` from the process environment.
+    3. ``LLM_PROVIDER`` from ``.env`` via the existing
+       :func:`_read_env_file` seam (no new dependency, no global
+       ``os.environ`` mutation).
+    4. Default ``"gemini"`` (Groq is the explicit fallback alternative,
+       never the implicit default).
+
+    There is no runtime fallback between providers here: the returned
+    name selects exactly one provider, and generation errors never
+    switch providers behind the caller's back (telemetry therefore
+    always reports the provider actually used).
+    """
+    if name is not None and name.strip():
+        return name.strip().lower()
+    from_env = os.environ.get(LLM_PROVIDER_ENV_VAR)
+    if from_env is not None and from_env.strip():
+        return from_env.strip().lower()
+    from_file = _read_env_file(LLM_PROVIDER_ENV_VAR)
+    if from_file is not None and from_file.strip():
+        return from_file.strip().lower()
+    return "gemini"
+
+
 def build_provider(
     name: str | None = None,
     *,
@@ -421,11 +453,12 @@ def build_provider(
     timeout_s: float = DEFAULT_TIMEOUT_SECONDS,
     max_retries: int = DEFAULT_MAX_RETRIES,
 ) -> LLMProvider:
-    """Construct the configured LLM provider (Groq default).
+    """Construct the configured LLM provider (Gemini default, Groq fallback).
 
     Args:
-        name: ``"groq"`` or ``"gemini"`` (case-insensitive); when
-            omitted, ``LLM_PROVIDER`` decides (default ``"groq"``).
+        name: ``"gemini"`` or ``"groq"`` (case-insensitive); when
+            omitted, ``LLM_PROVIDER`` from the process environment wins,
+            then ``LLM_PROVIDER`` from ``.env``, then ``"gemini"``.
         api_key: explicit key, else the provider's ``*_API_KEY`` variable.
         timeout_s / max_retries: same transport knobs for both backends.
 
@@ -433,7 +466,7 @@ def build_provider(
         ValueError: unknown provider name.
         RuntimeError: missing API key (from the provider constructor).
     """
-    want = (name or os.environ.get(LLM_PROVIDER_ENV_VAR) or "groq").strip().lower()
+    want = _resolve_provider_name(name)
     if want == "groq":
         return GroqProvider(api_key=api_key, timeout_s=timeout_s, max_retries=max_retries)
     if want == "gemini":
