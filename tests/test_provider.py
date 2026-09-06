@@ -14,17 +14,17 @@ import pytest
 
 from retrieval.types import RetrievedEvidence
 
-import app.generator as generator_api
-import app.main as main_module
-from app.generator import answer
-from app.generator.context_builder import load_chunk_index
-from app.generator.llm_client import (
+import answering.generator as generator_api
+import answering.answer as main_module
+from answering.generator import answer
+from answering.generator.context_builder import load_chunk_index
+from answering.generator.llm_client import (
     GeminiProvider,
     GroqProvider,
     build_provider,
 )
-from app.generator.pipeline import QueryResult
-from app.generator.telemetry import Telemetry
+from answering.generator.pipeline import QueryResult
+from answering.generator.telemetry import Telemetry
 
 GOOD_TEXT = "Water pH shall be not less than 6 [IS 456:2000, Clause 5.4, Page 15]."
 
@@ -57,7 +57,7 @@ class FakeProvider:
         self.text = text
 
     def generate(self, **kwargs):
-        from app.generator.llm_client import LLMResponse
+        from answering.generator.llm_client import LLMResponse
 
         return LLMResponse(text=self.text, model="fake-model")
 
@@ -161,7 +161,7 @@ def test_build_provider_rejects_unknown():
 
 
 def test_gemini_missing_key_raises(monkeypatch):
-    import app.generator.llm_client as llm_client
+    import answering.generator.llm_client as llm_client
 
     monkeypatch.delenv("GEMINI_API_KEY", raising=False)
     monkeypatch.setattr(llm_client, "_read_env_file", lambda _key, _f=".env": None)
@@ -221,9 +221,9 @@ def _patch_genai(monkeypatch, actions: list):
 
 
 def test_gemini_generates_and_reuses_client(monkeypatch, chunk_index):
-    from app.generator.llm_client import generate_answer
-    from app.generator.prompts import build_prompt
-    from app.generator.context_builder import build_context
+    from answering.generator.llm_client import generate_answer
+    from answering.generator.prompts import build_prompt
+    from answering.generator.context_builder import build_context
 
     made = _patch_genai(monkeypatch, [GOOD_TEXT, GOOD_TEXT])
     provider = GeminiProvider(api_key="test-key")
@@ -242,9 +242,9 @@ def test_gemini_generates_and_reuses_client(monkeypatch, chunk_index):
 
 
 def test_gemini_transient_error_retried(monkeypatch, chunk_index):
-    from app.generator.llm_client import generate_answer
-    from app.generator.prompts import build_prompt
-    from app.generator.context_builder import build_context
+    from answering.generator.llm_client import generate_answer
+    from answering.generator.prompts import build_prompt
+    from answering.generator.context_builder import build_context
 
     class Rate429(Exception):
         def __init__(self):
@@ -266,9 +266,9 @@ def test_gemini_transient_error_retried(monkeypatch, chunk_index):
 
 
 def test_gemini_fatal_error_maps_to_runtime_error(monkeypatch, chunk_index):
-    from app.generator.llm_client import generate_answer
-    from app.generator.prompts import build_prompt
-    from app.generator.context_builder import build_context
+    from answering.generator.llm_client import generate_answer
+    from answering.generator.prompts import build_prompt
+    from answering.generator.context_builder import build_context
 
     class Bad400(Exception):
         def __init__(self):

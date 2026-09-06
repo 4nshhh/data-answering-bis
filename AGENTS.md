@@ -15,7 +15,7 @@ The overall BIS Standards Assistant is partitioned into three decoupled reposito
 
 1. **Repo 1 — Ingestion Repository:** Raw PDF extraction, OCR normalization, and Markdown conversion.
 2. **Repo 2 — Processing, Chunking & Retrieval Repository:** Markdown structure extraction, semantic chunking (3000 chars / 300 overlap), metadata attachment, vector embedding (`BAAI/bge-m3`), vector storage indexing, and retrieval evaluation benchmarks.
-3. **data-answering-bis — Answering / RAG Repository (THIS REPOSITORY):** Vector store connection / cache loading, runtime candidate retrieval, reranking, context assembly, LLM prompt engineering, grounded answer generation (`ask` + `product_match` modes), citation formatting, refusal handling, and optional API serving. The canonical interface is the `app.generator` library (`answer()` / `warmup()`); FastAPI is only an HTTP adapter.
+3. **data-answering-bis — Answering / RAG Repository (THIS REPOSITORY):** Vector store connection / cache loading, runtime candidate retrieval, reranking, context assembly, LLM prompt engineering, grounded answer generation (`ask` + `product_match` modes), citation formatting, refusal handling, and optional API serving. The canonical interface is the `answering.generator` library (`answer()` / `warmup()`); FastAPI is only an HTTP adapter.
 
 ---
 
@@ -278,7 +278,7 @@ To prevent unsafe engineering hallucinations:
 
 ## 12. API & Service Design
 
-The primary interface for data-answering-bis is the **`app.generator` library** (`answer()` / `warmup()`, usable without any server); FastAPI below is an optional HTTP adapter around the same pipeline:
+The primary interface for data-answering-bis is the **`answering.generator` library** (`answer()` / `warmup()`, usable without any server); FastAPI below is an optional HTTP adapter around the same pipeline:
 
 ### Endpoint Specification: `POST /api/v1/query`
 
@@ -376,11 +376,11 @@ Development in data-answering-bis proceeds in 8 structured phases:
 
 - [x] **Phase 1: Repository Architecture & Migration Plan** — *(Completed: Asset inventory, data contract definition, `retrieval/` package alignment, and master `AGENTS.md` specification).*
 - [x] **Phase 2: Storage Connection & Retrieval Engine Integration** — *(Completed: `retrieval/` package with `LocalNpyStore` (`data/vectors/*.npy`) and `PgVectorStore` backends behind the `ChunkStore` seam; lazy shared `Retriever` singleton).*
-- [x] **Phase 3: Context Assembly & Neighbor Expansion** — *(Completed: `app/generator/context_builder.py` — Top-K blocks with `Standard/Clause/Heading/Location` headers, `chunk_index ± 1` stitching, overlap dedup).*
-- [x] **Phase 4: System Prompt Engineering & Grounding Constraints** — *(Completed: `app/generator/prompts.py` — strict grounding/citation system prompt plus `ask` / `product_match` task modes; temperature 0.0).*
-- [x] **Phase 5: LLM Integration & Orchestration** — *(Completed: `app/generator/llm_client.py` provider abstraction — Groq default (`openai/gpt-oss-120b`), Gemini (`gemini-3.5-flash-lite`) via `LLM_PROVIDER`, OpenAI via lazy optional import; shared SDK clients, uniform transient-retry policy).*
-- [x] **Phase 6: Citation Parser & Post-Processor** — *(Completed: `app/generator/citations.py` — canonical parse, table-fragment repair, clause-anchored verification with verified/mismatch/unverifiable verdicts; no negative pages in responses).*
-- [x] **Phase 7: Refusal & Abstention Logic** — *(Completed: `app/generator/refusal.py` — confidence-gated refusal at τ = 0.5 sigmoid scale, near-miss expansion band [0.20, τ), negative grounding check; canonical refusal text).*
+- [x] **Phase 3: Context Assembly & Neighbor Expansion** — *(Completed: `answering/generator/context_builder.py` — Top-K blocks with `Standard/Clause/Heading/Location` headers, `chunk_index ± 1` stitching, overlap dedup).*
+- [x] **Phase 4: System Prompt Engineering & Grounding Constraints** — *(Completed: `answering/generator/prompts.py` — strict grounding/citation system prompt plus `ask` / `product_match` task modes; temperature 0.0).*
+- [x] **Phase 5: LLM Integration & Orchestration** — *(Completed: `answering/generator/llm_client.py` provider abstraction — Groq default (`openai/gpt-oss-120b`), Gemini (`gemini-3.5-flash-lite`) via `LLM_PROVIDER`, OpenAI via lazy optional import; shared SDK clients, uniform transient-retry policy).*
+- [x] **Phase 6: Citation Parser & Post-Processor** — *(Completed: `answering/generator/citations.py` — canonical parse, table-fragment repair, clause-anchored verification with verified/mismatch/unverifiable verdicts; no negative pages in responses).*
+- [x] **Phase 7: Refusal & Abstention Logic** — *(Completed: `answering/generator/refusal.py` — confidence-gated refusal at τ = 0.5 sigmoid scale, near-miss expansion band [0.20, τ), negative grounding check; canonical refusal text).*
 - [x] **Phase 8: FastAPI Service & Benchmark Evaluation** — *(Completed: optional `POST /api/v1/query` adapter around `answer()`; direct-library usage is primary).*
 
 ---
@@ -406,7 +406,7 @@ Future Antigravity sessions working in data-answering-bis MUST obey the followin
 | **Vector Storage Assets** | **FROZEN** | `data/vectors/bge_m3_enriched_vectors.npy` & `indexing/migrate_from_artifacts.py` |
 | **Production Retrieval Package** | **COMPLETED** | `retrieval/` package (`retrieve()`, `RetrievedEvidence`, `LocalNpyStore`, `PgVectorStore`) |
 | **Migration Specification** | **COMPLETED** | Documented in `AGENTS.md` & `README.md` |
-| **LLM Answering & Context Builder** | **COMPLETED** | `app/generator` library (`answer()` / `warmup()`, ask + product_match modes) |
-| **FastAPI REST Endpoint** | **COMPLETED (optional adapter)** | `app/main.py` (`POST /api/v1/query`) around `answer()` |
-| **Backend Integration Contract** | **READY** | `from app.generator import answer, warmup`; `warmup()` once at startup (no key/LLM call), `answer(query, mode="ask"\|"product_match")`; repo-root-anchored data defaults work from any CWD |
+| **LLM Answering & Context Builder** | **COMPLETED** | `answering/generator` library (`answer()` / `warmup()`, ask + product_match modes) |
+| **FastAPI REST Endpoint** | **COMPLETED (optional adapter)** | `answering/answer.py` (`POST /api/v1/query`) around `answer()` |
+| **Backend Integration Contract** | **READY** | `from answering.generator import answer, warmup`; `warmup()` once at startup (no key/LLM call), `answer(query, mode="ask"\|"product_match")`; repo-root-anchored data defaults work from any CWD |
 | **Offline Test Suite** | **273 passed** | `python -m pytest tests/ -q` (no keys/GPU/network; any live LLM call would fail) |

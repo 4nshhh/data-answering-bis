@@ -2,7 +2,7 @@
 
 Covers the production-backend contract::
 
-    from app.generator import answer, warmup
+    from answering.generator import answer, warmup
 
     warmup()  # optional; must make zero LLM calls
     result = answer(query, mode="ask")
@@ -20,12 +20,12 @@ from pathlib import Path
 
 import pytest
 
-import app.generator as generator_api
+import answering.generator as generator_api
 import retrieval
-from app.generator import answer, warmup
-from app.generator.context_builder import load_chunk_index
-from app.generator.pipeline import QueryResult
-from app.generator.telemetry import Telemetry
+from answering.generator import answer, warmup
+from answering.generator.context_builder import load_chunk_index
+from answering.generator.pipeline import QueryResult
+from answering.generator.telemetry import Telemetry
 from retrieval.types import RetrievedEvidence
 
 GOOD_TEXT = "Water pH shall be not less than 6 [IS 456:2000, Clause 5.4, Page 15]."
@@ -60,7 +60,7 @@ class FakeProvider:
         self.calls: list = []
 
     def generate(self, **kwargs):
-        from app.generator.llm_client import LLMResponse
+        from answering.generator.llm_client import LLMResponse
 
         self.calls.append(kwargs)
         return LLMResponse(text=self.text, model="fake-model")
@@ -188,7 +188,7 @@ def test_warmup_then_answer_shares_index(monkeypatch, tiny_index, stub_retrieval
 def test_fastapi_lifespan_delegates_warmup(monkeypatch, tmp_path):
     httpx = pytest.importorskip("httpx", reason="fastapi.testclient requires httpx")
     del httpx
-    import app.main as main_module
+    import answering.answer as main_module
     from fastapi.testclient import TestClient
 
     calls: list = []
@@ -210,7 +210,7 @@ def test_fastapi_lifespan_passes_chunks_dir_to_warmup(monkeypatch, tmp_path):
     """P1: a custom chunks_dir must reach warmup(), not just the app index."""
     httpx = pytest.importorskip("httpx", reason="fastapi.testclient requires httpx")
     del httpx
-    import app.main as main_module
+    import answering.answer as main_module
     from fastapi.testclient import TestClient
 
     calls: list = []

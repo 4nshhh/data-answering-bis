@@ -2,7 +2,7 @@
 
 Composes the frozen retrieval package with the Phase 3-7 generation
 layer into a single ``run_query()`` call shared by the FastAPI service
-(``app/main.py``) and the benchmark harness
+(``answering/answer.py``) and the benchmark harness
 (``evaluation/run_benchmark.py``):
 
 ```text
@@ -27,12 +27,12 @@ from typing import Callable, Optional
 from retrieval import retrieve
 from retrieval.types import RetrievedEvidence
 
-from app.generator.citations import verify_answer
-from app.generator.context_builder import BuiltContext, ChunkIndex, ContextBlock, build_context
-from app.generator.llm_client import GeneratedAnswer, GroqProvider, LLMProvider, generate_answer
-from app.generator.prompts import DEFAULT_MODEL, build_prompt, validate_mode
-from app.generator.refusal import DEFAULT_THRESHOLD, REFUSAL_TEXT, evaluate_refusal
-from app.generator.telemetry import Telemetry
+from answering.generator.citations import verify_answer
+from answering.generator.context_builder import BuiltContext, ChunkIndex, ContextBlock, build_context
+from answering.generator.llm_client import GeneratedAnswer, GroqProvider, LLMProvider, generate_answer
+from answering.generator.prompts import DEFAULT_MODEL, build_prompt, validate_mode
+from answering.generator.refusal import DEFAULT_THRESHOLD, REFUSAL_TEXT, evaluate_refusal
+from answering.generator.telemetry import Telemetry
 
 __all__ = [
     "DEFAULT_CANDIDATES_K",

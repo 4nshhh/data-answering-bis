@@ -14,16 +14,16 @@ import pytest
 
 from retrieval.types import RetrievedEvidence
 
-from app.generator.context_builder import load_chunk_index
-from app.generator.llm_client import (
+from answering.generator.context_builder import load_chunk_index
+from answering.generator.llm_client import (
     _ChatCompletionsProvider,
     generate_answer,
 )
-from app.generator.pipeline import run_query
-from app.generator.prompts import build_prompt
-from app.generator.telemetry import Telemetry
-from app.main import _result_to_response
-from app.generator.pipeline import QueryResult
+from answering.generator.pipeline import run_query
+from answering.generator.prompts import build_prompt
+from answering.generator.telemetry import Telemetry
+from answering.answer import _result_to_response
+from answering.generator.pipeline import QueryResult
 
 
 GOOD_TEXT = "Water pH shall be not less than 6 [IS 456:2000, Clause 5.4, Page 15]."
@@ -208,7 +208,7 @@ def test_transient_retry_counts_every_provider_attempt(chunk_index):
     tele = Telemetry()
     provider = StubProvider([RateLimitError("slow down"), GOOD_TEXT])
     context_evidence = retrieve_ok("q")
-    from app.generator.context_builder import build_context
+    from answering.generator.context_builder import build_context
     context = build_context(context_evidence, chunk_index=chunk_index, top_k=2)
     bundle = build_prompt("What is the pH?", context, chunk_index=chunk_index)
     answer = generate_answer("What is the pH?", bundle, provider, telemetry=tele)
@@ -246,7 +246,7 @@ def test_refusal_reports_zero_calls_with_latency():
 
 
 def test_token_totals_accumulate_across_attempts(chunk_index):
-    from app.generator.llm_client import LLMResponse
+    from answering.generator.llm_client import LLMResponse
 
     class UsageProvider:
         name = "usage"
@@ -275,7 +275,7 @@ def test_sdk_client_reused_across_generations(monkeypatch, chunk_index):
     import sys
     import types
 
-    from app.generator.llm_client import GroqProvider
+    from answering.generator.llm_client import GroqProvider
 
     built: list = []
 

@@ -51,8 +51,8 @@ import re
 from dataclasses import dataclass, field
 from typing import Any
 
-from app.generator.context_builder import BuiltContext, ChunkIndex
-from app.generator.llm_client import GeneratedAnswer
+from answering.generator.context_builder import BuiltContext, ChunkIndex
+from answering.generator.llm_client import GeneratedAnswer
 
 __all__ = [
     "CITATION_RE",

@@ -14,8 +14,8 @@ import pytest
 
 from retrieval.types import RetrievedEvidence
 
-from app.generator.context_builder import build_context, load_chunk_index
-from app.generator.prompts import (
+from answering.generator.context_builder import build_context, load_chunk_index
+from answering.generator.prompts import (
     SYSTEM_PROMPT,
     PromptBundle,
     _estimate_tokens,
@@ -139,7 +139,7 @@ def test_reserve_ids_propagated(context_and_index):
     context, _ = context_and_index
     assert len(context.reserve) == 0
     evidence = [make_evidence(f"extra_{i}", f"Extra text {i}.", source="other.md") for i in range(2)]
-    from app.generator.context_builder import build_context as build_ctx
+    from answering.generator.context_builder import build_context as build_ctx
 
     base = [make_evidence("doc_0000", "Water shall have pH not less than 6.")]
     ctx = build_ctx(base + evidence, top_k=1)
@@ -165,7 +165,7 @@ def test_invalid_budget_params_raise(context_and_index):
 # --- budgeting ------------------------------------------------------------------
 
 def test_budget_drops_trailing_blocks_first(context_and_index):
-    from app.generator.prompts import _render_blocks
+    from answering.generator.prompts import _render_blocks
 
     context, _ = context_and_index
     rendered = _render_blocks(context)

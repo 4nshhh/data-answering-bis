@@ -55,9 +55,9 @@ _TERMINAL_CHARS = frozenset('.!?"\'\u201d\u2019)]')
 #: Radius for neighbor lookup (``chunk_index +/- 1`` per AGENTS.md 8.3).
 _NEIGHBOR_RADIUS = 1
 
-#: Repository root (this file lives at ``<root>/app/generator/``).
+#: Repository root (this file lives at ``<root>/answering/generator/``).
 #: The default chunk directory anchors here — not to the process
-#: working directory — matching ``app.generator`` and ``retrieval``
+#: working directory — matching ``answering.generator`` and ``retrieval``
 #: defaults so direct-library backends work from any directory.
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_CHUNKS_DIR = REPO_ROOT / "data" / "chunks"

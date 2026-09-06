@@ -14,24 +14,24 @@ import pytest
 
 from retrieval.types import RetrievedEvidence
 
-import app.generator.adapters as adapters
-from app.generator import answer, to_ask_response, to_match_response
-from app.generator.adapters import (
+import answering.generator.adapters as adapters
+from answering.generator import answer, to_ask_response, to_match_response
+from answering.generator.adapters import (
     clause_id_for,
     confidence_band,
     standard_id_for,
 )
-from app.generator.context_builder import build_context, load_chunk_index
-from app.generator.llm_client import LLMResponse
-from app.generator.pipeline import CitationOut, QueryResult, RetrievalMeta, run_query
-from app.generator.prompts import (
+from answering.generator.context_builder import build_context, load_chunk_index
+from answering.generator.llm_client import LLMResponse
+from answering.generator.pipeline import CitationOut, QueryResult, RetrievalMeta, run_query
+from answering.generator.prompts import (
     MODE_INSTRUCTIONS,
     SYSTEM_PROMPT,
     build_prompt,
     validate_mode,
 )
-from app.generator.refusal import REFUSAL_TEXT
-from app.generator.telemetry import Telemetry
+from answering.generator.refusal import REFUSAL_TEXT
+from answering.generator.telemetry import Telemetry
 
 GOOD_TEXT = "Water pH shall be not less than 6 [IS 456:2000, Clause 5.4, Page 15]."
 
@@ -179,7 +179,7 @@ def test_build_prompt_rejects_unknown_mode(chunk_index):
 
 
 def test_mode_survives_correction_retry(chunk_index):
-    from app.generator.pipeline import run_query as _run
+    from answering.generator.pipeline import run_query as _run
 
     tele = Telemetry()
     result = _run("q?", retrieve_fn=retrieve_ok, chunk_index=chunk_index,
@@ -349,7 +349,7 @@ def test_adapters_never_touch_retrieval():
             if node.module:
                 imported.add(node.module.split(".")[0])
     assert "retrieval" not in imported
-    assert adapters.__name__ == "app.generator.adapters"
+    assert adapters.__name__ == "answering.generator.adapters"
 
 
 # --- prose-abstention consistency (product_match) ----------------------

@@ -29,10 +29,10 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from app.generator import answer  # noqa: E402
-from app.generator.context_builder import load_chunk_index  # noqa: E402
-from app.generator.llm_client import build_provider  # noqa: E402
-from app.generator.telemetry import Telemetry  # noqa: E402
+from answering.generator import answer  # noqa: E402
+from answering.generator.context_builder import load_chunk_index  # noqa: E402
+from answering.generator.llm_client import build_provider  # noqa: E402
+from answering.generator.telemetry import Telemetry  # noqa: E402
 from evaluation.progress import QueryProgress  # noqa: E402
 
 # Five stable benchmark queries covering distinct pipeline shapes.

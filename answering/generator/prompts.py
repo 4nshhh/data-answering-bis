@@ -24,7 +24,7 @@ import math
 from dataclasses import dataclass, field
 from typing import Literal
 
-from app.generator.context_builder import BuiltContext, ChunkIndex, format_block
+from answering.generator.context_builder import BuiltContext, ChunkIndex, format_block
 
 __all__ = [
     "DEFAULT_MODEL",

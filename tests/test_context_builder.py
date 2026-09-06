@@ -15,7 +15,7 @@ import pytest
 
 from retrieval.types import RetrievedEvidence
 
-from app.generator.context_builder import (
+from answering.generator.context_builder import (
     BuiltContext,
     build_context,
     format_block,

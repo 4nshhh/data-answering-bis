@@ -1,14 +1,14 @@
 """Phase 8: FastAPI web service exposing the RAG pipeline.
 
 Endpoint ``POST /api/v1/query`` (AGENTS.md section 12) executes
-``app.generator.pipeline.run_query`` and renders ``QueryResult`` as
+``answering.generator.pipeline.run_query`` and renders ``QueryResult`` as
 JSON. Heavy singletons (chunk index, LLM provider) load once in the
 lifespan handler; retrieval models load lazily on first query via the
 frozen ``retrieval`` package.
 
 Run (from the repository root)::
 
-    uvicorn app.main:app --host 0.0.0.0 --port 8000
+    uvicorn answering.answer:app --host 0.0.0.0 --port 8000
 """
 
 from __future__ import annotations
@@ -21,12 +21,12 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
-from app.generator import answer, warmup
-from app.generator.context_builder import DEFAULT_CHUNKS_DIR, ChunkIndex, load_chunk_index
-from app.generator.llm_client import LLMProvider, build_provider
-from app.generator.pipeline import QueryResult
-from app.generator.refusal import DEFAULT_THRESHOLD
-from app.generator.telemetry import Telemetry
+from answering.generator import answer, warmup
+from answering.generator.context_builder import DEFAULT_CHUNKS_DIR, ChunkIndex, load_chunk_index
+from answering.generator.llm_client import LLMProvider, build_provider
+from answering.generator.pipeline import QueryResult
+from answering.generator.refusal import DEFAULT_THRESHOLD
+from answering.generator.telemetry import Telemetry
 
 __all__ = ["app", "QueryRequest", "CitationModel", "RetrievalMetaModel", "TelemetryModel", "QueryResponse",
            "DeviceResponse", "UTF8JSONResponse"]
@@ -235,7 +235,7 @@ def build_app(
             raise HTTPException(status_code=400, detail="query must be a non-blank string")
         try:
             # Thin adapter: the canonical pipeline lives in
-            # app.generator.answer(); HTTP only validates + serializes.
+            # answering.generator.answer(); HTTP only validates + serializes.
             # The versioned query endpoint always answers in ask mode.
             telemetry = Telemetry()
             result = answer(

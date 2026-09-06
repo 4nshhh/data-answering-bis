@@ -12,7 +12,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from app.generator.llm_client import (
+from answering.generator.llm_client import (
     DEFAULT_MAX_RETRIES,
     DEFAULT_TEMPERATURE,
     GeneratedAnswer,
@@ -25,7 +25,7 @@ from app.generator.llm_client import (
     _resolve_api_key,
     generate_answer,
 )
-from app.generator.prompts import PromptBundle
+from answering.generator.prompts import PromptBundle
 
 
 def make_bundle(

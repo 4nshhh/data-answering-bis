@@ -3,7 +3,7 @@
 Repo 2 exposes ``retrieve(query, top_k=10)``; this package exposes the
 Repo 3 counterpart::
 
-    from app.generator import answer
+    from answering.generator import answer
 
     result = answer(
         "What is the minimum pH value of water for mixing concrete in IS 456?",
@@ -14,7 +14,7 @@ Repo 3 counterpart::
 retrieval, reranking, context assembly, prompting, generation,
 citation verification, correction retry) by delegating to the single
 canonical implementation, ``pipeline.run_query``. There is exactly one
-pipeline; FastAPI (``app.main``) is a thin HTTP adapter around this
+pipeline; FastAPI (``answering.answer``) is a thin HTTP adapter around this
 function.
 
 This package is a standalone library: it never imports FastAPI or
@@ -22,7 +22,7 @@ Uvicorn. Expensive local retrieval resources (chunk index, BGE-M3
 encoder, reranker, vector store) load lazily on first use, or eagerly
 via :func:`warmup`::
 
-    from app.generator import answer, warmup
+    from answering.generator import answer, warmup
 
     warmup()  # optional; no LLM call, no API key required
 
@@ -38,14 +38,14 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Callable, Optional
 
-from app.generator.adapters import to_ask_response, to_match_response
-from app.generator.context_builder import (
+from answering.generator.adapters import to_ask_response, to_match_response
+from answering.generator.context_builder import (
     DEFAULT_CHUNKS_DIR,
     ChunkIndex,
     load_chunk_index,
 )
-from app.generator.llm_client import LLMProvider, build_provider
-from app.generator.pipeline import (
+from answering.generator.llm_client import LLMProvider, build_provider
+from answering.generator.pipeline import (
     DEFAULT_CANDIDATES_K,
     CitationOut,
     QueryResult,
@@ -53,8 +53,8 @@ from app.generator.pipeline import (
     Telemetry,
     run_query,
 )
-from app.generator.prompts import validate_mode
-from app.generator.refusal import DEFAULT_THRESHOLD
+from answering.generator.prompts import validate_mode
+from answering.generator.refusal import DEFAULT_THRESHOLD
 
 __all__ = [
     "answer",

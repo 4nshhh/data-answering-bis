@@ -12,12 +12,12 @@ import pytest
 
 from retrieval.types import RetrievedEvidence
 
-from app.generator.citations import (
+from answering.generator.citations import (
     parse_citations,
     verify_answer,
 )
-from app.generator.context_builder import build_context, load_chunk_index
-from app.generator.llm_client import GeneratedAnswer
+from answering.generator.context_builder import build_context, load_chunk_index
+from answering.generator.llm_client import GeneratedAnswer
 
 
 def make_evidence(

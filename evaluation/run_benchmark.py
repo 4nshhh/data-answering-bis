@@ -31,12 +31,12 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from app.generator.adapters import to_ask_response, to_match_response  # noqa: E402
-from app.generator.context_builder import load_chunk_index  # noqa: E402
-from app.generator.llm_client import GroqProvider  # noqa: E402
-from app.generator.pipeline import run_query  # noqa: E402
-from app.generator.prompts import validate_mode  # noqa: E402
-from app.generator.refusal import DEFAULT_THRESHOLD  # noqa: E402
+from answering.generator.adapters import to_ask_response, to_match_response  # noqa: E402
+from answering.generator.context_builder import load_chunk_index  # noqa: E402
+from answering.generator.llm_client import GroqProvider  # noqa: E402
+from answering.generator.pipeline import run_query  # noqa: E402
+from answering.generator.prompts import validate_mode  # noqa: E402
+from answering.generator.refusal import DEFAULT_THRESHOLD  # noqa: E402
 from evaluation.progress import QueryProgress  # noqa: E402
 
 

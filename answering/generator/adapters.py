@@ -19,7 +19,7 @@ from __future__ import annotations
 import re
 from typing import Any, Callable, Optional
 
-from app.generator.pipeline import CitationOut, QueryResult, is_abstention_prose
+from answering.generator.pipeline import CitationOut, QueryResult, is_abstention_prose
 
 __all__ = [
     "standard_id_for",

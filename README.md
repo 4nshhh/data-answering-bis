@@ -2,10 +2,10 @@
 
 The **Answering / RAG / LLM pipeline** for the Bureau of Indian Standards (BIS) Assistant. Given a natural-language question about BIS documents, it retrieves grounded context chunks, assembles a structured prompt, generates an answer with a configured LLM, and verifies every technical claim against retrieved evidence with inline page/clause citations — or refuses when the evidence is insufficient.
 
-The canonical programmatic interface is the `app.generator` library (analogous to Repo 2's `retrieve()`). **Direct function calls are the primary backend integration — FastAPI is an optional HTTP adapter and is never required by the answering pipeline:**
+The canonical programmatic interface is the `answering.generator` library (analogous to Repo 2's `retrieve()`). **Direct function calls are the primary backend integration — FastAPI is an optional HTTP adapter and is never required by the answering pipeline:**
 
 ```python
-from app.generator import answer, warmup
+from answering.generator import answer, warmup
 
 warmup()  # optional, once at backend startup; preloads retrieval
           # models so the first query skips ~40s of model load.
@@ -19,7 +19,7 @@ result = answer(
 )
 ```
 
-`POST /api/v1/query` (FastAPI, `app/main.py`) only validates the request, calls this same `answer()`, and serializes the result.
+`POST /api/v1/query` (FastAPI, `answering/answer.py`) only validates the request, calls this same `answer()`, and serializes the result.
 
 ---
 
@@ -63,8 +63,9 @@ data-answering-bis/
 │   ├── store.py                 # ChunkStore protocol + LocalNpyStore
 │   ├── pg_store.py              # PgVectorStore (PostgreSQL/pgvector production path)
 │   └── models.py                # Pinned model loaders (CUDA preferred, loud CPU fallback)
-├── app/
-│   ├── main.py                  # Optional FastAPI adapter: validates, calls answer(), serializes
+├── answering/
+│   ├── __init__.py              # Package marker
+│   ├── answer.py                # Optional FastAPI adapter: validates, calls answer(), serializes
 │   └── generator/               # Standalone library: never imports FastAPI/Uvicorn
 │       ├── __init__.py          # Canonical answer()/warmup() API + process singletons
 │       ├── adapters.py          # to_ask_response()/to_match_response() frontend contracts
@@ -112,7 +113,7 @@ data-answering-bis/
 
 ### Use the library directly (primary integration)
 ```python
-from app.generator import answer, warmup
+from answering.generator import answer, warmup
 
 warmup()  # once at backend startup; loads chunk index + BGE-M3 +
           # reranker + vector store (~40s once). No LLM call, no key.
@@ -142,7 +143,7 @@ No `PORT`/`HOST` variables exist — pass host/port to uvicorn directly.
 
 ### Run the optional API
 ```bash
-uvicorn app.main:app --host 127.0.0.1 --port 8000
+uvicorn answering.answer:app --host 127.0.0.1 --port 8000
 ```
 With `BIS_WARMUP=1`, server startup calls `warmup()` so the first query serves in ~0.5s instead of ~40s. The API adds no RAG behavior — it is the same `answer()` behind HTTP.
 
@@ -151,10 +152,10 @@ With `BIS_WARMUP=1`, server startup calls `warmup()` so the first query serves i
 ## 4. Answering Pipeline (actual call graph)
 
 ```text
-warmup()                                    # app/generator/__init__.py (optional preload,
+warmup()                                    # answering/generator/__init__.py (optional preload,
                                             # no LLM call; answer() works without it)
-answer(query, top_k, mode)                  # app/generator/__init__.py (canonical API)
-  └─ run_query()                            # app/generator/pipeline.py (one implementation)
+answer(query, top_k, mode)                  # answering/generator/__init__.py (canonical API)
+  └─ run_query()                            # answering/generator/pipeline.py (one implementation)
        ├─ retrieve(query, top_k=10)         # frozen retrieval package
        │    ├─ query_side_candidate_mask    # IS-number filter (unmasked product queries skip it)
        │    ├─ BGE-M3 encode → dot-product  # 2081×1024, CUDA
@@ -171,7 +172,7 @@ answer(query, top_k, mode)                  # app/generator/__init__.py (canonic
                       retrieval_meta, telemetry)
 ```
 
-FastAPI (`app/main.py`, optional) only validates the request, calls `answer()` with its
+FastAPI (`answering/answer.py`, optional) only validates the request, calls `answer()` with its
 lifespan singletons, and serializes `QueryResult` to JSON (`/healthz`,
 `/api/v1/device`, `/api/v1/query`). Error mapping: `ValueError` → 400,
 provider `RuntimeError` → 502, anything else → 500. The pipeline never
@@ -291,4 +292,4 @@ no provider API keys set — any live LLM call would fail instead of passing sil
 * `retrieve(query, top_k=10)` signature and the BGE-M3 → CrossEncoder architecture.
 * Refusal threshold τ = 0.5; strict citation linkage; one-shot correction/widening; no fabricated evidence or hardcoded answers.
 * Rejected retrievers (BM25-primary, hybrid RRF, raw-text rerank) stay rejected.
-* Library-first: `answer()`/`warmup()` never import FastAPI/Uvicorn; `app/main.py` stays an optional adapter.
+* Library-first: `answer()`/`warmup()` never import FastAPI/Uvicorn; `answering/answer.py` stays an optional adapter.

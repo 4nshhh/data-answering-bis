@@ -36,7 +36,7 @@ from dataclasses import dataclass, field
 
 from retrieval.types import RetrievedEvidence
 
-from app.generator.citations import VerifiedAnswer
+from answering.generator.citations import VerifiedAnswer
 
 __all__ = [
     "DEFAULT_THRESHOLD",

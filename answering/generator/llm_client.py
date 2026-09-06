@@ -27,8 +27,8 @@ import time
 from dataclasses import dataclass
 from typing import Any, Callable, Protocol
 
-from app.generator.prompts import DEFAULT_MODEL, PromptBundle
-from app.generator.telemetry import Telemetry
+from answering.generator.prompts import DEFAULT_MODEL, PromptBundle
+from answering.generator.telemetry import Telemetry
 
 __all__ = [
     "DEFAULT_TEMPERATURE",

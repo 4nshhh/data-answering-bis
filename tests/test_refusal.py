@@ -9,8 +9,8 @@ import pytest
 
 from retrieval.types import RetrievedEvidence
 
-from app.generator.citations import Citation, VerifiedAnswer, VerifiedCitation
-from app.generator.refusal import (
+from answering.generator.citations import Citation, VerifiedAnswer, VerifiedCitation
+from answering.generator.refusal import (
     DEFAULT_MIN_MARGIN,
     DEFAULT_THRESHOLD,
     REFUSAL_TEXT,

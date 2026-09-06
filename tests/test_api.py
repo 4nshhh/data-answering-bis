@@ -16,9 +16,9 @@ from fastapi.testclient import TestClient  # noqa: E402
 
 from retrieval.types import RetrievedEvidence  # noqa: E402
 
-from app.generator.context_builder import load_chunk_index  # noqa: E402
-from app.generator.llm_client import LLMResponse  # noqa: E402
-from app.main import build_app  # noqa: E402
+from answering.generator.context_builder import load_chunk_index  # noqa: E402
+from answering.generator.llm_client import LLMResponse  # noqa: E402
+from answering.answer import build_app  # noqa: E402
 
 
 GOOD_TEXT = "Water pH shall be not less than 6 [IS 456:2000, Clause 5.4, Page 15]."

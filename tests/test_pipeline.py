@@ -12,10 +12,10 @@ import pytest
 
 from retrieval.types import RetrievedEvidence
 
-from app.generator.context_builder import load_chunk_index
-from app.generator.llm_client import GeneratedAnswer, LLMResponse
-from app.generator.pipeline import QueryResult, run_query
-from app.generator.refusal import REFUSAL_TEXT
+from answering.generator.context_builder import load_chunk_index
+from answering.generator.llm_client import GeneratedAnswer, LLMResponse
+from answering.generator.pipeline import QueryResult, run_query
+from answering.generator.refusal import REFUSAL_TEXT
 
 
 def make_evidence(

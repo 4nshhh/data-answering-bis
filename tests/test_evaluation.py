@@ -198,13 +198,13 @@ def test_benchmark_threshold_defaults_to_calibrated_tau():
     """run_benchmark must refuse on the same sigmoid scale as the API:
     the old -2.0 logit-scale default could never fire."""
     import evaluation.run_benchmark as harness
-    from app.generator.refusal import DEFAULT_THRESHOLD
+    from answering.generator.refusal import DEFAULT_THRESHOLD
 
     assert harness.build_parser().get_default("threshold") == DEFAULT_THRESHOLD == 0.5
 
 
 def _harness_result(answer="Water pH not less than 6 [IS 456:2000, Clause 5.4, Page 15]."):
-    from app.generator.pipeline import CitationOut, QueryResult, RetrievalMeta
+    from answering.generator.pipeline import CitationOut, QueryResult, RetrievalMeta
 
     return QueryResult(
         query="What is the pH?",
@@ -224,7 +224,7 @@ def _harness_result(answer="Water pH not less than 6 [IS 456:2000, Clause 5.4, P
 
 def test_adapt_result_ask_is_exact_backend_response():
     import evaluation.run_benchmark as harness
-    from app.generator.adapters import to_ask_response
+    from answering.generator.adapters import to_ask_response
 
     result = _harness_result()
     assert harness.adapt_result("What is the pH?", "ask", result) == to_ask_response(result)
@@ -232,7 +232,7 @@ def test_adapt_result_ask_is_exact_backend_response():
 
 def test_adapt_result_product_match_is_exact_backend_response():
     import evaluation.run_benchmark as harness
-    from app.generator.adapters import to_match_response
+    from answering.generator.adapters import to_match_response
 
     result = _harness_result()
     assert harness.adapt_result("bulb", "product_match", result) == to_match_response(result, "bulb")

@@ -78,7 +78,7 @@ def test_device_endpoint_without_loaded_models():
     httpx = pytest.importorskip("httpx", reason="fastapi.testclient requires httpx")
     from fastapi.testclient import TestClient
 
-    from app.main import build_app
+    from answering.answer import build_app
 
     application = build_app(chunk_index=None, provider=None)
     with TestClient(application, raise_server_exceptions=False) as client:
