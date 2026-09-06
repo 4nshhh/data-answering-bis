@@ -267,3 +267,34 @@ def test_warmup_ignores_provider_selection(monkeypatch, tmp_path):
     assert calls == [(generator_api.WARMUP_QUERY, 10)]
     assert result == {"chunks": 0, "retriever_loaded": True}
     assert generator_api._shared_provider is None
+
+
+def test_run_query_provider_fallback_uses_build_provider_selection(monkeypatch, tiny_index):
+    """Regression: run_query(provider=None) must follow the configured
+    selection (Gemini default) instead of hardcoding Groq."""
+    from answering.generator.pipeline import run_query
+
+    monkeypatch.setenv("GEMINI_API_KEY", "test-gemini-key")
+    _fake_generate(monkeypatch, GeminiProvider)
+    tele = Telemetry()
+    result = run_query("What is the minimum pH of water per IS 456?",
+                       retrieve_fn=retrieve_ok, chunk_index=tiny_index,
+                       telemetry=tele, mode="ask")
+    assert result.refused is False
+    assert result.answer == GOOD_TEXT
+    assert tele.llm_provider == "gemini"
+
+
+def test_run_query_provider_fallback_honors_explicit_env(monkeypatch, tiny_index):
+    """Regression: run_query(provider=None) with LLM_PROVIDER=groq uses Groq."""
+    from answering.generator.pipeline import run_query
+
+    monkeypatch.setenv("LLM_PROVIDER", "groq")
+    monkeypatch.setenv("GROQ_API_KEY", "test-groq-key")
+    _fake_generate(monkeypatch, GroqProvider)
+    tele = Telemetry()
+    result = run_query("What is the minimum pH of water per IS 456?",
+                       retrieve_fn=retrieve_ok, chunk_index=tiny_index,
+                       telemetry=tele, mode="ask")
+    assert result.refused is False
+    assert tele.llm_provider == "groq"

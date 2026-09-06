@@ -29,7 +29,7 @@ from retrieval.types import RetrievedEvidence
 
 from answering.generator.citations import verify_answer
 from answering.generator.context_builder import BuiltContext, ChunkIndex, ContextBlock, build_context
-from answering.generator.llm_client import GeneratedAnswer, GroqProvider, LLMProvider, generate_answer
+from answering.generator.llm_client import GeneratedAnswer, LLMProvider, build_provider, generate_answer
 from answering.generator.prompts import DEFAULT_MODEL, build_prompt, validate_mode
 from answering.generator.refusal import DEFAULT_THRESHOLD, REFUSAL_TEXT, evaluate_refusal
 from answering.generator.telemetry import Telemetry
@@ -247,10 +247,11 @@ def run_query(
         candidates_k: retrieval candidate window (default 10, frozen).
         retrieve_fn: injectable retrieval entry point (tests pass fakes).
         chunk_index: read-only chunk lookup for enrichment/expansion.
-        provider: LLM backend; a ``GroqProvider`` is built when omitted
-            (requires ``GROQ_API_KEY`` only on the answerable path).
+        provider: LLM backend; ``build_provider()`` selection applies when
+            omitted (Gemini default, Groq fallback — requires the selected
+            provider's ``*_API_KEY`` only on the answerable path).
         model: generation model identifier; defaults to the provider's
-            ``default_model`` (Groq historical default preserved).
+            ``default_model``.
         telemetry: request-scoped counters; a fresh instance is used
             when omitted. Observability only — never affects behavior.
         mode: task mode (``"ask"`` or ``"product_match"``); selects
@@ -309,7 +310,7 @@ def run_query(
         return _refused_result(query.strip(), pre.reason, evidence, elapsed_ms(), telemetry)
 
     if provider is None:
-        provider = GroqProvider()
+        provider = build_provider()
     resolved_model = model or getattr(provider, "default_model", None) or DEFAULT_MODEL
     _t0 = time.perf_counter()
     context = build_context(evidence, chunk_index=chunk_index, top_k=top_k,
